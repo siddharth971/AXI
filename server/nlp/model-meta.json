@@ -1,0 +1,52 @@
+{
+  "type": "NeuralNetwork",
+  "sizes": [
+    179,
+    16,
+    16,
+    14
+  ],
+  "inputLookup": null,
+  "inputLookupLength": 0,
+  "outputLookup": {
+    "greeting": 0,
+    "open_website": 1,
+    "search_website": 2,
+    "search_youtube": 3,
+    "open_youtube": 4,
+    "search_ecommerce": 5,
+    "open_ecommerce": 6,
+    "tell_time": 7,
+    "take_screenshot": 8,
+    "system_shutdown": 9,
+    "system_restart": 10,
+    "open_application": 11,
+    "ai_chat": 12,
+    "ask_which_website": 13
+  },
+  "outputLookupLength": 14,
+  "options": {
+    "inputSize": 0,
+    "outputSize": 0,
+    "binaryThresh": 0.5,
+    "hiddenLayers": [
+      16,
+      16
+    ]
+  },
+  "trainOpts": {
+    "activation": "sigmoid",
+    "iterations": 5000,
+    "errorThresh": 0.005,
+    "log": true,
+    "logPeriod": 500,
+    "leakyReluAlpha": 0.01,
+    "learningRate": 0.3,
+    "momentum": 0.1,
+    "callbackPeriod": 10,
+    "timeout": "Infinity",
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-8
+  }
+}

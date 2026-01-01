@@ -1,0 +1,19 @@
+<div class="axi-container">
+
+  <div class="axi-header">
+    <h1>AXI</h1>
+
+    <div class="status-indicator" [class.listening]="isListening()"></div>
+  </div>
+
+  <div class="transcript-box">
+    <p><strong>You said:</strong> {{ transcript() }}</p>
+    <p><strong>AXI:</strong> {{ response() }}</p>
+  </div>
+
+  <button (click)="toggleListening()" class="mic-button" [class.listening]="isListening()">
+    <span [style.display]="isListening() ? 'none' : ''">🎤 Speak to AXI</span>
+    <span [style.display]="isListening() ? '' : 'none'">🔊 Listening...</span>
+  </button>
+
+</div>

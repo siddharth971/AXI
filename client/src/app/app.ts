@@ -1,12 +1,12 @@
 // client/src/app/app.component.ts
 import { Component } from '@angular/core';
-import { JarvisInterfaceComponent } from './components/jarvis-interface/jarvis-interface.component';
+import { AxiInterfaceComponent } from './components/axi-interface/axi-interface.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [JarvisInterfaceComponent],
-  template: `<main class="app-container"><app-jarvis-interface /></main>`,
+  imports: [AxiInterfaceComponent],
+  template: `<main class="app-container"><app-axi-interface /></main>`,
   styles: [`
     .app-container {
       min-height: 100vh;
@@ -18,4 +18,4 @@ import { JarvisInterfaceComponent } from './components/jarvis-interface/jarvis-i
     }
   `]
 })
-export class App {}
+export class App { }

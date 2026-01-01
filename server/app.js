@@ -23,5 +23,5 @@ app.post("/api/command", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🧠 JARVIS Hybrid NLP running on http://localhost:${PORT}`);
+  console.log(`🧠 AXI Hybrid NLP running on http://localhost:${PORT}`);
 });

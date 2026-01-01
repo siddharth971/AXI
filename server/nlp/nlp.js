@@ -5,7 +5,8 @@ const brain = require("brain.js");
 // -------------------------
 // 1. Safe Model Loading
 // -------------------------
-const modelPath = path.join(__dirname, "model.json");
+const metaPath = path.join(__dirname, "model-meta.json");
+const weightsPath = path.join(__dirname, "model-weights.json");
 const vocabPath = path.join(__dirname, "vocab.json");
 
 let net = new brain.NeuralNetwork();
@@ -13,12 +14,15 @@ let vocab = [];
 let isModelLoaded = false;
 
 try {
-  if (fs.existsSync(modelPath) && fs.existsSync(vocabPath)) {
-    const modelRaw = fs.readFileSync(modelPath, "utf8");
+  if (fs.existsSync(metaPath) && fs.existsSync(weightsPath) && fs.existsSync(vocabPath)) {
+    const metaRaw = fs.readFileSync(metaPath, "utf8");
+    const weightsRaw = fs.readFileSync(weightsPath, "utf8");
     const vocabRaw = fs.readFileSync(vocabPath, "utf8");
 
-    if (modelRaw.trim() && vocabRaw.trim()) {
-      const modelJSON = JSON.parse(modelRaw);
+    if (metaRaw.trim() && weightsRaw.trim() && vocabRaw.trim()) {
+      const meta = JSON.parse(metaRaw);
+      const weights = JSON.parse(weightsRaw);
+      const modelJSON = { ...meta, ...weights };
       vocab = JSON.parse(vocabRaw);
       net.fromJSON(modelJSON);
       isModelLoaded = true;
@@ -46,11 +50,7 @@ function tokenize(text) {
 
 function textToFeatures(text) {
   const tokens = tokenize(text);
-  const features = {};
-  vocab.forEach((word) => {
-    features[word] = tokens.includes(word) ? 1 : 0;
-  });
-  return features;
+  return vocab.map((word) => (tokens.includes(word) ? 1 : 0));
 }
 
 // -------------------------

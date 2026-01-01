@@ -4,10 +4,10 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' }) // ✅ Auto-provided
-export class JarvisService {
+export class AxiService {
   private apiUrl = 'http://localhost:5000/api/command';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   sendCommand(text: string): Observable<{ response: string }> {
     return this.http.post<{ response: string }>(this.apiUrl, { text });

@@ -22,15 +22,15 @@ interface SpeechRecognitionEvent extends Event {
 
 import { Component, OnInit, signal } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
-import { JarvisService } from '../../services/jarvis.service';
+import { AxiService } from '../../services/axi.service';
 
 @Component({
-  selector: 'app-jarvis-interface',
+  selector: 'app-axi-interface',
   standalone: true,
-  templateUrl: './jarvis-interface.component.html',
-  styleUrls: ['./jarvis-interface.component.scss']
+  templateUrl: './axi-interface.component.html',
+  styleUrls: ['./axi-interface.component.scss']
 })
-export class JarvisInterfaceComponent implements OnInit {
+export class AxiInterfaceComponent implements OnInit {
 
   // Signals for UI reactive updates
   isListening = signal(false);
@@ -40,7 +40,7 @@ export class JarvisInterfaceComponent implements OnInit {
   private recognition!: SpeechRecognition;
   private restartTimeout: any;
 
-  constructor(private jarvis: JarvisService) {}
+  constructor(private axi: AxiService) { }
 
   ngOnInit() {
     this.initSpeechRecognition();
@@ -136,12 +136,12 @@ export class JarvisInterfaceComponent implements OnInit {
     this.isListening.set(false);
 
     try {
-      const result = await lastValueFrom(this.jarvis.sendCommand(text));
+      const result = await lastValueFrom(this.axi.sendCommand(text));
 
       this.response.set(result.response);
 
       // Speak response
-      await this.jarvis.speak(result.response);
+      await this.axi.speak(result.response);
 
       // Auto restart listening after speaking
       setTimeout(() => {
