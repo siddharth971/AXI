@@ -1,0 +1,111 @@
+<div class="jarvis-container">
+  <!-- 3D Canvas -->
+  <canvas #canvas3d class="webgl-canvas"></canvas>
+
+  <!-- Loading Indicator -->
+  <div class="loading-overlay" *ngIf="!modelLoaded()">
+    <div class="loading-content">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">INITIALIZING HOLOGRAM</div>
+      <div class="loading-progress">{{ loadingProgress() }}%</div>
+    </div>
+  </div>
+
+  <!-- JARVIS HUD Overlay -->
+  <div class="hud-overlay" *ngIf="modelLoaded()">
+    <!-- Top Left: Date/Time Panel -->
+    <div class="panel top-left">
+      <div class="time-display">{{ currentTime() }}</div>
+      <div class="date-display">{{ getCurrentDate() }}</div>
+      <div class="divider"></div>
+      <div class="stat-row">
+        <span class="label">POWER</span>
+        <div class="progress-bar">
+          <div class="fill power" [style.width.%]="powerLevel()"></div>
+        </div>
+        <span class="value">{{ powerLevel() }}%</span>
+      </div>
+    </div>
+
+    <!-- Top Right: Status Panel -->
+    <div class="panel top-right">
+      <div class="status-indicator" [class.active]="connectionStatus() === 'ONLINE'">
+        <span class="dot"></span>
+        {{ connectionStatus() }}
+      </div>
+      <div class="stat-row">
+        <span class="label">CPU</span>
+        <div class="progress-bar">
+          <div class="fill" [style.width.%]="cpuUsage()"></div>
+        </div>
+        <span class="value">{{ cpuUsage() }}%</span>
+      </div>
+      <div class="stat-row">
+        <span class="label">MEM</span>
+        <div class="progress-bar">
+          <div class="fill" [style.width.%]="memoryUsage()"></div>
+        </div>
+        <span class="value">{{ memoryUsage() }}%</span>
+      </div>
+    </div>
+
+    <!-- Center Header -->
+    <header class="center-header">
+      <h1 class="title" [class.active]="isListening() || isSpeaking()">
+        <span class="bracket">[</span>
+        J.A.R.V.I.S
+        <span class="bracket">]</span>
+      </h1>
+      <div class="subtitle">
+        {{ isListening() ? 'VOICE UPLINK ACTIVE' : isSpeaking() ? 'TRANSMITTING RESPONSE' : 'AWAITING INPUT' }}
+      </div>
+    </header>
+
+    <!-- Left Panel: Transcript -->
+    <div class="panel left-panel" *ngIf="transcript()">
+      <div class="panel-title">// USER INPUT</div>
+      <div class="message-text">{{ transcript() }}</div>
+    </div>
+
+    <!-- Right Panel: Response -->
+    <div class="panel right-panel" *ngIf="response()">
+      <div class="panel-title">// JARVIS RESPONSE</div>
+      <div class="message-text accent">{{ response() }}</div>
+    </div>
+
+    <!-- Bottom Center: Emotion & Controls -->
+    <footer class="bottom-center">
+      <div class="mood-indicator">
+        <span class="mood-label">EMOTIONAL STATE:</span>
+        <span class="mood-value" [attr.data-emotion]="emotion()">{{ emotion().toUpperCase() }}</span>
+      </div>
+
+      <button (click)="toggleListening()" class="action-btn" [class.active]="isListening()">
+        <div class="btn-ring"></div>
+        <div class="btn-inner">
+          <span class="btn-icon">◉</span>
+        </div>
+        <span class="btn-label">{{ isListening() ? 'END' : 'SPEAK' }}</span>
+      </button>
+
+      <div class="volume-indicator">
+        <span class="vol-label">AUDIO LEVEL</span>
+        <div class="vol-bars">
+          <div class="vol-bar" *ngFor="let i of [1,2,3,4,5,6,7,8]" [class.active]="volume() > i * 10"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Corner Decorations -->
+    <div class="corner-decoration top-left-corner"></div>
+    <div class="corner-decoration top-right-corner"></div>
+    <div class="corner-decoration bottom-left-corner"></div>
+    <div class="corner-decoration bottom-right-corner"></div>
+
+    <!-- Floating Data -->
+    <div class="floating-data fd1">SYSTEM_STATUS: NOMINAL</div>
+    <div class="floating-data fd2">NEURAL_LINK: ACTIVE</div>
+    <div class="floating-data fd3">CORE_TEMP: 37.2°C</div>
+    <div class="floating-data fd4">REACTOR: STABLE</div>
+  </div>
+</div>

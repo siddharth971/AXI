@@ -1,20 +1,18 @@
 // client/src/app/app.component.ts
 import { Component } from '@angular/core';
-import { AxiInterfaceComponent } from './components/axi-interface/axi-interface.component';
+import { AxiInterface3DComponent } from './components/axi-interface-3d/axi-interface-3d.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [AxiInterfaceComponent],
-  template: `<main class="app-container"><app-axi-interface /></main>`,
+  imports: [AxiInterface3DComponent],
+  template: `<app-axi-interface-3d />`,
   styles: [`
-    .app-container {
-      min-height: 100vh;
-      background: #020617; /* slate-950 */
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding-top: 2rem;
+    :host {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
     }
   `]
 })
