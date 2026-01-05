@@ -2,7 +2,7 @@
  * AXI Entity Extractor (NER)
  * ---------------------------
  * Named Entity Recognition using compromise.js
- * Extracts: People, Places, Organizations, Dates, URLs, etc.
+ * Extracts: People, Places, Organizations, URLs, etc.
  */
 
 const nlp = require("compromise");
@@ -25,13 +25,10 @@ function extractEntities(text) {
     // Organizations
     organizations: doc.organizations().out("array"),
 
-    // Dates and times
-    dates: doc.dates().out("array"),
-
     // Numbers and values
-    numbers: doc.values().out("array"),
+    numbers: doc.numbers().out("array"),
 
-    // URLs and emails (custom extraction)
+    // URLs (custom extraction)
     urls: extractUrls(text),
 
     // Nouns (potential subjects/objects)
@@ -61,13 +58,20 @@ function extractUrls(text) {
  */
 function getPOSTags(text) {
   const doc = nlp(text);
-  const terms = doc.terms().json();
+  const terms = doc.json();
 
-  return terms.map(term => ({
-    word: term.text,
-    tags: term.tags || [],
-    normal: term.normal || term.text.toLowerCase()
-  }));
+  const result = [];
+  for (const sentence of terms) {
+    for (const term of sentence.terms || []) {
+      result.push({
+        word: term.text,
+        tags: term.tags || [],
+        normal: term.normal || term.text.toLowerCase()
+      });
+    }
+  }
+
+  return result;
 }
 
 /**
@@ -101,12 +105,11 @@ function extractIntentSignals(text) {
   const doc = nlp(text);
 
   return {
-    isQuestion: doc.questions().length > 0,
+    isQuestion: text.includes("?") || getQuestionType(text) !== null,
     questionType: getQuestionType(text),
     isCommand: /^(open|go|show|tell|find|search|play|turn|set|make|create|delete|remove)/i.test(text.trim()),
     hasNegation: doc.has("#Negative"),
-    sentiment: analyzeSentiment(text),
-    topics: doc.topics().out("array")
+    sentiment: analyzeSentiment(text)
   };
 }
 

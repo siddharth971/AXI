@@ -84,56 +84,17 @@ npm run train    # Train the NLP model
 
 ## 🧠 NLP Architecture
 
-The NLP system is a full **Natural Language Understanding (NLU) pipeline**:
+The NLP system is hybrid:
 
-### Pipeline Flow
+1. **Rules Layer** (Fast, Exact)
 
-```
-User Input
-    ↓
-┌─────────────────────────────────────────┐
-│ 1. PREPROCESSING                        │
-│    - Normalization (lowercase, trim)    │
-│    - Tokenization                       │
-│    - Stopword removal (optional)        │
-│    - Lemmatization                      │
-└─────────────────────────────────────────┘
-    ↓
-┌─────────────────────────────────────────┐
-│ 2. ENTITY EXTRACTION (NER)              │
-│    - People, Places, Organizations      │
-│    - Dates, Numbers, URLs               │
-│    - POS Tagging (Nouns, Verbs, etc.)   │
-│    - Sentiment Analysis                 │
-└─────────────────────────────────────────┘
-    ↓
-┌─────────────────────────────────────────┐
-│ 3. RULES LAYER (Fast, Exact)            │
-│    - Regex patterns for commands        │
-│    - Uses extracted entities            │
-└─────────────────────────────────────────┘
-    ↓
-┌─────────────────────────────────────────┐
-│ 4. ML LAYER (Fuzzy, Learning)           │
-│    - Brain.js neural network            │
-│    - Fallback when rules don't match    │
-└─────────────────────────────────────────┘
-    ↓
-Intent + Entities + Confidence
-```
+   - Regex patterns for URLs, domains, keywords
+   - Always checked first
 
-### NLP Files
-
-```
-nlp/
-├── nlp.js              # Main NLP engine
-├── nlu-pipeline.js     # Full NLU orchestrator
-├── preprocessor.js     # Text preprocessing
-├── entity-extractor.js # NER & POS tagging (uses compromise.js)
-├── intent-loader.js    # Loads intent files
-├── train.js            # Model training
-└── intents/            # Training data (split files)
-```
+2. **ML Layer** (Fuzzy, Learning)
+   - Brain.js neural network
+   - Trained on utterance examples
+   - Used when rules don't match
 
 ## 📝 Configuration
 

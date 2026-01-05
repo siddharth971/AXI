@@ -4,7 +4,7 @@
  * Hybrid NLP system combining:
  * 
  * 1. NLU Pipeline (preprocessing, NER, POS tagging)
- * 2. Rule-based pattern matching (fast, exact)
+ * 2. Rule-based pattern matching (loaded recursively)
  * 3. Machine Learning (brain.js neural network)
  */
 
@@ -12,6 +12,7 @@ const fs = require("fs");
 const path = require("path");
 const brain = require("brain.js");
 const nluPipeline = require("./nlu-pipeline");
+const { loadAllRules } = require("./rule-loader");
 const { logger } = require("../utils");
 
 // ===========================
@@ -27,6 +28,7 @@ let net = new brain.NeuralNetwork();
 let vocab = [];
 let intentList = [];
 let isModelLoaded = false;
+let rules = [];
 
 function loadModel() {
   try {
@@ -49,7 +51,18 @@ function loadModel() {
   }
 }
 
+function loadRules() {
+  try {
+    rules = loadAllRules();
+  } catch (error) {
+    logger.error("Failed to load rules", error.message);
+    rules = [];
+  }
+}
+
+// Load on startup
 loadModel();
+loadRules();
 
 // ===========================
 // Feature Extraction
@@ -73,58 +86,20 @@ function textToFeatures(text) {
 }
 
 // ===========================
-// Rule-Based Layer
+// Rule-Based Layer (Dynamic)
 // ===========================
 
 function rulesLayer(text, nlu) {
-  const msg = text.toLowerCase().trim();
-  const { entities, signals } = nlu;
-
-  // 1. YouTube Search
-  if (entities.searchQuery && /youtube/.test(msg)) {
-    return {
-      intent: "search_youtube",
-      confidence: 1,
-      entities: { query: entities.searchQuery }
-    };
-  }
-
-  // 2. Ask which website
-  if (msg === "open website" || msg === "visit website" || msg === "open a website") {
-    return { intent: "ask_which_website", confidence: 1, entities: {} };
-  }
-
-  // 3. Open website
-  if (entities.website && signals.isCommand) {
-    if (entities.website === "youtube") {
-      return { intent: "open_youtube", confidence: 1, entities: {} };
+  // Run all loaded rules
+  for (const rule of rules) {
+    try {
+      const result = rule.fn(text, nlu);
+      if (result) {
+        return result;
+      }
+    } catch (err) {
+      // Skip failed rules silently
     }
-    return { intent: "open_website", confidence: 1, entities: { url: entities.website } };
-  }
-
-  // 4. URL detection
-  if (entities.urls && entities.urls.length > 0) {
-    return { intent: "open_website", confidence: 1, entities: { url: entities.urls[0] } };
-  }
-
-  // 5-10. Keyword rules
-  if (/weather|raining|temperature|forecast/.test(msg)) {
-    return { intent: "weather_check", confidence: 1, entities: {} };
-  }
-  if (/joke|funny|laugh/.test(msg)) {
-    return { intent: "tell_joke", confidence: 1, entities: {} };
-  }
-  if (/news|headlines/.test(msg)) {
-    return { intent: "news_update", confidence: 1, entities: {} };
-  }
-  if (/music|song|player|volume|track/.test(msg)) {
-    return { intent: "music_control", confidence: 1, entities: {} };
-  }
-  if (/what time|tell.+time|current time/.test(msg)) {
-    return { intent: "tell_time", confidence: 1, entities: {} };
-  }
-  if (/screenshot|capture|screen.?shot/.test(msg)) {
-    return { intent: "take_screenshot", confidence: 1, entities: {} };
   }
 
   return null;
@@ -175,5 +150,9 @@ module.exports = {
 
   reloadModel() {
     loadModel();
+  },
+
+  reloadRules() {
+    loadRules();
   }
 };
