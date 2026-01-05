@@ -280,6 +280,66 @@
   align-items: center;
   gap: 40px;
   pointer-events: auto;
+  z-index: 20; // Ensure it's above other elements if needed
+}
+
+.manual-input-container {
+  position: absolute;
+  bottom: 120px; // Positioned above the button footer
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  pointer-events: auto;
+  z-index: 20;
+
+  .command-input {
+    flex: 1;
+    background: rgba(0, 20, 30, 0.9);
+    border: 1px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    padding: 10px 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s;
+    backdrop-filter: blur(5px);
+
+    &::placeholder {
+      color: rgba(0, 243, 255, 0.3);
+    }
+
+    &:focus {
+      box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+      border-color: var(--neon-green);
+    }
+  }
+
+  .send-btn {
+    background: rgba(0, 243, 255, 0.1);
+    border: 1px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    padding: 0 20px;
+    font-family: 'Orbitron', monospace;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+
+    &:hover {
+      background: var(--neon-cyan);
+      color: #000;
+      box-shadow: 0 0 15px var(--neon-cyan);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
 }
 
 .mood-indicator,

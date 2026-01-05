@@ -668,6 +668,12 @@ export class AxiInterface3DComponent implements OnInit, AfterViewInit, OnDestroy
     else this.startListening();
   }
 
+  sendManualCommand(text: string) {
+    if (!text.trim()) return;
+    this.transcript.set(text); // Show in transcript UI
+    this.handleCommand(text);
+  }
+
   private startListening() {
     this.isListening.set(true);
     this.transcript.set('Listening…');

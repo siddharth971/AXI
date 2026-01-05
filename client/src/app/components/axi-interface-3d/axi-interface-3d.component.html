@@ -96,6 +96,13 @@
       </div>
     </footer>
 
+    <!-- Manual Input -->
+    <div class="manual-input-container">
+      <input #cmdInput type="text" class="command-input" placeholder="ENTER COMMAND..."
+        (keyup.enter)="sendManualCommand(cmdInput.value); cmdInput.value=''">
+      <button class="send-btn" (click)="sendManualCommand(cmdInput.value); cmdInput.value=''">SEND</button>
+    </div>
+
     <!-- Corner Decorations -->
     <div class="corner-decoration top-left-corner"></div>
     <div class="corner-decoration top-right-corner"></div>

@@ -1,0 +1,52 @@
+[
+  {
+    "intent": "weather_check",
+    "utterances": [
+      "what is the weather",
+      "how is the weather",
+      "weather today",
+      "tell me the weather",
+      "is it raining",
+      "temperature today",
+      "weather forecast",
+      "check weather"
+    ]
+  },
+  {
+    "intent": "tell_joke",
+    "utterances": [
+      "tell me a joke",
+      "say something funny",
+      "know any jokes",
+      "make me laugh",
+      "joke please",
+      "crack a joke"
+    ]
+  },
+  {
+    "intent": "news_update",
+    "utterances": [
+      "what is the news",
+      "tell me the news",
+      "latest headlines",
+      "news update",
+      "what is happening today",
+      "read the news"
+    ]
+  },
+  {
+    "intent": "music_control",
+    "utterances": [
+      "play some music",
+      "play songs",
+      "stop music",
+      "pause music",
+      "next song",
+      "change track",
+      "volume up",
+      "volume down",
+      "play musix",
+      "play music please"
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "intent": "open_website",
+    "utterances": [
+      "open website google.com",
+      "open google",
+      "go to google",
+      "go to google.com",
+      "visit google.com",
+      "open the google website",
+      "open the website google",
+      "axi open google",
+      "please open google",
+      "can you open google",
+      "open chrome and go to google",
+      "go google",
+      "visit google",
+      "browse google",
+      "open website amazon.in",
+      "visit amazon",
+      "open amazon",
+      "go to amazon website",
+      "open site flipkart",
+      "open flipkart website",
+      "go to flipkart.com",
+      "visit flipkart",
+      "open facebook",
+      "open instagram",
+      "open twitter",
+      "go to github"
+    ]
+  },
+  {
+    "intent": "ask_which_website",
+    "utterances": [
+      "open website",
+      "open a website",
+      "please open a website",
+      "i want to open a website",
+      "can you open a website"
+    ]
+  },
+  {
+    "intent": "open_youtube",
+    "utterances": [
+      "open youtube",
+      "go to youtube",
+      "youtube open",
+      "axi open youtube",
+      "open the youtube website",
+      "visit youtube",
+      "launch youtube",
+      "can you open youtube",
+      "please open youtube"
+    ]
+  },
+  {
+    "intent": "search_youtube",
+    "utterances": [
+      "search youtube for music",
+      "play song on youtube",
+      "search youtube for tech reviews",
+      "look up funny videos on youtube",
+      "find coding tutorials on youtube",
+      "search on youtube",
+      "youtube search cooking videos",
+      "show me travel vlogs on youtube",
+      "search youtube for songs",
+      "search youtube for coding tutorial",
+      "find youtube video for music"
+    ]
+  }
+]

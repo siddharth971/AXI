@@ -1,45 +1,60 @@
+/**
+ * AXI NLP Engine
+ * ---------------
+ * Hybrid NLP system combining:
+ * 
+ * 1. NLU Pipeline (preprocessing, NER, POS tagging)
+ * 2. Rule-based pattern matching (fast, exact)
+ * 3. Machine Learning (brain.js neural network)
+ */
+
 const fs = require("fs");
 const path = require("path");
 const brain = require("brain.js");
+const nluPipeline = require("./nlu-pipeline");
+const { logger } = require("../utils");
 
-// -------------------------
-// 1. Safe Model Loading
-// -------------------------
-const metaPath = path.join(__dirname, "model-meta.json");
-const weightsPath = path.join(__dirname, "model-weights.json");
-const vocabPath = path.join(__dirname, "vocab.json");
+// ===========================
+// Model Loading
+// ===========================
+
+const MODEL_PATH = {
+  model: path.join(__dirname, "model.json"),
+  vocab: path.join(__dirname, "vocab.json")
+};
 
 let net = new brain.NeuralNetwork();
 let vocab = [];
+let intentList = [];
 let isModelLoaded = false;
 
-try {
-  if (fs.existsSync(metaPath) && fs.existsSync(weightsPath) && fs.existsSync(vocabPath)) {
-    const metaRaw = fs.readFileSync(metaPath, "utf8");
-    const weightsRaw = fs.readFileSync(weightsPath, "utf8");
-    const vocabRaw = fs.readFileSync(vocabPath, "utf8");
-
-    if (metaRaw.trim() && weightsRaw.trim() && vocabRaw.trim()) {
-      const meta = JSON.parse(metaRaw);
-      const weights = JSON.parse(weightsRaw);
-      const modelJSON = { ...meta, ...weights };
-      vocab = JSON.parse(vocabRaw);
-      net.fromJSON(modelJSON);
-      isModelLoaded = true;
-      console.log("✅ Brain.js model loaded successfully.");
-    } else {
-      console.log("⚠️ Model files empty. Run 'node nlp/train.js'");
+function loadModel() {
+  try {
+    if (!fs.existsSync(MODEL_PATH.model) || !fs.existsSync(MODEL_PATH.vocab)) {
+      logger.warn("NLP model files not found. Run 'npm run train'");
+      return;
     }
-  } else {
-    console.log("⚠️ No model found. Using Rules-Only Mode.");
+
+    const model = JSON.parse(fs.readFileSync(MODEL_PATH.model, "utf8"));
+    const vocabData = JSON.parse(fs.readFileSync(MODEL_PATH.vocab, "utf8"));
+
+    vocab = vocabData.vocab;
+    intentList = vocabData.intents;
+
+    net.fromJSON(model);
+    isModelLoaded = true;
+    logger.success("Brain.js model loaded successfully");
+  } catch (error) {
+    logger.error("Failed to load NLP model", error.message);
   }
-} catch (err) {
-  console.log("❌ Error loading model:", err.message);
 }
 
-// -------------------------
-// 2. Helpers
-// -------------------------
+loadModel();
+
+// ===========================
+// Feature Extraction
+// ===========================
+
 function tokenize(text) {
   return text
     .toLowerCase()
@@ -50,63 +65,75 @@ function tokenize(text) {
 
 function textToFeatures(text) {
   const tokens = tokenize(text);
-  return vocab.map((word) => (tokens.includes(word) ? 1 : 0));
+  const features = {};
+  vocab.forEach((word, i) => {
+    features[`w${i}`] = tokens.includes(word) ? 1 : 0;
+  });
+  return features;
 }
 
-// -------------------------
-// 3. RULE-BASED NLP (Exact matches)
-// -------------------------
-function rulesLayer(text) {
-  const msg = text.toLowerCase().trim();
+// ===========================
+// Rule-Based Layer
+// ===========================
 
-  // --- 1. YouTube Search ---
-  const ytMatch = msg.match(/search (?:youtube|you tube) for (.+)/i);
-  if (ytMatch) {
+function rulesLayer(text, nlu) {
+  const msg = text.toLowerCase().trim();
+  const { entities, signals } = nlu;
+
+  // 1. YouTube Search
+  if (entities.searchQuery && /youtube/.test(msg)) {
     return {
       intent: "search_youtube",
       confidence: 1,
-      entities: { query: ytMatch[1].trim() }
+      entities: { query: entities.searchQuery }
     };
   }
 
-  // --- 2. Open website with domain ---
-  const urlMatch = msg.match(
-    /(?:open|visit|go to|open website)\s+(https?:\/\/)?([a-z0-9\.-]+\.[a-z]{2,})/i
-  );
-  if (urlMatch) {
-    return {
-      intent: "open_website",
-      confidence: 1,
-      entities: { url: "https://" + urlMatch[2] }
-    };
+  // 2. Ask which website
+  if (msg === "open website" || msg === "visit website" || msg === "open a website") {
+    return { intent: "ask_which_website", confidence: 1, entities: {} };
   }
 
-  // --- 3. Ask which website ---
-  if (msg === "open website" || msg === "visit website") {
-    return {
-      intent: "ask_which_website",
-      confidence: 1,
-      entities: {}
-    };
+  // 3. Open website
+  if (entities.website && signals.isCommand) {
+    if (entities.website === "youtube") {
+      return { intent: "open_youtube", confidence: 1, entities: {} };
+    }
+    return { intent: "open_website", confidence: 1, entities: { url: entities.website } };
   }
 
-  // --- 4. Domain-only detection ---
-  const domainOnly = msg.match(/^([a-z0-9\.-]+\.[a-z]{2,})$/i);
-  if (domainOnly) {
-    return {
-      intent: "open_website",
-      confidence: 1,
-      entities: { url: "https://" + domainOnly[1] }
-    };
+  // 4. URL detection
+  if (entities.urls && entities.urls.length > 0) {
+    return { intent: "open_website", confidence: 1, entities: { url: entities.urls[0] } };
+  }
+
+  // 5-10. Keyword rules
+  if (/weather|raining|temperature|forecast/.test(msg)) {
+    return { intent: "weather_check", confidence: 1, entities: {} };
+  }
+  if (/joke|funny|laugh/.test(msg)) {
+    return { intent: "tell_joke", confidence: 1, entities: {} };
+  }
+  if (/news|headlines/.test(msg)) {
+    return { intent: "news_update", confidence: 1, entities: {} };
+  }
+  if (/music|song|player|volume|track/.test(msg)) {
+    return { intent: "music_control", confidence: 1, entities: {} };
+  }
+  if (/what time|tell.+time|current time/.test(msg)) {
+    return { intent: "tell_time", confidence: 1, entities: {} };
+  }
+  if (/screenshot|capture|screen.?shot/.test(msg)) {
+    return { intent: "take_screenshot", confidence: 1, entities: {} };
   }
 
   return null;
 }
 
+// ===========================
+// ML Layer
+// ===========================
 
-// -------------------------
-// 4. ML NLP Layer (brain.js)
-// -------------------------
 function mlLayer(text) {
   if (!isModelLoaded || vocab.length === 0) {
     return { intent: "none", confidence: 0, entities: {} };
@@ -117,30 +144,36 @@ function mlLayer(text) {
   let bestIntent = "none";
   let bestScore = 0;
 
-  Object.keys(output).forEach((intent) => {
+  Object.keys(output).forEach(intent => {
     if (output[intent] > bestScore) {
       bestScore = output[intent];
       bestIntent = intent;
     }
   });
 
-  return {
-    intent: bestIntent,
-    confidence: bestScore,
-    entities: {}
-  };
+  return { intent: bestIntent, confidence: bestScore, entities: {} };
 }
 
-// -------------------------
-// 5. Main NLP Export
-// -------------------------
+// ===========================
+// Main Export
+// ===========================
+
 module.exports = {
   interpret(text) {
-    // 1) Try RULES first
-    const rule = rulesLayer(text);
-    if (rule) return rule;
+    const nlu = nluPipeline.process(text);
 
-    // 2) Try ML next
-    return mlLayer(text);
+    const rule = rulesLayer(text, nlu);
+    if (rule) return { ...rule, nlu };
+
+    const ml = mlLayer(text);
+    return { ...ml, nlu };
+  },
+
+  debug(text) {
+    return nluPipeline.debug(text);
+  },
+
+  reloadModel() {
+    loadModel();
   }
 };

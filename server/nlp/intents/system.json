@@ -1,0 +1,69 @@
+[
+  {
+    "intent": "take_screenshot",
+    "utterances": [
+      "take a screenshot",
+      "capture screen",
+      "screenshot please",
+      "take screenshot",
+      "capture my desktop",
+      "save screenshot",
+      "snap the screen",
+      "take a snap of my screen",
+      "screen capture",
+      "take full screenshot"
+    ]
+  },
+  {
+    "intent": "system_shutdown",
+    "utterances": [
+      "shutdown the system",
+      "turn off my pc",
+      "power off the computer",
+      "shut down computer",
+      "shutdown now",
+      "turn off system",
+      "axi shut down"
+    ]
+  },
+  {
+    "intent": "system_restart",
+    "utterances": [
+      "restart my computer",
+      "reboot system",
+      "axi restart pc",
+      "please restart",
+      "restart the computer",
+      "reboot my system"
+    ]
+  },
+  {
+    "intent": "open_application",
+    "utterances": [
+      "open notepad",
+      "start chrome",
+      "open calculator",
+      "launch vscode",
+      "start visual studio code",
+      "open whatsapp web",
+      "open file explorer",
+      "launch settings",
+      "open command prompt",
+      "open terminal"
+    ]
+  },
+  {
+    "intent": "tell_time",
+    "utterances": [
+      "what is the time",
+      "tell me the time",
+      "current time",
+      "time please",
+      "axi time",
+      "what time is it now",
+      "give me the time",
+      "tell time",
+      "time right now"
+    ]
+  }
+]
