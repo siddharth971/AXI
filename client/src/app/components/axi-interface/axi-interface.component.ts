@@ -261,4 +261,12 @@ export class AxiInterfaceComponent implements OnInit {
       this.isSpeaking.set(false);
     }
   }
+
+  // ------------------------------------------------------------
+  // Helper to get current time for messages
+  // ------------------------------------------------------------
+  getCurrentTime(): string {
+    const now = new Date();
+    return now.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+  }
 }

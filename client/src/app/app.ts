@@ -1,5 +1,8 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+import { firstValueFrom } from 'rxjs';
 import { AxiOrbComponent } from './components/core/axi-orb.component';
 import { CommandHistoryComponent } from './components/chat/command-history.component';
 import { SkillContextComponent } from './components/skills/skill-context.component';
@@ -11,6 +14,7 @@ import { LucideAngularModule } from 'lucide-angular';
   standalone: true,
   imports: [
     CommonModule,
+    FormsModule,
     LucideAngularModule,
     AxiOrbComponent,
     CommandHistoryComponent,
@@ -49,41 +53,126 @@ import { LucideAngularModule } from 'lucide-angular';
 
       <!-- Main Content Area -->
       <main class="main-content">
-        <!-- Left Panel: Recent Command History -->
+        <!-- Left Panel: Your Chats (ChatGPT-style) -->
         <aside class="panel panel-left">
-          <div class="panel-glass">
-            <div class="panel-header">
-              <lucide-icon name="clock" class="panel-icon"></lucide-icon>
-              <span class="panel-title">Recent Command History</span>
+          <div class="panel-glass sessions-container">
+            <div class="sessions-header">
+              <div class="header-title">Your chats</div>
+              <button class="new-chat-btn" (click)="createNewSession()">
+                <lucide-icon name="plus" class="btn-icon"></lucide-icon>
+              </button>
             </div>
-            <div class="command-list">
-              @for (cmd of commandHistory; track cmd.id) {
-                <div class="command-item">
-                  <lucide-icon [name]="cmd.icon" class="command-icon"></lucide-icon>
-                  <span class="command-text">{{ cmd.text }}</span>
+            <div class="sessions-list">
+              @for (session of sessions(); track session.id) {
+                <div class="session-item" 
+                     [class.active]="session.id === activeSessionId()"
+                     (click)="selectSession(session.id)">
+                  <span class="session-title">{{ session.title }}</span>
+                  <button class="session-delete-btn" (click)="deleteSession($event, session.id)">
+                    <lucide-icon name="trash-2" class="delete-icon"></lucide-icon>
+                  </button>
                 </div>
               }
-              @if (commandHistory.length === 0) {
-                <div class="empty-state">
-                  <lucide-icon name="message-square" class="empty-icon"></lucide-icon>
-                  <span>No commands yet</span>
+              @if (sessions().length === 0) {
+                <div class="empty-sessions-state">
+                  <lucide-icon name="message-circle" class="empty-icon"></lucide-icon>
+                  <span class="empty-text">No chats yet</span>
+                  <span class="empty-subtext">Start a new conversation</span>
                 </div>
               }
             </div>
           </div>
         </aside>
 
-        <!-- Center: Orb Visualizer -->
-        <section class="orb-section">
-          <div class="orb-wrapper">
-            <app-axi-orb />
+        <!-- Center: Chat Messages & Orb -->
+        <section class="center-section">
+          <!-- Chat Messages Area -->
+          <div class="chat-area">
+            <div class="chat-messages-wrapper">
+              <!-- Typing Indicator -->
+              @if (state() === 'thinking' || state() === 'speaking') {
+                <div class="typing-indicator-container">
+                  <div class="chat-message axi-message">
+                    <div class="message-avatar axi-avatar">
+                      <lucide-icon name="bot" class="avatar-icon"></lucide-icon>
+                    </div>
+                    <div class="message-content">
+                      <div class="message-header">
+                        <span class="message-sender">AXI</span>
+                      </div>
+                      <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              }
+              
+              @for (cmd of commands(); track cmd.timestamp) {
+                <div class="chat-message-group">
+                  <!-- User Message -->
+                  <div class="chat-message user-message">
+                    <div class="message-avatar user-avatar">
+                      <lucide-icon name="user" class="avatar-icon"></lucide-icon>
+                    </div>
+                    <div class="message-content">
+                      <div class="message-header">
+                        <span class="message-sender">You</span>
+                      </div>
+                      <div class="message-bubble user-bubble">
+                        {{ cmd.text }}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- AXI Response -->
+                  <div class="chat-message axi-message">
+                    <div class="message-avatar axi-avatar">
+                      <lucide-icon name="bot" class="avatar-icon"></lucide-icon>
+                    </div>
+                    <div class="message-content">
+                      <div class="message-header">
+                        <span class="message-sender">AXI</span>
+                      </div>
+                      <div class="message-bubble axi-bubble">
+                        {{ cmd.response }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              }
+              @if (commands().length === 0 && state() !== 'thinking' && state() !== 'speaking') {
+                <div class="empty-chat-state">
+                  <lucide-icon name="message-circle" class="empty-icon"></lucide-icon>
+                  <span class="empty-text">Start a conversation</span>
+                  <span class="empty-subtext">Type a message or use voice</span>
+                </div>
+              }
+            </div>
           </div>
-          
-          <!-- Status text below orb -->
-          <div class="status-text" [class.visible]="state() !== 'idle'">
-            <p class="state-label">
-              {{ state() === 'listening' ? 'Listening...' : (state() === 'thinking' ? 'Processing...' : state() === 'speaking' ? 'Speaking...' : '') }}
-            </p>
+
+          <!-- Orb Section -->
+          <div class="orb-section">
+            <div class="orb-wrapper">
+              <app-axi-orb />
+            </div>
+            
+            <!-- Status text below orb -->
+            <div class="status-text" [class.visible]="state() !== 'idle'">
+              <p class="state-label">
+                {{ state() === 'listening' ? 'Listening...' : (state() === 'thinking' ? 'Processing...' : state() === 'speaking' ? 'Speaking...' : '') }}
+              </p>
+            </div>
+            
+            <!-- Response text display below orb -->
+            <div class="response-container" [class.visible]="lastResponse()">
+              <div class="response-bubble">
+                <lucide-icon name="bot" class="response-icon"></lucide-icon>
+                <p class="response-text">{{ lastResponse() }}</p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -118,18 +207,31 @@ import { LucideAngularModule } from 'lucide-angular';
         </aside>
       </main>
 
-      <!-- Bottom: Status Bar -->
+      <!-- Bottom: Command Input Bar -->
       <footer class="footer">
         <div class="status-bar">
-          <div class="transcript-display" [class.visible]="lastTranscript()">
-            <lucide-icon name="quote" class="quote-icon"></lucide-icon>
-            <span class="transcript-text">{{ lastTranscript() || 'Click the orb to start speaking' }}</span>
+          <div class="command-input-wrapper">
+            <input 
+              type="text" 
+              class="command-input"
+              [(ngModel)]="commandInput"
+              [placeholder]="state() === 'listening' ? (lastTranscript() || 'Listening...') : 'Type a command or click the orb to speak'"
+              (keyup.enter)="submitCommand()"
+              [disabled]="state() === 'thinking' || state() === 'speaking'"
+            />
+            <button 
+              class="send-btn" 
+              (click)="submitCommand()" 
+              [disabled]="!commandInput.trim() || state() === 'thinking' || state() === 'speaking'"
+            >
+              <lucide-icon name="send" class="send-icon"></lucide-icon>
+            </button>
           </div>
           
           <div class="footer-actions">
             <div class="state-indicator" [class.active]="state() !== 'idle'">
               <span class="indicator-dot" [class.listening]="state() === 'listening'" [class.thinking]="state() === 'thinking'" [class.speaking]="state() === 'speaking'"></span>
-              <span class="indicator-text">{{ state() === 'idle' ? 'Ready' : (state() === 'listening' ? 'Listening' : state() === 'thinking' ? 'Processing' : 'Speaking') }}</span>
+              <span class="indicator-text">{{ state() === 'idle' ? 'READY' : (state() === 'listening' ? 'LISTENING' : state() === 'thinking' ? 'PROCESSING' : 'SPEAKING') }}</span>
             </div>
           </div>
         </div>
@@ -335,98 +437,348 @@ import { LucideAngularModule } from 'lucide-angular';
       min-height: 0;
     }
 
-    /* Panels */
+    /* Panel */
     .panel {
-      width: 280px;
+      width: 260px;
       flex-shrink: 0;
       z-index: 5;
     }
 
     .panel-glass {
-      background: rgba(255, 255, 255, 0.03);
+      background: rgba(0, 0, 0, 0.4);
       backdrop-filter: blur(20px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 16px;
-      padding: 1.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
       height: 100%;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
 
-    .panel-header {
+    /* Sessions Header (ChatGPT-style) */
+    .sessions-header {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 1.25rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .panel-icon {
-      width: 18px;
-      height: 18px;
-      color: #06b6d4;
-    }
-
-    .panel-title {
-      font-size: 0.8rem;
+    .header-title {
+      font-size: 0.75rem;
       font-weight: 600;
-      color: rgba(255, 255, 255, 0.8);
-      letter-spacing: 0.02em;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
-    /* Command List */
-    .command-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      flex: 1;
-      overflow-y: auto;
-    }
-
-    .command-item {
+    .new-chat-btn {
+      width: 28px;
+      height: 28px;
       display: flex;
       align-items: center;
-      gap: 0.75rem;
-      padding: 0.75rem;
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 10px;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      color: rgba(255, 255, 255, 0.7);
       cursor: pointer;
       transition: all 0.2s ease;
     }
 
-    .command-item:hover {
-      background: rgba(6, 182, 212, 0.1);
-      border-color: rgba(6, 182, 212, 0.2);
+    .new-chat-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
     }
 
-    .command-icon {
-      width: 18px;
-      height: 18px;
-      color: #06b6d4;
+    .btn-icon {
+      width: 14px;
+      height: 14px;
     }
 
-    .command-text {
+    /* Sessions List (ChatGPT-style) */
+    .sessions-list {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.5rem;
+    }
+
+    .session-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      padding: 0.65rem 0.75rem;
+      background: transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      position: relative;
+      margin-bottom: 2px;
+    }
+
+    .session-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .session-item.active {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .session-title {
+      flex: 1;
       font-size: 0.85rem;
+      font-weight: 400;
       color: rgba(255, 255, 255, 0.85);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
-    .empty-state {
+    .session-item.active .session-title {
+      color: white;
+    }
+
+    .session-delete-btn {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      border-radius: 4px;
+      color: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      opacity: 0;
+      transition: all 0.15s ease;
+    }
+
+    .session-item:hover .session-delete-btn {
+      opacity: 1;
+    }
+
+    .session-delete-btn:hover {
+      background: rgba(239, 68, 68, 0.15);
+      color: #ef4444;
+    }
+
+    .delete-icon {
+      width: 13px;
+      height: 13px;
+    }
+
+    .empty-sessions-state {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 0.5rem;
-      padding: 2rem;
+      gap: 0.75rem;
+      padding: 3rem 1rem;
+      text-align: center;
       color: rgba(255, 255, 255, 0.3);
-      font-size: 0.8rem;
+    }
+
+    /* Center Section */
+    .center-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      min-width: 0;
+    }
+
+    .chat-area {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 1.5rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-messages-wrapper {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+      padding-right: 0.5rem;
+    }
+
+    /* Panel & Chat Container */
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    /* Chat Messages */
+    .chat-messages {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 0.5rem 1rem 0;
+    }
+
+    .chat-message-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .chat-message {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+    }
+
+    /* Message Avatars */
+    .message-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .user-avatar {
+      background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+    }
+
+    .axi-avatar {
+      background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+    }
+
+    .avatar-icon {
+      width: 18px;
+      height: 18px;
+      color: white;
+    }
+
+    /* Message Content */
+    .message-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .message-header {
+      margin-bottom: 0.35rem;
+    }
+
+    .message-sender {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.7);
+      letter-spacing: 0.02em;
+    }
+
+    .message-bubble {
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.95);
+      word-wrap: break-word;
+      animation: messageSlideIn 0.3s ease;
+    }
+
+    @keyframes messageSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .user-bubble {
+      background: rgba(6, 182, 212, 0.15);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+
+    .axi-bubble {
+      background: rgba(147, 51, 234, 0.12);
+      border: 1px solid rgba(147, 51, 234, 0.25);
+    }
+
+    /* Empty Chat State */
+    .empty-chat-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 3rem 1rem;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.3);
     }
 
     .empty-icon {
-      width: 32px;
-      height: 32px;
-      opacity: 0.5;
+      width: 48px;
+      height: 48px;
+      opacity: 0.4;
+    }
+
+    .empty-text {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .empty-subtext {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Typing Indicator */
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 1rem 1.25rem;
+      background: rgba(147, 51, 234, 0.12);
+      border: 1px solid rgba(147, 51, 234, 0.25);
+      border-radius: 12px;
+      width: fit-content;
+    }
+
+    .typing-indicator span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #9333ea;
+      animation: typingDot 1.4s infinite;
+    }
+
+    .typing-indicator span:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-indicator span:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes typingDot {
+      0%, 60%, 100% {
+        transform: translateY(0);
+        opacity: 0.7;
+      }
+      30% {
+        transform: translateY(-10px);
+        opacity: 1;
+      }
     }
 
     /* Context Cards */
@@ -497,12 +849,12 @@ import { LucideAngularModule } from 'lucide-angular';
 
     /* Orb Section */
     .orb-section {
-      flex: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       position: relative;
+      min-height: 300px;
     }
 
     .orb-wrapper {
@@ -529,6 +881,59 @@ import { LucideAngularModule } from 'lucide-angular';
       margin: 0;
     }
 
+    /* Response Container - Shows AXI response below orb */
+    .response-container {
+      margin-top: 1.5rem;
+      max-width: 500px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.4s ease;
+    }
+
+    .response-container.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .response-bubble {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 1rem 1.25rem;
+      background: rgba(147, 51, 234, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(147, 51, 234, 0.2);
+      border-left: 3px solid #9333ea;
+      border-radius: 12px;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .response-icon {
+      width: 20px;
+      height: 20px;
+      color: #9333ea;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .response-text {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.5;
+      margin: 0;
+    }
+
     /* Footer */
     .footer {
       padding: 1.5rem 2rem 2rem;
@@ -550,31 +955,69 @@ import { LucideAngularModule } from 'lucide-angular';
       border-radius: 12px;
     }
 
-    .transcript-display {
+    .command-input-wrapper {
       display: flex;
       align-items: center;
       gap: 0.75rem;
-      opacity: 0.6;
-      transition: opacity 0.3s ease;
+      flex: 1;
+      max-width: 600px;
     }
 
-    .transcript-display.visible {
-      opacity: 1;
-    }
-
-    .quote-icon {
-      width: 16px;
-      height: 16px;
-      color: rgba(6, 182, 212, 0.6);
-    }
-
-    .transcript-text {
+    .command-input {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
       font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.7);
-      max-width: 500px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      color: white;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .command-input::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .command-input:focus {
+      border-color: rgba(6, 182, 212, 0.5);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 12px rgba(6, 182, 212, 0.15);
+    }
+
+    .command-input:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .send-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(6, 182, 212, 0.15);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      border-radius: 8px;
+      color: #06b6d4;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .send-btn:hover:not(:disabled) {
+      background: rgba(6, 182, 212, 0.25);
+      transform: scale(1.05);
+    }
+
+    .send-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .send-icon {
+      width: 18px;
+      height: 18px;
     }
 
     .footer-actions {
@@ -672,13 +1115,127 @@ import { LucideAngularModule } from 'lucide-angular';
 })
 export class App {
   private voiceService = inject(VoiceService);
+  private http = inject(HttpClient);
+
   state = this.voiceService.state;
   lastTranscript = this.voiceService.lastTranscript;
+  lastResponse = this.voiceService.lastResponse;
+  commands = this.voiceService.commands;
 
-  // Sample command history data
-  commandHistory = [
-    { id: 1, icon: 'globe', text: 'Open YouTube' },
-    { id: 2, icon: 'volume-2', text: 'Set volume to 50%' },
-    { id: 3, icon: 'tv', text: "What's the weather?" }
-  ];
+  // Sessions
+  sessions = signal<any[]>([]);
+  activeSessionId = signal<string | null>(null);
+
+  // Command input field
+  commandInput = '';
+
+  constructor() {
+    this.loadSessions();
+  }
+
+  async loadSessions() {
+    try {
+      const response = await firstValueFrom(
+        this.http.get<{ sessions: any[]; currentSessionId: string }>('http://localhost:5000/api/sessions')
+      );
+      this.sessions.set(response.sessions);
+      this.activeSessionId.set(response.currentSessionId);
+
+      // Load messages for current session
+      if (response.currentSessionId) {
+        await this.loadSessionMessages(response.currentSessionId);
+      }
+    } catch (error) {
+      console.error('Failed to load sessions:', error);
+    }
+  }
+
+  async loadSessionMessages(sessionId: string) {
+    try {
+      const response = await firstValueFrom(
+        this.http.get<{ session: any }>(`http://localhost:5000/api/sessions/${sessionId}`)
+      );
+
+      // Map session messages to commands format
+      const messages = response.session.messages.map((msg: any) => ({
+        text: msg.userInput,
+        response: msg.aiResponse,
+        timestamp: new Date(msg.timestamp)
+      }));
+
+      this.voiceService.commands.set(messages);
+    } catch (error) {
+      console.error('Failed to load session messages:', error);
+    }
+  }
+
+  async createNewSession() {
+    try {
+      const response = await firstValueFrom(
+        this.http.post<{ session: any }>('http://localhost:5000/api/sessions', {})
+      );
+
+      await this.loadSessions();
+      this.activeSessionId.set(response.session.id);
+      this.voiceService.commands.set([]);
+    } catch (error) {
+      console.error('Failed to create session:', error);
+    }
+  }
+
+  async selectSession(sessionId: string) {
+    try {
+      await firstValueFrom(
+        this.http.post(`http://localhost:5000/api/sessions/${sessionId}/activate`, {})
+      );
+
+      this.activeSessionId.set(sessionId);
+      await this.loadSessionMessages(sessionId);
+    } catch (error) {
+      console.error('Failed to select session:', error);
+    }
+  }
+
+  async deleteSession(event: Event, sessionId: string) {
+    event.stopPropagation(); // Prevent session selection when deleting
+
+    try {
+      await firstValueFrom(
+        this.http.delete(`http://localhost:5000/api/sessions/${sessionId}`)
+      );
+
+      await this.loadSessions();
+    } catch (error) {
+      console.error('Failed to delete session:', error);
+    }
+  }
+
+  formatTime(timestamp: string): string {
+    const date = new Date(timestamp);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
+    const diffDays = Math.floor(diffMs / 86400000);
+
+    if (diffMins < 1) return 'Just now';
+    if (diffMins < 60) return `${diffMins}m ago`;
+    if (diffHours < 24) return `${diffHours}h ago`;
+    if (diffDays < 7) return `${diffDays}d ago`;
+
+    return date.toLocaleDateString();
+  }
+
+  submitCommand() {
+    const command = this.commandInput.trim();
+    // Allow submit when idle or listening (not when thinking/speaking)
+    if (command && (this.state() === 'idle' || this.state() === 'listening')) {
+      console.log('Submitting command:', command);
+      this.voiceService.processCommand(command);
+      this.commandInput = '';
+
+      // Reload sessions after command to update timestamps
+      setTimeout(() => this.loadSessions(), 1000);
+    }
+  }
 }

@@ -2,60 +2,93 @@
   <div class="background-grid"></div>
   <div class="scanlines"></div>
 
-  <div class="main-shell">
-    <!-- AI Avatar Side -->
-    <div class="avatar-section">
-      <div class="avatar-frame" [class.speaking]="isSpeaking()" [class.listening]="isListening()">
-        <img src="assets/avatar.png" alt="AXI AI" class="avatar-img">
-        <div class="energy-ring ring-1"></div>
-        <div class="energy-ring ring-2"></div>
-        <div class="smiley-face" *ngIf="isListening() || isSpeaking()" [class]="'smiley-face ' + emotion()">
-          <div class="eyes">
-            <div class="eye left" [style.transform]="'scaleY(' + (1 - volume()/200) + ')'"></div>
-            <div class="eye right" [style.transform]="'scaleY(' + (1 - volume()/200) + ')'"></div>
-          </div>
-          <div class="voice-waves">
-            <div class="bar bar-1" [style.height.px]="10 + volume() * 0.4"></div>
-            <div class="bar bar-2" [style.height.px]="15 + volume() * 0.7"></div>
-            <div class="bar bar-3" [style.height.px]="10 + volume() * 0.4"></div>
-          </div>
-        </div>
+  <!-- Left Sidebar: Message Terminal -->
+  <div class="message-terminal-sidebar">
+    <header class="terminal-header">
+      <h2 class="terminal-title">MESSAGE LOG</h2>
+      <div class="terminal-status">
+        <span class="status-dot"></span> ACTIVE
       </div>
-      <div class="identity-tag">AXI // SERIES-01</div>
+    </header>
+
+    <div class="messages-list">
+      <!-- User Message -->
+      <div class="message-item user-msg" *ngIf="transcript()">
+        <div class="msg-header">
+          <span class="msg-label">USER</span>
+          <span class="msg-time">{{ getCurrentTime() }}</span>
+        </div>
+        <div class="msg-content">{{ transcript() }}</div>
+      </div>
+
+      <!-- AXI Response -->
+      <div class="message-item axi-msg" *ngIf="response()">
+        <div class="msg-header">
+          <span class="msg-label">AXI</span>
+          <span class="msg-time">{{ getCurrentTime() }}</span>
+        </div>
+        <div class="msg-content">{{ response() }}</div>
+      </div>
+
+      <!-- Placeholder when no messages -->
+      <div class="terminal-placeholder" *ngIf="!transcript() && !response()">
+        <span class="cursor-blink">_</span> AWAITING INPUT...
+      </div>
     </div>
+  </div>
 
-
-    <!-- Data & Controls Side -->
-    <div class="context-section">
-      <header class="system-header">
-        <h1 class="glitch-text" data-text="SYSTEM ONLINE">SYSTEM ONLINE</h1>
-        <div class="status-badge" [class.active]="isListening()">
-          <span class="dot"></span> {{ isListening() ? 'UPLINK ACTIVE' : 'SYSTEM READY' }}
+  <!-- Main Chat Area: Right Side -->
+  <div class="main-chat-area">
+    <div class="main-shell">
+      <!-- AI Avatar Section -->
+      <div class="avatar-section">
+        <div class="avatar-frame" [class.speaking]="isSpeaking()" [class.listening]="isListening()">
+          <img src="assets/avatar.png" alt="AXI AI" class="avatar-img">
+          <div class="energy-ring ring-1"></div>
+          <div class="energy-ring ring-2"></div>
+          <div class="smiley-face" *ngIf="isListening() || isSpeaking()" [class]="'smiley-face ' + emotion()">
+            <div class="eyes">
+              <div class="eye left" [style.transform]="'scaleY(' + (1 - volume()/200) + ')'"></div>
+              <div class="eye right" [style.transform]="'scaleY(' + (1 - volume()/200) + ')'"></div>
+            </div>
+            <div class="voice-waves">
+              <div class="bar bar-1" [style.height.px]="10 + volume() * 0.4"></div>
+              <div class="bar bar-2" [style.height.px]="15 + volume() * 0.7"></div>
+              <div class="bar bar-3" [style.height.px]="10 + volume() * 0.4"></div>
+            </div>
+          </div>
         </div>
-      </header>
-
-      <div class="display-terminal">
-        <div class="message-wrap user" *ngIf="transcript()">
-          <span class="label">U: //</span>
-          <p class="text">{{ transcript() }}</p>
-        </div>
-
-        <div class="message-wrap axi" *ngIf="response()">
-          <span class="label">A: //</span>
-          <p class="text accent">{{ response() }}</p>
-        </div>
-
-        <div class="placeholder" *ngIf="!transcript() && !response()">
-          <span class="cursor">_</span> INITIALIZING INPUT PROTOCOLS...
-        </div>
+        <div class="identity-tag">AXI // SERIES-01</div>
       </div>
 
-      <footer class="action-footer">
-        <button (click)="toggleListening()" class="action-btn" [class.active]="isListening()">
-          <div class="btn-bg"></div>
-          <span class="btn-label">{{ isListening() ? 'END SESSION' : 'INITIATE VOICE' }}</span>
-        </button>
-      </footer>
+      <!-- Context Section -->
+      <div class="context-section">
+        <header class="system-header">
+          <h1 class="glitch-text" data-text="SYSTEM ONLINE">SYSTEM ONLINE</h1>
+          <div class="status-badge" [class.active]="isListening()">
+            <span class="dot"></span> {{ isListening() ? 'UPLINK ACTIVE' : 'SYSTEM READY' }}
+          </div>
+        </header>
+
+        <div class="display-terminal">
+          <div class="terminal-status-text" *ngIf="isListening()">
+            <span class="pulse-icon">●</span> Listening...
+          </div>
+          <div class="terminal-status-text speaking" *ngIf="isSpeaking()">
+            <span class="pulse-icon">●</span> Speaking...
+          </div>
+          <div class="terminal-info" *ngIf="!isListening() && !isSpeaking()">
+            Click the button below to start voice interaction
+          </div>
+        </div>
+
+        <footer class="action-footer">
+          <button (click)="toggleListening()" class="action-btn" [class.active]="isListening()">
+            <div class="btn-bg"></div>
+            <span class="btn-label">{{ isListening() ? 'END SESSION' : 'INITIATE VOICE' }}</span>
+          </button>
+        </footer>
+      </div>
     </div>
   </div>
 

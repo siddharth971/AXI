@@ -4,16 +4,24 @@ import { firstValueFrom } from 'rxjs';
 
 export type AxiState = 'idle' | 'listening' | 'thinking' | 'speaking';
 
+export interface CommandHistoryItem {
+  text: string;
+  response: string;
+  timestamp: Date;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class VoiceService {
   private http = inject(HttpClient);
   private apiUrl = 'http://localhost:5000/api/command';
+  private historyApiUrl = 'http://localhost:5000/api/history';
 
   state = signal<AxiState>('idle');
-  commands = signal<{ text: string; response: string; timestamp: Date }[]>([]);
+  commands = signal<CommandHistoryItem[]>([]);
   lastTranscript = signal<string>('');
+  lastResponse = signal<string>('');
 
   // Audio analysis data for orb visualization
   audioLevel = signal<number>(0);
@@ -31,6 +39,34 @@ export class VoiceService {
 
   constructor() {
     this.initSpeechRecognition();
+    this.fetchHistory();
+  }
+
+  /**
+   * Fetch command history from the backend API
+   */
+  async fetchHistory() {
+    try {
+      const response = await firstValueFrom(
+        this.http.get<{ history: { input: string; intent: string; response: string; timestamp: string }[] }>(this.historyApiUrl)
+      );
+
+      if (response.history && response.history.length > 0) {
+        const mappedHistory = response.history.map(item => ({
+          text: item.input,
+          response: item.response,
+          timestamp: new Date(item.timestamp)
+        }));
+        this.commands.set(mappedHistory);
+
+        // Set the last response from history
+        if (mappedHistory.length > 0) {
+          this.lastResponse.set(mappedHistory[0].response);
+        }
+      }
+    } catch (error) {
+      console.log('Could not fetch history from backend:', error);
+    }
   }
 
   private initSpeechRecognition() {
@@ -187,6 +223,7 @@ export class VoiceService {
     // Stop listening while processing
     this.stopListening();
     this.state.set('thinking');
+    this.lastTranscript.set(text);
 
     try {
       const response = await firstValueFrom(this.http.post<{ response: string }>(this.apiUrl, { text }));
@@ -196,10 +233,24 @@ export class VoiceService {
         ...prev
       ].slice(0, 10));
 
+      // Set last response for display below orb
+      this.lastResponse.set(response.response);
+
       await this.speak(response.response);
     } catch (error) {
       console.error('Error sending command', error);
-      this.state.set('idle');
+      // Fallback response when backend is not available
+      const fallbackResponse = `I received your command: "${text}". However, the backend server is not running. Please start the server to get full responses.`;
+
+      this.commands.update(prev => [
+        { text, response: fallbackResponse, timestamp: new Date() },
+        ...prev
+      ].slice(0, 10));
+
+      // Set fallback response for display below orb
+      this.lastResponse.set(fallbackResponse);
+
+      await this.speak(fallbackResponse);
     }
   }
 

@@ -23,6 +23,7 @@ const cors = require("cors");
 const config = require("./config");
 const { logger } = require("./utils");
 const context = require("./core/context");
+const sessions = require("./core/sessions");
 
 // NLP and Skills
 const nlp = require("./nlp/nlp");
@@ -85,6 +86,10 @@ app.post("/api/command", async (req, res) => {
     context.set("lastIntent", nlpResult.intent);
     context.addToHistory(text, nlpResult.intent, reply);
 
+    // 5. Save to current session
+    const currentSession = sessions.getCurrentSession();
+    sessions.addMessage(currentSession.id, text, reply);
+
     res.json({ response: reply });
   } catch (error) {
     logger.error("Command processing failed", error.message);
@@ -112,6 +117,79 @@ app.get("/api/history", (req, res) => {
   res.json({
     history: context.getHistory()
   });
+});
+
+/**
+ * GET /api/sessions
+ * Get all conversation sessions
+ */
+app.get("/api/sessions", (req, res) => {
+  const allSessions = sessions.getAllSessions();
+  res.json({
+    sessions: allSessions,
+    currentSessionId: sessions.currentSessionId
+  });
+});
+
+/**
+ * POST /api/sessions
+ * Create a new session
+ */
+app.post("/api/sessions", (req, res) => {
+  const { title } = req.body;
+  const newSession = sessions.createSession(title);
+  res.json({
+    session: newSession
+  });
+});
+
+/**
+ * GET /api/sessions/:id
+ * Get a specific session
+ */
+app.get("/api/sessions/:id", (req, res) => {
+  const session = sessions.getSession(req.params.id);
+  if (!session) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  res.json({ session });
+});
+
+/**
+ * DELETE /api/sessions/:id
+ * Delete a session
+ */
+app.delete("/api/sessions/:id", (req, res) => {
+  const deleted = sessions.deleteSession(req.params.id);
+  if (!deleted) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  res.json({ success: true });
+});
+
+/**
+ * PUT /api/sessions/:id
+ * Update session title
+ */
+app.put("/api/sessions/:id", (req, res) => {
+  const { title } = req.body;
+  const updated = sessions.updateTitle(req.params.id, title);
+  if (!updated) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  res.json({ success: true });
+});
+
+/**
+ * POST /api/sessions/:id/activate
+ * Set current active session
+ */
+app.post("/api/sessions/:id/activate", (req, res) => {
+  const activated = sessions.setCurrentSession(req.params.id);
+  if (!activated) {
+    return res.status(404).json({ error: "Session not found" });
+  }
+  res.json({ success: true });
 });
 
 // ===========================
