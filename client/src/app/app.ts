@@ -4,10 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { AxiOrbComponent } from './components/core/axi-orb.component';
-import { CommandHistoryComponent } from './components/chat/command-history.component';
-import { SkillContextComponent } from './components/skills/skill-context.component';
 import { VoiceService } from './services/voice.service';
-import { LucideAngularModule } from 'lucide-angular';
+import { SkillContextService } from './services/skill-context.service';
+import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayCircle, Plus, Trash2, MessageCircle, Send, Zap, Cloud, Sun, Youtube, Clock, Globe, CloudSun, RefreshCw } from 'lucide-angular';
 
 @Component({
   selector: 'app-root',
@@ -16,9 +15,10 @@ import { LucideAngularModule } from 'lucide-angular';
     CommonModule,
     FormsModule,
     LucideAngularModule,
-    AxiOrbComponent,
-    CommandHistoryComponent,
-    SkillContextComponent
+    AxiOrbComponent
+  ],
+  providers: [
+    { provide: LUCIDE_ICONS, multi: true, useValue: new LucideIconProvider({ Bot, User, PlayCircle, Plus, Trash2, MessageCircle, Send, Zap, Cloud, Sun, Youtube, Clock, Globe, CloudSun, RefreshCw }) }
   ],
   template: `
     <div class="app-container">
@@ -84,75 +84,8 @@ import { LucideAngularModule } from 'lucide-angular';
           </div>
         </aside>
 
-        <!-- Center: Chat Messages & Orb -->
+        <!-- Center: Orb Section -->
         <section class="center-section">
-          <!-- Chat Messages Area -->
-          <div class="chat-area">
-            <div class="chat-messages-wrapper">
-              <!-- Typing Indicator -->
-              @if (state() === 'thinking' || state() === 'speaking') {
-                <div class="typing-indicator-container">
-                  <div class="chat-message axi-message">
-                    <div class="message-avatar axi-avatar">
-                      <lucide-icon name="bot" class="avatar-icon"></lucide-icon>
-                    </div>
-                    <div class="message-content">
-                      <div class="message-header">
-                        <span class="message-sender">AXI</span>
-                      </div>
-                      <div class="typing-indicator">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              }
-              
-              @for (cmd of commands(); track cmd.timestamp) {
-                <div class="chat-message-group">
-                  <!-- User Message -->
-                  <div class="chat-message user-message">
-                    <div class="message-avatar user-avatar">
-                      <lucide-icon name="user" class="avatar-icon"></lucide-icon>
-                    </div>
-                    <div class="message-content">
-                      <div class="message-header">
-                        <span class="message-sender">You</span>
-                      </div>
-                      <div class="message-bubble user-bubble">
-                        {{ cmd.text }}
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- AXI Response -->
-                  <div class="chat-message axi-message">
-                    <div class="message-avatar axi-avatar">
-                      <lucide-icon name="bot" class="avatar-icon"></lucide-icon>
-                    </div>
-                    <div class="message-content">
-                      <div class="message-header">
-                        <span class="message-sender">AXI</span>
-                      </div>
-                      <div class="message-bubble axi-bubble">
-                        {{ cmd.response }}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              }
-              @if (commands().length === 0 && state() !== 'thinking' && state() !== 'speaking') {
-                <div class="empty-chat-state">
-                  <lucide-icon name="message-circle" class="empty-icon"></lucide-icon>
-                  <span class="empty-text">Start a conversation</span>
-                  <span class="empty-subtext">Type a message or use voice</span>
-                </div>
-              }
-            </div>
-          </div>
-
           <!-- Orb Section -->
           <div class="orb-section">
             <div class="orb-wrapper">
@@ -166,13 +99,12 @@ import { LucideAngularModule } from 'lucide-angular';
               </p>
             </div>
             
-            <!-- Response text display below orb -->
-            <div class="response-container" [class.visible]="lastResponse()">
-              <div class="response-bubble">
-                <lucide-icon name="bot" class="response-icon"></lucide-icon>
-                <p class="response-text">{{ lastResponse() }}</p>
+            <!-- Simple AXI Response Text - White text below orb -->
+            @if (lastResponse()) {
+              <div class="axi-response-text">
+                <p>{{ lastResponse() }}</p>
               </div>
-            </div>
+            }
           </div>
         </section>
 
@@ -182,27 +114,35 @@ import { LucideAngularModule } from 'lucide-angular';
             <div class="panel-header">
               <lucide-icon name="zap" class="panel-icon"></lucide-icon>
               <span class="panel-title">Active Skill Context</span>
-            </div>
-            
-            <!-- Weather Card -->
-            <div class="context-card">
-              <div class="context-row">
-                <lucide-icon name="cloud" class="context-icon weather"></lucide-icon>
-                <lucide-icon name="sun" class="context-icon sun"></lucide-icon>
-                <span class="context-value">25°C, Sunny</span>
-              </div>
-            </div>
-            
-            <!-- YouTube Card -->
-            <div class="context-card youtube-card">
-              <div class="context-row">
-                <lucide-icon name="youtube" class="context-icon youtube"></lucide-icon>
-                <span class="context-label">YouTube.com - Trending</span>
-              </div>
-              <button class="action-btn">
-                Open Site
+              <button class="refresh-btn" (click)="refreshContext()">
+                <lucide-icon name="refresh-cw" class="refresh-icon" [class.spinning]="skillContextService.isLoading()"></lucide-icon>
               </button>
             </div>
+            
+            <!-- Dynamic Context Items -->
+            @for (item of skillContextService.contextItems(); track item.id) {
+              <div class="context-card" [class.action-card]="item.type === 'action'">
+                <div class="context-row">
+                  <lucide-icon [name]="getIconName(item.icon)" class="context-icon" [class]="'color-' + item.color"></lucide-icon>
+                  <div class="context-info">
+                    <span class="context-title">{{ item.title }}</span>
+                    <span class="context-value">{{ item.value }}</span>
+                  </div>
+                </div>
+                @if (item.type === 'action' && item.actionLabel) {
+                  <button class="action-btn" (click)="executeContextAction(item)">
+                    {{ item.actionLabel }}
+                  </button>
+                }
+              </div>
+            }
+            
+            @if (skillContextService.contextItems().length === 0) {
+              <div class="empty-context">
+                <lucide-icon name="zap" class="empty-icon"></lucide-icon>
+                <span>No active context</span>
+              </div>
+            }
           </div>
         </aside>
       </main>
@@ -788,47 +728,63 @@ import { LucideAngularModule } from 'lucide-angular';
       border-radius: 12px;
       padding: 1rem;
       margin-bottom: 0.75rem;
+      transition: all 0.2s ease;
+    }
+
+    .context-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .context-card.action-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
     }
 
     .context-row {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
     .context-icon {
       width: 20px;
       height: 20px;
+      flex-shrink: 0;
     }
 
-    .context-icon.weather {
-      color: #94a3b8;
+    /* Dynamic color classes */
+    .context-icon.color-cyan { color: #06b6d4; }
+    .context-icon.color-purple { color: #9333ea; }
+    .context-icon.color-red { color: #ef4444; }
+    .context-icon.color-yellow { color: #fbbf24; }
+    .context-icon.color-green { color: #22c55e; }
+    .context-icon.color-blue { color: #3b82f6; }
+
+    .context-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
     }
 
-    .context-icon.sun {
-      color: #fbbf24;
-    }
-
-    .context-icon.youtube {
-      color: #ef4444;
+    .context-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .context-value {
       font-size: 0.9rem;
       font-weight: 500;
       color: white;
-      margin-left: 0.25rem;
     }
 
     .context-label {
       font-size: 0.85rem;
       color: rgba(255, 255, 255, 0.8);
-    }
-
-    .youtube-card {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
     }
 
     .action-btn {
@@ -845,6 +801,57 @@ import { LucideAngularModule } from 'lucide-angular';
 
     .action-btn:hover {
       background: rgba(6, 182, 212, 0.25);
+    }
+
+    /* Refresh Button */
+    .refresh-btn {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      color: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      margin-left: auto;
+    }
+
+    .refresh-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .refresh-icon {
+      width: 14px;
+      height: 14px;
+    }
+
+    .refresh-icon.spinning {
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .empty-context {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      color: rgba(255, 255, 255, 0.3);
+      gap: 0.5rem;
+    }
+
+    .empty-context .empty-icon {
+      width: 32px;
+      height: 32px;
+      opacity: 0.4;
     }
 
     /* Orb Section */
@@ -881,34 +888,22 @@ import { LucideAngularModule } from 'lucide-angular';
       margin: 0;
     }
 
-    /* Response Container - Shows AXI response below orb */
-    .response-container {
+    /* Simple AXI Response Text */
+    .axi-response-text {
       margin-top: 1.5rem;
-      max-width: 500px;
-      opacity: 0;
-      transform: translateY(10px);
-      transition: all 0.4s ease;
+      text-align: center;
+      max-width: 600px;
+      animation: fadeInUp 0.4s ease;
     }
 
-    .response-container.visible {
-      opacity: 1;
-      transform: translateY(0);
+    .axi-response-text p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.6;
+      margin: 0;
     }
 
-    .response-bubble {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.75rem;
-      padding: 1rem 1.25rem;
-      background: rgba(147, 51, 234, 0.1);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(147, 51, 234, 0.2);
-      border-left: 3px solid #9333ea;
-      border-radius: 12px;
-      animation: fadeIn 0.5s ease;
-    }
-
-    @keyframes fadeIn {
+    @keyframes fadeInUp {
       from {
         opacity: 0;
         transform: translateY(10px);
@@ -917,21 +912,6 @@ import { LucideAngularModule } from 'lucide-angular';
         opacity: 1;
         transform: translateY(0);
       }
-    }
-
-    .response-icon {
-      width: 20px;
-      height: 20px;
-      color: #9333ea;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-
-    .response-text {
-      font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.9);
-      line-height: 1.5;
-      margin: 0;
     }
 
     /* Footer */
@@ -1116,6 +1096,7 @@ import { LucideAngularModule } from 'lucide-angular';
 export class App {
   private voiceService = inject(VoiceService);
   private http = inject(HttpClient);
+  skillContextService = inject(SkillContextService);
 
   state = this.voiceService.state;
   lastTranscript = this.voiceService.lastTranscript;
@@ -1237,5 +1218,28 @@ export class App {
       // Reload sessions after command to update timestamps
       setTimeout(() => this.loadSessions(), 1000);
     }
+  }
+
+  // Skill Context Methods
+  getIconName(iconName: string): string {
+    // Map icon names to lucide icon names (kebab-case)
+    const iconMap: Record<string, string> = {
+      'cloud-sun': 'cloud-sun',
+      'clock': 'clock',
+      'globe': 'globe',
+      'zap': 'zap',
+      'cloud': 'cloud',
+      'sun': 'sun',
+      'youtube': 'youtube'
+    };
+    return iconMap[iconName] || 'zap';
+  }
+
+  refreshContext() {
+    this.skillContextService.refresh();
+  }
+
+  executeContextAction(item: any) {
+    this.skillContextService.executeAction(item);
   }
 }

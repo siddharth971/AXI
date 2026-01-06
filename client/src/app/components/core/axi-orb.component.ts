@@ -25,10 +25,12 @@ import { VoiceService, AxiState } from 'app/services/voice.service';
            [class.thinking]="state() === 'thinking'"
            [style.transform]="'scale(' + (1 + audioLevel() * 0.8) + ')'"></div>
       
-      <!-- Click hint -->
-      <div class="click-hint" [class.visible]="state() === 'idle'">
-        <span>Click to speak</span>
-      </div>
+      <!-- Click hint - positioned above orb -->
+      @if (state() === 'idle') {
+        <div class="click-hint">
+          <span>Click to speak</span>
+        </div>
+      }
     </div>
   `,
   styles: [`
@@ -163,23 +165,29 @@ import { VoiceService, AxiState } from 'app/services/voice.service';
     
     .click-hint {
       position: absolute;
-      bottom: -50px;
+      bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
-      font-size: 0.85rem;
-      color: rgba(255, 255, 255, 0.4);
-      opacity: 0;
-      transition: opacity 0.3s ease;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.5);
       white-space: nowrap;
       pointer-events: none;
+      z-index: 10;
+      padding: 6px 14px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      animation: fadeIn 0.3s ease;
     }
     
-    .click-hint.visible {
-      opacity: 1;
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+      to { opacity: 1; transform: translateX(-50%) translateY(0); }
     }
     
-    .orb-container:hover .click-hint.visible {
-      color: rgba(6, 182, 212, 0.8);
+    .orb-container:hover .click-hint {
+      color: rgba(6, 182, 212, 0.9);
+      border-color: rgba(6, 182, 212, 0.3);
     }
     
     @keyframes pulse-glow {

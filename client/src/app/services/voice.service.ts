@@ -10,6 +10,18 @@ export interface CommandHistoryItem {
   timestamp: Date;
 }
 
+// TTS Provider configuration
+export type TTSProvider = 'browser' | 'elevenlabs' | 'openai';
+
+export interface TTSConfig {
+  provider: TTSProvider;
+  elevenLabsApiKey?: string;
+  elevenLabsVoiceId?: string;  // Voice ID from ElevenLabs
+  elevenLabsModel?: string;    // 'eleven_monolingual_v1' or 'eleven_multilingual_v2'
+  openaiApiKey?: string;
+  openaiVoice?: string;  // alloy, echo, fable, onyx, nova, shimmer
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,6 +29,7 @@ export class VoiceService {
   private http = inject(HttpClient);
   private apiUrl = 'http://localhost:5000/api/command';
   private historyApiUrl = 'http://localhost:5000/api/history';
+  private ttsApiUrl = 'http://localhost:5000/api/tts';  // Backend TTS endpoint
 
   state = signal<AxiState>('idle');
   commands = signal<CommandHistoryItem[]>([]);
@@ -27,8 +40,19 @@ export class VoiceService {
   audioLevel = signal<number>(0);
   frequencyData = signal<Uint8Array>(new Uint8Array(64));
 
+  // TTS Configuration - Using ElevenLabs with Indian voice for AXI
+  ttsConfig = signal<TTSConfig>({
+    provider: 'elevenlabs',  // ElevenLabs for natural human-like voice
+    elevenLabsApiKey: 'sk_c7ffd91e4fe94bbac7e159ef4f032e3ce64ef42796ff8782',
+    elevenLabsVoiceId: 'pFZP5JQG7iQjIQuC4Bku',  // Lily - Natural Indian accent female voice
+    elevenLabsModel: 'eleven_multilingual_v2',  // Multilingual model for better accent support
+    openaiApiKey: '',
+    openaiVoice: 'nova'
+  });
+
   private recognition: any;
   private synthesis = window.speechSynthesis;
+  private currentAudio: HTMLAudioElement | null = null;
 
   // Audio analysis
   private audioContext: AudioContext | null = null;
@@ -254,19 +278,187 @@ export class VoiceService {
     }
   }
 
-  private speak(text: string): Promise<void> {
+  private async speak(text: string): Promise<void> {
+    this.state.set('speaking');
+
+    const config = this.ttsConfig();
+
+    try {
+      switch (config.provider) {
+        case 'elevenlabs':
+          await this.speakWithElevenLabs(text);
+          break;
+        case 'openai':
+          await this.speakWithOpenAI(text);
+          break;
+        default:
+          await this.speakWithBrowser(text);
+      }
+    } catch (error) {
+      console.error('TTS error, falling back to browser:', error);
+      await this.speakWithBrowser(text);
+    }
+
+    this.state.set('idle');
+  }
+
+  /**
+   * ElevenLabs TTS - Very natural human-like voices
+   * Get API key from: https://elevenlabs.io
+   */
+  private async speakWithElevenLabs(text: string): Promise<void> {
+    const config = this.ttsConfig();
+
+    if (!config.elevenLabsApiKey) {
+      console.warn('ElevenLabs API key not set, using browser TTS');
+      return this.speakWithBrowser(text);
+    }
+
+    const voiceId = config.elevenLabsVoiceId || 'pFZP5JQG7iQjIQuC4Bku';
+    const modelId = config.elevenLabsModel || 'eleven_multilingual_v2';
+    const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
+
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Accept': 'audio/mpeg',
+        'Content-Type': 'application/json',
+        'xi-api-key': config.elevenLabsApiKey
+      },
+      body: JSON.stringify({
+        text: text,
+        model_id: modelId,
+        voice_settings: {
+          stability: 0.15,           // Higher = more measured, slower pace
+          similarity_boost: 0.6,     // Slightly lower for natural variation
+          style: 0.3,                // Lower style = calmer, steadier delivery
+          use_speaker_boost: true    // Clearer voice
+        }
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error(`ElevenLabs API error: ${response.status}`);
+    }
+
+    const audioBlob = await response.blob();
+    await this.playAudioBlob(audioBlob);
+  }
+
+  /**
+   * OpenAI TTS - High quality voices
+   * Get API key from: https://platform.openai.com
+   */
+  private async speakWithOpenAI(text: string): Promise<void> {
+    const config = this.ttsConfig();
+
+    if (!config.openaiApiKey) {
+      console.warn('OpenAI API key not set, using browser TTS');
+      return this.speakWithBrowser(text);
+    }
+
+    const response = await fetch('https://api.openai.com/v1/audio/speech', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${config.openaiApiKey}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'tts-1',
+        input: text,
+        voice: config.openaiVoice || 'nova'  // nova, alloy, echo, fable, onyx, shimmer
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error(`OpenAI API error: ${response.status}`);
+    }
+
+    const audioBlob = await response.blob();
+    await this.playAudioBlob(audioBlob);
+  }
+
+  /**
+   * Browser TTS - Free but robotic
+   */
+  private speakWithBrowser(text: string): Promise<void> {
     return new Promise((resolve) => {
-      this.state.set('speaking');
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.onend = () => {
-        this.state.set('idle');
-        resolve();
-      };
-      utterance.onerror = () => {
-        this.state.set('idle');
-        resolve();
-      };
+
+      const voices = this.synthesis.getVoices();
+      const preferredVoice = voices.find(v =>
+        v.name.includes('Google') && v.lang.includes('en')
+      ) || voices.find(v =>
+        v.name.includes('Microsoft') && v.lang.includes('en')
+      ) || voices.find(v =>
+        v.lang.includes('en-US') || v.lang.includes('en-GB')
+      ) || voices[0];
+
+      if (preferredVoice) {
+        utterance.voice = preferredVoice;
+      }
+
+      utterance.rate = 1.0;
+      utterance.pitch = 1.0;
+      utterance.volume = 1.0;
+
+      utterance.onend = () => resolve();
+      utterance.onerror = () => resolve();
+
+      this.synthesis.cancel();
       this.synthesis.speak(utterance);
     });
   }
+
+  /**
+   * Play audio blob (used for cloud TTS)
+   */
+  private playAudioBlob(blob: Blob): Promise<void> {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(blob);
+      this.currentAudio = new Audio(url);
+
+      this.currentAudio.onended = () => {
+        URL.revokeObjectURL(url);
+        this.currentAudio = null;
+        resolve();
+      };
+
+      this.currentAudio.onerror = (error) => {
+        URL.revokeObjectURL(url);
+        this.currentAudio = null;
+        reject(error);
+      };
+
+      this.currentAudio.play();
+    });
+  }
+
+  /**
+   * Configure TTS provider
+   * @example setTTSConfig({ provider: 'elevenlabs', elevenLabsApiKey: 'your-key' })
+   */
+  setTTSConfig(config: Partial<TTSConfig>) {
+    this.ttsConfig.update(current => ({ ...current, ...config }));
+  }
+
+  /**
+   * Stop current speech
+   */
+  stopSpeaking() {
+    if (this.currentAudio) {
+      this.currentAudio.pause();
+      this.currentAudio = null;
+    }
+    this.synthesis.cancel();
+    if (this.state() === 'speaking') {
+      this.state.set('idle');
+    }
+  }
+
+  // Get available browser voices for UI selection
+  getAvailableVoices(): SpeechSynthesisVoice[] {
+    return this.synthesis.getVoices().filter(v => v.lang.includes('en'));
+  }
 }
+

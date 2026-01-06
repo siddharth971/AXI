@@ -6,64 +6,161 @@
       "capture screen",
       "screenshot please",
       "take screenshot",
-      "capture my desktop",
-      "save screenshot",
+      "axi take screenshot",
+      "screenshot lo",
+      "screen capture karo",
+      "axi screenshot le lo",
+      "screen ki photo lo",
+      "screenshot le",
+      "axi screen capture kar",
+      "screenshot lena hai",
+      "screen shot lo",
       "snap the screen",
-      "take a snap of my screen",
-      "screen capture",
-      "take full screenshot"
+      "axi screenshot"
     ]
   },
   {
-    "intent": "system_shutdown",
+    "intent": "volume_up",
     "utterances": [
-      "shutdown the system",
-      "turn off my pc",
-      "power off the computer",
-      "shut down computer",
-      "shutdown now",
-      "turn off system",
-      "axi shut down"
+      "volume up",
+      "increase volume",
+      "louder",
+      "make it louder",
+      "turn up the volume",
+      "axi volume up",
+      "volume badao",
+      "axi volume badha",
+      "awaaz badao",
+      "volume zyada karo",
+      "thoda loud karo",
+      "volume badhao axi",
+      "sound badha do"
     ]
   },
   {
-    "intent": "system_restart",
+    "intent": "volume_down",
     "utterances": [
-      "restart my computer",
-      "reboot system",
-      "axi restart pc",
-      "please restart",
-      "restart the computer",
-      "reboot my system"
+      "volume down",
+      "decrease volume",
+      "quieter",
+      "make it quieter",
+      "turn down the volume",
+      "axi volume down",
+      "volume kam karo",
+      "axi volume kam kar",
+      "awaaz kam karo",
+      "thoda soft karo",
+      "volume ghatao",
+      "sound kam karo"
     ]
   },
   {
-    "intent": "open_application",
+    "intent": "mute",
+    "utterances": [
+      "mute",
+      "mute the sound",
+      "silence",
+      "axi mute",
+      "mute karo",
+      "awaaz band karo",
+      "sound band karo",
+      "chup karo",
+      "silent karo",
+      "axi silent mode",
+      "volume zero karo"
+    ]
+  },
+  {
+    "intent": "music_control",
+    "utterances": [
+      "play music",
+      "start music",
+      "play some music",
+      "axi play music",
+      "music chalao",
+      "gaana chalao",
+      "axi gaana laga",
+      "songs play karo",
+      "music start karo",
+      "kuch music bajao",
+      "gaane sunao",
+      "axi music on karo"
+    ]
+  },
+  {
+    "intent": "stop_music",
+    "utterances": [
+      "stop music",
+      "pause music",
+      "stop the music",
+      "axi stop music",
+      "music band karo",
+      "gaana band karo",
+      "axi gaana rok do",
+      "music pause karo",
+      "gaana roko",
+      "music off karo"
+    ]
+  },
+  {
+    "intent": "lock_screen",
+    "utterances": [
+      "lock the screen",
+      "lock screen",
+      "lock my computer",
+      "axi lock screen",
+      "screen lock karo",
+      "computer lock kar do",
+      "axi screen lock kar",
+      "lock kar do",
+      "pc lock karo"
+    ]
+  },
+  {
+    "intent": "shutdown",
+    "utterances": [
+      "shutdown",
+      "shut down",
+      "turn off computer",
+      "power off",
+      "axi shutdown",
+      "computer band karo",
+      "pc band karo",
+      "system off karo",
+      "shutdown kar do",
+      "axi power off kar"
+    ]
+  },
+  {
+    "intent": "restart",
+    "utterances": [
+      "restart",
+      "restart computer",
+      "reboot",
+      "axi restart",
+      "computer restart karo",
+      "pc dobara chalu karo",
+      "system restart kar",
+      "reboot karo",
+      "axi reboot kar"
+    ]
+  },
+  {
+    "intent": "open_app",
     "utterances": [
       "open notepad",
-      "start chrome",
       "open calculator",
-      "launch vscode",
-      "start visual studio code",
-      "open whatsapp web",
-      "open file explorer",
-      "launch settings",
-      "open command prompt",
-      "open terminal"
-    ]
-  },
-  {
-    "intent": "tell_time",
-    "utterances": [
-      "what is the time",
-      "tell me the time",
-      "current time",
-      "time please",
-      "axi time",
-      "what time is it now",
-      "give me the time",
-      "tell time",
-      "time right now"
+      "open settings",
+      "launch notepad",
+      "axi open notepad",
+      "notepad kholo",
+      "calculator kholo",
+      "settings kholo",
+      "axi notepad open kar",
+      "file explorer kholo",
+      "cmd kholo",
+      "terminal kholo",
+      "axi calculator open karo"
     ]
   }
 ]

@@ -1,52 +1,136 @@
 [
   {
+    "intent": "tell_time",
+    "utterances": [
+      "what time is it",
+      "tell me the time",
+      "what is the time",
+      "current time",
+      "time please",
+      "axi what time is it",
+      "can you tell me the time",
+      "what's the time",
+      "time batao",
+      "kya time hua hai",
+      "axi time batao",
+      "abhi kya time hai",
+      "kitne baje hain",
+      "axi kitne baje hain",
+      "time kya hai",
+      "waqt kya hua",
+      "samay batao",
+      "time check karo",
+      "axi time check kar",
+      "bata time kya hai",
+      "axi kya time ho gaya",
+      "time bata do",
+      "what time now",
+      "tym batao"
+    ]
+  },
+  {
+    "intent": "tell_date",
+    "utterances": [
+      "what is today's date",
+      "what date is it",
+      "tell me the date",
+      "today's date",
+      "axi what date is it",
+      "aaj ki date kya hai",
+      "date batao",
+      "axi date batao",
+      "aaj kya tarikh hai",
+      "tarikh batao",
+      "today date kya hai",
+      "date bata do",
+      "kya date hai aaj",
+      "axi aaj ki date bata"
+    ]
+  },
+  {
     "intent": "weather_check",
     "utterances": [
-      "what is the weather",
-      "how is the weather",
-      "weather today",
+      "what's the weather",
+      "weather update",
+      "how's the weather",
       "tell me the weather",
-      "is it raining",
-      "temperature today",
       "weather forecast",
-      "check weather"
+      "axi weather batao",
+      "mausam kaisa hai",
+      "aaj ka mausam",
+      "weather kya hai",
+      "axi mausam batao",
+      "bahar mausam kaisa hai",
+      "weather check karo",
+      "aaj weather kaisa hai",
+      "is it raining",
+      "baarish ho rahi hai kya",
+      "temperature kya hai",
+      "kitni garmi hai",
+      "kitni thand hai",
+      "axi weather update de",
+      "mausam ki jankari do"
     ]
   },
   {
     "intent": "tell_joke",
     "utterances": [
       "tell me a joke",
-      "say something funny",
-      "know any jokes",
       "make me laugh",
-      "joke please",
-      "crack a joke"
+      "say something funny",
+      "tell a joke",
+      "axi tell me a joke",
+      "joke sunao",
+      "koi joke sunao",
+      "axi joke sunao",
+      "hasao mujhe",
+      "kuch funny bolo",
+      "comedy karo",
+      "mazaak sunao",
+      "joke bolo",
+      "ek joke batao",
+      "axi koi mazaak suna",
+      "hasi wali baat bolo"
     ]
   },
   {
     "intent": "news_update",
     "utterances": [
-      "what is the news",
+      "what's the news",
       "tell me the news",
-      "latest headlines",
       "news update",
-      "what is happening today",
-      "read the news"
+      "today's news",
+      "axi news batao",
+      "kya news hai",
+      "aaj ki khabar",
+      "khabar sunao",
+      "news kya hai aaj",
+      "axi aaj ki news bata",
+      "top headlines",
+      "breaking news",
+      "taza khabar",
+      "latest news",
+      "news update de",
+      "kya chal raha hai duniya mein"
     ]
   },
   {
-    "intent": "music_control",
+    "intent": "calculate",
     "utterances": [
-      "play some music",
-      "play songs",
-      "stop music",
-      "pause music",
-      "next song",
-      "change track",
-      "volume up",
-      "volume down",
-      "play musix",
-      "play music please"
+      "calculate",
+      "what is 2 plus 2",
+      "add 5 and 10",
+      "multiply 3 by 4",
+      "divide 10 by 2",
+      "axi calculate karo",
+      "hisaab lagao",
+      "2 aur 2 jodo",
+      "5 plus 5 kya hota hai",
+      "10 minus 3",
+      "calculation karo",
+      "math solve karo",
+      "axi hisaab kar",
+      "jod do ye numbers"
     ]
   }
 ]

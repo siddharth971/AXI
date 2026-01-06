@@ -110,6 +110,54 @@ app.get("/api/health", (req, res) => {
 });
 
 /**
+ * GET /api/skill-context
+ * Get active skill context for the right panel
+ */
+app.get("/api/skill-context", (req, res) => {
+  // Get dynamic context data
+  const contextData = context.get("skillContext") || {};
+
+  // Default skill context items
+  const defaultContext = {
+    items: [
+      {
+        id: "weather",
+        type: "info",
+        icon: "cloud-sun",
+        title: "Weather",
+        value: contextData.weather || "25°C, Sunny",
+        color: "cyan"
+      },
+      {
+        id: "time",
+        type: "info",
+        icon: "clock",
+        title: "Current Time",
+        value: new Date().toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }),
+        color: "purple"
+      }
+    ],
+    activeSkill: context.get("lastIntent") || null,
+    lastUpdated: new Date().toISOString()
+  };
+
+  // Add any quick actions based on context
+  if (context.get("lastIntent") === "open_website") {
+    defaultContext.items.push({
+      id: "website",
+      type: "action",
+      icon: "globe",
+      title: "Quick Link",
+      value: context.get("lastWebsite") || "youtube.com",
+      actionLabel: "Open Site",
+      color: "red"
+    });
+  }
+
+  res.json(defaultContext);
+});
+
+/**
  * GET /api/history
  * Get conversation history
  */
