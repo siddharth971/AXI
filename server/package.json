@@ -13,9 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "axios": "^1.13.2",
     "brain.js": "^1.6.1",
     "compromise": "^14.14.5",
     "cors": "^2.8.5",
+    "cosine-similarity": "^1.0.1",
     "express": "^5.1.0",
     "screenshot-desktop": "^1.15.3"
   },
