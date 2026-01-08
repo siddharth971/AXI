@@ -2,16 +2,24 @@
   {
     "intent": "git_status",
     "utterances": [
-      "show git status",
       "git status",
+      "show git status",
       "check git status",
-      "what's the git status",
+      "git ka status",
+      "git ka status dikha",
+      "git ka status check karo",
       "axi git status dikha",
       "axi show git status",
       "repository status",
+      "repo status",
       "check repo status",
       "working directory status",
-      "any changes in git"
+      "any changes in git",
+      "git changes dikha",
+      "kya changes hai git mein",
+      "git mein kya hai",
+      "show repository status",
+      "what is git status"
     ]
   },
   {
@@ -20,11 +28,17 @@
       "git commit",
       "commit changes",
       "commit the code",
+      "commit karo",
       "axi commit karo",
+      "git commit karo",
       "git commit kar do",
       "save changes to git",
       "commit with message",
-      "make a commit"
+      "make a commit",
+      "code commit kar",
+      "changes commit karo",
+      "axi git commit kar",
+      "save to git"
     ]
   },
   {
@@ -33,9 +47,14 @@
       "git pull",
       "pull latest changes",
       "pull from remote",
+      "git pull karo",
       "axi git pull kar",
       "update from remote",
-      "sync with remote"
+      "sync with remote",
+      "pull changes",
+      "get latest code",
+      "fetch and pull",
+      "remote se update karo"
     ]
   },
   {
@@ -44,9 +63,14 @@
       "git push",
       "push changes",
       "push to remote",
+      "git push karo",
       "axi git push kar",
       "upload code",
-      "push commits"
+      "push commits",
+      "push to github",
+      "code push karo",
+      "remote pe push kar",
+      "changes upload karo"
     ]
   },
   {
@@ -56,21 +80,34 @@
       "run server",
       "start dev server",
       "npm run dev",
+      "server start karo",
       "axi server start karo",
       "start the development server",
       "run development server",
-      "start local server"
+      "start local server",
+      "dev server chalu karo",
+      "localhost start karo",
+      "server chalao"
     ]
   },
   {
     "intent": "npm_install",
     "utterances": [
       "npm install",
+      "npm i",
+      "run npm install",
       "install packages",
       "install dependencies",
+      "npm install karo",
       "axi npm install karo",
-      "run npm install",
-      "install node modules"
+      "npm install chalao",
+      "install node modules",
+      "packages install karo",
+      "dependencies install kar",
+      "node modules install karo",
+      "npm se install karo",
+      "run npm i",
+      "install all packages"
     ]
   },
   {
@@ -78,11 +115,19 @@
     "utterances": [
       "open vscode",
       "open vs code",
+      "vscode open karo",
       "open visual studio code",
       "launch vscode",
-      "axi vscode kholo",
       "start vscode",
-      "open code editor"
+      "vscode kholo",
+      "axi vscode kholo",
+      "vs code kholo",
+      "code editor kholo",
+      "open code editor",
+      "vscode start karo",
+      "visual studio code kholo",
+      "axi open vscode",
+      "vscode launch karo"
     ]
   },
   {
@@ -92,9 +137,14 @@
       "open command prompt",
       "launch terminal",
       "open cmd",
+      "terminal kholo",
       "axi terminal kholo",
       "start terminal",
-      "open powershell"
+      "open powershell",
+      "cmd kholo",
+      "command prompt kholo",
+      "powershell kholo",
+      "terminal start karo"
     ]
   }
 ]

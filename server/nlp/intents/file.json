@@ -4,12 +4,19 @@
     "utterances": [
       "create folder",
       "create a new folder",
+      "create a folder",
       "make folder",
+      "make a folder",
       "new folder",
+      "folder banao",
       "axi folder banao",
       "create directory",
       "make directory",
-      "axi naya folder bana"
+      "naya folder banao",
+      "axi naya folder bana",
+      "folder create karo",
+      "ek folder banao",
+      "directory create karo"
     ]
   },
   {
@@ -17,11 +24,18 @@
     "utterances": [
       "create file",
       "create a new file",
+      "create a file",
       "make file",
+      "make a file",
       "new file",
+      "file banao",
       "axi file banao",
       "write a file",
-      "axi naya file bana"
+      "naya file banao",
+      "axi naya file bana",
+      "file create karo",
+      "ek file banao",
+      "touch file"
     ]
   },
   {
@@ -29,32 +43,52 @@
     "utterances": [
       "open file",
       "open the file",
+      "open a file",
+      "file kholo",
       "axi file kholo",
       "open document",
       "show file",
-      "access file"
+      "access file",
+      "file open karo",
+      "document kholo",
+      "ye file kholo"
     ]
   },
   {
     "intent": "delete_file",
     "utterances": [
       "delete file",
-      "remove file",
       "delete the file",
+      "delete a file",
+      "remove file",
+      "remove the file",
+      "file delete karo",
       "axi file delete karo",
       "erase file",
-      "trash file"
+      "trash file",
+      "file hatao",
+      "ye file delete karo",
+      "file remove karo",
+      "delete this file",
+      "remove this file",
+      "file ko delete kar",
+      "test.txt delete karo",
+      "delete test file"
     ]
   },
   {
     "intent": "delete_folder",
     "utterances": [
       "delete folder",
+      "delete the folder",
       "remove folder",
       "delete directory",
+      "folder delete karo",
       "axi folder delete karo",
       "remove directory",
-      "erase folder"
+      "erase folder",
+      "folder hatao",
+      "directory remove karo"
     ]
   },
   {
@@ -62,20 +96,28 @@
     "utterances": [
       "search file",
       "find file",
+      "find a file",
       "where is file",
       "locate file",
+      "file dhundho",
       "axi file dhundho",
-      "search for file"
+      "search for file",
+      "file search karo",
+      "file kahan hai",
+      "find this file"
     ]
   },
   {
     "intent": "rename_file",
     "utterances": [
       "rename file",
-      "change file name",
       "rename the file",
+      "change file name",
+      "file ka naam badlo",
       "axi file ka naam badlo",
-      "update file name"
+      "update file name",
+      "file rename karo",
+      "naam change karo"
     ]
   },
   {
@@ -83,12 +125,24 @@
     "utterances": [
       "list files",
       "show files",
+      "list all files",
+      "show all files",
+      "files dikhao",
+      "files dikha",
+      "axi files dikha",
       "list files in folder",
       "show me the files",
-      "axi files dikha",
       "what files are there",
       "show directory contents",
-      "list directory"
+      "list directory",
+      "ls",
+      "dir",
+      "folder ke files dikhao",
+      "directory ke files",
+      "sab files dikha",
+      "files list karo",
+      "show folder contents",
+      "what is in folder"
     ]
   }
 ]

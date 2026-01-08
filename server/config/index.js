@@ -9,8 +9,8 @@ module.exports = {
   // Server
   PORT: process.env.PORT || 5000,
 
-  // NLP
-  NLP_CONFIDENCE_THRESHOLD: 0.4,
+  // NLP - Minimum confidence for intent matching (0.5 = 50% confidence required)
+  NLP_CONFIDENCE_THRESHOLD: 0.5,
 
   // Paths (relative to server root)
   PATHS: {

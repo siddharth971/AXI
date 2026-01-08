@@ -2,6 +2,9 @@
  * Website Rules
  * ---------------
  * Pattern matching for website-related commands
+ * 
+ * RULE ORDER NOTE: YouTube search rules should run before these.
+ * This file explicitly skips YouTube when search context is detected.
  */
 
 module.exports = {
@@ -20,9 +23,16 @@ module.exports = {
 
   /**
    * Match website opening commands using NLU entities
+   * IMPORTANT: Skips YouTube if search/play context is detected
    */
   openWebsite(text, nlu) {
+    const msg = text.toLowerCase();
     const { entities, signals } = nlu || {};
+
+    // Skip if there's a search/play context with YouTube - let youtube.js handle it
+    if (entities?.website === "youtube" && /search|find|play|dhundho|chalao/.test(msg)) {
+      return null;
+    }
 
     // Use extracted website from NLU
     if (entities?.website && signals?.isCommand) {

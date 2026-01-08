@@ -1,40 +1,99 @@
 [
   {
+    "intent": "calculate",
+    "utterances": [
+      "calculate",
+      "calculate 10 plus 5",
+      "calculate 10 times 5",
+      "what is 10 plus 5",
+      "what is 5 times 3",
+      "10 plus 5",
+      "10 minus 3",
+      "10 times 5",
+      "10 divided by 2",
+      "add 5 and 10",
+      "multiply 3 by 4",
+      "divide 10 by 2",
+      "subtract 5 from 10",
+      "axi calculate karo",
+      "axi hisaab karo",
+      "hisaab lagao",
+      "calculation karo",
+      "math solve karo",
+      "5 aur 5 jodo",
+      "kitna hota hai 10 plus 5",
+      "jod do ye numbers",
+      "2 plus 2 kya hota hai",
+      "what is 100 divided by 4",
+      "50 plus 25 kitna hai"
+    ]
+  },
+  {
     "intent": "unit_convert",
     "utterances": [
       "convert km to miles",
       "convert 100 km to miles",
+      "convert kilometers to miles",
+      "100 km in miles",
+      "100 kilometer mile mein",
       "how many miles in 100 km",
-      "axi convert karo",
-      "unit conversion",
+      "how many feet in 10 meters",
       "convert meters to feet",
       "convert celsius to fahrenheit",
+      "convert fahrenheit to celsius",
       "convert pounds to kg",
-      "convert liters to gallons"
+      "convert kg to pounds",
+      "convert liters to gallons",
+      "axi convert karo",
+      "axi unit convert karo",
+      "unit conversion",
+      "kilometer se mile",
+      "meter se feet",
+      "celsius se fahrenheit",
+      "kitne feet hote hai 10 meter mein",
+      "100 km kitne miles hai",
+      "50 celsius fahrenheit mein",
+      "convert 32 fahrenheit to celsius",
+      "5 miles km mein"
     ]
   },
   {
     "intent": "currency_convert",
     "utterances": [
       "convert usd to inr",
+      "convert dollars to rupees",
       "how much is 100 dollars in rupees",
       "convert 100 usd to inr",
+      "100 dollars rupees mein",
       "currency conversion",
       "axi currency convert karo",
       "exchange rate",
-      "convert euros to dollars"
+      "convert euros to dollars",
+      "dollar ka rate kya hai",
+      "100 rupees dollar mein",
+      "convert gbp to inr",
+      "kitne rupees hai 50 dollars mein",
+      "euro to inr convert karo",
+      "axi dollar rate batao"
     ]
   },
   {
     "intent": "date_math",
     "utterances": [
       "what date is 10 days from now",
+      "what date after 10 days",
       "add 10 days to today",
       "what will be the date after 10 days",
       "subtract 5 days from today",
+      "5 days ago kya date thi",
       "axi date calculate karo",
       "calculate future date",
-      "what date after 2 weeks"
+      "what date after 2 weeks",
+      "10 din baad kya date hogi",
+      "1 week baad date batao",
+      "aaj se 5 din pehle",
+      "next month date",
+      "kal se 3 din baad"
     ]
   },
   {
@@ -45,7 +104,10 @@
       "how many days from now to",
       "calculate days between",
       "axi kitne din bache",
-      "countdown to date"
+      "countdown to date",
+      "kitne din bache christmas tak",
+      "how many days till new year",
+      "days remaining"
     ]
   },
   {
@@ -56,18 +118,34 @@
       "remind me in 5 minutes",
       "set reminder for",
       "axi yaad dilana",
-      "create reminder"
+      "create reminder",
+      "reminder set karo",
+      "mujhe yaad dilana",
+      "10 minute baad yaad dilana",
+      "reminder banao"
     ]
   },
   {
     "intent": "what_day",
     "utterances": [
       "what day is today",
+      "what day is it today",
+      "today is what day",
+      "which day is today",
       "what day of the week",
       "which day is it",
+      "what day",
+      "aaj kaun sa din hai",
       "axi aaj kaun sa din hai",
-      "what day was",
-      "which weekday"
+      "today kaun sa day hai",
+      "aaj kya day hai",
+      "what day was yesterday",
+      "which weekday is today",
+      "monday hai ya tuesday",
+      "aaj sunday hai kya",
+      "kya din hai aaj",
+      "tell me today day",
+      "which day today"
     ]
   },
   {
@@ -78,7 +156,10 @@
       "meaning of",
       "definition of",
       "axi matlab batao",
-      "what is the meaning"
+      "what is the meaning",
+      "iska meaning kya hai",
+      "define this word",
+      "word ka matlab"
     ]
   }
 ]
