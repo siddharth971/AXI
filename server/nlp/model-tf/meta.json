@@ -1,0 +1,22 @@
+{
+  "trainedAt": "2026-01-08T07:24:09.508Z",
+  "version": "2.1.0",
+  "type": "brain.js",
+  "stats": {
+    "error": 0.004944640893113746,
+    "iterations": 261
+  },
+  "config": {
+    "ITERATIONS": 2000,
+    "ERROR_THRESH": 0.005,
+    "HIDDEN_LAYERS": [
+      16,
+      16
+    ],
+    "ACTIVATION": "sigmoid",
+    "PLUGIN_DIRS": [
+      "D:\\jarvis-voice-assistant\\server\\skills\\plugins",
+      "D:\\jarvis-voice-assistant\\server\\plugins"
+    ]
+  }
+}

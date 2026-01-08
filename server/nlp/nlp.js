@@ -12,6 +12,7 @@ const fs = require("fs");
 const path = require("path");
 const brain = require("brain.js");
 const nluPipeline = require("./nlu-pipeline");
+const preprocessor = require("./preprocessor");
 const { loadAllRules } = require("./rule-loader");
 const { logger } = require("../utils");
 
@@ -20,8 +21,8 @@ const { logger } = require("../utils");
 // ===========================
 
 const MODEL_PATH = {
-  model: path.join(__dirname, "model.json"),
-  vocab: path.join(__dirname, "vocab.json")
+  model: path.join(__dirname, "model-tf", "model.json"),
+  vocab: path.join(__dirname, "model-tf", "vocab.json")
 };
 
 let net = new brain.NeuralNetwork();
@@ -68,19 +69,16 @@ loadRules();
 // Feature Extraction
 // ===========================
 
-function tokenize(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
-    .split(/\s+/)
-    .filter(Boolean);
-}
-
 function textToFeatures(text) {
-  const tokens = tokenize(text);
+  // Use same preprocessing as training
+  const { tokens } = preprocessor.preprocess(text);
+
   const features = {};
-  vocab.forEach((word, i) => {
-    features[`w${i}`] = tokens.includes(word) ? 1 : 0;
+  tokens.forEach(token => {
+    const index = vocab.indexOf(token);
+    if (index > -1) {
+      features[`w${index}`] = 1;
+    }
   });
   return features;
 }

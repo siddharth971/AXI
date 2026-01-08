@@ -78,6 +78,13 @@ module.exports = {
     create_folder: {
       confidence: 0.6,
       requiresConfirmation: false,
+      utterances: [
+        "create a new folder named {name}",
+        "make a directory called {name}",
+        "create folder {name}",
+        "new folder {name}",
+        "generate a folder named {name}"
+      ],
       handler: async (params, context) => {
         const name = params.name || params.foldername || params.folder;
 
@@ -109,6 +116,13 @@ module.exports = {
     create_file: {
       confidence: 0.6,
       requiresConfirmation: false,
+      utterances: [
+        "create a file named {name}",
+        "make a new file called {name}",
+        "generate file {name}",
+        "write a file named {name}",
+        "create file {name}"
+      ],
       handler: async (params, context) => {
         const name = params.name || params.filename || params.file;
         const content = params.content || "";
@@ -149,6 +163,13 @@ module.exports = {
     open_file: {
       confidence: 0.6,
       requiresConfirmation: false,
+      utterances: [
+        "open the file {name}",
+        "open file {name}",
+        "access {name}",
+        "read the file {name}",
+        "show me {name}"
+      ],
       handler: async (params, context) => {
         const name = params.name || params.filename || params.file || params.path;
 
@@ -174,6 +195,13 @@ module.exports = {
     delete_file: {
       confidence: 0.7,
       requiresConfirmation: true, // DESTRUCTIVE ACTION
+      utterances: [
+        "delete the file {name}",
+        "remove file {name}",
+        "erase {name}",
+        "delete file named {name}",
+        "trash the file {name}"
+      ],
       handler: async (params, context) => {
         const name = params.name || params.filename || params.file || params.path;
 
@@ -208,6 +236,13 @@ module.exports = {
     delete_folder: {
       confidence: 0.7,
       requiresConfirmation: true, // DESTRUCTIVE ACTION
+      utterances: [
+        "delete folder {name}",
+        "remove the directory {name}",
+        "erase folder {name}",
+        "trash directory {name}",
+        "delete directory {name}"
+      ],
       handler: async (params, context) => {
         const name = params.name || params.foldername || params.folder || params.path;
 
@@ -242,6 +277,13 @@ module.exports = {
     search_file: {
       confidence: 0.6,
       requiresConfirmation: false,
+      utterances: [
+        "search for file {query}",
+        "find a file named {query}",
+        "where is the file {query}",
+        "locate file {query}",
+        "search file {query}"
+      ],
       handler: async (params, context) => {
         const query = params.query || params.name || params.search;
         const searchPath = params.path ? resolvePath(params.path) : DEFAULT_BASE;
@@ -279,6 +321,13 @@ module.exports = {
     rename_file: {
       confidence: 0.6,
       requiresConfirmation: false,
+      utterances: [
+        "rename file {oldname} to {newname}",
+        "change filename from {oldname} to {newname}",
+        "rename {oldname} as {newname}",
+        "move file {oldname} to {newname}",
+        "update file name of {oldname} to {newname}"
+      ],
       handler: async (params, context) => {
         const oldName = params.oldname || params.from || params.current;
         const newName = params.newname || params.to || params.name;
@@ -314,6 +363,13 @@ module.exports = {
     list_files: {
       confidence: 0.5,
       requiresConfirmation: false,
+      utterances: [
+        "list files in {path}",
+        "show me the files",
+        "what files are in this folder",
+        "list directory contents",
+        "show contents of {path}"
+      ],
       handler: async (params, context) => {
         const targetPath = params.path ? resolvePath(params.path) : DEFAULT_BASE;
 
