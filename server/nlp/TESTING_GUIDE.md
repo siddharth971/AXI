@@ -62,6 +62,62 @@ This directory contains comprehensive validation tools for the AXI Voice Assista
 
 ---
 
+### 4. Conversational Intelligence Regression Test (NEW)
+
+**File:** `regression-conversation-tests.js`  
+**Purpose:** Ensures NLP intelligence improvements don't regress  
+**Run:** `node nlp/regression-conversation-tests.js`
+
+**CLI Options:**
+
+- `--ci` - CI/CD mode with exit codes (exit 1 on failure)
+- `--nlp-only` - Skip backend, test NLP classification only
+- `--quiet` - Minimal output
+
+**npm Scripts:**
+
+```bash
+npm run test:regression      # Full regression suite
+npm run test:regression:ci   # CI mode with exit codes
+npm run test:regression:quick # NLP-only, quiet mode
+npm run test:all             # Run all validation suites
+```
+
+**Test Categories (8 Mandatory):**
+
+1. **Indirect / Implied Requests** - "I'm bored, play something nice"
+2. **Multi-Intent Sentences** - "Open YouTube and play music"
+3. **Context-Based Follow-ups** - "play music" → "louder"
+4. **Conversational / Natural Language** - "Could you please open YouTube?"
+5. **User Corrections** - "no wait, open youtube instead"
+6. **Ambiguous Input** - "Open it" (should clarify, not guess)
+7. **Story-Based Input** - "I was working late and forgot what day it is"
+8. **Misspellings / Informal Language** - "opn youtub"
+
+**Assertions (Strict):**
+
+- ✅ Correct intent selected
+- ✅ Correct confidence behavior (High→execute, Medium→clarify, Low→unknown)
+- ✅ Correct use of context (if applicable)
+- ❌ No unsafe action on ambiguity
+- ❌ No fallback to keyword-only behavior
+
+**Critical Fail Conditions:**
+
+- Previously passing AFTER behavior fails
+- Context is ignored in multi-turn tests
+- System guesses instead of asking for clarification
+- Unsafe execution occurs on ambiguous input
+
+**Success Criteria:**
+
+- All AFTER behaviors enforced
+- BEFORE failures remain impossible
+- Zero unsafe executions
+- Regression Detected: NO
+
+---
+
 ## 🚀 Quick Start
 
 ```bash

@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-01-08T11:53:53.509Z",
+  "duration": "1205ms",
+  "summary": {
+    "total": 35,
+    "passed": 20,
+    "failed": 15,
+    "passRate": "57.1%",
+    "unsafeExecutions": 0,
+    "regressionDetected": true
+  },
+  "failedScenarios": [
+    {
+      "category": "Indirect / Implied Requests",
+      "scenario": "Implied music request",
+      "input": "I'm bored, play something nice",
+      "actualIntent": "play",
+      "expectedIntent": "play",
+      "notes": [
+        "Low confidence: 0.321 < 0.4"
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Indirect / Implied Requests",
+      "scenario": "Implied browser request",
+      "input": "I want to watch something on YouTube",
+      "actualIntent": "search_youtube",
+      "expectedIntent": "open_youtube",
+      "notes": [
+        "Intent mismatch: got \"search_youtube\", expected \"open_youtube\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Indirect / Implied Requests",
+      "scenario": "Implied volume adjustment",
+      "input": "It's too quiet in here",
+      "actualIntent": "open_application",
+      "expectedIntent": "volume_up",
+      "notes": [
+        "Intent mismatch: got \"open_application\", expected \"volume_up\"",
+        "Low confidence: 0.093 < 0.25"
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Indirect / Implied Requests",
+      "scenario": "Implied search intent",
+      "input": "I need to find something about cooking",
+      "actualIntent": "list_files",
+      "expectedIntent": "search_youtube",
+      "notes": [
+        "Intent mismatch: got \"list_files\", expected \"search_youtube\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Context-Based Follow-ups",
+      "scenario": "Contextual pause after play",
+      "input": "play some music → stop it",
+      "notes": [
+        "Final intent mismatch: got \"start_server\", expected \"pause\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Context-Based Follow-ups",
+      "scenario": "Follow-up search after opening website",
+      "input": "open youtube → search for jazz music",
+      "notes": [
+        "Final intent mismatch: got \"play\", expected \"search_youtube\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Context-Based Follow-ups",
+      "scenario": "Pronoun resolution - open it again",
+      "input": "open youtube → close it → open it again",
+      "notes": [
+        "Final intent mismatch: got \"open_terminal\", expected \"open_youtube\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Context-Based Follow-ups",
+      "scenario": "Context retention for file operations",
+      "input": "list files → create a new folder called test → what files are here now",
+      "notes": [
+        "Final intent mismatch: got \"goodbye\", expected \"list_files\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Conversational / Natural Language",
+      "scenario": "Polite request format",
+      "input": "Could you please open YouTube for me?",
+      "actualIntent": "search_youtube",
+      "expectedIntent": "open_youtube",
+      "notes": [
+        "Intent mismatch: got \"search_youtube\", expected \"open_youtube\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Conversational / Natural Language",
+      "scenario": "Informal greeting continuation",
+      "input": "Hey, what's up? How can you help me today?",
+      "actualIntent": "create_file",
+      "expectedIntent": "greeting",
+      "notes": [
+        "Intent mismatch: got \"create_file\", expected \"greeting\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "User Corrections",
+      "scenario": "Negation and redirect",
+      "input": "open youtube → not that, google please",
+      "notes": [
+        "Final intent mismatch: got \"search_google\", expected \"open_website\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Story-Based Input",
+      "scenario": "Story context - need entertainment",
+      "input": "I just got home from a long day and need to relax with some music",
+      "actualIntent": "what_day",
+      "expectedIntent": "play",
+      "notes": [
+        "Intent mismatch: got \"what_day\", expected \"play\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Misspellings / Informal Language",
+      "scenario": "Typo in YouTube",
+      "input": "opn youtub",
+      "actualIntent": "open_application",
+      "expectedIntent": "open_youtube",
+      "notes": [
+        "Intent mismatch: got \"open_application\", expected \"open_youtube\"",
+        "Behavior mismatch: decision \"unknown\" vs expected \"undefined\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Misspellings / Informal Language",
+      "scenario": "Phonetic typing - volume",
+      "input": "volum up plz",
+      "actualIntent": "greeting",
+      "expectedIntent": "volume_up",
+      "notes": [
+        "Intent mismatch: got \"greeting\", expected \"volume_up\""
+      ],
+      "unsafe": false
+    },
+    {
+      "category": "Misspellings / Informal Language",
+      "scenario": "Multiple typos",
+      "input": "paly som musec",
+      "actualIntent": "open_application",
+      "expectedIntent": "play",
+      "notes": [
+        "Intent mismatch: got \"open_application\", expected \"play\"",
+        "Behavior mismatch: decision \"unknown\" vs expected \"undefined\""
+      ],
+      "unsafe": false
+    }
+  ],
+  "categories": {
+    "Indirect / Implied Requests": {
+      "passed": 1,
+      "failed": 4
+    },
+    "Multi-Intent Sentences": {
+      "passed": 3,
+      "failed": 0
+    },
+    "Context-Based Follow-ups": {
+      "passed": 1,
+      "failed": 4
+    },
+    "Conversational / Natural Language": {
+      "passed": 3,
+      "failed": 2
+    },
+    "User Corrections": {
+      "passed": 2,
+      "failed": 1
+    },
+    "Ambiguous Input": {
+      "passed": 4,
+      "failed": 0
+    },
+    "Story-Based Input": {
+      "passed": 3,
+      "failed": 1
+    },
+    "Misspellings / Informal Language": {
+      "passed": 3,
+      "failed": 3
+    }
+  }
+}
