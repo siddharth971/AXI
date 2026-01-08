@@ -1,0 +1,58 @@
+[
+  {
+    "intent": "play",
+    "utterances": [
+      "play",
+      "play music",
+      "start playing",
+      "resume playback",
+      "axi play karo",
+      "play the song",
+      "continue playing"
+    ]
+  },
+  {
+    "intent": "pause",
+    "utterances": [
+      "pause",
+      "pause music",
+      "stop playing",
+      "axi pause karo",
+      "pause the song",
+      "hold playback"
+    ]
+  },
+  {
+    "intent": "next",
+    "utterances": [
+      "next song",
+      "next track",
+      "skip",
+      "skip song",
+      "axi agla gaana",
+      "play next",
+      "next please"
+    ]
+  },
+  {
+    "intent": "previous",
+    "utterances": [
+      "previous song",
+      "previous track",
+      "go back",
+      "last song",
+      "axi pichla gaana",
+      "play previous"
+    ]
+  },
+  {
+    "intent": "open_spotify",
+    "utterances": [
+      "open spotify",
+      "launch spotify",
+      "start spotify",
+      "axi spotify kholo",
+      "play spotify"
+    ]
+  }
+]

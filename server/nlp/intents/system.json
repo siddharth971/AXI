@@ -71,7 +71,7 @@
     ]
   },
   {
-    "intent": "music_control",
+    "intent": "play",
     "utterances": [
       "play music",
       "start music",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "intent": "stop_music",
+    "intent": "stop",
     "utterances": [
       "stop music",
       "pause music",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "intent": "shutdown",
+    "intent": "shutdown_system",
     "utterances": [
       "shutdown",
       "shut down",
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "intent": "restart",
+    "intent": "restart_system",
     "utterances": [
       "restart",
       "restart computer",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "intent": "open_app",
+    "intent": "open_application",
     "utterances": [
       "open notepad",
       "open calculator",

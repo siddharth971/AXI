@@ -1,0 +1,100 @@
+[
+  {
+    "intent": "git_status",
+    "utterances": [
+      "show git status",
+      "git status",
+      "check git status",
+      "what's the git status",
+      "axi git status dikha",
+      "axi show git status",
+      "repository status",
+      "check repo status",
+      "working directory status",
+      "any changes in git"
+    ]
+  },
+  {
+    "intent": "git_commit",
+    "utterances": [
+      "git commit",
+      "commit changes",
+      "commit the code",
+      "axi commit karo",
+      "git commit kar do",
+      "save changes to git",
+      "commit with message",
+      "make a commit"
+    ]
+  },
+  {
+    "intent": "git_pull",
+    "utterances": [
+      "git pull",
+      "pull latest changes",
+      "pull from remote",
+      "axi git pull kar",
+      "update from remote",
+      "sync with remote"
+    ]
+  },
+  {
+    "intent": "git_push",
+    "utterances": [
+      "git push",
+      "push changes",
+      "push to remote",
+      "axi git push kar",
+      "upload code",
+      "push commits"
+    ]
+  },
+  {
+    "intent": "start_server",
+    "utterances": [
+      "start server",
+      "run server",
+      "start dev server",
+      "npm run dev",
+      "axi server start karo",
+      "start the development server",
+      "run development server",
+      "start local server"
+    ]
+  },
+  {
+    "intent": "npm_install",
+    "utterances": [
+      "npm install",
+      "install packages",
+      "install dependencies",
+      "axi npm install karo",
+      "run npm install",
+      "install node modules"
+    ]
+  },
+  {
+    "intent": "open_vscode",
+    "utterances": [
+      "open vscode",
+      "open vs code",
+      "open visual studio code",
+      "launch vscode",
+      "axi vscode kholo",
+      "start vscode",
+      "open code editor"
+    ]
+  },
+  {
+    "intent": "open_terminal",
+    "utterances": [
+      "open terminal",
+      "open command prompt",
+      "launch terminal",
+      "open cmd",
+      "axi terminal kholo",
+      "start terminal",
+      "open powershell"
+    ]
+  }
+]

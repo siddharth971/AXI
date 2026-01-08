@@ -1,0 +1,94 @@
+[
+  {
+    "intent": "create_folder",
+    "utterances": [
+      "create folder",
+      "create a new folder",
+      "make folder",
+      "new folder",
+      "axi folder banao",
+      "create directory",
+      "make directory",
+      "axi naya folder bana"
+    ]
+  },
+  {
+    "intent": "create_file",
+    "utterances": [
+      "create file",
+      "create a new file",
+      "make file",
+      "new file",
+      "axi file banao",
+      "write a file",
+      "axi naya file bana"
+    ]
+  },
+  {
+    "intent": "open_file",
+    "utterances": [
+      "open file",
+      "open the file",
+      "axi file kholo",
+      "open document",
+      "show file",
+      "access file"
+    ]
+  },
+  {
+    "intent": "delete_file",
+    "utterances": [
+      "delete file",
+      "remove file",
+      "delete the file",
+      "axi file delete karo",
+      "erase file",
+      "trash file"
+    ]
+  },
+  {
+    "intent": "delete_folder",
+    "utterances": [
+      "delete folder",
+      "remove folder",
+      "delete directory",
+      "axi folder delete karo",
+      "remove directory",
+      "erase folder"
+    ]
+  },
+  {
+    "intent": "search_file",
+    "utterances": [
+      "search file",
+      "find file",
+      "where is file",
+      "locate file",
+      "axi file dhundho",
+      "search for file"
+    ]
+  },
+  {
+    "intent": "rename_file",
+    "utterances": [
+      "rename file",
+      "change file name",
+      "rename the file",
+      "axi file ka naam badlo",
+      "update file name"
+    ]
+  },
+  {
+    "intent": "list_files",
+    "utterances": [
+      "list files",
+      "show files",
+      "list files in folder",
+      "show me the files",
+      "axi files dikha",
+      "what files are there",
+      "show directory contents",
+      "list directory"
+    ]
+  }
+]

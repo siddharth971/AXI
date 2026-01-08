@@ -1,0 +1,84 @@
+[
+  {
+    "intent": "unit_convert",
+    "utterances": [
+      "convert km to miles",
+      "convert 100 km to miles",
+      "how many miles in 100 km",
+      "axi convert karo",
+      "unit conversion",
+      "convert meters to feet",
+      "convert celsius to fahrenheit",
+      "convert pounds to kg",
+      "convert liters to gallons"
+    ]
+  },
+  {
+    "intent": "currency_convert",
+    "utterances": [
+      "convert usd to inr",
+      "how much is 100 dollars in rupees",
+      "convert 100 usd to inr",
+      "currency conversion",
+      "axi currency convert karo",
+      "exchange rate",
+      "convert euros to dollars"
+    ]
+  },
+  {
+    "intent": "date_math",
+    "utterances": [
+      "what date is 10 days from now",
+      "add 10 days to today",
+      "what will be the date after 10 days",
+      "subtract 5 days from today",
+      "axi date calculate karo",
+      "calculate future date",
+      "what date after 2 weeks"
+    ]
+  },
+  {
+    "intent": "days_between",
+    "utterances": [
+      "how many days until",
+      "days between dates",
+      "how many days from now to",
+      "calculate days between",
+      "axi kitne din bache",
+      "countdown to date"
+    ]
+  },
+  {
+    "intent": "set_reminder",
+    "utterances": [
+      "remind me",
+      "set a reminder",
+      "remind me in 5 minutes",
+      "set reminder for",
+      "axi yaad dilana",
+      "create reminder"
+    ]
+  },
+  {
+    "intent": "what_day",
+    "utterances": [
+      "what day is today",
+      "what day of the week",
+      "which day is it",
+      "axi aaj kaun sa din hai",
+      "what day was",
+      "which weekday"
+    ]
+  },
+  {
+    "intent": "define_word",
+    "utterances": [
+      "define the word",
+      "what does mean",
+      "meaning of",
+      "definition of",
+      "axi matlab batao",
+      "what is the meaning"
+    ]
+  }
+]
