@@ -1,10 +1,10 @@
 {
-  "trainedAt": "2026-01-08T11:45:53.547Z",
+  "trainedAt": "2026-01-10T06:15:44.405Z",
   "version": "2.1.0",
   "type": "brain.js",
   "stats": {
-    "error": 0.004971778976329383,
-    "iterations": 233
+    "error": 0.00494528959238782,
+    "iterations": 166
   },
   "config": {
     "ITERATIONS": 2000,
@@ -15,8 +15,8 @@
     ],
     "ACTIVATION": "sigmoid",
     "PLUGIN_DIRS": [
-      "D:\\jarvis-voice-assistant\\server\\skills\\plugins",
-      "D:\\jarvis-voice-assistant\\server\\plugins"
+      "/home/twelight/AXI-1/server/skills/plugins",
+      "/home/twelight/AXI-1/server/plugins"
     ]
   }
 }

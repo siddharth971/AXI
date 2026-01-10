@@ -9,7 +9,7 @@
       "time please",
       "axi what time is it",
       "can you tell me the time",
-      "what's the time",
+      "whats the time",
       "time batao",
       "kya time hua hai",
       "axi time batao",
@@ -25,16 +25,20 @@
       "axi kya time ho gaya",
       "time bata do",
       "what time now",
-      "tym batao"
+      "tym batao",
+      "wat time is it",
+      "timee please",
+      "i need to know the time",
+      "current samay kya hai"
     ]
   },
   {
     "intent": "tell_date",
     "utterances": [
-      "what is today's date",
+      "whats todays date",
       "what date is it",
       "tell me the date",
-      "today's date",
+      "todays date",
       "axi what date is it",
       "aaj ki date kya hai",
       "date batao",
@@ -44,15 +48,41 @@
       "today date kya hai",
       "date bata do",
       "kya date hai aaj",
-      "axi aaj ki date bata"
+      "axi aaj ki date bata",
+      "current date",
+      "what is the date today",
+      "datee please",
+      "dat batao",
+      "whats the date",
+      "i forgot the date",
+      "aaj ki tarikh bhool gaya",
+      "tell me todays date please",
+      "date check karo",
+      "axi date check kar",
+      "can you tell me the date",
+      "what is todays date",
+      "axi todays date kya hai",
+      "date today",
+      "today ka date batao",
+      "aaj ka date",
+      "what date is today",
+      "what date today",
+      "todays date please",
+      "date kya hai",
+      "date de do",
+      "todays date batao",
+      "today date",
+      "give me the date",
+      "date please tell me",
+      "the date today"
     ]
   },
   {
     "intent": "weather_check",
     "utterances": [
-      "what's the weather",
+      "whats the weather",
       "weather update",
-      "how's the weather",
+      "hows the weather",
       "tell me the weather",
       "weather forecast",
       "axi weather batao",
@@ -69,7 +99,12 @@
       "kitni garmi hai",
       "kitni thand hai",
       "axi weather update de",
-      "mausam ki jankari do"
+      "mausam ki jankari do",
+      "weathr check karo",
+      "wether batao",
+      "weatherr update",
+      "i want to know the weather",
+      "bahar jana hai mausam kaisa hai"
     ]
   },
   {
@@ -90,16 +125,25 @@
       "joke bolo",
       "ek joke batao",
       "axi koi mazaak suna",
-      "hasi wali baat bolo"
+      "hasi wali baat bolo",
+      "joek sunao",
+      "jokee please",
+      "tel me a joke",
+      "i need a laugh",
+      "bore ho raha hoon joke sunao",
+      "entertainment chahiye",
+      "axi hanso mujhe",
+      "funny kuch bolo",
+      "can you tell a joke"
     ]
   },
   {
     "intent": "news_update",
     "utterances": [
-      "what's the news",
+      "whats the news",
       "tell me the news",
       "news update",
-      "today's news",
+      "todays news",
       "axi news batao",
       "kya news hai",
       "aaj ki khabar",
@@ -111,7 +155,16 @@
       "taza khabar",
       "latest news",
       "news update de",
-      "kya chal raha hai duniya mein"
+      "kya chal raha hai duniya mein",
+      "newss update",
+      "nws batao",
+      "headines batao",
+      "i want to know the news",
+      "current events kya hain",
+      "axi kya ho raha hai",
+      "updates do news ki",
+      "trending news",
+      "can you tell me the news"
     ]
   },
   {
@@ -130,7 +183,18 @@
       "calculation karo",
       "math solve karo",
       "axi hisaab kar",
-      "jod do ye numbers"
+      "jod do ye numbers",
+      "calculte karo",
+      "calcualate please",
+      "calculater use karo",
+      "i need to calculate something",
+      "mujhe hisaab karna hai",
+      "axi math kar do",
+      "ye calculate karo",
+      "quick math",
+      "numbers jodo",
+      "addition karo",
+      "can you calculate this"
     ]
   }
 ]
