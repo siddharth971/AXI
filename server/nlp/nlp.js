@@ -16,6 +16,7 @@ const nluPipeline = require("./nlu-pipeline");
 const preprocessor = require("./preprocessor");
 const { loadAllRules } = require("./rule-loader");
 const semanticMatcher = require("./semantic");
+const contextStore = require("./context-store");
 const { logger } = require("../utils");
 
 
@@ -256,6 +257,65 @@ module.exports = {
     return decisionEngine.explainDecision(result);
   },
 
+  /**
+   * Interpret with full context awareness
+   * Handles pronouns, follow-ups, and conversational continuity
+   * 
+   * @param {string} text - User input
+   * @returns {Promise<Object>} - Context-aware interpretation result
+   */
+  async interpretWithContext(text) {
+    // Step 1: Check for follow-up commands (e.g., "louder" after "play")
+    const followUp = contextStore.detectFollowUp(text);
+    if (followUp) {
+      return {
+        intent: followUp.intent,
+        confidence: followUp.confidence,
+        source: "context",
+        reason: followUp.reason,
+        nlu: nluPipeline.process(text)
+      };
+    }
+
+    // Step 2: Resolve pronouns (e.g., "open it" → "open youtube")
+    const resolved = contextStore.resolvePronoun(text);
+    const textToInterpret = resolved.resolved ? resolved.text : text;
+
+    // Step 3: Standard interpretation
+    const result = await this.interpret(textToInterpret);
+
+    // Add context metadata
+    result.contextResolved = resolved.resolved;
+    result.originalInput = resolved.resolved ? text : null;
+    result.resolvedReference = resolved.reference;
+
+    return result;
+  },
+
+  /**
+   * Update context after successful command execution
+   * Call this after executing a command to maintain context
+   * 
+   * @param {Object} interaction - The completed interaction
+   */
+  updateContext(interaction) {
+    contextStore.push(interaction);
+  },
+
+  /**
+   * Get current context state
+   */
+  getContext() {
+    return contextStore.getState();
+  },
+
+  /**
+   * Clear context (new session)
+   */
+  clearContext() {
+    contextStore.clear();
+  },
+
   reloadModel() {
     loadModel();
   },
@@ -276,8 +336,8 @@ module.exports = {
   },
 
   /**
-   * Export decision engine for direct access
+   * Export modules for direct access
    */
-  decisionEngine
+  decisionEngine,
+  contextStore
 };
-
