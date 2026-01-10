@@ -27,7 +27,7 @@ let initPromise = null;
 
 /**
  * Initialize the semantic matching system
- * Loads USE model and intent vectors
+ * Loads intent vectors from file (TF-IDF is synchronous)
  */
 async function initialize() {
   if (isInitialized) return true;
@@ -44,9 +44,6 @@ async function initialize() {
         logger.warn("Semantic matching disabled: no intent vectors found");
         return false;
       }
-
-      // Pre-load USE model (async)
-      await embedder.loadModel();
 
       isInitialized = true;
       logger.success("Semantic matching initialized");
@@ -77,8 +74,8 @@ async function semanticMatch(text) {
   }
 
   try {
-    // Generate embedding for input
-    const inputEmbedding = await embedder.embed(text);
+    // Generate embedding for input (TF-IDF is synchronous)
+    const inputEmbedding = embedder.embed(text);
 
     // Get intent vectors
     const intentVectors = embedder.getIntentVectors();
@@ -116,7 +113,7 @@ async function debug(text) {
   }
 
   try {
-    const inputEmbedding = await embedder.embed(text);
+    const inputEmbedding = embedder.embed(text);
     const intentVectors = embedder.getIntentVectors();
 
     if (!intentVectors) {

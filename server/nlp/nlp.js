@@ -151,6 +151,8 @@ async function semanticLayer(text) {
 // Main Export
 // ===========================
 
+const decisionEngine = require("./decision-engine");
+
 module.exports = {
   /**
    * Interpret user input using the layered NLP system
@@ -173,6 +175,52 @@ module.exports = {
     // Step 3: Brain.js ML classifier (fallback)
     const ml = mlLayer(text);
     return { ...ml, source: "classifier", nlu };
+  },
+
+  /**
+   * Interpret with full decision engine - provides decision type
+   * (execute, confirm, clarify, unknown)
+   * 
+   * @param {string} text - User input
+   * @returns {Promise<Object>} - Decision result with action recommendation
+   */
+  async interpretWithDecision(text) {
+    const nlu = nluPipeline.process(text);
+
+    // Gather signals from all layers
+    const rule = rulesLayer(text, nlu);
+    const semantic = await semanticLayer(text);
+    const classifier = mlLayer(text);
+
+    // Use decision engine to make final decision
+    const decision = decisionEngine.decide(
+      { rules: rule, semantic, classifier },
+      { lastIntent: null } // Context can be passed here
+    );
+
+    return {
+      ...decision,
+      nlu,
+      signals: {
+        rules: rule,
+        semantic,
+        classifier
+      }
+    };
+  },
+
+  /**
+   * Process multi-intent commands
+   * e.g., "open youtube and play music" → 2 separate actions
+   * 
+   * @param {string} text - User input
+   * @returns {Promise<Object>} - Multi-intent result
+   */
+  async interpretMulti(text) {
+    const self = this;
+    return decisionEngine.processMultiIntent(text, async (segment) => {
+      return self.interpret(segment);
+    });
   },
 
   /**
@@ -200,6 +248,14 @@ module.exports = {
     return semanticMatcher.debug(text);
   },
 
+  /**
+   * Debug decision engine for a given text
+   */
+  async debugDecision(text) {
+    const result = await this.interpretWithDecision(text);
+    return decisionEngine.explainDecision(result);
+  },
+
   reloadModel() {
     loadModel();
   },
@@ -217,5 +273,11 @@ module.exports = {
    */
   async initializeSemantic() {
     return semanticMatcher.initialize();
-  }
+  },
+
+  /**
+   * Export decision engine for direct access
+   */
+  decisionEngine
 };
+
