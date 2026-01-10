@@ -197,7 +197,7 @@ let classificationResults = {
 console.log(`\n${c.gray}Testing ${classificationTests.length} utterances...${c.reset}\n`);
 
 classificationTests.forEach(test => {
-  const result = nlp.interpret(test.text);
+  const result = nlp.interpretSync(test.text);
   const isCorrect = result.intent === test.expectedIntent;
   const isLowConf = result.confidence < 0.5;
 
@@ -277,7 +277,7 @@ console.log("─".repeat(50));
 
 // Test empty input
 try {
-  const emptyResult = nlp.interpret("");
+  const emptyResult = nlp.interpretSync("");
   pass("Handles empty input gracefully");
 } catch (e) {
   fail(`Crashes on empty input: ${e.message}`);
@@ -286,7 +286,7 @@ try {
 // Test very long input
 try {
   const longInput = "a ".repeat(1000);
-  const longResult = nlp.interpret(longInput);
+  const longResult = nlp.interpretSync(longInput);
   pass("Handles very long input");
 } catch (e) {
   fail(`Crashes on long input: ${e.message}`);
@@ -294,7 +294,7 @@ try {
 
 // Test special characters
 try {
-  const specialResult = nlp.interpret("!@#$%^&*()");
+  const specialResult = nlp.interpretSync("!@#$%^&*()");
   pass("Handles special characters");
 } catch (e) {
   fail(`Crashes on special characters: ${e.message}`);
@@ -308,7 +308,7 @@ console.log("─".repeat(50));
 
 const perfStart = Date.now();
 for (let i = 0; i < 100; i++) {
-  nlp.interpret("hello how are you doing today");
+  nlp.interpretSync("hello how are you doing today");
 }
 const perfTime = Date.now() - perfStart;
 const avgTime = perfTime / 100;

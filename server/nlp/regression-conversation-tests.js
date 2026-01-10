@@ -509,9 +509,10 @@ async function sendCommand(text, sessionId = "default") {
 
 /**
  * Get NLP interpretation without backend execution
+ * Uses interpretSync for test compatibility (no semantic layer in tests)
  */
 function interpretNLP(text) {
-  return nlp.interpret(text);
+  return nlp.interpretSync(text);
 }
 
 /**

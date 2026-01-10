@@ -70,8 +70,8 @@ app.post("/api/command", async (req, res) => {
         }
       };
     } else {
-      // 2. Standard NLP Processing
-      nlpResult = nlp.interpret(text);
+      // 2. Standard NLP Processing (async for semantic matching)
+      nlpResult = await nlp.interpret(text);
     }
 
     logger.nlp(nlpResult);
