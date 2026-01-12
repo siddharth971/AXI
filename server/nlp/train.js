@@ -21,10 +21,11 @@ const MODEL_PATH = path.join(OUTPUT_DIR, "model.json");
 
 // Configuration
 const CONFIG = {
-  ITERATIONS: 2000,       // Max training iterations
-  ERROR_THRESH: 0.005,    // Stop when error is below this
-  HIDDEN_LAYERS: [16, 16], // Structure
+  ITERATIONS: 10000,       // Increased for deeper learning
+  ERROR_THRESH: 0.002,    // Lower threshold for higher precision
+  HIDDEN_LAYERS: [64, 64], // Significantly increased capacity (was [16, 16])
   ACTIVATION: 'sigmoid',
+  LEARNING_RATE: 0.3,     // Explicitly defined
   PLUGIN_DIRS: [
     path.join(__dirname, "../skills/plugins"),
     path.join(__dirname, "../plugins")
@@ -122,7 +123,7 @@ async function train() {
       errorThresh: CONFIG.ERROR_THRESH,
       log: (str) => console.log(`   ${str}`),
       logPeriod: 100,
-      learningRate: 0.3
+      learningRate: CONFIG.LEARNING_RATE
     });
 
     console.log(`\n${colors.green}✅ Training Complete!${colors.reset}`);

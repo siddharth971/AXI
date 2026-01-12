@@ -187,5 +187,65 @@
       "quit chrome",
       "browser se bahar niklo"
     ]
+  },
+  {
+    "intent": "browser.reload",
+    "utterances": [
+      "reload page",
+      "refresh page",
+      "reload website",
+      "refresh the tab",
+      "reload this page",
+      "page refresh karo",
+      "dobara load karo",
+      "axi refresh karo",
+      "website reload karo",
+      "phir se load karo",
+      "update the page",
+      "refresh chrome",
+      "reload browser",
+      "page reload maro",
+      "wapas load karo",
+      "refresh this site",
+      "browser refresh",
+      "can you reload",
+      "please refresh the page",
+      "reload tab",
+      "refresh kar do",
+      "page stuck ho gaya refresh karo",
+      "website update karo",
+      "reload current page",
+      "refresh window"
+    ]
+  },
+  {
+    "intent": "browser.go_back",
+    "utterances": [
+      "go back",
+      "go to previous page",
+      "browser back",
+      "go back one page",
+      "previous page",
+      "piche jao",
+      "wapas jao browser mein",
+      "back button dabao",
+      "last page pe jao",
+      "axi back jao",
+      "previous website",
+      "return to last page",
+      "go backward",
+      "browser mein piche jao",
+      "pichla page kholo",
+      "back karo",
+      "navigate back",
+      "piche wala page",
+      "move back",
+      "go back please",
+      "undo navigation",
+      "wapas piche",
+      "browse back",
+      "go back to search",
+      "return back"
+    ]
   }
 ]

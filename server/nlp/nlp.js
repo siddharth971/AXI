@@ -11,6 +11,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 const brain = require("brain.js");
 const nluPipeline = require("./nlu-pipeline");
 const preprocessor = require("./preprocessor");
@@ -18,6 +19,7 @@ const { loadAllRules } = require("./rule-loader");
 const semanticMatcher = require("./semantic");
 const contextStore = require("./context-store");
 const { logger } = require("../utils");
+const learningMonitor = require("./learning-monitor");
 
 
 // ===========================
@@ -154,6 +156,54 @@ async function semanticLayer(text) {
 
 const decisionEngine = require("./decision-engine");
 
+/**
+ * Trigger curated retraining from approved logs
+ */
+async function retrainFromLogs() {
+  const queue = learningMonitor.getTrainingQueue();
+  if (queue.length === 0) {
+    logger.info("[Learning] No items to retrain.");
+    return false;
+  }
+
+  const learnedPath = path.join(__dirname, "intents", "learned.json");
+  let learnedData = [];
+  if (fs.existsSync(learnedPath)) {
+    try {
+      learnedData = JSON.parse(fs.readFileSync(learnedPath, 'utf8'));
+    } catch (e) {
+      learnedData = [];
+    }
+  }
+
+  // Update intent data
+  queue.forEach(item => {
+    let entry = learnedData.find(d => d.intent === item.intent);
+    if (!entry) {
+      entry = { intent: item.intent, utterances: [] };
+      learnedData.push(entry);
+    }
+    if (!entry.utterances.includes(item.text)) {
+      entry.utterances.push(item.text);
+    }
+  });
+
+  fs.writeFileSync(learnedPath, JSON.stringify(learnedData, null, 2));
+  logger.success(`[Learning] Added ${queue.length} new utterances to learned.json`);
+
+  // Run Training
+  logger.info("[Learning] Starting retraining...");
+  try {
+    execSync("node train.js", { cwd: __dirname, stdio: 'inherit' });
+    learningMonitor.clearTrainingQueue();
+    loadModel();
+    return true;
+  } catch (e) {
+    logger.error(`[Learning] Retraining failed: ${e.message}`);
+    return false;
+  }
+}
+
 module.exports = {
   /**
    * Interpret user input using the layered NLP system
@@ -175,6 +225,14 @@ module.exports = {
 
     // Step 3: Brain.js ML classifier (fallback)
     const ml = mlLayer(text);
+
+    // Learning Loop: Log failures
+    if (ml.intent === "none") {
+      learningMonitor.logUnknown(text, { source: "classifier" });
+    } else if (ml.confidence < 0.6) {
+      learningMonitor.logLowConfidence(text, ml.intent, ml.confidence);
+    }
+
     return { ...ml, source: "classifier", nlu };
   },
 
@@ -350,5 +408,7 @@ module.exports = {
    * Export modules for direct access
    */
   decisionEngine,
-  contextStore
+  contextStore,
+  learningMonitor,
+  retrainFromLogs
 };
