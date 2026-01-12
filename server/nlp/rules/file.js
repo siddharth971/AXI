@@ -14,7 +14,7 @@ module.exports = {
    */
   listFiles(text) {
     const msg = text.toLowerCase();
-    if (/\b(list files|show files|files dikha|files dikhao|list directory|dir\b|ls\b|folder ke files|directory ke files|show folder contents)\b/i.test(msg)) {
+    if (/\b(list files|show files|files dikha|files dikhao|list directory|dir\b|ls\b|folder ke files|directory ke files|show folder contents|what files)\b/i.test(msg)) {
       return { intent: "list_files", confidence: 1, entities: {} };
     }
     return null;

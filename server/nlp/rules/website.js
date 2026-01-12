@@ -37,12 +37,21 @@ module.exports = {
     // Use extracted website from NLU
     if (entities?.website && signals?.isCommand) {
       if (entities.website === "youtube") {
-        return { intent: "open_youtube", confidence: 1, entities: {} };
+        return { intent: "open_youtube", confidence: 1, entities: { website: "youtube" } };
       }
       return {
         intent: "open_website",
         confidence: 1,
         entities: { url: entities.website }
+      };
+    }
+
+    // Explicit google request in correction context
+    if (/\bgoogle please\b/i.test(msg)) {
+      return {
+        intent: "open_website",
+        confidence: 1,
+        entities: { url: "google" }
       };
     }
 

@@ -94,7 +94,7 @@ function extractSearchQuery(text) {
   // Pattern: "search for X" or "search X on Y" or "find X"
   const patterns = [
     /search (?:for |on youtube for |youtube for )?(.+)/i,
-    /find (.+?) (?:on|in)/i,
+    /find (.+?) (?:on|in|about)/i,
     /look up (.+)/i,
     /look for (.+)/i
   ];

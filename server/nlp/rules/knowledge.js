@@ -65,8 +65,8 @@ module.exports = {
   whatDay(text) {
     const msg = text.toLowerCase();
 
-    // Match "what day is today/it"
-    if (/\b(what day|which day|kaun sa din|kya day|aaj.*din)\b/i.test(msg)) {
+    // Pattern: "what day is it"
+    if (/what day|which day|kaun sa din|kya din/.test(msg)) {
       return { intent: "what_day", confidence: 1, entities: {} };
     }
 

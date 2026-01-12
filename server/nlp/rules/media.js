@@ -44,7 +44,7 @@ module.exports = {
    * Play music/media
    */
   play(text) {
-    if (/\b(play music|play gaana|play song|resume|start music|music play|gaana chalao)\b/i.test(text)) {
+    if (/\b(play|paly|ply|play music|play gaana|play song|resume|start music|music play|gaana chalao|relax with.*music|hear songs|hear music)\b/i.test(text)) {
       return { intent: "play", confidence: 1, entities: {} };
     }
     return null;
@@ -84,7 +84,7 @@ module.exports = {
    * Stop media
    */
   stop(text) {
-    if (/\b(stop music|stop playing|music band|gaana band|stop song)\b/i.test(text)) {
+    if (/\b(stop music|stop playing|music band|gaana band|stop song|stop it|stop that)\b/i.test(text)) {
       return { intent: "stop", confidence: 1, entities: {} };
     }
     return null;

@@ -27,7 +27,7 @@ module.exports = {
   },
 
   time(text) {
-    if (/what time|tell.+time|current time/.test(text.toLowerCase())) {
+    if (/what time|tell.+time|current time|wats d time/.test(text.toLowerCase())) {
       return { intent: "tell_time", confidence: 1, entities: {} };
     }
     return null;

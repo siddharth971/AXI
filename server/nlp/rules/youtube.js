@@ -7,6 +7,16 @@
 
 module.exports = {
   /**
+   * Match generic YouTube open requests
+   */
+  openYoutube(text) {
+    if (/watch something on youtube|open youtube/i.test(text.toLowerCase())) {
+      return { intent: "open_youtube", confidence: 1, entities: { website: "youtube" } };
+    }
+    return null;
+  },
+
+  /**
    * Match YouTube search queries
    * IMPORTANT: This must run BEFORE website rules
    */

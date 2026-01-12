@@ -487,6 +487,9 @@ let testSessionId = `test_${Date.now()}`;
 function resetTestSession() {
   testSessionId = `test_${Date.now()}`;
   memory.destroySession(testSessionId);
+  if (nlp.clearContext) {
+    nlp.clearContext();
+  }
 }
 
 /**
@@ -508,11 +511,11 @@ async function sendCommand(text, sessionId = "default") {
 }
 
 /**
- * Get NLP interpretation without backend execution
- * Uses interpretSync for test compatibility (no semantic layer in tests)
+ * Get NLP interpretation using full context-aware pipeline
+ * Uses interpretWithContext to support pronouns and multi-turn logic
  */
-function interpretNLP(text) {
-  return nlp.interpretSync(text);
+async function interpretNLP(text) {
+  return await nlp.interpretWithContext(text);
 }
 
 /**
@@ -539,9 +542,10 @@ function intentMatches(actual, expected, alternates = []) {
  */
 async function assertSingleTurn(test, category) {
   const { scenario, turns, expected } = test;
+  resetTestSession();
   const input = turns[0].user;
 
-  const nlpResult = interpretNLP(input);
+  const nlpResult = await interpretNLP(input);
   const { intent, confidence } = nlpResult;
   const decision = getDecision(confidence);
 
@@ -551,7 +555,7 @@ async function assertSingleTurn(test, category) {
     input,
     actualIntent: intent,
     expectedIntent: expected.intent,
-    confidence,
+    confidence: confidence || 0, // Ensure confidence exists
     decision,
     expectedBehavior: expected.behavior,
     passed: false,
@@ -611,7 +615,7 @@ async function assertMultiTurn(test, category) {
 
   for (let i = 0; i < turns.length; i++) {
     const turn = turns[i];
-    const nlpResult = interpretNLP(turn.user);
+    const nlpResult = await interpretNLP(turn.user);
 
     // Update context memory to simulate session
     memory.addHistory({
@@ -619,6 +623,14 @@ async function assertMultiTurn(test, category) {
       input: turn.user,
       confidence: nlpResult.confidence
     }, testSessionId);
+
+    // Sync to NLP's internal context store for pronoun resolution
+    nlp.updateContext({
+      intent: nlpResult.intent,
+      entities: nlpResult.entities || {},
+      input: turn.user,
+      response: "simulated response"
+    });
 
     memory.updateGlobalContext({
       lastIntent: nlpResult.intent,
@@ -664,9 +676,10 @@ async function assertMultiTurn(test, category) {
  */
 async function assertMultiIntent(test, category) {
   const { scenario, turns, expected } = test;
+  resetTestSession();
   const input = turns[0].user;
 
-  const nlpResult = interpretNLP(input);
+  const nlpResult = await interpretNLP(input);
 
   const testResult = {
     category,
@@ -699,9 +712,10 @@ async function assertMultiIntent(test, category) {
  */
 async function assertAmbiguous(test, category) {
   const { scenario, turns, expected } = test;
+  resetTestSession();
   const input = turns[0].user;
 
-  const nlpResult = interpretNLP(input);
+  const nlpResult = await interpretNLP(input);
   const { intent, confidence } = nlpResult;
   const decision = getDecision(confidence);
 
@@ -723,6 +737,7 @@ async function assertAmbiguous(test, category) {
   if (expected.mustNotExecute) {
     if (confidence >= CONFIDENCE_THRESHOLDS.HIGH) {
       testResult.notes.push(`UNSAFE: High confidence (${confidence.toFixed(3)}) on ambiguous input`);
+      testResult.notes.push(`Source: ${nlpResult.source}, Intent: ${intent}`);
       testResult.unsafe = true;
       results.regressionDetected = true;
     } else {

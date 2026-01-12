@@ -265,21 +265,32 @@ module.exports = {
    * @returns {Promise<Object>} - Context-aware interpretation result
    */
   async interpretWithContext(text) {
-    // Step 1: Check for follow-up commands (e.g., "louder" after "play")
-    const followUp = contextStore.detectFollowUp(text);
+    // Step 1: Resolve pronouns first (e.g., "open it" → "open youtube")
+    const resolved = contextStore.resolvePronoun(text);
+    const textToInterpret = resolved.resolved ? resolved.text : text;
+
+    // Step 2: Check for follow-up commands (e.g., "louder", "again")
+    // ONLY check follow-up if it's NOT a resolved pronoun with a clear command structure
+    // or if the follow-up is very specific.
+    let followUp = null;
+
+    // If we resolved a pronoun into a full command (like "open youtube"), we probably SHOULDN'T treat it as a generic "again" follow-up
+    // unless the follow-up is strictly additive (like "louder").
+    // "again" is a comprehensive replacement.
+
+    if (!resolved.resolved || !/open|play|start/.test(resolved.text)) {
+      followUp = contextStore.detectFollowUp(textToInterpret);
+    }
+
     if (followUp) {
       return {
         intent: followUp.intent,
         confidence: followUp.confidence,
         source: "context",
         reason: followUp.reason,
-        nlu: nluPipeline.process(text)
+        nlu: nluPipeline.process(textToInterpret)
       };
     }
-
-    // Step 2: Resolve pronouns (e.g., "open it" → "open youtube")
-    const resolved = contextStore.resolvePronoun(text);
-    const textToInterpret = resolved.resolved ? resolved.text : text;
 
     // Step 3: Standard interpretation
     const result = await this.interpret(textToInterpret);
