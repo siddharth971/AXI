@@ -1,0 +1,75 @@
+[
+  {
+    "intent": "check_email",
+    "utterances": [
+      "check email",
+      "check my email",
+      "show emails",
+      "read emails",
+      "any new emails",
+      "email check karo",
+      "email dikhao",
+      "koi naya email hai kya",
+      "open inbox",
+      "inbox check karo",
+      "read my messages",
+      "axi email check kar",
+      "do i have mail",
+      "mail check karo",
+      "show unread emails",
+      "latest email dikhao",
+      "mujhe email padhna hai",
+      "emails list karo",
+      "unread mails dikhao",
+      "check for new messages"
+    ]
+  },
+  {
+    "intent": "send_email",
+    "utterances": [
+      "send email",
+      "send an email",
+      "write email",
+      "compose email",
+      "email bhejo",
+      "email likho",
+      "send mail to",
+      "mail bhejo",
+      "axi email send karo",
+      "compose mail",
+      "write a new email",
+      "send message via email",
+      "email draft karo",
+      "mail likhna hai",
+      "mujhe email bhejna hai",
+      "send email to boss",
+      "email to friend",
+      "new email create karo",
+      "mail send karo"
+    ]
+  },
+  {
+    "intent": "check_calendar",
+    "utterances": [
+      "check calendar",
+      "show calendar",
+      "whats on my calendar",
+      "my schedule",
+      "calendar dikhao",
+      "aaj ka schedule kya hai",
+      "meetings dikhao",
+      "show my meetings",
+      "calendar check karo",
+      "kya meetings hai aaj",
+      "appointments dikhao",
+      "upcoming events",
+      "next meeting kab hai",
+      "calendar open karo",
+      "schedule batao",
+      "aaj kya karna hai",
+      "calendar entries dikhao",
+      "show agenda",
+      "my day plan"
+    ]
+  }
+]
