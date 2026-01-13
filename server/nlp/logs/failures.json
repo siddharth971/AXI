@@ -390,5 +390,13 @@
     "predictedIntent": "media.repeat",
     "confidence": 0.02700326032936573,
     "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:25:27.622Z",
+    "type": "low_confidence",
+    "text": "dude",
+    "predictedIntent": "system.battery_status",
+    "confidence": 0.06607959419488907,
+    "status": "pending_review"
   }
 ]

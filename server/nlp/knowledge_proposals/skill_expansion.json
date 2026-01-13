@@ -1,0 +1,44 @@
+[
+  {
+    "pluginName": "productivity.playlist_manager",
+    "requiredAPIs": ["Spotify Web API", "Apple Music API"],
+    "deterministicCommandStructure": "playlist.add(trackId, playlistId)",
+    "safetyChecks": [
+      "Verify playlist ownership",
+      "Check track existence",
+      "Rate limit API calls"
+    ],
+    "exampleCommands": [
+      "Add 'Blinding Lights' to my Chill Hits playlist",
+      "Put this song in my workout list"
+    ]
+  },
+  {
+    "pluginName": "system.troubleshoot_utility",
+    "requiredAPIs": [
+      "OS Level Monitoring (psutil/node-os-utils)",
+      "Network Diagnostic tools"
+    ],
+    "deterministicCommandStructure": "system.diagnose(category)",
+    "safetyChecks": [
+      "Read-only access to system logs",
+      "Prevent execution of destructive commands during diagnostics",
+      "Data anonymization before reporting"
+    ],
+    "exampleCommands": [
+      "Troubleshoot my internet",
+      "Why is the laptop so slow?"
+    ]
+  },
+  {
+    "pluginName": "iot.climate_control",
+    "requiredAPIs": ["Home Assistant API", "Google Home Graph API"],
+    "deterministicCommandStructure": "iot.set_state(device_id, {temperature: value})",
+    "safetyChecks": [
+      "Range validation (16-30°C)",
+      "Device availability check",
+      "Conflict resolution (e.g., if another user changed it)"
+    ],
+    "exampleCommands": ["Set AC to 22 degrees", "Make the room warmer"]
+  }
+]

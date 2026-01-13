@@ -1,0 +1,42 @@
+[
+  {
+    "patternName": "Step-by-Step Instructions",
+    "description": "Guiding the user through a multi-stage process with confirmations.",
+    "idealFlow": [
+      "User request broad task",
+      "Assistant identifies task and breaks it down",
+      "Assistant presents step 1",
+      "User confirms or completes step 1",
+      "Assistant presents step 2",
+      "Repeat until completion"
+    ],
+    "contextRequirements": ["sessionState", "currentStepIndex", "stepHistory"]
+  },
+  {
+    "patternName": "Error Recovery (Misunderstanding)",
+    "description": "Gracefully handling situations where the system failed to understand.",
+    "idealFlow": [
+      "Assistant detects low confidence",
+      "Assistant provides N-best options to user",
+      "User selects or clarifies",
+      "Assistant updates model/context for future"
+    ],
+    "contextRequirements": [
+      "predictedIntents",
+      "lastUtterance",
+      "confidenceScores"
+    ]
+  },
+  {
+    "patternName": "Information Gathering",
+    "description": "Asking clarifying questions to fill required slots before execution.",
+    "idealFlow": [
+      "User provides partial intent",
+      "Assistant identifies missing slots",
+      "Assistant asks targeted question (e.g., 'Which room?')",
+      "User provides slot",
+      "Assistant executes"
+    ],
+    "contextRequirements": ["incompleteIntent", "missingSlots"]
+  }
+]

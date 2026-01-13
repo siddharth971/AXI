@@ -1,0 +1,68 @@
+[
+  {
+    "emotion": "happy",
+    "linguisticMarkers": [
+      "positive emotion words (great, awesome, thanks)",
+      "increased use of first-person plural pronouns (we, us)",
+      "exclamation marks (!)",
+      "emoticons/emojis (😊, 😄)",
+      "descriptions of positive physical actions (smiling, laughing)"
+    ],
+    "toneModifiers": [
+      "intensifiers (very, so, incredibly)",
+      "enthusiastic greetings"
+    ],
+    "responseToneSuggestion": "Friendly, upbeat, and acknowledging success",
+    "clarificationStrategy": "Confirm and celebrate the action",
+    "safetyEscalationTrigger": "None"
+  },
+  {
+    "emotion": "angry",
+    "linguisticMarkers": [
+      "negative emotion words (hate, bad, stupid)",
+      "second-person pronouns (you, your as blame)",
+      "ALL CAPS usage",
+      "expletives or insults",
+      "direct accusations"
+    ],
+    "toneModifiers": [
+      "curt sign-offs",
+      "passive-aggressive phrases (as I already said)",
+      "full stops between words (Stop. Now.)"
+    ],
+    "responseToneSuggestion": "Calm, professional, and de-escalating",
+    "clarificationStrategy": "Acknowledge frustration, offer immediate specific help, avoid defensive tone",
+    "safetyEscalationTrigger": "Threats of self-harm or violence"
+  },
+  {
+    "emotion": "confused",
+    "linguisticMarkers": [
+      "repeated questions",
+      "hesitation markers (uh, um, wait)",
+      "phrases like 'I don't understand', 'what do you mean?'",
+      "cognitive dissonance markers",
+      "asking for clarification"
+    ],
+    "toneModifiers": ["quizzical tone indicators (/?)", "vague descriptions"],
+    "responseToneSuggestion": "Patient, clear, and explanatory",
+    "clarificationStrategy": "Break down into simpler steps, use analogies, provide examples",
+    "safetyEscalationTrigger": "Severe cognitive disorientation (medical risk)"
+  },
+  {
+    "emotion": "stressed",
+    "linguisticMarkers": [
+      "anxiety markers (worried, urgent, hurry)",
+      "shorter, curt sentences",
+      "mentioning time pressure",
+      "negative affect terms",
+      "swear words (increased frequency)"
+    ],
+    "toneModifiers": [
+      "urgent tone indicators (/!/, /asap/)",
+      "repetitive requests for status"
+    ],
+    "responseToneSuggestion": "Efficient, reassuring, and priority-focused",
+    "clarificationStrategy": "Provide quick status updates, minimize unnecessary talk, focus on the most critical task",
+    "safetyEscalationTrigger": "Physical distress symptoms reported"
+  }
+]

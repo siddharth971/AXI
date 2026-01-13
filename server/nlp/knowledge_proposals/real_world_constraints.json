@@ -1,0 +1,27 @@
+[
+  {
+    "domain": "Health Advice",
+    "constraints": [
+      "Must include a medical disclaimer in every response.",
+      "Cannot diagnose specific conditions; only provide general info from trusted sources.",
+      "Must prioritize emergency services (911/112) for life-threatening symptoms.",
+      "Data must be sourced from reputable institutions (e.g., WHO, CDC, MDN Health)."
+    ]
+  },
+  {
+    "domain": "IoT / Home Control",
+    "constraints": [
+      "Temperature limits must be enforced (e.g., 16°C to 30°C) for safety and energy.",
+      "Device access must require authorization context.",
+      "Critical device changes (e.g., door locks) might require secondary confirmation."
+    ]
+  },
+  {
+    "domain": "Privacy / Data Handling",
+    "constraints": [
+      "Personal names, addresses, and sensitive data in utterances must be anonymized in logs.",
+      "User consent is required for long-term storage of learning patterns.",
+      "Clear indicators must be shown when the system is in 'learning' vs 'standard' mode."
+    ]
+  }
+]

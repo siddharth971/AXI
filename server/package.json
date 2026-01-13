@@ -15,7 +15,8 @@
     "test:validate": "node nlp/validation-report.js",
     "test:e2e": "node nlp/e2e-validation.js",
     "test:robustness": "node nlp/robustness-test.js",
-    "test:all": "npm run test:validate && npm run test:regression && npm run test:e2e && npm run test:robustness"
+    "test:all": "npm run test:validate && npm run test:regression && npm run test:e2e && npm run test:robustness",
+    "axi:explore": "node autonomous/explorer.mjs"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "cors": "^2.8.5",
     "cosine-similarity": "^1.0.1",
     "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
     "screenshot-desktop": "^1.15.3"
   },
   "devDependencies": {
