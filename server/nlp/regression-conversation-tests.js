@@ -98,7 +98,7 @@ const INDIRECT_REQUEST_TESTS = [
     scenario: "Implied volume adjustment",
     turns: [{ user: "It's too quiet in here" }],
     expected: {
-      intent: "volume_up",
+      intent: "system.volume_up",
       behavior: "execute",
       requiresContext: false,
       minConfidence: CONFIDENCE_THRESHOLDS.LOW
@@ -135,7 +135,7 @@ const MULTI_INTENT_TESTS = [
     scenario: "Sequential actions - browser then volume",
     turns: [{ user: "Open Google and then turn up the volume" }],
     expected: {
-      intents: ["open_website", "volume_up"],
+      intents: ["open_website", "system.volume_up"],
       behavior: "execute_both",
       requiresContext: false
     }
@@ -163,7 +163,7 @@ const CONTEXT_FOLLOWUP_TESTS = [
       { user: "louder" }
     ],
     expected: {
-      finalIntent: "volume_up",
+      finalIntent: "system.volume_up",
       contextUsed: true
     }
   },
@@ -430,7 +430,7 @@ const MISSPELLING_TESTS = [
     scenario: "Phonetic typing - volume",
     turns: [{ user: "volum up plz" }],
     expected: {
-      intent: "volume_up",
+      intent: "system.volume_up",
       decision: "execute",
       requiresContext: false
     }

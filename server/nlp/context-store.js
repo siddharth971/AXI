@@ -36,16 +36,16 @@ const PRONOUN_MAPPINGS = {
 // Follow-up patterns: [trigger_word] → [implied_intent if context matches]
 const FOLLOWUP_PATTERNS = {
   // Volume adjustments after media
-  "louder": { requires: ["play", "music", "video"], maps_to: "volume_up" },
-  "quieter": { requires: ["play", "music", "video"], maps_to: "volume_down" },
-  "softer": { requires: ["play", "music", "video"], maps_to: "volume_down" },
-  
+  "louder": { requires: ["play", "music", "video"], maps_to: "system.volume_up" },
+  "quieter": { requires: ["play", "music", "video"], maps_to: "system.volume_down" },
+  "softer": { requires: ["play", "music", "video"], maps_to: "system.volume_down" },
+
   // Media controls after play
   "stop": { requires: ["play"], maps_to: "pause" },
   "again": { requires: ["*"], maps_to: "repeat_last" },
   "next": { requires: ["play", "music", "video"], maps_to: "next" },
   "previous": { requires: ["play", "music", "video"], maps_to: "previous" },
-  
+
   // Continuation
   "more": { requires: ["list_files", "search"], maps_to: "continue" },
   "yes": { requires: ["confirm"], maps_to: "confirm_yes" },
@@ -140,7 +140,7 @@ const ContextStore = {
     }
 
     const lowerText = text.toLowerCase();
-    
+
     // Check for pronoun patterns
     const pronounPatterns = [
       { pattern: /\bopen it\b/i, replacement: "open {entity}" },
@@ -157,7 +157,7 @@ const ContextStore = {
       if (pattern.test(lowerText)) {
         // Find the most relevant entity from context
         const entity = this.findRelevantEntity();
-        
+
         if (replacement === "{lastInput}" && store.lastInput) {
           return {
             resolved: true,
@@ -166,7 +166,7 @@ const ContextStore = {
             original: text
           };
         }
-        
+
         if (entity) {
           const resolvedText = text.replace(pattern, replacement.replace("{entity}", entity));
           return {
@@ -188,7 +188,7 @@ const ContextStore = {
    */
   findRelevantEntity() {
     const entities = store.lastEntities;
-    
+
     // Priority order for entity resolution
     const priorityKeys = [
       "app", "appName", "website", "file", "folder",
@@ -225,13 +225,13 @@ const ContextStore = {
     }
 
     const lowerText = text.toLowerCase().trim();
-    
+
     // Check against follow-up patterns
     for (const [trigger, config] of Object.entries(FOLLOWUP_PATTERNS)) {
       if (lowerText.includes(trigger) || lowerText === trigger) {
         // Check if context matches requirements
         const contextMatches = config.requires.includes("*") ||
-          config.requires.some(req => 
+          config.requires.some(req =>
             store.lastIntent && store.lastIntent.includes(req)
           );
 
@@ -277,14 +277,14 @@ const ContextStore = {
    */
   isAwaitingConfirmation() {
     if (!store.awaitingConfirmation) return false;
-    
+
     // Check if confirmation has expired (30 seconds)
     const age = Date.now() - store.awaitingConfirmation.timestamp;
     if (age > 30000) {
       store.awaitingConfirmation = null;
       return false;
     }
-    
+
     return true;
   },
 

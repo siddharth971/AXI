@@ -1,45 +1,59 @@
 [
   {
-    "intent": "toggle_wifi",
+    "intent": "system.wifi_on",
     "utterances": [
       "turn on wifi",
-      "turn off wifi",
       "enable wifi",
-      "disable wifi",
-      "wifi on karo",
-      "wifi off karo",
-      "wifi band karo",
-      "wifi chalu karo",
-      "switch wifi",
-      "toggle wifi",
-      "connect to wifi",
-      "disconnect wifi",
-      "internet on karo",
-      "internet off karo",
-      "wifi connection band karo",
+      "switch on wifi",
       "start wifi",
-      "stop wifi"
+      "activate wifi",
+      "wifi on",
+      "connect to wifi",
+      "show wifi list",
+      "show available networks",
+      "list wifi networks",
+      "scan for wifi",
+      "open wifi settings"
     ]
   },
   {
-    "intent": "toggle_bluetooth",
+    "intent": "system.wifi_off",
+    "utterances": [
+      "turn off wifi",
+      "disable wifi",
+      "wifi off karo",
+      "wifi band karo",
+      "disconnect wifi",
+      "internet off karo",
+      "wifi connection band karo",
+      "stop wifi",
+      "switch off wifi"
+    ]
+  },
+  {
+    "intent": "system.bluetooth_on",
     "utterances": [
       "turn on bluetooth",
-      "turn off bluetooth",
       "enable bluetooth",
-      "disable bluetooth",
       "bluetooth on karo",
+      "bluetooth chalu karo",
+      "bt on karo",
+      "start bluetooth",
+      "switch on bluetooth"
+    ]
+  },
+  {
+    "intent": "system.bluetooth_off",
+    "utterances": [
+      "turn off bluetooth",
+      "disable bluetooth",
       "bluetooth off karo",
       "bluetooth band karo",
-      "bluetooth chalu karo",
-      "switch bluetooth",
-      "toggle bluetooth",
-      "bluetooth connect karo",
       "disconnect bluetooth",
-      "bt on karo",
       "bt off karo",
-      "start bluetooth",
-      "stop bluetooth"
+      "stop bluetooth",
+      "switch off bluetooth",
+      "bluetooth band"
     ]
   }
 ]

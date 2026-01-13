@@ -1,6 +1,6 @@
 [
   {
-    "intent": "brightness_up",
+    "intent": "display.brightness_up",
     "utterances": [
       "brightness up",
       "increase brightness",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "intent": "brightness_down",
+    "intent": "display.brightness_down",
     "utterances": [
       "brightness down",
       "decrease brightness",
@@ -38,6 +38,30 @@
       "dim screen",
       "minimum brightness",
       "darken screen"
+    ]
+  },
+  {
+    "intent": "display.night_mode_on",
+    "utterances": [
+      "night light on kar",
+      "night mode on",
+      "turn on night light",
+      "enable night mode",
+      "blue light filter on",
+      "night mode chalu karo",
+      "ankhon ko araam do",
+      "night mode"
+    ]
+  },
+  {
+    "intent": "display.night_mode_off",
+    "utterances": [
+      "night light off kar",
+      "night mode off",
+      "turn off night light",
+      "disable night mode",
+      "blue light filter off",
+      "night mode band karo"
     ]
   }
 ]

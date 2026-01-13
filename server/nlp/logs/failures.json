@@ -1,0 +1,394 @@
+[
+  {
+    "timestamp": "2026-01-13T05:15:22.336Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "app.close",
+    "confidence": 0.28296488523483276,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.351Z",
+    "type": "low_confidence",
+    "text": "minimize window",
+    "predictedIntent": "set_reminder",
+    "confidence": 0.026776690036058426,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.367Z",
+    "type": "low_confidence",
+    "text": "maximize window",
+    "predictedIntent": "set_reminder",
+    "confidence": 0.07976880669593811,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.384Z",
+    "type": "low_confidence",
+    "text": "switch window",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.009981944225728512,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.399Z",
+    "type": "low_confidence",
+    "text": "close window",
+    "predictedIntent": "app.close",
+    "confidence": 0.028252586722373962,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.432Z",
+    "type": "low_confidence",
+    "text": "night mode on",
+    "predictedIntent": "system.unmute",
+    "confidence": 0.053135987371206284,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:22.479Z",
+    "type": "low_confidence",
+    "text": "power saver on",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.017861876636743546,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:15:56.752Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:16:12.015Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:16:28.544Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:18:18.815Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:21:45.563Z",
+    "type": "low_confidence",
+    "text": "close youtube",
+    "predictedIntent": "open_youtube",
+    "confidence": 0.3525323271751404,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:21:56.913Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:22:19.388Z",
+    "type": "low_confidence",
+    "text": "close youtube",
+    "predictedIntent": "open_youtube",
+    "confidence": 0.3525323271751404,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:22:49.484Z",
+    "type": "low_confidence",
+    "text": "close youtube",
+    "predictedIntent": "open_youtube",
+    "confidence": 0.3525323271751404,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:23:07.314Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:23:51.993Z",
+    "type": "low_confidence",
+    "text": "close youtube",
+    "predictedIntent": "open_youtube",
+    "confidence": 0.3525323271751404,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:24:02.592Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.sleep",
+    "confidence": 0.015238584019243717,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:27:36.367Z",
+    "type": "low_confidence",
+    "text": "please more increase",
+    "predictedIntent": "system.volume_up",
+    "confidence": 0.15752944350242615,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:27:47.603Z",
+    "type": "low_confidence",
+    "text": "please show wifi list",
+    "predictedIntent": "list_files",
+    "confidence": 0.2882748544216156,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:28:05.763Z",
+    "type": "low_confidence",
+    "text": "alt teb",
+    "predictedIntent": "app.close",
+    "confidence": 0.03558206185698509,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:29:00.888Z",
+    "type": "low_confidence",
+    "text": "yes",
+    "predictedIntent": "app.close",
+    "confidence": 0.03902103379368782,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:29:14.864Z",
+    "type": "low_confidence",
+    "text": "sure",
+    "predictedIntent": "app.close",
+    "confidence": 0.03902103379368782,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:29:44.277Z",
+    "type": "low_confidence",
+    "text": "yes",
+    "predictedIntent": "app.close",
+    "confidence": 0.03902103379368782,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:30:14.926Z",
+    "type": "low_confidence",
+    "text": "show wifi list",
+    "predictedIntent": "list_files",
+    "confidence": 0.42126893997192383,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:33:01.000Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "app.close",
+    "confidence": 0.03184527903795242,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:33:20.792Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "app.close",
+    "confidence": 0.03184527903795242,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:33:31.247Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "app.close",
+    "confidence": 0.03184527903795242,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:49:49.019Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "system.restart",
+    "confidence": 0.2264355719089508,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:49:49.078Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "app.close",
+    "confidence": 0.10282257199287415,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:49:49.275Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.restart",
+    "confidence": 0.014948442578315735,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:50:53.225Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "system.restart",
+    "confidence": 0.2264355719089508,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:50:53.292Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "app.close",
+    "confidence": 0.10282257199287415,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:50:53.551Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.restart",
+    "confidence": 0.014948442578315735,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:52:38.488Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "system.restart",
+    "confidence": 0.2264355719089508,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:52:38.661Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "app.close",
+    "confidence": 0.10282257199287415,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:52:39.067Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.restart",
+    "confidence": 0.014948442578315735,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:54:32.942Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "set_alarm",
+    "confidence": 0.19662968814373016,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:54:33.054Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "close_browser",
+    "confidence": 0.11254245787858963,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:54:33.388Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.battery_status",
+    "confidence": 0.011179263703525066,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:57:41.231Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "system.battery_status",
+    "confidence": 0.2417934387922287,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:57:41.308Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "system.mute",
+    "confidence": 0.2450636327266693,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T05:57:41.633Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "system.unmute",
+    "confidence": 0.020115679129958153,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:04:55.666Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "days_between",
+    "confidence": 0.017954343929886818,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:04:55.711Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "pause",
+    "confidence": 0.3447979986667633,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:04:55.827Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "media.repeat",
+    "confidence": 0.02700326032936573,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:09:18.127Z",
+    "type": "low_confidence",
+    "text": "hibernate pc",
+    "predictedIntent": "days_between",
+    "confidence": 0.017954343929886818,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:09:18.175Z",
+    "type": "low_confidence",
+    "text": "close it",
+    "predictedIntent": "pause",
+    "confidence": 0.3447979986667633,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-13T06:09:18.293Z",
+    "type": "low_confidence",
+    "text": "is charger plugged in",
+    "predictedIntent": "media.repeat",
+    "confidence": 0.02700326032936573,
+    "status": "pending_review"
+  }
+]

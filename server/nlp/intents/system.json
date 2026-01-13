@@ -31,7 +31,7 @@
     ]
   },
   {
-    "intent": "volume_up",
+    "intent": "system.volume_up",
     "utterances": [
       "volume up",
       "increase volume",
@@ -61,11 +61,12 @@
       "turn up the sound",
       "it's too quiet in here",
       "its too quiet in here",
-      "volum up plz"
+      "volum up plz",
+      "more"
     ]
   },
   {
-    "intent": "volume_down",
+    "intent": "system.volume_down",
     "utterances": [
       "volume down",
       "decrease volume",
@@ -96,7 +97,7 @@
     ]
   },
   {
-    "intent": "mute",
+    "intent": "system.mute",
     "utterances": [
       "mute",
       "mute the sound",
@@ -122,11 +123,46 @@
       "axi awaaz hatao",
       "quiet mode on karo",
       "meeting hai mute karo",
-      "shh mute"
+      "shh mute",
+      "mute laptop"
     ]
   },
   {
-    "intent": "lock_screen",
+    "intent": "system.unmute",
+    "utterances": [
+      "unmute",
+      "unmute the sound",
+      "sound on",
+      "axi unmute",
+      "unmute karo",
+      "awaaz wapas lao",
+      "sound chalu karo",
+      "speak again",
+      "silent mode off",
+      "can you unmute",
+      "please unmute",
+      "turn on sound",
+      "volume wapas lao"
+    ]
+  },
+  {
+    "intent": "audio.output_switch",
+    "utterances": [
+      "switch audio output",
+      "change audio output",
+      "play on speakers",
+      "play on headphones",
+      "speaker pe sound lao",
+      "headphones pe sound lao",
+      "audio output change karo",
+      "sound switch karo",
+      "change speaker",
+      "switch to headphones",
+      "switch to speakers"
+    ]
+  },
+  {
+    "intent": "system.lock",
     "utterances": [
       "lock the screen",
       "lock screen",
@@ -152,11 +188,29 @@
       "lock please",
       "axi pc band mat karo lock karo",
       "screen off kar do lock ke saath",
-      "lock mode on karo"
+      "lock mode on karo",
+      "okay locking your laptop"
     ]
   },
   {
-    "intent": "shutdown_system",
+    "intent": "system.sleep",
+    "utterances": [
+      "sleep",
+      "sleep mode",
+      "put computer to sleep",
+      "go to sleep",
+      "system sleep",
+      "sleep karo",
+      "pc sleep mode mein daalo",
+      "sula do pc ko",
+      "standby mode",
+      "hibernate",
+      "suspend system",
+      "thodi der ke liye band karo"
+    ]
+  },
+  {
+    "intent": "system.shutdown",
     "utterances": [
       "shutdown",
       "shut down",
@@ -182,11 +236,12 @@
       "turn off the system",
       "close everything and shutdown",
       "axi sab band karo shutdown karo",
-      "goodnight shutdown karo"
+      "goodnight shutdown karo",
+      "shut down the laptop"
     ]
   },
   {
-    "intent": "restart_system",
+    "intent": "system.restart",
     "utterances": [
       "restart",
       "restart computer",
@@ -212,11 +267,12 @@
       "fresh start karo restart",
       "axi ek baar restart karo",
       "pc hang ho raha restart karo",
-      "dobara chalu karo"
+      "dobara chalu karo",
+      "restart system please"
     ]
   },
   {
-    "intent": "open_application",
+    "intent": "app.open",
     "utterances": [
       "open notepad",
       "open calculator",
@@ -241,11 +297,103 @@
       "axi koi app kholo",
       "wordpad open karo",
       "mujhe notepad chahiye",
-      "calculator start karo"
+      "calculator start karo",
+      "open chrome",
+      "vs code kholo"
     ]
   },
   {
-    "intent": "system.battery_check",
+    "intent": "app.close",
+    "utterances": [
+      "close notepad",
+      "close calculator",
+      "close settings",
+      "close spotify",
+      "close chrome",
+      "close it",
+      "quit notepad",
+      "exit calculator",
+      "notepad band karo",
+      "calculator band karo",
+      "band karo isko",
+      "kill process",
+      "end task",
+      "terminate app"
+    ]
+  },
+  {
+    "intent": "app.focus",
+    "utterances": [
+      "focus notepad",
+      "switch to notepad",
+      "bring notepad to front",
+      "bring terminal to front",
+      "terminal aage lao",
+      "show me chrome",
+      "go to vs code"
+    ]
+  },
+  {
+    "intent": "app.minimize",
+    "utterances": [
+      "minimize",
+      "minimize it",
+      "minimize window",
+      "hide this",
+      "minimize notepad",
+      "isko niche karo",
+      "chupa do",
+      "window minimize karo"
+    ]
+  },
+  {
+    "intent": "app.maximize",
+    "utterances": [
+      "maximize",
+      "maximize it",
+      "maximize window",
+      "full screen",
+      "make it big",
+      "bada karo window",
+      "fullscreen karo"
+    ]
+  },
+  {
+    "intent": "window.switch",
+    "utterances": [
+      "switch window",
+      "change window",
+      "next window",
+      "window badlo",
+      "switch screen",
+      "alt tab",
+      "alt teb",
+      "switch application",
+      "flip window"
+    ]
+  },
+  {
+    "intent": "window.close",
+    "utterances": [
+      "close window",
+      "close this window",
+      "ye window band karo",
+      "close current window"
+    ]
+  },
+  {
+    "intent": "system.shutdown_cancel",
+    "utterances": [
+      "cancel shutdown",
+      "stop shutdown",
+      "abort shutdown",
+      "shutdown cancel karo",
+      "cancel system shutdown",
+      "don't shutdown"
+    ]
+  },
+  {
+    "intent": "system.battery_status",
     "utterances": [
       "battery check",
       "check battery status",
@@ -272,6 +420,57 @@
       "remainder battery",
       "power level batao",
       "battery health"
+    ]
+  },
+  {
+    "intent": "system.power_connected",
+    "utterances": [
+      "is charger connected",
+      "is power connected",
+      "charger laga hai kya",
+      "charging ho rahi hai kya",
+      "power plugged in"
+    ]
+  },
+  {
+    "intent": "system.power_saver_on",
+    "utterances": [
+      "power saving on",
+      "turn on power saver",
+      "enable power saver",
+      "battery saver on",
+      "power saver chalu karo",
+      "battery bachao mode"
+    ]
+  },
+  {
+    "intent": "system.power_saver_off",
+    "utterances": [
+      "power saving off",
+      "turn off power saver",
+      "disable power saver",
+      "battery saver off",
+      "power saver band karo"
+    ]
+  },
+  {
+    "intent": "system.airplane_mode_on",
+    "utterances": [
+      "flight mode chalu",
+      "airplane mode on",
+      "turn on airplane mode",
+      "enable flight mode",
+      "flight mode on karo"
+    ]
+  },
+  {
+    "intent": "system.airplane_mode_off",
+    "utterances": [
+      "flight mode band",
+      "airplane mode off",
+      "turn off airplane mode",
+      "disable flight mode",
+      "flight mode off karo"
     ]
   }
 ]

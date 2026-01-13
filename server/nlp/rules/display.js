@@ -13,12 +13,12 @@ module.exports = {
 
     // Increase
     if (/\b(brightness up|increase brightness|screen brighter|brighten screen|roshni badhao|turn up brightness)\b/i.test(msg)) {
-      return { intent: "brightness_up", confidence: 1, entities: {} };
+      return { intent: "display.brightness_up", confidence: 1, entities: {} };
     }
 
     // Decrease
     if (/\b(brightness down|decrease brightness|screen dimmer|dim screen|roshni kam|turn down brightness|darken screen)\b/i.test(msg)) {
-      return { intent: "brightness_down", confidence: 1, entities: {} };
+      return { intent: "display.brightness_down", confidence: 1, entities: {} };
     }
 
     // Set specific value (Entity Extraction)

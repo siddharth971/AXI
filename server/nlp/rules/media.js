@@ -11,7 +11,7 @@ module.exports = {
    */
   volumeUp(text) {
     if (/\b(volume up|increase volume|louder|turn up|raise volume|volume badao|volume badha)\b/i.test(text)) {
-      return { intent: "volume_up", confidence: 1, entities: {} };
+      return { intent: "system.volume_up", confidence: 1, entities: {} };
     }
     return null;
   },
@@ -21,7 +21,7 @@ module.exports = {
    */
   volumeDown(text) {
     if (/\b(volume down|decrease volume|quieter|turn down|lower volume|volume kam)\b/i.test(text)) {
-      return { intent: "volume_down", confidence: 1, entities: {} };
+      return { intent: "system.volume_down", confidence: 1, entities: {} };
     }
     return null;
   },
@@ -33,9 +33,9 @@ module.exports = {
     const msg = text.toLowerCase().trim();
     if (/\b(mute|unmute|silence|awaaz band)\b/.test(msg)) {
       if (/unmute/.test(msg)) {
-        return { intent: "unmute", confidence: 1, entities: {} };
+        return { intent: "system.unmute", confidence: 1, entities: {} };
       }
-      return { intent: "mute", confidence: 1, entities: {} };
+      return { intent: "system.mute", confidence: 1, entities: {} };
     }
     return null;
   },

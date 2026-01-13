@@ -99,60 +99,9 @@ module.exports = {
   description: "System operations, app launching, info queries, and general interactions",
 
   intents: {
-    take_screenshot: {
-      confidence: 0.6,
-      requiresConfirmation: false,
-      handler: async (params, context) => {
-        try {
-          const screenshot = require("screenshot-desktop");
 
-          const screenshotsDir = path.join(__dirname, "../../screenshots");
-          if (!fs.existsSync(screenshotsDir)) {
-            fs.mkdirSync(screenshotsDir, { recursive: true });
-          }
 
-          const filename = `screenshot-${Date.now()}.png`;
-          const filepath = path.join(screenshotsDir, filename);
 
-          await screenshot({ filename: filepath });
-
-          return `Screenshot saved as ${filename}, sir.`;
-        } catch (error) {
-          return `I couldn't take the screenshot: ${error.message}`;
-        }
-      }
-    },
-
-    open_application: {
-      confidence: 0.6,
-      requiresConfirmation: false,
-      handler: async (params, context) => {
-        const appName = (params.name || params.app || params.application || "").toLowerCase().trim();
-
-        if (!appName) {
-          return "Which application would you like me to open?";
-        }
-
-        const command = APP_MAP[appName];
-
-        if (!command) {
-          // Try to open it directly
-          try {
-            await execAsync(`start ${appName}`);
-            return `Opening ${appName}, sir.`;
-          } catch {
-            return `I couldn't find an application called "${appName}".`;
-          }
-        }
-
-        try {
-          await execAsync(command);
-          return `Opening ${appName}, sir.`;
-        } catch (error) {
-          return `I couldn't open ${appName}: ${error.message}`;
-        }
-      }
-    },
 
     tell_time: {
       confidence: 0.5,
@@ -249,74 +198,7 @@ module.exports = {
       }
     },
 
-    shutdown_system: {
-      confidence: 0.8,
-      requiresConfirmation: true, // CRITICAL ACTION
-      handler: async (params, context) => {
-        const delay = parseInt(params.delay || "60", 10);
 
-        try {
-          await execAsync(`shutdown /s /t ${delay}`);
-          return `System will shut down in ${delay} seconds. You can cancel with "cancel shutdown".`;
-        } catch (error) {
-          return `I couldn't initiate shutdown: ${error.message}`;
-        }
-      }
-    },
-
-    restart_system: {
-      confidence: 0.8,
-      requiresConfirmation: true, // CRITICAL ACTION
-      handler: async (params, context) => {
-        const delay = parseInt(params.delay || "60", 10);
-
-        try {
-          await execAsync(`shutdown /r /t ${delay}`);
-          return `System will restart in ${delay} seconds. You can cancel with "cancel shutdown".`;
-        } catch (error) {
-          return `I couldn't initiate restart: ${error.message}`;
-        }
-      }
-    },
-
-    cancel_shutdown: {
-      confidence: 0.6,
-      requiresConfirmation: false,
-      handler: async (params, context) => {
-        try {
-          await execAsync("shutdown /a");
-          return "Shutdown has been cancelled, sir.";
-        } catch (error) {
-          return "There's no pending shutdown to cancel.";
-        }
-      }
-    },
-
-    lock_screen: {
-      confidence: 0.6,
-      requiresConfirmation: false,
-      handler: async (params, context) => {
-        try {
-          await execAsync("rundll32.exe user32.dll,LockWorkStation");
-          return "Locking the screen, sir.";
-        } catch (error) {
-          return `I couldn't lock the screen: ${error.message}`;
-        }
-      }
-    },
-
-    sleep_system: {
-      confidence: 0.6,
-      requiresConfirmation: false,
-      handler: async (params, context) => {
-        try {
-          await execAsync("rundll32.exe powrprof.dll,SetSuspendState 0,1,0");
-          return "Putting the system to sleep, sir.";
-        } catch (error) {
-          return `I couldn't put the system to sleep: ${error.message}`;
-        }
-      }
-    },
 
     ai_chat: {
       confidence: 0.3, // Low threshold to catch conversational messages
