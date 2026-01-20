@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
-    "train": "node nlp/train.js",
+    "train": "npm run axi:learn && node nlp/train.js",
     "generate:vectors": "node nlp/semantic/generate-vectors.js",
     "test": "npm run test:regression",
     "test:regression": "node nlp/regression-conversation-tests.js",
@@ -16,7 +16,11 @@
     "test:e2e": "node nlp/e2e-validation.js",
     "test:robustness": "node nlp/robustness-test.js",
     "test:all": "npm run test:validate && npm run test:regression && npm run test:e2e && npm run test:robustness",
-    "axi:explore": "node autonomous/explorer.mjs"
+    "axi:explore": "node autonomous/explorer.mjs",
+    "axi:learn": "node nlp/learn.js",
+    "axi:discover": "node autonomous/discover.js",
+    "axi:extract": "node autonomous/extract.js",
+    "axi:cycle": "npm run axi:discover && npm run axi:explore && npm run axi:extract && npm run axi:learn"
   },
   "keywords": [],
   "author": "",
