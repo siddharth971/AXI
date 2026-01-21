@@ -38,7 +38,7 @@ function extractEntities(text) {
     verbs: doc.verbs().out("array"),
 
     // Adjectives
-    adjectives: doc.adjectives().out("array")
+    adjectives: doc.adjectives().out("array"),
   };
 }
 
@@ -46,9 +46,10 @@ function extractEntities(text) {
  * Extract URLs from text
  */
 function extractUrls(text) {
-  const urlRegex = /(?:https?:\/\/)?(?:www\.)?([a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+)(?:\/[^\s]*)?/gi;
+  const urlRegex =
+    /(?:https?:\/\/)?(?:www\.)?([a-zA-Z0-9-]+(?:\.[a-zA-Z]{2,})+)(?:\/[^\s]*)?/gi;
   const matches = text.match(urlRegex) || [];
-  return matches.map(url => url.toLowerCase());
+  return matches.map((url) => url.toLowerCase());
 }
 
 /**
@@ -66,7 +67,7 @@ function getPOSTags(text) {
       result.push({
         word: term.text,
         tags: term.tags || [],
-        normal: term.normal || term.text.toLowerCase()
+        normal: term.normal || term.text.toLowerCase(),
       });
     }
   }
@@ -82,7 +83,17 @@ function getPOSTags(text) {
 function getQuestionType(text) {
   const lower = text.toLowerCase().trim();
 
-  const questionWords = ["what", "where", "when", "who", "whom", "whose", "which", "why", "how"];
+  const questionWords = [
+    "what",
+    "where",
+    "when",
+    "who",
+    "whom",
+    "whose",
+    "which",
+    "why",
+    "how",
+  ];
 
   for (const qw of questionWords) {
     if (lower.startsWith(qw)) {
@@ -91,7 +102,11 @@ function getQuestionType(text) {
   }
 
   // Check for inverted questions (Is it..., Can you...)
-  if (/^(is|are|was|were|do|does|did|can|could|will|would|should|may|might)\s/i.test(lower)) {
+  if (
+    /^(is|are|was|were|do|does|did|can|could|will|would|should|may|might)\s/i.test(
+      lower,
+    )
+  ) {
     return "yes_no";
   }
 
@@ -107,9 +122,12 @@ function extractIntentSignals(text) {
   return {
     isQuestion: text.includes("?") || getQuestionType(text) !== null,
     questionType: getQuestionType(text),
-    isCommand: /^(open|go|show|tell|find|search|play|turn|set|make|create|delete|remove)/i.test(text.trim()),
+    isCommand:
+      /^(open|go|show|tell|find|search|play|turn|set|make|create|delete|remove)/i.test(
+        text.trim(),
+      ),
     hasNegation: doc.has("#Negative"),
-    sentiment: analyzeSentiment(text)
+    sentiment: analyzeSentiment(text),
   };
 }
 
@@ -117,8 +135,37 @@ function extractIntentSignals(text) {
  * Simple sentiment analysis
  */
 function analyzeSentiment(text) {
-  const positive = ["good", "great", "awesome", "nice", "love", "like", "thanks", "thank", "happy", "wonderful", "excellent", "amazing", "perfect", "best"];
-  const negative = ["bad", "terrible", "awful", "hate", "dislike", "angry", "sad", "worst", "horrible", "annoying", "wrong", "problem", "error"];
+  const positive = [
+    "good",
+    "great",
+    "awesome",
+    "nice",
+    "love",
+    "like",
+    "thanks",
+    "thank",
+    "happy",
+    "wonderful",
+    "excellent",
+    "amazing",
+    "perfect",
+    "best",
+  ];
+  const negative = [
+    "bad",
+    "terrible",
+    "awful",
+    "hate",
+    "dislike",
+    "angry",
+    "sad",
+    "worst",
+    "horrible",
+    "annoying",
+    "wrong",
+    "problem",
+    "error",
+  ];
 
   const lower = text.toLowerCase();
 
@@ -142,7 +189,7 @@ function analyze(text) {
   return {
     entities: extractEntities(text),
     pos: getPOSTags(text),
-    signals: extractIntentSignals(text)
+    signals: extractIntentSignals(text),
   };
 }
 
@@ -152,5 +199,5 @@ module.exports = {
   getQuestionType,
   extractIntentSignals,
   analyzeSentiment,
-  analyze
+  analyze,
 };

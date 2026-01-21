@@ -57,24 +57,23 @@ function pickRandom(responses) {
 }
 
 /**
- * Get unknown intent fallback - tries LLM first
+ * Get unknown intent fallback - tries knowledge lookup for factual questions
  * @param {string} originalText - Original user input
  * @returns {Promise<string>} Fallback response
  */
 async function unknown(originalText) {
-  // Try LLM for intelligent response
+  // Try real-time knowledge lookup for factual questions
   try {
-    const llmService = require("../../core/llm-service");
-    const available = await llmService.isOllamaAvailable();
+    const knowledgeLookup = require("../../core/knowledge-lookup");
 
-    if (available && originalText && originalText.length > 3) {
-      const result = await llmService.query(originalText);
+    if (originalText && knowledgeLookup.isFactualQuestion(originalText)) {
+      const result = await knowledgeLookup.lookup(originalText);
       if (result.success) {
-        return result.response;
+        return result.answer;
       }
     }
   } catch (e) {
-    // LLM not available, use static fallback
+    // Knowledge lookup not available, use static fallback
   }
 
   return pickRandom(FALLBACK_RESPONSES.unknown);

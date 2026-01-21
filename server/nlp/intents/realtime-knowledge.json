@@ -1,0 +1,73 @@
+[
+  {
+    "intent": "knowledge.web_search",
+    "utterances": [
+      "search the web for",
+      "search internet for",
+      "find on internet",
+      "explore websites about",
+      "search online for",
+      "look up online",
+      "find websites about",
+      "deep search",
+      "research about",
+      "find more about"
+    ]
+  },
+  {
+    "intent": "knowledge.lookup",
+    "utterances": [
+      "search for",
+      "look up",
+      "find information about",
+      "I want to know about",
+      "tell me something about",
+      "give me info on",
+      "information about",
+      "facts about",
+      "what can you tell me about"
+    ]
+  },
+  {
+    "intent": "knowledge.what_is",
+    "utterances": [
+      "what is",
+      "what are",
+      "what was",
+      "what were",
+      "define",
+      "meaning of",
+      "explain what",
+      "tell me what is",
+      "describe"
+    ]
+  },
+  {
+    "intent": "knowledge.who_is",
+    "utterances": [
+      "who is",
+      "who are",
+      "who was",
+      "who were",
+      "tell me about person",
+      "information about person"
+    ]
+  },
+  {
+    "intent": "knowledge.quick_fact",
+    "utterances": [
+      "when was",
+      "when did",
+      "where is",
+      "where was",
+      "how many",
+      "how much",
+      "how old is",
+      "how tall is",
+      "how big is",
+      "how long is",
+      "what year",
+      "in what year"
+    ]
+  }
+]
