@@ -7,7 +7,7 @@
  * - Confirmation flow for destructive actions
  * - Safe error handling
  * - Context management
- * 
+ *
  * NO switch-case logic - fully dynamic dispatch via registry.
  */
 
@@ -33,7 +33,12 @@ const pendingConfirmations = new Map();
  * @param {string} sessionId - Session identifier
  * @returns {Promise<string>} Response text
  */
-async function execute(nlpResult, originalText, context = null, sessionId = "default") {
+async function execute(
+  nlpResult,
+  originalText,
+  context = null,
+  sessionId = "default",
+) {
   const { intent, confidence, entities, params } = nlpResult || {};
 
   // Ensure registry is initialized
@@ -43,7 +48,10 @@ async function execute(nlpResult, originalText, context = null, sessionId = "def
 
   try {
     // 1. Handle pending confirmations first
-    const confirmationResult = await handlePendingConfirmation(originalText, sessionId);
+    const confirmationResult = await handlePendingConfirmation(
+      originalText,
+      sessionId,
+    );
     if (confirmationResult !== null) {
       return confirmationResult;
     }
@@ -51,7 +59,12 @@ async function execute(nlpResult, originalText, context = null, sessionId = "def
     // 2. Handle contextual/follow-up responses
     const awaitingState = memory.getAwaiting(sessionId);
     if (awaitingState) {
-      const contextResult = await handleContextResponse(awaitingState, originalText, entities, sessionId);
+      const contextResult = await handleContextResponse(
+        awaitingState,
+        originalText,
+        entities,
+        sessionId,
+      );
       if (contextResult !== null) {
         return contextResult;
       }
@@ -59,7 +72,11 @@ async function execute(nlpResult, originalText, context = null, sessionId = "def
 
     // 3. No intent or special context_response handling
     if (intent === "context_response") {
-      return handleLegacyContextResponse(entities, sessionId);
+      // If a plugin handles this explicitly (e.g. learning plugin), let it proceed
+      if (!registry.getIntentHandler("context_response")) {
+        return handleLegacyContextResponse(entities, sessionId);
+      }
+      // Otherwise, fall through to normal plugin execution
     }
 
     // 4. Validate confidence threshold
@@ -80,35 +97,49 @@ async function execute(nlpResult, originalText, context = null, sessionId = "def
 
     // 6. Check intent-specific confidence threshold
     if (confidence < intentConfig.confidence) {
-      logger.debug(`Confidence ${confidence} below intent threshold ${intentConfig.confidence}`);
+      logger.debug(
+        `Confidence ${confidence} below intent threshold ${intentConfig.confidence}`,
+      );
       return fallback.lowConfidence(confidence);
     }
 
     // 7. Handle confirmation requirement for destructive actions
     if (intentConfig.requiresConfirmation) {
-      return requestConfirmation(intent, params || entities || {}, sessionId, intentConfig);
+      return requestConfirmation(
+        intent,
+        params || entities || {},
+        sessionId,
+        intentConfig,
+      );
     }
 
     // 8. Execute the handler
-    const response = await executeHandler(plugin, intentConfig, params || entities || {}, sessionId);
+    const response = await executeHandler(
+      plugin,
+      intentConfig,
+      params || entities || {},
+      sessionId,
+    );
 
     // 9. Update context
     memory.updateGlobalContext({
       lastIntent: intent,
       lastPlugin: plugin.name,
-      lastResponse: response
+      lastResponse: response,
     });
 
-    memory.addHistory({
-      intent,
-      plugin: plugin.name,
-      input: originalText,
-      response,
-      confidence
-    }, sessionId);
+    memory.addHistory(
+      {
+        intent,
+        plugin: plugin.name,
+        input: originalText,
+        response,
+        confidence,
+      },
+      sessionId,
+    );
 
     return response;
-
   } catch (error) {
     logger.error(`Router execution error: ${error.message}`);
     return fallback.error(error);
@@ -128,7 +159,7 @@ async function executeHandler(plugin, intentConfig, params, sessionId) {
     sessionId,
     memory,
     timestamp: Date.now(),
-    pluginName: plugin.name
+    pluginName: plugin.name,
   };
 
   try {
@@ -143,7 +174,9 @@ async function executeHandler(plugin, intentConfig, params, sessionId) {
 
     return result;
   } catch (error) {
-    logger.error(`Handler error in ${plugin.name}.${intentConfig.intentName}: ${error.message}`);
+    logger.error(
+      `Handler error in ${plugin.name}.${intentConfig.intentName}: ${error.message}`,
+    );
     throw error;
   }
 }
@@ -164,7 +197,7 @@ function requestConfirmation(intent, params, sessionId, intentConfig) {
     params,
     intentConfig,
     timestamp: Date.now(),
-    actionDescription
+    actionDescription,
   });
 
   memory.setAwaiting("confirmation", { intent, params }, sessionId);
@@ -193,10 +226,29 @@ async function handlePendingConfirmation(userResponse, sessionId) {
   }
 
   // Check for affirmative response
-  const affirmatives = ["yes", "yeah", "yep", "sure", "ok", "okay", "confirm", "proceed", "do it", "go ahead"];
-  const negatives = ["no", "nope", "cancel", "stop", "don't", "abort", "never mind"];
+  const affirmatives = [
+    "yes",
+    "yeah",
+    "yep",
+    "sure",
+    "ok",
+    "okay",
+    "confirm",
+    "proceed",
+    "do it",
+    "go ahead",
+  ];
+  const negatives = [
+    "no",
+    "nope",
+    "cancel",
+    "stop",
+    "don't",
+    "abort",
+    "never mind",
+  ];
 
-  if (affirmatives.some(word => response.includes(word))) {
+  if (affirmatives.some((word) => response.includes(word))) {
     const { intent, params, intentConfig } = pending;
     const handler = registry.getIntentHandler(intent);
 
@@ -209,10 +261,15 @@ async function handlePendingConfirmation(userResponse, sessionId) {
     pendingConfirmations.delete(sessionId);
     memory.clearAwaiting(sessionId);
 
-    return await executeHandler(handler.plugin, intentConfig, params, sessionId);
+    return await executeHandler(
+      handler.plugin,
+      intentConfig,
+      params,
+      sessionId,
+    );
   }
 
-  if (negatives.some(word => response.includes(word))) {
+  if (negatives.some((word) => response.includes(word))) {
     pendingConfirmations.delete(sessionId);
     memory.clearAwaiting(sessionId);
     return fallback.confirmationCancelled();
@@ -235,7 +292,7 @@ function getActionDescription(intent, params) {
     shutdown_system: "shut down the system",
     restart_system: "restart the system",
     clear_history: "clear all history",
-    uninstall_package: `uninstall ${params.package || "the package"}`
+    uninstall_package: `uninstall ${params.package || "the package"}`,
   };
 
   return descriptions[intent] || `perform ${intent.replace(/_/g, " ")}`;
@@ -249,7 +306,12 @@ function getActionDescription(intent, params) {
  * @param {string} sessionId - Session identifier
  * @returns {Promise<string|null>} Response or null
  */
-async function handleContextResponse(awaitingState, userInput, entities, sessionId) {
+async function handleContextResponse(
+  awaitingState,
+  userInput,
+  entities,
+  sessionId,
+) {
   const { type, data } = awaitingState;
 
   // Don't handle confirmation here - it's handled separately
@@ -263,7 +325,12 @@ async function handleContextResponse(awaitingState, userInput, entities, session
       memory.clearAwaiting(sessionId);
       const handler = registry.getIntentHandler("open_website");
       if (handler) {
-        return await executeHandler(handler.plugin, handler.config, { url: userInput }, sessionId);
+        return await executeHandler(
+          handler.plugin,
+          handler.config,
+          { url: userInput },
+          sessionId,
+        );
       }
       return fallback.pluginNotFound("open_website");
 
@@ -293,7 +360,12 @@ function handleLegacyContextResponse(entities, sessionId) {
     case "ask_website_name":
       const handler = registry.getIntentHandler("open_website");
       if (handler) {
-        return executeHandler(handler.plugin, handler.config, { url: value }, sessionId);
+        return executeHandler(
+          handler.plugin,
+          handler.config,
+          { url: value },
+          sessionId,
+        );
       }
       return fallback.pluginNotFound("open_website");
 
@@ -310,7 +382,7 @@ function getStatus() {
   return {
     registryStats: registry.getStats(),
     pendingConfirmations: pendingConfirmations.size,
-    activeSessions: memory.getActiveSessions().length
+    activeSessions: memory.getActiveSessions().length,
   };
 }
 
@@ -337,5 +409,5 @@ module.exports = {
   cleanup,
 
   // Expose for testing
-  _pendingConfirmations: pendingConfirmations
+  _pendingConfirmations: pendingConfirmations,
 };

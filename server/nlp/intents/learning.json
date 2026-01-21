@@ -1,0 +1,17 @@
+[
+  {
+    "intent": "feedback.wrong",
+    "utterances": [
+      "that was wrong",
+      "that is incorrect",
+      "you misunderstood",
+      "wrong answer",
+      "not what i meant",
+      "correction"
+    ]
+  },
+  {
+    "intent": "feedback.correction",
+    "utterances": ["i meant", "i actually meant", "command was"]
+  }
+]
