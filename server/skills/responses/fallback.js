@@ -13,34 +13,35 @@ const FALLBACK_RESPONSES = {
     "Could you rephrase that, sir?",
     "I didn't quite catch that.",
     "I'm still learning, could you say that again?",
-    "Hmm, I'm not sure what you mean. Can you try a different phrasing?"
+    "Hmm, I'm not sure what you mean. Can you try a different phrasing?",
   ],
 
   lowConfidence: [
     "I'm not entirely sure what you mean. Could you clarify?",
     "I think I understand, but could you be more specific?",
     "I'm having trouble understanding that request.",
-    "Could you say that in a different way?"
+    "Could you say that in a different way?",
   ],
 
   error: [
     "Something went wrong on my end. Please try again.",
     "I encountered an error processing that request.",
     "Apologies, I couldn't complete that action. Please try again.",
-    "There was an issue. Could you try that again?"
+    "There was an issue. Could you try that again?",
   ],
 
   confirmation: {
     pending: "Are you sure you want to proceed with this action?",
-    timeout: "I was waiting for your confirmation, but didn't receive a response.",
-    cancelled: "Alright, I've cancelled that action."
+    timeout:
+      "I was waiting for your confirmation, but didn't receive a response.",
+    cancelled: "Alright, I've cancelled that action.",
   },
 
   pluginNotFound: [
     "I don't have a skill for that yet.",
     "That capability isn't available at the moment.",
-    "I can't help with that right now, but I'm always learning."
-  ]
+    "I can't help with that right now, but I'm always learning.",
+  ],
 };
 
 /**
@@ -56,11 +57,26 @@ function pickRandom(responses) {
 }
 
 /**
- * Get unknown intent fallback
+ * Get unknown intent fallback - tries LLM first
  * @param {string} originalText - Original user input
- * @returns {string} Fallback response
+ * @returns {Promise<string>} Fallback response
  */
-function unknown(originalText) {
+async function unknown(originalText) {
+  // Try LLM for intelligent response
+  try {
+    const llmService = require("../../core/llm-service");
+    const available = await llmService.isOllamaAvailable();
+
+    if (available && originalText && originalText.length > 3) {
+      const result = await llmService.query(originalText);
+      if (result.success) {
+        return result.response;
+      }
+    }
+  } catch (e) {
+    // LLM not available, use static fallback
+  }
+
   return pickRandom(FALLBACK_RESPONSES.unknown);
 }
 
@@ -128,5 +144,5 @@ module.exports = {
   confirmationCancelled,
   pluginNotFound,
   pickRandom,
-  FALLBACK_RESPONSES
+  FALLBACK_RESPONSES,
 };

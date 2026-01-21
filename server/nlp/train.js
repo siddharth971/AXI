@@ -12,7 +12,7 @@ const { loadAllIntents } = require("./intent-loader");
 const preprocessor = require("./preprocessor");
 
 // Output paths
-const OUTPUT_DIR = path.join(__dirname, "model-tf"); // Keeping same dir name for compatibility
+const OUTPUT_DIR = path.join(__dirname, "../data/models/model-tf");
 if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
 const VOCAB_PATH = path.join(OUTPUT_DIR, "vocab.json");
@@ -21,15 +21,15 @@ const MODEL_PATH = path.join(OUTPUT_DIR, "model.json");
 
 // Configuration
 const CONFIG = {
-  ITERATIONS: 10000,       // Increased for deeper learning
-  ERROR_THRESH: 0.002,    // Lower threshold for higher precision
+  ITERATIONS: 10000, // Increased for deeper learning
+  ERROR_THRESH: 0.002, // Lower threshold for higher precision
   HIDDEN_LAYERS: [64, 64], // Significantly increased capacity (was [16, 16])
-  ACTIVATION: 'sigmoid',
-  LEARNING_RATE: 0.3,     // Explicitly defined
+  ACTIVATION: "sigmoid",
+  LEARNING_RATE: 0.3, // Explicitly defined
   PLUGIN_DIRS: [
     path.join(__dirname, "../skills/plugins"),
-    path.join(__dirname, "../plugins")
-  ]
+    path.join(__dirname, "../plugins"),
+  ],
 };
 
 // Colors for console
@@ -40,10 +40,12 @@ const colors = {
   green: "\x1b[32m",
   yellow: "\x1b[33m",
   red: "\x1b[31m",
-  gray: "\x1b[90m"
+  gray: "\x1b[90m",
 };
 
-console.log(`\n${colors.cyan}${colors.bright}🧠 AXI BRAIN.JS TRAINER${colors.reset}\n`);
+console.log(
+  `\n${colors.cyan}${colors.bright}🧠 AXI BRAIN.JS TRAINER${colors.reset}\n`,
+);
 
 async function train() {
   try {
@@ -56,7 +58,7 @@ async function train() {
     }
 
     // Sort intents for consistency
-    const intentList = [...new Set(intentData.map(i => i.intent))].sort();
+    const intentList = [...new Set(intentData.map((i) => i.intent))].sort();
 
     // 2. Build Vocabulary (Bag of Words)
     console.log(`${colors.yellow}2. Building Vocabulary...${colors.reset}`);
@@ -65,19 +67,19 @@ async function train() {
     const trainingData = [];
 
     // Preprocess and build raw data
-    intentData.forEach(item => {
-      item.utterances.forEach(u => {
+    intentData.forEach((item) => {
+      item.utterances.forEach((u) => {
         const { tokens } = preprocessor.preprocess(u, {
           removeStops: true,
           lemma: false,
-          keepOriginal: false
+          keepOriginal: false,
         });
 
         if (tokens.length > 0) {
-          tokens.forEach(word => vocab.add(word));
+          tokens.forEach((word) => vocab.add(word));
           trainingData.push({
             input: tokens,
-            output: item.intent
+            output: item.intent,
           });
         }
       });
@@ -85,17 +87,23 @@ async function train() {
 
     const vocabArray = Array.from(vocab).sort();
 
-    console.log(`   ${colors.gray}Vocab Size:${colors.reset} ${vocabArray.length}`);
-    console.log(`   ${colors.gray}Intents:${colors.reset}    ${intentList.length}`);
-    console.log(`   ${colors.gray}Samples:${colors.reset}    ${trainingData.length}`);
+    console.log(
+      `   ${colors.gray}Vocab Size:${colors.reset} ${vocabArray.length}`,
+    );
+    console.log(
+      `   ${colors.gray}Intents:${colors.reset}    ${intentList.length}`,
+    );
+    console.log(
+      `   ${colors.gray}Samples:${colors.reset}    ${trainingData.length}`,
+    );
 
     // 3. Format Data for Brain.js
     // Brain.js handles object inputs { word1: 1, word2: 1 } very well
-    const formattedData = trainingData.map(item => {
+    const formattedData = trainingData.map((item) => {
       const input = {};
 
       // Bag of Words encoding
-      item.input.forEach(word => {
+      item.input.forEach((word) => {
         // We stick to simple binary presence or basic frequency
         // Assuming the runtime nlp.js uses encoded 'w{index}' keys
         const index = vocabArray.indexOf(word);
@@ -111,11 +119,13 @@ async function train() {
     });
 
     // 4. Train Model
-    console.log(`\n${colors.yellow}3. Training Neural Network...${colors.reset}`);
+    console.log(
+      `\n${colors.yellow}3. Training Neural Network...${colors.reset}`,
+    );
 
     const net = new brain.NeuralNetwork({
       hiddenLayers: CONFIG.HIDDEN_LAYERS,
-      activation: CONFIG.ACTIVATION
+      activation: CONFIG.ACTIVATION,
     });
 
     const stats = net.train(formattedData, {
@@ -123,7 +133,7 @@ async function train() {
       errorThresh: CONFIG.ERROR_THRESH,
       log: (str) => console.log(`   ${str}`),
       logPeriod: 100,
-      learningRate: CONFIG.LEARNING_RATE
+      learningRate: CONFIG.LEARNING_RATE,
     });
 
     console.log(`\n${colors.green}✅ Training Complete!${colors.reset}`);
@@ -141,17 +151,21 @@ async function train() {
       version: "2.1.0",
       type: "brain.js",
       stats: stats,
-      config: CONFIG
+      config: CONFIG,
     };
 
-    fs.writeFileSync(VOCAB_PATH, JSON.stringify({ vocab: vocabArray, intents: intentList }, null, 2));
+    fs.writeFileSync(
+      VOCAB_PATH,
+      JSON.stringify({ vocab: vocabArray, intents: intentList }, null, 2),
+    );
     fs.writeFileSync(META_PATH, JSON.stringify(metaData, null, 2));
 
-    console.log(`\n${colors.cyan}📁 Model saved to:${colors.reset} ${OUTPUT_DIR}`);
+    console.log(
+      `\n${colors.cyan}📁 Model saved to:${colors.reset} ${OUTPUT_DIR}`,
+    );
     console.log(`   - model.json`);
     console.log(`   - vocab.json`);
     console.log(`   - meta.json`);
-
   } catch (error) {
     console.error(`\n${colors.red}❌ Training Failed:${colors.reset}`);
     console.error(error.message);
@@ -160,4 +174,3 @@ async function train() {
 }
 
 train();
-

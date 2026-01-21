@@ -2,7 +2,7 @@
  * AXI NLP Engine
  * ---------------
  * Hybrid NLP system combining:
- * 
+ *
  * 1. NLU Pipeline (preprocessing, NER, POS tagging)
  * 2. Rule-based pattern matching (loaded recursively) - HIGHEST PRIORITY
  * 3. Semantic matching (sentence embeddings + cosine similarity)
@@ -21,14 +21,13 @@ const contextStore = require("./context-store");
 const { logger } = require("../utils");
 const learningMonitor = require("./learning-monitor");
 
-
 // ===========================
 // Model Loading
 // ===========================
 
 const MODEL_PATH = {
-  model: path.join(__dirname, "model-tf", "model.json"),
-  vocab: path.join(__dirname, "model-tf", "vocab.json")
+  model: path.join(__dirname, "../data/models/model-tf", "model.json"),
+  vocab: path.join(__dirname, "../data/models/model-tf", "vocab.json"),
 };
 
 let net = new brain.NeuralNetwork();
@@ -80,7 +79,7 @@ function textToFeatures(text) {
   const { tokens } = preprocessor.preprocess(text);
 
   const features = {};
-  tokens.forEach(token => {
+  tokens.forEach((token) => {
     const index = vocab.indexOf(token);
     if (index > -1) {
       features[`w${index}`] = 1;
@@ -123,7 +122,7 @@ function mlLayer(text) {
   let bestIntent = "none";
   let bestScore = 0;
 
-  Object.keys(output).forEach(intent => {
+  Object.keys(output).forEach((intent) => {
     if (output[intent] > bestScore) {
       bestScore = output[intent];
       bestIntent = intent;
@@ -170,15 +169,15 @@ async function retrainFromLogs() {
   let learnedData = [];
   if (fs.existsSync(learnedPath)) {
     try {
-      learnedData = JSON.parse(fs.readFileSync(learnedPath, 'utf8'));
+      learnedData = JSON.parse(fs.readFileSync(learnedPath, "utf8"));
     } catch (e) {
       learnedData = [];
     }
   }
 
   // Update intent data
-  queue.forEach(item => {
-    let entry = learnedData.find(d => d.intent === item.intent);
+  queue.forEach((item) => {
+    let entry = learnedData.find((d) => d.intent === item.intent);
     if (!entry) {
       entry = { intent: item.intent, utterances: [] };
       learnedData.push(entry);
@@ -189,12 +188,14 @@ async function retrainFromLogs() {
   });
 
   fs.writeFileSync(learnedPath, JSON.stringify(learnedData, null, 2));
-  logger.success(`[Learning] Added ${queue.length} new utterances to learned.json`);
+  logger.success(
+    `[Learning] Added ${queue.length} new utterances to learned.json`,
+  );
 
   // Run Training
   logger.info("[Learning] Starting retraining...");
   try {
-    execSync("node train.js", { cwd: __dirname, stdio: 'inherit' });
+    execSync("node train.js", { cwd: __dirname, stdio: "inherit" });
     learningMonitor.clearTrainingQueue();
     loadModel();
     return true;
@@ -208,7 +209,7 @@ module.exports = {
   /**
    * Interpret user input using the layered NLP system
    * Priority order: Rules → Semantic → Brain.js
-   * 
+   *
    * @param {string} text - User input
    * @returns {Promise<Object>} - Interpretation result
    */
@@ -239,7 +240,7 @@ module.exports = {
   /**
    * Interpret with full decision engine - provides decision type
    * (execute, confirm, clarify, unknown)
-   * 
+   *
    * @param {string} text - User input
    * @returns {Promise<Object>} - Decision result with action recommendation
    */
@@ -254,7 +255,7 @@ module.exports = {
     // Use decision engine to make final decision
     const decision = decisionEngine.decide(
       { rules: rule, semantic, classifier },
-      { lastIntent: null } // Context can be passed here
+      { lastIntent: null }, // Context can be passed here
     );
 
     return {
@@ -263,15 +264,15 @@ module.exports = {
       signals: {
         rules: rule,
         semantic,
-        classifier
-      }
+        classifier,
+      },
     };
   },
 
   /**
    * Process multi-intent commands
    * e.g., "open youtube and play music" → 2 separate actions
-   * 
+   *
    * @param {string} text - User input
    * @returns {Promise<Object>} - Multi-intent result
    */
@@ -318,7 +319,7 @@ module.exports = {
   /**
    * Interpret with full context awareness
    * Handles pronouns, follow-ups, and conversational continuity
-   * 
+   *
    * @param {string} text - User input
    * @returns {Promise<Object>} - Context-aware interpretation result
    */
@@ -346,7 +347,7 @@ module.exports = {
         confidence: followUp.confidence,
         source: "context",
         reason: followUp.reason,
-        nlu: nluPipeline.process(textToInterpret)
+        nlu: nluPipeline.process(textToInterpret),
       };
     }
 
@@ -364,7 +365,7 @@ module.exports = {
   /**
    * Update context after successful command execution
    * Call this after executing a command to maintain context
-   * 
+   *
    * @param {Object} interaction - The completed interaction
    */
   updateContext(interaction) {
@@ -410,5 +411,5 @@ module.exports = {
   decisionEngine,
   contextStore,
   learningMonitor,
-  retrainFromLogs
+  retrainFromLogs,
 };
