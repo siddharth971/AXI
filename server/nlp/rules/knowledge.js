@@ -28,7 +28,9 @@ module.exports = {
     }
 
     // Match "add X and Y", "multiply X by Y"
-    if (/\b(add|subtract|multiply|divide)\s+\d+\s+(and|by|from)\s+\d+/i.test(msg)) {
+    if (
+      /\b(add|subtract|multiply|divide)\s+\d+\s+(and|by|from)\s+\d+/i.test(msg)
+    ) {
       return { intent: "calculate", confidence: 1, entities: {} };
     }
 
@@ -42,17 +44,29 @@ module.exports = {
     const msg = text.toLowerCase();
 
     // Match "convert X to Y" pattern
-    if (/\b(convert|conversion)\b.*\b(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds|liters|gallons)\b/i.test(msg)) {
+    if (
+      /\b(convert|conversion)\b.*\b(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds|liters|gallons)\b/i.test(
+        msg,
+      )
+    ) {
       return { intent: "unit_convert", confidence: 1, entities: {} };
     }
 
     // Match "X km in miles", "X kilometers to miles"
-    if (/\d+\s*(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds)\s*(in|to|mein|se)\s*(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds)/i.test(msg)) {
+    if (
+      /\d+\s*(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds)\s*(in|to|mein|se)\s*(km|kilometers|miles|meters|feet|celsius|fahrenheit|kg|pounds)/i.test(
+        msg,
+      )
+    ) {
       return { intent: "unit_convert", confidence: 1, entities: {} };
     }
 
     // Match "how many miles in X km"
-    if (/how many\s*(miles|feet|kilometers|kg|pounds)\s*(in|are in)\s*\d+/i.test(msg)) {
+    if (
+      /how many\s*(miles|feet|kilometers|kg|pounds)\s*(in|are in)\s*\d+/i.test(
+        msg,
+      )
+    ) {
       return { intent: "unit_convert", confidence: 1, entities: {} };
     }
 
@@ -76,5 +90,57 @@ module.exports = {
     }
 
     return null;
-  }
+  },
+
+  /**
+   * What Is - match definition/explanation queries
+   */
+  whatIs(text) {
+    const msg = text.toLowerCase();
+
+    // Pattern: "what is X", "what are X"
+    const simpleMatch = msg.match(
+      /^(?:please )?(?:tell me )?(?:explain )?what (?:is|are|was|were) (.+)/i,
+    );
+    if (simpleMatch) {
+      return {
+        intent: "knowledge.what_is",
+        confidence: 1.0,
+        entities: { topic: simpleMatch[1].trim() },
+      };
+    }
+
+    // Pattern: "define X"
+    const defineMatch = msg.match(/^(?:please )?define (.+)/i);
+    if (defineMatch) {
+      return {
+        intent: "knowledge.what_is",
+        confidence: 1.0,
+        entities: { topic: defineMatch[1].trim() },
+      };
+    }
+
+    return null;
+  },
+
+  /**
+   * Who Is - match person queries
+   */
+  whoIs(text) {
+    const msg = text.toLowerCase();
+
+    // Pattern: "who is X", "who was X"
+    const match = msg.match(
+      /^(?:please )?(?:tell me )?(?:know )?who (?:is|are|was|were) (.+)/i,
+    );
+    if (match) {
+      return {
+        intent: "knowledge.who_is",
+        confidence: 1.0,
+        entities: { person: match[1].trim() },
+      };
+    }
+
+    return null;
+  },
 };

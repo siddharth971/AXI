@@ -1,0 +1,79 @@
+<div class="dashboard-container">
+  <div class="header">
+    <h1>AXI Intelligence Dashboard</h1>
+    <a routerLink="/" class="back-link">← Back to Interface</a>
+  </div>
+
+  <div class="grid">
+    <!-- Memory Section -->
+    <div class="card memory-card">
+      <div class="card-header">
+        <h2>🧠 Long-Term Memory</h2>
+        <span class="badge">{{ facts.length }} facts</span>
+      </div>
+      <div class="card-body">
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Key</th>
+                <th>Value</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let fact of facts">
+                <td class="key">{{ fact.key }}</td>
+                <td class="value">{{ fact.value }}</td>
+                <td class="action">
+                  <button (click)="deleteFact(fact.key)" class="delete-btn">Forget</button>
+                </td>
+              </tr>
+              <tr *ngIf="facts.length === 0">
+                <td colspan="3" class="empty">No memories stored yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Learning Section -->
+    <div class="card learning-card">
+      <div class="card-header">
+        <h2>🔄 Learning Queue</h2>
+        <span class="badge">{{ corrections.length }} pending</span>
+      </div>
+      <div class="card-body">
+        <ul class="correction-list">
+          <li *ngFor="let item of corrections" class="correction-item">
+            <div class="correction-content">
+              <span class="utterance">"{{ item.utterance }}"</span>
+              <span class="arrow">→</span>
+              <span class="intent">{{ item.correct_intent }}</span>
+            </div>
+            <span class="timestamp">{{ item.timestamp | date: 'short' }}</span>
+          </li>
+          <li *ngIf="corrections.length === 0" class="empty">No pending corrections.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Notifications Section -->
+    <div class="card notification-card">
+      <div class="card-header">
+        <h2>🔔 Notifications</h2>
+        <button (click)="refreshNotifications()" class="refresh-btn">Refresh</button>
+      </div>
+      <div class="card-body">
+        <ul class="notification-list">
+          <li *ngFor="let msg of messages" class="notification-item" [class.unread]="!msg.read">
+            <span class="time">{{ msg.timestamp | date: 'shortTime' }}</span>
+            <p>{{ msg.message }}</p>
+          </li>
+          <li *ngIf="messages.length === 0" class="empty">No active notifications.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

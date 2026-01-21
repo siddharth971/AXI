@@ -30,6 +30,8 @@ const sessions = require("./core/sessions");
 const nlp = require("./nlp/nlp");
 const skills = require("./skills");
 const proactive = require("./core/proactive");
+const memory = require("./core/memory");
+const learning = require("./core/learning");
 
 // Initialize Proactive Engine
 proactive.init();
@@ -255,6 +257,36 @@ app.post("/api/sessions/:id/activate", (req, res) => {
 app.get("/api/notifications", (req, res) => {
   const messages = proactive.getMessages();
   res.json({ messages });
+});
+
+/**
+ * GET /api/memory
+ * Get all memory facts
+ */
+app.get("/api/memory", (req, res) => {
+  res.json({ facts: memory.data.facts });
+});
+
+/**
+ * DELETE /api/memory/:key
+ * Delete a memory fact
+ */
+app.delete("/api/memory/:key", (req, res) => {
+  const { key } = req.params;
+  const deleted = memory.forget(key);
+  if (deleted) {
+    res.json({ success: true });
+  } else {
+    res.status(404).json({ error: "Fact not found" });
+  }
+});
+
+/**
+ * GET /api/learning
+ * Get pending corrections
+ */
+app.get("/api/learning", (req, res) => {
+  res.json({ corrections: learning.getPending() });
 });
 
 // ===========================

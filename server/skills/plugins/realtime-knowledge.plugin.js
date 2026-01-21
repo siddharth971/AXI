@@ -42,20 +42,19 @@ module.exports = {
 
             return response;
           } else {
-          } else {
             return `I couldn't find detailed information about "${query}".`;
           }
-    } catch(error) {
-      console.error("[Knowledge Plugin] Web search error:", error.message);
-      return "I had trouble searching the web. Please try again.";
-    }
-  },
-},
+        } catch (error) {
+          console.error("[Knowledge Plugin] Web search error:", error.message);
+          return "I had trouble searching the web. Please try again.";
+        }
+      },
+    },
 
-  // Generic knowledge lookup (Web Search primary)
-  "knowledge.lookup": {
-  confidence: 0.6,
-    requiresConfirmation: false,
+    // Generic knowledge lookup (Web Search primary)
+    "knowledge.lookup": {
+      confidence: 0.6,
+      requiresConfirmation: false,
       handler: async (params, context) => {
         const query = params.query || params.text || params.topic || "";
 
@@ -84,10 +83,10 @@ module.exports = {
       },
     },
 
-// "What is X" - uses web search
-"knowledge.what_is": {
-  confidence: 0.7,
-    requiresConfirmation: false,
+    // "What is X" - uses web search
+    "knowledge.what_is": {
+      confidence: 0.7,
+      requiresConfirmation: false,
       handler: async (params, context) => {
         const topic = params.topic || params.query || "";
 
@@ -112,10 +111,10 @@ module.exports = {
       },
     },
 
-// "Who is X" - uses web search
-"knowledge.who_is": {
-  confidence: 0.7,
-    requiresConfirmation: false,
+    // "Who is X" - uses web search
+    "knowledge.who_is": {
+      confidence: 0.7,
+      requiresConfirmation: false,
       handler: async (params, context) => {
         const person = params.person || params.query || "";
 
@@ -139,10 +138,10 @@ module.exports = {
       },
     },
 
-// Quick facts
-"knowledge.quick_fact": {
-  confidence: 0.6,
-    requiresConfirmation: false,
+    // Quick facts
+    "knowledge.quick_fact": {
+      confidence: 0.6,
+      requiresConfirmation: false,
       handler: async (params, context) => {
         const query = params.query || params.text || "";
 

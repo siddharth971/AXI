@@ -57,6 +57,7 @@ module.exports = {
     // Recall: "What is X?"
     "memory.recall": {
       confidence: 0.6,
+      requiresConfirmation: false,
       handler: async (params, context) => {
         let query = params.query || params.key || "";
 
@@ -83,6 +84,7 @@ module.exports = {
     // Forget
     "memory.forget": {
       confidence: 0.8,
+      requiresConfirmation: true,
       handler: async (params, context) => {
         let key = params.key;
         if (!key && params.text) {

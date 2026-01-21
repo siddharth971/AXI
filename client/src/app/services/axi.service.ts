@@ -28,17 +28,17 @@ export class AxiService {
         // Priority ranking for natural-sounding voices
         const voice =
           // 1. Indian English specific (matching the recognition language)
-          voices.find(v => v.lang === 'en-IN') ||
+          voices.find((v) => v.lang === 'en-IN') ||
           // 2. Edge/Windows "Natural" voices (Best quality)
-          voices.find(v => v.name.includes('Natural') && v.lang.startsWith('en')) ||
+          voices.find((v) => v.name.includes('Natural') && v.lang.startsWith('en')) ||
           // 3. Google High-Quality Online voices
-          voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
+          voices.find((v) => v.name.includes('Google') && v.lang.startsWith('en')) ||
           // 4. Any English Female voice (usually clearer for assistants)
-          voices.find(v => v.name.includes('Female') && v.lang.startsWith('en')) ||
+          voices.find((v) => v.name.includes('Female') && v.lang.startsWith('en')) ||
           // 5. Any English UK (typically sounds more "Jarvis-like")
-          voices.find(v => v.lang.startsWith('en-GB')) ||
+          voices.find((v) => v.lang.startsWith('en-GB')) ||
           // 6. Fallback to any English US
-          voices.find(v => v.lang.startsWith('en-US')) ||
+          voices.find((v) => v.lang.startsWith('en-US')) ||
           voices[0];
 
         if (voice) {
@@ -72,5 +72,25 @@ export class AxiService {
         speechSynthesis.speak(utterance);
       }
     });
+  }
+
+  // ... existing methods ...
+
+  // -- Dashboard APIs --
+
+  getMemory(): Observable<{ facts: any[] }> {
+    return this.http.get<{ facts: any[] }>(`http://localhost:5000/api/memory`);
+  }
+
+  deleteMemory(key: string): Observable<any> {
+    return this.http.delete(`http://localhost:5000/api/memory/${key}`);
+  }
+
+  getLearning(): Observable<{ corrections: any[] }> {
+    return this.http.get<{ corrections: any[] }>(`http://localhost:5000/api/learning`);
+  }
+
+  getNotifications(): Observable<{ messages: any[] }> {
+    return this.http.get<{ messages: any[] }>(`http://localhost:5000/api/notifications`);
   }
 }
