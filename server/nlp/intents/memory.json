@@ -1,0 +1,32 @@
+[
+  {
+    "intent": "memory.remember",
+    "utterances": [
+      "remember that",
+      "remember my",
+      "save note",
+      "don't forget that",
+      "store this info",
+      "remember the"
+    ]
+  },
+  {
+    "intent": "memory.recall",
+    "utterances": [
+      "what is my",
+      "what's my",
+      "who is my",
+      "do you remember my",
+      "recall my"
+    ]
+  },
+  {
+    "intent": "memory.forget",
+    "utterances": [
+      "forget my",
+      "delete memory",
+      "remove note",
+      "don't remember"
+    ]
+  }
+]
