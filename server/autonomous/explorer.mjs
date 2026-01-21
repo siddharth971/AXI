@@ -5,8 +5,13 @@ import crypto from "crypto";
 import { URL } from "url";
 import dns from "dns/promises";
 
-const OUTPUT_DIR = "./autonomous/output";
-const DOMAINS_PATH = "./autonomous/domains.json";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const OUTPUT_DIR = path.join(__dirname, "output");
+const DOMAINS_PATH = path.join(__dirname, "domains.json");
 const OUTPUT_FILE = "website_blueprints.json";
 
 const FETCH_OPTIONS = {
@@ -16,7 +21,7 @@ const FETCH_OPTIONS = {
     Accept:
       "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
   },
-  timeout: 20000,
+  timeout: 8000,
   redirect: "follow",
 };
 
@@ -204,7 +209,7 @@ function extractApiManifest(html) {
 }
 
 async function generateBlueprint(url) {
-  console.log(`\n🔍 Analyzing Blueprint for: ${url}...`);
+  // console.log(`\n🔍 Analyzing Blueprint for: ${url}...`);
   const blueprintId =
     "BLUEPRINT-" +
     crypto
@@ -259,12 +264,10 @@ async function generateBlueprint(url) {
       },
       network_waterfall: [
         { resource: "document", latency: `${latency}ms` },
-        ...assets.core_assets
-          .slice(0, 3)
-          .map((a) => ({
-            resource: path.basename(a.path),
-            latency: "pending",
-          })),
+        ...assets.core_assets.slice(0, 3).map((a) => ({
+          resource: path.basename(a.path),
+          latency: "pending",
+        })),
       ],
       page_content: pageContent,
     };
@@ -305,8 +308,13 @@ async function generateBlueprint(url) {
   }
 }
 
+// Batch processing configuration
+const CONCURRENCY_LIMIT = 50;
+
 async function runExplorer() {
-  console.log("🚀 AXI Autonomous Blueprint Engine Initialized...");
+  console.log(
+    "🚀 AXI Autonomous Blueprint Engine Priority Mode (100x Speed)...",
+  );
 
   let sources;
   try {
@@ -326,23 +334,58 @@ async function runExplorer() {
   }
 
   const results = [];
+  const total = sources.length;
+  let completed = 0;
 
-  for (const url of sources) {
-    const blueprint = await generateBlueprint(url);
-    if (blueprint) {
-      results.push(blueprint);
-      console.log(
-        `✅ Generated Blueprint: ${blueprint.website_blueprint_id} (${blueprint.global_configuration.domain})`,
-      );
+  // Helper to process a single URL with error boundary
+  const processUrl = async (url) => {
+    try {
+      const blueprint = await generateBlueprint(url);
+      if (blueprint) {
+        results.push(blueprint);
+        process.stdout.write(`.`); // Minimal progress indicator
+      }
+    } catch (e) {
+      // Ignore failures in fast mode
+    } finally {
+      completed++;
     }
+  };
+
+  // Chunking helper
+  const chunk = (arr, size) =>
+    Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+      arr.slice(i * size, i * size + size),
+    );
+
+  const batches = chunk(sources, CONCURRENCY_LIMIT);
+
+  console.log(
+    `\n⚡ Processing ${total} domains in ${batches.length} concurrent batches...`,
+  );
+
+  const startTime = Date.now();
+
+  for (let i = 0; i < batches.length; i++) {
+    const batch = batches[i];
+    console.log(
+      `\n🌊 [Batch ${i + 1}/${batches.length}] Launching ${batch.length} explorers...`,
+    );
+
+    // Execute batch in parallel
+    await Promise.all(batch.map((url) => processUrl(url)));
+
+    console.log(`\n   ✅ Batch ${i + 1} complete. (${completed}/${total})`);
   }
 
+  const duration = ((Date.now() - startTime) / 1000).toFixed(2);
   const fullOutputPath = path.join(OUTPUT_DIR, OUTPUT_FILE);
   fs.writeFileSync(fullOutputPath, JSON.stringify(results, null, 2));
 
   console.log(
-    `\n✨ Blueprint Generation Complete! Results saved to: ${fullOutputPath}`,
+    `\n✨ Exploration Finished in ${duration}s! Generated ${results.length} blueprints.`,
   );
+  console.log(`📁 Output saved to: ${fullOutputPath}`);
 }
 
 runExplorer();

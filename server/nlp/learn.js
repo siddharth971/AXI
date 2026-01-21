@@ -10,6 +10,10 @@ const OUTPUT_INTENTS_PATH = path.join(
   __dirname,
   "./intents/autonomous_learned.json",
 );
+const OUTPUT_CONTENT_PATH = path.join(
+  __dirname,
+  "./knowledge/learned_content.json",
+);
 
 // Colors
 const colors = {
@@ -47,6 +51,7 @@ function learnFromBlueprints() {
   );
 
   const learnedIntents = [];
+  const learnedContent = {};
   let totalUtterances = 0;
 
   blueprints.forEach((site) => {
@@ -57,12 +62,6 @@ function learnFromBlueprints() {
     if (!cleanBrand) return;
 
     // 1. Create a specific intent for this domain/brand
-    // We categorize it under 'knowledge.website' typically, but to make it "Learned",
-    // we create a specific entry that the classifier can pick up.
-    // However, to avoid exploding the output layer with dynamic classes,
-    // we might map to a generic "knowledge.query" and train the NET to recognize the entities.
-    // FOR THIS DEMO: We will generate specific intents to demonstrate distinct learning.
-
     const intentName = `knowledge.dynamic.${cleanBrand}`;
     const utterances = new Set();
 
@@ -91,6 +90,8 @@ function learnFromBlueprints() {
     }
 
     // Deep Content Queries (from main_content headers)
+    const contentSummary = [];
+
     site.site_routes_and_content.forEach((route) => {
       if (
         route.page_content &&
@@ -106,9 +107,24 @@ function learnFromBlueprints() {
               utterances.add(`${brand} ${text}`);
             }
           }
+          // Collect content for the knowledge map
+          if (block.text && block.text.length > 20) {
+            contentSummary.push(block.text);
+          }
         });
       }
     });
+
+    // Store knowledge content
+    learnedContent[intentName] = {
+      brand: brand,
+      domain: config.domain,
+      description:
+        site.global_configuration.description || "No description available.",
+      hosting: config.infrastructure.hosting_provider,
+      ip: config.infrastructure.server_ip,
+      summary: contentSummary.slice(0, 5).join("\n\n"), // Store top 5 content blocks
+    };
 
     if (utterances.size > 0) {
       learnedIntents.push({
@@ -128,11 +144,20 @@ function learnFromBlueprints() {
       OUTPUT_INTENTS_PATH,
       JSON.stringify(learnedIntents, null, 2),
     );
+    // Save content map
+    fs.writeFileSync(
+      OUTPUT_CONTENT_PATH,
+      JSON.stringify(learnedContent, null, 2),
+    );
+
     console.log(
       `\n${colors.green}✨ Learning Complete! generated ${learnedIntents.length} new intent clusters with ${totalUtterances} samples.${colors.reset}`,
     );
     console.log(
-      `${colors.gray}📁 Saved to: ${OUTPUT_INTENTS_PATH}${colors.reset}`,
+      `${colors.gray}📁 Saved intents to: ${OUTPUT_INTENTS_PATH}${colors.reset}`,
+    );
+    console.log(
+      `${colors.gray}📁 Saved content map to: ${OUTPUT_CONTENT_PATH}${colors.reset}`,
     );
     console.log(
       `${colors.cyan}🚀 You can now run 'npm run train' to integrate this knowledge into the Neural Network.${colors.reset}`,
