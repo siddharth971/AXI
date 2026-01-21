@@ -1,0 +1,754 @@
+{
+  "website_blueprint_id": "BLUEPRINT-3B09B700",
+  "generated_at": "2026-01-21T07:26:54.672Z",
+  "global_configuration": {
+    "brand_name": "Paligo",
+    "domain": "paligo.net",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.19.154.92",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0, s-maxage=2592000",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 65,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/client_data/5a2ae358e52205072c407b88/script.js",
+        "type": "script",
+        "full_url": "https://cdn-cookieyes.com/client_data/5a2ae358e52205072c407b88/script.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/init.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/init.min.js"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/themes/uncode-child/js/slider.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/cache/min/1/wp-content/themes/uncode-child/js/slider.js?ver=1768576855"
+      },
+      {
+        "path": "/wp-content/cache/min/1/7117856.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/cache/min/1/7117856.js?ver=1768576855"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/global.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/global.min.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/lenis.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/lenis.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/utils.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/utils.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/menuSystem.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/menuSystem.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/disableHoverScroll.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/disableHoverScroll.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/animations.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/animations.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/tapHover.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/tapHover.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/preventDoubleTransition.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/preventDoubleTransition.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/printScreen.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/printScreen.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/rowParallax.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/rowParallax.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.waypoints.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.waypoints.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.smartmenus.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.smartmenus.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.easing.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.easing.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.mousewheel.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.mousewheel.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.counterup.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.counterup.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/counters.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/counters.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/jquery.sticky-kit.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/jquery.sticky-kit.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/stickyElements.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/stickyElements.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/video-thumbs.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/video-thumbs.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/lib/transition.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/lib/transition.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/backgroundSelfVideos.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/backgroundSelfVideos.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/widgets.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/widgets.min.js"
+      },
+      {
+        "path": "/wp-content/themes/uncode/library/js/app-loader.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/themes/uncode/library/js/app-loader.min.js"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/themes/uncode-child/js/scripts.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/cache/min/1/wp-content/themes/uncode-child/js/scripts.js?ver=1768576855"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://paligo.net/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/uploads/paligo-logo-horizontal.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/paligo-logo-horizontal.svg"
+      },
+      {
+        "path": "/wp-content/uploads/paligo-ceo-2.png",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/paligo-ceo-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/about-paligo-video-poster-1040.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/about-paligo-video-poster-1040.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/honeywell-sparta-systems-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/honeywell-sparta-systems-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/european-commission-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/european-commission-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/mitsubishi-electric-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/mitsubishi-electric-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/allianz-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/allianz-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/fujifilm-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/fujifilm-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/sitecore-logo.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/sitecore-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/sharon-burton.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/sharon-burton.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/content-reuse-blue-bg.mp4",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/content-reuse-blue-bg.mp4"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-1.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-1.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-2.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-2.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-3.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-3.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-4.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-4.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-5.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-5.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/collaboration-visual-6.png.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/collaboration-visual-6.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/paligo-ai.png",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/paligo-ai.png"
+      },
+      {
+        "path": "/wp-content/uploads/Product-Visual-27-1.png",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/Product-Visual-27-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/rachel-cheyfitz-160x160-1.jpg.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/rachel-cheyfitz-160x160-1.jpg.webp"
+      },
+      {
+        "path": "/wp-content/uploads/paul-labarbera-160x160-1.jpg.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/paul-labarbera-160x160-1.jpg.webp"
+      },
+      {
+        "path": "/wp-content/uploads/sarah-holdgrafer-160x160-1.jpg.webp",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/sarah-holdgrafer-160x160-1.jpg.webp"
+      },
+      {
+        "path": "/wp-content/uploads/fabrizio-ferri-benedetti.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/fabrizio-ferri-benedetti.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/Product-Visual-10.png",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/Product-Visual-10.png"
+      },
+      {
+        "path": "/wp-content/uploads/structured-authoring.mp4",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/structured-authoring.mp4"
+      },
+      {
+        "path": "/wp-content/uploads/monica-white.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/monica-white.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/Product-Visual-15.png",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/Product-Visual-15.png"
+      },
+      {
+        "path": "/wp-content/uploads/p8.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p8.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p7.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p7.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p4.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p4.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p1.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p5.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p5.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p3.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p3.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/p6.jpg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/p6.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/paligo-logo-horizontal-light.svg",
+        "type": "image",
+        "full_url": "https://paligo.net/wp-content/uploads/paligo-logo-horizontal-light.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Paligo - The most user-friendly CCMS for technical documentation",
+        "description": "Paligo is a truly user-friendly Component Content Management System (CCMS) solution for technical documentation, policies and procedures, knowledge management, and more.",
+        "canonical": "https://paligo.net"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "16132ms"
+        },
+        {
+          "resource": "script.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "init.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "slider.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Structure is power.",
+          "h2_subtitle": "Clear, consistent documentation is a growth lever. Organized at scale, it keeps every team aligned, every customer up to speed, and turns business-critical content into a strategic advantage",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Reduce time to market withsmart content reuse",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Content reuse + AIa perfect match",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Write oncePublish everywhere",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Structure is power."
+          },
+          {
+            "tag": "p",
+            "text": "Clear, consistent documentation is a growth lever. Organized at scale, it keeps every team aligned, every customer up to speed, and turns business-critical content into a strategic advantage"
+          },
+          {
+            "tag": "h2",
+            "text": "Reduce time to market with smart content reuse"
+          },
+          {
+            "tag": "p",
+            "text": "Paligo provides topic-based authoring and smart content reuse in a component content management system that enables you to release your documentation in a fraction of the time."
+          },
+          {
+            "tag": "p",
+            "text": "What used to take the better part of a week for 3 versions of our documents, we are now creating 12 versions in under an hour."
+          },
+          {
+            "tag": "h2",
+            "text": "Goodbye content silos. Hello team collaboration."
+          },
+          {
+            "tag": "p",
+            "text": "Have your entire team working together on your content. No more shuffling files back and forth. With a cloud-based component content management system, everyone is on the same page."
+          },
+          {
+            "tag": "h2",
+            "text": "Content reuse + AI a perfect match"
+          },
+          {
+            "tag": "p",
+            "text": "Paligo structured authoring and content reuse is a perfect match for AI-powered capabilities. For one thing, structured authoring with rich metadata ensures creation of the best content for AI consumption . At the same time, smart AI features in Paligo can help making content production faster and more efficient. Finally, the content reuse features ensures that you don&#8217;t create content unnecessarily, avoiding time-consuming work and review efforts."
+          },
+          {
+            "tag": "h2",
+            "text": "Write once Publish everywhere"
+          },
+          {
+            "tag": "p",
+            "text": "Personalize your content for different audiences and publish it anywhere your customers need it. With powerful multi-channel publishing, Paligo allows you to write your content once, and repurpose it at the click of a button to any output format and channel you need."
+          },
+          {
+            "tag": "h2",
+            "text": "Tame the content chaos"
+          },
+          {
+            "tag": "p",
+            "text": "Experience full control at your fingertips with a Component Content Management System that truly puts you in the driver’s seat. Organize and categorize content with taxonomies and know exactly where content is reused down to the smallest text fragment."
+          },
+          {
+            "tag": "p",
+            "text": "It's currently the best web-based CCMS out there."
+          },
+          {
+            "tag": "h2",
+            "text": "Future-proof your valuable content"
+          },
+          {
+            "tag": "p",
+            "text": "Structured Authoring makes your content accurate, consistent, up-to-date, and future-proof. Treat your organization’s valuable content right."
+          },
+          {
+            "tag": "p",
+            "text": "I find myself enjoying the abilities it gives me to really structure my content in a way that users can consume more easily."
+          },
+          {
+            "tag": "h2",
+            "text": "Fast Return on Investment"
+          },
+          {
+            "tag": "p",
+            "text": "Quickly get an idea of your own return on investment with the ROI calculator, based on industry research data. Book a meeting with sales and get access."
+          },
+          {
+            "tag": "p",
+            "text": "Up to"
+          },
+          {
+            "tag": "p",
+            "text": "75 %"
+          },
+          {
+            "tag": "p",
+            "text": "Savings on content reuse"
+          },
+          {
+            "tag": "p",
+            "text": "Up to"
+          },
+          {
+            "tag": "p",
+            "text": "25 %"
+          },
+          {
+            "tag": "p",
+            "text": "Time saved reviewing"
+          },
+          {
+            "tag": "p",
+            "text": "Up to"
+          },
+          {
+            "tag": "p",
+            "text": "40 %"
+          },
+          {
+            "tag": "p",
+            "text": "Ticket deflection"
+          },
+          {
+            "tag": "p",
+            "text": "Up to"
+          },
+          {
+            "tag": "p",
+            "text": "90 %"
+          },
+          {
+            "tag": "p",
+            "text": "Translation efficiency"
+          },
+          {
+            "tag": "h2",
+            "text": "See why customers love Paligo"
+          },
+          {
+            "tag": "p",
+            "text": "Don’t just take our word for it. Find out why Paligo is top-rated on G2 and TrustRadius in the Component Content Management System category."
+          },
+          {
+            "tag": "h2",
+            "text": "Book a demo"
+          },
+          {
+            "tag": "p",
+            "text": "Sign up here and we’ll get right back to you! Or use our meeting booking function right after you have submitted the form."
+          },
+          {
+            "tag": "p",
+            "text": "If we see that Paligo would be a good fit for you after a demo there’s also a chance to have a free trial to test it out further."
+          },
+          {
+            "tag": "p",
+            "text": "Join the 4000+ documentation leaders already using Paligo to create smarter content."
+          },
+          {
+            "tag": "h2",
+            "text": "Company"
+          },
+          {
+            "tag": "p",
+            "text": "Paligo AB Röntgenvägen 3D 17154 Solna Sweden Google Maps"
+          },
+          {
+            "tag": "h2",
+            "text": "Compare"
+          },
+          {
+            "tag": "h2",
+            "text": "Customers"
+          },
+          {
+            "tag": "h2",
+            "text": "Recent Posts"
+          },
+          {
+            "tag": "h4",
+            "text": "Get the Paligo Pulse newsletter once a month"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 28,
+          "headings": 15,
+          "images": 62
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-F9B394A0",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-08EAC115",
+      "path": "/what-is-unstructured-content/",
+      "type": "Detected Link",
+      "anchor_text": "1. What is unstructured content?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AF62B50C",
+      "path": "/when-is-unstructured-no-longer-good-enough/",
+      "type": "Detected Link",
+      "anchor_text": "2. When is unstructured no longer good enough?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CB8AD3E8",
+      "path": "/the-shift-to-structured-content-the-smarter-way-forward/",
+      "type": "Detected Link",
+      "anchor_text": "3. Moving from unstructured -> structured",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C3AFFBE",
+      "path": "/a-better-way-to-manage-content/",
+      "type": "Detected Link",
+      "anchor_text": "4. What happens when you make the switch",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ACEF971D",
+      "path": "/working-with-structured-content/",
+      "type": "Detected Link",
+      "anchor_text": "5. The value of structured content",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-18F079B2",
+      "path": "/what-to-look-for-in-your-first-ccms/",
+      "type": "Detected Link",
+      "anchor_text": "6. Assessing your needs and buying your first CCMS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-575891A3",
+      "path": "/work-faster-work-smarter/",
+      "type": "Detected Link",
+      "anchor_text": "7. Getting proficient and productive on a CCMS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0B839201",
+      "path": "/paligo-vs-word-google-docs/",
+      "type": "Detected Link",
+      "anchor_text": "Word or Google Docs vs Paligo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E15D597",
+      "path": "/paligo-vs-confluence/",
+      "type": "Detected Link",
+      "anchor_text": "Confluence vs Paligo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BD58F5A7",
+      "path": "/paligo-vs-adobe-indesign/",
+      "type": "Detected Link",
+      "anchor_text": "Adobe InDesign vs Paligo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9B7D9D86",
+      "path": "/framemaker/",
+      "type": "Detected Link",
+      "anchor_text": "Adobe FrameMaker vs Paligo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-74BBAA82",
+      "path": "/robohelp/",
+      "type": "Detected Link",
+      "anchor_text": "Adobe RoboHelp vs Paligo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BFF115EE",
+      "path": "/paligo-vs-zendesk-knowledge/",
+      "type": "Detected Link",
+      "anchor_text": "Paligo vs Zendesk Knowledge",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8098B124",
+      "path": "/ccms-component-content-management-system/",
+      "type": "Detected Link",
+      "anchor_text": "Component Content Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

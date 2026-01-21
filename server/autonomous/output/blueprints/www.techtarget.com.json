@@ -1,0 +1,431 @@
+{
+  "website_blueprint_id": "BLUEPRINT-66F3CEEF",
+  "generated_at": "2026-01-21T07:27:12.141Z",
+  "global_configuration": {
+    "brand_name": "TechTarget",
+    "domain": "www.techtarget.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.18.71",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0 , s-maxage=3600",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 14,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/rms/ux/responsive/js/libs/jquery-1.10.2.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/rms/ux/responsive/js/libs/jquery-1.10.2.min.js"
+      },
+      {
+        "path": "/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      },
+      {
+        "path": "/cmp/sourcepoint/gdprTCFv2-config.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/cmp/sourcepoint/gdprTCFv2-config.min.js?v=9.75"
+      },
+      {
+        "path": "/cmp/sourcepoint/ccpa-config.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/cmp/sourcepoint/ccpa-config.min.js?v=9.75"
+      },
+      {
+        "path": "/cmp/ttCmpApi.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/cmp/ttCmpApi.min.js?v=9.75"
+      },
+      {
+        "path": "/rms/ux/responsive/js/responsive.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/rms/ux/responsive/js/responsive.min.js?v=9.75"
+      },
+      {
+        "path": "/optimizely-edge/17796810052",
+        "type": "script",
+        "full_url": "https://optimizely.techtarget.com/optimizely-edge/17796810052"
+      },
+      {
+        "path": "/rms/ux/responsive/js/responsive-ui.min.js",
+        "type": "script",
+        "full_url": "https://www.techtarget.com/rms/ux/responsive/js/responsive-ui.min.js?v=9.75"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/rms/ux/responsive/css/main.css",
+        "type": "stylesheet",
+        "full_url": "https://www.techtarget.com/rms/ux/responsive/css/main.css?v=9.75"
+      },
+      {
+        "path": "/rms/ux/responsive/img/nav_logo.png",
+        "type": "image",
+        "full_url": "https://cdn.ttgtmedia.com/rms/ux/responsive/img/nav_logo.png"
+      },
+      {
+        "path": "/rms/onlineimages/health%20analytics_g1450914513_topicdesktop_375X125.jpg",
+        "type": "image",
+        "full_url": "https://www.techtarget.com/rms/onlineimages/health%20analytics_g1450914513_topicdesktop_375X125.jpg"
+      },
+      {
+        "path": "/rms/onlineimages/ransom_g846011096_topicdesktop_375X125.jpg",
+        "type": "image",
+        "full_url": "https://www.techtarget.com/rms/onlineimages/ransom_g846011096_topicdesktop_375X125.jpg"
+      },
+      {
+        "path": "/rms/onlineimages/container_g1294273513_topicdesktop_375X125.jpg",
+        "type": "image",
+        "full_url": "https://www.techtarget.com/rms/onlineimages/container_g1294273513_topicdesktop_375X125.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "TechTarget - Global Network of Information Technology Websites and Contributors",
+        "description": "",
+        "canonical": "https://www.techtarget.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6138ms"
+        },
+        {
+          "resource": "jquery-1.10.2.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "rocket-loader.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gdprTCFv2-config.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Accelerating Your Growth from R&D to ROI",
+          "h2_subtitle": "And acceleration requires actionable insights, impactful tools and partners focused on achieving business outcomes. By supporting your teams end-to-end, Informa TechTarget makes you faster to market and faster to revenue.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "News",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Technology Insights",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Topics Covered",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "The Informa TechTarget commercial homepage has moved. Visit informatechtarget.com to learn more about our solutions for accelerating growth from R&D to ROI."
+          },
+          {
+            "tag": "h1",
+            "text": "Accelerating Your Growth from R&D to ROI"
+          },
+          {
+            "tag": "p",
+            "text": "And acceleration requires actionable insights, impactful tools and partners focused on achieving business outcomes. By supporting your teams end-to-end, Informa TechTarget makes you faster to market and faster to revenue."
+          },
+          {
+            "tag": "h2",
+            "text": "News"
+          },
+          {
+            "tag": "h3",
+            "text": "ScyllaDB adds vector search to managed database platform"
+          },
+          {
+            "tag": "p",
+            "text": "The feature's direct integration in the X Cloud platform is aimed at simplifying AI development by eliminating the need for customers to add specialized databases."
+          },
+          {
+            "tag": "h3",
+            "text": "News brief: Security flaws put thousands of systems at risk"
+          },
+          {
+            "tag": "p",
+            "text": "Check out the latest security news from the Informa TechTarget team."
+          },
+          {
+            "tag": "h3",
+            "text": "IBM prepares hybrid cloud twist for sovereign AI"
+          },
+          {
+            "tag": "p",
+            "text": "IBM Sovereign Core proposes a control plane for AI apps that doesn't rely on any single public cloud provider, which will appeal to some large enterprises, analysts said."
+          },
+          {
+            "tag": "h3",
+            "text": "ScyllaDB X Cloud update addresses database cost, performance"
+          },
+          {
+            "tag": "p",
+            "text": "Features such as autoscaling and advanced compression are designed to help customers reduce spending on their data management, analytics and AI initiatives."
+          },
+          {
+            "tag": "h3",
+            "text": "MongoDB launches latest Voyage models to aid AI development"
+          },
+          {
+            "tag": "p",
+            "text": "With many enterprises struggling to build advanced applications, new embedding and reranking models improve data retrieval to make agents and other tools more effective."
+          },
+          {
+            "tag": "h3",
+            "text": "Box releases Box Extract, its AI metadata agent"
+          },
+          {
+            "tag": "p",
+            "text": "Line-of-business Box users can now tag contracts, reports and other commonly used docs with plain-language instructions, which an agent processes."
+          },
+          {
+            "tag": "h2",
+            "text": "Technology Insights"
+          },
+          {
+            "tag": "h3",
+            "text": "6 hyperconverged infrastructure trends for 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Hyperconverged infrastructure is rapidly changing. Read what HCI has to offer in 2026 and what projected growth it may have within the next couple of years."
+          },
+          {
+            "tag": "h3",
+            "text": "Top 8 observability tools for 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Observability tools can help developers and IT administrators improve the delivery, performance and customer experience of applications and avoid potential issues."
+          },
+          {
+            "tag": "h3",
+            "text": "Regression in machine learning: A crash course for engineers"
+          },
+          {
+            "tag": "p",
+            "text": "Regression in machine learning helps organizations forecast and make better decisions by revealing the relationships between variables. Learn how it's applied across industries."
+          },
+          {
+            "tag": "h3",
+            "text": "What are the pros and cons of DaaS?"
+          },
+          {
+            "tag": "p",
+            "text": "Desktop as a service stands out for its scalability, but IT admins should also keep factors such as customizability in mind when considering their desktop virtualization options."
+          },
+          {
+            "tag": "h2",
+            "text": "Topics Covered"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 12,
+          "headings": 14,
+          "images": 5
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-199C97BC",
+      "path": "/register",
+      "type": "Detected Link",
+      "anchor_text": "Sign-up now. Start my free, unlimited access.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-766BDC43",
+      "path": "/login",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FEC68A5A",
+      "path": "/searchenterpriseai/",
+      "type": "Detected Link",
+      "anchor_text": "Enterprise AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F13456BF",
+      "path": "/searchsecurity/",
+      "type": "Detected Link",
+      "anchor_text": "Security",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B8E5BF1D",
+      "path": "/searchnetworking/",
+      "type": "Detected Link",
+      "anchor_text": "Networking",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2B323030",
+      "path": "/searchcustomerexperience/",
+      "type": "Detected Link",
+      "anchor_text": "Customer Experience",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2BC5E3CB",
+      "path": "/searchbusinessanalytics/",
+      "type": "Detected Link",
+      "anchor_text": "Business Analytics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-01E73D5C",
+      "path": "/searchcloudcomputing/",
+      "type": "Detected Link",
+      "anchor_text": "Cloud Computing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C8F97D7",
+      "path": "/searchhrsoftware/",
+      "type": "Detected Link",
+      "anchor_text": "HRSoftware",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E41F91AE",
+      "path": "/searchitoperations/",
+      "type": "Detected Link",
+      "anchor_text": "IT Operations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-38431FD4",
+      "path": "/searchdatamanagement/resources/Data-management-strategies",
+      "type": "Detected Link",
+      "anchor_text": "Data Management Strategies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F1F01DE7",
+      "path": "/searchsecurity/resources/Threats-and-vulnerabilities",
+      "type": "Detected Link",
+      "anchor_text": "Threats & Vulnerabilities",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB0203BD",
+      "path": "/searchitoperations/resources/IT-Systems-Management-and-Monitoring",
+      "type": "Detected Link",
+      "anchor_text": "IT Systems Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-64A2FA68",
+      "path": "/searchcontentmanagement/resources/Content-management-software-and-services",
+      "type": "Detected Link",
+      "anchor_text": "Software & Services",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B645CE37",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "View All News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,986 @@
+{
+  "website_blueprint_id": "BLUEPRINT-AAC4F21A",
+  "generated_at": "2026-01-21T07:26:54.650Z",
+  "global_configuration": {
+    "brand_name": "Kinsta®",
+    "domain": "kinsta.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.40.206",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "frame-ancestors 'self' https://*.kinsta.com https://*.kinsta.ninja",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 57,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/themes/kinsta/dist/early-load.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/dist/early-load.js?ver=b5c717e16ffd4155ffdf"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.form.min.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/dist/main.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/dist/main.js?ver=1a9024cb1eb49538a372"
+      },
+      {
+        "path": "/wp-content/plugins/wordlift/js/dist/bundle.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-content/plugins/wordlift/js/dist/bundle.js?ver=3.40.2"
+      },
+      {
+        "path": "/wp-content/plugins/wordlift/js/dist/wordlift-cloud.js",
+        "type": "script",
+        "full_url": "https://kinsta.com/wp-content/plugins/wordlift/js/dist/wordlift-cloud.js?ver=3.40.2"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/dist/blocks/homepage-hero-badges.css",
+        "type": "stylesheet",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/dist/blocks/homepage-hero-badges.css?ver=c5680f6708e8fb0b6312"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/dist/blocks/featured-g2-badges.css",
+        "type": "stylesheet",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/dist/blocks/featured-g2-badges.css?ver=04c567981abc645fcf7f"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/dist/patterns/person.css",
+        "type": "stylesheet",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/dist/patterns/person.css?ver=53da1cd73b6df77fdf6f"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/kinsta-product-update-changelog-400x200.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2024/04/kinsta-product-update-changelog-400x200.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/case-study-martechsummit-800x400.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/12/case-study-martechsummit-800x400.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/scaling-smarter-not-harder-800x400.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/12/scaling-smarter-not-harder-800x400.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/hero-static.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/hero-static.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/1000x1000-transparent.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/10/1000x1000-transparent.png"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/tripadvisor.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/tripadvisor.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/calm.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/calm.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/clickup.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/clickup.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/nasa.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/nasa.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/hootsuite.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/hootsuite.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/client-logos/konica-minolta.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/client-logos/konica-minolta.svg?v=2025-10-02"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/homepage-hero-badges/icon-g2.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/homepage-hero-badges/icon-g2.svg?2024-08-28"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/components/homepage-hero-badges/g2-stars.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/components/homepage-hero-badges/g2-stars.svg?2024-08-28"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/number-1.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/number-1.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-most-likely.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-most-likely.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-best-support.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-best-support.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/enterprise-roi.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/enterprise-roi.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-highest-user-adoption.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/md-highest-user-adoption.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/g2-badges/winter25/en/best-relationship.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/winter25/en/best-relationship.svg?v=2025-12-15"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/kinsta-g2-grid.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/kinsta-g2-grid.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/unnamed-6.jpg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/unnamed-6.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/thumb_square_4687719490638d2964550987c7865537.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/thumb_square_4687719490638d2964550987c7865537.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/unnamed-2.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/unnamed-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/thumb_square_56d8b6caa17f1430e3e0e45581233d37.jpeg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/thumb_square_56d8b6caa17f1430e3e0e45581233d37.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/unnamed-4.jpg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/unnamed-4.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Isolated-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Isolated-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Security-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Security-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/User-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/User-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Performance.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Performance.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/derek-hales-black-1024x536-1.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/derek-hales-black-1024x536-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/ClickUp-Case-Study-1024x536-1.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/ClickUp-Case-Study-1024x536-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Case-Study-Motto-1024x536-1.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Case-Study-Motto-1024x536-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/agency-min-2.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/agency-min-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/enterprise-min-2.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/enterprise-min-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/small-medium-min-2.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/small-medium-min-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/dashboard-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/dashboard-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/staging-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/staging-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/analytics-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/analytics-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/tools-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/tools-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/automatic-updates-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/automatic-updates-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Backups-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Backups-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Bulk-Actions-min.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Bulk-Actions-min.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Kinsta-icon.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/08/Kinsta-icon.png"
+      },
+      {
+        "path": "/wp-content/themes/kinsta/images/duos/small/checkbox.svg",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/themes/kinsta/images/duos/small/checkbox.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/app-hero.png",
+        "type": "image",
+        "full_url": "https://kinsta.com/wp-content/uploads/2025/09/app-hero.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Kinsta® - Simply better hosting for WordPress",
+        "description": "Voted #1 WordPress Hosting Provider on G2. Enterprise-grade speed, security, and support. See what sets us apart with your first month free.",
+        "canonical": "https://kinsta.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "13666ms"
+        },
+        {
+          "resource": "early-load.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Simply better hosting for WordPress.",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "#1 WordPress Hosting Provider. Our Customers Have Spoken.",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Why teams move to Kinsta",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Simply better performance.",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h6",
+            "text": "WordPress highlights"
+          },
+          {
+            "tag": "h6",
+            "text": "Platform extensions"
+          },
+          {
+            "tag": "h6",
+            "text": "Sevalla"
+          },
+          {
+            "tag": "h6",
+            "text": "What&#039;s New"
+          },
+          {
+            "tag": "h2",
+            "text": "Manage WordPress plugins and themes with the Kinsta API"
+          },
+          {
+            "tag": "h6",
+            "text": "Who we serve"
+          },
+          {
+            "tag": "h6",
+            "text": "Partnership programs"
+          },
+          {
+            "tag": "h6",
+            "text": "Case studies"
+          },
+          {
+            "tag": "h2",
+            "text": "How The MarTech Summit won back hours lost to site outages"
+          },
+          {
+            "tag": "h6",
+            "text": "Explore"
+          },
+          {
+            "tag": "h6",
+            "text": "Tools &amp; insights"
+          },
+          {
+            "tag": "h6",
+            "text": "Latest Articles"
+          },
+          {
+            "tag": "h2",
+            "text": "Scaling smarter, not harder: balancing growth with operational excellence"
+          },
+          {
+            "tag": "h1",
+            "text": "Simply better hosting for WordPress."
+          },
+          {
+            "tag": "p",
+            "text": "Trusted by agencies and businesses worldwide for unmatched performance, security, and support."
+          },
+          {
+            "tag": "p",
+            "text": "Trusted by 140,000+ businesses and brands around the world"
+          },
+          {
+            "tag": "h2",
+            "text": "#1 WordPress Hosting Provider. Our Customers Have Spoken."
+          },
+          {
+            "tag": "p",
+            "text": "1,200+ reviews and counting"
+          },
+          {
+            "tag": "h5",
+            "text": "A flawless hosting experience for demanding businesses"
+          },
+          {
+            "tag": "p",
+            "text": "I&#8217;ve tested nearly every major hosting provider before settling on Kinsta, and since then, I wouldn&#8217;t consider switching."
+          },
+          {
+            "tag": "h5",
+            "text": "Reliable, responsive, and a real safety net for my website"
+          },
+          {
+            "tag": "p",
+            "text": "Any time I’ve run into an issue, whether technical or something I couldn’t troubleshoot myself, they’ve stepped in quickly with clear guidance."
+          },
+          {
+            "tag": "h5",
+            "text": "A perfect experience"
+          },
+          {
+            "tag": "p",
+            "text": "Kinsta is the ideal partner for hosting my site and hosting my databases. Customer support is always available at all hours. In addition, the service is really very reliable."
+          },
+          {
+            "tag": "h5",
+            "text": "Rock solid reliability"
+          },
+          {
+            "tag": "p",
+            "text": "I love that I don&#8217;t have to worry about anything related to hosting anymore. I finally have a host that has done what they have said they would do."
+          },
+          {
+            "tag": "h5",
+            "text": "Kinsta takes the guesswork"
+          },
+          {
+            "tag": "p",
+            "text": "Easy to use, the UX/UI is great, is a game changer! Actually, you don&#8217;t have to think again about your hosting. Just use Kinsta and forget about it. They do the rest of the work."
+          },
+          {
+            "tag": "h2",
+            "text": "Why teams move to Kinsta"
+          },
+          {
+            "tag": "h3",
+            "text": "Isolated containers for each site to guarantee security and performance"
+          },
+          {
+            "tag": "h3",
+            "text": "Enterprise-grade security and compliance"
+          },
+          {
+            "tag": "h3",
+            "text": "Unlimited users with different permission levels"
+          },
+          {
+            "tag": "h2",
+            "text": "Simply better performance."
+          },
+          {
+            "tag": "h3",
+            "text": "We handle the surges, you focus on growth."
+          },
+          {
+            "tag": "h2",
+            "text": "150k/month site visits without a glitch"
+          },
+          {
+            "tag": "p",
+            "text": "Previously, I encountered an absurd level of page speed issues even with a dedicated server on my old host. Those issues were immediately gone."
+          },
+          {
+            "tag": "p",
+            "text": "Derek Hales &#8211; Founder &#038; Editor-in-Chief at NapLab"
+          },
+          {
+            "tag": "h2",
+            "text": "Simply better security."
+          },
+          {
+            "tag": "h3",
+            "text": "Powerful protection designed to keep you safe from cyber threats and breaches."
+          },
+          {
+            "tag": "h2",
+            "text": "Clear visibility into the status of the blog and our server"
+          },
+          {
+            "tag": "p",
+            "text": "Knowing that Kinsta enterprise hosting could reliably take care of specific WordPress security measures on our blog meant our DevOps team could prioritize the security of our platform."
+          },
+          {
+            "tag": "p",
+            "text": "Lydia Minehan-Tubic &#8211; HTML and CSS Engineer at ClickUp"
+          },
+          {
+            "tag": "h2",
+            "text": "Simply better support."
+          },
+          {
+            "tag": "h3",
+            "text": "Proven expertise from engineers who solve your problem. No matter what."
+          },
+          {
+            "tag": "h2",
+            "text": "Most issues brought to Kinsta support are resolved in hours, not days, and Motto is able to get to the bottom of a lot more of them."
+          },
+          {
+            "tag": "p",
+            "text": "Kinsta’s platform and staff really feel like an extension of our own team. They’re exactly what we needed."
+          },
+          {
+            "tag": "p",
+            "text": "Greg Hunt &#8211; CTO at Motto"
+          },
+          {
+            "tag": "h2",
+            "text": "3+ billion"
+          },
+          {
+            "tag": "p",
+            "text": "monthly visits served"
+          },
+          {
+            "tag": "h2",
+            "text": "5,000+ TB"
+          },
+          {
+            "tag": "p",
+            "text": "monthly data transferred"
+          },
+          {
+            "tag": "h2",
+            "text": "Up to 99.99%"
+          },
+          {
+            "tag": "p",
+            "text": "SLA-backed uptime guarantee"
+          },
+          {
+            "tag": "h2",
+            "text": "Hosting solutions tailored for your business"
+          },
+          {
+            "tag": "h3",
+            "text": "Agency"
+          },
+          {
+            "tag": "p",
+            "text": "Manage client sites at scale with speed, control, and simplicity."
+          },
+          {
+            "tag": "h3",
+            "text": "Enterprise"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise-grade speed, uptime, and support — without the overhead."
+          },
+          {
+            "tag": "h3",
+            "text": "Small and medium business"
+          },
+          {
+            "tag": "p",
+            "text": "Hassle-free hosting that helps your business grow, not slow."
+          },
+          {
+            "tag": "h2",
+            "text": "Simply better WordPress operations"
+          },
+          {
+            "tag": "p",
+            "text": "One clear view: Expedite site management, activities, and resources through one unified, intuitive dashboard."
+          },
+          {
+            "tag": "p",
+            "text": "One-click staging for risk-free changes. Get one free, and upgrade for premium staging environments."
+          },
+          {
+            "tag": "p",
+            "text": "Site insights that drive smarter decisions."
+          },
+          {
+            "tag": "p",
+            "text": "Effortless site management: Built-in, time-saving tools to skip the hassle, stay in control, and work smarter."
+          },
+          {
+            "tag": "p",
+            "text": "Update plugins and themes without breaking your sites."
+          },
+          {
+            "tag": "p",
+            "text": "Daily automatic backups, plus flexible options to suit your workflow."
+          },
+          {
+            "tag": "p",
+            "text": "Bulk Actions, built in: Save time and handle site-wide changes effortlessly."
+          },
+          {
+            "tag": "h3",
+            "text": "Start now for free! Create a site in 2 minutes."
+          },
+          {
+            "tag": "h2",
+            "text": "$300+ in additional value included with every plan"
+          },
+          {
+            "tag": "p",
+            "text": "All our plans come with features you&#8217;re probably paying for. Kinsta gives you these for free."
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise DDoS protection"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced Caching"
+          },
+          {
+            "tag": "p",
+            "text": "Backups"
+          },
+          {
+            "tag": "p",
+            "text": "Migrations done for you"
+          },
+          {
+            "tag": "p",
+            "text": "Uptime monitoring"
+          },
+          {
+            "tag": "p",
+            "text": "SSL certificates"
+          },
+          {
+            "tag": "p",
+            "text": "Redirects Manager"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise DDoS protection"
+          },
+          {
+            "tag": "p",
+            "text": "Cloudflare"
+          },
+          {
+            "tag": "p",
+            "text": "$ 250 +"
+          },
+          {
+            "tag": "p",
+            "text": "Rocket CDN"
+          },
+          {
+            "tag": "p",
+            "text": "$ 8.99"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced Caching"
+          },
+          {
+            "tag": "p",
+            "text": "WP Rocket"
+          },
+          {
+            "tag": "p",
+            "text": "$ 4.90"
+          },
+          {
+            "tag": "p",
+            "text": "Backups"
+          },
+          {
+            "tag": "p",
+            "text": "BlogVault"
+          },
+          {
+            "tag": "p",
+            "text": "$ 12.40"
+          },
+          {
+            "tag": "p",
+            "text": "Migrations done for you"
+          },
+          {
+            "tag": "p",
+            "text": "BlogVault"
+          },
+          {
+            "tag": "p",
+            "text": "$ 5.83"
+          },
+          {
+            "tag": "p",
+            "text": "Uptime monitoring"
+          },
+          {
+            "tag": "p",
+            "text": "Pingdom"
+          },
+          {
+            "tag": "p",
+            "text": "$ 15"
+          },
+          {
+            "tag": "p",
+            "text": "SSL certificates"
+          },
+          {
+            "tag": "p",
+            "text": "BlogVault"
+          },
+          {
+            "tag": "p",
+            "text": "Redirects Manager"
+          },
+          {
+            "tag": "p",
+            "text": "Yoast Premium"
+          },
+          {
+            "tag": "p",
+            "text": "$8.25"
+          },
+          {
+            "tag": "p",
+            "text": "Agency Partner Program"
+          },
+          {
+            "tag": "h2",
+            "text": "Grow faster. Help your clients thrive. Earn more."
+          },
+          {
+            "tag": "h2",
+            "text": "Migrate today for simply better hosting"
+          },
+          {
+            "tag": "p",
+            "text": "WordPress migrations fully handled: Fast, hassle-free, and at no cost."
+          },
+          {
+            "tag": "h3",
+            "text": "Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Feature highlights"
+          },
+          {
+            "tag": "h3",
+            "text": "Use cases"
+          },
+          {
+            "tag": "h3",
+            "text": "Resources"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          },
+          {
+            "tag": "h4",
+            "text": "We take security and privacy seriously"
+          },
+          {
+            "tag": "p",
+            "text": "&copy; 2013 - 2026 Kinsta Inc. All rights reserved. Kinsta&reg;, MyKinsta&reg;, DevKinsta&reg;, and Sevalla&reg; are trademarks owned by Kinsta Inc. The WordPress&reg; trademark is the intellectual property of the WordPress Foundation, and the Woo&reg; and WooCommerce&reg; trademarks are the intellectual property of WooCommerce, Inc. Uses of the WordPress&reg;, Woo&reg;, and WooCommerce&reg; names in this website are for identification purposes only and do not imply an endorsement by WordPress Foundation or WooCommerce, Inc. Kinsta is not endorsed or owned by, or affiliated with, the WordPress Foundation or WooCommerce, Inc."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 69,
+          "headings": 51,
+          "images": 54
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5A59F472",
+      "path": "/signup/wp/",
+      "type": "Detected Link",
+      "anchor_text": "Try for free",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A84746CC",
+      "path": "/pricing/",
+      "type": "Detected Link",
+      "anchor_text": "View pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E160B15C",
+      "path": "/wordpress-hosting/migration/",
+      "type": "Detected Link",
+      "anchor_text": "Make the switch today",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7CF0EEB7",
+      "path": "/edge-caching/",
+      "type": "Detected Link",
+      "anchor_text": "More about infrastructure",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F01E689C",
+      "path": "/clients/naplab/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4145F15B",
+      "path": "/wordpress-hosting/security/",
+      "type": "Detected Link",
+      "anchor_text": "More about security",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-703867F2",
+      "path": "/clients/clickup/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8A4E5FD0",
+      "path": "/kinsta-support/",
+      "type": "Detected Link",
+      "anchor_text": "More about support",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22F90850",
+      "path": "/clients/motto/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-15251C23",
+      "path": "/wordpress-hosting/agencies/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0E5139F3",
+      "path": "/wordpress-hosting/enterprise/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44C125EA",
+      "path": "/wordpress-hosting/small-business/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F873FC0B",
+      "path": "/talk-to-sales/",
+      "type": "Detected Link",
+      "anchor_text": "Talk to sales",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-149630DE",
+      "path": "/agency-partner-program/",
+      "type": "Detected Link",
+      "anchor_text": "Learn more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-69BDE759",
+      "path": "/wordpress-hosting/",
+      "type": "Detected Link",
+      "anchor_text": "Managed Hosting for WordPress",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

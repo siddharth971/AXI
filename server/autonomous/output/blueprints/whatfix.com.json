@@ -1,0 +1,1085 @@
+{
+  "website_blueprint_id": "BLUEPRINT-6E6AFD4C",
+  "generated_at": "2026-01-21T07:26:54.660Z",
+  "global_configuration": {
+    "brand_name": "Whatfix",
+    "domain": "whatfix.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.19.218.18",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "frame-ancestors 'self';",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 60,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://website.whatfix.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-content/themes/whatfix-site/assets/js/lazyloadimg.js",
+        "type": "script",
+        "full_url": "https://website.whatfix.com/wp-content/themes/whatfix-site/assets/js/lazyloadimg.js?ver=1675331447"
+      },
+      {
+        "path": "/wp-content/themes/whatfix-site/assets/js/index.js",
+        "type": "script",
+        "full_url": "https://website.whatfix.com/wp-content/themes/whatfix-site/assets/js/index.js?ver=1731488691"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/icon-profile.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2024/07/icon-profile.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/Heronew-svg.svg",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/07/Heronew-svg.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Software-Graphic.png",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/09/Software-Graphic.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/AI-Graphic.png",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/09/AI-Graphic.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Marketplace-Graphic.png",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/09/Marketplace-Graphic.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/ERP-Graphic.png",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/09/ERP-Graphic.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/CRM-Graphic.png",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/uploads/2025/09/CRM-Graphic.png"
+      },
+      {
+        "path": "/673673/1755076048kqHyWUz1/ScreenSense.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076048kqHyWUz1/ScreenSense.svg"
+      },
+      {
+        "path": "/673673/17544655144ljiGKIh/mirror.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/17544655144ljiGKIh/mirror.svg"
+      },
+      {
+        "path": "/673673/1755076047lhqPYYWH/Digital_Adoption.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076047lhqPYYWH/Digital_Adoption.svg"
+      },
+      {
+        "path": "/673673/1755076047vv5AvEoo/Product_Analytics.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076047vv5AvEoo/Product_Analytics.svg"
+      },
+      {
+        "path": "/673673/1755076048dbwlROnJ/Authering_Agent.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076048dbwlROnJ/Authering_Agent.svg"
+      },
+      {
+        "path": "/673673/1755076047y2Ip8sji/Insights_Agent.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076047y2Ip8sji/Insights_Agent.svg"
+      },
+      {
+        "path": "/673673/1755076048LHkwRapp/Guidance_Agent.svg",
+        "type": "image",
+        "full_url": "https://storage.pardot.com/673673/1755076048LHkwRapp/Guidance_Agent.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsgq/673673/1756863275C5p2roea/arrow.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsgq/673673/1756863275C5p2roea/arrow.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsgt/673673/17568632768S4wkdkZ/employee_onboarding.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsgt/673673/17568632768S4wkdkZ/employee_onboarding.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsgx/673673/1756863276eAA1H6rJ/change_management.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsgx/673673/1756863276eAA1H6rJ/change_management.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsh4/673673/1756863277zHZkAq7g/employee_training.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsh4/673673/1756863277zHZkAq7g/employee_training.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsh7/673673/1756863277ES0ojK8f/performance_support.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsh7/673673/1756863277ES0ojK8f/performance_support.svg"
+      },
+      {
+        "path": "/l/673673/2025-09-02/2ndsh1/673673/1756863276dt1HEw8U/digital_transformation.svg",
+        "type": "image",
+        "full_url": "https://go.whatfix.com/l/673673/2025-09-02/2ndsh1/673673/1756863276dt1HEw8U/digital_transformation.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/banking.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/banking.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/ICICI_Bank.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/ICICI_Bank.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/education.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/education.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/planet-hs.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/planet-hs.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/financial-services.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/financial-services.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/old-mutual.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/old-mutual.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/govt.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/govt.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/city-of-baltimore-1.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/city-of-baltimore-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/healthcare.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/healthcare.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/able-to.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/able-to.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/insurance.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/insurance.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/sentry.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/sentry.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/life-sciences.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/life-sciences.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/BioMerieux-2560x1459-1-2.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/BioMerieux-2560x1459-1-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/whatfix.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/whatfix.png"
+      },
+      {
+        "path": "/wp-content/themes/whatfix-site/assets/images/angle-arrow.svg",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/themes/whatfix-site/assets/images/angle-arrow.svg"
+      },
+      {
+        "path": "/embed/medias/11yj6i7uit/swatch",
+        "type": "image",
+        "full_url": "https://fast.wistia.com/embed/medias/11yj6i7uit/swatch"
+      },
+      {
+        "path": "/embed/medias/dgo1cg9h9k/swatch",
+        "type": "image",
+        "full_url": "https://fast.wistia.com/embed/medias/dgo1cg9h9k/swatch"
+      },
+      {
+        "path": "/embed/medias/jchve0ixwl/swatch",
+        "type": "image",
+        "full_url": "https://whatfix.wistia.com/embed/medias/jchve0ixwl/swatch"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Group-2.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2023/05/Group-2.svg"
+      },
+      {
+        "path": "/wp-content/themes/whatfix-site/assets/images/Arrow.svg",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/themes/whatfix-site/assets/images/Arrow.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Group-3.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2023/05/Group-3.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Group-6805-1.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2023/05/Group-6805-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/acorn-recruiting-case-study-HERO-e1761677305769.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/03/acorn-recruiting-case-study-HERO-e1761677305769.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/03/Experian_logo_color.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2022/03/Experian_logo_color.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/marriott-international-logo-png_seeklogo-484457-1.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/marriott-international-logo-png_seeklogo-484457-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/old-mutual-logo-png_seeklogo-319621.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/08/old-mutual-logo-png_seeklogo-319621.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/BioMerieux.svg-e1757433527447.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/BioMerieux.svg-e1757433527447.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Windward-Risk-Managers-.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/Windward-Risk-Managers-.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/IMG_0416.jpg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/03/IMG_0416.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/08/Lee-Glenn.png",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2021/08/Lee-Glenn.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/stephanie-dull.jpeg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/11/stephanie-dull.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/hein-old-mutual.jpeg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/05/hein-old-mutual.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/alex-cooper-headshot.jpeg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/07/alex-cooper-headshot.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/mariella-gonazles-windward-risk-managers-headshot.jpeg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/09/mariella-gonazles-windward-risk-managers-headshot.jpeg"
+      },
+      {
+        "path": "/wp-content/themes/whatfix-site/assets/images/site-logo-white-updated.svg",
+        "type": "image",
+        "full_url": "https://whatfix.com/wp-content/themes/whatfix-site/assets/images/site-logo-white-updated.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/Whatfix_G2_Spring_25_Enteprise.svg",
+        "type": "image",
+        "full_url": "https://website.whatfix.com/wp-content/uploads/2025/03/Whatfix_G2_Spring_25_Enteprise.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Whatfix | AI-Powered Digital Adoption Platform",
+        "description": "Guide users in-app with Whatfix. Provide simulation training, track adoption, and drive outcomes across enterprise software investments.",
+        "canonical": "https://whatfix.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "15623ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "lazyloadimg.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "index.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Software Clicks faster with Whatfix",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Whatfix Product Suite",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Software Clicks Better With Whatfix",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Software Clicks with Whatfix"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Clicks with Whatfix"
+          },
+          {
+            "tag": "h3",
+            "text": "Marketplace Clicks with Whatfix"
+          },
+          {
+            "tag": "h3",
+            "text": "ERP Clicks with Whatfix"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Clicks with Whatfix"
+          },
+          {
+            "tag": "h3",
+            "text": "CRM Clicks with Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "In-app guidance. Hands-on simulations. Actionable analytics. One unified platform to drive adoption and maximize ROI powered by ScreenSense, our proprietary AI technology."
+          },
+          {
+            "tag": "h3",
+            "text": "An Intelligent Layer Across Your Enterprise Apps"
+          },
+          {
+            "tag": "p",
+            "text": "Whatfix AI is an intelligent layer that detects workflow context and adapts user experiences across your enterprise applications Explore Whatfix AI"
+          },
+          {
+            "tag": "p",
+            "text": "Technology"
+          },
+          {
+            "tag": "p",
+            "text": "ScreenSense"
+          },
+          {
+            "tag": "p",
+            "text": "Products"
+          },
+          {
+            "tag": "p",
+            "text": "Mirror"
+          },
+          {
+            "tag": "p",
+            "text": "Digital Adoption"
+          },
+          {
+            "tag": "p",
+            "text": "Product Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "AI Agents"
+          },
+          {
+            "tag": "p",
+            "text": "Authoring Agent"
+          },
+          {
+            "tag": "p",
+            "text": "Insights Agent"
+          },
+          {
+            "tag": "p",
+            "text": "Guidance Agent"
+          },
+          {
+            "tag": "p",
+            "text": "ScreenSense is Whatfix's AI technology that understands apps & context like a human, & triggers in-workflow guidance."
+          },
+          {
+            "tag": "p",
+            "text": "AI capabilities are integrated across our existing product suite, enabling users where they work."
+          },
+          {
+            "tag": "p",
+            "text": "AI Agents expand adoption coverage with AI-powered content authoring, user guidance, and usage analysis."
+          },
+          {
+            "tag": "p",
+            "text": "ScreenSense is Whatfix's AI technology that understands apps & context like a human, & triggers in-workflow guidance."
+          },
+          {
+            "tag": "p",
+            "text": "AI capabilities are integrated across our existing product suite, enabling users where they work."
+          },
+          {
+            "tag": "p",
+            "text": "AI Agents expand adoption coverage with AI-powered content authoring, user guidance, and usage analysis."
+          },
+          {
+            "tag": "h3",
+            "text": "Reduce friction and unlock user productivity across the application lifecycle"
+          },
+          {
+            "tag": "p",
+            "text": "User Onboarding"
+          },
+          {
+            "tag": "p",
+            "text": "Change Management"
+          },
+          {
+            "tag": "p",
+            "text": "Feature Adoption"
+          },
+          {
+            "tag": "p",
+            "text": "User Support"
+          },
+          {
+            "tag": "p",
+            "text": "Workflow Optimization"
+          },
+          {
+            "tag": "h3",
+            "text": "Enhance onboarding with hands-on experiences, speeding up proficiency and value."
+          },
+          {
+            "tag": "h3",
+            "text": "Reduce risks and speed up modernization with a user-focused change management approach."
+          },
+          {
+            "tag": "h3",
+            "text": "Accelerate new feature adoption and enable users to realize full value of complex applications"
+          },
+          {
+            "tag": "h3",
+            "text": "Reducing support overhead and empower users with just-in-time support and self-service experiences."
+          },
+          {
+            "tag": "h3",
+            "text": "Accelerate workflows and unlock user productivity with a data-driven approach to task optimization."
+          },
+          {
+            "tag": "p",
+            "text": "User Onboarding"
+          },
+          {
+            "tag": "p",
+            "text": "Enhance onboarding with hands-on experiences, speeding up proficiency and value."
+          },
+          {
+            "tag": "p",
+            "text": "Change Management"
+          },
+          {
+            "tag": "p",
+            "text": "Reduce risks and speed up modernization with a user-focused change management approach."
+          },
+          {
+            "tag": "p",
+            "text": "Feature Adoption"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate new feature adoption and enable users to realize full value of complex applications"
+          },
+          {
+            "tag": "p",
+            "text": "User Support"
+          },
+          {
+            "tag": "p",
+            "text": "Eliminate support overhead and empower users with just-in-time help and self-service support"
+          },
+          {
+            "tag": "p",
+            "text": "Workflow Optimization"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate workflows and unlock user productivity with a data-driven approach to task optimization."
+          },
+          {
+            "tag": "h3",
+            "text": "See how Whatfix accelerates workflows and unlocks user productivity across industries."
+          },
+          {
+            "tag": "h5",
+            "text": "Banking"
+          },
+          {
+            "tag": "p",
+            "text": "Modernize banking systems, enhance online experiences, and reduce friction."
+          },
+          {
+            "tag": "h5",
+            "text": "Education"
+          },
+          {
+            "tag": "p",
+            "text": "Modernize education for seamless admin, faculty, and student experiences."
+          },
+          {
+            "tag": "h5",
+            "text": "Financial Services"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate financial platform adoption, reduce risk, adapt to changes."
+          },
+          {
+            "tag": "h5",
+            "text": "Govt. & Public Sector"
+          },
+          {
+            "tag": "p",
+            "text": "Improve operational efficiency and elevate citizen experiences."
+          },
+          {
+            "tag": "h5",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate EHR workflows, eliminate user error risks, and simplify patient care."
+          },
+          {
+            "tag": "h5",
+            "text": "Insurance"
+          },
+          {
+            "tag": "p",
+            "text": "Speed up claims, enhance portals, and reduce friction."
+          },
+          {
+            "tag": "h5",
+            "text": "Life Sciences & Pharma"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate time-to-market, simplify GxP compliance, and unlock user productivity."
+          },
+          {
+            "tag": "h5",
+            "text": "Don't see your industry?"
+          },
+          {
+            "tag": "p",
+            "text": "Improve operational efficiency and elevate citizen experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Speak with Sales"
+          },
+          {
+            "tag": "h5",
+            "text": "Banking"
+          },
+          {
+            "tag": "p",
+            "text": "Modernize banking systems, enhance online experiences, and reduce friction."
+          },
+          {
+            "tag": "h5",
+            "text": "Education"
+          },
+          {
+            "tag": "p",
+            "text": "Modernize education for seamless admin, faculty, and student experiences."
+          },
+          {
+            "tag": "h5",
+            "text": "Financial Services"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate financial platform adoption, reduce risk, adapt to changes."
+          },
+          {
+            "tag": "h5",
+            "text": "Govt. & Public Sector"
+          },
+          {
+            "tag": "p",
+            "text": "Improve operational efficiency and elevate citizen experiences."
+          },
+          {
+            "tag": "h5",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate EHR workflows, eliminate user error risks, and simplify patient care."
+          },
+          {
+            "tag": "h5",
+            "text": "Insurance"
+          },
+          {
+            "tag": "p",
+            "text": "Speed up claims, enhance portals, and reduce friction."
+          },
+          {
+            "tag": "h5",
+            "text": "Life Sciences & Pharma"
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate time-to-market, simplify GxP compliance, and unlock user productivity."
+          },
+          {
+            "tag": "h5",
+            "text": "Don't see your industry?"
+          },
+          {
+            "tag": "p",
+            "text": "Improve operational efficiency and elevate citizen experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Speak with Sales"
+          },
+          {
+            "tag": "h2",
+            "text": "Whatfix Product Suite"
+          },
+          {
+            "tag": "h3",
+            "text": "Whatfix Digital Adoption Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Enable users with AI-powered in-app guidance, proactive user support, and on-demand assistance across web, desktop, and mobile applications. Explore Whatfix DAP"
+          },
+          {
+            "tag": "p",
+            "text": "Guide users through complex applications and processes with in-app Flows, Task Lists, Smart Tips, and Pop-Ups — powered by AI — to make your guidance smarter, faster, and more contextual."
+          },
+          {
+            "tag": "p",
+            "text": "Provide on-demand support to users, surfacing contextual answers from your existing knowledge sources using smart search and summarization without leaving an application."
+          },
+          {
+            "tag": "p",
+            "text": "Gather user engagement and workflow usage data on your in-app content. Analyze task completion, Flow dropoffs, Smart Tip views, common Self Help queries, and more."
+          },
+          {
+            "tag": "h3",
+            "text": "Whatfix Product Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "Unleash the full potential of your applications by analyzing engagement and making data-driven decisions that drive user adoption and product growth with our AI-powered insights. Explore Whatfix Product Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "Set up custom user events to track without engineering dependencies, empowering application owners for internal applications and product teams for customer-facing apps."
+          },
+          {
+            "tag": "p",
+            "text": "No need for deep analytics expertise. With Whatfix Product Analytics, uncover insights using a simple natural language conversational interface."
+          },
+          {
+            "tag": "p",
+            "text": "Capture behavioral insights, analyze them with Funnels and Journeys, and use them to improve product experiences within a single platform."
+          },
+          {
+            "tag": "h3",
+            "text": "Whatfix Mirror"
+          },
+          {
+            "tag": "p",
+            "text": "Create interactive sandbox replicas of web applications to enable users with hands-on IT training without risking live software usage. Explore Whatfix Mirror"
+          },
+          {
+            "tag": "p",
+            "text": "Easily create interactive, hands-on replicas of any web application, without engineering dependencies. Enable users to practice real workflows in a risk-free environment, reducing costly mistakes and building proficiency faster."
+          },
+          {
+            "tag": "p",
+            "text": "Simulate real-world interactions and scenarios with AI Roleplay. Users build confidence, refine communication, and improve decision-making before engaging with actual customers in a risk-free setting."
+          },
+          {
+            "tag": "p",
+            "text": "Validate user readiness for real-world scenarios with interactive, role-based assessments. Measure knowledge retention post-training as users demonstrate new competencies and skills in adaptive evaluations tailored to their roles and content."
+          },
+          {
+            "tag": "h3",
+            "text": "Trusted by organizations around the world"
+          },
+          {
+            "tag": "p",
+            "text": "Recognized as the Gartner Customers’ Choice for Digital Adoption Platforms for the second year in a row (2024 and 2025)"
+          },
+          {
+            "tag": "p",
+            "text": "Learn More"
+          },
+          {
+            "tag": "h4",
+            "text": "Customers"
+          },
+          {
+            "tag": "p",
+            "text": "150+ of Fortune 1000"
+          },
+          {
+            "tag": "p",
+            "text": "Leader for the 6th consecutive year and the strongest in Vision and Capability in Everest Group’s Digital Adoption Platform PEAK Matrix ® Assessment."
+          },
+          {
+            "tag": "p",
+            "text": "Learn More"
+          },
+          {
+            "tag": "h4",
+            "text": "Countries represented"
+          },
+          {
+            "tag": "p",
+            "text": "Offices in US, UK, Germany, Australia, Singapore and India"
+          },
+          {
+            "tag": "p",
+            "text": "Leader in Forrester New Wave™: Digital Adoption Platforms, Q4 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Learn More"
+          },
+          {
+            "tag": "h4",
+            "text": "CSAT score"
+          },
+          {
+            "tag": "p",
+            "text": "Customer-First Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "See why customers love Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "“The problem with any system training is that it’s really hard to tailor training based on user roles. Training needs to be flexible. With Whatfix, you can instantly access information, rather than wait until a subject matter expert is available.”"
+          },
+          {
+            "tag": "h4",
+            "text": "Nichola Holdship"
+          },
+          {
+            "tag": "p",
+            "text": "People Development Manager"
+          },
+          {
+            "tag": "p",
+            "text": "&#8220;With a heavily customized Salesforce instance and multi-cultural processes, the flexibility of Whatfix empowers us to get the right training to the right people at the right time!&#8221;"
+          },
+          {
+            "tag": "h4",
+            "text": "Lee Glenn"
+          },
+          {
+            "tag": "p",
+            "text": "Senior Specialist, Global CRM Training Experian"
+          },
+          {
+            "tag": "p",
+            "text": "“With Whatfix, we take a platform-by-platform approach to adoption benchmarks. The in-tool support and ability to quickly create content is a gamechanger.”"
+          },
+          {
+            "tag": "h4",
+            "text": "Stephanie Dull"
+          },
+          {
+            "tag": "p",
+            "text": "Senior Director, Talent Development Strategies & Solutions Marriott International"
+          },
+          {
+            "tag": "p",
+            "text": "“We were evaluating other DAP vendors, but the engagement with Whatfix was unreal; we just hit it off. The willingness of the people at Whatfix to come together and make it work was a difference-maker.”"
+          },
+          {
+            "tag": "h4",
+            "text": "Hein Pieters"
+          },
+          {
+            "tag": "p",
+            "text": "Head of Adviser Solutions Old Mutual"
+          },
+          {
+            "tag": "p",
+            "text": "“With Whatfix, we’ve completely shifted how onboarding and training works. We now have basic and domain-specific curriculum, Flows tailored to user roles, and embedded support that our teams genuinely appreciate. They often ask, ‘why don’t we have this on all of our digital tools?’”"
+          },
+          {
+            "tag": "h4",
+            "text": "Alex Cooper"
+          },
+          {
+            "tag": "p",
+            "text": "Product Owner bioMérieux"
+          },
+          {
+            "tag": "p",
+            "text": "“Before Whatfix, agents had to leave workflows to find help. Now they have everything at their fingertips. It’s about having people self-serve and deal with things themselves—that’s where we’ve seen real change.&#8221;"
+          },
+          {
+            "tag": "h4",
+            "text": "Mariella Gonzalez"
+          },
+          {
+            "tag": "p",
+            "text": "Director of Agency Support Windward Risk Managers"
+          },
+          {
+            "tag": "h2",
+            "text": "Software Clicks Better With Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "See why Fortune 1000 enterprises and growth companies choose Whatfix as their digital adoption and user experience partner."
+          },
+          {
+            "tag": "p",
+            "text": "Software Clicks Better With Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "&nbsp;"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 103,
+          "headings": 47,
+          "images": 118
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A5C670C1",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Whatfix",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-030754CF",
+      "path": "/products/",
+      "type": "Detected Link",
+      "anchor_text": "Products",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A9D1303F",
+      "path": "/solutions/",
+      "type": "Detected Link",
+      "anchor_text": "Solutions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-15C12AA0",
+      "path": "/customers/",
+      "type": "Detected Link",
+      "anchor_text": "Customers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E30E80D1",
+      "path": "/pricing/",
+      "type": "Detected Link",
+      "anchor_text": "Pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E490ED16",
+      "path": "/resources/",
+      "type": "Detected Link",
+      "anchor_text": "Resources",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DD779D8D",
+      "path": "/company/",
+      "type": "Detected Link",
+      "anchor_text": "Company",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C5926A34",
+      "path": "/request-trial/",
+      "type": "Detected Link",
+      "anchor_text": "Start Your Free Trial",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-271683B1",
+      "path": "/request-demo/",
+      "type": "Detected Link",
+      "anchor_text": "Quick Demo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EE8010DA",
+      "path": "/request-demo/",
+      "type": "Detected Link",
+      "anchor_text": "Get a Demo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AA46D905",
+      "path": "/request-demo/",
+      "type": "Detected Link",
+      "anchor_text": "Get a Demo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B2F26423",
+      "path": "/ai/",
+      "type": "Detected Link",
+      "anchor_text": "Explore Whatfix AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CF864747",
+      "path": "/products/digital-adoption-platform/",
+      "type": "Detected Link",
+      "anchor_text": "Explore Whatfix DAP",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F704341C",
+      "path": "/products/product-analytics/",
+      "type": "Detected Link",
+      "anchor_text": "Explore Whatfix Product Analytics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6122D882",
+      "path": "/products/mirror/",
+      "type": "Detected Link",
+      "anchor_text": "Explore Whatfix Mirror",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

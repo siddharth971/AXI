@@ -1,0 +1,429 @@
+{
+  "website_blueprint_id": "BLUEPRINT-B278DE6F",
+  "generated_at": "2026-01-21T07:27:12.552Z",
+  "global_configuration": {
+    "brand_name": "Open Source Endpoint Detection and Response (EDR)",
+    "domain": "www.openedr.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "207.246.90.148",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "NuCDN/v2.60.1"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "NuCDN/v2.60.1"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 29,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-7L37T15KV7"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-MBQZ57WLVQ"
+      },
+      {
+        "path": "/js/jquery-3.7.0.min.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/js/jquery-3.7.0.min.js"
+      },
+      {
+        "path": "/assets/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/assets/js/bootstrap.min.js"
+      },
+      {
+        "path": "/assets/js/script.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/assets/js/script.js"
+      },
+      {
+        "path": "/js/flashdetect.min.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/js/flashdetect.min.js"
+      },
+      {
+        "path": "/js/browserdetect.min.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/js/browserdetect.min.js"
+      },
+      {
+        "path": "/js/utm5.min.js",
+        "type": "script",
+        "full_url": "https://www.openedr.com/js/utm5.min.js?v=50"
+      },
+      {
+        "path": "/assets/css/bootstrap.min.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openedr.com/assets/css/bootstrap.min.css?a=1"
+      },
+      {
+        "path": "/assets/css/style.min.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openedr.com/assets/css/style.min.css"
+      },
+      {
+        "path": "/assets/images/logo.svg",
+        "type": "image",
+        "full_url": "https://www.openedr.com/assets/images/logo.svg"
+      },
+      {
+        "path": "/images/real-time-threat-detection.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/real-time-threat-detection.webp"
+      },
+      {
+        "path": "/images/comprehensive-logging-analytics.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/comprehensive-logging-analytics.webp"
+      },
+      {
+        "path": "/images/lightweight-deployment.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/lightweight-deployment.webp"
+      },
+      {
+        "path": "/images/seamless-integrations.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/seamless-integrations.webp"
+      },
+      {
+        "path": "/images/oss-initiative-started-by-xcitium.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/oss-initiative-started-by-xcitium.webp"
+      },
+      {
+        "path": "/images/icons/icon-folder.svg",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-folder.svg"
+      },
+      {
+        "path": "/images/icons/icon-service.png",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-service.png"
+      },
+      {
+        "path": "/images/icons/icon-process.png",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-process.png"
+      },
+      {
+        "path": "/images/icons/icon-protection.png",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-protection.png"
+      },
+      {
+        "path": "/images/icons/icon-network.svg",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-network.svg"
+      },
+      {
+        "path": "/images/icons/icon-target.png",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-target.png"
+      },
+      {
+        "path": "/images/icons/icon-gear.png",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/icons/icon-gear.png"
+      },
+      {
+        "path": "/images/why-xcitium.svg",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/why-xcitium.svg"
+      },
+      {
+        "path": "/images/awards/product-of-the-year-2024-cert.svg",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/awards/product-of-the-year-2024-cert.svg"
+      },
+      {
+        "path": "/images/awards/av-test.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/awards/av-test.webp"
+      },
+      {
+        "path": "/images/awards/crn-tech.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/awards/crn-tech.webp"
+      },
+      {
+        "path": "/images/awards/competitive-strategy-leader.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/awards/competitive-strategy-leader.webp"
+      },
+      {
+        "path": "/images/awards/top-infosec-innovator.webp",
+        "type": "image",
+        "full_url": "https://www.openedr.com/images/awards/top-infosec-innovator.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Open Source Endpoint Detection and Response (EDR) | OpenEDR",
+        "description": "Discover the benefits of Open Source Endpoint Detection and Response (EDR) with OpenEDR. Enhance security, improve visibility, and gain global scrutiny with a free, transparent EDR solution.",
+        "canonical": "https://www.openedr.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6605ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-3.7.0.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Open Source Endpoint Detection and Response (EDR)",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "What is OpenEDR?",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Open Source Endpoint Detection and Response (EDR)"
+          },
+          {
+            "tag": "p",
+            "text": "OpenEDR is an open source endpoint detection and response platform that provides analytic detection with Mitre ATT&CK visibility for event correlation and root cause analysis of adversarial cyber threat activity and behaviors in real time. This endpoint telemetry platform is a continuous monitoring solution available to all cybersecurity professionals, and every sized organization, to use for defending their organization or business against threat actors and cyber criminals."
+          },
+          {
+            "tag": "h2",
+            "text": "What is OpenEDR?"
+          },
+          {
+            "tag": "p",
+            "text": "OpenEDR is a powerful, open-source Endpoint Detection and Response (EDR) solution designed to provide robust protection against today’s most advanced cyber threats. Built for IT professionals, MSPs, and enterprises alike, OpenEDR delivers enterprise-grade security with unmatched transparency and control."
+          },
+          {
+            "tag": "p",
+            "text": "Monitor and detect cyber threats as they happen with advanced real-time analytics. OpenEDR identifies malicious behavior and alerts you instantly, empowering you to respond before damage occurs."
+          },
+          {
+            "tag": "p",
+            "text": "Gain deep visibility into endpoint activity with detailed logs and data insights. Analyze trends, investigate incidents, and strengthen your defenses with actionable intelligence."
+          },
+          {
+            "tag": "h3",
+            "text": "Why Choose OpenEDR?"
+          },
+          {
+            "tag": "p",
+            "text": "Unmatched Transparency. Enterprise-Grade Security. Zero Cost. When it comes to endpoint security, OpenEDR stands out as the smart choice for businesses and IT professionals looking for reliability, flexibility, and value. Here’s why OpenEDR is the right solution for your cybersecurity needs:"
+          },
+          {
+            "tag": "h3",
+            "text": "Automated Threat Response"
+          },
+          {
+            "tag": "p",
+            "text": "Cyber threats can strike at any time, and a delayed response can lead to significant disruptions, data loss, or security breaches. OpenEDR’s Automated Threat Response feature is designed to act immediately, minimizing downtime and reducing the burden on IT teams. The moment malicious activity is detected, OpenEDR automatically isolates the affected endpoint from the network. This prevents the threat from spreading and ensures that other systems remain secure while the issue is addressed. Leveraging advanced threat intelligence, OpenEDR blocks known and unknown threats, including ransomware, malware, and zero-day exploits, before they can cause harm. Automated responses ensure rapid containment, even during off-hours or when IT teams are stretched thin."
+          },
+          {
+            "tag": "p",
+            "text": "Protect your endpoints without impacting performance. OpenEDR’s lightweight architecture ensures rapid deployment and seamless operation, even in resource-constrained environments."
+          },
+          {
+            "tag": "p",
+            "text": "Connect OpenEDR with your existing security tools, such as SIEM or SOAR platforms, for a unified and efficient cybersecurity ecosystem."
+          },
+          {
+            "tag": "h3",
+            "text": "The Benefits of OpenEDR"
+          },
+          {
+            "tag": "p",
+            "text": "OpenEDR empowers organizations of all sizes with robust cybersecurity capabilities while delivering key advantages that make it stand out in the crowded endpoint security market. Explore the transformative benefits of choosing OpenEDR:"
+          },
+          {
+            "tag": "p",
+            "text": "Cost Savings Without Compromise"
+          },
+          {
+            "tag": "p",
+            "text": "Enhanced Visibility and Control"
+          },
+          {
+            "tag": "p",
+            "text": "Transparency Through Open Source"
+          },
+          {
+            "tag": "p",
+            "text": "Proactive Threat Management"
+          },
+          {
+            "tag": "p",
+            "text": "Scalability and Flexibility"
+          },
+          {
+            "tag": "p",
+            "text": "Seamless Integrations"
+          },
+          {
+            "tag": "p",
+            "text": "Community and Support"
+          },
+          {
+            "tag": "p",
+            "text": "We, at Xcitium, believe in creating an open source cybersecurity platform where products and services can be provisioned and managed together. EDR is our starting point. Open EDR Tool is a full-blown EDR capability. It is one of the most sophisticated, effective endpoint detection and response code base in the world and with the community's help it will become even better."
+          },
+          {
+            "tag": "p",
+            "text": "Core Library"
+          },
+          {
+            "tag": "p",
+            "text": "Service"
+          },
+          {
+            "tag": "p",
+            "text": "Process Monitoring"
+          },
+          {
+            "tag": "p",
+            "text": "File-System Mini-Filter"
+          },
+          {
+            "tag": "p",
+            "text": "Network Monitor"
+          },
+          {
+            "tag": "p",
+            "text": "Low-Level Registry Monitoring Component"
+          },
+          {
+            "tag": "p",
+            "text": "Self-Protection Provider"
+          },
+          {
+            "tag": "p",
+            "text": "Low-Level Process Monitoring Component"
+          },
+          {
+            "tag": "p",
+            "text": "System Monitor"
+          },
+          {
+            "tag": "h4",
+            "text": "Join the OpenEDR Community"
+          },
+          {
+            "tag": "p",
+            "text": "Have questions about our Open EDR open-source code? Join our EDR community! The community allows members to ask and respond to questions, interact with other users, and review topics related to Open EDR."
+          },
+          {
+            "tag": "h4",
+            "text": "Managed Detection and Response (MDR)"
+          },
+          {
+            "tag": "p",
+            "text": "In addition to maintaining the Open EDR project, Xcitium helps customers avoid breaches with groundbreaking isolation technology that fully neutralizes ransomware, zero-day malware, and cyberattacks that other security providers can't do. Our isolation and containment technology complements our highly rated advanced endpoint protection and endpoint management to offer a single cloud-accessible Active Breach Protection solution with patented ZeroDwell technology. Xcitium's Managed and Extended Detection and Response services are available to serve as your security partner and guide"
+          },
+          {
+            "tag": "h5",
+            "text": "Awards & Certifications"
+          },
+          {
+            "tag": "p",
+            "text": "OpenEDR is part of Xcitium Inc."
+          },
+          {
+            "tag": "p",
+            "text": "contact@openedr.com"
+          },
+          {
+            "tag": "p",
+            "text": "Copyright &copy; 2026 Xcitium All Rights Reserved Note: EDR and MDR are industry related terms, trademarked accordingly. Xcitium does not own them in any way and uses them for educational purposes only."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 31,
+          "headings": 8,
+          "images": 21
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A61A2D84",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AE454B10",
+      "path": "/openedr-certification.php",
+      "type": "Detected Link",
+      "anchor_text": "Get Certified",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB103B69",
+      "path": "/blog/",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C4BCABAF",
+      "path": "/academy/",
+      "type": "Detected Link",
+      "anchor_text": "OpenEDR Academy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

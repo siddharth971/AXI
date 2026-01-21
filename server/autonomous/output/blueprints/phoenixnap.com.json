@@ -1,0 +1,666 @@
+{
+  "website_blueprint_id": "BLUEPRINT-EEA494C9",
+  "generated_at": "2026-01-21T07:27:12.138Z",
+  "global_configuration": {
+    "brand_name": "phoenixNAP: Data Center, Dedicated Servers, Cloud, &amp; Colocation",
+    "domain": "phoenixnap.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.20.42.225",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=14400",
+      "Content-Security-Policy": "frame-ancestors 'self' secure.livechatinc.com www.youtube.com www.google.com widget.clym-sdk.net widget-next.clym-sdk.net; frame-src 'self' analytics.clickdimensions.com *.doubleclick.net *.dynamics.com secure.livechatinc.com www.youtube.com www.google.com docs.google.com vars.hotjar.com widget.clym-sdk.net widget-next.clym-sdk.net *.googletagmanager.com *.crazyegg.com;",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 41,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://phoenixnap.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/themes/bootscore-child/assets/img/logo/logo-white-c-l.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/themes/bootscore-child/assets/img/logo/logo-white-c-l.svg"
+      },
+      {
+        "path": "/wp-content/themes/bootscore-child/assets/img/logo/logo-black-c-l.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/themes/bootscore-child/assets/img/logo/logo-black-c-l.svg"
+      },
+      {
+        "path": "/wp-content/themes/bootscore-child/assets/svg/chevron-left-inactive.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/themes/bootscore-child/assets/svg/chevron-left-inactive.svg"
+      },
+      {
+        "path": "/wp-content/themes/bootscore-child/assets/svg/chevron-right-active.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/themes/bootscore-child/assets/svg/chevron-right-active.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/homepage-header-rs-2.webp",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/homepage-header-rs-2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-authentic8.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-authentic8.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-kayzen.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-kayzen.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-tgen.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-tgen.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-namecheap.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-namecheap.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-maw.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-maw.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-video.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-video.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-schedule-tour.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-schedule-tour.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-colocation.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-colocation.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-bmc.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-bmc.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-enterprise-grade-network.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-enterprise-grade-network.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-cloud-on-ramps.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-cloud-on-ramps.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/icon-backup-dr.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/icon-backup-dr.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/icon-alternative-cloud-portfolio.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2025/03/icon-alternative-cloud-portfolio.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-intel.jpg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-intel.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-veeam.jpg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-veeam.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-vmware.jpg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-vmware.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-hpe.jpg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-hpe.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-supermicro.jpg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-supermicro.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-ansible.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-ansible.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-arista.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-arista.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-avesha.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-avesha.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-aws.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-aws.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-canonical.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-canonical.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-cloudian.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-cloudian.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-cpanel.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-cpanel.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/logo-extreme-networks.png",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/logo-extreme-networks.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/footer-icon-live-chat.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/footer-icon-live-chat.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/footer-icon-get-a-quote.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/footer-icon-get-a-quote.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/footer-icon-support.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/footer-icon-support.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/footer-icon-sales.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/footer-icon-sales.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/socials-icon-linkedin.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/socials-icon-linkedin.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/socials-icon-youtube.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/socials-icon-youtube.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/socials-icon-x-twitter.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/socials-icon-x-twitter.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/socials-icon-facebook.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/socials-icon-facebook.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/socials-icon-instagram.svg",
+        "type": "image",
+        "full_url": "https://phoenixnap.com/wp-content/uploads/2024/11/socials-icon-instagram.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "phoenixNAP: Data Center, Dedicated Servers, Cloud, &amp; Colocation",
+        "description": "phoenixNAP Data Center is a Leading Global IT Services Provider. Let Our Experts Assist With Dedicated Servers, Cloud Computing, Colocation, &amp; Compliance Solutions.",
+        "canonical": "https://phoenixnap.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6048ms"
+        },
+        {
+          "resource": "lazyload.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "logo-white-c-l.svg",
+          "latency": "pending"
+        },
+        {
+          "resource": "logo-black-c-l.svg",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Your Gateway to Digital Transformation",
+          "h2_subtitle": "Gain presence in Arizona's major network hub and expand your footprint globally with state-of-the-art IT infrastructure services.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "A Broad Data Center-as-a-Service Portfolio",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Global Network Footprint",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "15+",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Find Out More Find Out More"
+          },
+          {
+            "tag": "h5",
+            "text": "Flagship Product"
+          },
+          {
+            "tag": "h1",
+            "text": "Bare Metal Cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Deploy automation-driven dedicated servers globally in minutes via API, CLI, or WebUI."
+          },
+          {
+            "tag": "p",
+            "text": "Next-gen hardware. 50 Gbps network. Scale-out storage. Flexible billing. 15 TB Free bandwidth."
+          },
+          {
+            "tag": "p",
+            "text": "Deploy in Minutes Deploy in Minutes"
+          },
+          {
+            "tag": "h5",
+            "text": "Trusted by:"
+          },
+          {
+            "tag": "h5",
+            "text": "Products and Services"
+          },
+          {
+            "tag": "h2",
+            "text": "A Broad Data Center-as-a-Service Portfolio"
+          },
+          {
+            "tag": "p",
+            "text": "From power, space, and cooling to workload-optimized systems, we offer performance, security, and availability-focused products and services suitable for businesses of all sizes."
+          },
+          {
+            "tag": "p",
+            "text": "Watch Video Presentation"
+          },
+          {
+            "tag": "p",
+            "text": "Schedule a Virtual Data Center Tour"
+          },
+          {
+            "tag": "h4",
+            "text": "Colocation"
+          },
+          {
+            "tag": "p",
+            "text": "Leverage redundant and secure systems, high-density deployments, and services spanning from ¼ cabinets to private cages. Lease next-gen hardware or customizable dedicated servers to scale your infrastructure with ease."
+          },
+          {
+            "tag": "h4",
+            "text": "Bare Metal Cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Provision anything from sandboxes to production environments in a few clicks or API calls. Choose from 50+ pre-configured dedicated server instances, deploy a server in minutes, consume it as cloud, and manage it as code."
+          },
+          {
+            "tag": "h4",
+            "text": "Enterprise-Grade Network"
+          },
+          {
+            "tag": "p",
+            "text": "Ensure seamless delivery of your services. Access Tier 1 carriers at each data center location and provide your business with high-bandwidth connectivity, enterprise-grade security, and exceptional data transfer performance."
+          },
+          {
+            "tag": "h4",
+            "text": "Cloud On-Ramps"
+          },
+          {
+            "tag": "p",
+            "text": "Host your IT and workloads at Arizona’s first AWS Direct Connect and Google Cloud Interconnect location. Effortlessly access 3rd party CSPs via Megaport Cloud Router and build a robust hybrid cloud with minimal investments."
+          },
+          {
+            "tag": "h4",
+            "text": "Backup and DR"
+          },
+          {
+            "tag": "p",
+            "text": "Easily build your availability infrastructure with best-in-class cloud backup and disaster recovery solutions. Use disaster-free Phoenix location as your target, or back up and mirror data to any of phoenixNAP’s global data center locations."
+          },
+          {
+            "tag": "h4",
+            "text": "Alternative Cloud Portfolio"
+          },
+          {
+            "tag": "p",
+            "text": "Avoid high costs, vendor lock-in, and poor performance of hyperscale public cloud solutions. Combine cloud-smart IT infrastructure services and cost-effectively build high-performance environments tailored to your needs."
+          },
+          {
+            "tag": "h5",
+            "text": "Superior Connectivity Options"
+          },
+          {
+            "tag": "h2",
+            "text": "Global Network Footprint"
+          },
+          {
+            "tag": "p",
+            "text": "Take advantage of phoenixNAP’s global data center presence and 9+ Tbps network backbone. Access full-service, opex-modeled offerings tailored to your performance, location, and security requirements."
+          },
+          {
+            "tag": "p",
+            "text": "15+ Data Centers and Network PoPs 9 +Tbps Connectivity 5 Continents AWS Direct Connect Google Cloud Interconnect Access To Other Hyperscalers Strength in Partnerships Alliance with the Best in Business We take pride in our partnerships. With longstanding alliances with some of the biggest names in IT, phoenixNAP can offer you limitless hardware and software resources to facilitate your success."
+          },
+          {
+            "tag": "h5",
+            "text": "Ready to get started?"
+          },
+          {
+            "tag": "h2",
+            "text": "Connect with phoenixNAP"
+          },
+          {
+            "tag": "p",
+            "text": "Get in touch with a phoenixNAP solution expert or sales representative to find out more about our services and discover which one is the perfect fit for your specific business needs. Learn more about our broad service portfolio, request a quote, or get all the help you need to start."
+          },
+          {
+            "tag": "p",
+            "text": "Contact Us &nbsp;»"
+          },
+          {
+            "tag": "h5",
+            "text": "Partner. Grow. Exceed."
+          },
+          {
+            "tag": "h2",
+            "text": "Become a Partner"
+          },
+          {
+            "tag": "p",
+            "text": "Quickly tap into new revenue streams and offer enterprise-grade IaaS services to your clients. Access all the necessary tools, go-to-market resources, training, and knowledge from a global data center service provider and grow your business to new heights."
+          },
+          {
+            "tag": "p",
+            "text": "Join the Partner Program &nbsp;»"
+          },
+          {
+            "tag": "h5",
+            "text": "phoenixNAP Blog and Knowledge Base"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Latest Articles and Tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "Discover the latest insights and trends in our comprehensive articles and tutorials section. Stay ahead of the curve with in-depth analysis, expert tips, and step-by-step guides, designed to fuel your curiosity and enhance your expertise."
+          },
+          {
+            "tag": "p",
+            "text": "NEWSLETTER"
+          },
+          {
+            "tag": "h4",
+            "text": "Subscribe to Our Newsletter"
+          },
+          {
+            "tag": "p",
+            "text": "Regulary receive all the latest updates and news from phoenixNAP."
+          },
+          {
+            "tag": "p",
+            "text": "phoenixNAP Newsletter"
+          },
+          {
+            "tag": "p",
+            "text": "Thank You for Subscribing!"
+          },
+          {
+            "tag": "p",
+            "text": "Please fill in the form below and be the first to know about our latest updates, news, and exclusive offers."
+          },
+          {
+            "tag": "p",
+            "text": "By submitting this form, I confirm that I have read phoenixNAP’s GDPR Policies and give phoenixNAP consent to contact me."
+          },
+          {
+            "tag": "p",
+            "text": "\" + detail + \""
+          },
+          {
+            "tag": "p",
+            "text": "Live Chat"
+          },
+          {
+            "tag": "p",
+            "text": "Get a Quote"
+          },
+          {
+            "tag": "p",
+            "text": "Support (1-855-330-1509)"
+          },
+          {
+            "tag": "p",
+            "text": "Sales (1-877-588-5918)"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 3082,
+          "headings": 36,
+          "images": 73
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-35D6D161",
+      "path": "/partners",
+      "type": "Detected Link",
+      "anchor_text": "Partners",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-90D4BC9F",
+      "path": "/colocation",
+      "type": "Detected Link",
+      "anchor_text": "Colocation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-15BD3889",
+      "path": "/colocation",
+      "type": "Detected Link",
+      "anchor_text": "ColocationPremier Carrier Hotel",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-14235088",
+      "path": "/colocation/data-center-as-a-service",
+      "type": "Detected Link",
+      "anchor_text": "Data Center as a ServiceOverview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-138A3607",
+      "path": "/colocation/hardware-as-a-service",
+      "type": "Detected Link",
+      "anchor_text": "Hardware as a ServiceFlexible Hardware Leasing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2A86A89",
+      "path": "/dedicated-servers",
+      "type": "Detected Link",
+      "anchor_text": "Dedicated ServersSingle-Tenant Physical Machines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0DBF9845",
+      "path": "/bare-metal-cloud",
+      "type": "Detected Link",
+      "anchor_text": "Bare Metal CloudAPI-Driven Dedicated Servers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8C5633DD",
+      "path": "/object-storage",
+      "type": "Detected Link",
+      "anchor_text": "Object StorageS3 API-Compatible Storage Service",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-95DB6CC8",
+      "path": "/colocation/meet-me-room",
+      "type": "Detected Link",
+      "anchor_text": "Meet-Me RoomOverview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D77DCCE",
+      "path": "/colocation/aws-direct-connect",
+      "type": "Detected Link",
+      "anchor_text": "AWS Direct ConnectDedicated Link to Amazon Cloud",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-308685C8",
+      "path": "/google-cloud-interconnect",
+      "type": "Detected Link",
+      "anchor_text": "Google Cloud InterconnectPrivate Connectivity to Google Cloud",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D02EC4C6",
+      "path": "/offers/megaport-cloud-router",
+      "type": "Detected Link",
+      "anchor_text": "Megaport Cloud RouterSimplified Multi-Cloud Connections",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-23A091A8",
+      "path": "/colocation/all-carriers",
+      "type": "Detected Link",
+      "anchor_text": "All CarriersGlobal Interconnectivity Options",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0C4D5770",
+      "path": "/phoenix-data-center-virtual-tour",
+      "type": "Detected Link",
+      "anchor_text": "Schedule a TourGuided Virtual Data Center Tour",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0802CB2A",
+      "path": "/colocation/data-center-locations",
+      "type": "Detected Link",
+      "anchor_text": "Data Center LocationsOverview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

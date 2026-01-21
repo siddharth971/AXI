@@ -1,0 +1,1201 @@
+{
+  "website_blueprint_id": "BLUEPRINT-6B8B5CC1",
+  "generated_at": "2026-01-21T07:27:05.059Z",
+  "global_configuration": {
+    "brand_name": "Home Design, Decorating and Remodeling Ideas, Landscaping, Kitchen and Bathroom Design",
+    "domain": "www.hgtv.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "23.10.42.243",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=464",
+      "Content-Security-Policy": "frame-ancestors 'self';",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 113,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/etc/clientlibs/user-consent-disco.md5-487feb5402bde017638bb920080a5498.js",
+        "type": "script",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/user-consent-disco.md5-487feb5402bde017638bb920080a5498.js"
+      },
+      {
+        "path": "/etc/clientlibs/assets/v3/js/core.md5-de076e532e4f1ad71a50fa836dab7b0d.js",
+        "type": "script",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/assets/v3/js/core.md5-de076e532e4f1ad71a50fa836dab7b0d.js"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/fonts/fonts.md5-9ea837b4597f2fb1d18590229a475808.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/fonts/fonts.md5-9ea837b4597f2fb1d18590229a475808.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/templates/hgtv/desktop/fullWidthPage.min.md5-eb6e629f5faa36d51bbed3571f0d4fac.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/templates/hgtv/desktop/fullWidthPage.min.md5-eb6e629f5faa36d51bbed3571f0d4fac.css"
+      },
+      {
+        "path": "/etc/clientlibs/ad-specific.min.md5-fc4185e43c29ae078652b85c344560c1.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/ad-specific.min.md5-fc4185e43c29ae078652b85c344560c1.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/areaHeader.min.md5-58d1eb528b1792063db9e74c66d93c84.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/areaHeader.min.md5-58d1eb528b1792063db9e74c66d93c84.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/input.min.md5-e47c9d3359908535ff34d213d75ae746.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/input.min.md5-e47c9d3359908535ff34d213d75ae746.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/siteSearch.min.md5-cc4e30dd889fa6fe5cf982fc1a90207e.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/siteSearch.min.md5-cc4e30dd889fa6fe5cf982fc1a90207e.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/mediaBlock.min.md5-b9f21e434e74f8dced3aa25eae94445a.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/mediaBlock.min.md5-b9f21e434e74f8dced3aa25eae94445a.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/superLeadHero.min.md5-232f010af1c2163d3120b6571a1c4e35.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/superLeadHero.min.md5-232f010af1c2163d3120b6571a1c4e35.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/responsiveImage.min.md5-7068b0f41917720a9069a6afd1a10203.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/responsiveImage.min.md5-7068b0f41917720a9069a6afd1a10203.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/fullWidthPromo.min.md5-5c1c2db148418b854e18f9d555b4a135.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/fullWidthPromo.min.md5-5c1c2db148418b854e18f9d555b4a135.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/capsule.min.md5-2abb565971882365848fd98122f49929.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/capsule.min.md5-2abb565971882365848fd98122f49929.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/newsletter.min.md5-811fc3d7d184b2719bbcf5345bd4bfa7.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/newsletter.min.md5-811fc3d7d184b2719bbcf5345bd4bfa7.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/profilePromo.min.md5-23b97c7c6bf264dd611a06907db050db.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/profilePromo.min.md5-23b97c7c6bf264dd611a06907db050db.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/storyPromo.min.md5-df82de387d2c17045649c49f60ec2f25.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/storyPromo.min.md5-df82de387d2c17045649c49f60ec2f25.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/globalVideoPlayer.min.md5-fe2e2cfa98b0f1665c27899248808d88.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/globalVideoPlayer.min.md5-fe2e2cfa98b0f1665c27899248808d88.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/freeFormHTMLArea.min.md5-d41d8cd98f00b204e9800998ecf8427e.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/freeFormHTMLArea.min.md5-d41d8cd98f00b204e9800998ecf8427e.css"
+      },
+      {
+        "path": "/etc/clientlibs/css/modules/hgtv/desktop/footerFresh.min.md5-ea466376f198a6869dc12f3897696e10.css",
+        "type": "stylesheet",
+        "full_url": "https://hgtvhome.sndimg.com/etc/clientlibs/css/modules/hgtv/desktop/footerFresh.min.md5-ea466376f198a6869dc12f3897696e10.css"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/8/8/0/IO_Carla-Aston_Dramatic-Blue-White-Kitchen_3.jpg.rend.hgtvcom.196.196.suffix/1565291984803.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/8/8/0/IO_Carla-Aston_Dramatic-Blue-White-Kitchen_3.jpg.rend.hgtvcom.196.196.suffix/1565291984803.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2016/6/30/0/FOD16_PRAIRIE_Santiago_1.jpg.rend.hgtvcom.196.196.suffix/1467301959728.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/6/30/0/FOD16_PRAIRIE_Santiago_1.jpg.rend.hgtvcom.196.196.suffix/1467301959728.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/10/29/0/dh2020_guest-bedroom-1-03-right-side-nightstand-77A0479_v.jpg.rend.hgtvcom.196.196.suffix/1572374643025.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/10/29/0/dh2020_guest-bedroom-1-03-right-side-nightstand-77A0479_v.jpg.rend.hgtvcom.196.196.suffix/1572374643025.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/7/16/0/DOTY2019_Connie-Vernich_City-Cottage_14.jpg.rend.hgtvcom.196.196.suffix/1563296826385.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/7/16/0/DOTY2019_Connie-Vernich_City-Cottage_14.jpg.rend.hgtvcom.196.196.suffix/1563296826385.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2018/5/31/0/FOD18_Claire-Paquin_Miller_022.jpg.rend.hgtvcom.196.196.suffix/1527784496796.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/5/31/0/FOD18_Claire-Paquin_Miller_022.jpg.rend.hgtvcom.196.196.suffix/1527784496796.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2018/2/1/0/OA18_Casa-Smith-Designs_Enchanted-Evening_001.jpg.rend.hgtvcom.196.196.suffix/1517492967056.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/2/1/0/OA18_Casa-Smith-Designs_Enchanted-Evening_001.jpg.rend.hgtvcom.196.196.suffix/1517492967056.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2018/11/13/1/shutterstock_Olga_Miltsova_Asplenium_nidus_1147177208.jpg.rend.hgtvcom.196.196.suffix/1542150069003.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/11/13/1/shutterstock_Olga_Miltsova_Asplenium_nidus_1147177208.jpg.rend.hgtvcom.196.196.suffix/1542150069003.jpeg"
+      },
+      {
+        "path": "/content/dam/images/grdn/fullset/2013/1/20/0/CI_intensive-gardening-allows-a-lot-of-produce-to-grow-in-a-small-space.jpg.rend.hgtvcom.196.196.suffix/1452644679836.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2013/1/20/0/CI_intensive-gardening-allows-a-lot-of-produce-to-grow-in-a-small-space.jpg.rend.hgtvcom.196.196.suffix/1452644679836.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2018/3/21/0/shutterstock_221550766_Lukas-Gojda_carrot-plants.jpg.rend.hgtvcom.196.196.suffix/1521655913719.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/3/21/0/shutterstock_221550766_Lukas-Gojda_carrot-plants.jpg.rend.hgtvcom.196.196.suffix/1521655913719.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2017/8/9/1/Original_Julie-Martens-Forney_Japanese-beetle-on-coneflower.jpg.rend.hgtvcom.196.196.suffix/1502324466931.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/8/9/1/Original_Julie-Martens-Forney_Japanese-beetle-on-coneflower.jpg.rend.hgtvcom.196.196.suffix/1502324466931.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2023/3/9/rx_amazon_gonicc-8-professional-titanium-pruning-shears.jpeg.rend.hgtvcom.196.196.suffix/1678399952124.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2023/3/9/rx_amazon_gonicc-8-professional-titanium-pruning-shears.jpeg.rend.hgtvcom.196.196.suffix/1678399952124.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2011/1/4/0/istock-15038149_hhcal-mopping_s4x3.jpg.rend.hgtvcom.196.196.suffix/1400960688411.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/1/4/0/istock-15038149_hhcal-mopping_s4x3.jpg.rend.hgtvcom.196.196.suffix/1400960688411.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2017/10/19/1/dh2018_master-bedroom-30-closet-wide-KB2A2752_h.jpg.rend.hgtvcom.196.196.suffix/1510589525447.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/10/19/1/dh2018_master-bedroom-30-closet-wide-KB2A2752_h.jpg.rend.hgtvcom.196.196.suffix/1510589525447.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2018/2/19/2/sh2018_laundry-mud-room-07-countertop-shelf-KB2A6957_h.jpg.rend.hgtvcom.196.196.suffix/1519059044345.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/2/19/2/sh2018_laundry-mud-room-07-countertop-shelf-KB2A6957_h.jpg.rend.hgtvcom.196.196.suffix/1519059044345.jpeg"
+      },
+      {
+        "path": "/content/dam/images/diy/fullset/2017/6/9/0/UR17_Garage_DSC3905.jpg.rend.hgtvcom.196.196.suffix/1497022108845.jpeg",
+        "type": "image",
+        "full_url": "https://diy.sndimg.com/content/dam/images/diy/fullset/2017/6/9/0/UR17_Garage_DSC3905.jpg.rend.hgtvcom.196.196.suffix/1497022108845.jpeg"
+      },
+      {
+        "path": "/content/dam/images/diy/fullset/2018/8/10/Original_Start-Here_Pressure-Washing-Tips-concrete.jpg.rend.hgtvcom.196.196.suffix/1534174033952.jpeg",
+        "type": "image",
+        "full_url": "https://diy.sndimg.com/content/dam/images/diy/fullset/2018/8/10/Original_Start-Here_Pressure-Washing-Tips-concrete.jpg.rend.hgtvcom.196.196.suffix/1534174033952.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2019/1/23/RX_Target_Magic-Eraser.png.rend.hgtvcom.196.196.suffix/1570054539170.png",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2019/1/23/RX_Target_Magic-Eraser.png.rend.hgtvcom.196.196.suffix/1570054539170.png"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/7/10/0/DOTY24_Kitchen-Dining_EMI-Design_Modern-Blue-Kitchen-5.jpg.rend.hgtvcom.196.196.suffix/1720620145416.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/7/10/0/DOTY24_Kitchen-Dining_EMI-Design_Modern-Blue-Kitchen-5.jpg.rend.hgtvcom.196.196.suffix/1720620145416.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2017/8/15/0/IO_Lindye-Galloway_Blue-Herringbone-Bath_2.jpg.rend.hgtvcom.196.196.suffix/1502815658591.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/8/15/0/IO_Lindye-Galloway_Blue-Herringbone-Bath_2.jpg.rend.hgtvcom.196.196.suffix/1502815658591.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/10/30/0/dh2020_backyard-pool-23-fire-pit-chairs-KB2A9965_h.jpg.rend.hgtvcom.196.196.suffix/1573489205641.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/10/30/0/dh2020_backyard-pool-23-fire-pit-chairs-KB2A9965_h.jpg.rend.hgtvcom.196.196.suffix/1573489205641.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/5/8/0/HUHH2019-Modern_Denver-CO_22.jpg.rend.hgtvcom.196.196.suffix/1557329459928.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/5/8/0/HUHH2019-Modern_Denver-CO_22.jpg.rend.hgtvcom.196.196.suffix/1557329459928.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/12/17/0/Original_Kamron-Sanders_Home-Tool-Kits--01_H.jpg.rend.hgtvcom.196.196.suffix/1734468339888.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/12/17/0/Original_Kamron-Sanders_Home-Tool-Kits--01_H.jpg.rend.hgtvcom.196.196.suffix/1734468339888.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2022/3/16/0/Potluck-Party-Theme-Getty-Images-1221462227.jpg.rend.hgtvcom.196.196.suffix/1647444151369.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/3/16/0/Potluck-Party-Theme-Getty-Images-1221462227.jpg.rend.hgtvcom.196.196.suffix/1647444151369.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2016/5/5/0/Original_Jennie-Andrews-Toasts-Group-2.jpg.rend.hgtvcom.196.196.suffix/1462494621972.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/5/5/0/Original_Jennie-Andrews-Toasts-Group-2.jpg.rend.hgtvcom.196.196.suffix/1462494621972.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2016/3/10/CI-Sprinkles-for-Breakfast_blue-and-pink-dipped-oreos_H.jpg.rend.hgtvcom.196.196.suffix/1457626778258.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/3/10/CI-Sprinkles-for-Breakfast_blue-and-pink-dipped-oreos_H.jpg.rend.hgtvcom.196.196.suffix/1457626778258.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/6/6/0/Original_Robin-Cain-Photog-Colorado-wedding-bar-signs.jpg.rend.hgtvcom.196.196.suffix/1559845576986.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/6/6/0/Original_Robin-Cain-Photog-Colorado-wedding-bar-signs.jpg.rend.hgtvcom.196.196.suffix/1559845576986.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2011/1/6/1/Original_Kara-Allen-kids-gumball-birthday-party_s4x3.jpg.rend.hgtvcom.196.196.suffix/1400960308778.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/1/6/1/Original_Kara-Allen-kids-gumball-birthday-party_s4x3.jpg.rend.hgtvcom.196.196.suffix/1400960308778.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2026/1/14/rx_pottery-barn_heart-block-print-stoneware-appetizer-plates-set.jpeg.rend.hgtvcom.196.196.suffix/1768415440318.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2026/1/14/rx_pottery-barn_heart-block-print-stoneware-appetizer-plates-set.jpeg.rend.hgtvcom.196.196.suffix/1768415440318.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2021/1/20/RX_TCS_Makeup-Organizer-Modular.jpg.rend.hgtvcom.196.196.suffix/1611178855066.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2021/1/20/RX_TCS_Makeup-Organizer-Modular.jpg.rend.hgtvcom.196.196.suffix/1611178855066.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2025/1/23/rx_pottery-barn_westly-over-the-toilet-ladder.jpeg.rend.hgtvcom.196.196.suffix/1737669416530.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2025/1/23/rx_pottery-barn_westly-over-the-toilet-ladder.jpeg.rend.hgtvcom.196.196.suffix/1737669416530.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2020/2/14/1/Orig_Sarah-Busby-rolling-cart-uses-craft-supplies-1.JPG.rend.hgtvcom.196.196.suffix/1581700667567.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2020/2/14/1/Orig_Sarah-Busby-rolling-cart-uses-craft-supplies-1.JPG.rend.hgtvcom.196.196.suffix/1581700667567.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/4/24/1/Original_Morgan-Faulkner_Bouqs-Test_Beauty-1.jpeg.rend.hgtvcom.196.196.suffix/1745530131747.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/4/24/1/Original_Morgan-Faulkner_Bouqs-Test_Beauty-1.jpeg.rend.hgtvcom.196.196.suffix/1745530131747.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/F/fixer-to-fabulous/fixer-to-fabulous-vertical.jpeg.rend.hgtvcom.196.294.suffix/1731512330971.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/F/fixer-to-fabulous/fixer-to-fabulous-vertical.jpeg.rend.hgtvcom.196.294.suffix/1731512330971.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/home-town/home-town-vertical.jpeg.rend.hgtvcom.196.294.suffix/1730749915801.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/home-town/home-town-vertical.jpeg.rend.hgtvcom.196.294.suffix/1730749915801.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/j/junk-or-jackpot/JOJ-s1-Hulu_HuluKeyArt_1080x1920.jpg.rend.hgtvcom.126.196.suffix/1763414455366.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/j/junk-or-jackpot/JOJ-s1-Hulu_HuluKeyArt_1080x1920.jpg.rend.hgtvcom.126.196.suffix/1763414455366.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/D/dont-hate-your-house/Dont-Hate-Your-House-vertical.jpg.rend.hgtvcom.126.196.suffix/1731530291303.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/D/dont-hate-your-house/Dont-Hate-Your-House-vertical.jpg.rend.hgtvcom.126.196.suffix/1731530291303.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/C/cheap-a-beach-houses/CABH_S1-Hulu_HuluKeyArt_1080x1920.jpg.rend.hgtvcom.126.196.suffix/1763589419579.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/C/cheap-a-beach-houses/CABH_S1-Hulu_HuluKeyArt_1080x1920.jpg.rend.hgtvcom.126.196.suffix/1763589419579.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/shows/my-lottery-dream-home/my-lottery-dreamhome-vertical.jpeg.rend.hgtvcom.196.294.suffix/1731512639313.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/shows/my-lottery-dream-home/my-lottery-dreamhome-vertical.jpeg.rend.hgtvcom.196.294.suffix/1731512639313.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/7/31/1/RX_s12024-100-Day-Hotel-Challenge-1.png.rend.hgtvcom.196.196.suffix/1722459273108.png",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/7/31/1/RX_s12024-100-Day-Hotel-Challenge-1.png.rend.hgtvcom.196.196.suffix/1722459273108.png"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-124_R.jpg.rend.hgtvcom.196.196.suffix/1761242979278.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-124_R.jpg.rend.hgtvcom.196.196.suffix/1761242979278.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/homepage/HGTV-Social-New-Year-New-Look-2025-400x400-V1.jpg.rend.hgtvcom.196.196.suffix/1767803692371.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/homepage/HGTV-Social-New-Year-New-Look-2025-400x400-V1.jpg.rend.hgtvcom.196.196.suffix/1767803692371.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/29/1/DH26_LG_11867_R.jpg.rend.hgtvcom.196.196.suffix/1761752351702.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/29/1/DH26_LG_11867_R.jpg.rend.hgtvcom.196.196.suffix/1761752351702.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/7/3/RX/RX-HBO-Max_Heated_Rivalry_1.jpg.rend.hgtvcom.196.196.suffix/1768240631729.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/7/3/RX/RX-HBO-Max_Heated_Rivalry_1.jpg.rend.hgtvcom.196.196.suffix/1768240631729.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2026/1/9/rx_dreame_h15-pro-heat-stains1_800x.jpeg.rend.hgtvcom.196.196.suffix/1767994807409.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2026/1/9/rx_dreame_h15-pro-heat-stains1_800x.jpeg.rend.hgtvcom.196.196.suffix/1767994807409.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/stock/2026/1/CI_Getty_lowes-5-gallon-buckets.jpg.rend.hgtvcom.196.196.suffix/1767710783196.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/stock/2026/1/CI_Getty_lowes-5-gallon-buckets.jpg.rend.hgtvcom.196.196.suffix/1767710783196.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2022/7/11/2/DOTY2022_Color-Pattern_Isabel-Ladd-Interiors_Lawson-20.jpg.rend.hgtvcom.196.196.suffix/1657576756745.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/7/11/2/DOTY2022_Color-Pattern_Isabel-Ladd-Interiors_Lawson-20.jpg.rend.hgtvcom.196.196.suffix/1657576756745.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2023/12/8/0/Original_Kamron-Sanders_Cordless-Drill-Test-4_H.jpg.rend.hgtvcom.196.196.suffix/1702064324098.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2023/12/8/0/Original_Kamron-Sanders_Cordless-Drill-Test-4_H.jpg.rend.hgtvcom.196.196.suffix/1702064324098.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/stock/2018/1/15/iStock-539829042_garden-prep.jpg.rend.hgtvcom.196.196.suffix/1516142100311.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/stock/2018/1/15/iStock-539829042_garden-prep.jpg.rend.hgtvcom.196.196.suffix/1516142100311.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/7/16/0/DOTY2019_Connie-Vernich_City-Cottage_5.jpg.rend.hgtvcom.196.196.suffix/1563296826167.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/7/16/0/DOTY2019_Connie-Vernich_City-Cottage_5.jpg.rend.hgtvcom.196.196.suffix/1563296826167.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/12/4/1/Orig-Jalynn-Baker_Home-Remedies-Ceiling-Fan-29.jpg.rend.hgtvcom.196.196.suffix/1575486860830.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/12/4/1/Orig-Jalynn-Baker_Home-Remedies-Ceiling-Fan-29.jpg.rend.hgtvcom.196.196.suffix/1575486860830.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2020/4/7/1/BP_HHMTN414_hosts_Ben-and-Erin-Napier_den_HT414-portrait-003_4x3b.jpg.rend.hgtvcom.196.196.suffix/1586378319180.jpeg",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2020/4/7/1/BP_HHMTN414_hosts_Ben-and-Erin-Napier_den_HT414-portrait-003_4x3b.jpg.rend.hgtvcom.196.196.suffix/1586378319180.jpeg"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2021/5/12/0/RX_HGMAG090_Glenn-17.jpg.rend.hgtvcom.966.544.85.suffix/1620934139807.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2021/5/12/0/RX_HGMAG090_Glenn-17.jpg.rend.hgtvcom.966.544.85.suffix/1620934139807.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/9/24/0/RIDO111_PBDHYH_S111_REVEAL_0617.jpg.rend.hgtvcom.406.305.85.suffix/1735051851198.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/9/24/0/RIDO111_PBDHYH_S111_REVEAL_0617.jpg.rend.hgtvcom.406.305.85.suffix/1735051851198.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/3/6/0/Horiz-HALHM307_210922_WalkerReveal_72-3.jpg.rend.hgtvcom.406.305.85.suffix/1741722169816.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/3/6/0/Horiz-HALHM307_210922_WalkerReveal_72-3.jpg.rend.hgtvcom.406.305.85.suffix/1741722169816.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/7/1/XSYV106_Talent-1.jpg.rend.hgtvcom.406.305.85.suffix/1767805311750.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/7/1/XSYV106_Talent-1.jpg.rend.hgtvcom.406.305.85.suffix/1767805311750.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/7/3/RX/RX-HBO-Max_Heated_Rivalry_1.jpg.rend.hgtvcom.406.305.85.suffix/1768240631729.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/7/3/RX/RX-HBO-Max_Heated_Rivalry_1.jpg.rend.hgtvcom.406.305.85.suffix/1768240631729.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2022/1/14/0/shutterstock.com-sprouting-plants-rows-10854751.jpg.rend.hgtvcom.406.305.85.suffix/1642189169094.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/1/14/0/shutterstock.com-sprouting-plants-rows-10854751.jpg.rend.hgtvcom.406.305.85.suffix/1642189169094.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2020/8/20/1/CI-Neat-Little-Nest_under-kitchen-sink.jpg.rend.hgtvcom.406.305.85.suffix/1597936245216.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2020/8/20/1/CI-Neat-Little-Nest_under-kitchen-sink.jpg.rend.hgtvcom.406.305.85.suffix/1597936245216.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2021/2/9/rx_amazon_snap-n-strain-clip-on-silicone-colander.jpeg.rend.hgtvcom.616.462.85.suffix/1612887646485.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2021/2/9/rx_amazon_snap-n-strain-clip-on-silicone-colander.jpeg.rend.hgtvcom.616.462.85.suffix/1612887646485.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2025/11/18/rx_qvc_elemis-pro-collagen-cleansing-balm-35-oz-duo.jpeg.rend.hgtvcom.616.462.85.suffix/1763492134025.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2025/11/18/rx_qvc_elemis-pro-collagen-cleansing-balm-35-oz-duo.jpeg.rend.hgtvcom.616.462.85.suffix/1763492134025.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2022/11/10/0/dh23_front-yard-whole-house-high-wider-DJI_0048_h.jpg.rend.hgtvcom.826.551.85.suffix/1668096833787.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/11/10/0/dh23_front-yard-whole-house-high-wider-DJI_0048_h.jpg.rend.hgtvcom.826.551.85.suffix/1668096833787.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-204_R.jpg.rend.hgtvcom.406.305.85.suffix/1761242980177.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-204_R.jpg.rend.hgtvcom.406.305.85.suffix/1761242980177.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/31/0/DH26_LG_12306_R.jpg.rend.hgtvcom.406.305.85.suffix/1761922086118.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/31/0/DH26_LG_12306_R.jpg.rend.hgtvcom.406.305.85.suffix/1761922086118.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/24/1/DH26_RW6041_R.jpg.rend.hgtvcom.406.305.85.suffix/1761324383155.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/24/1/DH26_RW6041_R.jpg.rend.hgtvcom.406.305.85.suffix/1761324383155.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/4/24/8/HHMTN717_HMTN717_STOCKSTILL_NAPIERS_KITCHEN_0002.jpg.rend.hgtvcom.791.445.85.suffix/1713986626751.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/4/24/8/HHMTN717_HMTN717_STOCKSTILL_NAPIERS_KITCHEN_0002.jpg.rend.hgtvcom.791.445.85.suffix/1713986626751.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/homepage/HGTV-Homepage-Promo-Desktop-New-Year-New-Look-2025-1250x800.jpg.rend.hgtvcom.826.551.85.suffix/1767804048047.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/homepage/HGTV-Homepage-Promo-Desktop-New-Year-New-Look-2025-1250x800.jpg.rend.hgtvcom.826.551.85.suffix/1767804048047.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/12/12/1/MountainHouse_NetworkPortrait_06433_Final.jpg.rend.hgtvcom.406.305.85.suffix/1765831494718.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/12/12/1/MountainHouse_NetworkPortrait_06433_Final.jpg.rend.hgtvcom.406.305.85.suffix/1765831494718.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/9/26/0/HMLHM1802_MLDH1802_80_House3_Hero_Tour_Host_David_Bromstad_Participants_0080.jpeg.rend.hgtvcom.406.305.85.suffix/1765473475425.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/9/26/0/HMLHM1802_MLDH1802_80_House3_Hero_Tour_Host_David_Bromstad_Participants_0080.jpeg.rend.hgtvcom.406.305.85.suffix/1765473475425.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/7/1/CI-Bobby-Berk-Cocktail-2025.jpg.rend.hgtvcom.406.305.85.suffix/1767826758999.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/7/1/CI-Bobby-Berk-Cocktail-2025.jpg.rend.hgtvcom.406.305.85.suffix/1767826758999.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2024/6/12/3/Avatar-01-RX_Flip-off-pr-lead.png.rend.hgtvcom.161.161.85.suffix/1718214257148.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2024/6/12/3/Avatar-01-RX_Flip-off-pr-lead.png.rend.hgtvcom.161.161.85.suffix/1718214257148.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2023/4/12/2/Avatar-HHMTN701_HMTN701_REVEAL_NAPIERS_KITCHEN_0004.jpg.rend.hgtvcom.161.161.85.suffix/1681757280718.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2023/4/12/2/Avatar-HHMTN701_HMTN701_REVEAL_NAPIERS_KITCHEN_0004.jpg.rend.hgtvcom.161.161.85.suffix/1681757280718.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/profiles/talent/jonathan-scott/hgtv-avatar-talent-jonathan-scott.jpg.rend.hgtvcom.161.161.85.suffix/1413411655194.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/jonathan-scott/hgtv-avatar-talent-jonathan-scott.jpg.rend.hgtvcom.161.161.85.suffix/1413411655194.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/profiles/talent/ben-napier/hgtv-avatar-talent-ben-napier_2017_244017_877130-1419670.jpg.rend.hgtvcom.161.161.85.suffix/1485365898203.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/ben-napier/hgtv-avatar-talent-ben-napier_2017_244017_877130-1419670.jpg.rend.hgtvcom.161.161.85.suffix/1485365898203.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/profiles/talent/drew-scott/hgtv-avatar-talent-drew-scott.jpg.rend.hgtvcom.161.161.85.suffix/1413410667010.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/drew-scott/hgtv-avatar-talent-drew-scott.jpg.rend.hgtvcom.161.161.85.suffix/1413410667010.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/profiles/talent/jenny-marrs/hgtv_avatar_talent_Jenny-Marrs_HALHM101-286577-1079569_1x1.jpg.rend.hgtvcom.161.161.85.suffix/1646083158377.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/jenny-marrs/hgtv_avatar_talent_Jenny-Marrs_HALHM101-286577-1079569_1x1.jpg.rend.hgtvcom.161.161.85.suffix/1646083158377.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/3/6/0/Tarek-El-Moussa-Avatar-2025.jpg.rend.hgtvcom.161.161.85.suffix/1741391703414.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/3/6/0/Tarek-El-Moussa-Avatar-2025.jpg.rend.hgtvcom.161.161.85.suffix/1741391703414.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/editorial/profiles/talent/dave-marrs/hgtv_talent_avatar_Dave-Marrs_HALHM207-200827-0128_1x1.jpg.rend.hgtvcom.161.161.85.suffix/1646153527557.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/dave-marrs/hgtv_talent_avatar_Dave-Marrs_HALHM207-200827-0128_1x1.jpg.rend.hgtvcom.161.161.85.suffix/1646153527557.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2026/1/14/rx_pottery-barn_heart-block-print-stoneware-appetizer-plates-set.jpeg.rend.hgtvcom.616.347.85.suffix/1768415440318.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2026/1/14/rx_pottery-barn_heart-block-print-stoneware-appetizer-plates-set.jpeg.rend.hgtvcom.616.347.85.suffix/1768415440318.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/14/RX_HGMAG126_Wood-03.jpg.rend.hgtvcom.616.347.85.suffix/1768400976493.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/14/RX_HGMAG126_Wood-03.jpg.rend.hgtvcom.616.347.85.suffix/1768400976493.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2021/1/20/RX_TCS_Makeup-Organizer-Modular.jpg.rend.hgtvcom.616.347.85.suffix/1611178855066.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2021/1/20/RX_TCS_Makeup-Organizer-Modular.jpg.rend.hgtvcom.616.347.85.suffix/1611178855066.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2025/1/23/rx_pottery-barn_westly-over-the-toilet-ladder.jpeg.rend.hgtvcom.616.347.85.suffix/1737669416530.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2025/1/23/rx_pottery-barn_westly-over-the-toilet-ladder.jpeg.rend.hgtvcom.616.347.85.suffix/1737669416530.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2020/2/14/1/Orig_Sarah-Busby-rolling-cart-uses-craft-supplies-1.JPG.rend.hgtvcom.616.347.85.suffix/1581700667567.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2020/2/14/1/Orig_Sarah-Busby-rolling-cart-uses-craft-supplies-1.JPG.rend.hgtvcom.616.347.85.suffix/1581700667567.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2026/1/7/3/89-Longoria610bts-DRP_0707-4r.jpg.rend.hgtvcom.616.347.85.suffix/1768498130766.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2026/1/7/3/89-Longoria610bts-DRP_0707-4r.jpg.rend.hgtvcom.616.347.85.suffix/1768498130766.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2023/11/22/1/dh24_main-bathroom-tub-JGMB6771_h.jpg.rend.hgtvcom.616.347.85.suffix/1700695697548.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2023/11/22/1/dh24_main-bathroom-tub-JGMB6771_h.jpg.rend.hgtvcom.616.347.85.suffix/1700695697548.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2019/9/12/1/Original_Tomas_Espinoza_Charleston-Nash-Garden_1373-Edit.jpg.rend.hgtvcom.616.347.85.suffix/1568297719204.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/9/12/1/Original_Tomas_Espinoza_Charleston-Nash-Garden_1373-Edit.jpg.rend.hgtvcom.616.347.85.suffix/1568297719204.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/4/24/1/Original_Morgan-Faulkner_Bouqs-Test_Beauty-1.jpeg.rend.hgtvcom.616.347.85.suffix/1745530131747.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/4/24/1/Original_Morgan-Faulkner_Bouqs-Test_Beauty-1.jpeg.rend.hgtvcom.616.347.85.suffix/1745530131747.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/products/2024/6/17/rx_target_bed-blanket---opalhouse-.jpeg.rend.hgtvcom.616.347.85.suffix/1718646951589.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2024/6/17/rx_target_bed-blanket---opalhouse-.jpeg.rend.hgtvcom.616.347.85.suffix/1718646951589.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-202_R.jpg.rend.hgtvcom.1280.720.85.suffix/1761242980023.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2025/10/23/0/DH26_BKR-202_R.jpg.rend.hgtvcom.1280.720.85.suffix/1761242980023.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/22/228/2280/22808202.jpg.rend.hgtvcom.196.110.85.suffix/1764886161602.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/22/228/2280/22808202.jpg.rend.hgtvcom.196.110.85.suffix/1764886161602.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/22/228/2280/22808244.jpg.rend.hgtvcom.196.110.85.suffix/1764885961461.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/22/228/2280/22808244.jpg.rend.hgtvcom.196.110.85.suffix/1764885961461.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/23/231/2311/23119980.jpg.rend.hgtvcom.196.110.85.suffix/1764885931078.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/23/231/2311/23119980.jpg.rend.hgtvcom.196.110.85.suffix/1764885931078.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/21/212/2127/21278040.jpg.rend.hgtvcom.196.110.85.suffix/1761679559387.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/21/212/2127/21278040.jpg.rend.hgtvcom.196.110.85.suffix/1761679559387.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/21/212/2127/21278039.jpg.rend.hgtvcom.196.110.85.suffix/1761679448308.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/21/212/2127/21278039.jpg.rend.hgtvcom.196.110.85.suffix/1761679448308.webp"
+      },
+      {
+        "path": "/content/dam/images/hgtv/video/2/21/212/2127/21278038.jpg.rend.hgtvcom.196.110.85.suffix/1761679703738.webp",
+        "type": "image",
+        "full_url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/video/2/21/212/2127/21278038.jpg.rend.hgtvcom.196.110.85.suffix/1761679703738.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home Design, Decorating and Remodeling Ideas, Landscaping, Kitchen and Bathroom Design | HGTV",
+        "description": "Let HGTV help you transform your home with pictures and inspiration for interior design, home decor, landscape design, remodeling and entertaining ideas.",
+        "canonical": "https://www.hgtv.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7905ms"
+        },
+        {
+          "resource": "user-consent-disco.md5-487feb5402bde017638bb920080a5498.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "core.md5-de076e532e4f1ad71a50fa836dab7b0d.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "fonts.md5-9ea837b4597f2fb1d18590229a475808.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "HGTV Homepage",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Legal Terms and Privacy"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h6",
+            "text": "Live Now"
+          },
+          {
+            "tag": "h3",
+            "text": "Dave and Jenny Marrs' 40 Best Decorating Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Tuesdays at 8|7c"
+          },
+          {
+            "tag": "h3",
+            "text": "Get to Know Hosts Billy Pearson and Carolyn Wilbrink"
+          },
+          {
+            "tag": "p",
+            "text": "Tuesdays at 9|8c"
+          },
+          {
+            "tag": "h3",
+            "text": "schedule"
+          },
+          {
+            "tag": "h2",
+            "text": "What We're Loving Now"
+          },
+          {
+            "tag": "h3",
+            "text": "Obsessed With 'Heated Rivalry'? Check Out the Real Homes From the Show"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Start Seeds Indoors"
+          },
+          {
+            "tag": "h3",
+            "text": "32 Small Decluttering Projects That Make a Big Impact"
+          },
+          {
+            "tag": "h2",
+            "text": "Shop With Us"
+          },
+          {
+            "tag": "h3",
+            "text": "Amazon Shoppers Love These 24 Kitchen Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Top-Rated Beauty and Skincare Buys Starting at $11"
+          },
+          {
+            "tag": "h2",
+            "text": "Home Giveaway"
+          },
+          {
+            "tag": "h3",
+            "text": "Vote for Your Favorite HGTV Dream Home"
+          },
+          {
+            "tag": "p",
+            "text": "From coastal retreats to mountain getaways, take a look back at past HGTV Dream Homes and let us know which one you love the most."
+          },
+          {
+            "tag": "h3",
+            "text": "Enter for Your Chance to Win HGTV Dream Home 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Tour the Cozy Camp-Inspired Guest Room"
+          },
+          {
+            "tag": "h3",
+            "text": "See the Stylish Mudroom and Powder Room"
+          },
+          {
+            "tag": "h3",
+            "text": "Want More Inspiration?"
+          },
+          {
+            "tag": "p",
+            "text": "Subscribe to our newsletter to get our best decorating ideas, DIY projects and more delivered to your inbox weekly."
+          },
+          {
+            "tag": "p",
+            "text": "By entering your email address, you agree to our Terms of Use and acknowledge the Privacy Policy . HGTV and its affiliates may use your email address to provide updates, ads, and offers."
+          },
+          {
+            "tag": "p",
+            "text": "To withdraw your consent or learn more about your rights, see the Privacy Policy ."
+          },
+          {
+            "tag": "h2",
+            "text": "Sweepstakes"
+          },
+          {
+            "tag": "h3",
+            "text": "We're Giving Away $5,000!"
+          },
+          {
+            "tag": "p",
+            "text": "Start the year strong by organizing your space and transforming your home into the calming retreat you’ve always dreamed of. Enter twice daily – once on HGTV.com and once on FoodNetwork.com – for your chance to win $5K toward your 2026 goals."
+          },
+          {
+            "tag": "h2",
+            "text": "From Your Favorite HGTV Stars"
+          },
+          {
+            "tag": "h3",
+            "text": "Before and After: Step Inside Chip and Jo's Colorado Mountain House Renovation"
+          },
+          {
+            "tag": "h3",
+            "text": "A Florida Couple Finds Peace of Mind With Help From David on 'My Lottery Dream Home'"
+          },
+          {
+            "tag": "h3",
+            "text": "This Is Bobby Berk's Favorite Cocktail Recipe"
+          },
+          {
+            "tag": "h3",
+            "text": "Meet Our Hosts"
+          },
+          {
+            "tag": "h3",
+            "text": "Christina Haack"
+          },
+          {
+            "tag": "p",
+            "text": "A real estate agent with an eye for design, Christina is the host of Christina on the Coast and Christina in the Country ."
+          },
+          {
+            "tag": "h3",
+            "text": "Erin Napier"
+          },
+          {
+            "tag": "p",
+            "text": "With a keen sense of style and a background in graphic design, Erin brings the vision to the renovations in HGTV's Home Town ."
+          },
+          {
+            "tag": "h3",
+            "text": "Jonathan Scott"
+          },
+          {
+            "tag": "p",
+            "text": "A licensed contractor with more than 15 years' experience, Jonathan is also an award-winning illusionist."
+          },
+          {
+            "tag": "h3",
+            "text": "Ben Napier"
+          },
+          {
+            "tag": "p",
+            "text": "Ben is passionate about preserving and celebrating the history of old homes, and his building and woodworking skills help form the foundation of the husband-wife Home Town team."
+          },
+          {
+            "tag": "h3",
+            "text": "Drew Scott"
+          },
+          {
+            "tag": "p",
+            "text": "A seasoned real estate agent, Drew finds down-and-out fixer uppers with dream home potential. When not renovating, he also directs and produces films."
+          },
+          {
+            "tag": "h3",
+            "text": "Jenny Marrs"
+          },
+          {
+            "tag": "h3",
+            "text": "Tarek El Moussa"
+          },
+          {
+            "tag": "p",
+            "text": "He's a master home flipper and the host of Flipping 101 and The Flipping El Moussas ."
+          },
+          {
+            "tag": "h3",
+            "text": "Dave Marrs"
+          },
+          {
+            "tag": "h2",
+            "text": "What's New"
+          },
+          {
+            "tag": "p",
+            "text": "Yesterday"
+          },
+          {
+            "tag": "h3",
+            "text": "The 50 Best Valentine's Day Home Decor Finds 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Yesterday"
+          },
+          {
+            "tag": "h3",
+            "text": "Tour a Midcentury Home With Modern Interiors"
+          },
+          {
+            "tag": "p",
+            "text": "Yesterday"
+          },
+          {
+            "tag": "h3",
+            "text": "24 Best Makeup and Cosmetic Organizers for Home + Travel"
+          },
+          {
+            "tag": "p",
+            "text": "Yesterday"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Over-the-Toilet Storage Solutions That Are Actually Stylish"
+          },
+          {
+            "tag": "p",
+            "text": "Yesterday"
+          },
+          {
+            "tag": "h3",
+            "text": "The 6 Best Three-Tier Rolling Storage Carts for the Solution to All of Your Organization Woes"
+          },
+          {
+            "tag": "h3",
+            "text": "Eva Longoria Gives Her Best Friend’s Home a Desperately Needed Makeover"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Coastal Bathroom Decor Ideas With Easy, Breezy Style"
+          },
+          {
+            "tag": "h3",
+            "text": "Here's Why You Should Pay Attention to the &quot;Rules of Three&quot; In Gardening"
+          },
+          {
+            "tag": "h3",
+            "text": "I’m a Former Florist, and This Is My Favorite Online Flower Delivery Service"
+          },
+          {
+            "tag": "h3",
+            "text": "27 Black-Owned Home &amp; Lifestyle Brands We Love"
+          },
+          {
+            "tag": "p",
+            "text": "Loading Video... First Up 11:21 HGTV Dream Home 2026: Tour the Interior"
+          },
+          {
+            "tag": "p",
+            "text": "HGTV Dream Home 2026: Tour the Exterior"
+          },
+          {
+            "tag": "p",
+            "text": "Gorgeous Decks at HGTV Dream Home 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Discover HGTV Dream Home 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Watch A Time-Lapse of the Build"
+          },
+          {
+            "tag": "p",
+            "text": "Explore Lake Life at HGTV Dream Home 2026"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 46,
+          "headings": 79,
+          "images": 179
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A6B67173",
+      "path": "/about-us/hgtv-newsletters",
+      "type": "Detected Link",
+      "anchor_text": "Newsletters",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D44A78BC",
+      "path": "/decorating/hgtv-magazine",
+      "type": "Detected Link",
+      "anchor_text": "HGTV Magazine",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-652BF277",
+      "path": "/shows/tv-schedule",
+      "type": "Detected Link",
+      "anchor_text": "TV Schedule",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5509666F",
+      "path": "/decorating",
+      "type": "Detected Link",
+      "anchor_text": "Decorate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0CC46079",
+      "path": "/decorating/color",
+      "type": "Detected Link",
+      "anchor_text": "Paint &amp; Color",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D6D3700B",
+      "path": "/decorating/diy",
+      "type": "Detected Link",
+      "anchor_text": "DIY Decor",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2B17F31",
+      "path": "/decorating/design-ideas",
+      "type": "Detected Link",
+      "anchor_text": "Design Ideas &amp; Styles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9996A0DE",
+      "path": "/decorating/small-spaces",
+      "type": "Detected Link",
+      "anchor_text": "Small Spaces",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B26BDEE0",
+      "path": "/decorating/home-tours",
+      "type": "Detected Link",
+      "anchor_text": "Home Tours",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-681A5C0C",
+      "path": "/outdoors/gardens",
+      "type": "Detected Link",
+      "anchor_text": "Garden",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2849D156",
+      "path": "/outdoors/flowers-and-plants",
+      "type": "Detected Link",
+      "anchor_text": "Flowers &amp; Plants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D893788",
+      "path": "/outdoors/gardens/planting-and-maintenance",
+      "type": "Detected Link",
+      "anchor_text": "Planting Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D43BFCB8",
+      "path": "/outdoors/landscaping-and-hardscaping/lawns",
+      "type": "Detected Link",
+      "anchor_text": "Lawn &amp; Yard",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22D5E6BD",
+      "path": "/outdoors/landscaping-and-hardscaping",
+      "type": "Detected Link",
+      "anchor_text": "Landscape",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F524523",
+      "path": "/profiles/editorial/hgtv-gardening-experts",
+      "type": "Detected Link",
+      "anchor_text": "Our Gardening Experts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,291 @@
+{
+  "website_blueprint_id": "BLUEPRINT-A554E49D",
+  "generated_at": "2026-01-21T07:27:12.109Z",
+  "global_configuration": {
+    "brand_name": "OpenHistoricalMap",
+    "domain": "www.openhistoricalmap.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "52.86.22.251",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache/2.4.65 (Debian)"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0, private, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache/2.4.65 (Debian)"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 11,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/assets/turbo-c69e22a49dcb166659137ec1b5c5feddd68aaa75b2095acf4d013b1084c38d9b.js",
+        "type": "script",
+        "full_url": "https://www.openhistoricalmap.org/assets/turbo-c69e22a49dcb166659137ec1b5c5feddd68aaa75b2095acf4d013b1084c38d9b.js"
+      },
+      {
+        "path": "/assets/application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js",
+        "type": "script",
+        "full_url": "https://www.openhistoricalmap.org/assets/application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js"
+      },
+      {
+        "path": "/assets/i18n/en-ee8511dcb46a2c2323d1f9d63177d2c92f1e7f4919e78fce7b725911cab5302b.js",
+        "type": "script",
+        "full_url": "https://www.openhistoricalmap.org/assets/i18n/en-ee8511dcb46a2c2323d1f9d63177d2c92f1e7f4919e78fce7b725911cab5302b.js"
+      },
+      {
+        "path": "/ohm-inspector/api/api.js",
+        "type": "script",
+        "full_url": "https://openhistoricalmap.github.io/ohm-inspector/api/api.js"
+      },
+      {
+        "path": "/assets/index-1406234cd6acfe6c634b8ed31d33fb45e17f4abdd263416fcb53141438cbd97b.js",
+        "type": "script",
+        "full_url": "https://www.openhistoricalmap.org/assets/index-1406234cd6acfe6c634b8ed31d33fb45e17f4abdd263416fcb53141438cbd97b.js"
+      },
+      {
+        "path": "/assets/screen-auto-ltr-1b3ef736d6a59a1b6b324fb0d67f631049cb2a788cbcc02aafd543f8f2128f06.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openhistoricalmap.org/assets/screen-auto-ltr-1b3ef736d6a59a1b6b324fb0d67f631049cb2a788cbcc02aafd543f8f2128f06.css"
+      },
+      {
+        "path": "/assets/print-ltr-f49bbd3b2598559a755cf5e4eca692e8aa7254d24c5a8864c89ea578ddf0ddac.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openhistoricalmap.org/assets/print-ltr-f49bbd3b2598559a755cf5e4eca692e8aa7254d24c5a8864c89ea578ddf0ddac.css"
+      },
+      {
+        "path": "/assets/maplibre-gl-all-1118980d0c66f8880a8c1d9adc7357c276388b26fb0794f5bc3b37bae9a11327.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openhistoricalmap.org/assets/maplibre-gl-all-1118980d0c66f8880a8c1d9adc7357c276388b26fb0794f5bc3b37bae9a11327.css"
+      },
+      {
+        "path": "/assets/leaflet-all-afa9cf5f0632e9cbf265ea52e08b6fca2ae09b0575fb4b1fd96a5aa01722c9e5.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openhistoricalmap.org/assets/leaflet-all-afa9cf5f0632e9cbf265ea52e08b6fca2ae09b0575fb4b1fd96a5aa01722c9e5.css"
+      },
+      {
+        "path": "/assets/leaflet-ohm-timeslider-2d82fa1e5a7ac85ed027d81ed85414fa29e41cbf3dbdbbafb38e7c49e75ab664.css",
+        "type": "stylesheet",
+        "full_url": "https://www.openhistoricalmap.org/assets/leaflet-ohm-timeslider-2d82fa1e5a7ac85ed027d81ed85414fa29e41cbf3dbdbbafb38e7c49e75ab664.css"
+      },
+      {
+        "path": "/assets/ohm_logo-884051b901193cf1d229cb08e81d60ab7b28aea9ba53acad8f141dca78c86430.svg",
+        "type": "image",
+        "full_url": "https://www.openhistoricalmap.org/assets/ohm_logo-884051b901193cf1d229cb08e81d60ab7b28aea9ba53acad8f141dca78c86430.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "OpenHistoricalMap",
+        "description": "OpenHistoricalMap is the free wiki world map.",
+        "canonical": "https://www.openhistoricalmap.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1341ms"
+        },
+        {
+          "resource": "turbo-c69e22a49dcb166659137ec1b5c5feddd68aaa75b2095acf4d013b1084c38d9b.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "en-ee8511dcb46a2c2323d1f9d63177d2c92f1e7f4919e78fce7b725911cab5302b.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Select Language",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Welcome to OpenHistoricalMap!",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "OpenHistoricalMap"
+          },
+          {
+            "tag": "p",
+            "text": "GraphHopper OSRM Valhalla Edit Edit with iD (in-browser editor) Edit with Remote Control (JOSM, Potlatch, Merkaartor) History Export GPS Traces User Diaries Copyright Help About More Log In Sign Up Select Language Afrikaans Afrikaans Alemannisch Alemannic arpetan Arpitan asturianu Asturian azərbaycanca Azerbaijani Bahasa Indonesia Indonesian Bahasa Melayu Malay bosanski Bosnian brezhoneg Breton català Catalan čeština Czech Cymraeg Welsh dansk Danish Deutsch German dolnoserbski Lower Sorbian eesti Estonian English English English (UK) English (UK) español Spanish Esperanto Esperanto euskara Basque français French Frysk Western Frisian furlan Friulian Gaeilge Irish Gàidhlig Scottish Gaelic galego Galician Gegë Gheg Albanian hornjoserbsce Upper Sorbian hrvatski Croatian interlingua Interlingua íslenska Icelandic italiano Italian kréyòl Gwadloup Guadeloupean Creole kurdî (latînî) Kurdish (Latin) latviešu Latvian Lëtzebuergesch Luxembourgish lietuvių Lithuanian magyar Hungarian meänkieli Tornedalen Finnish Nederlands Dutch norsk bokmål Norwegian Bokmål norsk nynorsk Norwegian Nynorsk occitan Occitan Plattdüütsch Low German polski Polish português Portuguese português (Brasil) Portuguese (Brazil) Ripoarisch Colognian română Romanian sardu Sardinian Scots Scots shqip Albanian sicilianu Sicilian slovenčina Slovak slovenščina Slovenian srpski (latinica) Serbian (Latin) srpskohrvatski (lat.) Serbo-Croatian (Latin) suomi Finnish svenska Swedish Tagalog Tagalog Taqbaylit Kabyle Tiếng Việt Vietnamese Türkçe Turkish Yorùbá Yoruba Zazaki Dimli Ελληνικά Greek башҡортса Bashkir беларуская Belarusian беларуская (тарашк.) Belarusian (Tarašk.) български Bulgarian македонски Macedonian молдовеняскэ Moldovan нохчийн Chechen русский Russian српски (ћирилица) Serbian (Cyrillic) татарча Tatar (Cyrillic) українська Ukrainian қазақша (кирил) Kazakh (Cyrillic) ייִדיש Yiddish עברית Hebrew العربية Arabic سرائیکی Saraiki (Arabic script) فارسی Persian مصرى Arabic (Egypt) پنجابی Western Punjabi پښتو Pashto ߒߞߏ N’Ko नेपाली Nepali मराठी Marathi हिन्दी Hindi বাংলা Bangla ਪੰਜਾਬੀ Punjabi ગુજરાતી Gujarati தமிழ் Tamil తెలుగు Telugu ಕನ್ನಡ Kannada ไทย Thai မြန်မာဘာသာ Burmese მარგალური Mingrelian ქართული Georgian ភាសាខ្មែរ Khmer ᱥᱟᱱᱛᱟᱲᱤ Santali 中文（简体） Chinese (Simplified) 中文（繁體） Chinese (Traditional) 中文（香港） Chinese (Hong Kong) 日本語 Japanese 한국어 Korean OK Where is this? GraphHopper OSRM Valhalla Loading... Welcome to OpenHistoricalMap! OpenHistoricalMap is an interactive map of the world throughout history, created by people like you and dedicated to the public domain."
+          },
+          {
+            "tag": "p",
+            "text": "OpenHistoricalMap is a charter project of OpenStreetMap U.S. , a 501(c)(3) nonprofit organization affiliated with the OpenStreetMap Foundation . Technical development is supported by GreenInfo Network and Development Seed ."
+          },
+          {
+            "tag": "p",
+            "text": "? You are either using a browser that does not support JavaScript, or you have disabled JavaScript."
+          },
+          {
+            "tag": "p",
+            "text": "OpenHistoricalMap uses JavaScript for its slippy map."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 37,
+          "headings": 4,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D183446F",
+      "path": "/edit",
+      "type": "Detected Link",
+      "anchor_text": "Edit",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57BF20E5",
+      "path": "/edit",
+      "type": "Detected Link",
+      "anchor_text": "Edit with iD (in-browser editor)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ED2576D7",
+      "path": "/edit",
+      "type": "Detected Link",
+      "anchor_text": "Edit with Remote Control (JOSM, Potlatch, Merkaartor)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D1C0A5C7",
+      "path": "/history",
+      "type": "Detected Link",
+      "anchor_text": "History",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EBAC23CE",
+      "path": "/export",
+      "type": "Detected Link",
+      "anchor_text": "Export",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B4B7CFD1",
+      "path": "/traces",
+      "type": "Detected Link",
+      "anchor_text": "GPS Traces",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D031B09",
+      "path": "/diary",
+      "type": "Detected Link",
+      "anchor_text": "User Diaries",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B6CC410D",
+      "path": "/copyright",
+      "type": "Detected Link",
+      "anchor_text": "Copyright",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BB6603FD",
+      "path": "/help",
+      "type": "Detected Link",
+      "anchor_text": "Help",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9EFBF842",
+      "path": "/about",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-76C63C72",
+      "path": "/login",
+      "type": "Detected Link",
+      "anchor_text": "Log In",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-50B5ACE1",
+      "path": "/user/new",
+      "type": "Detected Link",
+      "anchor_text": "Sign Up",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

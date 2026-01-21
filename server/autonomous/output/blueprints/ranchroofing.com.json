@@ -1,0 +1,620 @@
+{
+  "website_blueprint_id": "BLUEPRINT-9F0B441B",
+  "generated_at": "2026-01-21T07:27:05.064Z",
+  "global_configuration": {
+    "brand_name": "Arlington, Ma Roofing Company: Residential &amp; Commercial",
+    "domain": "ranchroofing.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.196.13.119",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 43,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/themes/astra/assets/js/minified/flexibility.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.12.0"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-content/plugins/indeed-my-testimonials-vc/files/js/owl.carousel.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/indeed-my-testimonials-vc/files/js/owl.carousel.js"
+      },
+      {
+        "path": "/wp-content/plugins/indeed-my-testimonials-vc/files/js/front_end.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/indeed-my-testimonials-vc/files/js/front_end.js"
+      },
+      {
+        "path": "/wp-content/plugins/indeed-my-testimonials-vc/files/js/isotope.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/indeed-my-testimonials-vc/files/js/isotope.pkgd.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/simple-banner/simple-banner.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/simple-banner/simple-banner.js?ver=2.17.3"
+      },
+      {
+        "path": "/wp-content/themes/astra/assets/js/minified/style.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=4.12.0"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/includes/js/index.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"
+      },
+      {
+        "path": "/50626419.js",
+        "type": "script",
+        "full_url": "https://js.hs-scripts.com/50626419.js?integration=WordPress&amp;ver=11.3.33"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.31.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.31.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/core.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.31.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
+      },
+      {
+        "path": "/wp-content/uploads/astra-addon/astra-addon-68b87de8cd0723-43374130.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/astra-addon/astra-addon-68b87de8cd0723-43374130.js?ver=4.7.2"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?render=6LcfmR0qAAAAAA1s3gB4oppSiK2-X0Gz1GcPTysa&amp;ver=3.0"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/modules/recaptcha/index.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.8"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms-user-journey/assets/js/wpforms-user-journey.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms-user-journey/assets/js/wpforms-user-journey.min.js?ver=1.3.0"
+      },
+      {
+        "path": "/companies/556071088/wp-0-5-3/swap.js",
+        "type": "script",
+        "full_url": "https://cdn.callrail.com/companies/556071088/wp-0-5-3/swap.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.21.0"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms/assets/lib/punycode.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms/assets/js/share/utils.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms/assets/js/share/utils.min.js?ver=1.9.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js",
+        "type": "script",
+        "full_url": "https://ranchroofing.com/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?ver=1.9.2.1"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?onload=wpformsRecaptchaLoad&amp;render=explicit"
+      },
+      {
+        "path": "/tr",
+        "type": "image",
+        "full_url": "https://www.facebook.com/tr?id=1127132862841557&ev=PageView&noscript=1"
+      },
+      {
+        "path": "/wp-content/uploads/2020/08/logo-with-bg.svg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2020/08/logo-with-bg.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/logo.svg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2025/09/logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/01/AngiesList_SSA_2020_530x438.png",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2021/01/AngiesList_SSA_2020_530x438.png"
+      },
+      {
+        "path": "/wp-content/uploads/2016/03/velux.png",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2016/03/velux.png"
+      },
+      {
+        "path": "/wp-content/uploads/2016/03/npr.145x49.jpg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2016/03/npr.145x49.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/elementor/thumbs/candy.2-p19ek8gickak3g7pwbzfv0qtbfkjolaxr7ekd8aodi.png",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/elementor/thumbs/candy.2-p19ek8gickak3g7pwbzfv0qtbfkjolaxr7ekd8aodi.png"
+      },
+      {
+        "path": "/wp-content/uploads/2016/02/badge_2.jpg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2016/02/badge_2.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/02/badge_3.png",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2016/02/badge_3.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/accreditedbusinessseal-horizontal-teasercard.jpeg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2023/11/accreditedbusinessseal-horizontal-teasercard.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/elementor/thumbs/Master-Elite-Gold-2014-p19ek8ghqmwmiqszuww32j8mzootznoo41uwb0bjru.jpg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/elementor/thumbs/Master-Elite-Gold-2014-p19ek8ghqmwmiqszuww32j8mzootznoo41uwb0bjru.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/08/ranch-roofing-logo.svg",
+        "type": "image",
+        "full_url": "https://ranchroofing.com/wp-content/uploads/2020/08/ranch-roofing-logo.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Arlington, Ma Roofing Company: Residential &amp; Commercial | Ranch Roofing",
+        "description": "Ranch Roofing is the leader in residential and commercial roofing in Arlington and beyond, specializing in roof installation, roof repair, skylights and more.",
+        "canonical": "https://ranchroofing.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "8110ms"
+        },
+        {
+          "resource": "flexibility.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Where Roofing Meets Science",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Relationships For Years",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Why Choose Us?",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "What Do We Mean When We Say:"
+          },
+          {
+            "tag": "h2",
+            "text": "Where Roofing Meets Science"
+          },
+          {
+            "tag": "p",
+            "text": "This video helps the viewer understand the science behind roofing installation, and how Ranch Roofing became one of the most trusted roofing contractors in Greater Boston. It’s based on over 30 years of studying heat loss, snow melt, ice damming, and other conditions that damage roofs in Boston weather. Ranch Roofing’s installation process is designed to stop problems before they start."
+          },
+          {
+            "tag": "p",
+            "text": "To Our Customers This Has Meant:"
+          },
+          {
+            "tag": "p",
+            "text": "Have Questions?"
+          },
+          {
+            "tag": "h2",
+            "text": "Relationships For Years"
+          },
+          {
+            "tag": "p",
+            "text": "When Ranch Roofing was born, with four employees two decades ago, the mission was to provide residential roofing services to home owners with only Ranch-Style homes. Bob O’Sullivan, President and founder, had the idea that if he could perfect a roofing system on one single style home, he could build customer relationships with consistent quality installs. Today Ranch Roofing has grown to a trusted expert on all styles of houses in Arlington, Cambridge , Lexington , Winchester , Belmont , Somerville , Medford and surrounding communities. We are proud to be known for quality work."
+          },
+          {
+            "tag": "h6",
+            "text": "Call Us Today!"
+          },
+          {
+            "tag": "p",
+            "text": "+1 (800) 771-3938"
+          },
+          {
+            "tag": "h4",
+            "text": "Request a Free Estimate"
+          },
+          {
+            "tag": "h3",
+            "text": "Commercial Roofing"
+          },
+          {
+            "tag": "p",
+            "text": "Commercial roofs don&#8217;t have to be complex or difficult. We&#8217;re here to help."
+          },
+          {
+            "tag": "p",
+            "text": "Learn More 02. Residential Roofing Reliable. Simple. Easy."
+          },
+          {
+            "tag": "p",
+            "text": "Consider Your Residential Roofing Project Done."
+          },
+          {
+            "tag": "p",
+            "text": "Learn More 03. Condo Roofing Many owners. Many voices. One solution. We specialize in condominium roofing projects from start to finish. Let us help. Learn More 04. Skylights Skylights &amp; Daylighting can completely transform your home. Work with us to bring some light into your home. Learn More Why Choose Us? One Result. Happy Customers and Lasting Quality. Qualified Expert We have been a leading roofing company in Arlington since 1996. Recognized and endorsed by all the major suppliers, we are roofing experts."
+          },
+          {
+            "tag": "h4",
+            "text": "Flexible Schedule"
+          },
+          {
+            "tag": "p",
+            "text": "We work year round to ensure your roofing project is completed. From full scale residential roofing systems to roof repairs, we are here to help."
+          },
+          {
+            "tag": "h4",
+            "text": "Workmanship Quality"
+          },
+          {
+            "tag": "p",
+            "text": "At Ranch Roofing we only use the highest quality roofing products available to us. This ensures the highest quality roofing system possible."
+          },
+          {
+            "tag": "h4",
+            "text": "Affordable Package"
+          },
+          {
+            "tag": "p",
+            "text": "Ranch Roofing in Arlington prides ourselves in project quality. We are transparent in our pricing, ensuring there are no uncertainties."
+          },
+          {
+            "tag": "h4",
+            "text": "Quality Professionals"
+          },
+          {
+            "tag": "p",
+            "text": "Our employees pride themselves in quality craftsmanship. All of projects live up to the same quality marks we have long prided ourselves in."
+          },
+          {
+            "tag": "h4",
+            "text": "Free Estimates"
+          },
+          {
+            "tag": "p",
+            "text": "You shouldn't feel obligated to choose a roofer based on one estimate. We offer free estimates with zero strings attached."
+          },
+          {
+            "tag": "h4",
+            "text": "What are our clients saying about us?"
+          },
+          {
+            "tag": "h4",
+            "text": "2023"
+          },
+          {
+            "tag": "p",
+            "text": "Achievements &amp; Certifications When Ranch Roofing visits you, we’re always COMPREHENSIVE, CONSULTATIVE, HONEST, and you’ll always feel COMFORTABLE."
+          },
+          {
+            "tag": "h2",
+            "text": "Need A Free Estimate?"
+          },
+          {
+            "tag": "p",
+            "text": "Roof leaking? Needing an estimate? Just have a question???"
+          },
+          {
+            "tag": "p",
+            "text": "Ranch Roofing is here and happy to offer answers. We deliver valuable information in a comprehensive and consultative manner. And it’s explained simply so anyone can understand. As always, Ranch Roofing offers free estimates so you can make your roofing choice no strings attached."
+          },
+          {
+            "tag": "p",
+            "text": "Thank you for choosing Ranch Roofing."
+          },
+          {
+            "tag": "h2",
+            "text": "Some of the communities that we serve"
+          },
+          {
+            "tag": "p",
+            "text": "Where Roofing Meets Science. Excellence From Start To Finish Since 1996"
+          },
+          {
+            "tag": "h4",
+            "text": "Contact Info"
+          },
+          {
+            "tag": "h4",
+            "text": "Quick Links"
+          },
+          {
+            "tag": "h4",
+            "text": "Our Service"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 28,
+          "headings": 30,
+          "images": 12
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5C70DB63",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C0E5E15",
+      "path": "/choosing-a-roofer/",
+      "type": "Detected Link",
+      "anchor_text": "Choosing A Roofer",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FA592182",
+      "path": "/installing-your-roof/",
+      "type": "Detected Link",
+      "anchor_text": "Installing Your Roof",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A692C39B",
+      "path": "/your-new-roof/",
+      "type": "Detected Link",
+      "anchor_text": "Your New Roof",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A485C782",
+      "path": "/roofing-types/",
+      "type": "Detected Link",
+      "anchor_text": "Roofing Types",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1E765075",
+      "path": "/residential/",
+      "type": "Detected Link",
+      "anchor_text": "Residential Roofing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-98C1104D",
+      "path": "/condominium/",
+      "type": "Detected Link",
+      "anchor_text": "Condominium Roofing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D75842D7",
+      "path": "/commercial/",
+      "type": "Detected Link",
+      "anchor_text": "Commercial Roofing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D0C9EC2",
+      "path": "/ventilation/",
+      "type": "Detected Link",
+      "anchor_text": "Roofing Ventilation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9FDEE69D",
+      "path": "/residential-roof-repair/",
+      "type": "Detected Link",
+      "anchor_text": "Residential Roof Repairs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D79AF0D",
+      "path": "/service/",
+      "type": "Detected Link",
+      "anchor_text": "Roofing Service",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C004898A",
+      "path": "/roof-cleaning/",
+      "type": "Detected Link",
+      "anchor_text": "Roof Cleaning Services",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-60600B5B",
+      "path": "/skylights/",
+      "type": "Detected Link",
+      "anchor_text": "Skylights",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44FEE0F8",
+      "path": "/skylights-pricing/",
+      "type": "Detected Link",
+      "anchor_text": "Skylight Installation Cost",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A126B13F",
+      "path": "/real-roofs/",
+      "type": "Detected Link",
+      "anchor_text": "Roof Results",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

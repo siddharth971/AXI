@@ -1,0 +1,403 @@
+{
+  "website_blueprint_id": "BLUEPRINT-B7B976AC",
+  "generated_at": "2026-01-21T07:27:05.133Z",
+  "global_configuration": {
+    "brand_name": "Crypto News: Latest Cryptocurrency News and Analysis",
+    "domain": "cryptonews.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.66.148.84",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=3600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 27,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/p/manifest.js",
+        "type": "script",
+        "full_url": "https://cimg.co/p/manifest.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-includes/js/jquery/jquery.min.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/faq-content-webnow/newfaq-dist/javascript.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/faq-content-webnow/newfaq-dist/javascript.js"
+      },
+      {
+        "path": "/wp-content/plugins/cryptify-summary-pro/public/js/cryptify-summary-pro-public.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/cryptify-summary-pro/public/js/cryptify-summary-pro-public.js?ver=1.0.0"
+      },
+      {
+        "path": "/assets/js/frontend.js",
+        "type": "script",
+        "full_url": "https://cimg.co/assets/js/frontend.js?id=f02260a1b33808365185e53ec0e31587"
+      },
+      {
+        "path": "/wp-content/plugins/web-stories/assets/js/web-stories-block-view.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/web-stories/assets/js/web-stories-block-view.js?ver=4423b9fde557f8942d2c"
+      },
+      {
+        "path": "/wp-content/plugins/crypto-presales/js/price-marquee.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/crypto-presales/js/price-marquee.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/geotargetingwp/public/js/geotarget-public.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/geotargetingwp/public/js/geotarget-public.js?ver=3.5.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/geotargetingwp/public/js/min/selectize.min.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/geotargetingwp/public/js/min/selectize.min.js?ver=3.5.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/link-whisper-premium/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/link-whisper-premium/js/frontend.min.js?ver=1722848469"
+      },
+      {
+        "path": "/wp-content/plugins/cryptonews/assets/js/cryptonews-country-flag.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/cryptonews/assets/js/cryptonews-country-flag.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/cryptonews/assets/js/ajax-data-load.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/cryptonews/assets/js/ajax-data-load.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/web-stories/assets/js/web-stories-carousel.js",
+        "type": "script",
+        "full_url": "https://cryptonews.com/wp-content/plugins/web-stories/assets/js/web-stories-carousel.js?ver=820bd6ad2187e675e1bb"
+      },
+      {
+        "path": "/amp-story-player-v0.js",
+        "type": "script",
+        "full_url": "https://cdn.ampproject.org/amp-story-player-v0.js?ver=v0"
+      },
+      {
+        "path": "/sdk.js",
+        "type": "script",
+        "full_url": "https://bs_48ce1097.kitayn.care/sdk.js"
+      },
+      {
+        "path": "/fix-referrer.js",
+        "type": "script",
+        "full_url": "https://dns0.checkreferrer.io/fix-referrer.js"
+      },
+      {
+        "path": "/css2",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&#038;family=Noto+Serif:ital@1&#038;display=swap"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/20195052/gas.png",
+        "type": "image",
+        "full_url": "https://cimg.co/wp-content/uploads/2024/10/20195052/gas.png"
+      },
+      {
+        "path": "/p/2/crypto-news-logo-full.svg",
+        "type": "image",
+        "full_url": "https://cimg.co/p/2/crypto-news-logo-full.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/03095139/podcasts.png",
+        "type": "image",
+        "full_url": "https://cimg.co/wp-content/uploads/2024/05/03095139/podcasts.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/03095146/spotif.png",
+        "type": "image",
+        "full_url": "https://cimg.co/wp-content/uploads/2024/05/03095146/spotif.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/margex.svg",
+        "type": "image",
+        "full_url": "https://cryptonews.com/wp-content/uploads/2025/03/margex.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/19105429/cropped-1768809172-f0892ea8-f2af-4c1a-958f-de8121394e31_optimized-1.jpg",
+        "type": "image",
+        "full_url": "https://cimg.co/wp-content/uploads/2026/01/19105429/cropped-1768809172-f0892ea8-f2af-4c1a-958f-de8121394e31_optimized-1.jpg"
+      },
+      {
+        "path": "/p/no_image.svg",
+        "type": "image",
+        "full_url": "https://cimg.co/p/no_image.svg"
+      },
+      {
+        "path": "/736x/8b/82/fc/8b82fc56b3be3ea800c2796ba7e5280c.jpg",
+        "type": "image",
+        "full_url": "https://i.pinimg.com/736x/8b/82/fc/8b82fc56b3be3ea800c2796ba7e5280c.jpg"
+      },
+      {
+        "path": "/originals/fb/1e/71/fb1e7138a47cd1f357ab49cc35d80ece.jpg",
+        "type": "image",
+        "full_url": "https://i.pinimg.com/originals/fb/1e/71/fb1e7138a47cd1f357ab49cc35d80ece.jpg"
+      },
+      {
+        "path": "/wp-content/themes/cryptonews/images/footer-logo.svg",
+        "type": "image",
+        "full_url": "https://cryptonews.com/wp-content/themes/cryptonews/images/footer-logo.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Crypto News: Latest Cryptocurrency News and Analysis",
+        "description": "We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings.",
+        "canonical": "https://cryptonews.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9322ms"
+        },
+        {
+          "resource": "manifest.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "javascript.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "US English Deutsch Français Русский Türkçe 日本語 Nederlands Italiano العربية 中文 Español Português Svenska Norsk Bokmål Suomi 한국어 Indonesia Tiếng Việt ไทย Slovenščina Čeština Polski Magyar Ελληνικά All News Bitcoin News Altcoin News Ethereum News Blockchain News DeFi News NFT News Exclusives Features Opinions Press Releases Sponsored Cryptocurrency Academy Best Crypto Presales Top Cryptocurrencies Best Crypto to Buy Now Best New Crypto Best Meme Coins Best Solana Meme Coins Next Crypto to Explode Best Crypto Casinos Top No KYC Crypto Casinos Best Crypto Betting Sites Top Bitcoin Gambling Sites Crypto Futures Trading Platforms Reviews Best Crypto Wallets Anonymous Crypto Wallets Decentralized Crypto Wallets Best Non-Custodial Wallets Best Crypto Wallets for Gambling How to Choose a Crypto Wallet Crypto Wallets with Built-In Exchanges Best Crypto Exchanges Tools Price Tracker Ethereum Gas Tracker Crypto Tax Calculator Price Predictions Market Cap Crypto Converter Fear and Greed Index About Us Editorial Guidelines Our Team Advertise Contact Us Listen on Apple Podcast Listen on Spotify News By Topic Bitcoin News Altcoin News Ethereum News DeFi News Blockchain News NFT News Features Opinions Exclusives Press Releases Sponsored Markets Market Cap Price Predictions Price Analysis Market Research Cryptocurrency Crypto Investing Top Cryptocurrencies Best Crypto Presales Best New Crypto Next Crypto to Explode Best Meme Coins Best Solana Meme Coins Best Crypto to Buy Best Crypto Wallets Best Wallet Review Anonymous Crypto Wallets Decentralized Crypto Wallets How to Choose a Crypto Wallet Is Your Crypto Safe? Best Crypto Exchanges Coinfutures Review Margex Review MEXC Review Blofin Review Binance Review Crypto Gambling Best Crypto Casinos No KYC Casinos Best Crypto Betting Sites Instant Withdrawal Crypto Casinos Crypto Poker Top Metamask Casinos Ethereum Casinos Best Solana Casinos Crypto Futures Trading Platforms Reviews Best Wallet Review Ledger Stax Wallet Review Zengo Wallet Review Cypherock X1 Review Tangem Wallet Review Academy Tools Ethereum Gas Tracker Crypto Tax Calculator Crypto Profit Calculator Price Tracker Crypto Converter Fear and Greed Index Podcast About Us Editorial Guidelines Our Team Advertise Contact Us All EN+ English Deutsch Français Русский Türkçe 日本語 Nederlands Italiano العربية 中文 Español Português Svenska Norsk Bokmål Suomi 한국어 Indonesia Tiếng Việt ไทย Slovenščina Čeština Polski Magyar Ελληνικά Margex Easy Crypto Trading Margex Easy Crypto Trading Latest Crypto News Altcoin News 2026-01-21 06:51:58 Solana Mobile Launches SKR Token Airdrop for Seeker Phone Users Blockchain News 2026-01-21 00:38:17 Asset Manager SkyBridge Prepares For Choppy Markets, Keeps Faith In Bitcoin Price Analysis 2026-01-20 23:15:00 XRP Price Prediction: Ripple Is Now Aligned With U.S. Lawmakers – Is This the Moment XRP Becomes Unstoppable? Price Analysis 2026-01-20 22:50:00 Bitcoin Price Prediction: BTC Slips Below $90K as Gold Ratio Hits 4-Year Low – Catch-Up Rally Next? Price Analysis 2026-01-20 22:50:00 Dogecoin Price Prediction: Chart Signals DOGE Could Outrun Bitcoin – Is the Meme King About to Flip BTC Again? Crypto Regulation News 2026-01-20 22:17:41 New CFTC Chair Declares “Golden Age,” Launches ‘Future-Proof’ Drive to Rewrite Crypto Rules Price Analysis 2026-01-20 22:04:00 Ethereum Price Prediction: Price Holds Key Line as Transactions Hit All‑Time Highs – Is ETH Coiling to Explode? Altcoin News 2026-01-20 20:51:09 Glassnode Flags XRP Structure Matching Feb 2022 Pre-Crash Setup Price Analysis 2026-01-20 20:48:04 Bitcoin Price Prediction: Double Bottom Near $89K — Is a Short-Term Bounce Forming? Blockchain News 2026-01-20 19:34:33 Trump Media Sets Feb. 2 Deadline For Rewards Token – But There’s a Catch for DJT Holders Altcoin News 2026-01-20 19:28:19 WLFI Backlash as 9 ‘Team Wallets’ Swing 59% Vote on USD1 Growth Proposal Blockchain News 2026-01-20 19:23:31 Coinbase CEO Calls 4 Billion People &#8220;Unbrokered&#8221; and Wants to Fix It More Latest News Crypto News Spotlight Bitcoin News 86% Chance Trump Blinks on Tariffs, But Bitcoin Will Tell You First ChatGPT analysis of Trump&#8217;s tariff history shows 86% chance of policy reversal before February 1 deadline, with Bitcoin&#8217;s 24/7 trading poised to signal outcomes first. 2026-01-19 19:04:53 ,&nbsp; by Anas Hassan [LIVE] Crypto News Today: Latest Updates for Jan. 21, 2026 – BTC Falls 4%, ETH Slides 7% Under $3,000 on Trump Tariff Threats Industry Talk 2026-01-21 04:43:13 ,&nbsp; by Jai Pratap Winklevoss Brothers Donate $1.2M ZEC to Shielded Labs to Support Zcash Network Altcoin News 2026-01-21 05:51:46 ,&nbsp; by Sujha Sundararajan Asia Market Open: Bitcoin Tumbles To $88K, Gold Sets Record As Markets Price Fresh Trade Shock Blockchain News 2026-01-21 02:04:04 ,&nbsp; by Shalini Nagarajan Delaware Life Teams Up With BlackRock To Bring Bitcoin Exposure To Annuities Blockchain News 2026-01-21 01:05:14 ,&nbsp; by Shalini Nagarajan New ChatGPT Predicts the Price of XRP, Bitcoin and Dogecoin By the End of 2026 Price Analysis 2026-01-20 22:30:00 ,&nbsp; by Tim Hakki Deep Dives Features Bitcoin Price Risks a Drop Below $88,000 by Olga Primakova Features EU&#8217;s DAC8 Crypto Tax Law Is Now in Force. What It Means for You by Jeffrey Gogo Features Can Monero Do Better Than Zcash as Privacy Coins Return? by Olga Primakova Opinions DAT Companies and Sovereign Reserves Are Rewriting Bitcoin&#8217;s Future by Fakhul Miah Opinions AI Amnesia Exposes the Blockchain&#8217;s Next Frontier by Jawad Ashraf Short Stories Backers Seek Refunds as Trove Abandons Hyperliquid Integration for Solana By polina Indian Security Agencies Flag ‘Crypto Hawala’ Network for Terror Funding in Kashmir By polina $875 Million Wiped Out as Trump’s Europe Tariffs Trigger Crypto Crash By polina New York Prosecutor Pushes to Criminalize Unlicensed Crypto Operations By polina China’s Digital Yuan Architect Accused of $8M Crypto Bribery Scheme By polina Bank of America CEO Warns $6T in Deposits Could Flow into Stablecoins By polina UK Backbenchers Committee Calls for Outright Ban on Crypto Political Donations By polina Coinbase Threatens to Pull Backing for Senate Crypto Bill By polina Barclays Makes First Stablecoin Investment With Stake In Ubyx By polina 2026 Elections Could Stall Major US Crypto Legislation, Investment Bank Warns By polina Tether Pushes Tokenized Gold Toward Payments With Scudo Rollout By polina Crypto.com Hires Internal Market Maker for Predictions By polina Logan Paul Agrees to Sell Record-Breaking $5.3M Pokémon Card at Auction By polina Coinbase Sues Michigan, Illinois, and Connecticut Over Prediction Market Regulation By polina Bank of Japan Hikes Rates to 30-Year High as Yen Weakens By polina PIKAMOON NEW 100X Potential Play to Earn Crypto?!! (Best Crypto to Buy Now?!) Alex Moreno --> Cryptonews Reports $5,000 Ethereum Price Looks Unlikely This Cycle, Experts Say Is Bitcoin Price at Risk of a Deeper Reset? Whales Signal Caution | Research What Awaits Bitcoin Price in 2026? Analysts See ‘Mixed’ Signals When Bitcoin Crashed, Trump-Crypto Reddit Went Red Too | Research Bitcoin 2025 Crash: Why It Looks Different from 2022 ASTER vs HYPE: How CZ’s DEX Token Became a Whale Magnet | Research Ethereum Price Winter Dilemma: $7,000 or $2,400? Experts Are Split Will Bitcoin Price Get a Christmas Rally? Experts Bet on Early 2026 Cryptonews in numbers Authors List + 66 More 2M+ Active Monthly Users Around the World 250+ Guides and Reviews Articles 8 Years on the Market 70 International Team Authors Get dialed in every Tuesday &#038; Friday with quick updates on the world of crypto"
+          },
+          {
+            "tag": "p",
+            "text": "Crypto Investing and Trading 41 Articles Crypto Fundamentals 55 Articles DeFi (Decentralized Finance) 9 Articles Security and Risk Management 12 Articles Show All Crypto Fundamentals Is Your Crypto Safe? Guide to Securing Your Cryptocurrency Beginner 53 min Crypto Fundamentals What Is the Fear and Greed Index in Crypto and How to Use It? Beginner 4 min Crypto Investing and Trading Introduction to Swing Trading in Crypto Beginner 30 min Crypto Fundamentals Types of Cryptocurrency Explained: Coins, Tokens, and Networks Beginner 15 min Blockchain Technology Ethereum Pectra Upgrade Explained: A Beginner&#8217;s Guide Beginner 6 min Selected Articles Cryptocurrency Crypto Price Predictions Crypto Exchanges Guides, explainers, analyses and product comparisons from the world of crypto. Best No KYC Crypto Casinos – Top Anonymous Casinos 2026-01-19 09:03:46 ,by Mark Hoover Hottest New Crypto Coins 2025-12-10 08:48:52 ,by Ines S. Tavares Best Crypto Wallets &#8211; Fully Tested &amp; Verified 2026-01-16 12:23:22 ,by Tsvetomir Koychev Best Crypto to Buy Now – Top Crypto to Invest In 2026-01-20 15:34:46 ,by Alan Draper Best Crypto Presales to Invest In Now – Upcoming Token Sales 2026-01-19 15:56:28 ,by Ihssan El Medkouri Best Crypto Casinos &#8211; Top-Rated Crypto Casinos 2026-01-19 08:16:41 ,by Mark Hoover Latest Podcasts Irina Chuchkina on Wallet in Telegram, Super-Apps, and Why Finance Is Moving Into Messaging | Ep. 508 13.01.2026, 01:49 PM Carlos Lei on Uplink, Mesh Networks, and Why DePIN Could Break the Connectivity Bottleneck in 2026 | Ep. 507 10.01.2026, 01:26 PM Marco Santori on Solmate, Solana’s Infrastructure Flywheel, and Why the UAE Matters | Ep. 506 04.01.2026, 01:18 PM Kyle Okamoto on GPUs, Decentralized Compute, and Why Compute Is Becoming an Asset Class | Ep. 505 31.12.2025, 01:13 PM Austin King on Perp DEXs, Funding Rate Arbitrage, and Why Crypto Is Becoming More Rational | Ep. 503 25.12.2025, 01:05 PM Rich Rines, Contributor to Core DAO, on Bitcoin DeFi, The Institutionalization of BTC, and Liquid Staking Bitcoin | Ep. 457 18.07.2025, 12:11 PM Ninad Naik, Co-founder of Mira Network, on Decentralized Verification Layers, The Current State of AI, and Autonomous AI Systems | Ep. 456 15.07.2025, 09:55 AM Kevin Boon, President of Mysten Labs, on SUI, Walrus, Programmatic Storage, and Co-Creating with Brands | Ep. 453 04.07.2025, 09:48 AM Press Releases Finding Stability Amidst the Turbulence: BJMINING Keeps Your Crypto Assets Running 24/7 Stop Speculating in Crypto &#8211; Here Is One Smart Way To Jump on The Bandwagon From Panic to Opportunity: Why BC DEFI Is Suddenly on Every Crypto Investor’s Radar The Smartest Crypto People in 2025: Even DOGE and XRP No Longer Rely on Luck and Waiting OPTO Miner Enables Stability Amidst Volatility By Keeping Your Crypto Assets Running For You Without Sleep XRP ETF Bull Run Countdown: How to Gain Fresh Opportunities Daily with Arc Miner BTC, XRP, and DOGE Plummet, While BNB Surges: Investors Flock to IOTA Miner Cloud Mining Tariff Issues Caused a Collective Plunge in Cryptocurrencies, And Investors Joined Invro Mining in Search of Stable Opportunities Altcoin News Winklevoss Brothers Donate $1.2M ZEC to Shielded Labs to Support Zcash Network Sujha Sundararajan, Glassnode Flags XRP Structure Matching Feb 2022 Pre-Crash Setup David Pokima, Trump Media Sets Feb. 2 Deadline For Rewards Token – But There’s a Catch for DJT Holders Hassan Shittu, WLFI Backlash as 9 ‘Team Wallets’ Swing 59% Vote on USD1 Growth Proposal Hassan Shittu, More from Altcoin News&nbsp;&nbsp; Bitcoin News Bitcoin Falls Below $95K, But ETF Demand Just Hit Statistical Extremes – Are Whales Loading Up Again? Anas Hassan, Billionaire Michael Saylor&#8217;s Strategy Buys 22,305 Bitcoin for $2 Billion – Is Something Big Coming? Tanzeel Akhtar, Why Is Crypto Down Today? – January 20, 2026 Sead Fadilpašić, New Bitcoin Buyers Have Lost Money for 2 Months Straight, Data Shows Anas Hassan, More from Bitcoin News&nbsp;&nbsp; Price Analysis XRP Price Prediction: Ripple Is Now Aligned With U.S. Lawmakers – Is This the Moment XRP Becomes Unstoppable? Alejandro Arrieche, Dogecoin Price Prediction: Chart Signals DOGE Could Outrun Bitcoin – Is the Meme King About to Flip BTC Again? Harvey Hunter, Bitcoin Price Prediction: BTC Slips Below $90K as Gold Ratio Hits 4-Year Low – Catch-Up Rally Next? Anas Hassan, New ChatGPT Predicts the Price of XRP, Bitcoin and Dogecoin By the End of 2026 Tim Hakki, More from Price Analysis&nbsp;&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "Get dialed in every Tuesday & Friday with quick updates on the world of crypto"
+          },
+          {
+            "tag": "p",
+            "text": "The information on this website is for educational purposes only, and investing carries risks. Always do your research before investing, and be prepared for potential losses."
+          },
+          {
+            "tag": "p",
+            "text": "18+ and Gambling: Online gambling rules vary by country; please follow them. This website provides entertainment content, and using it means you accept out terms. We may include partnership links, but they don't affect our ratings or recommendations."
+          },
+          {
+            "tag": "p",
+            "text": "Crypto promotions on this site do not comply with the UK Financial Promotions Regime and are not intended for UK consumers."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 104,
+          "headings": 12,
+          "images": 76
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D2B4D3B2",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "All",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C94392B0",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-160A984D",
+      "path": "/news/bitcoin-news/",
+      "type": "Detected Link",
+      "anchor_text": "Bitcoin News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6253DB96",
+      "path": "/news/altcoin-news/",
+      "type": "Detected Link",
+      "anchor_text": "Altcoin News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9137624D",
+      "path": "/news/ethereum-news/",
+      "type": "Detected Link",
+      "anchor_text": "Ethereum News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-775E167C",
+      "path": "/news/blockchain-news/",
+      "type": "Detected Link",
+      "anchor_text": "Blockchain News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C4B8C5C",
+      "path": "/news/defi-news/",
+      "type": "Detected Link",
+      "anchor_text": "DeFi News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2B7014B4",
+      "path": "/news/nft-news/",
+      "type": "Detected Link",
+      "anchor_text": "NFT News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-93021193",
+      "path": "/exclusives/",
+      "type": "Detected Link",
+      "anchor_text": "Exclusives",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E32AE638",
+      "path": "/exclusives/features/",
+      "type": "Detected Link",
+      "anchor_text": "Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C16D4811",
+      "path": "/exclusives/opinions/",
+      "type": "Detected Link",
+      "anchor_text": "Opinions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34CB3673",
+      "path": "/press-releases/",
+      "type": "Detected Link",
+      "anchor_text": "Press Releases",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5AE9384B",
+      "path": "/news/sponsored/",
+      "type": "Detected Link",
+      "anchor_text": "Sponsored",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1A323F0",
+      "path": "/cryptocurrency/",
+      "type": "Detected Link",
+      "anchor_text": "Cryptocurrency",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B04F87CD",
+      "path": "/academy/",
+      "type": "Detected Link",
+      "anchor_text": "Academy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,306 @@
+{
+  "website_blueprint_id": "BLUEPRINT-270B1AE9",
+  "generated_at": "2026-01-21T07:27:05.511Z",
+  "global_configuration": {
+    "brand_name": "World History Matters » A Portal to World History Sites from the Center for History and New Media",
+    "domain": "worldhistorymatters.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "129.174.134.73",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 15,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/j/fixLogoPng.js",
+        "type": "script",
+        "full_url": "https://worldhistorymatters.org/j/fixLogoPng.js"
+      },
+      {
+        "path": "/c/screen.css",
+        "type": "stylesheet",
+        "full_url": "https://worldhistorymatters.org/c/screen.css"
+      },
+      {
+        "path": "/i/WHM-logo.gif",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/WHM-logo.gif"
+      },
+      {
+        "path": "/i/prize-badge2.gif",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/prize-badge2.gif"
+      },
+      {
+        "path": "/i/project-images/projart_worldhistorycommons.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_worldhistorycommons.png"
+      },
+      {
+        "path": "/i/project-images/amboynathumb.jpg",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/amboynathumb.jpg"
+      },
+      {
+        "path": "/i/project-images/projart_cyh.jpg",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_cyh.jpg"
+      },
+      {
+        "path": "/i/project-images/projart_gulag.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_gulag.png"
+      },
+      {
+        "path": "/i/project-images/LEF_logo.jpg",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/LEF_logo.jpg"
+      },
+      {
+        "path": "/i/project-images/projart_maritimeasia.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_maritimeasia.png"
+      },
+      {
+        "path": "/i/project-images/projart_imaging.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_imaging.png"
+      },
+      {
+        "path": "/i/project-images/projart_1989.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_1989.png"
+      },
+      {
+        "path": "/i/project-images/projart_wwh.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_wwh.png"
+      },
+      {
+        "path": "/i/project-images/projart_worldhistorysources.png",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/project-images/projart_worldhistorysources.png"
+      },
+      {
+        "path": "/i/chnm-logo-small.gif",
+        "type": "image",
+        "full_url": "https://worldhistorymatters.org/i/chnm-logo-small.gif"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "World History Matters » A Portal to World History Sites from the Center for History and New Media",
+        "description": "",
+        "canonical": "https://worldhistorymatters.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9726ms"
+        },
+        {
+          "resource": "fixLogoPng.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "screen.css",
+          "latency": "pending"
+        },
+        {
+          "resource": "WHM-logo.gif",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "World History Commons",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Amboyna Conspiracy Trial",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Children and Youth in History",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "World History Matters is a portal to world history websites developed by the Center for History and New Media"
+          },
+          {
+            "tag": "h2",
+            "text": "World History Commons"
+          },
+          {
+            "tag": "p",
+            "text": "This is an open education resource with peer-reviewed content for world and global history teachers, scholars, and students. It combines content from most of the websites listed in World History Matters."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Amboyna Conspiracy Trial"
+          },
+          {
+            "tag": "p",
+            "text": "Examine a famous 17th-century conspiracy trial involving Japanese mercenaries, Dutch officials and English merchants. Designed for teachers and students interested in European empire, the place of Japan in global history, and the politics of torture and waterboarding."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Children and Youth in History"
+          },
+          {
+            "tag": "p",
+            "text": "Explore the history of children and youth through primary sources, website reviews, teaching modules, and case studies."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Gulag: Many Days, Many Lives"
+          },
+          {
+            "tag": "p",
+            "text": "An online exhibit that immerses viewers in the varied experiences of gulag prisoners."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Liberty, Equality, Fraternity: Exploring the French Revolution"
+          },
+          {
+            "tag": "p",
+            "text": "This site offers a lively introduction to the French Revolution with an extraordinary archive of documentary evidence."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Maritime Asia"
+          },
+          {
+            "tag": "p",
+            "text": "This site explores the fierce rivalry between the Dutch East India Company and the Zheng maritime network as they fought for control over key trades and sea routes."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Imaging the French Revolution"
+          },
+          {
+            "tag": "p",
+            "text": "In essays, seven scholars analyze forty-two images of crowds and crowd violence in the French Revolution."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Making the History of 1989"
+          },
+          {
+            "tag": "p",
+            "text": "Explore the fall of Communism in Eastern Europe through essays, primary sources, and case studies."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "Women in World History"
+          },
+          {
+            "tag": "p",
+            "text": "An online curriculum resource center designed to help high school and college teachers and students analyze online primary sources."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "h2",
+            "text": "World History Sources"
+          },
+          {
+            "tag": "p",
+            "text": "A resource center designed to help high school and college world history teachers and students locate, analyze, and learn from online primary sources and further their understanding of the complex nature of world history issues."
+          },
+          {
+            "tag": "p",
+            "text": "Visit the Site"
+          },
+          {
+            "tag": "p",
+            "text": "&copy; 1996&ndash; document.write(new Date().getFullYear()) , Roy Rosenzweig Center for History and New Media."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 22,
+          "headings": 10,
+          "images": 13
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-220D3D6B",
+      "path": "/index.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

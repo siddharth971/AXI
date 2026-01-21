@@ -1,0 +1,324 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BE9BC2CB",
+  "generated_at": "2026-01-21T07:26:54.235Z",
+  "global_configuration": {
+    "brand_name": "Hackr.io",
+    "domain": "hackr.io",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "18.188.4.88",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx/1.27.2"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, private",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx/1.27.2"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 8,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/dist/pages/home/dist/assets/index-DhLqH_2R.js",
+        "type": "script",
+        "full_url": "https://hackr.io/dist/pages/home/dist/assets/index-DhLqH_2R.js?ver=3.0.0"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-37XZ75KZ88"
+      },
+      {
+        "path": "/product-loader-code/ddca2edb-65df-45a8-bd9d-51a8cadcc73a.js",
+        "type": "script",
+        "full_url": "https://product.instiengage.com/product-loader-code/ddca2edb-65df-45a8-bd9d-51a8cadcc73a.js"
+      },
+      {
+        "path": "/build/assets/navbar.cddcf7ae.js",
+        "type": "script",
+        "full_url": "https://hackr.io/build/assets/navbar.cddcf7ae.js"
+      },
+      {
+        "path": "/dist/pages/home/dist/assets/index-DwAqgT_Y.css",
+        "type": "stylesheet",
+        "full_url": "https://hackr.io/dist/pages/home/dist/assets/index-DwAqgT_Y.css?ver=3.0.0"
+      },
+      {
+        "path": "/build/assets/app.ab10428c.css",
+        "type": "stylesheet",
+        "full_url": "https://hackr.io/build/assets/app.ab10428c.css"
+      },
+      {
+        "path": "/tr",
+        "type": "image",
+        "full_url": "https://www.facebook.com/tr?id=4595173530578511&ev=PageView&noscript=1"
+      },
+      {
+        "path": "/watch/87588488",
+        "type": "image",
+        "full_url": "https://mc.yandex.ru/watch/87588488"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Hackr.io | Ultimate Tech Learning Hub",
+        "description": "Hackr.io – Your Ultimate Tech Learning Hub | Master coding with step-by-step tutorials, AI-powered mentors, and a personal dashboard. Explore expert-led project walkthroughs and tech guides. Practice with online code editors, prep with an AI interviewer, and explore top-rated learning resources. Stay ahead with our blog, YouTube channel, and weekly newsletter.",
+        "canonical": "https://hackr.io"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3777ms"
+        },
+        {
+          "resource": "index-DhLqH_2R.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "ddca2edb-65df-45a8-bd9d-51a8cadcc73a.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Catalog Courses Projects Technologies Blog User-Submitted Resources Beginner Courses Intermediate Courses Topics See All Courses Python Web Development Data Analysis Project Topics See All Projects Python HTML JavaScript Java C++ React PHP Arduino Popular Technologies Python HTML JavaScript Linux Docker Crypto Popular Articles See All Articles Python Project Ideas Best Online Learning Platforms Top Coding Apps Best VSCode Extensions for Developers Java Project Ideas Top VSCode Themes Best Linux Distros for Programming Top AI Coding Assistants React Project Ideas Best Python IDEs Compared Top Python Certifications HTML Project Ideas Top PHP Projects for Practice Best Languages for Game Development Best JavaScript Frameworks C++ Projects to Build Skills Top Web Development Frameworks Unity vs Unreal: Which Game Engine? Best Linux Certifications How to Build a Crypto Mining Rig Topics See All Python HTML JavaScript Linux Data Structures &amp; Algos C++ React Java AI Beginner Courses Python with Dr. Johns Learn HTML in 1 Hour Intermediate Courses Build a Python Data Pipeline Python Python with Dr. Johns Build a Python Data Pipeline Web Development Learn HTML in 1 Hour Data Analysis Build a Python Data Pipeline Python Popular Projects See All Python File Organizer Python Unit Converter Python QR Code Generator Python Image Editor App Python PDF Merger App Python URL Shortener Python Error Notification App Python Hangman Game Python Tic Tac Toe Game Python Blackjack Game Python Pac-Man Game Python Pong Arcade Game Python Speed Typing Test Send Emails with Gmail in Python Python Password Generator Python Website Connectivity Checker Python Network Speed Test App Python Secure File Eraser Python File Encryption Tool Python Mad Libs Generator Python Number Guessing Game Python Rock, Paper, Scissors Game Python Dice Roll Simulator Python Calculator App Python Password Strength Checker Python Countdown Timer Python Number to Words Converter Python Fibonacci Sequence Generator HTML Popular Projects See All HTML Personal Bio Page Animated Business Card Recipe Page in HTML Interactive Photo Gallery Product Landing Page Professional Portfolio Page Interactive Quiz App (HTML) Interactive Event Page (HTML) Music Player App (HTML) Weather Forecast App (HTML) JavaScript Popular Projects See All Tic Tac Toe Game (JavaScript) To-Do List App (JavaScript) Drum Kit (JavaScript) Calculator App (JavaScript) Quiz App (JavaScript) Rock Paper Scissors Game (JavaScript) Countdown Timer (JavaScript) Java Popular Projects See All Chat App (Java) Chess Game (Java) Email Client App (Java) C++ Popular Projects See All Hello World (C++) Calculator App (C++) Number Guessing Game (C++) To-Do List App (C++) Temperature Converter App (C++) Bank Management System (C++) Tic-Tac-Toe Game (C++) Contact Book App (C++) File Encryption App (C++) Chat Application (C++) React Popular Projects See All 14 React Projects PHP Popular Projects See All 13 PHP Projects Arduino Popular Projects See All 30 Arduino Projects Python Courses Python with Dr. Johns Build a Python Data Pipeline Articles Python Project Ideas Best Python IDEs Top Python Certifications Best Python Books Best Python Libraries Intro to Tkinter in Python GUI Development with PyQt Using sleep() in Python Forgotten Python Commands Common Python Loop Mistakes Understanding Python for Loops Python abs() Function String Concatenation in Python The assert Statement in Python Simulating Do-While Loops in Python The split() Method in Python Regex in Python Working with Lists in Python Understanding Python Sets Using f-Strings in Python Python Number Formatting Lambda Functions in Python The while Loop in Python Python range() Function OOP Concepts in Python Writing Comments in Python try-except in Python The random Module in Python The pass Statement in Python How to Define Functions in Python Python enumerate() Function Working with JSON in Python Sorting in Python HTML Courses Learn HTML in 1 Hour Articles HTML Project Ideas Best HTML &amp; CSS Books for Beginners Top HTML Certifications Best CSS Frameworks How to Change Text Color in HTML Understanding the &lt;!DOCTYPE&gt; Declaration How to Use the &lt;span&gt; Tag in HTML How to Use the &lt;iframe&gt; Tag in HTML How to Use the &lt;img&gt; Tag in HTML How to Use the &lt;button&gt; Tag in HTML How to Set Background Color in HTML Creating Links and Hyperlinks in HTML How to Add Comments in HTML JavaScript Courses Recommended JavaScript Courses Articles JavaScript Project Ideas Best JavaScript Frameworks Top JavaScript Books Top JavaScript Libraries Linux Courses Recommended Linux Courses Articles Best Linux Distro for Programming Best Linux Certifications How to Master Linux Basic Linux Commands Dangerous Linux Commands Fun Linux Easter Eggs Customize Your Linux Terminal Linux Commands for Troubleshooting Bad Habits to Avoid on Linux What is Kali Linux? Linux Networking Commands How Linux Commands Work Build Linux from Scratch Linux Superuser Commands Guide History of Linux Commands Why Users Love Gentoo Linux The Linux &#039;finger&#039; Command Explained How to Create Linux Commands Pointless Linux Commands Linux Command Line Hacks Misunderstood Linux Commands Linux Commands to Work Faster Linux Commands That Shaped the Terminal Weirdest Linux Moments The Journey from Unix to Linux Docker Courses Recommended Docker Courses Articles Best Docker Certifications Docker Commands Everyone Gets Wrong How to SSH Into a Docker Container What is Docker Compose? Crypto Courses Recommended Crypto Courses Recommended Blockchain Courses Recommended NFT Courses Articles What is Cryptocurrency? Top Blockchain Certifications Best GPUs for Crypto Mining Best Books on Cryptocurrency What is Web3? Top Blockchain Books to Read How to Build a Crypto Mining Rig Best Mining Motherboards Top Dogecoin Wallets How to Mine Bitcoin What is Bitcoin Mining? Best Crypto Tax Software Best Ethereum Wallets Top Cryptocurrency Wallets What is Solana? What is Dogwifhat? Need some guidance? Try our AI Assistant! Resources Projects Blog Code Alongs Cheat Sheets User-Submitted Resources Code Editors AI Tools Projects See All Projects Python File Organizer Python Unit Converter Python QR Code Generator Python Image Editor App Python PDF Merger App Python URL Shortener Python Error Notification App Python Hangman Game Python Tic Tac Toe Game Python Blackjack Game Python Pac-Man Game Python Pong Arcade Game Python Speed Typing Test Send Emails with Gmail in Python Python Password Generator Python Website Connectivity Checker Python Network Speed Test App Python Secure File Eraser Python File Encryption Tool Python Mad Libs Generator Python Number Guessing Game Python Rock, Paper, Scissors Game Python Dice Roll Simulator Python Calculator App Python Password Strength Checker Python Countdown Timer Python Number to Words Converter Python Fibonacci Sequence Generator HTML Personal Bio Page Animated Business Card Recipe Page in HTML Interactive Photo Gallery Product Landing Page Professional Portfolio Page Interactive Quiz App (HTML) Interactive Event Page (HTML) Music Player App (HTML) Weather Forecast App (HTML) Tic Tac Toe Game (JavaScript) To-Do List App (JavaScript) Drum Kit (JavaScript) Calculator App (JavaScript) Quiz App (JavaScript) Rock Paper Scissors Game (JavaScript) Countdown Timer (JavaScript) Chat App (Java) Chess Game (Java) Email Client App (Java) Hello World (C++) Calculator App (C++) Number Guessing Game (C++) To-Do List App (C++) Temperature Converter App (C++) Bank Management System (C++) Tic-Tac-Toe Game (C++) Contact Book App (C++) File Encryption App (C++) Chat Application (C++) Blog See All Blog Articles Python Project Ideas Best Online Learning Platforms Top Coding Apps Best VSCode Extensions for Developers Java Project Ideas Top VSCode Themes Best Linux Distros for Programming Top AI Coding Assistants React Project Ideas Best Python IDEs Compared Top Python Certifications HTML Project Ideas Top PHP Projects for Practice Best Languages for Game Development Best JavaScript Frameworks C++ Projects to Build Skills Top Web Development Frameworks Unity vs Unreal: Which Game Engine? Best Linux Certifications How to Build a Crypto Mining Rig Code Alongs Python File Organizer Python Unit Converter Python QR Code Generator Python Image Editor App Python PDF Merger App Python URL Shortener Python Error Notification App Cheat Sheets See All Cheat Sheets C++ Cheat Sheet Java Cheat Sheet Big-O Notation Cheat Sheet Python Cheat Sheet SQL Cheat Sheet Windows CLI Cheat Sheet C# Cheat Sheet Excel Cheat Sheet User-Submitted Resources See All User Resources Python HTML JavaScript Linux C++ React Java AI Code Editors See All Editors Python Editor (IDE) HTML Editor (IDE) JavaScript Editor (IDE) Hackr.io VSCode Theme AI Tools See All AI Tools Mentor AI Interviewer Need some guidance? Try our AI Assistant! Pricing Plans Students Dashboard Premium For Students Log in Get Started Catalog Courses Projects Blog User-Submitted Resources Resources Projects Blog Cheat Sheets User-Submitted Resources Python Editors HTML Editors JavaScript Editors Mentor AI Interviewer Pricing Plans Students Dashboard Premium For Students Log in Get Started Forgot your password?"
+          },
+          {
+            "tag": "p",
+            "text": "By continuing, you agree to our Terms of Use and Privacy Policy ."
+          },
+          {
+            "tag": "p",
+            "text": "Already have an account? Login"
+          },
+          {
+            "tag": "p",
+            "text": "Go back to Sign In"
+          },
+          {
+            "tag": "h4",
+            "text": "Catalog"
+          },
+          {
+            "tag": "h4",
+            "text": "Resources"
+          },
+          {
+            "tag": "h4",
+            "text": "Pricing"
+          },
+          {
+            "tag": "h4",
+            "text": "Account"
+          },
+          {
+            "tag": "h4",
+            "text": "Company"
+          },
+          {
+            "tag": "h4",
+            "text": "Support"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 48,
+          "headings": 59,
+          "images": 2
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-CB3C8168",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0BAD1C0B",
+      "path": "/courses",
+      "type": "Detected Link",
+      "anchor_text": "See All Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0DD7CDAF",
+      "path": "/blog/category/projects",
+      "type": "Detected Link",
+      "anchor_text": "See All Projects",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1E5C3957",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "See All Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C3C7DF50",
+      "path": "/blog/python-projects",
+      "type": "Detected Link",
+      "anchor_text": "Python Project Ideas",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B2DBAC13",
+      "path": "/blog/best-online-learning-platforms",
+      "type": "Detected Link",
+      "anchor_text": "Best Online Learning Platforms",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-94D4BEF6",
+      "path": "/blog/best-coding-apps",
+      "type": "Detected Link",
+      "anchor_text": "Top Coding Apps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-70CCE258",
+      "path": "/blog/best-vscode-extensions",
+      "type": "Detected Link",
+      "anchor_text": "Best VSCode Extensions for Developers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D006007",
+      "path": "/blog/java-projects",
+      "type": "Detected Link",
+      "anchor_text": "Java Project Ideas",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FA84ACDA",
+      "path": "/blog/best-vscode-themes",
+      "type": "Detected Link",
+      "anchor_text": "Top VSCode Themes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-93391387",
+      "path": "/blog/best-linux-distro-for-programming",
+      "type": "Detected Link",
+      "anchor_text": "Best Linux Distros for Programming",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C7198F51",
+      "path": "/blog/ai-coding-assistants",
+      "type": "Detected Link",
+      "anchor_text": "Top AI Coding Assistants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99F3FE97",
+      "path": "/blog/react-projects",
+      "type": "Detected Link",
+      "anchor_text": "React Project Ideas",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-76C09806",
+      "path": "/blog/best-python-ide",
+      "type": "Detected Link",
+      "anchor_text": "Best Python IDEs Compared",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CA34BE98",
+      "path": "/blog/python-certification",
+      "type": "Detected Link",
+      "anchor_text": "Top Python Certifications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

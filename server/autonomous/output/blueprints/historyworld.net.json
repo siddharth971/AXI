@@ -1,0 +1,703 @@
+{
+  "website_blueprint_id": "BLUEPRINT-D92845A1",
+  "generated_at": "2026-01-21T07:27:12.112Z",
+  "global_configuration": {
+    "brand_name": "HistoryWorld",
+    "domain": "historyworld.net",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "13.42.252.4",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache/2.4.62 (Amazon Linux) OpenSSL/3.0.8"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, private",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache/2.4.62 (Amazon Linux) OpenSSL/3.0.8"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 54,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wordart.min.js",
+        "type": "script",
+        "full_url": "https://cdn.wordart.com/wordart.min.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=UA-370390-1"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-G365G47KXJ"
+      },
+      {
+        "path": "/js/historySearchModal.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/historySearchModal.js"
+      },
+      {
+        "path": "/assets/vendor/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/jquery/jquery.min.js"
+      },
+      {
+        "path": "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+      },
+      {
+        "path": "/assets/vendor/jquery.easing/jquery.easing.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/jquery.easing/jquery.easing.min.js"
+      },
+      {
+        "path": "/js/minify/validate.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/minify/validate.js"
+      },
+      {
+        "path": "/assets/vendor/waypoints/jquery.waypoints.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/waypoints/jquery.waypoints.min.js"
+      },
+      {
+        "path": "/assets/vendor/counterup/counterup.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/counterup/counterup.min.js"
+      },
+      {
+        "path": "/assets/vendor/owl.carousel/owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/owl.carousel/owl.carousel.min.js"
+      },
+      {
+        "path": "/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/isotope-layout/isotope.pkgd.min.js"
+      },
+      {
+        "path": "/assets/vendor/venobox/venobox.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/venobox/venobox.min.js"
+      },
+      {
+        "path": "/js/minify/aos.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/minify/aos.js"
+      },
+      {
+        "path": "/assets/vendor/typed.js/lib/typed.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/typed.js/lib/typed.min.js"
+      },
+      {
+        "path": "/assets/js/jquery.twbsPagination.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/js/jquery.twbsPagination.min.js"
+      },
+      {
+        "path": "/assets/js/luckmoshyJqueryPagnation.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/js/luckmoshyJqueryPagnation.js"
+      },
+      {
+        "path": "/assets/vendor/select2/js/select2.full.min.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/vendor/select2/js/select2.full.min.js"
+      },
+      {
+        "path": "/assets/js/bootstrap-datepicker.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/assets/js/bootstrap-datepicker.js"
+      },
+      {
+        "path": "/js/minify/treeStructure.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/minify/treeStructure.js"
+      },
+      {
+        "path": "/js/minify/main.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/minify/main.js"
+      },
+      {
+        "path": "/js/alphabeticalPagination.js",
+        "type": "script",
+        "full_url": "https://historyworld.net/js/alphabeticalPagination.js"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6806100451075168"
+      },
+      {
+        "path": "/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      },
+      {
+        "path": "/css/minify/hwico.css",
+        "type": "stylesheet",
+        "full_url": "https://historyworld.net/css/minify/hwico.css"
+      },
+      {
+        "path": "/css/minify/hwcss.css",
+        "type": "stylesheet",
+        "full_url": "https://historyworld.net/css/minify/hwcss.css"
+      },
+      {
+        "path": "/w3css/4/w3.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/w3css/4/w3.css"
+      },
+      {
+        "path": "/css/swiper.min.css",
+        "type": "stylesheet",
+        "full_url": "https://historyworld.net/css/swiper.min.css"
+      },
+      {
+        "path": "/favicon.svg",
+        "type": "image",
+        "full_url": "https://historyworld.net/favicon.svg"
+      },
+      {
+        "path": "/assets/img/histories.svg",
+        "type": "image",
+        "full_url": "https://historyworld.net/assets/img/histories.svg"
+      },
+      {
+        "path": "/assets/img/timelines.svg",
+        "type": "image",
+        "full_url": "https://historyworld.net/assets/img/timelines.svg"
+      },
+      {
+        "path": "/assets/img/HWhomelogo.png",
+        "type": "image",
+        "full_url": "https://historyworld.net/assets/img/HWhomelogo.png"
+      },
+      {
+        "path": "/EnochWashingtonxabv300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/EnochWashingtonxabv300.jpg"
+      },
+      {
+        "path": "/WaterlooMapxapb300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/WaterlooMapxapb300.jpg"
+      },
+      {
+        "path": "/VeniceStMarksxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/VeniceStMarksxabi300.jpg"
+      },
+      {
+        "path": "/AmsterdamCanalHousesxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/AmsterdamCanalHousesxabi300.jpg"
+      },
+      {
+        "path": "/EasterIslandHodgesxaca300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/EasterIslandHodgesxaca300.jpg"
+      },
+      {
+        "path": "/Persepolisxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/Persepolisxabi300.jpg"
+      },
+      {
+        "path": "/CookDancexaca300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/CookDancexaca300.jpg"
+      },
+      {
+        "path": "/KrakdesChevaliersxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/KrakdesChevaliersxabi300.jpg"
+      },
+      {
+        "path": "/MagnaCartaxapb300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/MagnaCartaxapb300.jpg"
+      },
+      {
+        "path": "/BecketCasketxace300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/BecketCasketxace300.jpg"
+      },
+      {
+        "path": "/LuxorRamsxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/LuxorRamsxabi300.jpg"
+      },
+      {
+        "path": "/BostonTeaParty300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/BostonTeaParty300.jpg"
+      },
+      {
+        "path": "/HastingsNemesis300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/HastingsNemesis300.jpg"
+      },
+      {
+        "path": "/CuzcoWallsxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/CuzcoWallsxabi300.jpg"
+      },
+      {
+        "path": "/VirginiaMapxapb300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/VirginiaMapxapb300.jpg"
+      },
+      {
+        "path": "/BathTerracexabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/BathTerracexabi300.jpg"
+      },
+      {
+        "path": "/AssyrainLionhuntxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/AssyrainLionhuntxabi300.jpg"
+      },
+      {
+        "path": "/SanMarcoFraAngelicoxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/SanMarcoFraAngelicoxabi300.jpg"
+      },
+      {
+        "path": "/PekingTempleHeavenxabi300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/PekingTempleHeavenxabi300.jpg"
+      },
+      {
+        "path": "/AdelaideAddress300.jpg",
+        "type": "image",
+        "full_url": "https://historyworld-images.s3.eu-west-2.amazonaws.com/AdelaideAddress300.jpg"
+      },
+      {
+        "path": "/assets/img/pagination-arrow-single.svg",
+        "type": "image",
+        "full_url": "https://historyworld.net/assets/img/pagination-arrow-single.svg"
+      },
+      {
+        "path": "/assets/img/pagination-arrow.svg",
+        "type": "image",
+        "full_url": "https://historyworld.net/assets/img/pagination-arrow.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "HistoryWorld - History and Timelines | Historyworld",
+        "description": "",
+        "canonical": "https://historyworld.net"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1053ms"
+        },
+        {
+          "resource": "wordart.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Timelines",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Make History Make Sense",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "You are using an outdated browser. Please upgrade your browser to improve your experience and security."
+          },
+          {
+            "tag": "h1",
+            "text": "Timelines"
+          },
+          {
+            "tag": "h2",
+            "text": "Make History Make Sense"
+          },
+          {
+            "tag": "p",
+            "text": "More than 1,000,000 words on world history in linked narratives"
+          },
+          {
+            "tag": "h3",
+            "text": "Search"
+          },
+          {
+            "tag": "p",
+            "text": "More than 10,000 events from world history to search for timelines"
+          },
+          {
+            "tag": "h3",
+            "text": "The emergence of parties"
+          },
+          {
+            "tag": "p",
+            "text": "The unanimous election of George Washington in 1789, receiving the vote of every single state elector, is repeated when he stands in 1792 for a second term. But this is the last occasion when there is any such consensus, and in 1796 he resists all pressure to stand for a third term. Instead, on September 19 of that year, he delivers an influential Farewell Address in which he outlines his vision for the nation's future. Party strife begins to emerge during Washington's first term, and ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Waterloo"
+          },
+          {
+            "tag": "p",
+            "text": "With about 124,000 men Napoleon advances towards Brussels, hoping to take a position between Wellington's and Bl&uuml;cher's armies - with the intention of containing or driving off one of them while defeating the other. The way north is blocked by Wellington at Quatre Bras. On June 16 Napoleon leaves marshal Ney to assault this position while he tackles Bl&uuml;cher a few miles to the east, at Ligny. The engagement at Quatre Bras is indecisive. But Napoleon wins convincingly at Ligny, causing the Prussians to retreat ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Rialto and St Mark&#039;s"
+          },
+          {
+            "tag": "p",
+            "text": "Early in the 9th century the government of the lagoon is transferred to two adjacent islands where the land is a little higher above water level, though in Venice the distinction is a fine one. To either side of the intervening waterway is a rivo alto ('high bank'), from the which the name Rialto derives. The Rialto bridge subsequently joins these two banks. The growing town needs status. In the Christian Middle Ages status requires a distinguished patron saint and, if possible, the possession of ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Dutch and English houses"
+          },
+          {
+            "tag": "p",
+            "text": "Dutch prosperity in the 17th century results in a very satisfying design of town house. Merchants are eager to have their homes and premises in the limited space fronting the canals of Dutch towns. With numerous middle-class competitors for the available land (as opposed to the small number of noblemen holding power and wealth in other areas of Europe), the typical Dutch town house, several stories high, has a narrow brick fa&ccedil;ade and generous areas of glass - made possible by the new design of ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Easter Island"
+          },
+          {
+            "tag": "p",
+            "text": "The famous statues on Easter Island are first described in 1722, the year in which the Dutch admiral Jacob Roggeveen visits and names the island on Easter Day. They must have been carved over a long period, for there are about 600 of them, between 10 and 20 feet high, with the largest weighing some 50 tons. They may have been created at any time between the first arrival of people on the island, probably in about500, and the visit of the Dutch in the ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Destruction of the Persian empire"
+          },
+          {
+            "tag": "p",
+            "text": "Within a mere eighteen months Alexander has cleared the Persians out of Anatolia, which they have held for two centuries. The conqueror now moves south along the coast through present-day Syria, Lebanon and Israel. The ports here are the home bases of the Persian fleet in the Mediterranean. By occupying them he intends to cripple the fleet and deprive it of contact with the cities of the empire, including Persepolis. Most of the Phoenician towns open their gates to him. The exception is the greatest ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Maori and the first Europeans"
+          },
+          {
+            "tag": "p",
+            "text": "New Zealand is the last major temperate region of the globe to be reached by humans. The indigenous people, the Maori, are believed to have arrived by about800. Their language is Polynesian, relating to the dialects of Tahiti and Hawaii. Their own legends describe their arrival in a great fleet of canoes from a land called Hawaiki.New Zealand is first visited by Europeans in 1642, when Abel Tasman makes a brief attempt to land - resulting in a clash with the Maori and several deaths. ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Medieval castles"
+          },
+          {
+            "tag": "p",
+            "text": "Where stone and time are available, it is clearly preferable to construct a castle of the stronger and non-combustible material. During the 12th century stone walls and towers become more common in European castles, together with more sophisticated forms of bastion and battlement. One influence is the Byzantine castle architecture seen by the crusaders on their way east. They soon create in the Holy Land magnificently impressive examples of their own - such as the great Krak des Chevaliers, largely built by the Knights of ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Magna Carta"
+          },
+          {
+            "tag": "p",
+            "text": "Having accepted the document under duress, John immediately sends a request to the pope (now his ally) to have it annulled. Innocent III obliges in August of this same year, 1215. The result is a renewal of the civil war. The king's death in 1216, followed by the succession of his 9-year-old son as Henry III, brings a pause during which more moderate council prevails. When Henry comes of age, in 1225, archbishop Stephen Langton persuades him to reissue Magna Carta in a slightly modified ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Archbishop and martyr"
+          },
+          {
+            "tag": "p",
+            "text": "Politically the murder of Becket loses Henry the wider argument about ecclesiastical control. In the mood following the assassination he has to concede, at any rate in the short term, all the points on which Becket was opposing him. But in other contexts Henry has notable successes. Within months of the murder, in the autumn of 1171, he travels through Wales and on into Ireland. In each he makes settlements greatly to the English advantage. In 1174 (after vigorously suppressing rebellions both in England and ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Descendants of Thutmose"
+          },
+          {
+            "tag": "p",
+            "text": "Like his predecessors, Thutmose III is a passionate builder, adding greatly to the splendours of Karnak. His great grandson Amenhotep III continues the tradition, diverting attention to the southern part of Thebes, at Luxor, where he begins the great temple to Amen-Re.During a century and a half Thutmose I and his descendants have done great honour to this traditional god of the pharaohs, the blend of Amen (the local god of Thebes) and the earlier sun god Re. But the status of the Theban god ..."
+          },
+          {
+            "tag": "h3",
+            "text": "A mood of rebellion"
+          },
+          {
+            "tag": "p",
+            "text": "During the years after the end of the French and Indian War there is mounting tension between Britain and her American colonies. The contentious issues are British taxes and the presence of British troops on American soil. Unrest centres particularly on the most radical of the colonial cities, Boston.In 1770 there is an incident in Boston of a kind familiar in northern Ireland two centuries later. An unruly crowd throws stones at the much resented troops. The soldiers open fire, killing five. The event becomes ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Amphibious war against Japan"
+          },
+          {
+            "tag": "p",
+            "text": "A significant step in the slow move north towards Japan is the US assault, in February 1944, of a strong naval base in the volcanic cluster of the Truk Islands. Eleven Japanese warships and more than 300 planes are destroyed here, in the first radar-guided night attack. After this it is clear that the next target must be the Marianas, a group of islands which the Japanese rightly regard as a crucial line of defence. From here US planes will be within bombing range of ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Inca architecture"
+          },
+          {
+            "tag": "p",
+            "text": "The Incas share with another much earlier civilization, that of Mycenaean Greece, a habit of building with massive blocks of masonry. But the precision of the Peruvian masons puts all others to shame. In their capital at Cuzco, or in subject cities where they wish to emphasize their presence, the Incas leave their trade mark in great slabs of stone, often of eccentric shape, fitting together with an uncanny and beautiful precision. The modern city of Cuzco has grown upon and around its Inca origins. ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Virginia"
+          },
+          {
+            "tag": "p",
+            "text": "John Smith is one of seven men appointed by the London company to serve on the colony's council. His energy, his resourcefulness and his skill in negotiating with the Indians soon establish him as the leader of the community. Smith soon becomes involved in a famously romantic scene (or so he claims many years later, in a book of 1624). He is captured by Indians and is about to be executed when Pocahontas, the 13-year-old daughter of the tribal chieftain, throws herself between victim and ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Dutch and English houses"
+          },
+          {
+            "tag": "p",
+            "text": "In 1689 a Dutch prince, William III, becomes king of England. His accession to the throne prompts a fashion for the Dutch style. England, like Holland, is rapidly becoming more prosperous. Streets of town houses are being built in London and many provincial towns, such as Bath. The English version of the Dutch house is more severe and classical, particularly when built in stone (as in Bath), but it has the same elegance deriving from a repeated vertical alignment and a generous display of sash ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Nineveh"
+          },
+          {
+            "tag": "p",
+            "text": "After nearly two centuries of Assyrian rule from Nimrud another spectacular capital city is created by Sennacherib, in about 700 BC, at Nineveh. His grandson, Ashburbanipal, builds a palace in the new city ornamented with superb carvings in relief. He also stocks his palace with the world's first great library (see Ashurbanipal's library). But Ashurbanipal's death, in 626, is close to Assyria's end. His grandfather's city lasts less than a century. Sennacherib has ruled Mespotamia with the customary Assyrian brutality. His treatment of his neighbours ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Fra Angelico and San Marco"
+          },
+          {
+            "tag": "p",
+            "text": "The Dominican order has among its ranks a superbly talented painter. As a friar he is referred to as 'brother' (frater in Latin, fratello in Italian), and the name by which he becomes known is Fra Angelico - the angelic brother. From 1443 Dominicans in Florence employ him to provide contemplative images for the walls of their convent of San Marco. Over the next four years he and his assistants create an extended masterpiece of Italian Renaissance art - though they would not have thought ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Chinese architectural tradition"
+          },
+          {
+            "tag": "p",
+            "text": "Minor improvements are introduced with the advance of technology. The colourful ceramic roof tiles of Chinese pavilions are an innovation in the Song dynasty in the 11th century. But in broad terms the civic buildings of China retain their appearance through the ages. A good example is the magnificent Temple of Heaven in Beijing. Its colours, frequently restored, are so fresh that the building looks new. But the structure dates from the early 15th century, in the Ming dynasty, and its appearance on its marble ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Jubilee Years"
+          },
+          {
+            "tag": "p",
+            "text": "Senior representatives of the colonies are naturally in London for the Jubilee, and the opportunity is taken to hold an assembly which can now be seen as the first in a long line of Imperial and Commonwealth conferences. Ten years later, for the Diamond Jubilee of 1897, the mood is even more ecstatic. 2500 beacons are lit on the nation's hills, four times as many as in 1887.The queen, driven in an open carriage through six miles of London streets, notes in her diary: 'The ..."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 23,
+          "headings": 23,
+          "images": 32
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D5E81E82",
+      "path": "/login",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-18064307",
+      "path": "/register",
+      "type": "Detected Link",
+      "anchor_text": "Register",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22E0AD7D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E579B0C",
+      "path": "/histories",
+      "type": "Detected Link",
+      "anchor_text": "Histories",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4273B13B",
+      "path": "/timelines",
+      "type": "Detected Link",
+      "anchor_text": "Timelines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F8716394",
+      "path": "/event-timelines",
+      "type": "Detected Link",
+      "anchor_text": "Search Timelines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AF767019",
+      "path": "/about_us",
+      "type": "Detected Link",
+      "anchor_text": "About us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2FB9BE1E",
+      "path": "/attribution_copyright",
+      "type": "Detected Link",
+      "anchor_text": "Attribution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-00CEB8F0",
+      "path": "/cookie_policy",
+      "type": "Detected Link",
+      "anchor_text": "Cookies &amp; Privacy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-95573CC7",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA31A848",
+      "path": "/history/united-states-of-america/678",
+      "type": "Detected Link",
+      "anchor_text": "Read More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-53013C52",
+      "path": "/history/napoleonic-wars-1803-1815/468",
+      "type": "Detected Link",
+      "anchor_text": "Read More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FB0F5A00",
+      "path": "/history/venice/609",
+      "type": "Detected Link",
+      "anchor_text": "Read More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-12C94A99",
+      "path": "/history/architecture/154",
+      "type": "Detected Link",
+      "anchor_text": "Read More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C00C732",
+      "path": "/history/primitive-art-the-magic-eye/127",
+      "type": "Detected Link",
+      "anchor_text": "Read More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,684 @@
+{
+  "website_blueprint_id": "BLUEPRINT-10D096F3",
+  "generated_at": "2026-01-21T07:27:13.131Z",
+  "global_configuration": {
+    "brand_name": "Security Hyperautomation Solutions",
+    "domain": "torq.io",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.21",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "frame-ancestors 'self' https://torq.gtmbuddy.io/ https://content.torq.io/",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 51,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/marketing.js",
+        "type": "script",
+        "full_url": "https://js.chilipiper.com/marketing.js"
+      },
+      {
+        "path": "/forms/v2.js",
+        "type": "script",
+        "full_url": "https://js.hsforms.net/forms/v2.js"
+      },
+      {
+        "path": "/wp-content/themes/elxr/js/navigation.min.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-content/themes/elxr/js/navigation.min.js?ver=1.7.53"
+      },
+      {
+        "path": "/wp-content/themes/elxr/js/aos.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-content/themes/elxr/js/aos.js?ver=1.7.53"
+      },
+      {
+        "path": "/wp-content/themes/elxr/js/lottie.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-content/themes/elxr/js/lottie.js?ver=1.7.53"
+      },
+      {
+        "path": "/npm/gsap@3.12.7/dist/gsap.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js?ver=6.8.3"
+      },
+      {
+        "path": "/npm/gsap@3.12.7/dist/ScrollTrigger.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/themes/elxr/dist/scripts/elxr.min.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-content/themes/elxr/dist/scripts/elxr.min.js?ver=1.7.53"
+      },
+      {
+        "path": "/wp-content/themes/elxr/js/loadmore.js",
+        "type": "script",
+        "full_url": "https://torq.io/wp-content/themes/elxr/js/loadmore.js?ver=1.7.53"
+      },
+      {
+        "path": "/mhz4nei.css",
+        "type": "stylesheet",
+        "full_url": "https://use.typekit.net/mhz4nei.css"
+      },
+      {
+        "path": "/agy6vou.css",
+        "type": "stylesheet",
+        "full_url": "https://use.typekit.net/agy6vou.css"
+      },
+      {
+        "path": "/dhy0mno.css",
+        "type": "stylesheet",
+        "full_url": "https://use.typekit.net/dhy0mno.css"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/03/Logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/gigaom-nav-ad.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/10/gigaom-nav-ad.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/torq-store-nav-ad.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/08/torq-store-nav-ad.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/ai-or-die-nav-ad.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2024/11/ai-or-die-nav-ad.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/valvoline-ad.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/07/valvoline-ad.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/bloomberg-logo.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2026/01/bloomberg-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/torq-blue-flames.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/06/torq-blue-flames.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/abnormal-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/04/abnormal-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/blackstone-logo-inverted.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2024/04/blackstone-logo-inverted.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/carvana-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/11/carvana-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Check-Point.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/07/Check-Point.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/chipotle-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/09/chipotle-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/hard-rock-cafe-logo-updated.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/01/hard-rock-cafe-logo-updated.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/hashicorp-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/04/hashicorp-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/optiv-logo.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2024/04/optiv-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/pepsico-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2024/09/pepsico-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/scotts-logo-black.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/05/scotts-logo-black.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/telefonica-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/11/telefonica-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/virgin-atlantic-logo-black.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/09/virgin-atlantic-logo-black.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/valvoline-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/01/valvoline-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/wiz.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/11/wiz.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/zara-logo.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2024/09/zara-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/idc-logo.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/09/idc-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/homepage-hypsersoc.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/06/homepage-hypsersoc.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/agent-scroll-animation.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/01/agent-scroll-animation.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/hyperautomation-loop.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/01/hyperautomation-loop.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/official-sponsor-monster-jam.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/02/official-sponsor-monster-jam.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/torq-nightmare-loop.jpg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/09/torq-nightmare-loop.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/wiz-session-ampd.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/10/wiz-session-ampd.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/security-badges-footer.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/04/security-badges-footer.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Torq-Logo-Black.svg",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2023/04/Torq-Logo-Black.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png",
+        "type": "image",
+        "full_url": "https://torq.io/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Security Hyperautomation Solutions | Torq®",
+        "description": "Torq&#039;s® security hyperautomation, a scalable no-code solution for enterprise security. Experience 10X faster ROI with a real SOAR alternative. Get a demo!",
+        "canonical": "https://torq.io"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6972ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "marketing.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Autonomous Security Operations",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "“Torq is the first solution we’ve seen that effectively enables SOC professionals to mitigate issues including alert fatigue, false positives, staff burnout, and attrition.”",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The AI SOC You Were Promised",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Meet Torq’s AI Agents for the SOC",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Autonomous Security Operations"
+          },
+          {
+            "tag": "p",
+            "text": "Harness AI in the SOC to triage, investigate, and respond to threats faster."
+          },
+          {
+            "tag": "p",
+            "text": "Get a Demo"
+          },
+          {
+            "tag": "h3",
+            "text": "Trusted by the World’s Best Security Teams"
+          },
+          {
+            "tag": "h2",
+            "text": "“Torq is the first solution we’ve seen that effectively enables SOC professionals to mitigate issues including alert fatigue, false positives, staff burnout, and attrition.”"
+          },
+          {
+            "tag": "p",
+            "text": "Chris Kissel, Vice President, Security &amp; Trust Products, IDC Research"
+          },
+          {
+            "tag": "p",
+            "text": "Read the Report"
+          },
+          {
+            "tag": "h2",
+            "text": "The AI SOC You Were Promised"
+          },
+          {
+            "tag": "h3",
+            "text": "Triage Threats Faster"
+          },
+          {
+            "tag": "p",
+            "text": "Let AI find the threat needles in the alert haystack by analyzing, correlating, and enriching unprocessed events at machine speed."
+          },
+          {
+            "tag": "h3",
+            "text": "Investigate Cases Faster"
+          },
+          {
+            "tag": "p",
+            "text": "Agentic AI chases down answers on complex, prioritized cases at speed and scale, using tools you specify and always showing its work."
+          },
+          {
+            "tag": "h3",
+            "text": "Respond to Threats Faster"
+          },
+          {
+            "tag": "p",
+            "text": "Slash mean time to respond with Socrates, the natural language-driven Agentic AI for autonomous remediation of critical threats."
+          },
+          {
+            "tag": "p",
+            "text": "Torq HyperSOC™"
+          },
+          {
+            "tag": "h2",
+            "text": "Meet Torq’s AI Agents for the SOC"
+          },
+          {
+            "tag": "p",
+            "text": "Torq Multi-Agent System"
+          },
+          {
+            "tag": "h2",
+            "text": "Build and Deploy Agentic Security Automations in Minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Use natural language prompts to rapidly generate integrations and hyperautomate security workflows across thousands of vendors."
+          },
+          {
+            "tag": "p",
+            "text": "Torq Hyperautomation™"
+          },
+          {
+            "tag": "p",
+            "text": "Industry Analysts Agree"
+          },
+          {
+            "tag": "h2",
+            "text": "Torq Ushers in the AI SOC Era"
+          },
+          {
+            "tag": "p",
+            "text": "GigaOm: Torq Named Leader in SecOps Automation"
+          },
+          {
+            "tag": "p",
+            "text": "The SOAR Radar is now the SecOps Radar&#8230; and Torq is positioned as a Leader and Faster Mover, rated 5 stars for AI guardrails, case management, integrations, and more."
+          },
+          {
+            "tag": "p",
+            "text": "Read the Report"
+          },
+          {
+            "tag": "p",
+            "text": "IDC: Agentic AI is the Next Leap in the Autonomous SOC"
+          },
+          {
+            "tag": "p",
+            "text": "IDC’s Spotlight explores how Torq slashes MTTD in half and harnesses agentic AI to automate 90% of responses — reducing the probability of a major breach by 35%."
+          },
+          {
+            "tag": "p",
+            "text": "Read the Report"
+          },
+          {
+            "tag": "h2",
+            "text": "TORQ ON TOUR WITH MONSTER JAM ®"
+          },
+          {
+            "tag": "p",
+            "text": "Meet With Us Let&#8217;s Jam"
+          },
+          {
+            "tag": "p",
+            "text": "See All Events"
+          },
+          {
+            "tag": "h2",
+            "text": "The SecOps Nightmare"
+          },
+          {
+            "tag": "p",
+            "text": "NOW PLAYING IN SOCS EVERYWHERE"
+          },
+          {
+            "tag": "p",
+            "text": "Watch the Trailer Watch the Trailer"
+          },
+          {
+            "tag": "h3",
+            "text": "The Agentic SOC is here. Torq&#8217;s CEO shares his perspective on our $140M Series D."
+          },
+          {
+            "tag": "h3",
+            "text": "Wiz’s cloud intelligence meets Torq’s autonomous response — transforming detection into defense."
+          },
+          {
+            "tag": "h3",
+            "text": "Forbes covers Torq&#8217;s $140M Series D, calling Torq &#8220;the de facto leader of the AI SOC space&#8221;."
+          },
+          {
+            "tag": "h2",
+            "text": "The Future of Security Operations is Agentic"
+          },
+          {
+            "tag": "p",
+            "text": "See it in action."
+          },
+          {
+            "tag": "h4",
+            "text": "Schedule a Demo"
+          },
+          {
+            "tag": "h2",
+            "text": "See Torq in Action"
+          },
+          {
+            "tag": "p",
+            "text": "Get a demo to see how Torq helps you harness AI in the SOC to detect, prioritize, and respond to threats faster."
+          },
+          {
+            "tag": "p",
+            "text": "Is your security team ready to achieve more results, faster, with less stress?"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 39,
+          "headings": 18,
+          "images": 38
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-15DA2A6D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-71EEA196",
+      "path": "/hyperautomation/",
+      "type": "Detected Link",
+      "anchor_text": "Torq Hyperautomation™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9753738F",
+      "path": "/hypersoc/",
+      "type": "Detected Link",
+      "anchor_text": "Torq HyperSOC™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CE3EAD07",
+      "path": "/ai-agents-for-the-soc/",
+      "type": "Detected Link",
+      "anchor_text": "AI Agents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0AED574",
+      "path": "/socrates/",
+      "type": "Detected Link",
+      "anchor_text": "AI SOC Analyst",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9A43C563",
+      "path": "/case-management/",
+      "type": "Detected Link",
+      "anchor_text": "Case Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9A53F778",
+      "path": "/integrations/",
+      "type": "Detected Link",
+      "anchor_text": "Integrations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-53D76DBC",
+      "path": "/soc-teams/",
+      "type": "Detected Link",
+      "anchor_text": "Security Operations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E4BC425C",
+      "path": "/use-case/automated-soc-incident-response/",
+      "type": "Detected Link",
+      "anchor_text": "SOC Incident Response",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB2B1C74",
+      "path": "/use-case/phishing-investigation-response/",
+      "type": "Detected Link",
+      "anchor_text": "Phishing Response",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6DDFB659",
+      "path": "/use-case/contextual-automated-threat-intelligence-enrichment/",
+      "type": "Detected Link",
+      "anchor_text": "Threat Enrichment",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FD03D08E",
+      "path": "/cloud-appsec-teams/",
+      "type": "Detected Link",
+      "anchor_text": "Cloud &#038; Application Security",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0956737F",
+      "path": "/use-case/cloud-misconfiguration-detection-remediation/",
+      "type": "Detected Link",
+      "anchor_text": "Cloud Misconfiguration",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D89DBCFC",
+      "path": "/use-case/identity-threat-detection-response/",
+      "type": "Detected Link",
+      "anchor_text": "Unauthorized Access Response",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BBE97E00",
+      "path": "/use-case/multi-cloud-security-operations/",
+      "type": "Detected Link",
+      "anchor_text": "Multi-Cloud Alert Triage",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,420 @@
+{
+  "website_blueprint_id": "BLUEPRINT-FFAF3199",
+  "generated_at": "2026-01-21T07:26:54.068Z",
+  "global_configuration": {
+    "brand_name": "Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis",
+    "domain": "www.analyticsinsight.net",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.90.198",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public,max-age=15,s-maxage=10800,stale-while-revalidate=1000,stale-if-error=14400",
+      "Content-Security-Policy": "default-src data: 'unsafe-inline' 'unsafe-eval' https: http:;script-src data: 'unsafe-inline' 'unsafe-eval' https: http: blob:;style-src data: 'unsafe-inline' https: http: blob:;img-src data: https: http: blob:;font-src data: https: http:;connect-src https: wss: ws: http: blob:;media-src https: blob: http:;object-src https: http:;child-src https: data: blob: http:;form-action https: http:;frame-ancestors 'self' https://*.quintype.com https://www.analyticsinsight.net;block-all-mixed-content;",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 7,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/sdks/OneSignalSDK.js",
+        "type": "script",
+        "full_url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "path": "/quintype-ace/assets/app-c33c0e4f99f282588c4e.js",
+        "type": "script",
+        "full_url": "https://fea.assettype.com/quintype-ace/assets/app-c33c0e4f99f282588c4e.js"
+      },
+      {
+        "path": "/analyticsinsight/2024-05/2df9abcd-45d0-437f-9a36-167417fe7202/AI_logo_white%20(2).png",
+        "type": "image",
+        "full_url": "https://images.assettype.com/analyticsinsight/2024-05/2df9abcd-45d0-437f-9a36-167417fe7202/AI_logo_white%20(2).png"
+      },
+      {
+        "path": "/analyticsinsight%2F2026-01-21%2Fs7q6ltw9%2FVertus.jpg",
+        "type": "image",
+        "full_url": "https://media.assettype.com/analyticsinsight%2F2026-01-21%2Fs7q6ltw9%2FVertus.jpg?w=480&amp;auto=format%2Ccompress&amp;fit=max"
+      },
+      {
+        "path": "/analyticsinsight/2024-05/392798dc-70b1-47bb-a49c-5cb6e3c0df9c/Untitled_1.png",
+        "type": "image",
+        "full_url": "https://images.assettype.com/analyticsinsight/2024-05/392798dc-70b1-47bb-a49c-5cb6e3c0df9c/Untitled_1.png"
+      },
+      {
+        "path": "/analyticsinsight/2024-05/32d12eb8-4ccb-4433-ad7d-c73bd3f3de32/Manifest_logo.png",
+        "type": "image",
+        "full_url": "https://gumlet.assettype.com/analyticsinsight/2024-05/32d12eb8-4ccb-4433-ad7d-c73bd3f3de32/Manifest_logo.png?w=50&fm=png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": " Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis",
+        "description": "Analytics Insight is publication focused on disruptive technologies such as Artificial Intelligence, Big Data Analytics, Blockchain and Cryptocurrencies.",
+        "canonical": "https://www.analyticsinsight.net"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1040ms"
+        },
+        {
+          "resource": "OneSignalSDK.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "adsbygoogle.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "app-c33c0e4f99f282588c4e.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Latest News",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Best AI-Powered Energy Stocks to Buy and Hold Forever in 2026",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest News"
+          },
+          {
+            "tag": "h5",
+            "text": "Free Fire Max Redeem Codes For January 21: Get Premium Skins, Bundles &amp; More Rewards!"
+          },
+          {
+            "tag": "h6",
+            "text": "Google Gemini Enters IPL Big League With Rs 270 Crore Deal"
+          },
+          {
+            "tag": "h6",
+            "text": "Digitap ($TAP) vs. Remittix: Which is the Best Crypto Presale for Global Payments, Crypto Cards, and Banking This January?"
+          },
+          {
+            "tag": "h6",
+            "text": "Crypto Prices Today: Bitcoin Price Near $89,400, XRP Falls Below $2, Solana Slides to $127"
+          },
+          {
+            "tag": "h3",
+            "text": "Vertus Achieves $1 Billion Daily Trading Milestone, Closes 2025 with 51% Returns"
+          },
+          {
+            "tag": "h5",
+            "text": "XRP Pattern Echoes Early 2022 as Cost-Basis Split Puts Recent Buyers Under Pressure"
+          },
+          {
+            "tag": "h6",
+            "text": "Top News Today: Sensesemi Secures Rs. 25 Cr, Ivo’s $55M Funding, More"
+          },
+          {
+            "tag": "h6",
+            "text": "Airlock Digital Announces Independent TEI Study Quantifying Measurable ROI &amp; Security Impact"
+          },
+          {
+            "tag": "h6",
+            "text": "AI can think, but humans still decide!"
+          },
+          {
+            "tag": "h6",
+            "text": "Gold Price Today: Gold Hit Record Highs as Trade War Fears and Dollar Weakness Boost Safe-Haven Demand"
+          },
+          {
+            "tag": "h6",
+            "text": "Apple is taking on the Competition Commission of India (CCI) in a major legal battle!"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Best AI-Powered Energy Stocks to Buy and Hold Forever in 2026"
+          },
+          {
+            "tag": "h5",
+            "text": "How Generative AI Can Restore and Colorize Old Photos in Minutes"
+          },
+          {
+            "tag": "h5",
+            "text": "Google Gemini 3 Hacks: 10 Tasks Solved in Seconds for Busy Professionals"
+          },
+          {
+            "tag": "h5",
+            "text": "Top 10 AI Companies in Asia"
+          },
+          {
+            "tag": "h5",
+            "text": "AI, Data Analytics, and the Evolution of Online IQ Testing"
+          },
+          {
+            "tag": "h5",
+            "text": "Smart Living Reloaded: How AI Tech and Gadgets Are Transforming the Way We Live, Learn, and Think"
+          },
+          {
+            "tag": "h2",
+            "text": "Web Stories"
+          },
+          {
+            "tag": "h6",
+            "text": "AI can think, but humans still decide!"
+          },
+          {
+            "tag": "h6",
+            "text": "Apple is taking on the Competition Commission of India (CCI) in a major legal battle!"
+          },
+          {
+            "tag": "h6",
+            "text": "Best Street Photography Cameras in 2026"
+          },
+          {
+            "tag": "h6",
+            "text": "How to Keep WhatsApp Safe: Privacy Tools You Must Know"
+          },
+          {
+            "tag": "h2",
+            "text": "January 2026"
+          },
+          {
+            "tag": "h6",
+            "text": "Beyond the Hype: Which Gadgets Will Truly Matter in 2026?"
+          },
+          {
+            "tag": "h6",
+            "text": "Responsible AI: Can Transparency Keep Pace With Innovation?"
+          },
+          {
+            "tag": "h6",
+            "text": "Tech Stocks 2026: The Next Big Winners in AI and Blockchain"
+          },
+          {
+            "tag": "h6",
+            "text": "Machine Learning’s Hidden Secrets: Can We Trust the Algorithms?"
+          },
+          {
+            "tag": "p",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "p",
+            "text": "Analytics Insight is an award-winning tech news publication that delivers in-depth insights into the major technology trends that impact the markets. The content produced on this website is for educational purposes only and does not constitute investment advice or recommendation. Always conduct your own research or check with certified experts before investing, and be prepared for potential losses. Opinions expressed herein are those of the authors and not necessarily those of Analytics Insight, or any of its affiliates, officers or directors. © Analytics Insight 2025. All rights reserved."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 3,
+          "headings": 30,
+          "images": 23
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-98D18CCD",
+      "path": "/about-us",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3B8715F6",
+      "path": "/latest-news",
+      "type": "Detected Link",
+      "anchor_text": "Trending",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-862F6939",
+      "path": "/contact-us/",
+      "type": "Detected Link",
+      "anchor_text": "Contact Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE09DDC7",
+      "path": "/careers/",
+      "type": "Detected Link",
+      "anchor_text": "Careers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E7FF7EB0",
+      "path": "/promote",
+      "type": "Detected Link",
+      "anchor_text": "Promote",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EDE2B729",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5B2AAD23",
+      "path": "/cryptocurrency-analytics-insight",
+      "type": "Detected Link",
+      "anchor_text": "Cryptocurrencies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E6D1D905",
+      "path": "/gadgets",
+      "type": "Detected Link",
+      "anchor_text": "Gadgets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F9CFD03",
+      "path": "/stocks",
+      "type": "Detected Link",
+      "anchor_text": "Stocks",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6361C13F",
+      "path": "/magazine/archive/analytics-insight-magazines",
+      "type": "Detected Link",
+      "anchor_text": "Magazines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B2830842",
+      "path": "/news",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7915872D",
+      "path": "/white-papers",
+      "type": "Detected Link",
+      "anchor_text": "More",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-25DF14D6",
+      "path": "/gaming/free-fire-max-redeem-codes-for-january-21-get-premium-skins-bundles-more-rewards",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F9A85A7",
+      "path": "/news/google-gemini-enters-ipl-big-league-with-rs-270-crore-deal",
+      "type": "Detected Link",
+      "anchor_text": "Google Gemini Enters IPL Big League With Rs 270 Crore Deal",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E329906C",
+      "path": "/cryptocurrency-analytics-insight/digitap-tap-vs-remittix-which-is-the-best-crypto-presale-for-global-payments-crypto-cards-and-banking-this-january",
+      "type": "Detected Link",
+      "anchor_text": "Digitap ($TAP) vs. Remittix: Which is the Best Crypto Presale for Global Payments, Crypto Cards, and Banking This January?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

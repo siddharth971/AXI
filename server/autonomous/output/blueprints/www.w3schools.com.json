@@ -1,0 +1,973 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C374BF3D",
+  "generated_at": "2026-01-21T07:26:54.641Z",
+  "global_configuration": {
+    "brand_name": "W3Schools Online Web Tutorials",
+    "domain": "www.w3schools.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "43.250.166.114",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=11285",
+      "Content-Security-Policy": "frame-ancestors 'self' https://mycourses.w3schools.com https://pathfinder.w3schools.com;",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 29,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/lib/uic.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/uic.js?v=1.1.0"
+      },
+      {
+        "path": "/lib/uic_prov.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/uic_prov.js?v=1.4.6"
+      },
+      {
+        "path": "/lib/common-deps/main.v1.0.17.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/common-deps/main.v1.0.17.js"
+      },
+      {
+        "path": "/lib/user-session/main.v1.0.49.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/user-session/main.v1.0.49.js"
+      },
+      {
+        "path": "/lib/topnav/main.v1.0.90.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.90.js"
+      },
+      {
+        "path": "/lib/my-learning/main.v1.0.68.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.68.js"
+      },
+      {
+        "path": "/lib/w3codecolor.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/w3codecolor.js"
+      },
+      {
+        "path": "/lib/w3schools_footer.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/w3schools_footer.js?update=20250924"
+      },
+      {
+        "path": "/lib/w3schools_features.js",
+        "type": "script",
+        "full_url": "https://www.w3schools.com/lib/w3schools_features.js?update=20260114"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?render=explicit"
+      },
+      {
+        "path": "/libs/html5shiv/3.7.0/html5shiv.js",
+        "type": "script",
+        "full_url": "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
+      },
+      {
+        "path": "/libs/respond.js/1.4.2/respond.min.js",
+        "type": "script",
+        "full_url": "https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
+      },
+      {
+        "path": "/lib/topnav/main.v1.0.90.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.90.css"
+      },
+      {
+        "path": "/lib/my-learning/main.v1.0.68.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.68.css"
+      },
+      {
+        "path": "/lib/pathfinder/main.v1.0.12.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/lib/pathfinder/main.v1.0.12.css"
+      },
+      {
+        "path": "/lib/w3schools.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/lib/w3schools.css?v=1.0.1"
+      },
+      {
+        "path": "/plus/plans/main.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/plus/plans/main.css?v=1.0.1"
+      },
+      {
+        "path": "/lib/sparteo.css",
+        "type": "stylesheet",
+        "full_url": "https://www.w3schools.com/lib/sparteo.css?v=1.0.2"
+      },
+      {
+        "path": "/images/colorpicker2000.png",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/images/colorpicker2000.png"
+      },
+      {
+        "path": "/signup/lynxlogo.svg",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/signup/lynxlogo.svg"
+      },
+      {
+        "path": "/images/image_landing.svg",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/images/image_landing.svg"
+      },
+      {
+        "path": "/codeeditor.gif",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/codeeditor.gif"
+      },
+      {
+        "path": "/tryit/best2.gif",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/tryit/best2.gif"
+      },
+      {
+        "path": "/spaces/dynamicspaces.gif",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/spaces/dynamicspaces.gif"
+      },
+      {
+        "path": "/spaces/files/check3.db67d31e.svg",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/spaces/files/check3.db67d31e.svg"
+      },
+      {
+        "path": "/images/classroom.png",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/images/classroom.png"
+      },
+      {
+        "path": "/images/colorpicker.png",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/images/colorpicker.png"
+      },
+      {
+        "path": "/images/w3lynx_200.png",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/images/w3lynx_200.png"
+      },
+      {
+        "path": "/w3css_templates.jpg",
+        "type": "image",
+        "full_url": "https://www.w3schools.com/w3css_templates.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "W3Schools Online Web Tutorials",
+        "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.",
+        "canonical": "https://www.w3schools.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "12731ms"
+        },
+        {
+          "resource": "uic.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "uic_prov.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "main.v1.0.17.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Learn to Code",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Tutorials",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "References",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Exercises",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "&times; See More &nbsp; Sign In Sign Up --> user-anonymous --> --> --> &#x2605; +1 --> My W3Schools --> user-authenticated --> Get Certified Upgrade Teachers Spaces Bootcamps user-anonymous - action-btn --> Get Certified Upgrade Teachers Spaces Bootcamps user-authenticated - action-btn --> &#xe80b; My W3Schools Tutorials &nbsp; References &nbsp; Exercises &nbsp; Certificates &nbsp; Spaces Get Certified Plus Bootcamps Academy All our Services &nbsp; Logout &#62220; &#59399; &#59398; &#61805; &times; Tutorials Tutorials filter input &times; HTML and CSS Learn HTML Tutorial Reference Learn CSS Tutorial Reference Learn RWD Tutorial Learn Bootstrap Overview Learn W3.CSS Tutorial Reference Learn Sass Tutorial Reference Learn Colors Tutorial Reference Learn Icons Tutorial Reference Learn SVG Tutorial Reference Learn Canvas Tutorial Reference Learn Graphics Tutorial Learn UTF-8 and Emojis Reference Learn How To Tutorial Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter JavaScript Learn JavaScript Tutorial Reference Learn React Tutorial Learn jQuery Tutorial Reference Learn Vue Tutorial Reference Learn Angular Tutorial Learn AngularJS Tutorial Reference Learn JSON Tutorial Reference Learn AJAX Tutorial Learn AppML Tutorial Reference Learn W3.JS Tutorial Reference Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter Backend Learn Python Tutorial Reference Learn SQL Tutorial Reference Learn MySQL Tutorial Reference Learn PHP Tutorial Reference Learn Java Tutorial Reference Learn C Tutorial Reference Learn C++ Tutorial Reference Learn C# Tutorial Learn R Tutorial Learn Kotlin Tutorial Learn Rust Tutorial Learn Go Tutorial Learn Django Tutorial Reference Learn PostgreSQL Tutorial Learn TypeScript Tutorial Learn ASP Tutorial Reference Learn Node.js Tutorial Reference Learn Raspberry Pi Tutorial Learn Swift Tutorial Learn Git Tutorial Learn Bash Tutorial Learn MongoDB Tutorial Learn AWS Cloud Tutorial Learn XML Tutorial Reference Next Bootcamp: 16/03 Reserve Spot Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter &times; References References filter input &times; HTML and CSS HTML Tags Reference CSS Reference W3.CSS Reference Bootstrap 3 Reference Bootstrap 4 Reference Color Names Icons Reference SVG Reference Canvas Reference Sass Reference UTF-8 Charset Reference UTF-8 Emojis Reference JavaScript JavaScript Reference jQuery Reference Vue Reference Angular Reference JSON Reference AppML Reference W3.JS Reference Backend Python Reference SQL Reference MySQL Reference PHP Reference Java Reference C Reference C++ Reference Django Reference ASP Reference Node.js Reference XML Reference &times; Exercises Excercises filter input &times; HTML and CSS HTML Exercise Quiz CSS Exercise Quiz Bootstrap 3 Exercise Quiz Bootstrap 4 Exercise Quiz Bootstrap 5 Exercise Quiz Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? JavaScript JavaScript Exercise Quiz React Exercise Quiz jQuery Exercise Quiz Vue Exercise Quiz Angular Exercise Quiz Backend Python Exercise Quiz SQL Exercise Quiz MySQL Exercise Quiz PHP Exercise Quiz Java Exercise Quiz C Exercise Quiz C++ Exercise Quiz C# Exercise Quiz R Exercise Quiz Kotlin Exercise Quiz Django Exercise Quiz Node.js Exercise Quiz PostgreSQL Exercise Quiz TypeScript Exercise Quiz Git Exercise Quiz Bash Exercise Quiz Go Exercise MongoDB Exercise AWS Cloud Exercise Quiz --> Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? &times; Certificates Filter field for certifications &times; HTML and CSS HTML Certificate Course Bootcamp CSS Certificate Course Bootcamp Bootstrap 3 Certificate Course Bootstrap 4 Certificate Course Bootstrap 5 Certificate Data Analytics DSA Certificate Data Analytics Course NumPy Certificate Course Pandas Certificate Course Excel Certificate Social Media Course What is a Certificate? What is a Bootcamp? Programs Full Access Best Value! Front End Certificate Course Web Dev. Certificate Course Web App Certificate Course Web Design Certificate Course JavaScript JavaScript Certificate Course Bootcamp React Certificate Course Bootcamp jQuery Certificate Course Vue Certificate Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Backend Python Certificate Course Bootcamp SQL Certificate Course Bootcamp MySQL Certificate PHP Certificate Course Java Certificate Course C Certificate C++ Certificate Course C# Certificate Course R Course Django Certificate NodeJS Certificate Bootcamp TypeScript Certificate Course XML Certificate Course Cyber Security Certificate Course Accessibility Certificate Course Python Apps on AWS Course AWS Training Courses --> Data Analytics DSA Exam Data Analytics Course NumPy Course Pandas Course Excel Certificate Social Media Course What is a Certificate? &times; All Our Services Dark mode &#xe80b; Services filter input &times; W3Schools offers a wide range of services and products for beginners and professionals, helping millions of people everyday to learn and master new skills."
+          },
+          {
+            "tag": "h4",
+            "text": "Free Tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "Enjoy our free tutorials like millions of other internet users since 1999"
+          },
+          {
+            "tag": "h4",
+            "text": "References"
+          },
+          {
+            "tag": "p",
+            "text": "Explore our selection of references covering all popular coding languages"
+          },
+          {
+            "tag": "h4",
+            "text": "Create a Website"
+          },
+          {
+            "tag": "p",
+            "text": "Create your own website with W3Schools Spaces - no setup required"
+          },
+          {
+            "tag": "h4",
+            "text": "Exercises"
+          },
+          {
+            "tag": "p",
+            "text": "Test your skills with different exercises"
+          },
+          {
+            "tag": "h4",
+            "text": "Quizzes"
+          },
+          {
+            "tag": "p",
+            "text": "Test yourself with multiple choice questions"
+          },
+          {
+            "tag": "h4",
+            "text": "Get Certified"
+          },
+          {
+            "tag": "p",
+            "text": "Document your knowledge"
+          },
+          {
+            "tag": "p",
+            "text": "Log in / Sign Up Create an account to track your progress"
+          },
+          {
+            "tag": "h4",
+            "text": "League"
+          },
+          {
+            "tag": "p",
+            "text": "Earn XP and climb the ranks with different challenges"
+          },
+          {
+            "tag": "h4",
+            "text": "Upgrade"
+          },
+          {
+            "tag": "p",
+            "text": "Become a PLUS user and unlock powerful features (ad-free, hosting, support,..)"
+          },
+          {
+            "tag": "p",
+            "text": "Where To Start Not sure where you want to start? Follow our guided path"
+          },
+          {
+            "tag": "h4",
+            "text": "Code Editor (Try it)"
+          },
+          {
+            "tag": "p",
+            "text": "With our online code editor, you can edit code and view the result in your browser"
+          },
+          {
+            "tag": "h4",
+            "text": "Bootcamps"
+          },
+          {
+            "tag": "p",
+            "text": "Learn from passionate instructors through live online sessions"
+          },
+          {
+            "tag": "p",
+            "text": "Templates We have created a bunch of responsive website templates you can use - for free!"
+          },
+          {
+            "tag": "h4",
+            "text": "Web Hosting"
+          },
+          {
+            "tag": "p",
+            "text": "Host your own website, and share it to the world with W3Schools Spaces"
+          },
+          {
+            "tag": "h4",
+            "text": "Create a Server"
+          },
+          {
+            "tag": "p",
+            "text": "Create your own server using Python, PHP, React.js, Node.js, Java, C#, etc."
+          },
+          {
+            "tag": "p",
+            "text": "How To's Large collection of code snippets for HTML, CSS and JavaScript"
+          },
+          {
+            "tag": "h4",
+            "text": "CSS Framework"
+          },
+          {
+            "tag": "p",
+            "text": "Build fast and responsive sites using our free W3.CSS framework"
+          },
+          {
+            "tag": "h4",
+            "text": "Videos"
+          },
+          {
+            "tag": "p",
+            "text": "Learn the basics of HTML in a fun and engaging video tutorial"
+          },
+          {
+            "tag": "p",
+            "text": "Browser Statistics Read long term trends of browser usage"
+          },
+          {
+            "tag": "h4",
+            "text": "Typing Speed"
+          },
+          {
+            "tag": "p",
+            "text": "Test your typing speed"
+          },
+          {
+            "tag": "h4",
+            "text": "AWS Training"
+          },
+          {
+            "tag": "p",
+            "text": "Learn Amazon Web Services"
+          },
+          {
+            "tag": "h4",
+            "text": "Color Picker"
+          },
+          {
+            "tag": "p",
+            "text": "Use our color picker to find different RGB, HEX and HSL colors."
+          },
+          {
+            "tag": "h4",
+            "text": "Newsletter"
+          },
+          {
+            "tag": "p",
+            "text": "Join our newsletter and get access to exclusive content every month"
+          },
+          {
+            "tag": "h4",
+            "text": "Set Goal"
+          },
+          {
+            "tag": "p",
+            "text": "Get personalized learning journey based on your current skills and goals"
+          },
+          {
+            "tag": "h4",
+            "text": "Emojis Reference"
+          },
+          {
+            "tag": "p",
+            "text": "Check out our refererence page with all the emojis supported in HTML &#128522;"
+          },
+          {
+            "tag": "h4",
+            "text": "Code Game"
+          },
+          {
+            "tag": "p",
+            "text": "W3Schools Coding Game! Help the lynx collect pine cones"
+          },
+          {
+            "tag": "h4",
+            "text": "UTF-8 Reference"
+          },
+          {
+            "tag": "p",
+            "text": "Check out our full UTF-8 Character reference"
+          },
+          {
+            "tag": "h4",
+            "text": "Community"
+          },
+          {
+            "tag": "p",
+            "text": "Chat, Learn and Connect with Us on Discord"
+          },
+          {
+            "tag": "h4",
+            "text": "Teachers"
+          },
+          {
+            "tag": "p",
+            "text": "Contact us about W3Schools Academy for educational institutions"
+          },
+          {
+            "tag": "h4",
+            "text": "For Businesses"
+          },
+          {
+            "tag": "p",
+            "text": "Contact us about W3Schools Academy for your organization"
+          },
+          {
+            "tag": "h4",
+            "text": "Contact Us"
+          },
+          {
+            "tag": "p",
+            "text": "About sales: sales@w3schools.com About errors: help@w3schools.com"
+          },
+          {
+            "tag": "h1",
+            "text": "Learn to Code"
+          },
+          {
+            "tag": "h3",
+            "text": "With the world's largest web developer site."
+          },
+          {
+            "tag": "h4",
+            "text": "Not Sure Where To Begin?"
+          },
+          {
+            "tag": "p",
+            "text": "Tip: Sign in to track your progress."
+          },
+          {
+            "tag": "p",
+            "text": "HTML The language for building web pages"
+          },
+          {
+            "tag": "h3",
+            "text": "HTML Example:"
+          },
+          {
+            "tag": "p",
+            "text": "The language for styling web pages"
+          },
+          {
+            "tag": "h3",
+            "text": "CSS Example:"
+          },
+          {
+            "tag": "h1",
+            "text": "JavaScript"
+          },
+          {
+            "tag": "p",
+            "text": "The language for programming web pages"
+          },
+          {
+            "tag": "h3",
+            "text": "JavaScript Example:"
+          },
+          {
+            "tag": "h1",
+            "text": "Python"
+          },
+          {
+            "tag": "p",
+            "text": "A popular programming language"
+          },
+          {
+            "tag": "h3",
+            "text": "Python Example:"
+          },
+          {
+            "tag": "p",
+            "text": "A language for accessing databases"
+          },
+          {
+            "tag": "h3",
+            "text": "SQL Example:"
+          },
+          {
+            "tag": "h5",
+            "text": "A web server programming language"
+          },
+          {
+            "tag": "h2",
+            "text": "jQuery"
+          },
+          {
+            "tag": "h5",
+            "text": "A JS library for developing web pages"
+          },
+          {
+            "tag": "h2",
+            "text": "Java"
+          },
+          {
+            "tag": "h5",
+            "text": "A programming language"
+          },
+          {
+            "tag": "h5",
+            "text": "A programming language"
+          },
+          {
+            "tag": "h2",
+            "text": "W3.CSS"
+          },
+          {
+            "tag": "h5",
+            "text": "A CSS framework for faster and better responsive web pages"
+          },
+          {
+            "tag": "h2",
+            "text": "Bootstrap"
+          },
+          {
+            "tag": "h5",
+            "text": "A CSS framework for designing better web pages"
+          },
+          {
+            "tag": "h2",
+            "text": "Kotlin"
+          },
+          {
+            "tag": "h2",
+            "text": "Node.js"
+          },
+          {
+            "tag": "h2",
+            "text": "React"
+          },
+          {
+            "tag": "h2",
+            "text": "JSON"
+          },
+          {
+            "tag": "h2",
+            "text": "MySQL"
+          },
+          {
+            "tag": "h2",
+            "text": "W3.JS"
+          },
+          {
+            "tag": "h2",
+            "text": "Sass"
+          },
+          {
+            "tag": "h2",
+            "text": "Icons"
+          },
+          {
+            "tag": "h2",
+            "text": "Graphics"
+          },
+          {
+            "tag": "h2",
+            "text": "Canvas"
+          },
+          {
+            "tag": "h2",
+            "text": "Raspberry Pi"
+          },
+          {
+            "tag": "h2",
+            "text": "Cyber Security"
+          },
+          {
+            "tag": "h2",
+            "text": "Colors"
+          },
+          {
+            "tag": "h2",
+            "text": "Matplotlib"
+          },
+          {
+            "tag": "h2",
+            "text": "NumPy"
+          },
+          {
+            "tag": "h2",
+            "text": "Pandas"
+          },
+          {
+            "tag": "h2",
+            "text": "SciPy"
+          },
+          {
+            "tag": "h2",
+            "text": "AngularJS"
+          },
+          {
+            "tag": "h2",
+            "text": "AppML"
+          },
+          {
+            "tag": "h2",
+            "text": "TypeScript"
+          },
+          {
+            "tag": "h2",
+            "text": "Django"
+          },
+          {
+            "tag": "h2",
+            "text": "MongoDB"
+          },
+          {
+            "tag": "h2",
+            "text": "Statistics"
+          },
+          {
+            "tag": "h2",
+            "text": "Data Science"
+          },
+          {
+            "tag": "h2",
+            "text": "PostgreSQL"
+          },
+          {
+            "tag": "h2",
+            "text": "HowTo"
+          },
+          {
+            "tag": "h2",
+            "text": "Rust"
+          },
+          {
+            "tag": "h2",
+            "text": "Spaces"
+          },
+          {
+            "tag": "h2",
+            "text": "Typing Speed"
+          },
+          {
+            "tag": "h2",
+            "text": "Excel"
+          },
+          {
+            "tag": "h2",
+            "text": "DSA - D ata S tructures and A lgorithms"
+          },
+          {
+            "tag": "h2",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "h2",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "h2",
+            "text": "Introduction to Programming"
+          },
+          {
+            "tag": "h2",
+            "text": "Bash"
+          },
+          {
+            "tag": "h2",
+            "text": "Swift"
+          },
+          {
+            "tag": "h2",
+            "text": "Angular"
+          },
+          {
+            "tag": "h1",
+            "text": "Log in / Sign Up"
+          },
+          {
+            "tag": "h4",
+            "text": "Create an account to track your progress, get your own website, and get access to more features and learning materials:"
+          },
+          {
+            "tag": "p",
+            "text": "Sign Up"
+          },
+          {
+            "tag": "h1",
+            "text": "Code Editor"
+          },
+          {
+            "tag": "h4",
+            "text": "With our online code editor, you can edit code and view the result in your browser"
+          },
+          {
+            "tag": "p",
+            "text": "Try it Yourself (HTML/CSS/JS) Try it Yourself (Python/PHP/Java etc.) --> Try Frontend Editor (HTML/CSS/JS) Try Backend Editor (Python/PHP/Java/C..) W3Schools Spaces If you want to create your own website, check out W3Schools Spaces . No installation required - just open your browser and start coding: Learn More Become a Plus User And unlock powerful features: Browse W3Schools without ads Build and host Websites Unlimited challenges Unlimited practice tests Get extra credits Priority support Learn More For Teachers Streamline your teaching:"
+          },
+          {
+            "tag": "p",
+            "text": "Color Picker W3Schools' famous color picker: Code Game Help the Lynx collect pine cones! Play Game"
+          },
+          {
+            "tag": "h2",
+            "text": "Exercises and Quizzes"
+          },
+          {
+            "tag": "h4",
+            "text": "Test your skills!"
+          },
+          {
+            "tag": "p",
+            "text": "Exercises"
+          },
+          {
+            "tag": "p",
+            "text": "Quizzes"
+          },
+          {
+            "tag": "h1",
+            "text": "Web Templates"
+          },
+          {
+            "tag": "h4",
+            "text": "Browse our selection of free responsive HTML Templates"
+          },
+          {
+            "tag": "p",
+            "text": "Browse Templates"
+          },
+          {
+            "tag": "h2",
+            "text": "Kickstart your career"
+          },
+          {
+            "tag": "p",
+            "text": "Get certified by completing a course"
+          },
+          {
+            "tag": "h2",
+            "text": "Report Error"
+          },
+          {
+            "tag": "p",
+            "text": "If you want to report an error, or if you want to make a suggestion, send us an e-mail: help@w3schools.com"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Tutorials"
+          },
+          {
+            "tag": "h5",
+            "text": "Top References"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Examples"
+          },
+          {
+            "tag": "h5",
+            "text": "Get Certified"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 109,
+          "headings": 160,
+          "images": 21
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-2DAE94B2",
+      "path": "/html/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "HTML",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-68059B59",
+      "path": "/css/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "CSS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2C1CF76B",
+      "path": "/js/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "JAVASCRIPT",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FB4A86BF",
+      "path": "/sql/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "SQL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C9458CD9",
+      "path": "/python/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "PYTHON",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-36E3F79B",
+      "path": "/java/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "JAVA",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-33F3702F",
+      "path": "/php/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "PHP",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-00ADF4EF",
+      "path": "/howto/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "HOW TO",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0E7BDD6",
+      "path": "/w3css/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "W3.CSS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E9FAEBB",
+      "path": "/c/index.php",
+      "type": "Detected Link",
+      "anchor_text": "C",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C2ABB3E7",
+      "path": "/cpp/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "C++",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E8DFD02C",
+      "path": "/cs/index.php",
+      "type": "Detected Link",
+      "anchor_text": "C#",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-200B1973",
+      "path": "/bootstrap/bootstrap_ver.asp",
+      "type": "Detected Link",
+      "anchor_text": "BOOTSTRAP",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-68B4B715",
+      "path": "/react/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "REACT",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D7F4BC05",
+      "path": "/mysql/default.asp",
+      "type": "Detected Link",
+      "anchor_text": "MYSQL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

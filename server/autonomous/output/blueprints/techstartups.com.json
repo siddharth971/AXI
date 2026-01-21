@@ -1,0 +1,869 @@
+{
+  "website_blueprint_id": "BLUEPRINT-02F21EB8",
+  "generated_at": "2026-01-21T07:27:05.026Z",
+  "global_configuration": {
+    "brand_name": "Tech Startups",
+    "domain": "techstartups.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "69.16.249.157",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 64,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-includes/js/jquery/jquery.min.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-includes/js/jquery/jquery-migrate.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/table-sorter/jquery.tablesorter.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/table-sorter/jquery.tablesorter.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/table-sorter/jquery.metadata.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/table-sorter/jquery.metadata.js"
+      },
+      {
+        "path": "/wp-content/plugins/table-sorter/wp-script.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/table-sorter/wp-script.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-subscription-forms/js/wpsf-frontend.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/wp-subscription-forms/js/wpsf-frontend.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/ilightbox.packed.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/ilightbox.packed.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.easing.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.easing.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.sticky-kit.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.sticky-kit.min.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.lazy.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.lazy.min.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.cookie.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.cookie.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.tooltipster.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.tooltipster.min.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/custom_plugins.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/custom_plugins.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/custom.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/custom.js"
+      },
+      {
+        "path": "/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extra.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extra.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/jquery.newsticker.min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/jquery.newsticker.min.js"
+      },
+      {
+        "path": "/wp-content/themes/grandnews_new/js/flexslider/jquery.flexslider-min.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/themes/grandnews_new/js/flexslider/jquery.flexslider-min.js"
+      },
+      {
+        "path": "/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js",
+        "type": "script",
+        "full_url": "https://techstartups.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/techstartupscom-logo-v3.png",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2024/02/techstartupscom-logo-v3.png"
+      },
+      {
+        "path": "/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif"
+      },
+      {
+        "path": "/wp-content/uploads/2020/04/myavatar.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2020/04/myavatar.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Pomelo-founders-Argentina-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Pomelo-founders-Argentina-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/PicPay-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/PicPay-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Humans-Founders-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Humans-Founders-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Legato-Founders-Shlomit-Tennenbaum-Dana-Rochman-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Legato-Founders-Shlomit-Tennenbaum-Dana-Rochman-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Emergent-Founders-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/09/Emergent-Founders-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/Battle-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2024/12/Battle-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Microsoft-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2024/05/Microsoft-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/06/Ethos-Founders-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2018/06/Ethos-Founders-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Applied-Compute-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Applied-Compute-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Copy_of_EMA-2025-NurtureEmail_Website_1768938693vB9Ed7Fwod-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Copy_of_EMA-2025-NurtureEmail_Website_1768938693vB9Ed7Fwod-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Frame_82_2_1768919143WuFjo2B2Sb-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Frame_82_2_1768919143WuFjo2B2Sb-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/ThirdPartyBanner-IM-100-Release-PG-101919_1768825334FKlfJUEfBf-700x466.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/ThirdPartyBanner-IM-100-Release-PG-101919_1768825334FKlfJUEfBf-700x466.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Passive-Income.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/12/Passive-Income.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/When-Vibe-Coding-Goes-Wrong.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/03/When-Vibe-Coding-Goes-Wrong.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Failed-AI-Startups-of-2025-960x544.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/12/Failed-AI-Startups-of-2025-960x544.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/AIReviews-960x487.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/12/AIReviews-960x487.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/How-to-Rank-in-AI-Search-in-2026.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/How-to-Rank-in-AI-Search-in-2026.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Top-AI-Predictions-for-2026.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/Top-AI-Predictions-for-2026.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ai-domains.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/ai-domains.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/The-Hidden-Risk-of-.AI-Domains.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/The-Hidden-Risk-of-.AI-Domains.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/The-Future-of-Design-How-CAD-Software-Is-Shaping-the-Next-Wave-of-Innovation.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/The-Future-of-Design-How-CAD-Software-Is-Shaping-the-Next-Wave-of-Innovation.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Vibe-Coding.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/Vibe-Coding.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Tech-Layoff-Announcements-960x612.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/Tech-Layoff-Announcements-960x612.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/How-to-Start-a-Business.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/11/How-to-Start-a-Business.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/ideas.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2022/10/ideas.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Top-Startups-to-Watch-960x554.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/Top-Startups-to-Watch-960x554.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/OpenAI-Sam.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/OpenAI-Sam.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/glactic-960x543.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/glactic-960x543.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/AI-Bubble.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/AI-Bubble.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Top-10-Tech-News-and-Blog-WebSites-to-Follow-in-2025-960x563.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/10/Top-10-Tech-News-and-Blog-WebSites-to-Follow-in-2025-960x563.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/OPenAI.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/09/OPenAI.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Applied-Compute-960x607.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Applied-Compute-960x607.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Pomelo-founders-Argentina.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Pomelo-founders-Argentina.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/PicPay.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/PicPay.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Humans-Founders.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Humans-Founders.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Legato-Founders-Shlomit-Tennenbaum-Dana-Rochman.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2026/01/Legato-Founders-Shlomit-Tennenbaum-Dana-Rochman.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Emergent-Founders.jpg",
+        "type": "image",
+        "full_url": "https://techstartups.com/wp-content/uploads/2025/09/Emergent-Founders.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Tech Startups | Startups &amp; Technology News Today",
+        "description": "TechStartups | Reporting on today&#039;s technology news, startups, AI innovations, and venture capital funding",
+        "canonical": "https://techstartups.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7231ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.tablesorter.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Applied Compute, AI startup founded by ex-OpenAI researchers, in talks to raise funds at $1.3B valuation just months after $500M round",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Never Miss Out. Subscribe!",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Applied Compute, AI startup founded by ex-OpenAI researchers, in talks to raise funds at $1.3B valuation just months after $500M round"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Startup and Tech Funding News – January 15, 2025"
+          },
+          {
+            "tag": "h5",
+            "text": "Brazilian fintech startup PicPay targets $2.46B valuation, plans to raise $434M in long-awaited US IPO"
+          },
+          {
+            "tag": "h5",
+            "text": "AI startup Humans& raises $480M seed at $4.48B valuation as former OpenAI and Google researchers launch frontier AI lab"
+          },
+          {
+            "tag": "h5",
+            "text": "Legato raises $7M to let business users build AI apps inside SaaS platforms"
+          },
+          {
+            "tag": "h5",
+            "text": "Emergent raises $70M Series B led by Khosla and SoftBank as AI ‘vibe coding’ startup hits $50M ARR in just 7 months"
+          },
+          {
+            "tag": "h5",
+            "text": "Elon Musk seeks $134 billion from OpenAI and Microsoft in explosive lawsuit, claims he built OpenAI from scratch"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Tech News Today, January 20, 2026"
+          },
+          {
+            "tag": "h5",
+            "text": "Sequoia and Accel-backed Ethos Technologies files for IPO, eyes $1.26B valuation"
+          },
+          {
+            "tag": "h5",
+            "text": "ALL THE LATEST NEWS"
+          },
+          {
+            "tag": "h5",
+            "text": "Applied Compute, AI startup founded by ex-OpenAI researchers, in talks to raise funds at $1.3B valuation just months after $500M round"
+          },
+          {
+            "tag": "p",
+            "text": "Everyone is chasing the next breakout AI company. Applied Compute is suddenly at the center of that […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Startup and Tech Funding News – January 15, 2025"
+          },
+          {
+            "tag": "p",
+            "text": "It’s Monday, January 20, 2026, and we’re back with today’s top startup and tech funding news. Today’s […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Airlock Digital Announces Independent TEI Study Quantifying Measurable ROI &amp; Security Impact"
+          },
+          {
+            "tag": "p",
+            "text": "Atlanta, GA, United States, 20th January 2026, CyberNewsWire"
+          },
+          {
+            "tag": "h5",
+            "text": "Brazilian fintech startup PicPay targets $2.46B valuation, plans to raise $434M in long-awaited US IPO"
+          },
+          {
+            "tag": "p",
+            "text": "Everyone is talking about AI and crypto IPOs, but Brazil’s fintech scene just sent a reminder that […]"
+          },
+          {
+            "tag": "h5",
+            "text": "AI startup Humans& raises $480M seed at $4.48B valuation as former OpenAI and Google researchers launch frontier AI lab"
+          },
+          {
+            "tag": "p",
+            "text": "Everyone is talking about AI taking jobs. A new AI startup says that narrative misses the point. […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Sprocket Security Appoints Eric Sheridan as Chief Technology Officer"
+          },
+          {
+            "tag": "p",
+            "text": "Madison, United States, 20th January 2026, CyberNewsWire"
+          },
+          {
+            "tag": "h5",
+            "text": "Legato raises $7M to let business users build AI apps inside SaaS platforms"
+          },
+          {
+            "tag": "p",
+            "text": "Legato is betting that the next wave of AI innovation inside enterprise software won’t come from engineers. […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Emergent raises $70M Series B led by Khosla and SoftBank as AI ‘vibe coding’ startup hits $50M ARR in just 7 months"
+          },
+          {
+            "tag": "p",
+            "text": "Four months ago, Emergent was already moving faster than most startups ever will. The YC-backed company had […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Elon Musk seeks $134 billion from OpenAI and Microsoft in explosive lawsuit, claims he built OpenAI from scratch"
+          },
+          {
+            "tag": "p",
+            "text": "Elon Musk just turned up the heat in his legal war with OpenAI and Microsoft. In a […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Tech News Today, January 20, 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Technology News Today – Your Daily Briefing on the AI, Big Tech, and Startup Shifts Reshaping Markets […]"
+          },
+          {
+            "tag": "h5",
+            "text": "Sequoia and Accel-backed Ethos Technologies files for IPO, eyes $1.26B valuation"
+          },
+          {
+            "tag": "p",
+            "text": "Wall Street’s insurance IPO streak is far from cooling off. Ethos Technologies, a life insurance startup backed […]"
+          },
+          {
+            "tag": "h5",
+            "text": "One Identity Unveils Major Upgrade to Identity Manager, Strengthening Enterprise Identity Security"
+          },
+          {
+            "tag": "p",
+            "text": "Alisa Viejo, United States, 20th January 2026, CyberNewsWire"
+          },
+          {
+            "tag": "h2",
+            "text": "Never Miss Out. Subscribe!"
+          },
+          {
+            "tag": "p",
+            "text": "Email address:"
+          },
+          {
+            "tag": "h5",
+            "text": "Apps"
+          },
+          {
+            "tag": "h5",
+            "text": "Gaming"
+          },
+          {
+            "tag": "h5",
+            "text": "Startups"
+          },
+          {
+            "tag": "h5",
+            "text": "Startup Funding"
+          },
+          {
+            "tag": "h5",
+            "text": "Tech News"
+          },
+          {
+            "tag": "h5",
+            "text": "Cryptocurrency"
+          },
+          {
+            "tag": "h5",
+            "text": "Cybersecurity"
+          },
+          {
+            "tag": "h5",
+            "text": "Emerging Technologies"
+          },
+          {
+            "tag": "h5",
+            "text": "Latest Tech News"
+          },
+          {
+            "tag": "h5",
+            "text": "More..."
+          },
+          {
+            "tag": "h5",
+            "text": "EDITOR&#039;S CHOICES"
+          },
+          {
+            "tag": "h5",
+            "text": "Passive Income While You Sleep? The Truth Nobody Tells You"
+          },
+          {
+            "tag": "h5",
+            "text": "The Vibe Coding Delusion: Why Thousands of Startups Are Now Paying the Price for AI-Generated Technical Debt"
+          },
+          {
+            "tag": "h5",
+            "text": "Top AI Startups That Shut Down in 2025: What Founders Can Learn"
+          },
+          {
+            "tag": "h5",
+            "text": "AIReviews.com sold for $1.34M plus 9% equity: Florida startup to launch world’s first AI review search engine in 2026"
+          },
+          {
+            "tag": "h5",
+            "text": "How to Rank in AI Search in 2026: The New AI Ranking Signals"
+          },
+          {
+            "tag": "h5",
+            "text": "Top 50 AI Predictions for 2026: How Intelligence Will Redefine Humanity, Power, Money, Truth, and Purpose"
+          },
+          {
+            "tag": "h5",
+            "text": "The hidden risk of .AI domains: How a small naming choice can damage your brand identity, security, and a startup’s future"
+          },
+          {
+            "tag": "h5",
+            "text": "AI Agents Horror Stories: How a $47,000 AI Agent Failure Exposed the Hype and Hidden Risks of Multi-Agent Systems"
+          },
+          {
+            "tag": "h5",
+            "text": "The Future of Design: How CAD Software Is Shaping the Next Wave of Innovation"
+          },
+          {
+            "tag": "h5",
+            "text": "Are We Really Ready for Vibe Coding?"
+          },
+          {
+            "tag": "h5",
+            "text": "Has AI finally come for white-collar jobs? The real story behind corporate America’s mass layoffs"
+          },
+          {
+            "tag": "h5",
+            "text": "20 Essential Questions to Ask Yourself Before Starting a Business (and Why They Matter)"
+          },
+          {
+            "tag": "h5",
+            "text": "Tech Layoffs 2025: Comprehensive List, Trends, and What They Mean for the Industry"
+          },
+          {
+            "tag": "h5",
+            "text": "Unpopular Ideas That Became Billion-Dollar Businesses"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Startups to Watch in 2025"
+          },
+          {
+            "tag": "h5",
+            "text": "Follow the money: How OpenAI became the $500B hub of AI ecosystem — and why it could all come crashing down"
+          },
+          {
+            "tag": "h5",
+            "text": "Recently Funded Startups"
+          },
+          {
+            "tag": "h5",
+            "text": "AI bubble warnings grow louder: Investors sound alarm on sky-high startup valuations"
+          },
+          {
+            "tag": "h5",
+            "text": "Top 10 Tech News Sites to Follow in 2025"
+          },
+          {
+            "tag": "h5",
+            "text": "The Top 10 AI Startups Are Now Worth Over $1 Trillion: Are We in a Bubble?"
+          },
+          {
+            "tag": "h5",
+            "text": "Featured Posts"
+          },
+          {
+            "tag": "h5",
+            "text": "Applied Compute, AI startup founded by ex-OpenAI researchers, in talks to raise funds at $1.3B valuation just months after $500M round"
+          },
+          {
+            "tag": "h5",
+            "text": "Top Startup and Tech Funding News – January 15, 2025"
+          },
+          {
+            "tag": "h5",
+            "text": "Brazilian fintech startup PicPay targets $2.46B valuation, plans to raise $434M in long-awaited US IPO"
+          },
+          {
+            "tag": "h5",
+            "text": "AI startup Humans& raises $480M seed at $4.48B valuation as former OpenAI and Google researchers launch frontier AI lab"
+          },
+          {
+            "tag": "h5",
+            "text": "Legato raises $7M to let business users build AI apps inside SaaS platforms"
+          },
+          {
+            "tag": "h5",
+            "text": "Emergent raises $70M Series B led by Khosla and SoftBank as AI ‘vibe coding’ startup hits $50M ARR in just 7 months"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 14,
+          "headings": 62,
+          "images": 95
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-19B8FB90",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-973132A7",
+      "path": "/executive-interviews/",
+      "type": "Detected Link",
+      "anchor_text": "Executive Interviews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC916BFB",
+      "path": "/topics/",
+      "type": "Detected Link",
+      "anchor_text": "Topics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DD8EEC24",
+      "path": "/startups/",
+      "type": "Detected Link",
+      "anchor_text": "Search Startups",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3BD8B4E1",
+      "path": "/startup-jobs/",
+      "type": "Detected Link",
+      "anchor_text": "Startup Jobs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-28D285D5",
+      "path": "/get-featured/",
+      "type": "Detected Link",
+      "anchor_text": "Advertise",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0D3875A8",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1EB7D6D",
+      "path": "/trust-safety/",
+      "type": "Detected Link",
+      "anchor_text": "Trust &#038; Safety",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E75384A4",
+      "path": "/editorial-policy/",
+      "type": "Detected Link",
+      "anchor_text": "Editorial Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E4A19C2C",
+      "path": "/startups/topstartups/",
+      "type": "Detected Link",
+      "anchor_text": "Top Startups",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-69497D1A",
+      "path": "/startups/startups-list/",
+      "type": "Detected Link",
+      "anchor_text": "Startup List",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-594C1EC3",
+      "path": "/startups/register",
+      "type": "Detected Link",
+      "anchor_text": "Submit Your Startup",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D907DA1",
+      "path": "/category/product-reviews/",
+      "type": "Detected Link",
+      "anchor_text": "Product Reviews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1E99C41B",
+      "path": "/startup-resources/",
+      "type": "Detected Link",
+      "anchor_text": "Tools",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-68877E72",
+      "path": "/free-startup-valuation-calculator/",
+      "type": "Detected Link",
+      "anchor_text": "Free Startup Valuation Calculator",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

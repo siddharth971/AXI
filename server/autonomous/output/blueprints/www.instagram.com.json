@@ -1,0 +1,127 @@
+{
+  "website_blueprint_id": "BLUEPRINT-81BAA2BD",
+  "generated_at": "2026-01-21T07:26:54.034Z",
+  "global_configuration": {
+    "brand_name": "Instagram",
+    "domain": "www.instagram.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "57.144.242.34",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, no-store, must-revalidate",
+      "Content-Security-Policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-9YxPSKo8' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 10,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/rsrc.php/v4/yc/r/kZIWRMr0Ejj.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yc/r/kZIWRMr0Ejj.js"
+      },
+      {
+        "path": "/rsrc.php/v4isFF4/yX/l/en_US/Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4isFF4/yX/l/en_US/Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js"
+      },
+      {
+        "path": "/rsrc.php/v4icC04/yZ/l/en_US/oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4icC04/yZ/l/en_US/oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js"
+      },
+      {
+        "path": "/rsrc.php/v4i4ie4/yB/l/en_US/iS8hKs0iZLcPdh6TE07DYWRS-cbBOFNDizNitcNmjzg85c7KLt28ql-HiBt345roCHmXobQCjt_LW7odNDboPV5npAPD1lKi-HuLJooCvHSGmUXAqzp11_JpCjVFN0Hu8tpfgJLVGXUtO-wmir9eUdaRYlob71UEQqS5RURslw2ahJKfVgk7ySpQwUA-kuIe3-bMjreg9Aiyyn9UyLAAXUtRnPF5ozoFpj-99G3ZbcAadIh9AlI5UJhVmcDu8onn-JtdZ7PJJKS5kV2YdYQdwwreCs1Ls2KeHWrECl3_nVHsl91YGT8h2Jc9FVqcd252S-KrBJoNka.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i4ie4/yB/l/en_US/iS8hKs0iZLcPdh6TE07DYWRS-cbBOFNDizNitcNmjzg85c7KLt28ql-HiBt345roCHmXobQCjt_LW7odNDboPV5npAPD1lKi-HuLJooCvHSGmUXAqzp11_JpCjVFN0Hu8tpfgJLVGXUtO-wmir9eUdaRYlob71UEQqS5RURslw2ahJKfVgk7ySpQwUA-kuIe3-bMjreg9Aiyyn9UyLAAXUtRnPF5ozoFpj-99G3ZbcAadIh9AlI5UJhVmcDu8onn-JtdZ7PJJKS5kV2YdYQdwwreCs1Ls2KeHWrECl3_nVHsl91YGT8h2Jc9FVqcd252S-KrBJoNka.js"
+      },
+      {
+        "path": "/rsrc.php/v4iwdB4/yl/l/en_US/g7QMfJp1Z3S58MmuUb56tv183ga8OFgW6iRQrrR3ehHOWLVVMi6K97H9eesRmlBTBmlMmrcpgIvtJNQX4kV11SE034vR_JmyDuF7v9DcqDTVyqSPtRA23PfY35jytavk6EOKmese8PpaA6Y0yWe7EM9mc_C2PgpwpQ1In2glcbDdS9Ybe1hUfH2enbIsiDtUWwwLlTgHhIBbfAoP4FrJA0UCwye4W7gB1rftyEfTMMsiJC02ez.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iwdB4/yl/l/en_US/g7QMfJp1Z3S58MmuUb56tv183ga8OFgW6iRQrrR3ehHOWLVVMi6K97H9eesRmlBTBmlMmrcpgIvtJNQX4kV11SE034vR_JmyDuF7v9DcqDTVyqSPtRA23PfY35jytavk6EOKmese8PpaA6Y0yWe7EM9mc_C2PgpwpQ1In2glcbDdS9Ybe1hUfH2enbIsiDtUWwwLlTgHhIBbfAoP4FrJA0UCwye4W7gB1rftyEfTMMsiJC02ez.js"
+      },
+      {
+        "path": "/rsrc.php/v4/yt/r/Fa4ewEREhpK.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yt/r/Fa4ewEREhpK.js"
+      },
+      {
+        "path": "/rsrc.php/v4i-wR4/yY/l/en_US/HUyGhp2hnTf.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i-wR4/yY/l/en_US/HUyGhp2hnTf.js"
+      },
+      {
+        "path": "/rsrc.php/v4i1kT4/y7/l/en_US/brpF2_1SeOr.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i1kT4/y7/l/en_US/brpF2_1SeOr.js"
+      },
+      {
+        "path": "/rsrc.php/v4/ya/r/9Xl2mFLh9Xm.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/ya/r/9Xl2mFLh9Xm.js"
+      },
+      {
+        "path": "/rsrc.php/v5/yv/l/0,cross/X5cTAC-ZZdiKdB4_XLRjb04ii9UsU3Wbpjf5WKOK0BZU_CeKo1gBhPdfgQe914iiBfONMKn3YhINqU49pVNahkCkQvuWABIjhhRs97xFZK--hBruhBENOpKm_.css",
+        "type": "stylesheet",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v5/yv/l/0,cross/X5cTAC-ZZdiKdB4_XLRjb04ii9UsU3Wbpjf5WKOK0BZU_CeKo1gBhPdfgQe914iiBfONMKn3YhINqU49pVNahkCkQvuWABIjhhRs97xFZK--hBruhBENOpKm_.css"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Instagram",
+        "description": "Create an account or log in to Instagram - Share what you&#039;re into with the people who get you.",
+        "canonical": "https://www.instagram.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "611ms"
+        },
+        {
+          "resource": "kZIWRMr0Ejj.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 0,
+          "images": 2
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

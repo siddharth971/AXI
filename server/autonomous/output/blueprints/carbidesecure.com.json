@@ -1,0 +1,791 @@
+{
+  "website_blueprint_id": "BLUEPRINT-03F01CBB",
+  "generated_at": "2026-01-21T07:27:13.159Z",
+  "global_configuration": {
+    "brand_name": "Compliance Automation and Risk Management Software",
+    "domain": "carbidesecure.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "34.121.94.228",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 70,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/libs/jquery.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/libs/jquery.min.js"
+      },
+      {
+        "path": "/2549062.js",
+        "type": "script",
+        "full_url": "https://js.hs-scripts.com/2549062.js?integration=WordPress"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/plugins.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/plugins.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/script.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/themes/carbide_custom/js/script.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/dom-ready.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/dom-ready.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/hooks.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/i18n.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/a11y.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-includes/js/dist/a11y.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/jquery.json.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/jquery.json.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/gravityforms.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/gravityforms.min.js"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?hl=en#038;render=explicit"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js"
+      },
+      {
+        "path": "/wp-content/cache/w3-cache/js/432/wp-content/cache/w3-cache/js/custom_js_after_load.js",
+        "type": "script",
+        "full_url": "https://carbidesecure.com/wp-content/cache/w3-cache/js/432/wp-content/cache/w3-cache/js/custom_js_after_load.js"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-platform.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-platform.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/Cloud-Monitoring-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/12/Cloud-Monitoring-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/validate-audit-connect.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/validate-audit-connect.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/platform-pen-test.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2023/03/platform-pen-test.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/trust-center-icon.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2024/01/trust-center-icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/carbide-customers.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2024/06/carbide-customers.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/Group-1-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/12/Group-1-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/Group-2.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/12/Group-2.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/Group-2-5.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/12/Group-2-5.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/Group-2-4.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/12/Group-2-4.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/additional-frameworks.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2024/06/additional-frameworks.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-resources-posts.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-resources-posts.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-resources.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-resources.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-blog.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-blog.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-videos.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-videos.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-ebooks.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-ebooks.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-news.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-news.svg"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/02/Buyers-Guide-to-Security-Compliance-Solutions-1.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/02/Buyers-Guide-to-Security-Compliance-Solutions-1.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/04_evolve-partner-ecosystem.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/04_evolve-partner-ecosystem.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/msp-partnerships-overlap.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2023/06/msp-partnerships-overlap.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/carbide-careers-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/carbide-careers-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/design-asset-manager.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/design-asset-manager.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/carbide-company.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2023/10/carbide-company.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/soc.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/soc.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/hipaa.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/hipaa.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/iso.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/iso.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/gdpr.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/gdpr.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/pci-dss.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/pci-dss.svg"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2022/10/Carbide-NIST-800-171-1.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2022/10/Carbide-NIST-800-171-1.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/Carbide-NIST-800-53-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/10/Carbide-NIST-800-53-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/pipeda.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/pipeda.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/ccpa.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/ccpa.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/04/Carbide-CIS.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/04/Carbide-CIS.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/Carbide-CMMC-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/10/Carbide-CMMC-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/Carbide-CCCS-v1.2-small.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/11/Carbide-CCCS-v1.2-small.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/expert-guidance.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/expert-guidance.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/platform-design-planning.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/platform-design-planning.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/implement-progress-dashboard.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/implement-progress-dashboard.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/pilot-icon.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2023/10/pilot-icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/01/wondermd-video-thumbnail-format-630x390.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/01/wondermd-video-thumbnail-format-630x390.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/04/Compliance-Frameworks-multi-compliance-1-630x451.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/04/Compliance-Frameworks-multi-compliance-1-630x451.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/04/Project-Management-Tasks-630x452.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/04/Project-Management-Tasks-630x452.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/04/Automation-Integrations-630x452.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/04/Automation-Integrations-630x452.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/w3-webp/uploads/2025/04/Compliance-Controls-630x452.png.webp",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/w3-webp/uploads/2025/04/Compliance-Controls-630x452.png.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/multi-compliance.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/multi-compliance.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/focus.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/focus.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/wizard-driven.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/wizard-driven.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/self-directed-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/self-directed-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/book-a-demo-cta-1.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/book-a-demo-cta-1.svg"
+      },
+      {
+        "path": "/wp-content/themes/carbide_custom/images/carbide-logo-dark-v2.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/themes/carbide_custom/images/carbide-logo-dark-v2.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/soc-logo.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2022/01/soc-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/TMU_Canadian-Cyber-Logo_bilingual-blue.svg",
+        "type": "image",
+        "full_url": "https://carbidesecure.com/wp-content/uploads/2025/06/TMU_Canadian-Cyber-Logo_bilingual-blue.svg"
+      },
+      {
+        "path": "/products/carbide/widgets/stars",
+        "type": "image",
+        "full_url": "https://www.g2.com/products/carbide/widgets/stars?color=white&amp;type=reviews"
+      },
+      {
+        "path": "/collect/",
+        "type": "image",
+        "full_url": "https://px.ads.linkedin.com/collect/?pid=2799865&fmt=gif"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Compliance Automation and Risk Management Software | Carbide",
+        "description": "Use Carbide&#039;s compliance automation software to accelerate audits and prove security posture in various regions. Contact us for a free consultation.",
+        "canonical": "https://carbidesecure.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7229ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "2549062.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "plugins.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Get Compliant. Prove It. Win More Deals. Scale Securely.",
+          "h2_subtitle": "Get expert guidance and smart tools to launch or level up your security and compliance efforts without the complexity.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "True Security - Not Smoke &amp; Mirrors for an Audit",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Trust Makes or Breaks Deals",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Match your cybersecurity program with your resources",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h5",
+            "text": "Get a free consultation with our security experts"
+          },
+          {
+            "tag": "p",
+            "text": "Our advisory team and automated platform are here to speed your path to compliance and provide continuous support for audits and beyond."
+          },
+          {
+            "tag": "h5",
+            "text": "Need a different framework?"
+          },
+          {
+            "tag": "p",
+            "text": "Carbide can be customized to your compliance/regulatory requirements."
+          },
+          {
+            "tag": "h5",
+            "text": "Buyers Guide to Security and Compliance Solutions"
+          },
+          {
+            "tag": "p",
+            "text": "A buyer’s guide to turning information security into your competitive edge"
+          },
+          {
+            "tag": "h1",
+            "text": "Get Compliant. Prove It. Win More Deals. Scale Securely."
+          },
+          {
+            "tag": "h3",
+            "text": "Get expert guidance and smart tools to launch or level up your security and compliance efforts without the complexity."
+          },
+          {
+            "tag": "h5",
+            "text": "Choose From 20+ Security &amp; Privacy Frameworks"
+          },
+          {
+            "tag": "h2",
+            "text": "True Security - Not Smoke &amp; Mirrors for an Audit"
+          },
+          {
+            "tag": "p",
+            "text": "Compliance checklists might get you through one audit, but without deliberate design to sustain best practices, you’ll end up with security debt that multiplies with each new regulation and vendor review."
+          },
+          {
+            "tag": "p",
+            "text": "Our leading platform uniquely combines software automation with expert in-house services to help you get secure and maintain compliance for the long term. Here’s how we help companies, wherever they are on their security journey:"
+          },
+          {
+            "tag": "h3",
+            "text": "Get Compliant, Stay Secure"
+          },
+          {
+            "tag": "p",
+            "text": "Our hands-on approach embeds best practices into your organization, giving you a strong security program that scales with your business and passes audits with flying colors."
+          },
+          {
+            "tag": "h3",
+            "text": "Automate &amp; Unburden Your Team"
+          },
+          {
+            "tag": "p",
+            "text": "Carbide’s platform handles policy creation, evidence collection, cloud monitoring, and more — saving you time, reducing errors, and boosting confidence in your security program."
+          },
+          {
+            "tag": "h3",
+            "text": "Don't Duplicate Work"
+          },
+          {
+            "tag": "p",
+            "text": "With framework overlaps built into the Carbide platform, all of your existing work carries forward to meet new security and privacy demands – no heavy lifting required."
+          },
+          {
+            "tag": "h3",
+            "text": "Navigate Your Next Audit with Confidence"
+          },
+          {
+            "tag": "p",
+            "text": "Do you need expertise and bandwidth? Carbide’s Fractional CISO program helps you understand how to build an effective security program through hands-on workshops, expert consulting, and the industry’s first shared responsibility model."
+          },
+          {
+            "tag": "h3",
+            "text": "Automate Where You Can, Streamline Where You Can’t"
+          },
+          {
+            "tag": "p",
+            "text": "Automatically pull control evidence from your existing tech stack — thanks to 100+ integrations. And for everything else, our platform and expert guidance ensure nothing slips through the cracks."
+          },
+          {
+            "tag": "p",
+            "text": "Why Carbide? “One of the beautiful things about Carbide is that it is a flexible system. It can allow us to identify security concerns at an early stage, work with regulators, and meet compliance standards in a proper manner.\""
+          },
+          {
+            "tag": "h5",
+            "text": "Security &amp; Privacy Experts Ready to Help"
+          },
+          {
+            "tag": "h3",
+            "text": "A hybrid approach to security; expert guidance plus an automated platform for true security"
+          },
+          {
+            "tag": "h5",
+            "text": "Enterprise-Grade Security That Fits Your Budget"
+          },
+          {
+            "tag": "h2",
+            "text": "Trust Makes or Breaks Deals"
+          },
+          {
+            "tag": "p",
+            "text": "Build and maintain trust with your customers with our security-first approach. Carbide breaks down enterprise-grade security and privacy requirements into simple tasks that can be completed by non-technical experts. After all, not everyone is a CISO."
+          },
+          {
+            "tag": "p",
+            "text": "With Carbide, you&#8217;ll adopt security and privacy best practices that give you the foundation to match every compliance need, not just one."
+          },
+          {
+            "tag": "p",
+            "text": "Our plans combine the power of the Carbide platform with hands-on, expert support and guidance to take the guesswork out of meeting compliance requirements."
+          },
+          {
+            "tag": "p",
+            "text": "Carbide saves you time and effort, making it easier to prioritize security without delaying your other priorities."
+          },
+          {
+            "tag": "p",
+            "text": "With a few quick questions, Carbide will automatically generate customized policies and an implementation plan that’s right for you."
+          },
+          {
+            "tag": "h2",
+            "text": "Match your cybersecurity program with your resources"
+          },
+          {
+            "tag": "p",
+            "text": "Whether you have FTEs dedicated to security and privacy or none at all, Carbide keeps your program on track so you can quickly expand to new markets and new opportunities."
+          },
+          {
+            "tag": "h3",
+            "text": "Self-Directed"
+          },
+          {
+            "tag": "p",
+            "text": "If you’ve got dedicated security and privacy expertise and resources internally, check out how the Carbide Platform streamlines, automates, and simplifies security and privacy program management."
+          },
+          {
+            "tag": "h3",
+            "text": "Expert-Guided"
+          },
+          {
+            "tag": "p",
+            "text": "If your team’s already wearing too many hats, turn to us to help keep your efforts on track. We have expert-led plans and a unique shared responsibility model that gives you access to security and privacy advisors that provide guidance, timelines, and structure around your initiative."
+          },
+          {
+            "tag": "h5",
+            "text": "Stay up-to-date on all things Carbide"
+          },
+          {
+            "tag": "p",
+            "text": "Get expert security &amp; privacy guidance delivered straight to your inbox."
+          },
+          {
+            "tag": "p",
+            "text": "By checking this box, you agree to receive newsletters, product updates, and marketing emails from Carbide. You can unsubscribe at any time. For details, see our Privacy Notice."
+          },
+          {
+            "tag": "h5",
+            "text": "What We Do"
+          },
+          {
+            "tag": "h5",
+            "text": "Frameworks"
+          },
+          {
+            "tag": "h5",
+            "text": "Resources"
+          },
+          {
+            "tag": "h5",
+            "text": "Company"
+          },
+          {
+            "tag": "p",
+            "text": "Back to Top Carbide &copy; 2026. All rights reserved. We value your privacy. This website uses cookie to ensure you get the best experience on our website."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 29,
+          "headings": 25,
+          "images": 84
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-3A219E4B",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Carbide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E6C3F375",
+      "path": "/free-consultation/",
+      "type": "Detected Link",
+      "anchor_text": "Book your free consult",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1EAA44D7",
+      "path": "/company/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DD8F7D44",
+      "path": "/resources/security-and-compliance-solutions-for-startups-and-high-growth-companies/",
+      "type": "Detected Link",
+      "anchor_text": "Get the guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57CB9FA4",
+      "path": "/product/subscription-plans/",
+      "type": "Detected Link",
+      "anchor_text": "Pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E493D6CC",
+      "path": "/product/platform/",
+      "type": "Detected Link",
+      "anchor_text": "Learn more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F4A5B77C",
+      "path": "/frameworks/",
+      "type": "Detected Link",
+      "anchor_text": "Learn more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-68918639",
+      "path": "/product/integrations/",
+      "type": "Detected Link",
+      "anchor_text": "Learn more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C9FE41AB",
+      "path": "/book-a-demo/",
+      "type": "Detected Link",
+      "anchor_text": "See Carbide in action",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-54768520",
+      "path": "/company/trust-center/",
+      "type": "Detected Link",
+      "anchor_text": "Trust Center",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A07D0464",
+      "path": "/product/cloud-monitoring/",
+      "type": "Detected Link",
+      "anchor_text": "Cloud Monitoring",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DC9A3A9B",
+      "path": "/product/penetration-test/",
+      "type": "Detected Link",
+      "anchor_text": "Penetration Testing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6BE0A60C",
+      "path": "/frameworks/ccpa-compliance/",
+      "type": "Detected Link",
+      "anchor_text": "CCPA",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-16F68249",
+      "path": "/frameworks/cccs-framework-compliance/",
+      "type": "Detected Link",
+      "anchor_text": "CCCS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-577E279F",
+      "path": "/frameworks/cmmc-compliance/",
+      "type": "Detected Link",
+      "anchor_text": "CMMC",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

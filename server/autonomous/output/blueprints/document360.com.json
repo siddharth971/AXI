@@ -1,0 +1,666 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C7DA3C6E",
+  "generated_at": "2026-01-21T07:26:54.669Z",
+  "global_configuration": {
+    "brand_name": "Document360: Centralize Your Documentation for Better Self",
+    "domain": "document360.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.10",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "frame-ancestors 'self'",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 5,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/themes/document360/css/bootstrap.min.css",
+        "type": "stylesheet",
+        "full_url": "https://document360.com/wp-content/themes/document360/css/bootstrap.min.css"
+      },
+      {
+        "path": "/wp-content/themes/document360/css/essentials-min.css",
+        "type": "stylesheet",
+        "full_url": "https://document360.com/wp-content/themes/document360/css/essentials-min.css"
+      },
+      {
+        "path": "/wp-content/themes/document360/css/document360-min.css",
+        "type": "stylesheet",
+        "full_url": "https://document360.com/wp-content/themes/document360/css/document360-min.css"
+      },
+      {
+        "path": "/rLpJsPUzYfyLnxRWWmzyWdCZYRPoOLYJ/assets/images/optimized/rev-65558f5/document360.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+        "type": "image",
+        "full_url": "https://cdn-ilegghe.nitrocdn.com/rLpJsPUzYfyLnxRWWmzyWdCZYRPoOLYJ/assets/images/optimized/rev-65558f5/document360.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg"
+      },
+      {
+        "path": "/tr",
+        "type": "image",
+        "full_url": "https://www.facebook.com/tr?id=254318055165816&ev=PageView&noscript=1&cd%5Bpage_title%5D=Home+Page&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=5&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=document360.com%2F"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Document360: Centralize Your Documentation for Better Self-Service",
+        "description": "Create, manage, and publish knowledge bases, guides, manuals, and SOPs with an AI-powered documentation platform built for teams and customers",
+        "canonical": "https://document360.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "16031ms"
+        },
+        {
+          "resource": "bootstrap.min.css",
+          "latency": "pending"
+        },
+        {
+          "resource": "essentials-min.css",
+          "latency": "pending"
+        },
+        {
+          "resource": "document360-min.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Centralized DocumentationInstant Answers to Customers & Teams",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Trusted by thousands of businesses across 150+ countries",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "All your Docs Secure, Organised & Searchable",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Turn ideas into documents with Eddy AI",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Core Product"
+          },
+          {
+            "tag": "p",
+            "text": "Portal For Editors, Writers, and Reviewers Site For Customers and Employees Industry Leading Features"
+          },
+          {
+            "tag": "p",
+            "text": "Pro Analytics Custom Workflow Builder Support Ticket Deflector Integrations Dashboard Site Customization SEO Customization API Support Media Storage Interactive Decision Tree AI Premium Suite Explore all features Into the Future"
+          },
+          {
+            "tag": "h5",
+            "text": "Eddy AI"
+          },
+          {
+            "tag": "p",
+            "text": "Make your documentation lifecycle easier with generative AI."
+          },
+          {
+            "tag": "p",
+            "text": "Technical Writing with AI Generate clear, structured content and write better."
+          },
+          {
+            "tag": "p",
+            "text": "Solutions by use case"
+          },
+          {
+            "tag": "p",
+            "text": "Internal Knowledge Base External Knowledge Base Software Documentation SOP User Manual API Documentation by industry"
+          },
+          {
+            "tag": "p",
+            "text": "SaaS Documentation for your product IT &#038; Consulting Deliver faster client service Financial Services Reduce everyday operational risks Healthcare Provide better patient support Education Student &#038; faculty knowledge sharing Manufacturing Faster access, better decisions by Roles"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Support Technical Writing Product Management Engineering AI Resources Users & industry experts"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Stories Podcast Webinars Global Writers Awards NEW Education"
+          },
+          {
+            "tag": "p",
+            "text": "Blog eBooks Guides Tutorials help & services"
+          },
+          {
+            "tag": "p",
+            "text": "Product Documentation Document360 Support Migration Request Partners from our blog"
+          },
+          {
+            "tag": "h5",
+            "text": "Writing Documentation for Humans and AI: Insi..."
+          },
+          {
+            "tag": "p",
+            "text": "In this episode of the Knowledge Base Ninjas podcast, Sakshi talk..."
+          },
+          {
+            "tag": "p",
+            "text": "11 Mins Read"
+          },
+          {
+            "tag": "h5",
+            "text": "Document360’s 2025: Milestones, Moments, an..."
+          },
+          {
+            "tag": "p",
+            "text": "2025 for Document360 was definitely not just another year. It was..."
+          },
+          {
+            "tag": "p",
+            "text": "11 Mins Read"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise Pricing EN PT-BR FR ES DE Login Start free trial Book a demo Features Core Product"
+          },
+          {
+            "tag": "p",
+            "text": "Portal For Editors, Writers, and Reviewers Site For Customers and Employees Industry Leading Features"
+          },
+          {
+            "tag": "p",
+            "text": "Pro Analytics Custom Workflow Builder Support Ticket Deflector Integrations Dashboard Site Customization SEO Customization API Support Media Storage Interactive Decision Tree AI Premium Suite Explore all features Into the Future"
+          },
+          {
+            "tag": "h5",
+            "text": "Eddy AI"
+          },
+          {
+            "tag": "p",
+            "text": "Make your documentation lifecycle easier with generative AI."
+          },
+          {
+            "tag": "p",
+            "text": "Technical Writing with AI Generate clear, structured content and write better."
+          },
+          {
+            "tag": "p",
+            "text": "Solutions Use Cases"
+          },
+          {
+            "tag": "p",
+            "text": "Internal Knowledge Base External Knowledge Base Software Documentation SOP User Manual API Documentation by industry"
+          },
+          {
+            "tag": "p",
+            "text": "SaaS Documentation for your product IT &#038; Consulting Deliver faster client service Financial Services Reduce everyday operational risks Healthcare Provide better patient support Education Student &#038; faculty knowledge sharing Manufacturing Faster access, better decisions by Roles"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Support Technical Writing Product Management Engineering AI For Readers"
+          },
+          {
+            "tag": "p",
+            "text": "AI Search Find accurate answers instantly Article Summarizer Save time with quick summaries AI Chatbot Automate customer support responses Text to Audio Converter Listen to content anytime For Writers"
+          },
+          {
+            "tag": "p",
+            "text": "AI Writing Agent Docs from prompts, videos &#038; more Duplicate Content Detection Detect content duplication with accuracy Glossary Generator Simplify complex terms automatically FAQ Generator Generate helpful FAQs instantly Resources Users & industry experts"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Stories Podcast Webinars Global Writers Awards NEW Education"
+          },
+          {
+            "tag": "p",
+            "text": "Blog eBooks Guides Tutorials help & services"
+          },
+          {
+            "tag": "p",
+            "text": "Product Documentation Document360 Support Migration Request Partners from our blog"
+          },
+          {
+            "tag": "h5",
+            "text": "Writing Documentation for Humans and AI: Insi..."
+          },
+          {
+            "tag": "p",
+            "text": "In this episode of the Knowledge Base Ninjas podcast, Sakshi talk..."
+          },
+          {
+            "tag": "p",
+            "text": "11 Mins Read"
+          },
+          {
+            "tag": "h5",
+            "text": "Document360’s 2025: Milestones, Moments, an..."
+          },
+          {
+            "tag": "p",
+            "text": "2025 for Document360 was definitely not just another year. It was..."
+          },
+          {
+            "tag": "p",
+            "text": "11 Mins Read"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise Pricing EN PT-BR FR ES DE Login Start free trial Book a demo Request Demo Switch from Word & PDF to modern docs that are structured, searchable, and secure"
+          },
+          {
+            "tag": "h1",
+            "text": "Centralized Documentation Instant Answers to Customers & Teams"
+          },
+          {
+            "tag": "p",
+            "text": "Create, publish, and manage knowledge bases, step-by-step guides, user manuals & SOPs with a complete AI-powered documentation suite."
+          },
+          {
+            "tag": "p",
+            "text": "Watch Video Trusted by thousands of businesses across 150+ countries All your Docs Secure, Organised & Searchable Knowledge Base Documentation User Manuals SOPs Step-by-Step Guide Switch from Word, Docs & PDFs"
+          },
+          {
+            "tag": "p",
+            "text": "4.7/5 rating on Capterra"
+          },
+          {
+            "tag": "p",
+            "text": "Leader on"
+          },
+          {
+            "tag": "p",
+            "text": "Turn ideas into documents with Eddy AI AI Search Deliver instant, ChatGPT-style answers that get straight to the point, saving your customers from raising a support ticket."
+          },
+          {
+            "tag": "p",
+            "text": "AI Writing Agent Generate a complete, step-by-step documentation just by uploading a video, text file, audio, or prompt."
+          },
+          {
+            "tag": "p",
+            "text": "AI Chatbot Deliver 24/7 support using a smart, documentation-driven chatbot that reduces support costs."
+          },
+          {
+            "tag": "p",
+            "text": "AI Glossary Bridge the knowledge gap by auto-generating glossaries that simplifies technical jargon."
+          },
+          {
+            "tag": "p",
+            "text": "Text to Audio Convert your documents to natural-sounding audio so users can listen to them anytime, anywhere."
+          },
+          {
+            "tag": "p",
+            "text": "Article Summarizer Turn complex documents into clear, concise summaries so customers & support teams get answers faster."
+          },
+          {
+            "tag": "h2",
+            "text": "Drive real documentation results"
+          },
+          {
+            "tag": "h3",
+            "text": "Reduce Support Tickets"
+          },
+          {
+            "tag": "p",
+            "text": "Relevant FAQs and AI Search help customers find answers instantly, reducing inbound tickets by 30%."
+          },
+          {
+            "tag": "h3",
+            "text": "Cost Saving"
+          },
+          {
+            "tag": "p",
+            "text": "Intelligent automation trims down support costs by up to 40%, without compromising service quality."
+          },
+          {
+            "tag": "h3",
+            "text": "Reduced SLA"
+          },
+          {
+            "tag": "p",
+            "text": "AI search delivers accurate answers in under a minute, drastically improving SLA compliance."
+          },
+          {
+            "tag": "h2",
+            "text": "Our customers say it best"
+          },
+          {
+            "tag": "p",
+            "text": "30% reduced support calls The positive impact can be also demonstrated by the decrease in number of support calls received by the IT helpdesk, where 30% fewer calls per week were recorded compared to the period prior to the knowledge base implementation."
+          },
+          {
+            "tag": "h4",
+            "text": "Dr. Karim Seghir"
+          },
+          {
+            "tag": "p",
+            "text": "Chancellor, Ajman University"
+          },
+          {
+            "tag": "p",
+            "text": "30% increase in traffic to documentation site. With Document360's advanced analytics, SafeBreach gained insights to refine its content strategy further. It has led to a 30% increase in traffic to their documentation site."
+          },
+          {
+            "tag": "h4",
+            "text": "Gideon Behrensmeyer"
+          },
+          {
+            "tag": "p",
+            "text": "Head of Product Training and knowledge, SafeBreach"
+          },
+          {
+            "tag": "p",
+            "text": "15% reduced support tickets The implementation of Document360 resulted in a notable 15% reduction in support tickets than we had the year before."
+          },
+          {
+            "tag": "h4",
+            "text": "Thibaut De Robien"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Fastmag"
+          },
+          {
+            "tag": "h2",
+            "text": "Connect your tech stack"
+          },
+          {
+            "tag": "p",
+            "text": "Search & share support content without leaving Freshdesk."
+          },
+          {
+            "tag": "p",
+            "text": "Search for any help docs within Salesforce using AI Search."
+          },
+          {
+            "tag": "p",
+            "text": "Manage queries & access help docs directly from Zendesk."
+          },
+          {
+            "tag": "h2",
+            "text": "Made with Document360"
+          },
+          {
+            "tag": "p",
+            "text": "Gong"
+          },
+          {
+            "tag": "p",
+            "text": "Airtable"
+          },
+          {
+            "tag": "p",
+            "text": "Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "Soothe"
+          },
+          {
+            "tag": "p",
+            "text": "Sisense"
+          },
+          {
+            "tag": "p",
+            "text": "Gong"
+          },
+          {
+            "tag": "p",
+            "text": "Airtable"
+          },
+          {
+            "tag": "p",
+            "text": "Whatfix"
+          },
+          {
+            "tag": "p",
+            "text": "Soothe"
+          },
+          {
+            "tag": "p",
+            "text": "Sisense"
+          },
+          {
+            "tag": "h2",
+            "text": "One platform to solve all your knowledge base challenges"
+          },
+          {
+            "tag": "p",
+            "text": "Why Document360?"
+          },
+          {
+            "tag": "p",
+            "text": "of users say Document360 is easy to use."
+          },
+          {
+            "tag": "p",
+            "text": "of users say Document360 met their business requirement."
+          },
+          {
+            "tag": "h3",
+            "text": "11 Months"
+          },
+          {
+            "tag": "p",
+            "text": "is all it took our users to drive a positive return on investment."
+          },
+          {
+            "tag": "h5",
+            "text": "Product"
+          },
+          {
+            "tag": "h5",
+            "text": "Features"
+          },
+          {
+            "tag": "h5",
+            "text": "Support"
+          },
+          {
+            "tag": "h5",
+            "text": "Contact us"
+          },
+          {
+            "tag": "p",
+            "text": "Rating 4.7 (3000+) About us | Our Culture | Careers"
+          },
+          {
+            "tag": "p",
+            "text": "Terms | Privacy policy | Cookie policy | SOC 2"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 211,
+          "headings": 62,
+          "images": 77
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-71F0E090",
+      "path": "/knowledgebase-portal/",
+      "type": "Detected Link",
+      "anchor_text": "Portal For Editors, Writers, and Reviewers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-98BFFAB5",
+      "path": "/knowledgebase-site/",
+      "type": "Detected Link",
+      "anchor_text": "SiteFor Customers and Employees",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7C71F144",
+      "path": "/knowledgebase-portal/analytics/",
+      "type": "Detected Link",
+      "anchor_text": "Pro Analytics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7598F326",
+      "path": "/knowledgebase-portal/workflow/",
+      "type": "Detected Link",
+      "anchor_text": "Custom Workflow Builder",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8A0B46B1",
+      "path": "/knowledgebase-portal/ticket-deflector/",
+      "type": "Detected Link",
+      "anchor_text": "Support Ticket Deflector",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-52E2D3F5",
+      "path": "/integrations/",
+      "type": "Detected Link",
+      "anchor_text": "Integrations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DF0C13BA",
+      "path": "/dashboard/",
+      "type": "Detected Link",
+      "anchor_text": "Dashboard",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1CB6CDC",
+      "path": "/customization/",
+      "type": "Detected Link",
+      "anchor_text": "Site Customization",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EF5A84C9",
+      "path": "/knowledgebase-portal/seo/",
+      "type": "Detected Link",
+      "anchor_text": "SEO Customization",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-561C6689",
+      "path": "/api-support/",
+      "type": "Detected Link",
+      "anchor_text": "API Support",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-10C96F6C",
+      "path": "/knowledgebase-portal/drive/",
+      "type": "Detected Link",
+      "anchor_text": "Media Storage",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-21AF109B",
+      "path": "/knowledgebase-portal/interactive-decision-tree/",
+      "type": "Detected Link",
+      "anchor_text": "Interactive Decision Tree",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8B86A816",
+      "path": "/ai-premium-suite/",
+      "type": "Detected Link",
+      "anchor_text": "AI Premium Suite",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-983918B5",
+      "path": "/all-features/",
+      "type": "Detected Link",
+      "anchor_text": "Explore all features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DFA545CE",
+      "path": "/ai/",
+      "type": "Detected Link",
+      "anchor_text": "Read more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

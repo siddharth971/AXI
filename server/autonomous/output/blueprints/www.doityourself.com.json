@@ -1,0 +1,448 @@
+{
+  "website_blueprint_id": "BLUEPRINT-D93B3D4D",
+  "generated_at": "2026-01-21T07:27:05.005Z",
+  "global_configuration": {
+    "brand_name": "DIY Home Improvement Information",
+    "domain": "www.doityourself.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.96.231",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache, must-revalidate, max-age=\"\", private",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/scripttemplates/otSDKStub.js",
+        "type": "script",
+        "full_url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+      },
+      {
+        "path": "/opt-out/otCCPAiab.js",
+        "type": "script",
+        "full_url": "https://cdn.cookielaw.org/opt-out/otCCPAiab.js"
+      },
+      {
+        "path": "/js/jQuery.js",
+        "type": "script",
+        "full_url": "https://assets.doityourself.com/js/jQuery.js?id=2c66e84576120211b2ab2e51a74e73c0"
+      },
+      {
+        "path": "/f389d50a-32e0-478b-9d4b-2d4592528bea-web.js",
+        "type": "script",
+        "full_url": "https://cdn.permutive.com/f389d50a-32e0-478b-9d4b-2d4592528bea-web.js"
+      },
+      {
+        "path": "/cVCBi6sio0Kr78j5IZSJs1SQ8No/gpt_and_prebid/config.js",
+        "type": "script",
+        "full_url": "https://confiant-integrations.global.ssl.fastly.net/cVCBi6sio0Kr78j5IZSJs1SQ8No/gpt_and_prebid/config.js"
+      },
+      {
+        "path": "/aax2/apstag.js",
+        "type": "script",
+        "full_url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "path": "/js/app-home.js",
+        "type": "script",
+        "full_url": "https://assets.doityourself.com/js/app-home.js?id=0b49092621f2db9f0f92e0105b184076"
+      },
+      {
+        "path": "/js/ad.min.js",
+        "type": "script",
+        "full_url": "https://assets.doityourself.com/js/ad.min.js"
+      },
+      {
+        "path": "/images/diylogo.svg",
+        "type": "image",
+        "full_url": "https://assets.doityourself.com/images/diylogo.svg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/600x500_85-1/981/Shutterstock_382064236-703981.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/600x500_85-1/981/Shutterstock_382064236-703981.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/600x500_85-1/70/propane-tank-397070.jpg",
+        "type": "image",
+        "full_url": "https://cimg2.ibsrv.net/cimg/www.doityourself.com/600x500_85-1/70/propane-tank-397070.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/600x500_85-1/884/Shutterstock_119608906-690884.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/600x500_85-1/884/Shutterstock_119608906-690884.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/304x185_85-1/122/car-tire-in-snow-588122.jpg",
+        "type": "image",
+        "full_url": "https://cimg2.ibsrv.net/cimg/www.doityourself.com/304x185_85-1/122/car-tire-in-snow-588122.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/304x185_85-1/752/wood-stain-7752.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/304x185_85-1/752/wood-stain-7752.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/304x185_85-1/541/cold-car-battery-with-charger-cables-attached-590541.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/304x185_85-1/541/cold-car-battery-with-charger-cables-attached-590541.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/304x185_85-1/579/shutterstock_1990425542-670579.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/304x185_85-1/579/shutterstock_1990425542-670579.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/304x185_85-1/281/old-shingles-coming-off-roof-1--612281.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/304x185_85-1/281/old-shingles-coming-off-roof-1--612281.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/0/Cars-Trucks-Boats-145000.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/325x90_85/0/Cars-Trucks-Boats-145000.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/399/Gardening-Outdoor-145399.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/399/Gardening-Outdoor-145399.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/219/Electrical-Electronics-145219.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/219/Electrical-Electronics-145219.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/585/Hardware-Tools-Woodworking-145585.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/325x90_85/585/Hardware-Tools-Woodworking-145585.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/769/Interior-Home-Improvement-Remodeling-145769.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/325x90_85/769/Interior-Home-Improvement-Remodeling-145769.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/279/Exterior-Home-Improvement-145279.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/279/Exterior-Home-Improvement-145279.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/91/Plumbing-Heating-Air-Conditioning-Ventilating-146091.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/91/Plumbing-Heating-Air-Conditioning-Ventilating-146091.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/659/Household-Cleaning-145659.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/659/Household-Cleaning-145659.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/325x90_85/947/Lifestyle-Crafts-Recreation-145947.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/325x90_85/947/Lifestyle-Crafts-Recreation-145947.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/443/AdobeStock_164872256-603443.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/190x170_85/443/AdobeStock_164872256-603443.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/679/shutterstock_57249067-670679.jpg",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/190x170_85/679/shutterstock_57249067-670679.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/593/wood-counter-307593.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/190x170_85/593/wood-counter-307593.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/879/la-grande-cuisine-640879.png",
+        "type": "image",
+        "full_url": "https://cimg3.ibsrv.net/cimg/www.doityourself.com/190x170_85/879/la-grande-cuisine-640879.png"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/984/Shutterstock_2182961483-703984.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/190x170_85/984/Shutterstock_2182961483-703984.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/989/Shutterstock_154271738-703989.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/190x170_85/989/Shutterstock_154271738-703989.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/988/Shutterstock_1784492126-703988.png",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/190x170_85/988/Shutterstock_1784492126-703988.png"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/381/Auction-Paddle-and-Gavel-40381.jpg",
+        "type": "image",
+        "full_url": "https://cimg1.ibsrv.net/cimg/www.doityourself.com/190x170_85/381/Auction-Paddle-and-Gavel-40381.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/988/shutterstock_1725837757-634988.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/190x170_85/988/shutterstock_1725837757-634988.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/946/Tucker-621946.jpg",
+        "type": "image",
+        "full_url": "https://cimg2.ibsrv.net/cimg/www.doityourself.com/190x170_85/946/Tucker-621946.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/440/rocky-mountain-house-621440.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/190x170_85/440/rocky-mountain-house-621440.jpg"
+      },
+      {
+        "path": "/cimg/www.doityourself.com/190x170_85/632/diy-backyard-furniture-176632.jpg",
+        "type": "image",
+        "full_url": "https://cimg0.ibsrv.net/cimg/www.doityourself.com/190x170_85/632/diy-backyard-furniture-176632.jpg"
+      },
+      {
+        "path": "/ccpa/privacyoptions29x14.png",
+        "type": "image",
+        "full_url": "https://icons.internetbrands.com/ccpa/privacyoptions29x14.png"
+      },
+      {
+        "path": "/images/ib-home-garden.jpg",
+        "type": "image",
+        "full_url": "https://assets.doityourself.com/images/ib-home-garden.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "DIY Home Improvement Information | DoItYourself.com",
+        "description": "Do it yourself home improvement and diy repair at Doityourself.com. Includes home improvement projects, home repair, kitchen remodeling, plumbing, electrical, painting, real estate, and decorating.",
+        "canonical": "https://www.doityourself.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7462ms"
+        },
+        {
+          "resource": "otSDKStub.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "otCCPAiab.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jQuery.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "LATEST",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "What New Skill Should I Learn? Preventing a Propane Regulator from Freezing 16 Common DIY Plumbing Mistakes LATEST Winter Car Care for People Who Park Outside By Maddison Dayton Step up your routine maintenance to avoid pricey repairs. Clear Wood Finish: Varnish vs Oil By John (&quot;Jase&quot;) Campbell It’s important to protect your wood from the elements. Why Would Cold Temperatures Kill a Battery? By Charles Ouellet Chilly months can cause problems with starting cars. Exterior Doors and Storm Doors Keep your doors and windows energy efficient. Reroofing 101 By Charles Ouellet Do this the right way to prevent further damage or injury. CATEGORIES Cars, Trucks &amp; Boats Gardening &amp; Outdoor Electrical &amp; Electronics Hardware, Tools &amp; Woodworking Interior Home Improvement Exterior Home Improvement Plumbing &amp; HVAC Household &amp; Cleaning Lifestyle, Crafts &amp; Recreation CHANGE IT UP How to Sharpen Your Lineman&#039;s Pliers Wire Cutting Blades Zoning Laws 101 By Sara LeDuc Wood Countertops: The How and Why By Sara LeDuc Appliance Shortage: Year of the $47,000 Stove By KC Morgan 25 Things You Shouldn&#039;t Do in a Kitchen Remodel By Dawn Hammon Flipped House Horror Stories By KC Morgan Home Upgrades Most New Houses Need By Dawn Hammon Deceptions at Auto Auctions SLIDESHOWS 10 Gorgeous Low Water Plants By Emily Gleeson 7 Classic Vintage Cars You&#039;ve Never Seen Before By Dawn Hammon 6 Tiny Homes We Love By KC Morgan 10 Outdoor Furniture and Fixtures You Can (and Should) DIY By Nicole Nemeth advertise about us our experts rss feed careers terms of use privacy policy cookie policy site map facebook twitter Pinterest YouTube Manage Preferences Your Privacy Choices DoItYourself.com&reg;, founded in 1995, is the leading independent home improvement and repair website. We welcome your comments and suggestions. All information is provided \"AS IS.\" Website operating problems contact webmaster@doityourself.com . Questions of a Do It Yourself nature should be submitted to our \" DoItYourself.com Community Forums \". Copyright&copy; 1995-2026 MH Sub I, LLC dba Internet Brands. All rights reserved. You may freely link to this site, and use it for non-commercial use subject to our terms of use . View our Privacy Policy here ."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 31,
+          "headings": 8,
+          "images": 32
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-193AEDD8",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DIY Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B867FEE0",
+      "path": "/forum/",
+      "type": "Detected Link",
+      "anchor_text": "Forums",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-432553D4",
+      "path": "/forum/search.php",
+      "type": "Detected Link",
+      "anchor_text": "New Posts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D866CEB8",
+      "path": "/forum/misc.php",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0BD28C30",
+      "path": "/forum/register.php",
+      "type": "Detected Link",
+      "anchor_text": "Register",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F938B5E",
+      "path": "/forum/",
+      "type": "Detected Link",
+      "anchor_text": "View Full Site",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EA623E30",
+      "path": "/ibtisement/homevertical",
+      "type": "Detected Link",
+      "anchor_text": "Advertising",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D3FFACF5",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "How-Tos",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E4BAD00C",
+      "path": "/scat/buyers-guide",
+      "type": "Detected Link",
+      "anchor_text": "Buyers Guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1CD0BCA7",
+      "path": "/scat/appliances",
+      "type": "Detected Link",
+      "anchor_text": "Appliances",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA27BD5F",
+      "path": "/scat/home-furnishings",
+      "type": "Detected Link",
+      "anchor_text": "Home Furnishings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-928036EC",
+      "path": "/scat/carstrucksandboats",
+      "type": "Detected Link",
+      "anchor_text": "Cars, Trucks & Boats",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0B08401",
+      "path": "/scat/autobuyingandselling",
+      "type": "Detected Link",
+      "anchor_text": "Auto Buying & Selling",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-155AB207",
+      "path": "/scat/automaintenanceandca",
+      "type": "Detected Link",
+      "anchor_text": "Auto Maintenance",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D35217A3",
+      "path": "/scat/autorepair",
+      "type": "Detected Link",
+      "anchor_text": "Auto Repair",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

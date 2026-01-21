@@ -1,0 +1,64 @@
+{
+  "website_blueprint_id": "BLUEPRINT-E98849C2",
+  "generated_at": "2026-01-21T07:27:04.805Z",
+  "global_configuration": {
+    "brand_name": "documentation",
+    "domain": "documentation-service.arm.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "40.69.88.149",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 0,
+      "total_size_mb": 0
+    },
+    "core_assets": []
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "documentation-service.arm.com",
+        "description": "",
+        "canonical": "https://documentation-service.arm.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "826ms"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 0,
+          "images": 0
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

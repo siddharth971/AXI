@@ -1,0 +1,4972 @@
+{
+  "website_blueprint_id": "BLUEPRINT-DC65015D",
+  "generated_at": "2026-01-21T07:27:04.832Z",
+  "global_configuration": {
+    "brand_name": "cooking.nytimes.com",
+    "domain": "cooking.nytimes.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "199.232.21.164",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "s-maxage=0, max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 236,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/webpack-be9af3c8994584f2.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/webpack-be9af3c8994584f2.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/framework-6f25cfff15bfc553.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/framework-6f25cfff15bfc553.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/main-29713d113974660c.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/main-29713d113974660c.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/pages/_app-40bab1ba3e3976ac.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/pages/_app-40bab1ba3e3976ac.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/9278-d37d0fb6db4b6086.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/9278-d37d0fb6db4b6086.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6098-fe5209e2e3c9a36e.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6098-fe5209e2e3c9a36e.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/7564-d26ff3a92fae3683.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/7564-d26ff3a92fae3683.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/7080-e09fa0d414e21748.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/7080-e09fa0d414e21748.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/7689-fbf793b441edf9c1.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/7689-fbf793b441edf9c1.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/8413-37081f8b2d2313f6.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/8413-37081f8b2d2313f6.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/4587-b807083222a74443.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/4587-b807083222a74443.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/908-0356688b7443ba20.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/908-0356688b7443ba20.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6290-c29a5cc213130ff6.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6290-c29a5cc213130ff6.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/5423-0f16b6844e3f6ca2.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/5423-0f16b6844e3f6ca2.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/9287-5ba1e637a337b02a.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/9287-5ba1e637a337b02a.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/3980-e78981eb73ee9653.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/3980-e78981eb73ee9653.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6232-5df4d32e11596383.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6232-5df4d32e11596383.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6225-96e478d1ffd50aac.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6225-96e478d1ffd50aac.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/7912-a21c91c95fa9ea27.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/7912-a21c91c95fa9ea27.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/3884-2231c9aafb052c2a.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/3884-2231c9aafb052c2a.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6486-cf6043bb39b2251e.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6486-cf6043bb39b2251e.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/6374-23e76d0da64ce3ed.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/6374-23e76d0da64ce3ed.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/chunks/pages/home-ae4a15556972be00.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/chunks/pages/home-ae4a15556972be00.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/v4.32-k8s/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/v4.32-k8s/_buildManifest.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/v4.32-k8s/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/v4.32-k8s/_ssgManifest.js"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/ed9e12d1d18a7f1c.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/ed9e12d1d18a7f1c.css"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/4918751a98163e23.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/4918751a98163e23.css"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/8bf137de768b5ad3.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/8bf137de768b5ad3.css"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/0df6f5095e1da223.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/0df6f5095e1da223.css"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/b14382d69040399b.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/b14382d69040399b.css"
+      },
+      {
+        "path": "/v4.32-k8s/_next/static/css/7c77b7351bfbb901.css",
+        "type": "stylesheet",
+        "full_url": "https://cooking.nytimes.com/v4.32-k8s/_next/static/css/7c77b7351bfbb901.css"
+      },
+      {
+        "path": "/images/2023/10/04/multimedia/04TOGARASHIrex/RM-taquitos-mbzh-threeByTwoMediumAt2X.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/10/04/multimedia/04TOGARASHIrex/RM-taquitos-mbzh-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-threeByTwoMediumAt2X.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-threeByTwoMediumAt2X.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/31/multimedia/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/31/multimedia/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/12FD-DIET-RESET-2REX-PW-Barley-Broccoli-and-Cannellini-Bean-Soup-lhvm/12FD-DIET-RESET-2REX-PW-Barley-Broccoli-and-Cannellini-Bean-Soup-lhvm-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/12FD-DIET-RESET-2REX-PW-Barley-Broccoli-and-Cannellini-Bean-Soup-lhvm/12FD-DIET-RESET-2REX-PW-Barley-Broccoli-and-Cannellini-Bean-Soup-lhvm-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/04/18/dining/as-greek-chicken/as-greek-chicken-square640-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/04/18/dining/as-greek-chicken/as-greek-chicken-square640-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/04/25/dining/hm-pasta-stir-fry/hm-pasta-stir-fry-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/04/25/dining/hm-pasta-stir-fry/hm-pasta-stir-fry-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/09/10/multimedia/00FD-CHEAP-ONE-POT-ROUNDUP-REFRESH-NB-Ras-el-Hanout-Chickpea-bqvg/00FD-CHEAP-ONE-POT-ROUNDUP-REFRESH-NB-Ras-el-Hanout-Chickpea-bqvg-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/09/10/multimedia/00FD-CHEAP-ONE-POT-ROUNDUP-REFRESH-NB-Ras-el-Hanout-Chickpea-bqvg/00FD-CHEAP-ONE-POT-ROUNDUP-REFRESH-NB-Ras-el-Hanout-Chickpea-bqvg-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/03/19/multimedia/yf-baked-fish-with-olives-and-ginger-kwfl/yf-baked-fish-with-olives-and-ginger-kwfl-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/03/19/multimedia/yf-baked-fish-with-olives-and-ginger-kwfl/yf-baked-fish-with-olives-and-ginger-kwfl-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/06/03/multimedia/YA-Ginger-Chicken-Soup-With-Rice-zkvb/YA-Ginger-Chicken-Soup-With-Rice-zkvb-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/06/03/multimedia/YA-Ginger-Chicken-Soup-With-Rice-zkvb/YA-Ginger-Chicken-Soup-With-Rice-zkvb-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj-square640-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj-square640-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/06/multimedia/AS-Spaghetti-with-Arugula-and-Sardines-cvpw/AS-Spaghetti-with-Arugula-and-Sardines-cvpw-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/06/multimedia/AS-Spaghetti-with-Arugula-and-Sardines-cvpw/AS-Spaghetti-with-Arugula-and-Sardines-cvpw-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/07/multimedia/AS-Chicken-and-White-Bean-Stew-pcvk/AS-Chicken-and-White-Bean-Stew-pcvk-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/07/multimedia/AS-Chicken-and-White-Bean-Stew-pcvk/AS-Chicken-and-White-Bean-Stew-pcvk-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/12/06/dining/hm-sheet-pan-mushroom-parmigiana/hm-sheet-pan-mushroom-parmigiana-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/12/06/dining/hm-sheet-pan-mushroom-parmigiana/hm-sheet-pan-mushroom-parmigiana-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/06/multimedia/AS-White-Bean-Tuna-and-Kale-Salad-mlth/AS-White-Bean-Tuna-and-Kale-Salad-mlth-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/06/multimedia/AS-White-Bean-Tuna-and-Kale-Salad-mlth/AS-White-Bean-Tuna-and-Kale-Salad-mlth-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2018/05/01/dining/01COOKING-VEGEGGFRITTATA2/01COOKING-VEGEGGFRITTATA2-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2018/05/01/dining/01COOKING-VEGEGGFRITTATA2/01COOKING-VEGEGGFRITTATA2-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/09/17/multimedia/yk-salmon-and-green-beans-plcj/yk-salmon-and-green-beans-plcj-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/09/17/multimedia/yk-salmon-and-green-beans-plcj/yk-salmon-and-green-beans-plcj-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/05/16/dining/21help/merlin_159811149_9e520eb6-31c2-44fa-aba8-bcc56a2eb34c-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/05/16/dining/21help/merlin_159811149_9e520eb6-31c2-44fa-aba8-bcc56a2eb34c-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/07/multimedia/CT-Tofu-and-Avocado-Rice-Bowl-hjft/CT-Tofu-and-Avocado-Rice-Bowl-hjft-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/07/multimedia/CT-Tofu-and-Avocado-Rice-Bowl-hjft/CT-Tofu-and-Avocado-Rice-Bowl-hjft-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/06/13/multimedia/yk-sheet-pan-masala-tofu-vjmb/yk-sheet-pan-masala-tofu-vjmb-square640.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/06/13/multimedia/yk-sheet-pan-masala-tofu-vjmb/yk-sheet-pan-masala-tofu-vjmb-square640.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp/19FD-DIET-RESET-3REX-PW-Chicken-and-Herb-Salad-With-Date-Lime-Dressing-hfcp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/JD-Creamy-Orzo-Butter-Beans-Greens-hqvl/JD-Creamy-Orzo-Butter-Beans-Greens-hqvl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/JD-Creamy-Orzo-Butter-Beans-Greens-hqvl/JD-Creamy-Orzo-Butter-Beans-Greens-hqvl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/YK-Red-Red-Sweet-Potato-and-Bean-Stew-gkjl/YK-Red-Red-Sweet-Potato-and-Bean-Stew-gkjl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/YK-Red-Red-Sweet-Potato-and-Bean-Stew-gkjl/YK-Red-Red-Sweet-Potato-and-Bean-Stew-gkjl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/MP-Field-Peas-and-Snaps-gwph/MP-Field-Peas-and-Snaps-gwph-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/MP-Field-Peas-and-Snaps-gwph/MP-Field-Peas-and-Snaps-gwph-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/16/multimedia/KC-Salmon-With-Mustard-Piccata-Sauce-lzjt/KC-Salmon-With-Mustard-Piccata-Sauce-lzjt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/16/multimedia/KC-Salmon-With-Mustard-Piccata-Sauce-lzjt/KC-Salmon-With-Mustard-Piccata-Sauce-lzjt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/21/multimedia/21FD-APPETITEREX-MC-One-Pot-Orecchiette-With-Cabbage-wjhv/26FD-APPETITEREX-MC-One-Pot-Orecchiette-With-Cabbage-wjhv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/21/multimedia/21FD-APPETITEREX-MC-One-Pot-Orecchiette-With-Cabbage-wjhv/26FD-APPETITEREX-MC-One-Pot-Orecchiette-With-Cabbage-wjhv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/15/multimedia/SD-Slow-Cooker-Buttermilk-Potato-Soup-jgfq/SD-Slow-Cooker-Buttermilk-Potato-Soup-jgfq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/15/multimedia/SD-Slow-Cooker-Buttermilk-Potato-Soup-jgfq/SD-Slow-Cooker-Buttermilk-Potato-Soup-jgfq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/-PBG-Camarones-a-la-Diabla-Shrimp-in-Spicy-Tomato-Sauce--zjch/-PBG-Camarones-a-la-Diabla-Shrimp-in-Spicy-Tomato-Sauce--zjch-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/-PBG-Camarones-a-la-Diabla-Shrimp-in-Spicy-Tomato-Sauce--zjch/-PBG-Camarones-a-la-Diabla-Shrimp-in-Spicy-Tomato-Sauce--zjch-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/NM-Green-Beans-With-Orzo-Lemon-and-Feta-jblh/NM-Green-Beans-With-Orzo-Lemon-and-Feta-jblh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/NM-Green-Beans-With-Orzo-Lemon-and-Feta-jblh/NM-Green-Beans-With-Orzo-Lemon-and-Feta-jblh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/14FD-OTTOLENGHIREX-YO-Spiced-Potato-Bites-With-Spiced-Yogurt-vptb/14FD-OTTOLENGHIREX-YO-Spiced-Potato-Bites-With-Spiced-Yogurt-vptb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/14FD-OTTOLENGHIREX-YO-Spiced-Potato-Bites-With-Spiced-Yogurt-vptb/14FD-OTTOLENGHIREX-YO-Spiced-Potato-Bites-With-Spiced-Yogurt-vptb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/ifa-Crispy-Tofu-and-Cheesy-Bean-Burritos-mpfv/ifa-Crispy-Tofu-and-Cheesy-Bean-Burritos-mpfv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/ifa-Crispy-Tofu-and-Cheesy-Bean-Burritos-mpfv/ifa-Crispy-Tofu-and-Cheesy-Bean-Burritos-mpfv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/hlm-chickpeas-al-limone-with-burrata-hwjt/hlm-chickpeas-al-limone-with-burrata-hwjt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/hlm-chickpeas-al-limone-with-burrata-hwjt/hlm-chickpeas-al-limone-with-burrata-hwjt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/15/multimedia/al-crispy-coconut-salmon-ztkf/al-crispy-coconut-salmon-ztkf-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/15/multimedia/al-crispy-coconut-salmon-ztkf/al-crispy-coconut-salmon-ztkf-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/CT-Farro-Salad-With-Smoked-Trout-and-Kale-gkvh/CT-Farro-Salad-With-Smoked-Trout-and-Kale-gkvh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/CT-Farro-Salad-With-Smoked-Trout-and-Kale-gkvh/CT-Farro-Salad-With-Smoked-Trout-and-Kale-gkvh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/YF-Coconut-Ginger-Soup-With-Greens-hmqt/YF-Coconut-Ginger-Soup-With-Greens-hmqt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/YF-Coconut-Ginger-Soup-With-Greens-hmqt/YF-Coconut-Ginger-Soup-With-Greens-hmqt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/TC-Creamy-Lasagna-Soup-lcmz/TC-Creamy-Lasagna-Soup-lcmz-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/TC-Creamy-Lasagna-Soup-lcmz/TC-Creamy-Lasagna-Soup-lcmz-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj/YF-Sheet-Pan-Citrus-Salmon-With-White-Beans-lzgj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb/yf-Sheet-Pan-Chicken-and-Carrots-With-Yogurt-Sauce-ltvb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/14/multimedia/14FD-KIM-spinachsoufflesquares-wpcg/14FD-KIM-spinachsoufflesquares-wpcg-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/14/multimedia/14FD-KIM-spinachsoufflesquares-wpcg/14FD-KIM-spinachsoufflesquares-wpcg-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/08/multimedia/CR-Bean-Tomatillo-and-Poblano-Stew-wtkf/CR-Bean-Tomatillo-and-Poblano-Stew-wtkf-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/08/multimedia/CR-Bean-Tomatillo-and-Poblano-Stew-wtkf/CR-Bean-Tomatillo-and-Poblano-Stew-wtkf-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/19/multimedia/19FD-diet-reset-3-promo-wvkg/19FD-diet-reset-3-promo-wvkg-threeByTwoMediumAt2X.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/19/multimedia/19FD-diet-reset-3-promo-wvkg/19FD-diet-reset-3-promo-wvkg-threeByTwoMediumAt2X.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/18/multimedia/00FD-SCALING-horizontal-bctz/00FD-SCALING-horizontal-bctz-smallSquare252.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/18/multimedia/00FD-SCALING-horizontal-bctz/00FD-SCALING-horizontal-bctz-smallSquare252.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/15/multimedia/15FD-HEALTHY-CHICKEN-ROUNDUP-topart-chickenwhitebeanstew-tkzl/15FD-HEALTHY-CHICKEN-ROUNDUP-topart-chickenwhitebeanstew-tkzl-smallSquare252.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/15/multimedia/15FD-HEALTHY-CHICKEN-ROUNDUP-topart-chickenwhitebeanstew-tkzl/15FD-HEALTHY-CHICKEN-ROUNDUP-topart-chickenwhitebeanstew-tkzl-smallSquare252.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/13/multimedia/13FD-GROUND-TURKEY-ROUNDUP-topart-turkeymeatloaf-qbmf/13FD-GROUND-TURKEY-ROUNDUP-topart-turkeymeatloaf-qbmf-smallSquare252.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/13/multimedia/13FD-GROUND-TURKEY-ROUNDUP-topart-turkeymeatloaf-qbmf/13FD-GROUND-TURKEY-ROUNDUP-topart-turkeymeatloaf-qbmf-smallSquare252.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/21/multimedia/21FD-7WAYS-CHICKENSOUP-chickenanddumplings-fpqt/12FD-7WAYS-CHICKENSOUP-chickenanddumplings-fpqt-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/21/multimedia/21FD-7WAYS-CHICKENSOUP-chickenanddumplings-fpqt/12FD-7WAYS-CHICKENSOUP-chickenanddumplings-fpqt-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/12/multimedia/12FD-diet-reset-2-promo-zlpm/12FD-diet-reset-2-promo-zlpm-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/12/multimedia/12FD-diet-reset-2-promo-zlpm/12FD-diet-reset-2-promo-zlpm-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/08/multimedia/08FD-HEALTHY-SALMON-topart-pestosalmon-zbcp/08FD-HEALTHY-SALMON-topart-pestosalmon-zbcp-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/08/multimedia/08FD-HEALTHY-SALMON-topart-pestosalmon-zbcp/08FD-HEALTHY-SALMON-topart-pestosalmon-zbcp-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/01/02/multimedia/02FD-onion-stoarage-promo-kwlf/02FD-onion-stoarage-promo-kwlf-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/01/02/multimedia/02FD-onion-stoarage-promo-kwlf/02FD-onion-stoarage-promo-kwlf-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/01/05/multimedia/05FD-diet-reseet-1-promo-cwzv/05FD-diet-reseet-1-promo-cwzv-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/01/05/multimedia/05FD-diet-reseet-1-promo-cwzv/05FD-diet-reseet-1-promo-cwzv-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/01/03/multimedia/03FD-HEALTHY-DINNERS-ROUNDUP-topart-stickymisosalmon-tmqb/03FD-HEALTHY-DINNERS-ROUNDUP-topart-stickymisosalmon-tmqb-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/01/03/multimedia/03FD-HEALTHY-DINNERS-ROUNDUP-topart-stickymisosalmon-tmqb/03FD-HEALTHY-DINNERS-ROUNDUP-topart-stickymisosalmon-tmqb-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/01/01/multimedia/01FD-RESET-ROUNDUP-topart-cucumberpomegranatesalad-mghw/01FD-RESET-ROUNDUP-topart-cucumberpomegranatesalad-mghw-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/01/01/multimedia/01FD-RESET-ROUNDUP-topart-cucumberpomegranatesalad-mghw/01FD-RESET-ROUNDUP-topart-cucumberpomegranatesalad-mghw-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/30/multimedia/30FD-PIZZA-INTERVIEW-topart-strangerthings-vcbq/30FD-PIZZA-INTERVIEW-topart-strangerthings-vcbq-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/30/multimedia/30FD-PIZZA-INTERVIEW-topart-strangerthings-vcbq/30FD-PIZZA-INTERVIEW-topart-strangerthings-vcbq-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2026/01/07/multimedia/07FD-7WAYS-TOFU-topart-basiltofu-blgq/29FD-7WAYS-TOFU-topart-basiltofu-blgq-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/07/multimedia/07FD-7WAYS-TOFU-topart-basiltofu-blgq/29FD-7WAYS-TOFU-topart-basiltofu-blgq-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/22/multimedia/22FD-SIMPLE-MOCKTAIL-01-zqmj/22FD-SIMPLE-MOCKTAIL-01-zqmj-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/22/multimedia/22FD-SIMPLE-MOCKTAIL-01-zqmj/22FD-SIMPLE-MOCKTAIL-01-zqmj-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/16/multimedia/16FD-SEYFRIED-CLARK-tzlg/16FD-SEYFRIED-CLARK-tzlg-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/16/multimedia/16FD-SEYFRIED-CLARK-tzlg/16FD-SEYFRIED-CLARK-tzlg-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/24/multimedia/12FD-PERSIMMON-cake-fgbz/12FD-PERSIMMON-cake-fgbz-master315.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/24/multimedia/12FD-PERSIMMON-cake-fgbz/12FD-PERSIMMON-cake-fgbz-master315.jpg?format=pjpg&amp;quality=75&amp;auto=webp&amp;disable=upscale"
+      },
+      {
+        "path": "/images/2025/12/31/multimedia/kc-salmon-and-peas-with-rice-and-dill-hfvq/kc-salmon-and-peas-with-rice-and-dill-hfvq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/31/multimedia/kc-salmon-and-peas-with-rice-and-dill-hfvq/kc-salmon-and-peas-with-rice-and-dill-hfvq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/01/02/multimedia/02COOKING-BEANS-GREENSREX1-qjcz/02COOKING-BEANS-GREENSREX1-qjcz-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/01/02/multimedia/02COOKING-BEANS-GREENSREX1-qjcz/02COOKING-BEANS-GREENSREX1-qjcz-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/22/multimedia/22FD-VIRAL-DONER-KEBABREX-KW-Viral-Doner-Kebab-lhzm/22FD-VIRAL-DONER-KEBABREX-KW-Viral-Doner-Kebab-lhzm-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/22/multimedia/22FD-VIRAL-DONER-KEBABREX-KW-Viral-Doner-Kebab-lhzm/22FD-VIRAL-DONER-KEBABREX-KW-Viral-Doner-Kebab-lhzm-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/12/19/multimedia/BL-One-Bowl-Lemon-and-Olive-Oil-Cake-fpgt/BL-One-Bowl-Lemon-and-Olive-Oil-Cake-fpgt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/12/19/multimedia/BL-One-Bowl-Lemon-and-Olive-Oil-Cake-fpgt/BL-One-Bowl-Lemon-and-Olive-Oil-Cake-fpgt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/08/multimedia/hlm-Tofu-and-Sweet-Potato-Peanut-Butter-Curry-pfbl/hlm-Tofu-and-Sweet-Potato-Peanut-Butter-Curry-pfbl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/08/multimedia/hlm-Tofu-and-Sweet-Potato-Peanut-Butter-Curry-pfbl/hlm-Tofu-and-Sweet-Potato-Peanut-Butter-Curry-pfbl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/06/multimedia/AS-White-Bean-Tuna-and-Kale-Salad-mlth/AS-White-Bean-Tuna-and-Kale-Salad-mlth-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/06/multimedia/AS-White-Bean-Tuna-and-Kale-Salad-mlth/AS-White-Bean-Tuna-and-Kale-Salad-mlth-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/11/06/multimedia/AB-Cheesy-Baked-Cauliflower-qcvp/AB-Cheesy-Baked-Cauliflower-qcvp-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/11/06/multimedia/AB-Cheesy-Baked-Cauliflower-qcvp/AB-Cheesy-Baked-Cauliflower-qcvp-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/05/19/dining/17alliumrex3-chicken/17alliumrex3-chicken-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/05/19/dining/17alliumrex3-chicken/17alliumrex3-chicken-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2016/03/15/dining/sugared-shortbread/sugared-shortbread-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2016/03/15/dining/sugared-shortbread/sugared-shortbread-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/01/24/dining/el-biscuits/el-biscuits-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/01/24/dining/el-biscuits/el-biscuits-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/06/multimedia/CR-Spicy-Paprika-Chicken-Breast-and-Potato-Stew-lfjk/CR-Spicy-Paprika-Chicken-Breast-and-Potato-Stew-lfjk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/06/multimedia/CR-Spicy-Paprika-Chicken-Breast-and-Potato-Stew-lfjk/CR-Spicy-Paprika-Chicken-Breast-and-Potato-Stew-lfjk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/31/multimedia/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/31/multimedia/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj/kc-one-pot-salmon-spinach-and-lentil-salad-tqhj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2015/07/08/dining/08JPDRO2/08JPDRO2-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2015/07/08/dining/08JPDRO2/08JPDRO2-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/09/multimedia/09FD-KOMOLAFE-kelewelespiceplaintains-2-btcv/09FD-KOMOLAFE-kelewelespiceplaintains-2-btcv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/09/multimedia/09FD-KOMOLAFE-kelewelespiceplaintains-2-btcv/09FD-KOMOLAFE-kelewelespiceplaintains-2-btcv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/06/26/multimedia/protein-bar-hmtw/protein-bar-hmtw-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/06/26/multimedia/protein-bar-hmtw/protein-bar-hmtw-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/07/09/multimedia/MK-Turkey-Meatloafrex-gfqc/MK-Turkey-Meatloafrex-gfqc-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/07/09/multimedia/MK-Turkey-Meatloafrex-gfqc/MK-Turkey-Meatloafrex-gfqc-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F01%2F30%2Fdining%2Fbyline-headshot-melissa-clark%2Four-cooks-Melissa-Clark-Headshot-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F22%2Fmultimedia%2Fbyline-headshot-eric-kim%2Fourcooks-eric-smallSquare252-v2.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F01%2F30%2Fmultimedia%2Fbyline-headshot-yewande-komolafe%2Four-cooks-Yewande-Komolafe-studio-pkzv-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F21%2Fmultimedia%2Fbyline-headshot-genevieve-ko%2Fourcooks-genevieve-smallSquare252-v3.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F21%2Fmultimedia%2Fbyline-headshot-j-kenji-lopez-alt%2Fourcooks-jkenji-smallSquare252-v3.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F01%2F01%2Fdining%2Fbyline-headshot-sohla-el-waylly%2Four-cooks-Sohla-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F01%2F25%2Fdining%2Fbyline-headshot-claire-saffitz%2Fourcooks-Claire-Saffitz-headshot-2-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F21%2Fmultimedia%2Fbyline-headshot-priya-krishna%2Fourcooks-priya-smallSquare252-v4.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F10%2F02%2Fmultimedia%2Fbyline-headshot-vaughn-vreeland%2Fourcooks-Vaughn-Vreeland-fqtw-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F02%2F05%2Fdining%2Fbyline-headshot-ali-slagle%2Four-cooks-Ali-Slagle-Headshot-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F02%2F01%2Fmultimedia%2Fbyline-headshot-kay-chun%2Fourcooks-Kay-Chung-headshot-vgzq-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F21%2Fmultimedia%2Fbyline-headshot-yotam-ottolenghi%2Fourcooks-yotam-smallSquare252-v2.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F22%2Fmultimedia%2Fbyline-headshot-david-tanis%2Fourcooks-david-smallSquare252-v2.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F03%2F21%2Fmultimedia%2Fbyline-headshot-ligaya-mishan%2Fourcooks-ligaya-smallSquare252-v3.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2024%2F01%2F25%2Fmultimedia%2Fbyline-headshot-lisa-donovan%2Fourcooks-Lisa-Donovan-color-wqbp-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2023%2F10%2F02%2Fmultimedia%2Fbyline-headshot-alexa-weibel%2Fourcooks-Alexa-Weibel-kqlw-smallSquare252.png&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/images/2022/02/08/dining/as-sunday-sauce/merlin_201238980_104949b5-4fa9-4f9d-83a5-c0c7d26a4ec1-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/02/08/dining/as-sunday-sauce/merlin_201238980_104949b5-4fa9-4f9d-83a5-c0c7d26a4ec1-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/01/23/dining/23kitchrex1/23kitchrex1-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/01/23/dining/23kitchrex1/23kitchrex1-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/09/25/multimedia/ifa-xawaash-lamb-shanksrex-vcfz/ifa-xawaash-lamb-shanksrex-vcfz-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/09/25/multimedia/ifa-xawaash-lamb-shanksrex-vcfz/ifa-xawaash-lamb-shanksrex-vcfz-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/02/16/dining/11Komolafe-rex/merlin_200470188_e8848b6a-871a-4cdb-95ba-6d56d541b772-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/02/16/dining/11Komolafe-rex/merlin_200470188_e8848b6a-871a-4cdb-95ba-6d56d541b772-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/02/27/dining/oven-guinness-stew/oven-guinness-stew-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/02/27/dining/oven-guinness-stew/oven-guinness-stew-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/02/12/dining/as-pork-ragu/as-pork-ragu-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/02/12/dining/as-pork-ragu/as-pork-ragu-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/03/14/dining/lh-cheesy-beans-and-greens/merlin_183224118_e83ba06b-3d32-4ca6-a164-7e53b3fbc5fd-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/03/14/dining/lh-cheesy-beans-and-greens/merlin_183224118_e83ba06b-3d32-4ca6-a164-7e53b3fbc5fd-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/06/26/dining/24Nigerianrex4/merlin_156696663_fe8c024d-6871-46b0-b732-333ee978a62e-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/06/26/dining/24Nigerianrex4/merlin_156696663_fe8c024d-6871-46b0-b732-333ee978a62e-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/10/22/multimedia/22EATrex-zfbv/22EATrex-zfbv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/10/22/multimedia/22EATrex-zfbv/22EATrex-zfbv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/02/16/dining/kc-soy-braised-vegetable-jjim/merlin_202236681_e0d96a73-6442-428a-93a0-d793cab6efab-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/02/16/dining/kc-soy-braised-vegetable-jjim/merlin_202236681_e0d96a73-6442-428a-93a0-d793cab6efab-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/02/10/dining/09Birriarex1/merlin_183102807_b67d22d9-5849-47d3-9360-a5927e956757-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/02/10/dining/09Birriarex1/merlin_183102807_b67d22d9-5849-47d3-9360-a5927e956757-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2015/04/29/dining/coda-alla-vaccinara/coda-alla-vaccinara-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2015/04/29/dining/coda-alla-vaccinara/coda-alla-vaccinara-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/10/09/dining/08Filipinorex5-adobo/merlin_160617717_fd914956-d1b1-4f42-8043-9a6748a56183-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex5-adobo/merlin_160617717_fd914956-d1b1-4f42-8043-9a6748a56183-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/08/24/multimedia/MC-Coq-Au-Van-ctpm/MC-Coq-Au-Van-ctpm-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/08/24/multimedia/MC-Coq-Au-Van-ctpm/MC-Coq-Au-Van-ctpm-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/10/07/dining/05kenjirex1/merlin_173126667_25877380-47b9-4557-91eb-1c1037399473-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/10/07/dining/05kenjirex1/merlin_173126667_25877380-47b9-4557-91eb-1c1037399473-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/03/19/dining/19puertorex-greens/merlin_151977432_dc691732-7c11-42a7-9651-15f6c3ba8d74-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/03/19/dining/19puertorex-greens/merlin_151977432_dc691732-7c11-42a7-9651-15f6c3ba8d74-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/02/13/multimedia/Edit-External-Content-%7C-Recipe-%7C-kc-coconut-caramel-braised-tofu-kcfj/Edit-External-Content-%7C-Recipe-%7C-kc-coconut-caramel-braised-tofu-kcfj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/02/13/multimedia/Edit-External-Content-%7C-Recipe-%7C-kc-coconut-caramel-braised-tofu-kcfj/Edit-External-Content-%7C-Recipe-%7C-kc-coconut-caramel-braised-tofu-kcfj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/10/22/dining/yk-rosemary-chicken-with-salted-lemon-and-chickpeas/yk-rosemary-chicken-with-salted-lemon-and-chickpeas-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/10/22/dining/yk-rosemary-chicken-with-salted-lemon-and-chickpeas/yk-rosemary-chicken-with-salted-lemon-and-chickpeas-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/10/01/multimedia/yf-one-pot-chicken-and-lentilsrex-qhkm/yf-one-pot-chicken-and-lentilsrex-qhkm-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/10/01/multimedia/yf-one-pot-chicken-and-lentilsrex-qhkm/yf-one-pot-chicken-and-lentilsrex-qhkm-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/10/10/multimedia/NB-Beef-Green-Bean-Tagine-Olives-Preserved-Lemonrex-fjzv/NB-Beef-Green-Bean-Tagine-Olives-Preserved-Lemonrex-fjzv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/10/10/multimedia/NB-Beef-Green-Bean-Tagine-Olives-Preserved-Lemonrex-fjzv/NB-Beef-Green-Bean-Tagine-Olives-Preserved-Lemonrex-fjzv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/07/multimedia/cg-cheesy-gnocchi-skillet-pzvk/cg-cheesy-gnocchi-skillet-pzvk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/07/multimedia/cg-cheesy-gnocchi-skillet-pzvk/cg-cheesy-gnocchi-skillet-pzvk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/02/11/multimedia/16EATrex-chicken-and-chickpea-hgvc/16EATrex-chicken-and-chickpea-hgvc-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/02/11/multimedia/16EATrex-chicken-and-chickpea-hgvc/16EATrex-chicken-and-chickpea-hgvc-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/28/multimedia/SP-Tuna-Aglio-e-Olio-fbcg/SP-Tuna-Aglio-e-Olio-fbcg-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/28/multimedia/SP-Tuna-Aglio-e-Olio-fbcg/SP-Tuna-Aglio-e-Olio-fbcg-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/09/26/dining/26fast-chickpea-stew/26fast-chickpea-stew-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/09/26/dining/26fast-chickpea-stew/26fast-chickpea-stew-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/05/29/multimedia/kd-blackened-chickenrex-kfbh/kd-blackened-chickenrex-kfbh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/05/29/multimedia/kd-blackened-chickenrex-kfbh/kd-blackened-chickenrex-kfbh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/02/15/multimedia/as-salmon-nicoise-blhk/as-salmon-nicoise-blhk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/02/15/multimedia/as-salmon-nicoise-blhk/as-salmon-nicoise-blhk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/08/29/multimedia/hlm-sheet-pan-ravioli-with-burst-tomatoes-zptb/hlm-sheet-pan-ravioli-with-burst-tomatoes-zptb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/08/29/multimedia/hlm-sheet-pan-ravioli-with-burst-tomatoes-zptb/hlm-sheet-pan-ravioli-with-burst-tomatoes-zptb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/01/22/multimedia/RM-Pollo-Pina-clgf/RM-Pollo-Pina-clgf-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/01/22/multimedia/RM-Pollo-Pina-clgf/RM-Pollo-Pina-clgf-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/08/multimedia/KD-Honey-Mustard-Salmon-zpbw/KD-Honey-Mustard-Salmon-zpbw-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/08/multimedia/KD-Honey-Mustard-Salmon-zpbw/KD-Honey-Mustard-Salmon-zpbw-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/12/20/multimedia/LH-Shrimp-Pasta-ftvh/LH-Shrimp-Pasta-ftvh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/12/20/multimedia/LH-Shrimp-Pasta-ftvh/LH-Shrimp-Pasta-ftvh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/19/multimedia/al-Salmon-and-Cherry-Tomato-Curry-vlmh/al-Salmon-and-Cherry-Tomato-Curry-vlmh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/19/multimedia/al-Salmon-and-Cherry-Tomato-Curry-vlmh/al-Salmon-and-Cherry-Tomato-Curry-vlmh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/06/07/multimedia/sheet-pan-tandoori-chicken-thighsrex-lmgk-copy/zs-sheet-pan-tandoori-chicken-thighsrex-lmgk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/06/07/multimedia/sheet-pan-tandoori-chicken-thighsrex-lmgk-copy/zs-sheet-pan-tandoori-chicken-thighsrex-lmgk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/23/multimedia/AS-Red-Curry-Chicken-and-Rice-Bowls-zbkp/AS-Red-Curry-Chicken-and-Rice-Bowls-zbkp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/23/multimedia/AS-Red-Curry-Chicken-and-Rice-Bowls-zbkp/AS-Red-Curry-Chicken-and-Rice-Bowls-zbkp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/07/29/multimedia/HLM-Dumpling-Salad-With-Cucumbers-and-Peanut-Sauce-fvkt/HLM-Dumpling-Salad-With-Cucumbers-and-Peanut-Sauce-fvkt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/07/29/multimedia/HLM-Dumpling-Salad-With-Cucumbers-and-Peanut-Sauce-fvkt/HLM-Dumpling-Salad-With-Cucumbers-and-Peanut-Sauce-fvkt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/29/multimedia/HM-Preserved-Lemon-Pasta-lqmv/HM-Preserved-Lemon-Pasta-lqmv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/29/multimedia/HM-Preserved-Lemon-Pasta-lqmv/HM-Preserved-Lemon-Pasta-lqmv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2026/01/07/multimedia/AS-Chicken-and-White-Bean-Stew-pcvk/AS-Chicken-and-White-Bean-Stew-pcvk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2026/01/07/multimedia/AS-Chicken-and-White-Bean-Stew-pcvk/AS-Chicken-and-White-Bean-Stew-pcvk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/04/19/dining/sdg-slow-cooker-oats/merlin_185734722_7124f044-ef63-4d05-b6b0-24018dfe32ba-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/04/19/dining/sdg-slow-cooker-oats/merlin_185734722_7124f044-ef63-4d05-b6b0-24018dfe32ba-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/04/04/dining/as-grain-frittata-horizontal/merlin_143375115_909efa8b-0b46-4d32-a320-4810b06613fe-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/04/04/dining/as-grain-frittata-horizontal/merlin_143375115_909efa8b-0b46-4d32-a320-4810b06613fe-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2018/08/29/dining/22-ko-overnight-oats-horizontal-copy/ko-overnight-oats-horizontal-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2018/08/29/dining/22-ko-overnight-oats-horizontal-copy/ko-overnight-oats-horizontal-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/04/multimedia/YK-Isidudu-pclq/YK-Isidudu-pclq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/04/multimedia/YK-Isidudu-pclq/YK-Isidudu-pclq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/09/03/dining/ya-bircher-muesli/ya-bircher-muesli-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/09/03/dining/ya-bircher-muesli/ya-bircher-muesli-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/05/19/multimedia/ND-Make-Ahead-Egg-Spinach-and-Feta-Wraps-ftbz/ND-Make-Ahead-Egg-Spinach-and-Feta-Wraps-ftbz-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/05/19/multimedia/ND-Make-Ahead-Egg-Spinach-and-Feta-Wraps-ftbz/ND-Make-Ahead-Egg-Spinach-and-Feta-Wraps-ftbz-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2018/07/25/dining/25ausrex2/25AUSREX2-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2018/07/25/dining/25ausrex2/25AUSREX2-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/11/09/dining/hm-butternut-squash-jook/merlin_216140910_a674b145-b47a-45ef-9fad-95aa0f1215e7-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/11/09/dining/hm-butternut-squash-jook/merlin_216140910_a674b145-b47a-45ef-9fad-95aa0f1215e7-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/12/20/multimedia/ND-Acai-Bowl-wbkv/ND-Acai-Bowl-wbkv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/12/20/multimedia/ND-Acai-Bowl-wbkv/ND-Acai-Bowl-wbkv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/01/10/multimedia/AS-green-smoothie-clkg/AS-green-smoothie-clkg-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-green-smoothie-clkg/AS-green-smoothie-clkg-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/01/08/dining/ko-banana-muffins-horizontal/ko-banana-muffins-horizontal-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/01/08/dining/ko-banana-muffins-horizontal/ko-banana-muffins-horizontal-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/07/02/multimedia/SEW-apple-baked-oatmeal-zlbk/SEW-apple-baked-oatmeal-zlbk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/07/02/multimedia/SEW-apple-baked-oatmeal-zlbk/SEW-apple-baked-oatmeal-zlbk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/14/multimedia/AL-Basic-Chia-Seed-Pudding-qvmh/AL-Basic-Chia-Seed-Pudding-qvmh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/14/multimedia/AL-Basic-Chia-Seed-Pudding-qvmh/AL-Basic-Chia-Seed-Pudding-qvmh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/14/multimedia/AS-Everything-Bagel-Cottage-Cheese-Dip-pgbc/AS-Everything-Bagel-Cottage-Cheese-Dip-pgbc-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/14/multimedia/AS-Everything-Bagel-Cottage-Cheese-Dip-pgbc/AS-Everything-Bagel-Cottage-Cheese-Dip-pgbc-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/08/19/multimedia/AS-Strawberry-basil-cottage-cheese-bowls-qctf/AS-Strawberry-basil-cottage-cheese-bowls-qctf-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/08/19/multimedia/AS-Strawberry-basil-cottage-cheese-bowls-qctf/AS-Strawberry-basil-cottage-cheese-bowls-qctf-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/08/24/multimedia/MC-ChiaSeed-Breakfast-Pudding-thpj/MC-ChiaSeed-Breakfast-Pudding-thpj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/08/24/multimedia/MC-ChiaSeed-Breakfast-Pudding-thpj/MC-ChiaSeed-Breakfast-Pudding-thpj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/06/18/multimedia/ND-Chocolate-Chia-Pudding-cwmq/ND-Chocolate-Chia-Pudding-cwmq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/06/18/multimedia/ND-Chocolate-Chia-Pudding-cwmq/ND-Chocolate-Chia-Pudding-cwmq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/01/03/multimedia/GK-WELL-energy-bars-wjqk/GK-WELL-energy-bars-wjqk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/01/03/multimedia/GK-WELL-energy-bars-wjqk/GK-WELL-energy-bars-wjqk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/04/08/dining/03Tanisrex1-oats/merlin_171108087_2797a7cc-dd77-45dc-8bfc-8b892db8c651-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/04/08/dining/03Tanisrex1-oats/merlin_171108087_2797a7cc-dd77-45dc-8bfc-8b892db8c651-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/01/17/multimedia/as-whole-wheat-buttermilk-pancakes-bmpl/as-whole-wheat-buttermilk-pancakes-bmpl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/01/17/multimedia/as-whole-wheat-buttermilk-pancakes-bmpl/as-whole-wheat-buttermilk-pancakes-bmpl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/12/03/multimedia/PBG-Espagueti-Verde-tqvh/PBG-Espagueti-Verde-tqvh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/12/03/multimedia/PBG-Espagueti-Verde-tqvh/PBG-Espagueti-Verde-tqvh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/03/12/multimedia/hm-baked-tomato-pasta-qmcj/hm-baked-tomato-pasta-qmcj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/03/12/multimedia/hm-baked-tomato-pasta-qmcj/hm-baked-tomato-pasta-qmcj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/05/31/dining/ag-rigatoni-alla-zozzona/merlin_206153403_1f238815-e943-4d4a-8317-3f3bfd16f15b-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/05/31/dining/ag-rigatoni-alla-zozzona/merlin_206153403_1f238815-e943-4d4a-8317-3f3bfd16f15b-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/03/02/dining/kc-pasta-amatriciana/merlin_201502869_17a64c2f-adee-4526-9951-a0b03270b022-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/03/02/dining/kc-pasta-amatriciana/merlin_201502869_17a64c2f-adee-4526-9951-a0b03270b022-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/04/08/multimedia/as-gnocchi-gratin-kmth/as-gnocchi-gratin-kmth-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/04/08/multimedia/as-gnocchi-gratin-kmth/as-gnocchi-gratin-kmth-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/10/08/dining/yf-butternut-squash-pasta/merlin_177593400_7ce5ec26-fc80-4c53-ba83-a8428b5ab3f4-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/10/08/dining/yf-butternut-squash-pasta/merlin_177593400_7ce5ec26-fc80-4c53-ba83-a8428b5ab3f4-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/03/10/multimedia/EK-ricotta-pasta-alla-vodka-wfkh/EK-ricotta-pasta-alla-vodka-wfkh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/03/10/multimedia/EK-ricotta-pasta-alla-vodka-wfkh/EK-ricotta-pasta-alla-vodka-wfkh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/01/17/dining/onepot-cheesypasta/onepot-cheesypasta-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/01/17/dining/onepot-cheesypasta/onepot-cheesypasta-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/02/23/dining/EK-bacon-onion-vermouth-pasta-3/merlin_202627683_c598fe54-e410-4db6-a52f-9717173f3ad9-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/02/23/dining/EK-bacon-onion-vermouth-pasta-3/merlin_202627683_c598fe54-e410-4db6-a52f-9717173f3ad9-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/09/12/multimedia/yf-miso-mushroom-and-leek-pastarex-zqjm/yf-miso-mushroom-and-leek-pastarex-zqjm-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/09/12/multimedia/yf-miso-mushroom-and-leek-pastarex-zqjm/yf-miso-mushroom-and-leek-pastarex-zqjm-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/05/16/dining/as-spanakopita-pasta/as-spanakopita-pasta-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/05/16/dining/as-spanakopita-pasta/as-spanakopita-pasta-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/07/27/multimedia/yk-shrimp-and-rundown-sauce-whmc/yk-shrimp-and-rundown-sauce-whmc-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/07/27/multimedia/yk-shrimp-and-rundown-sauce-whmc/yk-shrimp-and-rundown-sauce-whmc-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/09/24/multimedia/SD-Italian-Sausage-Peppers-One-Pot-Pastarex-kplj/SD-Italian-Sausage-Peppers-One-Pot-Pastarex-kplj-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/09/24/multimedia/SD-Italian-Sausage-Peppers-One-Pot-Pastarex-kplj/SD-Italian-Sausage-Peppers-One-Pot-Pastarex-kplj-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/03/06/multimedia/DP-pasta-broccoli-rabe-pesto-vglk/DP-pasta-broccoli-rabe-pesto-vglk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/03/06/multimedia/DP-pasta-broccoli-rabe-pesto-vglk/DP-pasta-broccoli-rabe-pesto-vglk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/02/28/dining/as-pasta-with-lentils/merlin_201335688_d8a69491-86df-4311-82e8-680aa7382f26-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/02/28/dining/as-pasta-with-lentils/merlin_201335688_d8a69491-86df-4311-82e8-680aa7382f26-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/06/05/multimedia/PBG-Fideo-Secco-With-Shrimp2-lmzv/PBG-Fideo-Secco-With-Shrimp2-lmzv-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/06/05/multimedia/PBG-Fideo-Secco-With-Shrimp2-lmzv/PBG-Fideo-Secco-With-Shrimp2-lmzv-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/10/28/dining/ya-butternut-squash-pasta/merlin_178752225_6c0547c3-c015-4cf6-8f4c-ae2b5f90646e-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/10/28/dining/ya-butternut-squash-pasta/merlin_178752225_6c0547c3-c015-4cf6-8f4c-ae2b5f90646e-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/08/02/multimedia/cg-caramelized-fennel-pasta-vkqt/cg-caramelized-fennel-pasta-vkqt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/08/02/multimedia/cg-caramelized-fennel-pasta-vkqt/cg-caramelized-fennel-pasta-vkqt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/02/25/multimedia/DP-chicken-stew-bmjg/DP-chicken-stew-bmjg-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/02/25/multimedia/DP-chicken-stew-bmjg/DP-chicken-stew-bmjg-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/10/24/multimedia/DP-Creamy-Tortellini-Soup-vwcl/DP-Creamy-Tortellini-Soup-vwcl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/10/24/multimedia/DP-Creamy-Tortellini-Soup-vwcl/DP-Creamy-Tortellini-Soup-vwcl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/03/06/multimedia/YA-Sausage-and-Barley-Soup-With-Greens-wfbl/YA-Sausage-and-Barley-Soup-With-Greens-wfbl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/03/06/multimedia/YA-Sausage-and-Barley-Soup-With-Greens-wfbl/YA-Sausage-and-Barley-Soup-With-Greens-wfbl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2020/09/20/dining/YK-orzo-and-lentils/YK-orzo-and-lentils-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2020/09/20/dining/YK-orzo-and-lentils/YK-orzo-and-lentils-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/01/14/dining/as-baked-potato-soup/as-baked-potato-soup-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/01/14/dining/as-baked-potato-soup/as-baked-potato-soup-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2022/12/21/multimedia/19kwanzaa-rex1-1-fcd4/19kwanzaa-rex1-1-fcd4-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2022/12/21/multimedia/19kwanzaa-rex1-1-fcd4/19kwanzaa-rex1-1-fcd4-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/11/07/multimedia/Green-Chile-Black-Bean-Souprex-qgkt/Green-Chile-Black-Bean-Souprex-qgkt-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/11/07/multimedia/Green-Chile-Black-Bean-Souprex-qgkt/Green-Chile-Black-Bean-Souprex-qgkt-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/04/19/multimedia/vc-shrimp-chowder-ltjc/vc-shrimp-chowder-ltjc-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/04/19/multimedia/vc-shrimp-chowder-ltjc/vc-shrimp-chowder-ltjc-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/04/18/multimedia/za-aloo-chicken-fzvg/za-aloo-chicken-fzvg-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/04/18/multimedia/za-aloo-chicken-fzvg/za-aloo-chicken-fzvg-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/04/25/multimedia/cg-gnocchi-avgolemono-cbzf/cg-gnocchi-avgolemono-cbzf-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/04/25/multimedia/cg-gnocchi-avgolemono-cbzf/cg-gnocchi-avgolemono-cbzf-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2019/12/23/dining/aw-easiest-chicken-noodle-soup/aw-easiest-chicken-noodle-soup-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2019/12/23/dining/aw-easiest-chicken-noodle-soup/aw-easiest-chicken-noodle-soup-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/11/24/multimedia/24FD-KF-Turkey-Posole-bgph/24FD-KF-Turkey-Posole-bgph-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/11/24/multimedia/24FD-KF-Turkey-Posole-bgph/24FD-KF-Turkey-Posole-bgph-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/10/26/multimedia/LH-Tortellini-Soup-vqgk/LH-Tortellini-Soup-vqgk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/10/26/multimedia/LH-Tortellini-Soup-vqgk/LH-Tortellini-Soup-vqgk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/10/19/multimedia/LH-Italian-Wedding-Soup-flkq/LH-Italian-Wedding-Soup-flkq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/10/19/multimedia/LH-Italian-Wedding-Soup-flkq/LH-Italian-Wedding-Soup-flkq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/11/05/multimedia/05FD-TANISREX-DT-Cod-Chowder-With-Bacon-Potatoes-hjlp/05FD-TANISREX-DT-Cod-Chowder-With-Bacon-Potatoes-hjlp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/11/05/multimedia/05FD-TANISREX-DT-Cod-Chowder-With-Bacon-Potatoes-hjlp/05FD-TANISREX-DT-Cod-Chowder-With-Bacon-Potatoes-hjlp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/10/multimedia/10FD-PADMAREX-PL-Sambar-Tamarind-Lentil-Stew-mfpk/10FD-PADMAREX-PL-Sambar-Tamarind-Lentil-Stew-mfpk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/10/multimedia/10FD-PADMAREX-PL-Sambar-Tamarind-Lentil-Stew-mfpk/10FD-PADMAREX-PL-Sambar-Tamarind-Lentil-Stew-mfpk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/03/31/multimedia/31-Gochujang-Potato-Stew-wtjz/31-Gochujang-Potato-Stew-wtjz-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/03/31/multimedia/31-Gochujang-Potato-Stew-wtjz/31-Gochujang-Potato-Stew-wtjz-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/03/24/multimedia/24EATREX-CHICKEN-PERLOO-tcbq/24EATREX-CHICKEN-PERLOO-tcbq-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/03/24/multimedia/24EATREX-CHICKEN-PERLOO-tcbq/24EATREX-CHICKEN-PERLOO-tcbq-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2018/12/11/dining/mrs-tomato-white-bean-kale-soup/mrs-tomato-white-bean-kale-soup-mediumThreeByTwo440-v2.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2018/12/11/dining/mrs-tomato-white-bean-kale-soup/mrs-tomato-white-bean-kale-soup-mediumThreeByTwo440-v2.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/05/14/multimedia/hm-bok-choy-white-bean-salad-gkvp/hm-bok-choy-white-bean-salad-gkvp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/05/14/multimedia/hm-bok-choy-white-bean-salad-gkvp/hm-bok-choy-white-bean-salad-gkvp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/10/10/multimedia/yf-crispy-baked-tomato-oregano-chicken-thwp/yf-crispy-baked-tomato-oregano-chicken-thwp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/10/10/multimedia/yf-crispy-baked-tomato-oregano-chicken-thwp/yf-crispy-baked-tomato-oregano-chicken-thwp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/05/01/multimedia/kc-classic-meatloaf-reshoot-fvhc-TE/kc-classic-meatloaf-reshoot-fvhc-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/05/01/multimedia/kc-classic-meatloaf-reshoot-fvhc-TE/kc-classic-meatloaf-reshoot-fvhc-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/03/06/multimedia/al-shrimp-and-sweet-potato-curry-kwcm/al-shrimp-and-sweet-potato-curry-kwcm-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/03/06/multimedia/al-shrimp-and-sweet-potato-curry-kwcm/al-shrimp-and-sweet-potato-curry-kwcm-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/09/16/multimedia/AS-Skillet-broccoli-cheddar-rice-fhpw/AS-Skillet-broccoli-cheddar-rice-fhpw-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/09/16/multimedia/AS-Skillet-broccoli-cheddar-rice-fhpw/AS-Skillet-broccoli-cheddar-rice-fhpw-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/05/17/multimedia/mk-hamburger-soup-zcmh/mk-hamburger-soup-zcmh-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/05/17/multimedia/mk-hamburger-soup-zcmh/mk-hamburger-soup-zcmh-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/02/28/multimedia/28sheetpan-tofu-greenbeans/28sheetpan-tofu-greenbeans-mediumThreeByTwo440-v3.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/02/28/multimedia/28sheetpan-tofu-greenbeans/28sheetpan-tofu-greenbeans-mediumThreeByTwo440-v3.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/08/07/multimedia/sd-senate-bean-soup-jtkp/sd-senate-bean-soup-jtkp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/08/07/multimedia/sd-senate-bean-soup-jtkp/sd-senate-bean-soup-jtkp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/02/04/multimedia/AB-Spicy-Turkey-Burgers-mgvb/AB-Spicy-Turkey-Burgers-mgvb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/02/04/multimedia/AB-Spicy-Turkey-Burgers-mgvb/AB-Spicy-Turkey-Burgers-mgvb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2021/03/21/dining/08Apperex/08Apperex-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2021/03/21/dining/08Apperex/08Apperex-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/07/19/multimedia/CR-Pesto-Beansrex-clqb/CR-Pesto-Beansrex-clqb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/07/19/multimedia/CR-Pesto-Beansrex-clqb/CR-Pesto-Beansrex-clqb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/02/13/multimedia/SS-Chicken-Teriyaki-ghfm/SS-Chicken-Teriyaki-ghfm-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/02/13/multimedia/SS-Chicken-Teriyaki-ghfm/SS-Chicken-Teriyaki-ghfm-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/09/04/multimedia/afg-pastina-al-pomodororex-vbfl/afg-pastina-al-pomodororex-vbfl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/09/04/multimedia/afg-pastina-al-pomodororex-vbfl/afg-pastina-al-pomodororex-vbfl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2024/01/05/multimedia/LH-Salmon-Patties-jgcb/LH-Salmon-Patties-jgcb-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2024/01/05/multimedia/LH-Salmon-Patties-jgcb/LH-Salmon-Patties-jgcb-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2023/08/24/multimedia/LH-Baked-Spaghetti-zbvl/LH-Baked-Spaghetti-zbvl-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2023/08/24/multimedia/LH-Baked-Spaghetti-zbvl/LH-Baked-Spaghetti-zbvl-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/images/2025/12/11/multimedia/ifa-white-bean-shakshuka-hqvp/ifa-white-bean-shakshuka-hqvp-mediumThreeByTwo440.jpg",
+        "type": "image",
+        "full_url": "https://static01.nyt.com/images/2025/12/11/multimedia/ifa-white-bean-shakshuka-hqvp/ifa-white-bean-shakshuka-hqvp-mediumThreeByTwo440.jpg?quality=75&amp;auto=webp"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=%2Fassets%2Frecipes-youll-love.jpg&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=%2Fassets%2Feasy-to-make.jpg&amp;w=1280&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://cooking.nytimes.com/_next/image?url=%2Fassets%2Ffrom-cooks-you-trust.jpg&amp;w=1280&amp;q=75"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "cooking.nytimes.com",
+        "description": "NYT Cooking is the digital source for thousands of the best recipes from The New York Times along with how-to guides for home cooks at every skill level.\" data-next-head=\"",
+        "canonical": "https://cooking.nytimes.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "948ms"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-be9af3c8994584f2.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-6f25cfff15bfc553.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "NYT Cooking",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Recipe of the day",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "By Eric Kim",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Healthy Recipes for Busy People",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "What to Cook Recipes Ingredients Occasions About What to Cook Recipes Ingredients Occasions About Staff Picks"
+          },
+          {
+            "tag": "p",
+            "text": "From Our Newsletters"
+          },
+          {
+            "tag": "p",
+            "text": "Perfect For"
+          },
+          {
+            "tag": "p",
+            "text": "Everyday Recipes"
+          },
+          {
+            "tag": "p",
+            "text": "By Meal"
+          },
+          {
+            "tag": "p",
+            "text": "By Diet"
+          },
+          {
+            "tag": "p",
+            "text": "By Method"
+          },
+          {
+            "tag": "p",
+            "text": "Meat & Seafood"
+          },
+          {
+            "tag": "p",
+            "text": "Vegetables & Fruits"
+          },
+          {
+            "tag": "p",
+            "text": "Plant-Based Proteins"
+          },
+          {
+            "tag": "p",
+            "text": "Rice, Grains, Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "By Upcoming Holiday"
+          },
+          {
+            "tag": "p",
+            "text": "By Occasion"
+          },
+          {
+            "tag": "p",
+            "text": "What to Cook Staff Picks"
+          },
+          {
+            "tag": "p",
+            "text": "From Our Newsletters"
+          },
+          {
+            "tag": "p",
+            "text": "Perfect For"
+          },
+          {
+            "tag": "p",
+            "text": "Everyday Recipes"
+          },
+          {
+            "tag": "p",
+            "text": "By Meal"
+          },
+          {
+            "tag": "p",
+            "text": "By Diet"
+          },
+          {
+            "tag": "p",
+            "text": "By Method"
+          },
+          {
+            "tag": "p",
+            "text": "Meat & Seafood"
+          },
+          {
+            "tag": "p",
+            "text": "Vegetables & Fruits"
+          },
+          {
+            "tag": "p",
+            "text": "Plant-Based Proteins"
+          },
+          {
+            "tag": "p",
+            "text": "Rice, Grains, Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "By Upcoming Holiday"
+          },
+          {
+            "tag": "p",
+            "text": "By Occasion"
+          },
+          {
+            "tag": "h1",
+            "text": "NYT Cooking"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h2",
+            "text": "Recipe of the day"
+          },
+          {
+            "tag": "p",
+            "text": "Maple-Soy Pork Chops With Shichimi Togarashi"
+          },
+          {
+            "tag": "h2",
+            "text": "By Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "Use a store-bought version of this citrusy, savory Japanese seven-spice blend, or approximate your own with Eric's instructions."
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "h2",
+            "text": "Healthy Recipes for Busy People"
+          },
+          {
+            "tag": "p",
+            "text": "We have all the recipes you need for making 2026 your healthiest year yet."
+          },
+          {
+            "tag": "p",
+            "text": "Weeknight Dinners Chicken Recipes Salmon Recipes Breakfast Ideas Healthy Soups Healthy Sheet-Pan Dinners Weekday Lunches Tofu Recipes Vegan Recipes Chicken and Herb Salad With Date-Lime Dressing Pete Wells"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Salmon, Spinach and Lentil Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Broccoli, Barley and Cannellini Bean Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Pete Wells, Marcella Hazan"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken Pesto Meatballs"
+          },
+          {
+            "tag": "p",
+            "text": "Dan Pelosi"
+          },
+          {
+            "tag": "p",
+            "text": "3,159"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Greek Chicken With Cucumber-Feta Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "6,147"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Mushroom Pasta Stir-Fry"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "2,568"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Ras el Hanout Chickpea and Spinach Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Nargisse Benkabbou"
+          },
+          {
+            "tag": "p",
+            "text": "2,195"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Baked Fish With Olives and Ginger"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "2,431"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken and Carrots With Yogurt Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Ginger Chicken and Rice Soup With Zucchini"
+          },
+          {
+            "tag": "p",
+            "text": "Yossy Arefi"
+          },
+          {
+            "tag": "p",
+            "text": "3,240"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Citrus Salmon With White Beans"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spaghetti With Arugula and Sardines"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken and White Bean Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Mushroom Parmigiana"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "3,989"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "White Bean, Tuna and Kale Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "More-Vegetable-Than-Egg Frittata"
+          },
+          {
+            "tag": "p",
+            "text": "Mark Bittman"
+          },
+          {
+            "tag": "p",
+            "text": "2,789"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Salmon and Green Beans in Red Pepper Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pan Roasted Fish With Cherry Tomatoes"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "11,173"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sesame-Soy Tofu Bowls"
+          },
+          {
+            "tag": "p",
+            "text": "Cybelle Tondu"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Masala Chickpeas With Tofu and Blistered Tomatoes"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "1,667"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Advertisement"
+          },
+          {
+            "tag": "h2",
+            "text": "Get the latest"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Newest Recipes"
+          },
+          {
+            "tag": "p",
+            "text": "Chicken and Herb Salad With Date-Lime Dressing Pete Wells"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Creamy Orzo, Butter Beans and Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Justine Doiron"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours 30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Red Red (Pepper Stewed Beans)"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "2 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Field Peas and Snaps"
+          },
+          {
+            "tag": "p",
+            "text": "Millie Peartree"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 10 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Salmon With Mustard Piccata Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Cheesy Orecchiette With Cabbage and Paprika"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Slow Cooker Creamy Potato Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Sarah DiGregorio"
+          },
+          {
+            "tag": "p",
+            "text": "5 hours 10 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Camarones a la Diabla (Shrimp in Spicy Tomato Sauce)"
+          },
+          {
+            "tag": "p",
+            "text": "Paola Briseño-González"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Green Beans With Orzo, Lemon and Feta"
+          },
+          {
+            "tag": "p",
+            "text": "Noor Murad"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spiced Potato Bites With Yogurt"
+          },
+          {
+            "tag": "p",
+            "text": "Yotam Ottolenghi"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Crispy Tofu and Cheesy Bean Burritos"
+          },
+          {
+            "tag": "p",
+            "text": "Ifrah F. Ahmed"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chickpeas al Limone With Burrata"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Crispy Coconut Salmon"
+          },
+          {
+            "tag": "p",
+            "text": "Ashley Lonsdale"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Farro Salad With Smoked Trout and Kale"
+          },
+          {
+            "tag": "p",
+            "text": "Cybelle Tondu"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coconut-Ginger Soup With Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Creamy Lasagna Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Toni Chapman"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Citrus Salmon With White Beans"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken and Carrots With Yogurt Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spinach Egg Bites"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Vegetarian Chile Verde"
+          },
+          {
+            "tag": "p",
+            "text": "Christian Reynoso"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Most Popular This Week Latest Articles To Tune Out Food Noise, Our Critic Listened to His Hunger"
+          },
+          {
+            "tag": "p",
+            "text": "In the third part of a monthlong series, Pete Wells and experts say a healthier diet begins with understanding what drives your eating, and slowing down."
+          },
+          {
+            "tag": "p",
+            "text": "JAN. 21, 2026"
+          },
+          {
+            "tag": "p",
+            "text": "We Have a New Way to Double or Halve Recipes. It Might Just Make You a Better Cook."
+          },
+          {
+            "tag": "p",
+            "text": "JAN. 20, 2026"
+          },
+          {
+            "tag": "p",
+            "text": "18 Healthy Recipes That Will Get You Excited About Chicken Again"
+          },
+          {
+            "tag": "p",
+            "text": "JAN. 16, 2026"
+          },
+          {
+            "tag": "p",
+            "text": "11 Easy Ground Turkey Recipes for No-Fuss Dinners"
+          },
+          {
+            "tag": "p",
+            "text": "JAN. 13, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Trending Stories"
+          },
+          {
+            "tag": "p",
+            "text": "7 Smart Cooking Tips for the Best Chicken Soup of Your Life"
+          },
+          {
+            "tag": "p",
+            "text": "To Eat Healthier, Our Critic Went to the Source: His Kitchen"
+          },
+          {
+            "tag": "p",
+            "text": "17 Easy, Healthy Salmon Recipes for People Who Want to Eat More Fish"
+          },
+          {
+            "tag": "p",
+            "text": "How Do I Store Onions (and Shallots and Garlic)?"
+          },
+          {
+            "tag": "p",
+            "text": "Our Former Restaurant Critic Changed His Eating Habits. You Can, Too."
+          },
+          {
+            "tag": "p",
+            "text": "21 Easy, Healthy Recipes for Busy, Tired People"
+          },
+          {
+            "tag": "p",
+            "text": "What Our Food Staffers Eat in the New Year to Reset"
+          },
+          {
+            "tag": "p",
+            "text": "Finn Wolfhard and Natalia Dyer of ‘Stranger Things’ Face a New Foe: Pizza Dough"
+          },
+          {
+            "tag": "p",
+            "text": "7 Easy Ways to Make the Most Satisfying Tofu of Your Life"
+          },
+          {
+            "tag": "p",
+            "text": "It’s the Most Wonderful (Warm) Punch of the Year"
+          },
+          {
+            "tag": "p",
+            "text": "Amanda Seyfried Is Still Getting Used to Salting Her Food"
+          },
+          {
+            "tag": "p",
+            "text": "It Took Me 5 Years to Perfect This Persimmon Cake Recipe. Now, It’s Yours."
+          },
+          {
+            "tag": "p",
+            "text": "From Our Newsletters From The Cooking Newsletter by Sam Sifton &amp; Melissa Clark One-Pot Cheesy Orecchiette With Cabbage and Paprika Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Salmon and Dill Rice With Peas"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Beans, Greens and Grains"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "4,477"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken and Carrots With Yogurt Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Döner Kebab"
+          },
+          {
+            "tag": "p",
+            "text": "Korsha Wilson, Michael Wilkes, Nefise Kansu"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Bowl Lemon and Olive Oil Cake"
+          },
+          {
+            "tag": "p",
+            "text": "Brian Levy"
+          },
+          {
+            "tag": "p",
+            "text": "2,088"
+          },
+          {
+            "tag": "p",
+            "text": "2 hours, including cooling"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Tofu and Sweet Potato Peanut Butter Curry"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "White Bean, Tuna and Kale Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Cheesy Baked Cauliflower"
+          },
+          {
+            "tag": "p",
+            "text": "Andy Baraghani"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 10 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Skillet Chicken and Farro With Caramelized Leeks"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "1,153"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Vegetarian Chile Verde"
+          },
+          {
+            "tag": "p",
+            "text": "Christian Reynoso"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sugared Shortbread"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark, Amy Casey"
+          },
+          {
+            "tag": "p",
+            "text": "2,676"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Edna Lewis’s Biscuits"
+          },
+          {
+            "tag": "p",
+            "text": "Francis Lam, Edna Lewis"
+          },
+          {
+            "tag": "p",
+            "text": "1,349"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spicy Paprika Chicken and Potato Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Christian Reynoso"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Salmon, Spinach and Lentil Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pressure Cooker Beef Pho"
+          },
+          {
+            "tag": "p",
+            "text": "Kim Severson, Andrea Nguyen"
+          },
+          {
+            "tag": "p",
+            "text": "1,747"
+          },
+          {
+            "tag": "p",
+            "text": "About 45 minutes, plus time to cool"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Roasted Kelewele (Spiced Plantains) With Crispy Shallots and Herbs"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Homemade Protein Bars"
+          },
+          {
+            "tag": "p",
+            "text": "Genevieve Ko"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Easy Turkey Meatloaf"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Knific"
+          },
+          {
+            "tag": "p",
+            "text": "1,778"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coconut-Ginger Soup With Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes More From Our Editors Our Writers See all Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "Genevieve Ko"
+          },
+          {
+            "tag": "p",
+            "text": "Kenji López-Alt"
+          },
+          {
+            "tag": "p",
+            "text": "Sohla El-Waylly"
+          },
+          {
+            "tag": "p",
+            "text": "Claire Saffitz"
+          },
+          {
+            "tag": "p",
+            "text": "Priya Krishna"
+          },
+          {
+            "tag": "p",
+            "text": "Vaughn Vreeland"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "Yotam Ottolenghi"
+          },
+          {
+            "tag": "p",
+            "text": "David Tanis"
+          },
+          {
+            "tag": "p",
+            "text": "Ligaya Mishan"
+          },
+          {
+            "tag": "p",
+            "text": "Lisa Donovan"
+          },
+          {
+            "tag": "p",
+            "text": "Alexa Weibel"
+          },
+          {
+            "tag": "h2",
+            "text": "Favorite Braises for Chilly Days"
+          },
+          {
+            "tag": "p",
+            "text": "Sunday Sauce Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "3,446"
+          },
+          {
+            "tag": "p",
+            "text": "3½ hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Bo Kho (Vietnamese Braised Beef Stew)"
+          },
+          {
+            "tag": "p",
+            "text": "David Tanis"
+          },
+          {
+            "tag": "p",
+            "text": "1,818"
+          },
+          {
+            "tag": "p",
+            "text": "1 1/2 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Xawaash Braised Lamb Shanks"
+          },
+          {
+            "tag": "p",
+            "text": "Ifrah F. Ahmed"
+          },
+          {
+            "tag": "p",
+            "text": "3 1/4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Eintopf (Braised Short Ribs With Fennel, Squash and Sweet Potato)"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "1,091"
+          },
+          {
+            "tag": "p",
+            "text": "4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Oven-Braised Guinness Beef Stew With Horseradish Cream"
+          },
+          {
+            "tag": "p",
+            "text": "Sarah DiGregorio"
+          },
+          {
+            "tag": "p",
+            "text": "1,808"
+          },
+          {
+            "tag": "p",
+            "text": "3 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Braised Pork All’Arrabbiata"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "3,071"
+          },
+          {
+            "tag": "p",
+            "text": "3 1/2 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Braised White Beans and Greens With Parmesan"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "16,955"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Braised Goat Leg in Obe Ata"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "5 to 6 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Braised Green Beans and Potatoes"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim, Scotty Scott"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Soy-Braised Vegetable Jjim (Korean Vegetable Stew)"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Birria de Res (Beef Birria)"
+          },
+          {
+            "tag": "p",
+            "text": "Tejal Rao, Josef Centeno"
+          },
+          {
+            "tag": "p",
+            "text": "3,151"
+          },
+          {
+            "tag": "p",
+            "text": "2 3/4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Oxtail Braised With Tomato and Celery (Coda Alla Vaccinara)"
+          },
+          {
+            "tag": "p",
+            "text": "Amanda Hesser"
+          },
+          {
+            "tag": "p",
+            "text": "About 3 hours 30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Coconut Milk Chicken Adobo Angela Dimayuga"
+          },
+          {
+            "tag": "p",
+            "text": "5,677"
+          },
+          {
+            "tag": "p",
+            "text": "1 3/4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coq au Vin"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "6,831"
+          },
+          {
+            "tag": "p",
+            "text": "2 1/2 hours, plus marinating"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Ropa Vieja"
+          },
+          {
+            "tag": "p",
+            "text": "J. Kenji López-Alt"
+          },
+          {
+            "tag": "p",
+            "text": "1,480"
+          },
+          {
+            "tag": "p",
+            "text": "3 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coconut-Braised Collard Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Julia Moskin, Von Diaz"
+          },
+          {
+            "tag": "p",
+            "text": "1,962"
+          },
+          {
+            "tag": "p",
+            "text": "20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coconut-Caramel Braised Tofu"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "3,694"
+          },
+          {
+            "tag": "p",
+            "text": "20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Braised Chicken With Rosemary, Chickpeas and Salted Lemon"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "1,346"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Chicken and Lentils"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "3,963"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Beef Tagine With Green Beans and Olives"
+          },
+          {
+            "tag": "p",
+            "text": "Nargisse Benkabbou"
+          },
+          {
+            "tag": "p",
+            "text": "2 1/4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Advertisement"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Best Weeknight Dinner Recipes"
+          },
+          {
+            "tag": "p",
+            "text": "One-Pot Salmon, Spinach and Lentil Salad Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Cheesy Gnocchi With Corn and Pesto"
+          },
+          {
+            "tag": "p",
+            "text": "Carolina Gelen"
+          },
+          {
+            "tag": "p",
+            "text": "1,644"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken and Chickpea Tray Bake"
+          },
+          {
+            "tag": "p",
+            "text": "Yotam Ottolenghi"
+          },
+          {
+            "tag": "p",
+            "text": "2,687"
+          },
+          {
+            "tag": "p",
+            "text": "1½ hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pasta Aglio e Olio With Tuna"
+          },
+          {
+            "tag": "p",
+            "text": "Sheela Prakash"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chickpea Stew With Orzo and Mustard Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "7,655"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Coconut-Ginger Soup With Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken and Carrots With Yogurt Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Blackened Chicken Breasts"
+          },
+          {
+            "tag": "p",
+            "text": "Kia Damon"
+          },
+          {
+            "tag": "p",
+            "text": "1,852"
+          },
+          {
+            "tag": "p",
+            "text": "20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pan Salmon Niçoise With Orzo"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "2,249"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Citrus Salmon With White Beans"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Ravioli With Burst Tomatoes"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pollo a la Piña (Pineapple Chicken)"
+          },
+          {
+            "tag": "p",
+            "text": "Rick A. Martínez"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Honey Mustard Salmon"
+          },
+          {
+            "tag": "p",
+            "text": "Kia Damon"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Shrimp Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "4,419"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Salmon and Cherry Tomato Curry"
+          },
+          {
+            "tag": "p",
+            "text": "Ashley Lonsdale"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken Tikka Thighs"
+          },
+          {
+            "tag": "p",
+            "text": "Zainab Shah"
+          },
+          {
+            "tag": "p",
+            "text": "2,880"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Red Curry Chicken and Rice Bowls"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Dumpling and Smashed Cucumber Salad With Peanut Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "5,322"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Preserved Lemon Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken and White Bean Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Healthy Breakfast Recipes Slow-Cooker Steel-Cut Oats Sarah DiGregorio"
+          },
+          {
+            "tag": "p",
+            "text": "About 8 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Grain Frittata With Chile, Lime and Fresh Herbs"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "About 20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Overnight Oats Genevieve Ko"
+          },
+          {
+            "tag": "p",
+            "text": "10,897"
+          },
+          {
+            "tag": "p",
+            "text": "5 minutes, plus overnight soaking"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Isidudu (Creamy Corn Porridge)"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Muesli"
+          },
+          {
+            "tag": "p",
+            "text": "Yossy Arefi"
+          },
+          {
+            "tag": "p",
+            "text": "1,348"
+          },
+          {
+            "tag": "p",
+            "text": "10 minutes, plus at least 1 hour’s chilling"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Make-Ahead Egg, Spinach and Feta Wraps"
+          },
+          {
+            "tag": "p",
+            "text": "Naz Deravian"
+          },
+          {
+            "tag": "p",
+            "text": "1,116"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Avocado Toast"
+          },
+          {
+            "tag": "p",
+            "text": "Julia Moskin, Giles Russell"
+          },
+          {
+            "tag": "p",
+            "text": "1,699"
+          },
+          {
+            "tag": "p",
+            "text": "5 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Butternut Squash Congee With Chile Oil"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "1,880"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Açaí Bowl"
+          },
+          {
+            "tag": "p",
+            "text": "Naz Deravian"
+          },
+          {
+            "tag": "p",
+            "text": "15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Green Smoothie"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle, Veggies Natural Juice Bar & Cafe"
+          },
+          {
+            "tag": "p",
+            "text": "1,322"
+          },
+          {
+            "tag": "p",
+            "text": "10 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Whole-Grain Banana Yogurt Muffins"
+          },
+          {
+            "tag": "p",
+            "text": "Genevieve Ko"
+          },
+          {
+            "tag": "p",
+            "text": "5,842"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes, plus cooling"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spiced Apple Baked Oatmeal"
+          },
+          {
+            "tag": "p",
+            "text": "Sohla El-Waylly"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chia Pudding"
+          },
+          {
+            "tag": "p",
+            "text": "Ashley Lonsdale"
+          },
+          {
+            "tag": "p",
+            "text": "8 hours 5 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Everything Bagel Cottage-Cheese Dip"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "10 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Strawberry-Basil Cottage Cheese Bowls"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chia Seed Pudding"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark, Gerardo Gonzalez"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chocolate Chia Pudding"
+          },
+          {
+            "tag": "p",
+            "text": "Naz Deravian"
+          },
+          {
+            "tag": "p",
+            "text": "1,005"
+          },
+          {
+            "tag": "p",
+            "text": "15 minutes, plus 8 hours resting"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Energy Bars"
+          },
+          {
+            "tag": "p",
+            "text": "Genevieve Ko"
+          },
+          {
+            "tag": "p",
+            "text": "1,386"
+          },
+          {
+            "tag": "p",
+            "text": "1 1/2 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Savory Steel-Cut Oats With Fried Egg and Za’atar"
+          },
+          {
+            "tag": "p",
+            "text": "David Tanis"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Whole-Wheat Buttermilk Pancakes"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Cold-Weather Pasta Dishes Ready in 1 Hour Or Less Espagueti Verde (Creamy Roasted Poblano Pasta) Paola Briseño-González"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Baked Tomato Pasta With Harissa and Halloumi"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Rigatoni Alla Zozzona"
+          },
+          {
+            "tag": "p",
+            "text": "Anna Francese Gass"
+          },
+          {
+            "tag": "p",
+            "text": "4,780"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pasta Amatriciana"
+          },
+          {
+            "tag": "p",
+            "text": "Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "2,324"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Gnocchi Gratin"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "1,034"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "One-Pot Cheesy Orecchiette With Cabbage and Paprika"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spicy Butternut Squash Pasta With Spinach"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "8,179"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Ricotta Pasta Alla Vodka Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "4,269"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Cheesy Baked Pasta With Sausage and Ricotta Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "10,898"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Bacon and Onion Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "1,093"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Miso Mushroom and Leek Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "4,757"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Baked Spanakopita Pasta With Greens and Feta"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "5,299"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Shrimp in Rundown Sauce With Cavatelli"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe, Nina Compton"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sausage and Peppers One-Pot Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Sarah DiGregorio"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Broccoli Rabe Pesto Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Dan Pelosi"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pasta and Lentils (Pasta e Lenticchie)"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "3,843"
+          },
+          {
+            "tag": "p",
+            "text": "About 1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Fideo Verde Seco (Garlic Shrimp and Cilantro Noodles)"
+          },
+          {
+            "tag": "p",
+            "text": "Paola Briseño-González"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Butternut Squash Pasta With Bacon and Parmesan"
+          },
+          {
+            "tag": "p",
+            "text": "Yossy Arefi"
+          },
+          {
+            "tag": "p",
+            "text": "3,454"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Caramelized Fennel Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Carolina Gelen"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Spaghetti Carbonara Ian Fisher"
+          },
+          {
+            "tag": "p",
+            "text": "15,749"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Soup and Stew Recipes Chicken Stew Dan Pelosi"
+          },
+          {
+            "tag": "p",
+            "text": "5,415"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Creamy Tortellini Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Dan Pelosi"
+          },
+          {
+            "tag": "p",
+            "text": "7,998"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sausage and Barley Soup With Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Yossy Arefi"
+          },
+          {
+            "tag": "p",
+            "text": "1,821"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Lentil and Orzo Stew With Roasted Eggplant"
+          },
+          {
+            "tag": "p",
+            "text": "Yewande Komolafe"
+          },
+          {
+            "tag": "p",
+            "text": "3,464"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes to 1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Baked Potato Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "3,652"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Creamy Lasagna Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Toni Chapman"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Brown Stew Pork Shoulder"
+          },
+          {
+            "tag": "p",
+            "text": "Brigid Washington, Ricky Moore"
+          },
+          {
+            "tag": "p",
+            "text": "1,330"
+          },
+          {
+            "tag": "p",
+            "text": "3 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spicy Black Bean Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "3,070"
+          },
+          {
+            "tag": "p",
+            "text": "20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Shrimp and Corn Chowder"
+          },
+          {
+            "tag": "p",
+            "text": "Vivian Chan-Tam"
+          },
+          {
+            "tag": "p",
+            "text": "1,501"
+          },
+          {
+            "tag": "p",
+            "text": "About 1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken and White Bean Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Aloo Chicken"
+          },
+          {
+            "tag": "p",
+            "text": "Zainab Shah"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour 5 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Avgolemono Chicken Soup With Gnocchi"
+          },
+          {
+            "tag": "p",
+            "text": "Carolina Gelen"
+          },
+          {
+            "tag": "p",
+            "text": "1,705"
+          },
+          {
+            "tag": "p",
+            "text": "20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Easiest Chicken Noodle Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Alexa Weibel"
+          },
+          {
+            "tag": "p",
+            "text": "9,409"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Leftover-Turkey Pozole"
+          },
+          {
+            "tag": "p",
+            "text": "Kristina Felix"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Tortellini Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "4,552"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Italian Wedding Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "5,184"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour and 15 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "French Fisherman Stew (La Chaudrée)"
+          },
+          {
+            "tag": "p",
+            "text": "David Tanis"
+          },
+          {
+            "tag": "p",
+            "text": "About 1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sambar (Tamarind Lentil Stew)"
+          },
+          {
+            "tag": "p",
+            "text": "Julia Moskin, Padma Lakshmi"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Gochujang Potato Stew"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim"
+          },
+          {
+            "tag": "p",
+            "text": "6,960"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken Perloo"
+          },
+          {
+            "tag": "p",
+            "text": "Eric Kim, Rodney Scott"
+          },
+          {
+            "tag": "p",
+            "text": "1 hour"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Cheap and Easy Meals Quick Tomato, White Bean and Kale Soup Martha Rose Shulman"
+          },
+          {
+            "tag": "p",
+            "text": "4,273"
+          },
+          {
+            "tag": "p",
+            "text": "55 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Charred Bok Choy and Cannellini Bean Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "1,226"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Crispy Baked Tomato-Oregano Chicken"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "1,891"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Meatloaf Kay Chun"
+          },
+          {
+            "tag": "p",
+            "text": "3,846"
+          },
+          {
+            "tag": "p",
+            "text": "1 1/2 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Curry Shrimp and Sweet Potato"
+          },
+          {
+            "tag": "p",
+            "text": "Ashley Lonsdale"
+          },
+          {
+            "tag": "p",
+            "text": "1,046"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Skillet Broccoli-Cheddar Rice"
+          },
+          {
+            "tag": "p",
+            "text": "Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Hamburger Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Knific"
+          },
+          {
+            "tag": "p",
+            "text": "2,220"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Tofu and Green Beans With Chile Crisp"
+          },
+          {
+            "tag": "p",
+            "text": "Sam Sifton"
+          },
+          {
+            "tag": "p",
+            "text": "6,563"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Slow Cooker Senate Bean Soup"
+          },
+          {
+            "tag": "p",
+            "text": "Sarah DiGregorio"
+          },
+          {
+            "tag": "p",
+            "text": "1,333"
+          },
+          {
+            "tag": "p",
+            "text": "6 1/4 hours"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Spicy Turkey Burgers"
+          },
+          {
+            "tag": "p",
+            "text": "Andy Baraghani"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chickpeas al Limone With Burrata"
+          },
+          {
+            "tag": "p",
+            "text": "Hetty Lui McKinnon"
+          },
+          {
+            "tag": "p",
+            "text": "25 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Sheet-Pan Chicken and Carrots With Yogurt Sauce"
+          },
+          {
+            "tag": "p",
+            "text": "Yasmin Fahr"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Lemony White Bean Soup With Turkey and Greens"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Clark"
+          },
+          {
+            "tag": "p",
+            "text": "19,905"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pesto Beans"
+          },
+          {
+            "tag": "p",
+            "text": "Christian Reynoso"
+          },
+          {
+            "tag": "p",
+            "text": "4,658"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Chicken Teriyaki"
+          },
+          {
+            "tag": "p",
+            "text": "John T. Edge, Sujan Shrestha"
+          },
+          {
+            "tag": "p",
+            "text": "5,659"
+          },
+          {
+            "tag": "p",
+            "text": "30 minutes, plus marinating"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Pastina al Pomodoro"
+          },
+          {
+            "tag": "p",
+            "text": "Anna Francese Gass"
+          },
+          {
+            "tag": "p",
+            "text": "40 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Easy Burritos Ali Slagle"
+          },
+          {
+            "tag": "p",
+            "text": "4,168"
+          },
+          {
+            "tag": "p",
+            "text": "50 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "Salmon Patties"
+          },
+          {
+            "tag": "p",
+            "text": "Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "1,569"
+          },
+          {
+            "tag": "p",
+            "text": "35 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "Baked Spaghetti Lidey Heuck"
+          },
+          {
+            "tag": "p",
+            "text": "1,570"
+          },
+          {
+            "tag": "p",
+            "text": "1 1/2 hours, plus cooling"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "h3",
+            "text": "White Bean Shakshuka"
+          },
+          {
+            "tag": "p",
+            "text": "Ifrah F. Ahmed"
+          },
+          {
+            "tag": "p",
+            "text": "45 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "Log in or sign up to save this recipe."
+          },
+          {
+            "tag": "p",
+            "text": "See all recipes Advertisement"
+          },
+          {
+            "tag": "h2",
+            "text": "About NYT Cooking"
+          },
+          {
+            "tag": "p",
+            "text": "Recipes You’ll Love"
+          },
+          {
+            "tag": "p",
+            "text": "Daily cooking made simple, plus recipes for any occasion."
+          },
+          {
+            "tag": "p",
+            "text": "Easy to Make"
+          },
+          {
+            "tag": "p",
+            "text": "Step-by-step videos and helpful tips, with an app for streamlined cooking."
+          },
+          {
+            "tag": "p",
+            "text": "From Cooks You Trust"
+          },
+          {
+            "tag": "p",
+            "text": "Each recipe is tested and perfected to work every time."
+          },
+          {
+            "tag": "h3",
+            "text": "Get Our Newsletter"
+          },
+          {
+            "tag": "p",
+            "text": "Get recipes, tips and NYT special offers delivered straight to your inbox."
+          },
+          {
+            "tag": "p",
+            "text": "Opt out or contact us anytime. See our Privacy Policy ."
+          },
+          {
+            "tag": "h3",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "p",
+            "text": "Get the App About Us New York Times Cooking offers subscribers recipes, advice and inspiration for better everyday cooking. From easy weeknight dinners to holiday meals, our recipes have been tested and perfected to meet the needs of home cooks of all levels. Subscribe now for full access."
+          },
+          {
+            "tag": "h3",
+            "text": "Learn More"
+          },
+          {
+            "tag": "h3",
+            "text": "Shop"
+          },
+          {
+            "tag": "h3",
+            "text": "Recipes"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 2124,
+          "headings": 207,
+          "images": 217
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-97669337",
+      "path": "/68861692-nyt-cooking/13395693-our-50-most-popular-recipes-of-all-time-so-far",
+      "type": "Detected Link",
+      "anchor_text": "Most Popular",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F7E7CC4F",
+      "path": "/68861692-nyt-cooking/638891-best-soup-stew-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Soups and Stews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2B15A248",
+      "path": "/68861692-nyt-cooking/44373459-easy-side-dishes",
+      "type": "Detected Link",
+      "anchor_text": "Easy Side Dishes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D4D48AF5",
+      "path": "/68861692-nyt-cooking/2110373-healthy-weeknight-dinners",
+      "type": "Detected Link",
+      "anchor_text": "Healthy Weeknight Dinners",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6154DD16",
+      "path": "/68861692-nyt-cooking/113085175-sheet-pan-vegetarian-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Sheet-Pan Vegetarian Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FB018763",
+      "path": "/68861692-nyt-cooking/1640510-sam-siftons-suggestions",
+      "type": "Detected Link",
+      "anchor_text": "The Cooking Newsletter",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B171918D",
+      "path": "/68861692-nyt-cooking/11249289-weekly-plan",
+      "type": "Detected Link",
+      "anchor_text": "Five Weeknight Dishes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8D32EBFA",
+      "path": "/68861692-nyt-cooking/41186253-from-the-veggie-newsletter-by-tanya-sichynsky",
+      "type": "Detected Link",
+      "anchor_text": "The Veggie",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D5EBB115",
+      "path": "/68861692-nyt-cooking/2370458-one-pot-dinner-recipes",
+      "type": "Detected Link",
+      "anchor_text": "One-Pot Dinners",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C97E364D",
+      "path": "/68861692-nyt-cooking/2576790-easy-chicken-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Weeknight Chicken",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-56D015C1",
+      "path": "/68861692-nyt-cooking/44347054-quick-pasta-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Quick Pastas",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4FE7EF57",
+      "path": "/68861692-nyt-cooking/2274598-easy-30-minute-vegetarian-recipes",
+      "type": "Detected Link",
+      "anchor_text": "30 Minute Vegetarian",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C296E7F7",
+      "path": "/68861692-nyt-cooking/20651790-easy-baking-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Easy Baking",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE549C2D",
+      "path": "/topics/easy-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Easy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EF2A0195",
+      "path": "/topics/healthy-recipes",
+      "type": "Detected Link",
+      "anchor_text": "Healthy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

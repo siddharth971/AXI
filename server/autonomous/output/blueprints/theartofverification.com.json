@@ -1,0 +1,295 @@
+{
+  "website_blueprint_id": "BLUEPRINT-4F864BA1",
+  "generated_at": "2026-01-21T07:27:04.906Z",
+  "global_configuration": {
+    "brand_name": "Home",
+    "domain": "theartofverification.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "144.76.1.210",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 2,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif",
+        "type": "image",
+        "full_url": "https://theartofverification.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/Art-of-verification-home.jpeg",
+        "type": "image",
+        "full_url": "https://theartofverification.com/wp-content/uploads/2024/03/Art-of-verification-home.jpeg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home | The Art Of Verification",
+        "description": "Welcome to the realm of ASIC Verification mastery, a journey we embark on together through this blog, The Art of Verification.",
+        "canonical": "https://theartofverification.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1534ms"
+        },
+        {
+          "resource": "lazy_placeholder.gif",
+          "latency": "pending"
+        },
+        {
+          "resource": "Art-of-verification-home.jpeg",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome to the Journey of Mastering ASIC Verification: The Art of Verification",
+          "h2_subtitle": "Welcome to the realm of ASIC Verification mastery, a journey we embark on together through this blog,&nbsp;The Art of Verification. This platform is dedicated to those who are committed to honing their ASIC Verification skills via self-learning, with a focus on System Verilog, UVM, and developing the critical thinking process every verification engineer should possess.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "The Mission of The Art of Verification",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "A Beacon of Knowledge and Inspiration",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "A Quote to Live By",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "The Mission of The Art of Verification"
+          },
+          {
+            "tag": "p",
+            "text": "Our mission at&nbsp; The Art of Verification &nbsp;is to foster continuous learning and growth, embracing the boundless opportunities life presents to those truly dedicated to mastering verification. We hope to inspire you to learn and share something new every day, as it is one of the most rewarding experiences we can have."
+          },
+          {
+            "tag": "h2",
+            "text": "A Beacon of Knowledge and Inspiration"
+          },
+          {
+            "tag": "p",
+            "text": "We aim to be a beacon of knowledge, inspiration, and transformation for those who refuse to settle for anything less than an extraordinary life. On this website, we will candidly and passionately share the best concepts, strategies, tools, and resources that have made a significant impact on our quality of life, and will undoubtedly do the same for you."
+          },
+          {
+            "tag": "h2",
+            "text": "A Quote to Live By"
+          },
+          {
+            "tag": "p",
+            "text": "As Anthony J. D’Angelo once said, “Develop a passion for learning. If you do, you will never cease to grow.” This encapsulates the essence of&nbsp;our mission."
+          },
+          {
+            "tag": "h2",
+            "text": "The Art of Verification: Mastering ASIC Verification Skills"
+          },
+          {
+            "tag": "p",
+            "text": "&copy; 2026 The Art of Verification"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 19,
+          "headings": 5,
+          "images": 4
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-E87DE4AF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-067334B4",
+      "path": "/about-the-art-of-verification/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-14884887",
+      "path": "/systemverilog-static-properties-methods/",
+      "type": "Detected Link",
+      "anchor_text": "Static Properties &#038; Methods in SystemVerilog: A Comprehensive Guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0958CA0C",
+      "path": "/event-vs-waitevent-triggered-in-systemverilog/",
+      "type": "Detected Link",
+      "anchor_text": "@event Vs wait(event.triggered) in SystemVerilog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E043C658",
+      "path": "/concept-of-this-in-system-verilog/",
+      "type": "Detected Link",
+      "anchor_text": "Concept of “This” in System Verilog:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-20466813",
+      "path": "/constraint-override-in-system-verilog/",
+      "type": "Detected Link",
+      "anchor_text": "Constraint Override in System Verilog:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-11870129",
+      "path": "/different-array-types-and-queues-in-system-verilog/",
+      "type": "Detected Link",
+      "anchor_text": "Different Array Types and Queues in System Verilog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0BAEC8B7",
+      "path": "/directed-testing-vs-constraint-random-verification/",
+      "type": "Detected Link",
+      "anchor_text": "Directed Testing Vs Constraint Random Verification",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C1E910CF",
+      "path": "/enable-disable-specific-constraint/",
+      "type": "Detected Link",
+      "anchor_text": "Enable/Disable specific constraints:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D94B478A",
+      "path": "/inheritance-in-systemverilog-oops/",
+      "type": "Detected Link",
+      "anchor_text": "Inheritance in SystemVerilog OOPs:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0484F9CF",
+      "path": "/encapsulation/",
+      "type": "Detected Link",
+      "anchor_text": "Encapsulation:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0EE5DF7C",
+      "path": "/polymorphism/",
+      "type": "Detected Link",
+      "anchor_text": "Polymorphism:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9384BFCD",
+      "path": "/flavours-of-fork-join/",
+      "type": "Detected Link",
+      "anchor_text": "Flavours of Fork..Join",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-25675B83",
+      "path": "/generate-randc-behavior-from-rand-variable/",
+      "type": "Detected Link",
+      "anchor_text": "Generate randc behavior from rand variable:",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A3AC7584",
+      "path": "/generate-the-array-of-unique-values-without-using-random-and-constraints/",
+      "type": "Detected Link",
+      "anchor_text": "Generate the array of unique values without using random and constraints",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

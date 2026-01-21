@@ -1,0 +1,245 @@
+{
+  "website_blueprint_id": "BLUEPRINT-8FFDEFBD",
+  "generated_at": "2026-01-21T07:26:53.749Z",
+  "global_configuration": {
+    "brand_name": "Google",
+    "domain": "www.google.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "142.250.67.228",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "gws"
+    },
+    "server_headers": {
+      "Cache-Control": "private, max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "gws"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 1,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png",
+        "type": "image",
+        "full_url": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Google",
+        "description": "",
+        "canonical": "https://www.google.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "290ms"
+        },
+        {
+          "resource": "googlelogo_white_background_color_272x92dp.png",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Account Options",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 3,
+          "headings": 1,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-04DE6E25",
+      "path": "/imghp",
+      "type": "Detected Link",
+      "anchor_text": "Images",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B8E22F55",
+      "path": "/finance",
+      "type": "Detected Link",
+      "anchor_text": "Finance",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CF4D0103",
+      "path": "/preferences",
+      "type": "Detected Link",
+      "anchor_text": "Search settings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0E86C095",
+      "path": "/advanced_search",
+      "type": "Detected Link",
+      "anchor_text": "Advanced search",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0237D177",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "हिन्दी",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4EC3DA6D",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "বাংলা",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-405015BD",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "తెలుగు",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CD63FE32",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "मराठी",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-97C50C98",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "தமிழ்",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2DDEA5F",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "ગુજરાતી",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-63A41BF6",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "ಕನ್ನಡ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5BE88B39",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "മലയാളം",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D9E9D74",
+      "path": "/setprefs",
+      "type": "Detected Link",
+      "anchor_text": "ਪੰਜਾਬੀ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4B9A632A",
+      "path": "/intl/en/ads/",
+      "type": "Detected Link",
+      "anchor_text": "Advertising",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D25DC66F",
+      "path": "/intl/en/about.html",
+      "type": "Detected Link",
+      "anchor_text": "About Google",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

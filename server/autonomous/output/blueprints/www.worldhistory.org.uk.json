@@ -1,0 +1,749 @@
+{
+  "website_blueprint_id": "BLUEPRINT-1FDB09E9",
+  "generated_at": "2026-01-21T07:27:12.116Z",
+  "global_configuration": {
+    "brand_name": "World History Guide",
+    "domain": "www.worldhistory.org.uk",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "AWS",
+      "server_ip": "172.67.152.60",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=604800",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://www.worldhistory.org.uk/wp-includes/js/jquery/jquery.min.js?ver=1.6.2-wp"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/css/bootstrap.min.css",
+        "type": "stylesheet",
+        "full_url": "https://www.worldhistory.org.uk/css/bootstrap.min.css?ver=3.1.9"
+      },
+      {
+        "path": "/ajax/libs/font-awesome/5.15.4/css/all.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      },
+      {
+        "path": "/img/t6bb724204cfcf3cf71f716f5dc157a65.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t6bb724204cfcf3cf71f716f5dc157a65.jpg?1225"
+      },
+      {
+        "path": "/img/te72a4d4ba328872755590eaf1d34be9d.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/te72a4d4ba328872755590eaf1d34be9d.jpg?1225"
+      },
+      {
+        "path": "/img/t8718320b8f49c0daead1b1ef72dafdb6.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t8718320b8f49c0daead1b1ef72dafdb6.jpg?1225"
+      },
+      {
+        "path": "/img/t6bcf79c819f0846ca0a0f63550de40d2.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t6bcf79c819f0846ca0a0f63550de40d2.jpg?1225"
+      },
+      {
+        "path": "/img/t8e44eaf3e6cd48901cd0fd7934b05c50.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t8e44eaf3e6cd48901cd0fd7934b05c50.jpg?1225"
+      },
+      {
+        "path": "/img/t1d32effc25ecc3311bc66e2f19a59082.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t1d32effc25ecc3311bc66e2f19a59082.jpg?1225"
+      },
+      {
+        "path": "/img/t99996ea6c7a67a1b6528dcb023610759.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t99996ea6c7a67a1b6528dcb023610759.jpg?1225"
+      },
+      {
+        "path": "/img/tb9208db1053261ae1556617aff89a77c.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/tb9208db1053261ae1556617aff89a77c.jpg?1225"
+      },
+      {
+        "path": "/img/t803793fcaade3f36a3a2e6bf1d005ea5.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t803793fcaade3f36a3a2e6bf1d005ea5.jpg?1225"
+      },
+      {
+        "path": "/img/td0dc23015a3cf75bb6d3572e4931c7ba.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/td0dc23015a3cf75bb6d3572e4931c7ba.jpg?1225"
+      },
+      {
+        "path": "/img/t4210686933b507b4a0fac26a44d68b30.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t4210686933b507b4a0fac26a44d68b30.jpg?1225"
+      },
+      {
+        "path": "/img/tfa8a1670f930418215a5e9270ebe9dd8.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/tfa8a1670f930418215a5e9270ebe9dd8.jpg?1225"
+      },
+      {
+        "path": "/img/t4fdfa09b32515e7f63a411fd3fceae27.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t4fdfa09b32515e7f63a411fd3fceae27.jpg?1225"
+      },
+      {
+        "path": "/img/t5617c06987c52bc7497d8555f2c6b1c8.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t5617c06987c52bc7497d8555f2c6b1c8.jpg?1225"
+      },
+      {
+        "path": "/img/td2c3044cb19471fa2cd5463c0623e77e.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/td2c3044cb19471fa2cd5463c0623e77e.jpg?1225"
+      },
+      {
+        "path": "/img/t2a8b48a9d898357dd280e54f799cc8b9.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t2a8b48a9d898357dd280e54f799cc8b9.jpg?1225"
+      },
+      {
+        "path": "/img/t0db8ba2ba53efcfbbfe0ab11bf97aae0.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t0db8ba2ba53efcfbbfe0ab11bf97aae0.jpg?1225"
+      },
+      {
+        "path": "/img/t53791af33dec61a3b0483d2e4bd78865.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t53791af33dec61a3b0483d2e4bd78865.jpg?1225"
+      },
+      {
+        "path": "/img/t20e912c6354756a77f6749500b125854.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t20e912c6354756a77f6749500b125854.jpg?1225"
+      },
+      {
+        "path": "/img/tdaf36c33d7f2b85a605a1b463843f384.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/tdaf36c33d7f2b85a605a1b463843f384.jpg?1225"
+      },
+      {
+        "path": "/img/tb16489975364edf93c2b753f846f4197.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/tb16489975364edf93c2b753f846f4197.jpg?1225"
+      },
+      {
+        "path": "/img/t1866f4baec2a48d578f0f3ad1f16fd34.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t1866f4baec2a48d578f0f3ad1f16fd34.jpg?1225"
+      },
+      {
+        "path": "/img/t362804a06fde737c6f8df7ec87ed3e42.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/t362804a06fde737c6f8df7ec87ed3e42.jpg?1225"
+      },
+      {
+        "path": "/img/m6bcf79c819f0846ca0a0f63550de40d2.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m6bcf79c819f0846ca0a0f63550de40d2.jpg?09"
+      },
+      {
+        "path": "/img/m1409c6378e30a2d1bb7551b47d9b5108.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m1409c6378e30a2d1bb7551b47d9b5108.jpg?09"
+      },
+      {
+        "path": "/img/m1d32effc25ecc3311bc66e2f19a59082.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m1d32effc25ecc3311bc66e2f19a59082.jpg?09"
+      },
+      {
+        "path": "/img/m9f7d6621afff65e7c69d02309d7f5825.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m9f7d6621afff65e7c69d02309d7f5825.jpg?09"
+      },
+      {
+        "path": "/img/m4416bfe3021bb482ee7f631aeee35a8b.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m4416bfe3021bb482ee7f631aeee35a8b.jpg?25"
+      },
+      {
+        "path": "/img/ma8368716a11b076900bec96479dbd3f6.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/ma8368716a11b076900bec96479dbd3f6.jpg?25"
+      },
+      {
+        "path": "/img/me27c7201b1da7b38dfe26269683d0b13.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/me27c7201b1da7b38dfe26269683d0b13.jpg?25"
+      },
+      {
+        "path": "/img/mb01199e759bfc2e9790c04fdb20355c9.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/mb01199e759bfc2e9790c04fdb20355c9.jpg?25"
+      },
+      {
+        "path": "/img/m0737a681d40ae7ff3eaa0ba568b6a347.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m0737a681d40ae7ff3eaa0ba568b6a347.jpg?25"
+      },
+      {
+        "path": "/img/m0b0a7b5b125acfaa8d37cf2bb5bf2fa6.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/m0b0a7b5b125acfaa8d37cf2bb5bf2fa6.jpg?25"
+      },
+      {
+        "path": "/img/mb7b77752439cf19d73afd3739e240215.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/mb7b77752439cf19d73afd3739e240215.jpg?09"
+      },
+      {
+        "path": "/img/mb01199e759bfc2e9790c04fdb20355c9.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/mb01199e759bfc2e9790c04fdb20355c9.jpg?09"
+      },
+      {
+        "path": "/img/me3b4366fc1dccadb5bb6f3f458a6b170.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org.uk/img/me3b4366fc1dccadb5bb6f3f458a6b170.jpg?09"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "World History Guide - extensive online resource exploring Global history",
+        "description": "World History Guide is an extensive online resource for exploring global history through well-researched articles and engaging content. The site offers a...",
+        "canonical": "https://www.worldhistory.org.uk"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1121ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "latency": "pending"
+        },
+        {
+          "resource": "bootstrap.min.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Top Articles",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The Life and Legacy of Mahatma Gandhi",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The Fascinating World of Biographies: A Comprehensive Look into Historical Figures and Events",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Top Rated"
+          },
+          {
+            "tag": "h3",
+            "text": "Understanding the Crusades: A Journey Through Medieval Times"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring World History Through Interactive Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring the World Through Educational Games"
+          },
+          {
+            "tag": "h3",
+            "text": "The Cuban Missile Crisis: A Defining Moment in World History"
+          },
+          {
+            "tag": "h3",
+            "text": "Marie Curie: A Pioneer in Science and History"
+          },
+          {
+            "tag": "h3",
+            "text": "Historical Figures"
+          },
+          {
+            "tag": "h3",
+            "text": "Marie Curie: A Pioneer in Science and History"
+          },
+          {
+            "tag": "p",
+            "text": "Marie Curie is a name that is synonymous with science and discovery. Her contributions to the fields of physics and..."
+          },
+          {
+            "tag": "h3",
+            "text": "Discover the Impact of Susan B. Anthony on World History"
+          },
+          {
+            "tag": "p",
+            "text": "Learn about one of the most influential figures in world history, Susan B. Anthony."
+          },
+          {
+            "tag": "h3",
+            "text": "A Brief Overview of Albert Einstein's Life and Contributions"
+          },
+          {
+            "tag": "p",
+            "text": "Albert Einstein is a name that needs no introduction. Known as one of the greatest scientists and thinkers of all time,..."
+          },
+          {
+            "tag": "h3",
+            "text": "The Life and Legacy of Mahatma Gandhi"
+          },
+          {
+            "tag": "p",
+            "text": "The name Mahatma Gandhi is synonymous with peace, non-violence, and civil disobedience. He was a prominent figure in the..."
+          },
+          {
+            "tag": "h3",
+            "text": "Discovering the Genius of Thomas Edison"
+          },
+          {
+            "tag": "p",
+            "text": "Thomas Edison is a name that is synonymous with innovation and brilliance. Known as one of the greatest inventors of all..."
+          },
+          {
+            "tag": "h3",
+            "text": "Alexander the Great: The Legendary Leader Who Conquered the World"
+          },
+          {
+            "tag": "p",
+            "text": "Alexander the Great is a name that echoes through history as one of the most powerful and influential leaders to have..."
+          },
+          {
+            "tag": "h3",
+            "text": "Historical Facts"
+          },
+          {
+            "tag": "h3",
+            "text": "The Devastation of Hurricane Katrina: A Look Back at One of the Deadliest Natural Disasters in World History"
+          },
+          {
+            "tag": "p",
+            "text": "In 2005, the United States experienced one of the deadliest and most destructive natural disasters in its history...."
+          },
+          {
+            "tag": "h3",
+            "text": "The Signing of the Declaration of Independence: A Pivotal Moment in World History"
+          },
+          {
+            "tag": "h3",
+            "text": "A Journey to the Moon: Exploring the History of the Moon Landing"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring Ancient Chinese Inventions"
+          },
+          {
+            "tag": "h3",
+            "text": "The Discovery of Penicillin: Uncovering the Life-Saving Antibiotic"
+          },
+          {
+            "tag": "h3",
+            "text": "World Cultures"
+          },
+          {
+            "tag": "h3",
+            "text": "The Fascinating World of the Inca Civilisation: A Journey Through Latin American Cultures"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring Nigerian Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring the Rich History of the Aztec Civilization"
+          },
+          {
+            "tag": "h3",
+            "text": "Discover the Richness of Chinese Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "Tutoring Services"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best History Tutoring Websites"
+          },
+          {
+            "tag": "h3",
+            "text": "Medieval Times"
+          },
+          {
+            "tag": "h3",
+            "text": "Understanding the Crusades: A Journey Through Medieval Times"
+          },
+          {
+            "tag": "p",
+            "text": "The Crusades were a series of religious wars that took place during the medieval period. These wars were fought between..."
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring the World of Manors"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the fascinating world of manors! In this article, we will delve into the rich history and complexities of..."
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring the Fascinating World of Armor and Weapons"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the fascinating world of Armor and Weapons, where we will take you on a journey through medieval times and the ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Discovering Daily Life in Medieval Times"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the fascinating world of Medieval Times, where life was vastly different from what we know today. In this..."
+          },
+          {
+            "tag": "h3",
+            "text": "A Brief History of Kings and Lords: Exploring Medieval Times and Feudalism"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the medieval world of kings and lords! This era was defined by power struggles, alliances, and the rise and..."
+          },
+          {
+            "tag": "h3",
+            "text": "Understanding the Code of Conduct in Medieval Times"
+          },
+          {
+            "tag": "p",
+            "text": "In the medieval times, a code of conduct was crucial for maintaining order and establishing social norms. This code, also ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Understanding Serfs and Peasants in Medieval Times"
+          },
+          {
+            "tag": "p",
+            "text": "Medieval times were a pivotal period in human history, marked by a complex social and economic system known as feudalism. ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Health and Medicine in Medieval Times: Exploring the Connection between Body and Mind"
+          },
+          {
+            "tag": "p",
+            "text": "Health and Medicine have always been an integral part of human history, with advancements and discoveries constantly..."
+          },
+          {
+            "tag": "h2",
+            "text": "Top Articles"
+          },
+          {
+            "tag": "h2",
+            "text": "The Life and Legacy of Mahatma Gandhi"
+          },
+          {
+            "tag": "h2",
+            "text": "The Fascinating World of Biographies: A Comprehensive Look into Historical Figures and Events"
+          },
+          {
+            "tag": "h2",
+            "text": "Alexander the Great: The Legendary Leader Who Conquered the World"
+          },
+          {
+            "tag": "h2",
+            "text": "The Fascinating World of Renaissance Art"
+          },
+          {
+            "tag": "h3",
+            "text": "Ancient Civilizations"
+          },
+          {
+            "tag": "h2",
+            "text": "A Fascinating Look into the World of Pharaohs"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the fascinating world of Pharaohs - the ancient rulers of Egypt who have captured our imaginations for..."
+          },
+          {
+            "tag": "h2",
+            "text": "A Journey Through the City-States of Ancient Greece"
+          },
+          {
+            "tag": "p",
+            "text": "The ancient world is filled with fascinating stories and rich history, and few places are as captivating as the..."
+          },
+          {
+            "tag": "h2",
+            "text": "Exploring the World of Gods and Goddesses"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the fascinating world of Gods and Goddesses! Throughout history, humans have been fascinated by the divine..."
+          },
+          {
+            "tag": "h2",
+            "text": "An Overview of Mythology in Ancient Greece"
+          },
+          {
+            "tag": "p",
+            "text": "In the world of ancient Greece, mythology played a fundamental role in shaping the beliefs and practices of its people...."
+          },
+          {
+            "tag": "h2",
+            "text": "Exploring the Rise and Fall of the Empire: A Journey Through Ancient Rome"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to our journey through ancient Rome, one of the most powerful and influential empires in human history. From its..."
+          },
+          {
+            "tag": "h2",
+            "text": "The Rise and Fall of Gladiators in Ancient Rome"
+          },
+          {
+            "tag": "p",
+            "text": "Gladiators have long been a fascination in popular culture, with their fierce battles and heroic tales captivating..."
+          },
+          {
+            "tag": "h2",
+            "text": "New Articles"
+          },
+          {
+            "tag": "h2",
+            "text": "Exploring Projects and Presentations in World History"
+          },
+          {
+            "tag": "h2",
+            "text": "An Overview of Mythology in Ancient Greece"
+          },
+          {
+            "tag": "h2",
+            "text": "The Fall of the Berlin Wall: A Defining Moment in World History"
+          },
+          {
+            "tag": "p",
+            "text": "Which cookies do you want to accept?"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 41,
+          "headings": 51,
+          "images": 36
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-42E5F8CB",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "World History Guide World History Guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C95FA24",
+      "path": "/knights-and-chivalry-crusades",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A2064020",
+      "path": "/teaching-methods-interactive-learning",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE6B6096",
+      "path": "/educational-resources-educational-games",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6E29DDBF",
+      "path": "/cold-war-cuban-missile-crisis",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AFEF73C0",
+      "path": "/medieval-times",
+      "type": "Detected Link",
+      "anchor_text": "Medieval Times",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EC5E4DE5",
+      "path": "/medieval-times/knights-and-chivalry",
+      "type": "Detected Link",
+      "anchor_text": "Knights and Chivalry",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C2AE1AD",
+      "path": "/knights-and-chivalry-code-of-conduct",
+      "type": "Detected Link",
+      "anchor_text": "Code of Conduct",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0E254BC9",
+      "path": "/knights-and-chivalry-armor-and-weapons",
+      "type": "Detected Link",
+      "anchor_text": "Armor and Weapons",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FE1ACA98",
+      "path": "/medieval-times/medieval-life",
+      "type": "Detected Link",
+      "anchor_text": "Medieval Life",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A69E2328",
+      "path": "/medieval-life-daily-life",
+      "type": "Detected Link",
+      "anchor_text": "Daily Life",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC6A5EFA",
+      "path": "/medieval-life-health-and-medicine",
+      "type": "Detected Link",
+      "anchor_text": "Health and Medicine",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-48A38E0B",
+      "path": "/medieval-life-holidays-and-celebrations",
+      "type": "Detected Link",
+      "anchor_text": "Holidays and Celebrations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44A5F799",
+      "path": "/medieval-times/feudalism",
+      "type": "Detected Link",
+      "anchor_text": "Feudalism",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ADD7EC68",
+      "path": "/feudalism-serfs-and-peasants",
+      "type": "Detected Link",
+      "anchor_text": "Serfs and Peasants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

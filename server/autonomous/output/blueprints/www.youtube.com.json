@@ -1,0 +1,280 @@
+{
+  "website_blueprint_id": "BLUEPRINT-D245406C",
+  "generated_at": "2026-01-21T07:26:53.758Z",
+  "global_configuration": {
+    "brand_name": "YouTube",
+    "domain": "www.youtube.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "142.250.77.46",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "ESF"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Content-Security-Policy": "require-trusted-types-for 'script'",
+      "Server": "ESF"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 14,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/s/desktop/e2b70753/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/fetch-polyfill.vflset/fetch-polyfill.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/intersection-observer.min.vflset/intersection-observer.min.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/scheduler.vflset/scheduler.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/scheduler.vflset/scheduler.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/spf.vflset/spf.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/spf.vflset/spf.js"
+      },
+      {
+        "path": "/s/desktop/e2b70753/jsbin/network.vflset/network.js",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/network.vflset/network.js"
+      },
+      {
+        "path": "/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.nqK6y8xepRQ.es5.O/am=AAAgAAAACA/d=1/br=1/rs=AGKMywGgSNge9Ns1X_rF9KoehBCuNebYCg/m=kevlar_base_module,kevlar_main_module",
+        "type": "script",
+        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.nqK6y8xepRQ.es5.O/am=AAAgAAAACA/d=1/br=1/rs=AGKMywGgSNge9Ns1X_rF9KoehBCuNebYCg/m=kevlar_base_module,kevlar_main_module"
+      },
+      {
+        "path": "/css2",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap"
+      },
+      {
+        "path": "/s/desktop/e2b70753/cssbin/www-main-desktop-home-page-skeleton.css",
+        "type": "stylesheet",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-main-desktop-home-page-skeleton.css"
+      },
+      {
+        "path": "/s/desktop/e2b70753/cssbin/www-onepick.css",
+        "type": "stylesheet",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-onepick.css"
+      },
+      {
+        "path": "/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.8YTOGYxo2iA.L.X.O/am=AAAgABAgCQ/d=0/br=1/rs=AGKMywFiqHlgiKpAMO8qV_Bx9lQTDiWV7A",
+        "type": "stylesheet",
+        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.8YTOGYxo2iA.L.X.O/am=AAAgABAgCQ/d=0/br=1/rs=AGKMywFiqHlgiKpAMO8qV_Bx9lQTDiWV7A"
+      },
+      {
+        "path": "/s/desktop/e2b70753/cssbin/www-main-desktop-watch-page-skeleton.css",
+        "type": "stylesheet",
+        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-main-desktop-watch-page-skeleton.css"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "YouTube",
+        "description": "Enjoy the videos and music that you love, upload original content and share it all with friends, family and the world on YouTube.",
+        "canonical": "https://www.youtube.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "352ms"
+        },
+        {
+          "resource": "web-animations-next-lite.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webcomponents-all-noPatch.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "fetch-polyfill.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 20,
+          "headings": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-1F633125",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2E0CA167",
+      "path": "/about/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DCF59E45",
+      "path": "/about/press/",
+      "type": "Detected Link",
+      "anchor_text": "Press",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0AFC256A",
+      "path": "/about/copyright/",
+      "type": "Detected Link",
+      "anchor_text": "Copyright",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34C34CA1",
+      "path": "/t/contact_us/",
+      "type": "Detected Link",
+      "anchor_text": "Contact us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-02A7D5B4",
+      "path": "/creators/",
+      "type": "Detected Link",
+      "anchor_text": "Creator",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44CD8A4C",
+      "path": "/ads/",
+      "type": "Detected Link",
+      "anchor_text": "Advertise",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-47CF8160",
+      "path": "/t/terms",
+      "type": "Detected Link",
+      "anchor_text": "Terms",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D97F9B24",
+      "path": "/t/privacy",
+      "type": "Detected Link",
+      "anchor_text": "Privacy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-27FDB62D",
+      "path": "/about/policies/",
+      "type": "Detected Link",
+      "anchor_text": "Policy &amp; Safety",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-82C09C61",
+      "path": "/howyoutubeworks",
+      "type": "Detected Link",
+      "anchor_text": "How YouTube works",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CD7E51BD",
+      "path": "/new",
+      "type": "Detected Link",
+      "anchor_text": "Test new features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

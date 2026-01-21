@@ -1,0 +1,839 @@
+{
+  "website_blueprint_id": "BLUEPRINT-11FFF392",
+  "generated_at": "2026-01-21T07:26:54.682Z",
+  "global_configuration": {
+    "brand_name": "AI Knowledge Base Software Cut Tickets by 80%",
+    "domain": "www.proprofskb.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.75.83",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=2678400",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 9,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/html5shiv/3.7.3/html5shiv.min.js",
+        "type": "script",
+        "full_url": "https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"
+      },
+      {
+        "path": "/respond/1.4.2/respond.min.js",
+        "type": "script",
+        "full_url": "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
+      },
+      {
+        "path": "/fpr.js",
+        "type": "script",
+        "full_url": "https://cdn.firstpromoter.com/fpr.js"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.proprofskb.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/api/includes/global/js/jquery.js",
+        "type": "script",
+        "full_url": "https://www.proprofskb.com/api/includes/global/js/jquery.js"
+      },
+      {
+        "path": "/api/includes/global/footer/knowledgebase/lazyslide.js",
+        "type": "script",
+        "full_url": "https://www.proprofskb.com/api/includes/global/footer/knowledgebase/lazyslide.js"
+      },
+      {
+        "path": "/api/includes/global/js/jquery.bxslider.min.js",
+        "type": "script",
+        "full_url": "https://www.proprofskb.com/api/includes/global/js/jquery.bxslider.min.js?v=8"
+      },
+      {
+        "path": "/api/includes/global/css/header-footer.css",
+        "type": "stylesheet",
+        "full_url": "https://www.proprofskb.com/api/includes/global/css/header-footer.css?v=30"
+      },
+      {
+        "path": "/new-ui/img/new-img/round-img/banner-image.png",
+        "type": "image",
+        "full_url": "https://www.proprofskb.com/new-ui/img/new-img/round-img/banner-image.png?v=1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "AI Knowledge Base Software Cut Tickets by 80%",
+        "description": "Best Knowledge Base Software that will reduce tickets up to 80%. Create an internal knowledge base or customer help center. Get Started Now!",
+        "canonical": "https://www.proprofskb.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "16274ms"
+        },
+        {
+          "resource": "html5shiv.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "respond.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "fpr.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "AI-Powered Knowledge Base Software",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "FREE. All Features. FOREVER!",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Real-Life Customer Success Stories",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "What Does a Knowledge Base Look Like?",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "(855) 776-7763 Get a Demo Training Maker"
+          },
+          {
+            "tag": "p",
+            "text": "Survey Maker"
+          },
+          {
+            "tag": "p",
+            "text": "WebinarNinja"
+          },
+          {
+            "tag": "p",
+            "text": "All Products"
+          },
+          {
+            "tag": "p",
+            "text": "Live Chat"
+          },
+          {
+            "tag": "p",
+            "text": "Help Desk"
+          },
+          {
+            "tag": "p",
+            "text": "PeopleGoal"
+          },
+          {
+            "tag": "p",
+            "text": "ProProfs.com"
+          },
+          {
+            "tag": "p",
+            "text": "Get Started Free Create Knowledge Base Features Features AI Hub Content Authoring Branding & Design Security, Roles & Permissions Contextual In-App Help Search & Access Reports & Analytics SSO API Integrations View All Features Pricing Solutions Solutions Solutions Internal Knowledge Base User Manual Online Documentation Technical Documentation IT Documentation Software Documentation Process Documentation Training Documentation Help Center Wiki Software Faq Software View All Solutions Suites Customer Delight Suite Smarter Employee Learning Suite Customers Learn why millions choose ProProfs in their own words"
+          },
+          {
+            "tag": "p",
+            "text": "Blog"
+          },
+          {
+            "tag": "p",
+            "text": "Knowledge management and customer service insights by industry experts."
+          },
+          {
+            "tag": "p",
+            "text": "Getting Started"
+          },
+          {
+            "tag": "p",
+            "text": "Find helpful articles on how to create detailed knowledge base articles and sites."
+          },
+          {
+            "tag": "p",
+            "text": "Video Tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "Watch how ProProfs Knowledge Base works and what it can do for you."
+          },
+          {
+            "tag": "h1",
+            "text": "AI-Powered Knowledge Base Software"
+          },
+          {
+            "tag": "p",
+            "text": "tick Created with Sketch. No credit card required."
+          },
+          {
+            "tag": "p",
+            "text": "Learn how to create a knowledge base in 5 mins FREE. All Features. FOREVER! Try our Forever FREE plan with all the premium features for growing businesses FREE PLAN Ideal for growing businesses. $0.00 free forever Start creating an insightful, collaborative knowledge base of up to 25 articles for free. All Features No Limits Up to 25 Articles --> Get Started Free ESSENTIALS Ideal for established businesses & enterprises. $49 per author/month Take self-service and collaboration to the next level with help sites with 25+ articles & multiple users. All Features AI Writer & AI Search Up to 300 Articles Unlimited Sites, Articles, Users & Groups For 5+ authors Talk to Us --> View All Plans Got questions? Schedule a demo and get all your questions answered."
+          },
+          {
+            "tag": "h2",
+            "text": "Real-Life Customer Success Stories"
+          },
+          {
+            "tag": "p",
+            "text": "Learning & Development Manager, Legacy Research Group"
+          },
+          {
+            "tag": "p",
+            "text": "Incharge, Technical Documentation, Ayyeka"
+          },
+          {
+            "tag": "p",
+            "text": "Technical Lead Advisor, Library Services, Sikt"
+          },
+          {
+            "tag": "h2",
+            "text": "Create Customer Help Sites, User Manuals or Private Knowledge Base"
+          },
+          {
+            "tag": "p",
+            "text": "Internal Knowledge Base User Manuals Online Documentation Get Started Free Get a Demo What Does a Knowledge Base Look Like? See Customer Examples - It's Fully Customizable View --> View --> View --> View --> View --> View --> Create a Knowledge Base with Free Templates How to Create a Knowledge Base With AI in Minutes Watch : How to Create a Stunning Knowledge Base in 5 minutes 1 Start from scratch or use a site template"
+          },
+          {
+            "tag": "p",
+            "text": "Customize with your logo & colors"
+          },
+          {
+            "tag": "p",
+            "text": "Import files & documents easily"
+          },
+          {
+            "tag": "p",
+            "text": "Create help content with AI"
+          },
+          {
+            "tag": "p",
+            "text": "Publish your site"
+          },
+          {
+            "tag": "h4",
+            "text": "Start from scratch or use a site template AI -->"
+          },
+          {
+            "tag": "h4",
+            "text": "Customize with your logo & colors"
+          },
+          {
+            "tag": "h4",
+            "text": "Import files & documents easily"
+          },
+          {
+            "tag": "h4",
+            "text": "Create help content with AI"
+          },
+          {
+            "tag": "h4",
+            "text": "Publish your site"
+          },
+          {
+            "tag": "h2",
+            "text": "Never Answer the Same Question Again"
+          },
+          {
+            "tag": "p",
+            "text": "Empower users to find accurate answers instantly by enhancing your help site’s search and integrating AI deflection. Your knowledge becomes highly searchable and easily filtered, while the integrated AI chatbot automatically detects common questions in Live Chat and fetches the related help article."
+          },
+          {
+            "tag": "p",
+            "text": "Deliver AI-powered search for instant results tick Knowledgebase tick Search across multiple knowledge bases tick Knowledgebase tick Filter with precision and relevance Delight Customers With Chat + HelpDesk + Survey Craft delightful customer experience with ProProfs Support Suite Deliver delightful customer experiences across channels. Our knowledge base connects seamlessly with ProProfs Live Chat, Help Desk, and Survey so you can offer amazing support and build memorable customer service experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Live Chat for instant support tick Knowledgebase tick Help Desk engineered for customer delight tick Knowledgebase tick Customer experience feedback & surveys Explore ProProfs Support Suite What Are the Key Benefits of a Knowledge Base Solution? Allow Public or Private Access A modern knowledge base platform helps you create both public and private knowledge bases, depending on your target audience. You can keep the knowledge base public for customer self-service or allow access to only internal employees using passwords and privacy controls."
+          },
+          {
+            "tag": "p",
+            "text": "Keep your knowledge base public or private tick Knowledgebase tick Enable single sign-on for authorized access tick Knowledgebase tick Control knowledge base visibility Delight Customers With Instant 24x7 Self-Help Ditch the frustration of long wait times and endless phone menus. Offer instant, 24/7 support through a self-service knowledge base. Empower customers to find answers on their own time, reducing reliance on your support team for common issues."
+          },
+          {
+            "tag": "p",
+            "text": "Provide round-the-clock self-help tick Knowledgebase tick Make customers independent tick Knowledgebase tick Reduce dependence on calls and emails Create Your First Knowledge Base Get a Demo Help Agents Improve Customer Support Agents need information at their fingertips to be able to answer customer questions right when they arise. With a simple knowledge base platform, your customer support staff will always have access to the most updated information. They can leverage that knowledge to cater to customer requests, make informed decisions, and deliver delightful customer support experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Help agents resolve issues confidently tick Knowledgebase tick Provide agents 24x7 access to information tick Knowledgebase tick Reduce issue resolution time 1.05 Boost Team Collaboration Assign clear roles and permissions so everyone's on the same page. Plus, built-in commenting lets you share ideas and discuss projects directly within the platform."
+          },
+          {
+            "tag": "p",
+            "text": "Assign roles & permissions tick Knowledgebase tick Collaborate to build & share knowledge tick Knowledgebase tick Provide feedback via internal comments Improve Employee Onboarding New employees need constant support to get familiar with an organization and meet work expectations. An online knowledge base brings them up to speed with your company’s culture and work dynamics. It provides new hires with centralized access to critical information related to your products and services, company policies, employee data, work processes, and much more. This allows them to learn conveniently at their own pace and become self-reliant right from day one."
+          },
+          {
+            "tag": "p",
+            "text": "Bring employees up to speed quickly tick Knowledgebase tick Make learning easy & convenient tick Knowledgebase tick Provide a seamless onboarding experience Improve Search Engine Ranking of Your Knowledge Base If you opt to make a public knowledge base (we also support private & secure knowledge base), you can make it SEO-friendly with a single click and get additional customers, leads & traffic. We've designed ProProfs such that when SEO settings are enabled it shows up on top of search engines, driving more visibility to your brand. Experience the industry's most powerful SEO capabilities in a knowledge base."
+          },
+          {
+            "tag": "p",
+            "text": "Make discovery easy tick Knowledgebase tick Get top search rankings & reach tick Knowledgebase tick Increate traffic & visibility 100+ Settings & Integrations Connect ProProfs Knowledge Base seamlessly with your favorite tools Design beautiful knowledge bases using branding features and pre-made templates, or customize fully with CSS and HTML. Configure 100+ settings for common tasks like single sign-on, security and more. Integrate with popular tools such as Google Analytics , Wufoo and more."
+          },
+          {
+            "tag": "p",
+            "text": "Branding, Templates, CSS tick Knowledgebase tick Configure 100+ settings tick Knowledgebase tick Integration with CRMs, help desks, chat & popular tools View All Integrations Try ProProfs Knowledge Base for Free Create wow self-service experiences for your customers &amp; employees Try it Free tick Created with Sketch. No credit card required."
+          },
+          {
+            "tag": "h2",
+            "text": "Who Can Use a Knowledge Base?"
+          },
+          {
+            "tag": "p",
+            "text": "Customer support agents have a lot on their plates that can impact the issue resolution time. A knowledge base solution equips your support agents with all the assistance they need to solve customer problems quickly."
+          },
+          {
+            "tag": "p",
+            "text": "Your sales team is always on the frontline, capturing and converting prospects into customers. A knowledge base provides them with instant access to client information and sales processes, so they can make the right pitches and sell confidently."
+          },
+          {
+            "tag": "p",
+            "text": "HR professionals are always on the move – hiring and inducting new hires, managing employee records, etc. A knowledge base solution can centralize all important HR processes, making work more streamlined for your HR team."
+          },
+          {
+            "tag": "p",
+            "text": "Call center operators have to deal with a rush of calls every single day while keeping the resolution time to a minimum. With the right knowledge base platform, call center operators have all the necessary information at their fingertips. This helps them answer calls confidently without making your customers wait."
+          },
+          {
+            "tag": "p",
+            "text": "If your IT team is constantly struggling to resolve support issues raised by employees, then a knowledge base can prove to be immensely helpful. It arms your IT team with step-by-step guides and troubleshooting tips, enabling them to fix issues faster."
+          },
+          {
+            "tag": "p",
+            "text": "Technical support teams often have a hard time dealing with customer issues of varying complexity. A knowledge base relieves them from the tedious task of sifting through multiple files and helps them solve customer problems with ease."
+          },
+          {
+            "tag": "h2",
+            "text": "Everything You Need for Private or Public Knowledge Base"
+          },
+          {
+            "tag": "p",
+            "text": "Simple & Easy For all skill levels. No software download or HTML skills needed."
+          },
+          {
+            "tag": "p",
+            "text": "Anytime, Anywhere View and access knowledge base on laptops, tablets, or smartphones, anywhere."
+          },
+          {
+            "tag": "p",
+            "text": "SEO-Ready Create a knowledge base that is optimized for search engines."
+          },
+          {
+            "tag": "p",
+            "text": "Customize & Brand Brand your help site with customized fonts, colors, logos, and more."
+          },
+          {
+            "tag": "p",
+            "text": "Security Controls Keep your knowledge base secure with password and privacy controls."
+          },
+          {
+            "tag": "p",
+            "text": "90+ Languages Supported Translate content in over 90 languages and serve a diverse customer base."
+          },
+          {
+            "tag": "p",
+            "text": "Highly Searchable ProProfs throws up answers instantly with its Google-like search engine."
+          },
+          {
+            "tag": "p",
+            "text": "Centralize Documents Centrally access company documents, manuals & more easily with knowledge base."
+          },
+          {
+            "tag": "p",
+            "text": "Analytics & Reports Learn what users are searching for, failed searches, and improvement areas."
+          },
+          {
+            "tag": "h2",
+            "text": "How to Choose the Right Knowledge Base Solution"
+          },
+          {
+            "tag": "p",
+            "text": "To choose the best knowledge base platform, focus on features and capabilities that will scale your operations, reduce context switching, and secure your internal procedures. Look for these six essential criteria:"
+          },
+          {
+            "tag": "p",
+            "text": "Look for an AI-powered search that instantly surfaces accurate, human-like answers, going beyond simple keyword matching. Crucially, the platform must include Search Analytics to track failed queries and identify content gaps."
+          },
+          {
+            "tag": "p",
+            "text": "Select a solution that offer unified hosting for both public and private content. Implement Role-Based Accesss Control (RBAC) to ensure that customers only see public help sites, while internal teams have access to sensitive SOPs and manuals."
+          },
+          {
+            "tag": "p",
+            "text": "Your tool must integrate deeply and natively with your core tools like CRM (Salesforce, HubSpot) and service desk platforms, to embed help content directly at the point of need. Teams shouldn't have to leave their primary application."
+          },
+          {
+            "tag": "p",
+            "text": "This must log every change, track revisions, and allow instant rollback to previous successful versions, providing an unalterable audit trail for compliance."
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate time-to-value using integrated knowledge base AI tools that generate first drafts of SOPs, technical guides, or FAQs. This significantly reduces the effort required by subject matter experts for content creation."
+          },
+          {
+            "tag": "p",
+            "text": "Choose a platform that supports easy Multi-Language translation workflows. Additionally, the solution must support Custom Domain and White-Labeling so your documentation reflects your professional brand image."
+          },
+          {
+            "tag": "p",
+            "text": "Look for an AI-powered search that instantly surfaces accurate, human-like answers, going beyond simple keyword matching. Crucially, the platform must include Search Analytics to track failed queries and identify content gaps."
+          },
+          {
+            "tag": "p",
+            "text": "Select a solution that offer unified hosting for both public and private content. Implement Role-Based Accesss Control (RBAC) to ensure that customers only see public help sites, while internal teams have access to sensitive SOPs and manuals."
+          },
+          {
+            "tag": "p",
+            "text": "Your tool must integrate deeply and natively with your core tools like CRM (Salesforce, HubSpot) and service desk platforms, to embed help content directly at the point of need. Teams shouldn't have to leave their primary application."
+          },
+          {
+            "tag": "p",
+            "text": "This must log every change, track revisions, and allow instant rollback to previous successful versions, providing an unalterable audit trail for compliance."
+          },
+          {
+            "tag": "p",
+            "text": "Accelerate time-to-value using integrated knowledge base AI tools that generate first drafts of SOPs, technical guides, or FAQs. This significantly reduces the effort required by subject matter experts for content creation."
+          },
+          {
+            "tag": "p",
+            "text": "Choose a platform that supports easy Multi-Language translation workflows. Additionally, the solution must support Custom Domain and White-Labeling so your documentation reflects your professional brand image."
+          },
+          {
+            "tag": "h2",
+            "text": "How to Choose the Right Knowledge Base Solution"
+          },
+          {
+            "tag": "p",
+            "text": "To choose the best knowledge base platform, look for these 3 key features:"
+          },
+          {
+            "tag": "p",
+            "text": "Assign specific roles to individual users or different teams and let them work collectively to build your knowledge base content."
+          },
+          {
+            "tag": "p",
+            "text": "Set rules to restrict or allow access to a page or folder. Save the rules and use them across multiple sites."
+          },
+          {
+            "tag": "p",
+            "text": "Unlock detailed insights into article performance, search patterns, and author activities."
+          },
+          {
+            "tag": "h2",
+            "text": "Why Do People Choose ProProfs Knowledge Base?"
+          },
+          {
+            "tag": "p",
+            "text": "ProProfs Knowledge Base solution offers powerful features that work together to help you create a public and private knowledge base, manuals, documentation, and much more. It is easy to set up and requires no coding skills or specialized training. Robust integrations with leading tools and a solid support system are other striking features that give this tool a competitive edge."
+          },
+          {
+            "tag": "h2",
+            "text": "We Believe Software Should Make You Happy"
+          },
+          {
+            "tag": "p",
+            "text": "We are building a 100-year company with a mission to DELIGHT customers. People think we’re crazy to offer phone, chat , and email support . We still do it. When it comes to awesome support & building delightful software, we go the distance - try it, and you will love it."
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "tag": "h4",
+            "text": "Can I manage multiple branded knowledge bases under one account?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, you can manage multiple branded knowledge bases from a single account. Each site can have its own custom domain, logo, styling, and content. This is ideal for managing documentation for different brands or product lines while maintaining centralized control."
+          },
+          {
+            "tag": "h4",
+            "text": "Can I create both private (internal) and public-facing knowledge bases?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, ProProfs supports internal and public knowledge bases. You can create secure, login-only sites for internal teams or clients, or public sites for FAQs or help center support. It also lets you control visibility at the site, page, or section level."
+          },
+          {
+            "tag": "h4",
+            "text": "How can I manage users, roles, access permissions, and secure login with SSO?"
+          },
+          {
+            "tag": "p",
+            "text": "ProProfs lets you control content access and assign roles, like viewer, editor, reviewer, etc. You can use its custom workflow/approval process to authorize users to view or edit information. SSO enables single-sign-on authentication using existing credentials across linked services."
+          },
+          {
+            "tag": "h4",
+            "text": "Can I import Word or PDF files and keep the formatting?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, you can do so while preserving layout and styling. ProProfs automatically converts your documents into web-friendly articles. Contact the support team at [email&#160;protected] for hands-on support to tailor your knowledge base, from import to customization."
+          },
+          {
+            "tag": "h4",
+            "text": "Can I upload or link to external files like Google Docs or SharePoint?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, you can upload or attach external files directly to articles. ProProfs supports linking to shared files or embedding from cloud services. While not a native integration with SharePoint or Google Docs, users can add download links or import files manually for centralized access."
+          },
+          {
+            "tag": "h4",
+            "text": "Can multiple people collaborate on the same article at once?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, multiple team members can collaborate on the same article simultaneously. Real-time collaboration allows contributors to edit, comment, or suggest changes within the WYSIWYG editor. Workflow controls and versioning ensure structured review before publishing, promoting efficient teamwork and content quality."
+          },
+          {
+            "tag": "h4",
+            "text": "Is there a version history to track and restore content changes?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, all articles have built-in revision history for tracking edits. Every change is recorded with a timestamp and contributor information. You can compare versions, view differences, and restore any previous version if needed—ideal for maintaining accuracy and accountability across teams."
+          },
+          {
+            "tag": "h4",
+            "text": "How intelligent is the search? Does it support keywords and full-text searches?"
+          },
+          {
+            "tag": "p",
+            "text": "ProProfs includes an intelligent search engine with keyword and full-text indexing. Search results prioritize titles, tags, and content relevance. Users can refine results using filters, and upcoming AI enhancements will offer context-aware suggestions for even faster article discovery."
+          },
+          {
+            "tag": "h4",
+            "text": "Is the platform multilingual, and how are translations managed?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, you can create multilingual knowledge bases and switch between them easily. ProProfs allows linking of sites in different languages. Translations are handled manually, giving you complete control over phrasing, localization, and cultural nuances in your content."
+          },
+          {
+            "tag": "h4",
+            "text": "Does ProProfs offer an API to sync data or track usage?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, ProProfs offers APIs for integration , usage analytics, and automation. With RESTful APIs, you can sync user data, fetch article metrics, track views or engagement, and integrate with third-party tools like CRMs or learning systems to build custom workflows/dashboards."
+          },
+          {
+            "tag": "p",
+            "text": "See More"
+          },
+          {
+            "tag": "p",
+            "text": "Less FAQs"
+          },
+          {
+            "tag": "h2",
+            "text": "ProProfs is a Recognized Leader in Knowledge Management"
+          },
+          {
+            "tag": "h2",
+            "text": "Press & Ratings"
+          },
+          {
+            "tag": "h2",
+            "text": "Try ProProfs Knowledge Base for Free"
+          },
+          {
+            "tag": "p",
+            "text": "tick Created with Sketch. No credit card required."
+          },
+          {
+            "tag": "p",
+            "text": "(350+) Blog Press Affiliate About Contact Trust GDPR/CCPA Terms Privacy Accessibility Follow us on linkedIn Follow us on facebook Follow us on Youtube Sitemap &copy; 2005 - 2026 ProProfs"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 278,
+          "headings": 41,
+          "images": 75
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-FBC99717",
+      "path": "/register/",
+      "type": "Detected Link",
+      "anchor_text": "Get a Demo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-26428403",
+      "path": "/login/",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3999D439",
+      "path": "/register/",
+      "type": "Detected Link",
+      "anchor_text": "Get Started Free",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B5C1367C",
+      "path": "/templates/",
+      "type": "Detected Link",
+      "anchor_text": "Create Knowledge Base",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ACAF048B",
+      "path": "/features/ai-writer/",
+      "type": "Detected Link",
+      "anchor_text": "AI Hub",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B2929E5C",
+      "path": "/features/content-authoring/",
+      "type": "Detected Link",
+      "anchor_text": "Content Authoring",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-074A9EEF",
+      "path": "/features/branding-and-customization/",
+      "type": "Detected Link",
+      "anchor_text": "Branding & Design",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9241C81D",
+      "path": "/features/security/",
+      "type": "Detected Link",
+      "anchor_text": "Security, Roles & Permissions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AAEB08C1",
+      "path": "/context-sensitive-help-software/",
+      "type": "Detected Link",
+      "anchor_text": "Contextual In-App Help",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-16ACF08A",
+      "path": "/features/knowledge-base-search/",
+      "type": "Detected Link",
+      "anchor_text": "Search & Access",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ED3863C9",
+      "path": "/features/reports/",
+      "type": "Detected Link",
+      "anchor_text": "Reports & Analytics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C4EEC90",
+      "path": "/features/sso/",
+      "type": "Detected Link",
+      "anchor_text": "SSO",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6B76D6ED",
+      "path": "/features/api-integration/",
+      "type": "Detected Link",
+      "anchor_text": "API",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2364D615",
+      "path": "/integrations/",
+      "type": "Detected Link",
+      "anchor_text": "Integrations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E62614F1",
+      "path": "/features/",
+      "type": "Detected Link",
+      "anchor_text": "View All Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {
+    "roboto-v48-latin-300.woff2": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/fonts/roboto-v48-latin/roboto-v48-latin-300.woff2"
+    },
+    "roboto-v48-latin-regular.woff2": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/fonts/roboto-v48-latin/roboto-v48-latin-regular.woff2"
+    },
+    "roboto-v48-latin-500.woff2": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/fonts/roboto-v48-latin/roboto-v48-latin-500.woff2"
+    },
+    "roboto-v48-latin-700.woff2": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/fonts/roboto-v48-latin/roboto-v48-latin-700.woff2"
+    },
+    "header-footer.css?v=30": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/css/header-footer.css?v=30"
+    },
+    "custom.css?v=14": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/popup/knowledgebase/css/custom.css?v=14"
+    },
+    "the-wall-street-journal.png": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/featured/the-wall-street-journal.png"
+    },
+    "entrepreneur-india.png": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/featured/entrepreneur-india.png"
+    },
+    "wired.png": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/featured/wired.png"
+    },
+    "forbes.png": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/featured/forbes.png"
+    },
+    "business-rockstar.png": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/featured/business-rockstar.png"
+    },
+    "Capterra.png?v=1": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/reviewsection/kb/Capterra.png?v=1"
+    },
+    "financeonline.png?v=1": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/reviewsection/kb/financeonline.png?v=1"
+    },
+    "g2.png?v=1": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/reviewsection/kb/g2.png?v=1"
+    },
+    "getapp.png?v=1": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/reviewsection/kb/getapp.png?v=1"
+    },
+    "saas.png?v=1": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/images/reviewsection/kb/saas.png?v=1"
+    },
+    "jquery.js": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/js/jquery.js"
+    },
+    "lazyslide.js": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/footer/knowledgebase/lazyslide.js"
+    },
+    "jquery.bxslider.min.js?v=8": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/js/jquery.bxslider.min.js?v=8"
+    },
+    "index.php": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/popup/knowledgebase/index.php"
+    },
+    "slider.js": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/js/slider.js"
+    },
+    "custome.js?v=2": {
+      "method": "UNKNOWN",
+      "url": "/api/includes/global/footer/knowledgebase/custome.js?v=2"
+    }
+  }
+}

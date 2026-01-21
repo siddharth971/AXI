@@ -1,0 +1,289 @@
+{
+  "website_blueprint_id": "BLUEPRINT-3A20E572",
+  "generated_at": "2026-01-21T07:26:54.187Z",
+  "global_configuration": {
+    "brand_name": "LFX Insights",
+    "domain": "insights.linuxfoundation.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.0.178",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=86400",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 7,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/d65f54d9ea.js",
+        "type": "script",
+        "full_url": "https://kit.fontawesome.com/d65f54d9ea.js"
+      },
+      {
+        "path": "/_nuxt/xlR9aOiA.js",
+        "type": "script",
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/xlR9aOiA.js"
+      },
+      {
+        "path": "/css2",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Slab:wght@300;400;600&display=swap"
+      },
+      {
+        "path": "/_nuxt/entry.DuTeXKwu.css",
+        "type": "stylesheet",
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/entry.DuTeXKwu.css"
+      },
+      {
+        "path": "/_nuxt/echarts.DKw28MLL.css",
+        "type": "stylesheet",
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/echarts.DKw28MLL.css"
+      },
+      {
+        "path": "/_nuxt/logo.ClO1BsFG.svg",
+        "type": "image",
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/logo.ClO1BsFG.svg"
+      },
+      {
+        "path": "/_nuxt/logo-mobile.C7nlX4E_.svg",
+        "type": "image",
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/logo-mobile.C7nlX4E_.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "LFX Insights",
+        "description": "Insights into the world's most critical open source software. By the Linux Foundation.",
+        "canonical": "https://insights.linuxfoundation.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1759ms"
+        },
+        {
+          "resource": "d65f54d9ea.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "xlR9aOiA.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "css2",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Discover the world&#39;s  most critical open source projects",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Leaderboards",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Linux Foundation  Open Source Index",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "LFX Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Know more about LFX Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Search projects, repositories..."
+          },
+          {
+            "tag": "h1",
+            "text": "Discover the world&#39;s most critical open source projects"
+          },
+          {
+            "tag": "p",
+            "text": "LFX Insights helps developers and their organizations make smarter decisions about the open source projects they depend on"
+          },
+          {
+            "tag": "p",
+            "text": "Search projects, repositories..."
+          },
+          {
+            "tag": "h2",
+            "text": "Leaderboards"
+          },
+          {
+            "tag": "p",
+            "text": "Discover and compare open source projects across various performance metrics"
+          },
+          {
+            "tag": "h2",
+            "text": "Linux Foundation Open Source Index"
+          },
+          {
+            "tag": "p",
+            "text": "Curated list of the most critical open source projects powering our modern digital infrastructure, measured by contributor volume and software value"
+          },
+          {
+            "tag": "p",
+            "text": "LFX Insights helps developers and their organizations make smarter decisions about the open source projects they depend on."
+          },
+          {
+            "tag": "p",
+            "text": "LFX Insights"
+          },
+          {
+            "tag": "p",
+            "text": "Latest blog posts"
+          },
+          {
+            "tag": "p",
+            "text": "Other LFX Tools"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 11,
+          "headings": 3,
+          "images": 3
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-AA50382E",
+      "path": "/leaderboards",
+      "type": "Detected Link",
+      "anchor_text": "Leaderboards",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5BD4D097",
+      "path": "/open-source-index",
+      "type": "Detected Link",
+      "anchor_text": "Open Source Index",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FFBD4374",
+      "path": "/docs/introduction/what-is-insights/",
+      "type": "Detected Link",
+      "anchor_text": "Docs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AAA5C35D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-70B1BDF3",
+      "path": "/open-source-index",
+      "type": "Detected Link",
+      "anchor_text": "Explore all stacks",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E97058B8",
+      "path": "/collection",
+      "type": "Detected Link",
+      "anchor_text": "Collections",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E3D2CEBF",
+      "path": "/docs/",
+      "type": "Detected Link",
+      "anchor_text": "Docs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-472EEEEE",
+      "path": "/blog/product-update-nov-2025",
+      "type": "Detected Link",
+      "anchor_text": "Product Update November 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7C0E01B6",
+      "path": "/blog/first-3-months",
+      "type": "Detected Link",
+      "anchor_text": "The First 3 Months of Insights",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-188923FA",
+      "path": "/blog/introducing-insights",
+      "type": "Detected Link",
+      "anchor_text": "Introducing Insights",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

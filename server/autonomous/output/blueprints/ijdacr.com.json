@@ -1,0 +1,414 @@
+{
+  "website_blueprint_id": "BLUEPRINT-2EB61915",
+  "generated_at": "2026-01-21T07:27:04.690Z",
+  "global_configuration": {
+    "brand_name": "IJDACR",
+    "domain": "ijdacr.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "147.93.109.24",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "LiteSpeed"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "LiteSpeed"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 26,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/jQuery/jquery-2.1.1.min.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/jQuery/jquery-2.1.1.min.js"
+      },
+      {
+        "path": "/jQuery/jquery-migrate-1.2.1.min.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/jQuery/jquery-migrate-1.2.1.min.js"
+      },
+      {
+        "path": "/bootstrap/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/bootstrap/js/bootstrap.min.js"
+      },
+      {
+        "path": "/js/dropdown-menu/dropdown-menu.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/dropdown-menu/dropdown-menu.js"
+      },
+      {
+        "path": "/js/fancybox/jquery.fancybox.pack.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/fancybox/jquery.fancybox.pack.js"
+      },
+      {
+        "path": "/js/fancybox/jquery.fancybox-media.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/fancybox/jquery.fancybox-media.js"
+      },
+      {
+        "path": "/js/jquery.fitvids.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/jquery.fitvids.js"
+      },
+      {
+        "path": "/js/audioplayer/audioplayer.min.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/audioplayer/audioplayer.min.js"
+      },
+      {
+        "path": "/js/jquery.easy-pie-chart.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/jquery.easy-pie-chart.js"
+      },
+      {
+        "path": "/maps/api/js",
+        "type": "script",
+        "full_url": "https://maps.googleapis.com/maps/api/js?sensor=true"
+      },
+      {
+        "path": "/js/theme.js",
+        "type": "script",
+        "full_url": "https://ijdacr.com/js/theme.js"
+      },
+      {
+        "path": "/img/site-logo.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/img/site-logo.png"
+      },
+      {
+        "path": "/images/ijdacr-impact-factor-new.jpg",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/ijdacr-impact-factor-new.jpg"
+      },
+      {
+        "path": "/images/ijdacr-impact-factor.JPG",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/ijdacr-impact-factor.JPG"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing20.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing20.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing14.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing14.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing2.jpg",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing2.jpg"
+      },
+      {
+        "path": "/images/ijdacrrootindexing.jpg",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/ijdacrrootindexing.jpg"
+      },
+      {
+        "path": "/images/indexing/ijdacr-abbreviations.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-abbreviations.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing1.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing1.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing11.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing11.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexC.jpg",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexC.jpg"
+      },
+      {
+        "path": "/images/indexing/ijdacr-iifs.png",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-iifs.png"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing.jpg",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing.jpg"
+      },
+      {
+        "path": "/images/indexing/ijdacr-indexing19.gif",
+        "type": "image",
+        "full_url": "https://ijdacr.com/images/indexing/ijdacr-indexing19.gif"
+      },
+      {
+        "path": "/l/by-nc-sa/4.0/88x31.png",
+        "type": "image",
+        "full_url": "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "IJDACR | International Journal Of Digital Applications And Contemporary Research | Research Paper Publication House",
+        "description": "",
+        "canonical": "https://ijdacr.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "422ms"
+        },
+        {
+          "resource": "jquery-2.1.1.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate-1.2.1.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "bootstrap.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "International Journal of Digital Application and Contemporary Research (IJDACR)",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "International Journal of Digital Application and Contemporary Research (IJDACR)"
+          },
+          {
+            "tag": "p",
+            "text": "IJDACR is an research paper publication house involved in publishing original research trades for Engineering & Science. IJDACR is one of the most indexed and top growing monthly international journal in its field with great impact factor of 4.666 . IJDACR journal provides the authors a platform of global level to represent their research work. IJDACR publish its issue every month in every domain of engineering, science & digital application ranging from topics on NLP AI,ML,DEEP learning, VLSI, Computer science, Electrical Engineering, Embedded Systems, Image Processing, Robotics, Information Technology,Civil Engineering, Thermal Engineering, Mechanical Engineering. The aim of IJDACR is to give an open access, peer review and scholarly platforms to academics researchers, scholars, scientists, and engineers to trade their research papers, articles, thesis, case studies, survey papers and review papers publication."
+          },
+          {
+            "tag": "p",
+            "text": "ISSN: 2319-4863 Impact Factor: 4.666 Cosmos International JIF Impact Factor: 3.812 ISRA Journal IF Value"
+          },
+          {
+            "tag": "h1",
+            "text": "Why Choose IJDACR?"
+          },
+          {
+            "tag": "h1",
+            "text": "Useful links"
+          },
+          {
+            "tag": "h1",
+            "text": "Indexing"
+          },
+          {
+            "tag": "h1",
+            "text": "Useful links"
+          },
+          {
+            "tag": "h1",
+            "text": "Author Instruction"
+          },
+          {
+            "tag": "h1",
+            "text": "Cited Information"
+          },
+          {
+            "tag": "p",
+            "text": "&copy; 2016 IJDACR Journal. All rights reserved."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 3,
+          "headings": 8,
+          "images": 15
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-6DE86F07",
+      "path": "/plagiarism-policy.php",
+      "type": "Detected Link",
+      "anchor_text": "Plagiarism Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CEB70111",
+      "path": "/aim-scope.php",
+      "type": "Detected Link",
+      "anchor_text": "Aim &amp; Scope",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-54AEFD18",
+      "path": "/manuscript-preparation-guidelines.php",
+      "type": "Detected Link",
+      "anchor_text": "Manuscript Guidelines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-029D314C",
+      "path": "/index.php",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B77D1C93",
+      "path": "/editorial-board.php",
+      "type": "Detected Link",
+      "anchor_text": "Editorial Board",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C5EBC45",
+      "path": "/submit-article.php",
+      "type": "Detected Link",
+      "anchor_text": "Manuscript Submission",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C671E299",
+      "path": "/documents/manuscriptformat.doc",
+      "type": "Detected Link",
+      "anchor_text": "Manuscript Format",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0B4A267D",
+      "path": "/documents/copyrightform.pdf",
+      "type": "Detected Link",
+      "anchor_text": "Download Copyright Form",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2C9526E4",
+      "path": "/publication-charges.php",
+      "type": "Detected Link",
+      "anchor_text": "Publication Charges",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9DD0A4F7",
+      "path": "/services.php",
+      "type": "Detected Link",
+      "anchor_text": "Serivces",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-39F493B5",
+      "path": "/ijdacr-referring-procedure.php",
+      "type": "Detected Link",
+      "anchor_text": "Referring Procedure",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DDBC5B54",
+      "path": "/reviewer-guidelines.php",
+      "type": "Detected Link",
+      "anchor_text": "Reviewer Guidelines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E0AB2DBB",
+      "path": "/ethics-policy.php",
+      "type": "Detected Link",
+      "anchor_text": "Ethics Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DF9C75C2",
+      "path": "/faq.php",
+      "type": "Detected Link",
+      "anchor_text": "FAQ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-16DFD46B",
+      "path": "/about-us.php",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

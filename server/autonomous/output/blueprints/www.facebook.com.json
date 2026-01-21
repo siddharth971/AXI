@@ -1,0 +1,281 @@
+{
+  "website_blueprint_id": "BLUEPRINT-A24A5BE7",
+  "generated_at": "2026-01-21T07:26:55.749Z",
+  "global_configuration": {
+    "brand_name": "www.facebook.com",
+    "domain": "www.facebook.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "error": "DNS Lookup Failed"
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, no-store, must-revalidate",
+      "Content-Security-Policy": "default-src blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;script-src *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-j4vmiUsI' blob: 'self' connect.facebook.net 'unsafe-eval' https://*.google-analytics.com *.google.com;style-src *.fbcdn.net data: *.facebook.com 'unsafe-inline' https://fonts.googleapis.com;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' http://localhost:3103 wss://gateway.facebook.com wss://edge-chat.facebook.com wss://snaptu-d.facebook.com wss://kaios-d.facebook.com/ v.whatsapp.net *.fbsbx.com *.fb.com *.instagram.com https://*.google-analytics.com;font-src data: *.facebook.com *.fbcdn.net *.fbsbx.com https://fonts.gstatic.com;img-src *.fbcdn.net *.facebook.com data: https://*.fbsbx.com facebook.com *.cdninstagram.com fbsbx.com fbcdn.net connect.facebook.net *.carriersignal.info blob: android-webview-video-poster: *.whatsapp.net *.fb.com *.oculuscdn.com *.tenor.co *.tenor.com *.giphy.com https://trustly.one/ https://*.trustly.one/ https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://*.google-analytics.com;media-src *.cdninstagram.com blob: *.fbcdn.net *.fbsbx.com www.facebook.com *.facebook.com data: *.tenor.co *.tenor.com https://*.giphy.com;child-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;frame-src *.facebook.com *.fbsbx.com fbsbx.com data: www.instagram.com *.fbcdn.net accounts.meta.com *.accounts.meta.com https://trustly.one/ https://*.trustly.one/ https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://td.doubleclick.net *.google.com *.doubleclick.net;manifest-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;object-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;worker-src blob: *.facebook.com data:;block-all-mixed-content;upgrade-insecure-requests;",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 7,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/rsrc.php/v4/yo/r/0eb9MjWkFVB.js",
+        "type": "script",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/v4/yo/r/0eb9MjWkFVB.js"
+      },
+      {
+        "path": "/rsrc.php/v5/yw/l/0,cross/q94KeUx_T1z.css",
+        "type": "stylesheet",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/v5/yw/l/0,cross/q94KeUx_T1z.css"
+      },
+      {
+        "path": "/rsrc.php/v5/yo/l/0,cross/oFcip3ZUnT4.css",
+        "type": "stylesheet",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/v5/yo/l/0,cross/oFcip3ZUnT4.css"
+      },
+      {
+        "path": "/rsrc.php/v5/y_/l/0,cross/QmFxSAnEbjx.css",
+        "type": "stylesheet",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/v5/y_/l/0,cross/QmFxSAnEbjx.css"
+      },
+      {
+        "path": "/rsrc.php/v5/yV/l/0,cross/2ealKOeeXvI.css",
+        "type": "stylesheet",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/v5/yV/l/0,cross/2ealKOeeXvI.css"
+      },
+      {
+        "path": "/rsrc.php/y1/r/4lCu2zih0ca.svg",
+        "type": "image",
+        "full_url": "https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+      },
+      {
+        "path": "/security/hsts-pixel.gif",
+        "type": "image",
+        "full_url": "https://facebook.com/security/hsts-pixel.gif?c=3.2.5"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.facebook.com",
+        "description": "&#xaa4;&#xaae;&#xabe;&#xab0;&#xabe; &#xaae;&#xabf;&#xaa4;&#xacd;&#xab0;&#xacb;, &#xa95;&#xac1;&#xa9f;&#xac1;&#xa82;&#xaac;&#xac0;&#xa93; &#xa85;&#xaa8;&#xac7; &#xaa4;&#xaae;&#xac7; &#xa9c;&#xabe;&#xaa3;&#xaa4;&#xabe; &#xab9;&#xacb;&#xaaf; &#xaa4;&#xac7; &#xab2;&#xacb;&#xa95;&#xacb; &#xab8;&#xabe;&#xaa5;&#xac7; &#xab6;&#xac7;&#xab0; &#xa95;&#xab0;&#xab5;&#xabe; &#xa85;&#xaa8;&#xac7; &#xa9c;&#xacb;&#xaa1;&#xabe;&#xab5;&#xabe; &#xaae;&#xabe;&#xa9f;&#xac7; Facebook &#xaaa;&#xab0; &#xab2;&#xacb;&#xa97; &#xa87;&#xaa8; &#xa95;&#xab0;&#xacb;.",
+        "canonical": "https://www.facebook.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "337ms"
+        },
+        {
+          "resource": "0eb9MjWkFVB.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "q94KeUx_T1z.css",
+          "latency": "pending"
+        },
+        {
+          "resource": "oFcip3ZUnT4.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Facebook લોકો સાથે કનેક્ટ થવા અને શેર કરવામાં તમારી મદદ કરે છે.",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Facebook લોકો સાથે કનેક્ટ થવા અને શેર કરવામાં તમારી મદદ કરે છે."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 1,
+          "images": 2
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-35B0CC14",
+      "path": "/recover/initiate/",
+      "type": "Detected Link",
+      "anchor_text": "પાસવર્ડ ભૂલી ગયાં?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D86F723",
+      "path": "/r.php",
+      "type": "Detected Link",
+      "anchor_text": "નવું એકાઉન્ટ બનાવો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-31253E26",
+      "path": "/pages/create/",
+      "type": "Detected Link",
+      "anchor_text": "પેજ બનાવો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1CAD92B3",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "हिन्दी",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F8B33FD",
+      "path": "/reg/",
+      "type": "Detected Link",
+      "anchor_text": "સાઇન અપ કરો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1829253C",
+      "path": "/login/",
+      "type": "Detected Link",
+      "anchor_text": "લૉગ ઇન કરો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1B636C08",
+      "path": "/lite/",
+      "type": "Detected Link",
+      "anchor_text": "Facebook Lite",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9F7043D",
+      "path": "/watch/",
+      "type": "Detected Link",
+      "anchor_text": "વીડિયો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-738959A2",
+      "path": "/votinginformationcenter/",
+      "type": "Detected Link",
+      "anchor_text": "મતદાન માહિતી કેન્દ્ર",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C481A343",
+      "path": "/privacy/policy/",
+      "type": "Detected Link",
+      "anchor_text": "પ્રાઇવસી પોલિસી",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-92789B6E",
+      "path": "/privacy/center/",
+      "type": "Detected Link",
+      "anchor_text": "પ્રાઇવસી કેન્દ્ર",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D1E96E62",
+      "path": "/ad_campaign/landing.php",
+      "type": "Detected Link",
+      "anchor_text": "જાહેરાત બનાવો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7863E0C5",
+      "path": "/pages/create/",
+      "type": "Detected Link",
+      "anchor_text": "પેજ બનાવો",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-601CA2A6",
+      "path": "/careers/",
+      "type": "Detected Link",
+      "anchor_text": "કારકિર્દીઓ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0DB1C004",
+      "path": "/policies/cookies/",
+      "type": "Detected Link",
+      "anchor_text": "કુકીઝ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

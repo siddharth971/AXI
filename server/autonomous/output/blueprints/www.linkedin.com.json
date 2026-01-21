@@ -1,0 +1,274 @@
+{
+  "website_blueprint_id": "BLUEPRINT-06CDA033",
+  "generated_at": "2026-01-21T07:26:54.037Z",
+  "global_configuration": {
+    "brand_name": "LinkedIn: Log In or Sign Up",
+    "domain": "www.linkedin.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "150.171.22.12",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, no-store, no-transform",
+      "Content-Security-Policy": "default-src 'none'; connect-src 'self' *.licdn.com *.linkedin.com cdn.linkedin.oribi.io dpm.demdex.net/id lnkd.demdex.net blob: accounts.google.com/gsi/ linkedin.sc.omtrdc.net/b/ss/ v.clarity.ms/collect *.microsoft.com *.adnxs.com *.tealiumiq.com login.microsoftonline.com bat.bing.com www.google.com google.com adservice.google.com pagead2.googlesyndication.com td.doubleclick.net www.googletagmanager.com www.googleadservices.com ad.doubleclick.net googleads.g.doubleclick.net; script-src 'report-sample' 'sha256-th47JTnh6tX15SUn/I+GGmsOSXpa7dh5Skner77gxlY=' 'sha256-SSoodjUD3LGm2FfFCVHGqEb8D4UM3OOigidT2UKDcYg=' 'sha256-cKTgdnmO6+hXd85a9wKg1effVfVzenUAtUCyOKY9bQE=' 'sha256-DwtT8+ZZKpxH9pqZNAmJ3GdbLAh5SsYaXR3omTXPCns=' 'sha256-sV9jZa797T0QWBzcU/CNd4tpBhTnh+TFdLnfjlitl28=' 'sha256-aa/Q8CRBDSqTQbCIyioPhZaz+G+dbPyu7BzsjInEmiU=' 'sha256-THuVhwbXPeTR0HszASqMOnIyxqEgvGyBwSPBKBF/iMc=' 'sha256-zTIusdVJJeXz9+iox2a+pdDglzbpRpFVRzEwvW4AONk=' 'sha256-iC8MPqNLw0FDnsBf4DlSkFLNTwhkI85aouiAEB819ic=' 'sha256-2EqrEvcPzl8c6/TSGVvaVMEe7lg700MAz/te4/3kTYY=' 'sha256-y5uW69VItKj51mcc7UD9qfptDVUqicZL+bItEpvVNDw=' 'sha256-DatsFGoJ8gFkzzxo47Ou76WZ+3QBPOQHtBu9p9b3DhA=' 'sha256-k95cyM8gFgPziZe5VQ2IvJvBUVyd5zFt2CokIUwqdHE=' 'sha256-PyCXNcEkzRWqbiNr087fizmiBBrq9O6GGD8eV3P09Ik=' 'sha256-RFqsjmAF1N5LnfpaHFvPqFlVkeIS/DtTAFor+JjJJVc=' 'sha256-2SQ55Erm3CPCb+k03EpNxU9bdV3XL9TnVTriDs7INZ4=' 'sha256-S/KSPe186K/1B0JEjbIXcCdpB97krdzX05S+dHnQjUs=' 'sha256-9pXOIwF4N0gPltLd3AI69lkCjSC2H/Eb3sc5zdmUyYU=' 'sha256-jou6v/Nleyzoc+LXktAv1Fp8M807dVVxy7E/yzVljHc=' 'sha256-6E4e/3dSvj/8JZT2S2yR91mspqM6MyOpKl5lrhHsZa8=' 'sha256-JfJ82reKxtqugVbfRGw/O/1x1Lm1I09rHueXSwvbRws=' 'sha256-BbV1i75oYRtLtfDWs7tnA8QLF5EOO1dVHKL0prVd/fQ=' 'sha256-3woF8BZ54TeXM+czaH3aXoaJsVpiamuAKFsXDykAR/Q=' 'sha256-vIfNcKb8ixJg1cfJIoNNYjWcm0lezj1/XpUNFiZyVsU=' 'sha256-cLsHUHFgT/VGX04cZrJ9xgm4HbzTR7ptutkxK+7BlMk=' 'sha256-BwU8jMnQYUhjOpsDVABpfddV/DlP1ZYrFcTumYw7x54=' 'sha256-wz6ika9i3WU3bpUPdhYDZeO/NrDQniDyiscN0LWnyaY=' 'sha256-3RIGhhApBii1KY+aW1xk7kFyoQY8vSVE5DfT7E9SJUc=' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com platform.linkedin.com platform-akam.linkedin.com platform-ecst.linkedin.com platform-azur.linkedin.com snap.licdn.com www.google.com/recaptcha/enterprise.js www.gstatic.com/recaptcha/releases/ www.googletagmanager.com/gtag/js www.googleadservices.com/pagead/ www.google.com/pagead/ googleads.g.doubleclick.net/pagead/ adservice.google.com/pagead/ pagead2.googlesyndication.com/pagead/ www.googletagmanager.com/gtag/destination merchantpool1.linkedin.com/mdt.js; img-src data: blob: * android-webview-video-poster:; font-src data: *; style-src 'self' 'unsafe-inline' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; media-src 'self' *.licdn.com *.lynda.com; worker-src 'self' blob: static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; frame-src 'self' www.youtube.com/embed/ www.youtube-nocookie.com/embed/ lnkd.demdex.net smartlock.google.com accounts.google.com player.vimeo.com *.linkedin.com www.slideshare.net *.megaphone.fm *.omny.fm *.sounder.fm msit.powerbi.com app.powerbi.com linkedin.github.io *.licdn.com *.adnxs.com acdn.adnxs-simple.com radar.cedexis.com edge-auth.microsoft.com flo.uri.sh play.vidyard.com www.google.com/recaptcha/ aat-acr-web-prod.azurewebsites.net *.fls.doubleclick.net www.googletagmanager.com td.doubleclick.net li.protechts.net *.xlgmedia.com *.px-cloud.net merchantpool1.linkedin.com; frame-ancestors 'self' *.www.linkedin.com:*; manifest-src 'self'; report-uri https://www.linkedin.com/security/csp?f=gg",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 4,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/aero-v1/sc/h/5knupv2jkh74n7duxrw07jlil",
+        "type": "script",
+        "full_url": "https://static.licdn.com/aero-v1/sc/h/5knupv2jkh74n7duxrw07jlil"
+      },
+      {
+        "path": "/aero-v1/sc/h/7025d7ktnuqqh9frhs6t5ocfb",
+        "type": "script",
+        "full_url": "https://static.licdn.com/aero-v1/sc/h/7025d7ktnuqqh9frhs6t5ocfb"
+      },
+      {
+        "path": "/aero-v1/sc/h/8zfq9pz0eh2acpkef3k265qei",
+        "type": "stylesheet",
+        "full_url": "https://static.licdn.com/aero-v1/sc/h/8zfq9pz0eh2acpkef3k265qei"
+      },
+      {
+        "path": "/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4",
+        "type": "image",
+        "full_url": "https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "LinkedIn: Log In or Sign Up",
+        "description": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+        "canonical": "https://www.linkedin.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "799ms"
+        },
+        {
+          "resource": "5knupv2jkh74n7duxrw07jlil",
+          "latency": "pending"
+        },
+        {
+          "resource": "7025d7ktnuqqh9frhs6t5ocfb",
+          "latency": "pending"
+        },
+        {
+          "resource": "8zfq9pz0eh2acpkef3k265qei",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Agree & Join LinkedIn"
+          },
+          {
+            "tag": "p",
+            "text": "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy ."
+          },
+          {
+            "tag": "p",
+            "text": "LinkedIn"
+          },
+          {
+            "tag": "p",
+            "text": "LinkedIn is better on the app"
+          },
+          {
+            "tag": "p",
+            "text": "Don’t have the app? Get it in the Microsoft Store."
+          },
+          {
+            "tag": "h1",
+            "text": "Welcome to your professional community"
+          },
+          {
+            "tag": "p",
+            "text": "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy ."
+          },
+          {
+            "tag": "p",
+            "text": "New to LinkedIn? Join now"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore top LinkedIn content"
+          },
+          {
+            "tag": "p",
+            "text": "Discover relevant posts and expert insights — curated by topic and in one place."
+          },
+          {
+            "tag": "h2",
+            "text": "Find the right job or internship for you"
+          },
+          {
+            "tag": "h2",
+            "text": "Post your job for millions of people to see"
+          },
+          {
+            "tag": "h2",
+            "text": "Discover the best software tools"
+          },
+          {
+            "tag": "p",
+            "text": "Connect with buyers who have first-hand experience to find the best products for you."
+          },
+          {
+            "tag": "h2",
+            "text": "Keep your mind sharp with games"
+          },
+          {
+            "tag": "p",
+            "text": "Take a break and reconnect with your network through quick daily games."
+          },
+          {
+            "tag": "h2",
+            "text": "Let the right people know you’re open to work"
+          },
+          {
+            "tag": "p",
+            "text": "With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities."
+          },
+          {
+            "tag": "h2",
+            "text": "Conversations today could lead to opportunity tomorrow"
+          },
+          {
+            "tag": "p",
+            "text": "Sending messages to people you know is a great way to strengthen relationships as you take the next step in your career."
+          },
+          {
+            "tag": "h2",
+            "text": "Stay up to date on your industry"
+          },
+          {
+            "tag": "p",
+            "text": "From live videos, to stories, to newsletters and more, LinkedIn is full of ways to stay up to date on the latest discussions in your industry."
+          },
+          {
+            "tag": "h2",
+            "text": "Connect with people who can help"
+          },
+          {
+            "tag": "h2",
+            "text": "Learn the skills you need to succeed"
+          },
+          {
+            "tag": "h2",
+            "text": "Who is LinkedIn for?"
+          },
+          {
+            "tag": "p",
+            "text": "Anyone looking to navigate their professional life."
+          },
+          {
+            "tag": "h2",
+            "text": "In it to chase my dream"
+          },
+          {
+            "tag": "h3",
+            "text": "Check out Gayatri’s story of finding a new job on LinkedIn"
+          },
+          {
+            "tag": "h2",
+            "text": "Join your colleagues, classmates, and friends on LinkedIn"
+          },
+          {
+            "tag": "h3",
+            "text": "General"
+          },
+          {
+            "tag": "h3",
+            "text": "Browse LinkedIn"
+          },
+          {
+            "tag": "h3",
+            "text": "Business Solutions"
+          },
+          {
+            "tag": "h3",
+            "text": "Directories"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 14,
+          "headings": 19,
+          "images": 7
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-E82335EF",
+      "path": "/legal/user-agreement",
+      "type": "Detected Link",
+      "anchor_text": "User Agreement",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C96DFDC8",
+      "path": "/legal/privacy-policy",
+      "type": "Detected Link",
+      "anchor_text": "Privacy Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6476AE81",
+      "path": "/legal/cookie-policy",
+      "type": "Detected Link",
+      "anchor_text": "Cookie Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9127CC6D",
+      "path": "/signup",
+      "type": "Detected Link",
+      "anchor_text": "Join now",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

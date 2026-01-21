@@ -1,0 +1,1925 @@
+{
+  "website_blueprint_id": "BLUEPRINT-ACDB2700",
+  "generated_at": "2026-01-21T07:27:05.049Z",
+  "global_configuration": {
+    "brand_name": "Custom AI Software Solutions &amp; Development Company",
+    "domain": "www.technource.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "13.56.166.203",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 216,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/js/mm_1cd9cd40-cf44-4e0f-8193-6481157e6841-64440225.js",
+        "type": "script",
+        "full_url": "https://mm-uxrv.com/js/mm_1cd9cd40-cf44-4e0f-8193-6481157e6841-64440225.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/jquery-v3.6.0.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/jquery-v3.6.0.min.js?ver=3.6.0"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/jquery.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/jquery.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/jquery.validate.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/jquery.validate.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/bootstrap.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/jquery.magnific-popup.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/jquery.magnific-popup.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/owl.carousel.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/customjs.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/customjs.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/aos.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/aos.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/swiper-bundle.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/swiper-bundle.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/bootstrap.bundle.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/bootstrap.bundle.min.js"
+      },
+      {
+        "path": "/wp-content/themes/Technource/asset/js/case-study-owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/themes/Technource/asset/js/case-study-owl.carousel.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://www.technource.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/cache/min/1/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+        "type": "stylesheet",
+        "full_url": "https://www.technource.com/wp-content/cache/min/1/ajax/libs/font-awesome/6.5.0/css/all.min.css?ver=1768910353"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05131519/technource-text-logo.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05131519/technource-text-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/custom_circle_arrow.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/custom_circle_arrow.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Ai-development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Ai-development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Data-engineering-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Data-engineering-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Devops-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Devops-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Cloud-automation-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Cloud-automation-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/SaaS-development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/SaaS-development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/IoT-development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/IoT-development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Blockchain-development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Blockchain-development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/iOS-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/iOS-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Android-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Android-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Flutter-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Flutter-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/React-Native-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/React-Native-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Ionic-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Ionic-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/PhoneGap-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/PhoneGap-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/App-Development-Consulting-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/App-Development-Consulting-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Mobile-Game-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Mobile-Game-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/On-Demand-App-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/On-Demand-App-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/PHP-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/PHP-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/CodeIgniter-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/CodeIgniter-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/WordPress-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/WordPress-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/MEAN-Stack-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/MEAN-Stack-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/MERN-Stack-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/MERN-Stack-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Python-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Python-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/JavaScript-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/JavaScript-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/AngularJS-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/AngularJS-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/NodeJS-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/NodeJS-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/VueJS-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/VueJS-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ReactJS-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/ReactJS-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Shopify-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Shopify-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Magento-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Magento-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/WooCommerce-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/WooCommerce-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/PrestaShop-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/PrestaShop-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/BigCommerce-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/BigCommerce-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/OpenCart-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/OpenCart-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/osCommerce-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/osCommerce-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/VirtueMart-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/VirtueMart-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Zen-Cart-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Zen-Cart-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Android-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Android-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Ios-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Ios-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Joomla-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Joomla-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Drupal-Development-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Drupal-Development-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Healthcare-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Healthcare-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/FinancialInsurance-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/FinancialInsurance-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Education-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Education-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Real-Estate-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Real-Estate-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/RetaileCommerce-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/RetaileCommerce-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Manufacturing-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Manufacturing-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Travel-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Travel-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/FoodBeverage-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/FoodBeverage-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Hospitality-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Hospitality-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Advertising-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Advertising-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ComputerElectronics-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/ComputerElectronics-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ManagementConsulting-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/ManagementConsulting-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/MediaEntertainment-page-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/MediaEntertainment-page-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/about_menu_banner_cta_arrow.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/about_menu_banner_cta_arrow.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27124714/AI-Consulting-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27124714/AI-Consulting-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27124713/AI-Integration-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27124713/AI-Integration-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27124712/AI-Agent-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27124712/AI-Agent-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27124711/AI-Chatbot-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27124711/AI-Chatbot-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180118/generative-ai-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180118/generative-ai-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27124709/Machine-Learning-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27124709/Machine-Learning-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180339/Big-Data-Analytics-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180339/Big-Data-Analytics-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180431/Data-Integration-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180431/Data-Integration-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180636/data-engineering-consulting-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180636/data-engineering-consulting-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180747/Data-Platform-Modernization-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180747/Data-Platform-Modernization-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180852/Data-Architecture-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180852/Data-Architecture-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05180943/Data-Migration-service-icon-1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05180943/Data-Migration-service-icon-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08104513/Cloud-consulting-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08104513/Cloud-consulting-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08104910/Cloud-Integration-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08104910/Cloud-Integration-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08105138/DevOps-CI-CD-Services-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08105138/DevOps-CI-CD-Services-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08105351/Devops-automation-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08105351/Devops-automation-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08105618/Custom-cloud-app-development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08105618/Custom-cloud-app-development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08105841/IoT-solution-consulting-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08105841/IoT-solution-consulting-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110010/IoT-App-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110010/IoT-App-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110126/Sensor-Integration-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110126/Sensor-Integration-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110248/IoT-Data-Analytics-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110248/IoT-Data-Analytics-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110434/HomeIndustrial-Solutions-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110434/HomeIndustrial-Solutions-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110603/Wearable-App-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110603/Wearable-App-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08110818/Mobile-App-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08110818/Mobile-App-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08111201/Web-App-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08111201/Web-App-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08111345/Website-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08111345/Website-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08111526/SaaS-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08111526/SaaS-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08111656/Product-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08111656/Product-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/08111804/E-commerce-Development-service-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/08111804/E-commerce-Development-service-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/28104109/See-Real-Results-from-AI-Automation-common-cta.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/28104109/See-Real-Results-from-AI-Automation-common-cta.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/id_verify_ai_banner_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/id_verify_ai_banner_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/view_case_study_icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/08/view_case_study_icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/mvv-casestudy-banner-1024x674.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/mvv-casestudy-banner-1024x674.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Banner-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/Banner-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05190937/Hommati_feature_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05190937/Hommati_feature_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/voicemate_ai_banner_img-1024x585.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/voicemate_ai_banner_img-1024x585.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/10115445/SkylineStay_feature_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/10115445/SkylineStay_feature_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/SoS_feature_image.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/SoS_feature_image.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/suitme_banner_img22.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/suitme_banner_img22.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/technource_erp_banner_img1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/technource_erp_banner_img1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/telepath-client-overview-1-1024x448.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/telepath-client-overview-1-1024x448.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/atomo_game_feature_img1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/atomo_game_feature_img1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/adenzo_banner_img2.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/adenzo_banner_img2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/clean_medic_co_img-1024x763.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/10/clean_medic_co_img-1024x763.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/connect-casestudy-banner-1024x500.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/connect-casestudy-banner-1024x500.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/27175048/gamechangers_feature_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/27175048/gamechangers_feature_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/clean_pro_feature_image1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/clean_pro_feature_image1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/tojarcom_client_overview_img-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/tojarcom_client_overview_img-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/bridgeo-casestudy-listing-1-1024x500.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/bridgeo-casestudy-listing-1-1024x500.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/cashguru_client_overview_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/cashguru_client_overview_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/collegely-listing-image-1-1024x630.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/collegely-listing-image-1-1024x630.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Halal_Bites_Case_Study_Banner.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/Halal_Bites_Case_Study_Banner.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Banana_Parking_Feature_Image.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/Banana_Parking_Feature_Image.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Upskill_feature_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/Upskill_feature_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/realtorhubs_feature-_image-1024x585.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/realtorhubs_feature-_image-1024x585.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/17091313/Locum-PNR-Case-Study-Banner.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/11/17091313/Locum-PNR-Case-Study-Banner.png"
+      },
+      {
+        "path": "/wp-content/uploads/2021/05/StudyM8-EdTech-Startup-for-Student-and-Teachers-Technource-Case-Study.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/05/StudyM8-EdTech-Startup-for-Student-and-Teachers-Technource-Case-Study.png"
+      },
+      {
+        "path": "/wp-content/uploads/2021/05/SirPlus-Dating-App-Technource-Case-Study.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/05/SirPlus-Dating-App-Technource-Case-Study.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/gocarry_feature_img-1024x402.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/gocarry_feature_img-1024x402.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ICS_banner_img2.2.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/ICS_banner_img2.2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Digital_Biologix_banner_img1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Digital_Biologix_banner_img1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Synco_Banner_Img22.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/Synco_Banner_Img22.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/job_mingle_banner_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/job_mingle_banner_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/worecs_banner_img22.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/worecs_banner_img22.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/06145037/Cut-It-Case-Study-Banner.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/06/06145037/Cut-It-Case-Study-Banner.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175205/Business-First-Automation-Strategy.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175205/Business-First-Automation-Strategy.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175203/Unified-AI-DataCloud-Expertise.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175203/Unified-AI-DataCloud-Expertise.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175202/Proven-ROI-and-Scalability.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175202/Proven-ROI-and-Scalability.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175159/Secure-CompliantFuture-Ready-Architecture.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175159/Secure-CompliantFuture-Ready-Architecture.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175158/Executive-InsightTransparency.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175158/Executive-InsightTransparency.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01175156/Strategic-Partnership-Not-Just-Delivery.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01175156/Strategic-Partnership-Not-Just-Delivery.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02115220/Automate-Accelerate-Lead-with-Intelligence-common-cta-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02115220/Automate-Accelerate-Lead-with-Intelligence-common-cta-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02153827/tech-box-default-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02153827/tech-box-default-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Tensorflow-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/Tensorflow-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02171701/hugging-face.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02171701/hugging-face.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02171908/Selenium-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02171908/Selenium-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02172000/open-ai.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02172000/open-ai.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02172047/Langchain.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02172047/Langchain.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02172121/Ranorex-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02172121/Ranorex-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02172152/Whisper-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02172152/Whisper-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/pandas-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/pandas-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/02172237/XC-Test.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/02172237/XC-Test.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/keras-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/keras-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/python-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/python-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/node-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/node-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/express_js_logo_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/express_js_logo_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/22105154/nest1.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/03/22105154/nest1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/php-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/php-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/laravel_logo.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/laravel_logo.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/dotnet-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/dotnet-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/java_logo.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/java_logo.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/angular-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/angular-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/React-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/React-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/nextjs.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/nextjs.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/vue-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/vue-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/javascript-logo.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/javascript-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/typescript_logo_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/typescript_logo_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/12/18153204/Bootstrap.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/12/18153204/Bootstrap.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/css-logo.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/css-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/html-logo.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/html-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/React-Native-300x300.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/React-Native-300x300.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/flutter_logo.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/flutter_logo.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/kotlin-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/09/kotlin-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/swift_logo.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/swift_logo.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/12/18152719/Ionic-icon.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/12/18152719/Ionic-icon.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/githubactions-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/githubactions-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/jenkins-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/jenkins-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/docker-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/docker-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/kubernetes_logo_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/kubernetes_logo_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/terraform-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/terraform-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/ansible-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/ansible-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/03121837/Magento-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/03/03121837/Magento-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/03121726/Shopify-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/03/03121726/Shopify-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/03121750/WordPress-1.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/03/03121750/WordPress-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/13125359/woocommerce.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/10/13125359/woocommerce.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/aws_cloud_logo_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/10/aws_cloud_logo_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/google-cloud-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/google-cloud-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/azure-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/azure-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/mysql-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/mysql-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/postgresql-300x300.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/postgresql-300x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/mongodb-300x300.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/09/mongodb-300x300.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/30112933/DynamoDB.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/06/30112933/DynamoDB.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/redis_logo_img.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/11/redis_logo_img.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03101153/rating-star-full.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03101153/rating-star-full.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03101151/rating-star-half.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03101151/rating-star-half.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03101707/clutch-logo-award.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03101707/clutch-logo-award.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03102133/goodfirms-logo-award.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03102133/goodfirms-logo-award.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03102415/selectedfirms-logo-award.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03102415/selectedfirms-logo-award.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03102704/designrush-logo-award.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/03102704/designrush-logo-award.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/04111511/testimonial-quote-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/04111511/testimonial-quote-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/09165924/client-video-play-btn-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/09165924/client-video-play-btn-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/09183250/ELT-vs-ETL_-Which-Data-Pipeline-Strategy-Should-You-Choose_-600x315.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/01/09183250/ELT-vs-ETL_-Which-Data-Pipeline-Strategy-Should-You-Choose_-600x315.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/01171557/Top-10-Chatbot-Development-Companies-in-2026-600x315.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/01/01171557/Top-10-Chatbot-Development-Companies-in-2026-600x315.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/29180233/AI-in-E-Commerce_-Essential-Insights-to-Grow-Your-Brand-in-2026-600x315.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/29180233/AI-in-E-Commerce_-Essential-Insights-to-Grow-Your-Brand-in-2026-600x315.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/04175952/amar-purohit-cta-arrow-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/04175952/amar-purohit-cta-arrow-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/04180804/amar-purohit-cta-image.webp",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/04180804/amar-purohit-cta-image.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05131514/technource-text-logo-white.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05131514/technource-text-logo-white.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05144140/footer-linkedin-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05144140/footer-linkedin-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05144139/footer-facebook-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05144139/footer-facebook-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05144138/footer-instagram-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05144138/footer-instagram-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05144137/footer-x-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05144137/footer-x-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05144135/footer-youtube-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05144135/footer-youtube-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05151658/footer-call-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05151658/footer-call-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/05151656/footer-email-icon.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/05151656/footer-email-icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/01124039/case-study-slider-nav-arrow-iconn.png",
+        "type": "image",
+        "full_url": "https://technource.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/12/01124039/case-study-slider-nav-arrow-iconn.png"
+      },
+      {
+        "path": "/vi_webp/ID/hqdefault.webp",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi_webp/ID/hqdefault.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Custom AI Software Solutions &amp; Development Company | Technource",
+        "description": "Technource delivers custom AI software and end-to-end development services to automate business operations and build scalable applications using data and cloud technologies.",
+        "canonical": "https://www.technource.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7332ms"
+        },
+        {
+          "resource": "mm_1cd9cd40-cf44-4e0f-8193-6481157e6841-64440225.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-v3.6.0.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Delivering Scalable, Smart, AI-Driven Software Solutions",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Partnered with Industry Pioneers",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "EmpoweringBusinesses Worldwide",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Core Digital Transformation Services for the AI Era",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Experience&nbsp;&nbsp;Meets&nbsp;&nbsp;Innovation&nbsp; 13+ Years of Experience Crafting&nbsp;&nbsp;Winning&nbsp;&nbsp;Solutions&nbsp; 1000+ Projects Delivered Learning & Upskilling Culture Flexible & Friendly Work Environment Still relying on manual work while competitors grow with AI? We’ll fix your workflow. Schedule a Free Call Case Studies Blogs Contact Us Contact Us Services Hire Expert Industries About Us Case Studies Blogs Services AI & Emerging Technologies AI Development Data Engineering DevOps SaaS Development IoT Development Blockchain Development Mobile App Development iOS App Development Android App Development Flutter App Development React Native App Development Ionic App Development PhoneGap App Development App Development Consulting Mobile Game Development On-Demand App Development Web Development PHP Development Laravel Development CodeIgniter Development WordPress Development MEAN Stack Development MERN Stack Development Python Development JavaScript Development AngularJS Development NodeJS Development VueJS Development ReactJS Development eCommerce Development Shopify Development Magento Development WooCommerce Development PrestaShop Development BigCommerce Development OpenCart Development osCommerce Development VirtueMart Development Zen Cart Development Hire Expert Mobile App Developers Hire Android Developers Hire iOS Developers Hire Flutter Developers Hire React Native Developers Frontend Developers Hire AngularJS Developers Hire ReactJS Developers Backend Developers Hire NodeJS Developers Hire PHP Developers E-commerce & CMS Developers Hire WordPress Developers Hire Magento Developers Hire Shopify Developers Hire Joomla Developers Hire Drupal Developers Industries Healthcare Financial & Insurance Education Real Estate Retail & eCommerce Manufacturing Travel Food & Beverage Hospitality Advertising Computer & Electronics Management & Consulting Media & Entertainment About Us About Technource Career & Job Opening Our Team Life at Technource Clients Testimonials Experience&nbsp;&nbsp;Meets&nbsp;&nbsp;Innovation&nbsp; 13+ Years of Experience Crafting&nbsp;&nbsp;Winning&nbsp;&nbsp;Solutions&nbsp; 1000+ Projects Delivered Learning & Upskilling Culture Flexible & Friendly Work Environment Still relying on manual work while competitors grow with AI? We’ll fix your workflow. Schedule a Free Call Delivering Scalable, Smart, AI-Driven Software Solutions Technource is a leading AI Software Development Company empowering businesses to become agile, competitive, and customer-centric. With expertise in traditional and next-gen technologies, our in-house team delivers transformative AI solutions."
+          },
+          {
+            "tag": "h2",
+            "text": "Partnered with Industry Pioneers"
+          },
+          {
+            "tag": "h2",
+            "text": "Empowering Businesses Worldwide"
+          },
+          {
+            "tag": "p",
+            "text": "Technource is an industry leader in digital transformation, AI, ML, and B2B integrations, with a client-first approach! “One size fits all”- this doesn’t exist in our dictionary! We don’t only work for our clients; we work for results that deliver state-of-the-art, custom solutions across multiple AI-powered digital products."
+          },
+          {
+            "tag": "p",
+            "text": "Powering&nbsp;&nbsp;Digital&nbsp;&nbsp;Excellence&nbsp; 70+ Tech Experts Crafting&nbsp;&nbsp;Winning&nbsp;&nbsp;Solutions&nbsp; 1000+ Projects Delivered Experience&nbsp;&nbsp;Meets&nbsp;&nbsp;Innovation&nbsp; 13+ Years of Experience Trusted&nbsp;&nbsp;Worldwide&nbsp;&nbsp;Partners&nbsp; 300+ Clients Served Core Digital Transformation Services for the AI Era As a leading AI software services provider, we bring fresh digital transformation ideas to life through software development to AI integration, cloud migration, as well as post-launch support and maintenance."
+          },
+          {
+            "tag": "h3",
+            "text": "AI & Intelligent Automation"
+          },
+          {
+            "tag": "p",
+            "text": "Empowering enterprises with AI automation that streamlines workflows, enhances decisions, and transforms customer experiences."
+          },
+          {
+            "tag": "h3",
+            "text": "Data Engineering / Process Intelligence"
+          },
+          {
+            "tag": "p",
+            "text": "Unlock data-driven clarity with smart pipelines, BI dashboards, and predictive insights that drive better outcomes."
+          },
+          {
+            "tag": "h3",
+            "text": "Cloud & DevOps"
+          },
+          {
+            "tag": "p",
+            "text": "Build and manage cloud-native environments with CI/CD pipelines and performance-driven infrastructure automation."
+          },
+          {
+            "tag": "h3",
+            "text": "IoT & Edge / Connected Systems"
+          },
+          {
+            "tag": "p",
+            "text": "Enable real-time automation through IoT and edge solutions that connect devices, data, and intelligence seamlessly."
+          },
+          {
+            "tag": "h3",
+            "text": "Custom Software Development"
+          },
+          {
+            "tag": "p",
+            "text": "We create scalable architectures that seamlessly integrate automation, data, and artificial intelligence, whether for enterprise apps, APIs, or the modernization of legacy systems."
+          },
+          {
+            "tag": "h3",
+            "text": "AI Consulting"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Integration"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Agent Development"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Chatbot Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Generative AI"
+          },
+          {
+            "tag": "h3",
+            "text": "Machine Learning Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Big Data Analytics"
+          },
+          {
+            "tag": "h3",
+            "text": "Data Integration"
+          },
+          {
+            "tag": "h3",
+            "text": "Data Engineering Consulting"
+          },
+          {
+            "tag": "h3",
+            "text": "Data Platform Modernization"
+          },
+          {
+            "tag": "h3",
+            "text": "Data Architecture"
+          },
+          {
+            "tag": "h3",
+            "text": "Data Migration"
+          },
+          {
+            "tag": "h3",
+            "text": "Cloud Consulting"
+          },
+          {
+            "tag": "h3",
+            "text": "Cloud Consulting"
+          },
+          {
+            "tag": "h3",
+            "text": "Cloud Integration"
+          },
+          {
+            "tag": "h3",
+            "text": "DevOps CI/CD Services"
+          },
+          {
+            "tag": "h3",
+            "text": "Devops automation"
+          },
+          {
+            "tag": "h3",
+            "text": "Custom Cloud App Development"
+          },
+          {
+            "tag": "h3",
+            "text": "IoT solution consulting"
+          },
+          {
+            "tag": "h3",
+            "text": "IoT App Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Sensor Integration"
+          },
+          {
+            "tag": "h3",
+            "text": "IoT Data Analytics"
+          },
+          {
+            "tag": "h3",
+            "text": "Home & Industrial Solutions"
+          },
+          {
+            "tag": "h3",
+            "text": "Wearable App Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Mobile App Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Web App Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Website Development"
+          },
+          {
+            "tag": "h3",
+            "text": "SaaS Development"
+          },
+          {
+            "tag": "h3",
+            "text": "Product Development"
+          },
+          {
+            "tag": "h3",
+            "text": "E-commerce Development"
+          },
+          {
+            "tag": "p",
+            "text": "Explore how leading businesses improved efficiency and reduced operational costs through our AI automation services."
+          },
+          {
+            "tag": "h2",
+            "text": "Our Software. Their Success. Proven Impact."
+          },
+          {
+            "tag": "p",
+            "text": "An AI-powered identity verification module that automates KYC using document scanning, OCR, face matching, and liveness checks. IDVerify AI helps businesses onboard users faster, prevent fraud, and stay compliant with..."
+          },
+          {
+            "tag": "p",
+            "text": "A healthcare company in the U.S. focused on remote care. MVV helped them monitor patients at home, automate RPM/CCM processes, and boost provider efficiency."
+          },
+          {
+            "tag": "p",
+            "text": "A UK-based equestrian marketplace that connects buyers and sellers of riding gear through secure payments, shipping integrations, and smart filters—simplifying product discovery, boosting seller visibility, and ensuring trusted transactions."
+          },
+          {
+            "tag": "p",
+            "text": "An end-to-end real estate platform that lets users search, explore, and evaluate properties through MLS listings, 3D tours, drone visuals, and AR experiences. Hommati equips agents and franchises with automation,..."
+          },
+          {
+            "tag": "p",
+            "text": "A multilingual AI agent that answers customer calls, understands intent, processes orders, and routes inquiries in real time. VoiceMate AI reduces manual workload, speeds response times, and integrates seamlessly with..."
+          },
+          {
+            "tag": "p",
+            "text": "SkylineStay is an automated revenue and occupancy intelligence dashboard for short-stay properties. It centralizes Hosthub booking data, calculates profit across platforms, tracks occupancy trends, and delivers daily insights that eliminate..."
+          },
+          {
+            "tag": "p",
+            "text": "A mindfulness app that guides users through structured daily practices of Duty, Knowledge, and Reflection. Sphere of Silence promotes focus, discipline, and balance through goal tracking, streaks, badges, and personalized..."
+          },
+          {
+            "tag": "p",
+            "text": "A secure crypto exchange that lets users trade, swap, stake, and manage multiple digital assets with fiat support. SuitMe offers real-time pricing, automated transactions, and advanced controls to deliver a..."
+          },
+          {
+            "tag": "p",
+            "text": "An in-house ERP platform for Technource that centralizes HR, attendance, and project tracking. It automates workflows, enhances accuracy, and offers real-time dashboards—reducing manual work and improving project delivery efficiency."
+          },
+          {
+            "tag": "p",
+            "text": "A U.S.-based SaaS medicine eCommerce platform that enables healthcare providers to launch branded online pharmacies with e-prescriptions, telehealth, cart recovery, and full compliance."
+          },
+          {
+            "tag": "p",
+            "text": "A scalable iGaming engine that unifies game integration, real-time wallet handling, payments, jackpots, and bonuses under secure APIs. Atomo Games helps casino partners onboard faster, improve uptime, and deliver seamless..."
+          },
+          {
+            "tag": "p",
+            "text": "A unified CRM that streamlines lead capture, campaign management, and partner collaboration. Adenzo automates sales workflows, enriches data, and offers real-time insights to boost efficiency, conversions, and customer engagement at..."
+          },
+          {
+            "tag": "p",
+            "text": "A medical waste management system in Indonesia that tracks collection, transport, and incineration of waste using QR codes, scheduling, and secure reporting for compliance."
+          },
+          {
+            "tag": "p",
+            "text": "A U.S.-based social networking platform that helps users discover, create, and join events effortlessly. ConnectApp connects people and organizers through real-time chat, personalized recommendations, and gamified engagement features."
+          },
+          {
+            "tag": "p",
+            "text": "GameChanger is a digital challenge platform where creators design, launch, and manage gamified programs. It blends real-time scoring, leaderboards, community tools, and monetization features to deliver an engaging, scalable, and..."
+          },
+          {
+            "tag": "p",
+            "text": "A commercial cleaning service platform with apps for customers and staff to manage schedules, reports, and feedback. It offers real-time tracking, before-and-after reports, and admin tools to ensure quality and..."
+          },
+          {
+            "tag": "p",
+            "text": "An e-Commerce that helps customers in underserved regions shop from US and European vendors with full support—product requests, secure purchases, shipping, tracking, and delivery to their doorstep."
+          },
+          {
+            "tag": "p",
+            "text": "Bridgeo is a Belgium-based home service marketplace connecting customers with trusted providers for renovations and repairs. It offers transparent quotes, secure payments, urgent bookings, and dispute handling for a reliable..."
+          },
+          {
+            "tag": "p",
+            "text": "A loan aggregator platform in Singapore integrating MyInfo, enabling borrowers to compare offers instantly and lenders to manage rules, credit, and offers with ease."
+          },
+          {
+            "tag": "p",
+            "text": "A U.S.-based community marketplace for students to post and find ads for jobs, housing, and services. Collegely boosts engagement with in-app chat, verified business profiles, and admin moderation for a..."
+          },
+          {
+            "tag": "p",
+            "text": "A halal food finder app that helps users discover nearby halal restaurants, read reviews, share feedback, and join a community-driven space to explore trusted dining options."
+          },
+          {
+            "tag": "p",
+            "text": "A community-driven parking app where private owners rent out unused spaces. Users can easily search, book, and pay for parking spots via the app, while owners earn extra income from..."
+          },
+          {
+            "tag": "p",
+            "text": "An exam prep app for students to practice quizzes, live tests, and competitive exams. It offers instant solutions, performance tracking, and a challenge feature to make learning interactive and engaging."
+          },
+          {
+            "tag": "p",
+            "text": "Realtorhubs is a cloud-based platform that helps agencies manage listings, agents, and customers, build branded subdomains, promote properties, and automate operations seamlessly"
+          },
+          {
+            "tag": "p",
+            "text": "A recruitment app connecting clinics and doctors with job postings, chat, reviews, and admin oversight to reduce no-shows and streamline medical staffing."
+          },
+          {
+            "tag": "p",
+            "text": "An online tutoring platform where students connect with tutors for live sessions using interactive whiteboards. Parents can manage children’s learning, while tutors track earnings and provide personalized guidance."
+          },
+          {
+            "tag": "p",
+            "text": "A social and dating app for men to connect with like-minded people. Users can chat, like profiles, and access premium features, while the admin manages subscriptions, revenue, and user activity."
+          },
+          {
+            "tag": "p",
+            "text": "A logistics management system in Malaysia that digitizes shipment creation, tracking, and invoicing. GoCarry connects shippers, carriers, drivers, and admins in one platform for real-time coordination, automated billing, and optimized..."
+          },
+          {
+            "tag": "p",
+            "text": "A safety platform that streamlines emergency management with real-time alerts, team communication, map-based reporting, and training access. ICS4S helps organizations react faster, stay coordinated, and improve readiness during critical events."
+          },
+          {
+            "tag": "p",
+            "text": "A smart farming platform that lets greenhouse owners monitor and control temperature, humidity, lighting, and CO₂ from anywhere. The app automates schedules, sends alerts, and syncs with IoT devices to..."
+          },
+          {
+            "tag": "p",
+            "text": "A web platform that syncs Google, Apple, and Microsoft calendars into one place. Synco makes scheduling effortless with shared group calendars, real-time updates, and flexible privacy controls—helping users manage personal..."
+          },
+          {
+            "tag": "p",
+            "text": "A modern recruitment platform that connects employers and candidates through AI-based job matching, video profiles, and automated interview scheduling. JobMingle streamlines hiring, boosts engagement, and speeds up talent placement."
+          },
+          {
+            "tag": "p",
+            "text": "A cloud platform that streamlines hiring with smart job posting, candidate screening, digital forms, e-signatures, and background checks. Worecs helps recruiters automate workflows, improve collaboration, and manage secure onboarding end-to-end."
+          },
+          {
+            "tag": "p",
+            "text": "A beauty booking app where clients can find and book top-rated hair and beauty specialists, while professionals can manage services, grow their business, and earn verified reviews—all in one platform."
+          },
+          {
+            "tag": "h2",
+            "text": "Why Enterprises Choose Technource for Intelligent Automation?"
+          },
+          {
+            "tag": "p",
+            "text": "At Technource, we collaborate with you to transform your business operations and enable intelligent automation. Businesses trust us because of our expertise in artificial intelligence, data, and cloud initiatives."
+          },
+          {
+            "tag": "h3",
+            "text": "Business-First Automation Strategy"
+          },
+          {
+            "tag": "p",
+            "text": "At Technoure, we align every automation initiative with your business goals, driving measurable outcomes through efficiency, agility, and customer responsiveness."
+          },
+          {
+            "tag": "h3",
+            "text": "Unified AI, Data & Cloud Expertise"
+          },
+          {
+            "tag": "p",
+            "text": "Our integrated AI, cloud, and data capabilities enable real-time insights, faster innovation, and scalable automation solutions that adapt as you grow."
+          },
+          {
+            "tag": "h3",
+            "text": "Proven ROI and Scalability"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprises trust Technource for measurable ROI and cost efficiency. Our scalable frameworks accelerate delivery and reduce operational overheads."
+          },
+          {
+            "tag": "h3",
+            "text": "Secure, Compliant & Future-Ready Architecture"
+          },
+          {
+            "tag": "p",
+            "text": "We engineer software with enterprise-grade solutions with strong security, compliance, and resilience, ensuring your systems remain robust and future-ready."
+          },
+          {
+            "tag": "h3",
+            "text": "Executive Insight & Transparency"
+          },
+          {
+            "tag": "p",
+            "text": "Partnering with Technoure provides you with real-time visibility with analytics, dashboards, and predictive insights that turn automation data into strategic intelligence."
+          },
+          {
+            "tag": "h3",
+            "text": "Strategic Partnership, Not Just Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "We believe innovation is a shared journey. From ideation to evolution, Technource co-creates with your teams to turn ideas into intelligent solutions that shape the future of your industry."
+          },
+          {
+            "tag": "h2",
+            "text": "Industries We Serve"
+          },
+          {
+            "tag": "p",
+            "text": "Technource delivers AI, cloud, and data-powered solutions that transform industries and accelerate growth."
+          },
+          {
+            "tag": "h3",
+            "text": "Healthcare & Life Science"
+          },
+          {
+            "tag": "h3",
+            "text": "FinTech & Banking"
+          },
+          {
+            "tag": "h3",
+            "text": "Retail & E-commerce"
+          },
+          {
+            "tag": "h3",
+            "text": "Manufacturing"
+          },
+          {
+            "tag": "h3",
+            "text": "Logistic & Transportation"
+          },
+          {
+            "tag": "h3",
+            "text": "Education & eLearning"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Estate & PropTech"
+          },
+          {
+            "tag": "h3",
+            "text": "Energy & Utilities"
+          },
+          {
+            "tag": "h3",
+            "text": "Travel"
+          },
+          {
+            "tag": "h3",
+            "text": "Hospitality"
+          },
+          {
+            "tag": "h3",
+            "text": "Government & Public Sector"
+          },
+          {
+            "tag": "p",
+            "text": "At Technource, we leverage AI, Data, Cloud, and IoT to build digital solutions that empower businesses, overcome their challenges, help them lead boldly, and drive the achievement of their business objectives."
+          },
+          {
+            "tag": "h2",
+            "text": "Technource Approach for Software Development"
+          },
+          {
+            "tag": "p",
+            "text": "We believe intelligent software goes beyond coding. It aligns with your business vision and delivers agile, secure, and personalized solutions that enable smart automation."
+          },
+          {
+            "tag": "h3",
+            "text": "Discovery & Use-Case Framing"
+          },
+          {
+            "tag": "p",
+            "text": "We begin by understanding your vision, challenges, and goals to identify automation opportunities and align technology with measurable business outcomes."
+          },
+          {
+            "tag": "h3",
+            "text": "Data Audit & Readiness"
+          },
+          {
+            "tag": "p",
+            "text": "We evaluate your data infrastructure to ensure quality, security, and accessibility. This creates a reliable foundation for AI initiatives and informed automation decisions."
+          },
+          {
+            "tag": "h3",
+            "text": "Solution Design"
+          },
+          {
+            "tag": "p",
+            "text": "Our solution architects design a detailed blueprint that defines the right technologies, cloud setup, and automation workflows focused on scalability and performance."
+          },
+          {
+            "tag": "h3",
+            "text": "Development & Integration"
+          },
+          {
+            "tag": "p",
+            "text": "Our developers follow agile and DevOps practices to build intelligent systems. We integrate AI, data pipelines, and APIs into a seamless and efficient ecosystem."
+          },
+          {
+            "tag": "h3",
+            "text": "Testing, Deployment & Monitoring"
+          },
+          {
+            "tag": "p",
+            "text": "We perform detailed testing to validate functionality, performance, and security. Once deployed, continuous monitoring ensures stability, scalability, and long-term optimization."
+          },
+          {
+            "tag": "h3",
+            "text": "Continuous Improvement & Scaling"
+          },
+          {
+            "tag": "p",
+            "text": "After deployment, we enhance systems through ongoing optimization, retraining, and analytics. This continuous improvement keeps your solutions efficient and growth-ready."
+          },
+          {
+            "tag": "h2",
+            "text": "Our Command Over Technologies"
+          },
+          {
+            "tag": "h2",
+            "text": "Recognized Excellence Across Leading Platforms"
+          },
+          {
+            "tag": "p",
+            "text": "Join hundreds of businesses that trust Technource to turn their vision into reality. Let's talk about how we can help your business grow."
+          },
+          {
+            "tag": "h2",
+            "text": "Inspiring Stories from Our Global Clients"
+          },
+          {
+            "tag": "p",
+            "text": "Technource team took the time to understand the problem deeply, challenged our assumptions, and produced a solid proof of concept in a short time. Communication was consistent and the team stayed committed through every change. I’d recommend them to anyone tackling a complex project."
+          },
+          {
+            "tag": "p",
+            "text": "From design to delivery, the team made the entire process smooth and collaborative. Their professionalism and creativity stood out, and we see them as true partners in our journey."
+          },
+          {
+            "tag": "p",
+            "text": "Working with Technource has been a pleasure. They bring expertise, reliability, and innovation to every project. Our collaboration has led to several successful outcomes in competitive markets, and we value them as a long-term partner.\""
+          },
+          {
+            "tag": "p",
+            "text": "Technource has been an outstanding partner from the very first interaction. Their team was quick to respond, guided us through every step, and delivered exactly what we needed. They are reliable, professional, and truly a five-star company."
+          },
+          {
+            "tag": "p",
+            "text": "Technource was great to work with. They listened to all my feedback, communicated clearly, and delivered on time and within budget. I would definitely recommend them for anyone looking for a reliable partner."
+          },
+          {
+            "tag": "p",
+            "text": "I’ve worked with Technource team for over five years, and the experience has been outstanding. Unlike past freelancers, Technource always delivers on time with top-quality work. Even if issues arise, they’re quick to fix them and ensure I’m satisfied."
+          },
+          {
+            "tag": "h2",
+            "text": "Recently Added Blogs"
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "tag": "h3",
+            "text": "How can AI and automation improve my business performance?"
+          },
+          {
+            "tag": "p",
+            "text": "AI-powered automation helps you eliminate manual effort, optimize processes, and gain predictive insights. Whether automating workflows, predicting demand, or enhancing customer experiences, our team will help you leverage AI and data intelligence to make informed, secure, and impactful decisions."
+          },
+          {
+            "tag": "h3",
+            "text": "Do you provide end-to-end AI software development?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, we provide end-to-end AI software development, encompassing discovery and strategy, model development, training, and post-launch optimization. We handle data integration, cloud architecture, and DevOps automation to ensure robust, scalable, and aligned AI solutions."
+          },
+          {
+            "tag": "h3",
+            "text": "How secure are your AI and automation software?"
+          },
+          {
+            "tag": "p",
+            "text": "We prioritize security and compliance to every solution we build. Our enterprise-level implementation, encryption, access control, and data governance frameworks. Our systems comply with global standards like GDPR, HIPAA, and ISO, which ensures fully secure data and workflows."
+          },
+          {
+            "tag": "h3",
+            "text": "Can Technource integrate AI into my existing system or legacy infrastructure?"
+          },
+          {
+            "tag": "p",
+            "text": "Absolutely. We specialize in seamless AI integration with your existing tech stack — ERP, CRM, or legacy software. Using API-driven architecture and cloud automation, we modernize your infrastructure without disrupting business continuity, enabling a smooth transition to intelligent automation."
+          },
+          {
+            "tag": "h3",
+            "text": "What technologies and platforms does Technource use?"
+          },
+          {
+            "tag": "p",
+            "text": "Our tech stack includes leading tools such as TensorFlow, PyTorch, Python, AWS, Azure, Google Cloud, Docker, Kubernetes, and Power BI. We choose the right technologies based on your project’s needs, ensuring a secure, high-performing, and future-ready solution."
+          },
+          {
+            "tag": "h3",
+            "text": "How do I start my AI automation journey with Technource?"
+          },
+          {
+            "tag": "p",
+            "text": "It begins with a strategy consultation where we assess your goals, processes, and data ecosystem. Our experts then create a custom automation roadmap, identifying high-impact use cases and defining clear ROI metrics. You’ll know exactly how and where AI will transform your operations before we begin."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 81,
+          "headings": 77,
+          "images": 742
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-7193D271",
+      "path": "/services/",
+      "type": "Detected Link",
+      "anchor_text": "Services",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4DEECE74",
+      "path": "/hire-experts/",
+      "type": "Detected Link",
+      "anchor_text": "Hire Expert",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-36486FD0",
+      "path": "/industries/",
+      "type": "Detected Link",
+      "anchor_text": "Industries",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6E8AC10C",
+      "path": "/contact-us",
+      "type": "Detected Link",
+      "anchor_text": "Schedule a Free Call",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-45A0C547",
+      "path": "/case-studies/",
+      "type": "Detected Link",
+      "anchor_text": "Case Studies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C65D670E",
+      "path": "/blog/",
+      "type": "Detected Link",
+      "anchor_text": "Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0038CCE1",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-316B69F4",
+      "path": "/contact-us/",
+      "type": "Detected Link",
+      "anchor_text": "Start Your AI Automation Journey",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F1386569",
+      "path": "/ai-development-services/",
+      "type": "Detected Link",
+      "anchor_text": "AI & Intelligent Automation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-33057DD1",
+      "path": "/data-engineering-services/",
+      "type": "Detected Link",
+      "anchor_text": "Data Engineering / Process Intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A49C76D4",
+      "path": "/devops-consulting-services/",
+      "type": "Detected Link",
+      "anchor_text": "Cloud & DevOps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D60FC6E",
+      "path": "/internet-of-things-iot-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "IoT & Edge / Connected Systems",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-62C36E84",
+      "path": "/about-technource/",
+      "type": "Detected Link",
+      "anchor_text": "About Technource",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-544FC8B1",
+      "path": "/career/",
+      "type": "Detected Link",
+      "anchor_text": "Careers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4CB3D802",
+      "path": "/our-team/",
+      "type": "Detected Link",
+      "anchor_text": "Our Team",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

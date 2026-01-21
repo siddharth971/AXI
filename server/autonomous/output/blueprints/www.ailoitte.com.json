@@ -1,0 +1,2524 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BBA41237",
+  "generated_at": "2026-01-21T07:27:04.967Z",
+  "global_configuration": {
+    "brand_name": "Enterprise Software, Mobile App &amp; AI Development Company",
+    "domain": "www.ailoitte.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "162.159.137.54",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 231,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js?ver=2.2.22"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/244455177.js",
+        "type": "script",
+        "full_url": "https://js-na2.hs-scripts.com/244455177.js"
+      },
+      {
+        "path": "/forms/embed/v2.js",
+        "type": "script",
+        "full_url": "https://js-na2.hsforms.net/forms/embed/v2.js"
+      },
+      {
+        "path": "/wp-content/plugins/simple-social-buttons/assets/js/frontend-blocks.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/simple-social-buttons/assets/js/frontend-blocks.js?ver=6.2.0"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-prereq.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-prereq.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-core.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-core.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-results-vertical.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-results-vertical.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-ga.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-ga.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-autocomplete.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-autocomplete.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.min.js?ver=4780"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/jquery-3.6.1.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/jquery-3.6.1.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/bootstrap.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/popper.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/popper.min.js"
+      },
+      {
+        "path": "/wp-includes/js/imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+      },
+      {
+        "path": "/wp-includes/js/masonry.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-includes/js/masonry.min.js?ver=4.2.2"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/jquery.bxslider.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/jquery.bxslider.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/wow.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/wow.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/owl.carousel.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/owl.carousel.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/script.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/script.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/mega-menu.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/mega-menu.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/slick.min.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/slick.min.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/faq.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/faq.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/customjs.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/customjs.js?ver=491382.42444444"
+      },
+      {
+        "path": "/ajax/libs/bodymovin/5.9.4/lottie.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/ez-toc1.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/ez-toc1.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/hier-developer.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/hier-developer.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/case-study-footer.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/case-study-footer.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/accordion-home.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/accordion-home.js?ver=0.1.0"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/js/custom1.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/js/custom1.js?ver=0.1.0"
+      },
+      {
+        "path": "/assests/js/visitor-trace.js",
+        "type": "script",
+        "full_url": "https://www.ailoitte.com/assests/js/visitor-trace.js"
+      },
+      {
+        "path": "/ajax/libs/gsap/3.11.5/gsap.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      },
+      {
+        "path": "/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      },
+      {
+        "path": "/npm/swiper@11/swiper-bundle.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      },
+      {
+        "path": "/MeetingsEmbed/ex/MeetingsEmbedCode.js",
+        "type": "script",
+        "full_url": "https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
+      },
+      {
+        "path": "/jquery-3.6.0.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/jquery-3.6.0.min.js"
+      },
+      {
+        "path": "/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      },
+      {
+        "path": "/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"
+      },
+      {
+        "path": "/ajax/libs/intl-tel-input/17.0.19/js/utils.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
+      },
+      {
+        "path": "/css",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      },
+      {
+        "path": "/ajax/libs/font-awesome/6.2.1/css/all.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/ailoitteblue.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ailoitteblue.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/ailoittewhite.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ailoittewhite.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/Vector.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/Vector.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/about-black-icon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/about-black-icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/002-discover.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/002-discover.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/003-medal.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/003-medal.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/004-suitcase.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/004-suitcase.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/menu-image.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/menu-image.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ideationdesignicoon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ideationdesignicoon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/core-development-icoon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/core-development-icoon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ai-solution-icoon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ai-solution-icoon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/solution-icoon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/solution-icoon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/hire-developer-icoon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/hire-developer-icoon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Case-study-icon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/Case-study-icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ai-insight-icon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ai-insight-icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ai-platform.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ai-platform.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ai-topics.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ai-topics.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/ip-protection.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/ip-protection.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/blog-post.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/11/blog-post.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/aitransformationicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/aitransformationicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/aidevelopmenticon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/aidevelopmenticon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/generativeaiicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/generativeaiicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerwebapp.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerwebapp.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/computervisionicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/computervisionicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/aiagenticon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/aiagenticon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/aiasserviceicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/aiasserviceicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerottapp.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerottapp.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/healthcaresoftwareicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/healthcaresoftwareicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/ecommerceicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/ecommerceicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/fintechicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/fintechicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/evchargingicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/evchargingicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/elearningicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/elearningicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/fooddeliveryicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/fooddeliveryicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/insurtechicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/insurtechicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headermobileapp.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headermobileapp.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/architectureicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/architectureicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/crmdevelopmenticon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/crmdevelopmenticon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerenterprisedevelopment.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerenterprisedevelopment.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/ondemandicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/ondemandicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/saasicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/saasicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/startupappicon.svg",
+        "type": "image",
+        "full_url": "https://wordpress-888385-4910732.cloudwaysapps.com/wp-content/uploads/2025/04/startupappicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/discoveryphaseicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/discoveryphaseicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/aidevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/aidevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/pythondevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/pythondevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/nodejsicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/nodejsicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/javadevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/javadevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/iosdevelopicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/iosdevelopicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/swiftdevelopicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/swiftdevelopicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/androiddevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/androiddevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/kotlindevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/kotlindevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/healthcaredevelopersicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/healthcaredevelopersicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerapna1.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerapna1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerassurecare1.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerassurecare1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerbanksathi1.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerbanksathi1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/headerlifelong1.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/headerlifelong1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/morepenicion.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/morepenicion.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/protoverifyicion.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/protoverifyicion.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/utsahicion.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/utsahicion.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/twinbotzicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2025/04/twinbotzicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/microsoftazure.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/microsoftazure.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/awspartnernetwork.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/awspartnernetwork.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/googlecloud.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/googlecloud.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/digitalocean.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/digitalocean.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/frontbannerimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/frontbannerimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apnaai.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apnaai.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathiai.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathiai.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/assurecareai.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/assurecareai.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/drmorepenai.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/drmorepenai.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/srisriai.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/srisriai.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/aiconsultimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/aiconsultimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/chatbotimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/chatbotimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/aitransformation.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/aitransformation.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/aidevelopimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/aidevelopimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/genaidevelop.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/genaidevelop.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/computervision.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/computervision.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/mlsolution.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/mlsolution.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/aistrategyimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/aistrategyimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/hirededicatedimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/hirededicatedimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/helathcareimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/helathcareimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/retailimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/retailimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/evcharge.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/evcharge.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/edutechimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/edutechimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/entertainmentimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/entertainmentimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/customizeimage.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/customizeimage.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/architectureimage.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/architectureimage.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/enterpriseimage.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/enterpriseimage.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/startupimage.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/startupimage.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/saasimage.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/saasimage.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/openaiicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/openaiicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/geminiicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/geminiicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/huggingfaceicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/huggingfaceicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/mistralicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/mistralicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/liamaicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/liamaicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/pytorchlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/pytorchlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/iosiconlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/iosiconlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/fluttericon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/fluttericon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/reactnativeicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/reactnativeicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/androidicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/androidicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/angularicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/angularicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/nextjsicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/nextjsicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/vuejsicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/vuejsicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/pythonicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/pythonicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/golangicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/golangicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/javaicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/javaicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/nodejsicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/nodejsicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/postgresqlicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/postgresqlicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/mongodbicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/mongodbicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/dotneticon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/dotneticon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/awsicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/awsicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/googlecloudicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/googlecloudicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/azureicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/azureicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/kuberneteslogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/kuberneteslogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/efficiencyicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/efficiencyicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/growthicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/growthicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/innovationicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/innovationicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/assurecareportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/assurecareportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/assurecarelogos.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/assurecarelogos.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apnaportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apnaportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apnalogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apnalogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/wtdportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/wtdportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/wtdlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/wtdlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathiportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathiportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathilogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathilogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/utsahiotportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/utsahiotportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/utsahiotlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/utsahiotlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/revezaportfolioimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/revezaportfolioimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/revezalogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/revezalogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/redwhitelogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/redwhitelogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/manatestimonialimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/manatestimonialimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/mobilemanatestimonial.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/mobilemanatestimonial.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apnanewlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apnanewlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apnaceo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apnaceo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathinewlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathinewlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathiceo.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathiceo.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/drmorepennewlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/drmorepennewlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/revezanewlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/revezanewlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/sanskrityicon.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/sanskrityicon.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/sanskriticeo.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/sanskriticeo.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/forbesicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/forbesicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/iso27001newbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/iso27001newbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/toinewbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/toinewbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/apnewslogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/apnewslogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/internationalnewbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/internationalnewbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/businessstandard.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/businessstandard.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/hindustantimes.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/hindustantimes.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/isocertifiedbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/isocertifiedbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/clutchnewbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/clutchnewbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/designrushnewbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/designrushnewbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/businessapps.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/businessapps.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/goodfirmsnewbrand.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/goodfirmsnewbrand.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/locationicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/locationicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/categoryicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/categoryicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/logoapna.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/logoapna.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathilogo.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathilogo.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/ipatientcarenewlogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ipatientcarenewlogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/protoverifyceo.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/protoverifyceo.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/logolinkomed.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/logolinkomed.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/footerchaticon.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/footerchaticon.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/clutchimg2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/clutchimg2.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/goodfirmimg2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/goodfirmimg2.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/designrushimg2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/designrushimg2.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/reviewsimg2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/reviewsimg2.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/glassdoorimg2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/glassdoorimg2.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/india.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/india.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/ailoitteindiaflag.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ailoitteindiaflag.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/phoneicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/phoneicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/usa.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/usa.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/usaicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/usaicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/footersocialicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/footersocialicon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/footersocialicon1.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/footersocialicon1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/footersocialicon2.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/footersocialicon2.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/footersocialicon3.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/uploads/2024/09/footersocialicon3.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/commenttopicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/commenttopicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/manaceo.jpg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/manaceo.jpg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/ademola-gaspay.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ademola-gaspay.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/apna-priyank-roundimg.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/apna-priyank-roundimg.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/banksathi_ceo.webp",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/banksathi_ceo.webp"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/testimonialceoimg.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/testimonialceoimg.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/apnagreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/apnagreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/assurecaregreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/assurecaregreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/wtdgreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/wtdgreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/banksathigreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/banksathigreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/lifelonggreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/lifelonggreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/utsahgreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/utsahgreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/managreylogo.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/managreylogo.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/svg/tikicon.svg",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/svg/tikicon.svg"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/greyiso.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/greyiso.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/greyisonew.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/greyisonew.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/greyclutch.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/greyclutch.png"
+      },
+      {
+        "path": "/wp-content/themes/ailoittee/assests/images/greydesignrush.png",
+        "type": "image",
+        "full_url": "https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/greydesignrush.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Enterprise Software, Mobile App &amp; AI Development Company",
+        "description": "Ailoitte is a global software development company delivering enterprise-grade mobile apps, web platforms, and AI solutions with dedicated engineering teams.",
+        "canonical": "https://www.ailoitte.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6393ms"
+        },
+        {
+          "resource": "breeze-prefetch-links.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "email-decode.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "244455177.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Enterprise Software, App & AI Solutions Built to Scale",
+          "h2_subtitle": "We help enterprises build and scale secure digital products using AI, cloud-native architecture, and expert engineering teams.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Two answers and we’ll match you with perfect AI solution",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Secure & Scalable Technology for Enterprise Growth",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "From concept to launch, and beyond – All in one place",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Enterprise Software, App & AI Solutions Built to Scale"
+          },
+          {
+            "tag": "p",
+            "text": "We help enterprises build and scale secure digital products using AI, cloud-native architecture, and expert engineering teams."
+          },
+          {
+            "tag": "h3",
+            "text": "50M+"
+          },
+          {
+            "tag": "p",
+            "text": "Downloads"
+          },
+          {
+            "tag": "p",
+            "text": "Active Customers"
+          },
+          {
+            "tag": "h3",
+            "text": "100%"
+          },
+          {
+            "tag": "p",
+            "text": "Compliance rate"
+          },
+          {
+            "tag": "p",
+            "text": "Satisfied customers"
+          },
+          {
+            "tag": "p",
+            "text": "Heart Rate & HRV Accuracy"
+          },
+          {
+            "tag": "h3",
+            "text": "50M+"
+          },
+          {
+            "tag": "p",
+            "text": "Downloads"
+          },
+          {
+            "tag": "p",
+            "text": "Active Customers"
+          },
+          {
+            "tag": "h3",
+            "text": "100%"
+          },
+          {
+            "tag": "p",
+            "text": "Compliance rate"
+          },
+          {
+            "tag": "p",
+            "text": "Satisfied customers"
+          },
+          {
+            "tag": "p",
+            "text": "Heart Rate & HRV Accuracy"
+          },
+          {
+            "tag": "h2",
+            "text": "Two answers and we’ll match you with perfect AI solution"
+          },
+          {
+            "tag": "h3",
+            "text": "What best describes your current challenge?"
+          },
+          {
+            "tag": "h3",
+            "text": "What is your goal?"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Consulting"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "Chatbot Development"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Transformation"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Development"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "GenAI Development"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "Computer Vision"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "ML Solutions"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Strategy Discovery"
+          },
+          {
+            "tag": "h4",
+            "text": "View Service"
+          },
+          {
+            "tag": "h2",
+            "text": "Secure & Scalable Technology for Enterprise Growth"
+          },
+          {
+            "tag": "p",
+            "text": "We bring your vision to life through AI-driven digital transformation. Our team of experts provides world-class product design and development to create exceptional digital experiences for businesses of all sizes."
+          },
+          {
+            "tag": "p",
+            "text": "Returning client base"
+          },
+          {
+            "tag": "p",
+            "text": "Projects Launched"
+          },
+          {
+            "tag": "p",
+            "text": "Happy Clients"
+          },
+          {
+            "tag": "p",
+            "text": "Countries Served"
+          },
+          {
+            "tag": "h2",
+            "text": "From concept to launch, and beyond – All in one place"
+          },
+          {
+            "tag": "h2",
+            "text": "Hire Dedicated development teams within 48 Hours"
+          },
+          {
+            "tag": "p",
+            "text": "Boost your productivity, reduce costs and tap into a global talent pool by hiring remote developers!"
+          },
+          {
+            "tag": "p",
+            "text": "Qualified Professional"
+          },
+          {
+            "tag": "p",
+            "text": "Pre-vetted Developers"
+          },
+          {
+            "tag": "p",
+            "text": "Resource Utilization Rate"
+          },
+          {
+            "tag": "h2",
+            "text": "Delivering Digital Solutions Across Industries"
+          },
+          {
+            "tag": "p",
+            "text": "Seamless tech partnerships empowering businesses to innovate smarter, faster, and at scale"
+          },
+          {
+            "tag": "p",
+            "text": "Transform patient care with AI-driven insights, predictive analytics and smarter healthcare solutions."
+          },
+          {
+            "tag": "h3",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "p",
+            "text": "Enhance every shopping journey with smart, personalized, and data-powered solutions."
+          },
+          {
+            "tag": "h3",
+            "text": "Retail and E-Commerce"
+          },
+          {
+            "tag": "p",
+            "text": "Drive the future of sustainable mobility with smart, efficient EV charging solutions."
+          },
+          {
+            "tag": "h3",
+            "text": "EV Charging"
+          },
+          {
+            "tag": "p",
+            "text": "Empower the next generation of learners with interactive and scalable educational experiences."
+          },
+          {
+            "tag": "h3",
+            "text": "Education"
+          },
+          {
+            "tag": "p",
+            "text": "Deliver next-gen digital experiences that thrill, inspire, and delight audiences worldwide."
+          },
+          {
+            "tag": "h3",
+            "text": "Entertainment"
+          },
+          {
+            "tag": "p",
+            "text": "Customized apps built to match your unique business needs and workflows."
+          },
+          {
+            "tag": "h3",
+            "text": "Customizable App"
+          },
+          {
+            "tag": "p",
+            "text": "Scalable, strong, and future-ready system architecture for seamless operations."
+          },
+          {
+            "tag": "h3",
+            "text": "Architecture as a Service"
+          },
+          {
+            "tag": "p",
+            "text": "Powerful solutions designed to streamline large-scale business operations efficiently."
+          },
+          {
+            "tag": "h3",
+            "text": "Enterprise solution"
+          },
+          {
+            "tag": "p",
+            "text": "Smart, agile solutions designed to help startups launch fast and scale confidently."
+          },
+          {
+            "tag": "h3",
+            "text": "Startup Solution"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced SaaS solutions that drive business growth and transform customer experiences."
+          },
+          {
+            "tag": "h3",
+            "text": "SaaS Solutions"
+          },
+          {
+            "tag": "h2",
+            "text": "Delivering Digital Solutions Across Industries"
+          },
+          {
+            "tag": "p",
+            "text": "Seamless tech partnerships empowering businesses to innovate smarter, faster, and at scale"
+          },
+          {
+            "tag": "h3",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "p",
+            "text": "Transform patient care with AI-driven insights, predictive analytics and smarter healthcare solutions."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Retail and E-Commerce"
+          },
+          {
+            "tag": "p",
+            "text": "Enhance every shopping journey with smart, personalized, and data-powered solutions."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "EV Charging"
+          },
+          {
+            "tag": "p",
+            "text": "Drive the future of sustainable mobility with smart, efficient EV charging solutions."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Education"
+          },
+          {
+            "tag": "p",
+            "text": "Empower the next generation of learners with interactive and scalable educational experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Entertainment"
+          },
+          {
+            "tag": "p",
+            "text": "Deliver next-gen digital experiences that thrill, inspire, and delight audiences worldwide."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Customizable App"
+          },
+          {
+            "tag": "p",
+            "text": "Customized apps built to match your unique business needs and workflows."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Architecture as a Service"
+          },
+          {
+            "tag": "p",
+            "text": "Scalable, strong, and future-ready system architecture for seamless operations."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Enterprise solution"
+          },
+          {
+            "tag": "p",
+            "text": "Powerful solutions designed to streamline large-scale business operations efficiently."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h3",
+            "text": "Startup Solution"
+          },
+          {
+            "tag": "p",
+            "text": "Smart, agile solutions designed to help startups launch fast and scale confidently."
+          },
+          {
+            "tag": "p",
+            "text": "Startup Solution"
+          },
+          {
+            "tag": "h3",
+            "text": "SaaS Solutions"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced SaaS solutions that drive business growth and transform customer experiences."
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "h2",
+            "text": "Building with the Right Tech"
+          },
+          {
+            "tag": "p",
+            "text": "We've mastered every technology combination, so you can focus on what matters."
+          },
+          {
+            "tag": "p",
+            "text": "Open AI"
+          },
+          {
+            "tag": "p",
+            "text": "Gemini"
+          },
+          {
+            "tag": "p",
+            "text": "Hugging Face"
+          },
+          {
+            "tag": "p",
+            "text": "Mistral"
+          },
+          {
+            "tag": "p",
+            "text": "LIama"
+          },
+          {
+            "tag": "p",
+            "text": "Pytorch"
+          },
+          {
+            "tag": "p",
+            "text": "Native iOS"
+          },
+          {
+            "tag": "p",
+            "text": "Flutter"
+          },
+          {
+            "tag": "p",
+            "text": "React Native"
+          },
+          {
+            "tag": "p",
+            "text": "Android"
+          },
+          {
+            "tag": "p",
+            "text": "Angular"
+          },
+          {
+            "tag": "p",
+            "text": "React.js"
+          },
+          {
+            "tag": "p",
+            "text": "Next.js"
+          },
+          {
+            "tag": "p",
+            "text": "Vue.js"
+          },
+          {
+            "tag": "p",
+            "text": "Python"
+          },
+          {
+            "tag": "p",
+            "text": "Golang"
+          },
+          {
+            "tag": "p",
+            "text": "Java"
+          },
+          {
+            "tag": "p",
+            "text": "Node js"
+          },
+          {
+            "tag": "p",
+            "text": "PostgreSQL"
+          },
+          {
+            "tag": "p",
+            "text": "MongoDB"
+          },
+          {
+            "tag": "p",
+            "text": ".NET"
+          },
+          {
+            "tag": "p",
+            "text": "Google Cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Azure"
+          },
+          {
+            "tag": "p",
+            "text": "Kubernetes"
+          },
+          {
+            "tag": "h2",
+            "text": "The ROI of Intelligence"
+          },
+          {
+            "tag": "p",
+            "text": "Schedule a consultation today and discover how our tailored strategies can empower your organization to adapt, innovate, and thrive in a rapidly evolving landscape."
+          },
+          {
+            "tag": "p",
+            "text": "Efficiency"
+          },
+          {
+            "tag": "h3",
+            "text": "Automate Processes"
+          },
+          {
+            "tag": "p",
+            "text": "Cut operational costs by up to 30% with Al-driven workflow automation."
+          },
+          {
+            "tag": "p",
+            "text": "Growth"
+          },
+          {
+            "tag": "h3",
+            "text": "Personalize Experiences"
+          },
+          {
+            "tag": "p",
+            "text": "Cut operational costs by up to 30% with Al-driven workflow automation."
+          },
+          {
+            "tag": "p",
+            "text": "Innovation"
+          },
+          {
+            "tag": "h3",
+            "text": "Accelerate Discovery"
+          },
+          {
+            "tag": "p",
+            "text": "Cut operational costs by up to 30% with Al-driven workflow automation."
+          },
+          {
+            "tag": "h2",
+            "text": "Our Work"
+          },
+          {
+            "tag": "p",
+            "text": "We are the trusted catalyst helping global brands scale, innovate, and lead."
+          },
+          {
+            "tag": "p",
+            "text": "Uniting payors, providers, and pharmacies for seamless care."
+          },
+          {
+            "tag": "h4",
+            "text": "53M+"
+          },
+          {
+            "tag": "p",
+            "text": "Members supported"
+          },
+          {
+            "tag": "h4",
+            "text": "100%"
+          },
+          {
+            "tag": "p",
+            "text": "Compliance Rate"
+          },
+          {
+            "tag": "p",
+            "text": "A Unicorn Powering India’s Workforce Revolution"
+          },
+          {
+            "tag": "h4",
+            "text": "50M+"
+          },
+          {
+            "tag": "p",
+            "text": "App Downloads"
+          },
+          {
+            "tag": "h4",
+            "text": "1.1B $"
+          },
+          {
+            "tag": "p",
+            "text": "Valuation"
+          },
+          {
+            "tag": "p",
+            "text": "Fueling teachers with the balance they give every classroom."
+          },
+          {
+            "tag": "p",
+            "text": "Faster Onboarding"
+          },
+          {
+            "tag": "p",
+            "text": "Higher Engagement"
+          },
+          {
+            "tag": "p",
+            "text": "Turning every pin code into a gateway for financial opportunity."
+          },
+          {
+            "tag": "h4",
+            "text": "30 Lakh+"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Served"
+          },
+          {
+            "tag": "h4",
+            "text": "15 Lakh+"
+          },
+          {
+            "tag": "p",
+            "text": "Financial Advisors"
+          },
+          {
+            "tag": "p",
+            "text": "Wellness at your fingertips, powered by every beat."
+          },
+          {
+            "tag": "p",
+            "text": "Sleep Score Accuracy"
+          },
+          {
+            "tag": "p",
+            "text": "Heart Rate Accuracy"
+          },
+          {
+            "tag": "p",
+            "text": "Turning every brand interaction into lasting engagement."
+          },
+          {
+            "tag": "p",
+            "text": "Data Compliance"
+          },
+          {
+            "tag": "p",
+            "text": "In-Store Sales Growth"
+          },
+          {
+            "tag": "h2",
+            "text": "Real Stories. Real Success."
+          },
+          {
+            "tag": "p",
+            "text": "\"It's fair to say that we didn’t just find a development company, but we found a team and that feeling for us is a bit unique. The experience we have here is on a whole new level.\""
+          },
+          {
+            "tag": "p",
+            "text": "Lars Tegelaars"
+          },
+          {
+            "tag": "p",
+            "text": "Founder & CEO @Mana"
+          },
+          {
+            "tag": "p",
+            "text": "“Ailoitte quickly understood our needs, built the right team, and delivered on time and budget. Highly recommended!”"
+          },
+          {
+            "tag": "p",
+            "text": "Priyank Mehta"
+          },
+          {
+            "tag": "p",
+            "text": "Head Of Product, Apna"
+          },
+          {
+            "tag": "p",
+            "text": "\"Ailoitte expertly analyzed every user journey and fixed technical gaps, bringing the app’s vision to life.”"
+          },
+          {
+            "tag": "p",
+            "text": "Jitendra Dhaka"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Banksathi"
+          },
+          {
+            "tag": "p",
+            "text": "“Working with Ailoitte brought our vision to life through a beautifully designed, intuitive app.”"
+          },
+          {
+            "tag": "p",
+            "text": "Saurabh Arora"
+          },
+          {
+            "tag": "p",
+            "text": "Director, Dr. Morepen"
+          },
+          {
+            "tag": "p",
+            "text": "“Ailoitte brought Reveza to life with seamless AI, a user-friendly experience, and a 25% boost in engagement.”"
+          },
+          {
+            "tag": "p",
+            "text": "Manikanth Epari"
+          },
+          {
+            "tag": "p",
+            "text": "Co-Founder, Reveza"
+          },
+          {
+            "tag": "p",
+            "text": "Ailoitte delivered a polished multilingual Sanskrit learning app with strong audio, smart architecture, and proactive collaboration, making them a reliable and technically strong development partner."
+          },
+          {
+            "tag": "p",
+            "text": "Ajay gopinath"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Sanskritly"
+          },
+          {
+            "tag": "p",
+            "text": "Top Innovative AI Companies 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Information Security Management System"
+          },
+          {
+            "tag": "p",
+            "text": "Most Trusted IT Service provider 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprises scale teams faster with Ailoitte’s on-demand hiring"
+          },
+          {
+            "tag": "p",
+            "text": "The Best Software Development Company 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Smarter Enterprises with Customized AI Integration"
+          },
+          {
+            "tag": "p",
+            "text": "Top 10 CEOs Share Their Vision for Success"
+          },
+          {
+            "tag": "p",
+            "text": "Quality Management System"
+          },
+          {
+            "tag": "p",
+            "text": "Best workplace to work"
+          },
+          {
+            "tag": "p",
+            "text": "Best Visual Design 2025"
+          },
+          {
+            "tag": "p",
+            "text": "The Best Software Development Company"
+          },
+          {
+            "tag": "p",
+            "text": "Most Trusted IT Service provider"
+          },
+          {
+            "tag": "p",
+            "text": "Top App Development Company in 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Information Security Management System"
+          },
+          {
+            "tag": "p",
+            "text": "Quality Management System"
+          },
+          {
+            "tag": "p",
+            "text": "Best Place to work"
+          },
+          {
+            "tag": "p",
+            "text": "\"Ailoitte understood our requirements immediately and built the team we wanted. On time and budget. Highly recommend working with them for a fruitful collaboration.\""
+          },
+          {
+            "tag": "h3",
+            "text": "Priyank Mehta"
+          },
+          {
+            "tag": "p",
+            "text": "Head of product, Apna"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "My experience working with Ailoitte was highly professional and collaborative. The team was responsive, transparent, and proactive throughout the engagement. They not only executed the core requirements effectively but also contributed several valuable suggestions that strengthened the overall solution. In particular, their recommendations on architectural enhancements for voice‑recognition workflows significantly improved performance, scalability, and long‑term maintainability. They provided data entry assistance to reduce bottlenecks during implementation."
+          },
+          {
+            "tag": "h3",
+            "text": "Ajay gopinath"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Sanskritly"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "On paper, Banksathi had everything it took to make a profitable application. However, on the execution front, there were multiple loopholes - glitches in apps, modules not working, slow payment disbursement process, etc. Now to make the application as useful as it was on paper in a real world scenario, we had to take every user journey apart and identify the areas of concerns on a technical end."
+          },
+          {
+            "tag": "h3",
+            "text": "Jitendra Dhaka"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Banksathi"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "“Working with Ailoitte was a game-changer for us. They truly understood our vision of putting ‘Health in Your Hands’ and brought it to life through a beautifully designed, intuitive app. From user experience to performance, everything exceeded our expectations. Their team was proactive, skilled, and aligned with our mission every step of the way.”"
+          },
+          {
+            "tag": "h3",
+            "text": "Saurabh Arora"
+          },
+          {
+            "tag": "p",
+            "text": "Director, Dr.Morepen"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "“Working with Ailoitte was a game-changer. Their team brought our vision for Reveza to life with seamless AI integration and a user-friendly experience that our clients love. We've seen a clear 25% boost in in-store engagement and loyalty. They truly understood our goals and delivered beyond expectations.”"
+          },
+          {
+            "tag": "h3",
+            "text": "Manikanth Epari"
+          },
+          {
+            "tag": "p",
+            "text": "Co-Founder, Reveza"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "“Ailoitte truly understood our vision for iPatientCare. Their team delivered a user-friendly, secure, and scalable EHR platform that improved our workflows and helped us deliver better care. We’re extremely happy with the results.”"
+          },
+          {
+            "tag": "h3",
+            "text": "Dr. Rahul Gupta"
+          },
+          {
+            "tag": "p",
+            "text": "CMO, iPatientCare"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "p",
+            "text": "\"Working with Ailoitte was a game-changer for us. They truly understood our vision of putting ‘Health in Your Hands’ and brought it to life through a beautifully designed, intuitive app. From user experience to performance, everything exceeded our expectations. Their team was proactive, skilled, and aligned with our mission every step of the way.\""
+          },
+          {
+            "tag": "h3",
+            "text": "Saurabh Arora"
+          },
+          {
+            "tag": "p",
+            "text": "Director, Dr. Morepen"
+          },
+          {
+            "tag": "h3",
+            "text": "Ready to turn your idea into reality?"
+          },
+          {
+            "tag": "h2",
+            "text": "Let's Connect !"
+          },
+          {
+            "tag": "p",
+            "text": "Bengaluru, India"
+          },
+          {
+            "tag": "p",
+            "text": "+91 - 7251027270"
+          },
+          {
+            "tag": "p",
+            "text": "Delaware, United States"
+          },
+          {
+            "tag": "p",
+            "text": "+1 - (302) 608-0009"
+          },
+          {
+            "tag": "h6",
+            "text": "Expertise"
+          },
+          {
+            "tag": "h6",
+            "text": "Industries"
+          },
+          {
+            "tag": "p",
+            "text": "Copyright © 2026 Ailoitte. All rights reserved."
+          },
+          {
+            "tag": "p",
+            "text": "Copyright © 2026 Ailoitte. All rights reserved."
+          },
+          {
+            "tag": "h3",
+            "text": "Build AI-Powered, Secure, and Scalable Apps"
+          },
+          {
+            "tag": "p",
+            "text": "You have a Vision, we are here to help you Achieve it!"
+          },
+          {
+            "tag": "p",
+            "text": "It is fair to say that we did not just find a development company - we found a team, and that feeling is quite unique for us. The experience we have with Ailoitte is on a whole new level."
+          },
+          {
+            "tag": "h4",
+            "text": "Lars"
+          },
+          {
+            "tag": "p",
+            "text": "Founder & CEO, Mana"
+          },
+          {
+            "tag": "p",
+            "text": "The team was professional, client-friendly, delivery-focused, and highly competent."
+          },
+          {
+            "tag": "h4",
+            "text": "Ademola babalola"
+          },
+          {
+            "tag": "p",
+            "text": "Head of Product, Gaspay"
+          },
+          {
+            "tag": "p",
+            "text": "Ailoitte understood our requirements immediately and built the team we wanted. On time and budget. Highly recommend working with them for a fruitful collaboration."
+          },
+          {
+            "tag": "h4",
+            "text": "Priyank Mehta"
+          },
+          {
+            "tag": "p",
+            "text": "Head of product, Apna"
+          },
+          {
+            "tag": "p",
+            "text": "Ailoitte expertly analyzed every user journey and resolved technical gaps, bringing our app’s vision to life. Their commitment to quality and attention to detail truly set them apart."
+          },
+          {
+            "tag": "h4",
+            "text": "Jitendra Dhaka"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Banksathi"
+          },
+          {
+            "tag": "p",
+            "text": "Working with Ailoitte was a game-changer for us. They truly understood our vision of putting ‘Health in Your Hands’ and brought it to life through a beautifully designed, intuitive app."
+          },
+          {
+            "tag": "h4",
+            "text": "Saurabh Arora"
+          },
+          {
+            "tag": "p",
+            "text": "Director of product"
+          },
+          {
+            "tag": "h5",
+            "text": "TRUSTED BY GLOBAL BRANDS AND INDUSTRY LEADERS"
+          },
+          {
+            "tag": "h3",
+            "text": "Start Your Project Discussion"
+          },
+          {
+            "tag": "h4",
+            "text": "Response guaranteed within 12 hours."
+          },
+          {
+            "tag": "p",
+            "text": "Your idea is 100% protected by our Non-Disclosure Agreement."
+          },
+          {
+            "tag": "h3",
+            "text": "Build AI-Powered, Secure, and Scalable Apps"
+          },
+          {
+            "tag": "p",
+            "text": "You have a Vision, we are here to help you Achieve it!"
+          },
+          {
+            "tag": "p",
+            "text": "Ailoitte understood our requirements immediately and built the team we wanted. On time and budget. Highly recommend working with them for a fruitful collaboration."
+          },
+          {
+            "tag": "h4",
+            "text": "Priyank Mehta"
+          },
+          {
+            "tag": "p",
+            "text": "Head of product, Apna"
+          },
+          {
+            "tag": "p",
+            "text": "Ailoitte expertly analyzed every user journey and resolved technical gaps, bringing our app’s vision to life. Their commitment to quality and attention to detail truly set them apart."
+          },
+          {
+            "tag": "h4",
+            "text": "Jitendra Dhaka"
+          },
+          {
+            "tag": "p",
+            "text": "CEO, Banksathi"
+          },
+          {
+            "tag": "p",
+            "text": "Working with Ailoitte was a game-changer for us. They truly understood our vision of putting ‘Health in Your Hands’ and brought it to life through a beautifully designed, intuitive app."
+          },
+          {
+            "tag": "h4",
+            "text": "Saurabh Arora"
+          },
+          {
+            "tag": "p",
+            "text": "Director of product"
+          },
+          {
+            "tag": "p",
+            "text": "It is fair to say that we did not just find a development company - we found a team, and that feeling is quite unique for us. The experience we have with Ailoitte is on a whole new level."
+          },
+          {
+            "tag": "h4",
+            "text": "Lars"
+          },
+          {
+            "tag": "p",
+            "text": "Founder & CEO, Mana"
+          },
+          {
+            "tag": "p",
+            "text": "The team was professional, client-friendly, delivery-focused, and highly competent."
+          },
+          {
+            "tag": "h4",
+            "text": "Ademola babalola"
+          },
+          {
+            "tag": "p",
+            "text": "Head of Product, Gaspay"
+          },
+          {
+            "tag": "h5",
+            "text": "TRUSTED BY GLOBAL BRANDS AND INDUSTRY LEADERS"
+          },
+          {
+            "tag": "h3",
+            "text": "Start Your Project Discussion"
+          },
+          {
+            "tag": "h4",
+            "text": "Response guaranteed within 12 hours."
+          },
+          {
+            "tag": "p",
+            "text": "Your idea is 100% protected by our Non-Disclosure Agreement."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 182,
+          "headings": 109,
+          "images": 267
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-292D8C81",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2062C2AB",
+      "path": "/our-team-and-process/",
+      "type": "Detected Link",
+      "anchor_text": "Meet Our Development Solution – Clarity",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-04D39A6E",
+      "path": "/awards-and-recognition/",
+      "type": "Detected Link",
+      "anchor_text": "Awards &#038; Recognition",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5B07ECE4",
+      "path": "/career/",
+      "type": "Detected Link",
+      "anchor_text": "Career",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9DD9D90B",
+      "path": "/services/",
+      "type": "Detected Link",
+      "anchor_text": "Services",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-76E9E5C6",
+      "path": "/discovery-for-success/",
+      "type": "Detected Link",
+      "anchor_text": "Product Research &#038; Discovery",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89AACF58",
+      "path": "/ai-strategic-discovery/",
+      "type": "Detected Link",
+      "anchor_text": "AI Strategy Workshop",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CF6AB4C5",
+      "path": "/services/ui-ux-design/",
+      "type": "Detected Link",
+      "anchor_text": "Product Design",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-62A9717C",
+      "path": "/services/mobile-app-development/",
+      "type": "Detected Link",
+      "anchor_text": "Mobile App Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C52594B",
+      "path": "/services/web-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "Web App Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B5F4D220",
+      "path": "/services/iphone-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "iPhone Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8E18853B",
+      "path": "/services/android-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "Android Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3434CD67",
+      "path": "/services/hybrid-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "Cross-platform App Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EDC472CE",
+      "path": "/services/flutter-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "Flutter Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2AA04D41",
+      "path": "/services/react-native-application-development/",
+      "type": "Detected Link",
+      "anchor_text": "React Native Development",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

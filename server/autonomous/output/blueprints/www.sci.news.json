@@ -1,0 +1,720 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C7435808",
+  "generated_at": "2026-01-21T07:27:04.937Z",
+  "global_configuration": {
+    "brand_name": "Sci.News: Breaking Science News",
+    "domain": "www.sci.news",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "66.113.235.94",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=325, public",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 55,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1324679756257774"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/jquery.flexslider-min.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/jquery.flexslider-min.js"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/jquery.tinyscrollbar.min.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/jquery.tinyscrollbar.min.js"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/bjqs-1.3.min.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/bjqs-1.3.min.js"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/ddsmoothmenu1.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/ddsmoothmenu1.js"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/ddsmoothmenu2.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/ddsmoothmenu2.js"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/js/js.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/js/js.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-VPGELJLDNE"
+      },
+      {
+        "path": "/assets/pub/shareaholic.js",
+        "type": "script",
+        "full_url": "https://cdn.shareaholic.net/assets/pub/shareaholic.js"
+      },
+      {
+        "path": "/wp-content/plugins/disqus-comment-system/public/js/comment_count.js",
+        "type": "script",
+        "full_url": "https://cdn.sci.news/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.1.1"
+      },
+      {
+        "path": "/wp-content/themes/internationalpost-singlepro/responsive.css",
+        "type": "stylesheet",
+        "full_url": "https://cdn.sci.news/wp-content/themes/internationalpost-singlepro/responsive.css"
+      },
+      {
+        "path": "/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      },
+      {
+        "path": "/images/2013/02/banner_site.png",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2013/02/banner_site.png"
+      },
+      {
+        "path": "/images/2026/01/image_14498f-Helix-Nebula-710x401.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14498f-Helix-Nebula-710x401.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14492f-Cattle-Tool-Use-710x401.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14492f-Cattle-Tool-Use-710x401.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14485f-Homo-habilis-710x401.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14485f-Homo-habilis-710x401.jpg"
+      },
+      {
+        "path": "/images/2020/08/image_8745f-Woolly-Rhinoceros.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2020/08/image_8745f-Woolly-Rhinoceros.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14477f-Xenovenator-espinosai-710x401.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14477f-Xenovenator-espinosai-710x401.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14468f-Homo-erectus-710x401.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14468f-Homo-erectus-710x401.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14498f-Helix-Nebula-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14498f-Helix-Nebula-80x50.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14492f-Cattle-Tool-Use-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14492f-Cattle-Tool-Use-80x50.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14485f-Homo-habilis-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14485f-Homo-habilis-80x50.jpg"
+      },
+      {
+        "path": "/images/2020/08/image_8745f-Woolly-Rhinoceros-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2020/08/image_8745f-Woolly-Rhinoceros-80x50.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14477f-Xenovenator-espinosai-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14477f-Xenovenator-espinosai-80x50.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14468f-Homo-erectus-80x50.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14468f-Homo-erectus-80x50.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14498f-Helix-Nebula-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14498f-Helix-Nebula-430x210.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14495-Debris-Disks-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14495-Debris-Disks-74x58.jpg"
+      },
+      {
+        "path": "/images/2018/03/image_5795f-Jupiter-North-Pole-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2018/03/image_5795f-Jupiter-North-Pole-74x58.jpg"
+      },
+      {
+        "path": "/images/2016/11/image_4386f-Europa-Ocean-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2016/11/image_4386f-Europa-Ocean-430x210.jpg"
+      },
+      {
+        "path": "/images/2017/08/image_5141-Cryogenian-Earth-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2017/08/image_5141-Cryogenian-Earth-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14482-Leang-Bulu-Bettue-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14482-Leang-Bulu-Bettue-430x210.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14470-Backed-Microlith-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14470-Backed-Microlith-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14468f-Homo-erectus-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14468f-Homo-erectus-74x58.jpg"
+      },
+      {
+        "path": "/images/2022/03/image_10590f-Tyrannosaurus-rex-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2022/03/image_10590f-Tyrannosaurus-rex-430x210.jpg"
+      },
+      {
+        "path": "/images/2020/08/image_8745f-Woolly-Rhinoceros-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2020/08/image_8745f-Woolly-Rhinoceros-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14477f-Xenovenator-espinosai-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14477f-Xenovenator-espinosai-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14492f-Cattle-Tool-Use-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14492f-Cattle-Tool-Use-430x210.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14481-Bothragonus-swanii-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14481-Bothragonus-swanii-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14479-International-Space-Station-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14479-International-Space-Station-74x58.jpg"
+      },
+      {
+        "path": "/images/2022/07/image_10987-Dark-Photons-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2022/07/image_10987-Dark-Photons-430x210.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14490-MASI-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14490-MASI-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14489-Graviton-Detector-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14489-Graviton-Detector-74x58.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14461-Gut-Microbiota-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14461-Gut-Microbiota-430x210.jpg"
+      },
+      {
+        "path": "/images/2025/12/image_14455-Alzheimers-NAD-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/12/image_14455-Alzheimers-NAD-74x58.jpg"
+      },
+      {
+        "path": "/images/2025/12/image_14447-Antibiotic-Resistance-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/12/image_14447-Antibiotic-Resistance-74x58.jpg"
+      },
+      {
+        "path": "/images/2020/08/image_8745f-Woolly-Rhinoceros-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2020/08/image_8745f-Woolly-Rhinoceros-430x210.jpg"
+      },
+      {
+        "path": "/images/2025/04/image_13819f-Denisovan-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/04/image_13819f-Denisovan-74x58.jpg"
+      },
+      {
+        "path": "/images/2025/12/image_14442-Beachy-Head-Woman-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/12/image_14442-Beachy-Head-Woman-74x58.jpg"
+      },
+      {
+        "path": "/images/2025/12/image_14440-Mesoproterozoic-Air-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/12/image_14440-Mesoproterozoic-Air-430x210.jpg"
+      },
+      {
+        "path": "/images/2025/11/image_14372-Early-Earth-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/11/image_14372-Early-Earth-74x58.jpg"
+      },
+      {
+        "path": "/images/2025/11/image_14351f-Jinlin-Crater-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2025/11/image_14351f-Jinlin-Crater-74x58.jpg"
+      },
+      {
+        "path": "/images/2017/08/image_5141-Cryogenian-Earth-430x210.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2017/08/image_5141-Cryogenian-Earth-430x210.jpg"
+      },
+      {
+        "path": "/images/2026/01/image_14485f-Homo-habilis-74x58.jpg",
+        "type": "image",
+        "full_url": "https://cdn.sci.news/images/2026/01/image_14485f-Homo-habilis-74x58.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Sci.News: Breaking Science News",
+        "description": "Science news from Sci.News: astronomy, archaeology, paleontology, health, physics, space exploration and other topics.",
+        "canonical": "https://www.sci.news"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2996ms"
+        },
+        {
+          "resource": "adsbygoogle.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Webb Peers Deep into Iconic Helix Nebula",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Researchers Observe Tool Use in Cattle for the First Time",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "2-Million-Year-Old Skeleton Offers Clearest Look Yet at Homo habilis",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Webb Peers Deep into Iconic Helix Nebula"
+          },
+          {
+            "tag": "h2",
+            "text": "Researchers Observe Tool Use in Cattle for the First Time"
+          },
+          {
+            "tag": "h2",
+            "text": "2-Million-Year-Old Skeleton Offers Clearest Look Yet at Homo habilis"
+          },
+          {
+            "tag": "h2",
+            "text": "14,400-Year-Old Woolly Rhinoceros Genome Shows No Evidence of Recent Inbreeding"
+          },
+          {
+            "tag": "h2",
+            "text": "Thick-Skulled Troodontid Dinosaur Unearthed in Mexico"
+          },
+          {
+            "tag": "h2",
+            "text": "773,000-Year-Old Hominin Fossils from Morocco Offer New Clues to Roots of Homo sapiens"
+          },
+          {
+            "tag": "h3",
+            "text": "Latest News"
+          },
+          {
+            "tag": "h2",
+            "text": "Astronomy"
+          },
+          {
+            "tag": "h3",
+            "text": "Webb Peers Deep into Iconic Helix Nebula"
+          },
+          {
+            "tag": "p",
+            "text": "The new infrared image from the NASA/ESA/CSA James Webb Space Telescope reveals the complex structure of gas and dust shed by a white dwarf in the center of the Helix Nebula. This Webb image shows a portion of the Helix Nebula. Image credit: NASA / ESA / CSA / STScI / A. Pagan, STScI. The Helix Nebula is a planetary nebula located approximately 655 light-years away in the constellation of Aquarius. First..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Space Exploration"
+          },
+          {
+            "tag": "h3",
+            "text": "New Model Suggests How Nutrients Could Penetrate Europa’s Ice Shell to Feed Its Hidden Ocean"
+          },
+          {
+            "tag": "p",
+            "text": "A duo of geophysicists from Washington State University and Virginia Tech has uncovered a plausible pathway for nutrient transfer from the radiation-charged surface into the subsurface ocean of Jupiter’s icy moon Europa. Artist’s concept of ocean on Jupiter’s moon Europa. Image credit: NASA / JPL-Caltech. Europa contains more liquid water than all of Earth’s oceans combined, but its global..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Archaeology"
+          },
+          {
+            "tag": "h3",
+            "text": "Enigmatic Hominins May Have Overlapped with Homo sapiens on Sulawesi"
+          },
+          {
+            "tag": "p",
+            "text": "At Leang Bulu Bettue, a rock-shelter in the Maros-Pangkep karst region on the Indonesian island of Sulawesi, paleoanthropologists have uncovered one of the most complete records of early human occupation ever found in Wallacea &#8212; a key crossroads between Asia and Australia. Their discovery sheds new light on how early Homo sapiens lived, adapted and possibly encountered archaic hominin species..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Paleontology"
+          },
+          {
+            "tag": "h3",
+            "text": "Tyrannosaurus rex Took Nearly Four Decades to Grow Up, New Research Shows"
+          },
+          {
+            "tag": "p",
+            "text": "A comprehensive analysis of 17 fossil specimens reveals that Tyrannosaurus rex grew far more slowly than previously thought &#8212; reaching its full-grown size of eight tons around age 40 &#8212; and challenges earlier assumptions about its life history. Tyrannosaurus rex holotype specimen at the Carnegie Museum of Natural History, Pittsburgh, the United States. Image credit: Scott Robert Anselmo..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Biology"
+          },
+          {
+            "tag": "h3",
+            "text": "Researchers Observe Tool Use in Cattle for the First Time"
+          },
+          {
+            "tag": "p",
+            "text": "In a paper published today in the journal Current Biology, researchers at the University of Veterinary Medicine, Vienna, report the first experimental evidence that a cow (Bos taurus) can use a single object as a multipurpose tool, selecting different parts of it depending on the task at hand. The subject of the study, a pet Swiss Brown cow named Veronika, learned to manipulate a deck scrub broom..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Physics"
+          },
+          {
+            "tag": "h3",
+            "text": "Physicists Challenge Long-Held Assumptions about Nature of Dark Matter"
+          },
+          {
+            "tag": "p",
+            "text": "Dark matter may not have been ‘cold’ in the earliest moments after the Big Bang, as long believed; instead, new research from the University of Minnesota Twin Cities and the Universit’e Paris-Saclay suggests dark matter particles could have been incredibly hot, traveling near the speed of light in the primordial cosmos, before cooling down in time to seed the formation of galaxies and large-scale..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Medicine"
+          },
+          {
+            "tag": "h3",
+            "text": "Gut Microbes Played Role in Evolution of Human Brain, New Study Suggests"
+          },
+          {
+            "tag": "p",
+            "text": "Compared to other primates, humans have remarkably large brains relative to their body sizes. The resultant high demands for glucose may have been supported by changes in the gut microbiota, which can influence host metabolism. In this study, we tested this idea by inoculating germ-free mice with gut microbes from three primate species varying in brain size. Brain gene expression differences between..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Genetics"
+          },
+          {
+            "tag": "h3",
+            "text": "14,400-Year-Old Woolly Rhinoceros Genome Shows No Evidence of Recent Inbreeding"
+          },
+          {
+            "tag": "p",
+            "text": "The woolly rhinoceros (Coelodonta antiquitatis) is a cold-adapted herbivore that went extinct around 14,000 years ago, but little is known about their population decline prior to extinction. In new research, scientists from the Centre for Palaeogenetics and Stockholm University generated a high-coverage genome from one of the last known woolly rhinoceros remains, which was recovered from the stomach..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Geology"
+          },
+          {
+            "tag": "h3",
+            "text": "Scientists Find Ancient Air Bubbles in 1.4 Billion-Year-Old Salt Crystals"
+          },
+          {
+            "tag": "p",
+            "text": "Researchers have found ancient gases and fluids trapped in 1.4-billion-year-old halite crystals from northern Ontario, Canada. Their analyses directly constrain Mesoproterozoic (1.8 to 0.8 billion years ago) oxygen and carbon dioxide concentrations to 3.7% modern levels and 10 times preindustrial levels, respectively. The results show this was a period of equable climate and that atmospheric oxygen..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          },
+          {
+            "tag": "h2",
+            "text": "Other Sciences"
+          },
+          {
+            "tag": "h3",
+            "text": "Tectonic Plate Movements, Not Volcanoes, Drove Major Climate Shifts Over 540 Million Years"
+          },
+          {
+            "tag": "p",
+            "text": "New research challenges conventional wisdom by demonstrating that mid-ocean ridges and continental rifts, not volcanic eruptions, played the central role in atmospheric carbon swings and long-term climate shifts throughout Earth’s geological past. Cryogenian Earth. Image credit: NASA. Earth’s climate has swung between extreme states several times over the past 540 million years, shifting from..."
+          },
+          {
+            "tag": "h3",
+            "text": "View more"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 10,
+          "headings": 37,
+          "images": 43
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-C5020D8D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-53947C1F",
+      "path": "/about-us",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BE0309DD",
+      "path": "/archive",
+      "type": "Detected Link",
+      "anchor_text": "News Archive",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BBD0CE86",
+      "path": "/copyright",
+      "type": "Detected Link",
+      "anchor_text": "Copyright",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C06734F1",
+      "path": "/privacy-policy",
+      "type": "Detected Link",
+      "anchor_text": "Privacy Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E43DB1F7",
+      "path": "/contact",
+      "type": "Detected Link",
+      "anchor_text": "Contact Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1326F00B",
+      "path": "/feed",
+      "type": "Detected Link",
+      "anchor_text": "RSS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-79BEA857",
+      "path": "/astronomy/webb-helix-nebula-14498.html",
+      "type": "Detected Link",
+      "anchor_text": "Webb Peers Deep into Iconic Helix Nebula",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E31E5B23",
+      "path": "/biology/cattle-tool-use-14492.html",
+      "type": "Detected Link",
+      "anchor_text": "Researchers Observe Tool Use in Cattle for the First Time",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F0D2A05D",
+      "path": "/othersciences/anthropology/homo-habilis-skeleton-14485.html",
+      "type": "Detected Link",
+      "anchor_text": "2-Million-Year-Old Skeleton Offers Clearest Look Yet at Homo habilis",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E9D3A55",
+      "path": "/genetics/woolly-rhinoceros-genome-14484.html",
+      "type": "Detected Link",
+      "anchor_text": "14,400-Year-Old Woolly Rhinoceros Genome Shows No Evidence of Recent Inbreeding",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-69F962B9",
+      "path": "/paleontology/xenovenator-espinosai-14477.html",
+      "type": "Detected Link",
+      "anchor_text": "Thick-Skulled Troodontid Dinosaur Unearthed in Mexico",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9B1442CB",
+      "path": "/archaeology/hominin-fossils-morocco-14468.html",
+      "type": "Detected Link",
+      "anchor_text": "773,000-Year-Old Hominin Fossils from Morocco Offer New Clues to Roots of Homo sapiens",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E5B591A0",
+      "path": "/biology/beni-greenlet-hylophilus-moxensis-14464.html",
+      "type": "Detected Link",
+      "anchor_text": "New Songbird Species Discovered in Bolivia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-092A20E9",
+      "path": "/news/astronomy",
+      "type": "Detected Link",
+      "anchor_text": "Astronomy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

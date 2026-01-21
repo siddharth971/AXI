@@ -1,0 +1,1127 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C17953D5",
+  "generated_at": "2026-01-21T07:27:04.985Z",
+  "global_configuration": {
+    "brand_name": "National University I Earn Your Degree Online",
+    "domain": "www.nu.edu",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.64.146.31",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=14400",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 86,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJydzDEOwjAMheELYaxIUMqAOEuaNpWDcarEVq9PhoqpZWD8pfc+XBcIWXQSxYVtJqlILYt4BjVSygLBczD2mgsORjz+WkA0ZoylmedUT7jjH7J/aWLTaDBwDq+6OS3m7+n5frhb11/u18659AHYvlrZ"
+      },
+      {
+        "path": "/wp-content/plugins/nuedu-blocks/build/cards-horizontal-scroll/front.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/cards-horizontal-scroll/front.js?ver=668f956da65193e49cab"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJylz9sKwjAMgOEXMoaBTr0QnyXrYsnWNqUHxbe3ThC8c3iXBP4PgvcIRkPhUDC6aiVkDJXHCoNTM2ccqrgRDSXmBFqLU53xmlqynfIGf8vZR6cPZoic2vFrBSnsV4ttpiIaICa1iXwGJ7msZl4AWYZAN7ELuJpY+izjf8j7C6ACBNZRMPwxLv7cHfrj7rTvu256AkOFoxM="
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/react.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/react-jsx-runtime.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?m=1765909318g"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1765909319j"
+      },
+      {
+        "path": "/wp-includes/js/dist/api-fetch.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/api-fetch.min.js?ver=d387b816bc1ed2042e28"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/react-dom.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
+      },
+      {
+        "path": "/wp-includes/js/dist/dom-ready.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/dom-ready.min.js?m=1765909319g"
+      },
+      {
+        "path": "/wp-includes/js/dist/a11y.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJx9zEEOhCAQBdELia0xMxMWxrMQ+AmQbkQb4/VduZuwrpeiu5pUPF8BSlkpJG0UUE941xBGSWXMOtBftku3Q72rMLEJ9x1DUFrXJDUaHfN+GxyXe4ebrPPv+7GTXWabH12iSfU="
+      },
+      {
+        "path": "/wp-includes/js/dist/keycodes.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??/wp-includes/js/dist/priority-queue.min.js,/wp-includes/js/dist/compose.min.js?m=1765909319j"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/moment.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"
+      },
+      {
+        "path": "/wp-includes/js/dist/date.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/date.min.js?ver=aaca6387d1cf924acc51"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJyFykEOQDAQAMAPqdUI0oN4i+gmtmmr6W7xfA6OwpwHjqQoLr5YZHAMllhgleAVRiEh5DpQrB1X8DZTpnCv/b/ts6CaE33HjLacKm9FKOIzpzDqoe9MY1pt3AX5jkCB"
+      },
+      {
+        "path": "/wp-includes/js/dist/data.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/data.min.js?ver=7c62e39de0308c73d50c"
+      },
+      {
+        "path": "/wp-includes/js/dist/rich-text.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/rich-text.min.js?ver=4021b9e4e9ef4d3cd868"
+      },
+      {
+        "path": "/wp-includes/js/dist/warning.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/warning.min.js?m=1765909319g"
+      },
+      {
+        "path": "/wp-includes/js/dist/components.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/components.min.js?ver=fe486283a957ca5ed7c6"
+      },
+      {
+        "path": "/wp-content/plugins/nuedu-blocks/build/program-finder/front.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/program-finder/front.js?ver=4872f55e48406584f876"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJylztsNgzAMQNGF6loRFOhHxSxADAoYO8qDrg/8MAAMcI8u/j0MKokkoec8OYkomWyGnnVYIvbZsUUfdArdCqMTSwGSKuMYju49xxfeMlQI2Ak9dc4X2IqLadefqaum/H4qY+YdeSdTNA=="
+      },
+      {
+        "path": "/wp-content/plugins/nuedu-blocks/build/program-tabs/front.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/program-tabs/front.js?ver=07eea2d2f1fec6b9d44b"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJyVzk0OgjAQBeALWSYGg7ownqW0Awy0ndofDZ7eLjAhbJRkktl87+XBywvFLqFL4E3uyUVwGXUWrWE1RWgzGQ3RkMYAXSi0GuMB/oypgY0McSAf94c9KpKG3jIRO9EyT1aGaXdPkq1Bwd3XbpaQUyZrjDCWe2QM8/IqS+4nEpb6IBOu8XZTAU9Kc8fBrgqKZrfE7vZ2PDeX07Wp63r8ADtCmJo="
+      },
+      {
+        "path": "/wp-content/plugins/gravityforms/js/gravityforms.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.24.2"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJydzFsOQDAQQNENYULE40MsRZqqZpp22phB7J6IBYj/ey4cKdeRxJBA8ptFYrCr2lHOJa6BwTEkZc10RzMKRlJ+8tGiLgJS4TiDD4f/WDEbeR4zssAm6PnFYxjKtunqqu/a3l3VGkwm"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/embeddedservice/5.0/esw.min.js",
+        "type": "script",
+        "full_url": "https://service.force.com/embeddedservice/5.0/esw.min.js"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJytk+tOwzAMhV8IN5oEA34gniVNvDZdLsVOdnt6vLbTEFo3GPyLIn/H9smJ2vZgUswYs+p9aVxkFQswajKt0syYWXVf7sBS6m3axqrjB3WBblYQC4PFhhBVXZy3qpCH4YQ0hx0btJrQToj0bGxPUOsYr1FoC9Q+mTVP4DQzG3J9vs6ZRAirEk12KWrv8v7c3LQ612k3JzBcCT20BoytjgaDVJzGwJ3UW+UdZ1nde8zggm6kHw1S9q/KJm2QIKTaefxnaa8Pe/BJWxebm6JRj+5BiU4mYnERCLXJIMVj0aQ+BqgKbj47pDfCrxKFIXXdR0HaV0HzGmWYvuTf0L3XBtt0TB1XJ6kf4ufkW3lBtREDEkFuxa57NcZE8m0R+QryiUzhnII7DPaec1mKm3+Ka+C4wl3o8T9Pm8Gw2neVYaXLUWhTrm8N8WNcHMzOaH+3wOh9x+/hbfG8fHl8fVouFt0nRQvpEg=="
+      },
+      {
+        "path": "/e-202604.js",
+        "type": "script",
+        "full_url": "https://stats.wp.com/e-202604.js"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJx1z9sKwjAMgOEXMisVnXohPksP2chs09G0jvn0djDwRq9KIP8XqpYZXOKCXNQc6kgsiiv6CjYk9xRlRLCIkoVmzPsDtrIPCC+tu2PXd5G4m+SgfljjAFwFPI4ZUdlKwTd/n2EgDP5f2tZa7aqUFOltCiXegUlUpEDF5BWG3LL/xPYTl3I7VdlthGnd+nWMcyhCFkFcpnmTHvGuL/31dDv3Wk8fJClq+w=="
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Image-1-1.avif",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Image-1-1.avif"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Badges-2.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Badges-2.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Badges-3.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Badges-3.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/GRADWALK_October2024_Photos-09263-1-1.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/GRADWALK_October2024_Photos-09263-1-1.jpg?resize=350%2C200"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/GRADWALK_October2024_Photos-09263-1-3.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/GRADWALK_October2024_Photos-09263-1-3.jpg?resize=313%2C294"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-39.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-39.jpg?resize=313%2C294"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-2.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-2.jpg?resize=313%2C294"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-11.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-11.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-12.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-12.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-13.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-13.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/tample.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/tample.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9176.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9176.jpg?resize=360%2C360"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Academic_Filled-1.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Academic_Filled-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Financial_Filled-1.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Financial_Filled-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Career_Filled-1.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Career_Filled-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Wellness_Filled-1.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Wellness_Filled-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Family-Community_FIlled-1.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Family-Community_FIlled-1.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-4.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-4.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-5.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-5.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-6.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-6.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-21.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-21.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-20.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-20.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-19.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-19.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-18.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-18.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-17.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-17.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-16.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-16.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-15.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-15.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-14.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-14.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-13.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-13.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-12.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-12.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-11.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-11.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/image-9180-10.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/image-9180-10.jpg?resize=402%2C434"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/thumbs-up-grad.avif",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/thumbs-up-grad.avif"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-15.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-15.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-7.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-7.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Frame-1984077622-16.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Frame-1984077622-16.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Image-2-1.avif",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Image-2-1.avif"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Image-Header-12.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Image-Header-12.jpg?resize=270%2C244"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/quotation-mark.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/quotation-mark.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Image-Header-7.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Image-Header-7.jpg?resize=300%2C332"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Image-Header-6.jpg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/Image-Header-6.jpg?resize=270%2C244"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/ANDersMovement-NU-SHOOT3103_Extended-1.avif",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/ANDersMovement-NU-SHOOT3103_Extended-1.avif"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/03_Tanith-Chair_0073-1.avif",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/12/03_Tanith-Chair_0073-1.avif?w=761"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/Group-10.png",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/06/Group-10.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/Group-20.png",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/uploads/2025/06/Group-20.png"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-facebook.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-facebook.svg"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-X.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-X.svg"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-instagram.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-instagram.svg"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-linkedin.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-linkedin.svg"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-youtube.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-youtube.svg"
+      },
+      {
+        "path": "/wp-content/themes/national-university-hotb/img/icons/icon-circle-tiktok.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/themes/national-university-hotb/img/icons/icon-circle-tiktok.svg"
+      },
+      {
+        "path": "/wp-content/plugins/nuedu-core-functionality/build/images/icon-chat.svg",
+        "type": "image",
+        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-core-functionality/build/images/icon-chat.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "National University I Earn Your Degree Online | Private College with Flexible, Accredited Programs",
+        "description": "National University is an accredited leader in over 190 flexible online bachelor&#039;s and graduate degree programs. Find your path &amp; apply today.",
+        "canonical": "https://www.nu.edu"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6613ms"
+        },
+        {
+          "resource": "_static",
+          "latency": "pending"
+        },
+        {
+          "resource": "front.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "_static",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Supporting the Whole You",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Degrees &amp; Programs Teaching &amp; Education Bachelor's Bachelor of Arts in Early Childhood Education (BAECE) Bachelor of Arts in Early Childhood Development with an Inspired Teaching and Learning Preliminary Multiple Subject Teaching Credential (California) Bachelor of Arts in English Bachelor of Arts in History View All Master's Master of Arts in Social Emotional Learning Master of Education in Inspired Teaching and Learning with a Preliminary Multiple or Single Subject Teaching Credential and Intern Option (California) Master of Arts in Education Master’s of Early Childhood Education Education Specialist View All Doctoral Doctor of Education Doctor of Philosophy in Education Doctor of Philosophy in Educational and Organizational Leadership Doctor of Education in Organizational Innovation and Leadership Education Specialist View All Certificate Certificate in Online Teaching (COT) Program Online Medical Coding Program Building Our Team Through Community Policing View All Credential Inspired Teaching and Learning with a Preliminary Single Subject Teaching Credential Inspired Teaching and Learning with a Preliminary Multiple Subject Teaching Credential and Internship Option (California) Preliminary Administrative Services Credential (CA Option) Preliminary Education Specialist Credential: Mild/Moderate with Internship Option (CA) View All All Teaching &amp; Education Business &amp; Marketing Associate Associate of Science in Business Bachelor's Bachelor of Business Administration Bachelor of Science in Healthcare Administration Bachelor of Arts in Management View All Master's Master of Business Administration (MBA) Master of Public Health (MPH) Master of Science in Data Science Master of Public Administration View All Doctoral Doctor of Criminal Justice Doctor of Philosophy in Organizational Leadership Doctor of Business Administration Doctor of Philosophy in Business Administration View All Certificate Post Baccalaureate Certificate in Business-Management of Virtual Organizations Post-Master’s Certificate in Business Certificate in Agile Project Management View All All Business &amp; Marketing Healthcare &amp; Nursing Bachelor's Bachelor of Science in Nursing (BSN) (California) Bachelor of Science in Nursing (BSN) Second Bachelor Degree (California) Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Healthcare Administration Bachelor of Science in Public Health View All Master's Master of Science in Nursing Master of Science in Health Informatics Master of Public Health (MPH) Master of Healthcare Administration View All Doctoral Doctor of Nurse Anesthesia Practice (DNAP) Doctor of Health Administration Doctor of Nursing Practice in Executive Leadership Certificate LVN to RN 30 Unit Option (California) Psychiatric Mental Health Nurse Practitioner Certificate Family Nurse Practitioner Certificate View All All Healthcare &amp; Nursing Social Sciences &amp; Psychology Bachelor's Bachelor of Arts in Psychology Bachelor of Arts in Integrative Psychology Bachelor of Science in Criminal Justice Administration Bachelor of Arts in Sociology View All Master's Master of Science in Applied Behavioral Analysis Degree Master of Arts Degree in Counseling Psychology Master of Arts in Consciousness, Psychology, and Transformation Master of Public Health (MPH) View All Doctoral Doctor of Clinical Psychology (PsyD) Program Doctor of Philosophy in Marriage and Family Therapy Doctor of Philosophy in Psychology Doctorate of Marriage and Family Therapy View All Certificate Post-Master's Certificate in Psychology View All All Social Sciences &amp; Psychology Engineering &amp; Technology Bachelor's Bachelor of Science in Cybersecurity Bachelor of Science in Electrical and Computer Engineering Bachelor of Science in Computer Science Bachelor of Science in Construction Management View All Master's Master of Science in Cybersecurity Master of Science in Data Science Master of Science in Computer Science Master of Science in Engineering Management View All Doctoral Doctor of Philosophy in Data Science Doctor of Philosophy in Computer Science Doctor of Philosophy in Technology Management Doctor of Philosophy in Cybersecurity View All All Engineering &amp; Technology Arts &amp; Humanities Associate Associate of Arts in General Education Bachelor's Bachelor of Arts in English Bachelor of Arts in Digital Media Design Bachelor of Arts in General Studies Bachelor of Arts in Sociology View All Master's Master of Arts in English Master of Arts in Strategic Communication All Arts &amp; Humanities Criminal Justice &amp; Public Service Certificate Graduate Certificate in Forensic and Crime Scene Investigations View All Bachelor's Bachelor of Public Administration Bachelor of Science in Criminal Justice Administration Bachelor of Science in Homeland Security and Emergency Management Minor in Business Law View All Master's Master of Public Administration Master of Criminal Justice Leadership Master of Forensic Sciences Master of Science in Homeland Security and Emergency Management View All Doctoral Doctor of Public Administration Doctor of Criminal Justice College of Law and Public Service All Criminal Justice &amp; Public Service Law Certificate Paralegal Specialist Certificate in Corporations Paralegal Specialist Certificate Criminal Law Paralegal Specialist Certificate Litigation Paralegal Specialist Certificate in Legal Technology and E-Discovery Associate Associate of Science in Paralegal Studies Bachelor’s Bachelor of Arts in Pre-Law Studies Bachelor of Science in Paralegal Studies JFK School of Law See the JFK School of Law Juris Doctor All Law Science &amp; Math Associate Associate of Science in Human Biology Associate of Science in General Education Bachelor's Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Biology Bachelor of Science in Mathematics Master's Master of Forensic Sciences Master of Science in Health Informatics Certificate Graduate Certificate in Forensic and Crime Scene Investigations All Science &amp; Math Program Finder Admissions &amp; Financing Admissions Information Admissions Undergraduate Admissions Graduate Program Admissions Military Admissions Credential Programs Certificate Programs Transfer Information Credit for Prior Learning Speak to an Advisor Financing School How to Pay for College Financial Aid Scholarships Tuition &amp; Fees NU offers a variety of scholarships to help students reduce their financial burden while focusing on achieving their goals. Explore Scholarships About NU Overview About NU Colleges/Schools University Leadership Office of the President Academies at NU Locations Course Catalog Accreditation Faculty Workforce and Community Education President’s Circle Board of Trustees NU foundation Blog NU Podcast Military Military &amp; Veterans Army Navy Air Force Marines Coast Guard Space Force National Guard &amp; Reservist Veteran Military Spouses &amp; Dependents Military Admissions Military Resources NU proudly serves active duty and Veteran students from all branches of the military — at home, on base, and abroad. Military Admissions Student Resources Prospective Students Admissions Financial Aid Online Degrees &amp; Programs Scholarships Transfer Information Catalog Apply Now Speak to an Advisor FAQ Consumer Information Current Students Student Login Graduation Graduation Events Student Portal Student Bookstore Student Resources Dissertation Boot Camp The Nest Alumni Alumni Giving Community Show your NU pride and shop our online store for the latest and greatest NU apparel and accessories! Shop Now Search for: Search Apply Now Request Info Search site Supporting the Whole You Balance Life While Earning Your Degree"
+          },
+          {
+            "tag": "h3",
+            "text": "Choose an Area of Study:"
+          },
+          {
+            "tag": "h3",
+            "text": "Choose a Degree Level:"
+          },
+          {
+            "tag": "h2",
+            "text": "About National University"
+          },
+          {
+            "tag": "p",
+            "text": "We’re proud to be a Veteran-founded, San Diego-based nonprofit. Since 1971, our mission has been to provide accessible, achievable, higher education to adult learners."
+          },
+          {
+            "tag": "p",
+            "text": "Today, we educate students from across the U.S. and around the globe, with over 250,000 alumni worldwide."
+          },
+          {
+            "tag": "p",
+            "text": "We customize education plans that include adaptive instruction, holistic student support, and competency-based credentialing. At NU, you’ll be better positioned to stay on track and accomplish your specific academic goals."
+          },
+          {
+            "tag": "p",
+            "text": "Affordable"
+          },
+          {
+            "tag": "p",
+            "text": "Academic Programs"
+          },
+          {
+            "tag": "p",
+            "text": "Flexible"
+          },
+          {
+            "tag": "p",
+            "text": "Online Courses"
+          },
+          {
+            "tag": "p",
+            "text": "Respected"
+          },
+          {
+            "tag": "p",
+            "text": "250K Alumni"
+          },
+          {
+            "tag": "p",
+            "text": "Accredited"
+          },
+          {
+            "tag": "p",
+            "text": "&amp; Veteran-Founded"
+          },
+          {
+            "tag": "h3",
+            "text": "50+ Years of Supporting Diverse, Nontraditional Learners"
+          },
+          {
+            "tag": "p",
+            "text": "$37 Million"
+          },
+          {
+            "tag": "p",
+            "text": "in Scholarships and Grants"
+          },
+          {
+            "tag": "p",
+            "text": "4- and 8-week"
+          },
+          {
+            "tag": "p",
+            "text": "Online &amp; Hybrid Courses with Year-round Enrollment"
+          },
+          {
+            "tag": "p",
+            "text": "150+ Degrees"
+          },
+          {
+            "tag": "p",
+            "text": "Associate to Doctorate"
+          },
+          {
+            "tag": "p",
+            "text": "WASC Accredited"
+          },
+          {
+            "tag": "p",
+            "text": "Trustworthy Institution"
+          },
+          {
+            "tag": "h2",
+            "text": "Why National University?"
+          },
+          {
+            "tag": "p",
+            "text": "National University offers a holistic approach to student support, well-being, and success, called “ Whole Human Education ™.” It means we’ll be with you side-by-side, every step of the way, helping break any barriers you face in achieving your education."
+          },
+          {
+            "tag": "p",
+            "text": "ACADEMIC SUPPORT"
+          },
+          {
+            "tag": "p",
+            "text": "FINANCIAL SUPPORT"
+          },
+          {
+            "tag": "p",
+            "text": "CAREER SUPPORT"
+          },
+          {
+            "tag": "p",
+            "text": "WELLNESS SUPPORT"
+          },
+          {
+            "tag": "p",
+            "text": "COMMUNITY SUPPORT"
+          },
+          {
+            "tag": "p",
+            "text": "80+ master’s and doctoral programs"
+          },
+          {
+            "tag": "p",
+            "text": "Free tutoring, mentoring, and personalized support"
+          },
+          {
+            "tag": "p",
+            "text": "Credit for work experience"
+          },
+          {
+            "tag": "p",
+            "text": "$37 million in scholarships awarded last year"
+          },
+          {
+            "tag": "p",
+            "text": "1:1 financial aid process assistance"
+          },
+          {
+            "tag": "p",
+            "text": "Generous transfer credit policy"
+          },
+          {
+            "tag": "p",
+            "text": "Career-focused programs"
+          },
+          {
+            "tag": "p",
+            "text": "1:1 coaching, workshops, job fairs, and career resources"
+          },
+          {
+            "tag": "p",
+            "text": "NU Mentoring Network for students and alumni"
+          },
+          {
+            "tag": "p",
+            "text": "24/7 on-demand wellness services"
+          },
+          {
+            "tag": "p",
+            "text": "Flexible online courses for work-life balance"
+          },
+          {
+            "tag": "p",
+            "text": "1:1 support for life challenges"
+          },
+          {
+            "tag": "p",
+            "text": "Web-based student networking platform"
+          },
+          {
+            "tag": "p",
+            "text": "Student clubs and community service events"
+          },
+          {
+            "tag": "p",
+            "text": "Peer-to-peer support network"
+          },
+          {
+            "tag": "h2",
+            "text": "Scholarship Opportunities"
+          },
+          {
+            "tag": "p",
+            "text": "Are financial concerns holding you back from starting your higher education journey? We offer a range of scholarships to make education accessible for everyone."
+          },
+          {
+            "tag": "p",
+            "text": "The Key Grant Scholarship"
+          },
+          {
+            "tag": "p",
+            "text": "Needs-based award up to $3,600 annually"
+          },
+          {
+            "tag": "p",
+            "text": "Associate Degree for Transfer Scholarship"
+          },
+          {
+            "tag": "p",
+            "text": "Save up to $10,000/year on transfer-friendly bachelor’s program"
+          },
+          {
+            "tag": "p",
+            "text": "Military Veterans, Spouses &amp; Dependents Scholarship"
+          },
+          {
+            "tag": "p",
+            "text": "25% tuition discount for eligible veterans and family"
+          },
+          {
+            "tag": "h2",
+            "text": "Hear From NU Students and Alums"
+          },
+          {
+            "tag": "p",
+            "text": "Veteran Support"
+          },
+          {
+            "tag": "p",
+            "text": "From the military team to the faculty, they’re 100% willing and able to support you through your program."
+          },
+          {
+            "tag": "p",
+            "text": "Ted E. Class of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Balancing Life and School"
+          },
+          {
+            "tag": "p",
+            "text": "It was important for me to find a school that matched my busy life as a non-traditional student."
+          },
+          {
+            "tag": "p",
+            "text": "Asya W. Class of 2009"
+          },
+          {
+            "tag": "p",
+            "text": "Support Every Step of the Way"
+          },
+          {
+            "tag": "p",
+            "text": "My education from National University has set me up for success to be the entrepreneur that I aspire to be."
+          },
+          {
+            "tag": "p",
+            "text": "Rico M. Class of 2013"
+          },
+          {
+            "tag": "h3",
+            "text": "Live Your Life AND Earn Your Degree"
+          },
+          {
+            "tag": "p",
+            "text": "Through Whole Human Education™, we’re empowering learners to balance work AND family AND school . Our ANDers Movement supports and champions students who are doing it all and striving for more, helping them earn their degrees and move confidently forward in their careers."
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions (FAQs)"
+          },
+          {
+            "tag": "p",
+            "text": "Enrolling in a university is a big decision. Our dedicated admissions team is here to guide you through the admissions process and help you find the right program for you and your career goals. Learn more by visiting our admissions page ."
+          },
+          {
+            "tag": "p",
+            "text": "At National University, we know how far you’ve come and how hard you’ve worked for your community college credits, which is why we make the process of transferring as simple and streamlined as possible. NU has articulation agreements with more than 116 community colleges, so you can get the credit you deserve for previous coursework. Learn more by visiting our transfer information page."
+          },
+          {
+            "tag": "p",
+            "text": "National University accepts and reviews applications year round, so you can begin class any month of the year, depending if you’re studying online or the availability of course offerings at your chosen learning facility. Learn more by visiting our admissions page."
+          },
+          {
+            "tag": "p",
+            "text": "At National University, our financial aid team is ready to help you understand the cost of your education and secure the resources you need to pay for college."
+          },
+          {
+            "tag": "p",
+            "text": "As an NU student, you may be eligible for financial aid, including grants, loans, and scholarships, to help defer or delay tuition costs and related expenses. These resources will help you bridge the gap between your education and your financial resources. Learn more by visiting our financial aid and scholarships page ."
+          },
+          {
+            "tag": "p",
+            "text": "The best place to start is by talking to your Education Services Officer (ESO), who can direct you to the proper forms and application processes for Federal loans and qualifying for TA. A National University Enrollment Services representative can also provide information about your tuition assistance options. See Veteran&#8217;s Affairs &nbsp;and&nbsp; Financial Aid &nbsp;for additional information."
+          },
+          {
+            "tag": "p",
+            "text": "National University is proud to support student clubs and organizations. Joining a club is a great way to meet new people and enhance your leadership and teamwork skills, as well as gain a support network that could last far beyond graduation. Whether meetings are in person, online, or both, we have a place for you. Participating in a club could also help you expand your ePortfolio or earn an Effective Leadership Certificate."
+          },
+          {
+            "tag": "p",
+            "text": "From academic advising and career planning to tech support and mental health resources, NU offers personalized support every step of the way."
+          },
+          {
+            "tag": "h2",
+            "text": "Request for Information"
+          },
+          {
+            "tag": "p",
+            "text": "Take the first step in your National University Journey."
+          },
+          {
+            "tag": "h3",
+            "text": "Step 1 of 5"
+          },
+          {
+            "tag": "p",
+            "text": "By submitting this form, you agree that you have read, understood, and agree to the Terms &amp; Conditions , including receiving automated calls, text messages, and mail, both electronic and physical, for any purpose. I understand that such consent is not a condition of any service and that I may opt out at any time."
+          },
+          {
+            "tag": "p",
+            "text": "We’re sorry, this program is not currently offered in your state. To learn what programs are available in your state contact an enrollment advisor."
+          },
+          {
+            "tag": "p",
+            "text": "Please note that this program is not licensed in certain states. For more information, contact an enrollment advisor."
+          },
+          {
+            "tag": "p",
+            "text": "Contact an Advisor: (855) 355-6288"
+          },
+          {
+            "tag": "p",
+            "text": "Choose a Different Degree"
+          },
+          {
+            "tag": "h4",
+            "text": "Terms &#038; Conditions"
+          },
+          {
+            "tag": "p",
+            "text": "By checking this box as my electronic signature and submitting this form by clicking the Request Info button below, I provide my express written consent to representatives of National University and National University System affiliates (City University of Seattle, Northcentral University and National University Virtual High School) to contact me about educational opportunities, and to send phone calls, and/or SMS/Text Messages &#8211; using automated technology, including automatic dialing system and pre-recorded and artificial voice messages &#8211; to the phone numbers (including cellular) and e-mail address(es) I have provided. I confirm that the information provided on this form is accurate and complete. I also understand that certain degree programs may not be available in all states. Message and data rates may apply. Message frequency may vary. I understand that consent is not a condition to purchase any goods, services or property, and that I may withdraw my consent at any time by sending an email to [email&#160;protected] ."
+          },
+          {
+            "tag": "p",
+            "text": "I understand that if I am submitting my personal data from outside of the United States, I am consenting to the transfer of my personal data to, and its storage in, the United States, and I understand that my personal data will be subject to processing in accordance with U.S. laws, unless stated otherwise in our privacy policy. Please review our privacy policy for more details or contact us at [email&#160;protected] ."
+          },
+          {
+            "tag": "h4",
+            "text": "Terms &#038; Conditions"
+          },
+          {
+            "tag": "p",
+            "text": "By checking this box as my electronic signature and submitting this form by clicking the Request Info button below, I provide my express written consent to representatives of National University and National University System affiliates (City University of Seattle, Northcentral University and National University Virtual High School) to contact me about educational opportunities, and to send phone calls, and/or SMS/Text Messages &#8211; using automated technology, including automatic dialing system and pre-recorded and artificial voice messages &#8211; to the phone numbers (including cellular) and e-mail address(es) I have provided. I confirm that the information provided on this form is accurate and complete. I also understand that certain degree programs may not be available in all states. Message and data rates may apply. Message frequency may vary. I understand that consent is not a condition to purchase any goods, services or property, and that I may withdraw my consent at any time by sending an email to [email&#160;protected] ."
+          },
+          {
+            "tag": "p",
+            "text": "I understand that if I am submitting my personal data from outside of the United States, I am consenting to the transfer of my personal data to, and its storage in, the United States, and I understand that my personal data will be subject to processing in accordance with U.S. laws, unless stated otherwise in our privacy policy. Please review our privacy policy for more details or contact us at [email&#160;protected] ."
+          },
+          {
+            "tag": "h4",
+            "text": "Terms &#038; Conditions"
+          },
+          {
+            "tag": "p",
+            "text": "By checking this box as my electronic signature and submitting this form by clicking the Request Info button below, I provide my express written consent to representatives of National University and National University System affiliates (City University of Seattle, Northcentral University and National University Virtual High School) to contact me about educational opportunities, and to send phone calls, and/or SMS/Text Messages &#8211; using automated technology, including automatic dialing system and pre-recorded and artificial voice messages &#8211; to the phone numbers (including cellular) and e-mail address(es) I have provided. I confirm that the information provided on this form is accurate and complete. I also understand that certain degree programs may not be available in all states. Message and data rates may apply. Message frequency may vary. I understand that consent is not a condition to purchase any goods, services or property, and that I may withdraw my consent at any time by sending an email to [email&#160;protected] ."
+          },
+          {
+            "tag": "p",
+            "text": "I understand that if I am submitting my personal data from outside of the United States, I am consenting to the transfer of my personal data to, and its storage in, the United States, and I understand that my personal data will be subject to processing in accordance with U.S. laws, unless stated otherwise in our privacy policy. Please review our privacy policy for more details or contact us at [email&#160;protected] ."
+          },
+          {
+            "tag": "p",
+            "text": "&#916; document.getElementById( \"ak_js_1\" ).setAttribute( \"value\", ( new Date() ).getTime() );"
+          },
+          {
+            "tag": "p",
+            "text": "About NU"
+          },
+          {
+            "tag": "p",
+            "text": "Degrees &amp; Programs"
+          },
+          {
+            "tag": "p",
+            "text": "Admissions &amp; Finances"
+          },
+          {
+            "tag": "p",
+            "text": "Student Resources"
+          },
+          {
+            "tag": "p",
+            "text": "Quick Links"
+          },
+          {
+            "tag": "p",
+            "text": "In 2025, National University earned two prestigious Carnegie Classifications"
+          },
+          {
+            "tag": "p",
+            "text": "These honors recognize NU’s commitment to expanding access, driving student success, and delivering strong career outcomes—especially for working adults, nontraditional learners, and military-affiliated students."
+          },
+          {
+            "tag": "p",
+            "text": "9388 Lightwave Ave, San Diego, CA 92123"
+          },
+          {
+            "tag": "h3",
+            "text": "Helpful Links"
+          },
+          {
+            "tag": "h3",
+            "text": "Featured Programs"
+          },
+          {
+            "tag": "p",
+            "text": "Terms &amp; Conditions"
+          },
+          {
+            "tag": "p",
+            "text": "By submitting your information to National University you have provided your express written consent for the University to contact you with certain non-emergency, automated, autodialed, prerecorded, or other telemarketing phone calls or text messages under the Telephone Consumer Protection Act. This includes, but is not limited to, contacting you to contact: (1) at the phone or mobile number you have provided, and (2) through an automatic telephone dialing system or artificial prerecorded voice. Please note that you are not required to grant consent as a condition of buying any property, goods, or services, and you may revoke your consent at any time by contacting National University’s Data Protection Officer at [email&#160;protected] . Please review our privacy policy for more details. By submitting your information, you acknowledge that you have read and reviewed these Terms &amp; Conditions, the Accessibility Statement, and Privacy Policy and agree to their terms. You confirm that the information provided on this form is accurate and complete. You also understand that certain degree programs may not be available in all states. Message and data rates apply. Message frequency may vary."
+          },
+          {
+            "tag": "p",
+            "text": "I understand that consent is not a condition to purchase any goods, services or property, and that I may withdraw my consent at any time by sending an email to [email&#160;protected] . I understand that if I am submitting my personal data from outside of the United States, I am consenting to the transfer of my personal data to, and its storage in, the United States, and I understand that my personal data will be subject to processing in accordance with U.S. laws, unless stated otherwise in our privacy policy . Please review our privacy policy for more details or contact us at [email&#160;protected] ."
+          },
+          {
+            "tag": "p",
+            "text": "By submitting my information, I acknowledge that I have read and reviewed the Accessibility Statement ."
+          },
+          {
+            "tag": "p",
+            "text": "By submitting my information, I acknowledge that I have read and reviewed the Student Code of Conduct located in the Catalog ."
+          },
+          {
+            "tag": "p",
+            "text": "National University"
+          },
+          {
+            "tag": "p",
+            "text": "Chat Options"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 199,
+          "headings": 22,
+          "images": 54
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-1E10F919",
+      "path": "/login/",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3DAD0BB1",
+      "path": "/degrees/teacher-education/programs/bachelor-of-arts-in-early-childhood-education/",
+      "type": "Detected Link",
+      "anchor_text": "Bachelor of Arts in Early Childhood Education (BAECE)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1A271527",
+      "path": "/degrees/teacher-education/programs/bachelor-of-arts-in-early-childhood-development-inspired-teaching-and-learning-preliminary-multiple-subject-teaching-credential-ca/",
+      "type": "Detected Link",
+      "anchor_text": "Bachelor of Arts in Early Childhood Development with an Inspired Teaching and Learning Preliminary Multiple Subject Teaching Credential (California)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F8F5BB71",
+      "path": "/degrees/arts-and-humanities/programs/bachelor-arts-english/",
+      "type": "Detected Link",
+      "anchor_text": "Bachelor of Arts in English",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CDB7B17E",
+      "path": "/degrees/social-sciences/programs/bachelor-arts-history/",
+      "type": "Detected Link",
+      "anchor_text": "Bachelor of Arts in History",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-626F52DD",
+      "path": "/program-finder/",
+      "type": "Detected Link",
+      "anchor_text": "View All",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A57F0FE0",
+      "path": "/degrees/teacher-education/programs/master-of-arts-in-social-emotional-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Master of Arts in Social Emotional Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-33F0C050",
+      "path": "/degrees/teacher-education/programs/master-education-inspired-teaching-and-learning-internship/",
+      "type": "Detected Link",
+      "anchor_text": "Master of Education in Inspired Teaching and Learning with a Preliminary Multiple or Single Subject Teaching Credential and Intern Option (California)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-61330412",
+      "path": "/degrees/teacher-education/programs/master-of-arts-in-education/",
+      "type": "Detected Link",
+      "anchor_text": "Master of Arts in Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8FE18BAF",
+      "path": "/degrees/teacher-education/programs/master-of-early-childhood-education/",
+      "type": "Detected Link",
+      "anchor_text": "Master’s of Early Childhood Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A127A66A",
+      "path": "/degrees/educational-leadership/programs/education-specialist/",
+      "type": "Detected Link",
+      "anchor_text": "Education Specialist",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FC743ADC",
+      "path": "/program-finder/",
+      "type": "Detected Link",
+      "anchor_text": "View All",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A47510E7",
+      "path": "/degrees/educational-leadership/programs/doctor-of-education/",
+      "type": "Detected Link",
+      "anchor_text": "Doctor of Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0C9BAC15",
+      "path": "/degrees/educational-leadership/programs/doctor-of-philosophy-in-education/",
+      "type": "Detected Link",
+      "anchor_text": "Doctor of Philosophy in Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9DDC9063",
+      "path": "/degrees/educational-leadership/programs/doctor-of-philosophy-in-educational-and-organizational-leadership/",
+      "type": "Detected Link",
+      "anchor_text": "Doctor of Philosophy in Educational and Organizational Leadership",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

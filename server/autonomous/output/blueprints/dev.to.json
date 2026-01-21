@@ -1,0 +1,941 @@
+{
+  "website_blueprint_id": "BLUEPRINT-01BB31B0",
+  "generated_at": "2026-01-21T07:26:54.193Z",
+  "global_configuration": {
+    "brand_name": "DEV Community",
+    "domain": "dev.to",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "151.101.130.217",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Heroku"
+    },
+    "server_headers": {
+      "Cache-Control": "public, no-cache",
+      "Content-Security-Policy": "frame-ancestors https://bizarro.dev.to https://forem.com https://dev.to https://future.forem.com https://version-feb-19-mjhc7.b-cdn.net https://codenewbie.forem.com https://coss.forem.com https://dumb.dev.to https://music.forem.com https://gg.forem.com https://vibe.forem.com https://popcorn.forem.com https://golf.forem.com https://design.forem.com https://maker.forem.com https://zeroday.forem.com https://bookclub.forem.com https://stormkit.forem.com https://open.forem.com https://village.forem.com https://wasp.forem.com https://scale.forem.com https://hmpljs.forem.com https://core.forem.com https://devbrasil.forem.com https://experimental.forem.com https://journal.forem.com https://grow.forem.com https://crypto.forem.com https://parenting.forem.com https://dev.to",
+      "Server": "Heroku"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 88,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/assets/base-49a8fe4e07d8957dd667d261ec816890c300d63637698ea97a4da989fa01eeef.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/base-49a8fe4e07d8957dd667d261ec816890c300d63637698ea97a4da989fa01eeef.js"
+      },
+      {
+        "path": "/assets/application-7258612fccf5d56314a6e4ad1898b4f818f474c4bb3485e302428d489a769a17.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/application-7258612fccf5d56314a6e4ad1898b4f818f474c4bb3485e302428d489a769a17.js"
+      },
+      {
+        "path": "/assets/baseInitializers-2f0777a6d67046056f9f42665560ce072de3801292674358ddbad6e135c1891d.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/baseInitializers-2f0777a6d67046056f9f42665560ce072de3801292674358ddbad6e135c1891d.js"
+      },
+      {
+        "path": "/assets/baseTracking-b6bf73e5ee66633e151e7d5b7c6bbccedfa4c59e3615be97b98c4c0f543ddae7.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/baseTracking-b6bf73e5ee66633e151e7d5b7c6bbccedfa4c59e3615be97b98c4c0f543ddae7.js"
+      },
+      {
+        "path": "/assets/followButtons-a29380c2c88136b97b2b5e63e94614ff7458fc72e07cffa7b6153831c28a40d2.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/followButtons-a29380c2c88136b97b2b5e63e94614ff7458fc72e07cffa7b6153831c28a40d2.js"
+      },
+      {
+        "path": "/assets/mainSidebar-10996dbfced598bf8143689e86ee995945103270acd272ccf8bab9d50c74074b.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/mainSidebar-10996dbfced598bf8143689e86ee995945103270acd272ccf8bab9d50c74074b.js"
+      },
+      {
+        "path": "/assets/homePage-47d5a98e98d2adfc7210a9b943cc5279e45ce57177446192a8b0b2265c2f53e3.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/homePage-47d5a98e98d2adfc7210a9b943cc5279e45ce57177446192a8b0b2265c2f53e3.js"
+      },
+      {
+        "path": "/assets/billboard-1639de16bba3d0fb5e5f96224551087f3b5463567609f92c14b93c3e0c08ddfd.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/billboard-1639de16bba3d0fb5e5f96224551087f3b5463567609f92c14b93c3e0c08ddfd.js"
+      },
+      {
+        "path": "/assets/homePageFeedShortcuts-f7364bc2d6cb139c03e7fe80e32782ba5af34857d2b308e3caa8d902e579a3af.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/homePageFeedShortcuts-f7364bc2d6cb139c03e7fe80e32782ba5af34857d2b308e3caa8d902e579a3af.js"
+      },
+      {
+        "path": "/assets/feedPreviewCards-8d16b0b656456a28c0a290f756cf6e21e19833111c4796f48c631bfea8323d51.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/feedPreviewCards-8d16b0b656456a28c0a290f756cf6e21e19833111c4796f48c631bfea8323d51.js"
+      },
+      {
+        "path": "/assets/storiesList-b9c50cbd898a3a64258a3a49db1c531651b0a4a11937be35ed4651111802b5b5.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/storiesList-b9c50cbd898a3a64258a3a49db1c531651b0a4a11937be35ed4651111802b5b5.js"
+      },
+      {
+        "path": "/assets/heroBannerClose-08daef9d8f6109d73b3876fb088e26e5a46a047f93d787c38871fdbfbfc56e95.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/heroBannerClose-08daef9d8f6109d73b3876fb088e26e5a46a047f93d787c38871fdbfbfc56e95.js"
+      },
+      {
+        "path": "/assets/localizeArticleDates-70147c5c6bfe350b42e020ebb2a3dd37419d83978982b5a67b6389119bf162ac.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/localizeArticleDates-70147c5c6bfe350b42e020ebb2a3dd37419d83978982b5a67b6389119bf162ac.js"
+      },
+      {
+        "path": "/assets/feedEvents-d39d56b2a9cd948da5eab41780a494c61da2d5674fd5d8115179eda001632f45.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/feedEvents-d39d56b2a9cd948da5eab41780a494c61da2d5674fd5d8115179eda001632f45.js"
+      },
+      {
+        "path": "/assets/sidebar-sticky-b50612b4f806438cc3900da6214c342edb7a8b5bfe0adf1c1951915579198329.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/sidebar-sticky-b50612b4f806438cc3900da6214c342edb7a8b5bfe0adf1c1951915579198329.js"
+      },
+      {
+        "path": "/assets/signupModalShortcuts-0b25469b985100a01e94cbd7fccaf7f0a4d776e129aac65c766aa32cb28ab29a.js",
+        "type": "script",
+        "full_url": "https://assets.dev.to/assets/signupModalShortcuts-0b25469b985100a01e94cbd7fccaf7f0a4d776e129aac65c766aa32cb28ab29a.js"
+      },
+      {
+        "path": "/assets/minimal-044fc0591881caab0b36d4290b5fda0e31f8f3762e63d2e084a7ad8e34ad0f35.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.dev.to/assets/minimal-044fc0591881caab0b36d4290b5fda0e31f8f3762e63d2e084a7ad8e34ad0f35.css"
+      },
+      {
+        "path": "/assets/views-c7218f14065ddf63ad3cbc57904019aca23aedfdaa05f2154e3a9c05cd3a4fd2.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.dev.to/assets/views-c7218f14065ddf63ad3cbc57904019aca23aedfdaa05f2154e3a9c05cd3a4fd2.css"
+      },
+      {
+        "path": "/assets/crayons-98d64176d3c80084bfc156b30d3cb255984cf0534815e2f01dba15c82604ea30.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.dev.to/assets/crayons-98d64176d3c80084bfc156b30d3cb255984cf0534815e2f01dba15c82604ea30.css"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwalhydbusoe2o1pzxfwj.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwalhydbusoe2o1pzxfwj.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3otvb2z646ytpt1hl2rv.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3otvb2z646ytpt1hl2rv.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg8k8nlv7yl97085q8agp.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg8k8nlv7yl97085q8agp.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9azopgwnjjpkgvtn5nux.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9azopgwnjjpkgvtn5nux.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9xjsbjb3ulcgpx932599.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9xjsbjb3ulcgpx932599.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frnip9mvroe4n1spfm43q.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frnip9mvroe4n1spfm43q.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd89n749pwv3d05i93pfd.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd89n749pwv3d05i93pfd.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgg6i5z7ureeu96cayz19.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgg6i5z7ureeu96cayz19.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feyc812o5ed0he648y218.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feyc812o5ed0he648y218.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqji7l84bi520qypekh4t.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqji7l84bi520qypekh4t.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzhktp1xvmpf29y860wd3.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzhktp1xvmpf29y860wd3.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fetixkjcs50ddkp6wlv4p.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fetixkjcs50ddkp6wlv4p.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finbbclsxtvxdfo0p2n66.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finbbclsxtvxdfo0p2n66.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvb6sq9t5ehunzj4r4695.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvb6sq9t5ehunzj4r4695.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmkwem77uxpvir9vy9eeu.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmkwem77uxpvir9vy9eeu.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi8rwbqi6l4wln8kbx606.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi8rwbqi6l4wln8kbx606.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff83jl8yxfp6c5srbo02f.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff83jl8yxfp6c5srbo02f.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fujjn1ap9mpq8bwzn76em.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fujjn1ap9mpq8bwzn76em.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdmn0m1ocwggrdvsma2cm.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdmn0m1ocwggrdvsma2cm.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhlhtmj657f6j9nh8mxwm.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhlhtmj657f6j9nh8mxwm.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnijx8yj8r5psetuqsw5z.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnijx8yj8r5psetuqsw5z.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp2khtue7prp0t5p0pouh.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp2khtue7prp0t5p0pouh.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzbfoyqjor9xqe5xtqani.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzbfoyqjor9xqe5xtqani.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg0rowhjp8x0bqzdsmq0w.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg0rowhjp8x0bqzdsmq0w.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fsubforem_images%2Fmain_logo_5A1ZlPe69YTXNRsAxCXK.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fsubforem_images%2Fmain_logo_5A1ZlPe69YTXNRsAxCXK.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fsubforem_images%2Fsocial_card_rFghJWhbtJWReC430aDM.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fsubforem_images%2Fsocial_card_rFghJWhbtJWReC430aDM.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fupzbzgpb13b3e0dfxf51.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fupzbzgpb13b3e0dfxf51.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7qi7bzwq9yok35no2owa.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7qi7bzwq9yok35no2owa.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7mwsgj74kx4dn0fliwh7.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7mwsgj74kx4dn0fliwh7.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F01bkopv3unqemfs036vr.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F01bkopv3unqemfs036vr.png"
+      },
+      {
+        "path": "/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3yl1tok1l7116unun3e9.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=65,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3yl1tok1l7116unun3e9.png"
+      },
+      {
+        "path": "/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5ccjfqjnhjn866cfyngt.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=440,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5ccjfqjnhjn866cfyngt.png"
+      },
+      {
+        "path": "/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+      },
+      {
+        "path": "/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg103se1fwgz73vmwgq44.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg103se1fwgz73vmwgq44.png"
+      },
+      {
+        "path": "/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgijcajluh6s9kpfyhnd7.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgijcajluh6s9kpfyhnd7.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3606168%2Fa6853c87-4daa-4bea-87e8-d1bd0d8a59d7.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3606168%2Fa6853c87-4daa-4bea-87e8-d1bd0d8a59d7.jpg"
+      },
+      {
+        "path": "/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+      },
+      {
+        "path": "/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+      },
+      {
+        "path": "/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F9597%2F8f1ed696-3e87-4bd4-809a-0ee9bb905c3c.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F9597%2F8f1ed696-3e87-4bd4-809a-0ee9bb905c3c.jpg"
+      },
+      {
+        "path": "/assets/subscription-icon-805dfa7ac7dd660f07ed8d654877270825b07a92a03841aa99a1093bd00431b2.png",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/subscription-icon-805dfa7ac7dd660f07ed8d654877270825b07a92a03841aa99a1093bd00431b2.png"
+      },
+      {
+        "path": "/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Ff451a206-11c8-4e3d-8936-143d0a7e65bb.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Ff451a206-11c8-4e3d-8936-143d0a7e65bb.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1209000%2Fb29d37d8-2efe-4391-9796-a6f8a483f1bd.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1209000%2Fb29d37d8-2efe-4391-9796-a6f8a483f1bd.png"
+      },
+      {
+        "path": "/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg",
+        "type": "image",
+        "full_url": "https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F870724%2Fe7722a3a-8b1f-47b6-a26d-777bfaf22abc.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F870724%2Fe7722a3a-8b1f-47b6-a26d-777bfaf22abc.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2757310%2F5068b1d0-4dfb-42af-af4a-f7c39031109d.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2757310%2F5068b1d0-4dfb-42af-af4a-f7c39031109d.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3644416%2F2aac5693-9b1c-44ee-9a4f-35ad5b5e9cda.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3644416%2F2aac5693-9b1c-44ee-9a4f-35ad5b5e9cda.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2394242%2Fc7d69f8c-0d12-41c1-b3eb-42277d12bd77.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2394242%2Fc7d69f8c-0d12-41c1-b3eb-42277d12bd77.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2353063%2F680547a0-c940-4906-bea5-d5fef2633782.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2353063%2F680547a0-c940-4906-bea5-d5fef2633782.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F485186%2Fed035e5e-cdc3-44b5-912a-2fa1e8ead6e3.jpeg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F485186%2Fed035e5e-cdc3-44b5-912a-2fa1e8ead6e3.jpeg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3688514%2Fd828ff24-86b8-4cb1-94d5-790a81d79c14.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3688514%2Fd828ff24-86b8-4cb1-94d5-790a81d79c14.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3391551%2Fb884abd7-f906-4094-afe5-256359f658f3.jpeg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3391551%2Fb884abd7-f906-4094-afe5-256359f658f3.jpeg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F180340%2F9e11c7ad-d674-4b30-bebf-b77a3428babd.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F180340%2F9e11c7ad-d674-4b30-bebf-b77a3428babd.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F965504%2F11378d5e-5ab1-4d72-9f9e-f4db74d77a54.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F965504%2F11378d5e-5ab1-4d72-9f9e-f4db74d77a54.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1971914%2F91ca9e4e-b9c7-47d0-89f8-7cf92bc13268.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1971914%2F91ca9e4e-b9c7-47d0-89f8-7cf92bc13268.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F596220%2F5b0c1e77-2aab-49c7-8f04-45eed87149c9.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F596220%2F5b0c1e77-2aab-49c7-8f04-45eed87149c9.png"
+      },
+      {
+        "path": "/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1042951%2F990ce158-5843-4cff-8157-a8b10404784e.jpg",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1042951%2F990ce158-5843-4cff-8157-a8b10404784e.jpg"
+      },
+      {
+        "path": "/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg103se1fwgz73vmwgq44.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg103se1fwgz73vmwgq44.png"
+      },
+      {
+        "path": "/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2gd3ogwqujc7b8wolj4f.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2gd3ogwqujc7b8wolj4f.png"
+      },
+      {
+        "path": "/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxjlyhbdqehj3akhz166w.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxjlyhbdqehj3akhz166w.png"
+      },
+      {
+        "path": "/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbnl88cil6afxzmgwrgtt.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbnl88cil6afxzmgwrgtt.png"
+      },
+      {
+        "path": "/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv30ephnolfvnlwgwm0yz.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv30ephnolfvnlwgwm0yz.png"
+      },
+      {
+        "path": "/dynamic/image/width=190,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png",
+        "type": "image",
+        "full_url": "https://media2.dev.to/dynamic/image/width=190,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "DEV Community",
+        "description": "A space to discuss and keep up software development and manage your software career",
+        "canonical": "https://dev.to"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3017ms"
+        },
+        {
+          "resource": "base-49a8fe4e07d8957dd667d261ec816890c300d63637698ea97a4da989fa01eeef.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "application-7258612fccf5d56314a6e4ad1898b4f818f474c4bb3485e302428d489a769a17.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "baseInitializers-2f0777a6d67046056f9f42665560ce072de3801292674358ddbad6e135c1891d.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Posts",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "DEV Community",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Join the Algolia Agent Studio Challenge: $3,000 in Prizes!",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Forem Feed"
+          },
+          {
+            "tag": "h3",
+            "text": "DEV Community"
+          },
+          {
+            "tag": "p",
+            "text": "A space to discuss and keep up software development and manage your software career"
+          },
+          {
+            "tag": "h3",
+            "text": "Open Forem"
+          },
+          {
+            "tag": "p",
+            "text": "A general discussion space for the Forem community. If it doesn&#39;t have a home elsewhere, it belongs here"
+          },
+          {
+            "tag": "h3",
+            "text": "Future"
+          },
+          {
+            "tag": "p",
+            "text": "News and discussion of science and technology such as AI, VR, cryptocurrency, quantum computing, and more."
+          },
+          {
+            "tag": "h3",
+            "text": "Gamers Forem"
+          },
+          {
+            "tag": "p",
+            "text": "An inclusive community for gaming enthusiasts"
+          },
+          {
+            "tag": "h3",
+            "text": "Music Forem"
+          },
+          {
+            "tag": "p",
+            "text": "From composing and gigging to gear, hot music takes, and everything in between."
+          },
+          {
+            "tag": "h3",
+            "text": "Vibe Coding Forem"
+          },
+          {
+            "tag": "p",
+            "text": "Discussing AI software development, and showing off what we&#39;re building."
+          },
+          {
+            "tag": "h3",
+            "text": "DUMB DEV Community"
+          },
+          {
+            "tag": "p",
+            "text": "Memes and software development shitposting"
+          },
+          {
+            "tag": "h3",
+            "text": "Popcorn Movies and TV"
+          },
+          {
+            "tag": "p",
+            "text": "Movie and TV enthusiasm, criticism and everything in-between."
+          },
+          {
+            "tag": "h3",
+            "text": "Design Community"
+          },
+          {
+            "tag": "p",
+            "text": "Web design, graphic design and everything in-between"
+          },
+          {
+            "tag": "h3",
+            "text": "Security Forem"
+          },
+          {
+            "tag": "p",
+            "text": "Your central hub for all things security. From ethical hacking and CTFs to GRC and career development, for beginners and pros alike"
+          },
+          {
+            "tag": "h3",
+            "text": "Golf Forem"
+          },
+          {
+            "tag": "p",
+            "text": "A community of golfers and golfing enthusiasts"
+          },
+          {
+            "tag": "h3",
+            "text": "Crypto Forem"
+          },
+          {
+            "tag": "p",
+            "text": "A collaborative community for all things Crypto—from Bitcoin to protocol development and DeFi to NFTs and market analysis."
+          },
+          {
+            "tag": "h3",
+            "text": "Parenting"
+          },
+          {
+            "tag": "p",
+            "text": "A place for parents to the share the joys, challenges, and wisdom that come from raising kids. We&#39;re here for them and for each other."
+          },
+          {
+            "tag": "h3",
+            "text": "Forem Core"
+          },
+          {
+            "tag": "p",
+            "text": "Discussing the core forem open source software project — features, bugs, performance, self-hosting."
+          },
+          {
+            "tag": "h3",
+            "text": "Maker Forem"
+          },
+          {
+            "tag": "p",
+            "text": "A community for makers, hobbyists, and professionals to discuss Arduino, Raspberry Pi, 3D printing, and much more."
+          },
+          {
+            "tag": "h3",
+            "text": "HMPL.js Forem"
+          },
+          {
+            "tag": "p",
+            "text": "For developers using HMPL.js to build fast, lightweight web apps. A space to share projects, ask questions, and discuss server-driven templating"
+          },
+          {
+            "tag": "p",
+            "text": "Home DEV++ Podcasts Videos DEV Education Tracks DEV Challenges DEV Help Advertise on DEV DEV Showcase About Contact Free Postgres Database image/svg+xml Software comparisons Forem Shop Other Code of Conduct Privacy Policy Terms of Use Twitter Facebook Github Instagram Twitch Mastodon Bluesky Popular Tags #webdev #programming #ai #javascript #beginners #tutorial #python #productivity #devops #react #opensource #career #discuss #aws #blockchain #architecture #security #machinelearning #cloud #learning #web3 #news #java #typescript #automation #node #api #github #database #performance DEV Community A space to discuss and keep up software development and manage your software career"
+          },
+          {
+            "tag": "p",
+            "text": "Built on Forem — the open source software that powers DEV and other inclusive communities."
+          },
+          {
+            "tag": "p",
+            "text": "Made with love and Ruby on Rails . DEV Community &copy; 2016 - 2026."
+          },
+          {
+            "tag": "h1",
+            "text": "Posts"
+          },
+          {
+            "tag": "p",
+            "text": "What&#39;s a billboard? Manage preferences Report billboard x"
+          },
+          {
+            "tag": "h4",
+            "text": "Build smart enhancements that proactively assist users within existing workflows. 🧠"
+          },
+          {
+            "tag": "h2",
+            "text": "Join the Algolia Agent Studio Challenge: $3,000 in Prizes!"
+          },
+          {
+            "tag": "h3",
+            "text": "Jess Lee for The DEV Team ・ Jan 7"
+          },
+          {
+            "tag": "p",
+            "text": "Happy Coding!"
+          },
+          {
+            "tag": "h2",
+            "text": "My Chrome Tabs Tell a Story We Haven&#39;t Processed Yet"
+          },
+          {
+            "tag": "p",
+            "text": "44 comments 3 min read BenQ RD280UG Review: 28-Inch 4K Programming Monitor for Developers Nick Taylor Nick Taylor Nick Taylor Follow Jan 20 BenQ RD280UG Review: 28-Inch 4K Programming Monitor for Developers # officesetup # benq # programmingmonitor # benqmonitor 12 reactions Comments Add Comment 4 min read Top 7 Featured DEV Posts of the Week Jess Lee Jess Lee Jess Lee Follow for The DEV Team Jan 20 Top 7 Featured DEV Posts of the Week # discuss # top7 29 reactions Comments 7 comments 2 min read Meme Monday Ben Halpern Ben Halpern Ben Halpern Follow Jan 19 Meme Monday # discuss # watercooler # jokes 35 reactions Comments 27 comments 1 min read The 15 Git Commands Every Software Engineer Uses (And Why They Matter More Than You Think) Hadil Ben Abdallah Hadil Ben Abdallah Hadil Ben Abdallah Follow Jan 20 The 15 Git Commands Every Software Engineer Uses (And Why They Matter More Than You Think) # programming # git # productivity # codenewbie 80 reactions Comments 27 comments 6 min read Touching GRASS: My Experience at the Stripe Developer Meetup Maame Afua A. P. Fordjour Maame Afua A. P. Fordjour Maame Afua A. P. Fordjour Follow Jan 21 Touching GRASS: My Experience at the Stripe Developer Meetup # watercooler # stripe # networking # eventsinyourcity 64 reactions Comments Add Comment 3 min read HTML-101 #6. Paths, Anchor Tag, Mail &amp; Phone Links Himanshu Bhatt Himanshu Bhatt Himanshu Bhatt Follow Jan 21 HTML-101 #6. Paths, Anchor Tag, Mail &amp; Phone Links # html # webdev # tutorial # beginners 5 reactions Comments Add Comment 6 min read Human-in-the-Loop, by Design: Evolving from Algorithms to Care-Centered AI New Year, New You Portfolio Challenge Submission"
+          },
+          {
+            "tag": "h2",
+            "text": "Human-in-the-Loop, by Design: Evolving from Algorithms to Care-Centered AI"
+          },
+          {
+            "tag": "p",
+            "text": "Join the Algolia Agent Studio Challenge: $3,000 in Prizes!"
+          },
+          {
+            "tag": "p",
+            "text": "Explore how fast, contextual retrieval powers the next generation of AI applications."
+          },
+          {
+            "tag": "p",
+            "text": "Happy New Year 🎊"
+          },
+          {
+            "tag": "p",
+            "text": "\"New Year, New You\" Portfolio Challenge: $3,000 in Prizes!"
+          },
+          {
+            "tag": "p",
+            "text": "Plus direct portfolio feedback from the Google AI team for runner ups!"
+          },
+          {
+            "tag": "h4",
+            "text": "Have a great week ❤️"
+          },
+          {
+            "tag": "h3",
+            "text": "#discuss"
+          },
+          {
+            "tag": "h4",
+            "text": "trending guides/resources"
+          },
+          {
+            "tag": "p",
+            "text": "💎 DEV Diamond Sponsors"
+          },
+          {
+            "tag": "p",
+            "text": "Thank you to our Diamond Sponsors for supporting the DEV Community"
+          },
+          {
+            "tag": "p",
+            "text": "Google AI is the official AI Model and Platform Partner of DEV"
+          },
+          {
+            "tag": "p",
+            "text": "Neon is the official database partner of DEV"
+          },
+          {
+            "tag": "p",
+            "text": "Algolia is the official search partner of DEV"
+          },
+          {
+            "tag": "p",
+            "text": "DEV Community — A space to discuss and keep up software development and manage your software career"
+          },
+          {
+            "tag": "p",
+            "text": "Built on Forem — the open source software that powers DEV and other inclusive communities."
+          },
+          {
+            "tag": "p",
+            "text": "Made with love and Ruby on Rails . DEV Community &copy; 2016 - 2026."
+          },
+          {
+            "tag": "p",
+            "text": "We&#39;re a place where coders share, stay up-to-date and grow their careers."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 188,
+          "headings": 47,
+          "images": 121
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-7961BDCF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DEV Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E1F8F3E",
+      "path": "/enter",
+      "type": "Detected Link",
+      "anchor_text": "Create account",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-72073202",
+      "path": "/enter",
+      "type": "Detected Link",
+      "anchor_text": "Log in",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E20D75D8",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DEV Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AC960E2C",
+      "path": "/t/opensource",
+      "type": "Detected Link",
+      "anchor_text": "open source",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6D6C65F0",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DEV",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B5023028",
+      "path": "/t/rails",
+      "type": "Detected Link",
+      "anchor_text": "Ruby on Rails",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7818820E",
+      "path": "/devteam/join-the-algolia-agent-studio-challenge-3000-in-prizes-4eli",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-37653511",
+      "path": "/devteam",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-85235ADD",
+      "path": "/dannwaneri/my-chrome-tabs-tell-a-story-we-havent-processed-yet-ec9",
+      "type": "Detected Link",
+      "anchor_text": "My Chrome Tabs Tell a Story We Haven&#39;t Processed Yet",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-35A400C1",
+      "path": "/t/discuss",
+      "type": "Detected Link",
+      "anchor_text": "#discuss",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2E65AEA0",
+      "path": "/t/ai",
+      "type": "Detected Link",
+      "anchor_text": "#ai",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-06BE6C5C",
+      "path": "/t/webdev",
+      "type": "Detected Link",
+      "anchor_text": "#webdev",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F28E778",
+      "path": "/t/career",
+      "type": "Detected Link",
+      "anchor_text": "#career",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-753F5E00",
+      "path": "/nickytonline/benq-rd280ug-review-28-inch-4k-programming-monitor-for-developers-2iko",
+      "type": "Detected Link",
+      "anchor_text": "BenQ RD280UG Review: 28-Inch 4K Programming Monitor for Developers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

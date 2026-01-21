@@ -1,0 +1,500 @@
+{
+  "website_blueprint_id": "BLUEPRINT-EEE38731",
+  "generated_at": "2026-01-21T07:26:54.646Z",
+  "global_configuration": {
+    "brand_name": "GeeksforGeeks",
+    "domain": "www.geeksforgeeks.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "13.227.249.119",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "s-maxage=50284, max-age=0",
+      "Content-Security-Policy": "default-src 'self' http: https: ws: wss: data: blob: 'unsafe-eval' 'unsafe-inline'; frame-ancestors 'self';",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 39,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gfg-assets/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/6218.0324a3867ff382c3.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/6218.0324a3867ff382c3.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/9873.0a8f63b716070844.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/9873.0a8f63b716070844.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/3914.951f46ff700fc404.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/3914.951f46ff700fc404.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/1119.ecfb8447af8524c5.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/1119.ecfb8447af8524c5.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/7792.f845f4f2c2ed5c7d.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/7792.f845f4f2c2ed5c7d.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/webpack-c63e3923e3bf81f3.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/webpack-c63e3923e3bf81f3.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/framework-3412d1150754b2fb.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/framework-3412d1150754b2fb.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/main-83950604a31ac5bb.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/main-83950604a31ac5bb.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/pages/_app-50a88597b8d8b036.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/pages/_app-50a88597b8d8b036.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/6492-0f4941e236521dc8.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/6492-0f4941e236521dc8.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/chunks/pages/index-b4f9b2a90dc673ab.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/chunks/pages/index-b4f9b2a90dc673ab.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/VvQz-el1UmgjshtsQHRBK/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/VvQz-el1UmgjshtsQHRBK/_buildManifest.js"
+      },
+      {
+        "path": "/gfg-assets/_next/static/VvQz-el1UmgjshtsQHRBK/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/VvQz-el1UmgjshtsQHRBK/_ssgManifest.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-DWCCJLKX3X"
+      },
+      {
+        "path": "/gfg-assets/_next/static/css/85a50a24f5138894.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/85a50a24f5138894.css"
+      },
+      {
+        "path": "/gfg-assets/_next/static/css/beebd129f8ac9b0d.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/beebd129f8ac9b0d.css"
+      },
+      {
+        "path": "/gfg-assets/_next/static/css/1142cfe37dce110f.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.geeksforgeeks.org/gfg-assets/_next/static/css/1142cfe37dce110f.css"
+      },
+      {
+        "path": "/gfg-gg-logo.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/image-3.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/image-3.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/image-6.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/image-6.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Vectors.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Vectors.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Rectangle.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Rectangle.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/image-41.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/image-41.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/file3.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/file3.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Frame-1000001823.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Frame-1000001823.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Frame-10000018241.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Frame-10000018241.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Frame-1000001823-7.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Frame-1000001823-7.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/Frame-1000001823-8.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/Frame-1000001823-8.svg"
+      },
+      {
+        "path": "/wp-content/uploads/20250929101624249259/tech_interview.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/wp-content/uploads/20250929101624249259/tech_interview.webp"
+      },
+      {
+        "path": "/wp-content/uploads/20251119100432783088/JBDL1.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/wp-content/uploads/20251119100432783088/JBDL1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/20251010124253058806/generative-ai-training-program-.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/wp-content/uploads/20251010124253058806/generative-ai-training-program-.webp"
+      },
+      {
+        "path": "/wp-content/uploads/20260109134146052260/devops_engineering.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/wp-content/uploads/20260109134146052260/devops_engineering.webp"
+      },
+      {
+        "path": "/img-practice/prod/courses/221/Web/Content/cpp_1723009538.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/img-practice/prod/courses/221/Web/Content/cpp_1723009538.webp"
+      },
+      {
+        "path": "/img-practice/prod/courses/270/Web/Content/CourseJavaProgrammin_1716371938.webp",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/img-practice/prod/courses/270/Web/Content/CourseJavaProgrammin_1716371938.webp"
+      },
+      {
+        "path": "/auth-dashboard-uploads/gfgFooterLogo.png",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogo.png"
+      },
+      {
+        "path": "/img-practice/Location-1685004904.svg",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/img-practice/Location-1685004904.svg"
+      },
+      {
+        "path": "/auth-dashboard-uploads/googleplay-%281%29.png",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/googleplay-%281%29.png"
+      },
+      {
+        "path": "/auth-dashboard-uploads/appstore-%281%29.png",
+        "type": "image",
+        "full_url": "https://media.geeksforgeeks.org/auth-dashboard-uploads/appstore-%281%29.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "GeeksforGeeks | Your All-in-One Learning Portal",
+        "description": "Your All-in-One Learning Portal. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
+        "canonical": "https://www.geeksforgeeks.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "12862ms"
+        },
+        {
+          "resource": "polyfills-c67a75d1b6f99dc8.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "6218.0324a3867ff382c3.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "9873.0a8f63b716070844.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Need help withCareer Guidance?",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Courses",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Must Explore",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Explore",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Finish Your Course - Get Your Money Back!"
+          },
+          {
+            "tag": "p",
+            "text": "Available on Live, Online &amp; Offline Learning Modes"
+          },
+          {
+            "tag": "p",
+            "text": "Complete payment for any course"
+          },
+          {
+            "tag": "p",
+            "text": "Complete 90% of the course within 90 days"
+          },
+          {
+            "tag": "p",
+            "text": "Claim your 90% refund of the course fee"
+          },
+          {
+            "tag": "p",
+            "text": "Accept the Challenge"
+          },
+          {
+            "tag": "h1",
+            "text": "Need help with Career Guidance?"
+          },
+          {
+            "tag": "p",
+            "text": "Connect with trusted experts, anytime. Get real answers, real guidance, in real time."
+          },
+          {
+            "tag": "h2",
+            "text": "Courses"
+          },
+          {
+            "tag": "h2",
+            "text": "Must Explore"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore"
+          },
+          {
+            "tag": "h2",
+            "text": "Must Explore"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 6,
+          "headings": 7,
+          "images": 23
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-3D2423E5",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BE05B0B3",
+      "path": "/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "type": "Detected Link",
+      "anchor_text": "DSA",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C819C730",
+      "path": "/explore",
+      "type": "Detected Link",
+      "anchor_text": "Practice Problems",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DDDBB754",
+      "path": "/c/c-programming-language/",
+      "type": "Detected Link",
+      "anchor_text": "C",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F5E103C4",
+      "path": "/cpp/c-plus-plus/",
+      "type": "Detected Link",
+      "anchor_text": "C++",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FE3A0927",
+      "path": "/java/java/",
+      "type": "Detected Link",
+      "anchor_text": "Java",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-366D7CAC",
+      "path": "/python/python-programming-language-tutorial/",
+      "type": "Detected Link",
+      "anchor_text": "Python",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4CC3E092",
+      "path": "/javascript/javascript-tutorial/",
+      "type": "Detected Link",
+      "anchor_text": "JavaScript",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F94D412C",
+      "path": "/data-science/data-science-for-beginners/",
+      "type": "Detected Link",
+      "anchor_text": "Data Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34D35662",
+      "path": "/machine-learning/machine-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A4D0A6F1",
+      "path": "/courses",
+      "type": "Detected Link",
+      "anchor_text": "Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D2E45CD",
+      "path": "/linux-unix/linux-tutorial/",
+      "type": "Detected Link",
+      "anchor_text": "Linux",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-98C8A526",
+      "path": "/devops/devops-tutorial/",
+      "type": "Detected Link",
+      "anchor_text": "DevOps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-38B03962",
+      "path": "/courses/dsa-self-paced",
+      "type": "Detected Link",
+      "anchor_text": "DSA Online",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3B676598",
+      "path": "/courses/data-science-live",
+      "type": "Detected Link",
+      "anchor_text": "Master DS &amp; ML",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

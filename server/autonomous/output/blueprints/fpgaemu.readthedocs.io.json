@@ -1,0 +1,466 @@
+{
+  "website_blueprint_id": "BLUEPRINT-20E98BE1",
+  "generated_at": "2026-01-21T07:26:54.846Z",
+  "global_configuration": {
+    "brand_name": "FPGAEmu: An Introduction to FPGA Emulation &mdash; fpgaemu 0.1 documentation",
+    "domain": "fpgaemu.readthedocs.io",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "AWS",
+      "server_ip": "104.16.253.120",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=1200",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 17,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_static/js/html5shiv.min.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/js/html5shiv.min.js"
+      },
+      {
+        "path": "/_static/documentation_options.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/documentation_options.js"
+      },
+      {
+        "path": "/_static/jquery.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/jquery.js"
+      },
+      {
+        "path": "/_static/underscore.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/underscore.js"
+      },
+      {
+        "path": "/_static/doctools.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/doctools.js"
+      },
+      {
+        "path": "/_static/js/toggle.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/js/toggle.js"
+      },
+      {
+        "path": "/ajax/libs/mathjax/2.7.7/latest.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"
+      },
+      {
+        "path": "/_static/js/theme.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/js/theme.js"
+      },
+      {
+        "path": "/_/static/javascript/readthedocs-addons.js",
+        "type": "script",
+        "full_url": "https://fpgaemu.readthedocs.io/_/static/javascript/readthedocs-addons.js"
+      },
+      {
+        "path": "/_static/css/theme.css",
+        "type": "stylesheet",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/css/theme.css"
+      },
+      {
+        "path": "/_static/pygments.css",
+        "type": "stylesheet",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/pygments.css"
+      },
+      {
+        "path": "/_static/css/toggle.css",
+        "type": "stylesheet",
+        "full_url": "https://fpgaemu.readthedocs.io/_static/css/toggle.css"
+      },
+      {
+        "path": "/projects/fpgaemu/badge/",
+        "type": "image",
+        "full_url": "https://readthedocs.org/projects/fpgaemu/badge/?version=latest"
+      },
+      {
+        "path": "/_images/board_bd.png",
+        "type": "image",
+        "full_url": "https://fpgaemu.readthedocs.io/_images/board_bd.png"
+      },
+      {
+        "path": "/_images/blank.png",
+        "type": "image",
+        "full_url": "https://fpgaemu.readthedocs.io/_images/blank.png"
+      },
+      {
+        "path": "/_images/University_of_San_Diego_logo.svg",
+        "type": "image",
+        "full_url": "https://fpgaemu.readthedocs.io/_images/University_of_San_Diego_logo.svg"
+      },
+      {
+        "path": "/_images/qualcomm.svg",
+        "type": "image",
+        "full_url": "https://fpgaemu.readthedocs.io/_images/qualcomm.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "FPGAEmu: An Introduction to FPGA Emulation &mdash; fpgaemu 0.1 documentation",
+        "description": "",
+        "canonical": "https://fpgaemu.readthedocs.io"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "23201ms"
+        },
+        {
+          "resource": "html5shiv.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "documentation_options.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "FPGAEmu: An Introduction to FPGA Emulation¶",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Indices and tables¶",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Hardware Basics"
+          },
+          {
+            "tag": "p",
+            "text": "Software Basics"
+          },
+          {
+            "tag": "p",
+            "text": "Basic Environment Infrastructure"
+          },
+          {
+            "tag": "p",
+            "text": "Device Under Test"
+          },
+          {
+            "tag": "p",
+            "text": "Emulation Environment"
+          },
+          {
+            "tag": "p",
+            "text": "Miscellaneous"
+          },
+          {
+            "tag": "h1",
+            "text": "FPGAEmu: An Introduction to FPGA Emulation ¶"
+          },
+          {
+            "tag": "p",
+            "text": "Note"
+          },
+          {
+            "tag": "p",
+            "text": "You can find a brief summary of this project here and don’t forget to check out our GitHub repo ."
+          },
+          {
+            "tag": "p",
+            "text": "Important"
+          },
+          {
+            "tag": "p",
+            "text": "New to FPGAs or just need a refresher? Jump here first!"
+          },
+          {
+            "tag": "p",
+            "text": "Complete Block Diagram of FPGA Board ¶"
+          },
+          {
+            "tag": "p",
+            "text": "Hardware Basics"
+          },
+          {
+            "tag": "p",
+            "text": "Software Basics"
+          },
+          {
+            "tag": "p",
+            "text": "Basic Environment Infrastructure"
+          },
+          {
+            "tag": "p",
+            "text": "Device Under Test"
+          },
+          {
+            "tag": "p",
+            "text": "Emulation Environment"
+          },
+          {
+            "tag": "p",
+            "text": "Miscellaneous"
+          },
+          {
+            "tag": "h2",
+            "text": "Indices and tables ¶"
+          },
+          {
+            "tag": "p",
+            "text": "Index"
+          },
+          {
+            "tag": "p",
+            "text": "Search Page"
+          },
+          {
+            "tag": "h3",
+            "text": "Acknowledgements ¶"
+          },
+          {
+            "tag": "p",
+            "text": "FPGAEmu was created and is maintained by a small group of collaborators. Thanks to everyone that has contributed, including:"
+          },
+          {
+            "tag": "p",
+            "text": "Chadmond Wu"
+          },
+          {
+            "tag": "p",
+            "text": "Perry Nesbet"
+          },
+          {
+            "tag": "p",
+            "text": "Haley Guastaferro"
+          },
+          {
+            "tag": "p",
+            "text": "Gabriel Pellot"
+          },
+          {
+            "tag": "p",
+            "text": "Jose Zamudio Gomez"
+          },
+          {
+            "tag": "p",
+            "text": "Ruiwen Wang"
+          },
+          {
+            "tag": "p",
+            "text": "Venkat Shastri, PhD"
+          },
+          {
+            "tag": "p",
+            "text": "Jeffrey Teza"
+          },
+          {
+            "tag": "p",
+            "text": "Special thanks to our sponsors that made this all possible:"
+          },
+          {
+            "tag": "p",
+            "text": "&#169; Copyright 2021, FPGAEmu. Revision cfc2a88d ."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 31,
+          "headings": 3,
+          "images": 6
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-6C440FB0",
+      "path": "/emulation.html",
+      "type": "Detected Link",
+      "anchor_text": "1. FPGA Review and Emulation Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-83F252BA",
+      "path": "/axi.html",
+      "type": "Detected Link",
+      "anchor_text": "2. AXI Protocol Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-00504553",
+      "path": "/pcie.html",
+      "type": "Detected Link",
+      "anchor_text": "3. Legacy PCI and PCI Express",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A6274183",
+      "path": "/ddr.html",
+      "type": "Detected Link",
+      "anchor_text": "4. DDR Memory and SDRAM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6C1364AB",
+      "path": "/clocks.html",
+      "type": "Detected Link",
+      "anchor_text": "5. Clocks, Clocking Wizard, and Timing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AACD5530",
+      "path": "/drivers.html",
+      "type": "Detected Link",
+      "anchor_text": "1. Linux Drivers, Kernel Programming, and You",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FF5C71FB",
+      "path": "/pcie_drivers.html",
+      "type": "Detected Link",
+      "anchor_text": "2. DMA/Bridge for PCIe Drivers Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2CADF1A1",
+      "path": "/gui.html",
+      "type": "Detected Link",
+      "anchor_text": "3. Creating a User-Friendly DUT GUI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4CF757B9",
+      "path": "/mig.html",
+      "type": "Detected Link",
+      "anchor_text": "1. MIG 7 Series IP Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4B55303C",
+      "path": "/axi_pcie.html",
+      "type": "Detected Link",
+      "anchor_text": "2. AXI MM to PCIe IP Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-83DBB2EE",
+      "path": "/dma_pcie.html",
+      "type": "Detected Link",
+      "anchor_text": "3. DMA/Bridge for PCIe IP Overview",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4504E9CE",
+      "path": "/counter.html",
+      "type": "Detected Link",
+      "anchor_text": "1. Creating a Custom AXI IP Core",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0FDD8624",
+      "path": "/descriptor_counter.html",
+      "type": "Detected Link",
+      "anchor_text": "2. Creating an Advanced Custom AXI Descriptor IP",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2CE0390B",
+      "path": "/infrastructure.html",
+      "type": "Detected Link",
+      "anchor_text": "1. Building a Basic Simulation Environment (VC707)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4872C300",
+      "path": "/environment.html",
+      "type": "Detected Link",
+      "anchor_text": "2. Building an Emulation Environment (without a Board)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

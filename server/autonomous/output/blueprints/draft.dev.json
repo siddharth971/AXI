@@ -1,0 +1,638 @@
+{
+  "website_blueprint_id": "BLUEPRINT-EDB8D443",
+  "generated_at": "2026-01-21T07:26:54.698Z",
+  "global_configuration": {
+    "brand_name": "Content",
+    "domain": "draft.dev",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.214.55",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public,max-age=0,must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 37,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/4bd1b696-f785427dddbba9fb.js"
+      },
+      {
+        "path": "/_next/static/chunks/1255-066c727b471078b6.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/1255-066c727b471078b6.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-app-f6791acd07790398.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/main-app-f6791acd07790398.js"
+      },
+      {
+        "path": "/_next/static/chunks/2619-6352ef9022ea9a44.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/2619-6352ef9022ea9a44.js"
+      },
+      {
+        "path": "/_next/static/chunks/1356-9ba0eb29e38244a9.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/1356-9ba0eb29e38244a9.js"
+      },
+      {
+        "path": "/_next/static/chunks/8343-a3ec1c24beb2ee82.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/8343-a3ec1c24beb2ee82.js"
+      },
+      {
+        "path": "/_next/static/chunks/4675-a6f60384e8494928.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/4675-a6f60384e8494928.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/layout-d7bd5acc25c3adaf.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/app/layout-d7bd5acc25c3adaf.js"
+      },
+      {
+        "path": "/_next/static/chunks/5245-659346ff4fa02e09.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/5245-659346ff4fa02e09.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/page-c5139ce91a53f62d.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/app/page-c5139ce91a53f62d.js"
+      },
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-511fbcad14280c2e.js",
+        "type": "script",
+        "full_url": "https://draft.dev/_next/static/chunks/webpack-511fbcad14280c2e.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/_next/static/css/377668202e0eb0cc.css",
+        "type": "stylesheet",
+        "full_url": "https://draft.dev/_next/static/css/377668202e0eb0cc.css"
+      },
+      {
+        "path": "/_next/static/css/03ce5ef6241c06e1.css",
+        "type": "stylesheet",
+        "full_url": "https://draft.dev/_next/static/css/03ce5ef6241c06e1.css"
+      },
+      {
+        "path": "/draft/logos/draftlogo_main_filled.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/draft/logos/draftlogo_main_filled.svg"
+      },
+      {
+        "path": "/media/logos/docker-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/docker-logo.svg"
+      },
+      {
+        "path": "/media/logos/jetbrains-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/jetbrains-logo.svg"
+      },
+      {
+        "path": "/media/logos/sinch-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/sinch-logo.svg"
+      },
+      {
+        "path": "/media/logos/red-panda-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/red-panda-logo.svg"
+      },
+      {
+        "path": "/media/logos/amadeus-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/amadeus-logo.svg"
+      },
+      {
+        "path": "/media/logos/loft-logo.svg",
+        "type": "image",
+        "full_url": "https://draft.dev/media/logos/loft-logo.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Flogos%2Fbrightdata-logo.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Flogos%2Fdescope-logo.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Ftestimonials-lg%2Fem_sinch_mailgun.jpg&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Ftestimonials-lg%2Fhenry_poydar_steady_draft_dev.jpg&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Ftestimonials-lg%2Frahul_patwardhan_loft_labs_draft_dev.jpg&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2Fmedia%2Ftestimonials-lg%2Fadam_bell_earthly_draft_dev.jpg&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femily_blitstein_sinch_mailgun_draft_dev.8738286f.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fravi_dehar_gusto_draft_dev.6a7caf59.jpg&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabhishek_iyer_descope_draft_dev.6eda737e.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjenny_medeiros_redpanda_draft_dev.a344795b.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frandall_degges_snyk_draft_dev.5091ea36.jpg&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frich_burroughs_loft_labs_draft_dev.f5475d8e.jpg&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frobert_gibb_fabric_draft_dev.9623bc8b.jpg&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnicholasdewald_prove_draft_dev.01c8f87c.jpg&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://draft.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftony_chan_cloudforecast_draft_dev.613a35cf.jpg&amp;w=256&amp;q=75"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Content-Powered Growth Marketing for Developer Tools &amp; Platforms - Draft.dev",
+        "description": "We build technical content systems that compound and resonate with developers, search engines and LLMs. Backed by research, proven frameworks, and human-verified AI workflows.",
+        "canonical": "https://draft.dev"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "17027ms"
+        },
+        {
+          "resource": "4bd1b696-f785427dddbba9fb.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "1255-066c727b471078b6.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "main-app-f6791acd07790398.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Content-Powered Growth Marketing for Developer Tools &amp; Platforms",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Trusted by 100+ tech companies",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Turn developer content into a reliable growth driver",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "A content creation agency with a track record",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Play 100 % Trusted by 100+ tech companies Turn developer content into a reliable growth driver For teams launching, introducing new products, or scaling existing content engines From zero to growth No content team yet? No problem. We bring the strategy, production, and distribution across many content types: Blog posts, videos, social collateral, comparison pages, lead magnets, and more. Let us drive your first wave of developer signups. You build product, we build your developer audience."
+          },
+          {
+            "tag": "p",
+            "text": "See our process →"
+          },
+          {
+            "tag": "p",
+            "text": "Introduciong a new product or feature means educating a market that does not know it exists yet. We help you build awareness fast with a coordinated content strategy across blogs, video, social, comparison and feature pages, and lead magnets. All backed by competitive analysis and SEO/GEO insights."
+          },
+          {
+            "tag": "p",
+            "text": "See how we drive awareness →"
+          },
+          {
+            "tag": "p",
+            "text": "More channels, more content. We integrate seamlessly with your existing team to expand content production across channels: on-site articles, guest posts, video content, newsletter campaigns, social distribution, and more. We analyze, refresh, and report on your content performance."
+          },
+          {
+            "tag": "p",
+            "text": "See some of our technical content examples →"
+          },
+          {
+            "tag": "h2",
+            "text": "A content creation agency with a track record"
+          },
+          {
+            "tag": "p",
+            "text": "We have worked with hundreds of successful companies, including some of the most well-known in the tech industry."
+          },
+          {
+            "tag": "h2",
+            "text": "How Sinch Mailgun Revived Its Developer-First Content Strategy and Achieved 20–45% CTR with Draft.dev"
+          },
+          {
+            "tag": "p",
+            "text": "When internal engineering bandwidth was tight, Draft.dev delivered SME-written tutorials, testing content, and editorial QA—fueling engagement while saving weeks of internal time."
+          },
+          {
+            "tag": "h3",
+            "text": "More Case Studies"
+          },
+          {
+            "tag": "p",
+            "text": "Hear from real clients to learn how they&#x27;ve succeeded with Draft.dev."
+          },
+          {
+            "tag": "p",
+            "text": "Henry Poydar"
+          },
+          {
+            "tag": "p",
+            "text": "Founder &amp; CEO , Status Hero"
+          },
+          {
+            "tag": "p",
+            "text": "Rahul Patwardhan"
+          },
+          {
+            "tag": "p",
+            "text": "Senior Director, Demand Generation , Loft Labs"
+          },
+          {
+            "tag": "p",
+            "text": "Adam Gordon Bell"
+          },
+          {
+            "tag": "p",
+            "text": "Director of Developer Relations , Earthly"
+          },
+          {
+            "tag": "h3",
+            "text": "Retainers and custom offers available upon request"
+          },
+          {
+            "tag": "h3",
+            "text": "Let’s talk about your growth engine"
+          },
+          {
+            "tag": "p",
+            "text": "Get started with our expert-vetted, compounding growth engine approved by real engineers. A Draft.dev subscription provides you with a Developer Content Strategy, Content Creation &amp; Review, Lead Magnets, Content Refreshes, and ongoing Analysis and Reporting."
+          },
+          {
+            "tag": "h2",
+            "text": "See Our Process"
+          },
+          {
+            "tag": "h3",
+            "text": "We plan, produce, publish, and promote your first pieces within weeks."
+          },
+          {
+            "tag": "h3",
+            "text": "Step 1: Research &amp; Strategy"
+          },
+          {
+            "tag": "h4",
+            "text": "We get to know you and define a plan"
+          },
+          {
+            "tag": "p",
+            "text": "We analyze your industry, competitors, positioning, product features, target audience, and make sure to understand your brand and tone of voice, ensuring authentic output. We conduct SEO and GEO research, assess your existing content, study your existing marketing funnel, and delivery a content strategy and roadmap for your feedback."
+          },
+          {
+            "tag": "h3",
+            "text": "Step 2: Content Production"
+          },
+          {
+            "tag": "h4",
+            "text": "We publish your first pieces within weeks"
+          },
+          {
+            "tag": "p",
+            "text": "We create strategically relevant content pieces for you. These include blog posts and tutorials, comparison pages, landing pages and onboarding content, technical product guides and use case deep-dives, thought leadership pieces, lead magnets and gated assets and more. To ensure fast turnaround times we use proven AI workflows to help draft your pieces. Each single piece is reviewed by real developers and edited by professional technical editors to ensure accuracy, clarity, and value for your audience. We can manage publication of your content via all major CMSs."
+          },
+          {
+            "tag": "h3",
+            "text": "Step 3: Content Promotion"
+          },
+          {
+            "tag": "h4",
+            "text": "We help you get reach and click-throughs"
+          },
+          {
+            "tag": "p",
+            "text": "We help promoting your content on Reddit, LinkedIn, Twitter/X, and more. We create variations you can use for third-party syndication and assist in publishing and advertising your pieces niche publications and newsletters that are read by your target audience."
+          },
+          {
+            "tag": "h2",
+            "text": "Testimonials"
+          },
+          {
+            "tag": "h3",
+            "text": "What our clients are saying"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;I was thoroughly impressed by the smooth onboarding and ability to adapt to our product suite. Draft.dev&#x27;s attention to detail and dedication to aligning content with our brand have significantly impacted our developer-focused content strategy. The high-quality technical blog posts have been well-received internally, and we&#x27;re excited to see the full impact on our content program.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Draft.dev really accelerated our developer-focused marketing efforts. They really helped us build a competitive advantage as a developer-friendly platform without pulling away our internal technical teams to write that content.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Partnering with Draft.dev has accelerated our technical content output while also extending the bandwidth of our developer relations team to focus more on core product activities. It is truly high-quality content written by devs for devs, helping devs in the process.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Draft.dev is our go-to for practical, well-written content that actually resonates with technical audiences and helps us inspire the developer community. It has been invaluable (for our internal team and my sanity) to have their brilliant writers, editors, and PMs in our content corner!&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Draft.dev has been an amazing partner, helping us scale our content program by creating thoughtful and technically-sound developer content and training materials. We’re constantly iterating to build the best educational materials for developer security and Draft.dev has been instrumental in helping us realize these ambitions.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Having draft.dev source quality technical content for the Loft Labs blog has been a competitive advantage. It&#x27;s given us a steadier flow of content, which has helped our brand&#x27;s visibility, and some of the posts are among the most popular ones we&#x27;ve published.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;In a matter of weeks, our referral traffic and organic keyword rankings increased by 3x. One post also hit Hacker News which resulted in 5 demo requests in a single day!&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;Draft.dev has been instrumental in enabling us to generate the deep technical content we require, something we simply could not produce with our current internal bandwidth. Their capacity to deliver high-quality, specialized articles allows us to consistently engage our audience with valuable material, significantly enhancing our content marketing strategy.&quot;"
+          },
+          {
+            "tag": "p",
+            "text": "&quot;We&#x27;ve seen amazing results with the technical content produced from the team at Draft.dev. The attention to technical detail from start to finish has been a huge addition to our content.&quot;"
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently asked questions"
+          },
+          {
+            "tag": "p",
+            "text": "Have a different question and can&#x27;t find the answer you&#x27;re looking for? Book a discovery call to learn more."
+          },
+          {
+            "tag": "h2",
+            "text": "Want to learn more about how we work?"
+          },
+          {
+            "tag": "h2",
+            "text": "Trusted by 100+ tech companies. Over 300 engineers writing your technical content."
+          },
+          {
+            "tag": "h3",
+            "text": "Selected Resources"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 38,
+          "headings": 24,
+          "images": 22
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-CDDB617F",
+      "path": "/content-marketing-engine",
+      "type": "Detected Link",
+      "anchor_text": "Download Our FREE eBook: How to Set Up a Content Marketing Engine in the Age of AI →",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D0E9C73B",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-060763ED",
+      "path": "/case-studies",
+      "type": "Detected Link",
+      "anchor_text": "Case Studies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-62C07223",
+      "path": "/about",
+      "type": "Detected Link",
+      "anchor_text": "Company",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BE4325E8",
+      "path": "/call",
+      "type": "Detected Link",
+      "anchor_text": "Book Discovery Call",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-451A44FB",
+      "path": "/content-marketing-engine",
+      "type": "Detected Link",
+      "anchor_text": "New eBook",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9916F40B",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "See our process →",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FF76880A",
+      "path": "/drive-awareness",
+      "type": "Detected Link",
+      "anchor_text": "See how we drive awareness →",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ADCB203F",
+      "path": "/technical-content-examples",
+      "type": "Detected Link",
+      "anchor_text": "See some of our technical content examples →",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4788E6C6",
+      "path": "/case-studies/sinch-mailgun",
+      "type": "Detected Link",
+      "anchor_text": "Read this case study",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8AA908F9",
+      "path": "/case-studies/status-hero",
+      "type": "Detected Link",
+      "anchor_text": "Henry PoydarFounder &amp; CEO, Status Hero",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-56D0321F",
+      "path": "/case-studies/loft-labs",
+      "type": "Detected Link",
+      "anchor_text": "Rahul PatwardhanSenior Director, Demand Generation, Loft Labs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-84A664B8",
+      "path": "/case-studies/earthly",
+      "type": "Detected Link",
+      "anchor_text": "Adam Gordon BellDirector of Developer Relations, Earthly",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44723F79",
+      "path": "/call",
+      "type": "Detected Link",
+      "anchor_text": "Book a discovery call",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F2058B51",
+      "path": "/newsletter",
+      "type": "Detected Link",
+      "anchor_text": "Trusted by 100+ tech companies. Over 300 engineers writing your technical content.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

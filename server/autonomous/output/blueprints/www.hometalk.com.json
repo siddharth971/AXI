@@ -1,0 +1,955 @@
+{
+  "website_blueprint_id": "BLUEPRINT-E90553D8",
+  "generated_at": "2026-01-21T07:27:05.041Z",
+  "global_configuration": {
+    "brand_name": "DIY Projects for the Home",
+    "domain": "www.hometalk.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "199.232.21.91",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx/1.24.0 (Ubuntu)"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx/1.24.0 (Ubuntu)"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 114,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/openads.js",
+        "type": "script",
+        "full_url": "https://www.hometalk.com/openads.js"
+      },
+      {
+        "path": "/resources/combined/js/load-libraries.1f3be4873c454d83ea9bcd8b6c02e08c.9014.js",
+        "type": "script",
+        "full_url": "https://www.hometalk.com/resources/combined/js/load-libraries.1f3be4873c454d83ea9bcd8b6c02e08c.9014.js"
+      },
+      {
+        "path": "/resources/combined/js/rapid-homepage.9a43c5852a35a990b06c.9014.js",
+        "type": "script",
+        "full_url": "https://www.hometalk.com/resources/combined/js/rapid-homepage.9a43c5852a35a990b06c.9014.js"
+      },
+      {
+        "path": "/resources/combined/css/rapid-home-page.63ab789a9cf7d442df2720aeb16186cf.9014.css",
+        "type": "stylesheet",
+        "full_url": "https://www.hometalk.com/resources/combined/css/rapid-home-page.63ab789a9cf7d442df2720aeb16186cf.9014.css"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/hometalk_cover_large.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/hometalk_cover_large.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/build.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/build.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/product-reviews.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/product-reviews.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/in-depth-guides.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/in-depth-guides.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/upcycle.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/upcycle.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/craft.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/craft.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/decorate.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/decorate.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/repair.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/repair.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/paint.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/paint.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/grow.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/grow.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/organize.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/organize.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/clean.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/clean.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/tile.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/how-to/tier_1/thumbs/tile.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/kitchen-dining.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/kitchen-dining.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/living-room.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/living-room.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/bedroom.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/bedroom.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/bathroom.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/bathroom.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/craft-room.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/craft-room.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/laundry-room.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/laundry-room.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/home-office.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/home-office.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/entryway.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/entryway.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/basement.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/basement.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/outdoor.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/outdoor.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/windows-doors.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/windows-doors.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/floors-ceilings.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/floors-ceilings.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/staircases.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/staircases.jpg"
+      },
+      {
+        "path": "/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/home-tours.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/themes/hometalk/imgs-responsive/categories/rooms-spaces/tier_1/thumbs/home-tours.jpg"
+      },
+      {
+        "path": "/media/2025/12/03/02391/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/12/03/02391/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2019/08/29/1820611_9.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2019/08/29/1820611_9.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/11/18/03201/discover-the-art-of-an-effortless-clean-with-the-roborock-qrevo-curvx.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/11/18/03201/discover-the-art-of-an-effortless-clean-with-the-roborock-qrevo-curvx.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/12/11/08551/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/12/11/08551/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/11/28/04271/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/11/28/04271/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/12/05/03131/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/12/05/03131/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/12/11/09031/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/12/11/09031/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/10/17/03051/the-digz-holiday-gift-guide-for-the-garden-lovers-in-your-life.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/10/17/03051/the-digz-holiday-gift-guide-for-the-garden-lovers-in-your-life.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2023/11/17/93270091_3.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2023/11/17/93270091_3.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2019/03/03/5344721/diy-pvc-birds-flamingo-blue-heron-woodpecker-egrets.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2019/03/03/5344721/diy-pvc-birds-flamingo-blue-heron-woodpecker-egrets.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2021/12/22/5586129_2.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2021/12/22/5586129_2.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/06/08/05562/the-surprising-way-black-pepper-protects-your-plants-from-pests.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/08/05562/the-surprising-way-black-pepper-protects-your-plants-from-pests.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2023/01/18/57013013_2.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2023/01/18/57013013_2.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/05/07/02322/coca-cola-weed.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/05/07/02322/coca-cola-weed.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/26/06003/irish-spring-soap-in-yard.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/26/06003/irish-spring-soap-in-yard.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2023/09/22/9116773/diy-mini-christmas-tree.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2023/09/22/9116773/diy-mini-christmas-tree.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2024/04/03/51782559_3.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2024/04/03/51782559_3.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2026/01/05/120910/diy-stackable-shoe-boxes.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2026/01/05/120910/diy-stackable-shoe-boxes.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/07/18/01047/diy-cooling-rack-organizer.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/07/18/01047/diy-cooling-rack-organizer.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2018/01/03/32307653_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2018/01/03/32307653_1.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/07/10/13559/diy-faux-planter-trash-can-upcycled-stool-project.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/07/10/13559/diy-faux-planter-trash-can-upcycled-stool-project.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2024/06/04/51689965_4.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2024/06/04/51689965_4.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/06/22/08327/soap-dispenser-riser.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/22/08327/soap-dispenser-riser.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2015/05/07/71736_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2015/05/07/71736_1.jpg?size=50x50"
+      },
+      {
+        "path": "/resources/imgs-responsive/avatar-letters/avatar-D-FF00A7.png",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/imgs-responsive/avatar-letters/avatar-D-FF00A7.png?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/14/11571/q-easter-church-signs.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/14/11571/q-easter-church-signs.jpg?size=350x220"
+      },
+      {
+        "path": "/resources/imgs-responsive/avatar-letters/avatar-B-50E3C2.png",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/imgs-responsive/avatar-letters/avatar-B-50E3C2.png?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/08/06551/q-easter-tree-ornaments.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/08/06551/q-easter-tree-ornaments.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2024/08/27/06511/q-what-s-your-favorite-room-in-your-house.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2024/08/27/06511/q-what-s-your-favorite-room-in-your-house.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2020/02/16/48630662_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2020/02/16/48630662_1.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/06/07061/q-personalized-easter-gifts.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/06/07061/q-personalized-easter-gifts.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/01/11541/q-easter-mantel-decor-ideas.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/01/11541/q-easter-mantel-decor-ideas.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/05/02/05193/rubbing-alcohol-weed.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/05/02/05193/rubbing-alcohol-weed.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/11/10111/thrift-store-vase-update.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/11/10111/thrift-store-vase-update.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2023/04/21/31301649_4.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2023/04/21/31301649_4.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/26/10513/uses-for-irish-spring-soap.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/26/10513/uses-for-irish-spring-soap.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/20/11092/vinegar-epsom-salt-weed-killer.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/20/11092/vinegar-epsom-salt-weed-killer.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/20/11071/will-hydrogen-peroxide-kill-weed.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/20/11071/will-hydrogen-peroxide-kill-weed.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2023/10/04/08142/christmas-candle-ideas.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2023/10/04/08142/christmas-candle-ideas.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/06/15/22402/how-to-repurpose-a-bundt-pan.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/15/22402/how-to-repurpose-a-bundt-pan.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/06/16/02561/flower-press-door-pulls.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/16/02561/flower-press-door-pulls.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2025/02/03/56193962_2.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2025/02/03/56193962_2.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/06/09/02123/trash-can-rain-barrel-diy.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/09/02123/trash-can-rain-barrel-diy.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2020/02/17/358596_11.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2020/02/17/358596_11.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/06/09/01213/over-the-arm-sofa-table-httv.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/09/01213/over-the-arm-sofa-table-httv.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2024/01/31/51642185_4.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2024/01/31/51642185_4.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/20/11111/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/20/11111/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/20/11101/post.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/20/11101/post.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/03/27/13003/pringles-can-crafts.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/27/13003/pringles-can-crafts.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2017/04/17/3818763/decorate-your-home-for-spring-using-fresh-flowers-and-plants.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2017/04/17/3818763/decorate-your-home-for-spring-using-fresh-flowers-and-plants.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2014/08/22/780482.JPG",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2014/08/22/780482.JPG?size=50x50"
+      },
+      {
+        "path": "/media/8dft7qzpqk66au78l8mi51510e8348551.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/8dft7qzpqk66au78l8mi51510e8348551.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2017/04/19/97565_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2017/04/19/97565_1.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2017/03/27/3795462/light-up-spring-floral-table-runner-garland.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2017/03/27/3795462/light-up-spring-floral-table-runner-garland.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2016/04/15/5655203_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2016/04/15/5655203_1.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/31/06376/malibu-wide-plank.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/31/06376/malibu-wide-plank.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2020/10/11/49618048_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2020/10/11/49618048_1.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/06/01/10538/uses-for-bar-soap.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/01/10538/uses-for-bar-soap.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/06/01/09546/zip-tie-hacks.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/06/01/09546/zip-tie-hacks.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2020/12/27/50374788_1.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2020/12/27/50374788_1.jpg?size=50x50"
+      },
+      {
+        "path": "/resources/imgs-responsive/avatar-letters/avatar-C-59A1F4.png",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/imgs-responsive/avatar-letters/avatar-C-59A1F4.png?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/16/04461/q-whats-the-best-way-to-put-together-an-easter-basket-with-a-bunny.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/16/04461/q-whats-the-best-way-to-put-together-an-easter-basket-with-a-bunny.jpg?size=350x220"
+      },
+      {
+        "path": "/resources/imgs-responsive/avatar-letters/avatar-E-50E3C2.png",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/imgs-responsive/avatar-letters/avatar-E-50E3C2.png?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/27/13291/q-easter-basket-ideas-for-tweens.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/27/13291/q-easter-basket-ideas-for-tweens.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/03/23/08581/q-easter-egg-scavenger-hunt.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/23/08581/q-easter-egg-scavenger-hunt.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2024/09/01/043317/q-flipping-furniture-what-s-your-best-project.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2024/09/01/043317/q-flipping-furniture-what-s-your-best-project.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2022/08/15/69156877_3.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2022/08/15/69156877_3.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/16/09066/q-what-are-the-best-easter-egg-filler-ideas-besides-candy.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/16/09066/q-what-are-the-best-easter-egg-filler-ideas-besides-candy.jpg?size=350x220"
+      },
+      {
+        "path": "/resources/imgs-responsive/avatar-letters/avatar-S-69E0FF.png",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/resources/imgs-responsive/avatar-letters/avatar-S-69E0FF.png?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/22/12221/q-letter-from-the-easter-bunny.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/22/12221/q-letter-from-the-easter-bunny.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2019/03/21/5376092/easter-egg-garland.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2019/03/21/5376092/easter-egg-garland.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2015/05/11/1669351_2.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2015/05/11/1669351_2.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/04/07/03331/crafting-the-ultimate-homemade-pizza-garden-with-the-harvest-company.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/07/03331/crafting-the-ultimate-homemade-pizza-garden-with-the-harvest-company.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/02/27/03462/spring-cleaning-checklist.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/02/27/03462/spring-cleaning-checklist.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2023/10/05/10201/diy-christmas-wreath-ideas.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2023/10/05/10201/diy-christmas-wreath-ideas.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/02/19/064910/car-organization.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/02/19/064910/car-organization.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/02/19/08341/how-to-keep-your-car-interior-clean.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/02/19/08341/how-to-keep-your-car-interior-clean.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/04/14/03574/robot-vacuum-cleaner-eufy.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/04/14/03574/robot-vacuum-cleaner-eufy.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2024/01/08/50423177_7.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2024/01/08/50423177_7.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2017/03/17/3784158/shaving-cream-easter-eggs.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2017/03/17/3784158/shaving-cream-easter-eggs.jpg?size=350x220"
+      },
+      {
+        "path": "/media/profile/2016/12/10/15779173_2.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/profile/2016/12/10/15779173_2.jpg?size=50x50"
+      },
+      {
+        "path": "/media/2025/03/27/11231/this-natures-miracle-product-is-a-must-have-for-pet-owners.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/27/11231/this-natures-miracle-product-is-a-must-have-for-pet-owners.jpg?size=350x220"
+      },
+      {
+        "path": "/media/2025/03/19/02282/wood-slat-wall-with-led-lights.jpg",
+        "type": "image",
+        "full_url": "https://cdn-fastly.hometalk.com/media/2025/03/19/02282/wood-slat-wall-with-led-lights.jpg?size=350x220"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "DIY Projects for the Home | Hometalk",
+        "description": "Hometalk. The world's largest online community of home and garden DIYers, where you can find tons of how-to's, ideas and advice to create the home you love.",
+        "canonical": "https://www.hometalk.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7536ms"
+        },
+        {
+          "resource": "openads.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "load-libraries.1f3be4873c454d83ea9bcd8b6c02e08c.9014.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "rapid-homepage.9a43c5852a35a990b06c.9014.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Hometalk Shop How to Clean Silver Gutters Windows Bathroom House Floors Carpet Paint Cabinets Furniture Wood Walls Repair Furniture Electric Drywall Appliances Air Conditioning Plumbing Windows Decorate Easter Eggs Rooms Walls Tablescapes Mirror Pillows &amp; Throws Build Decks Doors &amp; Windows Fire Pits Furniture Planters Raised Garden Beds Sheds Shelves Walls Craft Candles Centerpieces Ornaments Party Decor Wreaths Other Grow Upcycle Organize Tile In-depth Guides Product Reviews Rooms &amp; Spaces Living Room Curtains Furniture Lighting Fireplaces &amp; Mantels Chairs Outdoor Garden Kitchen Walkways &amp; Paths Fireplace Decor Lights Porches Pools &amp; Ponds Patios Bedroom Bench Closets Dressers Furniture Organizing Vanities More Kitchen &amp; Dining Bathroom Craft Room Laundry Room Home Office Entryway Basement Outdoor Windows &amp; Doors Floors &amp; Ceilings Staircases Home Tours Explore Projects Hometalk Shop How to Clean Silver Gutters Windows Bathroom House Floors Carpet Paint Cabinets Furniture Wood Walls Repair Furniture Electric Drywall Appliances Air Conditioning Plumbing Windows Decorate Easter Eggs Rooms Walls Tablescapes Mirror Pillows &amp; Throws Build Decks Doors &amp; Windows Fire Pits Furniture Planters Raised Garden Beds Sheds Shelves Walls Craft Candles Centerpieces Ornaments Party Decor Wreaths Other Grow Upcycle Organize Tile In-depth Guides Product Reviews Rooms &amp; Spaces Living Room Curtains Furniture Lighting Fireplaces &amp; Mantels Chairs Outdoor Garden Kitchen Walkways &amp; Paths Fireplace Decor Lights Porches Pools &amp; Ponds Patios Bedroom Bench Closets Dressers Furniture Organizing Vanities More Kitchen &amp; Dining Bathroom Craft Room Laundry Room Home Office Entryway Basement Outdoor Windows &amp; Doors Floors &amp; Ceilings Staircases Home Tours Ask DIY Question + Post Project Ask DIY Question Shop Join Now My History + Post a new Project Saved Projects Notifications Account Settings Log out Support • Privacy Hometalk. Imagine what you can do Build Product Reviews In-depth Guides Upcycle Craft Decorate Repair Paint Grow Organize Clean Tile Kitchen &amp; Dining Living Room Bedroom Bathroom Craft Room Laundry Room Home Office Entryway Basement Outdoor Windows &amp; Doors Floors &amp; Ceilings Staircases Home Tours \"> Build Product Reviews In-depth Guides Upcycle Craft Decorate Repair Paint Grow Organize Clean Tile Kitchen &amp; Dining Living Room Bedroom Bathroom Craft Room Laundry Room Home Office Entryway Basement Outdoor Windows &amp; Doors Floors &amp; Ceilings Staircases Home Tours Warmth in Winter: Elevate Your Space With 6 HERNEST Pieces Hometalk Recommends Discover the Art of an Effortless Clean With the Roborock Qrevo CurvX Hometalk Recommends Midea Flexify Pro: The All-in-One Kitchen Powerhouse for the Holidays Hometalk Recommends Cozy Home Essentials to Get You Through the Final Winter Months Hometalk Recommends Holiday-Ready Homes Begin With Eureka’s Smart Cleaning Solutions Hometalk Recommends Midea Flexify Pro: Maximum Power for Minimal Counter Space Hometalk Recommends New DIY projects The Digz Holiday Gift Guide for the Garden Lovers in Your Life Holiday Deals How to Make PVC Pipe Birds, Animals and More! Jennifer | CrazyDiyMom The Surprising Way Black Pepper Protects Your Plants From Pests Danielle How to Make Coca Cola Weed Killer: A Surprising Garden Hack Hometalk Recommends 5 Clever Ways to Use Irish Spring Soap in Yard and Garden Spaces Danielle 37 DIY Mini Christmas Tree Craft Ideas for the Holidays Amy Poulton, Hometalk Editor Watch video tutorials How to Organize Shoes With DIY Stackable Shoe Boxes Confession time: I used to have a mini avalanche of shoes by every doorway. One wrong step, and boom—face-first into a sneaker pile. Sound familiar? That’s when I stumble…"
+          },
+          {
+            "tag": "p",
+            "text": "DIY Cooling Rack Organizer Create a stylish and functional organizer using items from the Dollar Tree. Perfect for storing small items in the kitchen, bathroom, or any space that needs extra storag…"
+          },
+          {
+            "tag": "p",
+            "text": "DIY Faux Planter Trash Can &amp; Upcycled Stool Project Turn an ordinary trash can into a stylish faux planter and give a thrifted wooden stool a fresh makeover. This project combines easy crafting with upcycling to create fun…"
+          },
+          {
+            "tag": "p",
+            "text": "Cutting Board Soap Station: DIY Soap Dispenser Stand Tired of soap and sponge puddles stacking up on your counter? This DIY soap dispenser stand guide will show you how to use a simple bamboo board and a scrap of lumber to…"
+          },
+          {
+            "tag": "h5",
+            "text": "Answer DIY questions"
+          },
+          {
+            "tag": "h5",
+            "text": "These hometalkers need your help! see all"
+          },
+          {
+            "tag": "h6",
+            "text": "How Can I Make My Own Easter Church Signs?"
+          },
+          {
+            "tag": "p",
+            "text": "I’ve seen so many inspiring Easter church signs this time of year, and it got me thinking—how hard would it be to DIY one? Have you ever made one?I’d love to hang the sig…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What Are the Best Easter Tree Ornaments to Use? /> Bobby Reynolds I want to put together an Easter tree this year, but I’d love to make some of the decorations myself! Have you ever made DIY Easter tree ornaments? What materials work be…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What's your favorite room in your house? /> Amy Poulton, Hometalk Editor We all have that one special spot at home where we feel the most comfortable and relaxed. Whether it’s a cozy reading nook, a stylish living room, or a functional kitchen…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What’s the Best Personalized Easter Gift You’ve Given? /> Aimee I love the idea of personalized Easter gifts but need some inspiration. Have you ever made or bought a personalized Easter favor that was a big hit?"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What are your favorite Easter mantel decor ideas? /> Danielle I want to decorate my mantel for Easter, but I’d love to make some of the decor myself! Have you ever made DIY Easter mantel decorations using carrots, bunny butts, garla…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer Need some DIY help? Ask the community Browse new projects Rubbing Alcohol Weed Killer: A DIY Garden Hack That Actually Works Hometalk Recommends THRIFT STORE VASE UPDATE Decorate and More with Tip 8 Creative Uses for Irish Spring Soap That Go Way Beyond the Shower Danielle Kill Weeds Fast With This Vinegar Epsom Salt Weed Killer Recipe Hometalk Recommends Will Hydrogen Peroxide Kill Weeds: We Tested It so You Don&#039;t Have To Danielle 6 DIY Christmas Candle Ideas to Add a Cozy Glow to Your Home Amy Poulton, Hometalk Editor Watch video tutorials How To Repurpose a Bundt Pan: 6 Clever DIY Ideas for Home &amp; Garden Clever Ways to Use a Cake Pan All Over Your HomeIs your Bundt pan collecting dust at the back of the cupboard? Turns out, that center hole design is good for a whole lo…"
+          },
+          {
+            "tag": "p",
+            "text": "How to Make Flower Press Drawer Pulls With Hot Glue Dried flowers + hot glue = your next favorite DIYI’ve never seen drawer pulls like this in a store and that’s kind of the point. I wanted something handmade and weirdly b…"
+          },
+          {
+            "tag": "p",
+            "text": "Trash Can Rain Barrel DIY: Easy Rainwater Collection for Under $30 If you’ve been eyeing those fancy rain barrels online but can’t justify the price tag, this DIY is about to change your mind.I&#039;m going to show you how to build your own f…"
+          },
+          {
+            "tag": "p",
+            "text": "DIY Over the Arm Sofa Table – Made With Just Two Hangers! An upcycled hanger project that gives your couch a built-in side tableIf your sofa has no nearby surface for a drink or remote, this DIY over the arm sofa table might be…"
+          },
+          {
+            "tag": "h5",
+            "text": "New DIY projects"
+          },
+          {
+            "tag": "p",
+            "text": "3 Surprising Ways to Use Cinnamon in the Garden Hometalk Recommends Baking Soda Weed Killer: A Surprisingly Simple Garden Hack That Works Hometalk Recommends Pringles Can Craft: The Velcro DIY Hack You Need to Try! Danielle Decorate Your Home for Spring Using Fresh Flowers and Plants Brandi Spring Tulip Wreath Christina @ The Frugal Homemaker Light Up Spring Floral Table Runner / Garland Amanda C, Hometalk Team Watch video tutorials How I Upgraded My Home With Malibu Wide Plank Flooring This post is sponsored by Malibu Wide Plank. I was so excited the day my Malibu Wide Plank flooring arrived! I had ordered both engineered hardwood and luxury vinyl plan…"
+          },
+          {
+            "tag": "h6",
+            "text": "Love DIY? Want to inspire others? Join us!"
+          },
+          {
+            "tag": "p",
+            "text": "5 Creative Uses for Bar Soap You Need to Try Bar soap is one of those household items that often gets overlooked beyond the bathroom. However, there are so many practical uses for soap bar around the house that go b…"
+          },
+          {
+            "tag": "p",
+            "text": "Zip Tie Hacks You Didn’t Know You Needed Zip ties are one of those everyday items you might not realize can solve so many of life’s little problems.In this post, I’m sharing some genius ways you can use zip ties…"
+          },
+          {
+            "tag": "h5",
+            "text": "Answer DIY questions"
+          },
+          {
+            "tag": "h5",
+            "text": "These hometalkers need your help! see all"
+          },
+          {
+            "tag": "h6",
+            "text": "What’s the Best Way to Put Together an Easter Basket with a Bunny?"
+          },
+          {
+            "tag": "p",
+            "text": "I want to surprise my kids with an Easter basket that includes a plush bunny!Has anyone done this before? What kind of treats, toys, or goodies should I add?"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What’s a Good Easter Basket Ideas for Tweens? /> Emma Marks My tween says they’re “too old” for Easter baskets, but I still want to put something together.Any ideas for cool, age-appropriate Easter basket fillers that aren’t just…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What Are the Best Ideas for an Easter Egg Scavenger Hunt? /> Danielle I want to set up an Easter egg scavenger hunt that’s more exciting than just hiding eggs in the yard.Has anyone tried fun clues, themed hunts, or special egg surprises?Wo…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer Flipping Furniture: What's Your Best Project? /> Amy Poulton, Hometalk Editor Have you ever tried flipping furniture? It’s a fantastic way to breathe new life into old pieces and create something truly unique.Whether you’re a seasoned pro or just s…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer What Are the Best Easter Egg Filler Ideas Besides Candy? /> Rivka Hellendall I’m trying to cut down on candy this year, but I still want the kids to be excited about their Easter eggs. What are your favorite non-candy fillers for Easter eggs?"
+          },
+          {
+            "tag": "p",
+            "text": "Answer How Do You Make a Letter from the Easter Bunny Feel Magical? /> Sarah I want to leave a special letter from the Easter Bunny for my kids, but I’m not sure what to write! Should it be a riddle, a poem, or just a sweet note? Has anyone done t…"
+          },
+          {
+            "tag": "p",
+            "text": "Answer Browse new projects Easter Egg Garland Shelly L Nemeth Crafting the Ultimate Homemade Pizza Garden With The Harvest Company Hometalk Recommends Spring Cleaning Checklist &amp; Best Products to Get the Job Done Fast Hometalk Recommends 18 DIY Christmas Wreath Ideas, From Traditional to Unique Amy Poulton, Hometalk Editor 7 Creative Car Organization Tips to Keep Your Ride Fresh and Tidy Danielle How to Keep Your Car Interior Clean (Without Losing Your Mind) Hometalk Recommends Watch video tutorials Meet the Eufy E28: The Ultimate 3-in-1 Smart Cleaning Solution This article is sponsored by eufy.We all try to keep our homes clean, but with household dirt, kitchen spills, and chaotic pets, messes happen—and keeping up with them c…"
+          },
+          {
+            "tag": "p",
+            "text": "Shaving Cream Easter Eggs With Easter right around the corner, I&#039;m reminded of one of my most favorite childhood pasttimes - dying Easter eggs! This year, I&#039;ll be trying various methods with my ow…"
+          },
+          {
+            "tag": "p",
+            "text": "This Nature’s Miracle® Product is a Must-Have for Pet Owners This post is sponsored by Nature’s Miracle ®. Accidents are inevitable when you have pets, but cleaning up doesn’t have to be a hassle."
+          },
+          {
+            "tag": "p",
+            "text": "How To Create a Stunning Wood Slat Wall With Led Lights A slat wall accent is an easy way to add character to a space. After seeing different designs, I decided to take my slat wall to the next level by extending it onto the c…"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 84,
+          "headings": 101,
+          "images": 166
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-3B44C325",
+      "path": "/diy/how-to",
+      "type": "Detected Link",
+      "anchor_text": "How to",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D259DF32",
+      "path": "/diy/clean",
+      "type": "Detected Link",
+      "anchor_text": "Clean",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A3E5173D",
+      "path": "/diy/clean/silver",
+      "type": "Detected Link",
+      "anchor_text": "Silver",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EF93451E",
+      "path": "/diy/clean/gutters",
+      "type": "Detected Link",
+      "anchor_text": "Gutters",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9ADE42A",
+      "path": "/diy/clean/windows",
+      "type": "Detected Link",
+      "anchor_text": "Windows",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7242DAC5",
+      "path": "/diy/clean/bathroom",
+      "type": "Detected Link",
+      "anchor_text": "Bathroom",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-87CC3806",
+      "path": "/diy/clean/house",
+      "type": "Detected Link",
+      "anchor_text": "House",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B5051A72",
+      "path": "/diy/clean/floors",
+      "type": "Detected Link",
+      "anchor_text": "Floors",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EA1B6189",
+      "path": "/diy/clean/carpet",
+      "type": "Detected Link",
+      "anchor_text": "Carpet",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F388C790",
+      "path": "/diy/paint",
+      "type": "Detected Link",
+      "anchor_text": "Paint",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-194DCD62",
+      "path": "/diy/paint/cabinets",
+      "type": "Detected Link",
+      "anchor_text": "Cabinets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D36ABEDD",
+      "path": "/diy/paint/furniture",
+      "type": "Detected Link",
+      "anchor_text": "Furniture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-35AE5365",
+      "path": "/diy/paint/wood",
+      "type": "Detected Link",
+      "anchor_text": "Wood",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BD0BE284",
+      "path": "/diy/paint/walls",
+      "type": "Detected Link",
+      "anchor_text": "Walls",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6FF7CF4C",
+      "path": "/diy/repair",
+      "type": "Detected Link",
+      "anchor_text": "Repair",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {
+    "bootstrap": {
+      "method": "UNKNOWN",
+      "url": "/api/app/bootstrap"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "website_blueprint_id": "BLUEPRINT-F4618B88",
+  "generated_at": "2026-01-21T07:27:05.116Z",
+  "global_configuration": {
+    "brand_name": "CoinDesk: Bitcoin, Ethereum, XRP, Crypto News and Price Data",
+    "domain": "www.coindesk.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.22.113",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/9e95ff1376365685.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/9e95ff1376365685.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/6cb872877f9a969b.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/6cb872877f9a969b.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/d0ce76659638cea8.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/d0ce76659638cea8.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/0c53c7bd5aceaef8.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/0c53c7bd5aceaef8.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/2c69285f913c4eea.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/2c69285f913c4eea.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/turbopack-bb2fec1e1417b1f6.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/turbopack-bb2fec1e1417b1f6.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/e1bd9fcca7562ec7.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/e1bd9fcca7562ec7.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/bb75c0cadf3ba956.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/bb75c0cadf3ba956.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/4afad8448c130c08.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/4afad8448c130c08.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/f1948b12d0f5c221.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/f1948b12d0f5c221.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/0de6ea974db8de12.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/0de6ea974db8de12.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/e113fb9362949def.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/e113fb9362949def.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/06630409d726ae2b.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/06630409d726ae2b.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/4f0f7c36d40300a2.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/4f0f7c36d40300a2.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/bf30c8e12040110d.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/bf30c8e12040110d.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/c7db931eed7b4c89.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/c7db931eed7b4c89.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/b40ec2e21e9c3702.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/b40ec2e21e9c3702.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/3c791e282b687582.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/3c791e282b687582.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/05bcd016efd5a645.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/05bcd016efd5a645.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/86745a96afb5d9a4.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/86745a96afb5d9a4.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/73bc16846d1c3c6b.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/73bc16846d1c3c6b.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/a3040152ba73d9b5.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/a3040152ba73d9b5.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/00a0e169becdf84f.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/00a0e169becdf84f.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/38b340ab57b9e5eb.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/38b340ab57b9e5eb.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/9dbd663751dd6211.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/9dbd663751dd6211.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/566ee23b7a20a04e.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/566ee23b7a20a04e.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/6f1b59093d607a06.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/6f1b59093d607a06.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/2a32b55afed32be1.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/2a32b55afed32be1.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/896238c8d0e1f381.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/896238c8d0e1f381.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/2b557510dfaebf2f.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/2b557510dfaebf2f.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/1da5c96001275e71.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/1da5c96001275e71.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/da12cb19df39702e.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/da12cb19df39702e.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/scripttemplates/otSDKStub.js",
+        "type": "script",
+        "full_url": "https://downloads.coindesk.com/scripttemplates/otSDKStub.js"
+      },
+      {
+        "path": "/_next/static/chunks/a6dad97d9634a72d.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/65b10a253a908e50.js",
+        "type": "script",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/65b10a253a908e50.js?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/_next/static/chunks/395e5d40475e2c54.css",
+        "type": "stylesheet",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/395e5d40475e2c54.css?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/1bd0e85af0a7027f.css",
+        "type": "stylesheet",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/1bd0e85af0a7027f.css?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/2cc2335f92c8c9f4.css",
+        "type": "stylesheet",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/2cc2335f92c8c9f4.css?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      },
+      {
+        "path": "/_next/static/chunks/7dc9ada497475ca2.css",
+        "type": "stylesheet",
+        "full_url": "https://www.coindesk.com/_next/static/chunks/7dc9ada497475ca2.css?dpl=dpl_7cvs8NYKkXYHf5mxS487vqhZuyMm"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "CoinDesk: Bitcoin, Ethereum, XRP, Crypto News and Price Data",
+        "description": "Leader in cryptocurrency, Bitcoin, Ethereum, XRP, blockchain, DeFi, digital finance and Web 3.0 news with analysis, video and live price updates.",
+        "canonical": "https://www.coindesk.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "8814ms"
+        },
+        {
+          "resource": "9e95ff1376365685.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "6cb872877f9a969b.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "d0ce76659638cea8.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 0,
+          "images": 0
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

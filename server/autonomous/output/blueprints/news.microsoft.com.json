@@ -1,0 +1,544 @@
+{
+  "website_blueprint_id": "BLUEPRINT-AB7393D9",
+  "generated_at": "2026-01-21T07:27:05.436Z",
+  "global_configuration": {
+    "brand_name": "Microsoft Source",
+    "domain": "news.microsoft.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.20",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "upgrade-insecure-requests; frame-ancestors 'self' https://news.microsoft.com https://news.xbox.com https://blogs.windows.com;",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 43,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/source/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-list.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-list.js"
+      },
+      {
+        "path": "/yett",
+        "type": "script",
+        "full_url": "https://unpkg.com/yett"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-1ds-metrics/assets/ms-core-lib.min.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-1ds-metrics/assets/ms-core-lib.min.js?ver=3.2.18"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-1ds-metrics/assets/ms-init.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-1ds-metrics/assets/ms-init.js?ver=1.2.10"
+      },
+      {
+        "path": "/source/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/source/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js?ver=1.0.1"
+      },
+      {
+        "path": "/mscc/lib/v2/wcp-consent.js",
+        "type": "script",
+        "full_url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"
+      },
+      {
+        "path": "/onerfstatics/marketingsites-wcus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0",
+        "type": "script",
+        "full_url": "https://www.microsoft.com/onerfstatics/marketingsites-wcus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0?ver=2.0&_cf=02242021_3231&iife=1"
+      },
+      {
+        "path": "/source/wp-content/plugins/wp-smartcrop/js/jquery.wp-smartcrop.min.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/wp-smartcrop/js/jquery.wp-smartcrop.min.js?ver=2.0.10"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-uhf-cookies//scripts.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-uhf-cookies//scripts.js?ver=37"
+      },
+      {
+        "path": "/npm/slick-carousel@1.8.1/slick/slick.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?ver=4.5.1"
+      },
+      {
+        "path": "/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js?ver=4.5.1"
+      },
+      {
+        "path": "/source/wp-content/themes/source-theme/assets/js/theme.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/themes/source-theme/assets/js/theme.js?ver=4.5.1"
+      },
+      {
+        "path": "/source/wp-content/plugins/page-links-to/dist/new-tab.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7"
+      },
+      {
+        "path": "/source/wp-content/plugins/nlweb-search/assets/js/scripts.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/nlweb-search/assets/js/scripts.js?ver=0.0.1"
+      },
+      {
+        "path": "/source/wp-content/plugins/nlweb-search/assets/js/iframe-parent-handler.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/nlweb-search/assets/js/iframe-parent-handler.js?ver=0.0.1"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-oembeds/cookie-consent.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-oembeds/cookie-consent.js?ver=1.0.0"
+      },
+      {
+        "path": "/source/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js",
+        "type": "script",
+        "full_url": "https://news.microsoft.com/source/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js?ver=1.0.1"
+      },
+      {
+        "path": "/onerfstatics/marketingsites-wcus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c",
+        "type": "stylesheet",
+        "full_url": "https://www.microsoft.com/onerfstatics/marketingsites-wcus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&amp;_cf=02242021_3231"
+      },
+      {
+        "path": "/images/microsoft/RE1Mu3b.png",
+        "type": "image",
+        "full_url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
+      },
+      {
+        "path": "/cms/api/am/imageFileData/RE1Mu3b",
+        "type": "image",
+        "full_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/trevor-960.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/trevor-960.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/pharmacist-bramwel-othieno-checking-stock-zendawa-microsoft960.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/pharmacist-bramwel-othieno-checking-stock-zendawa-microsoft960.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/MSFT-Kim-Akers-08-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/MSFT-Kim-Akers-08-1024x576.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/Alex_Kendall_Wayve_Microsoft_960-726x683.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/Alex_Kendall_Wayve_Microsoft_960-726x683.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/OST_For_960-731x683.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/OST_For_960-731x683.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/11/AIDiffusionHeader-960-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/11/AIDiffusionHeader-960-765x720.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/image-960-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/image-960-765x720.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/Security-Network-ai-1-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/Security-Network-ai-1-765x720.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/Microsoft-AI-for-Social-Impact_960-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/Microsoft-AI-for-Social-Impact_960-765x720.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/12/intuit-960-768x723.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/12/intuit-960-768x723.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/12/MS_AiBlog_HeroBnr_Final_1x-768x431.png",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/12/MS_AiBlog_HeroBnr_Final_1x-768x431.png"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/12/jaron-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/12/jaron-765x720.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2026/01/Canal_17963-960-768x721.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2026/01/Canal_17963-960-768x721.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/07/hero-2-3-768x432.png",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/07/hero-2-3-768x432.png"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/05/AI-legal-hero-768x408.png",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/05/AI-legal-hero-768x408.png"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/11/Veterans_2-768x430.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/11/Veterans_2-768x430.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/10/Vodaphone-768x429.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/10/Vodaphone-768x429.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/10/KaminiICanPutUpWallpaperNow3-2-768x512.png",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/10/KaminiICanPutUpWallpaperNow3-2-768x512.png"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/08/IMG_7766-815-768x576.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/08/IMG_7766-815-768x576.jpg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/05/Microsoft-quantifies-environmental-impacts-of-datacenter-cooling-hero-768x432.jpeg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/05/Microsoft-quantifies-environmental-impacts-of-datacenter-cooling-hero-768x432.jpeg"
+      },
+      {
+        "path": "/source/wp-content/uploads/2025/10/01-microsoft-datacenter-sustainability960-765x720.jpg",
+        "type": "image",
+        "full_url": "https://news.microsoft.com/source/wp-content/uploads/2025/10/01-microsoft-datacenter-sustainability960-765x720.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Microsoft Source",
+        "description": "The latest news and stories about how technology is helping people around the world solve problems, innovate and do more each day.",
+        "canonical": "https://news.microsoft.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9637ms"
+        },
+        {
+          "resource": "microsoft-cookie-list.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "yett",
+          "latency": "pending"
+        },
+        {
+          "resource": "ms-core-lib.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Source",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Global",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "From Signal magazine: Trevor Noah on the reasons to be cheerful about 2026",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The digital medicine for pharmacies: How AI is powering Kenya&#8217;s chemists",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Global"
+          },
+          {
+            "tag": "p",
+            "text": "Find out what&#8217;s new and what&#8217;s next for AI and tech on the new&nbsp;"
+          },
+          {
+            "tag": "h2",
+            "text": "More from AI"
+          },
+          {
+            "tag": "h3",
+            "text": "From Signal magazine: How AI is reshaping the game on and off the court"
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next in AI: 7 trends to watch in 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "From Signal magazine: How Jaron Lanier is reframing what it means to build – and trust – AI"
+          },
+          {
+            "tag": "h2",
+            "text": "More from Security"
+          },
+          {
+            "tag": "h3",
+            "text": "From Signal magazine: Inside the global hunt to shut down a criminal malware network"
+          },
+          {
+            "tag": "h3",
+            "text": "Deceived, not hacked: Why keeping people safe online now starts with smarter design"
+          },
+          {
+            "tag": "h3",
+            "text": "How Microsoft is taking down AI hackers who create harmful images of celebrities and others"
+          },
+          {
+            "tag": "h2",
+            "text": "More from Digital Transformation"
+          },
+          {
+            "tag": "h3",
+            "text": "Colleges and universities are helping US military veterans gear up for a new mission: fighting cyber criminals"
+          },
+          {
+            "tag": "h3",
+            "text": "From Signal magazine: A leap of faith: How Vodafone bet big on AI – and won"
+          },
+          {
+            "tag": "h3",
+            "text": "‘The author of my own life’: How Australia’s Head Start Homes uses AI to help people realize their dream of home ownership"
+          },
+          {
+            "tag": "h2",
+            "text": "More from Sustainability"
+          },
+          {
+            "tag": "h3",
+            "text": "How AI can help save hidden ‘biological hotspots’ the planet needs"
+          },
+          {
+            "tag": "h3",
+            "text": "Microsoft quantifies environmental impacts of datacenter cooling from ‘cradle to grave’ in new Nature study"
+          },
+          {
+            "tag": "h3",
+            "text": "Building the future: How datacenters are innovating with sustainability in mind"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 25,
+          "headings": 29,
+          "images": 23
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-3CED0A47",
+      "path": "/source",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-91A9FF5D",
+      "path": "/signal/",
+      "type": "Detected Link",
+      "anchor_text": "Signal blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-185FB781",
+      "path": "/apac/",
+      "type": "Detected Link",
+      "anchor_text": "Asia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-45A05B10",
+      "path": "/source/canada/",
+      "type": "Detected Link",
+      "anchor_text": "Canada",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C22A9BEE",
+      "path": "/europe/",
+      "type": "Detected Link",
+      "anchor_text": "Europe, Middle East and Africa",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1AC411B3",
+      "path": "/es-xl/",
+      "type": "Detected Link",
+      "anchor_text": "Latin America",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-27464BF8",
+      "path": "/codeofus",
+      "type": "Detected Link",
+      "anchor_text": "The Code of Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-685C75FC",
+      "path": "/source/topics/ai/",
+      "type": "Detected Link",
+      "anchor_text": "AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E690A7A1",
+      "path": "/source/topics/innovation/",
+      "type": "Detected Link",
+      "anchor_text": "Innovation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6191C0FC",
+      "path": "/source/topics/digital-transformation/",
+      "type": "Detected Link",
+      "anchor_text": "Digital Transformation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1AFF795E",
+      "path": "/source/topics/sustainability/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainability",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-088898D4",
+      "path": "/source/topics/security/",
+      "type": "Detected Link",
+      "anchor_text": "Security",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DCD35D18",
+      "path": "/source/topics/work-life/",
+      "type": "Detected Link",
+      "anchor_text": "Work &amp; Life",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3A235C3D",
+      "path": "/source/topics/diversity-inclusion/",
+      "type": "Detected Link",
+      "anchor_text": "Diversity &amp; Inclusion",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F514BE6",
+      "path": "/signalmagazine/issue/issue-03/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,529 @@
+{
+  "website_blueprint_id": "BLUEPRINT-4BF5F8B4",
+  "generated_at": "2026-01-21T07:27:05.106Z",
+  "global_configuration": {
+    "brand_name": "World History Encyclopedia",
+    "domain": "www.worldhistory.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.66.145.189",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=30, s-maxage=86400",
+      "Content-Security-Policy": "frame-ancestors 'self'",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/ajax/visitor-info.js.php",
+        "type": "script",
+        "full_url": "https://www.worldhistory.org/ajax/visitor-info.js.php?v=1768574139"
+      },
+      {
+        "path": "/npm/jquery@3.6.1/dist/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"
+      },
+      {
+        "path": "/js/ahe-min.js",
+        "type": "script",
+        "full_url": "https://www.worldhistory.org/js/ahe-min.js?v=1768574139"
+      },
+      {
+        "path": "/analytics/pageview.js",
+        "type": "script",
+        "full_url": "https://www.worldhistory.org/analytics/pageview.js?v=1768574139"
+      },
+      {
+        "path": "/js/kwicks.min.2.2.1.js",
+        "type": "script",
+        "full_url": "https://www.worldhistory.org/js/kwicks.min.2.2.1.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-DMCY1BLGCJ"
+      },
+      {
+        "path": "/analytics.js",
+        "type": "script",
+        "full_url": "https://analytics.ahrefs.com/analytics.js"
+      },
+      {
+        "path": "/c3po.jpg",
+        "type": "image",
+        "full_url": "https://tracker.metricool.com/c3po.jpg?hash=583da8995f3bf53448b13ddf790ada6c"
+      },
+      {
+        "path": "/template/images/whe_square_white.svg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/whe_square_white.svg"
+      },
+      {
+        "path": "/template/images/header/whe-logo-white-r.svg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/header/whe-logo-white-r.svg"
+      },
+      {
+        "path": "/template/images/header/whe-logo-r.svg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/header/whe-logo-r.svg"
+      },
+      {
+        "path": "/img/c/p/360x202/6685.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/6685.jpg?v=1736408712"
+      },
+      {
+        "path": "/img/c/p/360x202/21539.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21539.png?v=1768911845-1768891600"
+      },
+      {
+        "path": "/img/c/p/360x202/347.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/347.jpg?v=1759361945"
+      },
+      {
+        "path": "/img/c/p/360x202/21467.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21467.jpg?v=1768911854-1768392777"
+      },
+      {
+        "path": "/img/c/p/360x202/10591.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/10591.jpg?v=1768911861-1724658887"
+      },
+      {
+        "path": "/img/c/p/360x202/10010.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/10010.jpg?v=1768911847"
+      },
+      {
+        "path": "/img/c/p/360x202/6155.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/6155.jpg?v=1768911864"
+      },
+      {
+        "path": "/img/c/p/360x202/21527.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21527.jpg?v=1768911870-1768471170"
+      },
+      {
+        "path": "/img/c/p/360x202/14929.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/14929.jpg?v=1768763355"
+      },
+      {
+        "path": "/img/c/p/360x202/20390.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/20390.png?v=1768911908-1765364192"
+      },
+      {
+        "path": "/img/c/p/360x202/21518.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21518.jpg?v=1768763365-1768336036"
+      },
+      {
+        "path": "/img/c/p/360x202/21529.jpeg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21529.jpeg?v=1768911867-1768288598"
+      },
+      {
+        "path": "/img/c/p/360x202/21523.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21523.jpg?v=1768911904-1767949633"
+      },
+      {
+        "path": "/img/c/p/360x202/21119.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21119.png?v=1768921145-1759291607"
+      },
+      {
+        "path": "/img/c/p/360x202/21484.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21484.png?v=1768763411-1768185597"
+      },
+      {
+        "path": "/img/c/p/360x202/21512.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21512.png?v=1768921151-1767861031"
+      },
+      {
+        "path": "/img/c/p/360x202/21488.jpg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21488.jpg?v=1768921148-1767637095"
+      },
+      {
+        "path": "/img/c/p/360x202/21506.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21506.png?v=1768811049-1767608983"
+      },
+      {
+        "path": "/images/anthem-24-silver-winnner.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/anthem-24-silver-winnner.png"
+      },
+      {
+        "path": "/images/ahe-webaward-200x200.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/ahe-webaward-200x200.png"
+      },
+      {
+        "path": "/images/lovie-award-badge.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/lovie-award-badge.png"
+      },
+      {
+        "path": "/images/reimagine-edu-shortlisted.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/reimagine-edu-shortlisted.png"
+      },
+      {
+        "path": "/images/award-tutorful-200px.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/award-tutorful-200px.png"
+      },
+      {
+        "path": "/images/tutorhouse.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/tutorhouse.png"
+      },
+      {
+        "path": "/goodpods-images-bucket/leaderboard_badges/history_all-history_top50_month.png",
+        "type": "image",
+        "full_url": "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/history_all-history_top50_month.png"
+      },
+      {
+        "path": "/prod/v1/pdp/transparency-seal/15451557/svg",
+        "type": "image",
+        "full_url": "https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/15451557/svg"
+      },
+      {
+        "path": "/Images/Forsaken_14th_Century/mockup_forsaken_14th_century_600px.png",
+        "type": "image",
+        "full_url": "https://files.worldhistory.org/Images/Forsaken_14th_Century/mockup_forsaken_14th_century_600px.png"
+      },
+      {
+        "path": "/template/images/membership/membership-sidetab-en.svg",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/membership/membership-sidetab-en.svg?v=1768574139"
+      },
+      {
+        "path": "/images/partners/unesco_archives_white.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/partners/unesco_archives_white.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "World History Encyclopedia",
+        "description": "The free online history encyclopedia with fact-checked articles, images, videos, maps, timelines and more; operated as a non-profit organization.",
+        "canonical": "https://www.worldhistory.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9014ms"
+        },
+        {
+          "resource": "visitor-info.js.php",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "ahe-min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "World History Encyclopedia",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Free for the World, Supported by You",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "About Us",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Media Library",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "World History Encyclopedia is a non-profit organization. Please support free history education for millions of learners worldwide for only $5 per month by becoming a member. Thank you!"
+          },
+          {
+            "tag": "p",
+            "text": "Definition Ur - The Great Biblical City Abandoned by the Gods Ur was a city in the region of Sumer, in southern Mesopotamia, and its ruins lie in what is modern-day Tell el-Muqayyar, Iraq. According to biblical... Article The Last Kingdom TV Series - Historical Accuracy The Last Kingdom (2015-2022) is a historical fiction TV series based on Bernard Cornwell's The Saxon Stories novels and adapted for television by English... Definition Uruk - The First Great City Uruk was one of the most important cities (at one time, the most important) in ancient Mesopotamia. According to the Sumerian King List, it was founded... Article Ten Ancient Egypt Facts You Need to Know - Fun Trivia About Ancient Egypt Ancient Egypt is defined as the civilization that flourished in North Africa between circa 6000 and 30 BCE – from the Predynastic Period in Egypt (circa... Definition Eridu - The Divine Birthplace of Kingship and Order Eridu (present-day Abu Shahrein, Iraq) was considered the first city in the world by the ancient Sumerians and is among the most ancient of the ruins... Article Interview with Barry Strauss: Jews vs. Rome - The Latest Book by Barry Strauss For over two centuries, ancient Judea was a restless province of the Roman Empire, marked by rebellions, shifting loyalties, and the tensions between... Definition Cleopatra VII - The Last Great Pharaoh of Ancient Egypt Cleopatra VII (69-30 BCE, reign 51-30 BCE) was the last ruler of Egypt before it was annexed as a province of Rome. Arguably the most famous Egyptian... Article Causes of the American Civil War - Spoiler Alert: It Was All About Slavery There was actually only one cause for the American Civil War: slavery. All the events leading to the Civil War, understood as steps moving steadily... Definition Monroe Doctrine - The Controversial Cornerstone of US Foreign Policy The Monroe Doctrine, a significant piece of United States foreign policy, was first articulated by President James Monroe in 1823, and it essentially... Definition Sumerian King List - Who Was King? And Who Was Not King? The Sumerian King List (abbreviated as SKL and also known as Chronicle of the One Monarchy) is an ancient Sumerian document whose earliest version is... Article Clothing in the Victorian Era - Getting the Right Balance of Fabric, Figure, and Flashiness Striking silhouettes, sumptuous fabrics, bright colours, frills galore, and all manner of ornate accessories define the clothing of the Victorian period... Definition American Civil War - The Birthpangs of the United States The American Civil War (1861-1865) was the pivotal event in United States history and the largest armed conflict in the Western world following the... Image Gallery The Story of WWI in 50 Images The First World War (1914-18) was the first global conflict, the first mechanised conflict, and the first to involve civilians far from the fighting... Article Battle of Verdun - The Longest Battle of World War I When German generals decided on a strategy of attrition to methodically wear down the French Army in the middle of the First World War (1914-18), the... Definition Jefferson Davis - President of the Confederate States Jefferson Davis (1808-1889) was a planter, soldier, and politician from Mississippi, who served as the first and only president of the Confederate States... Article 10 World War I Poems The First World War (1914-18) stimulated a great wave of literary output, not least in the field of poetry. In an era when photography and film were... About Us We are a non-profit organization publishing the world's most read history encyclopedia."
+          },
+          {
+            "tag": "p",
+            "text": "Our mission is to engage people with cultural heritage and to improve history education worldwide."
+          },
+          {
+            "tag": "h2",
+            "text": "Media Library"
+          },
+          {
+            "tag": "p",
+            "text": "Explore our Media Library with 22,194 images, videos, and 3D models."
+          },
+          {
+            "tag": "h2",
+            "text": "Awards"
+          },
+          {
+            "tag": "h2",
+            "text": "Newsletter"
+          },
+          {
+            "tag": "p",
+            "text": "History delivered to you once a week:"
+          },
+          {
+            "tag": "p",
+            "text": "Are you a...?"
+          },
+          {
+            "tag": "h2",
+            "text": "Statistics"
+          },
+          {
+            "tag": "p",
+            "text": "2,902 definitions 1,695 articles 19,187 illustrations 2,592 videos 415 3D images 13,043 translations 1,244 contributors 36,408 registered users"
+          },
+          {
+            "tag": "p",
+            "text": "What in the world was happening in the 14th century? Violence, uprisings, power struggles, wars, climate change, an epidemic, extensive trade networks – a new world order was emerging, one that fundamentally shaped the societies we see across the globe today."
+          },
+          {
+            "tag": "p",
+            "text": "&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "Numerous educational institutions recommend us, including Oxford University . We have been reviewed for educational use by Common Sense Education , Internet Scout (University of Wisconsin) , Merlot (California State University) , OER Commons , the School Library Journal and Teach Magazine . Please note that some of these recommendations are listed under our former name, Ancient History Encyclopedia."
+          },
+          {
+            "tag": "p",
+            "text": "About &bull; Contact &bull; Blog &bull; Sponsorship &bull; Privacy Policy &bull; Terms of Use &bull; Partners &bull; Supporters &bull; Newsletter &bull; Settings World History Foundation is a 501(c)3 charity registered in the United States. World History Publishing is a non-profit organization registered in the United Kingdom. World History Foundation is a non-profit organization registered in Québec, Canada."
+          },
+          {
+            "tag": "p",
+            "text": "We care about our planet! We contribute a share of our revenue to remove carbon from the atmosphere."
+          },
+          {
+            "tag": "p",
+            "text": "Some Rights Reserved (2009-2026) under Creative Commons Attribution-NonCommercial-ShareAlike license unless otherwise noted."
+          },
+          {
+            "tag": "p",
+            "text": "The World History Encyclopedia logo is a registered trademark ."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 72,
+          "headings": 25,
+          "images": 34
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-36F6E6AA",
+      "path": "/ai/",
+      "type": "Detected Link",
+      "anchor_text": "History AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7389BB07",
+      "path": "/index/",
+      "type": "Detected Link",
+      "anchor_text": "Encyclopedia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-998EE971",
+      "path": "/timeline/",
+      "type": "Detected Link",
+      "anchor_text": "Timeline",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-042C433F",
+      "path": "/mapselect/",
+      "type": "Detected Link",
+      "anchor_text": "Maps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0C4308BB",
+      "path": "/books/",
+      "type": "Detected Link",
+      "anchor_text": "Book Reviews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4406115B",
+      "path": "/trans/",
+      "type": "Detected Link",
+      "anchor_text": "Translations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0CD02DCE",
+      "path": "/shop/magazines/insider/",
+      "type": "Detected Link",
+      "anchor_text": "Magazine",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C5109D5E",
+      "path": "/edu/",
+      "type": "Detected Link",
+      "anchor_text": "Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-405A47E8",
+      "path": "/edu/teaching-resources/",
+      "type": "Detected Link",
+      "anchor_text": "Teaching Materials",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-53F4A527",
+      "path": "/xres/",
+      "type": "Detected Link",
+      "anchor_text": "Link Database",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-812516C1",
+      "path": "/type/11/1/",
+      "type": "Detected Link",
+      "anchor_text": "Quizzes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8FCCF84A",
+      "path": "/category/100/1/",
+      "type": "Detected Link",
+      "anchor_text": "Primary Sources",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7A564D15",
+      "path": "/edu/collections/",
+      "type": "Detected Link",
+      "anchor_text": "Collections",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FF8CD5F2",
+      "path": "/edu/subscription/",
+      "type": "Detected Link",
+      "anchor_text": "School Subscription",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D65CDA5B",
+      "path": "/medialibrary/",
+      "type": "Detected Link",
+      "anchor_text": "Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

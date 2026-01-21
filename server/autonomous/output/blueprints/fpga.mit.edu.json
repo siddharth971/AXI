@@ -1,0 +1,85 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C4DE1BEA",
+  "generated_at": "2026-01-21T07:26:54.717Z",
+  "global_configuration": {
+    "brand_name": "Welcome to nginx!",
+    "domain": "fpga.mit.edu",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "18.25.4.209",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx/1.18.0"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx/1.18.0"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 0,
+      "total_size_mb": 0
+    },
+    "core_assets": []
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Welcome to nginx!",
+        "description": "",
+        "canonical": "https://fpga.mit.edu"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "18899ms"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome to fpga.mit.edu",
+          "h2_subtitle": "The only thing of note here right now is the Fall 2025 6.205 class page. You can find that here.",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Welcome to fpga.mit.edu"
+          },
+          {
+            "tag": "p",
+            "text": "The only thing of note here right now is the Fall 2025 6.205 class page. You can find that here."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 1,
+          "headings": 1,
+          "images": 0
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-F4A18B98",
+      "path": "/6205",
+      "type": "Detected Link",
+      "anchor_text": "here.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

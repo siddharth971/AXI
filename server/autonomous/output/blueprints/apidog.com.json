@@ -1,0 +1,162 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BA70C827",
+  "generated_at": "2026-01-21T07:26:54.685Z",
+  "global_configuration": {
+    "brand_name": "apidog.com",
+    "domain": "apidog.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "52.223.63.172",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=300",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 17,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/www/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/webpack-770c44ec8476262e.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/webpack-770c44ec8476262e.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/framework-0a897eab13466586.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/framework-0a897eab13466586.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/main-fc53330f8b4a0336.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/main-fc53330f8b4a0336.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/pages/_app-51a4b1a597bbaaa1.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/pages/_app-51a4b1a597bbaaa1.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/4769-f8b8d2fa680becec.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/4769-f8b8d2fa680becec.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/2571-458496a8ef51cc38.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/2571-458496a8ef51cc38.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/5495-51c409295c01f553.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/5495-51c409295c01f553.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/6562-8c83ca20ddf85cf9.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/6562-8c83ca20ddf85cf9.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/8574-b74516ff56f87d94.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/8574-b74516ff56f87d94.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/2021-64ab859716e49cec.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/2021-64ab859716e49cec.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/4174-95cd4d48114014c1.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/4174-95cd4d48114014c1.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/pages/index-1b36f7eac6e323bc.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/chunks/pages/index-1b36f7eac6e323bc.js"
+      },
+      {
+        "path": "/www/_next/static/wOBIJQpU7HOVnvSokRelH/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/wOBIJQpU7HOVnvSokRelH/_buildManifest.js"
+      },
+      {
+        "path": "/www/_next/static/wOBIJQpU7HOVnvSokRelH/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://assets.apidog.com/www/_next/static/wOBIJQpU7HOVnvSokRelH/_ssgManifest.js"
+      },
+      {
+        "path": "/www/_next/static/css/3e43f3b973c7c4e1.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.apidog.com/www/_next/static/css/3e43f3b973c7c4e1.css"
+      },
+      {
+        "path": "/www/_next/static/css/282964501e9d0f2d.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.apidog.com/www/_next/static/css/282964501e9d0f2d.css"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "apidog.com",
+        "description": "",
+        "canonical": "https://apidog.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "16306ms"
+        },
+        {
+          "resource": "polyfills-c67a75d1b6f99dc8.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-770c44ec8476262e.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-0a897eab13466586.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 0,
+          "images": 0
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

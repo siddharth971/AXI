@@ -1,0 +1,1706 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BE78AB12",
+  "generated_at": "2026-01-21T07:27:05.072Z",
+  "global_configuration": {
+    "brand_name": "Homesthetics",
+    "domain": "homesthetics.net",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.26.2.145",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 165,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-G5TMG4NE90"
+      },
+      {
+        "path": "/affiliate.mvp.min.js",
+        "type": "script",
+        "full_url": "https://affiliate-cdn.raptive.com/affiliate.mvp.min.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/core.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/mouse.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/resizable.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-blind.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-blind.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-bounce.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-bounce.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-clip.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-clip.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-drop.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-drop.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-explode.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-explode.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-fade.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-fade.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-fold.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-fold.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-highlight.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-pulsate.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-size.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-size.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-scale.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-scale.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-shake.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-shake.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-slide.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/effect-puff.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-includes/js/jquery/ui/effect-puff.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-content/plugins/tabbed//Scripts/Tabs-Rich-Web-Widget.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/tabbed//Scripts/Tabs-Rich-Web-Widget.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/pinterest-pin-it-button-on-image-hover-and-post/js/pinit.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/pinterest-pin-it-button-on-image-hover-and-post/js/pinit.js"
+      },
+      {
+        "path": "/Badges/DMCABadgeHelper.min.js",
+        "type": "script",
+        "full_url": "https://images.dmca.com/Badges/DMCABadgeHelper.min.js"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/helpie_faq-premium/assets/bundles/main.app.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/helpie_faq-premium/assets/bundles/main.app.js?ver=1.8.1"
+      },
+      {
+        "path": "/wp-content/plugins/pinterest-pin-it-button-on-image-hover-and-post/js/main.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/pinterest-pin-it-button-on-image-hover-and-post/js/main.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?ver=2.0.69.1"
+      },
+      {
+        "path": "/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2"
+      },
+      {
+        "path": "/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.69.1-1759792349"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/js/navigation.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/js/navigation.js?ver=20151215"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/js/jquery-3.2.1.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/js/jquery-3.2.1.min.js?ver=20151215"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/js/bootstrap.min.js?ver=20151215"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/js/custom.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/js/custom.js?ver=20151215"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/js/skip-link-focus-fix.js",
+        "type": "script",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/js/skip-link-focus-fix.js?ver=20151215"
+      },
+      {
+        "path": "/widgets/onejs",
+        "type": "script",
+        "full_url": "https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=8422ef25-00c2-44db-ba9c-da773acc538e"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/Logo_Ver4_RGB.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/08/Logo_Ver4_RGB.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Vintage-Christmas-Tree.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Vintage-Christmas-Tree.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Paper-Christmas-Decorations.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Paper-Christmas-Decorations.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Featured-Image.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Featured-Image.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Christmas-Tree-Lights.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Christmas-Tree-Lights.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/09/Burlap-Ribbon-Wreaths-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/09/Burlap-Ribbon-Wreaths-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/11/Desktop13.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/11/Desktop13.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/11/33-Super-Smart-and-Inexpensive-Affordable-DIY-Christmas-Decorations.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/11/33-Super-Smart-and-Inexpensive-Affordable-DIY-Christmas-Decorations.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Christmas-Ornament-Storage-Ideas-5-1.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Christmas-Ornament-Storage-Ideas-5-1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-15.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-15.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Christmas-Stockings1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Christmas-Stockings1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Luxury-Christmas-Wrapping-Paper.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Luxury-Christmas-Wrapping-Paper.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Christmas-Plants-2-1.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Christmas-Plants-2-1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Christmas-Mugs-1.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Christmas-Mugs-1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/12/Desktop23.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/12/Desktop23.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/12/Mind-Blowing-Christmas-Pallet-Projects-That-Will-Give-A-Festive-Touch-To-Your-Home.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/12/Mind-Blowing-Christmas-Pallet-Projects-That-Will-Give-A-Festive-Touch-To-Your-Home.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Rustic-Christmas-Tree.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Rustic-Christmas-Tree.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Whimsical-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/10/Whimsical-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Pastel-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Pastel-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Themed-Christmas-Tree.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Themed-Christmas-Tree.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Red-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/10/Red-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/White-and-Silver-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/10/White-and-Silver-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Gold-and-Glam-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/10/Gold-and-Glam-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Blue-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Blue-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Multi-Colored-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Multi-Colored-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Black-and-White-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Black-and-White-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Natural-and-Eco-friendly-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Natural-and-Eco-friendly-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Metallic-Accents-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Metallic-Accents-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Handmade-Ornament-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Handmade-Ornament-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Lighting-Specials-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Lighting-Specials-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Minimalist-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Minimalist-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Luxury-and-Designer-Christmas-Trees.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Luxury-and-Designer-Christmas-Trees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Nature-and-Wildlife-Christmas-Tree.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Nature-and-Wildlife-Christmas-Tree.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/09/Learn-How-to-Make-69-DIY-Homemade-Bird-Feeders-Today.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/09/Learn-How-to-Make-69-DIY-Homemade-Bird-Feeders-Today.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/12/Incredibly-Beautiful-Acorn-Crafts-to-Pursue.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2016/12/Incredibly-Beautiful-Acorn-Crafts-to-Pursue.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/05/47-Insanely-Unusual-and-Cool-Mailboxes-For-Your-Home-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/05/47-Insanely-Unusual-and-Cool-Mailboxes-For-Your-Home-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/02/45-Magic-DIY-Rustic-Wedding-Decorations-to-Embrace.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/02/45-Magic-DIY-Rustic-Wedding-Decorations-to-Embrace.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/05/Ingenious-Cheap-DIY-Nightstands.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2016/05/Ingenious-Cheap-DIY-Nightstands.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/05/Tree-Bed-Designs.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/05/Tree-Bed-Designs.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/10/79-Smart-Cheap-Homemade-DIY-Headboard-Ideas-to-Realize-Swiftly.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2018/10/79-Smart-Cheap-Homemade-DIY-Headboard-Ideas-to-Realize-Swiftly.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/03/33-Awesomely-Cool-DIY-Light-Fixtures-That-Will-Illuminate-With-Warmth.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2018/03/33-Awesomely-Cool-DIY-Light-Fixtures-That-Will-Illuminate-With-Warmth.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/02/DIY-Coffee-Bar.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/02/DIY-Coffee-Bar.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/01/DIY-Cork-Craft-Projects.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/01/DIY-Cork-Craft-Projects.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Wine-Bottle-Crafts-0001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/Wine-Bottle-Crafts-0001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/07/Decore-Your-Home-With-Creative-DIY-Bamboo-Crafts.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2016/07/Decore-Your-Home-With-Creative-DIY-Bamboo-Crafts.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/02/DIY-plastic-spoons-crafts.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/02/DIY-plastic-spoons-crafts.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/05/20Super-Cool-DIY-PVC-Pipe-Projects-Worth-Realizing.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2016/05/20Super-Cool-DIY-PVC-Pipe-Projects-Worth-Realizing.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/12/57-DIY-Free-Bookshelf-Plans-Learn-How-to-Build-a-Bookshelf-or-Bookcase.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/12/57-DIY-Free-Bookshelf-Plans-Learn-How-to-Build-a-Bookshelf-or-Bookcase.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/08/15-Beautiful-and-Inexpensive-DIY-Wood-Lamp-Designs-to-Materialize-21.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/08/15-Beautiful-and-Inexpensive-DIY-Wood-Lamp-Designs-to-Materialize-21.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/05/diy-desk-decor.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/05/diy-desk-decor.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/01/bold-red-accent-wall-001-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/01/bold-red-accent-wall-001-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Artboard-1-copy-10.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Artboard-1-copy-10.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-7.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-7.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Artificial-Christmas-Trees-7-1.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Artificial-Christmas-Trees-7-1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-6.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-6.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Best-Tabletop-Christmas-Trees.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Best-Tabletop-Christmas-Trees.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/how-to-dispose-of-artificial-christmas-tree.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/how-to-dispose-of-artificial-christmas-tree.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/how-long-do-artificial-christmas-trees-last.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/how-long-do-artificial-christmas-trees-last.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/11/20-Magical-Alternative-Christmas-Trees-for-a-Merry-Christmas.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/11/20-Magical-Alternative-Christmas-Trees-for-a-Merry-Christmas.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-13.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-13.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-11.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-11.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-10.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-10.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/How-to-Make-a-Succulent-Christmas-Tree-2-1.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/How-to-Make-a-Succulent-Christmas-Tree-2-1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-5.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-5.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/how-to-keep-outdoor-christmas-tree-from-blowing-over.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/how-to-keep-outdoor-christmas-tree-from-blowing-over.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-4.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-4.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-3.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-3.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/how-to-shape-an-artificial-christmas-tree.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/how-to-shape-an-artificial-christmas-tree.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/how-to-keep-cat-away-from-christmas-tree-1-2.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/how-to-keep-cat-away-from-christmas-tree-1-2.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-2.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-2.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/When-to-take-christmas-tree-down.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/When-to-take-christmas-tree-down.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Christmas-Tree-Delivery-Services.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/Christmas-Tree-Delivery-Services.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/1-12.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/07/1-12.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/12/Desktop16.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2015/12/Desktop16.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/12/29-Awesome-Hard-Things-to-Draw-In-Ink-That-Will-Challenge-You.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/12/29-Awesome-Hard-Things-to-Draw-In-Ink-That-Will-Challenge-You.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/03/Things-To-Draw-On-A-Whiteboard-01.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2022/03/Things-To-Draw-On-A-Whiteboard-01.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/12/Colored-Pencil-Drawing-Ideas-001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/12/Colored-Pencil-Drawing-Ideas-001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/cartoon-drawing-ideas-001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/cartoon-drawing-ideas-001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Drawing-Ideas-for-Girls-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/Drawing-Ideas-for-Girls-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/space-drawing-ideas-001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/space-drawing-ideas-001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Halloween-Drawing-Ideas-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/Halloween-Drawing-Ideas-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2017/05/111-Insanely-Creative-Cool-Things-to-Draw-Today-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2017/05/111-Insanely-Creative-Cool-Things-to-Draw-Today-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/04/Best-Watercolor-Paints-2.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/04/Best-Watercolor-Paints-2.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/04/11-Best-Oil-Paints-for-Beginners-Professionals-Artists-Alike-2.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/04/11-Best-Oil-Paints-for-Beginners-Professionals-Artists-Alike-2.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/03/Best-Acrylic-Paints-for-Beginners-Professionals-2.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/03/Best-Acrylic-Paints-for-Beginners-Professionals-2.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/09/Best-Watercolor-Palettes-0001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/09/Best-Watercolor-Palettes-0001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/06/Paint-On-Yupo-Paper-001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2022/06/Paint-On-Yupo-Paper-001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Best-Watercolor-Pencils-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/05/Best-Watercolor-Pencils-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/10/Best-Watercolor-Brushes-001.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/10/Best-Watercolor-Brushes-001.png"
+      },
+      {
+        "path": "/wp-content/uploads/2021/07/Best-Watercolor-Paper-0001.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2021/07/Best-Watercolor-Paper-0001.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/07/best-colored-pencils-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/07/best-colored-pencils-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/Best-Leather-Glue-Adhesives.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/06/Best-Leather-Glue-Adhesives.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/Best-Body-Paint-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/10/Best-Body-Paint-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/Best-Glues-for-Metal-To-Wood.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2021/09/Best-Glues-for-Metal-To-Wood.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/Best-Concrete-Crack-Fillers.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2022/01/Best-Concrete-Crack-Fillers.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/10/Best-Clay-For-Sculpting-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/10/Best-Clay-For-Sculpting-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Best-Concrete-Paints.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/09/Best-Concrete-Paints.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Best-Paints-for-Bathroom-Ceilings.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/04/Best-Paints-for-Bathroom-Ceilings.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/Best-Dehumidifier-For-Bathroom-1-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2022/02/Best-Dehumidifier-For-Bathroom-1-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/Best-Dehumidifier-For-Bedroom-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2022/02/Best-Dehumidifier-For-Bedroom-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/Best-Blower-Fans.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/10/Best-Blower-Fans.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/Best-CR123A-Batteries-.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/06/Best-CR123A-Batteries-.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Best-Insulated-Smokers.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/05/Best-Insulated-Smokers.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/Best-Retractable-Awnings107.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/06/Best-Retractable-Awnings107.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/02/Best-Water-Pump-1-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2020/02/Best-Water-Pump-1-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Best-Impact-Sprinklers-For-Low-Pressure.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/05/Best-Impact-Sprinklers-For-Low-Pressure.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Best-Metal-Screws-For-Particle-Boards-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/09/Best-Metal-Screws-For-Particle-Boards-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Best-Button-Maker-Machine-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/09/Best-Button-Maker-Machine-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/08/Electric-Sliding-Gate-Openers-3.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2019/08/Electric-Sliding-Gate-Openers-3.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Best-Polymeric-Sands.jpeg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/09/Best-Polymeric-Sands.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/BTU-To-kW-Air-Conditioning-Calculator-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/BTU-To-kW-Air-Conditioning-Calculator-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Convert-EER-To-COP-And-COP-To-EER-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/Convert-EER-To-COP-And-COP-To-EER-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/kW-To-BTU-Calculator-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/kW-To-BTU-Calculator-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/BTU-Calculator-1.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/03/BTU-Calculator-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/How-To-Soundproof-A-Room-Cheaply.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/02/How-To-Soundproof-A-Room-Cheaply.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/Types-of-Soundproof-Insulation-illustration.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/02/Types-of-Soundproof-Insulation-illustration.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/How-to-Soundproof-Windows-6.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/02/How-to-Soundproof-Windows-6.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/How-To-Soundproof-A-Door.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2023/02/How-To-Soundproof-A-Door.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Blue-Christmas-Trees-768x432.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Blue-Christmas-Trees-768x432.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Vintage-Christmas-Tree-768x432.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Vintage-Christmas-Tree-768x432.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Luxury-and-Designer-Christmas-Trees-768x432.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Luxury-and-Designer-Christmas-Trees-768x432.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Lighting-Specials-Christmas-Trees-768x432.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Lighting-Specials-Christmas-Trees-768x432.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Metallic-Accents-Trees-768x432.jpg",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/uploads/2024/11/Metallic-Accents-Trees-768x432.jpg"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/img/facebook-white.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/img/facebook-white.png"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/img/x-logo.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/img/x-logo.png"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/img/pinterest-white.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/img/pinterest-white.png"
+      },
+      {
+        "path": "/wp-content/themes/homesthetics/img/yt-white.png",
+        "type": "image",
+        "full_url": "https://homesthetics.net/wp-content/themes/homesthetics/img/yt-white.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Homesthetics",
+        "description": "",
+        "canonical": "https://homesthetics.net"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "8103ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "affiliate.mvp.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Inspiring Ideas for Modern Home"
+          },
+          {
+            "tag": "h3",
+            "text": "33 Epic Navy Blue Bedroom Design Ideas to Inspire You"
+          },
+          {
+            "tag": "h3",
+            "text": "73 Cool Homemade DIY Bookmark Design Ideas for Reading Enthusiasts"
+          },
+          {
+            "tag": "h3",
+            "text": "43 Insanely Cool Basement Bar Ideas for Your Home"
+          },
+          {
+            "tag": "h3",
+            "text": "43 Super Cool Bar Top Ideas to Realize"
+          },
+          {
+            "tag": "h3",
+            "text": "111 World&#8217;s Most Loved DIY Projects"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Vintage Christmas Trees for a Nostalgic Holiday Décor"
+          },
+          {
+            "tag": "p",
+            "text": "Vintage Christmas Trees are experiencing a revival in holiday décor, bringing timeless charm and nostalgic warmth into contemporary homes. This article presents 25 distinct vintage Christmas tree..."
+          },
+          {
+            "tag": "h3",
+            "text": "11 Best Paper Christmas Decorations for Merry Holidays"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Best Christmas Net Lights for Indoor &#038; Outdoor Use"
+          },
+          {
+            "tag": "h3",
+            "text": "15 Best Christmas Tree Lights for Joyful Holidays"
+          },
+          {
+            "tag": "h3",
+            "text": "17 Burlap Ribbon &#038; Wreath Options for a Cozy Celebration"
+          },
+          {
+            "tag": "h3",
+            "text": "17 Clever Popsicle Craft Ideas For Your Kids This Christmas"
+          },
+          {
+            "tag": "h3",
+            "text": "43 Super Smart and Inexpensive Affordable DIY Christmas Decorations"
+          },
+          {
+            "tag": "h3",
+            "text": "17 Best Christmas Ornament Storage Ideas"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn How to Recycle Christmas Lights Safely"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best Christmas Stockings — Festive, Durable &#038; Ready to Hang"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best Luxury Christmas Wrapping Papers Reviewed"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Best Christmas Plants For The Holiday Season"
+          },
+          {
+            "tag": "h3",
+            "text": "15 Best Christmas Mugs — Festive Ceramic, Porcelain &#038; Gift-Ready Sets"
+          },
+          {
+            "tag": "h3",
+            "text": "18 Captivating DIY Christmas Mason Jars"
+          },
+          {
+            "tag": "h3",
+            "text": "18 Mind-Blowing Christmas Pallet Projects That Will Give A Festive Touch To Your Home"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Rustic Christmas Trees Infusing Christmas Décor with Natural Charm"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Vintage Christmas Trees for a Nostalgic Holiday Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Whimsical Christmas Trees That Add Magic to Your Festive Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Pastel Christmas Trees to Inspire a Whimsical and Cozy Holiday Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Themed Christmas Tree Ideas to Transform Your Holiday Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Red Christmas Trees Making a Striking Statement This Holiday Season"
+          },
+          {
+            "tag": "h3",
+            "text": "30 White &#038; Silver Trees That Capture the Magic of a Frosty Christmas"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Gold &#038; Glam Trees Bringing Luxurious Style to Christmas Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Blue Christmas Trees Bringing Elegance to Your Festive Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "31 Multi-Colored Trees Perfect for a Vibrant Christmas"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Black and White Trees Adding Timeless Style to Christmas"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Natural &#038; Eco-Friendly Trees for a Sustainable Holiday Season"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Metallic Accents Christmas Trees Creating a Luxe Atmosphere"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Handmade Ornaments Christmas Trees Bringing Artisanal Flair"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Lighting Specials Christmas Trees for a Radiant Holiday Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "31 Minimalist Christmas Trees Bringing Elegant Simplicity to Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Luxury and Designer Christmas Trees Elevating Holiday Décor"
+          },
+          {
+            "tag": "h3",
+            "text": "30 Nature and Wildlife Christmas Trees to Bring the Outdoors In"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn How to Make 69 DIY Homemade Bird Feeders Today"
+          },
+          {
+            "tag": "h3",
+            "text": "49 Incredibly Beautiful Acorn Crafts to Pursue"
+          },
+          {
+            "tag": "h3",
+            "text": "47 Insanely Unusual and Cool Mailboxes For Your Home"
+          },
+          {
+            "tag": "h3",
+            "text": "45 Magic DIY Rustic Wedding Decorations to Embrace"
+          },
+          {
+            "tag": "h3",
+            "text": "33 Simply Brilliant Cheap DIY Nightstand Ideas"
+          },
+          {
+            "tag": "h3",
+            "text": "37 Simply Spectacular Tree Bed Designs to Pursue"
+          },
+          {
+            "tag": "h3",
+            "text": "79 Smart Cheap Homemade DIY Headboard Ideas to Realize Swiftly"
+          },
+          {
+            "tag": "h3",
+            "text": "33 Awesomely Cool DIY Light Fixtures That Will Illuminate With Warmth"
+          },
+          {
+            "tag": "h3",
+            "text": "49 Exceptional DIY Coffee Bar Ideas for Your Cozy Home"
+          },
+          {
+            "tag": "h3",
+            "text": "Top 50 Easy DIY Wine Cork Projects to Elevate Your Home Decorations"
+          },
+          {
+            "tag": "h3",
+            "text": "DIY Wine Bottle Crafts: 55 Ideas To Craft Your Wine Bottles"
+          },
+          {
+            "tag": "h3",
+            "text": "31 Easy DIY Bamboo Projects for Your Garden &#038; Outdoor Space"
+          },
+          {
+            "tag": "h3",
+            "text": "50 Plastic Spoon Crafts and Project to Try Out at Home"
+          },
+          {
+            "tag": "h3",
+            "text": "DIY PVC Pipe Projects To Make At Home | 50 Easy And Useful Options"
+          },
+          {
+            "tag": "h3",
+            "text": "45 Magic DIY Rustic Wedding Decorations to Embrace"
+          },
+          {
+            "tag": "h3",
+            "text": "57 DIY Bookshelf Plans and Ideas For Healthy Home Libraries"
+          },
+          {
+            "tag": "h3",
+            "text": "50 Creative DIY Wooden Lamp Ideas: A Complete List"
+          },
+          {
+            "tag": "h3",
+            "text": "31 Super Useful DIY Desk Decor Ideas to Follow"
+          },
+          {
+            "tag": "h3",
+            "text": "53 Bold Red Accent Walls to Beautify Your Home"
+          },
+          {
+            "tag": "h2",
+            "text": "Christmas Trees"
+          },
+          {
+            "tag": "h3",
+            "text": "17 Types Of Christmas Trees For The Jolly Holidays"
+          },
+          {
+            "tag": "h3",
+            "text": "Real Vs Fake Christmas Trees &#8211; All You Need to Know"
+          },
+          {
+            "tag": "h3",
+            "text": "7 Best Artificial Christmas Trees — Pre-Lit, Flocked &#038; Realistic Picks"
+          },
+          {
+            "tag": "p",
+            "text": "Aug 19, 2025"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn All About Upside-Down Christmas Trees"
+          },
+          {
+            "tag": "h3",
+            "text": "7 Best Tabletop Christmas Trees &#8211; Small Tree, Big Impact"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Dispose Of Artificial Christmas Trees Safely?"
+          },
+          {
+            "tag": "h3",
+            "text": "How Long Do Artificial Christmas Trees Last?"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Magical Alternative Christmas Trees for a Merry Christmas"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Dispose Of Real Christmas Tree Safely and Responsibly"
+          },
+          {
+            "tag": "h3",
+            "text": "What Is Christmas Tree Collar &#038; How To Use It?"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn How to Make a Real Christmas Tree Last Longer"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn How to Make A Succulent Christmas Tree"
+          },
+          {
+            "tag": "h3",
+            "text": "Can You Put a Pre-lit Christmas Tree Outside?"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Keep Outdoor Christmas Tree From Blowing Over?"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Clean An Artificial Christmas Tree At Home?"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Store Artificial Christmas Tree?"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Shape An Artificial Christmas Tree?"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Keep Cat Away From Christmas Tree?"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Flock A Christmas Tree?"
+          },
+          {
+            "tag": "h3",
+            "text": "When To Take Christmas Tree Down?"
+          },
+          {
+            "tag": "h3",
+            "text": "9 Best Christmas Tree Delivery Services — Fresh-Cut &#038; Artificial Options"
+          },
+          {
+            "tag": "h3",
+            "text": "Flocked Vs Frosted Christmas Tree Compared &#8211; A Real Winner?"
+          },
+          {
+            "tag": "h3",
+            "text": "17 Gorgeous Christmas Chandeliers for a Yuletide Home Decor"
+          },
+          {
+            "tag": "h2",
+            "text": "Drawing"
+          },
+          {
+            "tag": "h3",
+            "text": "75 Drawing Ideas To Include And Add To Your Sketchbook"
+          },
+          {
+            "tag": "h3",
+            "text": "49 Super Cool Things To Draw On A Whiteboard"
+          },
+          {
+            "tag": "h3",
+            "text": "57 Beautiful Colored Pencil Drawing Ideas"
+          },
+          {
+            "tag": "h3",
+            "text": "Cartoon Drawing Ideas | Step-by-Step Guides"
+          },
+          {
+            "tag": "h3",
+            "text": "44 Easy Drawing Ideas for Girls: Drawing Females for Beginners"
+          },
+          {
+            "tag": "h3",
+            "text": "45 Easy Space Drawing Ideas You Can Try at Home"
+          },
+          {
+            "tag": "h3",
+            "text": "45 Easy Halloween Drawing Ideas for Kids and Adults Alike"
+          },
+          {
+            "tag": "h3",
+            "text": "66 Easy Things to Draw When You’re Bored or Looking for Creative Inspiration"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 12, 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Looking for easy things to draw? Whether you&#8217;re new to sketching or just want to fill your sketchbook with relaxing, creative ideas, drawing is a simple yet rewarding way to pass time and..."
+          },
+          {
+            "tag": "h2",
+            "text": "Painting"
+          },
+          {
+            "tag": "h3",
+            "text": "8 Best Watercolor Paints for Students and Artists"
+          },
+          {
+            "tag": "p",
+            "text": "Sep 29, 2025"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Oil Paints: Top 7 Oil Paints for Artists | Reviews"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Best Acrylic Paints for Beginners &#038; Professionals | Reviewed"
+          },
+          {
+            "tag": "h2",
+            "text": "Popular Posts"
+          },
+          {
+            "tag": "h3",
+            "text": "11 Best Watercolor Palettes for Mixing, Portability, and Control"
+          },
+          {
+            "tag": "h3",
+            "text": "97 Best Watercolor Painting Ideas That Will Inspire You"
+          },
+          {
+            "tag": "h3",
+            "text": "The 7 Best Watercolor Pencils You Can Find In 2024"
+          },
+          {
+            "tag": "h3",
+            "text": "The 9 Best Watercolor Brushes For 2024 | An In-Depth Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Watercolor Paper In 2024: The Very Best Paper For Your Art"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Colored Pencils: 11 Best Colored Pencils for Beginners &#038; Professional Artists"
+          },
+          {
+            "tag": "h3",
+            "text": "6 Best Leather Glue Adhesives in 2024 | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "6 Best Body Paint of 2024 | Top Brands Compared"
+          },
+          {
+            "tag": "h3",
+            "text": "Metal and Wood Glue: Best Glues for Metal to Wood | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "11 Best Concrete Crack Fillers for Driveways, Patios &#038; Foundations"
+          },
+          {
+            "tag": "h3",
+            "text": "6 Best Clay For Sculpting In 2024 | Modeling Clay Reviews &#038; Buyer’s Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "10 Best Concrete Paints for Interior and Exterior Surfaces"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Best Paints for Bathroom Ceilings for Mold and Moisture Protection"
+          },
+          {
+            "tag": "h3",
+            "text": "11 Best Dehumidifier For Bathroom | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "9 Best Dehumidifier For Bedroom | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best Blower Fans for Powerful Airflow, Ventilation &#038; Room Circulation"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best CR123A Batteries for Small Home Appliances | Long-Lasting Lithium Picks"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Smokers: 9 Best Insulated Smokers | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Retractable Awning: 7 Best Retractable Awnings in 2024 | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "11 Best Utility Pumps for Water Removal and Transfer"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best Impact Sprinklers for Low Pressure Water Systems"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Best Screws for Particle Boards | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "6 Best Button Maker Machine [Reviews &#038; Buyer&#8217;s Guide]"
+          },
+          {
+            "tag": "h3",
+            "text": "9 Best Electric Sliding Gate Openers | Reviews + Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Best Polymeric Sands for Paver Joints, Weed Control &#038; Durability"
+          },
+          {
+            "tag": "h2",
+            "text": "Calculators"
+          },
+          {
+            "tag": "h3",
+            "text": "BTU To kW Air Conditioning Calculator"
+          },
+          {
+            "tag": "h3",
+            "text": "Convert EER To COP And COP To EER (Calculator)"
+          },
+          {
+            "tag": "h3",
+            "text": "kW to BTU/h Calculator: Quickly Convert Power Ratings"
+          },
+          {
+            "tag": "h3",
+            "text": "Heating and AC BTU Calculators and How to Use Them"
+          },
+          {
+            "tag": "h2",
+            "text": "Soundproofing"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Soundproof A Room Cheaply &#8211; Easy Proven Methods"
+          },
+          {
+            "tag": "h3",
+            "text": "Types of Soundproof Insulation Explained, The Complete Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Soundproof Windows: 13 Expert Methods for Noise Reduction"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Soundproof A Door &#8211; Complete Guide"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Posts"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Blue Christmas Trees Bringing Elegance to Your Festive Décor"
+          },
+          {
+            "tag": "p",
+            "text": "Anton Giuroiu Nov 15, 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Blue Christmas trees offer a unique holiday aesthetic, blending traditional warmth with creative, modern touches suited to contemporary décor trends. This article explores 20 striking blue-themed Christmas tree ideas, each carefully crafted to highlight specific styles, from nautical and coastal themes to luxurious Victorian-inspired designs, and even DIY-friendly setups. Each display celebrates the versatility of [&hellip;]"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Vintage Christmas Trees for a Nostalgic Holiday Décor"
+          },
+          {
+            "tag": "p",
+            "text": "Anton Giuroiu Nov 14, 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Vintage Christmas Trees are experiencing a revival in holiday décor, bringing timeless charm and nostalgic warmth into contemporary homes. This article presents 25 distinct vintage Christmas tree themes, each featuring unique ornamentation, color palettes, and designs inspired by eras like the Victorian period, the Gilded Age, and the mid-20th century. From antique glass ornaments to [&hellip;]"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Luxury and Designer Christmas Trees Elevating Holiday Décor"
+          },
+          {
+            "tag": "p",
+            "text": "Anton Giuroiu Nov 11, 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Luxury and designer Christmas trees bring sophistication to holiday décor, showcasing designs inspired by iconic brands such as Gucci, Dior, and Chanel. Each tree’s unique blend of motifs, colors, and brand-specific elements elevates Christmas decoration to a new level of elegance, aligning perfectly with seasonal trends. Whether featuring Gucci&#8217;s plaid details, Dior’s refined silver tones, [&hellip;]"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Lighting Specials Christmas Trees for a Radiant Holiday Décor"
+          },
+          {
+            "tag": "p",
+            "text": "Anton Giuroiu Nov 11, 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Lighting special Christmas trees showcase a range of DIY Christmas tree lighting ideas that transform holiday spaces into beautiful, seasonally inspired displays. Each setup offers a unique holiday atmosphere, from minimalist Scandinavian designs to lively, tropical themes, encouraging users to explore trending holiday aesthetics that embrace the season’s essence. With creative lighting styles, each tree [&hellip;]"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Metallic Accents Christmas Trees Creating a Luxe Atmosphere"
+          },
+          {
+            "tag": "p",
+            "text": "Anton Giuroiu Nov 11, 2024"
+          },
+          {
+            "tag": "p",
+            "text": "Metallic accents Christmas trees on bring a chic, festive touch to holiday décor, combining shimmering ornaments, unique color schemes, and elegant materials to create refined seasonal looks. Holiday décor trends increasingly favor metallic-accented trees, adding luxury and warmth with tones like silver, gold, and rose gold, and striking metallic hues like chrome and copper. These [&hellip;]"
+          },
+          {
+            "tag": "p",
+            "text": "About Us"
+          },
+          {
+            "tag": "p",
+            "text": "Homesthetics is an online magazine and community focused on high-quality architecture, design and DIY in the home design, crafts and outdoor sphere. We research and try the best products, we find simple solutions to the most complicated problems out there and we serve them here, fresh, always ready for you."
+          },
+          {
+            "tag": "p",
+            "text": "Homesthetics is a reader-supported website and participant in the Amazon Associates Program and earns from qualifying purchases at no extra cost to you."
+          },
+          {
+            "tag": "p",
+            "text": "Homesthetics.net is managed by MKR.S Media SRL, a company registered in Romania [Reg. No. 38255010]. Telephone +40 751 099 903 , [email&#160;protected]"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 26,
+          "headings": 142,
+          "images": 135
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-DEFD00E9",
+      "path": "/category/architecture/",
+      "type": "Detected Link",
+      "anchor_text": "Architecture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-607BAF1D",
+      "path": "/category/art/",
+      "type": "Detected Link",
+      "anchor_text": "Art",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A53DDC41",
+      "path": "/category/art/digital-art/",
+      "type": "Detected Link",
+      "anchor_text": "Digital Art",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9FE0D61F",
+      "path": "/category/art/drawing/",
+      "type": "Detected Link",
+      "anchor_text": "Drawing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A9D0F2E4",
+      "path": "/category/art/drawing/colored-pencils/",
+      "type": "Detected Link",
+      "anchor_text": "Colored Pencils",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CEA38FC3",
+      "path": "/category/art/drawing/pastels/",
+      "type": "Detected Link",
+      "anchor_text": "Pastels",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EC4A1948",
+      "path": "/category/art/painting/",
+      "type": "Detected Link",
+      "anchor_text": "Painting",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E752EA6D",
+      "path": "/category/art/painting/acrylics/",
+      "type": "Detected Link",
+      "anchor_text": "Acrylics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-46C51FC0",
+      "path": "/category/art/painting/oils/",
+      "type": "Detected Link",
+      "anchor_text": "Oils",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-752CF8B7",
+      "path": "/category/art/painting/watercolor/",
+      "type": "Detected Link",
+      "anchor_text": "Watercolor",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-39565887",
+      "path": "/category/art/painting/face-body/",
+      "type": "Detected Link",
+      "anchor_text": "Face &amp; Body",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B3CD02E6",
+      "path": "/category/art/inspiration/",
+      "type": "Detected Link",
+      "anchor_text": "Inspiration",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3F7A0DD1",
+      "path": "/category/bath/",
+      "type": "Detected Link",
+      "anchor_text": "Bath",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D847A32D",
+      "path": "/category/bedroom/",
+      "type": "Detected Link",
+      "anchor_text": "Bedroom",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D6CD6F9C",
+      "path": "/category/diy/",
+      "type": "Detected Link",
+      "anchor_text": "DIY",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

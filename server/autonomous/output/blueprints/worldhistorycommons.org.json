@@ -1,0 +1,188 @@
+{
+  "website_blueprint_id": "BLUEPRINT-54EF456A",
+  "generated_at": "2026-01-21T07:27:12.106Z",
+  "global_configuration": {
+    "brand_name": "World History Commons",
+    "domain": "worldhistorycommons.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "129.174.134.62",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=43200, public",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 1,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/sites/default/files/js/js_Lcprli8ygt5Dnl3NqlUnIEVYhadiTy1KyrNJVs2Krsk.js",
+        "type": "script",
+        "full_url": "https://worldhistorycommons.org/sites/default/files/js/js_Lcprli8ygt5Dnl3NqlUnIEVYhadiTy1KyrNJVs2Krsk.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=whc&amp;include=eJzLTSzJz83XzwVTOuUZyfrpOflJiTlgZnFOZnJ2VjEAAmcN6A"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "World History Commons",
+        "description": "An open educational resource with over 2000+ peer-reviewed content for world and global history teachers, scholars, and students.",
+        "canonical": "https://worldhistorycommons.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "795ms"
+        },
+        {
+          "resource": "js_Lcprli8ygt5Dnl3NqlUnIEVYhadiTy1KyrNJVs2Krsk.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "World History Commons",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Main navigation",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Footer menu",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Main navigation"
+          },
+          {
+            "tag": "h1",
+            "text": "World History Commons"
+          },
+          {
+            "tag": "p",
+            "text": "An open educational resource with peer-reviewed content for world and global history teachers, scholars, and students. This website provides more than 1,700 annotated primary sources, 100 teaching guides, 30 overviews of methods and approaches, and 250 website reviews. To learn more, consult this guide to using the site and our video guides for community college settings."
+          },
+          {
+            "tag": "h2",
+            "text": "Footer menu"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 1,
+          "headings": 3,
+          "images": 0
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-9B05D62E",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AF71277B",
+      "path": "/primary-sources",
+      "type": "Detected Link",
+      "anchor_text": "Sources",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BF937017",
+      "path": "/teaching",
+      "type": "Detected Link",
+      "anchor_text": "Teaching",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EE5368AC",
+      "path": "/method",
+      "type": "Detected Link",
+      "anchor_text": "Methods",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CEB26A40",
+      "path": "/website-reviews",
+      "type": "Detected Link",
+      "anchor_text": "Reviews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-931EAC36",
+      "path": "/guide-using-world-history-commons",
+      "type": "Detected Link",
+      "anchor_text": "this guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FA287ECA",
+      "path": "/community-college-video-guides",
+      "type": "Detected Link",
+      "anchor_text": "video guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5125F782",
+      "path": "/about",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

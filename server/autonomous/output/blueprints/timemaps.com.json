@@ -1,0 +1,396 @@
+{
+  "website_blueprint_id": "BLUEPRINT-801F76D9",
+  "generated_at": "2026-01-21T07:27:12.120Z",
+  "global_configuration": {
+    "brand_name": "The Timemaps Atlas of World History",
+    "domain": "timemaps.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "185.151.30.115",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "public, s-maxage=216000, max-age=2592000",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 0,
+      "total_size_mb": 0
+    },
+    "core_assets": []
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Timemaps Atlas of World History",
+        "description": "",
+        "canonical": "https://timemaps.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3699ms"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Exploring world historythrough maps!",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "The Timemaps Atlas of World History",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The perfect tool for teachers and students!",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "SingleUser",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Browse Articles Alphabetically"
+          },
+          {
+            "tag": "h3",
+            "text": "Browse Articles Alphabetically"
+          },
+          {
+            "tag": "h3",
+            "text": "Browse Articles by region"
+          },
+          {
+            "tag": "h3",
+            "text": "Premium Areas and Resources"
+          },
+          {
+            "tag": "h3",
+            "text": "More on TimeMaps Premium"
+          },
+          {
+            "tag": "h3",
+            "text": "TimeMaps Premium"
+          },
+          {
+            "tag": "h1",
+            "text": "Exploring world history through maps!"
+          },
+          {
+            "tag": "p",
+            "text": "Click here to see all the different regions, countries and civilizations of the world change through time!"
+          },
+          {
+            "tag": "h2",
+            "text": "The Timemaps Atlas of World History"
+          },
+          {
+            "tag": "p",
+            "text": "The Timemaps Atlas of World History contains over 1,000 maps covering the history of the world PLUS the histories of different regions, countries, and civilizations."
+          },
+          {
+            "tag": "p",
+            "text": "The Atlas is accompanied by a free Encyclopedia , for more detailed coverage of topics."
+          },
+          {
+            "tag": "h2",
+            "text": "The perfect tool for teachers and students!"
+          },
+          {
+            "tag": "p",
+            "text": "The TimeMap Atlas of World History is ideal for supporting world history programs in schools and colleges. It offers a highly visual and engaging approach to learning and&#8230;"
+          },
+          {
+            "tag": "p",
+            "text": "&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "As premium users, teachers and students can use all the resources free from disruptive adverts!"
+          },
+          {
+            "tag": "p",
+            "text": "Follow on Instagram TimeMaps Premium IMPORTANT ANNOUNCEMENT: Please note that we have closed our Premium service to new subscriptions for the time being. Existing subscriptions will continue to be supported. For more information about why we have done this, please follow this link ."
+          },
+          {
+            "tag": "h2",
+            "text": "Single User"
+          },
+          {
+            "tag": "p",
+            "text": "For students or Single Users."
+          },
+          {
+            "tag": "h4",
+            "text": "$24.99 / yearly"
+          },
+          {
+            "tag": "p",
+            "text": "Benefits:"
+          },
+          {
+            "tag": "h2",
+            "text": "Single Teacher"
+          },
+          {
+            "tag": "p",
+            "text": "Entry level for teachers."
+          },
+          {
+            "tag": "h4",
+            "text": "$39.99 / yearly"
+          },
+          {
+            "tag": "p",
+            "text": "Benefits:"
+          },
+          {
+            "tag": "h2",
+            "text": "Single Teacher Plus"
+          },
+          {
+            "tag": "p",
+            "text": "For teachers seeking more."
+          },
+          {
+            "tag": "h4",
+            "text": "$69.99 / yearly"
+          },
+          {
+            "tag": "p",
+            "text": "Benefits:"
+          },
+          {
+            "tag": "h2",
+            "text": "Whole Institution"
+          },
+          {
+            "tag": "p",
+            "text": "For schools and colleges."
+          },
+          {
+            "tag": "h4",
+            "text": "$299.99 / yearly"
+          },
+          {
+            "tag": "p",
+            "text": "Benefits:"
+          },
+          {
+            "tag": "h4",
+            "text": "Navigation"
+          },
+          {
+            "tag": "h4",
+            "text": "Resources"
+          },
+          {
+            "tag": "h4",
+            "text": "Premium"
+          },
+          {
+            "tag": "h4",
+            "text": "Need help using TimeMaps?"
+          },
+          {
+            "tag": "p",
+            "text": "Click here to be redirected to our dedicated TimeMaps help section."
+          },
+          {
+            "tag": "p",
+            "text": "Privacy Policy &#8211; Terms and Conditions &#8211; Designed by Stylistic"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 23,
+          "headings": 22,
+          "images": 6
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-576378A5",
+      "path": "/using-timemap-world-history/",
+      "type": "Detected Link",
+      "anchor_text": "How to use TimeMaps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4DD00D28",
+      "path": "/premium/your-account/",
+      "type": "Detected Link",
+      "anchor_text": "My Account",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F539DF5",
+      "path": "/login/",
+      "type": "Detected Link",
+      "anchor_text": "Login / Logout",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A6C32E0E",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CEA886CA",
+      "path": "/atlas/",
+      "type": "Detected Link",
+      "anchor_text": "Atlas",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B8604CF7",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "Encyclopedia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9DE7C14",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "A",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-60978853",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "B",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-941A2A9D",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "C",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B25052AB",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "D",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CEBAE388",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "E",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6EBA4D78",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "F",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-41105B53",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "G",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3963DEA4",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "H",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3A598808",
+      "path": "/encyclopedia/",
+      "type": "Detected Link",
+      "anchor_text": "I",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

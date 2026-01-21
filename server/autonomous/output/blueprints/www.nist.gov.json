@@ -1,0 +1,439 @@
+{
+  "website_blueprint_id": "BLUEPRINT-E9AA18DA",
+  "generated_at": "2026-01-21T07:27:12.821Z",
+  "global_configuration": {
+    "brand_name": "National Institute of Standards and Technology",
+    "domain": "www.nist.gov",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.65.90.26",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=2764800",
+      "Content-Security-Policy": "default-src 'self'; script-src 'self' *.nist.gov js-agent.newrelic.com bam.nr-data.net bam-cell.nr-data.net gov-bam.nr-data.net 'unsafe-inline' 'unsafe-eval' www.google-analytics.com *.googletagmanager.com platform.twitter.com https://player.vimeo.com static.cloudflareinsights.com https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' *.nist.gov fonts.googleapis.com  *.typekit.net; img-src 'self' 'unsafe-inline' data: *.nist.gov *.google-analytics.com *.googletagmanager.com cdnsecakmi.kaltura.com nist-el-nfrlhrr.s3.amazonaws.com https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/fullscreen@2x.png https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/fullscreen.png api.mapbox.com syndication.twitter.com https://h5p.org https://i.vimeocdn.com; media-src 'self' nist-el-nfrlhrr.s3.amazonaws.com; frame-src 'self' tube.nist.gov sts.nist.gov sts2.nist.gov *.kaltura.com *.youtube.com *.arcgis.com https://platform.twitter.com/ https://player.vimeo.com *.bluejeans.com https://vimeo.com/ https://time.gov/ login.nist.gov https://customer-ltx6ylk10sje63q6.cloudflarestream.com https://challenges.cloudflare.com; frame-ancestors 'self'; child-src 'self' blob: tube.nist.gov sts.nist.gov sts2.nist.gov *.kaltura.com *.youtube.com *.arcgis.com *.time.gov login.nist.gov; font-src 'self' *.nist.gov fonts.googleapis.com fonts.gstatic.com *.typekit.net data:; connect-src 'self' bam.nr-data.net bam-cell.nr-data.net gov-bam.nr-data.net *.google-analytics.com *.analytics.google.com *.googletagmanager.com; upgrade-insecure-requests",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 22,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-HEQ0YF2VYL"
+      },
+      {
+        "path": "/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js",
+        "type": "script",
+        "full_url": "https://www.nist.gov/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOwyAIhS_kypEMFmptqTRq43b7ubZLzPYLvgc8Hh5FLcZx1pQBOzAOx9U2LrpD19slG34WCXEFSseOMtxovKoXbgYorxLGDL-CiSEX8KIO5bHcODMSpy_aKbQL0hpFkWxJ7XOIHjxe4x0924mZPpHgX7q2yswbt7QqDpPdlIBCRtecz6DnTq21i1LZTZo2uOtAAUX9G0CIcGE"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.nist.gov/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/sites/default/files/js/js_MTBKZuDUoK2EXhyELkn9PmpTzfz69Hi_LHKTCAiC1J0.js",
+        "type": "script",
+        "full_url": "https://www.nist.gov/sites/default/files/js/js_MTBKZuDUoK2EXhyELkn9PmpTzfz69Hi_LHKTCAiC1J0.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOwyAIhS_kypEMFmptqTRq43b7ubZLzPYLvgc8Hh5FLcZx1pQBOzAOx9U2LrpD19slG34WCXEFSseOMtxovKoXbgYorxLGDL-CiSEX8KIO5bHcODMSpy_aKbQL0hpFkWxJ7XOIHjxe4x0924mZPpHgX7q2yswbt7QqDpPdlIBCRtecz6DnTq21i1LZTZo2uOtAAUX9G0CIcGE"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/us_flag_small.png",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/us_flag_small.png"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/icon-dot-gov.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/icon-dot-gov.svg"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/icon-https.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/icon-https.svg"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/logo/nist_logo_sidestack.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/logo/nist_logo_sidestack.svg"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg"
+      },
+      {
+        "path": "/libraries/nist-component-library/dist/img/usa-icons-bg/search--white.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/usa-icons-bg/search--white.svg"
+      },
+      {
+        "path": "/themes/custom/nist_www/img/homepage/chips_logo_mark.png",
+        "type": "image",
+        "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/chips_logo_mark.png?v1"
+      },
+      {
+        "path": "/sites/default/files/styles/576_x_384/public/images/2022/05/27/3DP_4973.png",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2022/05/27/3DP_4973.png?itok=I8gv5foB"
+      },
+      {
+        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/23/shutterstock_2419033823.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/23/shutterstock_2419033823.jpg?h=7003b442&amp;itok=iWdCkNX0"
+      },
+      {
+        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/17/DSC04321_copy.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/17/DSC04321_copy.jpg?h=20a47f3b&amp;itok=lzdDMyHG"
+      },
+      {
+        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/31/HDYMI_Banners-landing%20page-crop-recycle.png",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/31/HDYMI_Banners-landing%20page-crop-recycle.png?itok=EoGEpexZ"
+      },
+      {
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2025/12/04/ram_1_web_ready.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2025/12/04/ram_1_web_ready.jpg?h=cd9e8a72&amp;itok=75-2WZ4r"
+      },
+      {
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2024/04/16/shutterstock_695169133.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2024/04/16/shutterstock_695169133.jpg?h=790be497&amp;itok=4du7dQC0"
+      },
+      {
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2023/06/08/Supply%20chain%20Production%20Perig%20shutterstock_1144447313.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2023/06/08/Supply%20chain%20Production%20Perig%20shutterstock_1144447313.jpg?itok=LHav9QQb"
+      },
+      {
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2025/12/15/CS-risk-03-final.png",
+        "type": "image",
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2025/12/15/CS-risk-03-final.png?h=42ffbb4d&amp;itok=HBReRZCL"
+      },
+      {
+        "path": "/themes/custom/nist_www/img/homepage/wattbalance_1600_x_800.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/wattbalance_1600_x_800.jpg?v1"
+      },
+      {
+        "path": "/themes/custom/nist_www/img/homepage/nist_gaithersburg_campus_2400.jpg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_gaithersburg_campus_2400.jpg?v1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "National Institute of Standards and Technology",
+        "description": "NIST promotes U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life.",
+        "canonical": "https://www.nist.gov"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6892ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "email-decode.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "What we do",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "CHIPS for America",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "NIST in your State",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "An official website of the United States government"
+          },
+          {
+            "tag": "p",
+            "text": "Here’s how you know"
+          },
+          {
+            "tag": "p",
+            "text": "Official websites use .gov A .gov website belongs to an official government organization in the United States."
+          },
+          {
+            "tag": "p",
+            "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
+          },
+          {
+            "tag": "p",
+            "text": "https://www.nist.gov/national-institute-standards-and-technology"
+          },
+          {
+            "tag": "h2",
+            "text": "Driving Innovation"
+          },
+          {
+            "tag": "p",
+            "text": "From developing precise atomic clocks to creating encryption standards to supporting manufacturing, NIST plays a crucial role in advancing technology."
+          },
+          {
+            "tag": "h2",
+            "text": "What we do"
+          },
+          {
+            "tag": "p",
+            "text": "From nanoscale devices that power the most advanced microchips to earthquake-resistant skyscrapers, NIST’s measurements and research fuel innovation and improve the quality of life for all Americans. We provide support and resources to U.S. manufacturing, helping to grow our economy and ensure our national security."
+          },
+          {
+            "tag": "p",
+            "text": "Discover how our work makes America safer, healthier and more prosperous."
+          },
+          {
+            "tag": "h2",
+            "text": "CHIPS for America"
+          },
+          {
+            "tag": "p",
+            "text": "Investments in innovation, resilience and a more competitive American future | Learn more NIST in your State Did you know that NIST’s work supports key sectors in every state?"
+          },
+          {
+            "tag": "h2",
+            "text": "What’s new"
+          },
+          {
+            "tag": "h3",
+            "text": "Taking Measure Celebrates 10 Years of Science and Stories"
+          },
+          {
+            "tag": "p",
+            "text": "What Determines the Length of the Day? NIST Physicists Bring Unruly Molecules to the Quantum Party How Do Recycling Facilities Sort Different Kinds of Plastic? AI in the Doctor’s Office: How Standards Can Support Trustworthiness January 7, 2026 CAISI Issues Request for Information About Securing AI Agent Systems January 12, 2026 NIST Launches Centers for AI in Manufacturing and Critical Infrastructure December 22, 2025 Draft NIST Guidelines Rethink Cybersecurity for the AI Era December 16, 2025 See NIST News America’s national measurement institute NIST is the National Metrology Institute for the United States, also known as an NMI. Everything you use in your everyday life works because of measurements. Without precise measurements, your car wouldn’t run, your phone wouldn’t work, and hospitals couldn’t function. We maintain the measurements that make industry and society work. Learn more about our unique role in the national — and global — economy."
+          },
+          {
+            "tag": "p",
+            "text": "NIST in your inbox Stay up to date with the latest news from NIST. Sign up for our Tech Beat newsletter or to get news about your favorite research topics."
+          },
+          {
+            "tag": "h3",
+            "text": "HEADQUARTERS"
+          },
+          {
+            "tag": "p",
+            "text": "Webmaster | Contact Us | Our Other Offices"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 20,
+          "headings": 16,
+          "images": 18
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-15B9F3F4",
+      "path": "/careers",
+      "type": "Detected Link",
+      "anchor_text": "Careers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-325FD687",
+      "path": "/about-nist/contact-us",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A03553A8",
+      "path": "/publications",
+      "type": "Detected Link",
+      "anchor_text": "Publications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22349A13",
+      "path": "/topics",
+      "type": "Detected Link",
+      "anchor_text": "All Topics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-378CE1FF",
+      "path": "/advanced-communications",
+      "type": "Detected Link",
+      "anchor_text": "Advanced communications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1A57DACC",
+      "path": "/artificial-intelligence",
+      "type": "Detected Link",
+      "anchor_text": "Artificial intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4FA26A9B",
+      "path": "/bioscience",
+      "type": "Detected Link",
+      "anchor_text": "Bioscience",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EB7414E7",
+      "path": "/buildings-construction",
+      "type": "Detected Link",
+      "anchor_text": "Buildings and construction",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7799AB07",
+      "path": "/chemistry",
+      "type": "Detected Link",
+      "anchor_text": "Chemistry",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8707FCA6",
+      "path": "/cybersecurity-and-privacy",
+      "type": "Detected Link",
+      "anchor_text": "Cybersecurity and Privacy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CB4A44E3",
+      "path": "/electronics",
+      "type": "Detected Link",
+      "anchor_text": "Electronics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E883731D",
+      "path": "/energy",
+      "type": "Detected Link",
+      "anchor_text": "Energy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-66BBE65E",
+      "path": "/environment",
+      "type": "Detected Link",
+      "anchor_text": "Environment",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5259AB3C",
+      "path": "/fire",
+      "type": "Detected Link",
+      "anchor_text": "Fire",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1BE829AB",
+      "path": "/forensic-science",
+      "type": "Detected Link",
+      "anchor_text": "Forensic science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

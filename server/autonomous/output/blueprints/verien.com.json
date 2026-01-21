@@ -1,0 +1,413 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C95BB10C",
+  "generated_at": "2026-01-21T07:27:04.836Z",
+  "global_configuration": {
+    "brand_name": "Electronic Product Design Services",
+    "domain": "verien.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "216.92.41.29",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 24,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/assets/web/assets/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/web/assets/jquery/jquery.min.js"
+      },
+      {
+        "path": "/assets/popper/popper.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/popper/popper.min.js"
+      },
+      {
+        "path": "/assets/tether/tether.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/tether/tether.min.js"
+      },
+      {
+        "path": "/assets/bootstrap/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/bootstrap/js/bootstrap.min.js"
+      },
+      {
+        "path": "/assets/smoothscroll/smooth-scroll.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/smoothscroll/smooth-scroll.js"
+      },
+      {
+        "path": "/assets/dropdown/js/script.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/dropdown/js/script.min.js"
+      },
+      {
+        "path": "/assets/touchswipe/jquery.touch-swipe.min.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/touchswipe/jquery.touch-swipe.min.js"
+      },
+      {
+        "path": "/assets/theme/js/script.js",
+        "type": "script",
+        "full_url": "http://verien.com/assets/theme/js/script.js"
+      },
+      {
+        "path": "/assets/web/assets/mobirise-icons/mobirise-icons.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/web/assets/mobirise-icons/mobirise-icons.css"
+      },
+      {
+        "path": "/assets/tether/tether.min.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/tether/tether.min.css"
+      },
+      {
+        "path": "/assets/bootstrap/css/bootstrap.min.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/bootstrap/css/bootstrap.min.css"
+      },
+      {
+        "path": "/assets/bootstrap/css/bootstrap-grid.min.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/bootstrap/css/bootstrap-grid.min.css"
+      },
+      {
+        "path": "/assets/bootstrap/css/bootstrap-reboot.min.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/bootstrap/css/bootstrap-reboot.min.css"
+      },
+      {
+        "path": "/assets/dropdown/css/style.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/dropdown/css/style.css"
+      },
+      {
+        "path": "/assets/socicon/css/styles.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/socicon/css/styles.css"
+      },
+      {
+        "path": "/assets/theme/css/style.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/theme/css/style.css"
+      },
+      {
+        "path": "/assets/mobirise/css/mbr-additional.css",
+        "type": "stylesheet",
+        "full_url": "http://verien.com/assets/mobirise/css/mbr-additional.css"
+      },
+      {
+        "path": "/assets/images/logo-168x121.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/logo-168x121.jpg"
+      },
+      {
+        "path": "/assets/images/comm-676x451.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/comm-676x451.jpg"
+      },
+      {
+        "path": "/assets/images/signal-processing-6-676x507.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/signal-processing-6-676x507.jpg"
+      },
+      {
+        "path": "/assets/images/03.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/03.jpg"
+      },
+      {
+        "path": "/assets/images/camera-676x451.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/camera-676x451.jpg"
+      },
+      {
+        "path": "/assets/images/security-676x451.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/security-676x451.jpg"
+      },
+      {
+        "path": "/assets/images/atlas-finalart-3-582x436.jpg",
+        "type": "image",
+        "full_url": "http://verien.com/assets/images/atlas-finalart-3-582x436.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": " Electronic Product Design Services - Verien Design Group",
+        "description": "Providing hardware and software design services for electronic products, including FPGA, analog, and board designs.",
+        "canonical": "http://verien.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "721ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "popper.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "tether.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Verien Design Group",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Verien Design Group"
+          },
+          {
+            "tag": "h3",
+            "text": "Electronic Product Design FPGA / Analog / PCB / Software Design Services"
+          },
+          {
+            "tag": "p",
+            "text": "Verien provides all aspects of electronic product development, including FPGA, analog, PCB, and software design to help you realize your product. &nbsp;We have been providing engineering consulting services since 2001, and have been a member of the Xilinx Alliance program since 2005. &nbsp;We provide&nbsp;product design consultancy, embedded systems and electronic product design consulting, as well as full turnkey product development for a wide variety of industries and products. The programmable logic designs of today can encompass entire systems: digital signal processing (DSP) algorithms, software running on embedded processors with tight communication to the FPGA fabric, signal modulation and extraction, high speed communications - essentially much of todays systems reside in the FPGA. &nbsp;Verien has experience in all of these areas and can apply this experience to your product design. &nbsp;We provide everything from standalone FPGA design, large or small, software design, and full turnkey engineering services including design, prototype production and test. &nbsp;"
+          },
+          {
+            "tag": "h3",
+            "text": "Services Provided:"
+          },
+          {
+            "tag": "p",
+            "text": "The following are some of the engineering services provided: o &nbsp;Complex FPGA development in VHDL, Verilog, Matlab / Simulink o &nbsp;Support for all FPGA vendors: AMD Xilinx, Intel (Altera), Microsemi, Lattice o &nbsp;System on a Chip (SOC) designs including both hardware and software engineering (Linux, C) o &nbsp;Printed Circuit Board (PCB) design including schematic capture, component selection, PCB layout and prototype production. &nbsp; o &nbsp;Design verification and simulation testbench creation o &nbsp;Intellectual Property development - creation of custom IP which you then own and can become a reusable block for future products o &nbsp;Analog design including signal processing, A/D and D/A conversion, and power subsystems o &nbsp;Mixed signal PCB development, i.e. mixed digital and analog for low noise applications o &nbsp;End of life and component obsolesence - design of form, fit, and function replacements for older designs or components reaching end of life. Our technology expertise includes: Ethernet, PCI Express, USB, I2C, CAN, MODBUS, custom communications links for remote I/O applications, DDR memory subsystems, Fiber Optic Gyros (FOGs) and Inertial Measurement Units (IMUs), magnetometers, ARM and Microblaze CPUs, modulation and demodulation, signal extraction, lock-in amplifiers, CCD, CMOS, and infrared cameras, random number generators, and others. &nbsp;"
+          },
+          {
+            "tag": "h3",
+            "text": "Why Hire Verien?"
+          },
+          {
+            "tag": "p",
+            "text": "Hiring a large consulting firm or an agency would seem to be the safe thing to do when tasked with outsourcing your project, but considering that the agency will just try to hire Verien (and with you paying the commision), or that the consultant you hire through that firm or agency probably won't work for them in a few years, it's generally the more expensive and the less secure way to go. &nbsp;Our desire is to foster long term relationships with our clients. We've been servicing some of our clients for over 10 years and they wouldn't still be with us if weren't satisfied! See below for some of our example projects. &nbsp;"
+          },
+          {
+            "tag": "h4",
+            "text": "Communications Designs"
+          },
+          {
+            "tag": "p",
+            "text": "Our communications examples include designs for PCI Express, USB 3.0, and custom optical links for remote I/O and a proprietary link for real time motion control systems. &nbsp; Learn more..."
+          },
+          {
+            "tag": "h4",
+            "text": "DSP / Data Acquisition Systems"
+          },
+          {
+            "tag": "p",
+            "text": "DSP in FPGA designs can be accomplished using HDL, conversion of C to HDL, and Matlab / Simulink, i.e. Xilinx System Generator or Model Composer. Learn more..."
+          },
+          {
+            "tag": "h4",
+            "text": "Embedded / SOC / Zynq"
+          },
+          {
+            "tag": "p",
+            "text": "Embedded designs using standalone processors, or more applicable today are those based on the Xilinx Zynq or UltraScale, or Altera Cyclone V families of System On a Chip (SOC) devices. &nbsp; Learn more..."
+          },
+          {
+            "tag": "h4",
+            "text": "Image Processing / Camera Design"
+          },
+          {
+            "tag": "p",
+            "text": "Verien is experienced in FPGA design for image acquisition and processing for medical and industrial applications, as well as the design of CCD, CMOS, and infrared cameras. &nbsp; Learn more..."
+          },
+          {
+            "tag": "h4",
+            "text": "Security"
+          },
+          {
+            "tag": "p",
+            "text": "Security examples include embedded and plug-in random number generators using true and pseudo-random techniques with multiple custom entropy sources. &nbsp;&nbsp; Learn more..."
+          },
+          {
+            "tag": "h4",
+            "text": "Motion Control"
+          },
+          {
+            "tag": "p",
+            "text": "Verien has years of experience designing real-time motion control systems and robotics. Learn more..."
+          },
+          {
+            "tag": "h5",
+            "text": "Links"
+          },
+          {
+            "tag": "p",
+            "text": "Services&nbsp; About Us"
+          },
+          {
+            "tag": "h5",
+            "text": "Resources"
+          },
+          {
+            "tag": "p",
+            "text": "Tech Note s IP Cores"
+          },
+          {
+            "tag": "h5",
+            "text": "Contact"
+          },
+          {
+            "tag": "p",
+            "text": "Email: info@verien.com &nbsp; &nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "© Copyright 2018 Verien Design Group, LLC &nbsp;Concord, MA All Rights Reserved"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 13,
+          "headings": 13,
+          "images": 8
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-77D9D9FD",
+      "path": "/ip-cores.html",
+      "type": "Detected Link",
+      "anchor_text": "IP Cores",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C3E396D0",
+      "path": "/fpga-tech-notes.html",
+      "type": "Detected Link",
+      "anchor_text": "Tech Notes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-731025FD",
+      "path": "/communication-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A27CDBC7",
+      "path": "/dsp-fpga-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A4A992C2",
+      "path": "/soc-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-84EDD3A5",
+      "path": "/image-processing-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EA958273",
+      "path": "/security-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB79BE6E",
+      "path": "/motion-control-design.html",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A85402F3",
+      "path": "/services.html",
+      "type": "Detected Link",
+      "anchor_text": "Services&nbsp;",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7F33977",
+      "path": "/about.html",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

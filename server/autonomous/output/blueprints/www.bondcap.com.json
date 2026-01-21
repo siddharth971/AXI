@@ -1,0 +1,98 @@
+{
+  "website_blueprint_id": "BLUEPRINT-5CB2689C",
+  "generated_at": "2026-01-21T07:27:04.972Z",
+  "global_configuration": {
+    "brand_name": "Home",
+    "domain": "www.bondcap.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "52.74.6.109",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Netlify"
+    },
+    "server_headers": {
+      "Cache-Control": "public,max-age=0,must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Netlify"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 4,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/assets/js/app.694db88e.js",
+        "type": "script",
+        "full_url": "https://www.bondcap.com/assets/js/app.694db88e.js"
+      },
+      {
+        "path": "/assets/js/page--src--pages--index-vue.fe9f304e.js",
+        "type": "script",
+        "full_url": "https://www.bondcap.com/assets/js/page--src--pages--index-vue.fe9f304e.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=UA-138978007-1"
+      },
+      {
+        "path": "/assets/css/0.styles.061ca7e9.css",
+        "type": "stylesheet",
+        "full_url": "https://www.bondcap.com/assets/css/0.styles.061ca7e9.css"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home | BOND",
+        "description": "",
+        "canonical": "https://www.bondcap.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "6530ms"
+        },
+        {
+          "resource": "app.694db88e.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "page--src--pages--index-vue.fe9f304e.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 0,
+          "images": 0
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

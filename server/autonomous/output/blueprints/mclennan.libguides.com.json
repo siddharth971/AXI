@@ -1,0 +1,289 @@
+{
+  "website_blueprint_id": "BLUEPRINT-86DFE374",
+  "generated_at": "2026-01-21T07:27:13.269Z",
+  "global_configuration": {
+    "brand_name": "Home",
+    "domain": "mclennan.libguides.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "54.85.246.96",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 20,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/web/jquery/js/1.12.4_jquery.min.js",
+        "type": "script",
+        "full_url": "https://static-assets-us.libguides.com/web/jquery/js/1.12.4_jquery.min.js"
+      },
+      {
+        "path": "/ui/1.13.2/jquery-ui.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+      },
+      {
+        "path": "/web/jquery/js/jquery-ui.min.js",
+        "type": "script",
+        "full_url": "https://static-assets-us.libguides.com/web/jquery/js/jquery-ui.min.js?2691"
+      },
+      {
+        "path": "/web/js3.23.3/lg-public.min.js",
+        "type": "script",
+        "full_url": "https://static-assets-us.libguides.com/web/js3.23.3/lg-public.min.js"
+      },
+      {
+        "path": "/api/widgets/mclennan",
+        "type": "script",
+        "full_url": "https://my.nicheacademy.com/api/widgets/mclennan"
+      },
+      {
+        "path": "/api/widgets/mcclibrary",
+        "type": "script",
+        "full_url": "https://my.nicheacademy.com/api/widgets/mcclibrary"
+      },
+      {
+        "path": "/web/js/sa.min.js",
+        "type": "script",
+        "full_url": "https://static-assets-us.libguides.com/web/js/sa.min.js?3116"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-2LBVH7J24W"
+      },
+      {
+        "path": "/web/jquery/css/jquery-ui.min.css",
+        "type": "stylesheet",
+        "full_url": "https://static-assets-us.libguides.com/web/jquery/css/jquery-ui.min.css?2691"
+      },
+      {
+        "path": "/font-awesome/4.7.0/css/font-awesome.min.css",
+        "type": "stylesheet",
+        "full_url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      },
+      {
+        "path": "/web/css3.23.3/lg-public.min.css",
+        "type": "stylesheet",
+        "full_url": "https://static-assets-us.libguides.com/web/css3.23.3/lg-public.min.css"
+      },
+      {
+        "path": "/customers/3317/images/libguides-banner-user.png",
+        "type": "image",
+        "full_url": "https://libapps.s3.amazonaws.com/customers/3317/images/libguides-banner-user.png"
+      },
+      {
+        "path": "/libapps/accounts/44248/images/chat-icon__24px_.png",
+        "type": "image",
+        "full_url": "https://s3.amazonaws.com/libapps/accounts/44248/images/chat-icon__24px_.png"
+      },
+      {
+        "path": "/libapps/accounts/44248/images/email-icon__24px_.png",
+        "type": "image",
+        "full_url": "https://s3.amazonaws.com/libapps/accounts/44248/images/email-icon__24px_.png"
+      },
+      {
+        "path": "/libapps/accounts/44248/images/Phone-icon__24px_.png",
+        "type": "image",
+        "full_url": "https://s3.amazonaws.com/libapps/accounts/44248/images/Phone-icon__24px_.png"
+      },
+      {
+        "path": "/libapps/accounts/44248/images/Clock-icon__24px_.png",
+        "type": "image",
+        "full_url": "https://s3.amazonaws.com/libapps/accounts/44248/images/Clock-icon__24px_.png"
+      },
+      {
+        "path": "/customers/3317/images/Help-icon.png",
+        "type": "image",
+        "full_url": "https://libapps.s3.amazonaws.com/customers/3317/images/Help-icon.png"
+      },
+      {
+        "path": "/libapps/accounts/44248/images/Calendar-icon_24px_.png",
+        "type": "image",
+        "full_url": "https://s3.amazonaws.com/libapps/accounts/44248/images/Calendar-icon_24px_.png"
+      },
+      {
+        "path": "/accounts/152545/images/twitter_bird.jpg",
+        "type": "image",
+        "full_url": "https://libapps.s3.amazonaws.com/accounts/152545/images/twitter_bird.jpg"
+      },
+      {
+        "path": "/accounts/152545/images/instagram_logo.jpg",
+        "type": "image",
+        "full_url": "https://libapps.s3.amazonaws.com/accounts/152545/images/instagram_logo.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home - Welcome to MCC's Library Research Guides - Research Guides at McLennan Community College",
+        "description": "",
+        "canonical": "https://mclennan.libguides.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7349ms"
+        },
+        {
+          "resource": "1.12.4_jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-ui.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-ui.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome to MCC's Library Research Guides: Home",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Welcome to MCC's Library Research Guides: Home"
+          },
+          {
+            "tag": "h2",
+            "text": "Research Guides"
+          },
+          {
+            "tag": "p",
+            "text": "Search for a guide on&nbsp;your&nbsp;specific Subject &nbsp;or Course , learn&nbsp; How to Research more effectively , and&nbsp;discover Library Services."
+          },
+          {
+            "tag": "p",
+            "text": "If you have attended a library instruction session, please complete this survey."
+          },
+          {
+            "tag": "p",
+            "text": "Links to Services"
+          },
+          {
+            "tag": "p",
+            "text": "Social Media"
+          },
+          {
+            "tag": "p",
+            "text": "@mcc_lib &nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "@mcc_lib"
+          },
+          {
+            "tag": "p",
+            "text": "© McLennan Community College"
+          },
+          {
+            "tag": "p",
+            "text": "1400 College Drive Waco, Texas 76708, USA"
+          },
+          {
+            "tag": "p",
+            "text": "+1 (254) 299-8622"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 9,
+          "headings": 2,
+          "images": 11
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-893A662F",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Research Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E9EFB46C",
+      "path": "/searchguides",
+      "type": "Detected Link",
+      "anchor_text": "Welcome to MCC's Library Research Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2D5CBD5",
+      "path": "/az.php",
+      "type": "Detected Link",
+      "anchor_text": "Databases A-Z List",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0F1CD160",
+      "path": "/community",
+      "type": "Detected Link",
+      "anchor_text": "Services for the Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-47233400",
+      "path": "/getHelp",
+      "type": "Detected Link",
+      "anchor_text": "Report a problem.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C8D027F6",
+      "path": "/srch.php",
+      "type": "Detected Link",
+      "anchor_text": "Lib_Info",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,506 @@
+{
+  "website_blueprint_id": "BLUEPRINT-62770EAE",
+  "generated_at": "2026-01-21T07:26:54.702Z",
+  "global_configuration": {
+    "brand_name": "Home",
+    "domain": "scrumslate.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "64.23.188.45",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx/1.18.0 (Ubuntu)"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx/1.18.0 (Ubuntu)"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 25,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/themes/scrum-slate-theme/assets/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://scrumslate.com/wp-content/themes/scrum-slate-theme/assets/js/bootstrap.min.js?ver=6.9"
+      },
+      {
+        "path": "/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "type": "script",
+        "full_url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      },
+      {
+        "path": "/assets/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://scrumslate.com/assets/js/bootstrap.min.js"
+      },
+      {
+        "path": "/assets/plugins/icheck-1.0.2/icheck.js",
+        "type": "script",
+        "full_url": "https://scrumslate.com/assets/plugins/icheck-1.0.2/icheck.js"
+      },
+      {
+        "path": "/assets/plugins/js/",
+        "type": "script",
+        "full_url": "https://scrumslate.com/assets/plugins/js/"
+      },
+      {
+        "path": "/assets/js/main.js",
+        "type": "script",
+        "full_url": "https://scrumslate.com/assets/js/main.js"
+      },
+      {
+        "path": "/ajax/libs/slick-carousel/1.9.0/slick.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      },
+      {
+        "path": "/ajax/libs/axios/1.7.2/axios.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      },
+      {
+        "path": "/npm/toastify-js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/toastify-js"
+      },
+      {
+        "path": "/ajax/libs/popper.js/2.11.6/umd/popper.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"
+      },
+      {
+        "path": "/build/css/bootstrap.min.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/build/css/bootstrap.min.css"
+      },
+      {
+        "path": "/static/assets/font-awesome/css/font-awesome.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/static/assets/font-awesome/css/font-awesome.css"
+      },
+      {
+        "path": "/ajax/libs/slick-carousel/1.9.0/slick.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      },
+      {
+        "path": "/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      },
+      {
+        "path": "/assets/plugins/icheck-1.0.2/skins/minimal/grey.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/icheck-1.0.2/skins/minimal/grey.css"
+      },
+      {
+        "path": "/assets/plugins/semantic-ui-dropdown/dropdown.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/semantic-ui-dropdown/dropdown.css"
+      },
+      {
+        "path": "/assets/plugins/semantic-ui-icon/icon.min.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/semantic-ui-icon/icon.min.css"
+      },
+      {
+        "path": "/assets/plugins/semantic-ui-image/image.min.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/semantic-ui-image/image.min.css"
+      },
+      {
+        "path": "/assets/plugins/semantic-ui-label/label.min.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/semantic-ui-label/label.min.css"
+      },
+      {
+        "path": "/assets/plugins/semantic-ui-transition/transition.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/semantic-ui-transition/transition.css"
+      },
+      {
+        "path": "/assets/plugins/",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/assets/plugins/"
+      },
+      {
+        "path": "/style.css",
+        "type": "stylesheet",
+        "full_url": "https://scrumslate.com/style.css"
+      },
+      {
+        "path": "/tr",
+        "type": "image",
+        "full_url": "https://www.facebook.com/tr?id=558013956879240&ev=PageView&noscript=1"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/cropped-scrum-slate-logo-1.png",
+        "type": "image",
+        "full_url": "https://scrumslate.com/wp-content/uploads/2024/08/cropped-scrum-slate-logo-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/landingDashboard.png",
+        "type": "image",
+        "full_url": "https://scrumslate.com/wp-content/uploads/2024/10/landingDashboard.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home - Scrum Slate ",
+        "description": "",
+        "canonical": "https://scrumslate.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "17102ms"
+        },
+        {
+          "resource": "bootstrap.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "bootstrap.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Our Features",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "About Us",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Subscribe For Update",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "You are using an outdated browser. Please upgrade your browser to improve your experience."
+          },
+          {
+            "tag": "h1",
+            "text": "Streamline, Collaborate, Iterate, and Deliver high quality Projects with ScrumSlate"
+          },
+          {
+            "tag": "p",
+            "text": "A powerful tool for efficiently managing projects, centralizing tasks, timelines, and delivering results that exceed expectations. Break free from the constraints of outdated methods and unlock your team's true potential with ScrumSlate."
+          },
+          {
+            "tag": "p",
+            "text": "Watch Video Perfect Management Tool For Agile Teams Scrumslate enables you to focus on your project instead of getting lost in a complex tool with a lot of features. Discover the features that are designed to effortlessly plan, manage, track and release your products."
+          },
+          {
+            "tag": "h5",
+            "text": "Overview"
+          },
+          {
+            "tag": "h5",
+            "text": "Kanban Boards"
+          },
+          {
+            "tag": "h5",
+            "text": "Sprints"
+          },
+          {
+            "tag": "h5",
+            "text": "Reports"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Features"
+          },
+          {
+            "tag": "h5",
+            "text": "Backlog Management"
+          },
+          {
+            "tag": "p",
+            "text": "Create and prioritize features and enhancements for upcoming sprints"
+          },
+          {
+            "tag": "h5",
+            "text": "Screen Sharing"
+          },
+          {
+            "tag": "p",
+            "text": "Effortlessly record video messages and share with your team"
+          },
+          {
+            "tag": "h5",
+            "text": "Delivery Tracking"
+          },
+          {
+            "tag": "p",
+            "text": "Set goals, track team velocity, predict the release and see if you’re on track or not"
+          },
+          {
+            "tag": "h5",
+            "text": "Bug Reporting"
+          },
+          {
+            "tag": "p",
+            "text": "Quickly identify, prioritize and document relative bugs within the tasks"
+          },
+          {
+            "tag": "h2",
+            "text": "About Us"
+          },
+          {
+            "tag": "p",
+            "text": "At Scrum Slate, our mission is to develop a tool that is specifically dedicated to Agile Project Management teams. We understand it is harder to achieve the target goals when you don’t have the right tool. With Scrum Slate you get the right features that support sprint planning, backlog management, bug tracking and iterative development cycles to ensure your team stays on track."
+          },
+          {
+            "tag": "p",
+            "text": "Robert Peters"
+          },
+          {
+            "tag": "p",
+            "text": "Scrum Slate has significantly simplified project management. With innovative features like built-in audio and video message recording, along with task creation directly from these messages make it the ideal tool for efficiently managing complex projects within teams."
+          },
+          {
+            "tag": "p",
+            "text": "Eric Hilliard"
+          },
+          {
+            "tag": "p",
+            "text": "This tool is incredibly straightforward and effortless to use for agile teams. The user interface is clean, making it easy for teams to navigate and find the resources they need. Features such as backlog and sprint make planning user stories more efficient for the team."
+          },
+          {
+            "tag": "p",
+            "text": "Callum Park"
+          },
+          {
+            "tag": "p",
+            "text": "It is one of the best and straightforward scrum tools that I have ever seen. It makes project management a breeze. I would highly recommend it to other teams who follow scrum and are looking for the tool to manage the development process."
+          },
+          {
+            "tag": "h2",
+            "text": "Subscribe For Update"
+          },
+          {
+            "tag": "p",
+            "text": "Be the first to know about our latest news, offers, and insights. Join our community and subscribe for updates today"
+          },
+          {
+            "tag": "p",
+            "text": "Discover a tool designed to transform your vision into reality, one step at a time."
+          },
+          {
+            "tag": "h4",
+            "text": "Links"
+          },
+          {
+            "tag": "h4",
+            "text": "Go Agile"
+          },
+          {
+            "tag": "h4",
+            "text": "Resources"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 30,
+          "headings": 16,
+          "images": 18
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-7B3E0DA9",
+      "path": "/build/home",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A803EBA2",
+      "path": "/build/features",
+      "type": "Detected Link",
+      "anchor_text": "Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC6B0685",
+      "path": "/build/about-us",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C36148E4",
+      "path": "/build/pricing",
+      "type": "Detected Link",
+      "anchor_text": "Pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BF76EDA0",
+      "path": "/build/contactUs",
+      "type": "Detected Link",
+      "anchor_text": "Contact Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7926C148",
+      "path": "/build/chrome-extension",
+      "type": "Detected Link",
+      "anchor_text": "Extension",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-389611FB",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-94F0E847",
+      "path": "/features/",
+      "type": "Detected Link",
+      "anchor_text": "Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DDC0E6D1",
+      "path": "/contact-us/",
+      "type": "Detected Link",
+      "anchor_text": "Contact Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D94D8166",
+      "path": "/chrome-extention/",
+      "type": "Detected Link",
+      "anchor_text": "Chrome Extention",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4AD6B4BE",
+      "path": "/blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-865AB27A",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-29911315",
+      "path": "/build/agile",
+      "type": "Detected Link",
+      "anchor_text": "What is Agile?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AFF790F0",
+      "path": "/build/kanban",
+      "type": "Detected Link",
+      "anchor_text": "Scrum VS Kanban",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D1C910D2",
+      "path": "/build/backlog-refinement",
+      "type": "Detected Link",
+      "anchor_text": "Backlog Refinement",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

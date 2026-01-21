@@ -1,0 +1,593 @@
+{
+  "website_blueprint_id": "BLUEPRINT-90055D58",
+  "generated_at": "2026-01-21T07:27:05.020Z",
+  "global_configuration": {
+    "brand_name": "www.coursera.org",
+    "domain": "www.coursera.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "108.159.80.55",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "envoy"
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, no-store, must-revalidate, max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "envoy"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/webapps/r2-builds/br/front-page/allStyles.497c3f264c69fcd89169.js",
+        "type": "script",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/front-page/allStyles.497c3f264c69fcd89169.js"
+      },
+      {
+        "path": "/webapps/r2-builds/br/front-page/en.app.ffa9aa6368050f066787.js",
+        "type": "script",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/front-page/en.app.ffa9aa6368050f066787.js"
+      },
+      {
+        "path": "/7.116.0/bundle.tracing.min.js",
+        "type": "script",
+        "full_url": "https://browser.sentry-cdn.com/7.116.0/bundle.tracing.min.js"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/27RcUlDZHZQ2ZbNPKd3Uuv/f7b95eac743a8ced191475993183a5d7/coursera-plus-logo-invert.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/27RcUlDZHZQ2ZbNPKd3Uuv/f7b95eac743a8ced191475993183a5d7/coursera-plus-logo-invert.svg?auto=format%2Ccompress&amp;dpr=1&amp;w=161&amp;h=16"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3aQfVb3tfGuXGDsu6qIDmY/63683d7fd1b4af3cf9480e473c11dbf6/India_INR7999_LOHP-Desktop_416x304.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3aQfVb3tfGuXGDsu6qIDmY/63683d7fd1b4af3cf9480e473c11dbf6/India_INR7999_LOHP-Desktop_416x304.png?auto=format%2Ccompress&amp;dpr=1&amp;w=832&amp;h=608&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i3A4RkwtYgmPgkwN9H0Xm/ea3c32699a81e4c8f22de1b3d4061207/India_INR7999_LOHP-Mobile_326x138.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i3A4RkwtYgmPgkwN9H0Xm/ea3c32699a81e4c8f22de1b3d4061207/India_INR7999_LOHP-Mobile_326x138.png?auto=format%2Ccompress&amp;dpr=1&amp;w=652&amp;h=276&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/23JCArUUPZRe4yBraqfvTe/c8d95c7278b4c9f3fff30b41e27b457f/coursera-teams-logo-white.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/23JCArUUPZRe4yBraqfvTe/c8d95c7278b4c9f3fff30b41e27b457f/coursera-teams-logo-white.svg?auto=format%2Ccompress&amp;dpr=1&amp;w=1049&amp;h=19"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1y5IeHkWqEYf4CabFd4GkR/2af57f7b8650116ead6a6130b069851e/LOHP__WES_-Desktop-330x304.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1y5IeHkWqEYf4CabFd4GkR/2af57f7b8650116ead6a6130b069851e/LOHP__WES_-Desktop-330x304.png?auto=format%2Ccompress&amp;dpr=1&amp;w=660&amp;h=608&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4wz4z8iZhsdJKyEpwTTuDV/418a749c7d6245f8bf6b9707bd28754f/LOHP__WES_-Mobile-242x138.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4wz4z8iZhsdJKyEpwTTuDV/418a749c7d6245f8bf6b9707bd28754f/LOHP__WES_-Mobile-242x138.png?auto=format%2Ccompress&amp;dpr=1&amp;w=484&amp;h=276&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3S3B2Fkv9RzncshAU3v44W/035cedad8f6ab1cc7e9986d0045371e4/JoinForFreeDesktop.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3S3B2Fkv9RzncshAU3v44W/035cedad8f6ab1cc7e9986d0045371e4/JoinForFreeDesktop.png?auto=format%2Ccompress&amp;dpr=1&amp;w=661&amp;h=608&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/58sXhT0eBFnK0e9mLWlX3s/6f85590688efbd2e07a687a54bbbbbb8/JoinForFreeMobile.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/58sXhT0eBFnK0e9mLWlX3s/6f85590688efbd2e07a687a54bbbbbb8/JoinForFreeMobile.png?auto=format%2Ccompress&amp;dpr=1&amp;w=464&amp;h=276&amp;q=40"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3QMENkcLeHRCzVos6A00Iz/dd16dbb05dd75bf47034b79c9fa26d1a/Union.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3QMENkcLeHRCzVos6A00Iz/dd16dbb05dd75bf47034b79c9fa26d1a/Union.svg?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/fGHT3Go14lrW8c5Old3zy/958582e5c7c19258f4120f63e5ad8faf/Certificate.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/fGHT3Go14lrW8c5Old3zy/958582e5c7c19258f4120f63e5ad8faf/Certificate.svg?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7lPktvF7RWr8FIH3QbM7P4/d44b4b7e856e23b340c96b10773ea89d/GraduationCap.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7lPktvF7RWr8FIH3QbM7P4/d44b4b7e856e23b340c96b10773ea89d/GraduationCap.svg?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3ZIhQ7yxmgGMFZGtlqpCG6/0d0f40bc5133948bb3805cab25af62ba/Google-G_360x360.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3ZIhQ7yxmgGMFZGtlqpCG6/0d0f40bc5133948bb3805cab25af62ba/Google-G_360x360.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7iLJYdbTLExBFAgVoHe2Pc/1735062f2f3a6df1dca8cfd9f1815098/ibm-logo.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7iLJYdbTLExBFAgVoHe2Pc/1735062f2f3a6df1dca8cfd9f1815098/ibm-logo.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/11pJTA8yOZPwVRMKnSKPRz/340cf59915e8ce0d3b993d39959972d6/eded33b5eb1694336861de4bfda6d36bf72b7780.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/11pJTA8yOZPwVRMKnSKPRz/340cf59915e8ce0d3b993d39959972d6/eded33b5eb1694336861de4bfda6d36bf72b7780.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1BjGzhrTBjvvOPuzuqQDHS/81bdfa5d44c5ec8c0364e8ee4761ccff/200x48-illinois.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1BjGzhrTBjvvOPuzuqQDHS/81bdfa5d44c5ec8c0364e8ee4761ccff/200x48-illinois.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/88r0gwMY5y55z3J0h1T4M/e80fdcb65ff8681943c5394c670f6b7d/OAI_MVP_01_OpenAI_Logo_Black.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/88r0gwMY5y55z3J0h1T4M/e80fdcb65ff8681943c5394c670f6b7d/OAI_MVP_01_OpenAI_Logo_Black.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/2qT888LE5BPxxD8d4pfXmJ/89b8eb03eaebe5ff116f509333f24fb5/Anthropic-logo.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/2qT888LE5BPxxD8d4pfXmJ/89b8eb03eaebe5ff116f509333f24fb5/Anthropic-logo.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/B6gbch3CrIAfBm9F0GpE5/51c6f4fbaf2b25ef11fce8ef9563b7d9/Icon.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/B6gbch3CrIAfBm9F0GpE5/51c6f4fbaf2b25ef11fce8ef9563b7d9/Icon.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1s6p4WQHsv79stjgyiWBtI/d55f3608a884d6d1e48f78935b73362f/3c8a16b167a785920d061664a6512c3a60cdb30e.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1s6p4WQHsv79stjgyiWBtI/d55f3608a884d6d1e48f78935b73362f/3c8a16b167a785920d061664a6512c3a60cdb30e.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3Y7rH8FUwg4eai7LK5j9u3/880203b6e241e81112bf48f252ca8e72/Penn-badge.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3Y7rH8FUwg4eai7LK5j9u3/880203b6e241e81112bf48f252ca8e72/Penn-badge.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7sWcR45W6I4bvFrJfCmb5d/2dff9bbefe50a9fcbcf89b2e5ee7032e/umich.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7sWcR45W6I4bvFrJfCmb5d/2dff9bbefe50a9fcbcf89b2e5ee7032e/umich.png?auto=format%2Ccompress&amp;dpr=1"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i3A4RkwtYgmPgkwN9H0Xm/ea3c32699a81e4c8f22de1b3d4061207/India_INR7999_LOHP-Mobile_326x138.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i3A4RkwtYgmPgkwN9H0Xm/ea3c32699a81e4c8f22de1b3d4061207/India_INR7999_LOHP-Mobile_326x138.png?auto=format%2Ccompress&amp;dpr=1&amp;w=652&amp;h=276"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/23JCArUUPZRe4yBraqfvTe/c8d95c7278b4c9f3fff30b41e27b457f/coursera-teams-logo-white.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/23JCArUUPZRe4yBraqfvTe/c8d95c7278b4c9f3fff30b41e27b457f/coursera-teams-logo-white.svg?auto=format%2Ccompress&amp;dpr=1&amp;w=1049&amp;h=20"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4wz4z8iZhsdJKyEpwTTuDV/418a749c7d6245f8bf6b9707bd28754f/LOHP__WES_-Mobile-242x138.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4wz4z8iZhsdJKyEpwTTuDV/418a749c7d6245f8bf6b9707bd28754f/LOHP__WES_-Mobile-242x138.png?auto=format%2Ccompress&amp;dpr=1&amp;w=484&amp;h=276"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i5srEZb2oOiyBzsckTgCE/9e395a15dc3a0ee381ba8cad950694fa/Sarah_W..jpeg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/5i5srEZb2oOiyBzsckTgCE/9e395a15dc3a0ee381ba8cad950694fa/Sarah_W..jpeg?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1hutGkdWK4YixkAB4MRESr/6d9020693440cba7c65f2ae12cdc91e8/NoerisB.jpg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/1hutGkdWK4YixkAB4MRESr/6d9020693440cba7c65f2ae12cdc91e8/NoerisB.jpg?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4Y6jSp1xS4TKuPRNEIYAof/3e3baba688ce331ff7577f5583fc5c87/Abdullahi_M.jpg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/4Y6jSp1xS4TKuPRNEIYAof/3e3baba688ce331ff7577f5583fc5c87/Abdullahi_M.jpg?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3H5hysCHFHUu7JWjv0FXCC/aab7b9f6be57cda1552bb52fcb6f8098/Anas_Alubaidi_pic.JPEG",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/3H5hysCHFHUu7JWjv0FXCC/aab7b9f6be57cda1552bb52fcb6f8098/Anas_Alubaidi_pic.JPEG?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=152&amp;h=45&amp;w=152"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=152&amp;h=45&amp;w=152"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=151&amp;w=82&amp;h=120"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/facebook.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/facebook.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/linkedin.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/linkedin.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/twitter.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/twitter.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/youtube.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/youtube.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/instagram.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/instagram.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      },
+      {
+        "path": "/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/9b7e964107839c77644d7e7d15035b73.png",
+        "type": "image",
+        "full_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/9b7e964107839c77644d7e7d15035b73.png?auto=format%2Ccompress&amp;dpr=2&amp;blur=200&amp;px=8&amp;max-w=28&amp;h=28&amp;w=28"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.coursera.org",
+        "description": "",
+        "canonical": "https://www.coursera.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7100ms"
+        },
+        {
+          "resource": "allStyles.497c3f264c69fcd89169.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "en.app.ffa9aa6368050f066787.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "bundle.tracing.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Learn without limits",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Ends soon! Next level skills. New Year savings.",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Train your team in top skills and join 3,700+ teams worldwide",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Start, switch, or advance your career",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Explore Degrees &#8203; Log In Join for Free Join for Free Learn without limits Ends soon! Next level skills. New Year savings. Unlock 10,000+ programs with your subscription and earn as many career certificates as you like."
+          },
+          {
+            "tag": "p",
+            "text": "Train your team in top skills and join 3,700+ teams worldwide Save 50% on Teams Start, switch, or advance your career Grow with 10,000+ courses from top organizations"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next Go to item 1 Go to item 2 Go to item 3 Launch a new career Launch a new career Gain in-demand skills Gain in-demand skills Earn a degree Earn a degree Previous Next Learn from 350+ leading universities and companies Google IBM Microsoft University of Illinois OpenAI Anthropic DeepLearning.AI Stanford University University of Pennsylvania University of Michigan Previous Next Trending courses Most popular Weekly spotlight In-demand AI skills Previous Next Explore categories Business Artificial Intelligence Data Science Computer Science Information Technology Personal Development Healthcare Language Learning Social Sciences Arts and Humanities Physical Science and Engineering Math and Logic Previous Next Hot new releases"
+          },
+          {
+            "tag": "p",
+            "text": "Explore courses"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next What brings you to Coursera today? Start my career"
+          },
+          {
+            "tag": "p",
+            "text": "Change my career"
+          },
+          {
+            "tag": "p",
+            "text": "Grow in my current role"
+          },
+          {
+            "tag": "p",
+            "text": "Explore topics outside of work"
+          },
+          {
+            "tag": "p",
+            "text": "Prepare for an industry certification exam"
+          },
+          {
+            "tag": "p",
+            "text": "Explore courses"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next Most popular by category Popular in Business Popular in Data Popular in Tech Previous Next Turn resolutions into results with Coursera Plus for ₹7,999/year Save Now Train your team in top skills and save 50% Save 50% on Teams Why people choose Coursera Sarah W. &quot;Coursera&#x27;s reputation for high-quality content, paired with its flexible structure, made it possible for me to dive into data analytics while managing family, health, and everyday life. &quot; Noeris B. &quot;Coursera rebuilt my confidence and showed me I could dream bigger. It wasn&#x27;t just about gaining knowledge—it was about believing in my potential again.&quot; Abdullahi M. &quot;I now feel more prepared to take on leadership roles and have already started mentoring some of my colleagues.&quot; Anas A. &quot;Learning with Coursera has expanded my professional expertise by giving me access to cutting-edge research, practical tools, and global perspectives.&quot; Previous Next Frequently asked questions Is Coursera accredited, and are Coursera certificates recognized by employers? Coursera partners with accredited universities and leading companies such as Google and IBM to offer courses, Specializations, and Professional Certificates. Employers widely recognize these credentials because they are issued directly by trusted institutions. Learners can build job-ready skills with the Google Data Analytics Professional Certificate , the IBM Data Analyst Professional Certificate , or start with accredited university content in high-demand fields like data analytics and cybersecurity ."
+          },
+          {
+            "tag": "h3",
+            "text": "Is a Coursera certificate worth it?"
+          },
+          {
+            "tag": "p",
+            "text": "For many learners, a Coursera certificate is worth it because it provides job-ready skills and a verifiable credential from respected universities and companies. Learners commonly transition into roles in project management, UX design, and data science through programs such as the Google Project Management Professional Certificate , the Google UX Design Professional Certificate , and the IBM Data Science Professional Certificate . Others enter technical fields by starting with beginner-friendly Python or generative AI courses."
+          },
+          {
+            "tag": "h3",
+            "text": "What is Coursera Plus, and is it worth it?"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera Plus is an annual subscription that gives learners unlimited access to thousands of courses, Specializations, and Professional Certificates. It’s a substantial value for anyone planning to complete multiple programs in a year. Learners often use Coursera Plus to explore in-demand areas, such as AI and analytics, through programs like the AI Essentials Specialization , the IBM Data Analyst Professional Certificate , or the Google Cybersecurity Professional Certificate ."
+          },
+          {
+            "tag": "h3",
+            "text": "Does Coursera offer free online courses?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes. Coursera offers thousands of courses that you can preview for free, including access to the first module, allowing you to explore the content before committing. Learners who want full course access or a certificate can join with a 7-day free trial through Coursera Plus or a subscription-based program. Many learners begin with introductory topics, such as Python , digital marketing , or English speaking , and later move into job-focused programs, like the Google IT Support Professional Certificate , when they’re ready to complete a credential."
+          },
+          {
+            "tag": "h3",
+            "text": "What are the most popular courses on Coursera?"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera’s best-known courses and certificates are offered by leading universities and companies in the fields of AI, data science, cybersecurity, and software engineering. Many learners begin with the Machine Learning Specialization or the Deep Learning Specialization . In contrast, others opt for job-aligned pathways, such as the Google Cybersecurity Professional Certificate or the AI Engineer Professional Certificate . You can also browse broad areas, such as artificial intelligence , SQL , or web development , to find highly rated options."
+          },
+          {
+            "tag": "h3",
+            "text": "How can Coursera help me get a job or advance my career?"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera offers job-aligned Professional Certificates and Specializations designed in collaboration with employers and universities to help learners qualify for roles in fields such as cybersecurity, UX, data analytics, AI, and business. Programs such as the Google Cybersecurity Professional Certificate , the Data Analysis with Python Specialization , and the UI/UX Design Specialization help learners build employer-relevant skills. At the same time, many career changers explore areas such as product management or business analysis as pathways into business and technology roles. Coursera also offers online bachelor’s and master’s degrees from accredited universities, which can support long-term career advancement in business, computer science, data, and other high-growth fields. Learners exploring formal education pathways can browse online degrees or view available bachelor’s programs to find a degree aligned to their career goals."
+          },
+          {
+            "tag": "h3",
+            "text": "What is Coursera for Business, and how much does it cost?"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera for Business is Coursera’s enterprise learning platform designed to help organizations reskill and upskill employees with job-relevant training from top universities and companies. It comes in two versions:"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera for Teams – Designed for small teams and growing businesses. It offers access to thousands of courses and Professional Certificates for a fixed price per user."
+          },
+          {
+            "tag": "p",
+            "text": "Pricing varies depending on the size of your team and the learning needs of your organization. Small businesses can purchase Coursera for Teams directly online, while Coursera for Enterprise pricing is custom and available through a sales consultation."
+          },
+          {
+            "tag": "p",
+            "text": "¹ Median salary and job opening data are sourced from Lightcast™ Job Postings Report. Content Creator, Machine Learning Engineer and Salesforce Development Representative (1/1/2024 - 12/31/2024) All other job roles (1/1/2025 - 1/1/2026)"
+          },
+          {
+            "tag": "p",
+            "text": "Coursera Footer"
+          },
+          {
+            "tag": "h2",
+            "text": "Skills"
+          },
+          {
+            "tag": "h2",
+            "text": "Certificates &amp; Programs"
+          },
+          {
+            "tag": "h2",
+            "text": "Industries &amp; Careers"
+          },
+          {
+            "tag": "h2",
+            "text": "Career Resources"
+          },
+          {
+            "tag": "h2",
+            "text": "Coursera"
+          },
+          {
+            "tag": "h2",
+            "text": "Community"
+          },
+          {
+            "tag": "h2",
+            "text": "More"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 80,
+          "headings": 30,
+          "images": 38
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-EA0668EF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "For Individuals",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-146EC711",
+      "path": "/business",
+      "type": "Detected Link",
+      "anchor_text": "For Businesses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E86CFC31",
+      "path": "/campus",
+      "type": "Detected Link",
+      "anchor_text": "For Universities",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A6570267",
+      "path": "/government",
+      "type": "Detected Link",
+      "anchor_text": "For Governments",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4649E09E",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C1917894",
+      "path": "/degrees",
+      "type": "Detected Link",
+      "anchor_text": "Degrees",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CD4F3BBD",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Log In",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-023CE615",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Join for Free",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E4E9F2DA",
+      "path": "/courseraplus/special/india-2026-new-year",
+      "type": "Detected Link",
+      "anchor_text": "Save on Coursera Plus",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-33A310A0",
+      "path": "/business/teams",
+      "type": "Detected Link",
+      "anchor_text": "Save 50% on Teams",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-95D6E31A",
+      "path": "/career-academy",
+      "type": "Detected Link",
+      "anchor_text": "Launch a new careerLaunch a new career",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D98E10E",
+      "path": "/browse",
+      "type": "Detected Link",
+      "anchor_text": "Gain in-demand skillsGain in-demand skills",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8850D003",
+      "path": "/google-career-certificates",
+      "type": "Detected Link",
+      "anchor_text": "Google",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C7B7245D",
+      "path": "/explore/ibm-online-courses",
+      "type": "Detected Link",
+      "anchor_text": "IBM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A9402C99",
+      "path": "/explore/microsoft-certificates",
+      "type": "Detected Link",
+      "anchor_text": "Microsoft",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

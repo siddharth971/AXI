@@ -1,0 +1,1204 @@
+{
+  "website_blueprint_id": "BLUEPRINT-17B3513A",
+  "generated_at": "2026-01-21T07:27:04.847Z",
+  "global_configuration": {
+    "brand_name": "Taste of Home: Find Recipes, Appetizers, Desserts, Holiday Recipes &amp; Healthy Cooking Tips",
+    "domain": "www.tasteofhome.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.2.91",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=57600",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 147,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-includes/js/jquery/jquery.js?ver=1.0.0"
+      },
+      {
+        "path": "/web/v3/config/trustedmediabrands/taste_of_home/boot.js",
+        "type": "script",
+        "full_url": "https://global.ketchcdn.com/web/v3/config/trustedmediabrands/taste_of_home/boot.js"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-cookie-compliance-v2-ketch-helper/scripts/helper.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-cookie-compliance-v2-ketch-helper/scripts/helper.js?ver=1.3.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-cookie-compliance-v2/scripts/common.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-cookie-compliance-v2/scripts/common.js?ver=1.2.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/Common.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/Common.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/dist/tmbi-ga4-analytics-bundle.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/dist/tmbi-ga4-analytics-bundle.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/digitaldata.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/digitaldata.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/EngagementEvent.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/EngagementEvent.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/analytics.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/analytics.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/AccountEvent.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/AccountEvent.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/PrivacySetting.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/PrivacySetting.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/SearchEvent.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/SearchEvent.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-data-analytics/js/openweb-analytics.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-data-analytics/js/openweb-analytics.js?ver=7.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-ad-density/js/ad-density-ga-integration.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-ad-density/js/ad-density-ga-integration.js?ver=6.1.3"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-ad-density/js/ad-density-gam-integration.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-ad-density/js/ad-density-gam-integration.js?ver=6.1.3"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-optimera-integration/js/optiCommon.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-optimera-integration/js/optiCommon.js?ver=1.2.1"
+      },
+      {
+        "path": "/aax2/apstag.js",
+        "type": "script",
+        "full_url": "https://c.amazon-adsystem.com/aax2/apstag.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/pup-a9-header-bidder/js/tmbi-a9-header-bidder.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/pup-a9-header-bidder/js/tmbi-a9-header-bidder.js?ver=1.0.3"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-permutive/js/permutive-tracking.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-permutive/js/permutive-tracking.js?ver=5.1.3"
+      },
+      {
+        "path": "/wp-content/mu-plugins/tmbi-js-utils/js/js-util-query.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/mu-plugins/tmbi-js-utils/js/js-util-query.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-permutive/js/permutive-identifier.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-permutive/js/permutive-identifier.js?ver=5.1.3"
+      },
+      {
+        "path": "/d82f7a30-751a-4689-b7e9-19336a89ab46-web.js",
+        "type": "script",
+        "full_url": "https://d82f7a30-751a-4689-b7e9-19336a89ab46.edge.permutive.app/d82f7a30-751a-4689-b7e9-19336a89ab46-web.js?ver=5.1.3"
+      },
+      {
+        "path": "/prebid/dynamic/10696.js",
+        "type": "script",
+        "full_url": "https://micro.rubiconproject.com/prebid/dynamic/10696.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-prebid/js/tmbi-prebid.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-prebid/js/tmbi-prebid.js?ver=1.1.2"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/pup-ad-stack/js/ad-stack.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/pup-ad-stack/js/ad-stack.js?ver=7.3.1"
+      },
+      {
+        "path": "/wp-content/plugins/speedcurve-helper/js/speedcurve-lux.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/speedcurve-helper/js/speedcurve-lux.js?ver=1.0.2"
+      },
+      {
+        "path": "/js/lux.js",
+        "type": "script",
+        "full_url": "https://cdn.speedcurve.com/js/lux.js?id=128112127&amp;ver=1.0.2"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/cm-ribbon.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/cm-ribbon.js?ver=25.20.3"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-permutive/js/permutive-ga-integration.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-permutive/js/permutive-ga-integration.js?ver=5.1.3"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/src/carousel.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/src/carousel.js?ver=25.20.3"
+      },
+      {
+        "path": "/oPS.js",
+        "type": "script",
+        "full_url": "https://d15kdpgjg3unno.cloudfront.net/oPS.js?cid=104&amp;ver=1.0.0"
+      },
+      {
+        "path": "/934/i.js",
+        "type": "script",
+        "full_url": "https://tag.bounceexchange.com/934/i.js?ver=2.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/pup-bx/js/wunderkind-ga4-integration.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/pup-bx/js/wunderkind-ga4-integration.js?ver=2.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/pup-referral-tracking/js/referral-tracking.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/pup-referral-tracking/js/referral-tracking.js?ver=1.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/pushly/assets/js/pushly-consent.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/pushly/assets/js/pushly-consent.js?ver=1.0.4"
+      },
+      {
+        "path": "/pushly-sdk.min.js",
+        "type": "script",
+        "full_url": "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=Chg2QgQXE9WloIhSI02CwPsz4DaDNLNlVpHa&amp;ver=1.0.0"
+      },
+      {
+        "path": "/cs/6034767/beacon.js",
+        "type": "script",
+        "full_url": "https://sb.scorecardresearch.com/cs/6034767/beacon.js?ver=1.0.1"
+      },
+      {
+        "path": "/wp-content/plugins/fusion-auth-helper/js/fusion-auth-helper.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/fusion-auth-helper/js/fusion-auth-helper.js?ver=1.1.2"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-amazon-affiliate/assets/js/amazon-affiliate-tracking.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-amazon-affiliate/assets/js/amazon-affiliate-tracking.js?ver=3.0.1"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-visitors//js/crypto-js/crypto-js.min.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-visitors//js/crypto-js/crypto-js.min.js?ver=5.0.1"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-visitors//js/crypto-js/sha256.min.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-visitors//js/crypto-js/sha256.min.js?ver=5.0.1"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-visitors//js/visitor.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-visitors//js/visitor.js?ver=5.0.1"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/util/slinky.min.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/util/slinky.min.js?ver=4.1.0"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/navigation.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/navigation.js?ver=25.20.3"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/navigation-2021.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/navigation-2021.js?ver=25.20.3"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/sticky-header.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/sticky-header.js?ver=1.0.2"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/IE11-check.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/IE11-check.js?ver=1.0.2"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/js/newsletter-module.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/js/newsletter-module.js?ver=1.1.3"
+      },
+      {
+        "path": "/ct/core.js",
+        "type": "script",
+        "full_url": "https://s.pinimg.com/ct/core.js?ver=1.0.0"
+      },
+      {
+        "path": "/a-04gp.min.js",
+        "type": "script",
+        "full_url": "https://b-code.liadm.com/a-04gp.min.js?ver=1.0.1"
+      },
+      {
+        "path": "/scripts/ta.js",
+        "type": "script",
+        "full_url": "https://static.trueanthem.com/scripts/ta.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee-toh-child/js/logged-in-user.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee-toh-child/js/logged-in-user.js?ver=2.0.1"
+      },
+      {
+        "path": "/tag/a969c5a7d4e5408485948e8e11899567/tasteofhome.com.js",
+        "type": "script",
+        "full_url": "https://cdn.brandmetrics.com/tag/a969c5a7d4e5408485948e8e11899567/tasteofhome.com.js?ver=1.4.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-brandmetrics//js/tmbi-brandmetrics.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-brandmetrics//js/tmbi-brandmetrics.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-zeta-helper/js/tmbi-zeta-helper.js",
+        "type": "script",
+        "full_url": "https://www.tasteofhome.com/wp-content/plugins/tmbi-zeta-helper/js/tmbi-zeta-helper.js?ver=1.0.0"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/toh-interior-logo.svg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2021/09/toh-interior-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/EXPS_TOHD25_281369_SarahTramonte_9.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/EXPS_TOHD25_281369_SarahTramonte_9.jpg?resize=250%2C250&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/Chinese-Chicken-Salad_EXPS_FT23_274171_ST_6_21_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/02/Chinese-Chicken-Salad_EXPS_FT23_274171_ST_6_21_1.jpg?resize=250%2C250&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Jalapeno-Popper-Chicken-Casserole_EXPS_TOHSummer25_235059_MD_P2_01_16_8b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Jalapeno-Popper-Chicken-Casserole_EXPS_TOHSummer25_235059_MD_P2_01_16_8b.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/I-Tried-Butter-Dipped-Ice-Cream_Browned-Butter-Ice-cream-hero.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/I-Tried-Butter-Dipped-Ice-Cream_Browned-Butter-Ice-cream-hero.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/This-Is-How-Long-Your-Coffee-Really-Lasts_GettyImages-1397854634_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/This-Is-How-Long-Your-Coffee-Really-Lasts_GettyImages-1397854634_FT.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/What-Are-End-Grain-Cutting-Boards_AdobeStock_1237409754_DKedit_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/What-Are-End-Grain-Cutting-Boards_AdobeStock_1237409754_DKedit_FT.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/TOHA26_Curious-Elixirs_Emily-Way_07_YVedit.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/TOHA26_Curious-Elixirs_Emily-Way_07_YVedit.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Best-Kitchen-Storage-Ideas_FT_OTedit.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/Best-Kitchen-Storage-Ideas_FT_OTedit.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/TOHA25_This-Dough-Freezer-Tray_Mary-Henn_06_YVedit.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/06/TOHA25_This-Dough-Freezer-Tray_Mary-Henn_06_YVedit.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/Top-Fridge-Containers_Emily-way-for-TOH_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/06/Top-Fridge-Containers_Emily-way-for-TOH_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/TOHD25_Flour-Storage-Container_Madi-Koetting_01_YVedit.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/03/TOHD25_Flour-Storage-Container_Madi-Koetting_01_YVedit.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Creators_Portrait_Tam_To_MD_P2_10_15_2b_preview.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/Creators_Portrait_Tam_To_MD_P2_10_15_2b_preview.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/EXPS_TOHCR25_280994_TT_0908_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/09/EXPS_TOHCR25_280994_TT_0908_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/EXPS_TOHCR25_281152_TT_1001_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/10/EXPS_TOHCR25_281152_TT_1001_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/EXPS_TOHCR25_280942_TT_0827_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/09/EXPS_TOHCR25_280942_TT_0827_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Creators_Portrait_Alex_Balla_MD_P2_10_15_2b_preview.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/Creators_Portrait_Alex_Balla_MD_P2_10_15_2b_preview.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/EXPS_TOHCR25_281181_AB_1006_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/10/EXPS_TOHCR25_281181_AB_1006_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/EXPS_TOHCR25_281083_AB_09119_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/09/EXPS_TOHCR25_281083_AB_09119_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/EXPS_TOHCR25_280975_AB_0908_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/09/EXPS_TOHCR25_280975_AB_0908_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Tyler_Smith_MD_P3_05_14_25_2b_preview.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Tyler_Smith_MD_P3_05_14_25_2b_preview.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/EXPS_TOHCR25_280185_TS_0522_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/05/EXPS_TOHCR25_280185_TS_0522_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/EXPS_TOHCR25_280465_TS_0702_4.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/07/EXPS_TOHCR25_280465_TS_0702_4.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/EXPS_TOHCR25_279856_TS_0411_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/04/EXPS_TOHCR25_279856_TS_0411_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Elise_Jesse_MD_P3_05_14_25_2b_preview.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Elise_Jesse_MD_P3_05_14_25_2b_preview.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/EXPS_TOHCR25_279787_EJ_0402_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/04/EXPS_TOHCR25_279787_EJ_0402_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/EXPS_TOHCR25_280186_EJ_0523_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/05/EXPS_TOHCR25_280186_EJ_0523_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/EXPS_TOHCR25_279934_EJ_0424_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/04/EXPS_TOHCR25_279934_EJ_0424_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Hetal_Vasavada_MD_P3_05_14_25_2b_preview-e1763539461259.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Hetal_Vasavada_MD_P3_05_14_25_2b_preview-e1763539461259.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/EXPS_TOHCR25_280542_HV_0714_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/07/EXPS_TOHCR25_280542_HV_0714_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/EXPS_TOHCR25_280354_HV_0620_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/06/EXPS_TOHCR25_280354_HV_0620_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/EXPS_TOHCR_280184_HV_0523_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/05/EXPS_TOHCR_280184_HV_0523_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Lucy_Wang_MD_P3_05_14_25_1b_preview.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/TMBI_Creators_Portraits_Lucy_Wang_MD_P3_05_14_25_1b_preview.jpg?resize=295,295"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/EXPS_TOHCR25_280281_LW_0609_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/06/EXPS_TOHCR25_280281_LW_0609_2.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/EXPS_TOHCR25_280427_LW_0701_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/07/EXPS_TOHCR25_280427_LW_0701_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/EXPS_TOHCR25_280297_LW_0611_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/06/EXPS_TOHCR25_280297_LW_0611_1.jpg?resize=150%2C150&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Tom-Kha-Gai_EXPS_TOHD24_277607_ChristineMa_6.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Tom-Kha-Gai_EXPS_TOHD24_277607_ChristineMa_6.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/0001/01/Open-Faced-Prosciutto-and-Egg-Sandwich_EXPS_TOHAM20_58152_E11_07_2b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/0001/01/Open-Faced-Prosciutto-and-Egg-Sandwich_EXPS_TOHAM20_58152_E11_07_2b.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Copycat-Lofthouse-Cookies_TOHVP24_277689_MR_12_03_1_a.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Copycat-Lofthouse-Cookies_TOHVP24_277689_MR_12_03_1_a.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/10-Best-Non-Stick-Cooking-Utensils-to-Use-with-Non-Stick-Cookware_FT_via-amazon.com_.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2023/05/10-Best-Non-Stick-Cooking-Utensils-to-Use-with-Non-Stick-Cookware_FT_via-amazon.com_.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/10/grocery-shopping-produce.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/10/grocery-shopping-produce.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Paper-Plane_EXPS_TOHcom24_276770_DR_05_09_07b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/06/Paper-Plane_EXPS_TOHcom24_276770_DR_05_09_07b.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/exps13652_CAS143580C09_19_6b-4.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps13652_CAS143580C09_19_6b-4.jpg?resize=400%2C400&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/41-Cozy-Winter-Dessert-Recipes-to-Warm-You-Up_TOHD24_38057_AlejandroMonfort_110.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/03/41-Cozy-Winter-Dessert-Recipes-to-Warm-You-Up_TOHD24_38057_AlejandroMonfort_110.jpg?resize=400%2C400&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/Peanut-Butter-Pancakes_EXPS_TOHD24_11612_AlejandroMonfort_6.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/02/Peanut-Butter-Pancakes_EXPS_TOHD24_11612_AlejandroMonfort_6.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Instant-Pot-Clam-Chowder_EXPS_TOHD24_246255_EricKleinberg_7.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Instant-Pot-Clam-Chowder_EXPS_TOHD24_246255_EricKleinberg_7.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2017/09/Mocha-Morning-Drink_EXPS_BMZ17_17904_C10_28_1b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2017/09/Mocha-Morning-Drink_EXPS_BMZ17_17904_C10_28_1b.jpg?resize=100%2C100&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/I-Tried-Butter-Dipped-Ice-Cream_Browned-Butter-Ice-cream-hero.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/I-Tried-Butter-Dipped-Ice-Cream_Browned-Butter-Ice-cream-hero.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/I-Tried-Rice-Paper-Fish-and-Chips_Fish-and-chips-hero_Kristina-Vanni-for-Taste-of-Home_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/I-Tried-Rice-Paper-Fish-and-Chips_Fish-and-chips-hero_Kristina-Vanni-for-Taste-of-Home_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/I-Tried-Making-Homemade-Sprite_Homemade-Sprite-3_Lindsay-Parrill_for-taste-of-Home__FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/I-Tried-Making-Homemade-Sprite_Homemade-Sprite-3_Lindsay-Parrill_for-taste-of-Home__FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Pick-Your-Favorite-Dolly-Parton-Quote_GettyImages-1488657011_Taste-Of-Home_01_DKedit_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/Pick-Your-Favorite-Dolly-Parton-Quote_GettyImages-1488657011_Taste-Of-Home_01_DKedit_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Blueberry-Cottage-Cheese-Breakfast-Bake_EXPS_FT26_281883_EC_0108_4.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/Blueberry-Cottage-Cheese-Breakfast-Bake_EXPS_FT26_281883_EC_0108_4.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/sarah-farmer-HS-e1698267010695.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2021/09/sarah-farmer-HS-e1698267010695.jpg?resize=175%2C175&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/josh-rink-HS.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2021/09/josh-rink-HS.jpg?resize=175%2C175&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/maggie-knoebel-HS.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2021/09/maggie-knoebel-HS.jpg?resize=175%2C175&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Ellie-Martin-Cliffe-profile-photo.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2023/12/Ellie-Martin-Cliffe-profile-photo.jpg?resize=175%2C175&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Product-Testing-Team-Homepage-Banner_PTT_BTS_090424_0198b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/10/Product-Testing-Team-Homepage-Banner_PTT_BTS_090424_0198b.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/Single-Serve-Coffeemakers_Square.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/03/Single-Serve-Coffeemakers_Square.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/The-12-Best-Blankets-of-2025-According-to-Our-Tests_01_FT_OTedit.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/The-12-Best-Blankets-of-2025-According-to-Our-Tests_01_FT_OTedit.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/The-Best-Meal-Kit-Delivery-Services-of-2024_TOH_PTT_MEAL_KITS_100224_EF_Lede_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/10/The-Best-Meal-Kit-Delivery-Services-of-2024_TOH_PTT_MEAL_KITS_100224_EF_Lede_FT.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/The-Best-Modular-Sectionals-for-Movie-Nights_Katie-Bandurski_Emily-Way_Mary-Henn_Cher-Checchio_01_YVedit_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/10/The-Best-Modular-Sectionals-for-Movie-Nights_Katie-Bandurski_Emily-Way_Mary-Henn_Cher-Checchio_01_YVedit_FT.jpg?w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Gnocchi-Piccata_EXPS_FT25_281607_EC_1218_6.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/Gnocchi-Piccata_EXPS_FT25_281607_EC_1218_6.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Buffalo-Cauliflower-Dip_EXPS_TOHD25_281732_SarahTramonte_7.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/Buffalo-Cauliflower-Dip_EXPS_TOHD25_281732_SarahTramonte_7.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Spaghetti-Squash-Pizzas_EXPS_TOHD25_281453_SarahTramonte_6.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/12/Spaghetti-Squash-Pizzas_EXPS_TOHD25_281453_SarahTramonte_6.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Hidden-Veggie-Brownies_EXPS_FT26_281850_EC_0108_8.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2026/01/Hidden-Veggie-Brownies_EXPS_FT26_281850_EC_0108_8.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/35-Soup-Recipes-That-Are-Ready-to-Eat-in-30-Minutes_FT24_38088_JR_0530_2C_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/35-Soup-Recipes-That-Are-Ready-to-Eat-in-30-Minutes_FT24_38088_JR_0530_2C_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/30-Healthy-Winter-Soups-to-Warm-and-Fill-You-Up_TOHVP24_23901_MF_08_29_2_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/30-Healthy-Winter-Soups-to-Warm-and-Fill-You-Up_TOHVP24_23901_MF_08_29_2_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2017/09/Contest-Winning-Easy-Minestrone_exps119788_FM143298B03_11_2bC_RMS.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2017/09/Contest-Winning-Easy-Minestrone_exps119788_FM143298B03_11_2bC_RMS.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/14-Homemade-Soups-That-Start-with-Rotisserie-Chicken_FT24_16579_JR_0228_3_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/12/14-Homemade-Soups-That-Start-with-Rotisserie-Chicken_FT24_16579_JR_0228_3_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/How-to-Bake-a-Cake_TOHGFBK19_49159_E03_MD_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/04/How-to-Bake-a-Cake_TOHGFBK19_49159_E03_MD_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/How-to-Make-Buttercream-White_TOHAM20_245452_E11_13_15bC-copy.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/How-to-Make-Buttercream-White_TOHAM20_245452_E11_13_15bC-copy.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2020/05/BW19_38307_B08_09_12b_square.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2020/05/BW19_38307_B08_09_12b_square.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2021/10/GettyImages-109452178-e1633700935870.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2021/10/GettyImages-109452178-e1633700935870.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/38-Breakfast-for-Two-Recipes-to-Enjoy-Together_JMZ18_224489_B03_08_7b_01_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/04/38-Breakfast-for-Two-Recipes-to-Enjoy-Together_JMZ18_224489_B03_08_7b_01_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/Quick-Nicoise-Salad_EXPS_TOHcom24_109626_P2_MD_04_30_10b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Quick-Nicoise-Salad_EXPS_TOHcom24_109626_P2_MD_04_30_10b.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/Creamy-Spinach-Chicken-Dinner_EXPS_FT24_40982_JR_0228_1.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Creamy-Spinach-Chicken-Dinner_EXPS_FT24_40982_JR_0228_1.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Lemon-Pudding-Cake_EXPS_TOHD24_6435_SarahTramonte_4.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/01/Lemon-Pudding-Cake_EXPS_TOHD24_6435_SarahTramonte_4.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/Slow-Cooker-Beef-Stew_EXPS_FT24_21539_EC_040924_2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Slow-Cooker-Beef-Stew_EXPS_FT24_21539_EC_040924_2.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/Chicken-Rice-Bowl_EXPS_TOHAM25_25774_P2_MD_04_24_10b.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Rice-Bowl_EXPS_TOHAM25_25774_P2_MD_04_24_10b.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/Hearty-Pita-Tacos_EXPS_GBBZ19_47975_E11_13_3b-2.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Hearty-Pita-Tacos_EXPS_GBBZ19_47975_E11_13_3b-2.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Slow-Cooker-Asian-Short-Ribs_EXPS_SCS21BZ_240889_B01_15_1b-18.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2020/03/Slow-Cooker-Asian-Short-Ribs_EXPS_SCS21BZ_240889_B01_15_1b-18.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/GettyImages-1495251356-e1740500170518.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/02/GettyImages-1495251356-e1740500170518.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/GettyImages-1365051835.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2024/09/GettyImages-1365051835.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Do-You-Need-to-Refrigerate-Maple-Syrup_GettyImages-904325110_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/Do-You-Need-to-Refrigerate-Maple-Syrup_GettyImages-904325110_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Why-Do-My-Ice-Cubes-Keep-Shattering_GettyImages-2178556090_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2025/11/Why-Do-My-Ice-Cubes-Keep-Shattering_GettyImages-2178556090_FT.jpg?resize=300%2C300&amp;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2020/02/subscribe-to-the-magazine.png",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/uploads/2020/02/subscribe-to-the-magazine.png"
+      },
+      {
+        "path": "/wp-content/themes/bumblebee/images/close-icon.png",
+        "type": "image",
+        "full_url": "https://www.tasteofhome.com/wp-content/themes/bumblebee/images/close-icon.png"
+      },
+      {
+        "path": "/p",
+        "type": "image",
+        "full_url": "https://sb.scorecardresearch.com/p?c1=2&amp;c2=6034767&amp;cv=3.6.0&amp;cj=1"
+      },
+      {
+        "path": "/v3/",
+        "type": "image",
+        "full_url": "https://ct.pinterest.com/v3/?tid=2612561823788&noscript=1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Taste of Home: Find Recipes, Appetizers, Desserts, Holiday Recipes &amp; Healthy Cooking Tips",
+        "description": "Search recipes for your favorite desserts, appetizers, main dish recipes, and more. Find an array of easy recipes as well as home cooking tips, kitchen design insights and diet and nutrition information at Taste of Home Magazine.",
+        "canonical": "https://www.tasteofhome.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1364ms"
+        },
+        {
+          "resource": "jquery.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "boot.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "hooks.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Food Storage Ideas",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Meet Our Trusted Creators",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Explore Taste of Home",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "MENU Search terms LOGIN JOIN MY ACCOUNT My Recipe Box My Newsletters My Account Customer Care Log out Recipes Dinner Easy Recipes Shop Videos Subscribe"
+          },
+          {
+            "tag": "p",
+            "text": "Now Trending: Copycat Taco Bell Grilled Cheese Burrito"
+          },
+          {
+            "tag": "p",
+            "text": "32 Cabbage Recipes Worth Getting Excited About"
+          },
+          {
+            "tag": "h1",
+            "text": "45 Leftover Chicken Recipes You’ll Love"
+          },
+          {
+            "tag": "p",
+            "text": "I Tried Butter-Dipped Ice Cream, and It’s Shocking How Much I Liked It"
+          },
+          {
+            "tag": "p",
+            "text": "This Is How Long Your Coffee Really Lasts"
+          },
+          {
+            "tag": "p",
+            "text": "What Are End-Grain Cutting Boards?"
+          },
+          {
+            "tag": "p",
+            "text": "We Tried Curious Elixirs And Don’t Even Miss Alcohol"
+          },
+          {
+            "tag": "h2",
+            "text": "Food Storage Ideas"
+          },
+          {
+            "tag": "h2",
+            "text": "Meet Our Trusted Creators"
+          },
+          {
+            "tag": "h3",
+            "text": "Tam To"
+          },
+          {
+            "tag": "p",
+            "text": "Tam, a former scientist, loves storytelling and food. She creates easy, flavorful, nutritious recipes with Vietnamese influences."
+          },
+          {
+            "tag": "p",
+            "text": "Salmon Tam To’s One-Pot Tomato Salmon"
+          },
+          {
+            "tag": "p",
+            "text": "Snacks Tam To’s Easy No-Roll Egg Rolls"
+          },
+          {
+            "tag": "p",
+            "text": "Spring Rolls Tam To’s Poke Spring Rolls"
+          },
+          {
+            "tag": "p",
+            "text": "Alex Bala Alex adds a fresh twist to classic family dishes. She’s created hundreds of recipes and appeared on Netflix’s Easy-Bake Battle."
+          },
+          {
+            "tag": "p",
+            "text": "Alex Bala’s Upside-Down Caramel Apple Pastries"
+          },
+          {
+            "tag": "p",
+            "text": "Alex Bala’s French Onion Pasta"
+          },
+          {
+            "tag": "p",
+            "text": "Alex Bala’s Pumpkin Spice Cream Rolls"
+          },
+          {
+            "tag": "p",
+            "text": "Tyler Smith Home cook and dad of two, Tyler shares recipes as @girldadskitchen. Fans love his over-the-top inventions."
+          },
+          {
+            "tag": "p",
+            "text": "Ribs Tyler Smith’s Party Ribs"
+          },
+          {
+            "tag": "p",
+            "text": "Pasta Tyler Smith’s Cheesy Italian Shells"
+          },
+          {
+            "tag": "p",
+            "text": "Burgers Tyler Smith’s Smash Burgers"
+          },
+          {
+            "tag": "p",
+            "text": "Elise Jesse Elise is a home cook and recipe developer known for family-friendly dishes, trendy bakes and entertaining ideas."
+          },
+          {
+            "tag": "p",
+            "text": "Bread Elise Jesse’s Cinnamon Sugar Sourdough Croissant Loaf"
+          },
+          {
+            "tag": "p",
+            "text": "Treats Elise Jesse’s S’mores Bites"
+          },
+          {
+            "tag": "p",
+            "text": "Pasta Salad Elise Jesse’s Pasta Salad"
+          },
+          {
+            "tag": "p",
+            "text": "Hetal Vasavada With a background in recipe development and a passion for storytelling, Hetal creates approachable yet innovative recipes."
+          },
+          {
+            "tag": "p",
+            "text": "Pie Hetal Vasavada’s S’mores Pie"
+          },
+          {
+            "tag": "p",
+            "text": "Cookies Hetal Vasavada’s Tropical Cocktail Cookies"
+          },
+          {
+            "tag": "p",
+            "text": "Cake Hetal Vasavada’s Pistachio Cardamom Crinkle Cake"
+          },
+          {
+            "tag": "p",
+            "text": "Lucy Wang Lucy is a first-generation Asian American mom and influencer who loves creating fun, approachable recipes."
+          },
+          {
+            "tag": "p",
+            "text": "Bars Lucy Wang’s Rainbow Mochi Rice Krispies"
+          },
+          {
+            "tag": "p",
+            "text": "Lucy Wang’s Easy KBBQ"
+          },
+          {
+            "tag": "p",
+            "text": "Custard Lucy Wang’s Banana Brulee"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore Taste of Home"
+          },
+          {
+            "tag": "h4",
+            "text": "What are you searching for today?"
+          },
+          {
+            "tag": "h4",
+            "text": "Editor&#39;s Picks"
+          },
+          {
+            "tag": "h2",
+            "text": "Trending Topics"
+          },
+          {
+            "tag": "h2",
+            "text": "Winter Recipes"
+          },
+          {
+            "tag": "p",
+            "text": "45 Make-Ahead Winter Weeknight Dinners 41 Cozy Winter Dessert Recipes to Warm You Up 27 Winter Breakfast Ideas 27 Instant Pot Winter Recipes 39 Homemade Hot Drinks News + Trends I Tried Butter-Dipped Ice Cream, and It’s Shocking How Much I Liked It I Tried Rice-Paper Fish and Chips, and It’s My New Favorite Air-Fryer Hack I Tried Making Homemade Sprite—Here’s What Happened Pick Your Favorite Dolly Parton Quote, and We’ll Give You a Dolly Parton Recipe to Try"
+          },
+          {
+            "tag": "h2",
+            "text": "Most Popular"
+          },
+          {
+            "tag": "h2",
+            "text": "Meet the Taste of Home Team"
+          },
+          {
+            "tag": "h2",
+            "text": "Shopping"
+          },
+          {
+            "tag": "p",
+            "text": "Taste of Home&#39;s shopping editors are always on the lookout for the latest products and brands that can make your life easier and your days brighter. Learn more about how we test products ."
+          },
+          {
+            "tag": "h2",
+            "text": "Viral Recipes"
+          },
+          {
+            "tag": "h2",
+            "text": "Soup Season"
+          },
+          {
+            "tag": "p",
+            "text": "69 Award-Winning Soup Recipes 14 Homemade Soups with Rotisserie Chicken"
+          },
+          {
+            "tag": "h2",
+            "text": "Cake Baking Basics"
+          },
+          {
+            "tag": "p",
+            "text": "How to Bake a Cake from Scratch The Secret to Bright White Buttercream Might Already Be in Your Pantry 13 Cake Frosting Tips That Will Definitely Come in Handy How to Cut a Round Cake 3 Ways Easy Recipes 40 Easy Breakfast Ideas for Busy Mornings 41 Easy Lunch Ideas Perfect for Every Day 67 Easy Dinner Ideas We Love 47 Easy Desserts to Make with What’s in Your Pantry Family Dinner 68 Cheap Dinner Ideas for Weeknight Meals 74 Contest-Winning Dinners That Are Ready in 30 Minutes or Less 51 Kid-Friendly Dinner Ideas 47 Dump Dinners for Your Slow Cooker Kitchen Tips + Hacks This 6 Cent Egg Replacement Is All I Use for Baking—and I’ll Never Go Back The Dangerous Mistake You Could Be Making with Enameled Cast Iron Do You Need to Refrigerate Maple Syrup? Why Do My Ice Cubes Keep Shattering? Recipes Contests News Health &amp; Wellness Holidays &amp; Events Home &amp; Living Stuff We Love Test Kitchen Magazine Our Brands"
+          },
+          {
+            "tag": "h3",
+            "text": "Sign-up for recipes to your inbox"
+          },
+          {
+            "tag": "p",
+            "text": "We are no longer supporting IE (Internet Explorer) as we strive to provide site experiences for browsers that support new web standards and security practices."
+          },
+          {
+            "tag": "p",
+            "text": "We recommend our users to update the browser."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 81,
+          "headings": 25,
+          "images": 92
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-813390FC",
+      "path": "/recipe-box/",
+      "type": "Detected Link",
+      "anchor_text": "My Recipe Box",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-46752678",
+      "path": "/my-account/",
+      "type": "Detected Link",
+      "anchor_text": "My Account",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5EE66C9F",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Log out",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-385DAF34",
+      "path": "/recipes/",
+      "type": "Detected Link",
+      "anchor_text": "Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5FEC7B31",
+      "path": "/recipes/meal-types/dinner/",
+      "type": "Detected Link",
+      "anchor_text": "Dinner",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D84FD931",
+      "path": "/recipes/cooking-style/easy-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "Easy Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-318747B9",
+      "path": "/article/taste-of-home-video-library/",
+      "type": "Detected Link",
+      "anchor_text": "Videos",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-874574F4",
+      "path": "/recipes/",
+      "type": "Detected Link",
+      "anchor_text": "Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A601050B",
+      "path": "/recipes/copycat-taco-bell-grilled-cheese-burrito/",
+      "type": "Detected Link",
+      "anchor_text": "Now Trending: Copycat Taco Bell Grilled Cheese Burrito",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0567BCC9",
+      "path": "/author/susanbronson/",
+      "type": "Detected Link",
+      "anchor_text": "By Susan Bronson",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D62457D7",
+      "path": "/recipes/ingredients/vegetables/cabbage/",
+      "type": "Detected Link",
+      "anchor_text": "Cabbage",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-09FCD2F3",
+      "path": "/collection/favorite-cabbage-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "32 Cabbage Recipes Worth Getting Excited About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB520A75",
+      "path": "/author/jnowak/",
+      "type": "Detected Link",
+      "anchor_text": "By Jason Nowak",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57E080D8",
+      "path": "/recipes/ingredients/meat-poultry/chicken/",
+      "type": "Detected Link",
+      "anchor_text": "Chicken",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7AABC8E5",
+      "path": "/collection/leftover-chicken-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "45 Leftover Chicken Recipes You’ll Love",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

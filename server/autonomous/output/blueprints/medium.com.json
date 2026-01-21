@@ -1,0 +1,285 @@
+{
+  "website_blueprint_id": "BLUEPRINT-9464B52D",
+  "generated_at": "2026-01-21T07:26:53.886Z",
+  "global_configuration": {
+    "brand_name": "medium.com",
+    "domain": "medium.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "162.159.152.4",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Content-Security-Policy": "frame-ancestors 'self' https://medium.com",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 9,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/recaptcha/enterprise.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/enterprise.js?render=6Le-uGgpAAAAAPprRaokM8AKthQ9KNGdoxaGUvVp"
+      },
+      {
+        "path": "/lite/static/js/manifest.004948cc.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/manifest.004948cc.js"
+      },
+      {
+        "path": "/lite/static/js/5565.1c03f808.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/5565.1c03f808.js"
+      },
+      {
+        "path": "/lite/static/js/main.0f5fbcc2.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/main.0f5fbcc2.js"
+      },
+      {
+        "path": "/lite/static/js/instrumentation.434115b9.chunk.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/instrumentation.434115b9.chunk.js"
+      },
+      {
+        "path": "/lite/static/js/reporting.851fdaca.chunk.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/reporting.851fdaca.chunk.js"
+      },
+      {
+        "path": "/lite/static/js/HomeLoLegacyPage.MainContent.eb0cf9a0.chunk.js",
+        "type": "script",
+        "full_url": "https://cdn-client.medium.com/lite/static/js/HomeLoLegacyPage.MainContent.eb0cf9a0.chunk.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/v2/format:webp/4*SdjkdS98aKH76I8eD0_qjw.png",
+        "type": "image",
+        "full_url": "https://miro.medium.com/v2/format:webp/4*SdjkdS98aKH76I8eD0_qjw.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "medium.com",
+        "description": "",
+        "canonical": "https://medium.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "695ms"
+        },
+        {
+          "resource": "enterprise.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "manifest.004948cc.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "5565.1c03f808.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Human stories &amp; ideas",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Our story"
+          },
+          {
+            "tag": "p",
+            "text": "Membership"
+          },
+          {
+            "tag": "p",
+            "text": "Write"
+          },
+          {
+            "tag": "p",
+            "text": "Sign in"
+          },
+          {
+            "tag": "h2",
+            "text": "Human stories &amp; ideas"
+          },
+          {
+            "tag": "h3",
+            "text": "A place to read, write, and deepen your understanding"
+          },
+          {
+            "tag": "p",
+            "text": "About Help Terms Privacy"
+          },
+          {
+            "tag": "p",
+            "text": "Help"
+          },
+          {
+            "tag": "p",
+            "text": "Status"
+          },
+          {
+            "tag": "p",
+            "text": "About"
+          },
+          {
+            "tag": "p",
+            "text": "Careers"
+          },
+          {
+            "tag": "p",
+            "text": "Press"
+          },
+          {
+            "tag": "p",
+            "text": "Blog"
+          },
+          {
+            "tag": "p",
+            "text": "Privacy"
+          },
+          {
+            "tag": "p",
+            "text": "Rules"
+          },
+          {
+            "tag": "p",
+            "text": "Terms"
+          },
+          {
+            "tag": "p",
+            "text": "Text to speech"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 16,
+          "headings": 2,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5138F936",
+      "path": "/sitemap/sitemap.xml",
+      "type": "Detected Link",
+      "anchor_text": "Sitemap",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-64E1F38F",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Medium Logo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E9146706",
+      "path": "/about",
+      "type": "Detected Link",
+      "anchor_text": "Our story",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-264CEBD6",
+      "path": "/membership",
+      "type": "Detected Link",
+      "anchor_text": "Membership",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F70383BD",
+      "path": "/m/signin",
+      "type": "Detected Link",
+      "anchor_text": "Write",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-84BFE1DB",
+      "path": "/m/signin",
+      "type": "Detected Link",
+      "anchor_text": "Sign in",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C05991A9",
+      "path": "/m/signin",
+      "type": "Detected Link",
+      "anchor_text": "Get started",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-687F5871",
+      "path": "/jobs-at-medium/work-at-medium-959d1a85284e",
+      "type": "Detected Link",
+      "anchor_text": "Careers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

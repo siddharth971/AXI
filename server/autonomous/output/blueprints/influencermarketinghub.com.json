@@ -1,0 +1,610 @@
+{
+  "website_blueprint_id": "BLUEPRINT-F91FB35A",
+  "generated_at": "2026-01-21T07:27:04.839Z",
+  "global_configuration": {
+    "brand_name": "Influencer Marketing",
+    "domain": "influencermarketinghub.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.15.204",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 42,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/ai/gen-app-builder/client",
+        "type": "script",
+        "full_url": "https://cloud.google.com/ai/gen-app-builder/client?hl=en_US&amp;ver=1768978702"
+      },
+      {
+        "path": "/auth/agency-match-widget.ts",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/auth/agency-match-widget.ts"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/js/lib/jquery.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/lib/jquery.min.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/IMH-banners/js/imh-banners.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/plugins/IMH-banners/js/imh-banners.min.js?ver=1767969459"
+      },
+      {
+        "path": "/wp-content/uploads/caos/2822f9eb.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/uploads/caos/2822f9eb.js?id=G-86M2DZYZT6"
+      },
+      {
+        "path": "/auth/tapon.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/auth/tapon.min.js?ver=1768978702"
+      },
+      {
+        "path": "/wp-content/plugins/Social-network-images-Generator/js/front/main.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/plugins/Social-network-images-Generator/js/front/main.min.js?ver=1757322035"
+      },
+      {
+        "path": "/wp-content/plugins/clients-summary/assets/js/cs.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/plugins/clients-summary/assets/js/cs.min.js?ver=1768978702"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/js/trending_agencies_block.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/trending_agencies_block.min.js?ver=1756993200"
+      },
+      {
+        "path": "/wp-content/themes/voice/js/imagesloaded.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/imagesloaded.pkgd.min.js?ver=2.2"
+      },
+      {
+        "path": "/wp-content/themes/voice/js/jquery.sticky-kit.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/jquery.sticky-kit.min.js?ver=2.2"
+      },
+      {
+        "path": "/wp-content/themes/voice/js/jquery.sidr.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/jquery.sidr.min.js?ver=2.2"
+      },
+      {
+        "path": "/wp-content/themes/voice/js/custom.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/custom.min.js?ver=1761831426"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/js/jquery.cookie.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/jquery.cookie.min.js?ver=2.2"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/js/tools.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/tools.min.js?ver=123"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/js/script.min.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/script.min.js?ver=1761831426"
+      },
+      {
+        "path": "/wp-content/themes/voice-child/img/Logo_IMH.svg",
+        "type": "image",
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/img/Logo_IMH.svg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/netflix.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/burger_king.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/walmart.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/a24.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/zillow.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/pg.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/gilette.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/themes/voice-child/img/homepage_v2/virgin.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2023/06/4c7a3798-generated-image-october-02-2025-12_28pm.jpg"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2019/12/c67e952e-generated-image-october-15-2025-11_30am.jpg"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2019/12/YouTube-Marketing-Agencies.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2019/05/20250606_1056_Influencer-Marketing-Design_remix_01jx277jvaf12809n7czttq3b6.jpg"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2023/01/aa4902aa-generated-image-october-28-2025-1_07pm.jpg"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=380&amp;height=260&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2025/03/a2ed1ef6-generated-image-october-24-2025-1_57pm.jpg"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=300&amp;height=195&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2021/09/Free-Instagram-Hashtag-Generator.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=300&amp;height=195&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2017/03/Instagram-Influencer-Sponsored-Post-Money-Calculator.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=300&amp;height=195&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2021/09/youtube-money-calculator.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=300&amp;height=195&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2021/09/tiktok-money-calculator.png"
+      },
+      {
+        "path": "/imaginary/resize",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/resize?width=300&amp;height=195&amp;type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2022/01/Email-Signature-Generator-Tool.png"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2024/08/TikTok-Marketing-report-2025.jpg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2023/02/AI-report-2025.jpg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2024/08/Youtube-marketing-report.jpg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2024/10/eCommerce_Benchmark_Report.jpg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2022/01/Cover.jpg"
+      },
+      {
+        "path": "/imaginary/convert",
+        "type": "image",
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2024/10/Cover_1.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Influencer Marketing | #1 Platform, Agency &amp; Influencer Resources",
+        "description": "Influencer Marketing Hub is the #1 Resource for Influencers, Agencies &amp; Platforms. Influencer Marketing Platform Reviews, Tools, Templates &amp; Case Studies",
+        "canonical": "https://influencermarketinghub.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1254ms"
+        },
+        {
+          "resource": "client",
+          "latency": "pending"
+        },
+        {
+          "resource": "agency-match-widget.ts",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Connect with top agencies and platforms proven to grow your brand through influencer marketing"
+          },
+          {
+            "tag": "h3",
+            "text": "Great brands partner with great agencies on Influencer Marketing Hub"
+          },
+          {
+            "tag": "h3",
+            "text": "What type of agency or platform are you looking for?"
+          },
+          {
+            "tag": "h4",
+            "text": "Agencies"
+          },
+          {
+            "tag": "h4",
+            "text": "Platforms &amp; Software"
+          },
+          {
+            "tag": "h3",
+            "text": "Trending Agencies"
+          },
+          {
+            "tag": "p",
+            "text": "Old playbooks are dead. Growth now comes from trusted creators."
+          },
+          {
+            "tag": "h3",
+            "text": "Trending Articles"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Influencer Marketing Agencies in the USA for 2026"
+          },
+          {
+            "tag": "p",
+            "text": "As influencer marketing enters its next chapter, two questions define the year ahead: Which agency can turn creator…"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Social Media Marketing Agencies for 2026"
+          },
+          {
+            "tag": "p",
+            "text": "What defines a truly great social media marketing agency in 2026? Is it creativity, data mastery, or the…"
+          },
+          {
+            "tag": "h3",
+            "text": "Top YouTube Marketing Agencies in the World in 2025 [UPDATED]"
+          },
+          {
+            "tag": "p",
+            "text": "The number of YouTube users has increased continuously since the platform’s launch in 2005, reaching 2.7 billion monthly…"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Influencer Marketing Platforms for Brands (2026)"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome to the Ultimate list of Influencer Marketing Platforms and Agencies. 50 Leading Companies to fuel your campaigns"
+          },
+          {
+            "tag": "h3",
+            "text": "Top 18 Full-Service Agencies for 2025"
+          },
+          {
+            "tag": "p",
+            "text": "You’re investing in a full-service agency because you expect strategy, creative, media and tech all to hit unabated…."
+          },
+          {
+            "tag": "h3",
+            "text": "Top 12 B2B Influencer Marketing Agencies"
+          },
+          {
+            "tag": "p",
+            "text": "Influencer marketing has quickly evolved into a cornerstone of B2B marketing strategies. Unlike B2C campaigns that often focus…"
+          },
+          {
+            "tag": "h3",
+            "text": "Popular Tools"
+          },
+          {
+            "tag": "h3",
+            "text": "Instagram Hashtag Generator"
+          },
+          {
+            "tag": "h3",
+            "text": "Instagram Sponsored Post Calculator"
+          },
+          {
+            "tag": "h3",
+            "text": "YouTube Money Calculator (earnings estimator)"
+          },
+          {
+            "tag": "h3",
+            "text": "TikTok Money Calculator"
+          },
+          {
+            "tag": "h3",
+            "text": "Email Signature Generator"
+          },
+          {
+            "tag": "h3",
+            "text": "Trending Industry Reports &amp; Guides"
+          },
+          {
+            "tag": "h3",
+            "text": "TikTok Marketing Report – Key Trends, Statistics, and..."
+          },
+          {
+            "tag": "p",
+            "text": "Consider this striking statistic: 71% of TikTok users decide whether to continue watching a video within the first…"
+          },
+          {
+            "tag": "h3",
+            "text": "Artificial Intelligence (AI) Marketing Benchmark Report"
+          },
+          {
+            "tag": "p",
+            "text": "AI’s impact is undeniable, but the journey isn’t without challenges. While 34.1% of marketers report significant improvements in…"
+          },
+          {
+            "tag": "h3",
+            "text": "Youtube Marketing Report: Trends &amp; Insights"
+          },
+          {
+            "tag": "p",
+            "text": "The digital world mourns the passing of Susan Wojcicki, the visionary leader who transformed YouTube into a global…"
+          },
+          {
+            "tag": "h3",
+            "text": "SEO Industry Trends Report: The Search Revolution Has Already..."
+          },
+          {
+            "tag": "p",
+            "text": "The rules of SEO are shifting beneath our feet. Brands that once dominated search through keyword-focused strategies now…"
+          },
+          {
+            "tag": "h3",
+            "text": "Influencer Marketing Benchmark Report 2025"
+          },
+          {
+            "tag": "p",
+            "text": "For marketers, consultants, and creators, the era of passive adaptation has ended. The influencer marketing ecosystem stands at…"
+          },
+          {
+            "tag": "h3",
+            "text": "AI SEO Benchmark Report: Key Stats &amp; Insights"
+          },
+          {
+            "tag": "p",
+            "text": "AI is rewriting the rules of SEO—yet only a few marketers have embraced it. 13.08% of the top-rated…"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 13,
+          "headings": 26,
+          "images": 27
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A5A7B6E0",
+      "path": "/articles/",
+      "type": "Detected Link",
+      "anchor_text": "Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E80AEB62",
+      "path": "/influencermarketing/",
+      "type": "Detected Link",
+      "anchor_text": "Influencer Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1CA5DA5E",
+      "path": "/affiliatemarketing/",
+      "type": "Detected Link",
+      "anchor_text": "Affiliate Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FB71AC19",
+      "path": "/social-media/",
+      "type": "Detected Link",
+      "anchor_text": "Social Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A479C350",
+      "path": "/ecommerce/",
+      "type": "Detected Link",
+      "anchor_text": "eCommerce",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2E7085ED",
+      "path": "/email-marketing/",
+      "type": "Detected Link",
+      "anchor_text": "eMail Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89AC1DDF",
+      "path": "/creatoreconomy/",
+      "type": "Detected Link",
+      "anchor_text": "Creator Economy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4BC29BA5",
+      "path": "/ai-marketing/",
+      "type": "Detected Link",
+      "anchor_text": "AI Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-92E8E369",
+      "path": "/digital-marketing/",
+      "type": "Detected Link",
+      "anchor_text": "Digital Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E4293CC",
+      "path": "/influencer-marketing-platforms/",
+      "type": "Detected Link",
+      "anchor_text": "Platforms",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D12C73B",
+      "path": "/social-media-monitoring-platforms/",
+      "type": "Detected Link",
+      "anchor_text": "Social Media Monitoring",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A2C4BD03",
+      "path": "/social-media-marketing-platforms/",
+      "type": "Detected Link",
+      "anchor_text": "Social Media Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A23E5967",
+      "path": "/affiliate-marketing-software/",
+      "type": "Detected Link",
+      "anchor_text": "Affiliate Marketing Software",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B42F012F",
+      "path": "/email-marketing-software/",
+      "type": "Detected Link",
+      "anchor_text": "Email Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C7A262C3",
+      "path": "/ecommerce-platforms/",
+      "type": "Detected Link",
+      "anchor_text": "eCommerce",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

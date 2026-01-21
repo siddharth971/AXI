@@ -1,0 +1,1293 @@
+{
+  "website_blueprint_id": "BLUEPRINT-6063BE75",
+  "generated_at": "2026-01-21T07:27:04.948Z",
+  "global_configuration": {
+    "brand_name": "Phys.org",
+    "domain": "phys.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "72.251.233.232",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 28,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-6M86390YBL"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "path": "/tmpl/v6/js/svgxuse.1780563638.js",
+        "type": "script",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/js/svgxuse.1780563638.js"
+      },
+      {
+        "path": "/tmpl/v6/js/libs.1780563638.js",
+        "type": "script",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/js/libs.1780563638.js"
+      },
+      {
+        "path": "/tmpl/v6/js/common.4204667687.js",
+        "type": "script",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/js/common.4204667687.js"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?hl=en"
+      },
+      {
+        "path": "/tmpl/v6/css/libs.4204667687.css",
+        "type": "stylesheet",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/css/libs.4204667687.css"
+      },
+      {
+        "path": "/tmpl/v6/css/style.4204667687.css",
+        "type": "stylesheet",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/css/style.4204667687.css"
+      },
+      {
+        "path": "/tmpl/v6/img/logo-header.png",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/logo-header.png"
+      },
+      {
+        "path": "/tmpl/v6/img/MedicalXpress2.svg",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/MedicalXpress2.svg"
+      },
+      {
+        "path": "/tmpl/v6/img/techX_w.svg",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/techX_w.svg"
+      },
+      {
+        "path": "/csz/news/tmb/2026/spherex-imaging-reveal.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/spherex-imaging-reveal.jpg"
+      },
+      {
+        "path": "/csz/news/tmb/2026/bats-use-acoustic-flow.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/bats-use-acoustic-flow.jpg"
+      },
+      {
+        "path": "/csz/news/tmb/2026/vast-cluster-of-ancien.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/vast-cluster-of-ancien.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/bubble-netting-knowled-2.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/bubble-netting-knowled-2.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/drones-reveal-how-fera.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/drones-reveal-how-fera.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/ai-driven-ultrafast-sp.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/ai-driven-ultrafast-sp.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/usf-led-paper-sheds-li.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/usf-led-paper-sheds-li.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/an-electrically-powere-1.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/an-electrically-powere-1.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2023/gamers.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2023/gamers.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/pilates.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/pilates.jpg"
+      },
+      {
+        "path": "/csz/news/175u/2026/newborn.jpg",
+        "type": "image",
+        "full_url": "https://scx1.b-cdn.net/csz/news/175u/2026/newborn.jpg"
+      },
+      {
+        "path": "/banner/acs-003.jpg",
+        "type": "image",
+        "full_url": "https://phys.org/banner/acs-003.jpg"
+      },
+      {
+        "path": "/tmpl/v6/img/techexploer.svg",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/techexploer.svg"
+      },
+      {
+        "path": "/tmpl/v6/img/MedicalXpress.svg",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/MedicalXpress.svg"
+      },
+      {
+        "path": "/tmpl/v6/img/ScienceX.svg",
+        "type": "image",
+        "full_url": "https://phys.b-cdn.net/tmpl/v6/img/ScienceX.svg"
+      },
+      {
+        "path": "/pixel/p-5dNhPAnM9r0yY.gif",
+        "type": "image",
+        "full_url": "https://pixel.quantserve.com/pixel/p-5dNhPAnM9r0yY.gif"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Phys.org - News and Articles on Science and Technology",
+        "description": "Daily science news on research developments, technological breakthroughs and the latest scientific innovations",
+        "canonical": "https://phys.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2912ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gpt.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "adsbygoogle.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Science news",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Newsletters",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Follow us",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Science X Account"
+          },
+          {
+            "tag": "p",
+            "text": "Sign in with"
+          },
+          {
+            "tag": "p",
+            "text": "Forget Password?"
+          },
+          {
+            "tag": "p",
+            "text": "Learn more"
+          },
+          {
+            "tag": "p",
+            "text": "Last update: 2 hours ago"
+          },
+          {
+            "tag": "h1",
+            "text": "Science news"
+          },
+          {
+            "tag": "p",
+            "text": "Plants & Animals"
+          },
+          {
+            "tag": "h3",
+            "text": "Strategic sex: Alaska's beluga whales swap mates for long-term survival"
+          },
+          {
+            "tag": "p",
+            "text": "In the icy waters of Alaska's Bristol Bay, a new study reveals how a small population of beluga whales (Delphinapterus leucas) survive the long haul through a surprising strategy: they mate with multiple partners over several ..."
+          },
+          {
+            "tag": "p",
+            "text": "2 hours ago"
+          },
+          {
+            "tag": "p",
+            "text": "Astrobiology"
+          },
+          {
+            "tag": "h3",
+            "text": "Complex building blocks of life form spontaneously in space, research reveals"
+          },
+          {
+            "tag": "p",
+            "text": "Challenging long-held assumptions, Aarhus University researchers have demonstrated that the protein building blocks essential for life as we know it can form readily in space. This discovery, appearing in Nature Astronomy, ..."
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "SPHEREx imaging reveals increased sublimation activity on 3I/ATLAS"
+          },
+          {
+            "tag": "p",
+            "text": "The interstellar object, 3I/ATLAS, was first discovered in July 2025, and made its closest approach to the sun (perihelion) in late October. New observations of 3I/ATLAS were taken ..."
+          },
+          {
+            "tag": "p",
+            "text": "The interstellar object, 3I/ATLAS, was first discovered in July 2025, and made its closest approach to the sun (perihelion) in late October. New observations ..."
+          },
+          {
+            "tag": "p",
+            "text": "Planetary Sciences"
+          },
+          {
+            "tag": "p",
+            "text": "13 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Bats use 'acoustic flow velocity' to navigate complex environments in darkness"
+          },
+          {
+            "tag": "p",
+            "text": "A long-standing mystery about how wild bats navigate complex environments in complete darkness with remarkable precision, has been solved in a new University of Bristol-led study. ..."
+          },
+          {
+            "tag": "p",
+            "text": "A long-standing mystery about how wild bats navigate complex environments in complete darkness with remarkable precision, has been solved in a new University ..."
+          },
+          {
+            "tag": "p",
+            "text": "Plants & Animals"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Vast cluster of ancient galaxies could rewrite the history of star formation"
+          },
+          {
+            "tag": "p",
+            "text": "Astronomers have discovered a vast, dense cluster of massive galaxies just 1 billion years after the Big Bang, each forming stars at an intense rate from collapsing clouds of dust. ..."
+          },
+          {
+            "tag": "p",
+            "text": "Astronomers have discovered a vast, dense cluster of massive galaxies just 1 billion years after the Big Bang, each forming stars at an intense rate from ..."
+          },
+          {
+            "tag": "p",
+            "text": "Astronomy"
+          },
+          {
+            "tag": "p",
+            "text": "14 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Bubble netting knowledge spread by immigrant humpback whales, study finds"
+          },
+          {
+            "tag": "p",
+            "text": "New research from the University of St Andrews has found that the social spread of group bubble-net feeding among humpback whales is crucial to the success of the population's ongoing recovery."
+          },
+          {
+            "tag": "p",
+            "text": "Plants & Animals"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Drones reveal how feral horse units keep boundaries"
+          },
+          {
+            "tag": "p",
+            "text": "For social animals, encounters between rival groups can often lead to conflict. While some species avoid this by maintaining fixed territories, others, like the feral horses, live in a \"multilevel society\" where multiple ..."
+          },
+          {
+            "tag": "p",
+            "text": "Plants & Animals"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "AI-driven ultrafast spectrometer-on-a-chip advances real-time sensing"
+          },
+          {
+            "tag": "p",
+            "text": "For decades, the ability to visualize the chemical composition of materials, whether for diagnosing a disease, assessing food quality, or analyzing pollution, depended on large, expensive laboratory instruments called spectrometers. ..."
+          },
+          {
+            "tag": "p",
+            "text": "Optics & Photonics"
+          },
+          {
+            "tag": "p",
+            "text": "8 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Ancient Jordan mass grave reveals human impact of first known pandemic"
+          },
+          {
+            "tag": "p",
+            "text": "\"A plague is upon us'' may have been a common phrase in ancient Jordan, where countless people perished from a mysterious malady that would shape both a society and an era of civilization."
+          },
+          {
+            "tag": "p",
+            "text": "Archaeology"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "An electrically powered source of entangled light on a chip"
+          },
+          {
+            "tag": "p",
+            "text": "Quantum technologies are cutting-edge systems that can process, transfer, or store information leveraging quantum mechanical effects, particularly a phenomenon known as quantum entanglement. Entanglement entails a correlation ..."
+          },
+          {
+            "tag": "p",
+            "text": "Optics & Photonics"
+          },
+          {
+            "tag": "p",
+            "text": "18 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Internet Gaming Disorder is affecting a significant portion of young adults"
+          },
+          {
+            "tag": "p",
+            "text": "Researchers out of Spain and Italy report a globally pooled Internet Gaming Disorder prevalence of 6.1% among adults ages 18–35. Internet Gaming Disorder is considered a condition for further study in DSM-5-TR, with official ..."
+          },
+          {
+            "tag": "p",
+            "text": "Medical&nbsp;Xpress"
+          },
+          {
+            "tag": "p",
+            "text": "15 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Mix of different types of physical activity may be best for longer life"
+          },
+          {
+            "tag": "p",
+            "text": "Regularly doing a mix of different types of physical activity may be best for prolonging the lifespan, but the associations aren't linear, pointing to a possible optimal threshold effect, suggests research published in the ..."
+          },
+          {
+            "tag": "p",
+            "text": "Medical&nbsp;Xpress"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Community water fluoridation not linked to lower birth weight, large US study finds"
+          },
+          {
+            "tag": "p",
+            "text": "A new study from Columbia University Mailman School of Public Health finds that community water fluoridation (CWF) is not associated with significant changes in birth weight—a widely accepted indicator of infant health ..."
+          },
+          {
+            "tag": "p",
+            "text": "Medical&nbsp;Xpress"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "The Future is Interdisciplinary"
+          },
+          {
+            "tag": "p",
+            "text": "Find out how ACS can accelerate your research to keep up with the discoveries that are pushing us into science’s next frontier"
+          },
+          {
+            "tag": "h4",
+            "text": "SPHEREx imaging reveals increased sublimation activity on 3I/ATLAS"
+          },
+          {
+            "tag": "p",
+            "text": "13 hours ago"
+          },
+          {
+            "tag": "h4",
+            "text": "Vast cluster of ancient galaxies could rewrite the history of star formation"
+          },
+          {
+            "tag": "p",
+            "text": "14 hours ago"
+          },
+          {
+            "tag": "h4",
+            "text": "Internet Gaming Disorder is affecting a significant portion of young adults"
+          },
+          {
+            "tag": "p",
+            "text": "15 hours ago"
+          },
+          {
+            "tag": "h4",
+            "text": "Howler monkey roars exaggerate body size but are truthful to other howlers"
+          },
+          {
+            "tag": "p",
+            "text": "17 hours ago"
+          },
+          {
+            "tag": "h4",
+            "text": "Ancient Mesopotamian medical texts reveal the role of divine sanctuaries in treating ear and spleen ailments"
+          },
+          {
+            "tag": "p",
+            "text": "17 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Medical Xpress"
+          },
+          {
+            "tag": "h5",
+            "text": "Mix of different types of physical activity may be best for longer life"
+          },
+          {
+            "tag": "h5",
+            "text": "Internet Gaming Disorder is affecting a significant portion of young adults"
+          },
+          {
+            "tag": "h5",
+            "text": "Community water fluoridation not linked to lower birth weight, large US study finds"
+          },
+          {
+            "tag": "h5",
+            "text": "Dual gene deletion reveals potential biomarkers for predicting immunotherapy success"
+          },
+          {
+            "tag": "h5",
+            "text": "An oral cancer drug shows promise against aggressive brain tumors"
+          },
+          {
+            "tag": "h5",
+            "text": "Unexpected vitamin B1 connection emerges in genetic study of gut motility"
+          },
+          {
+            "tag": "h5",
+            "text": "Exposure to wildfire smoke late in pregnancy may raise autism risk in children"
+          },
+          {
+            "tag": "h5",
+            "text": "B cells play a more sinister role than believed in progression of type 1 diabetes"
+          },
+          {
+            "tag": "h5",
+            "text": "A closer look at how local protein production is altered in ALS"
+          },
+          {
+            "tag": "h5",
+            "text": "Qatari genetic map reveals over 150,000 structural variants"
+          },
+          {
+            "tag": "h5",
+            "text": "New AI uncovers hidden patterns in biomedical knowledge graphs"
+          },
+          {
+            "tag": "h5",
+            "text": "Blocking immune cells in the brain can prevent infantile amnesia"
+          },
+          {
+            "tag": "h5",
+            "text": "Preventing 'spermageddon'—discovery of an immune-like mechanism that protects fertility"
+          },
+          {
+            "tag": "h5",
+            "text": "Native American pregnancy-related deaths: They want a voice to stop the trend"
+          },
+          {
+            "tag": "h5",
+            "text": "Blood test can identify cancer in patients with non-specific symptoms"
+          },
+          {
+            "tag": "h5",
+            "text": "Memory justifications remain surprisingly stable even as memories fade over time, study shows"
+          },
+          {
+            "tag": "h5",
+            "text": "Potential new target to treat Parkinson's disease discovered"
+          },
+          {
+            "tag": "h5",
+            "text": "Air pollution may increase the risk of the neurodegenerative disease ALS"
+          },
+          {
+            "tag": "h5",
+            "text": "Noninvasive brain scanning could send signals to paralyzed limbs"
+          },
+          {
+            "tag": "h5",
+            "text": "Trump unveils outline of new health care plan"
+          },
+          {
+            "tag": "h5",
+            "text": "Unusual KRAS mutation in pancreatic cancer may explain less aggressive tumors"
+          },
+          {
+            "tag": "h5",
+            "text": "Routine eye screening provides a window to heart health in type 2 diabetes"
+          },
+          {
+            "tag": "h5",
+            "text": "Young people may temporarily withdraw from social media use on the day they self-harm"
+          },
+          {
+            "tag": "h5",
+            "text": "Polymer cables for MRI applications: No place for metal"
+          },
+          {
+            "tag": "h5",
+            "text": "Global network of virologists warns of measles resurgence"
+          },
+          {
+            "tag": "h5",
+            "text": "Certain antibiotics may may boost immune system"
+          },
+          {
+            "tag": "h5",
+            "text": "Machine learning identifies factors that may determine the age of onset of Huntington's disease"
+          },
+          {
+            "tag": "h5",
+            "text": "Study reveals potential therapeutic target for treating glaucoma"
+          },
+          {
+            "tag": "h5",
+            "text": "Brain activity maps challenge traditional descriptions of prefrontal cortex"
+          },
+          {
+            "tag": "h5",
+            "text": "Vitamin B12 clues on cellular metabolism offer hope for new therapies"
+          },
+          {
+            "tag": "h3",
+            "text": "Tech Xplore"
+          },
+          {
+            "tag": "h5",
+            "text": "MorphoChrome pairs software with handheld device to make everyday objects iridescent"
+          },
+          {
+            "tag": "h5",
+            "text": "Newly discovered metallic material with record thermal conductivity upends assumptions about heat transport limits"
+          },
+          {
+            "tag": "h5",
+            "text": "Thermomagnetic generator harvests ocean temperature differences to power maritime sensors"
+          },
+          {
+            "tag": "h5",
+            "text": "Lightweight sensor tech could eliminate need for toxic aircraft de-icing fluid"
+          },
+          {
+            "tag": "h5",
+            "text": "Emerging solar cell material sets new efficiency record"
+          },
+          {
+            "tag": "h5",
+            "text": "AI models tested on Dungeons & Dragons to assess long-term decision-making"
+          },
+          {
+            "tag": "h5",
+            "text": "New smart chip reduces consumption and computing time, advancing high-performance computing"
+          },
+          {
+            "tag": "h5",
+            "text": "The sky is full of secrets: Glaring vulnerabilities discovered in satellite communications"
+          },
+          {
+            "tag": "h5",
+            "text": "A geometric twist boosts the power of robotic textiles"
+          },
+          {
+            "tag": "h5",
+            "text": "A durable, polymer-based, flexible RF switch for 6G communication"
+          },
+          {
+            "tag": "h5",
+            "text": "Simple equations predict hydrogen storage in porous materials"
+          },
+          {
+            "tag": "h5",
+            "text": "Compostable circuits could slash environmental impact of electronics"
+          },
+          {
+            "tag": "h5",
+            "text": "A self-assembling shortcut to better organic solar cells"
+          },
+          {
+            "tag": "h5",
+            "text": "Findings on phonetic reduction in speech could help make AI voices more natural-sounding"
+          },
+          {
+            "tag": "h5",
+            "text": "P-type thin film can turn waste heat into power"
+          },
+          {
+            "tag": "h5",
+            "text": "Strategic use of renewables could halve EU natural gas reliance by 2050"
+          },
+          {
+            "tag": "h5",
+            "text": "Research reveals a surprising line of defense against cyber attacks: Accountants"
+          },
+          {
+            "tag": "h5",
+            "text": "Mechanically interlocked molecules enhance lithium-metal battery safety and performance"
+          },
+          {
+            "tag": "h5",
+            "text": "Greener method recovers critical metals from spent batteries"
+          },
+          {
+            "tag": "h5",
+            "text": "Machine learning lends a helping 'hand' to prosthetics"
+          },
+          {
+            "tag": "h5",
+            "text": "AI system with smart eyes detects welding defects"
+          },
+          {
+            "tag": "h5",
+            "text": "The next generation of driverless cars will have to think about what's on the road, not just see it"
+          },
+          {
+            "tag": "h5",
+            "text": "Spain high-speed train crash: Signaling vulnerabilities could be key to understanding the accident"
+          },
+          {
+            "tag": "h5",
+            "text": "Sexualized deepfakes on X are a sign of things to come. NZ law is already way behind"
+          },
+          {
+            "tag": "h5",
+            "text": "Why do people support or oppose bike lanes? New research sheds light on public opinion"
+          },
+          {
+            "tag": "h5",
+            "text": "Inside China's buzzing AI scene year after DeepSeek shock"
+          },
+          {
+            "tag": "h5",
+            "text": "Real-time 3D measurement system streamlines steel forming for shipbuilding"
+          },
+          {
+            "tag": "h5",
+            "text": "Researchers reveal strong public support for hydrogen fuel cell trucks in South Korea"
+          },
+          {
+            "tag": "h5",
+            "text": "Reinventing personalized fashion with a new sewing app"
+          },
+          {
+            "tag": "h5",
+            "text": "Benchmarking framework reveals major safety risks of using AI in lab experiments"
+          },
+          {
+            "tag": "h3",
+            "text": "A twitch in time? Quantum collapse models hint at tiny time fluctuations"
+          },
+          {
+            "tag": "p",
+            "text": "Quantum mechanics is rich with paradoxes and contradictions. It describes a microscopic world in which particles exist in a superposition of states—being in multiple places and configurations all at once, defined mathematically ..."
+          },
+          {
+            "tag": "p",
+            "text": "General Physics"
+          },
+          {
+            "tag": "p",
+            "text": "11 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Dual gene deletion reveals potential biomarkers for predicting immunotherapy success"
+          },
+          {
+            "tag": "p",
+            "text": "The deletion of two cancer genes, CHD1 and MAP3K7, improves how well tumors respond to cancer immunotherapy and could be used as biomarkers to help predict which patients are most likely to benefit from treatment, new research ..."
+          },
+          {
+            "tag": "p",
+            "text": "Medical&nbsp;Xpress"
+          },
+          {
+            "tag": "p",
+            "text": "8 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "MorphoChrome pairs software with handheld device to make everyday objects iridescent"
+          },
+          {
+            "tag": "p",
+            "text": "Gemstones like precious opal are beautiful to look at and deceivingly complex. As you look at such gems from different angles, you'll see a variety of tints glisten, causing you to question what color the rock actually is. ..."
+          },
+          {
+            "tag": "p",
+            "text": "Software"
+          },
+          {
+            "tag": "p",
+            "text": "9 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Newly discovered metallic material with record thermal conductivity upends assumptions about heat transport limits"
+          },
+          {
+            "tag": "p",
+            "text": "A UCLA-led, multi-institution research team has discovered a metallic material with the highest thermal conductivity measured among metals, challenging long-standing assumptions about the limits of heat transport in metallic ..."
+          },
+          {
+            "tag": "p",
+            "text": "Engineering"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Ancient Mesopotamian medical texts reveal the role of divine sanctuaries in treating ear and spleen ailments"
+          },
+          {
+            "tag": "p",
+            "text": "In a study published in the journal Iraq, Dr. Troels Arbøll analyzed medical prescriptions from ancient Mesopotamia to understand and re-evaluate the role sanctuaries played in the healing process. The study found that specific ..."
+          },
+          {
+            "tag": "p",
+            "text": "Archaeology"
+          },
+          {
+            "tag": "p",
+            "text": "17 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Scientists plan deep-sea expedition to probe 'dark oxygen'"
+          },
+          {
+            "tag": "p",
+            "text": "A team of scientists announced Tuesday they have developed new deep-sea landers specifically to test their contentious discovery that metallic rocks at the bottom of the ocean are producing \"dark oxygen\"."
+          },
+          {
+            "tag": "p",
+            "text": "Earth Sciences"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "It started with a cat: How 100 years of quantum weirdness powers today's tech"
+          },
+          {
+            "tag": "p",
+            "text": "A hundred years ago, quantum mechanics was a radical theory that baffled even the brightest minds. Today, it's the backbone of technologies that shape our lives, from lasers and microchips to quantum computers and secure ..."
+          },
+          {
+            "tag": "p",
+            "text": "Quantum Physics"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Pūkeko birds combine sound elements to create complex call sequences for communication, study reveals"
+          },
+          {
+            "tag": "p",
+            "text": "Pūkeko use sound elements to create calls and combine them to create complex call sequences in order to expand the range of options for expressing themselves—these are the findings of an international team including Konstanz ..."
+          },
+          {
+            "tag": "p",
+            "text": "Plants & Animals"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "North Atlantic deep waters show slower renewal as ocean ventilation weakens"
+          },
+          {
+            "tag": "p",
+            "text": "The ocean is continuously ventilated when surface waters sink and transport, for example, oxygen and carbon to greater depths. The efficiency of this process can be estimated using the so-called water age, which describes ..."
+          },
+          {
+            "tag": "p",
+            "text": "Earth Sciences"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h3",
+            "text": "Get ready for smokier air: Record 2023 wildfire smoke marks long-term shift in North American air quality"
+          },
+          {
+            "tag": "p",
+            "text": "A new analysis of air quality data from the past 70 years shows that Canada's record wildfire smoke in 2023 is part of a broader, continent-wide trend toward smokier skies across North America."
+          },
+          {
+            "tag": "p",
+            "text": "Earth Sciences"
+          },
+          {
+            "tag": "p",
+            "text": "10 hours ago"
+          },
+          {
+            "tag": "h4",
+            "text": "To sustain prosperity as its population shrinks, China will have to invest big at home"
+          },
+          {
+            "tag": "p",
+            "text": "China's economy met the government's official growth target in 2025, with official figures showing real gross domestic product (GDP) expanded by 5%."
+          },
+          {
+            "tag": "h4",
+            "text": "By stoking the Greenland debate, the United States may actually be harming itself"
+          },
+          {
+            "tag": "p",
+            "text": "As the US administration led by Donald Trump has continued to reassert its interest in owning Greenland, Europe has become more and more concerned about the security situation in the Arctic."
+          },
+          {
+            "tag": "h4",
+            "text": "Deep in the Amazon, I discovered this monkey's ingenious survival tactic"
+          },
+          {
+            "tag": "p",
+            "text": "Look down at the rainforest floor. Rotting flowers shift under the assault of tiny petal-eating beetles. Vividly colored fungi pop up everywhere like the strange sculptures of a madly productive ceramicist."
+          },
+          {
+            "tag": "h4",
+            "text": "The way Earth's surface moves has a bigger impact on shifting the climate than we knew"
+          },
+          {
+            "tag": "p",
+            "text": "Our planet has experienced dramatic climate shifts throughout its history, oscillating between freezing \"icehouse\" periods and warm \"greenhouse\" states."
+          },
+          {
+            "tag": "h4",
+            "text": "Tijuana wastewater pipe repairs completed in 3 days, ending river discharge"
+          },
+          {
+            "tag": "p",
+            "text": "Repairs to a collapsed wastewater pipe in Tijuana have been completed, with flows to the Tijuana River now stopped, the U.S. International Boundary and Water Commission announced on Jan. 19."
+          },
+          {
+            "tag": "h4",
+            "text": "Entrepreneurial success under corruption depends on generation and experience, study finds"
+          },
+          {
+            "tag": "p",
+            "text": "A new article in the Strategic Entrepreneurship Journal offers a nuanced view of how corruption affects entrepreneurial performance by showing that entrepreneurs' generational backgrounds play a critical role in shaping outcomes. ..."
+          },
+          {
+            "tag": "h4",
+            "text": "New AI tool removes bottleneck in animal movement analysis"
+          },
+          {
+            "tag": "p",
+            "text": "Researchers from the University of St Andrews have developed an AI tool that reads animal movement from video and turns it into clear, human-readable descriptions, making behavioral analysis faster, cheaper, and scalable ..."
+          },
+          {
+            "tag": "h4",
+            "text": "Indian townships are rebuilding after landslides—but not everyone will benefit"
+          },
+          {
+            "tag": "p",
+            "text": "In the early hours of July 30, 2024, a landslide in the Wayanad district of Kerala state, India, killed 400 people. The Punjirimattom, Mundakkai, Vellarimala and Chooralmala villages in the Western Ghats mountain range turned ..."
+          },
+          {
+            "tag": "h4",
+            "text": "International laws alone cannot save the ocean; activists say direct action is also needed"
+          },
+          {
+            "tag": "p",
+            "text": "After years of international negotiation and diplomacy, as of January 2026, the High Seas Treaty has come into effect. It has been ratified by 61 states around the world and is intended to protect international waters and ..."
+          },
+          {
+            "tag": "h4",
+            "text": "SunRISE SmallSats ace tests, moving closer to launch"
+          },
+          {
+            "tag": "p",
+            "text": "When the six tiny spacecraft of NASA's SunRISE (Sun Radio Interferometer Space Experiment) mission settle into their orbits high above Earth after launching later this year, they'll function as one giant radio dish to track ..."
+          },
+          {
+            "tag": "h4",
+            "text": "An experimental study reveals the role of natural oils in reducing banana spoilage"
+          },
+          {
+            "tag": "p",
+            "text": "One of the major challenges facing the agricultural sector is reserving the post-harvest quality of fruits. Significant economic losses can be caused by rapid ripening and deterioration in tropical fruits, such as bananas, ..."
+          },
+          {
+            "tag": "h4",
+            "text": "Some creeks temporarily run stronger after wildfire, and now we know why"
+          },
+          {
+            "tag": "p",
+            "text": "New UBC Okanagan research shows that wildfire can change how much water remains in streams during the driest months of the year."
+          },
+          {
+            "tag": "h4",
+            "text": "New details capture 13 years of wage-related laws, show increased protections for workers in the US"
+          },
+          {
+            "tag": "p",
+            "text": "For more than a decade, local and state laws have been increasingly focused on providing more protection and agency to workers fighting wage theft, according to new data published on LawAtlas.org and analysis in a new article ..."
+          },
+          {
+            "tag": "h4",
+            "text": "How a secret military base helped trigger the silent collapse of an Arctic world"
+          },
+          {
+            "tag": "p",
+            "text": "Today, as Greenland once again becomes a strategic prize, history seems poised to repeat itself. Staying with the Polar Inuit means refusing to speak of territory while erasing those who inhabit it."
+          },
+          {
+            "tag": "h4",
+            "text": "Q&A: Why Philly has so many sinkholes"
+          },
+          {
+            "tag": "p",
+            "text": "In early January, a giant sinkhole formed at an intersection in the West Oak Lane neighborhood of North Philadelphia after a water main break. Just two weeks earlier, the city reopened a section of the Schuylkill River Trail ..."
+          },
+          {
+            "tag": "h4",
+            "text": "Digital media breaks can improve well-being"
+          },
+          {
+            "tag": "p",
+            "text": "What effect does it have on our well-being when we put our smartphones aside for a while or otherwise disconnect from digital media? Alicia Gilbert, a research associate at the Department of Communication at Johannes Gutenberg ..."
+          },
+          {
+            "tag": "h4",
+            "text": "Detecting drought stress in trees from the air"
+          },
+          {
+            "tag": "p",
+            "text": "Increasing heat and drought are putting our forests under stress. Researchers at the Swiss Federal Institute for Forest, Snow and Landscape Research (WSL) have used drone imagery to investigate how native tree species are ..."
+          },
+          {
+            "tag": "h4",
+            "text": "Political writing retains an important and complex role in the UK's national conversation, new book shows"
+          },
+          {
+            "tag": "p",
+            "text": "Political published writing retains an \"important and complex role\" in the national conversation—despite huge social and technological changes this century, a new book shows."
+          },
+          {
+            "tag": "h4",
+            "text": "Global inequality in parks undercuts the 'suburban dream,' suggests research"
+          },
+          {
+            "tag": "p",
+            "text": "Huge inequality between inner-city and suburban parks across the world could be threatening well-being globally, suggests a study from King's College London and Nokia Bell Labs."
+          },
+          {
+            "tag": "h4",
+            "text": "New roadmap outlines strategies to reduce pharmaceutical pollution in waterways"
+          },
+          {
+            "tag": "p",
+            "text": "Pharmaceuticals used in health care provide huge health and economic benefits to society, but are now found extensively as pollutants across global waterways."
+          },
+          {
+            "tag": "h3",
+            "text": "Medical Xpress"
+          },
+          {
+            "tag": "p",
+            "text": "Medical research advances and health news"
+          },
+          {
+            "tag": "h3",
+            "text": "Tech Xplore"
+          },
+          {
+            "tag": "p",
+            "text": "The latest engineering, electronics and technology advances"
+          },
+          {
+            "tag": "h3",
+            "text": "Science&nbsp;X"
+          },
+          {
+            "tag": "p",
+            "text": "The most comprehensive sci-tech news coverage on the web"
+          },
+          {
+            "tag": "h2",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "h2",
+            "text": "Follow us"
+          },
+          {
+            "tag": "h4",
+            "text": "E-mail newsletter"
+          },
+          {
+            "tag": "h4",
+            "text": "Follow us"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 156,
+          "headings": 120,
+          "images": 117
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-9FD117F6",
+      "path": "/weekly-news/",
+      "type": "Detected Link",
+      "anchor_text": "Week's top",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8D493E67",
+      "path": "/latest-news/",
+      "type": "Detected Link",
+      "anchor_text": "Latest news",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-24382D34",
+      "path": "/unread-news/",
+      "type": "Detected Link",
+      "anchor_text": "Unread news",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-896B3A5F",
+      "path": "/nanotech-news/",
+      "type": "Detected Link",
+      "anchor_text": "Nanotechnology",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E226ECFF",
+      "path": "/physics-news/",
+      "type": "Detected Link",
+      "anchor_text": "Physics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5396A18D",
+      "path": "/earth-news/",
+      "type": "Detected Link",
+      "anchor_text": "Earth",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5BF3518D",
+      "path": "/space-news/",
+      "type": "Detected Link",
+      "anchor_text": "Astronomy &amp; Space",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E895EBB9",
+      "path": "/chemistry-news/",
+      "type": "Detected Link",
+      "anchor_text": "Chemistry",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D158767",
+      "path": "/biology-news/",
+      "type": "Detected Link",
+      "anchor_text": "Biology",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1ABCE9BC",
+      "path": "/science-news/",
+      "type": "Detected Link",
+      "anchor_text": "Other Sciences",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F134EAED",
+      "path": "/news/2026-01-strategic-sex-alaska-beluga-whales.html",
+      "type": "Detected Link",
+      "anchor_text": "Strategic sex: Alaska's beluga whales swap mates for long-term survival",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-07195DED",
+      "path": "/sort/date/6h/",
+      "type": "Detected Link",
+      "anchor_text": "6 hours",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1DAF8D2",
+      "path": "/sort/date/12h/",
+      "type": "Detected Link",
+      "anchor_text": "12 hours",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8529CEA1",
+      "path": "/sort/date/1d/",
+      "type": "Detected Link",
+      "anchor_text": "1 day",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-912E3ABE",
+      "path": "/sort/date/3d/",
+      "type": "Detected Link",
+      "anchor_text": "3 days",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

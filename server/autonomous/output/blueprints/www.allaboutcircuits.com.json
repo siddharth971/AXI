@@ -1,0 +1,772 @@
+{
+  "website_blueprint_id": "BLUEPRINT-53D4D642",
+  "generated_at": "2026-01-21T07:26:54.693Z",
+  "global_configuration": {
+    "brand_name": "All About Circuits",
+    "domain": "www.allaboutcircuits.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.17.145.194",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0, no-store, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 59,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/jquery-3.4.1.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/jquery-3.4.1.min.js"
+      },
+      {
+        "path": "/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "path": "/js/ad.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/ad.js?v=en302"
+      },
+      {
+        "path": "/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"
+      },
+      {
+        "path": "/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"
+      },
+      {
+        "path": "/ajax/libs/jStorage/0.4.12/jstorage.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jStorage/0.4.12/jstorage.min.js"
+      },
+      {
+        "path": "/ajax/libs/jquery.hoverintent/1.10.0/jquery.hoverIntent.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.0/jquery.hoverIntent.min.js"
+      },
+      {
+        "path": "/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"
+      },
+      {
+        "path": "/js/jquery-ui.min.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/jquery-ui.min.js"
+      },
+      {
+        "path": "/ajax/libs/howler/2.1.3/howler.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.min.js"
+      },
+      {
+        "path": "/js/subscriber.newsletter.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/subscriber.newsletter.js?v=1"
+      },
+      {
+        "path": "/ajax/libs/slick-carousel/1.9.0/slick.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+      },
+      {
+        "path": "/js/ad-homepage.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/ad-homepage.js"
+      },
+      {
+        "path": "/js/category_slider.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/category_slider.js?v=102"
+      },
+      {
+        "path": "/ajax/libs/jquery-infinitescroll/3.0.6/infinite-scroll.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/3.0.6/infinite-scroll.pkgd.min.js"
+      },
+      {
+        "path": "/js/infinite_scroll.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/infinite_scroll.js?v=101"
+      },
+      {
+        "path": "/js/app.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/app.js?v=128"
+      },
+      {
+        "path": "/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"
+      },
+      {
+        "path": "/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"
+      },
+      {
+        "path": "/js/view.js",
+        "type": "script",
+        "full_url": "https://www.allaboutcircuits.com/js/view.js?v=109"
+      },
+      {
+        "path": "/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+      },
+      {
+        "path": "/css/jquery-ui.min.css",
+        "type": "stylesheet",
+        "full_url": "https://www.allaboutcircuits.com/css/jquery-ui.min.css"
+      },
+      {
+        "path": "/images/tech_days/aac-summit-logo-white.svg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/images/tech_days/aac-summit-logo-white.svg"
+      },
+      {
+        "path": "/images/site/AAClogo.png",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/images/site/AAClogo.png"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/exploring-the-bode-plots-of-pll-with-lag-lead-filter-thumbnail.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/exploring-the-bode-plots-of-pll-with-lag-lead-filter-thumbnail.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Columbias_BCI.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Columbias_BCI.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_418_186/Voyant_Feature.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_418_186/Voyant_Feature.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_355_260/high-performance-automotive-camera-connectivity-cms.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_355_260/high-performance-automotive-camera-connectivity-cms.jpg"
+      },
+      {
+        "path": "/uploads/tech-days/_155_155/Wu%CC%88rth_Elektronik_Expands_Its_Online_Range_800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/tech-days/_155_155/Wu%CC%88rth_Elektronik_Expands_Its_Online_Range_800x450.jpg"
+      },
+      {
+        "path": "/uploads/tech-days/_155_155/01.AATechCommunity-FEQ12026Branding-EnergyInnovation-800x450_.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/tech-days/_155_155/01.AATechCommunity-FEQ12026Branding-EnergyInnovation-800x450_.jpg"
+      },
+      {
+        "path": "/uploads/tech-days/_155_155/The_Problem_with_EU_RoHS.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/tech-days/_155_155/The_Problem_with_EU_RoHS.jpg"
+      },
+      {
+        "path": "/uploads/tech-days/_155_155/Murata_Top_Innovator_800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/tech-days/_155_155/Murata_Top_Innovator_800x450.jpg"
+      },
+      {
+        "path": "/uploads/tech-days/_155_155/TME_DIY_800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/tech-days/_155_155/TME_DIY_800x450.jpg"
+      },
+      {
+        "path": "/uploads/webinars/_600_337/2512onsemi-campaign-315x220.png",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/webinars/_600_337/2512onsemi-campaign-315x220.png"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Jake_and_TDK_Feature.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Jake_and_TDK_Feature.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Vicor-accelerate-your-move-to-a-high-performance-48v-power-delivery-network-800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Vicor-accelerate-your-move-to-a-high-performance-48v-power-delivery-network-800x450.jpg"
+      },
+      {
+        "path": "/data/avatars/m/1077/1077045.jpg",
+        "type": "image",
+        "full_url": "https://forum.allaboutcircuits.com/data/avatars/m/1077/1077045.jpg?1768941252"
+      },
+      {
+        "path": "/data/avatars/m/1077/1077073.jpg",
+        "type": "image",
+        "full_url": "https://forum.allaboutcircuits.com/data/avatars/m/1077/1077073.jpg?1768965684"
+      },
+      {
+        "path": "/uploads/thumbnails/_418_186/Littelfuse_IA_Defending_the_Digital_Highway_THUMB.jpeg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_418_186/Littelfuse_IA_Defending_the_Digital_Highway_THUMB.jpeg"
+      },
+      {
+        "path": "/uploads/thumbnails/_181_123/Vicor-high-density-power-conversion-more-power-in-less-space-800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_181_123/Vicor-high-density-power-conversion-more-power-in-less-space-800x450.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_181_123/Vicor-innovative-reliable-power-solutions-for-mission-critical-applications-800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_181_123/Vicor-innovative-reliable-power-solutions-for-mission-critical-applications-800x450.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_181_123/Wi-Fi_8_White_Paper_Landing_Page_Thumbnail_800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_181_123/Wi-Fi_8_White_Paper_Landing_Page_Thumbnail_800x450.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_418_186/MK4116__MK4164.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_418_186/MK4116__MK4164.jpg"
+      },
+      {
+        "path": "/uploads/webinars/_181_123/SoI-Report-Webinar-eeTech-Assets-2026-800x450.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/webinars/_181_123/SoI-Report-Webinar-eeTech-Assets-2026-800x450.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Conceptual_view_of_a_software-defined_vehicle.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Conceptual_view_of_a_software-defined_vehicle.jpg"
+      },
+      {
+        "path": "/images/site/aac_logo.png",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/images/site/aac_logo.png"
+      },
+      {
+        "path": "/uploads/thumbnails/_600_337/Mecademic3_featured.jpg",
+        "type": "image",
+        "full_url": "https://control.com/uploads/thumbnails/_600_337/Mecademic3_featured.jpg"
+      },
+      {
+        "path": "/storage/G6skdiT/thumb/G6skdiTVYvZCoZlKnbFF2vGA7FFMbVo6ZFNW9FjW.jpg",
+        "type": "image",
+        "full_url": "https://maker.pro/storage/G6skdiT/thumb/G6skdiTVYvZCoZlKnbFF2vGA7FFMbVo6ZFNW9FjW.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_600_337/featured-image-reliability-features-of-power-electronics-as-an-soa-component-for-sustainable-automotive-development.jpg",
+        "type": "image",
+        "full_url": "https://eepower.com/uploads/thumbnails/_600_337/featured-image-reliability-features-of-power-electronics-as-an-soa-component-for-sustainable-automotive-development.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_355_260/800x450_Satellite_Testing_200_5413.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_355_260/800x450_Satellite_Testing_200_5413.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/EMASS_team.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/EMASS_team.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Siemens-SDV-thumbnail.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Siemens-SDV-thumbnail.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_418_186/Project_Speedrun_Feature.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_418_186/Project_Speedrun_Feature.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_355_260/Weebit_Nano_interview.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_355_260/Weebit_Nano_interview.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Motor_driver_ICs_for_brushed_DC_motors.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Motor_driver_ICs_for_brushed_DC_motors.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_155_155/Snapdragon_X2_Plus.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_155_155/Snapdragon_X2_Plus.jpg"
+      },
+      {
+        "path": "/uploads/thumbnails/_418_186/Jake_TI_New_Automotive_SoC_-_CES_THUMB.jpg",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/uploads/thumbnails/_418_186/Jake_TI_New_Automotive_SoC_-_CES_THUMB.jpg"
+      },
+      {
+        "path": "/images/site/AAClogo2.png",
+        "type": "image",
+        "full_url": "https://www.allaboutcircuits.com/images/site/AAClogo2.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "All About Circuits - Electrical Engineering & Electronics Community",
+        "description": "Premier publication and forum for electrical engineers providing educational material, tools, industry insight, videos, podcasts and conferences",
+        "canonical": "https://www.allaboutcircuits.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "16375ms"
+        },
+        {
+          "resource": "jquery-3.4.1.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.cookie.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gpt.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Welcome Back",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h4",
+            "text": "&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "&nbsp;"
+          },
+          {
+            "tag": "h2",
+            "text": "Infineon First to Roll Out Wi-Fi 7, 20-MHz Tri-Radio Device for IoT"
+          },
+          {
+            "tag": "p",
+            "text": "7 hours ago by Duane Benson"
+          },
+          {
+            "tag": "h4",
+            "text": "Exploring the Bode Plots of PLLs With a Lag-Lead Loop Filter"
+          },
+          {
+            "tag": "p",
+            "text": "2 days ago by Dr. Steve Arar"
+          },
+          {
+            "tag": "p",
+            "text": "News How Brain-Inspired Hardware Is Learning to Scale 13 hours ago by Austin Futrell"
+          },
+          {
+            "tag": "p",
+            "text": "News Voyant Photonics Has Silicon That Will &#8216;Make LiDAR as Common as Cameras&#8217; one day ago by Jake Hertz"
+          },
+          {
+            "tag": "p",
+            "text": "At CES, All About Circuits interviewed Voyant Photonics' CEO to learn about the company's vision for LiDAR's camera-like future with solid-state 4D FMCW sensing."
+          },
+          {
+            "tag": "p",
+            "text": "High-Performance Automotive Camera Connectivity | Tech Guide January 07, 2026 by Mouser Electronics"
+          },
+          {
+            "tag": "p",
+            "text": "Explore high-performance automotive camera connectivity with TE Connectivity’s FAKRA and MATE-AX connectors. Watch now to get started!"
+          },
+          {
+            "tag": "h4",
+            "text": "Categories"
+          },
+          {
+            "tag": "h6",
+            "text": "Würth Elektronik Expands Its Online Range"
+          },
+          {
+            "tag": "p",
+            "text": "Content from Würth Elektronik eiSos GmbH &amp; Co. KG"
+          },
+          {
+            "tag": "h6",
+            "text": "Design the Energy Solutions That Power Sustainable Innovation"
+          },
+          {
+            "tag": "p",
+            "text": "Content from Future Electronics"
+          },
+          {
+            "tag": "h6",
+            "text": "The Problem With EU RoHS"
+          },
+          {
+            "tag": "p",
+            "text": "Content from TTI, Inc."
+          },
+          {
+            "tag": "h6",
+            "text": "Murata Named Top Innovator for All-Weather ADAS Technology"
+          },
+          {
+            "tag": "p",
+            "text": "Content from Murata Electronics"
+          },
+          {
+            "tag": "h6",
+            "text": "DIY Keyboard Project"
+          },
+          {
+            "tag": "p",
+            "text": "Content from Transfer Multisort Elektronik"
+          },
+          {
+            "tag": "p",
+            "text": "High-Density 3kW Rack-Mount PSU with Totem-Pole PFC January 07, 2026 by Avnet"
+          },
+          {
+            "tag": "p",
+            "text": "Discover a 3kW rack-mount PSU delivering 40W/in² power density and up to 97% peak efficiency. Learn analog totem-pole PFC innovations that cut BOM and simplify design."
+          },
+          {
+            "tag": "h4",
+            "text": "TDK Merges Sensing and Intelligence at the Edge Like Never Before"
+          },
+          {
+            "tag": "p",
+            "text": "one day ago by Jake Hertz"
+          },
+          {
+            "tag": "p",
+            "text": "industry white papers Accelerate Your Move to a High Performance 48V Power Delivery Network In Partnership with Vicor"
+          },
+          {
+            "tag": "p",
+            "text": "LATEST FORUM THREADS K &ldquo;Looking for a quieter fan blower&rdquo; kiltro B &ldquo;High side switch&rdquo; barg A &ldquo;Tektronixs Scopes Recapping &amp; Memory&rdquo; aguaman99 &ldquo;Help! Rechargeable + LED setup Battery&rdquo; Rovakin &ldquo;Battery Discharge Auto Cut Off&rdquo; kurohige21 View All Industry Articles Defending the Digital Highway: Cybersecurity for Software-Defined Vehicles 4 days ago by Francesco Fiaschi, Littelfuse"
+          },
+          {
+            "tag": "p",
+            "text": "High Density Power Conversion: More Power in Less Space industry white papers Innovative Reliable Power Solutions for Mission Critical Applications industry white papers Setting New Performance Standards with IEEE 802.11bn industry white papers More Industry Updates News Mostek MK4116/MK4164: The DRAM Pair That Standardized the 8-Bit Era 4 days ago by Luke James"
+          },
+          {
+            "tag": "p",
+            "text": "Mostek’s 16K MK4116 and its 64K successor, the MK4164, became the DRAMs that defined late-1970s and early-1980s microcomputers and set conventions the industry followed for years."
+          },
+          {
+            "tag": "p",
+            "text": "industry webinars 2026 State of the Industry: What Electronics Teams Need to Know Next In partnership with TestEquity"
+          },
+          {
+            "tag": "p",
+            "text": "News Siemens Introduces New Type of Digital Twin Software for SDV Development 5 days ago by Austin Futrell"
+          },
+          {
+            "tag": "p",
+            "text": "Newsletters Join our Community! Sign-up and receive our weekly updates including the latest news, technical articles and industry updates."
+          },
+          {
+            "tag": "p",
+            "text": "Latest Creating and Running a Robot Program for a Meca500 Maker Pro Latest Reyax RYLR999 LoRa Module interfacing with Arduino EE Power Latest Reliability Features of Power Electronics as an SOA Component in Automotive industry white papers Fast and Reliable Power Measurements in Satellite Industry In Partnership with Rohde & Schwarz"
+          },
+          {
+            "tag": "p",
+            "text": "In the satellite sector, components, subsystems and entire satellites must be qualified in a thermal vacuum chamber before they can be used in space. With the adoption of new, higher frequency bands and accuracy requirements, precision is key. This document explores a new practical approach for reliable power measurement for these tasks."
+          },
+          {
+            "tag": "h4",
+            "text": "Inside eMASS’s ECS-DoT SoC: Decompression and AI at the Sensor Edge"
+          },
+          {
+            "tag": "p",
+            "text": "January 14, 2026 by Jake Hertz"
+          },
+          {
+            "tag": "p",
+            "text": "Industry Articles Software-Defined Systems: Reshaping the Future of Modern Cars January 14, 2026 by Conhas Thakkar, Siemens"
+          },
+          {
+            "tag": "p",
+            "text": "News For the First Time, AI Designs a Computer—in Less Than a Week January 14, 2026 by Arjun Nijhawan"
+          },
+          {
+            "tag": "p",
+            "text": "Quilter has designed a fully functional Unix computer using AI, compressing a quarter's worth of PCB design time into a single week."
+          },
+          {
+            "tag": "p",
+            "text": "Exclusive Interview: Weebit Nano, TI, and the Future of Resistive RAM January 13, 2026 by Jake Hertz"
+          },
+          {
+            "tag": "p",
+            "text": "Look out, flash! With a resounding vote of confidence from Texas Instruments and Onsemi, ReRAM may be here to stay."
+          },
+          {
+            "tag": "h4",
+            "text": "Rohm Expands DC Motor Driver Lineup for Home and Office Appliances"
+          },
+          {
+            "tag": "p",
+            "text": "January 13, 2026 by Luke James"
+          },
+          {
+            "tag": "p",
+            "text": "News Qualcomm Brings AI Compute to PCs, Robots, and Vehicles at CES January 13, 2026 by Luke James"
+          },
+          {
+            "tag": "p",
+            "text": "News Texas Instruments Intros New SoC Family at CES to Scale Automotive AI January 12, 2026 by Jake Hertz"
+          },
+          {
+            "tag": "p",
+            "text": "All About Circuits met with Texas Instruments at CES 2026 to learn about the company’s newest automotive SoCs."
+          },
+          {
+            "tag": "h6",
+            "text": "Products"
+          },
+          {
+            "tag": "h6",
+            "text": "Applications"
+          },
+          {
+            "tag": "h6",
+            "text": "Content"
+          },
+          {
+            "tag": "h6",
+            "text": "Who We Are"
+          },
+          {
+            "tag": "h6",
+            "text": "Connect With Us"
+          },
+          {
+            "tag": "h6",
+            "text": "More From Our Network"
+          },
+          {
+            "tag": "h6",
+            "text": "Sign Up"
+          },
+          {
+            "tag": "h2",
+            "text": "Welcome Back"
+          },
+          {
+            "tag": "p",
+            "text": "Don't have an AAC account? Create one now ."
+          },
+          {
+            "tag": "p",
+            "text": "Forgot your password? Click here ."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 62,
+          "headings": 43,
+          "images": 38
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-BB6EB3A6",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8A826E36",
+      "path": "/podcast/",
+      "type": "Detected Link",
+      "anchor_text": "Podcast",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1BC2F766",
+      "path": "/podcast/latest/",
+      "type": "Detected Link",
+      "anchor_text": "Latest",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-218D03F4",
+      "path": "/latest/",
+      "type": "Detected Link",
+      "anchor_text": "Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C1241301",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-62CBE98D",
+      "path": "/projects/",
+      "type": "Detected Link",
+      "anchor_text": "Projects",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99DE89E3",
+      "path": "/technical-articles/",
+      "type": "Detected Link",
+      "anchor_text": "Technical Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34675A75",
+      "path": "/industry-articles/",
+      "type": "Detected Link",
+      "anchor_text": "Industry Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99DD200E",
+      "path": "/industry-white-papers/",
+      "type": "Detected Link",
+      "anchor_text": "Industry White Papers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-552C3149",
+      "path": "/forums/",
+      "type": "Detected Link",
+      "anchor_text": "Latest",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CCEFA6F4",
+      "path": "/education/",
+      "type": "Detected Link",
+      "anchor_text": "Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CE55A11F",
+      "path": "/textbook/",
+      "type": "Detected Link",
+      "anchor_text": "Textbooks",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2CBEAD8D",
+      "path": "/video-tutorials/",
+      "type": "Detected Link",
+      "anchor_text": "Video Lectures & Tutorials",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-82F161B1",
+      "path": "/worksheets/",
+      "type": "Detected Link",
+      "anchor_text": "Worksheets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8D1321FD",
+      "path": "/industry-webinars/",
+      "type": "Detected Link",
+      "anchor_text": "Industry Webinars",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

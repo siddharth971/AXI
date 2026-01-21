@@ -310,11 +310,21 @@ async function generateBlueprint(url) {
 
 // Batch processing configuration
 const CONCURRENCY_LIMIT = 50;
+const BLUEPRINTS_DIR = path.join(OUTPUT_DIR, "blueprints");
+const INDEX_FILE = path.join(OUTPUT_DIR, "index.json");
+
+// Ensure blueprints directory exists
+if (!fs.existsSync(BLUEPRINTS_DIR)) {
+  fs.mkdirSync(BLUEPRINTS_DIR, { recursive: true });
+}
+
+// Generate a safe filename from domain
+function getDomainFilename(domain) {
+  return domain.replace(/[^a-zA-Z0-9.-]/g, "_") + ".json";
+}
 
 async function runExplorer() {
-  console.log(
-    "🚀 AXI Autonomous Blueprint Engine Priority Mode (100x Speed)...",
-  );
+  console.log("🚀 AXI Autonomous Blueprint Engine (Sharded Output Mode)...");
 
   let sources;
   try {
@@ -333,17 +343,34 @@ async function runExplorer() {
     return;
   }
 
-  const results = [];
+  const indexEntries = [];
   const total = sources.length;
   let completed = 0;
+  let successCount = 0;
 
-  // Helper to process a single URL with error boundary
+  // Helper to process a single URL and save to individual file
   const processUrl = async (url) => {
     try {
       const blueprint = await generateBlueprint(url);
       if (blueprint) {
-        results.push(blueprint);
-        process.stdout.write(`.`); // Minimal progress indicator
+        const domain = blueprint.global_configuration.domain;
+        const filename = getDomainFilename(domain);
+        const filepath = path.join(BLUEPRINTS_DIR, filename);
+
+        // Write individual blueprint file
+        fs.writeFileSync(filepath, JSON.stringify(blueprint, null, 2));
+
+        // Add to index
+        indexEntries.push({
+          id: blueprint.website_blueprint_id,
+          domain: domain,
+          brand: blueprint.global_configuration.brand_name,
+          file: `blueprints/${filename}`,
+          generated_at: blueprint.generated_at,
+        });
+
+        successCount++;
+        process.stdout.write(`.`);
       }
     } catch (e) {
       // Ignore failures in fast mode
@@ -379,13 +406,20 @@ async function runExplorer() {
   }
 
   const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-  const fullOutputPath = path.join(OUTPUT_DIR, OUTPUT_FILE);
-  fs.writeFileSync(fullOutputPath, JSON.stringify(results, null, 2));
+
+  // Write index file
+  const indexData = {
+    generated_at: new Date().toISOString(),
+    total_blueprints: successCount,
+    blueprints: indexEntries,
+  };
+  fs.writeFileSync(INDEX_FILE, JSON.stringify(indexData, null, 2));
 
   console.log(
-    `\n✨ Exploration Finished in ${duration}s! Generated ${results.length} blueprints.`,
+    `\n✨ Exploration Finished in ${duration}s! Generated ${successCount} blueprints.`,
   );
-  console.log(`📁 Output saved to: ${fullOutputPath}`);
+  console.log(`📁 Index saved to: ${INDEX_FILE}`);
+  console.log(`📂 Blueprints saved to: ${BLUEPRINTS_DIR}/`);
 }
 
 runExplorer();

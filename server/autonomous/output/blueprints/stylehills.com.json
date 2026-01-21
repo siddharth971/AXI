@@ -1,0 +1,417 @@
+{
+  "website_blueprint_id": "BLUEPRINT-06B18E64",
+  "generated_at": "2026-01-21T07:26:54.405Z",
+  "global_configuration": {
+    "brand_name": "Discover and Follow Blogs",
+    "domain": "stylehills.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "173.236.195.59",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 20,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+      },
+      {
+        "path": "/wp-content/themes/esotera/resources/js/html5shiv.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/themes/esotera/resources/js/html5shiv.min.js?ver=1.2.5.1"
+      },
+      {
+        "path": "/wp-content/plugins/cryout-serious-slider/resources/jquery.mobile.custom.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/plugins/cryout-serious-slider/resources/jquery.mobile.custom.min.js?ver=1.2.3"
+      },
+      {
+        "path": "/wp-content/plugins/cryout-serious-slider/resources/slider.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/plugins/cryout-serious-slider/resources/slider.js?ver=1.2.3"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-ZRGWLK52VW"
+      },
+      {
+        "path": "/wp-content/themes/esotera/resources/js/ajax.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/themes/esotera/resources/js/ajax.js?ver=1.2.5.1"
+      },
+      {
+        "path": "/wp-content/plugins/getwid/assets/js/frontend.blocks.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1.8.2"
+      },
+      {
+        "path": "/wp-content/themes/esotera/resources/js/frontend.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-content/themes/esotera/resources/js/frontend.js?ver=1.2.5.1"
+      },
+      {
+        "path": "/wp-includes/js/imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4"
+      },
+      {
+        "path": "/wp-includes/js/masonry.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/masonry.min.js?ver=4.2.2"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.masonry.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b"
+      },
+      {
+        "path": "/wp-includes/js/comment-reply.min.js",
+        "type": "script",
+        "full_url": "https://stylehills.com/wp-includes/js/comment-reply.min.js?ver=6.0.11"
+      },
+      {
+        "path": "/wp-content/uploads/2020/04/Stylehills-Logo-6.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/04/Stylehills-Logo-6.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/06/app-bg-9.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/06/app-bg-9.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Button-iOSAppStore.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/03/Button-iOSAppStore.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Button-AndroidPlayStore.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/03/Button-AndroidPlayStore.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/06/icon-1024x1024.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/06/icon-1024x1024.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Button-iOSAppStore.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/03/Button-iOSAppStore.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Button-AndroidPlayStore.png",
+        "type": "image",
+        "full_url": "https://stylehills.com/wp-content/uploads/2020/03/Button-AndroidPlayStore.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Discover and Follow Blogs | RSS Reader App",
+        "description": "Blog Reader app to discover, follow and read all your favorite blogs (for free) in one place. Follow blogs and websites on fashion, beauty, technology, business, food, design, personal growth, money, lifestyle and more with personalized feed.",
+        "canonical": "https://stylehills.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "12152ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "html5shiv.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Stylehills",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Blog Reader",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Website",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Directory",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Stylehills"
+          },
+          {
+            "tag": "h2",
+            "text": "Blog Reader"
+          },
+          {
+            "tag": "h4",
+            "text": "Subscribe To Feed"
+          },
+          {
+            "tag": "h4",
+            "text": "Discover New Blogs"
+          },
+          {
+            "tag": "h4",
+            "text": "Add By Domain"
+          },
+          {
+            "tag": "h3",
+            "text": "Get Stylehills App"
+          },
+          {
+            "tag": "p",
+            "text": "Stylehills&#8217; Blog Reader app helps you to follow and read your favorite blogs and discover new blogs, all in one place."
+          },
+          {
+            "tag": "p",
+            "text": "It is thoughtfully curated with blogs and websites for fashion, tech, food, money, lifestyle and more."
+          },
+          {
+            "tag": "p",
+            "text": "You can enjoy personal RSS feed from news and magazines that you subscribe."
+          },
+          {
+            "tag": "p",
+            "text": "Get the Stylehills app for free:"
+          },
+          {
+            "tag": "p",
+            "text": "iPhone or Android"
+          },
+          {
+            "tag": "h2",
+            "text": "Website"
+          },
+          {
+            "tag": "h2",
+            "text": "Directory"
+          },
+          {
+            "tag": "h2",
+            "text": "More"
+          },
+          {
+            "tag": "h2",
+            "text": "Get Stylehills App"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 7,
+          "headings": 10,
+          "images": 7
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-53A6E65A",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C5156265",
+      "path": "/blog/",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7A1CBFC",
+      "path": "/blog-directory/",
+      "type": "Detected Link",
+      "anchor_text": "Directory",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-80BFBAB7",
+      "path": "/fashion-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Fashion Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-09D838D7",
+      "path": "/beauty-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Beauty Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-19B3E69B",
+      "path": "/technology-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Technology Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A396FFAE",
+      "path": "/business-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Business Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-13BD4A1B",
+      "path": "/food-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Food Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-12BB9356",
+      "path": "/travel-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Travel Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-625DED06",
+      "path": "/design-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Design Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DBF87EB8",
+      "path": "/blog-directory/home-decor-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Home Decor Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-27A71864",
+      "path": "/wellness-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Wellness Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57410ADE",
+      "path": "/personal-growth-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Personal Growth Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2EF96F9B",
+      "path": "/learning-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Learning Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-88FD30ED",
+      "path": "/finance-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Finance Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

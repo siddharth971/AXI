@@ -1,0 +1,886 @@
+{
+  "website_blueprint_id": "BLUEPRINT-3097FCA9",
+  "generated_at": "2026-01-21T07:26:54.052Z",
+  "global_configuration": {
+    "brand_name": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "domain": "github.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "20.207.73.82",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "github.com"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0, private, must-revalidate",
+      "Content-Security-Policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com edge.fullstory.com rs.fullstory.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com www.youtube-nocookie.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com images.ctfassets.net/8aevphvgewt8/; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com assets.ctfassets.net/8aevphvgewt8/ videos.ctfassets.net/8aevphvgewt8/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+      "Server": "github.com"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 97,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/assets/high-contrast-cookie-ff2c933fbe48.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/high-contrast-cookie-ff2c933fbe48.js"
+      },
+      {
+        "path": "/assets/wp-runtime-c80657f55bad.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/wp-runtime-c80657f55bad.js"
+      },
+      {
+        "path": "/assets/78298-e2b301acbc0e.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/78298-e2b301acbc0e.js"
+      },
+      {
+        "path": "/assets/6488-de87864e6818.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/6488-de87864e6818.js"
+      },
+      {
+        "path": "/assets/82075-2e4fa6ffb171.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/82075-2e4fa6ffb171.js"
+      },
+      {
+        "path": "/assets/environment-64d2676efda2.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/environment-64d2676efda2.js"
+      },
+      {
+        "path": "/assets/97068-2c8e697c6e8c.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/97068-2c8e697c6e8c.js"
+      },
+      {
+        "path": "/assets/43784-4652ae97a661.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/43784-4652ae97a661.js"
+      },
+      {
+        "path": "/assets/4712-6fc930a63a4b.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/4712-6fc930a63a4b.js"
+      },
+      {
+        "path": "/assets/81028-4fa90b716172.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/81028-4fa90b716172.js"
+      },
+      {
+        "path": "/assets/74911-498f12492577.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/74911-498f12492577.js"
+      },
+      {
+        "path": "/assets/91853-448038d8f9ef.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/91853-448038d8f9ef.js"
+      },
+      {
+        "path": "/assets/78143-31968346cf4c.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/78143-31968346cf4c.js"
+      },
+      {
+        "path": "/assets/78954-eeadcb8a29db.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/78954-eeadcb8a29db.js"
+      },
+      {
+        "path": "/assets/github-elements-c96932270531.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/github-elements-c96932270531.js"
+      },
+      {
+        "path": "/assets/element-registry-eb441089aa1e.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/element-registry-eb441089aa1e.js"
+      },
+      {
+        "path": "/assets/react-core-fbb7101a5e29.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/react-core-fbb7101a5e29.js"
+      },
+      {
+        "path": "/assets/react-lib-b492ee0e2c35.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/react-lib-b492ee0e2c35.js"
+      },
+      {
+        "path": "/assets/90780-1a0f3d593ff0.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/90780-1a0f3d593ff0.js"
+      },
+      {
+        "path": "/assets/28546-ee41c9313871.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/28546-ee41c9313871.js"
+      },
+      {
+        "path": "/assets/17688-a9e16fb5ed13.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/17688-a9e16fb5ed13.js"
+      },
+      {
+        "path": "/assets/15938-1bc2c363d5ed.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/15938-1bc2c363d5ed.js"
+      },
+      {
+        "path": "/assets/70191-36bdeb9f5eb6.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/70191-36bdeb9f5eb6.js"
+      },
+      {
+        "path": "/assets/7332-5ea4ccf72018.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/7332-5ea4ccf72018.js"
+      },
+      {
+        "path": "/assets/66721-c03c0d8e4fbe.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/66721-c03c0d8e4fbe.js"
+      },
+      {
+        "path": "/assets/51519-d05cf6658c87.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/51519-d05cf6658c87.js"
+      },
+      {
+        "path": "/assets/27376-e1f0953dbd57.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/27376-e1f0953dbd57.js"
+      },
+      {
+        "path": "/assets/96384-750ef5263abe.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/96384-750ef5263abe.js"
+      },
+      {
+        "path": "/assets/19718-302da6273821.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/19718-302da6273821.js"
+      },
+      {
+        "path": "/assets/behaviors-8003c1a9d883.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/behaviors-8003c1a9d883.js"
+      },
+      {
+        "path": "/assets/37911-8ca53539e04e.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/37911-8ca53539e04e.js"
+      },
+      {
+        "path": "/assets/notifications-global-945a9cf8a11b.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/notifications-global-945a9cf8a11b.js"
+      },
+      {
+        "path": "/assets/76235-ecde0f938e32.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/76235-ecde0f938e32.js"
+      },
+      {
+        "path": "/assets/75320-47ae901b5867.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/75320-47ae901b5867.js"
+      },
+      {
+        "path": "/assets/marketing-essentials-d9a8eb230909.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/marketing-essentials-d9a8eb230909.js"
+      },
+      {
+        "path": "/assets/primer-react-461f94d12ce0.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/primer-react-461f94d12ce0.js"
+      },
+      {
+        "path": "/assets/octicons-react-a215e6ee021a.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/octicons-react-a215e6ee021a.js"
+      },
+      {
+        "path": "/assets/31475-2b0a1453a474.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/31475-2b0a1453a474.js"
+      },
+      {
+        "path": "/assets/42892-86c578f4fa0a.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/42892-86c578f4fa0a.js"
+      },
+      {
+        "path": "/assets/62522-3e3f44aed73b.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/62522-3e3f44aed73b.js"
+      },
+      {
+        "path": "/assets/13314-f7cf6986dee0.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/13314-f7cf6986dee0.js"
+      },
+      {
+        "path": "/assets/21481-a66c6eab7bbf.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/21481-a66c6eab7bbf.js"
+      },
+      {
+        "path": "/assets/9959-41d4ec36fc50.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/9959-41d4ec36fc50.js"
+      },
+      {
+        "path": "/assets/45871-6dee4631b8c1.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/45871-6dee4631b8c1.js"
+      },
+      {
+        "path": "/assets/17000-b46013dbc55a.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/17000-b46013dbc55a.js"
+      },
+      {
+        "path": "/assets/17888-d86ec7ac3c17.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/17888-d86ec7ac3c17.js"
+      },
+      {
+        "path": "/assets/55846-33357ba0634b.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/55846-33357ba0634b.js"
+      },
+      {
+        "path": "/assets/51380-2c5b92f1cfd9.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/51380-2c5b92f1cfd9.js"
+      },
+      {
+        "path": "/assets/25407-3aabe04a8d67.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/25407-3aabe04a8d67.js"
+      },
+      {
+        "path": "/assets/92742-1ba937995957.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/92742-1ba937995957.js"
+      },
+      {
+        "path": "/assets/69528-e318b4f03399.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/69528-e318b4f03399.js"
+      },
+      {
+        "path": "/assets/59535-ffa45096a071.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/59535-ffa45096a071.js"
+      },
+      {
+        "path": "/assets/66164-85a69d05c8ea.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/66164-85a69d05c8ea.js"
+      },
+      {
+        "path": "/assets/39195-175530a3d344.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/39195-175530a3d344.js"
+      },
+      {
+        "path": "/assets/24267-8e7d2a03d0ac.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/24267-8e7d2a03d0ac.js"
+      },
+      {
+        "path": "/assets/14091-70149e4f8bf8.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/14091-70149e4f8bf8.js"
+      },
+      {
+        "path": "/assets/landing-pages-dac0f1f28707.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/landing-pages-dac0f1f28707.js"
+      },
+      {
+        "path": "/assets/global-banner-disable-54e442fb573b.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/global-banner-disable-54e442fb573b.js"
+      },
+      {
+        "path": "/assets/85110-5c8beb884518.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/85110-5c8beb884518.js"
+      },
+      {
+        "path": "/assets/sessions-980e43e5da6c.js",
+        "type": "script",
+        "full_url": "https://github.githubassets.com/assets/sessions-980e43e5da6c.js"
+      },
+      {
+        "path": "/assets/light-dac525bbd821.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/light-dac525bbd821.css"
+      },
+      {
+        "path": "/assets/light_high_contrast-56ccf4057897.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/light_high_contrast-56ccf4057897.css"
+      },
+      {
+        "path": "/assets/dark-784387e86ac0.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/dark-784387e86ac0.css"
+      },
+      {
+        "path": "/assets/dark_high_contrast-79bd5fd84a86.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/dark_high_contrast-79bd5fd84a86.css"
+      },
+      {
+        "path": "/assets/primer-primitives-c37d781e2da5.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/primer-primitives-c37d781e2da5.css"
+      },
+      {
+        "path": "/assets/primer-dc3bfaf4b78e.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/primer-dc3bfaf4b78e.css"
+      },
+      {
+        "path": "/assets/global-b0ea6cebe9c5.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/global-b0ea6cebe9c5.css"
+      },
+      {
+        "path": "/assets/github-6d0965b43add.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/github-6d0965b43add.css"
+      },
+      {
+        "path": "/assets/site-f5cc67eb9a08.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/site-f5cc67eb9a08.css"
+      },
+      {
+        "path": "/assets/landing-pages-157a54e2cd8a.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/landing-pages-157a54e2cd8a.css"
+      },
+      {
+        "path": "/assets/home-ff0b11d57d95.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/home-ff0b11d57d95.css"
+      },
+      {
+        "path": "/assets/primer-react.272733bb6899c5359cf5.module.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/primer-react.272733bb6899c5359cf5.module.css"
+      },
+      {
+        "path": "/assets/landing-pages.c8a55bf36fa24b28392b.module.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/landing-pages.c8a55bf36fa24b28392b.module.css"
+      },
+      {
+        "path": "/assets/keyboard-shortcuts-dialog.29aaeaafa90f007c6f61.module.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.29aaeaafa90f007c6f61.module.css"
+      },
+      {
+        "path": "/assets/marketing-navigation.4bd5b20d56a72071b91a.module.css",
+        "type": "stylesheet",
+        "full_url": "https://github.githubassets.com/assets/marketing-navigation.4bd5b20d56a72071b91a.module.css"
+      },
+      {
+        "path": "/assets/particles-de1dd20f3008.png",
+        "type": "image",
+        "full_url": "https://github.githubassets.com/assets/particles-de1dd20f3008.png"
+      },
+      {
+        "path": "/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg"
+      },
+      {
+        "path": "/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg"
+      },
+      {
+        "path": "/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/5mzhSO4avmXBwkFsMzgXkW/91991e6258f14f54d23840b6c13c3013/hero-64ecd484397f.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/5mzhSO4avmXBwkFsMzgXkW/91991e6258f14f54d23840b6c13c3013/hero-64ecd484397f.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/6WnLu9nlnemjCltZkd8lCi/b18034be25552e118a36f6617e1f84df/pillar-1-dd667a921f55.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/6WnLu9nlnemjCltZkd8lCi/b18034be25552e118a36f6617e1f84df/pillar-1-dd667a921f55.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/1o2Eid4RQteCr6iZ7wVauW/3c04a760442c81036d98e70c0c986a8b/pillar-2-ff69e872920a.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/1o2Eid4RQteCr6iZ7wVauW/3c04a760442c81036d98e70c0c986a8b/pillar-2-ff69e872920a.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/3WaMDk5JuZzhaKfpRgibKz/c179c5841373ec1fd37c839bdb24a7b4/pillar-3-0a063e2daae2.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/3WaMDk5JuZzhaKfpRgibKz/c179c5841373ec1fd37c839bdb24a7b4/pillar-3-0a063e2daae2.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/3ip0mnsbUMonRTsbnnIkOh/a940b7a975a801c8829c113d9799873d/hero-961322485af6.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/3ip0mnsbUMonRTsbnnIkOh/a940b7a975a801c8829c113d9799873d/hero-961322485af6.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/5suLHnkyPm3laA8qENQmMZ/6b267a9e449ae94968dd85c8f96fb64e/accordion-1-38ad6b6d1b20.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/5suLHnkyPm3laA8qENQmMZ/6b267a9e449ae94968dd85c8f96fb64e/accordion-1-38ad6b6d1b20.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/20DkYnWbPsbb8mdDnIs32f/a43850b7e0e8e45ec87761d1ba91e19b/accordion-2-c0a62cfc31a1.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/20DkYnWbPsbb8mdDnIs32f/a43850b7e0e8e45ec87761d1ba91e19b/accordion-2-c0a62cfc31a1.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/39mo3IRGhK995HzuwZANhY/cabfd393551e0d2aae92bc105121ca9c/accordion-3-5d5d222f1830.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/39mo3IRGhK995HzuwZANhY/cabfd393551e0d2aae92bc105121ca9c/accordion-3-5d5d222f1830.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/7GOAeyecyEQqY12hHwvwXg/69877012458c9d42916b2a18e0e36a37/accordion-4-7abff9233556.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/7GOAeyecyEQqY12hHwvwXg/69877012458c9d42916b2a18e0e36a37/accordion-4-7abff9233556.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/5m9WKL1QJeiDrnxuL9pBux/f7336610c32283d86c71235c0d54ee16/figma.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/5m9WKL1QJeiDrnxuL9pBux/f7336610c32283d86c71235c0d54ee16/figma.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/2xNJHobFMxrvAwj534sNMo/753fcd3beb5fd223d1d2ed918b868a5f/figma.svg",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/2xNJHobFMxrvAwj534sNMo/753fcd3beb5fd223d1d2ed918b868a5f/figma.svg"
+      },
+      {
+        "path": "/8aevphvgewt8/2so1SgbMPgAN2M091ep1YR/3c268f706e7a53fb79276b863e0c9436/mercedes-benz.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/2so1SgbMPgAN2M091ep1YR/3c268f706e7a53fb79276b863e0c9436/mercedes-benz.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/55wg5e2VhUvAbJBG0coTRy/9ced78d7b1f86bc72f214401ad57e69e/mercedes-benz.svg",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/55wg5e2VhUvAbJBG0coTRy/9ced78d7b1f86bc72f214401ad57e69e/mercedes-benz.svg"
+      },
+      {
+        "path": "/8aevphvgewt8/6qeISSuZ9JWsaytftY1gqk/bd5f4532732d5cf163c8e1a2557f42ba/mercado-libre.webp",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/6qeISSuZ9JWsaytftY1gqk/bd5f4532732d5cf163c8e1a2557f42ba/mercado-libre.webp"
+      },
+      {
+        "path": "/8aevphvgewt8/1kTDnd4nwOET5gPSpPk5z9/dc7d84e7c31e4ece4a9db441728c8e97/mercado-libre.svg",
+        "type": "image",
+        "full_url": "https://images.ctfassets.net/8aevphvgewt8/1kTDnd4nwOET5gPSpPk5z9/dc7d84e7c31e4ece4a9db441728c8e97/mercado-libre.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+        "description": "Join the world&#39;s most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+        "canonical": "https://github.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "798ms"
+        },
+        {
+          "resource": "high-contrast-cookie-ff2c933fbe48.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "wp-runtime-c80657f55bad.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "78298-e2b301acbc0e.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Search code, repositories, users, issues, pull requests...",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Navigation Menu",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Use saved searches to filter your results more quickly",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "GitHub features",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Navigation Menu"
+          },
+          {
+            "tag": "h1",
+            "text": "Saved searches"
+          },
+          {
+            "tag": "h2",
+            "text": "Use saved searches to filter your results more quickly"
+          },
+          {
+            "tag": "p",
+            "text": "--> Name Query To see all available qualifiers, see our documentation ."
+          },
+          {
+            "tag": "h2",
+            "text": "GitHub features"
+          },
+          {
+            "tag": "p",
+            "text": "A demonstration animation of a code editor using GitHub Copilot Chat, where the user requests GitHub Copilot to refactor duplicated logic and extract it into a reusable function for a given code snippet. Code Plan Collaborate Automate Secure Code Write, test, and fix code quickly with GitHub Copilot, from simple boilerplate to complex features."
+          },
+          {
+            "tag": "h2",
+            "text": "GitHub customers"
+          },
+          {
+            "tag": "p",
+            "text": "Duolingo Ernst and Young Ford InfoSys Mercado Libre Mercedes-Benz Shopify Philips Société Générale Spotify Vodafone American Airlines Duolingo Ernst and Young Ford InfoSys Mercado Libre Mercedes-Benz Shopify Philips Société Générale Spotify Vodafone Accelerate your entire workflow From your first line of code to final deployment, GitHub provides AI and automation tools to help you build and ship better software faster."
+          },
+          {
+            "tag": "p",
+            "text": "A Copilot chat window with the &#x27;Ask&#x27; mode enabled. The user switches from &#x27;Ask&#x27; mode to &#x27;Agent&#x27; mode from a dropdown menu, then sends the prompt &#x27;Update the website to allow searching for running races by name.&#x27; Copilot analyzes the codebase, then explains the required edits for three files before generating them. Copilot then confirms completion and summarizes the implemented changes for the new functionality allowing users to search races by name and view paginated, filtered results. Your AI partner everywhere. Copilot is ready to work with you at each step of the software development lifecycle. Explore GitHub Copilot Duolingo boosts developer speed by 25% with GitHub Copilot"
+          },
+          {
+            "tag": "p",
+            "text": "2025 Gartner® Magic Quadrant™ for AI Code Assistants"
+          },
+          {
+            "tag": "p",
+            "text": "Automate your path to production Ship faster with secure, reliable CI/CD."
+          },
+          {
+            "tag": "p",
+            "text": "Code instantly from anywhere Launch a full, cloud-based development environment in seconds."
+          },
+          {
+            "tag": "p",
+            "text": "Keep momentum on the go Manage projects and assign tasks to Copilot, all from your mobile device."
+          },
+          {
+            "tag": "p",
+            "text": "Shape your toolchain Extend your stack with apps, actions, and AI models."
+          },
+          {
+            "tag": "p",
+            "text": "Built-in application security where found means fixed Use AI to find and fix vulnerabilities so your team can ship more secure software faster."
+          },
+          {
+            "tag": "h3",
+            "text": "Apply fixes in seconds. Spend less time debugging and more time building features with Copilot Autofix."
+          },
+          {
+            "tag": "p",
+            "text": "Security debt, solved. Leverage security campaigns and Copilot Autofix to reduce application vulnerabilities."
+          },
+          {
+            "tag": "p",
+            "text": "Dependencies you can depend on. Update vulnerable dependencies with supported fixes for breaking changes."
+          },
+          {
+            "tag": "p",
+            "text": "Your secrets, your business. Detect, prevent, and remediate leaked secrets across your organization."
+          },
+          {
+            "tag": "p",
+            "text": "70% MTTR reduction with Copilot Autofix"
+          },
+          {
+            "tag": "p",
+            "text": "8.3M secret leaks stopped in the past 12 months with push protection"
+          },
+          {
+            "tag": "h2",
+            "text": "Work together, achieve more"
+          },
+          {
+            "tag": "p",
+            "text": "From planning and discussion to code review, GitHub keeps your team’s conversation and context next to your code."
+          },
+          {
+            "tag": "h3",
+            "text": "Plan with clarity. Organize everything from high-level roadmaps to everyday tasks."
+          },
+          {
+            "tag": "p",
+            "text": "“ It helps us onboard new software engineers and get them productive right away. We have all our source code, issues, and pull requests in one place... GitHub is a complete platform that frees us from menial tasks and enables us to do our best work. Fabian Faulhaber Application manager at Mercedes-Benz Keep track of your tasks Create issues and manage projects with tools that adapt to your code."
+          },
+          {
+            "tag": "p",
+            "text": "Share ideas and ask questions Create space for open-ended conversations alongside your project."
+          },
+          {
+            "tag": "p",
+            "text": "Review code changes together Assign initial reviews to Copilot for greater speed and quality."
+          },
+          {
+            "tag": "p",
+            "text": "Fund open source projects Become an open source partner and support the tools and libraries that power your work."
+          },
+          {
+            "tag": "p",
+            "text": "From startups to enterprises, GitHub scales with teams of any size in any industry. By industry By size By use case By industry Technology Figma streamlines development and strengthens security"
+          },
+          {
+            "tag": "p",
+            "text": "Automotive Mercedes-Benz standardizes source code and automates onboarding"
+          },
+          {
+            "tag": "p",
+            "text": "Financial services Mercado Libre cuts coding time by 50%"
+          },
+          {
+            "tag": "p",
+            "text": "Explore customer stories View all solutions Millions of developers and businesses call GitHub home Whether you’re scaling your development process or just learning how to code, GitHub is where you belong. Join the world’s most widely adopted developer platform to build the technologies that shape what’s next."
+          },
+          {
+            "tag": "h3",
+            "text": "Platform"
+          },
+          {
+            "tag": "h3",
+            "text": "Ecosystem"
+          },
+          {
+            "tag": "h3",
+            "text": "Support"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 308,
+          "headings": 30,
+          "images": 24
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A429BF62",
+      "path": "/features/copilot",
+      "type": "Detected Link",
+      "anchor_text": "GitHub CopilotWrite better code with AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-938468FE",
+      "path": "/features/spark",
+      "type": "Detected Link",
+      "anchor_text": "GitHub SparkBuild and deploy intelligent apps",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AC5426D9",
+      "path": "/features/models",
+      "type": "Detected Link",
+      "anchor_text": "GitHub ModelsManage and compare prompts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E80F86CE",
+      "path": "/mcp",
+      "type": "Detected Link",
+      "anchor_text": "MCP RegistryNewIntegrate external tools",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A9AA24D3",
+      "path": "/features/actions",
+      "type": "Detected Link",
+      "anchor_text": "ActionsAutomate any workflow",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D152C89B",
+      "path": "/features/codespaces",
+      "type": "Detected Link",
+      "anchor_text": "CodespacesInstant dev environments",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A2BBCF9C",
+      "path": "/features/issues",
+      "type": "Detected Link",
+      "anchor_text": "IssuesPlan and track work",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1C03B7C",
+      "path": "/features/code-review",
+      "type": "Detected Link",
+      "anchor_text": "Code ReviewManage code changes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C041A6A8",
+      "path": "/security/advanced-security",
+      "type": "Detected Link",
+      "anchor_text": "GitHub Advanced SecurityFind and fix vulnerabilities",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B3E8B415",
+      "path": "/security/advanced-security/code-security",
+      "type": "Detected Link",
+      "anchor_text": "Code securitySecure your code as you build",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-66CE1C3F",
+      "path": "/security/advanced-security/secret-protection",
+      "type": "Detected Link",
+      "anchor_text": "Secret protectionStop leaks before they start",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D877606",
+      "path": "/why-github",
+      "type": "Detected Link",
+      "anchor_text": "Why GitHub",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-66322AA3",
+      "path": "/marketplace",
+      "type": "Detected Link",
+      "anchor_text": "Marketplace",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-53521B47",
+      "path": "/features",
+      "type": "Detected Link",
+      "anchor_text": "View all features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D8C2FD2C",
+      "path": "/enterprise",
+      "type": "Detected Link",
+      "anchor_text": "Enterprises",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

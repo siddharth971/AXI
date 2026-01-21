@@ -1,0 +1,636 @@
+{
+  "website_blueprint_id": "BLUEPRINT-42627094",
+  "generated_at": "2026-01-21T07:26:54.238Z",
+  "global_configuration": {
+    "brand_name": "Kitchen with Hoor Zahra",
+    "domain": "kitchenwithhoor.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "212.85.29.164",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "LiteSpeed"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "LiteSpeed"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 32,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-PSPE4C70GB"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/html5.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/html5.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/includes/js/index.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4"
+      },
+      {
+        "path": "/wp-content/plugins/penci-review/js/jquery.easypiechart.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/penci-review/js/jquery.easypiechart.min.js?ver=3.3"
+      },
+      {
+        "path": "/wp-content/plugins/penci-review/js/review.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/penci-review/js/review.js?ver=3.3"
+      },
+      {
+        "path": "/wp-content/plugins/penci-shortcodes/assets/play.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/penci-shortcodes/assets/play.js?ver=5.6"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/js-cookies.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/js-cookies.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/penci-lazy.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/penci-lazy.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/libs-script.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/libs-script.min.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/main.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/main.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/post-like.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/post-like.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-includes/js/comment-reply.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/comment-reply.min.js?ver=6.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/inview.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/inview.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/sticky_share.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/sticky_share.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/ff40.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/ff40.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/gsap.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/gsap.min.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.6"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.6"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/core.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.6"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/widgets-ajax.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/widgets-ajax.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/ajax-filter-fcat.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/ajax-filter-fcat.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/ajax-filter-latest.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/ajax-filter-latest.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/plugins/penci-recipe/js/jquery.rateyo.min.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/penci-recipe/js/jquery.rateyo.min.js?ver=3.7"
+      },
+      {
+        "path": "/wp-content/plugins/penci-recipe/js/rating_recipe.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/penci-recipe/js/rating_recipe.js?ver=3.7"
+      },
+      {
+        "path": "/wp-content/themes/soledad/js/more-post.js",
+        "type": "script",
+        "full_url": "https://kitchenwithhoor.com/wp-content/themes/soledad/js/more-post.js?ver=8.5.9"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Kitchen-with-hoor-zahra-logo.png.webp",
+        "type": "image",
+        "full_url": "https://kitchenwithhoor.com/wp-content/uploads/2024/11/Kitchen-with-hoor-zahra-logo.png.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Kitchen with Hoor Zahra | Food Blog",
+        "description": "At Kitchen with Hoor Zahra, we believe that every meal has a story, and every recipe is an adventure waiting to be shared.",
+        "canonical": "https://kitchenwithhoor.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3900ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "html5.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Pakistani Food Restaurants in the USA for Pakistani Food Lovers"
+          },
+          {
+            "tag": "h3",
+            "text": "The Ultimate Guide to Do&#8217;s and Don&#8217;ts in Pakistani Food Dishes Recipes"
+          },
+          {
+            "tag": "h3",
+            "text": "Frequently Asked Questions About Food Blogging"
+          },
+          {
+            "tag": "h3",
+            "text": "Everyday Uses of Baking Soda: A Household Essential"
+          },
+          {
+            "tag": "h3",
+            "text": "A Delectable Duel: Chinese Food vs Pakistani Food"
+          },
+          {
+            "tag": "h3",
+            "text": "Essential Tips for a Healthy Heart: Choosing the Right Foods"
+          },
+          {
+            "tag": "h3",
+            "text": "Optimal Dietary Guidelines for Managing Low and High Blood Pressure"
+          },
+          {
+            "tag": "h3",
+            "text": "Ingredients"
+          },
+          {
+            "tag": "h4",
+            "text": "Exploring the Possibility of Extracting Sugar from Baked Foods"
+          },
+          {
+            "tag": "h3",
+            "text": "Latest"
+          },
+          {
+            "tag": "h3",
+            "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
+          },
+          {
+            "tag": "p",
+            "text": "Introduction to Unique Chicken Fast Food Recipes The popularity of fast food chicken has soared, becoming a staple in many households around the world. From &#8230;"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Pakistani Food Restaurants in the USA for Pakistani Food Lovers"
+          },
+          {
+            "tag": "p",
+            "text": "Introduction to Pakistani Cuisine Pakistani cuisine is a vibrant tapestry of flavors, aromas, and colors that reflect the country’s rich cultural heritage and diverse geography. &#8230;"
+          },
+          {
+            "tag": "h3",
+            "text": "The Ultimate Guide to Do&#8217;s and Don&#8217;ts in Pakistani Food Dishes Recipes"
+          },
+          {
+            "tag": "h3",
+            "text": "Frequently Asked Questions About Food Blogging"
+          },
+          {
+            "tag": "h3",
+            "text": "Everyday Uses of Baking Soda: A Household Essential"
+          },
+          {
+            "tag": "h3",
+            "text": "A Delectable Duel: Chinese Food vs Pakistani Food"
+          },
+          {
+            "tag": "h3",
+            "text": "Food & Recipes"
+          },
+          {
+            "tag": "h3",
+            "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
+          },
+          {
+            "tag": "p",
+            "text": "Introduction to Unique Chicken Fast Food Recipes The popularity of fast food chicken has soared, becoming a staple in many households around the world. From &#8230;"
+          },
+          {
+            "tag": "h3",
+            "text": "The Ultimate Guide to Do&#8217;s and Don&#8217;ts in Pakistani Food Dishes Recipes"
+          },
+          {
+            "tag": "h3",
+            "text": "Frequently Asked Questions About Food Blogging"
+          },
+          {
+            "tag": "h3",
+            "text": "Irresistible Dips and Appetizers Everyone Will Love"
+          },
+          {
+            "tag": "h3",
+            "text": "Spicy Foods to Warm You Up: Comfort Food Recipes for Chilly Days"
+          },
+          {
+            "tag": "h3",
+            "text": "Health & Wellness"
+          },
+          {
+            "tag": "h3",
+            "text": "Essential Tips for a Healthy Heart: Choosing the Right Foods"
+          },
+          {
+            "tag": "h3",
+            "text": "Optimal Dietary Guidelines for Managing Low and High Blood Pressure"
+          },
+          {
+            "tag": "h3",
+            "text": "Monday Recipe Update: Follow This Routine for a Healthy Indian-Pakistani Diet Plan"
+          },
+          {
+            "tag": "h3",
+            "text": "Daily Healthy Diet Routine for Weight Gain and Weight Loss"
+          },
+          {
+            "tag": "h3",
+            "text": "Quick and Healthy Snack Ideas for Kids and Adults"
+          },
+          {
+            "tag": "h3",
+            "text": "Delicious Gluten-Free Recipes for Everyday Cooking"
+          },
+          {
+            "tag": "h3",
+            "text": "Recent Posts"
+          },
+          {
+            "tag": "h4",
+            "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
+          },
+          {
+            "tag": "h4",
+            "text": "Top Pakistani Food Restaurants in the USA for Pakistani Food Lovers"
+          },
+          {
+            "tag": "h4",
+            "text": "The Ultimate Guide to Do&#8217;s and Don&#8217;ts in Pakistani Food Dishes Recipes"
+          },
+          {
+            "tag": "h4",
+            "text": "Frequently Asked Questions About Food Blogging"
+          },
+          {
+            "tag": "h4",
+            "text": "Everyday Uses of Baking Soda: A Household Essential"
+          },
+          {
+            "tag": "h3",
+            "text": "Kitchen with Hoor Zahra Special"
+          },
+          {
+            "tag": "h2",
+            "text": "The Ultimate Guide to Baking Bread at Home"
+          },
+          {
+            "tag": "h2",
+            "text": "Delightful Seasonal Recipes: Embrace Fresh Ingredients Throughout the Year"
+          },
+          {
+            "tag": "h2",
+            "text": "Homemade Sauces That Transform Any Meal: Easy Recipes for Delicious Flavors"
+          },
+          {
+            "tag": "h2",
+            "text": "5-Ingredient Desserts You’ll Love: Quick and Easy Treats"
+          },
+          {
+            "tag": "h2",
+            "text": "10-Minute Breakfast Ideas: Quick and Easy Recipes for Busy Mornings"
+          },
+          {
+            "tag": "h3",
+            "text": "On Facebook"
+          },
+          {
+            "tag": "h3",
+            "text": "Subscribe Newsletter"
+          },
+          {
+            "tag": "h3",
+            "text": "Popular Categories"
+          },
+          {
+            "tag": "h3",
+            "text": "Nutrition"
+          },
+          {
+            "tag": "h2",
+            "text": "Daily Healthy Diet Routine for Weight Gain and Weight Loss"
+          },
+          {
+            "tag": "p",
+            "text": "Understanding Your Body’s Needs To effectively establish a healthy diet routine tailored for weight gain or weight loss, one &#8230;"
+          },
+          {
+            "tag": "h2",
+            "text": "Healthy and Delicious Salad Recipes: Quick and Easy Options for Every Meal"
+          },
+          {
+            "tag": "p",
+            "text": "The Basics of a Healthy Salad Creating a healthy salad starts with the foundation of leafy greens, which are &#8230;"
+          },
+          {
+            "tag": "h3",
+            "text": "Social Connect"
+          },
+          {
+            "tag": "h3",
+            "text": "Editors' Picks"
+          },
+          {
+            "tag": "h4",
+            "text": "Quick and Easy One-Pot Meals for Busy Weeknights"
+          },
+          {
+            "tag": "h3",
+            "text": "On Pinterest"
+          },
+          {
+            "tag": "p",
+            "text": "@2024 - All Right Reserved. Designed and Developed by Dino Web Hub"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 6,
+          "headings": 52,
+          "images": 2
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-23AB5B20",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7E97CF0F",
+      "path": "/food-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "Food &amp; Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E9058EE",
+      "path": "/recipes/",
+      "type": "Detected Link",
+      "anchor_text": "Recipes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-524AF2A1",
+      "path": "/cooking-tips/",
+      "type": "Detected Link",
+      "anchor_text": "Cooking Tips",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-003A1D45",
+      "path": "/breakfast/",
+      "type": "Detected Link",
+      "anchor_text": "Breakfast",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D20B2FB",
+      "path": "/sustainable-cooking/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainable Cooking",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-06740710",
+      "path": "/hosting-entertaining/",
+      "type": "Detected Link",
+      "anchor_text": "Hosting &amp; Entertaining",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C821C84C",
+      "path": "/health-wellness/",
+      "type": "Detected Link",
+      "anchor_text": "Health &amp; Wellness",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-03D4F422",
+      "path": "/nutrition/",
+      "type": "Detected Link",
+      "anchor_text": "Nutrition",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EB00EDD4",
+      "path": "/culinary-arts/",
+      "type": "Detected Link",
+      "anchor_text": "Culinary Arts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9AEF709F",
+      "path": "/desserts/",
+      "type": "Detected Link",
+      "anchor_text": "Desserts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BA6719ED",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9374A5E0",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About Us!",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F37F5B86",
+      "path": "/unique-fast-food-ideas-tasty-chicken-food-recipes-to-try-at-home/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8773BFF7",
+      "path": "/unique-fast-food-ideas-tasty-chicken-food-recipes-to-try-at-home/",
+      "type": "Detected Link",
+      "anchor_text": "0 comments",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

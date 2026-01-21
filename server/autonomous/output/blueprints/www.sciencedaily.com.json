@@ -1,0 +1,441 @@
+{
+  "website_blueprint_id": "BLUEPRINT-81A05FD2",
+  "generated_at": "2026-01-21T07:27:04.961Z",
+  "global_configuration": {
+    "brand_name": "ScienceDaily: Your source for the latest research news",
+    "domain": "www.sciencedaily.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.26.4.15",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 8,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-GT6V1PPT8H"
+      },
+      {
+        "path": "/tags/197d605c-8b0a-4d0c-8229-cd0e28a78762.js",
+        "type": "script",
+        "full_url": "https://scripts.pubnation.com/tags/197d605c-8b0a-4d0c-8229-cd0e28a78762.js"
+      },
+      {
+        "path": "/js/jquery-3.6.0.min.js",
+        "type": "script",
+        "full_url": "https://www.sciencedaily.com/js/jquery-3.6.0.min.js"
+      },
+      {
+        "path": "/js/bootstrap-3.4.1.min.js",
+        "type": "script",
+        "full_url": "https://www.sciencedaily.com/js/bootstrap-3.4.1.min.js"
+      },
+      {
+        "path": "/js/jQuery.print.js",
+        "type": "script",
+        "full_url": "https://www.sciencedaily.com/js/jQuery.print.js"
+      },
+      {
+        "path": "/js/social-share-kit.min.js",
+        "type": "script",
+        "full_url": "https://www.sciencedaily.com/js/social-share-kit.min.js"
+      },
+      {
+        "path": "/js/custom-202307301940.js",
+        "type": "script",
+        "full_url": "https://www.sciencedaily.com/js/custom-202307301940.js"
+      },
+      {
+        "path": "/images/sd-logo.png",
+        "type": "image",
+        "full_url": "https://www.sciencedaily.com/images/sd-logo.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "ScienceDaily: Your source for the latest research news",
+        "description": "Breaking science news and articles on global warming, extrasolar planets, stem cells, bird flu, autism, nanotechnology, dinosaurs, evolution -- the latest discoveries in astronomy, anthropology, biology, chemistry, climate &amp; environment, computers, engineering, health &amp; medicine, math, physics, psychology, technology, and more -- from the world's leading universities and research organizations.\" id=\"metasummary",
+        "canonical": "https://www.sciencedaily.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2630ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "197d605c-8b0a-4d0c-8229-cd0e28a78762.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-3.6.0.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Top Science News",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Latest Top Headlines",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Health News",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Latest Health Headlines",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Top Science News"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Top Headlines"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Health"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Physical/Tech"
+          },
+          {
+            "tag": "h3",
+            "text": "Top Environment"
+          },
+          {
+            "tag": "h2",
+            "text": "Health News"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Health Headlines"
+          },
+          {
+            "tag": "h3",
+            "text": "Health &amp; Medicine"
+          },
+          {
+            "tag": "h3",
+            "text": "Mind &amp; Brain"
+          },
+          {
+            "tag": "h3",
+            "text": "Living Well"
+          },
+          {
+            "tag": "h2",
+            "text": "Physical/Tech News"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Physical/Tech Headlines"
+          },
+          {
+            "tag": "h3",
+            "text": "Matter &amp; Energy"
+          },
+          {
+            "tag": "h3",
+            "text": "Space &amp; Time"
+          },
+          {
+            "tag": "h3",
+            "text": "Computers &amp; Math"
+          },
+          {
+            "tag": "h2",
+            "text": "Environment News"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Environment Headlines"
+          },
+          {
+            "tag": "h3",
+            "text": "Plants &amp; Animals"
+          },
+          {
+            "tag": "h3",
+            "text": "Earth &amp; Climate"
+          },
+          {
+            "tag": "h3",
+            "text": "Fossils &amp; Ruins"
+          },
+          {
+            "tag": "h2",
+            "text": "Society/Education News"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Society/Education Headlines"
+          },
+          {
+            "tag": "h3",
+            "text": "Science &amp; Society"
+          },
+          {
+            "tag": "h3",
+            "text": "Education &amp; Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Business &amp; Industry"
+          },
+          {
+            "tag": "h2",
+            "text": "Breaking"
+          },
+          {
+            "tag": "h2",
+            "text": "Trending Topics"
+          },
+          {
+            "tag": "h2",
+            "text": "Strange &amp; Offbeat"
+          },
+          {
+            "tag": "h2",
+            "text": "About this Site"
+          },
+          {
+            "tag": "p",
+            "text": "ScienceDaily features breaking news about the latest discoveries in science, health, the environment, technology, and more -- from leading universities, scientific journals, and research organizations."
+          },
+          {
+            "tag": "p",
+            "text": "Visitors can browse more than 500 individual topics, grouped into 12 main sections (listed under the top navigational menu), covering: the medical sciences and health; physical sciences and technology; biological sciences and the environment; and social sciences, business and education. Headlines and summaries of relevant news stories are provided on each topic page."
+          },
+          {
+            "tag": "p",
+            "text": "Stories are posted daily, selected from press materials provided by hundreds of sources from around the world. Links to sources and relevant journal citations (where available) are included at the end of each post."
+          },
+          {
+            "tag": "p",
+            "text": "For more information about ScienceDaily, please consult the links listed at the bottom of each page."
+          },
+          {
+            "tag": "p",
+            "text": "Stay informed with ScienceDaily's free email newsletter, updated daily and weekly. Or view our many newsfeeds in your RSS reader:"
+          },
+          {
+            "tag": "p",
+            "text": "Keep up to date with the latest news from ScienceDaily via social networks:"
+          },
+          {
+            "tag": "p",
+            "text": "Tell us what you think of ScienceDaily -- we welcome both positive and negative comments. Have any problems using the site? Questions?"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 7,
+          "headings": 29,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D5BB8F66",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F86B7625",
+      "path": "/newsfeeds.htm",
+      "type": "Detected Link",
+      "anchor_text": "RSS Feeds",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D12782D7",
+      "path": "/releases/2026/01/260120000308.htm",
+      "type": "Detected Link",
+      "anchor_text": "The Human Brain May Work More Like AI Than Anyone Expected",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FDD94983",
+      "path": "/releases/2026/01/260120000305.htm",
+      "type": "Detected Link",
+      "anchor_text": "Tiny Doses of THC Show Big Benefits for HIV Treatment",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-78FFCA3F",
+      "path": "/releases/2026/01/260120000259.htm",
+      "type": "Detected Link",
+      "anchor_text": "The World’s Mountains Are Warming Faster Than Anyone Expected",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4AD9C8D3",
+      "path": "/releases/2026/01/260120000333.htm",
+      "type": "Detected Link",
+      "anchor_text": "Stanford Scientists Found a Way to Regrow Cartilage and Stop Arthritis",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B162053A",
+      "path": "/releases/2026/01/260120000328.htm",
+      "type": "Detected Link",
+      "anchor_text": "Patients Tried Everything for Depression Then This Implant Changed Their Lives",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D821B2DD",
+      "path": "/releases/2026/01/260120095116.htm",
+      "type": "Detected Link",
+      "anchor_text": "Finally Explained: Why Kidney Disease Is so Deadly for the Heart",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-429317E0",
+      "path": "/releases/2026/01/260120095111.htm",
+      "type": "Detected Link",
+      "anchor_text": "Scientists Identify Hidden Protein Interaction Driving Parkinson’s Disease",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-42D828B0",
+      "path": "/releases/2026/01/260120000330.htm",
+      "type": "Detected Link",
+      "anchor_text": "Unbreakable? Researchers Warn Quantum Computers Have Serious Security Flaws",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-866AC7D0",
+      "path": "/releases/2026/01/260120000318.htm",
+      "type": "Detected Link",
+      "anchor_text": "A Faint Signal from the Universe’s Dark Ages Could Reveal Dark Matter",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7DF53533",
+      "path": "/releases/2026/01/260120000311.htm",
+      "type": "Detected Link",
+      "anchor_text": "James Webb Catches an Exoplanet Losing Its Atmosphere in Real Time",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F8F5C4A",
+      "path": "/releases/2026/01/260119234937.htm",
+      "type": "Detected Link",
+      "anchor_text": "Your Brain Does Something Surprising When You Don’t Sleep",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BDA48A53",
+      "path": "/releases/2026/01/260120000323.htm",
+      "type": "Detected Link",
+      "anchor_text": "A Common Painkiller May Be Quietly Changing Cancer Risk",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E86E72EF",
+      "path": "/releases/2026/01/260120015654.htm",
+      "type": "Detected Link",
+      "anchor_text": "Scientists Solve a Major Roadblock Holding Back Cancer Cell Therapy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

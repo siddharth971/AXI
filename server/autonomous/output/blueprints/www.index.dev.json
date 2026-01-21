@@ -1,0 +1,1080 @@
+{
+  "website_blueprint_id": "BLUEPRINT-2346E844",
+  "generated_at": "2026-01-21T07:26:54.217Z",
+  "global_configuration": {
+    "brand_name": "Hire Vetted Software Developers [Full",
+    "domain": "www.index.dev",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.70.172",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "s-maxage=31536000, stale-while-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 111,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/fd9d1056-c5cf48906d39c1ea.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/fd9d1056-c5cf48906d39c1ea.js"
+      },
+      {
+        "path": "/_next/static/chunks/2117-db25c2a58844f97f.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/2117-db25c2a58844f97f.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-app-5294d1645fe5526e.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/main-app-5294d1645fe5526e.js"
+      },
+      {
+        "path": "/_next/static/chunks/6137-525b5c19008a0d4d.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/6137-525b5c19008a0d4d.js"
+      },
+      {
+        "path": "/_next/static/chunks/2972-211a42dbdc40c3db.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/2972-211a42dbdc40c3db.js"
+      },
+      {
+        "path": "/_next/static/chunks/5878-dba8abb901cc376d.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/5878-dba8abb901cc376d.js"
+      },
+      {
+        "path": "/_next/static/chunks/7219-2dc7f3eb3e197388.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/7219-2dc7f3eb3e197388.js"
+      },
+      {
+        "path": "/_next/static/chunks/8003-09e66e4446ed5b05.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/8003-09e66e4446ed5b05.js"
+      },
+      {
+        "path": "/_next/static/chunks/9417-2a0505fb4430d1a8.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/9417-2a0505fb4430d1a8.js"
+      },
+      {
+        "path": "/_next/static/chunks/7873-8c105f6677d80a08.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/7873-8c105f6677d80a08.js"
+      },
+      {
+        "path": "/_next/static/chunks/3634-443c45a80c1fa3b6.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/3634-443c45a80c1fa3b6.js"
+      },
+      {
+        "path": "/_next/static/chunks/5673-d79b8f2814969b12.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/5673-d79b8f2814969b12.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/(default)/page-e5e473286eb7f1b8.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/page-e5e473286eb7f1b8.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/(hire-form)/layout-62c5e8ee8d8225d4.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/(hire-form)/layout-62c5e8ee8d8225d4.js"
+      },
+      {
+        "path": "/_next/static/chunks/5424-0d461c0aa6e5c173.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/5424-0d461c0aa6e5c173.js"
+      },
+      {
+        "path": "/_next/static/chunks/7694-5e4d59b6fd2d6f39.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/7694-5e4d59b6fd2d6f39.js"
+      },
+      {
+        "path": "/_next/static/chunks/4438-aaf2b03ff8166a1d.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/4438-aaf2b03ff8166a1d.js"
+      },
+      {
+        "path": "/_next/static/chunks/4156-b7dabd8d544735b8.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/4156-b7dabd8d544735b8.js"
+      },
+      {
+        "path": "/_next/static/chunks/2351-5f647ea9f75c8ba4.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/2351-5f647ea9f75c8ba4.js"
+      },
+      {
+        "path": "/_next/static/chunks/9623-e889cdfa585d719d.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/9623-e889cdfa585d719d.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/(default)/layout-59b27a4136cdb91d.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/layout-59b27a4136cdb91d.js"
+      },
+      {
+        "path": "/_next/static/chunks/3786-97eeedec87a68de3.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/3786-97eeedec87a68de3.js"
+      },
+      {
+        "path": "/_next/static/chunks/4700-1042a34d08950f10.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/4700-1042a34d08950f10.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/layout-f8a9e34dd274edc7.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/layout-f8a9e34dd274edc7.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/global-error-24ce139e1a92ba7e.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/global-error-24ce139e1a92ba7e.js"
+      },
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-d48ff0b53e591b90.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/webpack-d48ff0b53e591b90.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/_next/static/css/82089d6477b185f0.css",
+        "type": "stylesheet",
+        "full_url": "https://www.index.dev/_next/static/css/82089d6477b185f0.css"
+      },
+      {
+        "path": "/_next/static/css/443bbfeb5eff493e.css",
+        "type": "stylesheet",
+        "full_url": "https://www.index.dev/_next/static/css/443bbfeb5eff493e.css"
+      },
+      {
+        "path": "/_next/static/css/7cca8e2c5137bd71.css",
+        "type": "stylesheet",
+        "full_url": "https://www.index.dev/_next/static/css/7cca8e2c5137bd71.css"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feurope.d39d70d9.png&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/static/icons/g2-logo.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/g2-logo.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fomio.a76dd092.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvodafone.d48db814.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstartx.1f1ae9bb.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvenly.964ffd2e.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Falchemist.79cb5440.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstuart.fdfb965d.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpicture.80fcea6d.png&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/static/skills/box/all.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/skills/box/all.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fluka-p.f792e513.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fserbia.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpipedrive-d.3520b964.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpipedrive.a3e33a40.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarcela-p.b96642b1.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Furuguay.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord-d.f4f5de4a.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiscord.60fc1e3e.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ferion-d.9a23e3c3.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Falbania.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpinterest-d.8c78342b.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpinterest.5aac959f.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffabio-o.6c6c6377.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fbrazil.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsnowflake-d.2c2a8bda.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsnowflake.d7a8e85a.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Famra-h.cfb47d7d.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fbosnia-and-herzegovina.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb-d.15b649f5.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fairbnb.ff9284ab.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdiego-r.61c751f1.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fargentina.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frunway-d.3a04a6c8.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frunway.26a12025.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgeorgi-d.a3307b96.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fbulgaria.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvodafone-d.cee79e42.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvodafone.93c3682c.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjulian-c.94a86ed9.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fcolombia.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findeed-d.dd65741c.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findeed.39e75108.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmilica-j.c745ccc8.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraphcore-d.366650b0.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraphcore.2768c7eb.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femre-y.a7ba910b.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fturkey.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsiemens-d.3b9836f0.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsiemens.ec84e931.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarek-n.9cbbaf07.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fcountries%2Fpoland.png&amp;w=32&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspotify-d.d274ac69.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspotify.a0903c78.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthiago-m.a9dd6c13.png&amp;w=96&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftwilio-d.6f2e9130.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftwilio.ab3defd6.png&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/static/icons/hire-types/offshore.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/hire-types/offshore.svg"
+      },
+      {
+        "path": "/static/icons/hire-types/individual.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/hire-types/individual.svg"
+      },
+      {
+        "path": "/static/icons/hire-types/finance.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/hire-types/finance.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farrows.0aa63f7e.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Ftc.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fforbes.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Finc.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fcb.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fsftd.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Ffast.png&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Ftc.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fforbes.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Finc.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fcb.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Fsftd.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fin-press%2Ffast.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/static/patterns/hero-pattern.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/patterns/hero-pattern.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdesign-rush.50a44b38.png&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Fbest-workplace.png&amp;w=128&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.index.dev/_next/image?url=%2Fstatic%2Ffinancial-times%2Ffast-growing.png&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/static/icons/us.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/us.svg"
+      },
+      {
+        "path": "/static/icons/uk.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/uk.svg"
+      },
+      {
+        "path": "/static/icons/support.svg",
+        "type": "image",
+        "full_url": "https://www.index.dev/static/icons/support.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Hire Vetted Software Developers [Full-time &amp; Freelance] | Index.dev",
+        "description": "Hire vetted software developers fast. Index.dev connects you with top 5% full-time or freelance tech talent, fully compliant and committed to long-term success.",
+        "canonical": "https://www.index.dev"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3346ms"
+        },
+        {
+          "resource": "fd9d1056-c5cf48906d39c1ea.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "2117-db25c2a58844f97f.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "main-app-5294d1645fe5526e.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Discover why clients choose us, and why it works.",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Find in 60 seconds",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Latest Articles",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured in press",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Roles Services Clients How it works Blog AI Training Sign In Find a Job Hire Talent g2.com 4.9 Build and manage your remote workforce Our Talent Network™ is the easiest way to find, onboard, and pay a high-performing remote workforce, from software engineers building your product to specialists evaluating your AI models."
+          },
+          {
+            "tag": "h2",
+            "text": "Remote work, real connections"
+          },
+          {
+            "tag": "p",
+            "text": "See how NetRefer easily scaled its global team, finding exceptional talent and a trusted partner in Index.dev."
+          },
+          {
+            "tag": "p",
+            "text": "Play Video Globally compliant Payroll, contracts &amp; compliance handled in 160+ countries"
+          },
+          {
+            "tag": "p",
+            "text": "Human-matched Expert talent advisors ensure the right fit, not just a fast one"
+          },
+          {
+            "tag": "p",
+            "text": "AI-backed 12,000+ technical &amp; cognitive assessments run monthly"
+          },
+          {
+            "tag": "p",
+            "text": "Built to scale Long-term hires, flexible staffing, or fully-managed pods"
+          },
+          {
+            "tag": "p",
+            "text": "No upfront fees—pay only for successful hires. From Central and Eastern Europe, LatAm to the U.S. After hundreds of successful placements worldwide, we’re bringing the same proven vetting and quality standards to American talent."
+          },
+          {
+            "tag": "h3",
+            "text": "Accelerate AI Innovation"
+          },
+          {
+            "tag": "p",
+            "text": "We train custom AI models and provide the specialized talent you need to develop proprietary intelligence."
+          },
+          {
+            "tag": "p",
+            "text": "Coding STEM Multimodality Robotics Audio Processing Custom Launch AI Models Not just talent. Full engineering capabilities From MVPs to AI agents, we deliver ready-to-deploy engineering pods, aligned with your product, pace, and goals."
+          },
+          {
+            "tag": "h4",
+            "text": "Product Development Pods"
+          },
+          {
+            "tag": "p",
+            "text": "Design-to-deployment for MVPs and and growth-stage products"
+          },
+          {
+            "tag": "h4",
+            "text": "AI Agent Teams"
+          },
+          {
+            "tag": "p",
+            "text": "Experts in LLMs, RAG pipelines, and AI automation"
+          },
+          {
+            "tag": "h4",
+            "text": "Managed Tech Stacks"
+          },
+          {
+            "tag": "p",
+            "text": "DevOps, cloud, and infrastructure specialists, on demand"
+          },
+          {
+            "tag": "h4",
+            "text": "Cross-Functional Squads"
+          },
+          {
+            "tag": "p",
+            "text": "Developers, designers, PMs, and QA in ready-to-deploy pods"
+          },
+          {
+            "tag": "h3",
+            "text": "See If We Cover Your Technology"
+          },
+          {
+            "tag": "p",
+            "text": "Explore all skills Over 100 skills We only work with the best Luka P. Front-End Developer previously at Marcela P. Full Stack Developer previously at Erion D. Data Engineer previously at Fabio O. Sales Engineer previously at Amra H. Back-End Developer previously at Diego R. DevOps Engineer previously at Georgi D. Front-End Developer previously at Julian C. Full Stack Developer previously at Milica J. Product Designer previously at Emre Y. Full Stack Developer previously at Marek N. Back-End Developer previously at Thiago M. GPU Programmer previously at Luka P. Front-End Developer previously at Marcela P. Full Stack Developer previously at Erion D. Data Engineer previously at Fabio O. Sales Engineer previously at Amra H. Back-End Developer previously at Diego R. DevOps Engineer previously at Georgi D. Front-End Developer previously at Julian C. Full Stack Developer previously at Milica J. Product Designer previously at Emre Y. Full Stack Developer previously at Marek N. Back-End Developer previously at Thiago M. GPU Programmer previously at Thiago M. GPU Programmer previously at Marek N. Back-End Developer previously at Emre Y. Full Stack Developer previously at Milica J. Product Designer previously at Julian C. Full Stack Developer previously at Georgi D. Front-End Developer previously at Diego R. DevOps Engineer previously at Amra H. Back-End Developer previously at Fabio O. Sales Engineer previously at Erion D. Data Engineer previously at Marcela P. Full Stack Developer previously at Luka P. Front-End Developer previously at Thiago M. GPU Programmer previously at Marek N. Back-End Developer previously at Emre Y. Full Stack Developer previously at Milica J. Product Designer previously at Julian C. Full Stack Developer previously at Georgi D. Front-End Developer previously at Diego R. DevOps Engineer previously at Amra H. Back-End Developer previously at Fabio O. Sales Engineer previously at Erion D. Data Engineer previously at Marcela P. Full Stack Developer previously at Luka P. Front-End Developer previously at Discover why clients choose us, and why it works."
+          },
+          {
+            "tag": "p",
+            "text": "4.9 Google 37 reviews 5.0 Quora 39 reviews Indeed 22 reviews 5.0 Glassdoor 32 reviews 5.0 Goodfirms 7 reviews 5.0 Sitejabber 7 reviews 5.0 Find in 60 seconds Access our 20,000 verified candidates via our AI aggregator."
+          },
+          {
+            "tag": "p",
+            "text": "Step 1"
+          },
+          {
+            "tag": "p",
+            "text": "Insert your job description"
+          },
+          {
+            "tag": "p",
+            "text": "Step 2"
+          },
+          {
+            "tag": "p",
+            "text": "Review highly compatible matches"
+          },
+          {
+            "tag": "p",
+            "text": "Step 3"
+          },
+          {
+            "tag": "p",
+            "text": "Interview candidates you like"
+          },
+          {
+            "tag": "h2",
+            "text": "Scale your team, your way"
+          },
+          {
+            "tag": "h3",
+            "text": "Offshore team"
+          },
+          {
+            "tag": "p",
+            "text": "Get a dedicated offshore remote team with end-to-end support, from developers to project leads."
+          },
+          {
+            "tag": "h3",
+            "text": "Individual contract"
+          },
+          {
+            "tag": "p",
+            "text": "Scale your team month-to-month with vetted freelancers, perfect for changing needs."
+          },
+          {
+            "tag": "h3",
+            "text": "Direct hire"
+          },
+          {
+            "tag": "p",
+            "text": "One-time fee for a fully-vetted, permanent, and globally compliant team member."
+          },
+          {
+            "tag": "h3",
+            "text": "Solutions Built for Scale"
+          },
+          {
+            "tag": "p",
+            "text": "Expert teams solving your toughest growth challenges."
+          },
+          {
+            "tag": "p",
+            "text": "SEO Grow your organic traffic, increase conversions, and improve search rankings with data-driven SEO."
+          },
+          {
+            "tag": "p",
+            "text": "Data Annotation Accelerate AI projects with precise, human-annotated data, delivering 98%+ accuracy for model training."
+          },
+          {
+            "tag": "p",
+            "text": "Game Dev Ship Unity and mobile game MVPs fast, with expert support that scales as your studio grows."
+          },
+          {
+            "tag": "p",
+            "text": "Fintech Dev Build secure, compliant fintech products with devs skilled in payments, trading, and industry regulations"
+          },
+          {
+            "tag": "p",
+            "text": "AI Dev Prototype, train, and deploy models with ML engineers who deliver production-ready AI."
+          },
+          {
+            "tag": "p",
+            "text": "SaaS Dev Launch and scale your platform with engineering pods that build reliable, user-friendly SaaS products."
+          },
+          {
+            "tag": "p",
+            "text": "Cybersecurity Protect your product with security experts who design, test, and implement robust defenses."
+          },
+          {
+            "tag": "p",
+            "text": "Solve your toughest business challenges with the right talent. Latest Articles Browse all articles For Employers Why Senior Developers Quit Software Companies: Pay, Culture &amp; Leadership Senior developers don’t quit suddenly—they disengage first. This guide breaks down the real reasons top engineers leave software companies, from pay and poor management to burnout and dying codebases. More importantly, it shows what these exits reveal about leadership, culture, and how to retain your best talent."
+          },
+          {
+            "tag": "p",
+            "text": "AI agents deliver autonomous task execution with measurable returns: 88% of enterprises report positive ROI, some achieving 4.3x within 12 months. These systems handle customer support, IT operations, and data management independently, cutting costs by 40% while boosting revenue 6-10%. Adoption has exploded, making agentic AI core business infrastructure."
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise AI adoption has hit 78% globally in 2026, up from 55% just years ago. This surge signals AI&#x27;s shift from experimentation to mission-critical operations. Companies face talent gaps and ROI concerns, but competitive pressure and mature infrastructure are driving rapid, enterprise-wide AI integration."
+          },
+          {
+            "tag": "p",
+            "text": "Open-source AI released five frontier-class models under permissive licenses in 2025, proving reasoning doesn&#x27;t need proprietary walls. On-premises solutions now control over half the LLM market, forcing closed vendors to compete on price, speed, and openness—or lose."
+          },
+          {
+            "tag": "p",
+            "text": "The best tech leaders aren&#x27;t just great at building software. They&#x27;re exceptional at leading people, thinking strategically, and scaling teams without breaking them. These 15 books give you the frameworks, insights, and practical tools to level up from good engineering leader to exceptional one."
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise LLM adoption is exploding—from under 5% in 2023 to over 80% by 2026—but execution is failing. While 72% of enterprises plan bigger budgets and the market races toward $71 billion, only 13% see enterprise-wide impact. The numbers reveal a massive gap between adoption enthusiasm and actual operational success."
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "tag": "h3",
+            "text": "What is Index.dev? Why do clients choose Index.dev?"
+          },
+          {
+            "tag": "h3",
+            "text": "Why do developers choose Index.dev?"
+          },
+          {
+            "tag": "h3",
+            "text": "What is the difference between Index.dev and a Recruitment Agency?"
+          },
+          {
+            "tag": "h3",
+            "text": "How is Index.dev different from platforms like Toptal, Upwork, and Fiverr?"
+          },
+          {
+            "tag": "h3",
+            "text": "Who are your clients?"
+          },
+          {
+            "tag": "h3",
+            "text": "What makes Index.dev talent a high-performing tech talent?"
+          },
+          {
+            "tag": "h3",
+            "text": "Do your software engineers work remotely and full-time?"
+          },
+          {
+            "tag": "h3",
+            "text": "How do you mitigate the risks of hiring offshore talent?"
+          },
+          {
+            "tag": "p",
+            "text": "Featured in press Build and Scale Remote Engineering Teams Get AI-vetted developers and full-service teams perfectly matched to your tech stack and project roadmap. Fast, compliant, and ready to deliver."
+          },
+          {
+            "tag": "h3",
+            "text": "Featured by DesignRush for top remote talent."
+          },
+          {
+            "tag": "p",
+            "text": "Build Better Teams, Faster. Anywhere."
+          },
+          {
+            "tag": "p",
+            "text": "4.9 Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Solutions"
+          },
+          {
+            "tag": "p",
+            "text": "Company"
+          },
+          {
+            "tag": "p",
+            "text": "Get in touch"
+          },
+          {
+            "tag": "p",
+            "text": "© 2026 Index.dev"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 155,
+          "headings": 43,
+          "images": 226
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-101B54EF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2CDE32C5",
+      "path": "/clients",
+      "type": "Detected Link",
+      "anchor_text": "Clients",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E995CE29",
+      "path": "/how-index-works",
+      "type": "Detected Link",
+      "anchor_text": "How it works",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AFDEC29E",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8FCB84C6",
+      "path": "/service/llm-development",
+      "type": "Detected Link",
+      "anchor_text": "AI Training",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-81C2029E",
+      "path": "/hire",
+      "type": "Detected Link",
+      "anchor_text": "Hire Talent",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-234A762C",
+      "path": "/blog/financial-times-index-dev-europes-fastest-growing-companies",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CD48192A",
+      "path": "/blog/index-hub-us",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D009524D",
+      "path": "/hire-software-developers-remotely",
+      "type": "Detected Link",
+      "anchor_text": "Explore all skillsOver 100 skills",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BE8B57D5",
+      "path": "/talent/a5a0/luka",
+      "type": "Detected Link",
+      "anchor_text": "Luka P.Front-End Developerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C06C5843",
+      "path": "/talent/0cca/marcela",
+      "type": "Detected Link",
+      "anchor_text": "Marcela P.Full Stack Developerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6EDBEAE4",
+      "path": "/talent/1a52/erion",
+      "type": "Detected Link",
+      "anchor_text": "Erion D.Data Engineerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4E93CA96",
+      "path": "/talent/edb1/fabio",
+      "type": "Detected Link",
+      "anchor_text": "Fabio O.Sales Engineerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-06EC0221",
+      "path": "/talent/6296/amra",
+      "type": "Detected Link",
+      "anchor_text": "Amra H.Back-End Developerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-40E75D13",
+      "path": "/talent/ddcf/diego",
+      "type": "Detected Link",
+      "anchor_text": "Diego R.DevOps Engineerpreviously at",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

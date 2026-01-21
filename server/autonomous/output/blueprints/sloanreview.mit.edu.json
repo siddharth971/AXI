@@ -1,0 +1,1381 @@
+{
+  "website_blueprint_id": "BLUEPRINT-82D6A1AF",
+  "generated_at": "2026-01-21T07:27:04.934Z",
+  "global_configuration": {
+    "brand_name": "MIT Sloan Management Review",
+    "domain": "sloanreview.mit.edu",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.21",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 72,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/resource-blocker/3e2e8e27-6cac-4c06-819a-24f833b7f5cd",
+        "type": "script",
+        "full_url": "https://app.termly.io/resource-blocker/3e2e8e27-6cac-4c06-819a-24f833b7f5cd?autoBlock=off"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/js/libs/jquery-3.6.3.min.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/js/libs/jquery-3.6.3.min.js?ver=3.6.3"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://www.googletagservices.com/tag/js/gpt.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/js/main.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/js/main.js?ver=1.0.204"
+      },
+      {
+        "path": "/wp-content/themes/smr/src/scripts/queryly.v4.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/src/scripts/queryly.v4.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/themes/smr/src/scripts/mitsloan-advanced-search.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/src/scripts/mitsloan-advanced-search.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/themes/smr/src/scripts/micromodal.min.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/src/scripts/micromodal.min.js?ver=1.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/smr-piano/js/piano_paywall_endpoint.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/plugins/smr-piano/js/piano_paywall_endpoint.js?ver=1.1"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/js/libs/aos.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/js/libs/aos.js"
+      },
+      {
+        "path": "/45260997.js",
+        "type": "script",
+        "full_url": "https://js.hs-scripts.com/45260997.js?integration=WordPress&amp;ver=11.3.21"
+      },
+      {
+        "path": "/wp-content/plugins/smr-sso/assets/dist/smr-sso.min.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/plugins/smr-sso/assets/dist/smr-sso.min.js?ver=1745333170"
+      },
+      {
+        "path": "/xbuilder/experience/load",
+        "type": "script",
+        "full_url": "https://experience.tinypass.com/xbuilder/experience/load?aid=28WtJlio6C"
+      },
+      {
+        "path": "/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://sloanreview.mit.edu/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/css/main.css",
+        "type": "stylesheet",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/css/main.css?ver=1.0.204"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/css/animate.min.css",
+        "type": "stylesheet",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/css/animate.min.css"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/images/smr-logo-black.svg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/images/smr-logo-black.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/WINTER2026_Promo-500.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/WINTER2026_Promo-500.jpg"
+      },
+      {
+        "path": "/wp-content/themes/smr/img/print-logo.png",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/img/print-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/MMAI-S12-BONUS1-Griffiths-Princeton-headshot-2400x1260-1.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/MMAI-S12-BONUS1-Griffiths-Princeton-headshot-2400x1260-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/MMAI-S12-BONUS1-Griffiths-Princeton-headshot-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/MMAI-S12-BONUS1-Griffiths-Princeton-headshot-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Terrier-Patients-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/Terrier-Patients-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/LAAL-Episode6-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/LAAL-Episode6-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/2026SPRING_Biloshapka-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/2026SPRING_Biloshapka-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Nottingham-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/Nottingham-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Shemla-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2026/01/Shemla-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Sayre-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Sayre-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Swift_OK-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Swift_OK-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/DavenportBean-AITrends25-1290x860-1-382x255.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/DavenportBean-AITrends25-1290x860-1-382x255.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/DavenportBean-AITrends25-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/DavenportBean-AITrends25-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/McLaughlin_2025-Top5_Videos-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/McLaughlin_2025-Top5_Videos-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Kaushik_AI_Tech_Debt_Video_1290x860-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Kaushik_AI_Tech_Debt_Video_1290x860-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Davenport-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Davenport-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Yokoi-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Yokoi-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/2026WINTER_LTFE_EditLetter-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/2026WINTER_LTFE_EditLetter-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/EXECSUM_Winter26-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/EXECSUM_Winter26-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/2026WINTER_Radar_Interview-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/2026WINTER_Radar_Interview-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/2026WINTER_Radar_3Things-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/2026WINTER_Radar_3Things-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/2026WINTER_RealityCheck-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/2026WINTER_RealityCheck-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/McLaughlin_2025-Top10EOY-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/McLaughlin_2025-Top10EOY-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Webster-Westerman-Celonis-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/10/Webster-Westerman-Celonis-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Birnbaum-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/11/Birnbaum-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Elliott_RTO-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/11/Elliott_RTO-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/Gratton-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/08/Gratton-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/Elliot-1290x860e-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/03/Elliot-1290x860e-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/Elliot-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/07/Elliot-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Grotto-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/09/Grotto-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Elliot-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/06/Elliot-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Swift-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/06/Swift-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/Elliott_Video-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/08/Elliott_Video-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Moorman-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/04/Moorman-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/2023_0424_Hill-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/04/2023_0424_Hill-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/2023SPR-Murillo-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/02/2023SPR-Murillo-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Jim_Whitehurst-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/10/Jim_Whitehurst-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Moore-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/11/Moore-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Detert-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/10/Detert-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/2024FALL_Misra-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/08/2024FALL_Misra-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/2024FALL_Smith-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/09/2024FALL_Smith-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/2024SPRING_Harrison-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2024/02/2024SPRING_Harrison-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Hungander-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/05/Hungander-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Leschke-Kahle-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/07/Leschke-Kahle-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Knowles-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/09/Knowles-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/S2E-Culture-500-Sull-Culture-Detox-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2023/03/S2E-Culture-500-Sull-Culture-Detox-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/2023_0105_Laker-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2022/12/2023_0105_Laker-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/S2E-Culture-500-Sull-Culture-Detox-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2022/09/S2E-Culture-500-Sull-Culture-Detox-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Detert_Sorry-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Detert_Sorry-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Gratton_Calm-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Gratton_Calm-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Kandola-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Kandola-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Tecco_Coopetition-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/Tecco_Coopetition-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/MMAI-S12-E8-Croushorn-Wendys-headshot-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/12/MMAI-S12-E8-Croushorn-Wendys-headshot-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Reed-Burnout-1290x860-1-435x290.jpg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/uploads/2025/11/Reed-Burnout-1290x860-1-435x290.jpg"
+      },
+      {
+        "path": "/wp-content/themes/smr/assets/images/smr-logo.svg",
+        "type": "image",
+        "full_url": "https://sloanreview.mit.edu/wp-content/themes/smr/assets/images/smr-logo.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "\n          MIT Sloan Management Review      ",
+        "description": "",
+        "canonical": "https://sloanreview.mit.edu"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2846ms"
+        },
+        {
+          "resource": "3e2e8e27-6cac-4c06-819a-24f833b7f5cd",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-3.6.3.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gpt.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "MIT SMR Homepage",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "What to Read Next",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Latest Insights from MIT SMR",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Popular Topics",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Menu Search Topics Data, AI, &#038; Machine Learning Innovation Leadership Managing Technology Marketing Operations Social Responsibility Strategy Workplace, Teams, &#038; Culture All Topics Trending AI &#038; Machine Learning Organizational Culture Strategy Our Research Big ideas Research Projects Artificial Intelligence and Business Strategy Responsible AI Strategic Measurement Future of Leadership All Research Projects Spotlight Most Popular AI in Action Leaders at All Levels Coaching for the Future-Forward Leader Culture Champions Measuring Culture Magazine Winter 2026 Issue Our winter 2026 issue covers scenario planning, innovation, responsible AI, platform strategy, algorithmic pricing, corporate activism, authentic leadership, and more."
+          },
+          {
+            "tag": "p",
+            "text": "Our winter 2026 issue covers scenario planning, innovation, responsible AI, platform strategy, algorithmic pricing, corporate activism, authentic leadership, and more."
+          },
+          {
+            "tag": "p",
+            "text": "Search Store Sign In Subscribe —&nbsp; 22% off MIT SMR Homepage Connecting Language and (Artificial) Intelligence: Princeton’s Tom Griffiths This Me, Myself, and AI bonus episode features Princeton’s Tom Griffiths with host Sam Ransbotham."
+          },
+          {
+            "tag": "p",
+            "text": "Sam Ransbotham"
+          },
+          {
+            "tag": "h2",
+            "text": "What to Read Next"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Insights from MIT SMR"
+          },
+          {
+            "tag": "h2",
+            "text": "Events"
+          },
+          {
+            "tag": "h4",
+            "text": "Coming Soon"
+          },
+          {
+            "tag": "p",
+            "text": "Jan. 29 • 11 a.m. ET / 8 a.m. PT"
+          },
+          {
+            "tag": "h3",
+            "text": "Lead With Confidence Through Political Uncertainty"
+          },
+          {
+            "tag": "p",
+            "text": "A free webinar with Adam Job"
+          },
+          {
+            "tag": "h4",
+            "text": "Analytics &amp; Business Intelligence"
+          },
+          {
+            "tag": "h3",
+            "text": "Connecting Language and (Artificial) Intelligence: Princeton’s Tom Griffiths"
+          },
+          {
+            "tag": "p",
+            "text": "Sam Ransbotham"
+          },
+          {
+            "tag": "h4",
+            "text": "Quality &amp; Service"
+          },
+          {
+            "tag": "h3",
+            "text": "Turn Customer Complaints Into Innovation Blueprints"
+          },
+          {
+            "tag": "p",
+            "text": "Lohyd Terrier and Béatrice Schaad Noble"
+          },
+          {
+            "tag": "h4",
+            "text": "Organizational Structure"
+          },
+          {
+            "tag": "h3",
+            "text": "Leaders at All Levels: 7 Strategies to Give Your Team Real Power"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "Developing Strategy"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn From Outcomes to Promote Growth"
+          },
+          {
+            "tag": "p",
+            "text": "Vladyslav Biloshapka and Oleksiy Osiyevskyy"
+          },
+          {
+            "tag": "h4",
+            "text": "Boards &amp; Corporate Governance"
+          },
+          {
+            "tag": "h3",
+            "text": "The CEO’s Playbook for Difficult Board Directors"
+          },
+          {
+            "tag": "p",
+            "text": "Lucy Nottingham"
+          },
+          {
+            "tag": "h4",
+            "text": "Talent Management"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Navigate Rapid Growth"
+          },
+          {
+            "tag": "p",
+            "text": "Meir Shemla and Jacques Kemp"
+          },
+          {
+            "tag": "h4",
+            "text": "Performance Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Build Better Pay-for-Performance (PFP) Compensation Plans"
+          },
+          {
+            "tag": "p",
+            "text": "Gordon M. Sayre et al."
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "Your People Are Not All Right"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Swift"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Five Trends in AI and Data Science for 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Thomas H. Davenport and Randy Bean"
+          },
+          {
+            "tag": "h2",
+            "text": "Popular Topics"
+          },
+          {
+            "tag": "h3",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next AI &amp; Machine Learning Five Trends in AI and Data Science for 2026 Thomas H. Davenport and Randy Bean"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "The Top Five MIT SMR Videos of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "MIT SMR Editors"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Coding Tools: The Productivity Trap Most Companies Miss"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "How Procter &#038; Gamble Uses AI to Unlock New Insights From Data"
+          },
+          {
+            "tag": "p",
+            "text": "Thomas H. Davenport and Randy Bean"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Rewire Organizational Knowledge With GenAI"
+          },
+          {
+            "tag": "p",
+            "text": "Tomoko Yokoi and Michael Wade"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "How Leaders Stay True to Themselves and Their Stakeholders"
+          },
+          {
+            "tag": "p",
+            "text": "Elizabeth Heichler"
+          },
+          {
+            "tag": "h4",
+            "text": "Developing Strategy"
+          },
+          {
+            "tag": "h3",
+            "text": "Our Guide to the Winter 2026 Issue"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "Leading Change"
+          },
+          {
+            "tag": "h3",
+            "text": "Leading an Industrial Giant Through Volatility"
+          },
+          {
+            "tag": "p",
+            "text": "Sameer Bharadwaj, interviewed by MIT SMR"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Three Things to Know About Implementing Workplace AI Tools"
+          },
+          {
+            "tag": "p",
+            "text": "Deborah Milstein"
+          },
+          {
+            "tag": "h4",
+            "text": "Boards &amp; Corporate Governance"
+          },
+          {
+            "tag": "h3",
+            "text": "AI-Savvy Boards Drive Superior Performance"
+          },
+          {
+            "tag": "p",
+            "text": "Peter Weill et al."
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "The Top 10 MIT SMR Articles of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Laurianne McLaughlin"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Scaling GenAI: Get Big Value From Smaller Efforts"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Webster et al."
+          },
+          {
+            "tag": "h2",
+            "text": "Popular Topics"
+          },
+          {
+            "tag": "h3",
+            "text": "Leading Hybrid Teams"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next Remote Work Building Human Connection in a Remote World Jordan Birnbaum"
+          },
+          {
+            "tag": "h4",
+            "text": "Organizational Behavior"
+          },
+          {
+            "tag": "h3",
+            "text": "RTO Mandates: Hard Truths for Leaders"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "Performance Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Seven Truths About Hybrid Work and Productivity"
+          },
+          {
+            "tag": "p",
+            "text": "Lynda Gratton"
+          },
+          {
+            "tag": "h4",
+            "text": "Performance Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Return-to-Office Mandates: How to Lose Your Best Performers"
+          },
+          {
+            "tag": "p",
+            "text": "Brian Elliott"
+          },
+          {
+            "tag": "h4",
+            "text": "Organizational Behavior"
+          },
+          {
+            "tag": "h3",
+            "text": "Hybrid Work: How Leaders Build In-Person Moments That Matter"
+          },
+          {
+            "tag": "p",
+            "text": "Brian Elliott"
+          },
+          {
+            "tag": "h4",
+            "text": "Work-Life Balance"
+          },
+          {
+            "tag": "h3",
+            "text": "Manage Boundaries Better With Your Team"
+          },
+          {
+            "tag": "p",
+            "text": "Angela R. Grotto et al."
+          },
+          {
+            "tag": "h4",
+            "text": "Performance Management"
+          },
+          {
+            "tag": "h3",
+            "text": "When Hybrid Work Strategy Aggravates 20-Somethings"
+          },
+          {
+            "tag": "p",
+            "text": "Brian Elliott and Amanda Schneider"
+          },
+          {
+            "tag": "h4",
+            "text": "Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "Banish the Harmful Creatures of COVID-Era Work"
+          },
+          {
+            "tag": "p",
+            "text": "Melissa Swift"
+          },
+          {
+            "tag": "h4",
+            "text": "Organizational Behavior"
+          },
+          {
+            "tag": "h3",
+            "text": "Hybrid Work: Surprising Lessons From Gen Z"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "Remote Work"
+          },
+          {
+            "tag": "h3",
+            "text": "Managing the Cultural Pitfalls of Hybrid Work"
+          },
+          {
+            "tag": "p",
+            "text": "Christine Moorman and Katie Hinkfuss"
+          },
+          {
+            "tag": "h4",
+            "text": "Talent Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Leadership Strategies for the Hybrid Workforce"
+          },
+          {
+            "tag": "p",
+            "text": "N. Sharon Hill"
+          },
+          {
+            "tag": "h4",
+            "text": "Remote Work"
+          },
+          {
+            "tag": "h3",
+            "text": "Work-From-Home Regulations Are Coming. Companies Aren’t Ready."
+          },
+          {
+            "tag": "p",
+            "text": "Jimena Murillo Chávarro"
+          },
+          {
+            "tag": "h2",
+            "text": "Popular Topics"
+          },
+          {
+            "tag": "h3",
+            "text": "Organizational Culture"
+          },
+          {
+            "tag": "p",
+            "text": "Previous Next Culture Five Tips on Avoiding ‘Terminal Niceness’: Former Red Hat CEO Jim Whitehurst Donald Sull and Charles Sull"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "Five Ways Leaders Can Get People to Speak Up"
+          },
+          {
+            "tag": "p",
+            "text": "Celia Moore and Kate Coombs"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "What You Still Can’t Say at Work"
+          },
+          {
+            "tag": "p",
+            "text": "Jim Detert"
+          },
+          {
+            "tag": "h4",
+            "text": "Leading Change"
+          },
+          {
+            "tag": "h3",
+            "text": "A Better Way to Unlock Innovation and Drive Change"
+          },
+          {
+            "tag": "p",
+            "text": "Diya Kapur Misra et al."
+          },
+          {
+            "tag": "h4",
+            "text": "Ethics"
+          },
+          {
+            "tag": "h3",
+            "text": "What Makes Companies Do the Right Thing?"
+          },
+          {
+            "tag": "p",
+            "text": "N. Craig Smith and Markus Scholz"
+          },
+          {
+            "tag": "h4",
+            "text": "Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "Building Culture From the Middle Out"
+          },
+          {
+            "tag": "p",
+            "text": "Spencer Harrison and Kristie Rogers"
+          },
+          {
+            "tag": "h4",
+            "text": "Skills &amp; Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Take a Skills-Based Approach to Culture Change"
+          },
+          {
+            "tag": "p",
+            "text": "Per Hugander"
+          },
+          {
+            "tag": "h4",
+            "text": "Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "Make Culture Unconditional"
+          },
+          {
+            "tag": "p",
+            "text": "Amy Leschke-Kahle"
+          },
+          {
+            "tag": "h4",
+            "text": "Leading Change"
+          },
+          {
+            "tag": "h3",
+            "text": "The Role of Culture in Enabling Change"
+          },
+          {
+            "tag": "p",
+            "text": "Jonathan Knowles et al."
+          },
+          {
+            "tag": "h4",
+            "text": "Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "The Toxic Culture Gap Shows Companies Are Failing Women"
+          },
+          {
+            "tag": "p",
+            "text": "Donald Sull and Charles Sull"
+          },
+          {
+            "tag": "h4",
+            "text": "Skills &amp; Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Embrace Mistakes to Build a Learning Culture"
+          },
+          {
+            "tag": "p",
+            "text": "Benjamin Laker"
+          },
+          {
+            "tag": "h4",
+            "text": "Culture"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Fix a Toxic Culture"
+          },
+          {
+            "tag": "p",
+            "text": "Donald Sull and Charles Sull"
+          },
+          {
+            "tag": "h2",
+            "text": "More Insights from MIT SMR"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "Stop Making Hollow Apologies at Work"
+          },
+          {
+            "tag": "p",
+            "text": "No one is buying your empty apologies for recurring offenses. Here’s how to show you’ll do better."
+          },
+          {
+            "tag": "p",
+            "text": "Jim Detert"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "Calm: The Underrated Capability Every Leader Needs Now"
+          },
+          {
+            "tag": "p",
+            "text": "Some people stay steady no matter how much work accelerates. Here’s how they do it — and what we can learn from them."
+          },
+          {
+            "tag": "p",
+            "text": "Lynda Gratton"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Skills"
+          },
+          {
+            "tag": "h3",
+            "text": "The Top Five MIT SMR Videos of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Watch MIT Sloan Management Review experts deliver valuable lessons for leaders on AI, hybrid work, and more."
+          },
+          {
+            "tag": "p",
+            "text": "MIT SMR Editors"
+          },
+          {
+            "tag": "h4",
+            "text": "Talent Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Three Steps Toward Fairer Talent Management"
+          },
+          {
+            "tag": "p",
+            "text": "Cultivating inclusive leadership entails challenging assumptions about how to identify the strongest job candidates."
+          },
+          {
+            "tag": "p",
+            "text": "Binna Kandola"
+          },
+          {
+            "tag": "h4",
+            "text": "Executing Strategy"
+          },
+          {
+            "tag": "h3",
+            "text": "From Crisis to Coopetition: What Leaders Can Learn From Anesthesiologists"
+          },
+          {
+            "tag": "p",
+            "text": "Coopetition is not about eliminating rivals. It’s about collaborating in order to strengthen the whole field."
+          },
+          {
+            "tag": "p",
+            "text": "Halle Tecco"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Coding Tools: The Productivity Trap Most Companies Miss"
+          },
+          {
+            "tag": "p",
+            "text": "In this short video, learn how tools like Claude Code and GitHub Copilot can create unwelcome technical debt."
+          },
+          {
+            "tag": "p",
+            "text": "MIT Sloan Management Review"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "How Procter &#038; Gamble Uses AI to Unlock New Insights From Data"
+          },
+          {
+            "tag": "p",
+            "text": "Adding AI to traditional analytics has enabled P&#038;G to get answers to more complex questions and accelerate innovation."
+          },
+          {
+            "tag": "p",
+            "text": "Thomas H. Davenport and Randy Bean"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Rewire Organizational Knowledge With GenAI"
+          },
+          {
+            "tag": "p",
+            "text": "Goodbye, old-school knowledge management. Wise companies see GenAI as a catalyst to change how knowledge moves."
+          },
+          {
+            "tag": "p",
+            "text": "Tomoko Yokoi and Michael Wade"
+          },
+          {
+            "tag": "h4",
+            "text": "Innovation Strategy"
+          },
+          {
+            "tag": "h3",
+            "text": "Hungry for Learning: Wendy’s Will Croushorn"
+          },
+          {
+            "tag": "p",
+            "text": "This Me, Myself, and AI episode features Wendy’s Will Croushorn with host Sam Ransbotham."
+          },
+          {
+            "tag": "p",
+            "text": "Sam Ransbotham"
+          },
+          {
+            "tag": "h4",
+            "text": "Talent Management"
+          },
+          {
+            "tag": "h3",
+            "text": "Beat Burnout: 10 Essential MIT SMR Reads"
+          },
+          {
+            "tag": "p",
+            "text": "Manage burnout before it becomes a crisis so that you and your employees are able to perform at your highest levels."
+          },
+          {
+            "tag": "p",
+            "text": "William Reed"
+          },
+          {
+            "tag": "p",
+            "text": "Lohyd Terrier and Beatrice Schaad Noble 2 days ago"
+          },
+          {
+            "tag": "p",
+            "text": "Turn Customer Complaints Into Innovation Blueprints"
+          },
+          {
+            "tag": "h6",
+            "text": "Copyright &copy; Massachusetts Institute of Technology , 1977–2026. All rights reserved."
+          },
+          {
+            "tag": "h6",
+            "text": "Follow Us"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 105,
+          "headings": 126,
+          "images": 122
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D63C30EE",
+      "path": "/topic/data-ai-machine-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Data, AI, &#038; Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FFD43A4D",
+      "path": "/topic/innovation-3/",
+      "type": "Detected Link",
+      "anchor_text": "Innovation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-63106F2A",
+      "path": "/topic/leadership/",
+      "type": "Detected Link",
+      "anchor_text": "Leadership",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-96273892",
+      "path": "/topic/managing-technology/",
+      "type": "Detected Link",
+      "anchor_text": "Managing Technology",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CA78598D",
+      "path": "/topic/marketing/",
+      "type": "Detected Link",
+      "anchor_text": "Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BA4F3B46",
+      "path": "/topic/operations/",
+      "type": "Detected Link",
+      "anchor_text": "Operations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-167847D6",
+      "path": "/topic/social-responsibility/",
+      "type": "Detected Link",
+      "anchor_text": "Social Responsibility",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9F36C01B",
+      "path": "/topic/strategy/",
+      "type": "Detected Link",
+      "anchor_text": "Strategy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1809B3EC",
+      "path": "/topic/workplace-teams-culture/",
+      "type": "Detected Link",
+      "anchor_text": "Workplace, Teams, &#038; Culture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0D1088D0",
+      "path": "/all-topics/",
+      "type": "Detected Link",
+      "anchor_text": "All Topics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8D1E86C1",
+      "path": "/topic/ai-machine-learning/",
+      "type": "Detected Link",
+      "anchor_text": "AI &#038; Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2C99C911",
+      "path": "/topic/culture/",
+      "type": "Detected Link",
+      "anchor_text": "Organizational Culture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-54E876F3",
+      "path": "/big-ideas/artificial-intelligence-business-strategy/",
+      "type": "Detected Link",
+      "anchor_text": "Artificial Intelligence and Business Strategy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F614588",
+      "path": "/big-ideas/responsible-ai/",
+      "type": "Detected Link",
+      "anchor_text": "Responsible AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3848EA67",
+      "path": "/big-ideas/strategic-measurement/",
+      "type": "Detected Link",
+      "anchor_text": "Strategic Measurement",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

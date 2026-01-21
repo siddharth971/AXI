@@ -1,0 +1,376 @@
+{
+  "website_blueprint_id": "BLUEPRINT-37660EC3",
+  "generated_at": "2026-01-21T07:26:54.205Z",
+  "global_configuration": {
+    "brand_name": "Find the best blogs on the web",
+    "domain": "bloggers.feedspot.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "108.159.80.35",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 15,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-66JQ3WMSHJ"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"
+      },
+      {
+        "path": "/analytics/js/dist/analytics.js",
+        "type": "script",
+        "full_url": "https://cdn.feedspot.com/analytics/js/dist/analytics.js"
+      },
+      {
+        "path": "/wp-includes/js/thickbox/thickbox.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105"
+      },
+      {
+        "path": "/wp-includes/js/underscore.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/underscore.min.js?ver=1.8.3"
+      },
+      {
+        "path": "/wp-includes/js/shortcode.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/shortcode.min.js?ver=4.9.1"
+      },
+      {
+        "path": "/wp-admin/js/media-upload.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-admin/js/media-upload.min.js?ver=4.9.1"
+      },
+      {
+        "path": "/wp-includes/js/imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0"
+      },
+      {
+        "path": "/wp-content/themes/Extra/scripts/ext/jquery.waypoints.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-content/themes/Extra/scripts/ext/jquery.waypoints.min.js?ver=4.9.1"
+      },
+      {
+        "path": "/wp-includes/js/masonry.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-includes/js/masonry.min.js?ver=3.3.2"
+      },
+      {
+        "path": "/wp-content/themes/Extra/scripts/scripts.min.js",
+        "type": "script",
+        "full_url": "https://blog.feedspot.com/wp-content/themes/Extra/scripts/scripts.min.js?ver=4.9.1"
+      },
+      {
+        "path": "/assets/vendor/flickity/2.2.1/flickity.min.js",
+        "type": "script",
+        "full_url": "https://cdn.feedspot.com/assets/vendor/flickity/2.2.1/flickity.min.js"
+      },
+      {
+        "path": "/assets/vendor/lightgallery/lightgallery.min.js",
+        "type": "script",
+        "full_url": "https://cdn.feedspot.com/assets/vendor/lightgallery/lightgallery.min.js"
+      },
+      {
+        "path": "/assets/vendor/lightgallery/css/lightgallery-bundle.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdn.feedspot.com/assets/vendor/lightgallery/css/lightgallery-bundle.min.css"
+      },
+      {
+        "path": "/img/assets/blog/fs-media-banner.svg",
+        "type": "image",
+        "full_url": "https://cdn.feedspot.com/img/assets/blog/fs-media-banner.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Find the best blogs on the web - FeedSpot",
+        "description": "Discover the top bloggers on web. Follow them on Feedspot or get their contact information for your outreach campaign.",
+        "canonical": "https://bloggers.feedspot.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3724ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "analytics.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Find the best blogs on the web",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Browse Blogs",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Home BLOG DATABASE EXPORT BLOG CONTACTS BLOG READER Select Page"
+          },
+          {
+            "tag": "h1",
+            "text": "Find the best blogs on the web"
+          },
+          {
+            "tag": "p",
+            "text": "For Blog Readers: Subscribe to your favorite Blogs in one place on FeedSpot Reader"
+          },
+          {
+            "tag": "p",
+            "text": "For PR Pros: Get access to 250K Bloggers with direct email contacts for your PR campaigns. Get Started"
+          },
+          {
+            "tag": "p",
+            "text": "For Bloggers: Do you run a Blog? Submit your blog to get featured in our database."
+          },
+          {
+            "tag": "h2",
+            "text": "Browse Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "Company"
+          },
+          {
+            "tag": "h3",
+            "text": "Browse"
+          },
+          {
+            "tag": "h3",
+            "text": "Products"
+          },
+          {
+            "tag": "h3",
+            "text": "Tools and Features"
+          },
+          {
+            "tag": "h3",
+            "text": "Resources"
+          },
+          {
+            "tag": "h4",
+            "text": "'+t.title+\""
+          },
+          {
+            "tag": "h4",
+            "text": "'+t.title+\""
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 10,
+          "headings": 31,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-28BC7F75",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-31C7979B",
+      "path": "/bloggers_directory/",
+      "type": "Detected Link",
+      "anchor_text": "BLOG DATABASE",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-72634033",
+      "path": "/addiction/",
+      "type": "Detected Link",
+      "anchor_text": "Addiction",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F6B52E97",
+      "path": "/agriculture/",
+      "type": "Detected Link",
+      "anchor_text": "Agriculture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D6CC230",
+      "path": "/ai/",
+      "type": "Detected Link",
+      "anchor_text": "AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4195BC4C",
+      "path": "/analytics/",
+      "type": "Detected Link",
+      "anchor_text": "Analytics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-43A74312",
+      "path": "/arts/",
+      "type": "Detected Link",
+      "anchor_text": "Arts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F93DA7BC",
+      "path": "/australia/",
+      "type": "Detected Link",
+      "anchor_text": "Australia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8E09360C",
+      "path": "/autism/",
+      "type": "Detected Link",
+      "anchor_text": "Autism",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-46827A1B",
+      "path": "/auto/",
+      "type": "Detected Link",
+      "anchor_text": "Auto",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0B411BE6",
+      "path": "/aviation/",
+      "type": "Detected Link",
+      "anchor_text": "Aviation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9A12B365",
+      "path": "/baking/",
+      "type": "Detected Link",
+      "anchor_text": "Baking",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34CC1D46",
+      "path": "/baseball/",
+      "type": "Detected Link",
+      "anchor_text": "Baseball",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E06573D5",
+      "path": "/basketball/",
+      "type": "Detected Link",
+      "anchor_text": "Basketball",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A36A955F",
+      "path": "/beauty/",
+      "type": "Detected Link",
+      "anchor_text": "Beauty",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

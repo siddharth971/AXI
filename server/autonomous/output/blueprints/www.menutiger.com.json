@@ -1,0 +1,1230 @@
+{
+  "website_blueprint_id": "BLUEPRINT-EF6FC4B6",
+  "generated_at": "2026-01-21T07:26:54.196Z",
+  "global_configuration": {
+    "brand_name": "MENU TIGER",
+    "domain": "www.menutiger.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "18.239.153.83",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=5, stale-while-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 93,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-1ca1bc9fb6131ebc.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/webpack-1ca1bc9fb6131ebc.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-03cd576e71e4cd66.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/framework-03cd576e71e4cd66.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-e24b4219d45d8163.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/main-e24b4219d45d8163.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-7b180c900e52f924.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/_app-7b180c900e52f924.js"
+      },
+      {
+        "path": "/_next/static/chunks/332-56883a8efcf5e14d.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/332-56883a8efcf5e14d.js"
+      },
+      {
+        "path": "/_next/static/chunks/537-7fb95a5c9b152a37.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/537-7fb95a5c9b152a37.js"
+      },
+      {
+        "path": "/_next/static/chunks/336-1021c5d96811d0c6.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/336-1021c5d96811d0c6.js"
+      },
+      {
+        "path": "/_next/static/chunks/644-365638c23bc3f150.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/644-365638c23bc3f150.js"
+      },
+      {
+        "path": "/_next/static/chunks/829-d644a063877534f9.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/829-d644a063877534f9.js"
+      },
+      {
+        "path": "/_next/static/chunks/219-0f2ab0b81001e187.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/219-0f2ab0b81001e187.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/index-9156122ccd0104bc.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/index-9156122ccd0104bc.js"
+      },
+      {
+        "path": "/_next/static/DJPfdhSNw748IEGNLJU3_/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/DJPfdhSNw748IEGNLJU3_/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/DJPfdhSNw748IEGNLJU3_/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://www.menutiger.com/_next/static/DJPfdhSNw748IEGNLJU3_/_ssgManifest.js"
+      },
+      {
+        "path": "/_next/static/css/db4bd08a05a0ec96.css",
+        "type": "stylesheet",
+        "full_url": "https://www.menutiger.com/_next/static/css/db4bd08a05a0ec96.css"
+      },
+      {
+        "path": "/_next/static/css/6057566efa873685.css",
+        "type": "stylesheet",
+        "full_url": "https://www.menutiger.com/_next/static/css/6057566efa873685.css"
+      },
+      {
+        "path": "/_next/static/media/logo.80aeb17b.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/logo.80aeb17b.svg"
+      },
+      {
+        "path": "/_next/static/media/hanburger.7e185641.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/hanburger.7e185641.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=https%3A%2F%2Fd25pihiozuzyh0.cloudfront.net%2Fhome-page%2Fnew_york_times.webp&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=https%3A%2F%2Fd25pihiozuzyh0.cloudfront.net%2Fhome-page%2Fbanner_1.webp&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=https%3A%2F%2Fd25pihiozuzyh0.cloudfront.net%2Fhome-page%2Fbanner_2.webp&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=https%3A%2F%2Fd25pihiozuzyh0.cloudfront.net%2Fhome-page%2Fbanner_3.webp&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvideo_thumbnail.aab4b033.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplay_button.2a690062.webp&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/static/media/feature_1.2f0c7c52.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_1.2f0c7c52.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_2.a045e461.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_2.a045e461.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_3.5100844f.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_3.5100844f.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_4.8069e200.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_4.8069e200.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_5.d564f966.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_5.d564f966.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_6.886b65d7.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_6.886b65d7.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_7.2bc470e0.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_7.2bc470e0.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_8.cf37b7b2.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_8.cf37b7b2.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_9.86192d71.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_9.86192d71.svg"
+      },
+      {
+        "path": "/_next/static/media/feature_10.eff1dd24.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/feature_10.eff1dd24.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmacdonalds.3217553d.png&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_1.dc110fdf.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_2.3100ef2c.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_3.dbcb6972.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_4.0a38e366.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_5.7bde8c69.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhyLove_6.257286ac.webp&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/static/media/applePay.2ba9a053.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/applePay.2ba9a053.svg"
+      },
+      {
+        "path": "/_next/static/media/canva.7543c494.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/canva.7543c494.svg"
+      },
+      {
+        "path": "/_next/static/media/google_play.5dcaa1df.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/google_play.5dcaa1df.svg"
+      },
+      {
+        "path": "/_next/static/media/paypal.3fa6e2c2.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/paypal.3fa6e2c2.svg"
+      },
+      {
+        "path": "/_next/static/media/stripe.e5120b97.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/stripe.e5120b97.svg"
+      },
+      {
+        "path": "/_next/static/media/zapier.653f7292.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/zapier.653f7292.svg"
+      },
+      {
+        "path": "/_next/static/media/stripe.9dd79e81.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/stripe.9dd79e81.svg"
+      },
+      {
+        "path": "/_next/static/media/paypal.5b6696d6.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/paypal.5b6696d6.svg"
+      },
+      {
+        "path": "/_next/static/media/adyen.9a932323.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/adyen.9a932323.svg"
+      },
+      {
+        "path": "/_next/static/media/braintree.bd541390.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/braintree.bd541390.svg"
+      },
+      {
+        "path": "/_next/static/media/AMEX.4248646e.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/AMEX.4248646e.svg"
+      },
+      {
+        "path": "/_next/static/media/visa.aa0c4e5e.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/visa.aa0c4e5e.svg"
+      },
+      {
+        "path": "/_next/static/media/discover.8e898d5e.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/discover.8e898d5e.svg"
+      },
+      {
+        "path": "/_next/static/media/master.f54be2da.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/master.f54be2da.svg"
+      },
+      {
+        "path": "/_next/static/media/bancontract.8f2b6fa7.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/bancontract.8f2b6fa7.svg"
+      },
+      {
+        "path": "/_next/static/media/eps.b7c9b012.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/eps.b7c9b012.svg"
+      },
+      {
+        "path": "/_next/static/media/ideal.8e3d4232.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/ideal.8e3d4232.svg"
+      },
+      {
+        "path": "/_next/static/media/alipay.17ccbedc.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/alipay.17ccbedc.svg"
+      },
+      {
+        "path": "/_next/static/media/applepay.523dc1d3.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/applepay.523dc1d3.svg"
+      },
+      {
+        "path": "/_next/static/media/gpay.8288271d.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/gpay.8288271d.svg"
+      },
+      {
+        "path": "/_next/static/media/grabpay.7d5648b0.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/grabpay.7d5648b0.svg"
+      },
+      {
+        "path": "/_next/static/media/link.77b1294a.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/link.77b1294a.svg"
+      },
+      {
+        "path": "/_next/static/media/wechatpay.e6dab2d2.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/wechatpay.e6dab2d2.svg"
+      },
+      {
+        "path": "/_next/static/media/paynow.b25782df.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/paynow.b25782df.svg"
+      },
+      {
+        "path": "/_next/static/media/qr_code_scan.9237a00c.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/qr_code_scan.9237a00c.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmenu_moblie_view.0f682208.webp&amp;w=750&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_1.70afb66a.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_2.02e2ef37.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_3.62ca0bf0.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_4.026310d2.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_5.c2cafd02.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_6.c0c55484.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_7.f621d9ce.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffree_templates_8.686adca9.webp&amp;w=1080&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqr_tiger_logo.91a71b64.webp&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FqrTiger.bdb797df.webp&amp;w=1200&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser1.a91d8f6d.webp&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/static/media/star-rating.de912d67.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/star-rating.de912d67.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser2.c43abfcd.webp&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fuser3.c9c8faca.webp&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcreateFirstMenu.41335450.webp&amp;w=1920&amp;q=75"
+      },
+      {
+        "path": "/_next/static/media/down_arrow.347db71c.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/down_arrow.347db71c.svg"
+      },
+      {
+        "path": "/_next/static/media/qrtigerLogo.11b66c47.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/qrtigerLogo.11b66c47.svg"
+      },
+      {
+        "path": "/_next/static/media/qrTigerEnterprise.b957146c.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/qrTigerEnterprise.b957146c.svg"
+      },
+      {
+        "path": "/_next/static/media/freeTemplatesLogo.cc4bb2e7.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/freeTemplatesLogo.cc4bb2e7.svg"
+      },
+      {
+        "path": "/_next/static/media/giftLipsLogo.056601c5.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/giftLipsLogo.056601c5.svg"
+      },
+      {
+        "path": "/_next/static/media/Tiger-Form-Logo.de983462.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/Tiger-Form-Logo.de983462.svg"
+      },
+      {
+        "path": "/_next/static/media/instaLogo.691f8069.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/instaLogo.691f8069.svg"
+      },
+      {
+        "path": "/_next/static/media/linkdein.3ff37001.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/linkdein.3ff37001.svg"
+      },
+      {
+        "path": "/_next/static/media/facebook.0bc5b288.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/facebook.0bc5b288.svg"
+      },
+      {
+        "path": "/_next/static/media/gear.ca33f8fe.svg",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/static/media/gear.ca33f8fe.svg"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclose.818bc2ad.png&amp;w=48&amp;q=75"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "MENU TIGER | Smart Menu QR code Solutions for Restaurants",
+        "description": "Streamline operations, boost sales and elevate your customer experience with MENU TIGER restaurant management software. Try it today!",
+        "canonical": "https://www.menutiger.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3515ms"
+        },
+        {
+          "resource": "polyfills-c67a75d1b6f99dc8.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-1ca1bc9fb6131ebc.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-03cd576e71e4cd66.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Advanced Restaurant Order Management System with Digital QR Code Menu",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "The Trusted Restaurant Menu Maker by Modern Restaurants &amp; Cafes Worldwide",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "All-In-One Free Menu Maker And Restaurant Management System",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Everything You Need To Get The Kitchen In order",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Features"
+          },
+          {
+            "tag": "p",
+            "text": "Learn"
+          },
+          {
+            "tag": "p",
+            "text": "AS MENTIONED IN"
+          },
+          {
+            "tag": "h1",
+            "text": "Advanced Restaurant Order Management System with Digital QR Code Menu"
+          },
+          {
+            "tag": "h3",
+            "text": "Simplify dining with MENU TIGER restaurant management software. Let guests order and pay seamlessly, manage orders efficiently, monitor sales performance, and execute promotions with precision for a smooth, streamlined operation year-round."
+          },
+          {
+            "tag": "h2",
+            "text": "The Trusted Restaurant Menu Maker by Modern Restaurants &amp; Cafes Worldwide"
+          },
+          {
+            "tag": "p",
+            "text": "0 M+"
+          },
+          {
+            "tag": "p",
+            "text": "USERS"
+          },
+          {
+            "tag": "p",
+            "text": "0 K+"
+          },
+          {
+            "tag": "p",
+            "text": "RESTAURANTS"
+          },
+          {
+            "tag": "p",
+            "text": "0 M+"
+          },
+          {
+            "tag": "p",
+            "text": "ORDERS"
+          },
+          {
+            "tag": "h2",
+            "text": "All-In-One Free Menu Maker And Restaurant Management System"
+          },
+          {
+            "tag": "p",
+            "text": "Boost sales and engagement using MENU TIGER’s free menu maker, management system, and built-in restaurant marketing tools."
+          },
+          {
+            "tag": "h2",
+            "text": "Everything You Need To Get The Kitchen In order"
+          },
+          {
+            "tag": "p",
+            "text": "Boost sales and engagement using MENU TIGER’s free menu maker, management system, and built-in restaurant marketing tools."
+          },
+          {
+            "tag": "p",
+            "text": "Ordering Dashboard"
+          },
+          {
+            "tag": "p",
+            "text": "Sales Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "Purchase Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "POS Integration"
+          },
+          {
+            "tag": "p",
+            "text": "QR code Menu Creation"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Order Management"
+          },
+          {
+            "tag": "p",
+            "text": "Menu Analytics and Insights"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Branding"
+          },
+          {
+            "tag": "p",
+            "text": "Customer Feedback"
+          },
+          {
+            "tag": "p",
+            "text": "Multilingual Support"
+          },
+          {
+            "tag": "h2",
+            "text": "Why restaurant operators love using our digital menu"
+          },
+          {
+            "tag": "h3",
+            "text": "Transition to contactless ordering and payment"
+          },
+          {
+            "tag": "p",
+            "text": "Go paperless and embrace contactless ordering and payments using a restaurant QR code menu for a cleaner and safer experience."
+          },
+          {
+            "tag": "h3",
+            "text": "Easy-to-update menu items and prices"
+          },
+          {
+            "tag": "p",
+            "text": "Modify menus and prices in real-time with an interactive restaurant menu."
+          },
+          {
+            "tag": "h3",
+            "text": "Reduce wait times"
+          },
+          {
+            "tag": "p",
+            "text": "Our streamlined ordering system enhances efficiency with faster service, keeping customers happy with shorter wait times."
+          },
+          {
+            "tag": "h3",
+            "text": "Create cost-effective solutions"
+          },
+          {
+            "tag": "p",
+            "text": "Our QR code menu is a cost-effective solution that reduces the need for printing and minimizes staff workload."
+          },
+          {
+            "tag": "h3",
+            "text": "Increase order accuracy"
+          },
+          {
+            "tag": "p",
+            "text": "Bid farewell to incorrect dishes as a menu QR code guarantees precision, enhancing overall customer satisfaction."
+          },
+          {
+            "tag": "h3",
+            "text": "Enhance customer experience"
+          },
+          {
+            "tag": "p",
+            "text": "Elevate the dining experience with our customer-friendly interactive restaurant menu features, turning satisfied customers into loyal patrons."
+          },
+          {
+            "tag": "h3",
+            "text": "Pairs perfectly with tools you use"
+          },
+          {
+            "tag": "p",
+            "text": "Easily connect your dashboard with payment gateways, printers, and any software"
+          },
+          {
+            "tag": "h2",
+            "text": "Scan the QR code to Preview Your Digital Menu For Restaurants"
+          },
+          {
+            "tag": "p",
+            "text": "Explore a customizable, interactive menu designed to simplify ordering, boost your engagement, and showcase your restaurant at its best in just a scan."
+          },
+          {
+            "tag": "p",
+            "text": "Our smart digital menu for restaurants is powered by technology that has been used in the hospitality business since 2018"
+          },
+          {
+            "tag": "h2",
+            "text": "Choose from our collection of free customizable templates"
+          },
+          {
+            "tag": "p",
+            "text": "Menu"
+          },
+          {
+            "tag": "p",
+            "text": "Coaster"
+          },
+          {
+            "tag": "p",
+            "text": "Poster"
+          },
+          {
+            "tag": "p",
+            "text": "Table Tent"
+          },
+          {
+            "tag": "p",
+            "text": "Sticker"
+          },
+          {
+            "tag": "p",
+            "text": "A-Frame"
+          },
+          {
+            "tag": "p",
+            "text": "Business Card"
+          },
+          {
+            "tag": "p",
+            "text": "Gift Cards"
+          },
+          {
+            "tag": "p",
+            "text": "Save time on creating menus, posters, table tents, stickers, coasters, A-frames, and more."
+          },
+          {
+            "tag": "p",
+            "text": "MENU TIGER Menu QR Code is a part of QR TIGER, a leading QR code software for marketing."
+          },
+          {
+            "tag": "h3",
+            "text": "Read our reviews from our satisfied customers"
+          },
+          {
+            "tag": "p",
+            "text": "Abby G."
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Owner"
+          },
+          {
+            "tag": "p",
+            "text": "We increased our average order size by 20% when we launched our QR code dine-in ordering in our restaurants. It’s very easy to implement, and our customers love fast and convenient ordering."
+          },
+          {
+            "tag": "p",
+            "text": "Peter P."
+          },
+          {
+            "tag": "p",
+            "text": "Head of Marketing"
+          },
+          {
+            "tag": "p",
+            "text": "I was able to save both money and time… I recommend MENU TIGER to those who have restaurants and small food businesses. Two thumbs up for coming up with a helpful online tool."
+          },
+          {
+            "tag": "p",
+            "text": "Adrian W."
+          },
+          {
+            "tag": "p",
+            "text": "General Manager"
+          },
+          {
+            "tag": "p",
+            "text": "I recommend MENU TIGER for anyone looking to expand their restaurant business and add a digital edge. It&#x27;s easy, user-friendly, and highly cost-effective."
+          },
+          {
+            "tag": "p",
+            "text": "GET STARTED NOW"
+          },
+          {
+            "tag": "h3",
+            "text": "Create Your First Digital Menu With Our Online Menu Maker"
+          },
+          {
+            "tag": "p",
+            "text": "Design, customize, and publish your menu in minutes. Engage with your customers, streamline orders, and simplify restaurant order management, all in one tool."
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "tag": "h5",
+            "text": "What is an online management system?"
+          },
+          {
+            "tag": "p",
+            "text": "Online management systems are integrated digital platforms that centralize restaurant operations, including menu design, order processing, sales tracking, and customer engagement. They empower restaurants to improve their operations with efficiency, accuracy, and real-time insights for sustainable growth."
+          },
+          {
+            "tag": "h5",
+            "text": "What are digital menus in an online management system?"
+          },
+          {
+            "tag": "p",
+            "text": "Digital menus in an online management system are virtual menus accessed through QR codes on phones, tablets, or kiosks. These let guests browse, order, and pay instantly, while restaurants update items, track sales, and manage operations."
+          },
+          {
+            "tag": "h5",
+            "text": "Can a digital menu be saved as a QR code?"
+          },
+          {
+            "tag": "p",
+            "text": "Absolutely! You can store and save your digital menu as a customized QR code and let your customers scan it via smartphones, iPads, or tablets."
+          },
+          {
+            "tag": "h5",
+            "text": "Are QR code menus free?"
+          },
+          {
+            "tag": "p",
+            "text": "QR code menus can be free or paid. Free options include static QR codes linking to a PDF or website, but they can’t be edited after creation. Paid options, like MENU TIGER restaurant management software, offer dynamic QR codes that allow menu updates, ordering, payments, and analytics. If you need a simple, non-editable QR code, you can create one for free. For more advanced features, a paid solution is required."
+          },
+          {
+            "tag": "h5",
+            "text": "How do I get a QR code for my menu?"
+          },
+          {
+            "tag": "p",
+            "text": "You can get a QR code for your menu in three simple steps:"
+          },
+          {
+            "tag": "h5",
+            "text": "How do I scan a menu QR code with a smartphone?"
+          },
+          {
+            "tag": "p",
+            "text": "Here’s how to scan a menu QR code with a smartphone:"
+          },
+          {
+            "tag": "p",
+            "text": "If your camera doesn’t scan QR codes, use Google Lens (Android) or the Control Center QR scanner (iPhone)."
+          },
+          {
+            "tag": "h5",
+            "text": "What are the four types of ordering systems?"
+          },
+          {
+            "tag": "p",
+            "text": "Online restaurant management system for restaurants allows customers to scan a QR code with their phone to view the menu, place orders, and pay directly from their device. It eliminates the need for physical menus and reduces wait times by streamlining the ordering process. Customers can order and pay without interacting with staff, improving efficiency and hygiene."
+          },
+          {
+            "tag": "h5",
+            "text": "Do you have a POS system?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, MENU TIGER has an active Loyverse POS integration. This feature syncs the POS to streamline orders, track sales, and manage payments through the digital menu."
+          },
+          {
+            "tag": "h5",
+            "text": "What mobile payment integrations does MENU TIGER currently support?"
+          },
+          {
+            "tag": "p",
+            "text": "MENU TIGER currently supports mobile payment integrations with PayPal, Stripe, and Adyen. On Stripe, Apple Pay and Google Pay are enabled by default."
+          },
+          {
+            "tag": "h5",
+            "text": "Are your subscriptions based on a number of tables or a number of stores?"
+          },
+          {
+            "tag": "p",
+            "text": "Subscriptions are based on features, number of tables, and number of stores paid monthly or yearly."
+          },
+          {
+            "tag": "p",
+            "text": "QR Codes in Restaurants"
+          },
+          {
+            "tag": "p",
+            "text": "Self-Serve Ordering in Restaurants"
+          },
+          {
+            "tag": "p",
+            "text": "Hotel Menu QR Code"
+          },
+          {
+            "tag": "p",
+            "text": "Tablet Menu"
+          },
+          {
+            "tag": "p",
+            "text": "Social Media for Restaurants"
+          },
+          {
+            "tag": "p",
+            "text": "Fast-casual Restaurants"
+          },
+          {
+            "tag": "p",
+            "text": "Food Truck Menu Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Bakery Promotion Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Bar Menu Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Bar Marketing Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Coffee Shop Industry Trends"
+          },
+          {
+            "tag": "p",
+            "text": "Happy Hour Menu Ideas with QR Code Menu"
+          },
+          {
+            "tag": "p",
+            "text": "Art of Menu Design"
+          },
+          {
+            "tag": "p",
+            "text": "Mobile App for Restaurant Ordering"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Order System"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Branding Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Marketing Statistics"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Failure Rate Statistics"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Social Media Statistics"
+          },
+          {
+            "tag": "p",
+            "text": "Restaurant Employment Statistics"
+          },
+          {
+            "tag": "p",
+            "text": "Company"
+          },
+          {
+            "tag": "p",
+            "text": "Home"
+          },
+          {
+            "tag": "p",
+            "text": "About Us"
+          },
+          {
+            "tag": "p",
+            "text": "Contact Us"
+          },
+          {
+            "tag": "p",
+            "text": "Terms"
+          },
+          {
+            "tag": "p",
+            "text": "Privacy Policy"
+          },
+          {
+            "tag": "p",
+            "text": "Cookie Policy"
+          },
+          {
+            "tag": "p",
+            "text": "Terms &amp; Conditions"
+          },
+          {
+            "tag": "p",
+            "text": "Service Specific Terms"
+          },
+          {
+            "tag": "p",
+            "text": "Affiliates"
+          },
+          {
+            "tag": "p",
+            "text": "© 2025 Menu Tiger. All rights reserved"
+          },
+          {
+            "tag": "h4",
+            "text": "This website uses cookies"
+          },
+          {
+            "tag": "p",
+            "text": "We use cookies to make your experience better, help us understand how our site is used, and show you content and ads that matter to you."
+          },
+          {
+            "tag": "p",
+            "text": "By clicking Accept All Cookies , you agree to our use of all cookies, as explained in our Cookie Policy."
+          },
+          {
+            "tag": "p",
+            "text": "You can also choose which cookies you’re happy to allow by selecting &quot;Cookie Settings&quot;. You can withdraw your consent anytime."
+          },
+          {
+            "tag": "p",
+            "text": "Note: Essential cookies keep our website running smoothly and can&#x27;t be turned off."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 97,
+          "headings": 29,
+          "images": 88
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-C7BD0ADF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-196BCF37",
+      "path": "/features",
+      "type": "Detected Link",
+      "anchor_text": "Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D4F2A595",
+      "path": "/ebooks",
+      "type": "Detected Link",
+      "anchor_text": "E-books",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34FE5FAF",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-662E5459",
+      "path": "/pricing",
+      "type": "Detected Link",
+      "anchor_text": "Pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D355B00",
+      "path": "/faq",
+      "type": "Detected Link",
+      "anchor_text": "FAQ",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E5E54C1E",
+      "path": "/api/redirecttologin",
+      "type": "Detected Link",
+      "anchor_text": "Login",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4C96D78E",
+      "path": "/signup",
+      "type": "Detected Link",
+      "anchor_text": "START FOR FREE",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-643C0FF1",
+      "path": "/blog/customer-success-stories",
+      "type": "Detected Link",
+      "anchor_text": "Customer Success Stories",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E447E490",
+      "path": "/blog/qr-codes-in-restaurants-how-to-safely-operate-during-a-pandemic",
+      "type": "Detected Link",
+      "anchor_text": "QR Codes in Restaurants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3EE43056",
+      "path": "/blog/self-serve-ordering",
+      "type": "Detected Link",
+      "anchor_text": "Self-Serve Ordering in Restaurants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1642123D",
+      "path": "/blog/how-to-scan-hotel-menu-qr-code",
+      "type": "Detected Link",
+      "anchor_text": "Hotel Menu QR Code",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3075F5C3",
+      "path": "/blog/tablet-menu",
+      "type": "Detected Link",
+      "anchor_text": "Tablet Menu",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9997EA79",
+      "path": "/blog/social-media-for-restaurants",
+      "type": "Detected Link",
+      "anchor_text": "Social Media for Restaurants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2304D55B",
+      "path": "/blog/fast-casual-restaurants",
+      "type": "Detected Link",
+      "anchor_text": "Fast-casual Restaurants",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {
+    "redirecttologin": {
+      "method": "UNKNOWN",
+      "url": "/api/redirecttologin"
+    }
+  }
+}

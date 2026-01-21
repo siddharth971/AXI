@@ -1,0 +1,476 @@
+{
+  "website_blueprint_id": "BLUEPRINT-F32DDA38",
+  "generated_at": "2026-01-21T07:27:05.908Z",
+  "global_configuration": {
+    "brand_name": "Cointelegraph: Bitcoin, Ethereum, Crypto News &amp; Price Indexes",
+    "domain": "cointelegraph.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.197.52",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 12,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_nuxt/70afbf3.js",
+        "type": "script",
+        "full_url": "https://cointelegraph.com/_nuxt/70afbf3.js"
+      },
+      {
+        "path": "/_nuxt/23ac2d2.js",
+        "type": "script",
+        "full_url": "https://cointelegraph.com/_nuxt/23ac2d2.js"
+      },
+      {
+        "path": "/_nuxt/9a0ab38.js",
+        "type": "script",
+        "full_url": "https://cointelegraph.com/_nuxt/9a0ab38.js"
+      },
+      {
+        "path": "/_nuxt/2cc90d4.js",
+        "type": "script",
+        "full_url": "https://cointelegraph.com/_nuxt/2cc90d4.js"
+      },
+      {
+        "path": "/_nuxt/eab6590.js",
+        "type": "script",
+        "full_url": "https://cointelegraph.com/_nuxt/eab6590.js"
+      },
+      {
+        "path": "/icons/logo/en.svg",
+        "type": "image",
+        "full_url": "https://cointelegraph.com/icons/logo/en.svg"
+      },
+      {
+        "path": "/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=740/https://s3.cointelegraph.com/uploads/2026-01/019bdd5c-6442-7a9c-95a2-81ff040148ef.jpg",
+        "type": "image",
+        "full_url": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=740/https://s3.cointelegraph.com/uploads/2026-01/019bdd5c-6442-7a9c-95a2-81ff040148ef.jpg"
+      },
+      {
+        "path": "/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bdb8a-3308-73b1-856e-4726283434d1.jpg",
+        "type": "image",
+        "full_url": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bdb8a-3308-73b1-856e-4726283434d1.jpg"
+      },
+      {
+        "path": "/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bd681-ae7c-7003-bccc-44ad5a2f67ba.jpg",
+        "type": "image",
+        "full_url": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bd681-ae7c-7003-bccc-44ad5a2f67ba.jpg"
+      },
+      {
+        "path": "/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bc669-5cab-71ab-ad51-afc6eb79fcb7.jpg",
+        "type": "image",
+        "full_url": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=112/https://s3.cointelegraph.com/uploads/2026-01/019bc669-5cab-71ab-ad51-afc6eb79fcb7.jpg"
+      },
+      {
+        "path": "/assets/img/mobile-stores/app-store-badge-en.svg",
+        "type": "image",
+        "full_url": "https://cointelegraph.com/assets/img/mobile-stores/app-store-badge-en.svg"
+      },
+      {
+        "path": "/assets/img/mobile-stores/play-store-badge-en.svg",
+        "type": "image",
+        "full_url": "https://cointelegraph.com/assets/img/mobile-stores/play-store-badge-en.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Cointelegraph: Bitcoin, Ethereum, Crypto News &amp; Price Indexes",
+        "description": "",
+        "canonical": "https://cointelegraph.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9500ms"
+        },
+        {
+          "resource": "70afbf3.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "23ac2d2.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "9a0ab38.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Latest Crypto &amp; Bitcoin News",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Ecosystem English News Indices In Depth Learn Podcasts About Latest Crypto &amp; Bitcoin News Fundstrat’s Lee sees ‘painful’ start to 2026 before late-year rebound Latest News"
+          },
+          {
+            "tag": "p",
+            "text": "by Brayden Lindrea"
+          },
+          {
+            "tag": "p",
+            "text": "Editor's choice Hot stories Fundstrat’s Lee sees ‘painful’ start to 2026 before late-year rebound Bitcoin trader keeps $100K BTC target as gold price hits record $4,750 Crypto mortgages in US face valuation risks, regulatory uncertainty Indian outrage at Pudgy Penguins, China CBDC boss’s crypto scandal: Asia Express Digital asset treasuries that only hodl may fall short NYSE develops 24/7 blockchain trading platform for tokenized stocks, ETFs Bitcoin holders see first 30-day stretch of realized losses since late 2023 Bitcoin shows strength at $92K, but is the bottom in? Michael Saylor’s Strategy tops 700,000 Bitcoin after $2.1B purchase Revolut targets remittances and new banking license in Peru: Report Press Releases Ad Tea.xyz flags critical open-source supply-chain risks in 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Changelly and ONTO Wallet bring cross-chain swaps into the wallet layer"
+          },
+          {
+            "tag": "p",
+            "text": "BingX becomes Scuderia Ferrari HP's first-ever crypto exchange partner"
+          },
+          {
+            "tag": "p",
+            "text": "News Galaxy to launch $100M hedge fund to bet on rising and falling crypto prices Galaxy plans to deploy a new hedge fund strategy that targets both crypto tokens and traditional financial stocks as the “up-only” phase fades."
+          },
+          {
+            "tag": "p",
+            "text": "by Amin Haqshanas"
+          },
+          {
+            "tag": "p",
+            "text": "Bhutan is adding to its growing list of blockchain initiatives. It already runs a Bitcoin mining operation and also launched a self-sovereign ID system powered by Ethereum."
+          },
+          {
+            "tag": "p",
+            "text": "by Stephen Katte"
+          },
+          {
+            "tag": "p",
+            "text": "Grayscale continued its pattern of trust-to-ETF conversions with the NEAR Trust despite declining fund performance."
+          },
+          {
+            "tag": "p",
+            "text": "by Martin Young"
+          },
+          {
+            "tag": "p",
+            "text": "As Republicans look to notch policy wins ahead of the midterms, Trump advisor Patrick Witt says the market structure bill must include compromises to advance in the Senate."
+          },
+          {
+            "tag": "p",
+            "text": "by Jesse Coghlan"
+          },
+          {
+            "tag": "p",
+            "text": "Bitcoiner Jameson Lopp shared data on Tuesday showing that the number of X posts containing the word “Bitcoin” fell by around a third in 2025 compared to 2024."
+          },
+          {
+            "tag": "p",
+            "text": "by Brayden Lindrea"
+          },
+          {
+            "tag": "p",
+            "text": "Crypto mortgages in US face valuation risks, regulatory uncertainty Crypto’s decentralization promise breaks at interoperability Trump escalates criticism of Fed chair, Italy warns ‘fin-fluencers’: Global Express US crypto market structure bill in limbo as industry pulls support News Noble blockchain shifts from Cosmos to launch its own EVM chain Noble is seeking better developer access and a more robust tech stack to build its new EVM-compatible stablecoin-focused blockchain, which will launch in March."
+          },
+          {
+            "tag": "p",
+            "text": "by Martin Young"
+          },
+          {
+            "tag": "p",
+            "text": "Crypto companies and traditional exchanges have been rushing to offer round-the-clock stock and ETF trading using blockchain-based technology."
+          },
+          {
+            "tag": "p",
+            "text": "by Jesse Coghlan"
+          },
+          {
+            "tag": "p",
+            "text": "Bitcoin erased its gains for the month and fell below $88,000 as crypto markets shed $225 billion, with analysts linking the crash to a “sell America” trade and Japanese bond market woes."
+          },
+          {
+            "tag": "p",
+            "text": "by Martin Young"
+          },
+          {
+            "tag": "p",
+            "text": "Ripple president Monica Long says blockchain is becoming the “operating layer of modern finance” and global balance sheets will hold $1 trillion in digital assets."
+          },
+          {
+            "tag": "p",
+            "text": "by Brian Quarmby"
+          },
+          {
+            "tag": "p",
+            "text": "Simply Wall St estimates 41% of Trump Media shares are held by individual insiders, 32% by the general public and 23% by institutions."
+          },
+          {
+            "tag": "p",
+            "text": "by Stephen Katte"
+          },
+          {
+            "tag": "p",
+            "text": "The aggressive buying by this particular cohort of Bitcoin holders signals a potential “long-term bullish divergence,&quot; according to crypto sentiment platform Santiment."
+          },
+          {
+            "tag": "p",
+            "text": "by Ciaran Lyons"
+          },
+          {
+            "tag": "p",
+            "text": "Crypto markets sell off as US stocks and global markets react to President Trump’s new tariff threats. Will the tensions put a stop to Bitcoin's start-of-year recovery?"
+          },
+          {
+            "tag": "p",
+            "text": "by Marcel Pechman"
+          },
+          {
+            "tag": "p",
+            "text": "Fundstrat’s Tom Lee, who is also the chair of Ethereum treasury firm BitMine, still expects Bitcoin to set a new high this year."
+          },
+          {
+            "tag": "p",
+            "text": "by Brayden Lindrea"
+          },
+          {
+            "tag": "p",
+            "text": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation."
+          },
+          {
+            "tag": "p",
+            "text": "by Cointelegraph"
+          },
+          {
+            "tag": "p",
+            "text": "The product gives retirement investors indirect Bitcoin exposure through a BlackRock index built on the company's spot Bitcoin ETF."
+          },
+          {
+            "tag": "p",
+            "text": "by Nate Kostar"
+          },
+          {
+            "tag": "p",
+            "text": "Speaking at a closed-door workshop in Davos, Finance Secretary Paul Chan said digital assets require regulatory guardrails alongside innovation."
+          },
+          {
+            "tag": "p",
+            "text": "by Nate Kostar"
+          },
+          {
+            "tag": "p",
+            "text": "Analysts say Bitcoin’s volatile price action reflects an increasing risk of distribution as new BTC whales dominate short-term flows. Is a drop to $85,000 in play for the short term?"
+          },
+          {
+            "tag": "p",
+            "text": "by Biraajmaan Tamuly"
+          },
+          {
+            "tag": "p",
+            "text": "A preliminary injunction against the prediction markets platform reportedly came at the request of Massachusetts Attorney General Andrea Joy Campbell."
+          },
+          {
+            "tag": "p",
+            "text": "by Turner Wright"
+          },
+          {
+            "tag": "p",
+            "text": "MOBILE APPS COINTELEGRAPH NEWSLETTER Email Address Subscribe Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest crypto news and analyses on the future of money. FOLLOW US Terms of services and Privacy policy © Cointelegraph 2013 - 2026 Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries. To support open access to our website and sustain editorial operations, certain commercial or partner references may appear on our site. These arrangements help maintain an accessible platform and do not result in additional costs to readers."
+          },
+          {
+            "tag": "p",
+            "text": "Editorial decisions are never influenced by commercial relationships. All news, reviews, and analysis are produced with full journalistic independence and integrity. For more details on our standards and processes, please read our Editorial Policy . All sponsored and commercial content, including press releases, is clearly labeled and reviewed for accuracy, disclosure and compliance. All partners are reviewed prior to entering any paid partnership."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 73,
+          "headings": 1,
+          "images": 7
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-73A41877",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-629503F8",
+      "path": "/podcasts",
+      "type": "Detected Link",
+      "anchor_text": "Podcasts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3D9A7303",
+      "path": "/news/fundstrat-lee-sees-tough-start-market-prices-2026",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7B299D3C",
+      "path": "/category/latest-news",
+      "type": "Detected Link",
+      "anchor_text": "Latest News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D46C84F0",
+      "path": "/authors/brayden-lindrea",
+      "type": "Detected Link",
+      "anchor_text": "by Brayden Lindrea",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E693E98C",
+      "path": "/news/bitcoin-trader-keeps-100k-btc-target-gold-price-hits-record-4750",
+      "type": "Detected Link",
+      "anchor_text": "Bitcoin trader keeps $100K BTC target as gold price hits record $4,750",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7E622C10",
+      "path": "/news/crypto-mortgages-valuation-risks-regulatory-uncertainty",
+      "type": "Detected Link",
+      "anchor_text": "Crypto mortgages in US face valuation risks, regulatory uncertainty",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F131789",
+      "path": "/magazine/indians-pudgy-penguins-eth-digital-yuan-boss-asia-express/",
+      "type": "Detected Link",
+      "anchor_text": "Indian outrage at Pudgy Penguins, China CBDC boss’s crypto scandal: Asia Express",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-39901A34",
+      "path": "/news/digital-asset-treasuries-hodl",
+      "type": "Detected Link",
+      "anchor_text": "Digital asset treasuries that only hodl may fall short",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E2B77794",
+      "path": "/news/nyse-develops-blockchain-trading-platform-tokenized-stocks-etfs",
+      "type": "Detected Link",
+      "anchor_text": "NYSE develops 24/7 blockchain trading platform for tokenized stocks, ETFs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-38512C72",
+      "path": "/news/bitcoin-30-day-realized-losses-gold-record-high",
+      "type": "Detected Link",
+      "anchor_text": "Bitcoin holders see first 30-day stretch of realized losses since late 2023",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8375C8A2",
+      "path": "/news/bitcoin-shows-strength-at-92k-but-is-the-bottom-in",
+      "type": "Detected Link",
+      "anchor_text": "Bitcoin shows strength at $92K, but is the bottom in?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99D5C791",
+      "path": "/news/michael-saylor-strategy-700k-bitcoin-fresh-2-1-billion-buy",
+      "type": "Detected Link",
+      "anchor_text": "Michael Saylor’s Strategy tops 700,000 Bitcoin after $2.1B purchase",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE1ADB53",
+      "path": "/news/revolut-banking-license-peru-latam-remittances",
+      "type": "Detected Link",
+      "anchor_text": "Revolut targets remittances and new banking license in Peru: Report",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3465E27B",
+      "path": "/press-releases",
+      "type": "Detected Link",
+      "anchor_text": "Press Releases",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

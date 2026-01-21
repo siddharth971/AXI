@@ -1,0 +1,362 @@
+{
+  "website_blueprint_id": "BLUEPRINT-E15F9F80",
+  "generated_at": "2026-01-21T07:26:54.256Z",
+  "global_configuration": {
+    "brand_name": "Easy Recipes TV",
+    "domain": "easyrecipes.tv",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.21.51.39",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 1,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Easy Recipes TV - best baking and cooking recipes for beginners and pros",
+        "description": "Easy baking recipes and cooking recipes for beginners and pros. Step-by-step instructions for your perfect bread, cookies, pastries, cakes and dinner recipes",
+        "canonical": "https://easyrecipes.tv"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "7357ms"
+        },
+        {
+          "resource": "vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "EASY RECIPE BREAKFAST IDEAS",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "NEW EASY RECIPES",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "BREAD &amp; ROLL RECIPES",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "PASTRIES &amp; COOKIES",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Visit recipe! NEW EASY RECIPES Wholemeal bread recipe with spelt flour and rye meal American dinner rolls recipe &#8211; soft rolls Wholemeal spelt rolls recipe &#8211; delicious dark rolls Coffee ice cream recipe &#8211; Cappuccino ice cream with chocolate Hello, I'm Vanessa! The founder of EasyRecipe TV &amp; Einfache Rezepte TV Cooking and baking should be easy and fun. When I started my first lifestyle blog more than 10 years ago, I got to know many good restaurants, but I didn&#8217;t just want to photograph the food, I wanted to get back in the kitchen myself and show simple and delicious recipes. You can find out more about “ EasyRecipe.TV ” by clicking on the button below."
+          },
+          {
+            "tag": "h2",
+            "text": "BREAD &amp; ROLL RECIPES"
+          },
+          {
+            "tag": "h4",
+            "text": "Wholemeal bread recipe with spelt flour &#8211; spelt bread"
+          },
+          {
+            "tag": "h4",
+            "text": "Wholemeal bread recipe with rye meal and sugar beet"
+          },
+          {
+            "tag": "h4",
+            "text": "Brioche recipe &#8211; fluffy French brioche"
+          },
+          {
+            "tag": "h4",
+            "text": "Brioche bread recipe &#8211; sweet bread"
+          },
+          {
+            "tag": "h4",
+            "text": "Best pretzel rolls recipe &#8211; homemade lye rolls"
+          },
+          {
+            "tag": "h4",
+            "text": "Delicious brioche buns &#8211; soft bread rolls"
+          },
+          {
+            "tag": "h4",
+            "text": "Low carb seed bread recipe with baking powder"
+          },
+          {
+            "tag": "h4",
+            "text": "Buns without yeast &#8211; Sunday rolls in 20 minutes"
+          },
+          {
+            "tag": "p",
+            "text": "More recipes Find the perfect recipe for you... Bread"
+          },
+          {
+            "tag": "p",
+            "text": "Cakes"
+          },
+          {
+            "tag": "p",
+            "text": "Cookies"
+          },
+          {
+            "tag": "p",
+            "text": "Ice-cream"
+          },
+          {
+            "tag": "p",
+            "text": "Dinner"
+          },
+          {
+            "tag": "h2",
+            "text": "PASTRIES &amp; COOKIES"
+          },
+          {
+            "tag": "h4",
+            "text": "Cinnamon rolls recipe &#8211; Cinnabon copycat"
+          },
+          {
+            "tag": "h4",
+            "text": "Chocolate cookies recipe &#8211; best chocolate chunk cookies"
+          },
+          {
+            "tag": "h4",
+            "text": "Scones recipe &#8211; homemade traditional English scones"
+          },
+          {
+            "tag": "h4",
+            "text": "Cherry muffins recipe &#8211; fast and easy"
+          },
+          {
+            "tag": "h4",
+            "text": "Best American chocolate chip cookies recipe"
+          },
+          {
+            "tag": "h4",
+            "text": "Muffins with chocolate &#8211; easy chocolate muffins recipe"
+          },
+          {
+            "tag": "h4",
+            "text": "Best cornflake cookies recipe &#8211; crispy cookies"
+          },
+          {
+            "tag": "h4",
+            "text": "Jelly donuts recipe or Bismark donuts &#8211; homemade"
+          },
+          {
+            "tag": "p",
+            "text": "More recipes CAKES &amp; TARTS Easy sheet cake recipe with applesauce Sponge cake without flour &#8211; gluten free Plum cake recipe with crumble &#8211; sheet cake Apple crumble cake recipe &#8211; yeast cake Strawberry cake with cream &#8211; sponge cake Peach cake recipe &#8211; fancy cake More recipes ICE CREAM Stracciatella ice cream recipe &#8211; vanilla ice cream with chocolate Strawberry yogurt ice cream recipe &#8211; quick strawberry ice cream Banana ice cream recipe &#8211; Banana split Peach yogurt ice cream recipe &#8211; frozen yogurt More recipes DINNER Salmon salad recipe &#8211; salmon spread and side dish Traditional red cabbage recipe &#8211; cooking red cabbage Classic chicken soup, simply explained &#8211; for colds Crispy chicken tenders recipe (KFC Copycat) Tarte flambée recipe &#8211; french pizza Greek farmer salad &#8211; easy salad with feta Summer salad with watermelon &#8211; fitness salad Focaccia recipe &#8211; bread with olives and tomatoes More recipes Pinterest Youtube Instagram Facebook X-twitter RECIPES BREAD CAKE COOKIES ICE-CREAM DINNER HOME SEARCH DEUTSCH CONTACT Imprint | Privacy Policy © EasyRecipes.TV &#8211; 2014 &#8211; 2025"
+          },
+          {
+            "tag": "p",
+            "text": "all rights reserved / Design, idea and concept &#8211; EasyRecipes.TV &amp; VPURmedia"
+          },
+          {
+            "tag": "p",
+            "text": "The use of photos and recipes without written permission is expressly prohibited."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 60,
+          "headings": 52,
+          "images": 50
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-B6C810BF",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "HOME",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2E38CF93",
+      "path": "/bread-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "BREAD",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CCE02466",
+      "path": "/cakes/",
+      "type": "Detected Link",
+      "anchor_text": "CAKES",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7B1145DC",
+      "path": "/pastry-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "PASTRIES",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-73744C44",
+      "path": "/ice-cream-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "ICE CREAM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F1F2A799",
+      "path": "/dinner-recipes/",
+      "type": "Detected Link",
+      "anchor_text": "DINNER",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DF9D71DE",
+      "path": "/seed-bread-grain-bread-recipe-gluten-free/",
+      "type": "Detected Link",
+      "anchor_text": "Seed bread grain bread recipe without flour",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D3989DBB",
+      "path": "/blueberry-pancakes-recipe-thick-fluffy/",
+      "type": "Detected Link",
+      "anchor_text": "Blueberry pancakes recipe &#8211; thick fluffy pancakes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-90C26F2F",
+      "path": "/waffles-without-milk-crunchy-waffles-recipe/",
+      "type": "Detected Link",
+      "anchor_text": "Waffles without milk &#8211; crunchy waffles recipe",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-938D45E5",
+      "path": "/simple-sweet-brioche-bread-recipe-homemade/",
+      "type": "Detected Link",
+      "anchor_text": "Simple sweet brioche bread",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CF4DA89C",
+      "path": "/wholemeal-bread-recipe-with-spelt-flour/",
+      "type": "Detected Link",
+      "anchor_text": "Wholemeal bread recipe with spelt flour and rye meal",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-171F87E0",
+      "path": "/american-dinner-rolls-recipe-soft-rolls/",
+      "type": "Detected Link",
+      "anchor_text": "American dinner rolls recipe &#8211; soft rolls",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-347AB854",
+      "path": "/wholemeal-spelt-rolls-recipe-dark-rolls/",
+      "type": "Detected Link",
+      "anchor_text": "Wholemeal spelt rolls recipe &#8211; delicious dark rolls",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-373D592D",
+      "path": "/coffee-ice-cream-recipe-cappuccino/",
+      "type": "Detected Link",
+      "anchor_text": "Coffee ice cream recipe &#8211; Cappuccino ice cream with chocolate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0D555B2",
+      "path": "/wholemeal-bread-recipe-spelt-bread/",
+      "type": "Detected Link",
+      "anchor_text": "Wholemeal bread recipe with spelt flour &#8211; spelt bread",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

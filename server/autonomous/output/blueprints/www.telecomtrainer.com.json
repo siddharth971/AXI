@@ -1,0 +1,769 @@
+{
+  "website_blueprint_id": "BLUEPRINT-DBC994F2",
+  "generated_at": "2026-01-21T07:27:04.687Z",
+  "global_configuration": {
+    "brand_name": "Telecom Trainer",
+    "domain": "www.telecomtrainer.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "199.232.23.7",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "openresty"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "openresty"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 28,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/ghost/portal@~2.56/umd/portal.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/ghost/portal@~2.56/umd/portal.min.js"
+      },
+      {
+        "path": "/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js"
+      },
+      {
+        "path": "/public/cards.min.js",
+        "type": "script",
+        "full_url": "https://www.telecomtrainer.com/public/cards.min.js?v=4733540368"
+      },
+      {
+        "path": "/public/comment-counts.min.js",
+        "type": "script",
+        "full_url": "https://www.telecomtrainer.com/public/comment-counts.min.js?v=4733540368"
+      },
+      {
+        "path": "/public/member-attribution.min.js",
+        "type": "script",
+        "full_url": "https://www.telecomtrainer.com/public/member-attribution.min.js?v=4733540368"
+      },
+      {
+        "path": "/public/ghost-stats.min.js",
+        "type": "script",
+        "full_url": "https://www.telecomtrainer.com/public/ghost-stats.min.js?v=4733540368"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-ET84LZ55XQ"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1640938240353978"
+      },
+      {
+        "path": "/jquery-3.3.1.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/jquery-3.3.1.min.js"
+      },
+      {
+        "path": "/assets/built/main.min.js",
+        "type": "script",
+        "full_url": "https://www.telecomtrainer.com/assets/built/main.min.js?v=4733540368"
+      },
+      {
+        "path": "/assets/built/screen.css",
+        "type": "stylesheet",
+        "full_url": "https://www.telecomtrainer.com/assets/built/screen.css?v=4733540368"
+      },
+      {
+        "path": "/content/images/2023/02/ttlight-1.png",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/2023/02/ttlight-1.png"
+      },
+      {
+        "path": "/content/images/2023/11/telecom-trainer-2.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/2023/11/telecom-trainer-2.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2025/08/10-12-Maintaining-Voice-Call-continuity-across-different-access-technologies-requires-tight-integration-of--5G-with-latency-system---1-.png",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2025/08/10-12-Maintaining-Voice-Call-continuity-across-different-access-technologies-requires-tight-integration-of--5G-with-latency-system---1-.png"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/17-Wireless-Brain-Computer-Interactions--BCI--and-6G-connectivity.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/17-Wireless-Brain-Computer-Interactions--BCI--and-6G-connectivity.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/6G-Wireless-Systems-Challenges-and-Opportunities.png",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/6G-Wireless-Systems-Challenges-and-Opportunities.png"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/5G-NR-Positioning--1-.jpeg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/5G-NR-Positioning--1-.jpeg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/NR-Integrated-Access-and-Backhaul--1-.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/NR-Integrated-Access-and-Backhaul--1-.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/5G-New-Radio-Evolution-Meets-Satellite-Communication--1-.jpeg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/5G-New-Radio-Evolution-Meets-Satellite-Communication--1-.jpeg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/03/massive-mimo-mmwave.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/03/massive-mimo-mmwave.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/5G--5G--and-6G-communication-network-security.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/5G--5G--and-6G-communication-network-security.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/ai-5g.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/ai-5g.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/emf-exposure.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/emf-exposure.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/redcap.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/redcap.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/antennas-for-5G--6G--Radar--Satellite.jpeg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/antennas-for-5G--6G--Radar--Satellite.jpeg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/edge-computing-5g.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/edge-computing-5g.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/cellular-v2x.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/cellular-v2x.jpg"
+      },
+      {
+        "path": "/content/images/size/w960/2023/02/5g-security.jpg",
+        "type": "image",
+        "full_url": "https://www.telecomtrainer.com/content/images/size/w960/2023/02/5g-security.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Telecom Trainer",
+        "description": "Telecom Trainer is the one-stop source for all things related to 6G, 5G, and 4G technology providing you with a deep understanding of these cutting-edge communication technologies.",
+        "canonical": "https://www.telecomtrainer.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "202ms"
+        },
+        {
+          "resource": "portal.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "sodo-search.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "cards.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Maintaining Voice Call Continuity Across 2G, 3G, 4G, and 5G Networks with Integrated 5G Systems"
+          },
+          {
+            "tag": "h2",
+            "text": "Wireless Brain-Computer Interactions (BCI) and 6G connectivity"
+          },
+          {
+            "tag": "h2",
+            "text": "6G Wireless Systems: Challenges and Opportunities"
+          },
+          {
+            "tag": "h2",
+            "text": "5G NR Positioning"
+          },
+          {
+            "tag": "h2",
+            "text": "NR Integrated Access and Backhaul"
+          },
+          {
+            "tag": "h2",
+            "text": "5G New Radio Evolution Meets Satellite Communications"
+          },
+          {
+            "tag": "h2",
+            "text": "Millimetre-wave communications"
+          },
+          {
+            "tag": "h2",
+            "text": "5G, 5G+ and 6G communication network security"
+          },
+          {
+            "tag": "h2",
+            "text": "Bringing AI research to wireless communication and sensing"
+          },
+          {
+            "tag": "h2",
+            "text": "EMF Exposure"
+          },
+          {
+            "tag": "h2",
+            "text": "RedCap: Cellular IoT Technology for the 5G Era"
+          },
+          {
+            "tag": "h2",
+            "text": "Antennas and arrays for 5G, 5G+, and 6G, radar and satellite communications"
+          },
+          {
+            "tag": "h2",
+            "text": "Edge Computing for 5G Networks"
+          },
+          {
+            "tag": "h2",
+            "text": "Vehicular Connectivity: C-V2X and 5G"
+          },
+          {
+            "tag": "h2",
+            "text": "Evolving 5G Security for the Cloud"
+          },
+          {
+            "tag": "h3",
+            "text": "Mid-Band Spectrum and the Co-Existence with Radio Altimeters"
+          },
+          {
+            "tag": "h3",
+            "text": "5G (fifth-generation mobile system)"
+          },
+          {
+            "tag": "h3",
+            "text": "5G Multi-Operator Core Network (MOCN)"
+          },
+          {
+            "tag": "h3",
+            "text": "5G NR (5G New Radio)"
+          },
+          {
+            "tag": "h3",
+            "text": "5G-EIR (5G-equipment identity register)"
+          },
+          {
+            "tag": "h3",
+            "text": "6G (6th Generation)"
+          },
+          {
+            "tag": "h3",
+            "text": "Evolution of 5G towards 6G"
+          },
+          {
+            "tag": "h3",
+            "text": "From 5G to 6G Vision – A Connected and Automated Mobility (CAM) perspective"
+          },
+          {
+            "tag": "h3",
+            "text": "Large intelligent metasurfaces for 5G/6G"
+          },
+          {
+            "tag": "h3",
+            "text": "5G, 5G+ and 6G communication network security"
+          },
+          {
+            "tag": "h2",
+            "text": "AL/ML in Telecom"
+          },
+          {
+            "tag": "h3",
+            "text": "Artificial Intelligence (AI) for Wireless Communications"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Aided mmWave technology"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Aided large massive MIMO technology"
+          },
+          {
+            "tag": "h3",
+            "text": "AI for non-linear wireless systems design and optimisation"
+          },
+          {
+            "tag": "h3",
+            "text": "AI for satellite communications"
+          },
+          {
+            "tag": "h2",
+            "text": "Antennas for 5G/6G"
+          },
+          {
+            "tag": "h3",
+            "text": "mmWave and THz antennas and propagation"
+          },
+          {
+            "tag": "h3",
+            "text": "Antennas and arrays for 5G, 5G+, and 6G, radar and satellite communications"
+          },
+          {
+            "tag": "h3",
+            "text": "Metamaterial antenna, metasurfaces, reflecting intelligent surface (aka LIS)"
+          },
+          {
+            "tag": "h3",
+            "text": "MIMO, massive MIMO, and large-scale antenna arrays"
+          },
+          {
+            "tag": "h3",
+            "text": "EMF Exposure"
+          },
+          {
+            "tag": "h2",
+            "text": "beyond-5g"
+          },
+          {
+            "tag": "h3",
+            "text": "Introduction to Beyond 5G"
+          },
+          {
+            "tag": "h3",
+            "text": "Limitations of 5G when compared to Beyond 5G Technologies"
+          },
+          {
+            "tag": "h3",
+            "text": "Need for Beyond 5G (B5G) networks"
+          },
+          {
+            "tag": "h3",
+            "text": "Evolution roadmap from 5G to 6G"
+          },
+          {
+            "tag": "h3",
+            "text": "Key objectives of B5G"
+          },
+          {
+            "tag": "h3",
+            "text": "SIB or System Information Block 1"
+          },
+          {
+            "tag": "h3",
+            "text": "What do Received Signal Level (RXLEV) and Received Signal Quality (RXQUAL) indicate in GSM?"
+          },
+          {
+            "tag": "h3",
+            "text": "How does Frequency Hopping contribute to GSM network performance?"
+          },
+          {
+            "tag": "h3",
+            "text": "What is the Location Area Code (LAC) and why is it important in GSM?"
+          },
+          {
+            "tag": "h3",
+            "text": "Describe the role of Cell Identity (CI) in GSM networks."
+          },
+          {
+            "tag": "h2",
+            "text": "Interview Questions"
+          },
+          {
+            "tag": "h3",
+            "text": "What is 5G technology?"
+          },
+          {
+            "tag": "h3",
+            "text": "How does 5G differ from 4G?"
+          },
+          {
+            "tag": "h3",
+            "text": "Explain the key features of 5G."
+          },
+          {
+            "tag": "h3",
+            "text": "What are the main goals of 5G technology?"
+          },
+          {
+            "tag": "h3",
+            "text": "How does 5G contribute to the Internet of Things (IoT)?"
+          },
+          {
+            "tag": "h3",
+            "text": "RedCap: Cellular IoT Technology for the 5G Era"
+          },
+          {
+            "tag": "h3",
+            "text": "Internet of things systems from antennas to signal processing"
+          },
+          {
+            "tag": "h3",
+            "text": "Ambient sensing"
+          },
+          {
+            "tag": "h3",
+            "text": "IoT applications"
+          },
+          {
+            "tag": "h3",
+            "text": "Clean-slate protocols and mechanisms"
+          },
+          {
+            "tag": "h3",
+            "text": "Gigabit LTE and the Path to 5G"
+          },
+          {
+            "tag": "h3",
+            "text": "NR-LTE Interworking"
+          },
+          {
+            "tag": "h3",
+            "text": "4G LTE Air Interface"
+          },
+          {
+            "tag": "h3",
+            "text": "What does LTE stand for?"
+          },
+          {
+            "tag": "h3",
+            "text": "Explain the key differences between 4G LTE and previous generations of cellular networks."
+          },
+          {
+            "tag": "h2",
+            "text": "Mobile Operators"
+          },
+          {
+            "tag": "h3",
+            "text": "List of Mobile Operators in Afghanistan"
+          },
+          {
+            "tag": "h3",
+            "text": "List of Mobile Operators in Albania"
+          },
+          {
+            "tag": "h3",
+            "text": "List of Mobile Operators in Algeria"
+          },
+          {
+            "tag": "h3",
+            "text": "List of Mobile Operators in Andorra"
+          },
+          {
+            "tag": "h3",
+            "text": "List of Mobile Operators in Angola"
+          },
+          {
+            "tag": "h2",
+            "text": "Open RAN"
+          },
+          {
+            "tag": "h3",
+            "text": "Reasons to adopt Open RAN now"
+          },
+          {
+            "tag": "h3",
+            "text": "Open RAN security"
+          },
+          {
+            "tag": "h3",
+            "text": "Open &amp; Virtualized -The Future of Radio Access Network"
+          },
+          {
+            "tag": "h3",
+            "text": "Building an Open vRAN Ecosystem"
+          },
+          {
+            "tag": "h3",
+            "text": "Evolution of Open RAN"
+          },
+          {
+            "tag": "h2",
+            "text": "Professional Certifications"
+          },
+          {
+            "tag": "h3",
+            "text": "CCNP Exam and Certification"
+          },
+          {
+            "tag": "h3",
+            "text": "CCNA Exam and Certification"
+          },
+          {
+            "tag": "h3",
+            "text": "AWS Certified Solutions Architect – Professional"
+          },
+          {
+            "tag": "h3",
+            "text": "Google Cloud – Cloud Digital Leader"
+          },
+          {
+            "tag": "h3",
+            "text": "Microsoft Certified – Azure Solutions Architect Expert"
+          },
+          {
+            "tag": "h2",
+            "text": "Satellite Communications"
+          },
+          {
+            "tag": "h3",
+            "text": "Integrated terrestrial/satellite access"
+          },
+          {
+            "tag": "h3",
+            "text": "Networking for 5G and satellite backhaul integration"
+          },
+          {
+            "tag": "h3",
+            "text": "5G New Radio Evolution Meets Satellite Communications"
+          },
+          {
+            "tag": "h3",
+            "text": "DRL (Deep reinforcement learning)"
+          },
+          {
+            "tag": "h3",
+            "text": "SC-CPS single carrier circularly pulse shaped"
+          },
+          {
+            "tag": "h2",
+            "text": "Telecom"
+          },
+          {
+            "tag": "h3",
+            "text": "1×RTT (Single carrier radio transmission technology)"
+          },
+          {
+            "tag": "h3",
+            "text": "128-QAM (128 state Quadrature Amplitude Modulation)"
+          },
+          {
+            "tag": "h3",
+            "text": "16-QAM (16 state Quadrature Amplitude Modulation)"
+          },
+          {
+            "tag": "h3",
+            "text": "1G (first generation of mobile communications); analogue systems"
+          },
+          {
+            "tag": "h3",
+            "text": "1G, 2G, 3G or 4G (1st, 2nd, 3rd, 4th generation)"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 74,
+          "headings": 100,
+          "images": 17
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A2F2703F",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-051D929F",
+      "path": "/tag/5g/",
+      "type": "Detected Link",
+      "anchor_text": "5G",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2904D84A",
+      "path": "/tag/6g/",
+      "type": "Detected Link",
+      "anchor_text": "6G",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6FA974BD",
+      "path": "/tag/open-ran/",
+      "type": "Detected Link",
+      "anchor_text": "Open RAN",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D301BA05",
+      "path": "/maintaining-voice-call-continuity-across-2g-3g-4g-and-5g-networks-with-integrated-5g-systems/",
+      "type": "Detected Link",
+      "anchor_text": "Maintaining Voice Call Continuity Across 2G, 3G, 4G, and 5G Networks with Integrated 5G Systems",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0CBD496C",
+      "path": "/tag/5g/",
+      "type": "Detected Link",
+      "anchor_text": "5g",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F5B2949F",
+      "path": "/wireless-brain-computer-interactions-bci/",
+      "type": "Detected Link",
+      "anchor_text": "Wireless Brain-Computer Interactions (BCI) and 6G connectivity",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F5459FC2",
+      "path": "/tag/6g/",
+      "type": "Detected Link",
+      "anchor_text": "6G",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C9371B5C",
+      "path": "/6g-wireless-systems-challenges-and-opportunities/",
+      "type": "Detected Link",
+      "anchor_text": "6G Wireless Systems: Challenges and Opportunities",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-50E90827",
+      "path": "/5g-nr-positioning/",
+      "type": "Detected Link",
+      "anchor_text": "5G NR Positioning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1683F767",
+      "path": "/nr-integrated-access-and-backhaul/",
+      "type": "Detected Link",
+      "anchor_text": "NR Integrated Access and Backhaul",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-980B70B9",
+      "path": "/5g-new-radio-evolution-meets-satellite-communications/",
+      "type": "Detected Link",
+      "anchor_text": "5G New Radio Evolution Meets Satellite Communications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D971470",
+      "path": "/millimetre-wave-communications/",
+      "type": "Detected Link",
+      "anchor_text": "Millimetre-wave communications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D5FBC8AF",
+      "path": "/5g-5g-and-6g-communication-network-security-e-g-intrusion-detection-systems-multi-access-edge-computing-and-communications/",
+      "type": "Detected Link",
+      "anchor_text": "5G, 5G+ and 6G communication network security",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C73E2A1D",
+      "path": "/bringing-ai-research-to-wireless-communication-and-sensing/",
+      "type": "Detected Link",
+      "anchor_text": "Bringing AI research to wireless communication and sensing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

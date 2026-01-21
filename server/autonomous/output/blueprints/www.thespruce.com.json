@@ -1,0 +1,340 @@
+{
+  "website_blueprint_id": "BLUEPRINT-2216701E",
+  "generated_at": "2026-01-21T07:27:05.080Z",
+  "global_configuration": {
+    "brand_name": "The Spruce: Make Your Best Home",
+    "domain": "www.thespruce.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.66.1.220",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=1800, private",
+      "Content-Security-Policy": "frame-ancestors 'self' https://*.seo.aws.about.com https://*.dotdash.com *.thespruce.com; upgrade-insecure-requests;",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 26,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/static/8.141.0/cache/eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js",
+        "type": "script",
+        "full_url": "https://www.thespruce.com/static/8.141.0/cache/eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js"
+      },
+      {
+        "path": "/static/8.141.0/cache/eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js",
+        "type": "script",
+        "full_url": "https://www.thespruce.com/static/8.141.0/cache/eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/thmb/Jc3F9egUnlXPAQDq0Bm9BKB9xGk=/500x375/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DesignbyEmilyHenderson_PhotobyKaitlinGreen_6-861a902bbde04e3f9dd1f5b971c7e4d8.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/Jc3F9egUnlXPAQDq0Bm9BKB9xGk=/500x375/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DesignbyEmilyHenderson_PhotobyKaitlinGreen_6-861a902bbde04e3f9dd1f5b971c7e4d8.jpg"
+      },
+      {
+        "path": "/thmb/O1f9J4HpMZ_bW4J_izP7UHT-WoE=/312x312/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spruce-hp-texture-0f0c59e1e6f942e6ba95f052001013dc.png",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/O1f9J4HpMZ_bW4J_izP7UHT-WoE=/312x312/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spruce-hp-texture-0f0c59e1e6f942e6ba95f052001013dc.png"
+      },
+      {
+        "path": "/thmb/0K4X_aJ84Qdv7lU1L3UGUa8DWI4=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-glocusent-bookmark-style-reading-light-julia-fields-1-ff6b89b0571946a5b37ab063ac5c63dd.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/0K4X_aJ84Qdv7lU1L3UGUa8DWI4=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-glocusent-bookmark-style-reading-light-julia-fields-1-ff6b89b0571946a5b37ab063ac5c63dd.jpeg"
+      },
+      {
+        "path": "/thmb/l3OX1DFwynKQBt1dh27BvWw3YqE=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-west-elm-penn-chair-marisa-viglione-10-1-ed13d259acbd4af2beccc02fb9009489.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/l3OX1DFwynKQBt1dh27BvWw3YqE=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-west-elm-penn-chair-marisa-viglione-10-1-ed13d259acbd4af2beccc02fb9009489.jpeg"
+      },
+      {
+        "path": "/thmb/jJC7je64RbwUUcLO20p5dVIC6mM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-brooklinen-down-alternative-comforter-dburreson-005-b519290d197b4ee79fe8af6aa9deb3db.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/jJC7je64RbwUUcLO20p5dVIC6mM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-brooklinen-down-alternative-comforter-dburreson-005-b519290d197b4ee79fe8af6aa9deb3db.jpeg"
+      },
+      {
+        "path": "/thmb/DltYcelzQPiM-hSgO1Rvd7euGWk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Parachute_Casper_DreamNorth_Pillows_Comparison_Photo_Tierney-McAfee-44c5f20025464bc3b48d56e6716cedfa.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/DltYcelzQPiM-hSgO1Rvd7euGWk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Parachute_Casper_DreamNorth_Pillows_Comparison_Photo_Tierney-McAfee-44c5f20025464bc3b48d56e6716cedfa.jpg"
+      },
+      {
+        "path": "/thmb/-T3tN20LB5DgvcgLYDHeSan7G5k=/1260x946/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/homepage-mission-background-34a5a4b1ba1f4e7fbf9f3c77be5c3e5e.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/-T3tN20LB5DgvcgLYDHeSan7G5k=/1260x946/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/homepage-mission-background-34a5a4b1ba1f4e7fbf9f3c77be5c3e5e.jpg"
+      },
+      {
+        "path": "/thmb/3Fd3RhnaZHHGQJ3PJZqROLvdvt4=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aliyah_square1-2447311c85874335a453af0e8a35d180.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/3Fd3RhnaZHHGQJ3PJZqROLvdvt4=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aliyah_square1-2447311c85874335a453af0e8a35d180.jpg"
+      },
+      {
+        "path": "/thmb/xb4mUEQFfhBbAj87e04CVoz6fBc=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/jenny-square-4351f21a5904465c8ffef70c2a21dfbb.png",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/xb4mUEQFfhBbAj87e04CVoz6fBc=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/jenny-square-4351f21a5904465c8ffef70c2a21dfbb.png"
+      },
+      {
+        "path": "/thmb/qt-Op3ohyJlgMn8FUj0XzwKGj5E=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Kate_square-67a5345fbb614ff29a2b0fdf294dfd33.png",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/qt-Op3ohyJlgMn8FUj0XzwKGj5E=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Kate_square-67a5345fbb614ff29a2b0fdf294dfd33.png"
+      },
+      {
+        "path": "/thmb/qmaIhcbgOsOpWj9M8IRIkCC1Y4E=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Natalia_square-3de5909ee86d4060b86c80b09ccb5296.png",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/qmaIhcbgOsOpWj9M8IRIkCC1Y4E=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Natalia_square-3de5909ee86d4060b86c80b09ccb5296.png"
+      },
+      {
+        "path": "/thmb/ccUHboXtJYQ51PRBmY4gF8ppLxk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/desiree-burns-interiors-lighting-5303a1937c7a4199b5de97848f73ea6d.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/ccUHboXtJYQ51PRBmY4gF8ppLxk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/desiree-burns-interiors-lighting-5303a1937c7a4199b5de97848f73ea6d.jpeg"
+      },
+      {
+        "path": "/thmb/Bd_m0prTh4IPr8q1BSiJS6wsI_Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1216663597-1bc2b01e304a4e76a35a173dfb047f4e.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/Bd_m0prTh4IPr8q1BSiJS6wsI_Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1216663597-1bc2b01e304a4e76a35a173dfb047f4e.jpg"
+      },
+      {
+        "path": "/thmb/cq0gzbeNkNc8SyymMsLlZjR4L-0=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2098859987-6447a984358148739ec54c93c167d2e8.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/cq0gzbeNkNc8SyymMsLlZjR4L-0=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2098859987-6447a984358148739ec54c93c167d2e8.jpg"
+      },
+      {
+        "path": "/thmb/l3tyY87xC-Q42sAXKuFIAksnVB4=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2209084858-841d8fa012aa4ffabba01c110958658e.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/l3tyY87xC-Q42sAXKuFIAksnVB4=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2209084858-841d8fa012aa4ffabba01c110958658e.jpg"
+      },
+      {
+        "path": "/thmb/SZuduBTfB4xnoXI0UOfWtKXQJPk=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-silonn-smart-electric-fireplace-heater-anton-galang-06-2763c62d42f7400b9c85f02fd9b768a1.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/SZuduBTfB4xnoXI0UOfWtKXQJPk=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-silonn-smart-electric-fireplace-heater-anton-galang-06-2763c62d42f7400b9c85f02fd9b768a1.jpeg"
+      },
+      {
+        "path": "/thmb/GZFlV7X456_K29aFVQlTCe2rrRQ=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-dealgadgets-2-pack-under-cabinet-lights-kimberly-souza-8-17da2cb2574e461db0c6da1d07e63a4b.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/GZFlV7X456_K29aFVQlTCe2rrRQ=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-dealgadgets-2-pack-under-cabinet-lights-kimberly-souza-8-17da2cb2574e461db0c6da1d07e63a4b.jpeg"
+      },
+      {
+        "path": "/thmb/xcssf-FZkO81neG2NImV_oWLp5Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-why-you-need-to-clean-high-touch-areas-every-week-11872009-hero-c861a612c72742898c7c264c6ce1df3a.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/xcssf-FZkO81neG2NImV_oWLp5Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-why-you-need-to-clean-high-touch-areas-every-week-11872009-hero-c861a612c72742898c7c264c6ce1df3a.jpg"
+      },
+      {
+        "path": "/thmb/a-juWEzJKWDCtWXgvUrA1JBLn_Q=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-detail-ll-bean-premium-cotton-bath-mat-hwortock-007-cd2a4a1200cf4ffebe88ca5fae2b1562.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/a-juWEzJKWDCtWXgvUrA1JBLn_Q=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-detail-ll-bean-premium-cotton-bath-mat-hwortock-007-cd2a4a1200cf4ffebe88ca5fae2b1562.jpeg"
+      },
+      {
+        "path": "/thmb/PfeyYsP78xbk5LsZMEXvKPfFVbg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-no-shoe-household-rule-11874960-hero-ff109fa34b8644a89882e760e42a386c.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/PfeyYsP78xbk5LsZMEXvKPfFVbg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-no-shoe-household-rule-11874960-hero-ff109fa34b8644a89882e760e42a386c.jpg"
+      },
+      {
+        "path": "/thmb/0TGcTtSxtEhU5QIp2AQL5TK6E28=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-fcmp-outdoor-the-essential-living-composter-worm-composter-megan-wood-08-66443d69227f479188ed38705b924aa3.jpeg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/0TGcTtSxtEhU5QIp2AQL5TK6E28=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-fcmp-outdoor-the-essential-living-composter-worm-composter-megan-wood-08-66443d69227f479188ed38705b924aa3.jpeg"
+      },
+      {
+        "path": "/thmb/hAdeODwGcL3qW591iZTQC-zaM4E=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2248868613-d94a2531de38465382062070d94be960.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/hAdeODwGcL3qW591iZTQC-zaM4E=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2248868613-d94a2531de38465382062070d94be960.jpg"
+      },
+      {
+        "path": "/thmb/S_pV8AnXUkzLlO1VbrxwZZ2E4v8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1632525150-708425443da644fb90948fb5c598fb55.jpg",
+        "type": "image",
+        "full_url": "https://www.thespruce.com/thmb/S_pV8AnXUkzLlO1VbrxwZZ2E4v8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1632525150-708425443da644fb90948fb5c598fb55.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Spruce: Make Your Best Home",
+        "description": "Browse beautiful home design ideas and useful how-tos to make your best home. Our expert advice makes creating the home you&#39;ve always wanted easy and fun.\" itemprop=\"description",
+        "canonical": "https://www.thespruce.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "8243ms"
+        },
+        {
+          "resource": "eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "The Latest",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The Spruce Approved",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Editors' Picks",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Clear Ice and Snow"
+          },
+          {
+            "tag": "h2",
+            "text": "Editors' Picks"
+          },
+          {
+            "tag": "h3",
+            "text": "Our Mission"
+          },
+          {
+            "tag": "h3",
+            "text": "Meet Our Team"
+          },
+          {
+            "tag": "h2",
+            "text": "January Refresh"
+          },
+          {
+            "tag": "h3",
+            "text": "We Test Products So You Don’t Have To"
+          },
+          {
+            "tag": "p",
+            "text": "We vacuum cereal, sleep on dozens of mattresses, and ask our kids to jump on furniture. Our editors and experts are constantly testing products in our lab and at home to give you product recommendations you can trust. We do the research and give honest feedback—all so you can live your best life. Learn more about our process."
+          },
+          {
+            "tag": "h4",
+            "text": "The Spruce Lab"
+          },
+          {
+            "tag": "h4",
+            "text": "Shop Our Top Picks"
+          },
+          {
+            "tag": "h2",
+            "text": "Cleaning"
+          },
+          {
+            "tag": "h2",
+            "text": "Winter Gardening"
+          },
+          {
+            "tag": "p",
+            "text": "bedroom 5 star hotel room"
+          },
+          {
+            "tag": "p",
+            "text": "Watch More"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 59,
+          "headings": 12,
+          "images": 46
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-A7E7A7EF",
+      "path": "/about-us-4776800",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F47744C6",
+      "path": "/press-and-media-4783399",
+      "type": "Detected Link",
+      "anchor_text": "Press and Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1FA6DD1",
+      "path": "/about-us-4776800",
+      "type": "Detected Link",
+      "anchor_text": "Contact Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-71E006DA",
+      "path": "/about-us-4776800",
+      "type": "Detected Link",
+      "anchor_text": "Editorial Guidelines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BF2A1DA1",
+      "path": "/commerce-guidelines-and-mission-4157991",
+      "type": "Detected Link",
+      "anchor_text": "Learn more about our process.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8DE43BCF",
+      "path": "/turn-your-bedroom-into-5-star-hotel-room-1976171",
+      "type": "Detected Link",
+      "anchor_text": "Read the Article",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

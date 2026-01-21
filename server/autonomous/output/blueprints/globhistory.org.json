@@ -1,0 +1,456 @@
+{
+  "website_blueprint_id": "BLUEPRINT-F0A09E21",
+  "generated_at": "2026-01-21T07:27:26.001Z",
+  "global_configuration": {
+    "brand_name": "Историческая энциклопедия",
+    "domain": "globhistory.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.21.20.230",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, private",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 27,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905261916702812"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-BBTP7QGYQT"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://globhistory.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      },
+      {
+        "path": "/logo.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/logo.png"
+      },
+      {
+        "path": "/flags/ru.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ru.png"
+      },
+      {
+        "path": "/flags/en.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/en.png"
+      },
+      {
+        "path": "/flags/fr.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/fr.png"
+      },
+      {
+        "path": "/flags/es.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/es.png"
+      },
+      {
+        "path": "/flags/de.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/de.png"
+      },
+      {
+        "path": "/flags/it.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/it.png"
+      },
+      {
+        "path": "/flags/pt.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/pt.png"
+      },
+      {
+        "path": "/flags/ar.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ar.png"
+      },
+      {
+        "path": "/flags/ja.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ja.png"
+      },
+      {
+        "path": "/flags/ko.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ko.png"
+      },
+      {
+        "path": "/flags/tr.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/tr.png"
+      },
+      {
+        "path": "/flags/hi.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/hi.png"
+      },
+      {
+        "path": "/flags/bn.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/bn.png"
+      },
+      {
+        "path": "/flags/ur.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ur.png"
+      },
+      {
+        "path": "/flags/te.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/te.png"
+      },
+      {
+        "path": "/flags/mr.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/mr.png"
+      },
+      {
+        "path": "/flags/ta.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ta.png"
+      },
+      {
+        "path": "/flags/uk.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/uk.png"
+      },
+      {
+        "path": "/flags/fa.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/fa.png"
+      },
+      {
+        "path": "/flags/ps.png",
+        "type": "image",
+        "full_url": "https://globhistory.org/flags/ps.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Историческая энциклопедия",
+        "description": "Откройте для себя увлекательный мир истории с нашей онлайн-энциклопедией. Исследуйте ключевые события, древние цивилизации и значимые личности через тщательно отобранные статьи, проверенные экспертами. Погружайтесь в разные исторические эпохи и расширяйте свои знания о культурных и социальных структурах, которые сформировали современный мир.",
+        "canonical": "https://globhistory.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "20082ms"
+        },
+        {
+          "resource": "adsbygoogle.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "email-decode.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "О проекте",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Исторические периоды",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Избранные статьи",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Историческая энциклопедия"
+          },
+          {
+            "tag": "h2",
+            "text": "О проекте"
+          },
+          {
+            "tag": "p",
+            "text": "Наша историческая энциклопедия — это уникальный онлайн-ресурс, созданный для тех, кто интересуется историей, стремится к знаниям и желает погрузиться в исследование ключевых событий, личностей и явлений прошлого. Мы предоставляем доступ к тщательно отобранным статьям, охватывающим различные эпохи и регионы. Каждый материал проверен историками, чтобы обеспечить высокую точность информации."
+          },
+          {
+            "tag": "p",
+            "text": "Проект призван не только дать читателям возможность ознакомиться с хронологией событий, но и углубиться в особенности культур, политических систем и социальных структур, которые формировали мир, каким мы его знаем сегодня."
+          },
+          {
+            "tag": "p",
+            "text": "Наши статьи охватывают все важнейшие исторические эпохи — от древнего мира до новейшей истории. Мы стараемся учитывать разнообразие мнений и подходов, чтобы вы могли изучить историю с разных точек зрения и сделать свои собственные выводы."
+          },
+          {
+            "tag": "h2",
+            "text": "Исторические периоды"
+          },
+          {
+            "tag": "p",
+            "text": "История человечества делится на множество периодов, каждый из которых имеет свои особенности и события. Мы выделили основные исторические этапы, которые вы можете изучить на нашем сайте:"
+          },
+          {
+            "tag": "p",
+            "text": "Каждый из этих периодов наполнен захватывающими историями, великими личностями и важными событиями, которые сформировали наше настоящее. Переходите по разделам и открывайте для себя новые знания!"
+          },
+          {
+            "tag": "h2",
+            "text": "Избранные статьи"
+          },
+          {
+            "tag": "h3",
+            "text": "Древние цивилизации: как они повлияли на современный мир"
+          },
+          {
+            "tag": "p",
+            "text": "Человечество прошло длинный путь от первых поселений до сложных государственных структур. В статье исследуются ключевые достижения древних цивилизаций, такие как письменность, искусство, законы и научные открытия."
+          },
+          {
+            "tag": "h3",
+            "text": "Средневековая Европа: Киевская Анна королева Франции"
+          },
+          {
+            "tag": "p",
+            "text": "Период средневековья традиционно воспринимается как время феодальных конфликтов и упадка, но на самом деле это была эпоха культурного и научного развития, подготовки к взлету эпохи Возрождения."
+          },
+          {
+            "tag": "h2",
+            "text": "Поделиться:"
+          },
+          {
+            "tag": "p",
+            "text": "© 2024 Историческая Энциклопедия | Все права защищены | Политика конфиденциальности"
+          },
+          {
+            "tag": "p",
+            "text": "Контакты"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 9,
+          "headings": 7,
+          "images": 22
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-DCAC68BD",
+      "path": "/ru",
+      "type": "Detected Link",
+      "anchor_text": "Энциклопедия",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-951D6546",
+      "path": "/ru/ancient_world",
+      "type": "Detected Link",
+      "anchor_text": "Древний мир",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D984CFA6",
+      "path": "/ru/middle_world",
+      "type": "Detected Link",
+      "anchor_text": "Средние века и ранний модерн",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-271C2D43",
+      "path": "/ru/new_world",
+      "type": "Detected Link",
+      "anchor_text": "Современные страны",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DAA748A5",
+      "path": "/ru/persons",
+      "type": "Detected Link",
+      "anchor_text": "Персоналии",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2A25BEF",
+      "path": "/ru/inventions",
+      "type": "Detected Link",
+      "anchor_text": "Изобретения",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5D5A54F2",
+      "path": "/ru/country/shumery",
+      "type": "Detected Link",
+      "anchor_text": "Древние цивилизации: как они повлияли на современный мир",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-565D3FD7",
+      "path": "/ru/article/korolevstvo_franciya/anna_kievskaya___koroleva_francii",
+      "type": "Detected Link",
+      "anchor_text": "Средневековая Европа: Киевская Анна королева Франции",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E348ACCF",
+      "path": "/ru/article/novaya_zelandiya/dogovor_vaytangi",
+      "type": "Detected Link",
+      "anchor_text": "Договор Вайтанги",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC409694",
+      "path": "/ru/article/kolumbiya/ispanskoe_zavoevanie_i_osnovanie_novogo_korolevstva_granady",
+      "type": "Detected Link",
+      "anchor_text": "Испанское Завоевание и Основание Нового Королевства Гранады",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-94ADE959",
+      "path": "/ru/article/indiya/arii_i_ih_migraciya_v_indiyu",
+      "type": "Detected Link",
+      "anchor_text": "Арии и их миграция в Индию",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C6BD8A3B",
+      "path": "/ru/country/kolumbiya",
+      "type": "Detected Link",
+      "anchor_text": "История Колумбии",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7E4D4FCF",
+      "path": "/ru/article/kolumbiya/evolyuciya_gosudarstvennoy_sistemy_kolumbii",
+      "type": "Detected Link",
+      "anchor_text": "Эволюция государственной системы Колумбии",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EF032F5F",
+      "path": "/ru/country/aristid_brian",
+      "type": "Detected Link",
+      "anchor_text": "Аристид Бриан: Жизнь и Деятельность",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-775EA55F",
+      "path": "/ru/article/kazahstan/znamenitye_literaturnye_proizvedeniya_kazahstana",
+      "type": "Detected Link",
+      "anchor_text": "Знаменитые литературные произведения Казахстана",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

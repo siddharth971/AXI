@@ -1,0 +1,683 @@
+{
+  "website_blueprint_id": "BLUEPRINT-1AC4F195",
+  "generated_at": "2026-01-21T07:27:04.901Z",
+  "global_configuration": {
+    "brand_name": "NASA",
+    "domain": "www.nasa.gov",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "192.0.66.108",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 70,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/_static/??-eJyNkMFuwjAMhl+IEAYaiMO0ZzGtF1w5dhY7Zd3TrwMO0w4UybIv32f5d7yUQNJx69HiMNdnwzrdxzqTrAdbxUdQyJQqOP6FOxVH8ehnzLMiYPDrJdYTcBAYF8CM0oJrSowLJLcvlVt/4gCnjN8qS0vtDBWDaUfAC2gF6TWHoqWV0JMVhum/Urglkjl+hZF8+tCaLYIZ+vWbs+WxObHdE7znt5fD/vW4Oe62++EHOHabdg=="
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js"
+      },
+      {
+        "path": "/Universal-Federated-Analytics-Min.js",
+        "type": "script",
+        "full_url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&#038;pga4=G-82GWVTTXCZ"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/wp-includes/js/dist/hooks.min.js?m=1765909326g"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      },
+      {
+        "path": "/wp-content/plugins/wp-parsely/build/loader.js",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/wp-content/plugins/wp-parsely/build/loader.js?ver=ecf94842061bea03d54b"
+      },
+      {
+        "path": "/keys/nasa.gov/p.js",
+        "type": "script",
+        "full_url": "https://cdn.parsely.com/keys/nasa.gov/p.js?ver=3.21.2"
+      },
+      {
+        "path": "/wp-content/plugins/accessibility-checker/build/frontendFixes.bundle.js",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/wp-content/plugins/accessibility-checker/build/frontendFixes.bundle.js?ver=1.36.0"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/_static/??/wp-content/plugins/accessibility-checker-pro/build/frontendFixes.bundle.js,/wp-includes/js/dist/dom-ready.min.js?m=1768581568j"
+      },
+      {
+        "path": "/wp-includes/js/dist/a11y.min.js",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nasa.gov/_static/??-eJydkOsOwiAMhV9Ihpeo2Q/jsyCrsxs3Kczs7cVNDSZqpglpWk7Odwr84pi0JoAJ3KlYoyFee9Fh6I/Wa+JNOucIvi8asqbQaFIz4xNs+TzZJ4ggDPYKKfAOTGU9CyfQ8C+DpEcXaDKEDZSbesQ6gz3kUWCJ7ZTocyAaqWIF2afxiFxa/zXWWRcd06IFPy58jyQM8MljBAl2UFa2z+eSQtmO9VvaG+dwpUX9bH7wSuErloqNBOp1SpS93i22m3U5L1fLTXMFx0fqow=="
+      },
+      {
+        "path": "/wp-content/themes/nasa/assets/images/nasa-logo@2x.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_NGC%201333_J521025_3117_2flat_cont_FINAL.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_NGC%201333_J521025_3117_2flat_cont_FINAL.tif?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/boosters.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/boosters.jpg?w=690"
+      },
+      {
+        "path": "/dynamicimage/assets/science/psd/solar-system/skywatching/2026/january/Jupiter%20and%20Saturn_Credit_Bill%20Dunford.jpeg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2026/january/Jupiter%20and%20Saturn_Credit_Bill%20Dunford.jpeg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KECZF6WYB93Z793765XH2MV4.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KECZF6WYB93Z793765XH2MV4.tif?w=1024"
+      },
+      {
+        "path": "/image/iss073e0028436/iss073e0028436~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss073e0028436/iss073e0028436~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/image/iss074e0046389/iss074e0046389~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss074e0046389/iss074e0046389~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/nhq202512200038orig.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/nhq202512200038orig.jpg?w=690"
+      },
+      {
+        "path": "/dynamicimage/assets/science/esd/eo/images/iotd/2026/fires-erupt-in-south-central-chile/chilefires_tmo_20250118_th.jpg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fires-erupt-in-south-central-chile/chilefires_tmo_20250118_th.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-long,-not-long/montgomeryal_oli_20250916_th.jpg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-long,-not-long/montgomeryal_oli_20250916_th.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/cds/general/images/2023/04/m/meatball-1041.jpg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/m/meatball-1041.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/psd/photojournal/pia/pia10/pia10208/PIA10208.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia10/pia10208/PIA10208.tif?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/cds/creative/calendars/2026/nasa-2026-science-calendar-february.jpg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/creative/calendars/2026/nasa-2026-science-calendar-february.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/dragonfly-tdt-setup-092025.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/dragonfly-tdt-setup-092025.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_CepheusA_1_Vmix_FINAL.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_CepheusA_1_Vmix_FINAL.tif?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_Lupus3_48_TT_new_cont_FINAL.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_Lupus3_48_TT_new_cont_FINAL.tif?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/cds/general/images/2023/04/g/gbe-mission-patch.png",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/g/gbe-mission-patch.png?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/afrc2025-0168-030-edit.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/afrc2025-0168-030-edit.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/acd25-0112-003-blockchain-test-drone-photo.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/acd25-0112-003-blockchain-test-drone-photo.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/first-flight-b-roll-thumb-04.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/07/first-flight-b-roll-thumb-04.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/esd/eo/images/imagerecords/78000/78540/flare131_sdo_2012194_front.jpg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/78000/78540/flare131_sdo_2012194_front.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/2-infrastructure-mr.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2025/04/2-infrastructure-mr.png?w=688"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/artemis-base-camp-3-2.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/06/artemis-base-camp-3-2.png?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/fy25-budget-cover-no-text.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2024/03/fy25-budget-cover-no-text.png?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/54085564808-3d495f8355-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/54085564808-3d495f8355-o.jpg?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/astro/exo-explore/2023/09/TRAPPIST-1e_LEO_Const_CMYK_Print.tiff",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/TRAPPIST-1e_LEO_Const_CMYK_Print.tiff?w=1024"
+      },
+      {
+        "path": "/dynamicimage/assets/science/astro/exo-explore/2023/09/wallpaper_kepler_186f.jpeg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/wallpaper_kepler_186f.jpeg?w=1024"
+      },
+      {
+        "path": "/image/NHQ202601170022/NHQ202601170022~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/NHQ202601170022/NHQ202601170022~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/crew-11-return-image-jan-16.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/crew-11-return-image-jan-16.jpg?w=1024"
+      },
+      {
+        "path": "/image/jsc2024e077037_alt/jsc2024e077037_alt~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/jsc2024e077037_alt/jsc2024e077037_alt~large.jpg?w=1920&amp;h=1389&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/artemis-ii-preflight-nhq202601170045.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-preflight-nhq202601170045.jpg?w=683"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/01/STScI-01KCMAMZ8ZSMRTR9KKD8Y6EMRJ.png"
+      },
+      {
+        "path": "/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_CepheusA_1_Vmix_FINAL.tif",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/young-stars/Hubble_CepheusA_1_Vmix_FINAL.tif"
+      },
+      {
+        "path": "/dynamicimage/assets/science/esd/articles/2026/Photo%20Credit%20Jacqueline%20Clarke%202.JPG",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/Photo%20Credit%20Jacqueline%20Clarke%202.JPG"
+      },
+      {
+        "path": "/dynamicimage/assets/science/psd/solar-system/skywatching/2026/january/Jupiter%20and%20Saturn_Credit_Bill%20Dunford.jpeg",
+        "type": "image",
+        "full_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2026/january/Jupiter%20and%20Saturn_Credit_Bill%20Dunford.jpeg"
+      },
+      {
+        "path": "/image/iss071e650778/iss071e650778~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss071e650778/iss071e650778~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/53906743054-80f4972233-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/01/53906743054-80f4972233-o.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/edu_srch_microsofts_hacking_stem.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/02/edu_srch_microsofts_hacking_stem.jpg?w=320"
+      },
+      {
+        "path": "/image/iss063e053998/iss063e053998~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss063e053998/iss063e053998~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/moon-mars.jpeg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/02/moon-mars.jpeg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/hubble-ngc-1333-j521025-3117-2flat-cont-final.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/hubble-ngc-1333-j521025-3117-2flat-cont-final.jpg?w=1536"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/54395953937-5b2d54995a-o-1.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/54395953937-5b2d54995a-o-1.jpg?w=300"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/54995898021-4d46692e6b-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/54995898021-4d46692e6b-o.jpg?w=300"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/54441619779-1f2221272f-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2026/01/54441619779-1f2221272f-o.jpg?w=300"
+      },
+      {
+        "path": "/image/iss073e0008485/iss073e0008485~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss073e0008485/iss073e0008485~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/image/iss072e882080/iss072e882080~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/iss072e882080/iss072e882080~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/iss01-389-023-fec693.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2025/11/iss01-389-023-fec693.jpg?w=300"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/iss01e6886-c9cac4.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2025/10/iss01e6886-c9cac4.jpg?w=300"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/iss008e20610.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2025/10/iss008e20610.jpg?w=300"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/webb-tarantula-neb.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?w=1536"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/15404646465-7920e6d9b7-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2023/02/15404646465-7920e6d9b7-o.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/51476067951-e10dfb6875-o.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2022/12/51476067951-e10dfb6875-o.jpg?w=1024"
+      },
+      {
+        "path": "/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "type": "image",
+        "full_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg",
+        "type": "image",
+        "full_url": "https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg",
+        "type": "image",
+        "full_url": "https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/hubble_faq_image-jpg.webp",
+        "type": "image",
+        "full_url": "https://science.nasa.gov/wp-content/uploads/2023/04/hubble_faq_image-jpg.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/p23-171-176.jpg",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2025/05/p23-171-176.jpg?w=1024"
+      },
+      {
+        "path": "/wp-content/uploads/2022/12/nasa_technology1.png",
+        "type": "image",
+        "full_url": "https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png?w=1017"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "NASA",
+        "description": "NASA.gov brings you the latest news, images and videos from America&#039;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+        "canonical": "https://www.nasa.gov"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2177ms"
+        },
+        {
+          "resource": "_static",
+          "latency": "pending"
+        },
+        {
+          "resource": "api.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "Universal-Federated-Analytics-Min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Suggested Searches",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured News",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "A Place in Space to Call Home",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Explore Search News &amp; Events News &amp; Events News Releases Recently Published Video Series on NASA+ Podcasts &amp; Audio Blogs Newsletters Social Media Media Resources Events Upcoming Launches &amp; Landings Virtual Guest Program Multimedia Multimedia NASA+ Images NASA Live NASA Apps Podcasts Image of the Day e-Books Interactives STEM Multimedia NASA Brand &amp; Usage Guidelines NASA+ Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z Home Missions Humans in Space Earth The Solar System The Universe Science Aeronautics Technology Learning Resources About NASA Español News &amp; Events Multimedia NASA+ Featured 3 min read Hubble Nets Menagerie of Young Stellar Objects article 1 week ago 7 min read Final Steps Underway for NASA’s First Crewed Artemis Moon Mission article 2 weeks ago 3 min read What’s Up: January 2026 Skywatching Tips from NASA article 2 weeks ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launches and Landings Spaceships and Rockets Communicating with Missions Artemis James Webb Space Telescope Hubble Space Telescope International Space Station OSIRIS-Rex Humans in Space Why Go to Space Astronauts Commercial Space Destinations Spaceships and Rockets Living in Space Earth Explore Earth Science Climate Change Earth, Our Planet Earth Science in Action Earth Multimedia Earth Data Earth Science Researchers The Solar System The Sun Mercury Venus Earth The Moon Mars Jupiter Saturn Uranus Neptune Pluto &amp; Dwarf Planets Asteroids, Comets &amp; Meteors The Kuiper Belt The Oort Cloud Skywatching The Universe Exoplanets The Search for Life in the Universe Stars Galaxies Black Holes The Big Bang Dark Energy Dark Matter Science Earth Science Planetary Science Astrophysics &amp; Space Science The Sun &amp; Heliophysics Biological &amp; Physical Sciences Lunar Science Citizen Science Astromaterials Aeronautics Research Human Space Travel Research Aeronautics Science in the Air NASA Aircraft Flight Innovation Supersonic Flight Air Traffic Solutions Green Aviation Tech Drones &amp; You Technology Technology Transfer &amp; Spinoffs Space Travel Technology Technology Living in Space Manufacturing and Materials Robotics Science Instruments Computing Learning Resources For Kids and Students For Educators For Colleges and Universities For Professionals Science for Everyone Requests for Exhibits, Artifacts, or Speakers STEM Engagement at NASA About NASA NASA&#039;s Impacts Centers and Facilities Directorates Organizations People of NASA Careers Internships Our History Doing Business with NASA Get Involved Contact NASA en Español Ciencia Aeronáutica Ciencias Terrestres Sistema Solar Universo News &amp; Events News Releases Recently Published Video Series on NASA+ Podcasts &amp; Audio Blogs Newsletters Social Media Media Resources Events Upcoming Launches &amp; Landings Virtual Guest Program Multimedia NASA+ Images NASA Live NASA Apps Podcasts Image of the Day e-Books Interactives STEM Multimedia NASA Brand &amp; Usage Guidelines Featured 3 min read Hubble Nets Menagerie of Young Stellar Objects article 1 week ago 7 min read NASA’s Webb Delivers Unprecedented Look Into Heart of Circinus Galaxy article 1 week ago 7 min read Final Steps Underway for NASA’s First Crewed Artemis Moon Mission article 2 weeks ago Highlights 5 min read Out of This World Discoveries: Space Station Research in 2025 article 5 days ago 4 min read NASA’s SpaceX Crew-11 Wraps Up Space Station Science article 5 days ago 11 min read Últimos preparativos para la primera misión tripulada a la Luna con la campaña Artemis de la NASA article 1 week ago Highlights 2 min read Fires Erupt in South-Central Chile article 2 hours ago 4 min read How Long, Not Long article 2 days ago 1 min read Geosphere Publications and Research Highlights article 5 days ago Highlights 1 min read Amendment 38: D.5 Astrophysics Pioneers Updates and Due Dates Delayed article 6 days ago 2 min read Amendment 37: New Opportunity: C.12 Foundational Artificial Intelligence for the Moon and Mars article 1 week ago 6 min read Flight Engineers Give NASA’s Dragonfly Lift article 2 weeks ago Featured 4 min read Intricacies of Helix Nebula Revealed With NASA’s Webb article 16 hours ago 3 min read Hubble Snaps Stellar Baby Pictures article 4 days ago 2 min read Hubble Observes Ghostly Cloud Alive with Star Formation article 5 days ago Highlights 2 min read Growing Beyond Earth® article 13 hours ago 4 min read Intricacies of Helix Nebula Revealed With NASA’s Webb article 16 hours ago 3 min read Hubble Snaps Stellar Baby Pictures article 4 days ago Highlights 5 min read NASA Chase Aircraft Ensures X-59&#8217;s Safety in Flight article 12 hours ago 3 min read NASA Develops Blockchain Technology to Enhance Air Travel Safety and Security article 4 days ago 12 min read NASA Armstrong Advances Flight Research and Innovation in 2025 article 4 weeks ago Highlights 1 min read B.6 Heliophysics Technology and Instrument Development for Science article 4 days ago 1 min read Amendment 38: D.5 Astrophysics Pioneers Updates and Due Dates Delayed article 6 days ago 4 min read NASA Back for Seconds with New Food System Design Challenge article 1 week ago Featured 1 min read Join the Artemis Mission to the Moon article 2 months ago Featured 4 min read NASA Back for Seconds with New Food System Design Challenge article 1 week ago 3 min read NASA Bolsters Golden Age of Exploration with Technology Priorities article 1 week ago 7 min read A Quarter Century in Orbit: Science Shaping Life on Earth and Beyond article 1 week ago Highlights 11 min read Últimos preparativos para la primera misión tripulada a la Luna con la campaña Artemis de la NASA article 1 week ago 1 min read TRAPPIST-1 e — Guided Tour-es article 1 month ago 1 min read Kepler-186 f — Guided Tour-es article 1 month ago Moonbound Four astronauts will venture around the Moon on Artemis II, the first crewed mission on NASA&#039;s path to establishing a long-term presence at the Moon for science and exploration through Artemis. The 10-day flight will help confirm systems and hardware needed for early human lunar exploration missions."
+          },
+          {
+            "tag": "h3",
+            "text": "THE EXPLORERS"
+          },
+          {
+            "tag": "p",
+            "text": "NASA+ ORIGINAL Moonbound NASa podcast NASA&#039;s Curious Universe Featured News Recently Published News Release 3 Min Read NASA’s SpaceX Crew-11 to Discuss Space Station Science Mission"
+          },
+          {
+            "tag": "p",
+            "text": "Article 4 Min Read NASA’s SpaceX Crew-11 Wraps Up Space Station Science"
+          },
+          {
+            "tag": "p",
+            "text": "Blog 2 Min Read Expedition 74 Continues After Crew-11 Returns to Earth"
+          },
+          {
+            "tag": "p",
+            "text": "Blog 2 Min Read NASA’s Moonbound Artemis II Rocket Reaches Launch Pad"
+          },
+          {
+            "tag": "p",
+            "text": "Intricacies of Helix Nebula Revealed With NASA’s Webb"
+          },
+          {
+            "tag": "p",
+            "text": "Article 3 Min Read Hubble Snaps Stellar Baby Pictures"
+          },
+          {
+            "tag": "p",
+            "text": "Article 6 Min Read NASA Data Helps Maine Oyster Farmers Choose Where to Grow"
+          },
+          {
+            "tag": "p",
+            "text": "Article 3 Min Read What’s Up: January 2026 Skywatching Tips from NASA"
+          },
+          {
+            "tag": "p",
+            "text": "Article A Place in Space to Call Home In the latest episode of Houston We Have a Podcast, NASA astronaut Tracy Dyson reflects on her career aboard the International Space Station and what 25 years of continuous human presence in space means for the future of exploration."
+          },
+          {
+            "tag": "p",
+            "text": "Humans in Space Discover More Living in Space Astronauts Why Go to Space Destinations Today Image Of The Day Hubble Nets Menagerie of Young Stellar Objects"
+          },
+          {
+            "tag": "p",
+            "text": "A bright reflection nebula shares the stage with a protostar and planet-forming disk in this Hubble image."
+          },
+          {
+            "tag": "p",
+            "text": "Today Image Of The Day View image Image Galleries More NASA Images Best of 2025 by NASA HQ Photo Gallery 100 Images 2025 Space Station Science Snapshots Gallery 29 Images Space Station 25th Anniversary Science Images Gallery 40 Images Explore the Universe from your Inbox Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond."
+          },
+          {
+            "tag": "p",
+            "text": "We will never share your email address."
+          },
+          {
+            "tag": "p",
+            "text": "Privacy Policy"
+          },
+          {
+            "tag": "p",
+            "text": "More Topics from NASA Missions Humans In Space Earth Our Solar System Universe Science Missions Aeronautics Technology National Aeronautics and Space Administration NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery."
+          },
+          {
+            "tag": "h3",
+            "text": "Follow NASA"
+          },
+          {
+            "tag": "h2",
+            "text": "Was this page helpful?"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 295,
+          "headings": 94,
+          "images": 71
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-E83FF13D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2ACDA993",
+      "path": "/nasa-missions/",
+      "type": "Detected Link",
+      "anchor_text": "Missions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C39FA8D3",
+      "path": "/humans-in-space/",
+      "type": "Detected Link",
+      "anchor_text": "Humans in Space",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-232B2075",
+      "path": "/aeronautics/",
+      "type": "Detected Link",
+      "anchor_text": "Aeronautics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-61BE2234",
+      "path": "/technology/",
+      "type": "Detected Link",
+      "anchor_text": "Technology",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8A815351",
+      "path": "/learning-resources/",
+      "type": "Detected Link",
+      "anchor_text": "Learning Resources",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-369E01E7",
+      "path": "/about/",
+      "type": "Detected Link",
+      "anchor_text": "About NASA",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5ED9CB48",
+      "path": "/es/",
+      "type": "Detected Link",
+      "anchor_text": "Español",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5170BFCB",
+      "path": "/missions/artemis/artemis-2/final-steps-underway-for-nasas-first-crewed-artemis-moon-mission/",
+      "type": "Detected Link",
+      "anchor_text": "7 min readFinal Steps Underway for NASA’s First Crewed Artemis Moon Missionarticle2 weeks ago",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3F44BB5E",
+      "path": "/missions/",
+      "type": "Detected Link",
+      "anchor_text": "Search All NASA Missions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F895AD7C",
+      "path": "/a-to-z-of-nasa-missions/",
+      "type": "Detected Link",
+      "anchor_text": "A to Z List of Missions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1C0AEDB3",
+      "path": "/events/",
+      "type": "Detected Link",
+      "anchor_text": "Upcoming Launches and Landings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8BF5A793",
+      "path": "/humans-in-space/spaceships-and-rockets/",
+      "type": "Detected Link",
+      "anchor_text": "Spaceships and Rockets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-988E69A5",
+      "path": "/communicating-with-missions/",
+      "type": "Detected Link",
+      "anchor_text": "Communicating with Missions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6420C041",
+      "path": "/humans-in-space/artemis/",
+      "type": "Detected Link",
+      "anchor_text": "Artemis",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,981 @@
+{
+  "website_blueprint_id": "BLUEPRINT-B8FCE8FF",
+  "generated_at": "2026-01-21T07:26:54.085Z",
+  "global_configuration": {
+    "brand_name": "Open",
+    "domain": "enatega.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "93.127.173.242",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "hcdn"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "hcdn"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 4,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/npm/intl-tel-input@20.2.0/build/js/intlTelInput.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/intl-tel-input@20.2.0/build/js/intlTelInput.min.js"
+      },
+      {
+        "path": "/npm/intl-tel-input@20.2.0/build/js/utils.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/intl-tel-input@20.2.0/build/js/utils.js"
+      },
+      {
+        "path": "/npm/intl-tel-input@20.2.0/build/css/intlTelInput.css",
+        "type": "stylesheet",
+        "full_url": "https://cdn.jsdelivr.net/npm/intl-tel-input@20.2.0/build/css/intlTelInput.css"
+      },
+      {
+        "path": "/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-7087bed/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x.webp",
+        "type": "image",
+        "full_url": "https://cdn-inech.nitrocdn.com/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-7087bed/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Open-Source Delivery App Solution for Businesses | Enatega",
+        "description": "Enatega is open-source ready-to-use solution that enables businesses to launch their own delivery platforms or clone app solutions to keep you competitive.",
+        "canonical": "https://enatega.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2362ms"
+        },
+        {
+          "resource": "intlTelInput.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "utils.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "intlTelInput.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Stop Renting Software. Own Your Delivery System in 5 Days For  Restaurants Grocery Stores   Gift Stores Flower Shop Food Chains Liquor Store Pharmacy Courier Services Spa and Salon Laundry Business Handyman Business Dairy Business Restaurants",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "See Our Platforms in Action",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "See Every  Enatega Vertical in Action!",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Why Businesses Choose Enatega",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Happy"
+          },
+          {
+            "tag": "p",
+            "text": "christmas"
+          },
+          {
+            "tag": "p",
+            "text": "get 60% off"
+          },
+          {
+            "tag": "p",
+            "text": "First ever AI powered All-in-one Super App in Qatar"
+          },
+          {
+            "tag": "p",
+            "text": "Food and Grocery, in One Place"
+          },
+          {
+            "tag": "p",
+            "text": "Platform that provides on-demand mobile hair"
+          },
+          {
+            "tag": "p",
+            "text": "Campus food delivery company"
+          },
+          {
+            "tag": "p",
+            "text": "Wine retail and delivery business"
+          },
+          {
+            "tag": "p",
+            "text": "Snap Delivered is a food delivery platform powered by Enatega"
+          },
+          {
+            "tag": "p",
+            "text": "Bringing African Cuisine to Food Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "✖ Case studies Lumi Super AI App Yalla Delivery StylizeNOW Easy Eats Vinifynd Snap Delivered Borku Delivery Use cases Gift Delivery Solution Liquor Delivery Solution Food And Beverage solution Laundry On-Demand Services Solution Milk Delivery Solution Flower Delivery Solution Courier Delivery Solution Roadside Assistance Services Solution Grocery Delivery Solution Medicine Delivery Solution Beauty Services Scheduling Solution Document Delivery Solution Documentation Blog Features Pricing Register Delivery Business Platform Stop Renting Software. Own Your Delivery System in 5 Days For Restaurants Grocery Stores Gift Stores Flower Shop Food Chains Liquor Store Pharmacy Courier Services Spa and Salon Laundry Business Handyman Business Dairy Business Restaurants Gain complete ownership with no strings attached. Host the solution on your own server in less than 5 days. Customize the prebuilt platform to fit your needs and enjoy free updates."
+          },
+          {
+            "tag": "h6",
+            "text": "Lumi"
+          },
+          {
+            "tag": "p",
+            "text": "First ever AI powered All-in-one Super App in Qatar"
+          },
+          {
+            "tag": "h6",
+            "text": "Yalla"
+          },
+          {
+            "tag": "p",
+            "text": "60,000 active users achieved in their first year."
+          },
+          {
+            "tag": "h6",
+            "text": "Snap Delivered"
+          },
+          {
+            "tag": "p",
+            "text": "Snap Delivered has onboarded over 100 stores so far."
+          },
+          {
+            "tag": "h6",
+            "text": "Easy Eats"
+          },
+          {
+            "tag": "p",
+            "text": "Successfully launched a brand new startup with investors."
+          },
+          {
+            "tag": "h6",
+            "text": "Borku"
+          },
+          {
+            "tag": "p",
+            "text": "Borku has saved $100,000 USD in commissions."
+          },
+          {
+            "tag": "h6",
+            "text": "Vinifynd"
+          },
+          {
+            "tag": "p",
+            "text": "The first ever wine delivery solution in the region."
+          },
+          {
+            "tag": "h6",
+            "text": "Lumi"
+          },
+          {
+            "tag": "p",
+            "text": "First ever AI powered All-in-one Super App in Qatar"
+          },
+          {
+            "tag": "h6",
+            "text": "Yalla"
+          },
+          {
+            "tag": "p",
+            "text": "60,000 active users achieved in their first year."
+          },
+          {
+            "tag": "h6",
+            "text": "Snap Delivered"
+          },
+          {
+            "tag": "p",
+            "text": "Snap Delivered has onboarded over 100 stores so far."
+          },
+          {
+            "tag": "h6",
+            "text": "Easy Eats"
+          },
+          {
+            "tag": "p",
+            "text": "Successfully launched a brand new startup with investors."
+          },
+          {
+            "tag": "h6",
+            "text": "Borku"
+          },
+          {
+            "tag": "p",
+            "text": "Borku has saved $100,000 USD in commissions."
+          },
+          {
+            "tag": "h6",
+            "text": "Vinifynd"
+          },
+          {
+            "tag": "p",
+            "text": "The first ever wine delivery solution in the region."
+          },
+          {
+            "tag": "h2",
+            "text": "See Our Platforms in Action"
+          },
+          {
+            "tag": "p",
+            "text": "Preview our end-to-end delivery solution — from Customer ordering to Vendor management, Rider operations, and Admin control."
+          },
+          {
+            "tag": "h6",
+            "text": "Admin Dashboard"
+          },
+          {
+            "tag": "h6",
+            "text": "Customer Web"
+          },
+          {
+            "tag": "h6",
+            "text": "Store App"
+          },
+          {
+            "tag": "h6",
+            "text": "Rider App"
+          },
+          {
+            "tag": "h2",
+            "text": "See Every Enatega Vertical in Action!"
+          },
+          {
+            "tag": "p",
+            "text": "Access our demos to get hands on with the full Enatega suite in real time!&nbsp;"
+          },
+          {
+            "tag": "h6",
+            "text": "Food Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Ready-to-Launch Food Service"
+          },
+          {
+            "tag": "h6",
+            "text": "Taxi Booking"
+          },
+          {
+            "tag": "p",
+            "text": "White Label Taxi Booking Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Flower Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Bloom with Online Flower Deliveries"
+          },
+          {
+            "tag": "h6",
+            "text": "Grocery Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Launch Your Own Grocery Delivery App"
+          },
+          {
+            "tag": "h6",
+            "text": "Document Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "All-in-One Document Delivery Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Liquor Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Liquor Delivery App Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Gift Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Ready-to-Launch Gift Delivery Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Laundry On-Demand"
+          },
+          {
+            "tag": "p",
+            "text": "Convenient Laundry Delivery Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Milk Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Milk Delivery Development Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Courier Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "Door-to-Door Courier Delivery Services"
+          },
+          {
+            "tag": "h6",
+            "text": "Roadside Assistance"
+          },
+          {
+            "tag": "p",
+            "text": "Hassle-Free Roadside Assistance"
+          },
+          {
+            "tag": "h6",
+            "text": "Medicine Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "On-Demand Pharmacy Delivery Solution"
+          },
+          {
+            "tag": "h6",
+            "text": "Beauty Services"
+          },
+          {
+            "tag": "p",
+            "text": "On-Demand Salon Service App Development"
+          },
+          {
+            "tag": "h6",
+            "text": "Pet Marketplace"
+          },
+          {
+            "tag": "p",
+            "text": "White Label Pet Marketplace Solution"
+          },
+          {
+            "tag": "h2",
+            "text": "Why Businesses Choose Enatega"
+          },
+          {
+            "tag": "p",
+            "text": "Enatega gives you a fully owned delivery system that is scalable and completely under your control."
+          },
+          {
+            "tag": "p",
+            "text": "Complete control to customize &amp; extend your platform."
+          },
+          {
+            "tag": "p",
+            "text": "Pay once—operate freely without recurring charges."
+          },
+          {
+            "tag": "p",
+            "text": "Your data stays with you, not on third-party servers."
+          },
+          {
+            "tag": "p",
+            "text": "Launch for food, grocery, flower, courier, or services."
+          },
+          {
+            "tag": "p",
+            "text": "Optimized for speed, usability, and conversions."
+          },
+          {
+            "tag": "p",
+            "text": "One platform powering multiple business types."
+          },
+          {
+            "tag": "p",
+            "text": "Get live fast with our efficient setup process."
+          },
+          {
+            "tag": "p",
+            "text": "Infrastructure designed to grow with your business."
+          },
+          {
+            "tag": "h2",
+            "text": "How to Get Started"
+          },
+          {
+            "tag": "p",
+            "text": "Select the package that fits your business needs."
+          },
+          {
+            "tag": "p",
+            "text": "After completing the purchase, get access to the solution right away."
+          },
+          {
+            "tag": "p",
+            "text": "You can deploy the backend yourself or use our team to do it for you!"
+          },
+          {
+            "tag": "p",
+            "text": "Publish your apps and start taking orders."
+          },
+          {
+            "tag": "h2",
+            "text": "What's included? Absolutely everything."
+          },
+          {
+            "tag": "p",
+            "text": "Absolutely everything you need to get a fast and efficient delivery business off the ground!"
+          },
+          {
+            "tag": "h5",
+            "text": "All Essential Apps"
+          },
+          {
+            "tag": "p",
+            "text": "Full-featured iOS, Android, and Web app for customers, vendors and riders"
+          },
+          {
+            "tag": "h5",
+            "text": "Full Source Code"
+          },
+          {
+            "tag": "p",
+            "text": "Full ownership of frontend, backend, and mobile apps."
+          },
+          {
+            "tag": "h5",
+            "text": "Deployment Support"
+          },
+          {
+            "tag": "p",
+            "text": "Full documentation and video tutorials along with technical support."
+          },
+          {
+            "tag": "h5",
+            "text": "Admin Dashboard"
+          },
+          {
+            "tag": "p",
+            "text": "Control settings, vendors, menus payouts, zones, promotions, analytics and more."
+          },
+          {
+            "tag": "h5",
+            "text": "Get 6 Months of Updates"
+          },
+          {
+            "tag": "p",
+            "text": "Get free updates for 6 months after your purchase!"
+          },
+          {
+            "tag": "h2",
+            "text": "Reviews from our Customer"
+          },
+          {
+            "tag": "p",
+            "text": "Hear what our happy customers are saying about Enatega!"
+          },
+          {
+            "tag": "h2",
+            "text": "Transparent, Flexible Pricing"
+          },
+          {
+            "tag": "p",
+            "text": "Enatega has a simple pricing model. No recurring subscriptions and no additional charges on delivery. Just pay once and get the whole solution, no strings attached."
+          },
+          {
+            "tag": "p",
+            "text": "Basic Plan"
+          },
+          {
+            "tag": "h4",
+            "text": "Budget-Friendly Plan"
+          },
+          {
+            "tag": "p",
+            "text": "Perfect for startups and small businesses looking for a powerful yet affordable solution."
+          },
+          {
+            "tag": "p",
+            "text": "Classic Enatega UI – Proven, Stable, and Fully Functional"
+          },
+          {
+            "tag": "p",
+            "text": "Full source code provided upon purchase"
+          },
+          {
+            "tag": "p",
+            "text": "One-Time Payment, No recurring fees or hidden charges"
+          },
+          {
+            "tag": "p",
+            "text": "No additional Setup Fee"
+          },
+          {
+            "tag": "p",
+            "text": "Complete control over deployment and modification"
+          },
+          {
+            "tag": "p",
+            "text": "Data Security"
+          },
+          {
+            "tag": "p",
+            "text": "Unlimited Users and Listings"
+          },
+          {
+            "tag": "p",
+            "text": "Customer App, Rider App, Store App, Admin Panel, and Website"
+          },
+          {
+            "tag": "p",
+            "text": "Ideal for developers or teams who want full ownership and customization flexibility"
+          },
+          {
+            "tag": "p",
+            "text": "Package Differences"
+          },
+          {
+            "tag": "p",
+            "text": "Most Popular"
+          },
+          {
+            "tag": "p",
+            "text": "Premium Plan"
+          },
+          {
+            "tag": "h4",
+            "text": "Feature-Rich Delivery Suite"
+          },
+          {
+            "tag": "p",
+            "text": "Ideal for growing businesses seeking advanced features, scalability and long-term value."
+          },
+          {
+            "tag": "p",
+            "text": "Modern and beautifully designed UI across all apps"
+          },
+          {
+            "tag": "p",
+            "text": "Rich in features for smooth, scalable operations"
+          },
+          {
+            "tag": "p",
+            "text": "Built using the latest and most efficient technology stack"
+          },
+          {
+            "tag": "p",
+            "text": "Includes Admin, Rider, Restaurant,Web and Customer app"
+          },
+          {
+            "tag": "p",
+            "text": "Full Source Code provided upon purchase."
+          },
+          {
+            "tag": "p",
+            "text": "No hidden charges, subscription fees, or delivery-based costs"
+          },
+          {
+            "tag": "p",
+            "text": "No Additional Charges per Delivery"
+          },
+          {
+            "tag": "p",
+            "text": "6 months of Free Updated"
+          },
+          {
+            "tag": "p",
+            "text": "Openly Available Documentation and Tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "Free 2 hours technical consultation with Enatega developers"
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise Plan"
+          },
+          {
+            "tag": "h4",
+            "text": "Custom Plan – Tailored for You"
+          },
+          {
+            "tag": "p",
+            "text": "Best for enterprises that need advanced features and deployment support."
+          },
+          {
+            "tag": "p",
+            "text": "Everything in Premium Plan + Custom deployment and development"
+          },
+          {
+            "tag": "p",
+            "text": "Custom Pricing (Installments Available - Pay only for deployment and modifications upfront)"
+          },
+          {
+            "tag": "p",
+            "text": "Feature integration tailored to your business needs"
+          },
+          {
+            "tag": "p",
+            "text": "Full system modification as per your requirements"
+          },
+          {
+            "tag": "p",
+            "text": "Continuous collaboration with Enatega developers"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced support and personalized technical guidance"
+          },
+          {
+            "tag": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "tag": "p",
+            "text": "The front-end of our solution is completely open-source and available to everyone. However, our back-end and more specifically our APIs, are proprietary and can be acquired via paid license."
+          },
+          {
+            "tag": "p",
+            "text": "Enatega is perfect for customers looking to deploy a readymade and easy to use platform for their food delivery and logistics business. Just like foodpanda and ubereats, our solution can incorporate multiple restaurants as well as restaurants that operate in multiple locations. With access to the admin panel and separate applications for customers and riders, you can use this solution to create your own foodpanda/ clone instantaneously."
+          },
+          {
+            "tag": "p",
+            "text": "Yes, it is fully customizable. However, additional changes that are outside our scope of work will be subject to further charges."
+          },
+          {
+            "tag": "p",
+            "text": "Our demos are easily available on our website as well as our Youtube channel. You can find it here."
+          },
+          {
+            "tag": "p",
+            "text": "Yes, the platform can be used anywhere in the world. We currently have customers using the platform from all over the world. Our API integrations are ones that can be used globally."
+          },
+          {
+            "tag": "p",
+            "text": "Yes it does support cash payments. The customer has the choice to either pay via debit/credit card via stripe, or they can use paypal or simply cash. You can also integrate other payment options but that would require modifications within the code."
+          },
+          {
+            "tag": "p",
+            "text": "You can make any changes yourself if you or your team is familiar with the tech stack. If you need assistance with deployment or customizations, our parent company Ninjas Code can handle that for you, their pricing plans are mentioned on the website: www.ninjascode.com . Please note that currently the Ninjas Code team is only handling deployments for Enatega for clients who have purchased the backend."
+          },
+          {
+            "tag": "p",
+            "text": "We provide free 2 hours of consultation with our development team on google meet after purchase, should you require it."
+          },
+          {
+            "tag": "p",
+            "text": "The product is considered as the final version, so there are no planned updates or maintenance. However, when we push updates to the frontend, they’ll be available to you through our repo."
+          },
+          {
+            "tag": "p",
+            "text": "Once you purchase the backend license, the code that is sent to you is your property. Enatega will not make any claims of ownership for any apps and platforms initiated using our acquired backend."
+          },
+          {
+            "tag": "p",
+            "text": "Yes. With Enatega, you don’t just rent software, you fully own your food delivery marketplace. Our solution includes customer, restaurant, and driver apps plus an admin panel, all delivered with complete source code. This means you can run your marketplace under your own brand, customize features to your needs, and scale without limits. Unlike SaaS platforms, there are no monthly commissions or vendor lock-ins."
+          },
+          {
+            "tag": "h3",
+            "text": "Register Now to get started today"
+          },
+          {
+            "tag": "h3",
+            "text": "What do you want to Choose?"
+          },
+          {
+            "tag": "p",
+            "text": "Android"
+          },
+          {
+            "tag": "h6",
+            "text": "Get in Touch"
+          },
+          {
+            "tag": "h6",
+            "text": "Compare"
+          },
+          {
+            "tag": "h6",
+            "text": "Case Studies"
+          },
+          {
+            "tag": "h6",
+            "text": "Resources"
+          },
+          {
+            "tag": "h6",
+            "text": "Clone"
+          },
+          {
+            "tag": "h6",
+            "text": "Usecases"
+          },
+          {
+            "tag": "h5",
+            "text": "App Title"
+          },
+          {
+            "tag": "p",
+            "text": "App description will go here."
+          },
+          {
+            "tag": "p",
+            "text": "Demo Links"
+          },
+          {
+            "tag": "h2",
+            "text": "Customer App"
+          },
+          {
+            "tag": "p",
+            "text": "Provide users with a user friendly and intuitive experience with our customer app. With a quick and simple onboarding process, users can sign up and start ordering their favourite meals and groceries in no time"
+          },
+          {
+            "tag": "p",
+            "text": "View Demo View Demo Rider App Empower your delivery riders with our efficient and user-friendly Rider App. Streamline order assignments, route optimization, and real-time tracking to ensure timely deliveries and customer satisfaction."
+          },
+          {
+            "tag": "p",
+            "text": "View Demo View Demo Store App Enhance restaurant operations with our feature-rich Restaurant App. Manage orders, update menus, and track performance all in one place. Boost efficiency and provide a seamless experience for your restaurant partners."
+          },
+          {
+            "tag": "p",
+            "text": "View Demo View Demo Website Showcase your food delivery service with our responsive and attractive website. Highlight your offerings, partner restaurants, and make online ordering a breeze for your customers across all devices."
+          },
+          {
+            "tag": "h2",
+            "text": "Admin Web Dashboard"
+          },
+          {
+            "tag": "p",
+            "text": "Take control of your food delivery business with our comprehensive Admin Web Dashboard. Manage users, restaurants, orders, and gain valuable insights with advanced analytics and reporting tools."
+          },
+          {
+            "tag": "h2",
+            "text": "Server"
+          },
+          {
+            "tag": "p",
+            "text": "Power your food delivery ecosystem with our robust and scalable server infrastructure. Ensure smooth operations, real-time data synchronization, and seamless integration across all platforms."
+          },
+          {
+            "tag": "h2",
+            "text": "DeliverXpress Customer"
+          },
+          {
+            "tag": "h2",
+            "text": "DeliverXpress Restaurant"
+          },
+          {
+            "tag": "h2",
+            "text": "DeliverXpress Rider"
+          },
+          {
+            "tag": "h2",
+            "text": "DeliverXpress Web"
+          },
+          {
+            "tag": "h2",
+            "text": "DeliverXpress Admin"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 130,
+          "headings": 67,
+          "images": 231
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5AE6DB59",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Get This Offer Now!",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F3EEA8A2",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3DF1D928",
+      "path": "/lumi-super-ai-app/",
+      "type": "Detected Link",
+      "anchor_text": "Lumi Super AI AppFirst ever AI powered All-in-one Super App in Qatar",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F7DE2224",
+      "path": "/yalla-delivery/",
+      "type": "Detected Link",
+      "anchor_text": "Yalla DeliveryFood and Grocery, in One Place",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1E7B9E2E",
+      "path": "/stylizenow/",
+      "type": "Detected Link",
+      "anchor_text": "StylizeNOWPlatform that provides on-demand mobile hair",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B89D503C",
+      "path": "/easy-eats/",
+      "type": "Detected Link",
+      "anchor_text": "Easy EatsCampus food delivery company",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ACD61AC5",
+      "path": "/vinifynd/",
+      "type": "Detected Link",
+      "anchor_text": "VinifyndWine retail and delivery business",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FCFD1975",
+      "path": "/snap-delivered/",
+      "type": "Detected Link",
+      "anchor_text": "Snap DeliveredSnap Delivered is a food delivery platform powered by Enatega",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-458E1863",
+      "path": "/borku-delivery/",
+      "type": "Detected Link",
+      "anchor_text": "Borku DeliveryBringing African Cuisine to Food Delivery",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA817111",
+      "path": "/gift-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Gift Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-021A8574",
+      "path": "/milk-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Milk Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC01D0DC",
+      "path": "/grocery-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Grocery Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-77A341EE",
+      "path": "/liquor-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Liquor Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D208F7FC",
+      "path": "/flower-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Flower Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-748F2A17",
+      "path": "/medicine-delivery-solution/",
+      "type": "Detected Link",
+      "anchor_text": "Medicine Delivery Solution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

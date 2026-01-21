@@ -1,0 +1,809 @@
+{
+  "website_blueprint_id": "BLUEPRINT-1EAA0B46",
+  "generated_at": "2026-01-21T07:26:54.413Z",
+  "global_configuration": {
+    "brand_name": "www.placementpreparation.io",
+    "domain": "www.placementpreparation.io",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.74.155",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 40,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.placementpreparation.io/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/build/q-6b26afc1.css",
+        "type": "stylesheet",
+        "full_url": "https://www.placementpreparation.io/build/q-6b26afc1.css"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/code.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/code.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/BackgroundLayout.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/BackgroundLayout.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/PlusGrid.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/PlusGrid.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=1038,h=588,fit=contain,width=1038,height=588,f=auto/placement-prep/home-landing/Brain.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=1038,h=588,fit=contain,width=1038,height=588,f=auto/placement-prep/home-landing/Brain.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/code.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/code.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/BackgroundLayout.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/BackgroundLayout.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/PlusGrid.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,h=588,fit=contain,f=auto/placement-prep/home-landing/PlusGrid.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=45,w=588,h=587,fit=contain,width=588,height=587,f=auto/placement-prep/home-landing/HtmlCard.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=45,w=588,h=587,fit=contain,width=588,height=587,f=auto/placement-prep/home-landing/HtmlCard.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=589,fit=contain,width=588,height=589,f=auto/placement-prep/home-landing/sparkle.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=589,fit=contain,width=588,height=589,f=auto/placement-prep/home-landing/sparkle.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/tcs-logo.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/tcs-logo.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/freshworks.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/freshworks.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/cIcon.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=45,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/cIcon.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/htmlIcon.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=588,f=auto/placement-prep/home-landing/htmlIcon.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/htmlBottomIcon.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=588,f=auto/placement-prep/home-landing/htmlBottomIcon.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=388,f=auto/placement-prep/home-landing/gridBackground.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=388,f=auto/placement-prep/home-landing/gridBackground.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/companyCircle.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/companyCircle.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=388,f=auto/placement-prep/home-landing/companyKey.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,height=388,f=auto/placement-prep/home-landing/companyKey.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/BackgroundLayout.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/BackgroundLayout.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/PlusGrid.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,w=588,h=588,fit=contain,width=588,height=388,f=auto/placement-prep/home-landing/PlusGrid.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-wipro-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-wipro-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-tcs-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-tcs-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-acccenture-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-acccenture-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-cognizant-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-cognizant-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-tcs-nqt-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-tcs-nqt-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-zoho-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-zoho-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-multicoreware-logo.png",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=45,h=45,fit=contain,width=45,height=45,f=auto/placement-prep/home-landing/home-multicoreware-logo.png"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=130,fit=contain,width=130,f=auto/placement-prep/home-landing/app-store-icon.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=130,fit=contain,width=130,f=auto/placement-prep/home-landing/app-store-icon.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=130,fit=contain,width=130,f=auto/placement-prep/home-landing/get-it-on-google-play-badge.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=130,fit=contain,width=130,f=auto/placement-prep/home-landing/get-it-on-google-play-badge.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,h=588,fit=contain,width=180,height=37,f=auto/placement-prep/home-landing/mobileguvilogo.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,h=588,fit=contain,width=180,height=37,f=auto/placement-prep/home-landing/mobileguvilogo.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/logo.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/logo.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/facebook-footer.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/facebook-footer.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/instagram-icon-footer.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/instagram-icon-footer.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/linkedin-icon-footer.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/linkedin-icon-footer.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/youtube-icon-footer.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/youtube-icon-footer.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/twitter-icon-footer.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,w=25,h=20,fit=contain,f=auto/placement-prep/home-landing/twitter-icon-footer.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/BackgroundLayout.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/BackgroundLayout.webp"
+      },
+      {
+        "path": "/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/PlusGrid.webp",
+        "type": "image",
+        "full_url": "https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,h=588,fit=contain,f=auto/placement-prep/home-landing/PlusGrid.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.placementpreparation.io",
+        "description": "Land your dream job with our all-in-one placement preparation platform! Practice coding, aptitude, MCQs &amp; company-specific exam interviews. Start now!\" q:key=\"description\" q:head><meta property=\"og:description\" content=\"Land your dream job with our all-in-one placement preparation platform! Practice coding, aptitude, MCQs &amp; company-specific exam interviews. Start now!\" q:key=\"og:description\" q:head><meta property=\"twitter:description\" content=\"Land your dream job with our all-in-one placement preparation platform! Practice coding, aptitude, MCQs &amp; company-specific exam interviews. Start now!\" q:key=\"twitter:description\" q:head><!--/qv--><!--qv q:key=hB_1--><meta property=\"og:image\" content=\"https://static.placementpreparation.io/aptitude-images/aptitude/og-images/placement-preparation-banner.png\" q:key=\"og:image\" q:head><meta property=\"twitter:image\" content=\"https://static.placementpreparation.io/aptitude-images/aptitude/og-images/placement-preparation-banner.png\" q:key=\"twitter:image\" q:head><!--/qv--><script type=\"application/ld+json\" q:id=\"6\" q:head>{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Placement Preparation\",\"url\":\"https://www.placementpreparation.io/\",\"logo\":\"https://www.placementpreparation.io/images/placement-preparation/placement-preparation-logo.svg\",\"sameAs\":[\"https://www.facebook.com/placementpreparation.io\",\"https://twitter.com/placement_prep\",\"https://www.instagram.com/placementpreparation.io/\",\"https://www.youtube.com/channel/UC9GZl59xHmDc725qmngbCQw/\",\"https://www.linkedin.com/company/placement-preparation/\",\"https://in.pinterest.com/placementpreparation/\",\"https://www.placementpreparation.io/\"]}</script><!--/qv--><!--/qv--><meta charSet=\"utf-8\" q:head><link href=\"/manifest.json\" rel=\"manifest\" q:head><!--qv q:key=5w_9--><script q:key=\"1Z_0\" q:head>((i,a,r,s)=>{r=e=>{const t=document.querySelector(\"[q\\\\:base]\");t&&a.active&&a.active.postMessage({type:\"qprefetch\",base:t.getAttribute(\"q:base\"),...e})},document.addEventListener(\"qprefetch\",e=>{const t=e.detail;a?r(t):i.push(t)}),navigator.serviceWorker.register(\"/service-worker.js\").then(e=>{s=()=>{a=e,i.forEach(r),r({bundles:i})},e.installing?e.installing.addEventListener(\"statechange\",t=>{t.target.state==\"activated\"&&s()}):e.active&&s()}).catch(e=>console.error(e))})([])</script><!--/qv--><!--qv q:id=7 q:key=iVhl:5w_10--><!--qv q:key=5w_2--><!--/qv--><!--/qv--><link rel=\"preload\" href=\"/build/q-fa888127.woff2\" as=\"font\" type=\"font/woff2\" crossorigin><link rel=\"preload\" href=\"/build/q-e06f6b1b.woff2\" as=\"font\" type=\"font/woff2\" crossorigin><link rel=\"preload\" href=\"/build/q-5cb7103e.woff2\" as=\"font\" type=\"font/woff2\" crossorigin><link rel=\"preload\" href=\"/build/q-0ff3e946.woff2\" as=\"font\" type=\"font/woff2\" crossorigin><link rel=\"preload\" href=\"/build/q-e111a1e2.woff2\" as=\"font\" type=\"font/woff2\" crossorigin><link rel=\"stylesheet\" href=\"/build/q-6b26afc1.css",
+        "canonical": "https://www.placementpreparation.io"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "12427ms"
+        },
+        {
+          "resource": "email-decode.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "latency": "pending"
+        },
+        {
+          "resource": "q-6b26afc1.css",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Session Expired",
+          "h2_subtitle": "Your session has expired. Please login to continue.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Placement Essentials",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Product Highlights",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Companies",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Quantitative Aptitude Data Interpretation Logical Reasoning Verbal Reasoning Non Verbal Reasoning Verbal Ability Programming Exercises Python C Programming Java C++ JavaScript SQL View All Technical MCQs Python C Programming C++ Programming Java Programming JavaScript SQL DSA DBMS Operating System Computer Network React Angular View All DSA Questions Interview Questions Python C Programming C++ Java DSA Operating System View All Company Specific Aptitude Questions Accenture Amazon Amdocs Aspire Systems Bosch Capgemini Cognizant GenC CTS Deloitte DXC Technology Ernst &amp; Young Genpact View All Placement Exams Accenture Deloitte Zoho TCS NQT TCS Digital TCS Prime TCS Ninja Wipro WILP Cognizant GenC Cognizant GenC Next MulticoreWare Infosys View All Resources Career Transition Blog Web Stories Log in Sign up Placement Preparation [email&#160;protected] Hi, User ! My Profile Sign out ⚠️ Session Expired Your session has expired. Please login to continue."
+          },
+          {
+            "tag": "h1",
+            "text": "Restricted Access"
+          },
+          {
+            "tag": "p",
+            "text": "You do not have permission to access."
+          },
+          {
+            "tag": "h1",
+            "text": "Master the skills that matter and unlock your true potential."
+          },
+          {
+            "tag": "p",
+            "text": "Search Trending"
+          },
+          {
+            "tag": "h2",
+            "text": "Placement Essentials"
+          },
+          {
+            "tag": "h1",
+            "text": "Key Features"
+          },
+          {
+            "tag": "p",
+            "text": "Build confidence, enhance problem-solving skills, and excel in exams. Your journey to success starts here—tailored for every learner."
+          },
+          {
+            "tag": "h2",
+            "text": "Product Highlights"
+          },
+          {
+            "tag": "p",
+            "text": "Kickstart your career with expert solutions designed for every stage of landing your first job."
+          },
+          {
+            "tag": "h3",
+            "text": "Programming Exercises"
+          },
+          {
+            "tag": "p",
+            "text": "Practice coding in Python, Java, C++, JavaScript, and more languages used in the industry today."
+          },
+          {
+            "tag": "h3",
+            "text": "Placement Exams"
+          },
+          {
+            "tag": "p",
+            "text": "Access top tech companies exam materials, salary, eligibility, recruitment, syllabus, sample papers, and interview preparation."
+          },
+          {
+            "tag": "h3",
+            "text": "Technical MCQs"
+          },
+          {
+            "tag": "p",
+            "text": "Learn concepts through MCQs in Python, Java, SQL, JavaScript, C++, PHP, data structures, and algorithms."
+          },
+          {
+            "tag": "p",
+            "text": "IT Career Transition Navigate your IT career switch with skill assessments, learning paths, salary insights, and role comparisons."
+          },
+          {
+            "tag": "h3",
+            "text": "Company Specific Aptitude Questions"
+          },
+          {
+            "tag": "p",
+            "text": "Prepare for company aptitude with questions that mirror real aptitude tests - format, and challenge level."
+          },
+          {
+            "tag": "h2",
+            "text": "Companies"
+          },
+          {
+            "tag": "p",
+            "text": "Want to know the secret behind cracking the below company exams? Our exam resources cover everything from syllabus breakdowns to interview preparation to help you see the big picture."
+          },
+          {
+            "tag": "h3",
+            "text": "Wipro WILP"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Ninja"
+          },
+          {
+            "tag": "h3",
+            "text": "Accenture"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Prime"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Digital"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC Next"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS NQT"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC"
+          },
+          {
+            "tag": "h3",
+            "text": "Deloitte"
+          },
+          {
+            "tag": "h3",
+            "text": "Infosys"
+          },
+          {
+            "tag": "h3",
+            "text": "Zoho"
+          },
+          {
+            "tag": "h3",
+            "text": "MulticoreWare"
+          },
+          {
+            "tag": "h3",
+            "text": "Wipro WILP"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Ninja"
+          },
+          {
+            "tag": "h3",
+            "text": "Accenture"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Prime"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Digital"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC Next"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS NQT"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC"
+          },
+          {
+            "tag": "h3",
+            "text": "Deloitte"
+          },
+          {
+            "tag": "h3",
+            "text": "Infosys"
+          },
+          {
+            "tag": "h3",
+            "text": "Zoho"
+          },
+          {
+            "tag": "h3",
+            "text": "MulticoreWare"
+          },
+          {
+            "tag": "h3",
+            "text": "Accenture"
+          },
+          {
+            "tag": "h3",
+            "text": "Wipro WILP"
+          },
+          {
+            "tag": "h3",
+            "text": "Infosys"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Ninja"
+          },
+          {
+            "tag": "h3",
+            "text": "Deloitte"
+          },
+          {
+            "tag": "h3",
+            "text": "Zoho"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS NQT"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Digital"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC Next"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Prime"
+          },
+          {
+            "tag": "h3",
+            "text": "MulticoreWare"
+          },
+          {
+            "tag": "h3",
+            "text": "Accenture"
+          },
+          {
+            "tag": "h3",
+            "text": "Wipro WILP"
+          },
+          {
+            "tag": "h3",
+            "text": "Infosys"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Ninja"
+          },
+          {
+            "tag": "h3",
+            "text": "Deloitte"
+          },
+          {
+            "tag": "h3",
+            "text": "Zoho"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS NQT"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Digital"
+          },
+          {
+            "tag": "h3",
+            "text": "Cognizant GenC Next"
+          },
+          {
+            "tag": "h3",
+            "text": "TCS Prime"
+          },
+          {
+            "tag": "h3",
+            "text": "MulticoreWare"
+          },
+          {
+            "tag": "h3",
+            "text": "Is this platform enough for my complete placement preparation?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, our platform covers everything you need for placements, including coding practice, aptitude preparation, technical MCQs, and interview preparation along with company-specific exam resources."
+          },
+          {
+            "tag": "h3",
+            "text": "Can I practice programming exercises on this platform?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, we offer programming exercises in multiple programming languages including Python, C Programming, Java, C++, JavaScript, SQL, HTML, CSS, and C#."
+          },
+          {
+            "tag": "h3",
+            "text": "Do you provide topic-wise technical MCQs for preparation?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, our MCQs are carefully categorized by topic and include questions of different difficulty levels."
+          },
+          {
+            "tag": "h3",
+            "text": "Are there solutions and explanations for practice questions?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, every question comes with a detailed solution and explanation to help you understand the concepts better and learn from your mistakes."
+          },
+          {
+            "tag": "h3",
+            "text": "Do you provide resources to prepare for technical and HR interviews?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, we provide resources for both technical and HR interviews, including detailed preparation guides."
+          },
+          {
+            "tag": "h3",
+            "text": "Do you offer career guidance to help students with placements?"
+          },
+          {
+            "tag": "p",
+            "text": "Yes, we offer career guidance support, and students can easily request a career guidance call by filling out a simple form on our platform."
+          },
+          {
+            "tag": "h3",
+            "text": "Is this platform free, or do I need a subscription?"
+          },
+          {
+            "tag": "p",
+            "text": "The platform is 100% free to use. There are no hidden charges or subscription fees."
+          },
+          {
+            "tag": "p",
+            "text": "Every student has their own story. Find the guidance and resources you need to make learning fun and smart. Let's shape a future that feels right for you"
+          },
+          {
+            "tag": "h3",
+            "text": "Aptitude"
+          },
+          {
+            "tag": "h3",
+            "text": "Company Specific"
+          },
+          {
+            "tag": "h3",
+            "text": "Programming"
+          },
+          {
+            "tag": "h3",
+            "text": "Resources"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 65,
+          "headings": 76,
+          "images": 89
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-B7BB6187",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Placement Preparation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DF16F7DD",
+      "path": "/quantitative-aptitude/",
+      "type": "Detected Link",
+      "anchor_text": "Quantitative Aptitude",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-74B4AD79",
+      "path": "/data-interpretation/",
+      "type": "Detected Link",
+      "anchor_text": "Data Interpretation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-30004CBE",
+      "path": "/logical-reasoning/",
+      "type": "Detected Link",
+      "anchor_text": "Logical Reasoning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-74CC4EE5",
+      "path": "/verbal-reasoning/",
+      "type": "Detected Link",
+      "anchor_text": "Verbal Reasoning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F617F33",
+      "path": "/non-verbal-reasoning/",
+      "type": "Detected Link",
+      "anchor_text": "Non Verbal Reasoning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-46952C00",
+      "path": "/verbal-ability/",
+      "type": "Detected Link",
+      "anchor_text": "Verbal Ability",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-33F15D27",
+      "path": "/programming-exercises/",
+      "type": "Detected Link",
+      "anchor_text": "Exercises",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-919D1F28",
+      "path": "/programming-exercises/python/",
+      "type": "Detected Link",
+      "anchor_text": "Python",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-36D75B1F",
+      "path": "/programming-exercises/c-programming/",
+      "type": "Detected Link",
+      "anchor_text": "C Programming",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D615EF04",
+      "path": "/programming-exercises/java/",
+      "type": "Detected Link",
+      "anchor_text": "Java",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E6365A55",
+      "path": "/programming-exercises/cpp/",
+      "type": "Detected Link",
+      "anchor_text": "C++",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-94D64912",
+      "path": "/programming-exercises/javascript/",
+      "type": "Detected Link",
+      "anchor_text": "JavaScript",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-229519F8",
+      "path": "/programming-exercises/sql/",
+      "type": "Detected Link",
+      "anchor_text": "SQL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-67016AB2",
+      "path": "/mcq/",
+      "type": "Detected Link",
+      "anchor_text": "Technical MCQs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

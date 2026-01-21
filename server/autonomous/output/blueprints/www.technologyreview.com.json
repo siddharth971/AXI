@@ -1,0 +1,945 @@
+{
+  "website_blueprint_id": "BLUEPRINT-659F2479",
+  "generated_at": "2026-01-21T07:27:04.921Z",
+  "global_configuration": {
+    "brand_name": "www.technologyreview.com",
+    "domain": "www.technologyreview.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "192.0.66.184",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=300, must-revalidate",
+      "Content-Security-Policy": "frame-ancestors 'self';",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 4,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtm.js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtm.js?id=GTM-TRBQMN"
+      },
+      {
+        "path": "/static/js/common.9b7166d93b42278823ba.bundle.js",
+        "type": "script",
+        "full_url": "https://www.technologyreview.com/static/js/common.9b7166d93b42278823ba.bundle.js"
+      },
+      {
+        "path": "/static/js/main.5184c1c27b172053e28b.bundle.js",
+        "type": "script",
+        "full_url": "https://www.technologyreview.com/static/js/main.5184c1c27b172053e28b.bundle.js"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/AP26008139270328.jpg",
+        "type": "image",
+        "full_url": "https://wp.technologyreview.com/wp-content/uploads/2026/01/AP26008139270328.jpg?w=2667"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.technologyreview.com",
+        "description": "",
+        "canonical": "https://www.technologyreview.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2498ms"
+        },
+        {
+          "resource": "gtm.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "common.9b7166d93b42278823ba.bundle.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "main.5184c1c27b172053e28b.bundle.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Featured Story",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Highlights",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Magazine",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Featured Topics Newsletters Events Audio MIT Technology Review Featured Topics Newsletters Events Audio Featured Story New Artificial intelligence 18 hours The UK government is backing AI that can run its own lab experiments A competition calling for research projects involving so-called AI scientists shows just how fast this technology is moving."
+          },
+          {
+            "tag": "h3",
+            "text": "What it’s like to be banned from the US for fighting online hate"
+          },
+          {
+            "tag": "h3",
+            "text": "The astronaut training tourists to fly in the world’s first commercial space station"
+          },
+          {
+            "tag": "h3",
+            "text": "10 Breakthrough Technologies 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "The great AI hype correction of 2025"
+          },
+          {
+            "tag": "h3",
+            "text": "Three technologies that will shape biotech in 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Three climate technologies breaking through in 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Data centers are amazing. Everyone hates them."
+          },
+          {
+            "tag": "h3",
+            "text": "CES showed me why Chinese tech companies feel so optimistic"
+          },
+          {
+            "tag": "p",
+            "text": "Highlights Culture 1 week 10 Breakthrough Technologies 2026 Here are our picks for the advances to watch in the years ahead—and why we think they matter right now."
+          },
+          {
+            "tag": "h3",
+            "text": "Why AI predictions are so hard"
+          },
+          {
+            "tag": "p",
+            "text": "And why we&#x27;re predicting what&#x27;s next for the technology in 2026 anyway."
+          },
+          {
+            "tag": "h3",
+            "text": "Three technologies that will shape biotech in 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Why personalized gene editing, genetic resurrections and embryo scoring made our list."
+          },
+          {
+            "tag": "h3",
+            "text": "Why some “breakthrough” technologies don’t work out"
+          },
+          {
+            "tag": "p",
+            "text": "I asked my MIT class to consider why some of the advances that MIT Technology Review ’s journalists thought would change our world never really did—and what we can learn from the flops."
+          },
+          {
+            "tag": "h3",
+            "text": "Next-gen nuclear: 10 Breakthrough Technologies 2026"
+          },
+          {
+            "tag": "p",
+            "text": "New reactors use novel materials and compact designs to make nuclear power safer and cheaper."
+          },
+          {
+            "tag": "h3",
+            "text": "Commercial space stations: 10 Breakthrough Technologies 2026"
+          },
+          {
+            "tag": "p",
+            "text": "The first commercial orbital outpost is scheduled to launch this May."
+          },
+          {
+            "tag": "p",
+            "text": "Magazine Our new issue! January/February 2026 The Innovation issue It’s the 10 breakthrough technologies for 2026! That’s hyperscale data centers, designer babies, smaller nuclear power, space stations you can visit, and more. Plus, read about conjuring water from air, dissecting artificial intelligence, and a scientist who swears he’s going to do a human head transplant any day now. Read now More issues Culture 10 Breakthrough Technologies 2026 Here are our picks for the advances to watch in the years ahead—and why we think they matter right now."
+          },
+          {
+            "tag": "h3",
+            "text": "Meet the new biologists treating LLMs like aliens"
+          },
+          {
+            "tag": "p",
+            "text": "By studying large language models as if they were living things instead of computer programs, scientists are discovering some of their secrets for the first time."
+          },
+          {
+            "tag": "h3",
+            "text": "This Nobel Prize–winning chemist dreams of making water from thin air"
+          },
+          {
+            "tag": "p",
+            "text": "Omar Yaghi thinks crystals with gaps that capture moisture could bring technology from “ Dune ” to the arid parts of Earth."
+          },
+          {
+            "tag": "h3",
+            "text": "AI coding is now everywhere. But not everyone is convinced."
+          },
+          {
+            "tag": "p",
+            "text": "Developers are navigating confusing gaps between expectation and reality. So are the rest of us."
+          },
+          {
+            "tag": "h3",
+            "text": "Europe’s drone-filled vision for the future of war"
+          },
+          {
+            "tag": "p",
+            "text": "Eighty years after total war transformed the continent, European countries are making big bets on new instruments of annihilation."
+          },
+          {
+            "tag": "p",
+            "text": "The latest from"
+          },
+          {
+            "tag": "p",
+            "text": "CES showed me why Chinese tech companies feel so optimistic I decided to go to CES kind of at the last minute. Over the holiday break, contacts from China kept messaging me about their travel plans. After the umpteenth “See you in Vegas?” I caved. As a China tech writer based in the US, I have one week a year when my entire beat seems to come to me—no 20-hour flights required."
+          },
+          {
+            "tag": "p",
+            "text": "CES, the Consumer Electronics Show, is the world’s biggest tech show, where companies launch new gadgets and announce new developments, and it happens every January. This year, it attracted over 148,000 attendees and over 4,100 exhibitors. It sprawls across the Las Vegas Convention Center, the city’s biggest exhibition space, and spills over into adjacent hotels."
+          },
+          {
+            "tag": "p",
+            "text": "China has long had a presence at CES, but this year it showed up in a big way. Chinese exhibitors accounted for nearly a quarter of all companies at the show, and in pockets like AI hardware and robotics, China’s presence felt especially dominant. On the floor, I saw tons of Chinese industry attendees roaming around, plus a notable number of Chinese VCs. Multiple experienced CES attendees told me this is the first post-covid CES where China was present in a way you couldn’t miss. Last year might have been trending that way too, but a lot of Chinese attendees reportedly ran into visa denials. Now AI has become the universal excuse, and reason, to make the trip."
+          },
+          {
+            "tag": "p",
+            "text": "As expected, AI was the biggest theme this year, seen on every booth wall. It’s both the biggest thing everyone is talking about and a deeply confusing marketing gimmick. “We added AI” is slapped onto everything from the reasonable (PCs, phones, TVs, security systems) to the deranged (slippers, hair dryers, bed frames)."
+          },
+          {
+            "tag": "p",
+            "text": "Consumer AI gadgets still feel early and of very uneven quality. The most common categories are educational devices and emotional support toys—which, as I’ve written about recently , are all the rage in China. There are some memorable ones: Luka AI makes a robotic panda that scuttles around and keeps a watchful eye on your baby. Fuzozo, a fluffy keychain-size AI robot, is basically a digital pet in physical form. It comes with a built-in personality and reacts to how you treat it. The companies selling these just hope you won’t think too hard about the privacy implications."
+          },
+          {
+            "tag": "p",
+            "text": "Ian Goh, an investor at 01VC, told me China’s manufacturing advantage gives it a unique edge in AI consumer electronics, because a lot of Western companies feel they simply cannot fight and win in the arena of hardware."
+          },
+          {
+            "tag": "p",
+            "text": "Another area where Chinese companies seem to be at the head of the pack is household electronics. The products they make are becoming impressively sophisticated. Home robots, 360 cams, security systems, drones, lawn-mowing machines, pool heat pumps … Did you know two Chinese brands basically dominate the market for home cleaning robots in the US and are eating the lunch of Dyson and Shark? Did you know almost all the suburban yard tech you can buy in the West comes from Shenzhen, even though that whole backyard-obsessed lifestyle barely exists in China? This stuff is so sleek that you wouldn’t clock it as Chinese unless you went looking. The old “cheap and repetitive” stereotype doesn’t explain what I saw. I walked away from CES feeling that I needed a major home appliance upgrade."
+          },
+          {
+            "tag": "p",
+            "text": "Of course, appliances are a safe, mature market. On the more experiential front, humanoid robots were a giant magnet for crowds, and Chinese companies put on a great show. Every robot seemed to be dancing, in styles from Michael Jackson to K-pop to lion dancing, some even doing back flips. Hangzhou-based Unitree even set up a boxing ring where people could “challenge” its robots. The robot fighters were about half the size of an adult human and the matches often ended in a robot knockout, but that’s not really the point. What Unitree was actually showing off was its robots’ stability and balance: they got shoved, stumbled across the ring, and stayed upright, recovering mid-motion. Beyond flexing dynamic movements like these there were also impressive showcases of dexterity: Robots could be seen folding paper pinwheels, doing laundry, playing piano, and even making latte art."
+          },
+          {
+            "tag": "p",
+            "text": "However, most of these robots, even the good ones, are one-trick ponies. They’re optimized for a specific task on the show floor. I tried to make one fold a T-shirt after I’d flipped the garment around, and it got confused very quickly."
+          },
+          {
+            "tag": "p",
+            "text": "Still, they’re getting a lot of hype as an important next frontier because they could help drag AI out of text boxes and into the physical world. As LLMs mature, vision-language models feel like the logical next step. But then you run into the big problem: There’s far less physical-world data than text data to train AI on. Humanoid robots become both applications and roaming data-collection terminals. China is uniquely positioned here because of supply chains, manufacturing depth, and spillover from adjacent industries (EVs, batteries, motors, sensors), and it’s already developing a humanoid training industry, as Rest of World reported recently."
+          },
+          {
+            "tag": "p",
+            "text": "Most Chinese companies believe that if you can manufacture at scale, you can innovate, and they’re not wrong. A lot of the confidence in China’s nascent humanoid robot industry and beyond is less about a single breakthrough and more about “We can iterate faster than the West.”"
+          },
+          {
+            "tag": "p",
+            "text": "Chinese companies are not just selling gadgets, though—they’re working on every layer of the tech stack. Not just on end products but frameworks, tooling, IoT enablement, spatial data. Open-source culture feels deeply embedded; engineers from Hangzhou tell me there are AI hackathons every week in the city, where China’s new “little Silicon Valley” is located."
+          },
+          {
+            "tag": "p",
+            "text": "Indeed, the headline innovations at CES 2026 were not on devices but in cloud: platforms, ecosystems, enterprise deployments, and “hybrid AI” (cloud + on-device) applications. Lenovo threw the buzziest main-stage events this year, and yes, there were PCs—but the core story was its cross-device AI agent system, Qira, and a partnership pitch with Nvidia aimed at AI cloud providers. Nvidia’s CEO, Jensen Huang, launched Vera Rubin, a new data-center platform, claiming it would dramatically lower costs for training and running AI. AMD’s CEO, Lisa Su, introduced Helios, another data-center system built to run huge AI workloads. These solutions point to the ballooning AI computing workload at data centers, and the real race of making cloud services cheap and powerful enough to keep up."
+          },
+          {
+            "tag": "p",
+            "text": "As I spoke with China-related attendees, the overall mood I felt was a cautious optimism. At a house party I went to, VCs and founders from China were mingling effortlessly with Bay Area transplants. Everyone is building something. Almost no one wants to just make money from Chinese consumers anymore. The new default is: Build in China, sell to the world, and treat the US market like the proving ground."
+          },
+          {
+            "tag": "p",
+            "text": "Sign up to get The Algorithm weekly in your inbox."
+          },
+          {
+            "tag": "p",
+            "text": "Hype Correction An MIT Technology Review Series Artificial intelligence 1 month The great AI hype correction of 2025 Four ways to think about this year&#x27;s reckoning."
+          },
+          {
+            "tag": "h3",
+            "text": "What even is the AI bubble?"
+          },
+          {
+            "tag": "p",
+            "text": "Everyone in tech agrees we’re in a bubble. They just can’t agree on what it looks like — or what happens when it pops."
+          },
+          {
+            "tag": "h3",
+            "text": "AI materials discovery now needs to move into the real world"
+          },
+          {
+            "tag": "p",
+            "text": "Startups flush with cash are building AI-assisted laboratories to find materials far faster and more cheaply, but are still waiting for their ChatGPT moment."
+          },
+          {
+            "tag": "h3",
+            "text": "AI coding is now everywhere. But not everyone is convinced."
+          },
+          {
+            "tag": "p",
+            "text": "Developers are navigating confusing gaps between expectation and reality. So are the rest of us."
+          },
+          {
+            "tag": "h3",
+            "text": "A brief history of Sam Altman’s hype"
+          },
+          {
+            "tag": "p",
+            "text": "Here’s how pinning a utopian vision for AI on LLMs kicked off the hype cycle that’s causing fears of a bubble today."
+          },
+          {
+            "tag": "h3",
+            "text": "AI might not be coming for lawyers’ jobs anytime soon"
+          },
+          {
+            "tag": "p",
+            "text": "Generative AI might have aced the bar exam, but an LLM still can’t think like a lawyer."
+          },
+          {
+            "tag": "p",
+            "text": "Features Long Read Artificial intelligence 1 week Meet the new biologists treating LLMs like aliens By studying large language models as if they were living things instead of computer programs, scientists are discovering some of their secrets for the first time."
+          },
+          {
+            "tag": "h3",
+            "text": "The AI doomers feel undeterred"
+          },
+          {
+            "tag": "p",
+            "text": "But they certainly wish people were still taking their warnings really seriously."
+          },
+          {
+            "tag": "h3",
+            "text": "China figured out how to sell EVs. Now it has to deal with their aging batteries."
+          },
+          {
+            "tag": "p",
+            "text": "As early electric cars age out, hundreds of thousands of used batteries are flooding the market, fueling a gray recycling economy even as Beijing and big manufacturers scramble to build a more orderly system."
+          },
+          {
+            "tag": "h3",
+            "text": "The 8 worst technology flops of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "The Cybertruck, sycophantic AI, and humanoid robots all made this year’s list of the biggest technology failures."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for AI in 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Our AI writers make their big bets for the coming year—here are five hot trends to watch."
+          },
+          {
+            "tag": "h3",
+            "text": "An AI model trained on prison phone calls now looks for planned crimes in those calls"
+          },
+          {
+            "tag": "p",
+            "text": "The model is built to detect when crimes are being “contemplated.”"
+          },
+          {
+            "tag": "h2",
+            "text": "MIT Technology Review Explains"
+          },
+          {
+            "tag": "p",
+            "text": "Let our writers untangle the complex, messy world of technology to help you understand what’s coming next in our popular explainer series."
+          },
+          {
+            "tag": "p",
+            "text": "Next slide Artificial intelligence LLMs contain a LOT of parameters. But what’s a parameter? They’re the mysterious numbers that make your favorite AI models tick. What are they and what do they do?"
+          },
+          {
+            "tag": "h3",
+            "text": "What we still don’t know about weight-loss drugs"
+          },
+          {
+            "tag": "p",
+            "text": "Questions surround their effects on brain health, pregnancy or long-term use."
+          },
+          {
+            "tag": "h3",
+            "text": "What is the chance your plane will be hit by space debris?"
+          },
+          {
+            "tag": "p",
+            "text": "It&#x27;s low but, um, never zero."
+          },
+          {
+            "tag": "h3",
+            "text": "How do our bodies remember?"
+          },
+          {
+            "tag": "p",
+            "text": "The more we move, the more our muscle cells begin to make a memory of that exercise."
+          },
+          {
+            "tag": "h3",
+            "text": "Trump is pushing leucovorin as a treatment for autism. What is it?"
+          },
+          {
+            "tag": "p",
+            "text": "The president also blamed the painkiller Tylenol for autism, but the evidence doesn’t stack up at all."
+          },
+          {
+            "tag": "h3",
+            "text": "How to measure the returns on R&amp;D spending"
+          },
+          {
+            "tag": "p",
+            "text": "Forget the glorious successes of past breakthroughs—the real justification for research investment is what we get for our money. Here’s what economists say."
+          },
+          {
+            "tag": "h3",
+            "text": "How do AI models generate videos?"
+          },
+          {
+            "tag": "p",
+            "text": "With powerful video generation tools now in the hands of more people than ever, let&#x27;s take a look at how they work."
+          },
+          {
+            "tag": "h3",
+            "text": "What is vibe coding, exactly?"
+          },
+          {
+            "tag": "p",
+            "text": "While letting AI take the wheel and write the code for your website may seem like a good idea, it’s not without its limitations."
+          },
+          {
+            "tag": "h3",
+            "text": "What is Signal? The messaging app, explained."
+          },
+          {
+            "tag": "p",
+            "text": "With news this week of the messaging app being used to discuss war plans, we get you up to speed on what Signal should be used for—and what it shouldn’t."
+          },
+          {
+            "tag": "h3",
+            "text": "Google, Amazon and the problem with Big Tech’s climate claims"
+          },
+          {
+            "tag": "p",
+            "text": "How companies reach their emissions goals is more important than how fast."
+          },
+          {
+            "tag": "h2",
+            "text": "Most Popular"
+          },
+          {
+            "tag": "p",
+            "text": "Next slide Artificial intelligence AI chatbots can sway voters better than political advertisements A conversation with a chatbot can shift people&#x27;s political views—but the most persuasive models also spread the most misinformation."
+          },
+          {
+            "tag": "h3",
+            "text": "The State of AI: A vision of the world in 2030"
+          },
+          {
+            "tag": "p",
+            "text": "Senior AI editor Will Douglas Heaven talks with Tim Bradshaw, FT global tech correspondent, about what our world will look like in the next five years."
+          },
+          {
+            "tag": "h3",
+            "text": "Sodium-ion batteries: 10 Breakthrough Technologies 2026"
+          },
+          {
+            "tag": "p",
+            "text": "A cheaper, safer, and more abundant alternative to lithium is finally making its way into cars—and the grid."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for AlphaFold: A conversation with a Google DeepMind Nobel laureate"
+          },
+          {
+            "tag": "p",
+            "text": "“I’ll be shocked if we don’t see more and more LLM impact on science,” says John Jumper."
+          },
+          {
+            "tag": "h3",
+            "text": "Generative AI hype distracts us from AI’s more important breakthroughs"
+          },
+          {
+            "tag": "p",
+            "text": "It&#x27;s a seductive distraction from the advances in AI that are most likely to improve or even save your life"
+          },
+          {
+            "tag": "h3",
+            "text": "The ads that sell the sizzle of genetic trait discrimination"
+          },
+          {
+            "tag": "p",
+            "text": "A startup’s ads for controversial embryo tests hit the New York City subway."
+          },
+          {
+            "tag": "h3",
+            "text": "How one controversial startup hopes to cool the planet"
+          },
+          {
+            "tag": "p",
+            "text": "And why many scientists are freaked out about the first serious for-profit company moving into the solar geoengineering field."
+          },
+          {
+            "tag": "h3",
+            "text": "The State of AI: Welcome to the economic singularity"
+          },
+          {
+            "tag": "p",
+            "text": "This week, Richard Waters, FT columnist and former West Coast editor, talks with MIT Technology Review’s editor at large David Rotman about the true impact of AI on the job market."
+          },
+          {
+            "tag": "h3",
+            "text": "Welcome to Kenya’s Great Carbon Valley: a bold new gamble to fight climate change"
+          },
+          {
+            "tag": "p",
+            "text": "One project aims to harness local geothermal resources to pull CO2 from the air. Will it prove that carbon removal can really help our warming planet?"
+          },
+          {
+            "tag": "h3",
+            "text": "AI Wrapped: The 14 AI terms you couldn’t avoid in 2025"
+          },
+          {
+            "tag": "p",
+            "text": "From “superintelligence” to “slop,” here are the words and phrases that defined another year of AI craziness."
+          },
+          {
+            "tag": "p",
+            "text": "The New Conspiracy Age Culture 3 months It’s never been easier to be a conspiracy theorist A mix of technology and politics has given an unprecedented boost to once-fringe ideas—but they are pretty much the same fantasies that have been spreading for hundreds of years."
+          },
+          {
+            "tag": "h3",
+            "text": "How AGI became the most consequential conspiracy theory of our time"
+          },
+          {
+            "tag": "p",
+            "text": "The idea that machines will be as smart as—or smarter than—humans has hijacked an entire industry. But look closely and you’ll see it’s a myth that persists for many of the same reasons conspiracies do."
+          },
+          {
+            "tag": "h3",
+            "text": "How to help friends and family dig out of a conspiracy theory black hole"
+          },
+          {
+            "tag": "p",
+            "text": "Some tried and trusted techniques that might help."
+          },
+          {
+            "tag": "h3",
+            "text": "How conspiracy theories infiltrated the doctor’s office"
+          },
+          {
+            "tag": "p",
+            "text": "Every day, physicians and therapists work to keep their patients safe. Medical rumors, misinformation, and an online web of disreputable sources aren’t making their jobs any easier."
+          },
+          {
+            "tag": "h3",
+            "text": "Why it’s so hard to bust the weather control conspiracy theory"
+          },
+          {
+            "tag": "p",
+            "text": "From effective rain-enhancing technology to a long, secretive history of trying to weaponize storms, there’s fertile ground for misinformation."
+          },
+          {
+            "tag": "h3",
+            "text": "Why do so many people think the Fruit of the Loom logo had a cornucopia?"
+          },
+          {
+            "tag": "p",
+            "text": "It’s a popular example of the “Mandela effect,” or a collective false memory. And while some people may laugh and move on, others spend years searching for an explanation."
+          },
+          {
+            "tag": "h2",
+            "text": "MIT Alumni News"
+          },
+          {
+            "tag": "p",
+            "text": "All the latest from MIT Alumni News, the alumni magazine of the Massachusetts Institute of Technology."
+          },
+          {
+            "tag": "p",
+            "text": "Next slide Cover story Powering up (and saving) the planet As the Institute’s first VP for energy and climate, Evelyn Wang ’00 is marshaling MIT’s expertise to meet the greatest challenge of our age."
+          },
+          {
+            "tag": "h3",
+            "text": "The lessons of Challenger"
+          },
+          {
+            "tag": "p",
+            "text": "Managing risk as we reach for the stars."
+          },
+          {
+            "tag": "h3",
+            "text": "Dennis Whyte’s fusion quest"
+          },
+          {
+            "tag": "p",
+            "text": "When the US Department of Energy announced that it would stop funding the tokamak at MIT’s Plasma Science and Fusion Center, Dennis Whyte considered giving up on fusion research. But as this excerpt from the new book “Hope Dies Last” recounts, Whyte instead had a brainstorm—and challenged his students to bring the idea to life."
+          },
+          {
+            "tag": "h3",
+            "text": "Starstruck"
+          },
+          {
+            "tag": "p",
+            "text": "Aomawa Shields ’97 was equally enticed by the prospect of studying stars and the dream of becoming one herself. Today, she draws from her exploration of acting and astronomy to search for life on other planets."
+          },
+          {
+            "tag": "h3",
+            "text": "Secrets of the sleep-deprived brain"
+          },
+          {
+            "tag": "p",
+            "text": "If you find it hard to focus after a wakeful night, it’s because your brain is busy trying to catch up on crucial housekeeping."
+          },
+          {
+            "tag": "h3",
+            "text": "When a headache is more than just a pain"
+          },
+          {
+            "tag": "p",
+            "text": "Tom Zeller’s new book sheds light on one of the world’s most confounding and agonizing ailments."
+          },
+          {
+            "tag": "h3",
+            "text": "How the Longfellow Bridge came to be"
+          },
+          {
+            "tag": "p",
+            "text": "At the turn of the 20th century, a commission set out to replace the old West Boston Bridge with “one of the finest and most beautiful structures in the world”—and hired two MIT alumni to make it happen."
+          },
+          {
+            "tag": "h3",
+            "text": "Building materials are getting closer to doubling as batteries"
+          },
+          {
+            "tag": "p",
+            "text": "Improved carbon-cement supercapacitors could turn the concrete around us into massive energy storage systems."
+          },
+          {
+            "tag": "h3",
+            "text": "Sponges may have been the first animals"
+          },
+          {
+            "tag": "p",
+            "text": "Chemical signatures in ancient rocks point to precursors of squishy sea creatures."
+          },
+          {
+            "tag": "h3",
+            "text": "MIT Alumni News"
+          },
+          {
+            "tag": "h3",
+            "text": "Building a high performance data and AI organization (2nd edition)"
+          },
+          {
+            "tag": "p",
+            "text": "What it takes to deliver on data and AI strategy."
+          },
+          {
+            "tag": "p",
+            "text": "In partnership with Databricks"
+          },
+          {
+            "tag": "h2",
+            "text": "What&#x27;s Next"
+          },
+          {
+            "tag": "p",
+            "text": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future."
+          },
+          {
+            "tag": "p",
+            "text": "Next slide Artificial intelligence What’s next for AI in 2026 Our AI writers make their big bets for the coming year—here are five hot trends to watch."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for carbon removal?"
+          },
+          {
+            "tag": "p",
+            "text": "Companies have still drawn down only enough CO2 to cancel out a few hours of US emissions. Here’s what it will take to really scale up the sector."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for AlphaFold: A conversation with a Google DeepMind Nobel laureate"
+          },
+          {
+            "tag": "p",
+            "text": "“I’ll be shocked if we don’t see more and more LLM impact on science,” says John Jumper."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for AI and math"
+          },
+          {
+            "tag": "p",
+            "text": "The last year has seen rapid progress in the ability of large language models to tackle math at high school level and beyond. Is AI closing in on human mathematicians?"
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for nuclear power"
+          },
+          {
+            "tag": "p",
+            "text": "Global shifts, advancing tech, and data center demand: Here’s what’s coming in 2025 and beyond."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for our privacy?"
+          },
+          {
+            "tag": "p",
+            "text": "The US still has no federal privacy law. But recent enforcement actions against data brokers may offer some new protections for Americans’ personal information."
+          },
+          {
+            "tag": "h3",
+            "text": "Why EVs are (mostly) set for solid growth in 2025"
+          },
+          {
+            "tag": "p",
+            "text": "What happens in the US, however, will depend a lot on the incoming Trump administration."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for NASA’s giant moon rocket?"
+          },
+          {
+            "tag": "p",
+            "text": "The Space Launch System is facing fresh calls for cancellation, but it still has a key role to play in NASA’s return to the moon."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next for drones"
+          },
+          {
+            "tag": "p",
+            "text": "Police drones, rapid deliveries of blood, tech-friendly regulations, and autonomous weapons are all signs that drone technology is changing quickly."
+          },
+          {
+            "tag": "h3",
+            "text": "What’s next in chips"
+          },
+          {
+            "tag": "p",
+            "text": "How Big Tech, startups, AI devices, and trade wars will transform the way chips are made and the technologies they power."
+          },
+          {
+            "tag": "p",
+            "text": "The Feed 45,841 stories. 3,369 authors. 127 years and counting. Filter by topic Newest to Oldest You&#x27;ve seen 70 stories, or 0.15 % of our archive Load more stories The latest iteration of a legacy Founded at the Massachusetts Institute of Technology in 1899, MIT Technology Review is a world-renowned, independent media company whose insight, analysis, reviews, interviews and live events explain the newest technologies and their commercial, social and political impact. READ ABOUT OUR HISTORY Advertise with MIT Technology Review Elevate your brand to the forefront of conversation around emerging technologies that are radically transforming business. From event sponsorships to custom content to visually arresting video storytelling, advertising with MIT Technology Review creates opportunities for your brand to resonate with an unmatched audience of technology and business elite. ADVERTISE WITH US"
+          },
+          {
+            "tag": "p",
+            "text": "© 2026 MIT Technology Review"
+          },
+          {
+            "tag": "h3",
+            "text": "About"
+          },
+          {
+            "tag": "h3",
+            "text": "Help"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 164,
+          "headings": 96,
+          "images": 1
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-39855DBB",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "MIT Technology Review",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4302636C",
+      "path": "/all-topics",
+      "type": "Detected Link",
+      "anchor_text": "Topics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D14653C",
+      "path": "/newsletter-preferences",
+      "type": "Detected Link",
+      "anchor_text": "Newsletters",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-65BF8630",
+      "path": "/2026/01/20/1131462/the-uk-government-is-backing-ai-scientists-that-can-run-their-own-experiments/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-92DDCE7A",
+      "path": "/topic/artificial-intelligence/",
+      "type": "Detected Link",
+      "anchor_text": "Artificial intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F1D4256",
+      "path": "/2026/01/19/1131384/what-its-like-to-be-banned-from-the-us-for-fighting-online-hate/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-641D9B45",
+      "path": "/topic/policy/",
+      "type": "Detected Link",
+      "anchor_text": "Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9B8B5910",
+      "path": "/2026/01/12/1130817/vast-astronaut-drew-feustel-nasa-space-station/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2741DD8F",
+      "path": "/topic/space/",
+      "type": "Detected Link",
+      "anchor_text": "Space",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ADBF74E1",
+      "path": "/2026/01/12/1130697/10-breakthrough-technologies-2026/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-16D39E57",
+      "path": "/topic/culture/",
+      "type": "Detected Link",
+      "anchor_text": "Culture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CFA5C1D2",
+      "path": "/2025/12/15/1129174/the-great-ai-hype-correction-of-2025/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7601C4E",
+      "path": "/2026/01/16/1131363/three-technologies-shape-biotech-in-2026-gene-editing-embryo-scoring/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E3F9F7B",
+      "path": "/topic/biotechnology/",
+      "type": "Detected Link",
+      "anchor_text": "Biotechnology and health",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-47E7D157",
+      "path": "/2026/01/15/1131348/climate-technologies-2026/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,423 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BE1A5BFD",
+  "generated_at": "2026-01-21T07:27:04.941Z",
+  "global_configuration": {
+    "brand_name": "The Official Microsoft Blog",
+    "domain": "blogs.microsoft.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.20",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 31,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-list.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-list.js"
+      },
+      {
+        "path": "/yett@0.2.3/dist/yett.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/yett@0.2.3/dist/yett.min.js"
+      },
+      {
+        "path": "/scripts/c/ms.analytics-web-3.min.js",
+        "type": "script",
+        "full_url": "https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js?ver=1703101580"
+      },
+      {
+        "path": "/wp-content/themes/ms-blogs/mwf/scripts/vendor/modernizr.min.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/themes/ms-blogs/mwf/scripts/vendor/modernizr.min.js?ver=3.3.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/mscc/lib/v2/wcp-consent.js",
+        "type": "script",
+        "full_url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"
+      },
+      {
+        "path": "/onerfstatics/marketingsites-wcus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0",
+        "type": "script",
+        "full_url": "https://www.microsoft.com/onerfstatics/marketingsites-wcus-prod/shell/_scrf/js/themes=default/54-af9f9f/fb-2be034/21-f9d187/b0-50721e/d8-97d509/40-0bd7f9/ea-f1669e/9d-c6ea39/62-a72447/3e-a4ee50/7c-0bd6a1/60-37309a/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/e6-5f3533/6d-1e7ed0/b7-cadaa7/62-2741f0/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/e7-1fe854/66-9d711a/38-b93a9e/de-884374/1f-100dea/33-abe4df/8f-61bee0?ver=2.0&_cf=02242021_3231&iife=1"
+      },
+      {
+        "path": "/wp-content/plugins/microsoft-uhf-cookies//scripts.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-uhf-cookies//scripts.js?ver=0.0.31"
+      },
+      {
+        "path": "/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js",
+        "type": "script",
+        "full_url": "https://assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js"
+      },
+      {
+        "path": "/wp-content/themes/ms-blogs/assets/js/main.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/themes/ms-blogs/assets/js/main.js?ver=1.3.10"
+      },
+      {
+        "path": "/wp-content/plugins/page-links-to/dist/new-tab.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7"
+      },
+      {
+        "path": "/wp-content/plugins/microsoft-oembeds/cookie-consent.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-oembeds/cookie-consent.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js?ver=0.3.8"
+      },
+      {
+        "path": "/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js",
+        "type": "script",
+        "full_url": "https://blogs.microsoft.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js?ver=0.3.8"
+      },
+      {
+        "path": "/onerfstatics/marketingsites-wcus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c",
+        "type": "stylesheet",
+        "full_url": "https://www.microsoft.com/onerfstatics/marketingsites-wcus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&amp;_cf=02242021_3231"
+      },
+      {
+        "path": "/images/microsoft/RE1Mu3b.png",
+        "type": "image",
+        "full_url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/OMB-Open-to-Work-Book-Hero-Final-960x540.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2026/01/OMB-Open-to-Work-Book-Hero-Final-960x540.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/OMB-Art-CN-1_5_26-960x540.png",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2026/01/OMB-Art-CN-1_5_26-960x540.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/OMB-Ignite_2025-Hero-960x540.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/11/OMB-Ignite_2025-Hero-960x540.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/image.png",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/11/image.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/OMB-Datacenter-11_11-Hero-960x540.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/11/OMB-Datacenter-11_11-Hero-960x540.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/OMB-IDC-25-Art-Hero-Final_Final-960x540.png",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/11/OMB-IDC-25-Art-Hero-Final_Final-960x540.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/OMB-Security-11-5-Hero_Final-480x270.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/11/OMB-Security-11-5-Hero_Final-480x270.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Microsoft-Blog-header_version3-480x270.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/10/Microsoft-Blog-header_version3-480x270.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/PNG-openai-microsoft_960x540-480x270.png",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2023/01/PNG-openai-microsoft_960x540-480x270.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/OMB-New-Market-Hero-Image-480x270.png",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/09/OMB-New-Market-Hero-Image-480x270.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/OMB-Datacenter-Hero-9_18_25-480x270.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/09/OMB-Datacenter-Hero-9_18_25-480x270.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/FabCon-Hero-9_15_25-480x270.jpg",
+        "type": "image",
+        "full_url": "https://blogs.microsoft.com/wp-content/uploads/2025/09/FabCon-Hero-9_15_25-480x270.jpg"
+      },
+      {
+        "path": "/tr",
+        "type": "image",
+        "full_url": "https://www.facebook.com/tr?id=1770559986549030&amp;ev=PageView&amp;noscript=1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Official Microsoft Blog",
+        "description": "",
+        "canonical": "https://blogs.microsoft.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2997ms"
+        },
+        {
+          "resource": "microsoft-cookie-list.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "yett.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "ms.analytics-web-3.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Global",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "More News",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Global"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 13, 2026 | Frank X. Shaw - Chief Communications Officer, Microsoft"
+          },
+          {
+            "tag": "h3",
+            "text": "Announcing Open to Work: How to Get Ahead in the Age of AI"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 5, 2026 | Bogdan Crivat - Corporate Vice President, Azure Data Analytics"
+          },
+          {
+            "tag": "h3",
+            "text": "Microsoft announces acquisition of Osmos to accelerate autonomous data engineering in Fabric"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 18, 2025 | Frank X. Shaw - Chief Communications Officer, Microsoft"
+          },
+          {
+            "tag": "h3",
+            "text": "From idea to deployment: The complete lifecycle of AI on display at Ignite 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 18, 2025 | Microsoft Corporate Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "Microsoft, NVIDIA and Anthropic announce strategic partnerships"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 12, 2025 | Scott Guthrie - Executive Vice President, Cloud + AI"
+          },
+          {
+            "tag": "h3",
+            "text": "Infinite scale: The architecture behind the Azure AI superfactory"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 11, 2025 | Alysa Taylor - Chief Marketing Officer, Commercial Cloud &amp; AI"
+          },
+          {
+            "tag": "h3",
+            "text": "Bridging the AI divide: How Frontier Firms are transforming business"
+          },
+          {
+            "tag": "h2",
+            "text": "More News"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 5, 2025 | Charlie Bell - Executive Vice President Security"
+          },
+          {
+            "tag": "h3",
+            "text": "Beware of double agents: How AI can fortify — or fracture — your cybersecurity"
+          },
+          {
+            "tag": "p",
+            "text": "Oct 28, 2025 | Judson Althoff - CEO of Microsoft’s commercial business"
+          },
+          {
+            "tag": "h3",
+            "text": "Becoming Frontier: How human ambition and AI-first differentiation are helping Microsoft customers go further with AI"
+          },
+          {
+            "tag": "p",
+            "text": "Oct 28, 2025 | Microsoft Corporate Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "The next chapter of the Microsoft–OpenAI partnership"
+          },
+          {
+            "tag": "p",
+            "text": "Oct 1, 2025 | Microsoft Corporate Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "Accelerating our commercial growth"
+          },
+          {
+            "tag": "p",
+            "text": "Sep 25, 2025 | Alysa Taylor - Chief Marketing Officer, Commercial Cloud &amp; AI"
+          },
+          {
+            "tag": "h3",
+            "text": "Introducing Microsoft Marketplace — Thousands of solutions. Millions of customers. One Marketplace."
+          },
+          {
+            "tag": "p",
+            "text": "Sep 18, 2025 | Scott Guthrie - Executive Vice President, Cloud + AI"
+          },
+          {
+            "tag": "h3",
+            "text": "Inside the world’s most powerful AI datacenter"
+          },
+          {
+            "tag": "p",
+            "text": "Sep 16, 2025 | Jessica Hawk - Corporate Vice President, Data, AI, and Digital Applications, Product Marketing"
+          },
+          {
+            "tag": "h3",
+            "text": "Microsoft leads shift beyond data unification to organization, delivering next-gen AI readiness with new Microsoft Fabric capabilities"
+          },
+          {
+            "tag": "p",
+            "text": "Sep 11, 2025 | Microsoft Corporate Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "A joint statement from Microsoft and OpenAI"
+          },
+          {
+            "tag": "h2",
+            "text": "Press Tools"
+          },
+          {
+            "tag": "p",
+            "text": "Follow us:"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 24,
+          "headings": 18,
+          "images": 15
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-250D3A2A",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8B9045C3",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Official Microsoft Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3E26AC5B",
+      "path": "/on-the-issues/",
+      "type": "Detected Link",
+      "anchor_text": "Microsoft On The Issues",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CDF24E0D",
+      "path": "/conexiones/",
+      "type": "Detected Link",
+      "anchor_text": "Conexiones",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

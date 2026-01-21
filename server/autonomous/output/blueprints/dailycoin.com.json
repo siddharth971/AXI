@@ -1,0 +1,925 @@
+{
+  "website_blueprint_id": "BLUEPRINT-568EEDC5",
+  "generated_at": "2026-01-21T07:27:05.090Z",
+  "global_configuration": {
+    "brand_name": "DailyCoin",
+    "domain": "dailycoin.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.26.14.50",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "block-all-mixed-content;",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 52,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/cache/min/1/scripts/loader.js",
+        "type": "script",
+        "full_url": "https://dailycoin.com/wp-content/cache/min/1/scripts/loader.js?ver=1767770215"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://dailycoin.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/wp-content/themes/cryptotimes/assets/img/subscribe-bell.svg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/themes/cryptotimes/assets/img/subscribe-bell.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Airdrop_Balloons_Monsters_Gifts_Crypto_City_Utopian_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/09/Airdrop_Balloons_Monsters_Gifts_Crypto_City_Utopian_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Cardano_Logo_Woman_Alien_Planet_Fog_Crypto_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/12/Cardano_Logo_Woman_Alien_Planet_Fog_Crypto_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Handshake_Digital_Night_Sky_Stars_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/Handshake_Digital_Night_Sky_Stars_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/btc_bitcoins_skating_crypto_coins_roll_ride_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/btc_bitcoins_skating_crypto_coins_roll_ride_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Kid_Boy_Soap_Bubbles_Gun_Happy_Many_Colourful_Crypto_Bubbles_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/Kid_Boy_Soap_Bubbles_Gun_Happy_Many_Colourful_Crypto_Bubbles_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/Cardano_Upgrade_Sky_Storm_Future_Girl_Button_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/03/Cardano_Upgrade_Sky_Storm_Future_Girl_Button_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/data_coinbase_brian-armstrong_numbers_Web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/12/data_coinbase_brian-armstrong_numbers_Web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/king_blue_ton_crown_water_step_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/king_blue_ton_crown_water_step_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Donald_Trump_Brad_Garlinghouse_Ripple_Smile_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/11/Donald_Trump_Brad_Garlinghouse_Ripple_Smile_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/shib_shiba-inu_blue_price_low_sad_index_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/07/shib_shiba-inu_blue_price_low_sad_index_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/Centralized_Exchanges_Will_Continue_Dominate_Crypto_JP-Morgan_Says_Bahamas_Villa_Pool_Money_Hand_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2022/11/Centralized_Exchanges_Will_Continue_Dominate_Crypto_JP-Morgan_Says_Bahamas_Villa_Pool_Money_Hand_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/bear_angry_market_crypto_scream_scare_Web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/05/bear_angry_market_crypto_scream_scare_Web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/Best_Artificial-Intelligence_Crypto-Coins_ai_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/02/Best_Artificial-Intelligence_Crypto-Coins_ai_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Woman_Shocked_Waves_Laptop_Computer_Communicatiom_Crypto_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/01/Woman_Shocked_Waves_Laptop_Computer_Communicatiom_Crypto_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/lace_ribbon_wallet_complicated_ada_cardano_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/08/lace_ribbon_wallet_complicated_ada_cardano_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/A16Z-Backs_eve-online_CCP-Games_AAA-Title_investment_web-768x512.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/03/A16Z-Backs_eve-online_CCP-Games_AAA-Title_investment_web-768x512.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Testnets_technology_explore_web3_lightning_space_social-768x401.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/04/Testnets_technology_explore_web3_lightning_space_social-768x401.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/02/Litecoins_Charts_Review_web-768x512.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/02/Litecoins_Charts_Review_web-768x512.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/xrp-correction.jpg",
+        "type": "image",
+        "full_url": "https://investx.fr/wp-content/uploads/2025/10/xrp-correction.jpg"
+      },
+      {
+        "path": "/vi/S7hsyRj4rhA/hq720.jpg",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi/S7hsyRj4rhA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB4yBeNTJwgg5MmlWw_0LguxcSl9w"
+      },
+      {
+        "path": "/vi/TSsrNhtsvtQ/hq720.jpg",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi/TSsrNhtsvtQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZjwRDDOCm5O-noJiPSts_lZdAyQ"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Web3-Gaming-Received_money_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/01/Web3-Gaming-Received_money_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Illuvium_NFT_Gaming_Blockchain_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/05/Illuvium_NFT_Gaming_Blockchain_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Metaverse_Gamer_VR_Glasses_Flying_City_Future_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/Metaverse_Gamer_VR_Glasses_Flying_City_Future_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/kinetic_moving_btc_bitcoin_cyber_blockchain_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/kinetic_moving_btc_bitcoin_cyber_blockchain_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/Cash_Red_Downwards_Chart_Space_Running_Crypto_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/07/Cash_Red_Downwards_Chart_Space_Running_Crypto_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Chart_Woman_Sad_Disappointed_Downtrend_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/05/Chart_Woman_Sad_Disappointed_Downtrend_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/xrp_ripple_journey_coin_path_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/01/xrp_ripple_journey_coin_path_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/usa_election_presidential_america_crypto_surge_chart_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/10/usa_election_presidential_america_crypto_surge_chart_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Golden_Giant_Liquid_Metal_Creatures_Surrounded_Unbranded_web_Big_Small_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/09/Golden_Giant_Liquid_Metal_Creatures_Surrounded_Unbranded_web_Big_Small_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Introducing_sPENDLE_1768389989NkxrBUO0L0.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2026/01/Introducing_sPENDLE_1768389989NkxrBUO0L0.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/money_pyramid_cash_blockchain_crypto_unbranded_Web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/10/money_pyramid_cash_blockchain_crypto_unbranded_Web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Bridging-Bitcoin_kira_partnership_btc_defi_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/07/Bridging-Bitcoin_kira_partnership_btc_defi_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Robot_Globe_Africa_Ocean_Walking_Giant_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/10/Robot_Globe_Africa_Ocean_Walking_Giant_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/bitcoins_gold_btc_reach_goal_look-up_sky_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/06/bitcoins_gold_btc_reach_goal_look-up_sky_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/Liquid_Robot_Merging_Space_Clouds_Together_Partnership_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/08/Liquid_Robot_Merging_Space_Clouds_Together_Partnership_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/node_lightning_growth_tree_cardano_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/06/node_lightning_growth_tree_cardano_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/cloud_mining_room_crypto_coins_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/08/cloud_mining_room_crypto_coins_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Whales_Sleeping_Landscape_Mist_MontainRange_Clouds_view_Pod_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/04/Whales_Sleeping_Landscape_Mist_MontainRange_Clouds_view_Pod_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/gold_rush_btc_goods_mineral_stocks_buy_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/09/gold_rush_btc_goods_mineral_stocks_buy_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Doge_meme-coin_moon_explorer_height_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/05/Doge_meme-coin_moon_explorer_height_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Liquid-Staking_relax_water_defi_platform_woman-chilling_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/04/Liquid-Staking_relax_water_defi_platform_woman-chilling_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/crypto_trading_platforms_defi_platform_analysis_unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/07/crypto_trading_platforms_defi_platform_analysis_unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/ICO_Coin_Offering_Dark_Figure_Golden_Coin_Glitch_Digital_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/09/ICO_Coin_Offering_Dark_Figure_Golden_Coin_Glitch_Digital_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Confused_Girl_Digital_Wallets_Glitch_Unbranded_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2024/05/Confused_Girl_Digital_Wallets_Glitch_Unbranded_web.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/NFT_Hands_Creation_Ball_Crystal_web.jpg",
+        "type": "image",
+        "full_url": "https://dailycoin.com/wp-content/uploads/2023/03/NFT_Hands_Creation_Ball_Crystal_web.jpg"
+      },
+      {
+        "path": "/vi/ID/hqdefault.jpg",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi/ID/hqdefault.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "DailyCoin - Today&#039;s Crypto News for Bitcoin, Ethereum, &amp; Altcoins",
+        "description": "DailyCoin is a crypto news outlet covering the latest cryptocurrency news, Bitcoin, Ethereum, and Altcoins, price updates, and crypto education.",
+        "canonical": "https://dailycoin.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "8990ms"
+        },
+        {
+          "resource": "loader.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gpt.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "lazyload.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "🎙️Interviews & Podcasts",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Search for: eSports &#038; Web3 Gaming News Tokens Crypto News Crypto News Bitcoin (BTC) Ethereum (ETH) Altcoins Cardano (ADA) Ripple (XRP) Shiba Inu (SHIB) Shibarium Pi Network Solana (SOL) Polygon (MATIC) Polkadot (DOT) Dogecoin (DOGE) Stablecoins Tether (USDT) USD Coin (USDC) Regulations Regulations SEC CBDCs Cryptopedia Cryptopedia Reviews Investigations Investigations Pig Butchering Scam MiCA Advertise About us Events Contact Advertise Search for: ✨ Main Story Bitcoin Still in Sync With Macro, Bullish Shift Approaching Macro indicators show Bitcoin tracking economic trends, hinting at a potential bullish phase ahead."
+          },
+          {
+            "tag": "h3",
+            "text": "Cardano Whales Scoop 210M ADA On Dip: Big Bounce Coming?"
+          },
+          {
+            "tag": "p",
+            "text": "ADA’s price coils in a multi-month channel with fading downside pressure: classic setup for a break-out?"
+          },
+          {
+            "tag": "h3",
+            "text": "US Congress-Backed America250 Taps HBAR As Sovereign Ledger"
+          },
+          {
+            "tag": "p",
+            "text": "America250 roll-out marks a big break in Hedera’s evolution from a speculative asset to national‑grade infrastructure."
+          },
+          {
+            "tag": "h2",
+            "text": "🔥 Blitz News"
+          },
+          {
+            "tag": "h3",
+            "text": "Paradex DEX Rolls Back After BTC Perps Crash to Zero"
+          },
+          {
+            "tag": "h3",
+            "text": "Pump.fun Launches $3M Fund to Back Early-Stage Builders"
+          },
+          {
+            "tag": "h3",
+            "text": "CME Unleashes Cardano &amp; Stellar Futures: Big ODL Boost?"
+          },
+          {
+            "tag": "h3",
+            "text": "Coinbase Withdraws Backing, Senate Crypto Bill Stalls"
+          },
+          {
+            "tag": "h2",
+            "text": "🗞️ Latest News"
+          },
+          {
+            "tag": "h2",
+            "text": "🌟 Popular Articles"
+          },
+          {
+            "tag": "h3",
+            "text": "SWIFT Trials On XRP & HBAR Done: Who Wins The Crown?"
+          },
+          {
+            "tag": "p",
+            "text": "SWIFT’s neutral multi-rail future leaves XRP liquidity vs HBAR enterprise in the race for cross-border adoption."
+          },
+          {
+            "tag": "h3",
+            "text": "Trump’s Greenland Tariff Gambit: Is XRP In The Crosshairs?"
+          },
+          {
+            "tag": "p",
+            "text": "Donnie plans to leverage sweeping tariffs on Europe in a bid to acquire Greenland as a hidden macro narrative for XRP."
+          },
+          {
+            "tag": "h3",
+            "text": "Shiba Inu’s Supply Crunch Hits: 361B SHIB Just Left Exchanges"
+          },
+          {
+            "tag": "p",
+            "text": "361 billion SHIB yanked off centralized exchanges over the weekend, potentially starving sell-side liquidity."
+          },
+          {
+            "tag": "h3",
+            "text": "JP Morgan Eyes HBAR As Prime Example For Tokenized MMFs"
+          },
+          {
+            "tag": "p",
+            "text": "JP Morgan places HBAR Network within the reference set for big-scale, regulated tokenization."
+          },
+          {
+            "tag": "h3",
+            "text": "Whales Dump $4B in BTC, XRP As Tariff Fears Rattle Crypto"
+          },
+          {
+            "tag": "p",
+            "text": "Whales offloaded nearly $4 billion in under an hour on Monday, triggering more than $500 million in long liquidations."
+          },
+          {
+            "tag": "h3",
+            "text": "“This Is Your Sell Warning”: HBAR Pundit Says Market Has It Backwards"
+          },
+          {
+            "tag": "p",
+            "text": "AI Man argues that Hedera’s recent weakness is a classic contrarian buy signal, not a reason to capitulate."
+          },
+          {
+            "tag": "h3",
+            "text": "XRP Taps $20 Liquidity Pocket On ‘Wave 4’: Bounce Loading?"
+          },
+          {
+            "tag": "p",
+            "text": "If the OG altcoin passes this liquidity zone test, the Elliott Wave-based price setup points straight to $20."
+          },
+          {
+            "tag": "h3",
+            "text": "Crypto Cards Hit $18B Market, Bringing Stablecoins to Everyday Spending"
+          },
+          {
+            "tag": "p",
+            "text": "Stablecoin cards surge as digital assets move from wallets to everyday spending around the globe."
+          },
+          {
+            "tag": "h2",
+            "text": "🎙️ Interviews & Podcasts"
+          },
+          {
+            "tag": "h3",
+            "text": "Is Web3 Gaming Dead? How Compliance Could Revive True Asset Ownership"
+          },
+          {
+            "tag": "p",
+            "text": "Web3 games’ promise of ownership failed, but Triolith Games CEO Magnus Söderberg hints a fix may be coming."
+          },
+          {
+            "tag": "h3",
+            "text": "Web3 Gaming for Beginners: How to Play Smart and Avoid Hype"
+          },
+          {
+            "tag": "p",
+            "text": "A seasoned Web3 gamer offers practical tips for enjoying blockchain games while steering clear of hype and costly missteps."
+          },
+          {
+            "tag": "h3",
+            "text": "From Bitcoin to Litecoin: Luxxfolio’s Zayn Kalyan Explains Next Wave of DAT"
+          },
+          {
+            "tag": "p",
+            "text": "“Bitcoin set the precedent for corporate treasuries. Litecoin’s turn is coming,” says Luxxfolio’s strategic advisor."
+          },
+          {
+            "tag": "h3",
+            "text": "🎧 Videos & Podcasts"
+          },
+          {
+            "tag": "h4",
+            "text": "XRP Analysis: What’s Holding It Back in 2025?"
+          },
+          {
+            "tag": "h4",
+            "text": "Secret Billionaire Plan To COLLAPSE Bitcoin Price"
+          },
+          {
+            "tag": "h4",
+            "text": "The next bull phase is starting?"
+          },
+          {
+            "tag": "h2",
+            "text": "🎮 Esports & Web3 Gaming"
+          },
+          {
+            "tag": "h3",
+            "text": "Top-Selling Games of 2025 Highlight AAA Dominance"
+          },
+          {
+            "tag": "p",
+            "text": "Action, RPG, and multiplayer blockbusters lead while indie titles struggle for visibility."
+          },
+          {
+            "tag": "h3",
+            "text": "Start Your Crypto Gaming Portfolio: A Gamer’s Guide"
+          },
+          {
+            "tag": "p",
+            "text": "A step-by-step guide to owning digital assets in 2025’s hottest blockchain games for gamers."
+          },
+          {
+            "tag": "h3",
+            "text": "Hollywood Mega-Deals Overlook Gaming"
+          },
+          {
+            "tag": "p",
+            "text": "Hollywood’s $82B–$108B media battles ignore gaming’s growing influence, according to SuperJoost."
+          },
+          {
+            "tag": "h3",
+            "text": "Lineup Games Delays LINEUP Token Release"
+          },
+          {
+            "tag": "p",
+            "text": "Lineup Games takes extra time to enhance token distribution and reward alignment."
+          },
+          {
+            "tag": "h2",
+            "text": "🔥 Trending Topics"
+          },
+          {
+            "tag": "h4",
+            "text": "Shiba Inu’s Supply Crunch Hits: 361B SHIB Just Left Exchanges"
+          },
+          {
+            "tag": "h4",
+            "text": "Sell Pressure Hits XRP’s Price Hard, Is $1 Coming Up?"
+          },
+          {
+            "tag": "h4",
+            "text": "Pi Coin Price Stalls Below $1, What’s At Blame Here?"
+          },
+          {
+            "tag": "h2",
+            "text": "👑 Trendsetter News"
+          },
+          {
+            "tag": "h3",
+            "text": "US Congress-Backed America250 Taps HBAR As Sovereign Ledger"
+          },
+          {
+            "tag": "p",
+            "text": "America250 roll-out marks a big break in Hedera’s evolution from a speculative asset to national‑grade infrastructure."
+          },
+          {
+            "tag": "h3",
+            "text": "“Free Money Range”? XRP Maxi Claims ‘Violent’ Move Is Imminent"
+          },
+          {
+            "tag": "p",
+            "text": "An XRP-focused YouTube trader is calling the current price zone a “free money range” for multiple reasons."
+          },
+          {
+            "tag": "h3",
+            "text": "“Leadership We Can Believe In?” Voices Split Over Warren-Backed Clarity Act"
+          },
+          {
+            "tag": "p",
+            "text": "Wendy O’s latest video spotlights a growing rift in industry leadership over a Warren-aligned U.S. market-structure bill."
+          },
+          {
+            "tag": "h3",
+            "text": "“We Don’t Deserve An Alt Season”: Top Analyst Spots The Game-Change"
+          },
+          {
+            "tag": "p",
+            "text": "11.6M projects collapsed in 2025, while meme & AI coins briefly hit multi‑billion‑dollar valuations before enormous dips."
+          },
+          {
+            "tag": "h2",
+            "text": "📰 Press Releases"
+          },
+          {
+            "tag": "h3",
+            "text": "Pendle Announces Token Upgrade as Its DeFi Yield Platform Scales"
+          },
+          {
+            "tag": "p",
+            "text": "Singapore, Singapore, 20th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "SwissBorg Launches Dynamic Elite Ranks With Up to 99% Exchange Fee Cashback"
+          },
+          {
+            "tag": "p",
+            "text": "Lausanne, Switzerland, 19th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "NEXST Brings KISS OF LIFE to Life: Debut VR Concerts on the Ultimate Web3 Entertainment Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Dubai, UAE, 16th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "Mingo Secures Exclusive 54-Country Ticketing Deal on Hedera"
+          },
+          {
+            "tag": "p",
+            "text": "Gibraltar, Gibraltar, 16th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "LBank xStock Spot Trading Volume Surpasses $3 Billion, Securing 30% of the CEX Market"
+          },
+          {
+            "tag": "p",
+            "text": "Singapore, Singaapore, 16th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "OpenServ and Neol Advance Enterprise-ready AI Reasoning Under Real-world Constraints"
+          },
+          {
+            "tag": "p",
+            "text": "London, United Kingdom, 15th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "LBank Expands Mainstream Payment Channels with Apple Pay and Google Pay, Enabling 0-Fee Crypto Purchases"
+          },
+          {
+            "tag": "p",
+            "text": "Singapore, Singapore, 15th January 2026, Chainwire"
+          },
+          {
+            "tag": "h3",
+            "text": "CreditBlockchain Mining Guide 2026: AI-Driven Cloud Mining and the Shift Toward Managed Crypto Infrastructure"
+          },
+          {
+            "tag": "p",
+            "text": "In the global process of financial digitalization, cryptocurrency mining has become more accessible to a wider audience. In 2025, the deep integration of artificial intelligence, cloud computing, and blockchain technology [&hellip;]"
+          },
+          {
+            "tag": "h2",
+            "text": "📈 Market News"
+          },
+          {
+            "tag": "h3",
+            "text": "BTC Whales Halt Selling As Fear &#038; Greed Golden Cross Signals Rally"
+          },
+          {
+            "tag": "p",
+            "text": "Whales pull back from selling as BTC sentiment shifts—could the Golden Cross spark a fresh rally in a market hungry for stability?"
+          },
+          {
+            "tag": "h3",
+            "text": "Paradex DEX Rolls Back After BTC Perps Crash to Zero"
+          },
+          {
+            "tag": "p",
+            "text": "Mass liquidations hit BTC, ETH, and SOL. Paradex DEX rolls back blockchain to protect user funds."
+          },
+          {
+            "tag": "h3",
+            "text": "Pump.fun Launches $3M Fund to Back Early-Stage Builders"
+          },
+          {
+            "tag": "p",
+            "text": "Solana memecoin platform pushes token-first hackathon model to foster sustainable early-stage projects."
+          },
+          {
+            "tag": "h3",
+            "text": "BTCC Reports 809% Surge in Tokenized Gold Trades in 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Record gold prices and rising demand boost tokenized trading on BTCC in Q4 2025."
+          },
+          {
+            "tag": "h2",
+            "text": "🗂️ Cryptopedia"
+          },
+          {
+            "tag": "h3",
+            "text": "Testnets in Crypto: How To Use Test Networks to Earn Cryptocurrency"
+          },
+          {
+            "tag": "p",
+            "text": "What are Testnets and why everyone should you use them."
+          },
+          {
+            "tag": "h3",
+            "text": "What Is Liquidity in Crypto? Different Types and How They Impact Your Trading"
+          },
+          {
+            "tag": "p",
+            "text": "Learning about liquidity can help investors navigate the expansive crypto market."
+          },
+          {
+            "tag": "h3",
+            "text": "Best Crypto Analysis Tools to Give You an Edge in the Crypto Market"
+          },
+          {
+            "tag": "p",
+            "text": "Stay one step ahead of the market."
+          },
+          {
+            "tag": "h3",
+            "text": "What Are ICOs? How Token Sales Work and How to Be Safe"
+          },
+          {
+            "tag": "p",
+            "text": "Learn what ICOs are, and how to safely participate in them."
+          },
+          {
+            "tag": "h3",
+            "text": "Custodial vs Non-Custodial Wallets: Which One Should You Choose?"
+          },
+          {
+            "tag": "p",
+            "text": "Deciding between picking up a custodial or non-custodial wallet? Here’s how they match up when compared side-by-side."
+          },
+          {
+            "tag": "h3",
+            "text": "Prediction Markets: The Internet Crystal Ball That Outperforms Experts"
+          },
+          {
+            "tag": "p",
+            "text": "From elections to entertainment, prediction markets turn data and bets into faster, more accurate forecasts than experts."
+          },
+          {
+            "tag": "p",
+            "text": "About Us"
+          },
+          {
+            "tag": "p",
+            "text": "Learn"
+          },
+          {
+            "tag": "p",
+            "text": "Policies"
+          },
+          {
+            "tag": "p",
+            "text": "Popular Sections"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 92,
+          "headings": 62,
+          "images": 106
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-F089CE99",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C6669815",
+      "path": "/events/",
+      "type": "Detected Link",
+      "anchor_text": "Events",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F86AAA2A",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-51EBC22E",
+      "path": "/esports-web3-gaming/",
+      "type": "Detected Link",
+      "anchor_text": "eSports &#038; Web3",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5DD954E7",
+      "path": "/gaming-tokens/",
+      "type": "Detected Link",
+      "anchor_text": "Tokens",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B6482566",
+      "path": "/crypto-news",
+      "type": "Detected Link",
+      "anchor_text": "Crypto News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DCAD5E0F",
+      "path": "/bitcoin-btc/",
+      "type": "Detected Link",
+      "anchor_text": "Bitcoin (BTC)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E59F5079",
+      "path": "/ethereum-eth/",
+      "type": "Detected Link",
+      "anchor_text": "Ethereum (ETH)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-91B65B1D",
+      "path": "/altcoins/",
+      "type": "Detected Link",
+      "anchor_text": "Altcoins",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-134A746B",
+      "path": "/cardano-ada/",
+      "type": "Detected Link",
+      "anchor_text": "Cardano (ADA)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7174E4D",
+      "path": "/ripple-xrp/",
+      "type": "Detected Link",
+      "anchor_text": "Ripple (XRP)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5A7C0459",
+      "path": "/shiba-inu-shib/",
+      "type": "Detected Link",
+      "anchor_text": "Shiba Inu (SHIB)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C2BF0F97",
+      "path": "/shiba-inu-shib/shibarium/",
+      "type": "Detected Link",
+      "anchor_text": "Shibarium",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-62A97251",
+      "path": "/pi-network/",
+      "type": "Detected Link",
+      "anchor_text": "Pi Network",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-619F7932",
+      "path": "/altcoins/solana-sol/",
+      "type": "Detected Link",
+      "anchor_text": "Solana (SOL)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

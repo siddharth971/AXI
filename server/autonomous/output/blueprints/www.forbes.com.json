@@ -1,0 +1,342 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C4E32B55",
+  "generated_at": "2026-01-21T07:27:05.156Z",
+  "global_configuration": {
+    "brand_name": "www.forbes.com",
+    "domain": "www.forbes.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "199.232.21.55",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "rhino-core-shield"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=300",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "rhino-core-shield"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 5,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/plugins/v1/tcf/stub.js",
+        "type": "script",
+        "full_url": "https://cdn.ketchjs.com/plugins/v1/tcf/stub.js"
+      },
+      {
+        "path": "/js/lux.js",
+        "type": "script",
+        "full_url": "https://cdn.speedcurve.com/js/lux.js?id=22432108"
+      },
+      {
+        "path": "/simple-site/dist/js/common-41a9615125f235aa2158.js",
+        "type": "script",
+        "full_url": "https://i.forbesimg.com/simple-site/dist/js/common-41a9615125f235aa2158.js"
+      },
+      {
+        "path": "/simple-site/dist/js/homepage-ee7ccceb25d884a2b3b4.js",
+        "type": "script",
+        "full_url": "https://i.forbesimg.com/simple-site/dist/js/homepage-ee7ccceb25d884a2b3b4.js"
+      },
+      {
+        "path": "/simple-site/dist/css/deferred-home-d3ae0cb8e2c22ec23fc71e4802ea54e19705cc13a49b519f8c5b55d5c6dfec8e.css",
+        "type": "stylesheet",
+        "full_url": "https://i.forbesimg.com/simple-site/dist/css/deferred-home-d3ae0cb8e2c22ec23fc71e4802ea54e19705cc13a49b519f8c5b55d5c6dfec8e.css"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.forbes.com",
+        "description": "",
+        "canonical": "https://www.forbes.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "9319ms"
+        },
+        {
+          "resource": "stub.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "lux.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "common-41a9615125f235aa2158.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Ports-to-casino billionaire Enrique Razon Jr. has been stepping up energy investments in recent years. His Prime Infra Holdings agreed to buy a 45% stake in the Malampaya gas field in 2022.",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Money",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Ports-to-casino billionaire Enrique Razon Jr. has been stepping up energy investments in recent years. His Prime Infra Holdings agreed to buy a 45% stake in the Malampaya gas field in 2022."
+          },
+          {
+            "tag": "p",
+            "text": "Tycoon Raj Kumar Selling Prime F&amp;B Space In Singapore’s Orchard Road For $195 Million The proposed sale of Cuppage Terrace by tycoon Raj Kumar's Royal Holdings is well-timed as the Orchard Road shopping belt is undergoing a major facelift with several older properties in the area undergoing redevelopment."
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "p",
+            "text": "Thomas Peterffy , Founder and Chairman of Interactive Brokers"
+          },
+          {
+            "tag": "h2",
+            "text": "Money"
+          },
+          {
+            "tag": "h2",
+            "text": "Innovation"
+          },
+          {
+            "tag": "h2",
+            "text": "Lifestyle"
+          },
+          {
+            "tag": "h2",
+            "text": "Billionaires"
+          },
+          {
+            "tag": "h2",
+            "text": "Leadership"
+          },
+          {
+            "tag": "h2",
+            "text": "Conferences"
+          },
+          {
+            "tag": "h2",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "h2",
+            "text": "Products"
+          },
+          {
+            "tag": "h2",
+            "text": "Company Info"
+          },
+          {
+            "tag": "h2",
+            "text": "Forbes Councils"
+          },
+          {
+            "tag": "h2",
+            "text": "Education"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 125,
+          "headings": 16,
+          "images": 0
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-C79D59FC",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-85C054F6",
+      "path": "/search/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-737FDF73",
+      "path": "/games",
+      "type": "Detected Link",
+      "anchor_text": "Games",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE4B39C0",
+      "path": "/sites/forbesstaff/article/tips-and-confidential-sources/",
+      "type": "Detected Link",
+      "anchor_text": "Share a News Tip",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F62A5ED1",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "Breaking News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AA7A81F4",
+      "path": "/trump/",
+      "type": "Detected Link",
+      "anchor_text": "White House Watch",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-331D3C97",
+      "path": "/daily-cover-stories/",
+      "type": "Detected Link",
+      "anchor_text": "Daily Cover Stories",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FC0F5F21",
+      "path": "/sites/tiktok/2025/12/15/new-era-new-icons-the-creators-redefining-high-quality-storytelling-on-tiktok/",
+      "type": "Detected Link",
+      "anchor_text": "New Era, New Icons: The Creators Redefining High-Quality Storytelling on TikTok | Paid Program",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0835095F",
+      "path": "/sites/bloodcancerunited/2025/12/01/celebrating-top-fundraisers-uniting-to-end-blood-cancers/",
+      "type": "Detected Link",
+      "anchor_text": "Celebrating Top Fundraisers Uniting To End Blood Cancers | Paid Program",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4E38CB0F",
+      "path": "/lists/best-in-state-next-gen-advisors/",
+      "type": "Detected Link",
+      "anchor_text": "Best-In-State Top Next-Gen Wealth Advisors 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7599CBF7",
+      "path": "/sites/forbes-research/2023/10/26/c-suite-data-reveals-ais-nuanced-impact--a-quest-to-quantify-it/",
+      "type": "Detected Link",
+      "anchor_text": "AI’s Nuanced Impact And A Quest To Quantify It",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89ED7DA0",
+      "path": "/sites/forbes-research/2023/10/26/new-forbes-survey-reveals-how-executives-are-embracing---and-bracing-for---ai/",
+      "type": "Detected Link",
+      "anchor_text": "Embracing And Bracing For AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1A310C3",
+      "path": "/sites/forbes-research/2023/11/01/facing-a-volatile-market-c-suites-look-to-the-cfo-for-strategic-guidance/",
+      "type": "Detected Link",
+      "anchor_text": "Facing A Volatile Market, C-Suites Look To The CFO For Strategic Guidance",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EE47F131",
+      "path": "/30-under-30/2025/europe/",
+      "type": "Detected Link",
+      "anchor_text": "By The Numbers: Meet The Forbes 30 Under 30 Europe Class Of 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3BDE3014",
+      "path": "/sites/amyfeldman/2025/08/12/next-billion-dollar-startups-2025/",
+      "type": "Detected Link",
+      "anchor_text": "Next Billion-Dollar Startups 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

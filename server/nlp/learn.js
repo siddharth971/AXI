@@ -1,11 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 
-// Configuration
-const BLUEPRINTS_PATH = path.join(
+// Configuration - Sharded Input
+const BLUEPRINTS_DIR = path.join(__dirname, "../autonomous/output/blueprints");
+const INDEX_PATH = path.join(__dirname, "../autonomous/output/index.json");
+// Legacy fallback
+const LEGACY_BLUEPRINTS_PATH = path.join(
   __dirname,
   "../autonomous/output/website_blueprints.json",
 );
+
 const OUTPUT_INTENTS_PATH = path.join(
   __dirname,
   "./intents/autonomous_learned.json",
@@ -22,26 +26,58 @@ const colors = {
   cyan: "\x1b[36m",
   yellow: "\x1b[33m",
   red: "\x1b[31m",
+  gray: "\x1b[90m",
 };
 
 console.log(
   `${colors.cyan}🧠 AXI Autonomous Learning Module Initialized...${colors.reset}`,
 );
 
-function learnFromBlueprints() {
-  if (!fs.existsSync(BLUEPRINTS_PATH)) {
-    console.error(
-      `${colors.red}❌ No blueprints found at ${BLUEPRINTS_PATH}. Run 'npm run axi:explore' first.${colors.reset}`,
+/**
+ * Load blueprints from sharded directory or legacy single file
+ */
+function loadBlueprints() {
+  // Try sharded mode first
+  if (fs.existsSync(INDEX_PATH) && fs.existsSync(BLUEPRINTS_DIR)) {
+    console.log(
+      `${colors.yellow}📂 Loading from sharded blueprints...${colors.reset}`,
     );
-    return;
+
+    const index = JSON.parse(fs.readFileSync(INDEX_PATH, "utf8"));
+    const blueprints = [];
+
+    for (const entry of index.blueprints) {
+      const filepath = path.join(__dirname, "../autonomous/output", entry.file);
+      if (fs.existsSync(filepath)) {
+        try {
+          const bp = JSON.parse(fs.readFileSync(filepath, "utf8"));
+          blueprints.push(bp);
+        } catch (e) {
+          console.error(`   ⚠️ Failed to load ${entry.file}`);
+        }
+      }
+    }
+
+    return blueprints;
   }
 
-  let blueprints;
-  try {
-    blueprints = JSON.parse(fs.readFileSync(BLUEPRINTS_PATH, "utf8"));
-  } catch (err) {
+  // Fallback to legacy single file
+  if (fs.existsSync(LEGACY_BLUEPRINTS_PATH)) {
+    console.log(
+      `${colors.yellow}📄 Loading from legacy blueprints file...${colors.reset}`,
+    );
+    return JSON.parse(fs.readFileSync(LEGACY_BLUEPRINTS_PATH, "utf8"));
+  }
+
+  return null;
+}
+
+function learnFromBlueprints() {
+  const blueprints = loadBlueprints();
+
+  if (!blueprints || blueprints.length === 0) {
     console.error(
-      `${colors.red}❌ Failed to parse blueprints: ${err.message}${colors.reset}`,
+      `${colors.red}❌ No blueprints found. Run 'npm run axi:explore' first.${colors.reset}`,
     );
     return;
   }
@@ -61,7 +97,6 @@ function learnFromBlueprints() {
 
     if (!cleanBrand) return;
 
-    // 1. Create a specific intent for this domain/brand
     const intentName = `knowledge.dynamic.${cleanBrand}`;
     const utterances = new Set();
 
@@ -98,7 +133,6 @@ function learnFromBlueprints() {
         Array.isArray(route.page_content.main_content)
       ) {
         route.page_content.main_content.forEach((block) => {
-          // Heuristic: If it's a heading, turn it into a question.
           if (block.tag && block.tag.startsWith("h") && block.text) {
             const text = block.text.replace(/[^\w\s]/gi, "").trim();
             if (text.length > 5 && text.length < 50) {
@@ -107,7 +141,6 @@ function learnFromBlueprints() {
               utterances.add(`${brand} ${text}`);
             }
           }
-          // Collect content for the knowledge map
           if (block.text && block.text.length > 20) {
             contentSummary.push(block.text);
           }
@@ -123,7 +156,7 @@ function learnFromBlueprints() {
         site.global_configuration.description || "No description available.",
       hosting: config.infrastructure.hosting_provider,
       ip: config.infrastructure.server_ip,
-      summary: contentSummary.slice(0, 5).join("\n\n"), // Store top 5 content blocks
+      summary: contentSummary.slice(0, 5).join("\n\n"),
     };
 
     if (utterances.size > 0) {
@@ -138,13 +171,12 @@ function learnFromBlueprints() {
     }
   });
 
-  // Save the learned knowledge to the NLP intents directory
+  // Save outputs
   if (learnedIntents.length > 0) {
     fs.writeFileSync(
       OUTPUT_INTENTS_PATH,
       JSON.stringify(learnedIntents, null, 2),
     );
-    // Save content map
     fs.writeFileSync(
       OUTPUT_CONTENT_PATH,
       JSON.stringify(learnedContent, null, 2),
