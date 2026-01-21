@@ -198,12 +198,6 @@ async function lookup(query) {
   };
 }
 
-return {
-  success: false,
-  error: "Could not find information on that topic.",
-};
-}
-
 /**
  * Check if a query looks like a factual question
  */

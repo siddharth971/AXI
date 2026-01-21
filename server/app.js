@@ -1,9 +1,9 @@
 /**
  * AXI Server - Main Entry Point
  * ================================
- * 
+ *
  * This is the main application file for the AXI voice assistant server.
- * 
+ *
  * Architecture:
  * ├── config/         - Configuration and environment
  * ├── core/           - Core systems (context, memory)
@@ -11,7 +11,7 @@
  * ├── skills/         - Skill handlers and router
  * ├── utils/          - Utilities (logger, helpers)
  * └── app.js          - This file (Express server)
- * 
+ *
  * @author AXI Development Team
  * @version 1.0.0
  */
@@ -26,8 +26,13 @@ const context = require("./core/context");
 const sessions = require("./core/sessions");
 
 // NLP and Skills
+// NLP and Skills
 const nlp = require("./nlp/nlp");
 const skills = require("./skills");
+const proactive = require("./core/proactive");
+
+// Initialize Proactive Engine
+proactive.init();
 
 // ===========================
 // Express Setup
@@ -66,8 +71,8 @@ app.post("/api/command", async (req, res) => {
         confidence: 1,
         entities: {
           value: text,
-          type: context.get("awaiting")
-        }
+          type: context.get("awaiting"),
+        },
       };
     } else {
       // 2. Standard NLP Processing (async for semantic matching)
@@ -105,7 +110,7 @@ app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
     name: "AXI Server",
-    version: "1.0.0"
+    version: "1.0.0",
   });
 });
 
@@ -126,19 +131,22 @@ app.get("/api/skill-context", (req, res) => {
         icon: "cloud-sun",
         title: "Weather",
         value: contextData.weather || "25°C, Sunny",
-        color: "cyan"
+        color: "cyan",
       },
       {
         id: "time",
         type: "info",
         icon: "clock",
         title: "Current Time",
-        value: new Date().toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }),
-        color: "purple"
-      }
+        value: new Date().toLocaleTimeString("en-US", {
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
+        color: "purple",
+      },
     ],
     activeSkill: context.get("lastIntent") || null,
-    lastUpdated: new Date().toISOString()
+    lastUpdated: new Date().toISOString(),
   };
 
   // Add any quick actions based on context
@@ -150,7 +158,7 @@ app.get("/api/skill-context", (req, res) => {
       title: "Quick Link",
       value: context.get("lastWebsite") || "youtube.com",
       actionLabel: "Open Site",
-      color: "red"
+      color: "red",
     });
   }
 
@@ -163,7 +171,7 @@ app.get("/api/skill-context", (req, res) => {
  */
 app.get("/api/history", (req, res) => {
   res.json({
-    history: context.getHistory()
+    history: context.getHistory(),
   });
 });
 
@@ -175,7 +183,7 @@ app.get("/api/sessions", (req, res) => {
   const allSessions = sessions.getAllSessions();
   res.json({
     sessions: allSessions,
-    currentSessionId: sessions.currentSessionId
+    currentSessionId: sessions.currentSessionId,
   });
 });
 
@@ -187,7 +195,7 @@ app.post("/api/sessions", (req, res) => {
   const { title } = req.body;
   const newSession = sessions.createSession(title);
   res.json({
-    session: newSession
+    session: newSession,
   });
 });
 
@@ -238,6 +246,15 @@ app.post("/api/sessions/:id/activate", (req, res) => {
     return res.status(404).json({ error: "Session not found" });
   }
   res.json({ success: true });
+});
+
+/**
+ * GET /api/notifications
+ * Poll for proactive messages
+ */
+app.get("/api/notifications", (req, res) => {
+  const messages = proactive.getMessages();
+  res.json({ messages });
 });
 
 // ===========================
