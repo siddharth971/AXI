@@ -18,12 +18,17 @@
 
 const express = require("express");
 const cors = require("cors");
+const http = require("http");
+const socketData = require("./core/socket");
+const path = require("path");
 
 // Core imports
 const config = require("./config");
 const { logger } = require("./utils");
 const context = require("./core/context");
 const sessions = require("./core/sessions");
+const { validateBody, schemas } = require("./utils/validator");
+const knowledgeHandler = require("./skills/knowledge-handler");
 
 // NLP and Skills
 // NLP and Skills
@@ -33,17 +38,27 @@ const proactive = require("./core/proactive");
 const memory = require("./core/memory");
 const learning = require("./core/learning");
 
-// Initialize Proactive Engine
+// Initialize Proactive Engine & Scheduler
 proactive.init();
+const scheduler = require("./core/scheduler");
+scheduler.init();
 
 // ===========================
 // Express Setup
 // ===========================
 
+// Express & Socket Setup
+// ===========================
+
 const app = express();
+const server = http.createServer(app);
+
+// Initialize Socket.IO
+socketData.init(server);
 
 app.use(cors());
 app.use(express.json());
+app.use("/screenshots", express.static(path.join(__dirname, "screenshots")));
 
 // ===========================
 // API Routes
@@ -53,12 +68,10 @@ app.use(express.json());
  * POST /api/command
  * Main command endpoint for voice/text input
  */
-app.post("/api/command", async (req, res) => {
+app.post("/api/command", validateBody(schemas.command), async (req, res) => {
   const { text } = req.body;
+  // Manual check removed, handled by Zod
 
-  if (!text || typeof text !== "string") {
-    return res.status(400).json({ error: "Missing or invalid 'text' field" });
-  }
 
   logger.received(text);
 
@@ -193,7 +206,7 @@ app.get("/api/sessions", (req, res) => {
  * POST /api/sessions
  * Create a new session
  */
-app.post("/api/sessions", (req, res) => {
+app.post("/api/sessions", validateBody(schemas.createSession), (req, res) => {
   const { title } = req.body;
   const newSession = sessions.createSession(title);
   res.json({
@@ -229,7 +242,7 @@ app.delete("/api/sessions/:id", (req, res) => {
  * PUT /api/sessions/:id
  * Update session title
  */
-app.put("/api/sessions/:id", (req, res) => {
+app.put("/api/sessions/:id", validateBody(schemas.updateSession), (req, res) => {
   const { title } = req.body;
   const updated = sessions.updateTitle(req.params.id, title);
   if (!updated) {
@@ -289,11 +302,43 @@ app.get("/api/learning", (req, res) => {
   res.json({ corrections: learning.getPending() });
 });
 
+/**
+ * GET /api/knowledge
+ * Get list of all explored knowledge blueprints
+ */
+app.get("/api/knowledge", (req, res) => {
+  const items = knowledgeHandler.list();
+  res.json({ blueprints: items });
+});
+
+// ===========================
+// Admin Routes
+// ===========================
+
+/**
+ * POST /api/admin/cycle
+ * Manually trigger the autonomous learning cycle
+ */
+app.post("/api/admin/cycle", (req, res) => {
+  if (scheduler.isExplorerRunning) {
+    return res.status(409).json({ error: "Cycle is already running" });
+  }
+
+  // Run asynchronously
+  scheduler.runAutonomousCycle();
+
+  res.json({
+    success: true,
+    message: "Autonomous Cycle started",
+    status: "running"
+  });
+});
+
 // ===========================
 // Server Start
 // ===========================
 
-app.listen(config.PORT, () => {
+server.listen(config.PORT, () => {
   console.log("");
   console.log("╔════════════════════════════════════════╗");
   console.log("║         🧠 AXI Voice Assistant         ║");

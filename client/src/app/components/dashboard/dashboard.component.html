@@ -59,6 +59,31 @@
       </div>
     </div>
 
+    <!-- Knowledge Section -->
+    <div class="card knowledge-card">
+      <div class="card-header clickable" routerLink="/galaxy" title="Open Full 3D Galaxy">
+        <h2>🌍 Explored Worlds</h2>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <span style="font-size: 0.8rem; color: #4facfe; opacity: 0.8;">Click to expand ↗</span>
+          <span class="badge">{{ blueprints.length }} sites</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <app-knowledge-galaxy [blueprints]="blueprints"></app-knowledge-galaxy>
+
+        <div class="knowledge-grid" style="margin-top: 1rem;">
+          <div *ngFor="let item of blueprints" class="knowledge-item">
+            <div class="k-header">
+              <span class="brand">{{ item.brand }}</span>
+              <span class="domain">{{ item.domain }}</span>
+            </div>
+            <span class="date">{{ item.generated_at | date:'shortDate' }}</span>
+          </div>
+          <div *ngIf="blueprints.length === 0" class="empty">No exploration data yet.</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Notifications Section -->
     <div class="card notification-card">
       <div class="card-header">

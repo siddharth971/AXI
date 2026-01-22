@@ -93,4 +93,8 @@ export class AxiService {
   getNotifications(): Observable<{ messages: any[] }> {
     return this.http.get<{ messages: any[] }>(`http://localhost:5000/api/notifications`);
   }
+
+  getKnowledge(): Observable<{ blueprints: any[] }> {
+    return this.http.get<{ blueprints: any[] }>(`http://localhost:5000/api/knowledge`);
+  }
 }

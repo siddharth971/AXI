@@ -1,8 +1,10 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
+import { Router, NavigationEnd, RouterModule } from '@angular/router';
+import { filter } from 'rxjs/operators';
 import { AxiOrbComponent } from './components/core/axi-orb.component';
 import { VoiceService } from './services/voice.service';
 import { SkillContextService } from './services/skill-context.service';
@@ -14,6 +16,7 @@ import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayC
   imports: [
     CommonModule,
     FormsModule,
+    RouterModule,
     LucideAngularModule,
     AxiOrbComponent
   ],
@@ -45,7 +48,7 @@ import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayC
             <span class="status-dot"></span>
             <span class="status-text">{{ state() === 'listening' ? 'LISTENING' : 'ONLINE' }}</span>
           </div>
-          <button class="settings-btn">
+          <button class="settings-btn" routerLink="/dashboard">
             <lucide-icon name="play-circle" class="icon"></lucide-icon>
           </button>
         </div>
@@ -54,7 +57,7 @@ import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayC
       <!-- Main Content Area -->
       <main class="main-content">
         <!-- Left Panel: Your Chats (ChatGPT-style) -->
-        <aside class="panel panel-left">
+        <aside class="panel panel-left" *ngIf="isHomePage()">
           <div class="panel-glass sessions-container">
             <div class="sessions-header">
               <div class="header-title">Your chats</div>
@@ -84,32 +87,36 @@ import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayC
           </div>
         </aside>
 
-        <!-- Center: Orb Section -->
+        <!-- Center: Orb Section OR Router Outlet -->
         <section class="center-section">
-          <!-- Orb Section -->
-          <div class="orb-section">
-            <div class="orb-wrapper">
-              <app-axi-orb />
-            </div>
-            
-            <!-- Status text below orb -->
-            <div class="status-text" [class.visible]="state() !== 'idle'">
-              <p class="state-label">
-                {{ state() === 'listening' ? 'Listening...' : (state() === 'thinking' ? 'Processing...' : state() === 'speaking' ? 'Speaking...' : '') }}
-              </p>
-            </div>
-            
-            <!-- Simple AXI Response Text - White text below orb -->
-            @if (lastResponse()) {
-              <div class="axi-response-text">
-                <p>{{ lastResponse() }}</p>
+          @if (isHomePage()) {
+            <!-- Orb Section -->
+            <div class="orb-section">
+              <div class="orb-wrapper">
+                <app-axi-orb />
               </div>
-            }
-          </div>
+              
+              <!-- Status text below orb -->
+              <div class="status-text" [class.visible]="state() !== 'idle'">
+                <p class="state-label">
+                  {{ state() === 'listening' ? 'Listening...' : (state() === 'thinking' ? 'Processing...' : state() === 'speaking' ? 'Speaking...' : '') }}
+                </p>
+              </div>
+              
+              <!-- Simple AXI Response Text - White text below orb -->
+              @if (lastResponse()) {
+                <div class="axi-response-text">
+                  <p>{{ lastResponse() }}</p>
+                </div>
+              }
+            </div>
+          } @else {
+            <router-outlet></router-outlet>
+          }
         </section>
 
         <!-- Right Panel: Active Skill Context -->
-        <aside class="panel panel-right">
+        <aside class="panel panel-right" *ngIf="isHomePage()">
           <div class="panel-glass">
             <div class="panel-header">
               <lucide-icon name="zap" class="panel-icon"></lucide-icon>
@@ -1094,6 +1101,7 @@ import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayC
   `]
 })
 export class App {
+  private router = inject(Router);
   private voiceService = inject(VoiceService);
   private http = inject(HttpClient);
   skillContextService = inject(SkillContextService);
@@ -1103,6 +1111,9 @@ export class App {
   lastResponse = this.voiceService.lastResponse;
   commands = this.voiceService.commands;
 
+  // View State
+  isHomePage = signal(true);
+
   // Sessions
   sessions = signal<any[]>([]);
   activeSessionId = signal<string | null>(null);
@@ -1111,6 +1122,14 @@ export class App {
   commandInput = '';
 
   constructor() {
+    // Monitor route changes
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe((event: any) => {
+      const url = event.urlAfterRedirects || event.url;
+      this.isHomePage.set(url === '/');
+    });
+
     this.loadSessions();
   }
 

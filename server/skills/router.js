@@ -18,6 +18,7 @@ const { memory } = require("./context/memory");
 const fallback = require("./responses/fallback");
 const config = require("../config");
 const { logger } = require("../utils");
+const knowledgeHandler = require("./knowledge-handler");
 
 // Confirmation timeout (30 seconds)
 const CONFIRMATION_TIMEOUT = 30000;
@@ -84,6 +85,20 @@ async function execute(
     if (!intent || confidence < globalThreshold) {
       logger.debug(`Low confidence (${confidence}) for intent: ${intent}`);
       return fallback.unknown(originalText);
+    }
+
+    // 4.5. Intercept Knowledge Intents (RAG)
+    if (intent && intent.startsWith("knowledge:")) {
+      logger.info(`💡 Serving knowledge for: ${intent}`);
+      const response = knowledgeHandler.handle(intent);
+
+      // Update context as usual
+      memory.updateGlobalContext({
+        lastIntent: intent,
+        lastPlugin: "knowledge_base",
+        lastResponse: response
+      });
+      return response;
     }
 
     // 5. Lookup intent handler in registry

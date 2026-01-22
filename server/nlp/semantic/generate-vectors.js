@@ -23,7 +23,8 @@ const CONFIG = {
   PLUGIN_DIRS: [
     path.join(__dirname, "../../skills/plugins"),
     path.join(__dirname, "../../plugins")
-  ]
+  ],
+  BLUEPRINTS_DIR: path.join(__dirname, "../../autonomous/output/blueprints")
 };
 
 // Console colors
@@ -41,7 +42,7 @@ const c = {
  */
 function tokenize(text) {
   if (!text || typeof text !== "string") return [];
-  
+
   return text
     .toLowerCase()
     .replace(/[^a-z0-9\s'-]/g, " ")
@@ -57,7 +58,7 @@ function tokenize(text) {
 function computeIDF(documents) {
   const docFreq = {};
   const numDocs = documents.length;
-  
+
   // Count document frequency for each term
   for (const doc of documents) {
     const uniqueTokens = new Set(doc);
@@ -65,13 +66,13 @@ function computeIDF(documents) {
       docFreq[token] = (docFreq[token] || 0) + 1;
     }
   }
-  
+
   // Compute IDF: log(N / df)
   const idf = {};
   for (const token in docFreq) {
     idf[token] = Math.log(numDocs / docFreq[token]) + 1; // +1 smoothing
   }
-  
+
   return idf;
 }
 
@@ -81,17 +82,17 @@ function computeIDF(documents) {
 function computeTF(tokens) {
   const tf = {};
   const total = tokens.length;
-  
+
   if (total === 0) return tf;
-  
+
   for (const token of tokens) {
     tf[token] = (tf[token] || 0) + 1;
   }
-  
+
   for (const token in tf) {
     tf[token] = tf[token] / total;
   }
-  
+
   return tf;
 }
 
@@ -111,6 +112,57 @@ function normalizeVector(vec) {
   return vec.map(v => v / magnitude);
 }
 
+/**
+ * Load Blueprints as Knowledge Intents
+ */
+function loadBlueprints() {
+  const knowledgeIntents = [];
+  if (!fs.existsSync(CONFIG.BLUEPRINTS_DIR)) return knowledgeIntents;
+
+  try {
+    const files = fs.readdirSync(CONFIG.BLUEPRINTS_DIR).filter(f => f.endsWith(".json"));
+
+    for (const file of files) {
+      const bp = JSON.parse(fs.readFileSync(path.join(CONFIG.BLUEPRINTS_DIR, file), "utf-8"));
+      const config = bp.global_configuration || {};
+      const domain = config.domain;
+      const brand = config.brand_name || domain;
+      const desc = bp.site_routes_and_content?.[0]?.meta_seo?.description || `Information about ${brand}`;
+
+      if (!domain) continue;
+
+      // Create a dynamic intent for this domain
+      const intentName = `knowledge:${domain.replace(/\./g, "_")}`;
+      const utterances = [
+        `What is ${brand}?`,
+        `Tell me about ${brand}`,
+        `Who is ${brand}?`,
+        `information about ${domain}`,
+        `show me ${brand}`,
+        desc, // Include the description itself for semantic matching
+        `${brand} features`,
+        `open ${brand}`
+      ];
+
+      // Add unique extracted text as utterances (limited to 5)
+      if (bp.site_routes_and_content) {
+        bp.site_routes_and_content.forEach(r => {
+          if (r.meta_seo?.title && r.meta_seo.title !== "Pending Scan") utterances.push(r.meta_seo.title);
+        });
+      }
+
+      knowledgeIntents.push({
+        intent: intentName,
+        utterances: utterances.filter(u => u && u.length > 5).slice(0, 15) // Limit to 15 examples
+      });
+    }
+    console.log(`${c.green}   + Loaded ${knowledgeIntents.length} knowledge blueprints${c.reset}`);
+  } catch (e) {
+    console.error("Failed to load blueprints:", e.message);
+  }
+  return knowledgeIntents;
+}
+
 async function generateVectors() {
   console.log(`\n${c.cyan}${c.bright}🧠 AXI INTENT VECTOR GENERATOR (TF-IDF)${c.reset}\n`);
 
@@ -123,10 +175,14 @@ async function generateVectors() {
     process.exit(1);
   }
 
+  // Load Blueprints
+  const blueprintData = loadBlueprints();
+  intentData.push(...blueprintData);
+
   // Group utterances by intent
   const intentGroups = {};
   const allDocuments = [];
-  
+
   for (const item of intentData) {
     if (!intentGroups[item.intent]) {
       intentGroups[item.intent] = [];
@@ -135,7 +191,7 @@ async function generateVectors() {
     if (remaining > 0) {
       const toAdd = item.utterances.slice(0, remaining);
       intentGroups[item.intent].push(...toAdd);
-      
+
       // Tokenize for vocabulary building
       for (const utt of toAdd) {
         allDocuments.push(tokenize(utt));
@@ -151,7 +207,7 @@ async function generateVectors() {
 
   // Step 2: Build vocabulary and compute IDF
   console.log(`\n${c.yellow}2. Building Vocabulary & Computing IDF...${c.reset}`);
-  
+
   // Count word frequencies
   const wordFreq = {};
   for (const doc of allDocuments) {
@@ -159,17 +215,17 @@ async function generateVectors() {
       wordFreq[token] = (wordFreq[token] || 0) + 1;
     }
   }
-  
+
   // Filter vocabulary by minimum frequency
   const vocabulary = Object.keys(wordFreq)
     .filter(token => wordFreq[token] >= CONFIG.MIN_WORD_FREQUENCY)
     .sort();
-  
+
   console.log(`   ${c.gray}Vocabulary Size:${c.reset} ${vocabulary.length} words`);
-  
+
   // Compute IDF weights
   const idfWeights = computeIDF(allDocuments);
-  
+
   console.log(`   ${c.gray}IDF computed:${c.reset} ${Object.keys(idfWeights).length} terms`);
 
   // Step 3: Generate intent vectors
@@ -195,7 +251,7 @@ async function generateVectors() {
     for (const utt of utterances) {
       const tokens = tokenize(utt);
       const tf = computeTF(tokens);
-      
+
       // Compute TF-IDF
       const tfidf = {};
       for (const token of tokens) {
@@ -203,11 +259,11 @@ async function generateVectors() {
           tfidf[token] = (tf[token] || 0) * (idfWeights[token] || 1);
         }
       }
-      
+
       // Convert to dense vector and normalize
       const denseVec = toDenseVector(tfidf, vocabulary);
       const normalizedVec = normalizeVector(denseVec);
-      
+
       vectors.push(normalizedVec);
       examples.push(utt);
     }

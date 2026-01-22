@@ -6,6 +6,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const socket = require("./socket");
 
 class ProactiveService {
   constructor() {
@@ -91,12 +92,16 @@ class ProactiveService {
    * Queue a message for the user
    */
   enqueueMessage(text) {
-    this.messageQueue.push({
+    const payload = {
       id: Date.now(),
       text: text,
       timestamp: new Date().toISOString(),
       read: false,
-    });
+    };
+    this.messageQueue.push(payload);
+
+    // Emit real-time event
+    socket.emit("notification", payload);
   }
 
   /**
