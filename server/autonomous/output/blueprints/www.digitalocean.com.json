@@ -1,0 +1,810 @@
+{
+  "website_blueprint_id": "BLUEPRINT-F921ADD8",
+  "generated_at": "2026-01-22T06:06:11.733Z",
+  "global_configuration": {
+    "brand_name": "www.digitalocean.com",
+    "domain": "www.digitalocean.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.19.174.68",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "s-maxage=1800, stale-while-revalidate=31534200",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 33,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/script/deb86ab4f1db664150dfadff7652c966.experiment.js",
+        "type": "script",
+        "full_url": "https://cdn.amplitude.com/script/deb86ab4f1db664150dfadff7652c966.experiment.js"
+      },
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-16a6e7d15610554f.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/webpack-16a6e7d15610554f.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-600197a047e2aae2.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/framework-600197a047e2aae2.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-df938f3500556d0e.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/main-df938f3500556d0e.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-6118b37ba9527f4c.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/_app-6118b37ba9527f4c.js"
+      },
+      {
+        "path": "/_next/static/chunks/3675-6d3559c60154bc65.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/3675-6d3559c60154bc65.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/index-19cbb4a49beafa6d.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/index-19cbb4a49beafa6d.js"
+      },
+      {
+        "path": "/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://www.digitalocean.com/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_ssgManifest.js"
+      },
+      {
+        "path": "/_next/static/css/e96ac6ddc50ac3a3.css",
+        "type": "stylesheet",
+        "full_url": "https://www.digitalocean.com/_next/static/css/e96ac6ddc50ac3a3.css"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fgoogle-logo.74668a95.svg&amp;width=48"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fbrainforest-light--left--full-logo.eda23935.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fnobid-light--center--full-logo.392391c7.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Faquazeel-light--full-logo.bab2a634.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fscaperapi-light--full-logo.d5a6496d.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fex-human-light--full-logo.b170ee68.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fnixa-light--center--full-logo.cbd4e32e.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--center--full-logo.5dd27e33.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcto-ai-light--center--full-logo.901a6a50.svg&amp;width=384"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fscribe-light--left--full-logo.b02f4658.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fscaperapi-light--full-logo.d5a6496d.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcto-ai-light--left--full-logo.83eabe52.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Ftango-light--left--full-logo.3af6d847.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Famorphous-light--full-logo.9689796f.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fpicap-light--left--full-logo.e9506d06.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--left--full-logo.ab0e6664.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fconsumable-light--full-logo.ccd8f362.svg&amp;width=256"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fspeed-1-tulip.0697cfb3.svg&amp;width=1080"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fpricing-bandwidth-1-kiwi.5c6c14c0.svg&amp;width=1080"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcustomer-service-1-lavender.1cf0fc66.svg&amp;width=1080"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fdelight-customers-1-vivid-sky.29d681c6.svg&amp;width=1080"
+      },
+      {
+        "path": "/api/static-content/v1/images",
+        "type": "image",
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fsign-up-cta-background.73e1c8f4.svg&amp;width=3840"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.digitalocean.com",
+        "description": "Build on DigitalOcean&#x27;s unified agentic AI cloud infrastructure. AI-powered development, instant deployment, easy management. Simple and affordable.\" data-next-head=\"",
+        "canonical": "https://www.digitalocean.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "393ms"
+        },
+        {
+          "resource": "deb86ab4f1db664150dfadff7652c966.experiment.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-16a6e7d15610554f.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "The Inference Cloud built for scale — without complexity or surprise costs.",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Gradient™ AI Inference Cloud",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Customers growing with DigitalOcean",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Products Featured Products"
+          },
+          {
+            "tag": "p",
+            "text": "Compute"
+          },
+          {
+            "tag": "p",
+            "text": "Gradient™ AI Inference Cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Backups &amp; Snapshots"
+          },
+          {
+            "tag": "p",
+            "text": "Networking"
+          },
+          {
+            "tag": "p",
+            "text": "Managed Databases"
+          },
+          {
+            "tag": "p",
+            "text": "Storage"
+          },
+          {
+            "tag": "p",
+            "text": "Developer Tools"
+          },
+          {
+            "tag": "p",
+            "text": "Marketplace"
+          },
+          {
+            "tag": "p",
+            "text": "Cloud Website Hosting"
+          },
+          {
+            "tag": "p",
+            "text": "Solutions AI and Machine Learning Develop, train, and deploy AI apps GPUs Platform 1-Click Models HR Knowledge Assistant Code Copilot Support Ticket Triage Recommendation Engine Blockchain Infrastructure for decentralized apps Blogs, Forums and Content Websites Lightning-fast, reliable CMS hosting Wordpress Ghost Mastodon Data Analytics Real-time data processing at scale Data Streaming AdTech &amp; Martech Kafka Developer Tools DevOps and CI/CD solutions CI/CD Prototyping Digital Marketing Agencies Power your clients’ websites and campaigns Freelancer IT Consulting Ecommerce Build beautiful online storefronts Dropshipping WooCommerce Magento Game Development Low-latency multiplayer servers Minecraft Hosting IoT Connect to the power of the cloud Kafka ISVs Streamlined ISV application development Secure Web Hosting Powerful protection from DDoS and more Private VPN Startup Cloud Hosting Scalable, cost-effective infrastructure Small Business Video Streaming High-bandwidth, low-latency delivery Kafka Web and Mobile Apps Simple cross-platform app hosting cPanel Docker Next.js Node.js Website Hosting Fast page loads and reliable site uptime VPS Hosting Virtual Machines Get help"
+          },
+          {
+            "tag": "p",
+            "text": "Talk to an expert See all solutions Developers Our Community"
+          },
+          {
+            "tag": "p",
+            "text": "All things web design The Wave Content to level up your business. Resources"
+          },
+          {
+            "tag": "p",
+            "text": "Get Involved"
+          },
+          {
+            "tag": "p",
+            "text": "Deploy 2025 Wavemakers Program Documentation"
+          },
+          {
+            "tag": "p",
+            "text": "DigitalOcean Partner Programs"
+          },
+          {
+            "tag": "p",
+            "text": "DigitalOcean Startups Connect with a Partner Partner Programs Resources"
+          },
+          {
+            "tag": "p",
+            "text": "Training for Agencies and Freelancers Price Estimate Calculator Featured Partner Articles"
+          },
+          {
+            "tag": "p",
+            "text": "Cloud cost optimization best practices"
+          },
+          {
+            "tag": "p",
+            "text": "How to choose a cloud provider"
+          },
+          {
+            "tag": "p",
+            "text": "DigitalOcean vs. AWS Lightsail: Which Cloud Platform is Right for You?"
+          },
+          {
+            "tag": "p",
+            "text": "Questions?"
+          },
+          {
+            "tag": "p",
+            "text": "Pricing Log in Sign up Blog Docs Get Support Contact Sales Log in Sign up The Inference Cloud built for scale — without complexity or surprise costs. Sign up with email Sign up with Google Sign up with GitHub Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Gradient™ AI Inference Cloud Whether you’re training large models, running inference, or creating AI-driven applications, Gradient™ AI enables you to build, deploy, and scale with ease."
+          },
+          {
+            "tag": "p",
+            "text": "Enterprise-grade infrastructure trusted by 600K+ customers running AI inference, serving thousands of requests, and executing every big idea in between. Customers growing with DigitalOcean See how developers and startups around the globe are building and scaling their applications on DigitalOcean while saving money."
+          },
+          {
+            "tag": "p",
+            "text": "See all customer stories"
+          },
+          {
+            "tag": "p",
+            "text": "Head of AI, Scribe"
+          },
+          {
+            "tag": "h3",
+            "text": "Scribe serves 4 million AI users with DigitalOcean GPUs"
+          },
+          {
+            "tag": "p",
+            "text": "Zoltan Bettenbuk CTO, ScraperAPI"
+          },
+          {
+            "tag": "h3",
+            "text": "The cost of running ScraperAPI would be 250% more on AWS, as compared to DigitalOcean"
+          },
+          {
+            "tag": "p",
+            "text": "Kyle Campbell Founder, CTO.ai"
+          },
+          {
+            "tag": "h3",
+            "text": "CTO.ai on Migrating to DigitalOcean"
+          },
+          {
+            "tag": "p",
+            "text": "Yury Kamyshenko Head of R&amp;D, Cyprus, Tango"
+          },
+          {
+            "tag": "h3",
+            "text": "It’s not only about the price, it’s also about proving stability, proving a quality level of support and understanding our business. These factors led us to continue to grow on DigitalOcean."
+          },
+          {
+            "tag": "p",
+            "text": "Richard Li Founder &amp; CEO, Amorphous Data"
+          },
+          {
+            "tag": "h3",
+            "text": "Amorphous Data on DigitalOcean GPUs and Kubernetes"
+          },
+          {
+            "tag": "p",
+            "text": "Andres Murcia CTO, Picap"
+          },
+          {
+            "tag": "h3",
+            "text": "We were previously on AWS but started migrating everything because we really love DigitalOcean in terms of cost and support. We saved a lot of money—we went from $120,000 to $30,000 [per month]"
+          },
+          {
+            "tag": "p",
+            "text": "Matt Gray CEO, Servd Hosting"
+          },
+          {
+            "tag": "h3",
+            "text": "How Servd Scaled Their Craft CMS Platform with DigitalOcean Kubernetes"
+          },
+          {
+            "tag": "p",
+            "text": "Travis Beale CTO, Consumable"
+          },
+          {
+            "tag": "h3",
+            "text": "The VIP support has been excellent. If there’s an issue, it’s always engineers on the line, not somebody who is two steps removed from the people that know what’s going on."
+          },
+          {
+            "tag": "p",
+            "text": "Mouad Hadji Head of AI, Scribe"
+          },
+          {
+            "tag": "h3",
+            "text": "Scribe serves 4 million AI users with DigitalOcean GPUs"
+          },
+          {
+            "tag": "p",
+            "text": "Zoltan Bettenbuk CTO, ScraperAPI"
+          },
+          {
+            "tag": "h3",
+            "text": "The cost of running ScraperAPI would be 250% more on AWS, as compared to DigitalOcean"
+          },
+          {
+            "tag": "p",
+            "text": "Kyle Campbell Founder, CTO.ai"
+          },
+          {
+            "tag": "h3",
+            "text": "CTO.ai on Migrating to DigitalOcean"
+          },
+          {
+            "tag": "p",
+            "text": "Yury Kamyshenko Head of R&amp;D, Cyprus, Tango"
+          },
+          {
+            "tag": "h3",
+            "text": "It’s not only about the price, it’s also about proving stability, proving a quality level of support and understanding our business. These factors led us to continue to grow on DigitalOcean."
+          },
+          {
+            "tag": "p",
+            "text": "Richard Li Founder &amp; CEO, Amorphous Data"
+          },
+          {
+            "tag": "h3",
+            "text": "Amorphous Data on DigitalOcean GPUs and Kubernetes"
+          },
+          {
+            "tag": "p",
+            "text": "Andres Murcia CTO, Picap"
+          },
+          {
+            "tag": "h3",
+            "text": "We were previously on AWS but started migrating everything because we really love DigitalOcean in terms of cost and support. We saved a lot of money—we went from $120,000 to $30,000 [per month]"
+          },
+          {
+            "tag": "p",
+            "text": "Matt Gray CEO, Servd Hosting"
+          },
+          {
+            "tag": "h3",
+            "text": "How Servd Scaled Their Craft CMS Platform with DigitalOcean Kubernetes"
+          },
+          {
+            "tag": "p",
+            "text": "Travis Beale CTO, Consumable"
+          },
+          {
+            "tag": "h3",
+            "text": "The VIP support has been excellent. If there’s an issue, it’s always engineers on the line, not somebody who is two steps removed from the people that know what’s going on."
+          },
+          {
+            "tag": "p",
+            "text": "Persistent compute, high-throughput storage, scalable runtime environments—everything you need to go from “uhhh” to agent, fast. A unified inference cloud to build full-stack AI apps Train, fine-tune, and run cost-effective inference on infrastructure designed for building, deploying, and scaling high-performance apps and agents."
+          },
+          {
+            "tag": "h2",
+            "text": "Stay on budget and grow your business"
+          },
+          {
+            "tag": "p",
+            "text": "With predictable pricing—plus generous bandwidth and low inference costs—there are never any surprises about what you will pay for our products."
+          },
+          {
+            "tag": "h2",
+            "text": "Frustration-free support from real people"
+          },
+          {
+            "tag": "p",
+            "text": "Get free, personalized support or upgrade to paid plans to receive dedicated help and faster response times."
+          },
+          {
+            "tag": "h2",
+            "text": "Delight your customers by building on a reliable platform"
+          },
+          {
+            "tag": "p",
+            "text": "Our globally distributed data centers, 99.99% uptime SLAs, and intuitive products help you consistently deliver experiences your customers will love."
+          },
+          {
+            "tag": "h2",
+            "text": "Dive in"
+          },
+          {
+            "tag": "p",
+            "text": "Our cloud is built to be simple and powerful, so you can spend your time focusing on building apps, not pulling your hair out."
+          },
+          {
+            "tag": "p",
+            "text": "PDocs"
+          },
+          {
+            "tag": "h3",
+            "text": "Get started with DigitalOcean’s Linux-based virtual machines"
+          },
+          {
+            "tag": "p",
+            "text": "Read more to get started with DigitalOcean’s with Linux-based virtual machines"
+          },
+          {
+            "tag": "p",
+            "text": "Tutorial"
+          },
+          {
+            "tag": "h3",
+            "text": "How To Install and Use Docker on Ubuntu"
+          },
+          {
+            "tag": "p",
+            "text": "Read more on how to install and user docker on Ubuntu"
+          },
+          {
+            "tag": "p",
+            "text": "Tutorial"
+          },
+          {
+            "tag": "h3",
+            "text": "Run large language models like Ollama on H100 GPUs"
+          },
+          {
+            "tag": "p",
+            "text": "Read more on how to run large language models like Ollama on H100 GPUs"
+          },
+          {
+            "tag": "p",
+            "text": "Tutorial"
+          },
+          {
+            "tag": "h3",
+            "text": "Build a Slack AI Chatbot with DigitalOcean Gradient Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Read more on building a Slack AI Chatbot with DigitalOcean Gradient Platform"
+          },
+          {
+            "tag": "p",
+            "text": "Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "How to choose a cloud service provider"
+          },
+          {
+            "tag": "p",
+            "text": "Read more on how to choose a cloud service provider"
+          },
+          {
+            "tag": "p",
+            "text": "Article"
+          },
+          {
+            "tag": "h3",
+            "text": "Learn about open source AI platforms"
+          },
+          {
+            "tag": "p",
+            "text": "Read more on learning about open source AI platforms"
+          },
+          {
+            "tag": "h2",
+            "text": "Get started for free"
+          },
+          {
+            "tag": "p",
+            "text": "Sign up and get $200 in credit for your first 60 days with DigitalOcean.*"
+          },
+          {
+            "tag": "p",
+            "text": "*This promotional offer applies to new accounts only."
+          },
+          {
+            "tag": "h2",
+            "text": "Company"
+          },
+          {
+            "tag": "h2",
+            "text": "Products"
+          },
+          {
+            "tag": "h2",
+            "text": "Resources"
+          },
+          {
+            "tag": "h2",
+            "text": "Solutions"
+          },
+          {
+            "tag": "h2",
+            "text": "Contact"
+          },
+          {
+            "tag": "h2",
+            "text": "Company"
+          },
+          {
+            "tag": "h2",
+            "text": "Products"
+          },
+          {
+            "tag": "h2",
+            "text": "Resources"
+          },
+          {
+            "tag": "h2",
+            "text": "Solutions"
+          },
+          {
+            "tag": "h2",
+            "text": "Contact"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 196,
+          "headings": 43,
+          "images": 46
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-ED1A452B",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-88EA304A",
+      "path": "/support",
+      "type": "Detected Link",
+      "anchor_text": "Get Support",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-391EAE6F",
+      "path": "/company/contact/sales",
+      "type": "Detected Link",
+      "anchor_text": "Contact Sales",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5B6B76BE",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DigitalOcean",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-67D2A50D",
+      "path": "/products/droplets",
+      "type": "Detected Link",
+      "anchor_text": "DropletsScalable virtual machines",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0D06FAC",
+      "path": "/products/kubernetes",
+      "type": "Detected Link",
+      "anchor_text": "KubernetesScale more effectively",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D1C890A4",
+      "path": "/products/gradient",
+      "type": "Detected Link",
+      "anchor_text": "Gradient™ AI Inference CloudBuild and scale with AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2823F6F9",
+      "path": "/products/cloudways",
+      "type": "Detected Link",
+      "anchor_text": "CloudwaysManaged cloud hosting",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3C44D634",
+      "path": "/products/app-platform",
+      "type": "Detected Link",
+      "anchor_text": "App PlatformGet apps to market faster",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1BCDFDC3",
+      "path": "/products/managed-databases",
+      "type": "Detected Link",
+      "anchor_text": "Managed DatabasesFully-managed database hosting",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E1252F56",
+      "path": "/products/droplets/cpu-optimized",
+      "type": "Detected Link",
+      "anchor_text": "CPU-Optimized Droplets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C59D6074",
+      "path": "/products/functions",
+      "type": "Detected Link",
+      "anchor_text": "Functions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4CA50940",
+      "path": "/products/gradient/gpu-droplets",
+      "type": "Detected Link",
+      "anchor_text": "GPU Droplets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-64EFC165",
+      "path": "/products/gradient/1-click-models",
+      "type": "Detected Link",
+      "anchor_text": "1-Click Models",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F510DA23",
+      "path": "/products/gradient/platform",
+      "type": "Detected Link",
+      "anchor_text": "Platform",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,456 @@
+{
+  "website_blueprint_id": "BLUEPRINT-06552C44",
+  "generated_at": "2026-01-22T06:06:10.550Z",
+  "global_configuration": {
+    "brand_name": "Wikipedia, the free encyclopedia",
+    "domain": "en.wikipedia.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "103.102.166.224",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "mw-web.codfw.main-774457fc9b-shqdc"
+    },
+    "server_headers": {
+      "Cache-Control": "private, s-maxage=0, max-age=0, must-revalidate, no-transform",
+      "Content-Security-Policy": "Not Set",
+      "Server": "mw-web.codfw.main-774457fc9b-shqdc"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 27,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/w/load.php",
+        "type": "script",
+        "full_url": "https://en.wikipedia.org/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"
+      },
+      {
+        "path": "/w/load.php",
+        "type": "stylesheet",
+        "full_url": "https://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"
+      },
+      {
+        "path": "/w/load.php",
+        "type": "stylesheet",
+        "full_url": "https://en.wikipedia.org/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022"
+      },
+      {
+        "path": "/static/images/icons/enwiki-25.svg",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg"
+      },
+      {
+        "path": "/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg"
+      },
+      {
+        "path": "/static/images/mobile/copyright/wikipedia-tagline-en-25.svg",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en-25.svg"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/1/10/Mariah_Carey_1990_cropped.jpg/250px-Mariah_Carey_1990_cropped.jpg",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mariah_Carey_1990_cropped.jpg/250px-Mariah_Carey_1990_cropped.jpg"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/1/1a/The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg/250px-The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg/250px-The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/8/80/Valentino_%28cropped%29.jpg/120px-Valentino_%28cropped%29.jpg",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Valentino_%28cropped%29.jpg/120px-Valentino_%28cropped%29.jpg"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/b/b8/Brezhnev-color.jpg/120px-Brezhnev-color.jpg",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Brezhnev-color.jpg/120px-Brezhnev-color.jpg"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/c/c8/Egg_fruit_DS.jpg/500px-Egg_fruit_DS.jpg",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Egg_fruit_DS.jpg/500px-Egg_fruit_DS.jpg"
+      },
+      {
+        "path": "/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/40px-MediaWiki-2020-icon.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/40px-MediaWiki-2020-icon.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/40px-Wikimedia_Community_Logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/40px-Wikimedia_Community_Logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/60px-Wikinews-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/60px-Wikinews-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/40px-Wikisource-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/40px-Wikisource-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/40px-Wikispecies-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/40px-Wikispecies-logo.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/60px-Wikiversity_logo_2017.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/60px-Wikiversity_logo_2017.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/40px-Wikivoyage-Logo-v3-icon.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/40px-Wikivoyage-Logo-v3-icon.svg.png"
+      },
+      {
+        "path": "/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png"
+      },
+      {
+        "path": "/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/60px-Wiktionary-logo.svg.png",
+        "type": "image",
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/60px-Wiktionary-logo.svg.png"
+      },
+      {
+        "path": "/wiki/Special:CentralAutoLogin/start",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1"
+      },
+      {
+        "path": "/static/images/footer/wikimedia.svg",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/static/images/footer/wikimedia.svg"
+      },
+      {
+        "path": "/w/resources/assets/mediawiki_compact.svg",
+        "type": "image",
+        "full_url": "https://en.wikipedia.org/w/resources/assets/mediawiki_compact.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Wikipedia, the free encyclopedia",
+        "description": "",
+        "canonical": "https://en.wikipedia.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "977ms"
+        },
+        {
+          "resource": "load.php",
+          "latency": "pending"
+        },
+        {
+          "resource": "load.php",
+          "latency": "pending"
+        },
+        {
+          "resource": "load.php",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Main Page",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "From today's featured article",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Did you know&#160;...",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "In the news",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Main Page"
+          },
+          {
+            "tag": "h1",
+            "text": "Welcome to Wikipedia"
+          },
+          {
+            "tag": "h2",
+            "text": "From today's featured article"
+          },
+          {
+            "tag": "p",
+            "text": "The First Vision is the debut video album by Mariah Carey (pictured) , released on January&#160;22, 1991. It is a collection of music videos, live performances, and film footage detailing the development and promotion of Carey's first studio album Mariah Carey . It features music videos of \" Vision of Love \", \" Love Takes Time \", and \" Someday \", as well as snippets of future singles \" I Don't Wanna Cry \" and \" There's Got to Be a Way \". The collection presents Carey performing at Club Tatou and rehearsal footage for Saturday Night Live and It's Showtime at the Apollo . During an interview segment, Carey answers questions about her life and music. Critics considered the album insightful and praised the showcase of her live vocal abilities; others opined that it projected her in a sexual manner. The video peaked at numbers&#160;2 and 24 respectively on US and UK music video charts. The Canadian Recording Industry Association certified it gold and the Recording Industry Association of America certified it platinum. ( Full&#160;article... )"
+          },
+          {
+            "tag": "h2",
+            "text": "Did you know&#160;..."
+          },
+          {
+            "tag": "h2",
+            "text": "In the news"
+          },
+          {
+            "tag": "h2",
+            "text": "On this day"
+          },
+          {
+            "tag": "p",
+            "text": "January 22 : Day of Unity of Ukraine ( 1919 )"
+          },
+          {
+            "tag": "h2",
+            "text": "Today's featured picture"
+          },
+          {
+            "tag": "p",
+            "text": "Pouteria campechiana , also known as the canistel, is an evergreen tree native to southern Mexico, Belize, Guatemala, and El Salvador. It is cultivated in its native countries and has been introduced into several other countries, including Brazil, Taiwan, and the United States. The edible part of the tree is its fruit, which is colloquially known as an egg fruit. The ripe fruit is used in jam and marmalade, on pancakes, and in a milkshake known as \"eggfruit nog\". This picture shows a whole P. campechiana fruit."
+          },
+          {
+            "tag": "p",
+            "text": "Photograph: Augustus Binu"
+          },
+          {
+            "tag": "h2",
+            "text": "Other areas of Wikipedia"
+          },
+          {
+            "tag": "h2",
+            "text": "Wikipedia's sister projects"
+          },
+          {
+            "tag": "p",
+            "text": "Wikipedia is written by volunteer editors and hosted by the Wikimedia Foundation , a non-profit organization that also hosts a range of other volunteer projects :"
+          },
+          {
+            "tag": "h2",
+            "text": "Wikipedia languages"
+          },
+          {
+            "tag": "p",
+            "text": "This Wikipedia is written in English . Many other Wikipedias are available ; some of the largest are listed below."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 8,
+          "headings": 10,
+          "images": 24
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-773631C6",
+      "path": "/wiki/Main_Page",
+      "type": "Detected Link",
+      "anchor_text": "Main page",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9C396EAB",
+      "path": "/wiki/Wikipedia:Contents",
+      "type": "Detected Link",
+      "anchor_text": "Contents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B0FDFA74",
+      "path": "/wiki/Portal:Current_events",
+      "type": "Detected Link",
+      "anchor_text": "Current events",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-28F77705",
+      "path": "/wiki/Special:Random",
+      "type": "Detected Link",
+      "anchor_text": "Random article",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-257305B4",
+      "path": "/wiki/Wikipedia:About",
+      "type": "Detected Link",
+      "anchor_text": "About Wikipedia",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0A377865",
+      "path": "/wiki/Wikipedia:Contact_us",
+      "type": "Detected Link",
+      "anchor_text": "Contact us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E33AD941",
+      "path": "/wiki/Help:Contents",
+      "type": "Detected Link",
+      "anchor_text": "Help",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B1AF4BD8",
+      "path": "/wiki/Help:Introduction",
+      "type": "Detected Link",
+      "anchor_text": "Learn to edit",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D9E74E19",
+      "path": "/wiki/Wikipedia:Community_portal",
+      "type": "Detected Link",
+      "anchor_text": "Community portal",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D24627B",
+      "path": "/wiki/Special:RecentChanges",
+      "type": "Detected Link",
+      "anchor_text": "Recent changes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-40F3F6BA",
+      "path": "/wiki/Wikipedia:File_upload_wizard",
+      "type": "Detected Link",
+      "anchor_text": "Upload file",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7176B6D2",
+      "path": "/wiki/Special:SpecialPages",
+      "type": "Detected Link",
+      "anchor_text": "Special pages",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-82F85124",
+      "path": "/w/index.php",
+      "type": "Detected Link",
+      "anchor_text": "Create account",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-987A44E8",
+      "path": "/w/index.php",
+      "type": "Detected Link",
+      "anchor_text": "Log in",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E376C34C",
+      "path": "/wiki/Talk:Main_Page",
+      "type": "Detected Link",
+      "anchor_text": "Talk",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

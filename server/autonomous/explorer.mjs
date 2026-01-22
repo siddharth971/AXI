@@ -313,14 +313,57 @@ const CONCURRENCY_LIMIT = 50;
 const BLUEPRINTS_DIR = path.join(OUTPUT_DIR, "blueprints");
 const INDEX_FILE = path.join(OUTPUT_DIR, "index.json");
 
+// Incremental mode configuration
+// Set to 0 to force full refresh, or number of days to consider blueprints "fresh"
+const INCREMENTAL_DAYS = 7;
+
 // Ensure blueprints directory exists
 if (!fs.existsSync(BLUEPRINTS_DIR)) {
   fs.mkdirSync(BLUEPRINTS_DIR, { recursive: true });
 }
 
-// Generate a safe filename from domain
+/**
+ * Check if a blueprint file exists and is fresh (within INCREMENTAL_DAYS)
+ * @param {string} domain - The domain to check
+ * @returns {{ exists: boolean, isFresh: boolean, age: number|null }} Blueprint status
+ */
+function checkBlueprintFreshness(domain) {
+  const filename = getDomainFilename(domain);
+  const filepath = path.join(BLUEPRINTS_DIR, filename);
+
+  if (!fs.existsSync(filepath)) {
+    return { exists: false, isFresh: false, age: null };
+  }
+
+  try {
+    const blueprint = JSON.parse(fs.readFileSync(filepath, "utf-8"));
+    const generatedAt = new Date(blueprint.generated_at);
+    const now = new Date();
+    const ageInDays = (now - generatedAt) / (1000 * 60 * 60 * 24);
+
+    return {
+      exists: true,
+      isFresh: INCREMENTAL_DAYS > 0 && ageInDays < INCREMENTAL_DAYS,
+      age: Math.round(ageInDays * 10) / 10, // Round to 1 decimal
+    };
+  } catch (e) {
+    // If file is corrupted or unreadable, treat as non-existent
+    return { exists: true, isFresh: false, age: null };
+  }
+}
+
+// Generate a safe filename from domain (moved before checkBlueprintFreshness)
 function getDomainFilename(domain) {
   return domain.replace(/[^a-zA-Z0-9.-]/g, "_") + ".json";
+}
+
+// Extract domain from URL helper
+function extractDomain(url) {
+  try {
+    return new URL(url).hostname;
+  } catch (e) {
+    return url;
+  }
 }
 
 async function runExplorer() {
@@ -347,9 +390,40 @@ async function runExplorer() {
   const total = sources.length;
   let completed = 0;
   let successCount = 0;
+  let skippedCount = 0;
 
   // Helper to process a single URL and save to individual file
   const processUrl = async (url) => {
+    const domain = extractDomain(url);
+
+    // Check if blueprint already exists and is fresh (incremental mode)
+    const freshness = checkBlueprintFreshness(domain);
+    if (freshness.isFresh) {
+      // Blueprint exists and is recent, skip regeneration
+      skippedCount++;
+      completed++;
+
+      // Still add to index from existing file
+      try {
+        const filename = getDomainFilename(domain);
+        const filepath = path.join(BLUEPRINTS_DIR, filename);
+        const existingBlueprint = JSON.parse(fs.readFileSync(filepath, "utf-8"));
+        indexEntries.push({
+          id: existingBlueprint.website_blueprint_id,
+          domain: domain,
+          brand: existingBlueprint.global_configuration.brand_name,
+          file: `blueprints/${filename}`,
+          generated_at: existingBlueprint.generated_at,
+          skipped: true,
+          age_days: freshness.age,
+        });
+      } catch (e) {
+        // Ignore if we can't read existing file
+      }
+      process.stdout.write(`s`); // 's' for skipped
+      return;
+    }
+
     try {
       const blueprint = await generateBlueprint(url);
       if (blueprint) {
@@ -370,7 +444,7 @@ async function runExplorer() {
         });
 
         successCount++;
-        process.stdout.write(`.`);
+        process.stdout.write(`.`); // '.' for new/updated
       }
     } catch (e) {
       // Ignore failures in fast mode
@@ -389,6 +463,9 @@ async function runExplorer() {
 
   console.log(
     `\n⚡ Processing ${total} domains in ${batches.length} concurrent batches...`,
+  );
+  console.log(
+    `📅 Incremental mode: ${INCREMENTAL_DAYS > 0 ? `Skipping blueprints < ${INCREMENTAL_DAYS} days old` : "DISABLED (full refresh)"}`,
   );
 
   const startTime = Date.now();
@@ -416,8 +493,10 @@ async function runExplorer() {
   fs.writeFileSync(INDEX_FILE, JSON.stringify(indexData, null, 2));
 
   console.log(
-    `\n✨ Exploration Finished in ${duration}s! Generated ${successCount} blueprints.`,
+    `\n✨ Exploration Finished in ${duration}s!`,
   );
+  console.log(`   📊 New/Updated: ${successCount} blueprints`);
+  console.log(`   ⏭️  Skipped (fresh): ${skippedCount} blueprints`);
   console.log(`📁 Index saved to: ${INDEX_FILE}`);
   console.log(`📂 Blueprints saved to: ${BLUEPRINTS_DIR}/`);
 }

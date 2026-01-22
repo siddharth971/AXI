@@ -1,0 +1,370 @@
+{
+  "website_blueprint_id": "BLUEPRINT-C7074DEE",
+  "generated_at": "2026-01-22T06:06:11.737Z",
+  "global_configuration": {
+    "brand_name": "ResearchGate",
+    "domain": "www.researchgate.net",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.41.9",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 13,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/m/4389871838312458/javascript/errorLogging/logger.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/m/4389871838312458/javascript/errorLogging/logger.js"
+      },
+      {
+        "path": "/activeTriggers.js",
+        "type": "script",
+        "full_url": "https://www.researchgate.net/activeTriggers.js"
+      },
+      {
+        "path": "/javascript/modern/polyfill.66e471.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/modern/polyfill.66e471.js"
+      },
+      {
+        "path": "/javascript/bundles/runtime.5e6f75.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/bundles/runtime.5e6f75.js"
+      },
+      {
+        "path": "/javascript/bundles/common_rg.e1ad01.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/bundles/common_rg.e1ad01.js"
+      },
+      {
+        "path": "/javascript/bundles/common_vendor.6d04b8.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/bundles/common_vendor.6d04b8.js"
+      },
+      {
+        "path": "/javascript/bundles/common.d07c8c.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/bundles/common.d07c8c.js"
+      },
+      {
+        "path": "/javascript/bundles/bootstrap.a0282d.js",
+        "type": "script",
+        "full_url": "https://c5.rgstatic.net/javascript/bundles/bootstrap.a0282d.js"
+      },
+      {
+        "path": "/header/tag.js",
+        "type": "script",
+        "full_url": "https://www.researchgate.net/header/tag.js"
+      },
+      {
+        "path": "/webfonts/css",
+        "type": "stylesheet",
+        "full_url": "https://www.researchgate.net/webfonts/css?family=Montserrat:regular,bold&amp;display=swap"
+      },
+      {
+        "path": "/m/419438641133902/images/icons/svgicons/new-index-logo.svg",
+        "type": "image",
+        "full_url": "https://c5.rgstatic.net/m/419438641133902/images/icons/svgicons/new-index-logo.svg"
+      },
+      {
+        "path": "/images/footer-hiring@2x.jpg",
+        "type": "image",
+        "full_url": "https://www.researchgate.net/images/footer-hiring@2x.jpg"
+      },
+      {
+        "path": "/images/footer-advertising@2x.jpg",
+        "type": "image",
+        "full_url": "https://www.researchgate.net/images/footer-advertising@2x.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "ResearchGate | Find and share research",
+        "description": "Access 160+ million publication pages and connect with 25+ million researchers. Join for free and gain visibility by uploading your research.",
+        "canonical": "https://www.researchgate.net"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "568ms"
+        },
+        {
+          "resource": "logger.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "activeTriggers.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "polyfill.66e471.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Discover scientific knowledge and stay connected to the world of science",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Discover research",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Connect with your scientific community",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Measure your impact",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Discover scientific knowledge and stay connected to the world of science"
+          },
+          {
+            "tag": "h2",
+            "text": "Discover research"
+          },
+          {
+            "tag": "p",
+            "text": "Access over 160 million publication pages and stay up to date with what&#x27;s happening in your field."
+          },
+          {
+            "tag": "h2",
+            "text": "Connect with your scientific community"
+          },
+          {
+            "tag": "p",
+            "text": "Share your research, collaborate with your peers, and get the support you need to advance your career."
+          },
+          {
+            "tag": "h3",
+            "text": "Visit Topic Pages"
+          },
+          {
+            "tag": "h2",
+            "text": "Measure your impact"
+          },
+          {
+            "tag": "p",
+            "text": "Get in-depth stats on who&#x27;s been reading your work and keep track of your citations."
+          },
+          {
+            "tag": "h2",
+            "text": "Advance your research and join a community of 25 million scientists"
+          },
+          {
+            "tag": "h2",
+            "text": "ResearchGate Business Solutions"
+          },
+          {
+            "tag": "h3",
+            "text": "Scientific Recruitment"
+          },
+          {
+            "tag": "h3",
+            "text": "Marketing Solutions"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 3,
+          "headings": 9,
+          "images": 3
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-8E6F0938",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F9E45EC6",
+      "path": "/login",
+      "type": "Detected Link",
+      "anchor_text": "Log in",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C3D717D0",
+      "path": "/signup.SignUp.html",
+      "type": "Detected Link",
+      "anchor_text": "Join for free",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D64ABA27",
+      "path": "/topic/Engineering",
+      "type": "Detected Link",
+      "anchor_text": "Engineering",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EDF53748",
+      "path": "/topic/Mathematics",
+      "type": "Detected Link",
+      "anchor_text": "Mathematics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A00F2666",
+      "path": "/topic/Biology",
+      "type": "Detected Link",
+      "anchor_text": "Biology",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-70DAF8E4",
+      "path": "/topic/Computer-Science",
+      "type": "Detected Link",
+      "anchor_text": "Computer Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F47BBEF",
+      "path": "/topic/Climate-Change",
+      "type": "Detected Link",
+      "anchor_text": "Climate Change",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-012F85C5",
+      "path": "/topic/Medicine",
+      "type": "Detected Link",
+      "anchor_text": "Medicine",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6737494C",
+      "path": "/topic/Physics",
+      "type": "Detected Link",
+      "anchor_text": "Physics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-435777D5",
+      "path": "/topic/Social-Science",
+      "type": "Detected Link",
+      "anchor_text": "Social Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-72B46F34",
+      "path": "/topic/Astrophysics",
+      "type": "Detected Link",
+      "anchor_text": "Astrophysics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9F6EE7D8",
+      "path": "/topic/Chemistry",
+      "type": "Detected Link",
+      "anchor_text": "Chemistry",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0000399C",
+      "path": "/scientific-recruitment",
+      "type": "Detected Link",
+      "anchor_text": "Scientific RecruitmentHire qualified researchers and build the best teams in science.Find out more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-080E24B4",
+      "path": "/marketing-solutions",
+      "type": "Detected Link",
+      "anchor_text": "Marketing SolutionsGrow your brand&#x27;s impact in the scientific community with the world&#x27;s leading network for scientists.Find out more",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

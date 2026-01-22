@@ -1,0 +1,906 @@
+{
+  "website_blueprint_id": "BLUEPRINT-6FD935E2",
+  "generated_at": "2026-01-22T06:07:06.648Z",
+  "global_configuration": {
+    "brand_name": "Sustainable Living Blog",
+    "domain": "terraandstories.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "66.235.200.145",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=7200",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 17,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/themes/Extra/scripts/ext/html5.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/themes/Extra/scripts/ext/html5.js"
+      },
+      {
+        "path": "/client_data/846cf67b373460b4848c6862/script.js",
+        "type": "script",
+        "full_url": "https://cdn-cookieyes.com/client_data/846cf67b373460b4848c6862/script.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=GT-MQJV2TQ"
+      },
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5960470665826034&amp;host=ca-host-pub-2644536267352236"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-content/plugins/monarch/js/idle-timer.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.4.14"
+      },
+      {
+        "path": "/wp-content/plugins/monarch/js/custom.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/plugins/monarch/js/custom.js?ver=1.4.14"
+      },
+      {
+        "path": "/wp-includes/js/masonry.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/masonry.min.js?ver=4.2.2"
+      },
+      {
+        "path": "/wp-content/themes/Extra/scripts/scripts.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/themes/Extra/scripts/scripts.min.js?ver=4.27.4"
+      },
+      {
+        "path": "/wp-content/themes/Extra/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/themes/Extra/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.4"
+      },
+      {
+        "path": "/wp-content/themes/Extra/core/admin/js/common.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/themes/Extra/core/admin/js/common.js?ver=4.27.4"
+      },
+      {
+        "path": "/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.21.1"
+      },
+      {
+        "path": "/wp-includes/js/mediaelement/mediaelement-and-player.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"
+      },
+      {
+        "path": "/wp-includes/js/mediaelement/mediaelement-migrate.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=1747adfca6e354ef39c368dd2e69bb9c"
+      },
+      {
+        "path": "/wp-includes/js/mediaelement/wp-mediaelement.min.js",
+        "type": "script",
+        "full_url": "https://terraandstories.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=1747adfca6e354ef39c368dd2e69bb9c"
+      },
+      {
+        "path": "/maps/api/js",
+        "type": "script",
+        "full_url": "https://maps.googleapis.com/maps/api/js?v=3&amp;key&amp;ver=4.27.4"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Sustainable Living Blog | Eco Ideas &amp; Inspiration | Terra and Stories | Sustainable Living Tips &amp; Eco-Friendly Guides",
+        "description": "",
+        "canonical": "https://terraandstories.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1988ms"
+        },
+        {
+          "resource": "html5.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "script.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "All",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Best Eco-Friendly Diapers 2025: 12 Safe Options That Work",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Featured",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h4",
+            "text": "TRENDING:"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Best Eco-Friendly Diapers 2025: 12 Safe Options That Work"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "15 Best Sustainable Living Blogs That&#039;ll Actually Change How You Live (2025)"
+          },
+          {
+            "tag": "h3",
+            "text": "Plastic-Free Kitchen: 10 Easy Swaps to Avoid Microplastics (2025)"
+          },
+          {
+            "tag": "h3",
+            "text": "Up, Up, and Away? The Environmental Impact of Party Balloons"
+          },
+          {
+            "tag": "h3",
+            "text": "Microplastics Exposed: 10 Practical Tips for a Greener Life"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "The Best Sustainable Christmas Tree for 2025: Real vs Artificial Guide"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "How to Start Zero Waste Living in Small Apartment 2025"
+          },
+          {
+            "tag": "h3",
+            "text": "Best 5 Sustainable Gardening Gloves Compared (2025 Guide)"
+          },
+          {
+            "tag": "h3",
+            "text": "Growing Green: 15 Eco-Friendly Gardening Tips for 2025"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Renewable Energy Solutions Guide"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Eco-Chic Chronicles: Sustainable Vintage Jewelry Exploration"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Discover 6 Sustainable Fabrics: Eco-Friendly Fashion Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "Sustainable Activewear: The Look on 7 Earth-Friendly Brands"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Skincare Ingredients List: A Beginner&#039;s Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring Sustainable Fashion: 7 Key Questions Answered About Environmentally Friendly Style"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "10 Best Sparkling Water Makers of 2025"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured"
+          },
+          {
+            "tag": "h2",
+            "text": "Eco-Friendly Brews: Shop Sustainable Coffee"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Eat Sustainably: Top 10 Tips for Sustainable Eating"
+          },
+          {
+            "tag": "h3",
+            "text": "Practical Tips for Minimizing Food Waste: Zero-Waste Kitchen Hacks"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Food Packaging: Unveiling 7 Sustainable Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Select Page"
+          },
+          {
+            "tag": "h3",
+            "text": "10 Best Eco-Friendly Corporate Gifts For Sustainab..."
+          },
+          {
+            "tag": "p",
+            "text": "Nov 24, 2023 | Lifestyle | 2 | How to Eat Sustainably: Top 10 Tips for Sustainabl... Dec 11, 2023 | Food | 0 | Sustainable living in practice: 10 Things I No Lon... Jan 27, 2024 | Lifestyle | 0 | Lifestyle Home &amp; Garden Fashion &amp; Beauty Best Eco-Friendly Diapers 2025: 12 Safe Options That Work Jul 5, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Find the best eco-friendly diapers in 2025. Expert-tested sustainable options that prevent leaks, protect sensitive skin, and help the environment."
+          },
+          {
+            "tag": "h3",
+            "text": "15 Best Sustainable Living Blogs That&#8217;ll Actually Change How You Live (2025)"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 3, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Plastic-Free Kitchen: 10 Easy Swaps to Avoid Microplastics (2025)"
+          },
+          {
+            "tag": "p",
+            "text": "Mar 3, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Up, Up, and Away? The Environmental Impact of Party Balloons"
+          },
+          {
+            "tag": "p",
+            "text": "Feb 13, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Microplastics Exposed: 10 Practical Tips for a Greener Life"
+          },
+          {
+            "tag": "p",
+            "text": "Feb 4, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "The Best Sustainable Christmas Tree for 2025: Real vs Artificial Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 31, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Explore sustainable holiday traditions with our guide on eco-friendly Christmas trees. From real evergreens to artificial alternatives, make a conscious choice this season."
+          },
+          {
+            "tag": "h3",
+            "text": "How to Start Zero Waste Living in Small Apartment 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 26, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Best 5 Sustainable Gardening Gloves Compared (2025 Guide)"
+          },
+          {
+            "tag": "p",
+            "text": "Jun 5, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Growing Green: 15 Eco-Friendly Gardening Tips for 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 4, 2024 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Renewable Energy Solutions Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 11, 2024 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "Eco-Chic Chronicles: Sustainable Vintage Jewelry Exploration"
+          },
+          {
+            "tag": "p",
+            "text": "Mar 8, 2024 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Discover the variables influencing the choice of sustainable vintage jewelry. Explore narratives, craftsmanship, and thoughtful choices."
+          },
+          {
+            "tag": "h3",
+            "text": "Discover 6 Sustainable Fabrics: Eco-Friendly Fashion Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 15, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Sustainable Activewear: The Look on 7 Earth-Friendly Brands"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 1, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Skincare Ingredients List: A Beginner&#8217;s Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 29, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring Sustainable Fashion: 7 Key Questions Answered About Environmentally Friendly Style"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 27, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "10 Best Sparkling Water Makers of 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 16, 2025 | Food | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "From the best soda water machine to our top budget pick, here are 10 of the best sparkling water makers for every home and kitchen."
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Brews: Shop Sustainable Coffee"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 21, 2024 | Food | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Eat Sustainably: Top 10 Tips for Sustainable Eating"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 11, 2023 | Food | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Practical Tips for Minimizing Food Waste: Zero-Waste Kitchen Hacks"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 30, 2023 | Food | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Food Packaging: Unveiling 7 Sustainable Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 28, 2023 | Food | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "The Best Sustainable Christmas Tree for 2025: Real vs Artificial Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 31, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Explore sustainable holiday traditions with our guide on eco-friendly Christmas trees. From real evergreens to artificial alternatives, make a conscious choice this season."
+          },
+          {
+            "tag": "h3",
+            "text": "How to Start Zero Waste Living in Small Apartment 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 26, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Best 5 Sustainable Gardening Gloves Compared (2025 Guide)"
+          },
+          {
+            "tag": "p",
+            "text": "Jun 5, 2025 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Growing Green: 15 Eco-Friendly Gardening Tips for 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 4, 2024 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Renewable Energy Solutions Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 11, 2024 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "Best Eco-Friendly Diapers 2025: 12 Safe Options That Work"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 5, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Find the best eco-friendly diapers in 2025. Expert-tested sustainable options that prevent leaks, protect sensitive skin, and help the environment."
+          },
+          {
+            "tag": "h3",
+            "text": "15 Best Sustainable Living Blogs That&#8217;ll Actually Change How You Live (2025)"
+          },
+          {
+            "tag": "p",
+            "text": "Jul 3, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Plastic-Free Kitchen: 10 Easy Swaps to Avoid Microplastics (2025)"
+          },
+          {
+            "tag": "p",
+            "text": "Mar 3, 2025 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Up, Up, and Away? The Environmental Impact of Party Balloons"
+          },
+          {
+            "tag": "p",
+            "text": "Feb 13, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Microplastics Exposed: 10 Practical Tips for a Greener Life"
+          },
+          {
+            "tag": "p",
+            "text": "Feb 4, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "h2",
+            "text": "Eco-Chic Chronicles: Sustainable Vintage Jewelry Exploration"
+          },
+          {
+            "tag": "p",
+            "text": "Mar 8, 2024 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Discover the variables influencing the choice of sustainable vintage jewelry. Explore narratives, craftsmanship, and thoughtful choices."
+          },
+          {
+            "tag": "h3",
+            "text": "Discover 6 Sustainable Fabrics: Eco-Friendly Fashion Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 15, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Sustainable Activewear: The Look on 7 Earth-Friendly Brands"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 1, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Eco-Friendly Skincare Ingredients List: A Beginner&#8217;s Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 29, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring Sustainable Fashion: 7 Key Questions Answered About Environmentally Friendly Style"
+          },
+          {
+            "tag": "p",
+            "text": "Nov 27, 2023 | Fashion &amp; Beauty | 0 |"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Sustainable Christmas Tree for ..."
+          },
+          {
+            "tag": "h3",
+            "text": "How to Start Zero Waste Living in Small ..."
+          },
+          {
+            "tag": "h3",
+            "text": "Best Eco-Friendly Diapers 2025: 12 Safe ..."
+          },
+          {
+            "tag": "h3",
+            "text": "15 Best Sustainable Living Blogs That&#8..."
+          },
+          {
+            "tag": "h3",
+            "text": "Best 5 Sustainable Gardening Gloves Comp..."
+          },
+          {
+            "tag": "h3",
+            "text": "Plastic-Free Kitchen: 10 Easy Swaps to A..."
+          },
+          {
+            "tag": "h2",
+            "text": "Meaningful and Sustainable Valentine&#8217;s Day Activities"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 31, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Discover heartfelt Sustainable Valentine&#8217;s Day Activities for a romantic celebration that cherishes our planet. Embrace eco-friendly date magic!"
+          },
+          {
+            "tag": "h2",
+            "text": "Eco Family: Practical Tips for Raising Eco-Conscious Kids"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 9, 2024 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "Discover practical suggestions for instilling environmentally conscious behaviors in your children and promoting sustainable living for the entire family. With actionable strategies and professional insights, embrace a positive approach to developing environmental values in your children."
+          },
+          {
+            "tag": "h2",
+            "text": "Exploring 10 Practices of Organic Gardening"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 6, 2024 | Home &amp; Garden | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "This article reveals the transforming power of organic gardening practices. Discover eco-friendly ways and harness the potential of sustainable agriculture."
+          },
+          {
+            "tag": "h2",
+            "text": "Sustainable Easter Guide for Eco-Friendly Celebrations"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 30, 2023 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "As we approach Easter, it&#8217;s important to think about how we can celebrate this wonderful holiday while protecting the environment. From decorations to gifts and traditions, small changes can make a big difference in creating a more sustainable Easter."
+          },
+          {
+            "tag": "h2",
+            "text": "Understanding Sustainable Living: Definition &amp; Examples for a Greener Future"
+          },
+          {
+            "tag": "p",
+            "text": "Dec 10, 2023 | Lifestyle | 0 |"
+          },
+          {
+            "tag": "p",
+            "text": "In this comprehensive guide, we delve into the definition of sustainable living and explore practical examples that showcase its implementation."
+          },
+          {
+            "tag": "h4",
+            "text": "Recent Posts"
+          },
+          {
+            "tag": "h4",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "h3",
+            "text": "Facebook"
+          },
+          {
+            "tag": "h3",
+            "text": "Pinterest"
+          },
+          {
+            "tag": "h3",
+            "text": "Instagram"
+          },
+          {
+            "tag": "h4",
+            "text": "Our Authors"
+          },
+          {
+            "tag": "h3",
+            "text": "Eve Green"
+          },
+          {
+            "tag": "h4",
+            "text": "Recent Posts"
+          },
+          {
+            "tag": "h4",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "h3",
+            "text": "Facebook"
+          },
+          {
+            "tag": "h3",
+            "text": "Instagram"
+          },
+          {
+            "tag": "p",
+            "text": "Designed by Elegant Themes | Powered by WordPress"
+          },
+          {
+            "tag": "h3",
+            "text": "Pin It on Pinterest"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 57,
+          "headings": 91,
+          "images": 77
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-2B84805D",
+      "path": "/10-best-eco-friendly-corporate-gifts-for-sustainable-holiday/",
+      "type": "Detected Link",
+      "anchor_text": "10 Best Eco-Friendly Corporate Gifts For Sustainable Ho...",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7E2DADD9",
+      "path": "/sustainable-shopping-more-being-eco-friendly/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainable Shopping is About More Than Being Eco-Frien...",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FE70E724",
+      "path": "/why-important-support-small-local-business/",
+      "type": "Detected Link",
+      "anchor_text": "Why It’s Important To Support Small and Local Business...",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3677DAF7",
+      "path": "/terra-and-stories-sustainable-living-blog/",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-32F7C06A",
+      "path": "/contact-terra-and-stories-sustainable-living/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FF160FB8",
+      "path": "/sitemap-terra-and-stories-sustainable-living/",
+      "type": "Detected Link",
+      "anchor_text": "Sitemap",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3023A133",
+      "path": "/timeline/",
+      "type": "Detected Link",
+      "anchor_text": "Timeline",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7D79CB2C",
+      "path": "/privacy-policy-terra-and-stories-eco-ideas/",
+      "type": "Detected Link",
+      "anchor_text": "Privacy Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3F7B564F",
+      "path": "/news-sustainable-living-blog-eco-ideas/",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8705EE30",
+      "path": "/category/lifestyle/",
+      "type": "Detected Link",
+      "anchor_text": "Lifestyle",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-60759400",
+      "path": "/plastic-free-kitchen-microplastic-swaps-2025/",
+      "type": "Detected Link",
+      "anchor_text": "Plastic-Free Kitchen: 10 Easy Swaps to Avoid Microplastics (2025)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C8D67FF4",
+      "path": "/author/robertwp/",
+      "type": "Detected Link",
+      "anchor_text": "Eve Green",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B0769775",
+      "path": "/plastic-free-kitchen-microplastic-swaps-2025/",
+      "type": "Detected Link",
+      "anchor_text": "0",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22CD89BF",
+      "path": "/the-environmental-impact-of-party-balloons/",
+      "type": "Detected Link",
+      "anchor_text": "Up, Up, and Away? The Environmental Impact of Party Balloons",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5754BDDA",
+      "path": "/the-environmental-impact-of-party-balloons/",
+      "type": "Detected Link",
+      "anchor_text": "0",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

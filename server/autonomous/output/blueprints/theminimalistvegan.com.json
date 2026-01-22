@@ -1,0 +1,365 @@
+{
+  "website_blueprint_id": "BLUEPRINT-616699E6",
+  "generated_at": "2026-01-22T06:07:06.635Z",
+  "global_configuration": {
+    "brand_name": "The Minimalist Vegan",
+    "domain": "theminimalistvegan.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.156.25",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0, s-maxage=3600",
+      "Content-Security-Policy": "block-all-mixed-content",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 20,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/tags/the-minimalist-vegan-new-owner.js",
+        "type": "script",
+        "full_url": "https://scripts.mediavine.com/tags/the-minimalist-vegan-new-owner.js?ver=6.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://theminimalistvegan.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/cropped-the-minimalist-vegan-final2.png",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/01/cropped-the-minimalist-vegan-final2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/minimalist-mindset-example.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/09/minimalist-mindset-example.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/FRUITS-THAT-START-WITH-D-featured-image-1024x675.png",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2024/03/FRUITS-THAT-START-WITH-D-featured-image-1024x675.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/Best-Vegan-Restaurants-in-Brooklyn-Featured-image-1024x667.png",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2024/03/Best-Vegan-Restaurants-in-Brooklyn-Featured-image-1024x667.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/BEST-VEGAN-RESTAURANTS-IN-ORLANDO-FLORIDA-USA-featured-image-1-1024x654.png",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2024/03/BEST-VEGAN-RESTAURANTS-IN-ORLANDO-FLORIDA-USA-featured-image-1-1024x654.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/Fruits-that-start-with-I-featured-image-1024x722.png",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2024/03/Fruits-that-start-with-I-featured-image-1024x722.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/03/minimalist-person-plain-black-t-shirt-1024x683.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/03/minimalist-person-plain-black-t-shirt-1024x683.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/12/Your-Email-Inbox-Matters-1024x683.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2018/12/Your-Email-Inbox-Matters-1024x683.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/04/decluttering-checklist.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/04/decluttering-checklist.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/06/what-to-do-when-you-do-when-you-dont-feel-like-a-minimalist-anymore-1024x683.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2018/06/what-to-do-when-you-do-when-you-dont-feel-like-a-minimalist-anymore-1024x683.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/03/why-do-people-hate-vegans-woman-covering-her-face-1024x683.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/03/why-do-people-hate-vegans-woman-covering-her-face-1024x683.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/Can-Vegans-Eat-Avocados-Pollinated-By-Migratory-Bees.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2021/06/Can-Vegans-Eat-Avocados-Pollinated-By-Migratory-Bees.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/05/Vegan-Business-Ideas.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2021/05/Vegan-Business-Ideas.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/04/should-animals-be-kept-in-zoos-1024x683.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2019/04/should-animals-be-kept-in-zoos-1024x683.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/guide-to-toxin-free-living-1024x683.jpeg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/01/guide-to-toxin-free-living-1024x683.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/why-are-sustainable-product-so-expensive-bag-of-apples-1024x683.jpeg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2022/02/why-are-sustainable-product-so-expensive-bag-of-apples-1024x683.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2016/07/Sustainable-Vegan-Textiles-You-Should-Know-About-1024x683.jpeg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2016/07/Sustainable-Vegan-Textiles-You-Should-Know-About-1024x683.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/Eco-Minimalism-Article.jpg",
+        "type": "image",
+        "full_url": "https://theminimalistvegan.com/wp-content/uploads/2021/06/Eco-Minimalism-Article.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Minimalist Vegan | Less stuff, More Compassion",
+        "description": "The Minimalist Vegan publishes in-depth guides exploring what it means to live with less stuff and more compassion.",
+        "canonical": "https://theminimalistvegan.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "738ms"
+        },
+        {
+          "resource": "the-minimalist-vegan-new-owner.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "lazyload.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "cropped-the-minimalist-vegan-final2.png",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "7 Ways To Develop a Minimalist Mindset Today",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "25 Fruits that start with D (List With Pictures)",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "The 11 Best Vegan Restaurants in Brooklyn (Latest Ranking)",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "7 Ways To Develop a Minimalist Mindset Today Read the article"
+          },
+          {
+            "tag": "p",
+            "text": "25 Fruits that start with D (List With Pictures) The 11 Best Vegan Restaurants in Brooklyn (Latest Ranking) Top 8 Best Vegan Restaurants in Orlando, Florida in 2026 22 Fruits That Start with I (with Pics) browse all articles articles on minimalism 14 Qualities That Define a Minimalist Person Why You Need To Apply Minimalism To Your Email Inbox Decluttering Checklist For Minimalists (Over 100 Ideas + Free PDF) What To Do When You Don&#8217;t Feel Like a Minimalist Anymore browse all minimalist articles vegan guides Why Do People Hate Vegans? 3 Reasons + What You Can Do About It Can Vegans Eat Avocados? What You Need To Know Top 45 Approachable Vegan Business Ideas to Start in 2026 Should Animals Be Kept in Zoos? browse all vegan articles sustainable living A Practical Guide To Toxin-Free Living Why Sustainable Products Are More Expensive (And How To Save Money) 7 Sustainable Vegan Textiles You Should Know About 10 Simple Steps To Get Started With Eco-Minimalism browse all sustainable living About Privacy Contact Podcast &copy; 2026 The Minimalist Vegan"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 21,
+          "headings": 20,
+          "images": 31
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-F077795A",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-636B58BB",
+      "path": "/all-articles/",
+      "type": "Detected Link",
+      "anchor_text": "All Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-716E762F",
+      "path": "/minimalism/",
+      "type": "Detected Link",
+      "anchor_text": "Minimalism",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-883821B3",
+      "path": "/veganism/",
+      "type": "Detected Link",
+      "anchor_text": "Veganism",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DB0F1104",
+      "path": "/ethical-shopping/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainable Living",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6EEE4345",
+      "path": "/book/",
+      "type": "Detected Link",
+      "anchor_text": "Book",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C7F42EFC",
+      "path": "/minimalist-mindset/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-86ED9D9F",
+      "path": "/fruits-that-start-with-d/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8E7C21F4",
+      "path": "/best-vegan-restaurants-in-brooklyn/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7455742D",
+      "path": "/best-vegan-restaurants-in-orlando/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DD430FF7",
+      "path": "/top-fruits-that-start-with-i/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AE0507A6",
+      "path": "/minimalist-person/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FB4C187E",
+      "path": "/minimalist-email/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-801397F4",
+      "path": "/decluttering-checklist/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A321DE8A",
+      "path": "/dont-feel-like-a-minimalist-anymore/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

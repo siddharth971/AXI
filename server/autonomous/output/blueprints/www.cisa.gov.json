@@ -1,0 +1,656 @@
+{
+  "website_blueprint_id": "BLUEPRINT-0DBB7B91",
+  "generated_at": "2026-01-22T06:07:06.626Z",
+  "global_configuration": {
+    "brand_name": "Home Page",
+    "domain": "www.cisa.gov",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "23.57.216.178",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 31,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/sites/default/files/js/js_-oYxRjvD5ltnOHBbY-HICUj4rwgOS3yZ-BsxBsuosfA.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/sites/default/files/js/js_-oYxRjvD5ltnOHBbY-HICUj4rwgOS3yZ-BsxBsuosfA.js?scope=header&amp;delta=0&amp;language=en&amp;theme=guswds&amp;include=eJx1jEEOwyAMBD8UwZOQwY5LY3BkoE1_3xxCpVbqZbUzK23aCHNXC5CSGmat_tPcalo7VVzo6JLr5tHGDuIuXFiVhUIH9nzGLzu4w_Ety8KjPbH5aASYbJQ4DYtGkEk3LbQDU2iSkWzqTtBOGm0lZH2E6xwqyKvn1PzfxSWsbyVIXTw"
+      },
+      {
+        "path": "/modules/contrib/google_tag/js/gtag.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/modules/contrib/google_tag/js/gtag.js?t8z5xg"
+      },
+      {
+        "path": "/modules/contrib/google_tag/js/gtm.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/modules/contrib/google_tag/js/gtm.js?t8z5xg"
+      },
+      {
+        "path": "/Universal-Federated-Analytics-Min.js",
+        "type": "script",
+        "full_url": "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DHS&amp;subagency=CISA&amp;siteplatform=Drupal&amp;yt=true"
+      },
+      {
+        "path": "/js/siteanalyze_6342107.js",
+        "type": "script",
+        "full_url": "https://siteimproveanalytics.com/js/siteanalyze_6342107.js"
+      },
+      {
+        "path": "/core/assets/vendor/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/core/assets/vendor/jquery/jquery.min.js?v=4.0.0-rc.1"
+      },
+      {
+        "path": "/sites/default/files/js/js_uWWJjydBDR1qtLqgBFMEyBvrKf5KbxyKNpPzjzx9qbE.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/sites/default/files/js/js_uWWJjydBDR1qtLqgBFMEyBvrKf5KbxyKNpPzjzx9qbE.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=guswds&amp;include=eJx1jEEOwyAMBD8UwZOQwY5LY3BkoE1_3xxCpVbqZbUzK23aCHNXC5CSGmat_tPcalo7VVzo6JLr5tHGDuIuXFiVhUIH9nzGLzu4w_Ety8KjPbH5aASYbJQ4DYtGkEk3LbQDU2iSkWzqTtBOGm0lZH2E6xwqyKvn1PzfxSWsbyVIXTw"
+      },
+      {
+        "path": "/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?t8z5xg"
+      },
+      {
+        "path": "/sites/default/files/js/js_tjuWGebBDnNtKeO7aMX7iaS0AcbjvlTvSAsHil_BPpk.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/sites/default/files/js/js_tjuWGebBDnNtKeO7aMX7iaS0AcbjvlTvSAsHil_BPpk.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=guswds&amp;include=eJx1jEEOwyAMBD8UwZOQwY5LY3BkoE1_3xxCpVbqZbUzK23aCHNXC5CSGmat_tPcalo7VVzo6JLr5tHGDuIuXFiVhUIH9nzGLzu4w_Ety8KjPbH5aASYbJQ4DYtGkEk3LbQDU2iSkWzqTtBOGm0lZH2E6xwqyKvn1PzfxSWsbyVIXTw"
+      },
+      {
+        "path": "/profiles/cisad8_gov/themes/custom/gesso/dist/js/uswds.es6.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/js/uswds.es6.js?t8z5xg"
+      },
+      {
+        "path": "/sites/default/files/js/js_9dsCnjGDvdL2MIMdSw266UunX5o7APeU5gaz26Yfpts.js",
+        "type": "script",
+        "full_url": "https://www.cisa.gov/sites/default/files/js/js_9dsCnjGDvdL2MIMdSw266UunX5o7APeU5gaz26Yfpts.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=guswds&amp;include=eJx1jEEOwyAMBD8UwZOQwY5LY3BkoE1_3xxCpVbqZbUzK23aCHNXC5CSGmat_tPcalo7VVzo6JLr5tHGDuIuXFiVhUIH9nzGLzu4w_Ety8KjPbH5aASYbJQ4DYtGkEk3LbQDU2iSkWzqTtBOGm0lZH2E6xwqyKvn1PzfxSWsbyVIXTw"
+      },
+      {
+        "path": "/profiles/cisad8_gov/themes/custom/gesso/dist/images/us_flag_small.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/images/us_flag_small.png"
+      },
+      {
+        "path": "/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-dot-gov.svg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-dot-gov.svg"
+      },
+      {
+        "path": "/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-https.svg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/images/icon-https.svg"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2026-01/282-Guide-SecuringConnectivity-OT-Web-Carousel-700x394-v2.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2026-01/282-Guide-SecuringConnectivity-OT-Web-Carousel-700x394-v2.jpg?itok=EdGzmuNr"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2026-01/EDs_Closures_Carousel_700x394.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2026-01/EDs_Closures_Carousel_700x394.jpg?itok=lGrsA4lI"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2025-12/273-NIST-Interagency-Report-Web-Carousel-700x394-v3%20%281%29.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2025-12/273-NIST-Interagency-Report-Web-Carousel-700x394-v3%20%281%29.jpg?itok=kCMKJtJe"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2025-12/SOCIAL_25-0399_CyberCorps_Internships_FBLKIN_0.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2025-12/SOCIAL_25-0399_CyberCorps_Internships_FBLKIN_0.png?itok=C_vt41YB"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2025-12/WEB_25-0289_CPG-2.0_carousel.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2025-12/WEB_25-0289_CPG-2.0_carousel.jpg?itok=2CMWzQyY"
+      },
+      {
+        "path": "/sites/default/files/styles/max_1300x1300/public/2025-12/216-Pro-Russian-Web-Carousel-700x394-V7.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/max_1300x1300/public/2025-12/216-Pro-Russian-Web-Carousel-700x394-V7.jpg?itok=hd3uGCMI"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2023-03/cisa_regions_homepage_image.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2023-03/cisa_regions_homepage_image.png?h=49ea9dac&amp;itok=Grbo21sQ"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2023-01/AdobeStock_312879613.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2023-01/AdobeStock_312879613.jpg?h=44b879e5&amp;itok=A5lr_W9X"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2023-02/stock_smb.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2023-02/stock_smb.jpg?h=56d0ca2e&amp;itok=fAS15Ifg"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2023-01/AdobeStock_234477110.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2023-01/AdobeStock_234477110.jpg?h=47f8d3d6&amp;itok=CKAzy_it"
+      },
+      {
+        "path": "/sites/default/files/styles/medium/public/2024-02/Homepage-Teaser-JCDC.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/medium/public/2024-02/Homepage-Teaser-JCDC.jpg?itok=f4lowrLV"
+      },
+      {
+        "path": "/sites/default/files/styles/medium/public/2023-01/homepagelogossrware.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/medium/public/2023-01/homepagelogossrware.png?itok=CGxopPa-"
+      },
+      {
+        "path": "/sites/default/files/styles/medium/public/2024-02/homepagelogossafecom.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/medium/public/2024-02/homepagelogossafecom.png?itok=DDSWS13A"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2022-12/HERO_AbstractCyber10.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2022-12/HERO_AbstractCyber10.jpg?h=e0d9a4bb&amp;itok=jkt81fgX"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2024-02/Homepage-Teaser-Events.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2024-02/Homepage-Teaser-Events.jpg?h=abce51c1&amp;itok=xE9gq8qv"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2023-01/stock_code.jpg",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2023-01/stock_code.jpg?h=c6980913&amp;itok=auz0-DkH"
+      },
+      {
+        "path": "/sites/default/files/styles/16x9_small/public/2024-04/Homepage-Teaser-Training.png",
+        "type": "image",
+        "full_url": "https://www.cisa.gov/sites/default/files/styles/16x9_small/public/2024-04/Homepage-Teaser-Training.png?h=abce51c1&amp;itok=iI0SGv9j"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home Page | CISA",
+        "description": "Cybersecurity and Infrastructure Security Agency: America&#039;s Cyber Defense Agency",
+        "canonical": "https://www.cisa.gov"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "718ms"
+        },
+        {
+          "resource": "js_-oYxRjvD5ltnOHBbY-HICUj4rwgOS3yZ-BsxBsuosfA.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gtag.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gtm.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "How can we help?",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Additional CISA Resources",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "An official website of the United States government"
+          },
+          {
+            "tag": "p",
+            "text": "Here’s how you know"
+          },
+          {
+            "tag": "p",
+            "text": "Official websites use .gov A .gov website belongs to an official government organization in the United States."
+          },
+          {
+            "tag": "p",
+            "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
+          },
+          {
+            "tag": "p",
+            "text": "no-cost Cyber Services Secure by design&nbsp; Secure Your Business Shields Up Report A Cyber Issue &nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "Search"
+          },
+          {
+            "tag": "p",
+            "text": "Close &nbsp; Topics Topics Cybersecurity Best Practices Cyber Threats and Advisories Critical Infrastructure Security and Resilience Election Security Emergency Communications Industrial Control Systems Information and Communications Technology Supply Chain Security Partnerships and Collaboration Physical Security Risk Management How can we help? Government Educational Institutions Industry State, Local, Tribal, and Territorial Individuals and Families Small and Medium Businesses Find Help Locally Faith-Based Community Executives High-Risk Communities Spotlight Resources &amp; Tools Resources &amp; Tools All Resources &amp; Tools Services Programs Resources Training Groups News &amp; Events News &amp; Events News Events Cybersecurity Alerts &amp; Advisories Directives Request a CISA Speaker Congressional Testimony CISA Conferences CISA Live! Careers Careers Benefits &amp; Perks HireVue Applicant Reasonable Accommodations Process Hiring Resume &amp; Application Tips Students &amp; Recent Graduates Veteran and Military Spouses About About Divisions &amp; Offices Regions Leadership Doing Business with CISA Site Links CISA GitHub CISA Central Contact Us Subscribe Transparency and Accountability Policies &amp; Plans no-cost Cyber Services Secure by design&nbsp; Secure Your Business Shields Up Report A Cyber Issue &nbsp;"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA, UK’s NCSC, &amp; Partners Release Guidance on Securing OT Connectivity"
+          },
+          {
+            "tag": "p",
+            "text": "Guidance&nbsp;provides owners and operators with principles&nbsp;for&nbsp;designing, securing, and managing&nbsp;connectivity into OT environments."
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Announces Closure of Ten Emergency Directives"
+          },
+          {
+            "tag": "p",
+            "text": "10 emergency directives issued between 2019-2024 are now closed because they achieved their purpose of mitigating significant, unacceptable risks to federal civilian executive branch agencies."
+          },
+          {
+            "tag": "h3",
+            "text": "NIST AND CISA RELEASE DRAFT INTERAGENCY REPORT ON PROTECTING TOKENS AND ASSERTIONS FOR PUBLIC COMMENT"
+          },
+          {
+            "tag": "p",
+            "text": "This initial draft on protecting tokens and assertions is open for public comment until January 30, 2026, and includes implementation recommendations for agencies and cloud service providers."
+          },
+          {
+            "tag": "h3",
+            "text": "CyberCorps®: Scholarship for Service"
+          },
+          {
+            "tag": "p",
+            "text": "CISA is offering&nbsp; 100 new summer SFS cybersecurity internship roles —a bold investment in the future of cyber defense. Join CISA’s cyber mission. protect the nation. Secure your future."
+          },
+          {
+            "tag": "h3",
+            "text": "Cybersecurity Performance Goals 2.0"
+          },
+          {
+            "tag": "p",
+            "text": "New goals help organizations establish effective governance and respond to emerging threats."
+          },
+          {
+            "tag": "h3",
+            "text": "Joint Cybersecurity Advisory"
+          },
+          {
+            "tag": "p",
+            "text": "CISA, FBI, NSA and other partners release cybersecurity advisory on pro-Russia hacktivist attacks on US and global critical infrastructure.&nbsp;&nbsp;"
+          },
+          {
+            "tag": "h2",
+            "text": "News Updates"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA, UK NCSC, FBI Unveil Principles to Combat Cyber Risks in OT"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Retires Ten Emergency Directives, Marking an Era in Federal Cybersecurity"
+          },
+          {
+            "tag": "h3",
+            "text": "Opening Doors to the Future: CISA Announces Participation in the CyberCorps® Scholarship for Service (SFS)"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Releases Dynamic New Guide for Stadium and Arena Owners to Fortify Operations, Mitigate Vulnerabilities and Elevate Emergency Preparedness"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Unveils Enhanced Cross-Sector Cybersecurity Performance Goals"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Operational Information"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Adds One Known Exploited Vulnerability to Catalog"
+          },
+          {
+            "tag": "h3",
+            "text": "Schneider Electric devices using CODESYS Runtime"
+          },
+          {
+            "tag": "h3",
+            "text": "Schneider Electric EcoStruxure Foxboro DCS"
+          },
+          {
+            "tag": "h3",
+            "text": "Rockwell Automation Verve Asset Manager"
+          },
+          {
+            "tag": "h3",
+            "text": "AVEVA Process Optimization"
+          },
+          {
+            "tag": "h2",
+            "text": "How can we help?"
+          },
+          {
+            "tag": "h3",
+            "text": "Find Help Locally"
+          },
+          {
+            "tag": "p",
+            "text": "Contact your Region"
+          },
+          {
+            "tag": "p",
+            "text": "Assist Visits"
+          },
+          {
+            "tag": "p",
+            "text": "Protected Critical Infrastructure Information"
+          },
+          {
+            "tag": "h3",
+            "text": "Industry"
+          },
+          {
+            "tag": "p",
+            "text": "Secure by Design"
+          },
+          {
+            "tag": "p",
+            "text": "Information Sharing: A Vital Resource"
+          },
+          {
+            "tag": "p",
+            "text": "PCII Program modernized"
+          },
+          {
+            "tag": "p",
+            "text": "Joint Cyber Defense Collaborative expands"
+          },
+          {
+            "tag": "h3",
+            "text": "Small and Medium Businesses"
+          },
+          {
+            "tag": "p",
+            "text": "Cyber guidance for small businesses"
+          },
+          {
+            "tag": "p",
+            "text": "Supplementing passwords"
+          },
+          {
+            "tag": "p",
+            "text": "Doing business with CISA"
+          },
+          {
+            "tag": "h3",
+            "text": "Educational Institutions"
+          },
+          {
+            "tag": "p",
+            "text": "School Safety"
+          },
+          {
+            "tag": "p",
+            "text": "Cybersecurity for K-12"
+          },
+          {
+            "tag": "p",
+            "text": "K-12 School Security Product Suite"
+          },
+          {
+            "tag": "p",
+            "text": "Protecting Our Future: Partnering to Safeguard K-12 Organizations from Cybersecurity Threats"
+          },
+          {
+            "tag": "p",
+            "text": "JCDC unifies cyber defenders from organizations worldwide. This team proactively gathers, analyzes, and shares actionable cyber risk information to enable synchronized, holistic cybersecurity planning, cyber defense, and response."
+          },
+          {
+            "tag": "p",
+            "text": "StopRansomware.gov is the U.S. Government's official one-stop location for resources to tackle ransomware more effectively."
+          },
+          {
+            "tag": "p",
+            "text": "SAFECOM works to improve emergency communications interoperability across local, regional, tribal, state, territorial, international borders, and with federal government entities."
+          },
+          {
+            "tag": "h2",
+            "text": "Additional CISA Resources"
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Resources &amp; Tools"
+          },
+          {
+            "tag": "p",
+            "text": "CISA offers an array of free resources and tools, such as technical assistance, exercises,&nbsp;cybersecurity assessments, free training, and more."
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Events"
+          },
+          {
+            "tag": "p",
+            "text": "CISA hosts and participates in events throughout the year to engage stakeholders, seek research partners, and communicate with the public to help protect the homeland."
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Services Catalog"
+          },
+          {
+            "tag": "p",
+            "text": "A single resource that provides you with access to information on services across CISA’s mission areas."
+          },
+          {
+            "tag": "h3",
+            "text": "CISA Training"
+          },
+          {
+            "tag": "p",
+            "text": "As part of our continuing mission to reduce cybersecurity and physical security risk, CISA provides a robust offering of cybersecurity and critical infrastructure training opportunities.&nbsp;"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 36,
+          "headings": 28,
+          "images": 24
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-76B911FF",
+      "path": "/resources-tools/resources/free-cybersecurity-services-and-tools",
+      "type": "Detected Link",
+      "anchor_text": "no-cost Cyber Services",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D6F4A670",
+      "path": "/securebydesign",
+      "type": "Detected Link",
+      "anchor_text": "Secure by design&nbsp;",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99D3FE65",
+      "path": "/secureyourbusiness",
+      "type": "Detected Link",
+      "anchor_text": "Secure Your Business",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0E8C8E12",
+      "path": "/node/8056",
+      "type": "Detected Link",
+      "anchor_text": "Shields Up",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D781BD24",
+      "path": "/report",
+      "type": "Detected Link",
+      "anchor_text": "Report A Cyber Issue",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA4FC230",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-10C305E0",
+      "path": "/topics",
+      "type": "Detected Link",
+      "anchor_text": "Topics",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3C8B2BAA",
+      "path": "/topics/government",
+      "type": "Detected Link",
+      "anchor_text": "Government",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EECDAF77",
+      "path": "/topics/educational-institutions",
+      "type": "Detected Link",
+      "anchor_text": "Educational Institutions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D7841A8F",
+      "path": "/topics/industry",
+      "type": "Detected Link",
+      "anchor_text": "Industry",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-31A58D67",
+      "path": "/topics/state-local-tribal-and-territorial",
+      "type": "Detected Link",
+      "anchor_text": "State, Local, Tribal, and Territorial",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1A146261",
+      "path": "/topics/individuals-and-families",
+      "type": "Detected Link",
+      "anchor_text": "Individuals and Families",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C08F6D5C",
+      "path": "/topics/small-and-medium-businesses",
+      "type": "Detected Link",
+      "anchor_text": "Small and Medium Businesses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0FE0D05D",
+      "path": "/audiences/find-help-locally",
+      "type": "Detected Link",
+      "anchor_text": "Find Help Locally",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F2AC76A9",
+      "path": "/audiences/faith-based-community",
+      "type": "Detected Link",
+      "anchor_text": "Faith-Based Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

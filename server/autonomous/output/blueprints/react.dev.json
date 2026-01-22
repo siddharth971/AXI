@@ -1,0 +1,700 @@
+{
+  "website_blueprint_id": "BLUEPRINT-5AEF88E7",
+  "generated_at": "2026-01-22T06:06:09.765Z",
+  "global_configuration": {
+    "brand_name": "react.dev",
+    "domain": "react.dev",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "66.33.60.129",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Vercel"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Vercel"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 47,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-B1E83PJ3RT"
+      },
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-39eff723199b8e42.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/webpack-39eff723199b8e42.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-76ad44d61c11f057.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/framework-76ad44d61c11f057.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-54c914288f82a2e9.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/main-54c914288f82a2e9.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-6d7b64b3b21a9551.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/pages/_app-6d7b64b3b21a9551.js"
+      },
+      {
+        "path": "/_next/static/chunks/668-9be9de6fa7660277.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/668-9be9de6fa7660277.js"
+      },
+      {
+        "path": "/_next/static/chunks/123-13c4133e5a4ea2b7.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/123-13c4133e5a4ea2b7.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-0fb8c297db7898f2.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-0fb8c297db7898f2.js"
+      },
+      {
+        "path": "/_next/static/iPOkJGLrNaA_q3FOyx5u0/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/iPOkJGLrNaA_q3FOyx5u0/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/iPOkJGLrNaA_q3FOyx5u0/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://react.dev/_next/static/iPOkJGLrNaA_q3FOyx5u0/_ssgManifest.js"
+      },
+      {
+        "path": "/_next/static/css/0fb8ab91a26a5c9f.css",
+        "type": "stylesheet",
+        "full_url": "https://react.dev/_next/static/css/0fb8ab91a26a5c9f.css"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://react.dev/_next/image?url=%2Fimages%2Fuwu.png&amp;w=128&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://react.dev/_next/image?url=%2Fimages%2Fuwu.png&amp;w=640&amp;q=75"
+      },
+      {
+        "path": "/images/home/conf2021/cover.svg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/cover.svg"
+      },
+      {
+        "path": "/images/home/conf2021/andrew.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/andrew.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/lauren.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/lauren.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/juan.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/juan.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/rick.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/rick.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/shruti.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/shruti.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/shaundai.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/shaundai.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/aakansha.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/aakansha.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/brian.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/brian.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/xuan.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/xuan.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/rachel.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/rachel.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/debbie.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/debbie.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/sarah.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/sarah.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/linton.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/linton.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/delba.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/delba.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/robert.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/robert.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/eric.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/eric.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/steven.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/steven.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/roman.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/roman.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/daishi.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/daishi.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/diego.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/diego.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/tafu.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/tafu.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/lyle.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/lyle.jpg"
+      },
+      {
+        "path": "/images/home/conf2021/helen.jpg",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/conf2021/helen.jpg"
+      },
+      {
+        "path": "/images/home/community/react_conf_fun.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_conf_fun.webp"
+      },
+      {
+        "path": "/images/home/community/react_india_sunil.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_india_sunil.webp"
+      },
+      {
+        "path": "/images/home/community/react_conf_hallway.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_conf_hallway.webp"
+      },
+      {
+        "path": "/images/home/community/react_india_hallway.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_india_hallway.webp"
+      },
+      {
+        "path": "/images/home/community/react_conf_elizabet.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_conf_elizabet.webp"
+      },
+      {
+        "path": "/images/home/community/react_india_selfie.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_india_selfie.webp"
+      },
+      {
+        "path": "/images/home/community/react_conf_nat.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_conf_nat.webp"
+      },
+      {
+        "path": "/images/home/community/react_india_team.webp",
+        "type": "image",
+        "full_url": "https://react.dev/images/home/community/react_india_team.webp"
+      },
+      {
+        "path": "/images/uwu.png",
+        "type": "image",
+        "full_url": "https://react.dev/images/uwu.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "react.dev",
+        "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. React is designed to let you seamlessly combine components written by independent people, teams, and organizations.\" data-next-head=\"",
+        "canonical": "https://react.dev"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "265ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-39eff723199b8e42.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "React",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Create user interfaces from components",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Write components with code and markup",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "3 Videos",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Search ⌘ Ctrl K Learn Reference Community Blog React The library for web and native user interfaces"
+          },
+          {
+            "tag": "h2",
+            "text": "Create user interfaces from components"
+          },
+          {
+            "tag": "p",
+            "text": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail , LikeButton , and Video . Then combine them into entire screens, pages, and apps."
+          },
+          {
+            "tag": "h3",
+            "text": "Video.js"
+          },
+          {
+            "tag": "p",
+            "text": "Whether you work on your own or with thousands of other developers, using React feels the same. It is designed to let you seamlessly combine components written by independent people, teams, and organizations."
+          },
+          {
+            "tag": "h2",
+            "text": "Write components with code and markup"
+          },
+          {
+            "tag": "p",
+            "text": "React components are JavaScript functions. Want to show some content conditionally? Use an if statement. Displaying a list? Try array map() . Learning React is learning programming."
+          },
+          {
+            "tag": "h3",
+            "text": "VideoList.js"
+          },
+          {
+            "tag": "p",
+            "text": "Second video Video description"
+          },
+          {
+            "tag": "p",
+            "text": "Third video Video description"
+          },
+          {
+            "tag": "p",
+            "text": "This markup syntax is called JSX. It is a JavaScript syntax extension popularized by React. Putting JSX markup close to related rendering logic makes React components easy to create, maintain, and delete."
+          },
+          {
+            "tag": "h2",
+            "text": "Add interactivity wherever you need it"
+          },
+          {
+            "tag": "p",
+            "text": "React components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data."
+          },
+          {
+            "tag": "h3",
+            "text": "SearchableVideoList.js"
+          },
+          {
+            "tag": "p",
+            "text": "5 Videos React: The Documentary The origin story of React"
+          },
+          {
+            "tag": "p",
+            "text": "Rethinking Best Practices Pete Hunt (2013)"
+          },
+          {
+            "tag": "p",
+            "text": "Introducing React Native Tom Occhino (2015)"
+          },
+          {
+            "tag": "p",
+            "text": "Introducing React Hooks Sophie Alpert and Dan Abramov (2018)"
+          },
+          {
+            "tag": "p",
+            "text": "Introducing Server Components Dan Abramov and Lauren Tan (2020)"
+          },
+          {
+            "tag": "p",
+            "text": "You don’t have to build your whole page in React. Add React to your existing HTML page, and render interactive React components anywhere on it."
+          },
+          {
+            "tag": "p",
+            "text": "Add React to your page Go full-stack with a framework React is a library. It lets you put components together, but it doesn’t prescribe how to do routing and data fetching. To build an entire app with React, we recommend a full-stack React framework like Next.js or React Router ."
+          },
+          {
+            "tag": "h3",
+            "text": "confs/[slug].js"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React 18 for App Developers Shruti Kapoor"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Streaming Server Rendering with Suspense Shaundai Person"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf The First React Working Group Aakansha Doshi"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React Developer Tooling Brian Vaughn"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React without memo Xuan Huang (黄玄)"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React Docs Keynote Rachel Nabors"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Things I Learnt from the New React Docs Debbie O&#x27;Brien"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Learning in the Browser Sarah Rainsberger"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf The ROI of Designing with React Linton Ye"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Interactive Playgrounds with React Delba de Oliveira"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Re-introducing Relay Robert Balicki"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React Native Desktop Eric Rozell and Steven Moyes"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf On-device Machine Learning for React Native Roman Rädle"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf React 18 for External Store Libraries Daishi Kato"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Building Accessible Components with React 18 Diego Haz"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Accessible Japanese Form Components with React Tafu Nakazaki"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf UI Tools for Artists Lyle Troxell"
+          },
+          {
+            "tag": "p",
+            "text": "React Conf Hydrogen + React 18 Helen Lin"
+          },
+          {
+            "tag": "p",
+            "text": "React is also an architecture. Frameworks that implement it let you fetch data in asynchronous components that run on the server or even during the build. Read data from a file or a database, and pass it down to your interactive components."
+          },
+          {
+            "tag": "p",
+            "text": "Get started with a framework Use the best from every platform People love web and native apps for different reasons. React lets you build both web apps and native apps using the same skills. It leans upon each platform’s unique strengths to let your interfaces feel just right on every platform."
+          },
+          {
+            "tag": "p",
+            "text": "example.com Stay true to the web People expect web app pages to load fast. On the server, React lets you start streaming HTML while you’re still fetching data, progressively filling in the remaining content before any JavaScript code loads. On the client, React can use standard web APIs to keep your UI responsive even in the middle of rendering."
+          },
+          {
+            "tag": "p",
+            "text": "6:29 PM Go truly native People expect native apps to look and feel like their platform. React Native and Expo let you build apps in React for Android, iOS, and more. They look and feel native because their UIs are truly native. It’s not a web view—your React components render real Android and iOS views provided by the platform."
+          },
+          {
+            "tag": "p",
+            "text": "With React, you can be a web and a native developer. Your team can ship to many platforms without sacrificing the user experience. Your organization can bridge the platform silos, and form teams that own entire features end-to-end."
+          },
+          {
+            "tag": "p",
+            "text": "Build for native platforms Upgrade when the future is ready React approaches changes with care. Every React commit is tested on business-critical surfaces with over a billion users. Over 100,000 React components at Meta help validate every migration strategy."
+          },
+          {
+            "tag": "p",
+            "text": "The React team is always researching how to improve React. Some research takes years to pay off. React has a high bar for taking a research idea into production. Only proven approaches become a part of React."
+          },
+          {
+            "tag": "p",
+            "text": "Read more React news Latest React News"
+          },
+          {
+            "tag": "h2",
+            "text": "Additional Vulnerabilities in RSC"
+          },
+          {
+            "tag": "p",
+            "text": "December 11, 2025 Vulnerability in React Server Components December 3, 2025 React Conf 2025 Recap October 16, 2025 React Compiler v1.0 October 7, 2025 Read more React news Join a community of millions You’re not alone. Two million developers from all over the world visit the React docs every month. React is something that people and teams can agree on."
+          },
+          {
+            "tag": "p",
+            "text": "This is why React is more than a library, an architecture, or even an ecosystem. React is a community. It’s a place where you can ask for help, find opportunities, and meet new friends. You will meet both developers and designers, beginners and experts, researchers and artists, teachers and students. Our backgrounds may be very different, but React lets us all create user interfaces together."
+          },
+          {
+            "tag": "h2",
+            "text": "Welcome to the React community"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 232,
+          "headings": 51,
+          "images": 43
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-E6219C50",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-43AE0D1C",
+      "path": "/versions",
+      "type": "Detected Link",
+      "anchor_text": "v19.2",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-66E68395",
+      "path": "/learn",
+      "type": "Detected Link",
+      "anchor_text": "Learn",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-010B1475",
+      "path": "/reference/react",
+      "type": "Detected Link",
+      "anchor_text": "Reference",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-23382E92",
+      "path": "/community",
+      "type": "Detected Link",
+      "anchor_text": "Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22AE978C",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8413E3A9",
+      "path": "/community/translations",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB5332DB",
+      "path": "/learn/add-react-to-an-existing-project",
+      "type": "Detected Link",
+      "anchor_text": "Add React to your page",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6634607A",
+      "path": "/learn/creating-a-react-app",
+      "type": "Detected Link",
+      "anchor_text": "Get started with a framework",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B88766A2",
+      "path": "/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+      "type": "Detected Link",
+      "anchor_text": "Additional Vulnerabilities in RSCDecember 11, 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AA1DE690",
+      "path": "/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+      "type": "Detected Link",
+      "anchor_text": "Vulnerability in React Server ComponentsDecember 3, 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EE1801B6",
+      "path": "/blog/2025/10/16/react-conf-2025-recap",
+      "type": "Detected Link",
+      "anchor_text": "React Conf 2025 RecapOctober 16, 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-30D7A5EC",
+      "path": "/blog/2025/10/07/react-compiler-1",
+      "type": "Detected Link",
+      "anchor_text": "React Compiler v1.0October 7, 2025",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F342886E",
+      "path": "/learn/installation",
+      "type": "Detected Link",
+      "anchor_text": "Installation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-151E6EB0",
+      "path": "/learn/describing-the-ui",
+      "type": "Detected Link",
+      "anchor_text": "Describing the UI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -14,7 +14,7 @@
 
   h1 {
     font-size: 1.8rem;
-    background: linear-gradient(90deg, #cyan, #blue);
+    background: linear-gradient(90deg, #00bcd4, #2196f3);
     /* fallback color if vars missing, but let's assume basic styles */
     color: #e0e0e0;
   }
@@ -23,6 +23,7 @@
     color: #4facfe;
     text-decoration: none;
     font-weight: 500;
+
     &:hover {
       text-decoration: underline;
     }
@@ -82,6 +83,7 @@ table {
     padding-bottom: 0.5rem;
     font-size: 0.8rem;
   }
+
   td {
     padding: 0.75rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -91,9 +93,11 @@ table {
     font-weight: 500;
     color: #4facfe;
   }
+
   .value {
     opacity: 0.9;
   }
+
   .action {
     text-align: right;
   }
@@ -137,13 +141,16 @@ ul {
   .utterance {
     color: #ff9a9e;
   }
+
   .arrow {
     opacity: 0.5;
   }
+
   .intent {
     color: #84fab0;
     font-family: monospace;
   }
+
   .timestamp {
     display: block;
     font-size: 0.7rem;
@@ -169,6 +176,7 @@ ul {
     display: block;
     margin-bottom: 0.25rem;
   }
+
   p {
     margin: 0;
     font-size: 0.9rem;
@@ -181,6 +189,7 @@ ul {
   color: #4facfe;
   cursor: pointer;
   font-size: 0.8rem;
+
   &:hover {
     text-decoration: underline;
   }

@@ -1,0 +1,706 @@
+{
+  "website_blueprint_id": "BLUEPRINT-70D13488",
+  "generated_at": "2026-01-22T06:06:09.783Z",
+  "global_configuration": {
+    "brand_name": "Mirumee: Composable Commerce and Headless Solutions",
+    "domain": "mirumee.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "76.76.21.21",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Vercel"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Vercel"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 45,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-843c0728399cf343.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/webpack-843c0728399cf343.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-b742ca6262bf02b6.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/framework-b742ca6262bf02b6.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-e0a3bf4afcd9ea7a.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/main-e0a3bf4afcd9ea7a.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-b4b4179b3ef8aa7a.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/pages/_app-b4b4179b3ef8aa7a.js"
+      },
+      {
+        "path": "/_next/static/chunks/4438-6486a7e84631e4c5.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/4438-6486a7e84631e4c5.js"
+      },
+      {
+        "path": "/_next/static/chunks/4002-0ecf91857c077fb7.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/4002-0ecf91857c077fb7.js"
+      },
+      {
+        "path": "/_next/static/chunks/1620-c5049e70e6d30c17.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/1620-c5049e70e6d30c17.js"
+      },
+      {
+        "path": "/_next/static/chunks/1285-caeef53acd055c8f.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/1285-caeef53acd055c8f.js"
+      },
+      {
+        "path": "/_next/static/chunks/5483-7bd3868f2d9c7606.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/5483-7bd3868f2d9c7606.js"
+      },
+      {
+        "path": "/_next/static/chunks/6829-d5193dc4dcfbe56d.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/6829-d5193dc4dcfbe56d.js"
+      },
+      {
+        "path": "/_next/static/chunks/8409-34db9824091a98d4.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/8409-34db9824091a98d4.js"
+      },
+      {
+        "path": "/_next/static/chunks/881-bd04bc05ee171c80.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/881-bd04bc05ee171c80.js"
+      },
+      {
+        "path": "/_next/static/chunks/1203-187ed58d7ffc5802.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/1203-187ed58d7ffc5802.js"
+      },
+      {
+        "path": "/_next/static/chunks/8831-886b20a290e18c9c.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/8831-886b20a290e18c9c.js"
+      },
+      {
+        "path": "/_next/static/chunks/9388-1ed0d2632a8241bf.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/9388-1ed0d2632a8241bf.js"
+      },
+      {
+        "path": "/_next/static/chunks/7370-2dc4b035d5124542.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/7370-2dc4b035d5124542.js"
+      },
+      {
+        "path": "/_next/static/chunks/6841-7d7efbf6fabf04de.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/6841-7d7efbf6fabf04de.js"
+      },
+      {
+        "path": "/_next/static/chunks/3863-ec67cc156cabf401.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/3863-ec67cc156cabf401.js"
+      },
+      {
+        "path": "/_next/static/chunks/5659-d8f8b8d1599e7972.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/5659-d8f8b8d1599e7972.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/index-951c1775efe0a2b1.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/chunks/pages/index-951c1775efe0a2b1.js"
+      },
+      {
+        "path": "/_next/static/KaBXqgSHAAhwew8z65H1b/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/KaBXqgSHAAhwew8z65H1b/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/KaBXqgSHAAhwew8z65H1b/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://mirumee.com/_next/static/KaBXqgSHAAhwew8z65H1b/_ssgManifest.js"
+      },
+      {
+        "path": "/_next/static/css/66796c27cd4689ab.css",
+        "type": "stylesheet",
+        "full_url": "https://mirumee.com/_next/static/css/66796c27cd4689ab.css"
+      },
+      {
+        "path": "/_next/static/css/cf0ec6988ce1de0b.css",
+        "type": "stylesheet",
+        "full_url": "https://mirumee.com/_next/static/css/cf0ec6988ce1de0b.css"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.61733806.svg&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flink-arrow.164de068.svg&amp;w=48&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252F529412c8e10447ae8dab583b4420c60b&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252Fce2c3e6d2db2438686b4c34eb613ea5f&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252Fe5cc77793bfa4bdcb206e660f39dc414&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252F9f66ae1ddda5494ead056550ecd8610d&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252F65ba0a2eb1064952b2fce22b4ba9ce04&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252Fa836e589220d4ad5b6a5a76c5c2375b8&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252Fa1209800aa654380b4ea74c0c37b7483&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Ff91dd44ca8434dd8819b428f8ba650ff%252F1061f1039feb4a80bf76f1382b63598b&amp;w=256&amp;q=75"
+      },
+      {
+        "path": "/api/v1/pixel",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/pixel?apiKey=f91dd44ca8434dd8819b428f8ba650ff"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmirumee.2bb9fb6f.svg&amp;w=3840&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclutch-global-fall-2023.5904517c.svg&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclutch-champion-fall-2023.3c638456.svg&amp;w=384&amp;q=75"
+      },
+      {
+        "path": "/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2F3105dc4e4a4f4d44abb99648719b1325",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2F3105dc4e4a4f4d44abb99648719b1325"
+      },
+      {
+        "path": "/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fa94ef6a92f8f4b598c1d3b8f414cd19c",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fa94ef6a92f8f4b598c1d3b8f414cd19c"
+      },
+      {
+        "path": "/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Faae87cc923ab4eadb5a17e8f4c66f179",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Faae87cc923ab4eadb5a17e8f4c66f179"
+      },
+      {
+        "path": "/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fad34221251da48f19bd48eabcf7be63a",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fad34221251da48f19bd48eabcf7be63a"
+      },
+      {
+        "path": "/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fbe47f4c273a84e9f89da472f2257ff51",
+        "type": "image",
+        "full_url": "https://cdn.builder.io/api/v1/image/assets%2Ff91dd44ca8434dd8819b428f8ba650ff%2Fbe47f4c273a84e9f89da472f2257ff51"
+      },
+      {
+        "path": "/_next/image",
+        "type": "image",
+        "full_url": "https://mirumee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fup.ce91ac15.svg&amp;w=96&amp;q=75"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Mirumee: Composable Commerce and Headless Solutions",
+        "description": "",
+        "canonical": "https://mirumee.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "961ms"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-843c0728399cf343.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-b742ca6262bf02b6.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Uniqueproducts",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Ambitious digital transformations at scale:",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Ambitious digital transformations at scale:",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "WE BUILD LONG-LASTING RELATIONSHIPS WITH INNOVATIVE BRANDS",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Case studies"
+          },
+          {
+            "tag": "p",
+            "text": "Breitling"
+          },
+          {
+            "tag": "p",
+            "text": "Butterfly"
+          },
+          {
+            "tag": "p",
+            "text": "LULU"
+          },
+          {
+            "tag": "p",
+            "text": "Rough Trade"
+          },
+          {
+            "tag": "p",
+            "text": "Spaya.AI"
+          },
+          {
+            "tag": "p",
+            "text": "we build"
+          },
+          {
+            "tag": "h1",
+            "text": "Unique products"
+          },
+          {
+            "tag": "p",
+            "text": "For those who want to ensure a one-of-a kind user journey, achieve more website visitors, and carry out more successful sales at scale."
+          },
+          {
+            "tag": "p",
+            "text": "Breitling, the legendary luxury watchmaker, embarked on an ambitious project to redefine its e-commerce platform for a global audience. The goal was to create a consistent digital experience that matched their iconic brand and leverage modern composable architecture to ensure scalability, flexibility, and a premium customer journey. Replatforming to Saleor helped Breitling bring its timeless elegance into the digital age."
+          },
+          {
+            "tag": "p",
+            "text": "Funded by the Bill and Melinda Gates Foundation, Butterfly has launched a portable ultrasound scanner that can reach the farthest corners of the world, helping those most in need. Creating a flexible and scalable global e-commerce platform was the major requirement. As a result of our collaboration, Butterfly was able to open a fully functional store in a new country every 14 days to reach more users with its revolutionary device."
+          },
+          {
+            "tag": "p",
+            "text": "Created by Bob Young, the founder of Red Hat, Lulu provides custom book printing with a global Print-On-Demand network, making the dreams of thousands of people who want to become authors come true. The long-term roadmap, we created and continually develop together, includes revolutionizing the system of high-speed modern microservices in the backend and crafting groundbreaking features, such as Lulu Book Cover."
+          },
+          {
+            "tag": "p",
+            "text": "Thanks to the extensibility of Saleor headless commerce platform and tailored implementation of top-notch tools, we designed and built an easy-to-extend, composable platform that allowed the recreation of that unmistakable atmosphere Rough Trade has built over the years in its stationary record stores, managing enormous traffic periods and launching this legendary brand to the global market."
+          },
+          {
+            "tag": "p",
+            "text": "Spaya’s online platform is a game-changer in molecular chemistry that enables scientists to generate retrosynthetic routes by using AI. Such trailblazing products require the use of high-quality front-end technology. Our desire to increase efficiency for this specific environment led to the implementation of tailored functionalities like daily work scenarios and unique real-time collaboration modes."
+          },
+          {
+            "tag": "h2",
+            "text": "Ambitious digital transformations at scale:"
+          },
+          {
+            "tag": "h3",
+            "text": "Breitling"
+          },
+          {
+            "tag": "h3",
+            "text": "Butterfly"
+          },
+          {
+            "tag": "h3",
+            "text": "LULU"
+          },
+          {
+            "tag": "h3",
+            "text": "Rough Trade"
+          },
+          {
+            "tag": "h3",
+            "text": "Spaya.AI"
+          },
+          {
+            "tag": "h2",
+            "text": "Ambitious digital transformations at scale:"
+          },
+          {
+            "tag": "h3",
+            "text": "Breitling"
+          },
+          {
+            "tag": "p",
+            "text": "Breitling, the legendary luxury watchmaker, embarked on an ambitious project to redefine its e-commerce platform for a global audience. The goal was to create a consistent digital experience that matched their iconic brand and leverage modern composable architecture to ensure scalability, flexibility, and a premium customer journey. Replatforming to Saleor helped Breitling bring its timeless elegance into the digital age."
+          },
+          {
+            "tag": "h3",
+            "text": "Butterfly"
+          },
+          {
+            "tag": "p",
+            "text": "Funded by the Bill and Melinda Gates Foundation, Butterfly has launched a portable ultrasound scanner that can reach the farthest corners of the world, helping those most in need. Creating a flexible and scalable global e-commerce platform was the major requirement. As a result of our collaboration, Butterfly was able to open a fully functional store in a new country every 14 days to reach more users with its revolutionary device."
+          },
+          {
+            "tag": "h3",
+            "text": "LULU"
+          },
+          {
+            "tag": "p",
+            "text": "Created by Bob Young, the founder of Red Hat, Lulu provides custom book printing with a global Print-On-Demand network, making the dreams of thousands of people who want to become authors come true. The long-term roadmap, we created and continually develop together, includes revolutionizing the system of high-speed modern microservices in the backend and crafting groundbreaking features, such as Lulu Book Cover."
+          },
+          {
+            "tag": "h3",
+            "text": "Rough Trade"
+          },
+          {
+            "tag": "p",
+            "text": "Thanks to the extensibility of Saleor headless commerce platform and tailored implementation of top-notch tools, we designed and built an easy-to-extend, composable platform that allowed the recreation of that unmistakable atmosphere Rough Trade has built over the years in its stationary record stores, managing enormous traffic periods and launching this legendary brand to the global market."
+          },
+          {
+            "tag": "h3",
+            "text": "Spaya.AI"
+          },
+          {
+            "tag": "p",
+            "text": "Spaya’s online platform is a game-changer in molecular chemistry that enables scientists to generate retrosynthetic routes by using AI. Such trailblazing products require the use of high-quality front-end technology. Our desire to increase efficiency for this specific environment led to the implementation of tailored functionalities like daily work scenarios and unique real-time collaboration modes."
+          },
+          {
+            "tag": "h2",
+            "text": "WE BUILD LONG-LASTING RELATIONSHIPS WITH INNOVATIVE BRANDS"
+          },
+          {
+            "tag": "p",
+            "text": "We’ve applied our expertise to collaborate with diverse industries. Software innovation is a journey — let us guide you and disrupt the future together."
+          },
+          {
+            "tag": "p",
+            "text": "For over 15 years, Mirumee has championed open-source innovation, transparent development practices, and sustainable product thinking. As leading contributors to the Python and GraphQL ecosystem in Poland, we’ve initiated projects like Saleor and Ariadne, while fostering local tech communities through events like GraphQL Wrocław. Open source is our way forward."
+          },
+          {
+            "tag": "h3",
+            "text": "Saleor"
+          },
+          {
+            "tag": "p",
+            "text": "Originated at Mirumee, Saleor Commerce now stands as the most advanced headless e-commerce platform, taming multi-channel, multi-warehouse, multi-language, and multi-currency complexity for global brands. While Mirumee remains one of the most active contributors to Saleor&#x27;s thriving ecosystem, we are experts in integrating composable commerce using the industry&#x27;s leading CMS, CRM, fulfillment API, PIM, POS, and ERP systems."
+          },
+          {
+            "tag": "h3",
+            "text": "Ariadne"
+          },
+          {
+            "tag": "p",
+            "text": "Constantly growing Python library for implementing GraphQL servers using a schema-first approach. Fully asynchronous, enabling easy implementation of custom GraphQL services, and full interoperability with all web frameworks. Created to help front-end and back-end teams to cooperate effectively."
+          },
+          {
+            "tag": "h3",
+            "text": "Graphql Wroclaw"
+          },
+          {
+            "tag": "p",
+            "text": "The fastest-growing open-source GraphQL-first e-commerce platform in the world. Our speakers are GraphQL creators like Lee Byron, GraphQL Working Group members and major contributors like The Guild, Apollo, Hasura or Prisma. We are actively developing the global GraphQL community by maintaining close relationships with other Meetups around the world."
+          },
+          {
+            "tag": "h2",
+            "text": "PARTNERING WITH THE BEST"
+          },
+          {
+            "tag": "p",
+            "text": "We are determined to transform your business so it’s ready to face digital innovation. We build and deliver highly composable systems that allow you the flexibility and the ability to seamlessly integrate your product with other systems and create efficient teams around individual components to scale your brand."
+          },
+          {
+            "tag": "h3",
+            "text": "Let’s engineer great products and systems together"
+          },
+          {
+            "tag": "p",
+            "text": "Have a particular project in mind? Contact us help you to transform your ideas into a unique end-to-end product."
+          },
+          {
+            "tag": "h3",
+            "text": "About us"
+          },
+          {
+            "tag": "h3",
+            "text": "Our Projects"
+          },
+          {
+            "tag": "h3",
+            "text": "Our open source projects"
+          },
+          {
+            "tag": "h3",
+            "text": "Case study"
+          },
+          {
+            "tag": "h2",
+            "text": "Mirumee tm"
+          },
+          {
+            "tag": "h3",
+            "text": "Address"
+          },
+          {
+            "tag": "p",
+            "text": "MIRUMEE SOFTWARE SP. Z O.O. SP.K."
+          },
+          {
+            "tag": "p",
+            "text": "St. Tęczowa 7 ,"
+          },
+          {
+            "tag": "p",
+            "text": "53-601 Wrocław, Poland"
+          },
+          {
+            "tag": "p",
+            "text": "VAT EU: PL8971845922"
+          },
+          {
+            "tag": "p",
+            "text": "KRS: 0000697262"
+          },
+          {
+            "tag": "p",
+            "text": "COPYRIGHT © 2009- 2026 MIRUMEE SOFTWARE. PRIVACY POLICY"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 50,
+          "headings": 26,
+          "images": 24
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-7656778E",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-775ACEF1",
+      "path": "/services",
+      "type": "Detected Link",
+      "anchor_text": "SOFTWARE ENG.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1D02D731",
+      "path": "/design",
+      "type": "Detected Link",
+      "anchor_text": "PRODUCT DESIGN",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-21317D7E",
+      "path": "/industries/commerce",
+      "type": "Detected Link",
+      "anchor_text": "COMMERCE",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-08E5BC80",
+      "path": "/industries/medtech",
+      "type": "Detected Link",
+      "anchor_text": "MEDTECH",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F46172FD",
+      "path": "/case-study/breitling",
+      "type": "Detected Link",
+      "anchor_text": "BREITLING",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-079EDB03",
+      "path": "/case-study/butterfly",
+      "type": "Detected Link",
+      "anchor_text": "BUTTERFLY",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-78936BAB",
+      "path": "/case-study/lulu",
+      "type": "Detected Link",
+      "anchor_text": "LULU",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3C1B8C63",
+      "path": "/case-study/rough-trade",
+      "type": "Detected Link",
+      "anchor_text": "ROUGH TRADE",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89CB03FE",
+      "path": "/case-study/spaya",
+      "type": "Detected Link",
+      "anchor_text": "SPAYA.AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5D180B4F",
+      "path": "/blog",
+      "type": "Detected Link",
+      "anchor_text": "BLOG",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8270B398",
+      "path": "/contact",
+      "type": "Detected Link",
+      "anchor_text": "LET&#x27;S TALK",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CA14AAB4",
+      "path": "/how-we-work",
+      "type": "Detected Link",
+      "anchor_text": "HOW WE WORK",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D501F566",
+      "path": "/careers",
+      "type": "Detected Link",
+      "anchor_text": "CAREERS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BA89A117",
+      "path": "/case-study/breitling",
+      "type": "Detected Link",
+      "anchor_text": "Your browser does not support the video tag.Breitling",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

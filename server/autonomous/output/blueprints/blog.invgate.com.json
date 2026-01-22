@@ -1,0 +1,831 @@
+{
+  "website_blueprint_id": "BLUEPRINT-6DDF1653",
+  "generated_at": "2026-01-22T06:06:09.780Z",
+  "global_configuration": {
+    "brand_name": "InvGate ITSM blog",
+    "domain": "blog.invgate.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "199.60.103.228",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "s-maxage=36000, max-age=5",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 86,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-PT0L87ZMDN"
+      },
+      {
+        "path": "/npm/swiper@11/swiper-bundle.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      },
+      {
+        "path": "/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"
+      },
+      {
+        "path": "/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/176494910124/1769027614469/module_Navigation_bar_and_Search.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/176494910124/1769027614469/module_Navigation_bar_and_Search.min.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/184619602720/1769028171495/module_Hero_home.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/184619602720/1769028171495/module_Hero_home.min.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/185425842067/1763471701349/module_it-pulse-hero.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/185425842067/1763471701349/module_it-pulse-hero.min.js"
+      },
+      {
+        "path": "/forms/v2-legacy.js",
+        "type": "script",
+        "full_url": "https://js.hsforms.net/forms/v2-legacy.js"
+      },
+      {
+        "path": "/_hcms/forms/v2.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/_hcms/forms/v2.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/184619948210/1747053986721/module_posts_3_columns.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/184619948210/1747053986721/module_posts_3_columns.min.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/205458312205/1769021681638/module_Tutorials_and_updates.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/205458312205/1769021681638/module_Tutorials_and_updates.min.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/185034549635/1747053986721/module_Carousel_Tivo.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/185034549635/1747053986721/module_Carousel_Tivo.min.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/176703780528/1763492766622/module_Footer_2024_multilang.min.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/176703780528/1763492766622/module_Footer_2024_multilang.min.js"
+      },
+      {
+        "path": "/hs/scriptloader/2529496.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hs/scriptloader/2529496.js"
+      },
+      {
+        "path": "/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js",
+        "type": "script",
+        "full_url": "https://blog.invgate.com/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"
+      },
+      {
+        "path": "/hubfs/hub_generated/template_assets/1/183195261304/1769001094045/template_child.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/template_assets/1/183195261304/1769001094045/template_child.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/176494910124/1769027614469/module_Navigation_bar_and_Search.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/176494910124/1769027614469/module_Navigation_bar_and_Search.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/template_assets/1/182975617591/1741632677541/template_main.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/template_assets/1/182975617591/1741632677541/template_main.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/184619602720/1769028171495/module_Hero_home.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/184619602720/1769028171495/module_Hero_home.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/185425842067/1763471701349/module_it-pulse-hero.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/185425842067/1763471701349/module_it-pulse-hero.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/205456554408/1769020584293/module_Product_tour_component.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/205456554408/1769020584293/module_Product_tour_component.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/205458312205/1769021681638/module_Tutorials_and_updates.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/205458312205/1769021681638/module_Tutorials_and_updates.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/184619947799/1763471798653/module_banner_home_trial.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/184619947799/1763471798653/module_banner_home_trial.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/185034549635/1747053986721/module_Carousel_Tivo.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/185034549635/1747053986721/module_Carousel_Tivo.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/176807901772/1763474299687/module_Cta_blog_lisitng.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/176807901772/1763474299687/module_Cta_blog_lisitng.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/module_assets/1/176703780528/1763492766622/module_Footer_2024_multilang.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/module_assets/1/176703780528/1763492766622/module_Footer_2024_multilang.min.css"
+      },
+      {
+        "path": "/hubfs/7052064/hub_generated/template_assets/DEFAULT_ASSET/1769024819194/template_layout.min.css",
+        "type": "stylesheet",
+        "full_url": "https://7052064.fs1.hubspotusercontent-na1.net/hubfs/7052064/hub_generated/template_assets/DEFAULT_ASSET/1769024819194/template_layout.min.css"
+      },
+      {
+        "path": "/hubfs/hub_generated/template_assets/1/182976292440/1741632665749/template_theme-overrides.min.css",
+        "type": "stylesheet",
+        "full_url": "https://blog.invgate.com/hubfs/hub_generated/template_assets/1/182976292440/1741632665749/template_theme-overrides.min.css"
+      },
+      {
+        "path": "/npm/swiper@11/swiper-bundle.min.css",
+        "type": "stylesheet",
+        "full_url": "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      },
+      {
+        "path": "/images/navbar-menu-product-sd-1.jpg",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-product-sd-1.jpg"
+      },
+      {
+        "path": "/images/navbar-menu-product-is-1.jpg",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-product-is-1.jpg"
+      },
+      {
+        "path": "/images/navbar-menu-solutions-esm.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-solutions-esm.webp"
+      },
+      {
+        "path": "/images/navbar-arcos-dorados-logo.svg",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-arcos-dorados-logo.svg"
+      },
+      {
+        "path": "/images/navbar-mirgor-logo.svg",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-mirgor-logo.svg"
+      },
+      {
+        "path": "/images/navbar-menu-company-about-1.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-company-about-1.webp"
+      },
+      {
+        "path": "/images/navbar-menu-company-ai-hub-1.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-company-ai-hub-1.webp"
+      },
+      {
+        "path": "/images/menu-company-envision-25.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/menu-company-envision-25.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-blog-1.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-blog-1.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-podcast.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-podcast.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-youtube-1.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-youtube-1.webp"
+      },
+      {
+        "path": "/images/navbar-menu-solutions-esm.png",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-solutions-esm.png"
+      },
+      {
+        "path": "/images/navbar-menu-arcos-dorados.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-arcos-dorados.webp"
+      },
+      {
+        "path": "/images/navbar-menu-company-about.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-company-about.webp"
+      },
+      {
+        "path": "/images/navbar-menu-company-ai-hub.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-company-ai-hub.webp"
+      },
+      {
+        "path": "/images/navbar-menu-company-envision-24.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-company-envision-24.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-blog.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-blog.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-tivo.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-tivo.webp"
+      },
+      {
+        "path": "/images/navbar-menu-resources-youtube.webp",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/navbar-menu-resources-youtube.webp"
+      },
+      {
+        "path": "/hs-fs/hubfs/Mi%20foto.jpeg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/Mi%20foto.jpeg?upsize=true&amp;upscale=true&amp;width=35&amp;height=35&amp;name=Mi%20foto.jpeg"
+      },
+      {
+        "path": "/hs-fs/hubfs/ignacio-graglia.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/ignacio-graglia.jpg?upsize=true&amp;upscale=true&amp;width=35&amp;height=35&amp;name=ignacio-graglia.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/it-pulse-icon-animated.gif",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/it-pulse-icon-animated.gif?width=50&amp;height=70&amp;name=it-pulse-icon-animated.gif"
+      },
+      {
+        "path": "/hs-fs/hubfs/invgate-renews-soc2-type2-certification.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/invgate-renews-soc2-type2-certification.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=205&amp;name=invgate-renews-soc2-type2-certification.jpg"
+      },
+      {
+        "path": "/hubfs/celeste-mottesi.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hubfs/celeste-mottesi.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/invgate-obtains-iso-27001-certification.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/invgate-obtains-iso-27001-certification.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=205&amp;name=invgate-obtains-iso-27001-certification.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/cover-spark-matrix-ITHAM-2025-2.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/cover-spark-matrix-ITHAM-2025-2.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=205&amp;name=cover-spark-matrix-ITHAM-2025-2.jpg"
+      },
+      {
+        "path": "/hubfs/ignacio-graglia.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hubfs/ignacio-graglia.jpg"
+      },
+      {
+        "path": "/images/home/product-showcase-am-light-mode.png",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/home/product-showcase-am-light-mode.png"
+      },
+      {
+        "path": "/images/home/product-showcase-sm-dark-mode.png",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/home/product-showcase-sm-dark-mode.png"
+      },
+      {
+        "path": "/images/home/product-showcase-sm-light-mode.png",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/home/product-showcase-sm-light-mode.png"
+      },
+      {
+        "path": "/images/home/product-showcase-am-dark-mode.png",
+        "type": "image",
+        "full_url": "https://website-statics.invgate.com/images/home/product-showcase-am-dark-mode.png"
+      },
+      {
+        "path": "/hs-fs/hubfs/access-revocation-during-offboarding.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/access-revocation-during-offboarding.jpg?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=access-revocation-during-offboarding.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/access-revocation-during-offboarding.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/access-revocation-during-offboarding.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=access-revocation-during-offboarding.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/ticket-routing.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/ticket-routing.jpg?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=ticket-routing.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/ticket-routing.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/ticket-routing.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=ticket-routing.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/how-to-configure-a-multiple-sla-policy.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/how-to-configure-a-multiple-sla-policy.jpg?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=how-to-configure-a-multiple-sla-policy.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/how-to-configure-a-multiple-sla-policy.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/how-to-configure-a-multiple-sla-policy.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=how-to-configure-a-multiple-sla-policy.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/invgate-service-desk-workflow-builder.jpg",
+        "type": "image",
+        "full_url": "https://info.invgate.com/hs-fs/hubfs/invgate-service-desk-workflow-builder.jpg?width=365&height=205&upsize=true&upscale=true&name=invgate-service-desk-workflow-builder.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/celeste-mottesi.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/celeste-mottesi.jpg?width=35&amp;height=35&amp;length=35&amp;upsize=true&amp;upscale=true&amp;name=celeste-mottesi.jpg"
+      },
+      {
+        "path": "/hub/2529496/hubfs/invgate-service-management-new-version-q4-2025.jpg",
+        "type": "image",
+        "full_url": "https://2529496.fs1.hubspotusercontent-na1.net/hub/2529496/hubfs/invgate-service-management-new-version-q4-2025.jpg?width=365&height=205&upsize=true&upscale=true&name=invgate-service-management-new-version-q4-2025.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/invgate-ai-hub-artificial-intelligence-for-it-teams.jpg",
+        "type": "image",
+        "full_url": "https://info.invgate.com/hs-fs/hubfs/invgate-ai-hub-artificial-intelligence-for-it-teams.jpg?width=365&height=205&upsize=true&upscale=true&name=invgate-ai-hub-artificial-intelligence-for-it-teams.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/smart-recommendations.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/smart-recommendations.jpg?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=smart-recommendations.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/smart-recommendations.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/smart-recommendations.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=smart-recommendations.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/application-rationalization.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/application-rationalization.jpg?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=application-rationalization.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/application-rationalization.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/application-rationalization.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=application-rationalization.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/it-asset-tagging.png",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/it-asset-tagging.png?upsize=true&amp;upscale=true&amp;width=360&amp;height=205&amp;name=it-asset-tagging.png"
+      },
+      {
+        "path": "/hs-fs/hubfs/it-asset-tagging.png",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/it-asset-tagging.png?upsize=true&amp;upscale=true&amp;width=780&amp;height=340&amp;name=it-asset-tagging.png"
+      },
+      {
+        "path": "/hs-fs/hubfs/launching-software-deployment-capabilities-on-invgate-insight.jpg",
+        "type": "image",
+        "full_url": "https://info.invgate.com/hs-fs/hubfs/launching-software-deployment-capabilities-on-invgate-insight.jpg?width=365&height=205&upsize=true&upscale=true&name=launching-software-deployment-capabilities-on-invgate-insight.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/ignacio-graglia.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/ignacio-graglia.jpg?width=35&amp;height=35&amp;length=35&amp;upsize=true&amp;upscale=true&amp;name=ignacio-graglia.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/agentless-discovery-for-windows-devices-on-invgate-insight.jpg",
+        "type": "image",
+        "full_url": "https://info.invgate.com/hs-fs/hubfs/agentless-discovery-for-windows-devices-on-invgate-insight.jpg?width=365&height=205&upsize=true&upscale=true&name=agentless-discovery-for-windows-devices-on-invgate-insight.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/Aggio%20Manuela.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/Aggio%20Manuela.jpg?width=35&amp;height=35&amp;length=35&amp;upsize=true&amp;upscale=true&amp;name=Aggio%20Manuela.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/invgate-insight-new-customizable-asset-management-dashboards.jpg",
+        "type": "image",
+        "full_url": "https://info.invgate.com/hs-fs/hubfs/invgate-insight-new-customizable-asset-management-dashboards.jpg?width=365&height=205&upsize=true&upscale=true&name=invgate-insight-new-customizable-asset-management-dashboards.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/knowledge-centered-support-3.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/knowledge-centered-support-3.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=414&amp;name=knowledge-centered-support-3.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/ticket-volume-episode-100-WEB.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/ticket-volume-episode-100-WEB.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=414&amp;name=ticket-volume-episode-100-WEB.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/service-design-best-practices.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/service-design-best-practices.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=414&amp;name=service-design-best-practices.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/IT-recycling.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/IT-recycling.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=414&amp;name=IT-recycling.jpg"
+      },
+      {
+        "path": "/hs-fs/hubfs/organizational-governance.jpg",
+        "type": "image",
+        "full_url": "https://blog.invgate.com/hs-fs/hubfs/organizational-governance.jpg?upsize=true&amp;upscale=true&amp;width=780&amp;height=414&amp;name=organizational-governance.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "InvGate ITSM blog - ITAM, ESM, ITIL, and more.",
+        "description": "Find the latest ITAM and ITSM trends, and learn everything you need to build and manage a service desk. Plus, video tutorials, podcast, and the best data.",
+        "canonical": "https://blog.invgate.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "483ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "swiper-bundle.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "embed.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Latest posts",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "InvGate News",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "InvGate Service Management tutorials",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Latest updates",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Products Solutions Company Resources Pricing Contact Us Free Trial Service Management Optimize ITSM and ESM processes. Overview Asset Management Gain total network visibility &amp; IT Asset control. Overview Ticket Management AI-Powered Self-Service Workflows Problem Management Automation ITIL Virtual Service Agent WhatsApp Microsoft Teams Analytics Knowledge Base Change Management SLAs Gamification Multiple Departments Product tour See Integrations Asset Inventory CMDB Software License Management Remote Management Software Metering Network Discovery IT Financials Asset Monitoring IT Security Software Deployment Automation Product tour See Integrations Use Cases Service Management Asset Inventory IT Lifecycle Management IT Spend Optimization See all Use Cases ESM Create an employee centric organization Case Studies Check how Arcos Dorados consolidated all its service desks on a single platform See how Mirgor saved 2,500 hours in manual work with InvGate Asset Management See all Case Studies Customer Experience Partners User Community New Careers Trust Center About us Who we are AI Hub AI in the service of IT teams ENVISION'25 Our second user conference Case Studies ITSM ITDB ESM Course ITALM Course New Case Studies --> See all Resources InvGate's Blog IT latest trends Ticket Volume ITSM Podcast YouTube Channel Product videos English Español Português Deutsch Italiano Français Polski ITSM ITAM ITIL InvGate ESM IT Tools Case Studies Contact Us Free Trial English Español Português Deutsch Italiano Français Polski ITSM ITAM ITIL InvGate ESM IT Tools Case Studies Products Service Management Asset Management Solutions Use Cases Service Management Asset Inventory IT Lifecycle Management IT Spend Optimization IT Governance ESM Create an employee centric organization Case Studies Check how Arcos Dorados &nbsp;consolidated all its service desks on a single platform"
+          },
+          {
+            "tag": "p",
+            "text": "Service Management Asset Inventory IT Lifecycle Management IT Spend Optimization ESM See all Use Cases See case study Arcos Dorados Mirgor See all Case Studies IT Service Management The best ITSM technology behind your IT team. Enterprise Service Management Create an employee centric organization. IT Asset Management A command center for your assets inventory. Arcos Dorados Check how McDonald’s consolidated all its service desks on a single platform. See case study --> Company Why InvGate? About us Customer Experience AI Hub ENVISION’25 Partners User Community Careers Trust Center About us Who we are AI Hub AI in the service of IT teams ENVISION'25 Our second user conference Why InvGate? Careers Customer Experience Partners Trust Center --> Resources Case Studies Guides ITSM ITDB ESM Course InvGate’s Blog Ticket Volume YouTube Channel See all Resources InvGate's Blog IT latest trends Ticket Volume ITSM Podcast YouTube Channel Product videos Guides ESM Course ITSM Case Studies See all Resources --> Pricing --> Contact Us Free Trial --> Latest posts View all posts ITSM How to Convert WhatsApp Into a Ticketing System With InvGate Natalí Valle"
+          },
+          {
+            "tag": "h3",
+            "text": "Smart Recommendations: From Visibility to Proactive Decisions&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "Ignacio Graglia"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Perform Application Rationalization With InvGate Asset Management"
+          },
+          {
+            "tag": "p",
+            "text": "Ignacio Graglia"
+          },
+          {
+            "tag": "h3",
+            "text": "How Core Financial Systems Removed Manual Work After Replacing BMC With InvGate"
+          },
+          {
+            "tag": "p",
+            "text": "Natalí Valle"
+          },
+          {
+            "tag": "h3",
+            "text": "How Stoll Keenon Ogden Modernized IT Operations With InvGate Service Management"
+          },
+          {
+            "tag": "p",
+            "text": "Natalí Valle"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Automate Access Revocation During Employee Offboarding With InvGate"
+          },
+          {
+            "tag": "p",
+            "text": "Natalí Valle"
+          },
+          {
+            "tag": "p",
+            "text": "Receive the latest news of the IT world once per week."
+          },
+          {
+            "tag": "p",
+            "text": "Receive the latest news of the IT world once per week."
+          },
+          {
+            "tag": "p",
+            "text": "Your browser could not load this form because you have blocked third-party cookies. Please enable cookies to view the form."
+          },
+          {
+            "tag": "h2",
+            "text": "InvGate News"
+          },
+          {
+            "tag": "p",
+            "text": "InvGate InvGate Renews SOC 2 Type II Certification Celeste Mottesi"
+          },
+          {
+            "tag": "h3",
+            "text": "InvGate Obtains ISO 27001 Certification"
+          },
+          {
+            "tag": "p",
+            "text": "Celeste Mottesi"
+          },
+          {
+            "tag": "h3",
+            "text": "InvGate Named a Leader in SPARK Matrix™ IT Hardware Asset Management (HAM) Tools 2025"
+          },
+          {
+            "tag": "p",
+            "text": "Ignacio Graglia"
+          },
+          {
+            "tag": "h2",
+            "text": "See our solutions in action"
+          },
+          {
+            "tag": "p",
+            "text": "InvGate Service Management Best-in-class Service Management for IT and beyond — efficient, seamless, and highly scalable."
+          },
+          {
+            "tag": "p",
+            "text": "InvGate Asset Management A unified platform to streamline and intelligently automate every stage of the asset lifecycle."
+          },
+          {
+            "tag": "p",
+            "text": "InvGate Service Management tutorials View all posts InvGate Service Management tutorials How to Automate Access Revocation During Employee Offboarding With InvGate Natalí Valle January 16, 2026 InvGate Service Management tutorials What is Ticket Routing And How to Automate it Melisa Wrobel May 3, 2023 InvGate Service Management tutorials Multiple SLA Policy: Creating SLAs for Different Help Desks Melisa Wrobel December 23, 2022 Latest updates InvGate Exploring InvGate Service Management's No-Code Workflow Builder --> Celeste Mottesi January 14, 2026 InvGate Introducing InvGate Service Management's New Version (Q4 2025) --> Celeste Mottesi December 29, 2025 InvGate InvGate AI Hub: New Artificial Intelligence Capabilities For IT Teams --> Celeste Mottesi July 10, 2025 Discover the Ultimate ITSM Guides Unlock insights to enhance your IT strategy and streamline your workflows."
+          },
+          {
+            "tag": "h2",
+            "text": "InvGate Asset Management tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "30-day free trial - No credit card needed"
+          },
+          {
+            "tag": "p",
+            "text": "Clear pricing"
+          },
+          {
+            "tag": "p",
+            "text": "No surprises, no hidden fees — just clear, upfront pricing that fits your needs."
+          },
+          {
+            "tag": "p",
+            "text": "Easy migration"
+          },
+          {
+            "tag": "p",
+            "text": "Our team ensures your transition to InvGate is fast, smooth, and hassle-free."
+          },
+          {
+            "tag": "p",
+            "text": "Trust Center English English Español Português Deutsch Italiano Français Polski Service Management"
+          },
+          {
+            "tag": "p",
+            "text": "ITAM"
+          },
+          {
+            "tag": "p",
+            "text": "Learn"
+          },
+          {
+            "tag": "p",
+            "text": "InvGate"
+          },
+          {
+            "tag": "p",
+            "text": "Compare With"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 287,
+          "headings": 39,
+          "images": 69
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-B51D3ECF",
+      "path": "/topic/itsm",
+      "type": "Detected Link",
+      "anchor_text": "ITSM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-97A185A2",
+      "path": "/topic/itam",
+      "type": "Detected Link",
+      "anchor_text": "ITAM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D5A324EC",
+      "path": "/topic/itil",
+      "type": "Detected Link",
+      "anchor_text": "ITIL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-06E27098",
+      "path": "/topic/invgate",
+      "type": "Detected Link",
+      "anchor_text": "InvGate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9471F201",
+      "path": "/topic/esm",
+      "type": "Detected Link",
+      "anchor_text": "ESM",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34B2BD68",
+      "path": "/topic/it-tools",
+      "type": "Detected Link",
+      "anchor_text": "IT Tools",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5A61B21F",
+      "path": "/topic/case-studies",
+      "type": "Detected Link",
+      "anchor_text": "Case Studies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-233A9F42",
+      "path": "/whatsapp-ticketing-system",
+      "type": "Detected Link",
+      "anchor_text": "How to Convert WhatsApp Into a Ticketing System With InvGate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA2FBD84",
+      "path": "/smart-recommendations",
+      "type": "Detected Link",
+      "anchor_text": "Smart Recommendations: From Visibility to Proactive Decisions&nbsp;",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FD9AAA05",
+      "path": "/application-rationalization",
+      "type": "Detected Link",
+      "anchor_text": "How to Perform Application Rationalization With InvGate Asset Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-387BCCFF",
+      "path": "/invgate-core-financial-systems-case-study",
+      "type": "Detected Link",
+      "anchor_text": "How Core Financial Systems Removed Manual Work After Replacing BMC With InvGate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A52D6475",
+      "path": "/invgate-stoll-keenon-ogden-case-study",
+      "type": "Detected Link",
+      "anchor_text": "How Stoll Keenon Ogden Modernized IT Operations With InvGate Service Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-91AC85BB",
+      "path": "/access-revocation-during-offboarding",
+      "type": "Detected Link",
+      "anchor_text": "How to Automate Access Revocation During Employee Offboarding With InvGate",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-650189D6",
+      "path": "/invgate-soc-2-type-2-certification",
+      "type": "Detected Link",
+      "anchor_text": "InvGate Renews SOC 2 Type II Certification",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-75A00439",
+      "path": "/invgate-obtains-iso-27001-certification",
+      "type": "Detected Link",
+      "anchor_text": "InvGate Obtains ISO 27001 Certification",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

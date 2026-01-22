@@ -1,0 +1,657 @@
+{
+  "website_blueprint_id": "BLUEPRINT-17A69C62",
+  "generated_at": "2026-01-22T06:07:06.657Z",
+  "global_configuration": {
+    "brand_name": "Computer and Electronics Recycling Services",
+    "domain": "greencitizen.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.17.15.101",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, must-revalidate",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 48,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/uploads/2026/01/GreenCitizen-Website-Logo.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2026/01/GreenCitizen-Website-Logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Google-Logo-Icon.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Google-Logo-Icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/5-Star-Rating-Stars-01.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/11/5-Star-Rating-Stars-01.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Yelp-Logo-Icon.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Yelp-Logo-Icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/The-New-York-Times-Logo.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/The-New-York-Times-Logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/OpenAI-Logo.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/09/OpenAI-Logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/SoundHound-AI-Logo.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/09/SoundHound-AI-Logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Blizzard.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Blizzard.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Box.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Box.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Greylock-Partners.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Greylock-Partners.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Hellman-Friedman.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Hellman-Friedman.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-JSR-Micro.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-JSR-Micro.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-LendingClub.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-LendingClub.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Lyft.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Lyft.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Marriott.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Marriott.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-OpenTable.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-OpenTable.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-San-Mateo-County-Office-of-Education.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-San-Mateo-County-Office-of-Education.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Sequoia.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Sequoia.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Stitch-Fix.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Stitch-Fix.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Toyota.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Toyota.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-University-of-California-San-Francisco.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-University-of-California-San-Francisco.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Zillow-Trulia.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Zillow-Trulia.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Environmental-Protection-Agency.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Environmental-Protection-Agency.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Client-Logo-Grant-Thornton.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Client-Logo-Grant-Thornton.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Business-Pickup-Recycling-Icon-v2.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Business-Pickup-Recycling-Icon-v2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Drop-Off-Recycling-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Drop-Off-Recycling-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Hard-Drive-Data-Destruction-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Hard-Drive-Data-Destruction-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Product-Destruction-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Product-Destruction-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/mail-In-electronics-Recycling-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/mail-In-electronics-Recycling-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Individual-Customer-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Individual-Customer-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Business-Customer-Served-Icon-01.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/11/Business-Customer-Served-Icon-01.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Electronics-Recycled-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/11/Electronics-Recycled-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Electronics-Reused-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Electronics-Reused-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Website-Visitors-Icon.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Website-Visitors-Icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Blog-Post-Icon.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Blog-Post-Icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Directory-Icon.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Directory-Icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Re-Use-User-Feedback-Icon.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/09/Re-Use-User-Feedback-Icon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/Greencitizen-Computer-and-Laptop-recycling-in-San-Francisco-768x701-1.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/Greencitizen-Computer-and-Laptop-recycling-in-San-Francisco-768x701-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/GreenCitizen-About-Us-Image.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/GreenCitizen-About-Us-Image.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/laptop-recycling.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/11/laptop-recycling.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/Bulk-Laptop-Recycling.jpg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/08/Bulk-Laptop-Recycling.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Computer-Recycling-Guide.jpg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2022/08/Computer-Recycling-Guide.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/How-to-Dispose-of-Hard-Drives.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/02/How-to-Dispose-of-Hard-Drives.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/How-Much-Does-a-Greenhouse-Cost.jpg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2023/08/How-Much-Does-a-Greenhouse-Cost.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/household-hazardous-waste.png",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/01/household-hazardous-waste.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/Eco-Friendly-Natural-Odor-Eliminator.jpg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/04/Eco-Friendly-Natural-Odor-Eliminator.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/Best-Indoor-Garden-Systems.jpg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2025/04/Best-Indoor-Garden-Systems.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/GreenCitizen-Website-Logo.svg",
+        "type": "image",
+        "full_url": "https://greencitizen.com/wp-content/uploads/2024/10/GreenCitizen-Website-Logo.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Computer and Electronics Recycling Services | GreenCitizen",
+        "description": "Start computer recycling with GreenCitizen. We offer certified electronics recycling, e-waste disposal, data destruction, &amp; ITAD services.",
+        "canonical": "https://greencitizen.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2041ms"
+        },
+        {
+          "resource": "GreenCitizen-Website-Logo.svg",
+          "latency": "pending"
+        },
+        {
+          "resource": "Google-Logo-Icon.svg",
+          "latency": "pending"
+        },
+        {
+          "resource": "5-Star-Rating-Stars-01.svg",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Recycling Services",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Join 73,350 businesses and 413,163 individuals who trust GreenCitizen for responsible computer and electronics recycling with secure data destruction",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "GreenCitizen in Numbers",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Why Choose GreenCitizen?",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Overview Business Recycling Pickup Drop-Off Recycling Form Building-Wide Pickup Hard Drive Data Destruction Product Destruction Styrofoam Recycling IT Asset Disposition (ITAD) Mail-In Electronics Recycling Cities We Serve Directory Blog Recent Posts Sustainable Living Renewable Energy Business &#038; Policies Environment Product Review About Contact Search for: Search Search Search for: Search Search Services Overview Business Recycling Pickup Drop-Off Recycling Form Building-Wide Pickup Hard Drive Data Destruction Product Destruction Styrofoam Recycling IT Asset Disposition (ITAD) Mail-In Electronics Recycling Cities We Serve Directory Blog Recent Posts Sustainable Living Renewable Energy Business &#038; Policies Environment Product Review About Contact Join 73,350 businesses and 413,163 individuals who trust GreenCitizen for responsible computer and electronics recycling with secure data destruction Business Pickup Drop-Off Recycling 4.9 (303 Reviews)"
+          },
+          {
+            "tag": "p",
+            "text": "4.9 (295 Reviews)"
+          },
+          {
+            "tag": "p",
+            "text": "Featured on"
+          },
+          {
+            "tag": "h3",
+            "text": "Trusted by 480,965 Customers"
+          },
+          {
+            "tag": "p",
+            "text": "Recycling Services GreenCitizen offers secure and reliable electronics recycling in the San Francisco Bay Area. From responsible computer recycling to IT asset disposal, we ensure your old electronics don&#8217;t end up in landfills."
+          },
+          {
+            "tag": "p",
+            "text": "Recycling Services for Businesses Recycle Now"
+          },
+          {
+            "tag": "p",
+            "text": "Residential/Business Dropoff Recycling Services Drop-off Now"
+          },
+          {
+            "tag": "p",
+            "text": "Data Destruction (DOD 5220.22-M and NIST SP 800-88 standards) Recycle Now"
+          },
+          {
+            "tag": "p",
+            "text": "Product Physical Destruction Recycle Now"
+          },
+          {
+            "tag": "p",
+            "text": "Mail-In Electronics Recycling Recycle Now"
+          },
+          {
+            "tag": "h2",
+            "text": "GreenCitizen in Numbers"
+          },
+          {
+            "tag": "p",
+            "text": "413,163 Individual Customers Served"
+          },
+          {
+            "tag": "h3",
+            "text": "73,350"
+          },
+          {
+            "tag": "p",
+            "text": "Business Customers Served"
+          },
+          {
+            "tag": "p",
+            "text": "32,949,491 Pounds of Electronics Recycled"
+          },
+          {
+            "tag": "p",
+            "text": "388,065 Units of Electronics Responsibly Re-used"
+          },
+          {
+            "tag": "h3",
+            "text": "1,600,000+"
+          },
+          {
+            "tag": "p",
+            "text": "Annual Active Website Visitors"
+          },
+          {
+            "tag": "p",
+            "text": "Actionable Blog Posts Published"
+          },
+          {
+            "tag": "h3",
+            "text": "4,200+"
+          },
+          {
+            "tag": "p",
+            "text": "Green Directory Entries"
+          },
+          {
+            "tag": "p",
+            "text": "99.5% Positive Feedback from Re-Use Customers"
+          },
+          {
+            "tag": "h2",
+            "text": "Why Choose GreenCitizen?"
+          },
+          {
+            "tag": "p",
+            "text": "At GreenCitizen, we streamline the process of electronics recycling, particularly for computers, in a simple and environmentally responsible manner. Whether you’re unsure about how to dispose of your electronics or looking for efficient recycling methods, we provide tailored solutions. What makes GreenCitizen stand out is our commitment to tracking every single item our customers trust us to recycle."
+          },
+          {
+            "tag": "p",
+            "text": "We’ve developed a proprietary tool, the GreenCitizen Total Accountability Management System (GTAMS), to track items with unique asset IDs. The system enables us to monitor and track every item, ensuring that nothing is illegally dumped overseas, preventing harmful environmental and health impacts globally. Additionally, it guarantees a responsible demanufacturing process in the U.S., enabling us to recover valuable raw materials- saving energy and costs in the long run."
+          },
+          {
+            "tag": "p",
+            "text": "Whether it&#8217;s laptop recycling and desktop recycling, or safely destroying sensitive data, we’re your reliable partner for eco-friendly electronics disposal. Our services include secure data destruction for hard drives, CDs, DVDs, cassettes, floppy disks, and LTO/DAT/AIT/DLT data tapes, guaranteeing your sensitive information is permanently erased with minimal environmental impact."
+          },
+          {
+            "tag": "p",
+            "text": "What Our Customers Say Read more reviews About Us GreenCitizen is a socially responsible company driven to provide everyone with actionable information and services so that everyone can live a sustainable life."
+          },
+          {
+            "tag": "p",
+            "text": "It was a sunny afternoon in the San Francisco Bay Area on April 22, 2005, when GreenCitizen began its mission to make every day Earth Day. And, we proudly say that we’ve stayed true to our mission every day of our exciting 18-year-journey and are determined to continue in the years to come."
+          },
+          {
+            "tag": "p",
+            "text": "Read more&#8230;"
+          },
+          {
+            "tag": "p",
+            "text": "Most Popular The Definitive Guide to Laptop Recycling Bulk Laptop Recycling for Bay Area Offices: Costs and Pickup Options Computer Recycling: How to Dispose of Your Old Computer Responsibly How to Dispose of Hard Drives Securely and Permanently View More Latest Blog Post How Much Does a Greenhouse Cost? What Is Household Hazardous Waste and Why Should You Care? A Guide To Eco-Friendly Natural Odor Eliminator Choices 5 Indoor Garden System Brands That Put the Planet First View More Latest YouTube Videos View More Subscribe GreenCitizen is an environmental conservation company providing you with information, services, and products to help you live a sustainable life."
+          },
+          {
+            "tag": "h3",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "h3",
+            "text": "Join Our Newsletter"
+          },
+          {
+            "tag": "h2",
+            "text": "Quick Links"
+          },
+          {
+            "tag": "h2",
+            "text": "Blogs"
+          },
+          {
+            "tag": "h5",
+            "text": "Services (United States)"
+          },
+          {
+            "tag": "h2",
+            "text": "For Businesses"
+          },
+          {
+            "tag": "h2",
+            "text": "For Homes"
+          },
+          {
+            "tag": "h2",
+            "text": "Useful Links"
+          },
+          {
+            "tag": "p",
+            "text": "Copyright &copy; 2026 All Rights Reserved · GreenCitizen"
+          },
+          {
+            "tag": "p",
+            "text": "Privacy Policy | Affiliate Disclosure"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 133,
+          "headings": 39,
+          "images": 50
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-9BCD0698",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-721D1E8D",
+      "path": "/about/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-76E13160",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D17E646",
+      "path": "/about",
+      "type": "Detected Link",
+      "anchor_text": "Read more&#8230;",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7C82710F",
+      "path": "/blog/category/sustainable-living/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainable Living",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-71730378",
+      "path": "/blog/category/renewable-energy/",
+      "type": "Detected Link",
+      "anchor_text": "Renewable Energy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-585EFE9D",
+      "path": "/blog/category/business-and-policies/",
+      "type": "Detected Link",
+      "anchor_text": "Business &#038; Polices",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B57C7C81",
+      "path": "/blog/category/environment/",
+      "type": "Detected Link",
+      "anchor_text": "Environment",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EF39413A",
+      "path": "/blog/category/product-review/",
+      "type": "Detected Link",
+      "anchor_text": "Product Review",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-60512C40",
+      "path": "/services/business-recycling-pickup/",
+      "type": "Detected Link",
+      "anchor_text": "Business Pickups",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-17967406",
+      "path": "/services/hard-drive-data-destruction/",
+      "type": "Detected Link",
+      "anchor_text": "Data Destruction",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0A2CFC6B",
+      "path": "/services/building-wide-pickup/",
+      "type": "Detected Link",
+      "anchor_text": "Building-Wide Pickups",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BD4F2CC7",
+      "path": "/services/product-destruction/",
+      "type": "Detected Link",
+      "anchor_text": "Product Destruction",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-39446C99",
+      "path": "/services/electronics-recycling-drop-off/",
+      "type": "Detected Link",
+      "anchor_text": "Electronics Recycling Drop-Off",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6BA7EB1F",
+      "path": "/services/mail-in-electronics-recycling/",
+      "type": "Detected Link",
+      "anchor_text": "Mail-In Electronics Recycling",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

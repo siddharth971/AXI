@@ -1,0 +1,675 @@
+{
+  "website_blueprint_id": "BLUEPRINT-07EF3F25",
+  "generated_at": "2026-01-22T06:07:07.948Z",
+  "global_configuration": {
+    "brand_name": "Join Us in the Fight to Save our Planet",
+    "domain": "environment.co",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.11",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "block-all-mixed-content",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 34,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-includes/js/jquery/jquery.min.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-includes/js/jquery/jquery-migrate.min.js"
+      },
+      {
+        "path": "/wp-content/cache/min/4/wp-content/plugins/usahtmlmap/static/js/jquery.nicescroll.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/cache/min/4/wp-content/plugins/usahtmlmap/static/js/jquery.nicescroll.js?ver=1757358226"
+      },
+      {
+        "path": "/tags/environment.js",
+        "type": "script",
+        "full_url": "https://scripts.mediavine.com/tags/environment.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-J93T9JF209"
+      },
+      {
+        "path": "/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js"
+      },
+      {
+        "path": "/e-202604.js",
+        "type": "script",
+        "full_url": "https://stats.wp.com/e-202604.js"
+      },
+      {
+        "path": "/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.js?ver=1757358226"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://environment.co/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/css",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css?family=Inter%3A300%2C400%2C700%2C900&#038;display=swap"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/jesse-bauer-pzwH-a4aF3s-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/jesse-bauer-pzwH-a4aF3s-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/annie-spratt-5TfCI4nj6B4-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/annie-spratt-5TfCI4nj6B4-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/sigmund-dBu3wq2O5SM-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/sigmund-dBu3wq2O5SM-unsplash-1-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/emma-renly-c4nF1dMiwJY-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/emma-renly-c4nF1dMiwJY-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/johannes-plenio-dLXMJnyyU5E-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/johannes-plenio-dLXMJnyyU5E-unsplash-1-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/02/wolfgang-hasselmann-zFWfrZ4rmcc-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/02/wolfgang-hasselmann-zFWfrZ4rmcc-unsplash-1-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/12/kyle-glenn-nXt5HtLmlgE-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/kyle-glenn-nXt5HtLmlgE-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2020/10/Bitmap.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2020/10/Bitmap.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2024/01/jamie-street-6WZUmYgZlMY-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2024/01/jamie-street-6WZUmYgZlMY-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2022/11/Feature-5-Examples-of-Renewable-Resources-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2022/11/Feature-5-Examples-of-Renewable-Resources-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/07/sean-IhzjEUjw3E0-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/07/sean-IhzjEUjw3E0-unsplash-1-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/05/timusic-photographs-x_yzCtgX0vI-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/05/timusic-photographs-x_yzCtgX0vI-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/05/tommy-kwak-t6u6EPbWNjw-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/05/tommy-kwak-t6u6EPbWNjw-unsplash-1-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2020/12/Ways_to_Raise_Awareness_About_Environmental_Issues-e1676579141592-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2020/12/Ways_to_Raise_Awareness_About_Environmental_Issues-e1676579141592-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2021/03/Feature-Images-The-Effects-of-Endangered-Species-min-e1676579356560-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2021/03/Feature-Images-The-Effects-of-Endangered-Species-min-e1676579356560-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2021/04/Feature-Image-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2021/04/Feature-Image-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2022/07/nuclear-energy--485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2022/07/nuclear-energy--485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/07/pollution-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/07/pollution-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2025/06/sky-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/06/sky-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2024/12/david-leveque-A9KmPND5o4g-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2024/12/david-leveque-A9KmPND5o4g-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2024/11/pascal-van-de-vendel-4cybCXaiB4c-unsplash-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2024/11/pascal-van-de-vendel-4cybCXaiB4c-unsplash-485x310.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/sites/4/2021/07/pexels-karolina-grabowska-4202924-2-683x1024.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2021/07/pexels-karolina-grabowska-4202924-2-683x1024.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Join Us in the Fight to Save our Planet | Environment.co",
+        "description": "We are dedicated to keeping users informed on climate change issues &amp; sharing resources to help everyone do their part to help save our planet!",
+        "canonical": "https://environment.co"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "3079ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.nicescroll.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Do Horses Really Sleep Standing Up? 9 Facts About Horses",
+          "h2_subtitle": "Jane Marsh - Dec 18, 2025",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Get the latest updates on our planet by subscribing to the Environment.co newsletter!",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Featured Columns Net Zero Features Conscious Living Essentials Geothermal Energy Installers Planet Earth Climate Policy Energy Sustainability Science Food Do Horses Really Sleep Standing Up? 9 Facts About Horses Jane Marsh - Dec 18, 2025"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Posts"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Creepy Types of Fungi That Could Star in a Horror Movie"
+          },
+          {
+            "tag": "p",
+            "text": "There are so many types of fungi, but many think of mushrooms when they imagine&hellip;"
+          },
+          {
+            "tag": "h3",
+            "text": "Say Goodbye to Harsh Chemicals: The Future of Laundry Detergent Is Eco-Friendly"
+          },
+          {
+            "tag": "p",
+            "text": "Everyone has to wash their clothes one way or another. The most common method is&hellip;"
+          },
+          {
+            "tag": "h3",
+            "text": "Exploring 7 Plastic Alternatives: Your Eco-Friendly Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Plastic has become the default material of modern life. From coffee on the way to&hellip;"
+          },
+          {
+            "tag": "h2",
+            "text": "Get the latest updates on our planet by subscribing to the Environment.co newsletter!"
+          },
+          {
+            "tag": "p",
+            "text": "Your email address will only be used to send you our newsletter, and at any time you may unsubscribe. For more information, see our Privacy Policy ."
+          },
+          {
+            "tag": "h2",
+            "text": "Planet Earth"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Creepy Types of Fungi That Could Star in a Horror Movie"
+          },
+          {
+            "tag": "h3",
+            "text": "Fighting Fire with Fire: The Many Benefits of Prescribed Burns"
+          },
+          {
+            "tag": "h3",
+            "text": "The 5 Worst Environmental Crimes in America"
+          },
+          {
+            "tag": "h3",
+            "text": "How Can Camels Eat Cactus Without Getting Hurt?"
+          },
+          {
+            "tag": "h3",
+            "text": "25 Geography Facts That Are Stranger Than Fiction"
+          },
+          {
+            "tag": "h2",
+            "text": "Activist Corner"
+          },
+          {
+            "tag": "p",
+            "text": "May 20: World Bee Day"
+          },
+          {
+            "tag": "p",
+            "text": "May 21: Endangered Species Day"
+          },
+          {
+            "tag": "p",
+            "text": "May 22: International Day for Biological Diversity"
+          },
+          {
+            "tag": "p",
+            "text": "May 23: World Turtle Day"
+          },
+          {
+            "tag": "p",
+            "text": "June 1: National Trails Day"
+          },
+          {
+            "tag": "p",
+            "text": "June 5: World Environment Day"
+          },
+          {
+            "tag": "p",
+            "text": "June 7: World Food Safety Day"
+          },
+          {
+            "tag": "p",
+            "text": "June 8: World Ocean’s Day"
+          },
+          {
+            "tag": "p",
+            "text": "June 17: World Day to Combat Desertification and Drought"
+          },
+          {
+            "tag": "p",
+            "text": "June 22: World Rainforest Day"
+          },
+          {
+            "tag": "p",
+            "text": "July: Plastic Free July"
+          },
+          {
+            "tag": "p",
+            "text": "July 29: International Tiger Day"
+          },
+          {
+            "tag": "p",
+            "text": "August 12: World Elephant Day"
+          },
+          {
+            "tag": "p",
+            "text": "September 2: Zero Waste Week"
+          },
+          {
+            "tag": "p",
+            "text": "September 12: World Dolphin Day"
+          },
+          {
+            "tag": "p",
+            "text": "September 16: Ozone Preservation Day"
+          },
+          {
+            "tag": "p",
+            "text": "September 20: World Clean Up Day"
+          },
+          {
+            "tag": "p",
+            "text": "September 22: World Rivers Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 1: World Vegetarian Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 2: World Habitat Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 4: Energy Efficiency Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 4: World Animal Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 12: World Migratory Bird Day (Fall)"
+          },
+          {
+            "tag": "p",
+            "text": "October 16: World Food Day"
+          },
+          {
+            "tag": "p",
+            "text": "October 22: Snow Leopard Day"
+          },
+          {
+            "tag": "p",
+            "text": "November 13: World Kindness Day"
+          },
+          {
+            "tag": "p",
+            "text": "November 29: Buy Nothing Day"
+          },
+          {
+            "tag": "p",
+            "text": "December 11: International Mountain Day"
+          },
+          {
+            "tag": "h3",
+            "text": "Next Generation Conservation"
+          },
+          {
+            "tag": "h2",
+            "text": "Energy"
+          },
+          {
+            "tag": "h3",
+            "text": "The Effect of Animals on Plants"
+          },
+          {
+            "tag": "h3",
+            "text": "5 Examples of Renewable Resources the U.S. Should Invest in"
+          },
+          {
+            "tag": "h3",
+            "text": "Decoding Wave Energy Advantages and Disadvantages for a Sustainable Future"
+          },
+          {
+            "tag": "h3",
+            "text": "Is Painting Wind Turbine Blades Black the Key to Conserving Avian Populations?"
+          },
+          {
+            "tag": "h3",
+            "text": "Cleaner Forms of Electricity Generation to Discover"
+          },
+          {
+            "tag": "h2",
+            "text": "Popular Posts"
+          },
+          {
+            "tag": "h3",
+            "text": "10 Surprising Ways You Can Raise Awareness About Environmental Issues"
+          },
+          {
+            "tag": "h3",
+            "text": "The Effects of Endangered Species in 2024"
+          },
+          {
+            "tag": "h3",
+            "text": "Environmental Problems in Schools and How to Address Them"
+          },
+          {
+            "tag": "h2",
+            "text": "Science"
+          },
+          {
+            "tag": "h3",
+            "text": "10 Nuclear Energy Uses"
+          },
+          {
+            "tag": "h3",
+            "text": "Soil and Water Pollution: Research Shows Link to Cardiovascular Disease"
+          },
+          {
+            "tag": "h3",
+            "text": "Light Pollution and Alzheimer’s: Nighttime Light May Be Bad for the Brain"
+          },
+          {
+            "tag": "h3",
+            "text": "A Story of Survival: The Plight of Baby Sea Turtles"
+          },
+          {
+            "tag": "h3",
+            "text": "Engineering Hope: The Latest in Coral Reef Restoration Technology"
+          },
+          {
+            "tag": "h3",
+            "text": "Conscious Living Essentials"
+          },
+          {
+            "tag": "p",
+            "text": "! Get the latest news on the planet delivered to your inbox"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 54,
+          "headings": 31,
+          "images": 46
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5FC4DDB0",
+      "path": "/featured-columns/",
+      "type": "Detected Link",
+      "anchor_text": "Featured Columns",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6A66AB77",
+      "path": "/net-zero-features/",
+      "type": "Detected Link",
+      "anchor_text": "Net Zero Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-17A9327F",
+      "path": "/conscious-living-essentials/",
+      "type": "Detected Link",
+      "anchor_text": "Conscious Living Essentials",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D2E5CB6F",
+      "path": "/geothermal-energy-installers/",
+      "type": "Detected Link",
+      "anchor_text": "Geothermal Energy Installers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9C12852",
+      "path": "/planet-earth/",
+      "type": "Detected Link",
+      "anchor_text": "Planet Earth",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E95E1938",
+      "path": "/climate-policy/",
+      "type": "Detected Link",
+      "anchor_text": "Climate Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EA8341D3",
+      "path": "/energy/",
+      "type": "Detected Link",
+      "anchor_text": "Energy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F8D87723",
+      "path": "/sustainability/",
+      "type": "Detected Link",
+      "anchor_text": "Sustainability",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E2F26D1",
+      "path": "/science/",
+      "type": "Detected Link",
+      "anchor_text": "Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C74311E8",
+      "path": "/food/",
+      "type": "Detected Link",
+      "anchor_text": "Food",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ECF263DD",
+      "path": "/do-horses-really-sleep-standing-up-9-facts-about-horses/",
+      "type": "Detected Link",
+      "anchor_text": "Do Horses Really Sleep Standing Up? 9 Facts About Horses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7BCD0D32",
+      "path": "/author/jane/",
+      "type": "Detected Link",
+      "anchor_text": "Jane Marsh",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-26AE1514",
+      "path": "/types-of-fungi/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8695C9ED",
+      "path": "/author/maria/",
+      "type": "Detected Link",
+      "anchor_text": "Maria Visser",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-49D2CBB9",
+      "path": "/eco-friendly-laundry-detergent/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

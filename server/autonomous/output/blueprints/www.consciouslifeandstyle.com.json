@@ -1,0 +1,743 @@
+{
+  "website_blueprint_id": "BLUEPRINT-76CFF150",
+  "generated_at": "2026-01-22T06:07:06.642Z",
+  "global_configuration": {
+    "brand_name": "Conscious Life and Style",
+    "domain": "www.consciouslifeandstyle.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "34.160.17.71",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "block-all-mixed-content",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 62,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-DQK2DYWD5M"
+      },
+      {
+        "path": "/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=9.10.1"
+      },
+      {
+        "path": "/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle_gathering.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle_gathering.min.js?ver=6.68_1763851584"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-content/uploads/siteground-optimizer-assets/cookie-law-info.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/siteground-optimizer-assets/cookie-law-info.min.js?ver=3.3.8"
+      },
+      {
+        "path": "/wp-content/plugins/ud-elegant-shop/js/shop-scripts.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/plugins/ud-elegant-shop/js/shop-scripts.min.js?ver=3.8.3"
+      },
+      {
+        "path": "/wp-content/plugins/ud-elegant-shop/js/owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/plugins/ud-elegant-shop/js/owl.carousel.min.js?ver=3.8.3"
+      },
+      {
+        "path": "/tags/554ccde6-f4c8-465e-a9a4-58b04ebc7d92.js",
+        "type": "script",
+        "full_url": "https://scripts.scriptwrapper.com/tags/554ccde6-f4c8-465e-a9a4-58b04ebc7d92.js"
+      },
+      {
+        "path": "/wp-content/themes/consciouslifeandstyle/slick/slick.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/themes/consciouslifeandstyle/slick/slick.min.js"
+      },
+      {
+        "path": "/js/127948X1589723.skimlinks.js",
+        "type": "script",
+        "full_url": "https://s.skimresources.com/js/127948X1589723.skimlinks.js"
+      },
+      {
+        "path": "/js/pinit.js&",
+        "type": "script",
+        "full_url": "https://assets.pinterest.com/js/pinit.js&#039;%20async%20data-pin-hover=&#039;true&#039;%20data-pin-shape=&#039;rectangle&#039;%20data-pin-color=&#039;gray&#039;%20data-pin-lang=&#039;eng"
+      },
+      {
+        "path": "/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js?ver=7.7.5"
+      },
+      {
+        "path": "/wp-content/uploads/siteground-optimizer-assets/ks-general-js.min.js",
+        "type": "script",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/siteground-optimizer-assets/ks-general-js.min.js"
+      },
+      {
+        "path": "/miller-banner.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.flodesk.com/miller-banner.css"
+      },
+      {
+        "path": "/miller-text.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.flodesk.com/miller-text.css"
+      },
+      {
+        "path": "/flodesk-sans.css",
+        "type": "stylesheet",
+        "full_url": "https://assets.flodesk.com/flodesk-sans.css"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/Asset-2.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/09/Asset-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Slow-Fashion-Course-400x250.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2025/09/Slow-Fashion-Course-400x250.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/Sustainable-Linen-Trousers-1-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2025/07/Sustainable-Linen-Trousers-1-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/05/Linen-Clothing-Brands-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/05/Linen-Clothing-Brands-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/10/Zero-Waste-and-Non-Toxic-Skincare-Brands-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/10/Zero-Waste-and-Non-Toxic-Skincare-Brands-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/02/Find-your-signature-scent-with-these-eco-friendly-perfume-brands-cover-image-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/02/Find-your-signature-scent-with-these-eco-friendly-perfume-brands-cover-image-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/Zero-Waste-hair-care-cover-image-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/06/Zero-Waste-hair-care-cover-image-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Cyber-Week-Guide-Header-Image-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2024/11/Cyber-Week-Guide-Header-Image-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/CLS-Ethical-Sustainable-Gift-Guide-400x250.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2025/11/CLS-Ethical-Sustainable-Gift-Guide-400x250.png"
+      },
+      {
+        "path": "/wp-content/uploads/2021/05/Sustainable-Amazon-Alternatives-Cover-image-1-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/05/Sustainable-Amazon-Alternatives-Cover-image-1-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Sustainable-Rugs-400x250.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2026/01/Sustainable-Rugs-400x250.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/Non-toxic-Furniture-Cover-Image-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/02/Non-toxic-Furniture-Cover-Image-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/01/Eco-Friendly-Dinnerware-Brands-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/01/Eco-Friendly-Dinnerware-Brands-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/07/How-to-Make-Money-as-a-Blogger-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/07/How-to-Make-Money-as-a-Blogger-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/04/Brainstorming-content-ideas-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/04/Brainstorming-content-ideas-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/04/How-to-Start-a-Blog-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/04/How-to-Start-a-Blog-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/Kenya-Wiley-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/08/Kenya-Wiley-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/Isaias-Hernandez-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/07/Isaias-Hernandez-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/Mahdiyyah-Muhammad-400x250.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/08/Mahdiyyah-Muhammad-400x250.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/Homepage-image-700x680.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/09/Homepage-image-700x680.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/CLS-Ethical-Sustainable-Gift-Guide-500x600.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2025/11/CLS-Ethical-Sustainable-Gift-Guide-500x600.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Cyber-Week-Guide-Header-Image-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2024/11/Cyber-Week-Guide-Header-Image-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/Sustainable-Holiday-Decor-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/11/Sustainable-Holiday-Decor-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/talking-about-slow-fashion-with-my-friends-in-a-non-judgemental-way-Cover-image-700x450.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/09/talking-about-slow-fashion-with-my-friends-in-a-non-judgemental-way-Cover-image-700x450.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/circular-fashion-brand-resale-programs-700x680.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/10/circular-fashion-brand-resale-programs-700x680.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Fast-fashion-Cover-Image-1-700x680.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/08/Fast-fashion-Cover-Image-1-700x680.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/Non-toxic-Furniture-Cover-Image-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/02/Non-toxic-Furniture-Cover-Image-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/eco-glamping-pods-Cover-Image-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/09/eco-glamping-pods-Cover-Image-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/Copy-of-eco-glamping-pods-Cover-Image-500x600.png",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/09/Copy-of-eco-glamping-pods-Cover-Image-500x600.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/American-Made-Furniture-Companies-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2024/06/American-Made-Furniture-Companies-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/Eco-Friendly-Dining-Table-Guide-Cover-Image-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2024/06/Eco-Friendly-Dining-Table-Guide-Cover-Image-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/Sustainable-Outdoor-Furniture-Companies-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/08/Sustainable-Outdoor-Furniture-Companies-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/09/Toxic-Skincare-Ingredients-to-Avoid-700x680.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/09/Toxic-Skincare-Ingredients-to-Avoid-700x680.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/10/Zero-Waste-and-Non-Toxic-Skincare-Brands-700x680.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/10/Zero-Waste-and-Non-Toxic-Skincare-Brands-700x680.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/01/Non-Toxic-and-Zero-Waste-Deodorants-Reviewed-Cover-Image-700x680.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2021/01/Non-Toxic-and-Zero-Waste-Deodorants-Reviewed-Cover-Image-700x680.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/White-Linen-Sheet-Set-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/12/White-Linen-Sheet-Set-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Plaine-Products-Body-Wash-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/12/Plaine-Products-Body-Wash-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/OurPlace-Dinnerware-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/12/OurPlace-Dinnerware-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Nisolo-Huarache-Sandal-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/01/Nisolo-Huarache-Sandal-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/ABLE-personalized-necklace-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/01/ABLE-personalized-necklace-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Ethical-Shop-31-1-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/01/Ethical-Shop-31-1-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Black-Tencel-Tights-300x400.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/01/Black-Tencel-Tights-300x400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/03/Affordable-Swimwear-Brands-Cover-Image-1-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2022/03/Affordable-Swimwear-Brands-Cover-Image-1-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/sustainable-sandals-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2023/04/sustainable-sandals-500x600.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/Sustainable-Dresses-Cover-Image-Size-500x600.jpg",
+        "type": "image",
+        "full_url": "https://www.consciouslifeandstyle.com/wp-content/uploads/2020/03/Sustainable-Dresses-Cover-Image-Size-500x600.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Conscious Life and Style | Mindful Media for Thoughtful Living",
+        "description": "Mindful Media For Thoughtful Living. Discover resources on ethical fashion, eco living, clean beauty, slow home, and more.",
+        "canonical": "https://www.consciouslifeandstyle.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2004ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "frontend-gtag.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "apbct-public-bundle_gathering.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome",
+          "h2_subtitle": "Conscious Life &amp; Style is a mindful digital media platform dedicated to inspiring a more responsible world through deep-dives and curated guides on everything from slow fashion to sustainable home.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "21 Eco-Friendly &amp; Ethical Gift Ideas For Everyone on Your List",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Our Picks for the Top Black Friday and Cyber Week Sales From Sustainable Brands",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Sustainable Holiday Decor: Here&#8217;s Everything You Need to Know",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "SIGN UP TO THE CONSCIOUS EDIT"
+          },
+          {
+            "tag": "p",
+            "text": "How to Create Outfits That Fit Your Style and Your Life"
+          },
+          {
+            "tag": "p",
+            "text": "The Best Sustainable Linen Trousers"
+          },
+          {
+            "tag": "p",
+            "text": "15 Best Linen Clothing Brands With Easy Breezy, Beautiful Pieces"
+          },
+          {
+            "tag": "p",
+            "text": "What Does &#8220;Natural Skincare&#8221; Really Mean? Plus 25+ Skincare Brands to Trust"
+          },
+          {
+            "tag": "p",
+            "text": "Eco-Friendly Perfume: Your Ultimate Guide to Finding a Sustainable Scent"
+          },
+          {
+            "tag": "p",
+            "text": "The Ultimate Zero Waste Hair Care Guide: 15 Plastic-Free Hair Products"
+          },
+          {
+            "tag": "p",
+            "text": "Our Picks for the Top Black Friday and Cyber Week Sales From Sustainable Brands"
+          },
+          {
+            "tag": "p",
+            "text": "21 Eco-Friendly &amp; Ethical Gift Ideas For Everyone on Your List"
+          },
+          {
+            "tag": "p",
+            "text": "Your Ultimate Guide to Sustainable Alternatives to Amazon and Target"
+          },
+          {
+            "tag": "p",
+            "text": "10 Best Sustainable Rugs For a Healthier Home — and Planet"
+          },
+          {
+            "tag": "p",
+            "text": "15 Best Non-Toxic Furniture Brands for a Healthy Home (2025)"
+          },
+          {
+            "tag": "p",
+            "text": "11 Ethical &amp; Eco-Friendly Dinnerware Brands To Set Your Table Sustainably"
+          },
+          {
+            "tag": "p",
+            "text": "How to Make Money as a Sustainable Blogger: 5 Ways"
+          },
+          {
+            "tag": "p",
+            "text": "7 Strategies for Brainstorming Conscious Content Ideas"
+          },
+          {
+            "tag": "p",
+            "text": "How to Start Your Own Conscious Blog"
+          },
+          {
+            "tag": "p",
+            "text": "Fashion&#8217;s Overlooked Sustainability Policy Opportunities with Kenya Wiley"
+          },
+          {
+            "tag": "p",
+            "text": "Choosing Hope Over Climate Doomism with Isaias Hernandez (@QueerBrownVegan)"
+          },
+          {
+            "tag": "p",
+            "text": "Can Slow Fashion Businesses Scale Without Encouraging Overconsumption? With Mahdiyyah Muhammad"
+          },
+          {
+            "tag": "p",
+            "text": "Welcome Conscious Life &amp; Style is a mindful digital media platform dedicated to inspiring a more responsible world through deep-dives and curated guides on everything from slow fashion to sustainable home."
+          },
+          {
+            "tag": "h3",
+            "text": "Festive Season"
+          },
+          {
+            "tag": "h2",
+            "text": "21 Eco-Friendly &amp; Ethical Gift Ideas For Everyone on Your List"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Picks for the Top Black Friday and Cyber Week Sales From Sustainable Brands"
+          },
+          {
+            "tag": "h2",
+            "text": "Sustainable Holiday Decor: Here&#8217;s Everything You Need to Know"
+          },
+          {
+            "tag": "h3",
+            "text": "Join Our Slow Fashion Community"
+          },
+          {
+            "tag": "p",
+            "text": "Subscribe to Slow Fashion Saturday 💌"
+          },
+          {
+            "tag": "p",
+            "text": "Join 3,500 subscribers who receive curated slow fashion tips, insights, and inspiration (minus the greenwashing)"
+          },
+          {
+            "tag": "p",
+            "text": "Answers to Your Slow Fashion Questions How Can We Talk About Slow Fashion With Our Friends and Family? Can Brand Resale Platforms Really Make Fast Fashion Circular? Can Fast Fashion Brands Ever Be Sustainable? More fashion Latest Lifestyle Resources 15 Best Non-Toxic Furniture Brands for a Healthy Home (2025) The Best Eco-Friendly Glamping Pods Worldwide For A Nature Retreat These Are The 7 Types of Glamping to Try for Sustainable Outdoor Getaways More in lifestyle Tune in to the Podcast In the Conscious Style Podcast, we explore what it will take to create a better, more sustainable and equitable future for fashion. Each week, you&#8217;ll hear from leading changemakers in the sustainable fashion space."
+          },
+          {
+            "tag": "h3",
+            "text": "Slow &amp; Sustainable Home"
+          },
+          {
+            "tag": "h2",
+            "text": "Top 10 American Made Furniture Companies Prioritizing Quality Over Quantity"
+          },
+          {
+            "tag": "h2",
+            "text": "9 Gorgeous Sustainable Tables to Gather Around (2025)"
+          },
+          {
+            "tag": "h2",
+            "text": "10 Sustainable Outdoor Furniture Brands For Your Backyard Sanctuary"
+          },
+          {
+            "tag": "h3",
+            "text": "Clean Beauty Basics"
+          },
+          {
+            "tag": "h2",
+            "text": "10 Toxic Skincare Ingredients to Avoid — and Why"
+          },
+          {
+            "tag": "h2",
+            "text": "What Does &#8220;Natural Skincare&#8221; Really Mean? Plus 25+ Skincare Brands to Trust"
+          },
+          {
+            "tag": "h2",
+            "text": "9 Non-Toxic Deodorants: Reviewed &#038; Ranked Best to Worst"
+          },
+          {
+            "tag": "h3",
+            "text": "Conscious Picks"
+          },
+          {
+            "tag": "h3",
+            "text": "Conscious Style Brand Guides"
+          },
+          {
+            "tag": "h2",
+            "text": "12 Best Affordable Sustainable Swimwear Brands For Your 2025 Adventures (and Beyond)"
+          },
+          {
+            "tag": "h2",
+            "text": "11 Ethical and Sustainable Sandals Brands For Carefree Summer Days"
+          },
+          {
+            "tag": "h2",
+            "text": "The Best Sustainable Dresses Brands That Are Beautiful Anytime of The Year"
+          },
+          {
+            "tag": "p",
+            "text": "&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "Copyright Conscious Life &amp; Style | Design by Gatto. Contact Terms &#038; Conditions Disclaimer Privacy Policy"
+          },
+          {
+            "tag": "h4",
+            "text": "Privacy Overview"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 31,
+          "headings": 29,
+          "images": 88
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-3B76DC0E",
+      "path": "/category/ethical-fashion-blog/",
+      "type": "Detected Link",
+      "anchor_text": "Fashion",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A441F23E",
+      "path": "/category/eco-sustainable-lifestyle-blog/",
+      "type": "Detected Link",
+      "anchor_text": "Living",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-405A4664",
+      "path": "/category/beauty/",
+      "type": "Detected Link",
+      "anchor_text": "Beauty",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2570A4D3",
+      "path": "/category/sustainable-home/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22A74E9C",
+      "path": "/category/podcast/",
+      "type": "Detected Link",
+      "anchor_text": "Podcast",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-175E5B66",
+      "path": "/about/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E86C48CF",
+      "path": "/subscribe/",
+      "type": "Detected Link",
+      "anchor_text": "Newsletter",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D78DCE10",
+      "path": "/contact/consulting-services/",
+      "type": "Detected Link",
+      "anchor_text": "Consulting",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F2CFEADF",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-81155269",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F1254511",
+      "path": "/category/ethical-fashion-blog/guides/",
+      "type": "Detected Link",
+      "anchor_text": "Brand Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8527ECD7",
+      "path": "/category/ethical-fashion-blog/education/",
+      "type": "Detected Link",
+      "anchor_text": "Education",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0EDE8001",
+      "path": "/category/ethical-fashion-blog/brand-features/",
+      "type": "Detected Link",
+      "anchor_text": "Brand Features",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-51710D2B",
+      "path": "/practical-elevated-outfits/",
+      "type": "Detected Link",
+      "anchor_text": "How to Create Outfits That Fit Your Style and Your Life",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2CE51F2E",
+      "path": "/sustainable-linen-trousers/",
+      "type": "Detected Link",
+      "anchor_text": "The Best Sustainable Linen Trousers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

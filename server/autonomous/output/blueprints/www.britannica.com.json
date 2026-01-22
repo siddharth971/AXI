@@ -1,0 +1,670 @@
+{
+  "website_blueprint_id": "BLUEPRINT-60206F24",
+  "generated_at": "2026-01-22T06:06:13.675Z",
+  "global_configuration": {
+    "brand_name": "Encyclopedia Britannica",
+    "domain": "www.britannica.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.4.110",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 65,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtm.js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtm.js?id=GTM-5W6NC8"
+      },
+      {
+        "path": "/gtm.js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtm.js?id=GTM-KRJ753NG"
+      },
+      {
+        "path": "/mendel-resources/3-171/js/libs/jquery-3.5.0.min.js",
+        "type": "script",
+        "full_url": "https://cdn.britannica.com/mendel-resources/3-171/js/libs/jquery-3.5.0.min.js?v=3.171.18"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/icon",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+      },
+      {
+        "path": "/mendel/eb-logo/MendelNewThistleLogo.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png"
+      },
+      {
+        "path": "/28/212628-050-B3BFD216/British-philosopher-economist-Jeremy-Bentham-preserved-skeleton-University-College-London-England.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/28/212628-050-B3BFD216/British-philosopher-economist-Jeremy-Bentham-preserved-skeleton-University-College-London-England.jpg?w=380&q=80"
+      },
+      {
+        "path": "/91/29891-004-9C0B460A/St-Bernadette.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/91/29891-004-9C0B460A/St-Bernadette.jpg?w=325&h=200&c=crop&q=80"
+      },
+      {
+        "path": "/90/61890-004-4A155875/Eva-Peron-1947.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/90/61890-004-4A155875/Eva-Peron-1947.jpg?w=325&h=200&c=crop&q=80"
+      },
+      {
+        "path": "/82/222682-004-10734B49/American-mathematician-Gladys-West.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/82/222682-004-10734B49/American-mathematician-Gladys-West.jpg"
+      },
+      {
+        "path": "/49/282349-004-7A71BD20/Political-cartoon-Monroe-Doctrine-1913.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/49/282349-004-7A71BD20/Political-cartoon-Monroe-Doctrine-1913.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/95/196495-004-666DEE3C/The-Bozo-Show-the-Clown-1960.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/95/196495-004-666DEE3C/The-Bozo-Show-the-Clown-1960.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/10/196710-004-E33FE2D6/Augustus-statue-Rome.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/10/196710-004-E33FE2D6/Augustus-statue-Rome.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/20/178520-004-1D8F80D4/Barack-Obama-as-a-boy-with-his-mother-Ann-Dunham-c-1960s.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/20/178520-004-1D8F80D4/Barack-Obama-as-a-boy-with-his-mother-Ann-Dunham-c-1960s.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/money/assets/britannica-money-global-nav-logo-250x30-2x.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/money/assets/britannica-money-global-nav-logo-250x30-2x.png"
+      },
+      {
+        "path": "/73/275673-050-5F226339/Chevron-Australia-national-headquarters.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/73/275673-050-5F226339/Chevron-Australia-national-headquarters.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/90/281090-004-017734B4/K-shaped-economy-photo-illustration-image.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/90/281090-004-017734B4/K-shaped-economy-photo-illustration-image.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/29/259729-050-A7F95B92/budget-review-of-income-and-expenses-versus-what-you-predicted.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/29/259729-050-A7F95B92/budget-review-of-income-and-expenses-versus-what-you-predicted.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/40/264540-159-05DAF0C9/Large-BYD-logo.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/40/264540-159-05DAF0C9/Large-BYD-logo.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/47/262747-050-F4895C56/NHL-hockey-fight-Edmonton-oilers-Henrique-Florida-Panther-Reinhart-fight-Stanley-Cup-FIinals-June-2024.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/47/262747-050-F4895C56/NHL-hockey-fight-Edmonton-oilers-Henrique-Florida-Panther-Reinhart-fight-Stanley-Cup-FIinals-June-2024.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/89/276089-050-B2546596/News-media-concept-image-light-background-Extra-Credit-ProCon.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/89/276089-050-B2546596/News-media-concept-image-light-background-Extra-Credit-ProCon.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/11/234211-050-2D351D3C/American-pit-bull-terrier.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/11/234211-050-2D351D3C/American-pit-bull-terrier.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/19/193219-050-996CB6E6/Sports-equipment-football-helmets-impact-injury.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/19/193219-050-996CB6E6/Sports-equipment-football-helmets-impact-injury.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/quordle.jpeg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/quordle.jpeg?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/Reunion4-3Big.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/Reunion4-3Big.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/revealed-485-364-1x.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/revealed-485-364-1x.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/tightrope_promo_4_3_2x.webp",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/tightrope_promo_4_3_2x.webp?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/blossom1x.jpeg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/blossom1x.jpeg?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/octordle-4x3.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/octordle-4x3.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/pilfer.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/pilfer.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/missingLetter.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/missingLetter.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/games-newsletter-4-3.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/games-newsletter-4-3.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/twofer-goofer.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/twofer-goofer.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/victordle.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/victordle.png?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/kstm/GAME/Sudoku.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/kstm/GAME/Sudoku.jpg?w=629&h=472&c=crop"
+      },
+      {
+        "path": "/92/227792-131-EB50B20E/beautiful-image-taken-arches-national-park.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/92/227792-131-EB50B20E/beautiful-image-taken-arches-national-park.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/22/99622-131-65926F1A/Parthenon-Athens.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/22/99622-131-65926F1A/Parthenon-Athens.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/80/140480-131-28E57753/Dromedary-camels.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/80/140480-131-28E57753/Dromedary-camels.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/66/236366-131-68E4F516/Hello-in-Thai.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/66/236366-131-68E4F516/Hello-in-Thai.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/14/240414-131-1042720D/Casablanca-film.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/14/240414-131-1042720D/Casablanca-film.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/13/114513-131-E18DA695/Martin-Luther-King-Jr-Malcolm-X-1964.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/13/114513-131-E18DA695/Martin-Luther-King-Jr-Malcolm-X-1964.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/65/237065-131-4D50D54E/Name-that-Thing-Tools-composite-image.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/65/237065-131-4D50D54E/Name-that-Thing-Tools-composite-image.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/87/232787-131-33E4C22A/retriever-dog-breeds.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/87/232787-131-33E4C22A/retriever-dog-breeds.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/79/143279-131-AD0E874F/Slices-lemon-pie-meringue.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/79/143279-131-AD0E874F/Slices-lemon-pie-meringue.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/89/236189-131-46FF66C0/First-Ladies-dedication-of-Ronald-Reagan-Presidential-Library-November-1991.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/89/236189-131-46FF66C0/First-Ladies-dedication-of-Ronald-Reagan-Presidential-Library-November-1991.jpg?w=400&h=225&c=crop"
+      },
+      {
+        "path": "/36/222436-138-C3F86F4B/did-you-know-The-Academy-Awards.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/36/222436-138-C3F86F4B/did-you-know-The-Academy-Awards.jpg"
+      },
+      {
+        "path": "/36/222436-138-C3F86F4B/did-you-know-The-Academy-Awards.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/36/222436-138-C3F86F4B/did-you-know-The-Academy-Awards.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/97/191997-138-9753FA41/demystified-why-do-movie-theaters-serve-popcorn.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/97/191997-138-9753FA41/demystified-why-do-movie-theaters-serve-popcorn.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/57/237157-138-BB4206CF/motion-pictures-transition-silent-to-sound-Hollywood-1920s.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/57/237157-138-BB4206CF/motion-pictures-transition-silent-to-sound-Hollywood-1920s.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/80/258780-138-BB60A77A/demonstration-of-foley-sound-effects-video.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/80/258780-138-BB60A77A/demonstration-of-foley-sound-effects-video.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/54/267054-138-10A89667/the-history-of-bollywood.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/54/267054-138-10A89667/the-history-of-bollywood.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/marketing/Premium-alldevices-white-2024.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/marketing/Premium-alldevices-white-2024.jpg"
+      },
+      {
+        "path": "/46/277446-049-234AF0B7/opioid-history-timeline.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/46/277446-049-234AF0B7/opioid-history-timeline.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/54/282654-050-713A2C90/renee-nicole-good-memorial-poster-immigration-customs-enforcement.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/54/282654-050-713A2C90/renee-nicole-good-memorial-poster-immigration-customs-enforcement.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/84/244284-050-0ED7A68E/fracking-operation-Loveland-Colorado.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/84/244284-050-0ED7A68E/fracking-operation-Loveland-Colorado.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/11/162611-050-E9C06663/Illustration-human-head-brain-waves.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/11/162611-050-E9C06663/Illustration-human-head-brain-waves.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/26/196226-050-617D9CA6/mural-Banksy-Dismaland-Weston-super-Mare-England-2015.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/26/196226-050-617D9CA6/mural-Banksy-Dismaland-Weston-super-Mare-England-2015.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/51/282351-050-6B9C6946/Delcy-Rodriguez-acting-president-Venezuela-January-5-2025.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/51/282351-050-6B9C6946/Delcy-Rodriguez-acting-president-Venezuela-January-5-2025.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/96/173996-050-CAE6BA0B/Fish-Lionfish-Lion-fish-Turkey-fish-Red-lionfish.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/96/173996-050-CAE6BA0B/Fish-Lionfish-Lion-fish-Turkey-fish-Red-lionfish.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/63/231263-050-81F6B74C/Bristlecone-pine-Mount-Washington-Great-Basin-National-Park-Nevada.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/63/231263-050-81F6B74C/Bristlecone-pine-Mount-Washington-Great-Basin-National-Park-Nevada.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/69/200769-050-59BFA24A/Pre-historic-cave-painting-Lascaux-cave-Montignac-France.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/69/200769-050-59BFA24A/Pre-historic-cave-painting-Lascaux-cave-Montignac-France.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/94/262594-050-C9D04CD2/New-Parliament-House-New-Delhi-India.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/94/262594-050-C9D04CD2/New-Parliament-House-New-Delhi-India.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/14/278914-050-CD660DF4/Art-movements-styles-portal-banner.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/14/278914-050-CD660DF4/Art-movements-styles-portal-banner.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/14/252414-050-BF0F7A29/Publicity-still-The-Iron-Claw-Von-Erich-wrestling-Zac-Efron-Chavo-Guerrero-jr.jpg",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/14/252414-050-BF0F7A29/Publicity-still-The-Iron-Claw-Von-Erich-wrestling-Zac-Efron-Chavo-Guerrero-jr.jpg?w=100&h=75&c=crop"
+      },
+      {
+        "path": "/mendel-resources/3-171/images/footer/half-thistle.png",
+        "type": "image",
+        "full_url": "https://cdn.britannica.com/mendel-resources/3-171/images/footer/half-thistle.png?v=3.171.18"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Encyclopedia Britannica | Britannica",
+        "description": "Explore the fact-checked online encyclopedia from Encyclopaedia Britannica with hundreds of thousands of objective articles, biographies, videos, and images from experts.",
+        "canonical": "https://www.britannica.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "793ms"
+        },
+        {
+          "resource": "gtm.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "gtm.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-3.5.0.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Britannica Premium Subscription",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Remains to Be Seen",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "New on Britannica",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Popular ProCon Debate Topics",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h2",
+            "text": "Remains to Be Seen"
+          },
+          {
+            "tag": "h3",
+            "text": "Discover More"
+          },
+          {
+            "tag": "h3",
+            "text": "In Memoriam"
+          },
+          {
+            "tag": "p",
+            "text": "The world lost an iconic fashion designer as well as a pioneering mathematician this past week."
+          },
+          {
+            "tag": "p",
+            "text": "American mathematician Gladys West , known for her work in the development of the Global Positioning System (GPS), died Saturday at age 95. West was hired by the U.S. Naval Proving Ground in 1956, and in 1978 she was named project manager for the Seasat project, an experimental surveillance satellite designed to provide data on a wide array of oceanographic features. This led to GEOSAT, a satellite programmed to create computer models of Earth’s surface, which allows GPS to make accurate calculations."
+          },
+          {
+            "tag": "p",
+            "text": "The Italian fashion designer known for his trademark red garments and “jet-set chic” style, died Monday at age 93. Born Valentino Clemente Ludovico Garavani, he sparked his fashion empire in 1959, when he presented his first collection and later that year designed a strapless cocktail dress in a red hue. He went on to include at least one red dress in each of his collections. Elizabeth Taylor , in Rome shooting Cleopatra , placed her order for a white column dress, which she wore to the premiere of Spartacus , and Valentino’s fate was sealed. He would go on to build a fashion powerhouse, which was sold in 1998 for $300 million."
+          },
+          {
+            "tag": "h2",
+            "text": "New on Britannica"
+          },
+          {
+            "tag": "h2",
+            "text": "Popular ProCon Debate Topics"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured Games"
+          },
+          {
+            "tag": "h2",
+            "text": "Trending Quizzes"
+          },
+          {
+            "tag": "h2",
+            "text": "Featured Videos"
+          },
+          {
+            "tag": "h1",
+            "text": "Britannica Premium Subscription"
+          },
+          {
+            "tag": "h1",
+            "text": "Unlock Exclusive Content!"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore Britannica"
+          },
+          {
+            "tag": "h3",
+            "text": "History & Society"
+          },
+          {
+            "tag": "h3",
+            "text": "Science & Tech"
+          },
+          {
+            "tag": "h3",
+            "text": "Biographies"
+          },
+          {
+            "tag": "h3",
+            "text": "Animals & Nature"
+          },
+          {
+            "tag": "h3",
+            "text": "Geography & Travel"
+          },
+          {
+            "tag": "h3",
+            "text": "Arts & Culture"
+          },
+          {
+            "tag": "h2",
+            "text": "Calculators"
+          },
+          {
+            "tag": "h2",
+            "text": "More From Britannica"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 4,
+          "headings": 19,
+          "images": 60
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-BAD3CD76",
+      "path": "/History-Society",
+      "type": "Detected Link",
+      "anchor_text": "History & Society",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-64FC3531",
+      "path": "/Science-Tech",
+      "type": "Detected Link",
+      "anchor_text": "Science & Tech",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7C3CC738",
+      "path": "/Biographies",
+      "type": "Detected Link",
+      "anchor_text": "Biographies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D77BED72",
+      "path": "/Animals-Nature",
+      "type": "Detected Link",
+      "anchor_text": "Animals & Nature",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0B8DBFC2",
+      "path": "/Geography-Travel",
+      "type": "Detected Link",
+      "anchor_text": "Geography & Travel",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EDB5FFB2",
+      "path": "/Arts-Culture",
+      "type": "Detected Link",
+      "anchor_text": "Arts & Culture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8FB84194",
+      "path": "/procon",
+      "type": "Detected Link",
+      "anchor_text": "ProCon",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E2E125BB",
+      "path": "/money",
+      "type": "Detected Link",
+      "anchor_text": "Money",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D95F3B1D",
+      "path": "/quiz/browse",
+      "type": "Detected Link",
+      "anchor_text": "Games & Quizzes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ABE274D4",
+      "path": "/videos",
+      "type": "Detected Link",
+      "anchor_text": "Videos",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2F52615F",
+      "path": "/on-this-day",
+      "type": "Detected Link",
+      "anchor_text": "On This Day",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F0F29B83",
+      "path": "/one-good-fact",
+      "type": "Detected Link",
+      "anchor_text": "One Good Fact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B2D96B24",
+      "path": "/dictionary",
+      "type": "Detected Link",
+      "anchor_text": "Dictionary",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E1E0C039",
+      "path": "/new-articles",
+      "type": "Detected Link",
+      "anchor_text": "New Articles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C630031A",
+      "path": "/browse/Lifestyles-Social-Issues",
+      "type": "Detected Link",
+      "anchor_text": "Lifestyles & Social Issues",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

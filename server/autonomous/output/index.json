@@ -1,720 +1,1068 @@
 {
-  "generated_at": "2026-01-21T07:27:26.002Z",
-  "total_blueprints": 102,
+  "generated_at": "2026-01-22T06:07:16.107Z",
+  "total_blueprints": 9,
   "blueprints": [
-    {
-      "id": "BLUEPRINT-86F59539",
-      "domain": "www.amazon.com",
-      "brand": "",
-      "file": "blueprints/www.amazon.com.json",
-      "generated_at": "2026-01-21T07:26:49.880Z"
-    },
     {
       "id": "BLUEPRINT-8FFDEFBD",
       "domain": "www.google.com",
       "brand": "Google",
       "file": "blueprints/www.google.com.json",
-      "generated_at": "2026-01-21T07:26:53.749Z"
+      "generated_at": "2026-01-21T07:26:53.749Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-D245406C",
       "domain": "www.youtube.com",
       "brand": "YouTube",
       "file": "blueprints/www.youtube.com.json",
-      "generated_at": "2026-01-21T07:26:53.758Z"
-    },
-    {
-      "id": "BLUEPRINT-8D1D8A39",
-      "domain": "www.wikipedia.org",
-      "brand": "Wikipedia",
-      "file": "blueprints/www.wikipedia.org.json",
-      "generated_at": "2026-01-21T07:26:53.883Z"
-    },
-    {
-      "id": "BLUEPRINT-9464B52D",
-      "domain": "medium.com",
-      "brand": "medium.com",
-      "file": "blueprints/medium.com.json",
-      "generated_at": "2026-01-21T07:26:53.886Z"
-    },
-    {
-      "id": "BLUEPRINT-81BAA2BD",
-      "domain": "www.instagram.com",
-      "brand": "Instagram",
-      "file": "blueprints/www.instagram.com.json",
-      "generated_at": "2026-01-21T07:26:54.034Z"
-    },
-    {
-      "id": "BLUEPRINT-06CDA033",
-      "domain": "www.linkedin.com",
-      "brand": "LinkedIn: Log In or Sign Up",
-      "file": "blueprints/www.linkedin.com.json",
-      "generated_at": "2026-01-21T07:26:54.037Z"
-    },
-    {
-      "id": "BLUEPRINT-3097FCA9",
-      "domain": "github.com",
-      "brand": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
-      "file": "blueprints/github.com.json",
-      "generated_at": "2026-01-21T07:26:54.052Z"
-    },
-    {
-      "id": "BLUEPRINT-FFAF3199",
-      "domain": "www.analyticsinsight.net",
-      "brand": "Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis",
-      "file": "blueprints/www.analyticsinsight.net.json",
-      "generated_at": "2026-01-21T07:26:54.068Z"
-    },
-    {
-      "id": "BLUEPRINT-30DD8FD5",
-      "domain": "www.reddit.com",
-      "brand": "Reddit",
-      "file": "blueprints/www.reddit.com.json",
-      "generated_at": "2026-01-21T07:26:54.076Z"
-    },
-    {
-      "id": "BLUEPRINT-B8FCE8FF",
-      "domain": "enatega.com",
-      "brand": "Open",
-      "file": "blueprints/enatega.com.json",
-      "generated_at": "2026-01-21T07:26:54.085Z"
-    },
-    {
-      "id": "BLUEPRINT-C83949FF",
-      "domain": "github.blog",
-      "brand": "Home",
-      "file": "blueprints/github.blog.json",
-      "generated_at": "2026-01-21T07:26:54.093Z"
-    },
-    {
-      "id": "BLUEPRINT-3A20E572",
-      "domain": "insights.linuxfoundation.org",
-      "brand": "LFX Insights",
-      "file": "blueprints/insights.linuxfoundation.org.json",
-      "generated_at": "2026-01-21T07:26:54.187Z"
-    },
-    {
-      "id": "BLUEPRINT-01BB31B0",
-      "domain": "dev.to",
-      "brand": "DEV Community",
-      "file": "blueprints/dev.to.json",
-      "generated_at": "2026-01-21T07:26:54.193Z"
-    },
-    {
-      "id": "BLUEPRINT-EF6FC4B6",
-      "domain": "www.menutiger.com",
-      "brand": "MENU TIGER",
-      "file": "blueprints/www.menutiger.com.json",
-      "generated_at": "2026-01-21T07:26:54.196Z"
-    },
-    {
-      "id": "BLUEPRINT-37660EC3",
-      "domain": "bloggers.feedspot.com",
-      "brand": "Find the best blogs on the web",
-      "file": "blueprints/bloggers.feedspot.com.json",
-      "generated_at": "2026-01-21T07:26:54.205Z"
-    },
-    {
-      "id": "BLUEPRINT-2346E844",
-      "domain": "www.index.dev",
-      "brand": "Hire Vetted Software Developers [Full",
-      "file": "blueprints/www.index.dev.json",
-      "generated_at": "2026-01-21T07:26:54.217Z"
-    },
-    {
-      "id": "BLUEPRINT-D7660E95",
-      "domain": "www.wpzoom.com",
-      "brand": "High",
-      "file": "blueprints/www.wpzoom.com.json",
-      "generated_at": "2026-01-21T07:26:54.224Z"
-    },
-    {
-      "id": "BLUEPRINT-9F2FE15C",
-      "domain": "cookerhut.com",
-      "brand": "CookerHut.com &#8211; Answering common cooking questions",
-      "file": "blueprints/cookerhut.com.json",
-      "generated_at": "2026-01-21T07:26:54.227Z"
-    },
-    {
-      "id": "BLUEPRINT-BE9BC2CB",
-      "domain": "hackr.io",
-      "brand": "Hackr.io",
-      "file": "blueprints/hackr.io.json",
-      "generated_at": "2026-01-21T07:26:54.235Z"
-    },
-    {
-      "id": "BLUEPRINT-42627094",
-      "domain": "kitchenwithhoor.com",
-      "brand": "Kitchen with Hoor Zahra",
-      "file": "blueprints/kitchenwithhoor.com.json",
-      "generated_at": "2026-01-21T07:26:54.238Z"
-    },
-    {
-      "id": "BLUEPRINT-3B3A720F",
-      "domain": "pos.toasttab.com",
-      "brand": "pos.toasttab.com",
-      "file": "blueprints/pos.toasttab.com.json",
-      "generated_at": "2026-01-21T07:26:54.249Z"
-    },
-    {
-      "id": "BLUEPRINT-E15F9F80",
-      "domain": "easyrecipes.tv",
-      "brand": "Easy Recipes TV",
-      "file": "blueprints/easyrecipes.tv.json",
-      "generated_at": "2026-01-21T07:26:54.256Z"
-    },
-    {
-      "id": "BLUEPRINT-184B76A4",
-      "domain": "www.classcentral.com",
-      "brand": "Class Central • Find the best courses, wherever they exist.",
-      "file": "blueprints/www.classcentral.com.json",
-      "generated_at": "2026-01-21T07:26:54.402Z"
-    },
-    {
-      "id": "BLUEPRINT-06B18E64",
-      "domain": "stylehills.com",
-      "brand": "Discover and Follow Blogs",
-      "file": "blueprints/stylehills.com.json",
-      "generated_at": "2026-01-21T07:26:54.405Z"
-    },
-    {
-      "id": "BLUEPRINT-1EAA0B46",
-      "domain": "www.placementpreparation.io",
-      "brand": "www.placementpreparation.io",
-      "file": "blueprints/www.placementpreparation.io.json",
-      "generated_at": "2026-01-21T07:26:54.413Z"
-    },
-    {
-      "id": "BLUEPRINT-D2AD8412",
-      "domain": "coursesity.com",
-      "brand": "Discover Best Online Courses &amp; Tutorials",
-      "file": "blueprints/coursesity.com.json",
-      "generated_at": "2026-01-21T07:26:54.419Z"
-    },
-    {
-      "id": "BLUEPRINT-C374BF3D",
-      "domain": "www.w3schools.com",
-      "brand": "W3Schools Online Web Tutorials",
-      "file": "blueprints/www.w3schools.com.json",
-      "generated_at": "2026-01-21T07:26:54.641Z"
-    },
-    {
-      "id": "BLUEPRINT-EEE38731",
-      "domain": "www.geeksforgeeks.org",
-      "brand": "GeeksforGeeks",
-      "file": "blueprints/www.geeksforgeeks.org.json",
-      "generated_at": "2026-01-21T07:26:54.646Z"
-    },
-    {
-      "id": "BLUEPRINT-AAC4F21A",
-      "domain": "kinsta.com",
-      "brand": "Kinsta®",
-      "file": "blueprints/kinsta.com.json",
-      "generated_at": "2026-01-21T07:26:54.650Z"
-    },
-    {
-      "id": "BLUEPRINT-6E6AFD4C",
-      "domain": "whatfix.com",
-      "brand": "Whatfix",
-      "file": "blueprints/whatfix.com.json",
-      "generated_at": "2026-01-21T07:26:54.660Z"
-    },
-    {
-      "id": "BLUEPRINT-C7DA3C6E",
-      "domain": "document360.com",
-      "brand": "Document360: Centralize Your Documentation for Better Self",
-      "file": "blueprints/document360.com.json",
-      "generated_at": "2026-01-21T07:26:54.669Z"
-    },
-    {
-      "id": "BLUEPRINT-3B09B700",
-      "domain": "paligo.net",
-      "brand": "Paligo",
-      "file": "blueprints/paligo.net.json",
-      "generated_at": "2026-01-21T07:26:54.672Z"
-    },
-    {
-      "id": "BLUEPRINT-11FFF392",
-      "domain": "www.proprofskb.com",
-      "brand": "AI Knowledge Base Software Cut Tickets by 80%",
-      "file": "blueprints/www.proprofskb.com.json",
-      "generated_at": "2026-01-21T07:26:54.682Z"
-    },
-    {
-      "id": "BLUEPRINT-BA70C827",
-      "domain": "apidog.com",
-      "brand": "apidog.com",
-      "file": "blueprints/apidog.com.json",
-      "generated_at": "2026-01-21T07:26:54.685Z"
-    },
-    {
-      "id": "BLUEPRINT-53D4D642",
-      "domain": "www.allaboutcircuits.com",
-      "brand": "All About Circuits",
-      "file": "blueprints/www.allaboutcircuits.com.json",
-      "generated_at": "2026-01-21T07:26:54.693Z"
-    },
-    {
-      "id": "BLUEPRINT-EDB8D443",
-      "domain": "draft.dev",
-      "brand": "Content",
-      "file": "blueprints/draft.dev.json",
-      "generated_at": "2026-01-21T07:26:54.698Z"
-    },
-    {
-      "id": "BLUEPRINT-62770EAE",
-      "domain": "scrumslate.com",
-      "brand": "Home",
-      "file": "blueprints/scrumslate.com.json",
-      "generated_at": "2026-01-21T07:26:54.702Z"
-    },
-    {
-      "id": "BLUEPRINT-64D2A284",
-      "domain": "blog.hubspot.com",
-      "brand": "HubSpot Blog",
-      "file": "blueprints/blog.hubspot.com.json",
-      "generated_at": "2026-01-21T07:26:54.712Z"
-    },
-    {
-      "id": "BLUEPRINT-C4DE1BEA",
-      "domain": "fpga.mit.edu",
-      "brand": "Welcome to nginx!",
-      "file": "blueprints/fpga.mit.edu.json",
-      "generated_at": "2026-01-21T07:26:54.717Z"
-    },
-    {
-      "id": "BLUEPRINT-20E98BE1",
-      "domain": "fpgaemu.readthedocs.io",
-      "brand": "FPGAEmu: An Introduction to FPGA Emulation &mdash; fpgaemu 0.1 documentation",
-      "file": "blueprints/fpgaemu.readthedocs.io.json",
-      "generated_at": "2026-01-21T07:26:54.846Z"
-    },
-    {
-      "id": "BLUEPRINT-19628730",
-      "domain": "www.twitter.com",
-      "brand": "www.twitter.com",
-      "file": "blueprints/www.twitter.com.json",
-      "generated_at": "2026-01-21T07:26:55.081Z"
-    },
-    {
-      "id": "BLUEPRINT-0D8331F8",
-      "domain": "adaptivesupport.amd.com",
-      "brand": "AMD Customer Community",
-      "file": "blueprints/adaptivesupport.amd.com.json",
-      "generated_at": "2026-01-21T07:26:55.667Z"
+      "generated_at": "2026-01-21T07:26:53.758Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-A24A5BE7",
       "domain": "www.facebook.com",
       "brand": "www.facebook.com",
       "file": "blueprints/www.facebook.com.json",
-      "generated_at": "2026-01-21T07:26:55.749Z"
+      "generated_at": "2026-01-21T07:26:55.749Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-86F59539",
+      "domain": "www.amazon.com",
+      "brand": "",
+      "file": "blueprints/www.amazon.com.json",
+      "generated_at": "2026-01-21T07:26:49.880Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-8D1D8A39",
+      "domain": "www.wikipedia.org",
+      "brand": "Wikipedia",
+      "file": "blueprints/www.wikipedia.org.json",
+      "generated_at": "2026-01-21T07:26:53.883Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-19628730",
+      "domain": "www.twitter.com",
+      "brand": "www.twitter.com",
+      "file": "blueprints/www.twitter.com.json",
+      "generated_at": "2026-01-21T07:26:55.081Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-81BAA2BD",
+      "domain": "www.instagram.com",
+      "brand": "Instagram",
+      "file": "blueprints/www.instagram.com.json",
+      "generated_at": "2026-01-21T07:26:54.034Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-06CDA033",
+      "domain": "www.linkedin.com",
+      "brand": "LinkedIn: Log In or Sign Up",
+      "file": "blueprints/www.linkedin.com.json",
+      "generated_at": "2026-01-21T07:26:54.037Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-30DD8FD5",
+      "domain": "www.reddit.com",
+      "brand": "Reddit",
+      "file": "blueprints/www.reddit.com.json",
+      "generated_at": "2026-01-21T07:26:54.076Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-9464B52D",
+      "domain": "medium.com",
+      "brand": "medium.com",
+      "file": "blueprints/medium.com.json",
+      "generated_at": "2026-01-21T07:26:53.886Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-3A20E572",
+      "domain": "insights.linuxfoundation.org",
+      "brand": "LFX Insights",
+      "file": "blueprints/insights.linuxfoundation.org.json",
+      "generated_at": "2026-01-21T07:26:54.187Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-3097FCA9",
+      "domain": "github.com",
+      "brand": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+      "file": "blueprints/github.com.json",
+      "generated_at": "2026-01-21T07:26:54.052Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-FFAF3199",
+      "domain": "www.analyticsinsight.net",
+      "brand": "Analytics Insight: Latest AI, Crypto, Tech News &amp; Analysis",
+      "file": "blueprints/www.analyticsinsight.net.json",
+      "generated_at": "2026-01-21T07:26:54.068Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-B8FCE8FF",
+      "domain": "enatega.com",
+      "brand": "Open",
+      "file": "blueprints/enatega.com.json",
+      "generated_at": "2026-01-21T07:26:54.085Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-BE9BC2CB",
+      "domain": "hackr.io",
+      "brand": "Hackr.io",
+      "file": "blueprints/hackr.io.json",
+      "generated_at": "2026-01-21T07:26:54.235Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-70D13488",
+      "domain": "mirumee.com",
+      "brand": "Mirumee: Composable Commerce and Headless Solutions",
+      "file": "blueprints/mirumee.com.json",
+      "generated_at": "2026-01-22T06:06:09.783Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-C83949FF",
+      "domain": "github.blog",
+      "brand": "Home",
+      "file": "blueprints/github.blog.json",
+      "generated_at": "2026-01-21T07:26:54.093Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-2346E844",
+      "domain": "www.index.dev",
+      "brand": "Hire Vetted Software Developers [Full",
+      "file": "blueprints/www.index.dev.json",
+      "generated_at": "2026-01-21T07:26:54.217Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-01BB31B0",
+      "domain": "dev.to",
+      "brand": "DEV Community",
+      "file": "blueprints/dev.to.json",
+      "generated_at": "2026-01-21T07:26:54.193Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-3B3A720F",
+      "domain": "pos.toasttab.com",
+      "brand": "pos.toasttab.com",
+      "file": "blueprints/pos.toasttab.com.json",
+      "generated_at": "2026-01-21T07:26:54.249Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-9F2FE15C",
+      "domain": "cookerhut.com",
+      "brand": "CookerHut.com &#8211; Answering common cooking questions",
+      "file": "blueprints/cookerhut.com.json",
+      "generated_at": "2026-01-21T07:26:54.227Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-EF6FC4B6",
+      "domain": "www.menutiger.com",
+      "brand": "MENU TIGER",
+      "file": "blueprints/www.menutiger.com.json",
+      "generated_at": "2026-01-21T07:26:54.196Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-42627094",
+      "domain": "kitchenwithhoor.com",
+      "brand": "Kitchen with Hoor Zahra",
+      "file": "blueprints/kitchenwithhoor.com.json",
+      "generated_at": "2026-01-21T07:26:54.238Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-E15F9F80",
+      "domain": "easyrecipes.tv",
+      "brand": "Easy Recipes TV",
+      "file": "blueprints/easyrecipes.tv.json",
+      "generated_at": "2026-01-21T07:26:54.256Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-D7660E95",
+      "domain": "www.wpzoom.com",
+      "brand": "High",
+      "file": "blueprints/www.wpzoom.com.json",
+      "generated_at": "2026-01-21T07:26:54.224Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-37660EC3",
+      "domain": "bloggers.feedspot.com",
+      "brand": "Find the best blogs on the web",
+      "file": "blueprints/bloggers.feedspot.com.json",
+      "generated_at": "2026-01-21T07:26:54.205Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-A767483F",
+      "domain": "detailed.com",
+      "brand": "SEO blog by full",
+      "file": "blueprints/detailed.com.json",
+      "generated_at": "2026-01-22T06:06:10.993Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-5E8A3E54",
+      "domain": "flavor365.com",
+      "brand": "Flavor365",
+      "file": "blueprints/flavor365.com.json",
+      "generated_at": "2026-01-22T06:06:10.979Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-06B18E64",
+      "domain": "stylehills.com",
+      "brand": "Discover and Follow Blogs",
+      "file": "blueprints/stylehills.com.json",
+      "generated_at": "2026-01-21T07:26:54.405Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-184B76A4",
+      "domain": "www.classcentral.com",
+      "brand": "Class Central • Find the best courses, wherever they exist.",
+      "file": "blueprints/www.classcentral.com.json",
+      "generated_at": "2026-01-21T07:26:54.402Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-5AEF88E7",
+      "domain": "react.dev",
+      "brand": "react.dev",
+      "file": "blueprints/react.dev.json",
+      "generated_at": "2026-01-22T06:06:09.765Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-1EAA0B46",
+      "domain": "www.placementpreparation.io",
+      "brand": "www.placementpreparation.io",
+      "file": "blueprints/www.placementpreparation.io.json",
+      "generated_at": "2026-01-21T07:26:54.413Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-AAC4F21A",
+      "domain": "kinsta.com",
+      "brand": "Kinsta®",
+      "file": "blueprints/kinsta.com.json",
+      "generated_at": "2026-01-21T07:26:54.650Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-D2AD8412",
+      "domain": "coursesity.com",
+      "brand": "Discover Best Online Courses &amp; Tutorials",
+      "file": "blueprints/coursesity.com.json",
+      "generated_at": "2026-01-21T07:26:54.419Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C374BF3D",
+      "domain": "www.w3schools.com",
+      "brand": "W3Schools Online Web Tutorials",
+      "file": "blueprints/www.w3schools.com.json",
+      "generated_at": "2026-01-21T07:26:54.641Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-EEE38731",
+      "domain": "www.geeksforgeeks.org",
+      "brand": "GeeksforGeeks",
+      "file": "blueprints/www.geeksforgeeks.org.json",
+      "generated_at": "2026-01-21T07:26:54.646Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-6DDF1653",
+      "domain": "blog.invgate.com",
+      "brand": "InvGate ITSM blog",
+      "file": "blueprints/blog.invgate.com.json",
+      "generated_at": "2026-01-22T06:06:09.780Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-6E6AFD4C",
+      "domain": "whatfix.com",
+      "brand": "Whatfix",
+      "file": "blueprints/whatfix.com.json",
+      "generated_at": "2026-01-21T07:26:54.660Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-64D2A284",
+      "domain": "blog.hubspot.com",
+      "brand": "HubSpot Blog",
+      "file": "blueprints/blog.hubspot.com.json",
+      "generated_at": "2026-01-21T07:26:54.712Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C7DA3C6E",
+      "domain": "document360.com",
+      "brand": "Document360: Centralize Your Documentation for Better Self",
+      "file": "blueprints/document360.com.json",
+      "generated_at": "2026-01-21T07:26:54.669Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-BA70C827",
+      "domain": "apidog.com",
+      "brand": "apidog.com",
+      "file": "blueprints/apidog.com.json",
+      "generated_at": "2026-01-21T07:26:54.685Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-EDB8D443",
+      "domain": "draft.dev",
+      "brand": "Content",
+      "file": "blueprints/draft.dev.json",
+      "generated_at": "2026-01-21T07:26:54.698Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-3B09B700",
+      "domain": "paligo.net",
+      "brand": "Paligo",
+      "file": "blueprints/paligo.net.json",
+      "generated_at": "2026-01-21T07:26:54.672Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-62770EAE",
+      "domain": "scrumslate.com",
+      "brand": "Home",
+      "file": "blueprints/scrumslate.com.json",
+      "generated_at": "2026-01-21T07:26:54.702Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-11FFF392",
+      "domain": "www.proprofskb.com",
+      "brand": "AI Knowledge Base Software Cut Tickets by 80%",
+      "file": "blueprints/www.proprofskb.com.json",
+      "generated_at": "2026-01-21T07:26:54.682Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-53D4D642",
+      "domain": "www.allaboutcircuits.com",
+      "brand": "All About Circuits",
+      "file": "blueprints/www.allaboutcircuits.com.json",
+      "generated_at": "2026-01-21T07:26:54.693Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-0D8331F8",
+      "domain": "adaptivesupport.amd.com",
+      "brand": "AMD Customer Community",
+      "file": "blueprints/adaptivesupport.amd.com.json",
+      "generated_at": "2026-01-21T07:26:55.667Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-20E98BE1",
+      "domain": "fpgaemu.readthedocs.io",
+      "brand": "FPGAEmu: An Introduction to FPGA Emulation &mdash; fpgaemu 0.1 documentation",
+      "file": "blueprints/fpgaemu.readthedocs.io.json",
+      "generated_at": "2026-01-21T07:26:54.846Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-06552C44",
+      "domain": "en.wikipedia.org",
+      "brand": "Wikipedia, the free encyclopedia",
+      "file": "blueprints/en.wikipedia.org.json",
+      "generated_at": "2026-01-22T06:06:10.550Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-C4DE1BEA",
+      "domain": "fpga.mit.edu",
+      "brand": "Welcome to nginx!",
+      "file": "blueprints/fpga.mit.edu.json",
+      "generated_at": "2026-01-21T07:26:54.717Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-DBC994F2",
       "domain": "www.telecomtrainer.com",
       "brand": "Telecom Trainer",
       "file": "blueprints/www.telecomtrainer.com.json",
-      "generated_at": "2026-01-21T07:27:04.687Z"
-    },
-    {
-      "id": "BLUEPRINT-2EB61915",
-      "domain": "ijdacr.com",
-      "brand": "IJDACR",
-      "file": "blueprints/ijdacr.com.json",
-      "generated_at": "2026-01-21T07:27:04.690Z"
+      "generated_at": "2026-01-21T07:27:04.687Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-E98849C2",
       "domain": "documentation-service.arm.com",
       "brand": "documentation",
       "file": "blueprints/documentation-service.arm.com.json",
-      "generated_at": "2026-01-21T07:27:04.805Z"
-    },
-    {
-      "id": "BLUEPRINT-DC65015D",
-      "domain": "cooking.nytimes.com",
-      "brand": "cooking.nytimes.com",
-      "file": "blueprints/cooking.nytimes.com.json",
-      "generated_at": "2026-01-21T07:27:04.832Z"
+      "generated_at": "2026-01-21T07:27:04.805Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-C95BB10C",
       "domain": "verien.com",
       "brand": "Electronic Product Design Services",
       "file": "blueprints/verien.com.json",
-      "generated_at": "2026-01-21T07:27:04.836Z"
-    },
-    {
-      "id": "BLUEPRINT-F91FB35A",
-      "domain": "influencermarketinghub.com",
-      "brand": "Influencer Marketing",
-      "file": "blueprints/influencermarketinghub.com.json",
-      "generated_at": "2026-01-21T07:27:04.839Z"
-    },
-    {
-      "id": "BLUEPRINT-17B3513A",
-      "domain": "www.tasteofhome.com",
-      "brand": "Taste of Home: Find Recipes, Appetizers, Desserts, Holiday Recipes &amp; Healthy Cooking Tips",
-      "file": "blueprints/www.tasteofhome.com.json",
-      "generated_at": "2026-01-21T07:27:04.847Z"
-    },
-    {
-      "id": "BLUEPRINT-95993CEE",
-      "domain": "www.livescience.com",
-      "brand": "Live Science",
-      "file": "blueprints/www.livescience.com.json",
-      "generated_at": "2026-01-21T07:27:04.864Z"
-    },
-    {
-      "id": "BLUEPRINT-B356D47A",
-      "domain": "apnews.com",
-      "brand": "Associated Press News: Breaking News, Latest Headlines and Videos",
-      "file": "blueprints/apnews.com.json",
-      "generated_at": "2026-01-21T07:27:04.895Z"
-    },
-    {
-      "id": "BLUEPRINT-1AC4F195",
-      "domain": "www.nasa.gov",
-      "brand": "NASA",
-      "file": "blueprints/www.nasa.gov.json",
-      "generated_at": "2026-01-21T07:27:04.901Z"
-    },
-    {
-      "id": "BLUEPRINT-4F864BA1",
-      "domain": "theartofverification.com",
-      "brand": "Home",
-      "file": "blueprints/theartofverification.com.json",
-      "generated_at": "2026-01-21T07:27:04.906Z"
-    },
-    {
-      "id": "BLUEPRINT-659F2479",
-      "domain": "www.technologyreview.com",
-      "brand": "www.technologyreview.com",
-      "file": "blueprints/www.technologyreview.com.json",
-      "generated_at": "2026-01-21T07:27:04.921Z"
-    },
-    {
-      "id": "BLUEPRINT-82D6A1AF",
-      "domain": "sloanreview.mit.edu",
-      "brand": "MIT Sloan Management Review",
-      "file": "blueprints/sloanreview.mit.edu.json",
-      "generated_at": "2026-01-21T07:27:04.934Z"
-    },
-    {
-      "id": "BLUEPRINT-C7435808",
-      "domain": "www.sci.news",
-      "brand": "Sci.News: Breaking Science News",
-      "file": "blueprints/www.sci.news.json",
-      "generated_at": "2026-01-21T07:27:04.937Z"
-    },
-    {
-      "id": "BLUEPRINT-BE1A5BFD",
-      "domain": "blogs.microsoft.com",
-      "brand": "The Official Microsoft Blog",
-      "file": "blueprints/blogs.microsoft.com.json",
-      "generated_at": "2026-01-21T07:27:04.941Z"
-    },
-    {
-      "id": "BLUEPRINT-6063BE75",
-      "domain": "phys.org",
-      "brand": "Phys.org",
-      "file": "blueprints/phys.org.json",
-      "generated_at": "2026-01-21T07:27:04.948Z"
-    },
-    {
-      "id": "BLUEPRINT-81A05FD2",
-      "domain": "www.sciencedaily.com",
-      "brand": "ScienceDaily: Your source for the latest research news",
-      "file": "blueprints/www.sciencedaily.com.json",
-      "generated_at": "2026-01-21T07:27:04.961Z"
-    },
-    {
-      "id": "BLUEPRINT-BBA41237",
-      "domain": "www.ailoitte.com",
-      "brand": "Enterprise Software, Mobile App &amp; AI Development Company",
-      "file": "blueprints/www.ailoitte.com.json",
-      "generated_at": "2026-01-21T07:27:04.967Z"
-    },
-    {
-      "id": "BLUEPRINT-5CB2689C",
-      "domain": "www.bondcap.com",
-      "brand": "Home",
-      "file": "blueprints/www.bondcap.com.json",
-      "generated_at": "2026-01-21T07:27:04.972Z"
-    },
-    {
-      "id": "BLUEPRINT-C17953D5",
-      "domain": "www.nu.edu",
-      "brand": "National University I Earn Your Degree Online",
-      "file": "blueprints/www.nu.edu.json",
-      "generated_at": "2026-01-21T07:27:04.985Z"
-    },
-    {
-      "id": "BLUEPRINT-9ABED5F9",
-      "domain": "www.bobvila.com",
-      "brand": "Bob Vila",
-      "file": "blueprints/www.bobvila.com.json",
-      "generated_at": "2026-01-21T07:27:04.992Z"
-    },
-    {
-      "id": "BLUEPRINT-7D1A0B5D",
-      "domain": "www.familyhandyman.com",
-      "brand": "The Family Handyman",
-      "file": "blueprints/www.familyhandyman.com.json",
-      "generated_at": "2026-01-21T07:27:04.998Z"
-    },
-    {
-      "id": "BLUEPRINT-D93B3D4D",
-      "domain": "www.doityourself.com",
-      "brand": "DIY Home Improvement Information",
-      "file": "blueprints/www.doityourself.com.json",
-      "generated_at": "2026-01-21T07:27:05.005Z"
-    },
-    {
-      "id": "BLUEPRINT-90055D58",
-      "domain": "www.coursera.org",
-      "brand": "www.coursera.org",
-      "file": "blueprints/www.coursera.org.json",
-      "generated_at": "2026-01-21T07:27:05.020Z"
-    },
-    {
-      "id": "BLUEPRINT-02F21EB8",
-      "domain": "techstartups.com",
-      "brand": "Tech Startups",
-      "file": "blueprints/techstartups.com.json",
-      "generated_at": "2026-01-21T07:27:05.026Z"
-    },
-    {
-      "id": "BLUEPRINT-E90553D8",
-      "domain": "www.hometalk.com",
-      "brand": "DIY Projects for the Home",
-      "file": "blueprints/www.hometalk.com.json",
-      "generated_at": "2026-01-21T07:27:05.041Z"
-    },
-    {
-      "id": "BLUEPRINT-ACDB2700",
-      "domain": "www.technource.com",
-      "brand": "Custom AI Software Solutions &amp; Development Company",
-      "file": "blueprints/www.technource.com.json",
-      "generated_at": "2026-01-21T07:27:05.049Z"
-    },
-    {
-      "id": "BLUEPRINT-6B8B5CC1",
-      "domain": "www.hgtv.com",
-      "brand": "Home Design, Decorating and Remodeling Ideas, Landscaping, Kitchen and Bathroom Design",
-      "file": "blueprints/www.hgtv.com.json",
-      "generated_at": "2026-01-21T07:27:05.059Z"
-    },
-    {
-      "id": "BLUEPRINT-9F0B441B",
-      "domain": "ranchroofing.com",
-      "brand": "Arlington, Ma Roofing Company: Residential &amp; Commercial",
-      "file": "blueprints/ranchroofing.com.json",
-      "generated_at": "2026-01-21T07:27:05.064Z"
-    },
-    {
-      "id": "BLUEPRINT-BE78AB12",
-      "domain": "homesthetics.net",
-      "brand": "Homesthetics",
-      "file": "blueprints/homesthetics.net.json",
-      "generated_at": "2026-01-21T07:27:05.072Z"
-    },
-    {
-      "id": "BLUEPRINT-2216701E",
-      "domain": "www.thespruce.com",
-      "brand": "The Spruce: Make Your Best Home",
-      "file": "blueprints/www.thespruce.com.json",
-      "generated_at": "2026-01-21T07:27:05.080Z"
-    },
-    {
-      "id": "BLUEPRINT-568EEDC5",
-      "domain": "dailycoin.com",
-      "brand": "DailyCoin",
-      "file": "blueprints/dailycoin.com.json",
-      "generated_at": "2026-01-21T07:27:05.090Z"
-    },
-    {
-      "id": "BLUEPRINT-4BF5F8B4",
-      "domain": "www.worldhistory.org",
-      "brand": "World History Encyclopedia",
-      "file": "blueprints/www.worldhistory.org.json",
-      "generated_at": "2026-01-21T07:27:05.106Z"
-    },
-    {
-      "id": "BLUEPRINT-F4618B88",
-      "domain": "www.coindesk.com",
-      "brand": "CoinDesk: Bitcoin, Ethereum, XRP, Crypto News and Price Data",
-      "file": "blueprints/www.coindesk.com.json",
-      "generated_at": "2026-01-21T07:27:05.116Z"
-    },
-    {
-      "id": "BLUEPRINT-B7B976AC",
-      "domain": "cryptonews.com",
-      "brand": "Crypto News: Latest Cryptocurrency News and Analysis",
-      "file": "blueprints/cryptonews.com.json",
-      "generated_at": "2026-01-21T07:27:05.133Z"
-    },
-    {
-      "id": "BLUEPRINT-C4E32B55",
-      "domain": "www.forbes.com",
-      "brand": "www.forbes.com",
-      "file": "blueprints/www.forbes.com.json",
-      "generated_at": "2026-01-21T07:27:05.156Z"
+      "generated_at": "2026-01-21T07:27:04.836Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-E6508FB9",
       "domain": "www.xilinx.com",
       "brand": "AMD ׀ together we advance_AI",
       "file": "blueprints/www.xilinx.com.json",
-      "generated_at": "2026-01-21T07:27:05.220Z"
+      "generated_at": "2026-01-21T07:27:05.220Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
-      "id": "BLUEPRINT-F824582C",
-      "domain": "cryptoslate.com",
-      "brand": "Crypto News, Coin Prices &amp; Market Trends",
-      "file": "blueprints/cryptoslate.com.json",
-      "generated_at": "2026-01-21T07:27:05.427Z"
+      "id": "BLUEPRINT-4F864BA1",
+      "domain": "theartofverification.com",
+      "brand": "Home",
+      "file": "blueprints/theartofverification.com.json",
+      "generated_at": "2026-01-21T07:27:04.906Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
-      "id": "BLUEPRINT-AB7393D9",
-      "domain": "news.microsoft.com",
-      "brand": "Microsoft Source",
-      "file": "blueprints/news.microsoft.com.json",
-      "generated_at": "2026-01-21T07:27:05.436Z"
+      "id": "BLUEPRINT-2EB61915",
+      "domain": "ijdacr.com",
+      "brand": "IJDACR",
+      "file": "blueprints/ijdacr.com.json",
+      "generated_at": "2026-01-21T07:27:04.690Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C7074DEE",
+      "domain": "www.researchgate.net",
+      "brand": "ResearchGate",
+      "file": "blueprints/www.researchgate.net.json",
+      "generated_at": "2026-01-22T06:06:11.737Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-F91FB35A",
+      "domain": "influencermarketinghub.com",
+      "brand": "Influencer Marketing",
+      "file": "blueprints/influencermarketinghub.com.json",
+      "generated_at": "2026-01-21T07:27:04.839Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-DC65015D",
+      "domain": "cooking.nytimes.com",
+      "brand": "cooking.nytimes.com",
+      "file": "blueprints/cooking.nytimes.com.json",
+      "generated_at": "2026-01-21T07:27:04.832Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-17B3513A",
+      "domain": "www.tasteofhome.com",
+      "brand": "Taste of Home: Find Recipes, Appetizers, Desserts, Holiday Recipes &amp; Healthy Cooking Tips",
+      "file": "blueprints/www.tasteofhome.com.json",
+      "generated_at": "2026-01-21T07:27:04.847Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-1AC4F195",
+      "domain": "www.nasa.gov",
+      "brand": "NASA",
+      "file": "blueprints/www.nasa.gov.json",
+      "generated_at": "2026-01-21T07:27:04.901Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-95993CEE",
+      "domain": "www.livescience.com",
+      "brand": "Live Science",
+      "file": "blueprints/www.livescience.com.json",
+      "generated_at": "2026-01-21T07:27:04.864Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C7435808",
+      "domain": "www.sci.news",
+      "brand": "Sci.News: Breaking Science News",
+      "file": "blueprints/www.sci.news.json",
+      "generated_at": "2026-01-21T07:27:04.937Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-81A05FD2",
+      "domain": "www.sciencedaily.com",
+      "brand": "ScienceDaily: Your source for the latest research news",
+      "file": "blueprints/www.sciencedaily.com.json",
+      "generated_at": "2026-01-21T07:27:04.961Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-B356D47A",
+      "domain": "apnews.com",
+      "brand": "Associated Press News: Breaking News, Latest Headlines and Videos",
+      "file": "blueprints/apnews.com.json",
+      "generated_at": "2026-01-21T07:27:04.895Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-6063BE75",
+      "domain": "phys.org",
+      "brand": "Phys.org",
+      "file": "blueprints/phys.org.json",
+      "generated_at": "2026-01-21T07:27:04.948Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-102A42F6",
       "domain": "www.ibm.com",
       "brand": "IBM",
       "file": "blueprints/www.ibm.com.json",
-      "generated_at": "2026-01-21T07:27:05.447Z"
+      "generated_at": "2026-01-21T07:27:05.447Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
-      "id": "BLUEPRINT-270B1AE9",
-      "domain": "worldhistorymatters.org",
-      "brand": "World History Matters » A Portal to World History Sites from the Center for History and New Media",
-      "file": "blueprints/worldhistorymatters.org.json",
-      "generated_at": "2026-01-21T07:27:05.511Z"
+      "id": "BLUEPRINT-82D6A1AF",
+      "domain": "sloanreview.mit.edu",
+      "brand": "MIT Sloan Management Review",
+      "file": "blueprints/sloanreview.mit.edu.json",
+      "generated_at": "2026-01-21T07:27:04.934Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
-      "id": "BLUEPRINT-32C2AD3F",
-      "domain": "www.cnbc.com",
-      "brand": "www.cnbc.com",
-      "file": "blueprints/www.cnbc.com.json",
-      "generated_at": "2026-01-21T07:27:05.670Z"
+      "id": "BLUEPRINT-659F2479",
+      "domain": "www.technologyreview.com",
+      "brand": "www.technologyreview.com",
+      "file": "blueprints/www.technologyreview.com.json",
+      "generated_at": "2026-01-21T07:27:04.921Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-BE1A5BFD",
+      "domain": "blogs.microsoft.com",
+      "brand": "The Official Microsoft Blog",
+      "file": "blueprints/blogs.microsoft.com.json",
+      "generated_at": "2026-01-21T07:27:04.941Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-F921ADD8",
+      "domain": "www.digitalocean.com",
+      "brand": "www.digitalocean.com",
+      "file": "blueprints/www.digitalocean.com.json",
+      "generated_at": "2026-01-22T06:06:11.733Z",
+      "skipped": true,
+      "age_days": 0
+    },
+    {
+      "id": "BLUEPRINT-02F21EB8",
+      "domain": "techstartups.com",
+      "brand": "Tech Startups",
+      "file": "blueprints/techstartups.com.json",
+      "generated_at": "2026-01-21T07:27:05.026Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-BBA41237",
+      "domain": "www.ailoitte.com",
+      "brand": "Enterprise Software, Mobile App &amp; AI Development Company",
+      "file": "blueprints/www.ailoitte.com.json",
+      "generated_at": "2026-01-21T07:27:04.967Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-5CB2689C",
+      "domain": "www.bondcap.com",
+      "brand": "Home",
+      "file": "blueprints/www.bondcap.com.json",
+      "generated_at": "2026-01-21T07:27:04.972Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C17953D5",
+      "domain": "www.nu.edu",
+      "brand": "National University I Earn Your Degree Online",
+      "file": "blueprints/www.nu.edu.json",
+      "generated_at": "2026-01-21T07:27:04.985Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-AB7393D9",
+      "domain": "news.microsoft.com",
+      "brand": "Microsoft Source",
+      "file": "blueprints/news.microsoft.com.json",
+      "generated_at": "2026-01-21T07:27:05.436Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-ACDB2700",
+      "domain": "www.technource.com",
+      "brand": "Custom AI Software Solutions &amp; Development Company",
+      "file": "blueprints/www.technource.com.json",
+      "generated_at": "2026-01-21T07:27:05.049Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-90055D58",
+      "domain": "www.coursera.org",
+      "brand": "www.coursera.org",
+      "file": "blueprints/www.coursera.org.json",
+      "generated_at": "2026-01-21T07:27:05.020Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-7D1A0B5D",
+      "domain": "www.familyhandyman.com",
+      "brand": "The Family Handyman",
+      "file": "blueprints/www.familyhandyman.com.json",
+      "generated_at": "2026-01-21T07:27:04.998Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-D93B3D4D",
+      "domain": "www.doityourself.com",
+      "brand": "DIY Home Improvement Information",
+      "file": "blueprints/www.doityourself.com.json",
+      "generated_at": "2026-01-21T07:27:05.005Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-9ABED5F9",
+      "domain": "www.bobvila.com",
+      "brand": "Bob Vila",
+      "file": "blueprints/www.bobvila.com.json",
+      "generated_at": "2026-01-21T07:27:04.992Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-9F0B441B",
+      "domain": "ranchroofing.com",
+      "brand": "Arlington, Ma Roofing Company: Residential &amp; Commercial",
+      "file": "blueprints/ranchroofing.com.json",
+      "generated_at": "2026-01-21T07:27:05.064Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-E90553D8",
+      "domain": "www.hometalk.com",
+      "brand": "DIY Projects for the Home",
+      "file": "blueprints/www.hometalk.com.json",
+      "generated_at": "2026-01-21T07:27:05.041Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-6B8B5CC1",
+      "domain": "www.hgtv.com",
+      "brand": "Home Design, Decorating and Remodeling Ideas, Landscaping, Kitchen and Bathroom Design",
+      "file": "blueprints/www.hgtv.com.json",
+      "generated_at": "2026-01-21T07:27:05.059Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-2216701E",
+      "domain": "www.thespruce.com",
+      "brand": "The Spruce: Make Your Best Home",
+      "file": "blueprints/www.thespruce.com.json",
+      "generated_at": "2026-01-21T07:27:05.080Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-BE78AB12",
+      "domain": "homesthetics.net",
+      "brand": "Homesthetics",
+      "file": "blueprints/homesthetics.net.json",
+      "generated_at": "2026-01-21T07:27:05.072Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-B7B976AC",
+      "domain": "cryptonews.com",
+      "brand": "Crypto News: Latest Cryptocurrency News and Analysis",
+      "file": "blueprints/cryptonews.com.json",
+      "generated_at": "2026-01-21T07:27:05.133Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-F32DDA38",
       "domain": "cointelegraph.com",
       "brand": "Cointelegraph: Bitcoin, Ethereum, Crypto News &amp; Price Indexes",
       "file": "blueprints/cointelegraph.com.json",
-      "generated_at": "2026-01-21T07:27:05.908Z"
+      "generated_at": "2026-01-21T07:27:05.908Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-F4618B88",
+      "domain": "www.coindesk.com",
+      "brand": "CoinDesk: Bitcoin, Ethereum, XRP, Crypto News and Price Data",
+      "file": "blueprints/www.coindesk.com.json",
+      "generated_at": "2026-01-21T07:27:05.116Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-32C2AD3F",
+      "domain": "www.cnbc.com",
+      "brand": "www.cnbc.com",
+      "file": "blueprints/www.cnbc.com.json",
+      "generated_at": "2026-01-21T07:27:05.670Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C4E32B55",
+      "domain": "www.forbes.com",
+      "brand": "www.forbes.com",
+      "file": "blueprints/www.forbes.com.json",
+      "generated_at": "2026-01-21T07:27:05.156Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-568EEDC5",
+      "domain": "dailycoin.com",
+      "brand": "DailyCoin",
+      "file": "blueprints/dailycoin.com.json",
+      "generated_at": "2026-01-21T07:27:05.090Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-F824582C",
+      "domain": "cryptoslate.com",
+      "brand": "Crypto News, Coin Prices &amp; Market Trends",
+      "file": "blueprints/cryptoslate.com.json",
+      "generated_at": "2026-01-21T07:27:05.427Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-4BF5F8B4",
+      "domain": "www.worldhistory.org",
+      "brand": "World History Encyclopedia",
+      "file": "blueprints/www.worldhistory.org.json",
+      "generated_at": "2026-01-21T07:27:05.106Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-270B1AE9",
+      "domain": "worldhistorymatters.org",
+      "brand": "World History Matters » A Portal to World History Sites from the Center for History and New Media",
+      "file": "blueprints/worldhistorymatters.org.json",
+      "generated_at": "2026-01-21T07:27:05.511Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-60206F24",
+      "domain": "www.britannica.com",
+      "brand": "Encyclopedia Britannica",
+      "file": "blueprints/www.britannica.com.json",
+      "generated_at": "2026-01-22T06:06:13.675Z",
+      "skipped": true,
+      "age_days": 0
     },
     {
       "id": "BLUEPRINT-54EF456A",
       "domain": "worldhistorycommons.org",
       "brand": "World History Commons",
       "file": "blueprints/worldhistorycommons.org.json",
-      "generated_at": "2026-01-21T07:27:12.106Z"
+      "generated_at": "2026-01-21T07:27:12.106Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-A554E49D",
       "domain": "www.openhistoricalmap.org",
       "brand": "OpenHistoricalMap",
       "file": "blueprints/www.openhistoricalmap.org.json",
-      "generated_at": "2026-01-21T07:27:12.109Z"
+      "generated_at": "2026-01-21T07:27:12.109Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-D92845A1",
       "domain": "historyworld.net",
       "brand": "HistoryWorld",
       "file": "blueprints/historyworld.net.json",
-      "generated_at": "2026-01-21T07:27:12.112Z"
-    },
-    {
-      "id": "BLUEPRINT-1FDB09E9",
-      "domain": "www.worldhistory.org.uk",
-      "brand": "World History Guide",
-      "file": "blueprints/www.worldhistory.org.uk.json",
-      "generated_at": "2026-01-21T07:27:12.116Z"
-    },
-    {
-      "id": "BLUEPRINT-801F76D9",
-      "domain": "timemaps.com",
-      "brand": "The Timemaps Atlas of World History",
-      "file": "blueprints/timemaps.com.json",
-      "generated_at": "2026-01-21T07:27:12.120Z"
-    },
-    {
-      "id": "BLUEPRINT-EEA494C9",
-      "domain": "phoenixnap.com",
-      "brand": "phoenixNAP: Data Center, Dedicated Servers, Cloud, &amp; Colocation",
-      "file": "blueprints/phoenixnap.com.json",
-      "generated_at": "2026-01-21T07:27:12.138Z"
-    },
-    {
-      "id": "BLUEPRINT-66F3CEEF",
-      "domain": "www.techtarget.com",
-      "brand": "TechTarget",
-      "file": "blueprints/www.techtarget.com.json",
-      "generated_at": "2026-01-21T07:27:12.141Z"
-    },
-    {
-      "id": "BLUEPRINT-5D9A0668",
-      "domain": "www.sentinelone.com",
-      "brand": "SentinelOne",
-      "file": "blueprints/www.sentinelone.com.json",
-      "generated_at": "2026-01-21T07:27:12.146Z"
-    },
-    {
-      "id": "BLUEPRINT-B278DE6F",
-      "domain": "www.openedr.com",
-      "brand": "Open Source Endpoint Detection and Response (EDR)",
-      "file": "blueprints/www.openedr.com.json",
-      "generated_at": "2026-01-21T07:27:12.552Z"
-    },
-    {
-      "id": "BLUEPRINT-E9AA18DA",
-      "domain": "www.nist.gov",
-      "brand": "National Institute of Standards and Technology",
-      "file": "blueprints/www.nist.gov.json",
-      "generated_at": "2026-01-21T07:27:12.821Z"
-    },
-    {
-      "id": "BLUEPRINT-C186EE28",
-      "domain": "www.devx.com",
-      "brand": "DevX",
-      "file": "blueprints/www.devx.com.json",
-      "generated_at": "2026-01-21T07:27:12.848Z"
-    },
-    {
-      "id": "BLUEPRINT-10D096F3",
-      "domain": "torq.io",
-      "brand": "Security Hyperautomation Solutions",
-      "file": "blueprints/torq.io.json",
-      "generated_at": "2026-01-21T07:27:13.131Z"
-    },
-    {
-      "id": "BLUEPRINT-03F01CBB",
-      "domain": "carbidesecure.com",
-      "brand": "Compliance Automation and Risk Management Software",
-      "file": "blueprints/carbidesecure.com.json",
-      "generated_at": "2026-01-21T07:27:13.159Z"
-    },
-    {
-      "id": "BLUEPRINT-86DFE374",
-      "domain": "mclennan.libguides.com",
-      "brand": "Home",
-      "file": "blueprints/mclennan.libguides.com.json",
-      "generated_at": "2026-01-21T07:27:13.269Z"
+      "generated_at": "2026-01-21T07:27:12.112Z",
+      "skipped": true,
+      "age_days": 0.9
     },
     {
       "id": "BLUEPRINT-F0A09E21",
       "domain": "globhistory.org",
       "brand": "Историческая энциклопедия",
       "file": "blueprints/globhistory.org.json",
-      "generated_at": "2026-01-21T07:27:26.001Z"
+      "generated_at": "2026-01-21T07:27:26.001Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-86DFE374",
+      "domain": "mclennan.libguides.com",
+      "brand": "Home",
+      "file": "blueprints/mclennan.libguides.com.json",
+      "generated_at": "2026-01-21T07:27:13.269Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-801F76D9",
+      "domain": "timemaps.com",
+      "brand": "The Timemaps Atlas of World History",
+      "file": "blueprints/timemaps.com.json",
+      "generated_at": "2026-01-21T07:27:12.120Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-1FDB09E9",
+      "domain": "www.worldhistory.org.uk",
+      "brand": "World History Guide",
+      "file": "blueprints/www.worldhistory.org.uk.json",
+      "generated_at": "2026-01-21T07:27:12.116Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-EEA494C9",
+      "domain": "phoenixnap.com",
+      "brand": "phoenixNAP: Data Center, Dedicated Servers, Cloud, &amp; Colocation",
+      "file": "blueprints/phoenixnap.com.json",
+      "generated_at": "2026-01-21T07:27:12.138Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-B278DE6F",
+      "domain": "www.openedr.com",
+      "brand": "Open Source Endpoint Detection and Response (EDR)",
+      "file": "blueprints/www.openedr.com.json",
+      "generated_at": "2026-01-21T07:27:12.552Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-E9AA18DA",
+      "domain": "www.nist.gov",
+      "brand": "National Institute of Standards and Technology",
+      "file": "blueprints/www.nist.gov.json",
+      "generated_at": "2026-01-21T07:27:12.821Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-66F3CEEF",
+      "domain": "www.techtarget.com",
+      "brand": "TechTarget",
+      "file": "blueprints/www.techtarget.com.json",
+      "generated_at": "2026-01-21T07:27:12.141Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-5D9A0668",
+      "domain": "www.sentinelone.com",
+      "brand": "SentinelOne",
+      "file": "blueprints/www.sentinelone.com.json",
+      "generated_at": "2026-01-21T07:27:12.146Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-10D096F3",
+      "domain": "torq.io",
+      "brand": "Security Hyperautomation Solutions",
+      "file": "blueprints/torq.io.json",
+      "generated_at": "2026-01-21T07:27:13.131Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-C186EE28",
+      "domain": "www.devx.com",
+      "brand": "DevX",
+      "file": "blueprints/www.devx.com.json",
+      "generated_at": "2026-01-21T07:27:12.848Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-03F01CBB",
+      "domain": "carbidesecure.com",
+      "brand": "Compliance Automation and Risk Management Software",
+      "file": "blueprints/carbidesecure.com.json",
+      "generated_at": "2026-01-21T07:27:13.159Z",
+      "skipped": true,
+      "age_days": 0.9
+    },
+    {
+      "id": "BLUEPRINT-0DBB7B91",
+      "domain": "www.cisa.gov",
+      "brand": "Home Page",
+      "file": "blueprints/www.cisa.gov.json",
+      "generated_at": "2026-01-22T06:07:06.626Z"
+    },
+    {
+      "id": "BLUEPRINT-616699E6",
+      "domain": "theminimalistvegan.com",
+      "brand": "The Minimalist Vegan",
+      "file": "blueprints/theminimalistvegan.com.json",
+      "generated_at": "2026-01-22T06:07:06.635Z"
+    },
+    {
+      "id": "BLUEPRINT-76CFF150",
+      "domain": "www.consciouslifeandstyle.com",
+      "brand": "Conscious Life and Style",
+      "file": "blueprints/www.consciouslifeandstyle.com.json",
+      "generated_at": "2026-01-22T06:07:06.642Z"
+    },
+    {
+      "id": "BLUEPRINT-6FD935E2",
+      "domain": "terraandstories.com",
+      "brand": "Sustainable Living Blog",
+      "file": "blueprints/terraandstories.com.json",
+      "generated_at": "2026-01-22T06:07:06.648Z"
+    },
+    {
+      "id": "BLUEPRINT-17A69C62",
+      "domain": "greencitizen.com",
+      "brand": "Computer and Electronics Recycling Services",
+      "file": "blueprints/greencitizen.com.json",
+      "generated_at": "2026-01-22T06:07:06.657Z"
+    },
+    {
+      "id": "BLUEPRINT-1E9B3097",
+      "domain": "www.sustainablejungle.com",
+      "brand": "Sustainable Jungle: Mission",
+      "file": "blueprints/www.sustainablejungle.com.json",
+      "generated_at": "2026-01-22T06:07:06.747Z"
+    },
+    {
+      "id": "BLUEPRINT-07EF3F25",
+      "domain": "environment.co",
+      "brand": "Join Us in the Fight to Save our Planet",
+      "file": "blueprints/environment.co.json",
+      "generated_at": "2026-01-22T06:07:07.948Z"
+    },
+    {
+      "id": "BLUEPRINT-198751DE",
+      "domain": "yoursustainableguide.com",
+      "brand": "Your Sustainable Guide",
+      "file": "blueprints/yoursustainableguide.com.json",
+      "generated_at": "2026-01-22T06:07:10.252Z"
+    },
+    {
+      "id": "BLUEPRINT-58CD43E9",
+      "domain": "mygreentoddler.com",
+      "brand": "Home",
+      "file": "blueprints/mygreentoddler.com.json",
+      "generated_at": "2026-01-22T06:07:16.105Z"
     }
   ]
 }

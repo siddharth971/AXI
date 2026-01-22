@@ -1,0 +1,891 @@
+{
+  "website_blueprint_id": "BLUEPRINT-A767483F",
+  "generated_at": "2026-01-22T06:06:10.993Z",
+  "global_configuration": {
+    "brand_name": "SEO blog by full",
+    "domain": "detailed.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.73.202",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 58,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/platform/platform.js",
+        "type": "script",
+        "full_url": "https://static.elfsight.com/platform/platform.js"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/analytics.js",
+        "type": "script",
+        "full_url": "https://analytics.ahrefs.com/analytics.js"
+      },
+      {
+        "path": "/wp-content/plugins/flying-pages/flying-pages.min.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-content/plugins/flying-pages/flying-pages.min.js?ver=2.4.7"
+      },
+      {
+        "path": "/wp-content/plugins/i-recommend-this/assets/js/irecommendthis.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-content/plugins/i-recommend-this/assets/js/irecommendthis.js?ver=4.0.1"
+      },
+      {
+        "path": "/wp-content/plugins/state-of-seo-plugin/assets/js/state-of-seo.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-content/plugins/state-of-seo-plugin/assets/js/state-of-seo.js?ver=1.0.4.1769059165"
+      },
+      {
+        "path": "/wp-content/themes/damn-beautiful-theme/js/jquery.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-content/themes/damn-beautiful-theme/js/jquery.js?ver=1.1"
+      },
+      {
+        "path": "/wp-content/themes/damn-beautiful-theme/js/main.js",
+        "type": "script",
+        "full_url": "https://detailed.com/wp-content/themes/damn-beautiful-theme/js/main.js?ver=1.2"
+      },
+      {
+        "path": "/images/confetti.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/confetti.png"
+      },
+      {
+        "path": "/images/press-grey.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/press-grey.png"
+      },
+      {
+        "path": "/external.png",
+        "type": "image",
+        "full_url": "https://detailed.com/external.png"
+      },
+      {
+        "path": "/wp-content/uploads/ahrefs-singapore-offices-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/ahrefs-singapore-offices-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/yext-local-seo-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/yext-local-seo-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/detailed-q-4-768x346.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/detailed-q-4-768x346.jpg"
+      },
+      {
+        "path": "/images/ama-gray.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/ama-gray.png"
+      },
+      {
+        "path": "/images/sim-gray.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/sim-gray.png"
+      },
+      {
+        "path": "/audit/tim-head.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/audit/tim-head.jpg"
+      },
+      {
+        "path": "/images/ahrefs-tim.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/ahrefs-tim.jpg"
+      },
+      {
+        "path": "/images/barby-testimonial.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/barby-testimonial.jpg"
+      },
+      {
+        "path": "/images/hubspot-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/hubspot-logo.png"
+      },
+      {
+        "path": "/images/buffer-testimonial.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/buffer-testimonial.jpg"
+      },
+      {
+        "path": "/images/buffer-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/buffer-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/chrome-bookmarks-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/chrome-bookmarks-smaller.jpg"
+      },
+      {
+        "path": "/images/content-serps-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/content-serps-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/seo-audits-google-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/seo-audits-google-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/affiliate-results-building-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/affiliate-results-building-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/advanced-link-building-smaller-1.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/advanced-link-building-smaller-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/seo-stock-detailed-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/seo-stock-detailed-smaller.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/behind-the-scenes-smaller.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/uploads/behind-the-scenes-smaller.jpg"
+      },
+      {
+        "path": "/images/dotdash-meredith-logo-new.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/dotdash-meredith-logo-new.png"
+      },
+      {
+        "path": "/images/fandom-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/fandom-logo.png"
+      },
+      {
+        "path": "/images/future-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/future-logo.png"
+      },
+      {
+        "path": "/images/nerdwallet-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/nerdwallet-logo.png"
+      },
+      {
+        "path": "/images/new-york-times-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/new-york-times-logo.png"
+      },
+      {
+        "path": "/images/the-arena-group-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/the-arena-group-logo.png"
+      },
+      {
+        "path": "/images/signature-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/signature-logo.png"
+      },
+      {
+        "path": "/images/duane-stage.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/duane-stage.jpg"
+      },
+      {
+        "path": "/audit/pat-pic.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/audit/pat-pic.jpg"
+      },
+      {
+        "path": "/images/spi-new-logo.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/spi-new-logo.jpg"
+      },
+      {
+        "path": "/images/nathan-b-convertkit.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/nathan-b-convertkit.jpg"
+      },
+      {
+        "path": "/images/convertkit-small.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/convertkit-small.png"
+      },
+      {
+        "path": "/images/eric-testimonial.jpg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/eric-testimonial.jpg"
+      },
+      {
+        "path": "/images/entrepreneur-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/entrepreneur-logo.png"
+      },
+      {
+        "path": "/images/drift-purp.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/drift-purp.png"
+      },
+      {
+        "path": "/images/fresh-purp.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/fresh-purp.png"
+      },
+      {
+        "path": "/images/lead-purp.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/lead-purp.png"
+      },
+      {
+        "path": "/images/alien-yo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/alien-yo.png"
+      },
+      {
+        "path": "/images/comment-png.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/comment-png.png"
+      },
+      {
+        "path": "/images/blueprint-3-logo.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/blueprint-3-logo.png"
+      },
+      {
+        "path": "/images/guardian4.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/guardian4.png"
+      },
+      {
+        "path": "/images/drift-footer2.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/drift-footer2.png"
+      },
+      {
+        "path": "/images/tel-better.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/tel-better.png"
+      },
+      {
+        "path": "/images/fresh-grey2.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/fresh-grey2.png"
+      },
+      {
+        "path": "/images/ahrefs-logo.svg",
+        "type": "image",
+        "full_url": "https://detailed.com/images/ahrefs-logo.svg"
+      },
+      {
+        "path": "/wp-content/themes/damn-beautiful-theme/img/facebook-icon.png",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/themes/damn-beautiful-theme/img/facebook-icon.png"
+      },
+      {
+        "path": "/wp-content/themes/damn-beautiful-theme/img/twitter-icon.png",
+        "type": "image",
+        "full_url": "https://detailed.com/wp-content/themes/damn-beautiful-theme/img/twitter-icon.png"
+      },
+      {
+        "path": "/images/in-new.png",
+        "type": "image",
+        "full_url": "https://detailed.com/images/in-new.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "SEO blog by full-time search analysts - Detailed.com",
+        "description": "We spend our days tracking the rankings and revenue of digital goliaths. Their entire SEO playbook is here.",
+        "canonical": "https://detailed.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2024ms"
+        },
+        {
+          "resource": "platform.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "SEO insights from tracking the rankings & revenue of 3,078 digital goliaths",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Join 40,000+ subscribers at companies like  and  following the future of SEO.",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "SEO  Playbooks",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "News and insights on 441 brands behind 3,100 websites dominating Google search results",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "(35K+ Subs)"
+          },
+          {
+            "tag": "p",
+            "text": "(80,000+ Users)"
+          },
+          {
+            "tag": "p",
+            "text": "(Private Course)"
+          },
+          {
+            "tag": "p",
+            "text": "DIGITAL GOLIATH SEO PLAYBOOK"
+          },
+          {
+            "tag": "p",
+            "text": "2-3 updates / week from the team behind the Detailed SEO extension (250K weekly users)"
+          },
+          {
+            "tag": "p",
+            "text": "Jan 13"
+          },
+          {
+            "tag": "p",
+            "text": "Sep 20"
+          },
+          {
+            "tag": "p",
+            "text": "June 9"
+          },
+          {
+            "tag": "p",
+            "text": "View all latest updates"
+          },
+          {
+            "tag": "p",
+            "text": "COMMENTS 534"
+          },
+          {
+            "tag": "p",
+            "text": "COMMENTS 305"
+          },
+          {
+            "tag": "p",
+            "text": "View all latest updates"
+          },
+          {
+            "tag": "p",
+            "text": "//////////////////////////////////////////////////////////////////////////////////////////////////"
+          },
+          {
+            "tag": "p",
+            "text": "FROM THE TEAM BEHIND THE DETAILED SEO EXTENSION ( 430K WEEKLY USERS )"
+          },
+          {
+            "tag": "h1",
+            "text": "SEO insights from tracking the rankings & revenue of 3,078 digital goliaths"
+          },
+          {
+            "tag": "h2",
+            "text": "Join 40,000+ subscribers at companies like and following the future of SEO."
+          },
+          {
+            "tag": "p",
+            "text": "\"Glen is one of the very few people I reach out to for SEO advice.\""
+          },
+          {
+            "tag": "h6",
+            "text": "Tim Soulo"
+          },
+          {
+            "tag": "p",
+            "text": "\"If you're looking to skill up in actually getting sites to rank, Allsopp's content is a must read.\""
+          },
+          {
+            "tag": "h6",
+            "text": "Matthew Barby"
+          },
+          {
+            "tag": "p",
+            "text": "\"Glen has been my go-to source for SEO advice and lessons for years.\""
+          },
+          {
+            "tag": "h6",
+            "text": "Ash Read"
+          },
+          {
+            "tag": "p",
+            "text": "//////////////////////////////////////////////////////////////////////////////////////////////////"
+          },
+          {
+            "tag": "h2",
+            "text": "SEO Playbooks"
+          },
+          {
+            "tag": "h3",
+            "text": "We've worked with the likes of Ahrefs, Kinsta, Buffer & ConvertKit."
+          },
+          {
+            "tag": "h3",
+            "text": "How 16 Companies are Dominating the World’s Google Search Results"
+          },
+          {
+            "tag": "h3",
+            "text": "Analysing 250,000 Search Results to See Who Ranks"
+          },
+          {
+            "tag": "h3",
+            "text": "The $122Bn SEO Industry: 32 Success Stories (2024)"
+          },
+          {
+            "tag": "h3",
+            "text": "Generating Six-Figure Profits from $40 SEO Audits: A Detailed Guide"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Successful Blogs And Their Latest 2024 Revenue Numbers"
+          },
+          {
+            "tag": "h3",
+            "text": "Affiliate SEO: We Analysed 10,000 Search Results to See Who Ranks"
+          },
+          {
+            "tag": "h3",
+            "text": "13 Advanced Link Building Strategies You (Probably) Haven’t Used"
+          },
+          {
+            "tag": "h3",
+            "text": "Analysing the 2024 Google Algorithm Updates"
+          },
+          {
+            "tag": "h3",
+            "text": "Advanced Google Chrome Bookmarks for SEO"
+          },
+          {
+            "tag": "h3",
+            "text": "The Forums Dominating Google Search Results in 2024"
+          },
+          {
+            "tag": "h1",
+            "text": "Digital Goliaths Dominating Google"
+          },
+          {
+            "tag": "h2",
+            "text": "News and insights on 441 brands behind 3,100 websites dominating Google search results"
+          },
+          {
+            "tag": "h3",
+            "text": "Dotdash Meredith"
+          },
+          {
+            "tag": "h3",
+            "text": "Fandom"
+          },
+          {
+            "tag": "h3",
+            "text": "Future"
+          },
+          {
+            "tag": "h3",
+            "text": "Nerdwallet"
+          },
+          {
+            "tag": "h3",
+            "text": "New York Times"
+          },
+          {
+            "tag": "h3",
+            "text": "The Arena Group"
+          },
+          {
+            "tag": "h2",
+            "text": "Meet the man behind Detailed, Glen Allsopp"
+          },
+          {
+            "tag": "p",
+            "text": "That's not me on the conference stage, but that is my work on the screen, presented by the Vice President of a $390M/year business (Yext)."
+          },
+          {
+            "tag": "p",
+            "text": "I'm pretty proud of the work he's sharing: My deep-dive into how just 16 companies behind 500+ websites are dominating Google's search results. Here's the link if you're curious."
+          },
+          {
+            "tag": "p",
+            "text": "I've been writing about SEO since I was 16 years old, and now at 33 I've advised some of the biggest brands on the internet like Ahrefs, ConvertKit, Buffer, Kinsta and many more."
+          },
+          {
+            "tag": "p",
+            "text": "Over a single 12 month period alone we've helped our clients acquire millions of extra visitors from Google."
+          },
+          {
+            "tag": "p",
+            "text": "Now we're all-in on sharing our insights to help you with your online journey."
+          },
+          {
+            "tag": "p",
+            "text": "\"I've hired various SEO experts and Glen was still able to find room for improvement.\""
+          },
+          {
+            "tag": "h6",
+            "text": "Pat Flynn"
+          },
+          {
+            "tag": "p",
+            "text": "\"Found a number of things we're going to be implementing into our SEO strategy in the coming weeks and months.\""
+          },
+          {
+            "tag": "h6",
+            "text": "Nathan Barry"
+          },
+          {
+            "tag": "p",
+            "text": "\"Allsopp's SEO podcast stands head and shoulders above the other podcasts\""
+          },
+          {
+            "tag": "h6",
+            "text": "Eric Siu"
+          },
+          {
+            "tag": "h2",
+            "text": "\"Think of us like the Bloomberg of SEO.\""
+          },
+          {
+            "tag": "p",
+            "text": "Exclusive insights from tracking the rankings & revenue of 3,078 digital goliaths."
+          },
+          {
+            "tag": "p",
+            "text": "\"Glen found a very sneaky technical SEO issue on our homepage. Sometimes a fresh set of eyes goes a long way.\""
+          },
+          {
+            "tag": "p",
+            "text": "BILL KING"
+          },
+          {
+            "tag": "p",
+            "text": "\"Glen's recommendations helped us improve crawl budget, remove deadweight pages and led to overall improvements in organic traffic to our key pages.\""
+          },
+          {
+            "tag": "p",
+            "text": "STEVE TOTH"
+          },
+          {
+            "tag": "p",
+            "text": "\"I've been a practitioner of digital marketing for over a decade and I've learned more from Glen about SEO than anyone else.\""
+          },
+          {
+            "tag": "p",
+            "text": "CLAY COLLINS"
+          },
+          {
+            "tag": "p",
+            "text": "What the...?"
+          },
+          {
+            "tag": "h6",
+            "text": "Reports"
+          },
+          {
+            "tag": "p",
+            "text": "How 16 Companies Dominate Google Search Results 568"
+          },
+          {
+            "tag": "p",
+            "text": "Advanced Link Building Strategies You (Probably) Haven&#8217;t Used 645"
+          },
+          {
+            "tag": "p",
+            "text": "51 Profitable SEO Niches 401"
+          },
+          {
+            "tag": "p",
+            "text": "Affiliate SEO: Analysing 10,000 Product Review Keyphrases 310"
+          },
+          {
+            "tag": "h6",
+            "text": "Projects"
+          },
+          {
+            "tag": "p",
+            "text": "Private SEO Audit 🔓"
+          },
+          {
+            "tag": "p",
+            "text": "SEO Extension (380K+ Users)"
+          },
+          {
+            "tag": "p",
+            "text": "SEO Blog (40K+ Subs)"
+          },
+          {
+            "tag": "p",
+            "text": "Behind the Scenes"
+          },
+          {
+            "tag": "p",
+            "text": "Algorithm Updates"
+          },
+          {
+            "tag": "h6",
+            "text": "Rankings"
+          },
+          {
+            "tag": "p",
+            "text": "Top 50 (All Niches)"
+          },
+          {
+            "tag": "p",
+            "text": "Finance"
+          },
+          {
+            "tag": "p",
+            "text": "Food"
+          },
+          {
+            "tag": "p",
+            "text": "Marketing"
+          },
+          {
+            "tag": "p",
+            "text": "Travel"
+          },
+          {
+            "tag": "p",
+            "text": "View All"
+          },
+          {
+            "tag": "p",
+            "text": "SEO Blueprint is our own fully fledged SEO framework and private community focused on taking search engine rankings to the next level."
+          },
+          {
+            "tag": "p",
+            "text": "SEO Blueprint is updated weekly (including now in 2025) and contains exclusive insights we don’t share in public."
+          },
+          {
+            "tag": "p",
+            "text": "Join members at companies like…"
+          },
+          {
+            "tag": "h5",
+            "text": "DETAILED X"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 58,
+          "headings": 34,
+          "images": 56
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-15DC0909",
+      "path": "/detailed-ahrefs/",
+      "type": "Detected Link",
+      "anchor_text": "SEPTEMBER 2025: Detailed has been acquired by Ahrefs (& I've joined the company)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-016C45FD",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "DETAILED",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-05C53FAA",
+      "path": "/blog/",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BD53FE4A",
+      "path": "/all/",
+      "type": "Detected Link",
+      "anchor_text": "Industry Rankings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F9136ACA",
+      "path": "/extension/",
+      "type": "Detected Link",
+      "anchor_text": "SEO Extension",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-87AE6EA7",
+      "path": "/contact/",
+      "type": "Detected Link",
+      "anchor_text": "Contact",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1F09C530",
+      "path": "/hey/",
+      "type": "Detected Link",
+      "anchor_text": "Contact Hoping Spammers don&#8217;t click",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E9B66D02",
+      "path": "/google-control/",
+      "type": "Detected Link",
+      "anchor_text": "Here's the link",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5E8E6920",
+      "path": "/advanced-link-building/",
+      "type": "Detected Link",
+      "anchor_text": "Advanced Link Building Strategies You (Probably) Haven&#8217;t Used  645",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34B882EC",
+      "path": "/profitable-seo-niches/",
+      "type": "Detected Link",
+      "anchor_text": "51 Profitable SEO Niches  401",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-364299A4",
+      "path": "/affiliate-serps/",
+      "type": "Detected Link",
+      "anchor_text": "Affiliate SEO: Analysing 10,000 Product Review Keyphrases   310",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DDB278D3",
+      "path": "/rules/",
+      "type": "Detected Link",
+      "anchor_text": "Private SEO Audit",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-96E13639",
+      "path": "/behind-the-scenes/",
+      "type": "Detected Link",
+      "anchor_text": "Behind the Scenes",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9DA15B6",
+      "path": "/google-algorithm-update/",
+      "type": "Detected Link",
+      "anchor_text": "Algorithm Updates",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EBE6F633",
+      "path": "/50/",
+      "type": "Detected Link",
+      "anchor_text": "Top 50 (All Niches)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

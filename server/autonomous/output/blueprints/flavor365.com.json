@@ -1,0 +1,262 @@
+{
+  "website_blueprint_id": "BLUEPRINT-5E8A3E54",
+  "generated_at": "2026-01-22T06:06:10.979Z",
+  "global_configuration": {
+    "brand_name": "Flavor365",
+    "domain": "flavor365.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.147.171",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 18,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/pagead/js/adsbygoogle.js",
+        "type": "script",
+        "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5881870045468195"
+      },
+      {
+        "path": "/wp-content/themes/dux/assets/js/main.js",
+        "type": "script",
+        "full_url": "https://eathealthy365.com/wp-content/themes/dux/assets/js/main.js?ver=6.9"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/flavor365-site-logo.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-site-logo.webp?w=375&#038;h=45&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/flavor365-gourmet-food-spread.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-gourmet-food-spread.webp?w=1280&#038;h=720&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/simple-dijon-mustard-pork-chop-recipe-oven.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-dijon-mustard-pork-chop-recipe-oven.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/bakery-style-pistachio-muffin-recipe.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/bakery-style-pistachio-muffin-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/nutritious-slow-cooker-ham-casserole.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/nutritious-slow-cooker-ham-casserole.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/peter-luger-steak-recipe-vs-other-methods.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/peter-luger-steak-recipe-vs-other-methods.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/perfectly-crispy-oven-roasted-broccoli.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/perfectly-crispy-oven-roasted-broccoli.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/baked-pineapple-chicken-and-rice.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/baked-pineapple-chicken-and-rice.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/homemade-bacon-recipe.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/homemade-bacon-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/low-carb-chicken-recipe-with-spinach.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/low-carb-chicken-recipe-with-spinach.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/simple-thinly-sliced-potato-recipe.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-thinly-sliced-potato-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/simple-baby-food-corn-recipe.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-baby-food-corn-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/10-pound-prime-rib-roast-recipe.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/10-pound-prime-rib-roast-recipe.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/how-long-to-cook-pork-loin-in-oven.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/how-long-to-cook-pork-loin-in-oven.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/costco-prime-rib-roast-cost.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/costco-prime-rib-roast-cost.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+      },
+      {
+        "path": "/eathealthy365.com/wp-content/uploads/perfect-beef-tenderloin-cooking-temperature-guide.webp",
+        "type": "image",
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/perfect-beef-tenderloin-cooking-temperature-guide.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Flavor365 - Recipes, Healthy Eating &amp; Lifestyle",
+        "description": "Unlock daily food inspiration with Flavor365. Explore simple recipes, healthy drinks, and lifestyle tips for balanced eating and joyful living every day.",
+        "canonical": "https://flavor365.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1658ms"
+        },
+        {
+          "resource": "adsbygoogle.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "main.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "flavor365-site-logo.webp",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Eat, Sip, and Live Well",
+          "h2_subtitle": "Unlock daily food inspiration with Flavor365. Discover simple recipes, healthy drinks &amp; lifestyle tips for balanced eating and joyful living.",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Featured: Making Ice Cream at Home: A Step-by-Step Guide",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Simple Dijon Mustard Pork Chop Recipe Oven",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "How to Make a Bakery-Style Pistachio Muffin",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Eat, Sip, and Live Well"
+          },
+          {
+            "tag": "p",
+            "text": "Unlock daily food inspiration with Flavor365. Discover simple recipes, healthy drinks &amp; lifestyle tips for balanced eating and joyful living."
+          },
+          {
+            "tag": "h2",
+            "text": "Featured: Making Ice Cream at Home: A Step-by-Step Guide"
+          },
+          {
+            "tag": "p",
+            "text": "Making delicious, creamy ice cream at home is surprisingly simple. At its core, the process involves just three key steps: creating a sweet cream base, churning it as it freezes ..."
+          },
+          {
+            "tag": "h2",
+            "text": "Latest"
+          },
+          {
+            "tag": "h2",
+            "text": "Simple Dijon Mustard Pork Chop Recipe Oven"
+          },
+          {
+            "tag": "p",
+            "text": "For years, my oven-baked pork chops were a culinary gamble. Some nights they were perfect, but too often they emerged dry, tough, and frankly, a little sad. I was convinced ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (259) How to Make a Bakery-Style Pistachio Muffin For years, I was on a quest for the perfect pistachio muffin. My early attempts were always a letdown. They were either dry, faintly flavored, or worse, that strange, artificial ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (410) Making a Nutritious Slow Cooker Ham Casserole Let's be honest, the week after a holiday can feel like a marathon of ham sandwiches. I remember one year, after a particularly large Easter feast, my son, then about ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (460) Peter Luger Recipe vs Other Steakhouse Methods I'll never forget the first time. The sizzle reached the table before the plate did. A waiter, with the practiced efficiency of a surgeon, tilted the heavy ceramic platter, spooning ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (525) Why Your Oven Broccoli Isn't Crispy Let's be honest. You've followed the recipes. You've cranked up the oven. But what comes out is... disappointing. A pan of limp, slightly browned, and undeniably soggy broccoli. I've been ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (622) Step-by-Step Baked Pineapple Chicken and Rice For years, I chased the elusive one-pan baked chicken and rice dinner. My attempts often ended in a culinary tragedy: either the chicken was perfectly cooked but sitting on a ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (352) A Guide to Your Homemade Bacon Recipe I'll never forget the first time I tried to make bacon. I'd read a few articles, grabbed a pork belly, and coated it in what I thought was a mountain ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (357) A Low-Carb Chicken Recipe with Spinach For years, I was stuck in a low-carb dinner rut. It felt like an endless cycle of bland, baked chicken breasts and steamed vegetables. I knew there had to be ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (622) A Simple Thinly Sliced Potato Recipe for Weeknights Let's be honest, the weeknight side dish struggle is real. For years, I found myself in a potato rut. It was either mushy mashed potatoes that took forever or roasted ..."
+          },
+          {
+            "tag": "p",
+            "text": "Recipes Views (294) A Simple Baby Food Corn Recipe I remember the first time I tried to give my daughter, Lily, corn puree. I'd spent 20 years in content, analyzing user intent, but staring at that little bowl, I ..."
+          },
+          {
+            "tag": "p",
+            "text": "Discover"
+          },
+          {
+            "tag": "p",
+            "text": "Company"
+          },
+          {
+            "tag": "p",
+            "text": "Follow"
+          },
+          {
+            "tag": "p",
+            "text": "&copy; 2026 Flavor365. All Rights Reserved."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 38,
+          "headings": 14,
+          "images": 16
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}
