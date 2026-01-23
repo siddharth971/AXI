@@ -1,0 +1,353 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "axi-expanded-sample-schema-v1",
+  "title": "AXI Expanded Dataset Sample Schema",
+  "description": "Schema for high-fidelity annotated training samples for enterprise-grade voice assistant",
+  "type": "object",
+  "required": [
+    "id",
+    "text",
+    "primary_intent",
+    "language",
+    "emotional_context",
+    "cognitive_state",
+    "context",
+    "metadata"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the sample"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "The actual utterance text"
+    },
+    "primary_intent": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z][a-z0-9_]*)*$",
+      "description": "Primary intent in dot notation (e.g., 'system.volume.increase')"
+    },
+    "secondary_intent": {
+      "type": ["string", "null"],
+      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z][a-z0-9_]*)*$",
+      "description": "Optional secondary intent"
+    },
+    "language": {
+      "type": "object",
+      "required": ["primary", "register"],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "enum": [
+            "en",
+            "hi",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "ar",
+            "zh",
+            "ja",
+            "ko",
+            "ru"
+          ],
+          "description": "Primary language code"
+        },
+        "mixing": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "en",
+              "hi",
+              "es",
+              "fr",
+              "de",
+              "pt",
+              "ar",
+              "zh",
+              "ja",
+              "ko",
+              "ru"
+            ]
+          },
+          "description": "Languages mixed into the utterance"
+        },
+        "register": {
+          "type": "string",
+          "enum": [
+            "casual",
+            "formal",
+            "technical",
+            "slang",
+            "academic",
+            "legal",
+            "medical",
+            "business"
+          ],
+          "description": "Speech register/formality level"
+        },
+        "dialect": {
+          "type": "string",
+          "description": "Regional dialect or accent indicator"
+        }
+      }
+    },
+    "emotional_context": {
+      "type": "object",
+      "required": ["tone", "intensity"],
+      "properties": {
+        "tone": {
+          "type": "string",
+          "enum": [
+            "neutral",
+            "happy",
+            "excited",
+            "frustrated",
+            "anxious",
+            "calm",
+            "angry",
+            "sad",
+            "confused",
+            "impatient",
+            "playful",
+            "sarcastic",
+            "grateful",
+            "apologetic",
+            "urgent",
+            "bored",
+            "curious",
+            "surprised"
+          ]
+        },
+        "intensity": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Emotional intensity from subtle (0) to extreme (1)"
+        },
+        "markers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Specific linguistic markers of emotion present"
+        }
+      }
+    },
+    "cognitive_state": {
+      "type": "object",
+      "required": ["type", "confidence_level"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "focused",
+            "confused",
+            "multitasking",
+            "fatigued",
+            "distracted",
+            "overconfident",
+            "precision_seeking",
+            "exploratory",
+            "rushed",
+            "methodical",
+            "creative",
+            "analytical"
+          ]
+        },
+        "confidence_level": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "User's confidence in what they're asking"
+        },
+        "mental_load": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "overloaded"],
+          "description": "Cognitive load indicator"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "required": ["situation", "urgency"],
+      "properties": {
+        "situation": {
+          "type": "string",
+          "enum": [
+            "workplace",
+            "home",
+            "commute",
+            "emergency",
+            "learning",
+            "customer_support",
+            "debugging",
+            "meeting",
+            "presentation",
+            "creative_work",
+            "routine_task",
+            "problem_solving",
+            "relaxation"
+          ]
+        },
+        "urgency": {
+          "type": "string",
+          "enum": ["none", "low", "medium", "high", "critical"]
+        },
+        "time_pressure": {
+          "type": "boolean",
+          "description": "Whether user is under time pressure"
+        },
+        "background_activity": {
+          "type": "string",
+          "description": "What else the user might be doing"
+        },
+        "domain": {
+          "type": "string",
+          "enum": [
+            "software_engineering",
+            "cloud_infrastructure",
+            "finance",
+            "healthcare",
+            "manufacturing",
+            "education",
+            "logistics",
+            "government",
+            "gaming",
+            "entertainment",
+            "general"
+          ]
+        },
+        "scenario_description": {
+          "type": "string",
+          "description": "Detailed scenario context"
+        }
+      }
+    },
+    "implicit_goal": {
+      "type": "string",
+      "description": "The underlying user goal that may not be explicitly stated"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["none", "low", "medium", "high", "critical"],
+      "description": "Potential risk if intent is misunderstood or misexecuted"
+    },
+    "discourse_features": {
+      "type": "object",
+      "properties": {
+        "completeness": {
+          "type": "string",
+          "enum": ["complete", "interrupted", "abandoned", "trailing_off"]
+        },
+        "repairs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Self-corrections present in utterance"
+        },
+        "hedging": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Uncertainty markers (maybe, perhaps, I think)"
+        },
+        "filler_words": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Discourse markers (um, uh, like, you know)"
+        },
+        "repetitions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Repeated words/phrases"
+        },
+        "false_starts": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Abandoned sentence beginnings"
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "type", "start", "end"],
+        "properties": {
+          "text": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "website",
+              "app",
+              "file",
+              "folder",
+              "time",
+              "date",
+              "number",
+              "person",
+              "organization",
+              "location",
+              "command",
+              "parameter",
+              "device",
+              "service",
+              "language",
+              "currency",
+              "percentage"
+            ]
+          },
+          "start": { "type": "integer", "minimum": 0 },
+          "end": { "type": "integer", "minimum": 0 },
+          "normalized": { "type": "string" }
+        }
+      }
+    },
+    "slot_values": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["string", "number", "boolean", "array"]
+      },
+      "description": "Extracted slot-value pairs for the intent"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["batch_id", "generated_at"],
+      "properties": {
+        "batch_id": {
+          "type": "string",
+          "pattern": "^batch-[0-9]{3,}$"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "generator_version": {
+          "type": "string"
+        },
+        "quality_score": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "uniqueness_score": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "validated": {
+          "type": "boolean"
+        },
+        "validation_notes": {
+          "type": "string"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": ["synthetic", "curated", "augmented", "collected"]
+        }
+      }
+    }
+  }
+}

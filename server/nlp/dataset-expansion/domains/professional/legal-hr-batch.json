@@ -1,0 +1,904 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-017",
+    "domain": "professional",
+    "focus_areas": [
+      "legal",
+      "hr",
+      "compliance",
+      "contracts",
+      "policy"
+    ],
+    "generated_at": "2026-01-23T14:05:00.000Z",
+    "total_samples": 80,
+    "context": "corporate"
+  },
+  "intent_taxonomy": {
+    "legal": {
+      "contract": [
+        "review",
+        "draft",
+        "summarize",
+        "find_clause"
+      ],
+      "compliance": [
+        "check",
+        "report",
+        "gdpr",
+        "policy"
+      ]
+    },
+    "hr": {
+      "employee": [
+        "onboard",
+        "offboard",
+        "leave_request",
+        "benefits"
+      ],
+      "hiring": [
+        "job_post",
+        "interview",
+        "candidate_review"
+      ]
+    },
+    "admin": {
+      "calendar": [
+        "meeting_minutes",
+        "agenda"
+      ],
+      "documents": [
+        "sign",
+        "file",
+        "archive"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "pro-001",
+      "text": "review this NDA for any red flags",
+      "primary_intent": "professional.legal.contract.review",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "NDA",
+          "type": "document_type"
+        }
+      ]
+    },
+    {
+      "id": "pro-002",
+      "text": "draft an employment contract for a software engineer",
+      "primary_intent": "professional.legal.contract.draft",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "software engineer",
+          "type": "role"
+        }
+      ]
+    },
+    {
+      "id": "pro-003",
+      "text": "summarize the termination clause in this agreement",
+      "primary_intent": "professional.legal.contract.find_clause",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "termination clause",
+          "type": "clause"
+        }
+      ]
+    },
+    {
+      "id": "pro-004",
+      "text": "is this data processing compliant with GDPR?",
+      "primary_intent": "professional.legal.compliance.gdpr_check",
+      "context": {
+        "situation": "compliance",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-005",
+      "text": "onboard the new hire, John Doe",
+      "primary_intent": "professional.hr.employee.onboard",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "John Doe",
+          "type": "employee"
+        }
+      ]
+    },
+    {
+      "id": "pro-006",
+      "text": "request 3 days of sick leave starting tomorrow",
+      "primary_intent": "professional.hr.employee.leave_request",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "3 days",
+          "type": "duration"
+        },
+        {
+          "text": "sick leave",
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "id": "pro-007",
+      "text": "schedule an exit interview for Sarah",
+      "primary_intent": "professional.hr.hiring.interview_schedule",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Sarah",
+          "type": "employee"
+        }
+      ]
+    },
+    {
+      "id": "pro-008",
+      "text": "create a job posting for a Senior Product Manager",
+      "primary_intent": "professional.hr.hiring.job_post_create",
+      "context": {
+        "situation": "hiring",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Senior Product Manager",
+          "type": "role"
+        }
+      ]
+    },
+    {
+      "id": "pro-009",
+      "text": "what are the dental benefits in our plan?",
+      "primary_intent": "professional.hr.employee.benefits_query",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-010",
+      "text": "file this invoice under 'Q3 Expenses'",
+      "primary_intent": "professional.admin.documents.file",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Q3 Expenses",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "pro-011",
+      "text": "generate meeting minutes from the transcript",
+      "primary_intent": "professional.admin.calendar.meeting_minutes",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-012",
+      "text": "check if we need a cookie consent banner",
+      "primary_intent": "professional.legal.compliance.check",
+      "context": {
+        "situation": "compliance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-013",
+      "text": "archive the old project files",
+      "primary_intent": "professional.admin.documents.archive",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-014",
+      "text": "find the non-compete clause",
+      "primary_intent": "professional.legal.contract.find_clause",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "non-compete",
+          "type": "clause"
+        }
+      ]
+    },
+    {
+      "id": "pro-015",
+      "text": "update the remote work policy",
+      "primary_intent": "professional.legal.compliance.policy_update",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-016",
+      "text": "send the offer letter to the candidate",
+      "primary_intent": "professional.hr.hiring.send_offer",
+      "context": {
+        "situation": "hiring",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-017",
+      "text": "prepare an agenda for the board meeting",
+      "primary_intent": "professional.admin.calendar.agenda_create",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-018",
+      "text": "e-sign this document",
+      "primary_intent": "professional.admin.documents.sign",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-019",
+      "text": "report a compliance violation",
+      "primary_intent": "professional.legal.compliance.report",
+      "context": {
+        "situation": "compliance",
+        "urgency": "high"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "pro-020",
+      "text": "calculate severance pay for 5 years of service",
+      "primary_intent": "professional.hr.employee.severance_calc",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "5 years",
+          "type": "tenure"
+        }
+      ]
+    },
+    {
+      "id": "pro-021",
+      "text": "contract review karo, liability clause check karna",
+      "primary_intent": "professional.legal.contract.find_clause",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "liability clause",
+          "type": "clause"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "pro-022",
+      "text": "leave application submit kar do",
+      "primary_intent": "professional.hr.employee.leave_request",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "pro-023",
+      "text": "interview schedule karo kal ke liye",
+      "primary_intent": "professional.hr.hiring.interview_schedule",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "kal (tomorrow)",
+          "type": "time"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "pro-024",
+      "text": "I want to fire him... wait, I mean start the offboarding process",
+      "primary_intent": "professional.hr.employee.offboard",
+      "discourse_features": {
+        "correction": [
+          "wait",
+          "I mean"
+        ]
+      },
+      "emotional_context": {
+        "tone": "angry",
+        "intensity": 0.6
+      },
+      "context": {
+        "situation": "hr",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-025",
+      "text": "is this legal? check the local labor laws",
+      "primary_intent": "professional.legal.compliance.check_law",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-026",
+      "text": "summarize the key terms of the lease",
+      "primary_intent": "professional.legal.contract.summarize",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-027",
+      "text": "screen these resumes for python skills",
+      "primary_intent": "professional.hr.hiring.candidate_review",
+      "context": {
+        "situation": "hiring",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "python",
+          "type": "skill"
+        }
+      ]
+    },
+    {
+      "id": "pro-028",
+      "text": "draft a cease and desist letter",
+      "primary_intent": "professional.legal.contract.draft",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "cease and desist",
+          "type": "document_type"
+        }
+      ]
+    },
+    {
+      "id": "pro-029",
+      "text": "what is our policy on workplace harassment?",
+      "primary_intent": "professional.hr.policy.query",
+      "context": {
+        "situation": "hr",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-030",
+      "text": "register a trademark for the brand",
+      "primary_intent": "professional.legal.ip.trademark",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-031",
+      "text": "conduct a background check",
+      "primary_intent": "professional.hr.hiring.background_check",
+      "context": {
+        "situation": "hiring",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-032",
+      "text": "approve the timesheet",
+      "primary_intent": "professional.hr.employee.approve_timesheet",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-033",
+      "text": "find the force majeure clause",
+      "primary_intent": "professional.legal.contract.find_clause",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-034",
+      "text": "renew the vendor contract",
+      "primary_intent": "professional.legal.contract.renew",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-035",
+      "text": "update the employee handbook",
+      "primary_intent": "professional.hr.policy.update",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-036",
+      "text": "schedule a performance review",
+      "primary_intent": "professional.hr.employee.performance_review",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-037",
+      "text": "verify the candidate references",
+      "primary_intent": "professional.hr.hiring.verify_refs",
+      "context": {
+        "situation": "hiring",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-038",
+      "text": "file a patent application",
+      "primary_intent": "professional.legal.ip.patent",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-039",
+      "text": "notarize this affidavit",
+      "primary_intent": "professional.legal.services.notarize",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-040",
+      "text": "check conflict of interest",
+      "primary_intent": "professional.legal.compliance.conflict_check",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-041",
+      "text": "calculate overtime pay",
+      "primary_intent": "professional.hr.payroll.overtime",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-042",
+      "text": "draft a shareholders agreement",
+      "primary_intent": "professional.legal.contract.draft",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-043",
+      "text": "review the privacy policy",
+      "primary_intent": "professional.legal.compliance.privacy_review",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-044",
+      "text": "assess the legal risk of this lawsuit",
+      "primary_intent": "professional.legal.litigation.risk_assess",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-045",
+      "text": "find a lawyer specializing in IP",
+      "primary_intent": "professional.legal.services.find_lawyer",
+      "context": {
+        "situation": "search",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-046",
+      "text": "translate this contract to Spanish",
+      "primary_intent": "professional.legal.services.translate",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-047",
+      "text": "set up a shell company",
+      "primary_intent": "professional.legal.corporate.setup",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-048",
+      "text": "issue stock options to employee",
+      "primary_intent": "professional.hr.compensation.stock_options",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-049",
+      "text": "what is the notice period for resignation?",
+      "primary_intent": "professional.hr.policy.query",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-050",
+      "text": "organize the files by client name",
+      "primary_intent": "professional.admin.documents.organize",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-051",
+      "text": "create a diversity and inclusion report",
+      "primary_intent": "professional.hr.compliance.diversity_report",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-052",
+      "text": "negotiate salary with the candidate",
+      "primary_intent": "professional.hr.hiring.negotiate",
+      "context": {
+        "situation": "hiring",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-053",
+      "text": "draft a memo regarding the new policy",
+      "primary_intent": "professional.admin.communications.memo",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-054",
+      "text": "check for copyright infringement",
+      "primary_intent": "professional.legal.ip.check_infringement",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-055",
+      "text": "file the quarterly compliance report",
+      "primary_intent": "professional.legal.compliance.file_report",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-056",
+      "text": "approve the expense report",
+      "primary_intent": "professional.admin.finance.approve_expense",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-057",
+      "text": "find the arbitration clause",
+      "primary_intent": "professional.legal.contract.find_clause",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-058",
+      "text": "create a succession plan",
+      "primary_intent": "professional.hr.strategy.succession",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-059",
+      "text": "monitor regulatory changes",
+      "primary_intent": "professional.legal.compliance.monitor",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-060",
+      "text": "audit the HR records",
+      "primary_intent": "professional.hr.compliance.audit",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-061",
+      "text": "schedule training compliance",
+      "primary_intent": "professional.hr.compliance.training",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-062",
+      "text": "draft a power of attorney",
+      "primary_intent": "professional.legal.contract.draft",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-063",
+      "text": "record the board vote",
+      "primary_intent": "professional.admin.governance.vote",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-064",
+      "text": "verify employment eligibility (I-9)",
+      "primary_intent": "professional.hr.compliance.i9",
+      "context": {
+        "situation": "hr",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-065",
+      "text": "manage the whistleblower hotline",
+      "primary_intent": "professional.legal.compliance.whistleblower",
+      "context": {
+        "situation": "compliance",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-066",
+      "text": "prepare the IPO prospectus",
+      "primary_intent": "professional.legal.corporate.ipo",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-067",
+      "text": "review the SLA",
+      "primary_intent": "professional.legal.contract.review",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "SLA",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "id": "pro-068",
+      "text": "calculate the retention rate",
+      "primary_intent": "professional.hr.analytics.retention",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-069",
+      "text": "draft a settlement agreement",
+      "primary_intent": "professional.legal.litigation.settlement",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-070",
+      "text": "find a notary public",
+      "primary_intent": "professional.legal.services.find_notary",
+      "context": {
+        "situation": "search",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-071",
+      "text": "check the status of the trademark application",
+      "primary_intent": "professional.legal.ip.status",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-072",
+      "text": "revise the bylaws",
+      "primary_intent": "professional.legal.corporate.bylaws",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-073",
+      "text": "approve the vacation request",
+      "primary_intent": "professional.hr.employee.approve_leave",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-074",
+      "text": "conduct a salary benchmark",
+      "primary_intent": "professional.hr.compensation.benchmark",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-075",
+      "text": "draft a letter of intent",
+      "primary_intent": "professional.legal.contract.draft",
+      "context": {
+        "situation": "legal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "pro-076",
+      "text": "review the terms of service",
+      "primary_intent": "professional.legal.compliance.tos",
+      "context": {
+        "situation": "legal",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-077",
+      "text": "initiate a disciplinary action",
+      "primary_intent": "professional.hr.employee.disciplinary",
+      "context": {
+        "situation": "hr",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-078",
+      "text": "plan the company retreat",
+      "primary_intent": "professional.hr.culture.event",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "pro-079",
+      "text": "check for sanctions list matches",
+      "primary_intent": "professional.legal.compliance.sanctions",
+      "context": {
+        "situation": "legal",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "pro-080",
+      "text": "create an org chart",
+      "primary_intent": "professional.hr.admin.org_chart",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    }
+  ]
+}

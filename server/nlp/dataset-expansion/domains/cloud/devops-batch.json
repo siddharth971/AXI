@@ -1,0 +1,988 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-011",
+    "domain": "devops",
+    "focus_areas": [
+      "docker",
+      "kubernetes",
+      "containers",
+      "orchestration"
+    ],
+    "generated_at": "2026-01-23T12:35:00.000Z",
+    "total_samples": 85,
+    "tools": [
+      "docker",
+      "kubectl",
+      "helm"
+    ]
+  },
+  "intent_taxonomy": {
+    "docker": {
+      "container": [
+        "run",
+        "stop",
+        "rm",
+        "logs",
+        "exec",
+        "ls"
+      ],
+      "image": [
+        "build",
+        "pull",
+        "push",
+        "rmi",
+        "tag",
+        "prune"
+      ],
+      "compose": [
+        "up",
+        "down",
+        "logs"
+      ]
+    },
+    "kubernetes": {
+      "pod": [
+        "get",
+        "describe",
+        "logs",
+        "delete",
+        "exec"
+      ],
+      "deployment": [
+        "scale",
+        "rollout",
+        "edit",
+        "expose"
+      ],
+      "cluster": [
+        "nodes",
+        "info",
+        "context"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "dev-001",
+      "text": "build the docker image with tag 'v1.0.0'",
+      "primary_intent": "devops.docker.image.build",
+      "context": {
+        "situation": "build",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "v1.0.0",
+          "type": "tag"
+        }
+      ]
+    },
+    {
+      "id": "dev-002",
+      "text": "run a redis container on port 6379",
+      "primary_intent": "devops.docker.container.run",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "redis",
+          "type": "image"
+        },
+        {
+          "text": "6379",
+          "type": "port"
+        }
+      ]
+    },
+    {
+      "id": "dev-003",
+      "text": "stop all running containers",
+      "primary_intent": "devops.docker.container.stop.all",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-004",
+      "text": "show me the logs for the 'api-server' container",
+      "primary_intent": "devops.docker.container.logs",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "api-server",
+          "type": "container_name"
+        }
+      ]
+    },
+    {
+      "id": "dev-005",
+      "text": "prune all unused images and volumes",
+      "primary_intent": "devops.docker.system.prune",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "dev-006",
+      "text": "docker compose up in detached mode",
+      "primary_intent": "devops.docker.compose.up",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "detached",
+          "type": "mode"
+        }
+      ]
+    },
+    {
+      "id": "dev-007",
+      "text": "tear down the compose stack",
+      "primary_intent": "devops.docker.compose.down",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-008",
+      "text": "get pods in the 'production' namespace",
+      "primary_intent": "devops.k8s.pod.get",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "production",
+          "type": "namespace"
+        }
+      ]
+    },
+    {
+      "id": "dev-009",
+      "text": "scale the deployment 'frontend' to 3 replicas",
+      "primary_intent": "devops.k8s.deployment.scale",
+      "context": {
+        "situation": "scaling",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "frontend",
+          "type": "deployment"
+        },
+        {
+          "text": "3",
+          "type": "count"
+        }
+      ]
+    },
+    {
+      "id": "dev-010",
+      "text": "describe the pod that is crashing",
+      "primary_intent": "devops.k8s.pod.describe",
+      "context": {
+        "situation": "debugging",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "crashing",
+          "type": "state"
+        }
+      ]
+    },
+    {
+      "id": "dev-011",
+      "text": "restart the rollout for 'backend-service'",
+      "primary_intent": "devops.k8s.deployment.rollout.restart",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-012",
+      "text": "exec into the database pod shell",
+      "primary_intent": "devops.k8s.pod.exec",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "dev-013",
+      "text": "delete the pod 'worker-123' to force a restart",
+      "primary_intent": "devops.k8s.pod.delete",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-014",
+      "text": "check the cluster info",
+      "primary_intent": "devops.k8s.cluster.info",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-015",
+      "text": "switch context to 'minikube'",
+      "primary_intent": "devops.k8s.config.use_context",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "minikube",
+          "type": "context"
+        }
+      ]
+    },
+    {
+      "id": "dev-016",
+      "text": "pull the latest ubuntu image",
+      "primary_intent": "devops.docker.image.pull",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "ubuntu",
+          "type": "image"
+        },
+        {
+          "text": "latest",
+          "type": "tag"
+        }
+      ]
+    },
+    {
+      "id": "dev-017",
+      "text": "push my image to the registry",
+      "primary_intent": "devops.docker.image.push",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-018",
+      "text": "list running docker containers",
+      "primary_intent": "devops.docker.container.list",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-019",
+      "text": "connect to the logs of the previous instance of the pod",
+      "primary_intent": "devops.k8s.pod.logs.previous",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-020",
+      "text": "apply this yaml file",
+      "primary_intent": "devops.k8s.resource.apply",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-021",
+      "text": "remove the docker container force",
+      "primary_intent": "devops.docker.container.rm.force",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-022",
+      "text": "port forward service 8080 to localhost 8080",
+      "primary_intent": "devops.k8s.port_forward",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-023",
+      "text": "get services in all namespaces",
+      "primary_intent": "devops.k8s.service.get.all",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-024",
+      "text": "docker image build karna, tag 'latest' laga dena",
+      "primary_intent": "devops.docker.image.build",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "latest",
+          "type": "tag"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dev-025",
+      "text": "saare pods dikhao production mein",
+      "primary_intent": "devops.k8s.pod.get",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "production",
+          "type": "namespace"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dev-026",
+      "text": "container ke andar ghus ke shell chalao",
+      "primary_intent": "devops.docker.container.exec",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-027",
+      "text": "deployment scale karke 5 replicas kar do",
+      "primary_intent": "devops.k8s.deployment.scale",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "5",
+          "type": "count"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dev-028",
+      "text": "Wait, don't delete that pod yet! Check the logs first",
+      "primary_intent": "devops.k8s.pod.logs",
+      "discourse_features": {
+        "interruption": [
+          "Wait, don't"
+        ],
+        "precondition": [
+          "Check the logs first"
+        ]
+      },
+      "emotional_context": {
+        "tone": "urgent",
+        "intensity": 0.6
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dev-029",
+      "text": "I think the image name is wrong... actually never mind, it's correct, pull it",
+      "primary_intent": "devops.docker.image.pull",
+      "discourse_features": {
+        "self_correction": [
+          "actually never mind"
+        ]
+      },
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-030",
+      "text": "helm install chart 'nginx-ingress'",
+      "primary_intent": "devops.helm.install",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "nginx-ingress",
+          "type": "chart"
+        }
+      ]
+    },
+    {
+      "id": "dev-031",
+      "text": "list helm releases",
+      "primary_intent": "devops.helm.list",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-032",
+      "text": "rollback the helm release to revision 1",
+      "primary_intent": "devops.helm.rollback",
+      "context": {
+        "situation": "recovery",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "1",
+          "type": "revision"
+        }
+      ]
+    },
+    {
+      "id": "dev-033",
+      "text": "create a secret from this file",
+      "primary_intent": "devops.k8s.secret.create",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-034",
+      "text": "inspect the docker network",
+      "primary_intent": "devops.docker.network.inspect",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-035",
+      "text": "create a new bridge network",
+      "primary_intent": "devops.docker.network.create",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-036",
+      "text": "edit the configmap 'app-config'",
+      "primary_intent": "devops.k8s.configmap.edit",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "app-config",
+          "type": "configmap"
+        }
+      ]
+    },
+    {
+      "id": "dev-037",
+      "text": "get events in the cluster, sort by timestamp",
+      "primary_intent": "devops.k8s.event.get",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-038",
+      "text": "top nodes to check cpu usage",
+      "primary_intent": "devops.k8s.top.node",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-039",
+      "text": "top pods in this namespace",
+      "primary_intent": "devops.k8s.top.pod",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-040",
+      "text": "cordon this node for maintenance",
+      "primary_intent": "devops.k8s.node.cordon",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-041",
+      "text": "drain the node, ignore daemonsets",
+      "primary_intent": "devops.k8s.node.drain",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "high"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "dev-042",
+      "text": "uncordon the node",
+      "primary_intent": "devops.k8s.node.uncordon",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-043",
+      "text": "get storage classes",
+      "primary_intent": "devops.k8s.storage.get_class",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-044",
+      "text": "get persistent volume claims",
+      "primary_intent": "devops.k8s.storage.get_pvc",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-045",
+      "text": "docker login to the private registry",
+      "primary_intent": "devops.docker.login",
+      "context": {
+        "situation": "auth",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-046",
+      "text": "tag this image as 'latest'",
+      "primary_intent": "devops.docker.image.tag",
+      "context": {
+        "situation": "build",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-047",
+      "text": "save this image to a tar file",
+      "primary_intent": "devops.docker.image.save",
+      "context": {
+        "situation": "backup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-048",
+      "text": "load image from tar archive",
+      "primary_intent": "devops.docker.image.load",
+      "context": {
+        "situation": "restore",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-049",
+      "text": "attach to the running container",
+      "primary_intent": "devops.docker.container.attach",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-050",
+      "text": "pause the container",
+      "primary_intent": "devops.docker.container.pause",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-051",
+      "text": "unpause container",
+      "primary_intent": "devops.docker.container.unpause",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-052",
+      "text": "show docker disk usage",
+      "primary_intent": "devops.docker.system.df",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-053",
+      "text": "get ingresses",
+      "primary_intent": "devops.k8s.ingress.get",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-054",
+      "text": "describe the ingress 'web-ingress'",
+      "primary_intent": "devops.k8s.ingress.describe",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-055",
+      "text": "run a job manually",
+      "primary_intent": "devops.k8s.job.create_manual",
+      "context": {
+        "situation": "task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-056",
+      "text": "get cronjobs",
+      "primary_intent": "devops.k8s.cronjob.get",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-057",
+      "text": "suspend the cronjob",
+      "primary_intent": "devops.k8s.cronjob.suspend",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-058",
+      "text": "get api resources supported by the server",
+      "primary_intent": "devops.k8s.api.resources",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-059",
+      "text": "delete the namespace 'test'",
+      "primary_intent": "devops.k8s.namespace.delete",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "high"
+      },
+      "risk_level": "high",
+      "entities": [
+        {
+          "text": "test",
+          "type": "namespace"
+        }
+      ]
+    },
+    {
+      "id": "dev-060",
+      "text": "create a namespace called 'dev'",
+      "primary_intent": "devops.k8s.namespace.create",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-061",
+      "text": "label this pod with 'env=prod'",
+      "primary_intent": "devops.k8s.pod.label",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-062",
+      "text": "annotate the service",
+      "primary_intent": "devops.k8s.service.annotate",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-063",
+      "text": "proxy to the api server",
+      "primary_intent": "devops.k8s.proxy",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-064",
+      "text": "get endpoints for service",
+      "primary_intent": "devops.k8s.endpoints.get",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-065",
+      "text": "explain the pod resource",
+      "primary_intent": "devops.k8s.explain",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-066",
+      "text": "copy file from local to pod",
+      "primary_intent": "devops.k8s.cp.to_pod",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-067",
+      "text": "copy logs from pod to local file",
+      "primary_intent": "devops.k8s.cp.from_pod",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-068",
+      "text": "wait for the pod to be ready",
+      "primary_intent": "devops.k8s.wait",
+      "context": {
+        "situation": "automation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-069",
+      "text": "cluster-info dump",
+      "primary_intent": "devops.k8s.cluster.dump",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-070",
+      "text": "get version of client and server",
+      "primary_intent": "devops.k8s.version",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-071",
+      "text": "diff the live config against this file",
+      "primary_intent": "devops.k8s.diff",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-072",
+      "text": "kustomize build this directory",
+      "primary_intent": "devops.k8s.kustomize.build",
+      "context": {
+        "situation": "build",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-073",
+      "text": "docker commit container changes to new image",
+      "primary_intent": "devops.docker.container.commit",
+      "context": {
+        "situation": "backup",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-074",
+      "text": "export container filesystem",
+      "primary_intent": "devops.docker.container.export",
+      "context": {
+        "situation": "backup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-075",
+      "text": "import filesystem as image",
+      "primary_intent": "devops.docker.image.import",
+      "context": {
+        "situation": "restore",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-076",
+      "text": "docker stats",
+      "primary_intent": "devops.docker.stats",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-077",
+      "text": "docker history of this image",
+      "primary_intent": "devops.docker.image.history",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-078",
+      "text": "create a volume",
+      "primary_intent": "devops.docker.volume.create",
+      "context": {
+        "situation": "storage",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-079",
+      "text": "inspect the volume",
+      "primary_intent": "devops.docker.volume.inspect",
+      "context": {
+        "situation": "storage",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-080",
+      "text": "remove the volume",
+      "primary_intent": "devops.docker.volume.rm",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-081",
+      "text": "get metrics-server data",
+      "primary_intent": "devops.k8s.metrics.get",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-082",
+      "text": "certificate signing requests list",
+      "primary_intent": "devops.k8s.csr.list",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-083",
+      "text": "approve the certificate signing request",
+      "primary_intent": "devops.k8s.csr.approve",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "dev-084",
+      "text": "get pod disruption budgets",
+      "primary_intent": "devops.k8s.pdb.get",
+      "context": {
+        "situation": "reliability",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "dev-085",
+      "text": "helm upgrade release",
+      "primary_intent": "devops.helm.upgrade",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    }
+  ]
+}

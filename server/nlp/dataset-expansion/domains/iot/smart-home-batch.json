@@ -1,0 +1,987 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-015",
+    "domain": "iot",
+    "focus_areas": [
+      "lighting",
+      "climate",
+      "security",
+      "appliances",
+      "scenes"
+    ],
+    "generated_at": "2026-01-23T13:35:00.000Z",
+    "total_samples": 80,
+    "hub_type": "generic"
+  },
+  "intent_taxonomy": {
+    "lighting": {
+      "control": [
+        "on",
+        "off",
+        "dim",
+        "color",
+        "scene"
+      ],
+      "query": [
+        "status"
+      ]
+    },
+    "climate": {
+      "hvac": [
+        "set_temp",
+        "mode",
+        "fan_speed"
+      ],
+      "sensor": [
+        "temperature",
+        "humidity",
+        "air_quality"
+      ]
+    },
+    "security": {
+      "lock": [
+        "lock",
+        "unlock",
+        "status"
+      ],
+      "camera": [
+        "stream",
+        "record",
+        "snapshot"
+      ],
+      "alarm": [
+        "arm",
+        "disarm",
+        "panic"
+      ]
+    },
+    "appliances": {
+      "cleaning": [
+        "vacuum_start",
+        "vacuum_dock"
+      ],
+      "kitchen": [
+        "coffee_start",
+        "oven_preheat"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "iot-001",
+      "text": "turn on the living room lights",
+      "primary_intent": "iot.lighting.control.on",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "living room",
+          "type": "room"
+        }
+      ]
+    },
+    {
+      "id": "iot-002",
+      "text": "set the thermostat to 72 degrees",
+      "primary_intent": "iot.climate.hvac.set_temp",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "72 degrees",
+          "type": "temperature"
+        }
+      ]
+    },
+    {
+      "id": "iot-003",
+      "text": "lock the front door",
+      "primary_intent": "iot.security.lock.lock",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "front door",
+          "type": "device"
+        }
+      ]
+    },
+    {
+      "id": "iot-004",
+      "text": "dim the bedroom lights to 50%",
+      "primary_intent": "iot.lighting.control.dim",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "bedroom",
+          "type": "room"
+        },
+        {
+          "text": "50%",
+          "type": "brightness"
+        }
+      ]
+    },
+    {
+      "id": "iot-005",
+      "text": "show me the backyard camera feed",
+      "primary_intent": "iot.security.camera.stream",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "backyard",
+          "type": "location"
+        }
+      ]
+    },
+    {
+      "id": "iot-006",
+      "text": "arm the security system in home mode",
+      "primary_intent": "iot.security.alarm.arm",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "home mode",
+          "type": "mode"
+        }
+      ]
+    },
+    {
+      "id": "iot-007",
+      "text": "turn off all the lights downstairs",
+      "primary_intent": "iot.lighting.control.off",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "downstairs",
+          "type": "zone"
+        }
+      ]
+    },
+    {
+      "id": "iot-008",
+      "text": "start the robot vacuum in the kitchen",
+      "primary_intent": "iot.appliances.cleaning.vacuum_start",
+      "context": {
+        "situation": "cleaning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "kitchen",
+          "type": "room"
+        }
+      ]
+    },
+    {
+      "id": "iot-009",
+      "text": "change the lights to blue for movie night",
+      "primary_intent": "iot.lighting.control.color",
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "blue",
+          "type": "color"
+        }
+      ]
+    },
+    {
+      "id": "iot-010",
+      "text": "is the garage door open?",
+      "primary_intent": "iot.security.lock.status",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "garage door",
+          "type": "device"
+        }
+      ]
+    },
+    {
+      "id": "iot-011",
+      "text": "preheat the oven to 350 degrees",
+      "primary_intent": "iot.appliances.kitchen.oven_preheat",
+      "context": {
+        "situation": "cooking",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "350 degrees",
+          "type": "temperature"
+        }
+      ]
+    },
+    {
+      "id": "iot-012",
+      "text": "activate 'Good Morning' scene",
+      "primary_intent": "iot.lighting.control.scene",
+      "context": {
+        "situation": "routine",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Good Morning",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "iot-013",
+      "text": "what is the temperature inside?",
+      "primary_intent": "iot.climate.sensor.temperature",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-014",
+      "text": "unlock the back door for the guest",
+      "primary_intent": "iot.security.lock.unlock",
+      "context": {
+        "situation": "access",
+        "urgency": "medium"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "iot-015",
+      "text": "brew me a coffee",
+      "primary_intent": "iot.appliances.kitchen.coffee_start",
+      "context": {
+        "situation": "routine",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-016",
+      "text": "turn on the fan to high speed",
+      "primary_intent": "iot.climate.hvac.fan_speed",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "high",
+          "type": "speed"
+        }
+      ]
+    },
+    {
+      "id": "iot-017",
+      "text": "set the mood to romantic lighting",
+      "primary_intent": "iot.lighting.control.scene",
+      "context": {
+        "situation": "ambiance",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "romantic",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "iot-018",
+      "text": "stop the vacuum and send it home",
+      "primary_intent": "iot.appliances.cleaning.vacuum_dock",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-019",
+      "text": "disarm the alarm, code 1234",
+      "primary_intent": "iot.security.alarm.disarm",
+      "context": {
+        "situation": "access",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "1234",
+          "type": "pin"
+        }
+      ]
+    },
+    {
+      "id": "iot-020",
+      "text": "is the air quality okay in here?",
+      "primary_intent": "iot.climate.sensor.air_quality",
+      "context": {
+        "situation": "health",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-021",
+      "text": "kitchen lights on",
+      "primary_intent": "iot.lighting.control.on",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-022",
+      "text": "make it warmer in the bedroom",
+      "primary_intent": "iot.climate.hvac.set_temp",
+      "context": {
+        "situation": "comfort",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "warmer",
+          "type": "direction"
+        }
+      ]
+    },
+    {
+      "id": "iot-023",
+      "text": "close the blinds",
+      "primary_intent": "iot.lighting.blinds.close",
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-024",
+      "text": "open the curtains halfway",
+      "primary_intent": "iot.lighting.blinds.open",
+      "context": {
+        "situation": "lighting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-025",
+      "text": "turn off the TV",
+      "primary_intent": "iot.appliances.tv.off",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-026",
+      "text": "lights band kar do",
+      "primary_intent": "iot.lighting.control.off",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "lights",
+          "type": "device"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "iot-027",
+      "text": "AC ka temperature 24 kar do",
+      "primary_intent": "iot.climate.hvac.set_temp",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "24",
+          "type": "temperature"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "iot-028",
+      "text": "darwaza lock hai kya?",
+      "primary_intent": "iot.security.lock.status",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "iot-029",
+      "text": "vacuum chalao hall mein",
+      "primary_intent": "iot.appliances.cleaning.vacuum_start",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "hall",
+          "type": "room"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "iot-030",
+      "text": "turn on the lights... wait, only the desk lamp",
+      "primary_intent": "iot.lighting.control.on",
+      "discourse_features": {
+        "correction": [
+          "wait",
+          "only"
+        ]
+      },
+      "entities": [
+        {
+          "text": "desk lamp",
+          "type": "device"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "iot-031",
+      "text": "it's too cold in here, fix it",
+      "primary_intent": "iot.climate.hvac.set_temp",
+      "context": {
+        "situation": "comfort",
+        "urgency": "medium"
+      },
+      "implicit_goal": "increase_temperature"
+    },
+    {
+      "id": "iot-032",
+      "text": "turn everything off, I'm leaving",
+      "primary_intent": "iot.control.all.off",
+      "context": {
+        "situation": "leaving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-033",
+      "text": "party mode on!",
+      "primary_intent": "iot.lighting.control.scene",
+      "context": {
+        "situation": "party",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "party mode",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "iot-034",
+      "text": "who is at the front door?",
+      "primary_intent": "iot.security.camera.stream",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-035",
+      "text": "snapshot from the hallway camera",
+      "primary_intent": "iot.security.camera.snapshot",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-036",
+      "text": "turn on the sprinkler system",
+      "primary_intent": "iot.garden.sprinkler.on",
+      "context": {
+        "situation": "garden",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-037",
+      "text": "water the lawn for 15 minutes",
+      "primary_intent": "iot.garden.sprinkler.timer",
+      "context": {
+        "situation": "garden",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "15 minutes",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "iot-038",
+      "text": "check the humidity level",
+      "primary_intent": "iot.climate.sensor.humidity",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-039",
+      "text": "turn the heater off",
+      "primary_intent": "iot.climate.hvac.off",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-040",
+      "text": "sync my smart bulbs",
+      "primary_intent": "iot.device.sync",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-041",
+      "text": "change light color to warm white",
+      "primary_intent": "iot.lighting.control.color",
+      "context": {
+        "situation": "lighting",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "warm white",
+          "type": "color"
+        }
+      ]
+    },
+    {
+      "id": "iot-042",
+      "text": "set wake up alarm with lights",
+      "primary_intent": "iot.lighting.automation.wakeup",
+      "context": {
+        "situation": "routine",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-043",
+      "text": "announce 'dinner is ready' on all speakers",
+      "primary_intent": "iot.intercom.announce",
+      "context": {
+        "situation": "communication",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "dinner is ready",
+          "type": "message"
+        }
+      ]
+    },
+    {
+      "id": "iot-044",
+      "text": "broadcast message to kids room",
+      "primary_intent": "iot.intercom.broadcast",
+      "context": {
+        "situation": "communication",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-045",
+      "text": "pause the washing machine",
+      "primary_intent": "iot.appliances.washer.pause",
+      "context": {
+        "situation": "control",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-046",
+      "text": "how much time left on the dryer?",
+      "primary_intent": "iot.appliances.dryer.status",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-047",
+      "text": "boil water",
+      "primary_intent": "iot.appliances.kettle.on",
+      "context": {
+        "situation": "cooking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-048",
+      "text": "unlock the car",
+      "primary_intent": "iot.automotive.unlock",
+      "context": {
+        "situation": "access",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "iot-049",
+      "text": "start the car climate",
+      "primary_intent": "iot.automotive.climate.start",
+      "context": {
+        "situation": "comfort",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-050",
+      "text": "where is my car?",
+      "primary_intent": "iot.automotive.locate",
+      "context": {
+        "situation": "locate",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-051",
+      "text": "check car battery status",
+      "primary_intent": "iot.automotive.battery",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-052",
+      "text": "feed the dog",
+      "primary_intent": "iot.pets.feeder.dispense",
+      "context": {
+        "situation": "care",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-053",
+      "text": "turn on the aquarium lights",
+      "primary_intent": "iot.pets.aquarium.lights.on",
+      "context": {
+        "situation": "care",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-054",
+      "text": "set light brightness to 10%",
+      "primary_intent": "iot.lighting.control.dim",
+      "context": {
+        "situation": "lighting",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "10%",
+          "type": "brightness"
+        }
+      ]
+    },
+    {
+      "id": "iot-055",
+      "text": "turn off the pool pump",
+      "primary_intent": "iot.garden.pool.pump.off",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-056",
+      "text": "heat up the jacuzzi",
+      "primary_intent": "iot.garden.pool.heater.on",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-057",
+      "text": "what lights are currently on?",
+      "primary_intent": "iot.lighting.query.active",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-058",
+      "text": "panic button!",
+      "primary_intent": "iot.security.alarm.panic",
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      },
+      "emotional_context": {
+        "tone": "fear",
+        "intensity": 1
+      }
+    },
+    {
+      "id": "iot-059",
+      "text": "silence the smoke alarm",
+      "primary_intent": "iot.safety.smoke.silence",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "iot-060",
+      "text": "reboot the router",
+      "primary_intent": "iot.network.router.reboot",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-061",
+      "text": "test internet speed",
+      "primary_intent": "iot.network.speedtest",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-062",
+      "text": "block device from wifi",
+      "primary_intent": "iot.network.block_device",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-063",
+      "text": "enable guest wifi",
+      "primary_intent": "iot.network.guest.on",
+      "context": {
+        "situation": "access",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-064",
+      "text": "find my phone",
+      "primary_intent": "iot.device.find_phone",
+      "context": {
+        "situation": "locate",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-065",
+      "text": "ring my keys",
+      "primary_intent": "iot.device.tracker.ring",
+      "context": {
+        "situation": "locate",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-066",
+      "text": "turn on the smart plug",
+      "primary_intent": "iot.power.plug.on",
+      "context": {
+        "situation": "control",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-067",
+      "text": "energy usage for the fridge",
+      "primary_intent": "iot.power.usage.check",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-068",
+      "text": "turn off the water main",
+      "primary_intent": "iot.utilities.water.off",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "iot-069",
+      "text": "check water leak sensors",
+      "primary_intent": "iot.utilities.leak_sensor.status",
+      "context": {
+        "situation": "safety",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-070",
+      "text": "open the safe",
+      "primary_intent": "iot.security.safe.open",
+      "context": {
+        "situation": "access",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "iot-071",
+      "text": "vent the skylight",
+      "primary_intent": "iot.climate.skylight.open",
+      "context": {
+        "situation": "ventilation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-072",
+      "text": "close the awning",
+      "primary_intent": "iot.garden.awning.close",
+      "context": {
+        "situation": "protection",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-073",
+      "text": "start the fireplace",
+      "primary_intent": "iot.climate.fireplace.on",
+      "context": {
+        "situation": "comfort",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-074",
+      "text": "check solar panel output",
+      "primary_intent": "iot.power.solar.stats",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-075",
+      "text": "charge the car to 80%",
+      "primary_intent": "iot.automotive.charge.set_limit",
+      "context": {
+        "situation": "charging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-076",
+      "text": "stop charging",
+      "primary_intent": "iot.automotive.charge.stop",
+      "context": {
+        "situation": "charging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-077",
+      "text": "record a video message",
+      "primary_intent": "iot.intercom.record_message",
+      "context": {
+        "situation": "communication",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-078",
+      "text": "reset the smart lock",
+      "primary_intent": "iot.security.lock.reset",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "iot-079",
+      "text": "update firmware for all devices",
+      "primary_intent": "iot.system.update",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "iot-080",
+      "text": "schedule lights on at sunset",
+      "primary_intent": "iot.automation.schedule.sunset",
+      "context": {
+        "situation": "automation",
+        "urgency": "low"
+      }
+    }
+  ]
+}

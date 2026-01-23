@@ -1,0 +1,996 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-016",
+    "domain": "education",
+    "focus_areas": [
+      "tutoring",
+      "quiz",
+      "language_learning",
+      "coursework",
+      "research"
+    ],
+    "generated_at": "2026-01-23T14:00:00.000Z",
+    "total_samples": 85,
+    "grade_level": "mixed"
+  },
+  "intent_taxonomy": {
+    "learning": {
+      "explain": [
+        "concept",
+        "step_by_step",
+        "analogy",
+        "summary"
+      ],
+      "quiz": [
+        "start",
+        "answer",
+        "score",
+        "review"
+      ],
+      "practice": [
+        "exercise",
+        "problem_solving",
+        "flashcards"
+      ]
+    },
+    "language": {
+      "learn": [
+        "translate",
+        "vocabulary",
+        "grammar",
+        "pronunciation",
+        "conversation"
+      ]
+    },
+    "academic": {
+      "research": [
+        "find_sources",
+        "cite",
+        "fact_check"
+      ],
+      "coursework": [
+        "schedule",
+        "deadline",
+        "calculator"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "edu-001",
+      "text": "explain the theory of relativity like I'm 5 years old",
+      "primary_intent": "education.learning.explain.analogy",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "theory of relativity",
+          "type": "topic"
+        },
+        {
+          "text": "5 years old",
+          "type": "complexity_level"
+        }
+      ]
+    },
+    {
+      "id": "edu-002",
+      "text": "quiz me on world capitals",
+      "primary_intent": "education.learning.quiz.start",
+      "context": {
+        "situation": "practice",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "world capitals",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "edu-003",
+      "text": "how do you say 'where is the train station' in Japanese?",
+      "primary_intent": "education.language.learn.translate",
+      "context": {
+        "situation": "travel",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "where is the train station",
+          "type": "phrase"
+        },
+        {
+          "text": "Japanese",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "edu-004",
+      "text": "solve this quadratic equation: x^2 + 5x + 6 = 0",
+      "primary_intent": "education.learning.practice.problem_solving",
+      "context": {
+        "situation": "homework",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "x^2 + 5x + 6 = 0",
+          "type": "problem"
+        }
+      ]
+    },
+    {
+      "id": "edu-005",
+      "text": "create flashcards for biology terms",
+      "primary_intent": "education.learning.practice.flashcards",
+      "context": {
+        "situation": "study",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "biology",
+          "type": "subject"
+        }
+      ]
+    },
+    {
+      "id": "edu-006",
+      "text": "what is the difference between affect and effect?",
+      "primary_intent": "education.language.learn.grammar",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-007",
+      "text": "help me practice my Spanish pronunciation",
+      "primary_intent": "education.language.learn.pronunciation",
+      "context": {
+        "situation": "practice",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Spanish",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "edu-008",
+      "text": "summarize the main causes of World War 1",
+      "primary_intent": "education.learning.explain.summary",
+      "context": {
+        "situation": "history",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "World War 1",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "edu-009",
+      "text": "cite this article in APA format",
+      "primary_intent": "education.academic.research.cite",
+      "context": {
+        "situation": "writing",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "APA",
+          "type": "format"
+        }
+      ]
+    },
+    {
+      "id": "edu-010",
+      "text": "give me a math problem to solve",
+      "primary_intent": "education.learning.practice.exercise",
+      "context": {
+        "situation": "practice",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "math",
+          "type": "subject"
+        }
+      ]
+    },
+    {
+      "id": "edu-011",
+      "text": "check my answer: is it 42?",
+      "primary_intent": "education.learning.quiz.answer",
+      "context": {
+        "situation": "quiz",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "42",
+          "type": "answer"
+        }
+      ]
+    },
+    {
+      "id": "edu-012",
+      "text": "teach me basic python loops",
+      "primary_intent": "education.learning.explain.step_by_step",
+      "context": {
+        "situation": "coding",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "python loops",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "edu-013",
+      "text": "find academic sources for climate change effects",
+      "primary_intent": "education.academic.research.find_sources",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "climate change effects",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "edu-014",
+      "text": "when is my calculus assignment due?",
+      "primary_intent": "education.academic.coursework.deadline",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "calculus assignment",
+          "type": "assignment"
+        }
+      ]
+    },
+    {
+      "id": "edu-015",
+      "text": "fact check this claim: eating carrots improves night vision",
+      "primary_intent": "education.academic.research.fact_check",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-016",
+      "text": "what is a synonym for 'happy'?",
+      "primary_intent": "education.language.learn.vocabulary",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-017",
+      "text": "explain the water cycle",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-018",
+      "text": "generate a study schedule for finals week",
+      "primary_intent": "education.academic.coursework.schedule",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "finals week",
+          "type": "event"
+        }
+      ]
+    },
+    {
+      "id": "edu-019",
+      "text": "calculate the derivative of sin(x)",
+      "primary_intent": "education.academic.coursework.calculator",
+      "context": {
+        "situation": "homework",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "sin(x)",
+          "type": "expression"
+        }
+      ]
+    },
+    {
+      "id": "edu-020",
+      "text": "let's have a conversation in French",
+      "primary_intent": "education.language.learn.conversation",
+      "context": {
+        "situation": "practice",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "French",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "edu-021",
+      "text": "what is my current quiz score?",
+      "primary_intent": "education.learning.quiz.score",
+      "context": {
+        "situation": "quiz",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-022",
+      "text": "review my wrong answers",
+      "primary_intent": "education.learning.quiz.review",
+      "context": {
+        "situation": "quiz",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-023",
+      "text": "explain how a blockchain works",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "tech",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-024",
+      "text": "pythagoras theorem kya hai?",
+      "primary_intent": "education.learning.explain.concept",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "pythagoras theorem",
+          "type": "topic"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "edu-025",
+      "text": "translate 'Hello' to German... wait no, to Italian",
+      "primary_intent": "education.language.learn.translate",
+      "discourse_features": {
+        "correction": [
+          "wait no",
+          "Italian"
+        ]
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-026",
+      "text": "I don't understand photosynthesis, can you simplify it?",
+      "primary_intent": "education.learning.explain.analogy",
+      "context": {
+        "situation": "learning",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "confused",
+        "intensity": 0.5
+      }
+    },
+    {
+      "id": "edu-027",
+      "text": "give me a harder physics problem",
+      "primary_intent": "education.learning.practice.exercise",
+      "context": {
+        "situation": "practice",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "harder",
+          "type": "difficulty"
+        },
+        {
+          "text": "physics",
+          "type": "subject"
+        }
+      ]
+    },
+    {
+      "id": "edu-028",
+      "text": "conjugate the verb 'to be' in Spanish",
+      "primary_intent": "education.language.learn.grammar",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-029",
+      "text": "list the planets in the solar system",
+      "primary_intent": "education.learning.explain.list",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-030",
+      "text": "who wrote 'To Kill a Mockingbird'?",
+      "primary_intent": "education.learning.explain.fact",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-031",
+      "text": "calculate the area of a circle with radius 5",
+      "primary_intent": "education.academic.coursework.calculator",
+      "context": {
+        "situation": "homework",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "circle",
+          "type": "shape"
+        },
+        {
+          "text": "radius 5",
+          "type": "dimension"
+        }
+      ]
+    },
+    {
+      "id": "edu-032",
+      "text": "help me memorize the periodic table",
+      "primary_intent": "education.learning.practice.flashcards",
+      "context": {
+        "situation": "study",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-033",
+      "text": "correct my sentence: 'He don't like apples'",
+      "primary_intent": "education.language.learn.grammar",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-034",
+      "text": "what does 'ubiquitous' mean?",
+      "primary_intent": "education.language.learn.vocabulary",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-035",
+      "text": "simulate a chemistry experiment",
+      "primary_intent": "education.learning.practice.simulation",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-036",
+      "text": "summarize the plot of Hamlet",
+      "primary_intent": "education.learning.explain.summary",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-037",
+      "text": "how do I cite a website in MLA?",
+      "primary_intent": "education.academic.research.cite",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "MLA",
+          "type": "format"
+        }
+      ]
+    },
+    {
+      "id": "edu-038",
+      "text": "convert 100 degrees Fahrenheit to Celsius",
+      "primary_intent": "education.academic.coursework.calculator",
+      "context": {
+        "situation": "util",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-039",
+      "text": "explain the significance of the Magna Carta",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "history",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-040",
+      "text": "teach me how to play chess",
+      "primary_intent": "education.learning.explain.step_by_step",
+      "context": {
+        "situation": "skill",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-041",
+      "text": "prepare me for the SAT math section",
+      "primary_intent": "education.learning.quiz.start",
+      "context": {
+        "situation": "prep",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "SAT math",
+          "type": "exam"
+        }
+      ]
+    },
+    {
+      "id": "edu-042",
+      "text": "what is the capital of Mongolia?",
+      "primary_intent": "education.learning.explain.fact",
+      "context": {
+        "situation": "geography",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-043",
+      "text": "hindi mein batao 'gravity' kya hoti hai",
+      "primary_intent": "education.learning.explain.concept",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-044",
+      "text": "explain quantum entanglement simply",
+      "primary_intent": "education.learning.explain.analogy",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-045",
+      "text": "give me a hint for this puzzle",
+      "primary_intent": "education.learning.practice.hint",
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "edu-046",
+      "text": "what topics are on the history exam?",
+      "primary_intent": "education.academic.coursework.syllabus",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "edu-047",
+      "text": "find me a tutorial on origami",
+      "primary_intent": "education.learning.explain.step_by_step",
+      "context": {
+        "situation": "skill",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-048",
+      "text": "check plagarism for this essay",
+      "primary_intent": "education.academic.research.check_plagiarism",
+      "context": {
+        "situation": "writing",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "edu-049",
+      "text": "generate a bibliography",
+      "primary_intent": "education.academic.research.bibliography",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-050",
+      "text": "what is the atomic number of Gold?",
+      "primary_intent": "education.learning.explain.fact",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-051",
+      "text": "help me with my homework",
+      "primary_intent": "education.learning.homework_help",
+      "context": {
+        "situation": "homework",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-052",
+      "text": "define 'metaphor'",
+      "primary_intent": "education.language.learn.vocabulary",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-053",
+      "text": "how do I use valid arguments in a debate?",
+      "primary_intent": "education.learning.explain.technique",
+      "context": {
+        "situation": "skill",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-054",
+      "text": "teach me a new word every day",
+      "primary_intent": "education.language.learn.daily_word",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-055",
+      "text": "explain the rules of cricket",
+      "primary_intent": "education.learning.explain.rules",
+      "context": {
+        "situation": "sports",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-056",
+      "text": "what is the Pythagorean theorem?",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "math",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-057",
+      "text": "translate this paragraph to Mandarin",
+      "primary_intent": "education.language.learn.translate",
+      "context": {
+        "situation": "translation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Mandarin",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "edu-058",
+      "text": "give me a reading list for philosophy beginners",
+      "primary_intent": "education.academic.research.reading_list",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-059",
+      "text": "how to properly use a semicolon",
+      "primary_intent": "education.language.learn.grammar",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-060",
+      "text": "explain photosynthesis step by step",
+      "primary_intent": "education.learning.explain.step_by_step",
+      "context": {
+        "situation": "science",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-061",
+      "text": "quiz me on the periodic table",
+      "primary_intent": "education.learning.quiz.start",
+      "context": {
+        "situation": "quiz",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-062",
+      "text": "what's the French word for 'bread'?",
+      "primary_intent": "education.language.learn.vocabulary",
+      "context": {
+        "situation": "language",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-063",
+      "text": "help me solve this riddle",
+      "primary_intent": "education.learning.practice.problem_solving",
+      "context": {
+        "situation": "puzzle",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-064",
+      "text": "summarize Chapter 5 of The Great Gatsby",
+      "primary_intent": "education.learning.explain.summary",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-065",
+      "text": "create a timeline of the Civil War",
+      "primary_intent": "education.learning.explain.timeline",
+      "context": {
+        "situation": "history",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-066",
+      "text": "is 'irregardless' a word?",
+      "primary_intent": "education.language.learn.vocabulary",
+      "context": {
+        "situation": "grammar",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-067",
+      "text": "explain the stock market to a teenager",
+      "primary_intent": "education.learning.explain.analogy",
+      "context": {
+        "situation": "economics",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-068",
+      "text": "find a map of ancient Rome",
+      "primary_intent": "education.academic.research.find_map",
+      "context": {
+        "situation": "history",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-069",
+      "text": "what year did man land on the moon?",
+      "primary_intent": "education.learning.explain.fact",
+      "context": {
+        "situation": "history",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-070",
+      "text": "help me understand binary code",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "tech",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-071",
+      "text": "give me an example of alliteration",
+      "primary_intent": "education.language.learn.example",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-072",
+      "text": "review the basics of trigonometry",
+      "primary_intent": "education.learning.explain.review",
+      "context": {
+        "situation": "math",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-073",
+      "text": "what is the function of the mitochondria?",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "biology",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-074",
+      "text": "practice interview questions",
+      "primary_intent": "education.learning.practice.interview",
+      "context": {
+        "situation": "career",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "edu-075",
+      "text": "explain the difference between socialism and communism",
+      "primary_intent": "education.learning.explain.comparison",
+      "context": {
+        "situation": "politics",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-076",
+      "text": "how to write a thesis statement",
+      "primary_intent": "education.learning.explain.technique",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-077",
+      "text": "convert 'hello' to binary",
+      "primary_intent": "education.academic.coursework.calculator",
+      "context": {
+        "situation": "tech",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-078",
+      "text": "analyze this poem",
+      "primary_intent": "education.learning.explain.analysis",
+      "context": {
+        "situation": "literature",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-079",
+      "text": "recommend a documentary on space",
+      "primary_intent": "education.academic.research.recommend",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-080",
+      "text": "define 'existentialism'",
+      "primary_intent": "education.learning.explain.concept",
+      "context": {
+        "situation": "philosophy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-081",
+      "text": "help me pronounce 'Worcestershire'",
+      "primary_intent": "education.language.learn.pronunciation",
+      "context": {
+        "situation": "language",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-082",
+      "text": "what are the primary colors?",
+      "primary_intent": "education.learning.explain.fact",
+      "context": {
+        "situation": "art",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-083",
+      "text": "explain how a car engine works",
+      "primary_intent": "education.learning.explain.process",
+      "context": {
+        "situation": "engineering",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-084",
+      "text": "solve for x: 2x + 4 = 10",
+      "primary_intent": "education.learning.practice.problem_solving",
+      "context": {
+        "situation": "math",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "edu-085",
+      "text": "create a quiz on US Presidents",
+      "primary_intent": "education.learning.quiz.create",
+      "context": {
+        "situation": "quiz",
+        "urgency": "low"
+      }
+    }
+  ]
+}

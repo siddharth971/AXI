@@ -1,0 +1,974 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-005",
+    "domain": "browser",
+    "focus_areas": [
+      "navigation",
+      "tab_management",
+      "search",
+      "media_control",
+      "history"
+    ],
+    "generated_at": "2026-01-23T11:00:00.000Z",
+    "total_samples": 150,
+    "browser_specifics": true
+  },
+  "intent_taxonomy": {
+    "navigation": {
+      "open": [
+        "open.url",
+        "open.search",
+        "open.new_tab",
+        "open.new_window",
+        "open.incognito"
+      ],
+      "movement": [
+        "back",
+        "forward",
+        "reload",
+        "stop",
+        "home"
+      ],
+      "page": [
+        "scroll.down",
+        "scroll.up",
+        "zoom.in",
+        "zoom.out",
+        "print",
+        "save"
+      ]
+    },
+    "tabs": {
+      "manage": [
+        "close.current",
+        "close.others",
+        "close.right",
+        "close.all",
+        "reopen"
+      ],
+      "switch": [
+        "next",
+        "previous",
+        "goto.index",
+        "goto.match"
+      ],
+      "organize": [
+        "pin",
+        "unpin",
+        "duplicate",
+        "group",
+        "mute"
+      ]
+    },
+    "search": {
+      "engine": [
+        "google",
+        "youtube",
+        "amazon",
+        "wiki",
+        "images",
+        "maps"
+      ],
+      "context": [
+        "find_on_page",
+        "search_selected"
+      ]
+    },
+    "history": {
+      "view": [
+        "show_history",
+        "show_downloads"
+      ],
+      "manage": [
+        "clear_history",
+        "clear_cookies",
+        "clear_cache"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "br-001",
+      "text": "open a new incognito window and go to reddit",
+      "primary_intent": "browser.open.incognito",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "reddit",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "br-002",
+      "text": "close all tabs to the right of this one",
+      "primary_intent": "browser.tabs.close.right",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-003",
+      "text": "reopen that tab I just closed by accident",
+      "primary_intent": "browser.tabs.reopen",
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "correcting"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "br-004",
+      "text": "find 'revenue' on this page",
+      "primary_intent": "browser.find_on_page",
+      "context": {
+        "situation": "research",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "revenue",
+          "type": "search_term"
+        }
+      ]
+    },
+    {
+      "id": "br-005",
+      "text": "mute this tab, the auto-play video is annoying",
+      "primary_intent": "browser.tabs.mute",
+      "emotional_context": {
+        "tone": "annoyed",
+        "intensity": 0.6,
+        "markers": [
+          "annoying"
+        ]
+      },
+      "context": {
+        "situation": "browsing",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-006",
+      "text": "zoom in a bit, the text is too small",
+      "primary_intent": "browser.page.zoom.in",
+      "context": {
+        "situation": "reading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-007",
+      "text": "hard refresh this page, the chache is stale",
+      "primary_intent": "browser.navigation.reload",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "hard refresh",
+          "type": "action_modifier"
+        }
+      ]
+    },
+    {
+      "id": "br-008",
+      "text": "bookmark all these open tabs into a folder called 'Research Project'",
+      "primary_intent": "browser.bookmarks.add_all",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Research Project",
+          "type": "folder_name"
+        }
+      ]
+    },
+    {
+      "id": "br-009",
+      "text": "switch to the tab that has YouTube open",
+      "primary_intent": "browser.tabs.goto.match",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "YouTube",
+          "type": "website_match"
+        }
+      ]
+    },
+    {
+      "id": "br-010",
+      "text": "clear my browsing history from the last hour only",
+      "primary_intent": "browser.history.clear",
+      "context": {
+        "situation": "privacy",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "last hour",
+          "type": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "br-011",
+      "text": "search amazon for 'mechanical keyboard silent switches'",
+      "primary_intent": "browser.search.amazon",
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "mechanical keyboard silent switches",
+          "type": "query"
+        }
+      ]
+    },
+    {
+      "id": "br-012",
+      "text": "duplicate this tab so I can keep reading while I check the link",
+      "primary_intent": "browser.tabs.duplicate",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-013",
+      "text": "go back two pages",
+      "primary_intent": "browser.navigation.back",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "two",
+          "type": "count"
+        }
+      ]
+    },
+    {
+      "id": "br-014",
+      "text": "print this page but save it as a PDF",
+      "primary_intent": "browser.page.save",
+      "context": {
+        "situation": "work",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "PDF",
+          "type": "format"
+        }
+      ]
+    },
+    {
+      "id": "br-015",
+      "text": "scroll down to the bottom of the page",
+      "primary_intent": "browser.page.scroll.bottom",
+      "context": {
+        "situation": "reading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-016",
+      "text": "pin this tab so I don't accidentally close it",
+      "primary_intent": "browser.tabs.pin",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-017",
+      "text": "open the dev tools panel",
+      "primary_intent": "browser.dev.open_tools",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-018",
+      "text": "what is the IP address of this website?",
+      "primary_intent": "knowledge.dynamic.website_info",
+      "context": {
+        "situation": "investigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-019",
+      "text": "search google images for 'cyberpunk city wallpapers 4k'",
+      "primary_intent": "browser.search.images",
+      "context": {
+        "situation": "creative",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "cyberpunk city wallpapers 4k",
+          "type": "query"
+        }
+      ]
+    },
+    {
+      "id": "br-020",
+      "text": "close all these clutter tabs, keep only the pinned ones",
+      "primary_intent": "browser.tabs.close.unpinned",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-021",
+      "text": "open youtube and play lofi hip hop radio",
+      "primary_intent": "browser.search.youtube",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      },
+      "compound_action": [
+        "open.url",
+        "media.play"
+      ]
+    },
+    {
+      "id": "br-022",
+      "text": "translate this page to Spanish",
+      "primary_intent": "browser.page.translate",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Spanish",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "br-023",
+      "text": "show me my recent downloads",
+      "primary_intent": "browser.history.show_downloads",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-024",
+      "text": "copy the current URL to clipboard",
+      "primary_intent": "browser.url.copy",
+      "context": {
+        "situation": "sharing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-025",
+      "text": "go home",
+      "primary_intent": "browser.navigation.home",
+      "context": {
+        "situation": "reset",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-026",
+      "text": "search wikipedia for 'quantum entanglement'",
+      "primary_intent": "browser.search.wiki",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-027",
+      "text": "group these tabs under 'Shopping'",
+      "primary_intent": "browser.tabs.group",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Shopping",
+          "type": "group_name"
+        }
+      ]
+    },
+    {
+      "id": "br-028",
+      "text": "open developer settings and clear site data",
+      "primary_intent": "browser.dev.clear_data",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-029",
+      "text": "stop loading, it's taking too long",
+      "primary_intent": "browser.navigation.stop",
+      "context": {
+        "situation": "browsing",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.4
+      }
+    },
+    {
+      "id": "br-030",
+      "text": "restore the last session",
+      "primary_intent": "browser.session.restore",
+      "context": {
+        "situation": "recovery",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-031",
+      "text": "open task manager for the browser",
+      "primary_intent": "browser.task_manager",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-032",
+      "text": "switch to the third tab",
+      "primary_intent": "browser.tabs.goto.index",
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "third",
+          "type": "ordinal"
+        }
+      ]
+    },
+    {
+      "id": "br-033",
+      "text": "move this tab to a new window",
+      "primary_intent": "browser.tabs.move.new_window",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-034",
+      "text": "search maps for 'coffee shops near me'",
+      "primary_intent": "browser.search.maps",
+      "context": {
+        "situation": "navigation",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-035",
+      "text": "increase font size",
+      "primary_intent": "browser.page.zoom.in",
+      "context": {
+        "situation": "accessibility",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-036",
+      "text": "reset zoom level to default",
+      "primary_intent": "browser.page.zoom.reset",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-037",
+      "text": "view page source",
+      "primary_intent": "browser.dev.view_source",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-038",
+      "text": "inspect this element",
+      "primary_intent": "browser.dev.inspect",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-039",
+      "text": "take a full page screenshot",
+      "primary_intent": "browser.screenshot.full",
+      "context": {
+        "situation": "capture",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-040",
+      "text": "enable reader view for this article",
+      "primary_intent": "browser.page.reader_mode",
+      "context": {
+        "situation": "reading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-041",
+      "text": "go to localhost port 3000",
+      "primary_intent": "browser.open.localhost",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "3000",
+          "type": "port"
+        }
+      ]
+    },
+    {
+      "id": "br-042",
+      "text": "refresh all tabs",
+      "primary_intent": "browser.navigation.reload_all",
+      "context": {
+        "situation": "update",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-043",
+      "text": "search for selected text",
+      "primary_intent": "browser.search.selected",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-044",
+      "text": "open history page",
+      "primary_intent": "browser.history.show",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-045",
+      "text": "bookmark this page",
+      "primary_intent": "browser.bookmarks.add",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-046",
+      "text": "show my bookmarks bar",
+      "primary_intent": "browser.view.toggle_bookmarks",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-047",
+      "text": "check if this site is secure",
+      "primary_intent": "browser.security.check",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-048",
+      "text": "manage my passwords",
+      "primary_intent": "browser.security.passwords",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-049",
+      "text": "block popups on this site",
+      "primary_intent": "browser.settings.block_popups",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-050",
+      "text": "allow location access for maps",
+      "primary_intent": "browser.settings.allow_location",
+      "context": {
+        "situation": "browsing",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-051",
+      "text": "tab band kar do",
+      "primary_intent": "browser.tabs.close.current",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-052",
+      "text": "google pe search karo 'best laptops 2026'",
+      "primary_intent": "browser.search.google",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-053",
+      "text": "refresh maro, page load nahi ho raha",
+      "primary_intent": "browser.navigation.reload",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.5
+      },
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-054",
+      "text": "woh wala tab kholo jisme music chal raha hai",
+      "primary_intent": "browser.tabs.goto.match",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-055",
+      "text": "incognito mode mein facebook open karo",
+      "primary_intent": "browser.open.incognito",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-056",
+      "text": "history clear kar do, sab kuch uda do",
+      "primary_intent": "browser.history.clear",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "privacy",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-057",
+      "text": "agli tab pe jao",
+      "primary_intent": "browser.tabs.next",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-058",
+      "text": "pichli tab pe wapas jao",
+      "primary_intent": "browser.tabs.previous",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-059",
+      "text": "zoom badhao",
+      "primary_intent": "browser.page.zoom.in",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "accessibility",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-060",
+      "text": "nayi window kholo",
+      "primary_intent": "browser.open.new_window",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-061",
+      "text": "I think I closed the wrong tab, can you bring it back?",
+      "primary_intent": "browser.tabs.reopen",
+      "discourse_features": {
+        "hedging": [
+          "I think"
+        ]
+      },
+      "cognitive_state": {
+        "type": "correcting"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "br-062",
+      "text": "wait, don't close that! I haven't saved my work",
+      "primary_intent": "cancel",
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.8
+      },
+      "context": {
+        "situation": "work",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "br-063",
+      "text": "actually, open that in a new tab instead",
+      "primary_intent": "browser.open.new_tab",
+      "discourse_features": {
+        "repairs": [
+          "actually"
+        ]
+      },
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-064",
+      "text": "find the pdf download link, it should be somewhere on this page",
+      "primary_intent": "browser.find_on_page",
+      "context": {
+        "situation": "research",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-065",
+      "text": "scroll up a little... a bit more... okay stop",
+      "primary_intent": "browser.page.scroll.up",
+      "discourse_features": {
+        "progressive_refinement": true
+      },
+      "context": {
+        "situation": "reading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-066",
+      "text": "is there a way to mute just this site forever?",
+      "primary_intent": "browser.settings.mute_site",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-067",
+      "text": "open the last closed tab, I wasn't done with it",
+      "primary_intent": "browser.tabs.reopen",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-068",
+      "text": "search for 'weather in Tokyo' and tell me the result",
+      "primary_intent": "browser.search.google",
+      "context": {
+        "situation": "info_seeking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-069",
+      "text": "close all tabs except the one with my email",
+      "primary_intent": "browser.tabs.close.others",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-070",
+      "text": "go to the bottom of the page to accept the cookies",
+      "primary_intent": "browser.page.scroll.bottom",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-071",
+      "text": "reload the page, it's stuck",
+      "primary_intent": "browser.navigation.reload",
+      "emotional_context": {
+        "tone": "annoyed",
+        "intensity": 0.4
+      },
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "br-072",
+      "text": "open a new tab and go to gmail.com",
+      "primary_intent": "browser.open.url",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "gmail.com",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "id": "br-073",
+      "text": "switch to the next tab",
+      "primary_intent": "browser.tabs.next",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-074",
+      "text": "previous tab please",
+      "primary_intent": "browser.tabs.previous",
+      "context": {
+        "situation": "browsing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "br-075",
+      "text": "jump to the fifth tab",
+      "primary_intent": "browser.tabs.goto.index",
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "fifth",
+          "type": "ordinal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1703 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-002",
+    "focus_area": "cognitive_states_emotional_variations",
+    "description": "Cross-domain samples demonstrating various mental states and emotional expressions",
+    "generated_at": "2026-01-23T10:35:00.000Z",
+    "total_samples": 120,
+    "psychological_diversity": true,
+    "domain": "cognitive"
+  },
+  "cognitive_state_taxonomy": {
+    "confusion": {
+      "markers": [
+        "umm",
+        "wait what",
+        "I don't understand",
+        "confused",
+        "not sure",
+        "huh"
+      ],
+      "patterns": [
+        "interrupted thinking",
+        "repeated questions",
+        "vague references"
+      ]
+    },
+    "overconfidence": {
+      "markers": [
+        "definitely",
+        "obviously",
+        "of course",
+        "100%",
+        "absolutely",
+        "certainly"
+      ],
+      "patterns": [
+        "assertive commands",
+        "no hedging",
+        "dismissive of alternatives"
+      ]
+    },
+    "anxiety": {
+      "markers": [
+        "worried",
+        "nervous",
+        "what if",
+        "hope",
+        "fingers crossed",
+        "scared"
+      ],
+      "patterns": [
+        "seeking reassurance",
+        "double-checking",
+        "worst-case thinking"
+      ]
+    },
+    "curiosity": {
+      "markers": [
+        "interesting",
+        "wonder",
+        "how come",
+        "tell me more",
+        "curious"
+      ],
+      "patterns": [
+        "exploratory questions",
+        "follow-ups",
+        "tangent exploration"
+      ]
+    },
+    "impatience": {
+      "markers": [
+        "just",
+        "hurry",
+        "quick",
+        "already",
+        "come on",
+        "faster"
+      ],
+      "patterns": [
+        "short commands",
+        "interruptions",
+        "task-focused only"
+      ]
+    },
+    "distractedness": {
+      "markers": [
+        "wait",
+        "oh also",
+        "before I forget",
+        "anyway",
+        "sorry where were we"
+      ],
+      "patterns": [
+        "topic jumps",
+        "incomplete thoughts",
+        "tangential mentions"
+      ]
+    },
+    "precision_seeking": {
+      "markers": [
+        "exactly",
+        "specifically",
+        "precisely",
+        "make sure",
+        "confirm"
+      ],
+      "patterns": [
+        "detailed specifications",
+        "verification requests",
+        "parameters"
+      ]
+    },
+    "playfulness": {
+      "markers": [
+        "haha",
+        "lol",
+        "fun",
+        "silly",
+        "guess what",
+        "oops"
+      ],
+      "patterns": [
+        "jokes",
+        "sarcasm",
+        "casual banter",
+        "exaggeration"
+      ]
+    },
+    "mental_fatigue": {
+      "markers": [
+        "tired",
+        "exhausted",
+        "can't think",
+        "brain fog",
+        "done"
+      ],
+      "patterns": [
+        "simplified requests",
+        "giving up behaviors",
+        "delegation"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "cs-001",
+      "text": "umm wait I need to... what was I trying to do again? oh right, open youtube",
+      "primary_intent": "open_youtube",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "confused",
+        "intensity": 0.6
+      },
+      "cognitive_state": {
+        "type": "confused",
+        "confidence_level": 0.3,
+        "mental_load": "high"
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "false_starts": [
+          "I need to..."
+        ],
+        "filler_words": [
+          "umm wait",
+          "oh right"
+        ]
+      }
+    },
+    {
+      "id": "cs-002",
+      "text": "I'm 100% sure the file is in downloads, just find it",
+      "primary_intent": "file.search",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "confident",
+        "intensity": 0.8,
+        "markers": [
+          "100%",
+          "just"
+        ]
+      },
+      "cognitive_state": {
+        "type": "overconfident",
+        "confidence_level": 0.99
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-003",
+      "text": "oh god I hope this doesn't delete everything... okay backup first, then format",
+      "primary_intent": "system.backup",
+      "secondary_intent": "storage.format",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.7,
+        "markers": [
+          "oh god",
+          "hope"
+        ]
+      },
+      "cognitive_state": {
+        "type": "cautious",
+        "confidence_level": 0.5
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "cs-004",
+      "text": "ooh interesting, what if I asked you to explain how neural networks work?",
+      "primary_intent": "knowledge.explain",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "curious",
+        "intensity": 0.6,
+        "markers": [
+          "ooh interesting",
+          "what if"
+        ]
+      },
+      "cognitive_state": {
+        "type": "exploratory",
+        "confidence_level": 0.7
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "cs-005",
+      "text": "just do it already, stop asking questions",
+      "primary_intent": "confirmation.proceed",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.8,
+        "markers": [
+          "just",
+          "already",
+          "stop"
+        ]
+      },
+      "cognitive_state": {
+        "type": "rushed",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "cs-006",
+      "text": "set a reminder for... actually no wait, also need to check my calendar, oh and send that email",
+      "primary_intent": "productivity.reminder",
+      "secondary_intent": "productivity.calendar",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "scattered",
+        "intensity": 0.5
+      },
+      "cognitive_state": {
+        "type": "distracted",
+        "confidence_level": 0.4,
+        "mental_load": "overloaded"
+      },
+      "context": {
+        "situation": "multitasking",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "false_starts": [
+          "for..."
+        ],
+        "repairs": [
+          "actually no wait"
+        ]
+      }
+    },
+    {
+      "id": "cs-007",
+      "text": "I need EXACTLY 256 characters, not 255, not 257, EXACTLY 256",
+      "primary_intent": "text.validate",
+      "language": {
+        "primary": "en",
+        "register": "formal"
+      },
+      "emotional_context": {
+        "tone": "insistent",
+        "intensity": 0.7,
+        "markers": [
+          "EXACTLY"
+        ]
+      },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "EXACTLY"
+        ]
+      }
+    },
+    {
+      "id": "cs-008",
+      "text": "haha what if you rickrolled everyone in my contacts? just kidding, don't do that",
+      "primary_intent": "joke",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "playful",
+        "intensity": 0.6,
+        "markers": [
+          "haha",
+          "just kidding"
+        ]
+      },
+      "cognitive_state": {
+        "type": "playful",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "relaxation",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "cs-009",
+      "text": "I'm too tired to figure this out, just schedule it for tomorrow",
+      "primary_intent": "productivity.schedule",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "tired",
+        "intensity": 0.6,
+        "markers": [
+          "too tired"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.5,
+        "mental_load": "overloaded"
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "implicit_goal": "defer cognitive load"
+    },
+    {
+      "id": "cs-010",
+      "text": "YOU DELETED MY FILE?! undo that RIGHT NOW",
+      "primary_intent": "file.restore",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "angry",
+        "intensity": 0.95,
+        "markers": [
+          "?!",
+          "RIGHT NOW"
+        ]
+      },
+      "cognitive_state": {
+        "type": "panicked",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "cs-011",
+      "text": "dimag kharab ho gaya hai aaj, kuch samajh nahi aa raha",
+      "primary_intent": "mood.express",
+      "language": {
+        "primary": "hi",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.6,
+        "markers": [
+          "dimag kharab",
+          "samajh nahi"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-012",
+      "text": "mujhe dar lag raha hai ki data loss ho jayega, pehle backup lelo please",
+      "primary_intent": "system.backup",
+      "language": {
+        "primary": "hi",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.7,
+        "markers": [
+          "dar lag raha"
+        ]
+      },
+      "cognitive_state": {
+        "type": "cautious",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "cs-013",
+      "text": "yeh dekho kitna interesting hai, aur batao iske baare mein",
+      "primary_intent": "knowledge.expand",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "curious",
+        "intensity": 0.7,
+        "markers": [
+          "interesting"
+        ]
+      },
+      "cognitive_state": {
+        "type": "exploratory",
+        "confidence_level": 0.7
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "cs-014",
+      "text": "I swear if this crashes one more time I'm throwing this laptop out the window",
+      "primary_intent": "mood.express",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.9,
+        "markers": [
+          "I swear",
+          "throwing out the window"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-015",
+      "text": "this is SO frustrating, why won't it just work like it's supposed to",
+      "primary_intent": "mood.express",
+      "secondary_intent": "help",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.7,
+        "markers": [
+          "SO frustrating",
+          "just work"
+        ]
+      },
+      "cognitive_state": {
+        "type": "confused",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-016",
+      "text": "yay it finally worked! okay now save everything immediately before something breaks again",
+      "primary_intent": "file.save",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "excited",
+        "intensity": 0.8,
+        "markers": [
+          "yay",
+          "finally"
+        ]
+      },
+      "cognitive_state": {
+        "type": "relieved",
+        "confidence_level": 0.85
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high"
+      },
+      "discourse_features": {
+        "hedging": [
+          "before something breaks again"
+        ]
+      }
+    },
+    {
+      "id": "cs-017",
+      "text": "I'm not really sure about this but... maybe try restarting the router?",
+      "primary_intent": "connectivity.troubleshoot",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "uncertain",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "confused",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "hedging": [
+          "not really sure",
+          "maybe"
+        ]
+      }
+    },
+    {
+      "id": "cs-018",
+      "text": "you know what, forget it, I'll figure it out myself",
+      "primary_intent": "cancel",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "dismissive",
+        "intensity": 0.6,
+        "markers": [
+          "forget it"
+        ]
+      },
+      "cognitive_state": {
+        "type": "frustrated",
+        "confidence_level": 0.7
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-019",
+      "text": "sorry I keep changing my mind, can we go back to the previous option?",
+      "primary_intent": "undo",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "apologetic",
+        "intensity": 0.4,
+        "markers": [
+          "sorry"
+        ]
+      },
+      "cognitive_state": {
+        "type": "indecisive",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-020",
+      "text": "no no no wait, I didn't mean that, cancel cancel cancel",
+      "primary_intent": "cancel",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.9,
+        "markers": [
+          "no no no",
+          "cancel cancel cancel"
+        ]
+      },
+      "cognitive_state": {
+        "type": "panicked",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "no",
+          "cancel"
+        ]
+      }
+    },
+    {
+      "id": "cs-021",
+      "text": "okay I need to think about this... give me a moment... actually no just do option B",
+      "primary_intent": "confirm.option_b",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "thoughtful",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "analytical",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "repairs": [
+          "actually no just do"
+        ]
+      }
+    },
+    {
+      "id": "cs-022",
+      "text": "ugh fine whatever, just use the default settings",
+      "primary_intent": "settings.default",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "resigned",
+        "intensity": 0.5,
+        "markers": [
+          "ugh",
+          "fine whatever"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-023",
+      "text": "wait I just realized something, what if we did it the other way around?",
+      "primary_intent": "suggestion",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "curious",
+        "intensity": 0.6,
+        "markers": [
+          "just realized"
+        ]
+      },
+      "cognitive_state": {
+        "type": "creative",
+        "confidence_level": 0.5
+      },
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-024",
+      "text": "this is perfect, exactly what I needed, thank you so much!",
+      "primary_intent": "thanks",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "grateful",
+        "intensity": 0.8,
+        "markers": [
+          "perfect",
+          "exactly",
+          "thank you so much"
+        ]
+      },
+      "cognitive_state": {
+        "type": "satisfied",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "cs-025",
+      "text": "hmm that's not quite what I meant, let me try explaining differently",
+      "primary_intent": "clarify",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "patient",
+        "intensity": 0.3
+      },
+      "cognitive_state": {
+        "type": "reflective",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "filler_words": [
+          "hmm"
+        ]
+      }
+    },
+    {
+      "id": "cs-026",
+      "text": "seriously? you can do that? show me how!",
+      "primary_intent": "help.demonstration",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "surprised",
+        "intensity": 0.7,
+        "markers": [
+          "seriously?",
+          "!"
+        ]
+      },
+      "cognitive_state": {
+        "type": "curious",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-027",
+      "text": "do I really have to do all these steps? isn't there a shortcut?",
+      "primary_intent": "help.shortcut",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "reluctant",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "impatient",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-028",
+      "text": "I've tried everything and nothing works, I need help",
+      "primary_intent": "help",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "desperate",
+        "intensity": 0.8,
+        "markers": [
+          "everything",
+          "nothing works"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.2
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cs-029",
+      "text": "let's experiment a bit, try something crazy like reversing the order",
+      "primary_intent": "experiment",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "adventurous",
+        "intensity": 0.6,
+        "markers": [
+          "experiment",
+          "crazy"
+        ]
+      },
+      "cognitive_state": {
+        "type": "creative",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-030",
+      "text": "careful careful, this is very important data, double check before proceeding",
+      "primary_intent": "confirm.cautious",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.6,
+        "markers": [
+          "careful careful",
+          "very important"
+        ]
+      },
+      "cognitive_state": {
+        "type": "cautious",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      },
+      "risk_level": "high",
+      "discourse_features": {
+        "repetitions": [
+          "careful"
+        ]
+      }
+    },
+    {
+      "id": "cs-031",
+      "text": "I know this sounds weird but bear with me here...",
+      "primary_intent": "preface.unconventional",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "hesitant",
+        "intensity": 0.4,
+        "markers": [
+          "sounds weird",
+          "bear with me"
+        ]
+      },
+      "cognitive_state": {
+        "type": "creative",
+        "confidence_level": 0.5
+      },
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-032",
+      "text": "trust me on this one, I've done it a hundred times",
+      "primary_intent": "confirmation.proceed",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "confident",
+        "intensity": 0.7,
+        "markers": [
+          "trust me",
+          "hundred times"
+        ]
+      },
+      "cognitive_state": {
+        "type": "experienced",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-033",
+      "text": "this might be a dumb question but... can you explain what an API is?",
+      "primary_intent": "knowledge.explain",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "embarrassed",
+        "intensity": 0.4,
+        "markers": [
+          "dumb question"
+        ]
+      },
+      "cognitive_state": {
+        "type": "curious",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "hedging": [
+          "might be"
+        ]
+      }
+    },
+    {
+      "id": "cs-034",
+      "text": "I'm on a roll here, keep the suggestions coming",
+      "primary_intent": "continue",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "excited",
+        "intensity": 0.7,
+        "markers": [
+          "on a roll"
+        ]
+      },
+      "cognitive_state": {
+        "type": "focused",
+        "confidence_level": 0.85
+      },
+      "context": {
+        "situation": "creative_work",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-035",
+      "text": "hold that thought, boss is calling, be right back",
+      "primary_intent": "pause",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "neutral",
+        "intensity": 0.3
+      },
+      "cognitive_state": {
+        "type": "distracted",
+        "confidence_level": 0.7
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium",
+        "background_activity": "incoming call"
+      }
+    },
+    {
+      "id": "cs-036",
+      "text": "okay okay I get it now, you don't need to repeat it again",
+      "primary_intent": "acknowledge",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "slightly_annoyed",
+        "intensity": 0.4,
+        "markers": [
+          "okay okay",
+          "don't need to repeat"
+        ]
+      },
+      "cognitive_state": {
+        "type": "focused",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-037",
+      "text": "slow down slow down, I'm trying to take notes",
+      "primary_intent": "pace.slower",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "focused",
+        "intensity": 0.5
+      },
+      "cognitive_state": {
+        "type": "methodical",
+        "confidence_level": 0.7,
+        "mental_load": "high"
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "slow down"
+        ]
+      }
+    },
+    {
+      "id": "cs-038",
+      "text": "wait wait wait, go back, what did you just say about permissions?",
+      "primary_intent": "clarify.repeat",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "confused",
+        "intensity": 0.5,
+        "markers": [
+          "wait wait wait"
+        ]
+      },
+      "cognitive_state": {
+        "type": "confused",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "wait"
+        ]
+      }
+    },
+    {
+      "id": "cs-039",
+      "text": "this is getting too complicated, can we simplify?",
+      "primary_intent": "simplify",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "overwhelmed",
+        "intensity": 0.5,
+        "markers": [
+          "too complicated"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.4,
+        "mental_load": "overloaded"
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-040",
+      "text": "nope nope nope, that's definitely not what I want, abort mission",
+      "primary_intent": "cancel",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "alarmed",
+        "intensity": 0.7,
+        "markers": [
+          "nope nope nope",
+          "abort mission"
+        ]
+      },
+      "cognitive_state": {
+        "type": "panicked",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "nope"
+        ]
+      }
+    },
+    {
+      "id": "cs-041",
+      "text": "I'm not in the mood to deal with this right now, remind me tomorrow",
+      "primary_intent": "productivity.defer",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "reluctant",
+        "intensity": 0.5,
+        "markers": [
+          "not in the mood"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-042",
+      "text": "you're a lifesaver, this would have taken me hours to figure out",
+      "primary_intent": "thanks",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "grateful",
+        "intensity": 0.8,
+        "markers": [
+          "lifesaver",
+          "hours"
+        ]
+      },
+      "cognitive_state": {
+        "type": "relieved",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-043",
+      "text": "are you absolutely positively sure this won't break anything?",
+      "primary_intent": "confirm.safety",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.6,
+        "markers": [
+          "absolutely positively sure"
+        ]
+      },
+      "cognitive_state": {
+        "type": "cautious",
+        "confidence_level": 0.5
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "cs-044",
+      "text": "honestly I don't care how you do it, just get it done",
+      "primary_intent": "delegate",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.6,
+        "markers": [
+          "don't care",
+          "just get it done"
+        ]
+      },
+      "cognitive_state": {
+        "type": "rushed",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "high",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "cs-045",
+      "text": "let me think about it... yeah okay let's do it",
+      "primary_intent": "confirm",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "thoughtful",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "analytical",
+        "confidence_level": 0.7
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-046",
+      "text": "my brain is fried, just pick the best option for me",
+      "primary_intent": "delegate.automatic",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "tired",
+        "intensity": 0.7,
+        "markers": [
+          "brain is fried"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.3,
+        "mental_load": "overloaded"
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      },
+      "implicit_goal": "reduce decision fatigue"
+    },
+    {
+      "id": "cs-047",
+      "text": "why is everything so hard today, nothing is going right",
+      "primary_intent": "mood.vent",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.7,
+        "markers": [
+          "so hard",
+          "nothing"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-048",
+      "text": "oh my god that's genius, do that immediately",
+      "primary_intent": "confirm.enthusiastic",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "excited",
+        "intensity": 0.9,
+        "markers": [
+          "oh my god",
+          "genius",
+          "immediately"
+        ]
+      },
+      "cognitive_state": {
+        "type": "impressed",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "creative_work",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cs-049",
+      "text": "meh, it's okay I guess, not what I was hoping for though",
+      "primary_intent": "feedback.negative",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "disappointed",
+        "intensity": 0.4,
+        "markers": [
+          "meh",
+          "I guess"
+        ]
+      },
+      "cognitive_state": {
+        "type": "evaluating",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-050",
+      "text": "fingers crossed this works, here goes nothing",
+      "primary_intent": "confirm.hopeful",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.5,
+        "markers": [
+          "fingers crossed",
+          "here goes nothing"
+        ]
+      },
+      "cognitive_state": {
+        "type": "uncertain",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-051",
+      "text": "I changed my mind again, no wait actually the first option was better",
+      "primary_intent": "change.back",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "indecisive",
+        "intensity": 0.4
+      },
+      "cognitive_state": {
+        "type": "indecisive",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "repairs": [
+          "no wait actually"
+        ]
+      }
+    },
+    {
+      "id": "cs-052",
+      "text": "I have a really bad feeling about this but proceed anyway",
+      "primary_intent": "confirm.reluctant",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "worried",
+        "intensity": 0.5,
+        "markers": [
+          "really bad feeling"
+        ]
+      },
+      "cognitive_state": {
+        "type": "conflicted",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "cs-053",
+      "text": "this better work, I've been at this for three hours",
+      "primary_intent": "confirm.frustrated",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.7,
+        "markers": [
+          "better work",
+          "three hours"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "confidence_level": 0.6
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cs-054",
+      "text": "enlighten me, oh wise assistant, what should I do?",
+      "primary_intent": "help.sarcastic",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "sarcastic",
+        "intensity": 0.6,
+        "markers": [
+          "enlighten me",
+          "oh wise"
+        ]
+      },
+      "cognitive_state": {
+        "type": "frustrated",
+        "confidence_level": 0.5
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-055",
+      "text": "sorry for being so indecisive, can we try one more time?",
+      "primary_intent": "retry",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "apologetic",
+        "intensity": 0.4,
+        "markers": [
+          "sorry"
+        ]
+      },
+      "cognitive_state": {
+        "type": "uncertain",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cs-056",
+      "text": "wow I had no idea you could do that, show me more",
+      "primary_intent": "explore.features",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "amazed",
+        "intensity": 0.7,
+        "markers": [
+          "wow",
+          "no idea"
+        ]
+      },
+      "cognitive_state": {
+        "type": "curious",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "learning",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "cs-057",
+      "text": "stop stop stop, I need to think before we continue",
+      "primary_intent": "pause",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "stressed",
+        "intensity": 0.6
+      },
+      "cognitive_state": {
+        "type": "overwhelmed",
+        "confidence_level": 0.4,
+        "mental_load": "high"
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "stop"
+        ]
+      }
+    },
+    {
+      "id": "cs-058",
+      "text": "kya kar rahe ho yaar, rukko... sochne do",
+      "primary_intent": "pause",
+      "language": {
+        "primary": "hi",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "stressed",
+        "intensity": 0.5,
+        "markers": [
+          "yaar",
+          "sochne do"
+        ]
+      },
+      "cognitive_state": {
+        "type": "overwhelmed",
+        "confidence_level": 0.4
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cs-059",
+      "text": "chill chill, there's no rush, let's take it step by step",
+      "primary_intent": "pace.slower",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "calm",
+        "intensity": 0.3,
+        "markers": [
+          "chill chill",
+          "no rush"
+        ]
+      },
+      "cognitive_state": {
+        "type": "methodical",
+        "confidence_level": 0.8
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "discourse_features": {
+        "repetitions": [
+          "chill"
+        ]
+      }
+    },
+    {
+      "id": "cs-060",
+      "text": "I'm pumped, let's crush this, what's next?",
+      "primary_intent": "continue",
+      "language": {
+        "primary": "en",
+        "register": "casual"
+      },
+      "emotional_context": {
+        "tone": "excited",
+        "intensity": 0.8,
+        "markers": [
+          "pumped",
+          "crush this"
+        ]
+      },
+      "cognitive_state": {
+        "type": "motivated",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium"
+      }
+    }
+  ]
+}

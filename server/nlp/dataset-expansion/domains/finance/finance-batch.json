@@ -1,0 +1,1169 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-012",
+    "domain": "finance",
+    "focus_areas": [
+      "trading",
+      "banking",
+      "crypto",
+      "budgeting"
+    ],
+    "generated_at": "2026-01-23T13:00:00.000Z",
+    "total_samples": 90,
+    "financial_expertise_level": "intermediate"
+  },
+  "intent_taxonomy": {
+    "trading": {
+      "order": [
+        "buy",
+        "sell",
+        "limit",
+        "stop_loss",
+        "cancel"
+      ],
+      "market": [
+        "quote",
+        "chart",
+        "volume",
+        "news",
+        "movers"
+      ]
+    },
+    "banking": {
+      "account": [
+        "balance",
+        "history",
+        "transfer",
+        "pay_bill"
+      ],
+      "card": [
+        "lock",
+        "unlock",
+        "limit",
+        "report_lost"
+      ]
+    },
+    "crypto": {
+      "transaction": [
+        "send",
+        "receive",
+        "gas_fee",
+        "swap"
+      ],
+      "network": [
+        "hash_rate",
+        "difficulty",
+        "block_height"
+      ]
+    },
+    "accounting": {
+      "budget": [
+        "set",
+        "status",
+        "forecast",
+        "alert"
+      ],
+      "expense": [
+        "log",
+        "categorize",
+        "report",
+        "tax"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "fin-001",
+      "text": "buy 10 shares of Apple at market price",
+      "primary_intent": "finance.trading.order.buy",
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "10",
+          "type": "quantity"
+        },
+        {
+          "text": "Apple",
+          "type": "symbol"
+        },
+        {
+          "text": "market",
+          "type": "order_type"
+        }
+      ]
+    },
+    {
+      "id": "fin-002",
+      "text": "what's the current price of Bitcoin?",
+      "primary_intent": "finance.trading.market.quote",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Bitcoin",
+          "type": "asset"
+        }
+      ]
+    },
+    {
+      "id": "fin-003",
+      "text": "transfer $500 to my savings account",
+      "primary_intent": "finance.banking.account.transfer",
+      "context": {
+        "situation": "banking",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "$500",
+          "type": "amount"
+        },
+        {
+          "text": "savings",
+          "type": "destination"
+        }
+      ]
+    },
+    {
+      "id": "fin-004",
+      "text": "show me my spending execution report for last month",
+      "primary_intent": "finance.accounting.expense.report",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "last month",
+          "type": "period"
+        }
+      ]
+    },
+    {
+      "id": "fin-005",
+      "text": "limit order to sell TSLA at $250",
+      "primary_intent": "finance.trading.order.limit",
+      "context": {
+        "situation": "trading",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "sell",
+          "type": "side"
+        },
+        {
+          "text": "TSLA",
+          "type": "symbol"
+        },
+        {
+          "text": "$250",
+          "type": "price"
+        }
+      ]
+    },
+    {
+      "id": "fin-006",
+      "text": "what is my checking account balance?",
+      "primary_intent": "finance.banking.account.balance",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-007",
+      "text": "cancel my open order for AMZN",
+      "primary_intent": "finance.trading.order.cancel",
+      "context": {
+        "situation": "trading",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "AMZN",
+          "type": "symbol"
+        }
+      ]
+    },
+    {
+      "id": "fin-008",
+      "text": "send 0.5 ETH to this address",
+      "primary_intent": "finance.crypto.transaction.send",
+      "context": {
+        "situation": "crypto",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "0.5",
+          "type": "amount"
+        },
+        {
+          "text": "ETH",
+          "type": "currency"
+        }
+      ]
+    },
+    {
+      "id": "fin-009",
+      "text": "freeze my credit card immediately",
+      "primary_intent": "finance.banking.card.lock",
+      "context": {
+        "situation": "security",
+        "urgency": "high"
+      },
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.8
+      }
+    },
+    {
+      "id": "fin-010",
+      "text": "how much have I spent on groceries this week?",
+      "primary_intent": "finance.accounting.expense.report",
+      "context": {
+        "situation": "budgeting",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "groceries",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "fin-011",
+      "text": "set a stop loss for BTC at 45000",
+      "primary_intent": "finance.trading.order.stop_loss",
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "BTC",
+          "type": "symbol"
+        },
+        {
+          "text": "45000",
+          "type": "price"
+        }
+      ]
+    },
+    {
+      "id": "fin-012",
+      "text": "show me the 5-year chart for Microsoft",
+      "primary_intent": "finance.trading.market.chart",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "5-year",
+          "type": "timeframe"
+        },
+        {
+          "text": "Microsoft",
+          "type": "symbol"
+        }
+      ]
+    },
+    {
+      "id": "fin-013",
+      "text": "pay the electricity bill from checking",
+      "primary_intent": "finance.banking.account.pay_bill",
+      "context": {
+        "situation": "banking",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "electricity",
+          "type": "biller"
+        }
+      ]
+    },
+    {
+      "id": "fin-014",
+      "text": "gas fees abhi kya chal rahi hai?",
+      "primary_intent": "finance.crypto.transaction.gas_fee",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-015",
+      "text": "log an expense of $50 for 'Dinner'",
+      "primary_intent": "finance.accounting.expense.log",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "$50",
+          "type": "amount"
+        },
+        {
+          "text": "Dinner",
+          "type": "description"
+        }
+      ]
+    },
+    {
+      "id": "fin-016",
+      "text": "alert me if Google drops below 130",
+      "primary_intent": "finance.trading.market.alert",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Google",
+          "type": "symbol"
+        },
+        {
+          "text": "130",
+          "type": "price"
+        }
+      ]
+    },
+    {
+      "id": "fin-017",
+      "text": "swap USDC for ETH on Uniswap",
+      "primary_intent": "finance.crypto.transaction.swap",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "USDC",
+          "type": "token_in"
+        },
+        {
+          "text": "ETH",
+          "type": "token_out"
+        }
+      ]
+    },
+    {
+      "id": "fin-018",
+      "text": "what are the top gainers today?",
+      "primary_intent": "finance.trading.market.movers",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-019",
+      "text": "set a monthly budget of $200 for dining out",
+      "primary_intent": "finance.accounting.budget.set",
+      "context": {
+        "situation": "budgeting",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "$200",
+          "type": "amount"
+        },
+        {
+          "text": "dining out",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "fin-020",
+      "text": "report my card as lost",
+      "primary_intent": "finance.banking.card.report_lost",
+      "context": {
+        "situation": "security",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "fin-021",
+      "text": "calculate my capital gains tax for this year",
+      "primary_intent": "finance.accounting.expense.tax",
+      "context": {
+        "situation": "tax",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-022",
+      "text": "get the latest news on Ethereum",
+      "primary_intent": "finance.trading.market.news",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Ethereum",
+          "type": "asset"
+        }
+      ]
+    },
+    {
+      "id": "fin-023",
+      "text": "short sell 100 units of SPY",
+      "primary_intent": "finance.trading.order.sell",
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "short",
+          "type": "type"
+        },
+        {
+          "text": "SPY",
+          "type": "symbol"
+        }
+      ]
+    },
+    {
+      "id": "fin-024",
+      "text": "unlock my debit card, I found it",
+      "primary_intent": "finance.banking.card.unlock",
+      "context": {
+        "situation": "recovery",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-025",
+      "text": "what is the current block height?",
+      "primary_intent": "finance.crypto.network.block_height",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-026",
+      "text": "forecast my savings for next year",
+      "primary_intent": "finance.accounting.budget.forecast",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-027",
+      "text": "increase my daily transaction limit to 2000",
+      "primary_intent": "finance.banking.card.limit",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "2000",
+          "type": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin-028",
+      "text": "Apple ke shares khareed lo, market price pe",
+      "primary_intent": "finance.trading.order.buy",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-029",
+      "text": "balance check karo account ka",
+      "primary_intent": "finance.banking.account.balance",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fin-030",
+      "text": "Bitcoin gir raha hai kya?",
+      "primary_intent": "finance.trading.market.quote",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.4
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fin-031",
+      "text": "I want to leverage trade... wait, is that risky? actually just buy spot",
+      "primary_intent": "finance.trading.order.buy",
+      "discourse_features": {
+        "self_correction": [
+          "actually just buy spot"
+        ],
+        "risk_assessment": [
+          "is that risky"
+        ]
+      },
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-032",
+      "text": "send money to mom... no wait, send it to dad instead",
+      "primary_intent": "finance.banking.account.transfer",
+      "discourse_features": {
+        "correction": [
+          "no wait",
+          "instead"
+        ]
+      },
+      "context": {
+        "situation": "banking",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-033",
+      "text": "convert all my USDT to BTC",
+      "primary_intent": "finance.crypto.transaction.swap",
+      "context": {
+        "situation": "crypto",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-034",
+      "text": "what is the volume of trading today?",
+      "primary_intent": "finance.trading.market.volume",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-035",
+      "text": "categorize the last transaction as 'Entertainment'",
+      "primary_intent": "finance.accounting.expense.categorize",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-036",
+      "text": "am I over budget this month?",
+      "primary_intent": "finance.accounting.budget.status",
+      "context": {
+        "situation": "budgeting",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "worried",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "fin-037",
+      "text": "download my bank statement",
+      "primary_intent": "finance.banking.account.history",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-038",
+      "text": "hash rate kya hai network ka?",
+      "primary_intent": "finance.crypto.network.hash_rate",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fin-039",
+      "text": "portfolio value dikhao",
+      "primary_intent": "finance.trading.portfolio.value",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fin-040",
+      "text": "cancel all pending orders",
+      "primary_intent": "finance.trading.order.cancel.all",
+      "context": {
+        "situation": "trading",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-041",
+      "text": "show me the order book for ETH/USD",
+      "primary_intent": "finance.trading.market.order_book",
+      "context": {
+        "situation": "trading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-042",
+      "text": "set a recurring transfer of $100 every Monday",
+      "primary_intent": "finance.banking.account.transfer.recurring",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-043",
+      "text": "how much liquid cash do I have?",
+      "primary_intent": "finance.banking.account.balance.total",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-044",
+      "text": "alert me if the gas fee is below 20 gwei",
+      "primary_intent": "finance.crypto.network.alert.gas",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "20 gwei",
+          "type": "threshold"
+        }
+      ]
+    },
+    {
+      "id": "fin-045",
+      "text": "what is the mining difficulty?",
+      "primary_intent": "finance.crypto.network.difficulty",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-046",
+      "text": "list my last 5 transactions",
+      "primary_intent": "finance.banking.account.history",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "5",
+          "type": "limit"
+        }
+      ]
+    },
+    {
+      "id": "fin-047",
+      "text": "what's the spread on EUR/USD?",
+      "primary_intent": "finance.trading.market.spread",
+      "context": {
+        "situation": "trading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-048",
+      "text": "buy $1000 worth of Treasury Bonds",
+      "primary_intent": "finance.trading.order.buy",
+      "context": {
+        "situation": "investing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Treasury Bonds",
+          "type": "asset"
+        }
+      ]
+    },
+    {
+      "id": "fin-049",
+      "text": "what is my ROI on Tesla positions?",
+      "primary_intent": "finance.trading.portfolio.roi",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Tesla",
+          "type": "symbol"
+        }
+      ]
+    },
+    {
+      "id": "fin-050",
+      "text": "export tax documents for 2025",
+      "primary_intent": "finance.accounting.tax.export",
+      "context": {
+        "situation": "tax",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-051",
+      "text": "invest 'spare change' into the index fund",
+      "primary_intent": "finance.trading.invest.micro",
+      "context": {
+        "situation": "investing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-052",
+      "text": "check credit score",
+      "primary_intent": "finance.banking.credit.score",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-053",
+      "text": "find ATM near me",
+      "primary_intent": "finance.banking.atm.find",
+      "context": {
+        "situation": "banking",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-054",
+      "text": "dispute the last charge",
+      "primary_intent": "finance.banking.transaction.dispute",
+      "context": {
+        "situation": "banking",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "concerned",
+        "intensity": 0.5
+      }
+    },
+    {
+      "id": "fin-055",
+      "text": "apply for a loan",
+      "primary_intent": "finance.banking.loan.apply",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-056",
+      "text": "what is the interest rate on my savings?",
+      "primary_intent": "finance.banking.account.interest_rate",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-057",
+      "text": "bridge assets from Ethereum to Polygon",
+      "primary_intent": "finance.crypto.bridge",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-058",
+      "text": "steak... I mean stake 500 ADA",
+      "primary_intent": "finance.crypto.staking.stake",
+      "discourse_features": {
+        "phonological_repair": [
+          "steak",
+          "stake"
+        ]
+      },
+      "entities": [
+        {
+          "text": "500",
+          "type": "amount"
+        },
+        {
+          "text": "ADA",
+          "type": "asset"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fin-059",
+      "text": "unstake my Solana",
+      "primary_intent": "finance.crypto.staking.unstake",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-060",
+      "text": "claim staking rewards",
+      "primary_intent": "finance.crypto.staking.claim",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-061",
+      "text": "analyze sentiment for gold",
+      "primary_intent": "finance.trading.market.sentiment",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-062",
+      "text": "what is the dividend yield for Coca Cola?",
+      "primary_intent": "finance.trading.market.dividend",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-063",
+      "text": "simulate a portfolio return for next 5 years",
+      "primary_intent": "finance.trading.portfolio.simulate",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-064",
+      "text": "rebalance my portfolio",
+      "primary_intent": "finance.trading.portfolio.rebalance",
+      "context": {
+        "situation": "trading",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-065",
+      "text": "send invoice #101 to client",
+      "primary_intent": "finance.accounting.invoice.send",
+      "context": {
+        "situation": "business",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-066",
+      "text": "mark invoice #99 as paid",
+      "primary_intent": "finance.accounting.invoice.mark_paid",
+      "context": {
+        "situation": "business",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-067",
+      "text": "how much debt do I have total?",
+      "primary_intent": "finance.accounting.liability.total",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-068",
+      "text": "create a savings goal: 'New Car'",
+      "primary_intent": "finance.banking.savings.goal.create",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "New Car",
+          "type": "goal_name"
+        }
+      ]
+    },
+    {
+      "id": "fin-069",
+      "text": "contribute $100 to 'New Car' goal",
+      "primary_intent": "finance.banking.savings.goal.contribute",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-070",
+      "text": "what is the exchange rate for USD to INR?",
+      "primary_intent": "finance.trading.forex.rate",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-071",
+      "text": "convert 500 Euros to Dollars",
+      "primary_intent": "finance.trading.forex.convert",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-072",
+      "text": "open a new brokerage account",
+      "primary_intent": "finance.trading.account.open",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-073",
+      "text": "close my checking account",
+      "primary_intent": "finance.banking.account.close",
+      "context": {
+        "situation": "banking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-074",
+      "text": "authenticate with biometric for payment",
+      "primary_intent": "finance.security.biometric",
+      "context": {
+        "situation": "auth",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-075",
+      "text": "reset my transaction PIN",
+      "primary_intent": "finance.security.pin.reset",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-076",
+      "text": "scan this QR code to pay",
+      "primary_intent": "finance.payment.qr.scan",
+      "context": {
+        "situation": "payment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-077",
+      "text": "request money from Alice",
+      "primary_intent": "finance.payment.request",
+      "context": {
+        "situation": "payment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Alice",
+          "type": "person"
+        }
+      ]
+    },
+    {
+      "id": "fin-078",
+      "text": "split the bill 3 ways",
+      "primary_intent": "finance.payment.bill.split",
+      "context": {
+        "situation": "payment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-079",
+      "text": "add tip of 15%",
+      "primary_intent": "finance.payment.bill.tip",
+      "context": {
+        "situation": "payment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-080",
+      "text": "is this website legit for investing?",
+      "primary_intent": "finance.security.scam_check",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-081",
+      "text": "read the smart contract address",
+      "primary_intent": "finance.crypto.contract.read",
+      "context": {
+        "situation": "crypto",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-082",
+      "text": "approve spending cap for this token",
+      "primary_intent": "finance.crypto.contract.approve",
+      "context": {
+        "situation": "crypto",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fin-083",
+      "text": "revoke token approvals",
+      "primary_intent": "finance.crypto.contract.revoke",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-084",
+      "text": "what is the market cap of Dogecoin?",
+      "primary_intent": "finance.trading.market.cap",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-085",
+      "text": "compare fees between Coinbase and Binance",
+      "primary_intent": "finance.trading.platform.compare_fees",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-086",
+      "text": "setup two-factor authentication for trading",
+      "primary_intent": "finance.security.2fa.setup",
+      "context": {
+        "situation": "security",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "fin-087",
+      "text": "generate a tax report for my crypto trades",
+      "primary_intent": "finance.accounting.tax.crypto",
+      "context": {
+        "situation": "tax",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-088",
+      "text": "what is a wash sale?",
+      "primary_intent": "finance.education.concept",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-089",
+      "text": "explain short selling like I'm 5",
+      "primary_intent": "finance.education.explain_simple",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fin-090",
+      "text": "when does the market close?",
+      "primary_intent": "finance.trading.market.hours",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    }
+  ]
+}

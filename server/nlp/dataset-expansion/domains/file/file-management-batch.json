@@ -1,0 +1,692 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-006",
+    "domain": "file_management",
+    "focus_areas": [
+      "create",
+      "delete",
+      "move",
+      "search",
+      "compress"
+    ],
+    "generated_at": "2026-01-23T11:05:00.000Z",
+    "total_samples": 100,
+    "os_specifc": "cross_platform"
+  },
+  "intent_taxonomy": {
+    "create": {
+      "file": [
+        "file.empty",
+        "file.text",
+        "file.code",
+        "file.template"
+      ],
+      "folder": [
+        "folder.new",
+        "folder.nested",
+        "folder.date_stamped"
+      ]
+    },
+    "organize": {
+      "move": [
+        "move.single",
+        "move.batch",
+        "move.regex",
+        "move.undo"
+      ],
+      "copy": [
+        "copy.single",
+        "copy.backup",
+        "copy.duplicate"
+      ],
+      "rename": [
+        "rename.single",
+        "rename.batch_pattern",
+        "rename.extension"
+      ]
+    },
+    "delete": {
+      "trash": [
+        "trash.file",
+        "trash.folder",
+        "trash.selection"
+      ],
+      "permanent": [
+        "shred",
+        "rm_rf"
+      ],
+      "recover": [
+        "restore_trash",
+        "undo_delete"
+      ]
+    },
+    "search": {
+      "find": [
+        "find.by_name",
+        "find.by_content",
+        "find.by_date",
+        "find.by_size",
+        "find.by_type"
+      ],
+      "filter": [
+        "filter.extension",
+        "filter.hidden"
+      ]
+    },
+    "archive": {
+      "compress": [
+        "zip",
+        "tar",
+        "7z",
+        "encrypt"
+      ],
+      "extract": [
+        "unzip",
+        "untar",
+        "extract_to"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "fm-001",
+      "text": "create a new folder called 'Project Phoenix'",
+      "primary_intent": "file.folder.new",
+      "context": {
+        "situation": "project_setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Project Phoenix",
+          "type": "folder_name"
+        }
+      ]
+    },
+    {
+      "id": "fm-002",
+      "text": "delete all .log files in this directory",
+      "primary_intent": "file.delete.trash.batch",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": ".log",
+          "type": "extension"
+        }
+      ]
+    },
+    {
+      "id": "fm-003",
+      "text": "find all pdfs modified in the last 24 hours",
+      "primary_intent": "file.search.find.by_date",
+      "context": {
+        "situation": "retrieval",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "pdf",
+          "type": "extension"
+        },
+        {
+          "text": "last 24 hours",
+          "type": "date_range"
+        }
+      ]
+    },
+    {
+      "id": "fm-004",
+      "text": "move everything from Downloads to Documents/Sorted",
+      "primary_intent": "file.organize.move.batch",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Downloads",
+          "type": "source"
+        },
+        {
+          "text": "Documents/Sorted",
+          "type": "destination"
+        }
+      ]
+    },
+    {
+      "id": "fm-005",
+      "text": "rename this file to 'final_v2.docx'",
+      "primary_intent": "file.organize.rename.single",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "final_v2.docx",
+          "type": "new_name"
+        }
+      ]
+    },
+    {
+      "id": "fm-006",
+      "text": "zip up the whole 'src' folder and call it 'backup.zip'",
+      "primary_intent": "file.archive.compress",
+      "context": {
+        "situation": "backup",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "src",
+          "type": "source"
+        },
+        {
+          "text": "backup.zip",
+          "type": "archive_name"
+        }
+      ]
+    },
+    {
+      "id": "fm-007",
+      "text": "permanently delete these temp files, I don't need them",
+      "primary_intent": "file.delete.permanent",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "fm-008",
+      "text": "undo that move, I put it in the wrong place",
+      "primary_intent": "file.organize.move.undo",
+      "context": {
+        "situation": "correction",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "regret",
+        "intensity": 0.4
+      }
+    },
+    {
+      "id": "fm-009",
+      "text": "create a file named 'README.md' with '# Introduction' inside",
+      "primary_intent": "file.create.file.text",
+      "context": {
+        "situation": "documentation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-010",
+      "text": "search for files containing 'confidential'",
+      "primary_intent": "file.search.find.by_content",
+      "context": {
+        "situation": "security_audit",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "confidential",
+          "type": "search_term"
+        }
+      ]
+    },
+    {
+      "id": "fm-011",
+      "text": "copy this image to the clipboard",
+      "primary_intent": "file.organize.copy.clipboard",
+      "context": {
+        "situation": "working",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-012",
+      "text": "duplicate this folder",
+      "primary_intent": "file.organize.copy.duplicate",
+      "context": {
+        "situation": "backup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-013",
+      "text": "extract this zip file here",
+      "primary_intent": "file.archive.extract",
+      "context": {
+        "situation": "installation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-014",
+      "text": "show me the file properties",
+      "primary_intent": "file.info.properties",
+      "context": {
+        "situation": "investigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-015",
+      "text": "list all files larger than 1GB",
+      "primary_intent": "file.search.find.by_size",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "1GB",
+          "type": "size_threshold"
+        }
+      ]
+    },
+    {
+      "id": "fm-016",
+      "text": "hide this folder",
+      "primary_intent": "file.attributes.hide",
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-017",
+      "text": "make this file read-only",
+      "primary_intent": "file.attributes.readonly",
+      "context": {
+        "situation": "protection",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-018",
+      "text": "open this file with VS Code",
+      "primary_intent": "file.open.with_app",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "VS Code",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fm-019",
+      "text": "create a shortcut to this folder on the Desktop",
+      "primary_intent": "file.create.shortcut",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-020",
+      "text": "batch rename all these photos to 'Vacation_001', 'Vacation_002', etc.",
+      "primary_intent": "file.organize.rename.batch_pattern",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Vacation_",
+          "type": "pattern"
+        }
+      ]
+    },
+    {
+      "id": "fm-021",
+      "text": "restore the file I just deleted",
+      "primary_intent": "file.delete.recover",
+      "context": {
+        "situation": "recovery",
+        "urgency": "high"
+      },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.5
+      }
+    },
+    {
+      "id": "fm-022",
+      "text": "compress these 5 files into a tarball",
+      "primary_intent": "file.archive.compress",
+      "context": {
+        "situation": "archive",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "tar",
+          "type": "format"
+        }
+      ]
+    },
+    {
+      "id": "fm-023",
+      "text": "find duplicate files in this directory",
+      "primary_intent": "file.search.duplicates",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-024",
+      "text": "check the checksum of this iso",
+      "primary_intent": "file.info.checksum",
+      "context": {
+        "situation": "verification",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-025",
+      "text": "mount this disk image",
+      "primary_intent": "file.disk.mount",
+      "context": {
+        "situation": "installation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-026",
+      "text": "sort these files by type",
+      "primary_intent": "file.view.sort",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "type",
+          "type": "sort_criteria"
+        }
+      ]
+    },
+    {
+      "id": "fm-027",
+      "text": "nayi text file banao",
+      "primary_intent": "file.create.file.text",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "working",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-028",
+      "text": "is folder ko hide kar do",
+      "primary_intent": "file.attributes.hide",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-029",
+      "text": "saari jpg files ko Images folder mein move karo",
+      "primary_intent": "file.organize.move.batch",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-030",
+      "text": "file ka naam badal ke 'data.csv' rakh do",
+      "primary_intent": "file.organize.rename.single",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-031",
+      "text": "delete mat karna, bas recycle bin mein daal do",
+      "primary_intent": "file.delete.trash.single",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "fm-032",
+      "text": "ye zip file extract kar do yahin pe",
+      "primary_intent": "file.archive.extract",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "installation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-033",
+      "text": "find the presentation... I think I saved it on the desktop? or maybe documents?",
+      "primary_intent": "file.search.find.by_name",
+      "discourse_features": {
+        "hedging": [
+          "I think",
+          "maybe"
+        ]
+      },
+      "cognitive_state": {
+        "type": "uncertain"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "fm-034",
+      "text": "what happens if I delete this System32 folder?",
+      "primary_intent": "knowledge.safety_query",
+      "context": {
+        "situation": "curiosity",
+        "urgency": "low"
+      },
+      "risk_level": "critical"
+    },
+    {
+      "id": "fm-035",
+      "text": "don't ever delete anything without asking me first, okay?",
+      "primary_intent": "settings.safety.confirm_delete",
+      "context": {
+        "situation": "configuration",
+        "urgency": "high"
+      },
+      "emotional_context": {
+        "tone": "serious",
+        "intensity": 0.6
+      }
+    },
+    {
+      "id": "fm-036",
+      "text": "create a backup of my work, just in case",
+      "primary_intent": "file.organize.copy.backup",
+      "context": {
+        "situation": "backup",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fm-037",
+      "text": "I can't find the file, it's gone! where did it go?",
+      "primary_intent": "file.search.lost_file",
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.8
+      },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "fm-038",
+      "text": "encrypt this folder with password 'secure123'",
+      "primary_intent": "file.archive.encrypt",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "fm-039",
+      "text": "open the file location",
+      "primary_intent": "file.navigate.location",
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-040",
+      "text": "create nested folders: 2026/January/Reports",
+      "primary_intent": "file.create.folder.nested",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-041",
+      "text": "find files modified by 'Admin'",
+      "primary_intent": "file.search.find.by_author",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-042",
+      "text": "clear the read-only flag from all files in this directory",
+      "primary_intent": "file.attributes.writeable.batch",
+      "context": {
+        "situation": "fix",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-043",
+      "text": "how much space is left on the D drive?",
+      "primary_intent": "file.disk.space",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-044",
+      "text": "wipe the free space on this drive",
+      "primary_intent": "file.disk.wipe_free_space",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "fm-045",
+      "text": "create a symlink from here to the target folder",
+      "primary_intent": "file.create.symlink",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-046",
+      "text": "analyze disk usage for this folder",
+      "primary_intent": "file.disk.usage",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-047",
+      "text": "convert this png to jpg",
+      "primary_intent": "file.convert.image",
+      "context": {
+        "situation": "media",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-048",
+      "text": "empty the recycle bin",
+      "primary_intent": "file.delete.empty_trash",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-049",
+      "text": "open the containing folder",
+      "primary_intent": "file.navigate.parent",
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "fm-050",
+      "text": "select all files",
+      "primary_intent": "file.select.all",
+      "context": {
+        "situation": "batch_op",
+        "urgency": "low"
+      }
+    }
+  ]
+}

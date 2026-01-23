@@ -1,0 +1,1094 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-018",
+    "domain": "gaming",
+    "focus_areas": [
+      "controls",
+      "streaming",
+      "social",
+      "stats",
+      "store"
+    ],
+    "generated_at": "2026-01-23T14:30:00.000Z",
+    "total_samples": 85,
+    "platform": "pc_console"
+  },
+  "intent_taxonomy": {
+    "game_control": {
+      "launch": [
+        "start",
+        "close",
+        "restart",
+        "update"
+      ],
+      "in_game": [
+        "screenshot",
+        "record",
+        "clip",
+        "fps_counter"
+      ]
+    },
+    "social": {
+      "friends": [
+        "invite",
+        "join",
+        "status",
+        "message"
+      ],
+      "streaming": [
+        "start_stream",
+        "stop_stream",
+        "clip_that",
+        "chat_mode"
+      ]
+    },
+    "stats": {
+      "performance": [
+        "check_kd",
+        "match_history",
+        "rank",
+        "hours_played"
+      ],
+      "hardware": [
+        "gpu_temp",
+        "cpu_usage",
+        "optimize"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "gam-001",
+      "text": "launch Cyberpunk 2077",
+      "primary_intent": "gaming.control.launch.start",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Cyberpunk 2077",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-002",
+      "text": "invite 'xX_Dragon_Xx' to the party",
+      "primary_intent": "gaming.social.friends.invite",
+      "context": {
+        "situation": "social",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "xX_Dragon_Xx",
+          "type": "gamertag"
+        }
+      ]
+    },
+    {
+      "id": "gam-003",
+      "text": "clip the last 30 seconds",
+      "primary_intent": "gaming.control.in_game.clip",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "30 seconds",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "gam-004",
+      "text": "what is my K/D ratio in Call of Duty?",
+      "primary_intent": "gaming.stats.performance.check_kd",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Call of Duty",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-005",
+      "text": "start streaming to Twitch with title 'Ranked Grind'",
+      "primary_intent": "gaming.social.streaming.start_stream",
+      "context": {
+        "situation": "streaming",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Twitch",
+          "type": "platform"
+        },
+        {
+          "text": "Ranked Grind",
+          "type": "stream_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-006",
+      "text": "show my FPS counter",
+      "primary_intent": "gaming.control.in_game.fps_counter",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-007",
+      "text": "join the Discord voice channel 'General'",
+      "primary_intent": "gaming.social.voice.join_channel",
+      "context": {
+        "situation": "social",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Discord",
+          "type": "platform"
+        },
+        {
+          "text": "General",
+          "type": "channel_name"
+        }
+      ]
+    },
+    {
+      "id": "gam-008",
+      "text": "check if the servers are down for Overwatch",
+      "primary_intent": "gaming.info.server_status",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Overwatch",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-009",
+      "text": "optimize my settings for performance",
+      "primary_intent": "gaming.stats.hardware.optimize",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-010",
+      "text": "take a screenshot",
+      "primary_intent": "gaming.control.in_game.screenshot",
+      "context": {
+        "situation": "capture",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-011",
+      "text": "how many hours have I played Minecraft?",
+      "primary_intent": "gaming.stats.performance.hours_played",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Minecraft",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-012",
+      "text": "buy the new skin bundle",
+      "primary_intent": "gaming.store.purchase",
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "skin bundle",
+          "type": "item"
+        }
+      ]
+    },
+    {
+      "id": "gam-013",
+      "text": "update Steam games",
+      "primary_intent": "gaming.control.launch.update",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Steam",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "id": "gam-014",
+      "text": "mute my teammates",
+      "primary_intent": "gaming.social.voice.mute_team",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.6
+      }
+    },
+    {
+      "id": "gam-015",
+      "text": "find a group for raid",
+      "primary_intent": "gaming.social.lfg.find",
+      "context": {
+        "situation": "social",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "raid",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "id": "gam-016",
+      "text": "what is the current meta for Apex Legends?",
+      "primary_intent": "gaming.info.meta_check",
+      "context": {
+        "situation": "strategy",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Apex Legends",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-017",
+      "text": "redeem this code: ABC-123",
+      "primary_intent": "gaming.store.redeem_code",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "ABC-123",
+          "type": "code"
+        }
+      ]
+    },
+    {
+      "id": "gam-018",
+      "text": "go offline on Battle.net",
+      "primary_intent": "gaming.social.status.offline",
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Battle.net",
+          "type": "platform"
+        }
+      ]
+    },
+    {
+      "id": "gam-019",
+      "text": "install the latest Nvidia drivers",
+      "primary_intent": "gaming.stats.hardware.update_drivers",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Nvidia",
+          "type": "vendor"
+        }
+      ]
+    },
+    {
+      "id": "gam-020",
+      "text": "what's my GPU temperature?",
+      "primary_intent": "gaming.stats.hardware.gpu_temp",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-021",
+      "text": "switch to streamer mode",
+      "primary_intent": "gaming.social.streaming.mode_on",
+      "context": {
+        "situation": "streaming",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-022",
+      "text": "pubg chalao",
+      "primary_intent": "gaming.control.launch.start",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "pubg",
+          "type": "game_title"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "gam-023",
+      "text": "record karo ye match",
+      "primary_intent": "gaming.control.in_game.record",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "match",
+          "type": "event"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "gam-024",
+      "text": "server lag ho raha hai kya?",
+      "primary_intent": "gaming.info.server_status",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "emotional_context": {
+        "tone": "annoyed",
+        "intensity": 0.5
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "gam-025",
+      "text": "I suck at this game... rage quit!",
+      "primary_intent": "gaming.control.launch.close.rage",
+      "emotional_context": {
+        "tone": "angry",
+        "intensity": 0.9
+      },
+      "context": {
+        "situation": "gameplay",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "gam-026",
+      "text": "GG, close the game",
+      "primary_intent": "gaming.control.launch.close",
+      "context": {
+        "situation": "ending",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-027",
+      "text": "wait, don't close it! I forgot to save!",
+      "primary_intent": "gaming.control.launch.cancel_close",
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.8
+      },
+      "context": {
+        "situation": "correction",
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "gam-028",
+      "text": "stream snipers are annoying, put on delay",
+      "primary_intent": "gaming.social.streaming.set_delay",
+      "context": {
+        "situation": "streaming",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-029",
+      "text": "create a tournament bracket",
+      "primary_intent": "gaming.social.tournament.create",
+      "context": {
+        "situation": "organizing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-030",
+      "text": "find a coach for League of Legends",
+      "primary_intent": "gaming.info.coaching.find",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "League of Legends",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-031",
+      "text": "watch the replay of my last match",
+      "primary_intent": "gaming.stats.performance.replay",
+      "context": {
+        "situation": "review",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-032",
+      "text": "add this player to blocklist",
+      "primary_intent": "gaming.social.friends.block",
+      "context": {
+        "situation": "moderation",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-033",
+      "text": "compare my stats with 'ProPlayer1'",
+      "primary_intent": "gaming.stats.performance.compare",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "ProPlayer1",
+          "type": "gamertag"
+        }
+      ]
+    },
+    {
+      "id": "gam-034",
+      "text": "enable cross-play",
+      "primary_intent": "gaming.settings.crossplay.on",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-035",
+      "text": "link my Twitch account",
+      "primary_intent": "gaming.settings.account.link",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Twitch",
+          "type": "service"
+        }
+      ]
+    },
+    {
+      "id": "gam-036",
+      "text": "recommend a game like 'The Witcher 3'",
+      "primary_intent": "gaming.store.recommend",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "The Witcher 3",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-037",
+      "text": "pre-order the new GTA",
+      "primary_intent": "gaming.store.preorder",
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "GTA",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-038",
+      "text": "check for patches",
+      "primary_intent": "gaming.control.launch.check_update",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-039",
+      "text": "lower graphics settings to medium",
+      "primary_intent": "gaming.settings.graphics.set",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "medium",
+          "type": "quality"
+        }
+      ]
+    },
+    {
+      "id": "gam-040",
+      "text": "turn on V-Sync",
+      "primary_intent": "gaming.settings.graphics.vsync.on",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-041",
+      "text": "how do I beat the final boss in Elden Ring?",
+      "primary_intent": "gaming.info.walkthrough",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Elden Ring",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-042",
+      "text": "map 'crouch' to 'C'",
+      "primary_intent": "gaming.settings.controls.remap",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "crouch",
+          "type": "action"
+        },
+        {
+          "text": "C",
+          "type": "key"
+        }
+      ]
+    },
+    {
+      "id": "gam-043",
+      "text": "boost microphone gain",
+      "primary_intent": "gaming.settings.audio.mic_boost",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-044",
+      "text": "party invite accept karo",
+      "primary_intent": "gaming.social.friends.accept_invite",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "gam-045",
+      "text": "show me the leaderboard",
+      "primary_intent": "gaming.stats.rank.leaderboard",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-046",
+      "text": "report a bug: game crashed on loading screen",
+      "primary_intent": "gaming.info.report_bug",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-047",
+      "text": "refund this game",
+      "primary_intent": "gaming.store.refund",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-048",
+      "text": "verify game files integrity",
+      "primary_intent": "gaming.control.launch.verify_files",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-049",
+      "text": "read the patch notes",
+      "primary_intent": "gaming.info.patch_notes",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-050",
+      "text": "spectate 'Player2'",
+      "primary_intent": "gaming.control.in_game.spectate",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Player2",
+          "type": "gamertag"
+        }
+      ]
+    },
+    {
+      "id": "gam-051",
+      "text": "toggle mute",
+      "primary_intent": "gaming.settings.audio.toggle_mute",
+      "context": {
+        "situation": "communication",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-052",
+      "text": "search for mods for Skyrim",
+      "primary_intent": "gaming.info.mods.search",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Skyrim",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-053",
+      "text": "install 'Optifine'",
+      "primary_intent": "gaming.control.mods.install",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Optifine",
+          "type": "mod_name"
+        }
+      ]
+    },
+    {
+      "id": "gam-054",
+      "text": "how much XP do I need for level 50?",
+      "primary_intent": "gaming.stats.progress.check_xp",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-055",
+      "text": "equip the 'Golden Sword'",
+      "primary_intent": "gaming.control.in_game.equip",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Golden Sword",
+          "type": "item"
+        }
+      ]
+    },
+    {
+      "id": "gam-056",
+      "text": "drop the item",
+      "primary_intent": "gaming.control.in_game.drop",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-057",
+      "text": "ping the location",
+      "primary_intent": "gaming.control.in_game.ping",
+      "context": {
+        "situation": "communication",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "gam-058",
+      "text": "vote to kick player",
+      "primary_intent": "gaming.social.vote.kick",
+      "context": {
+        "situation": "moderation",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-059",
+      "text": "save game to slot 1",
+      "primary_intent": "gaming.control.in_game.save",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "slot 1",
+          "type": "slot"
+        }
+      ]
+    },
+    {
+      "id": "gam-060",
+      "text": "load the last checkpoint",
+      "primary_intent": "gaming.control.in_game.load",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-061",
+      "text": "enable RTX",
+      "primary_intent": "gaming.settings.graphics.rtx.on",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-062",
+      "text": "benchmark result show karo",
+      "primary_intent": "gaming.stats.hardware.benchmark",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "gam-063",
+      "text": "pause the download",
+      "primary_intent": "gaming.control.launch.download.pause",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-064",
+      "text": "prioritize network traffic for gaming",
+      "primary_intent": "gaming.settings.network.prioritize",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-065",
+      "text": "clean up disk space for games",
+      "primary_intent": "gaming.stats.hardware.cleanup",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-066",
+      "text": "what voice chat creates the least lag?",
+      "primary_intent": "gaming.info.tech_support",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-067",
+      "text": "set afk status",
+      "primary_intent": "gaming.social.status.afk",
+      "context": {
+        "situation": "social",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-068",
+      "text": "find my controller",
+      "primary_intent": "gaming.info.hardware.find",
+      "context": {
+        "situation": "locate",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-069",
+      "text": "pair a new controller",
+      "primary_intent": "gaming.settings.hardware.pair_controller",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-070",
+      "text": "calibrate the joystick",
+      "primary_intent": "gaming.settings.hardware.calibrate",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-071",
+      "text": "check subscription status for Game Pass",
+      "primary_intent": "gaming.store.subscription.check",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Game Pass",
+          "type": "service"
+        }
+      ]
+    },
+    {
+      "id": "gam-072",
+      "text": "renew my subscription",
+      "primary_intent": "gaming.store.subscription.renew",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-073",
+      "text": "cancel subscription",
+      "primary_intent": "gaming.store.subscription.cancel",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-074",
+      "text": "enable parental controls",
+      "primary_intent": "gaming.settings.parental.on",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-075",
+      "text": "set play time limit to 2 hours",
+      "primary_intent": "gaming.settings.parental.time_limit",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "2 hours",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "gam-076",
+      "text": "who is the developer of this game?",
+      "primary_intent": "gaming.info.game_details",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-077",
+      "text": "when is the release date for Half-Life 3?",
+      "primary_intent": "gaming.info.release_date",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Half-Life 3",
+          "type": "game_title"
+        }
+      ]
+    },
+    {
+      "id": "gam-078",
+      "text": "rate this game 5 stars",
+      "primary_intent": "gaming.store.rate",
+      "context": {
+        "situation": "feedback",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-079",
+      "text": "gift this game to 'Friend1'",
+      "primary_intent": "gaming.store.gift",
+      "context": {
+        "situation": "social",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Friend1",
+          "type": "gamertag"
+        }
+      ]
+    },
+    {
+      "id": "gam-080",
+      "text": "show achievement progress",
+      "primary_intent": "gaming.stats.achievements.check",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-081",
+      "text": "unlock all cosmetics",
+      "primary_intent": "gaming.control.cheats.unlock_all",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "gam-082",
+      "text": "god mode on",
+      "primary_intent": "gaming.control.cheats.god_mode",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-083",
+      "text": "teleport to spawn",
+      "primary_intent": "gaming.control.cheats.teleport",
+      "context": {
+        "situation": "gameplay",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "gam-084",
+      "text": "view esports schedule",
+      "primary_intent": "gaming.info.esports.schedule",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "gam-085",
+      "text": "who won the worlds 2025?",
+      "primary_intent": "gaming.info.esports.results",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    }
+  ]
+}

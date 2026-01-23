@@ -1,0 +1,1343 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-001",
+    "domain": "software_engineering",
+    "focus_areas": ["git_operations", "debugging", "code_review", "testing"],
+    "generated_at": "2026-01-23T10:30:00.000Z",
+    "total_samples": 247,
+    "new_intents": 89,
+    "quality_target": 0.95
+  },
+  "intent_taxonomy": {
+    "git": {
+      "git.status": [
+        "git.status.quick",
+        "git.status.detailed",
+        "git.status.branch_only"
+      ],
+      "git.commit": [
+        "git.commit.simple",
+        "git.commit.amend",
+        "git.commit.fixup",
+        "git.commit.squash"
+      ],
+      "git.branch": [
+        "git.branch.create",
+        "git.branch.switch",
+        "git.branch.delete",
+        "git.branch.list",
+        "git.branch.rename"
+      ],
+      "git.merge": [
+        "git.merge.regular",
+        "git.merge.squash",
+        "git.merge.abort",
+        "git.merge.continue"
+      ],
+      "git.rebase": [
+        "git.rebase.interactive",
+        "git.rebase.onto",
+        "git.rebase.abort",
+        "git.rebase.continue"
+      ],
+      "git.stash": [
+        "git.stash.save",
+        "git.stash.pop",
+        "git.stash.list",
+        "git.stash.drop",
+        "git.stash.apply"
+      ],
+      "git.diff": [
+        "git.diff.staged",
+        "git.diff.unstaged",
+        "git.diff.branch",
+        "git.diff.commit"
+      ],
+      "git.log": [
+        "git.log.simple",
+        "git.log.graph",
+        "git.log.oneline",
+        "git.log.author"
+      ],
+      "git.reset": [
+        "git.reset.soft",
+        "git.reset.hard",
+        "git.reset.mixed",
+        "git.reset.file"
+      ],
+      "git.cherry_pick": ["git.cherry_pick.single", "git.cherry_pick.range"]
+    },
+    "debug": {
+      "debug.start": [
+        "debug.start.simple",
+        "debug.start.attach",
+        "debug.start.config"
+      ],
+      "debug.breakpoint": [
+        "debug.breakpoint.add",
+        "debug.breakpoint.remove",
+        "debug.breakpoint.conditional",
+        "debug.breakpoint.logpoint"
+      ],
+      "debug.step": ["debug.step.over", "debug.step.into", "debug.step.out"],
+      "debug.inspect": [
+        "debug.inspect.variable",
+        "debug.inspect.expression",
+        "debug.inspect.callstack"
+      ],
+      "debug.watch": ["debug.watch.add", "debug.watch.remove"],
+      "debug.exception": ["debug.exception.catch", "debug.exception.ignore"]
+    },
+    "code_review": {
+      "review.request": [
+        "review.request.create",
+        "review.request.assign",
+        "review.request.urgent"
+      ],
+      "review.comment": [
+        "review.comment.inline",
+        "review.comment.general",
+        "review.comment.suggestion"
+      ],
+      "review.approve": ["review.approve.lgtm", "review.approve.conditional"],
+      "review.changes": ["review.changes.request", "review.changes.view"]
+    },
+    "test": {
+      "test.run": [
+        "test.run.all",
+        "test.run.file",
+        "test.run.single",
+        "test.run.failed",
+        "test.run.watch"
+      ],
+      "test.coverage": ["test.coverage.generate", "test.coverage.view"],
+      "test.debug": ["test.debug.single", "test.debug.failed"]
+    }
+  },
+  "samples": [
+    {
+      "id": "se-001-001",
+      "text": "hold on, let me check if there's anything uncommitted... yeah show me git status",
+      "primary_intent": "git.status.quick",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "focused", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "discourse_features": {
+        "completeness": "complete",
+        "filler_words": ["hold on", "yeah"]
+      }
+    },
+    {
+      "id": "se-001-002",
+      "text": "ugh this merge is a disaster, just abort it please",
+      "primary_intent": "git.merge.abort",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.7,
+        "markers": ["ugh", "disaster"]
+      },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.8 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high",
+        "domain": "software_engineering"
+      },
+      "implicit_goal": "reset repository to clean state"
+    },
+    {
+      "id": "se-001-003",
+      "text": "I think I need to... wait what branch am I even on right now?",
+      "primary_intent": "git.branch.list",
+      "secondary_intent": "git.status.branch_only",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "confused", "intensity": 0.5 },
+      "cognitive_state": { "type": "distracted", "confidence_level": 0.4 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": {
+        "false_starts": ["I think I need to..."],
+        "hedging": ["I think"]
+      }
+    },
+    {
+      "id": "se-001-004",
+      "text": "stash everything, I gotta switch to the hotfix branch real quick",
+      "primary_intent": "git.stash.save",
+      "secondary_intent": "git.branch.switch",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "urgent", "intensity": 0.6 },
+      "cognitive_state": { "type": "rushed", "confidence_level": 0.9 },
+      "context": {
+        "situation": "emergency",
+        "urgency": "high",
+        "domain": "software_engineering",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "se-001-005",
+      "text": "show me what I changed since yesterday, actually no since Monday morning",
+      "primary_intent": "git.diff.commit",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.7 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "repairs": ["actually no since Monday morning"] }
+    },
+    {
+      "id": "se-001-006",
+      "text": "rebase this onto main but interactive mode, I need to clean up these commits",
+      "primary_intent": "git.rebase.interactive",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "implicit_goal": "prepare clean commit history for PR"
+    },
+    {
+      "id": "se-001-007",
+      "text": "what did Sarah change in the auth module? show her commits from last week",
+      "primary_intent": "git.log.author",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.8 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "Sarah", "type": "person", "start": 9, "end": 14 },
+        { "text": "auth module", "type": "file", "start": 29, "end": 40 }
+      ]
+    },
+    {
+      "id": "se-001-008",
+      "text": "oh no I committed to main by mistake, can we undo that? like soft reset?",
+      "primary_intent": "git.reset.soft",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.7,
+        "markers": ["oh no", "by mistake"]
+      },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.6 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high",
+        "domain": "software_engineering"
+      },
+      "risk_level": "medium",
+      "discourse_features": { "hedging": ["like"] }
+    },
+    {
+      "id": "se-001-009",
+      "text": "cherry pick commits abc123 through def456 onto this branch",
+      "primary_intent": "git.cherry_pick.range",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.95
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "abc123", "type": "command", "start": 20, "end": 26 },
+        { "text": "def456", "type": "command", "start": 35, "end": 41 }
+      ]
+    },
+    {
+      "id": "se-001-010",
+      "text": "bhai git status dikha de, kuch gadbad lag rahi hai",
+      "primary_intent": "git.status.detailed",
+      "language": { "primary": "hi", "mixing": ["en"], "register": "casual" },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.5,
+        "markers": ["gadbad"]
+      },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.5 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-011",
+      "text": "put a breakpoint on line 247 of user-service.ts, conditional when userId is null",
+      "primary_intent": "debug.breakpoint.conditional",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "line 247", "type": "number", "start": 21, "end": 29 },
+        { "text": "user-service.ts", "type": "file", "start": 33, "end": 48 }
+      ]
+    },
+    {
+      "id": "se-001-012",
+      "text": "step into this function, I need to see what's happening inside the callback",
+      "primary_intent": "debug.step.into",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.4 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.7 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-013",
+      "text": "what's the value of the response object? inspect that",
+      "primary_intent": "debug.inspect.variable",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "response object",
+          "type": "parameter",
+          "start": 19,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "se-001-014",
+      "text": "ok skip over this part, I know that works fine step over multiple times",
+      "primary_intent": "debug.step.over",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.4,
+        "markers": ["ok skip"]
+      },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.85 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "filler_words": ["ok"] }
+    },
+    {
+      "id": "se-001-015",
+      "text": "exception pe break laga do, null pointer exceptions catch karo",
+      "primary_intent": "debug.exception.catch",
+      "language": {
+        "primary": "hi",
+        "mixing": ["en"],
+        "register": "technical"
+      },
+      "emotional_context": { "tone": "focused", "intensity": 0.5 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-016",
+      "text": "I give up trying to figure this out, just ignore the TypeError exceptions for now",
+      "primary_intent": "debug.exception.ignore",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.6,
+        "markers": ["I give up"]
+      },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.5 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-017",
+      "text": "add request.body.token to the watch list, I want to track what's happening to it",
+      "primary_intent": "debug.watch.add",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "curious", "intensity": 0.4 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "request.body.token",
+          "type": "parameter",
+          "start": 4,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "se-001-018",
+      "text": "show me the call stack, how did we even get here?",
+      "primary_intent": "debug.inspect.callstack",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "confused", "intensity": 0.5 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.6 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-019",
+      "text": "run just the payment tests, the whole suite takes forever",
+      "primary_intent": "test.run.file",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.4,
+        "markers": ["takes forever"]
+      },
+      "cognitive_state": { "type": "rushed", "confidence_level": 0.9 },
+      "context": {
+        "situation": "testing",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "payment tests", "type": "file", "start": 9, "end": 22 }
+      ]
+    },
+    {
+      "id": "se-001-020",
+      "text": "rerun the failed tests from the last run, something's flaky",
+      "primary_intent": "test.run.failed",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.4,
+        "markers": ["flaky"]
+      },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.7 },
+      "context": {
+        "situation": "testing",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-021",
+      "text": "watch mode on for the auth tests, I'm gonna be changing stuff for a while",
+      "primary_intent": "test.run.watch",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "focused", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "auth tests", "type": "file", "start": 17, "end": 27 }
+      ]
+    },
+    {
+      "id": "se-001-022",
+      "text": "generate coverage report and tell me what's not covered in the API routes",
+      "primary_intent": "test.coverage.generate",
+      "secondary_intent": "test.coverage.view",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-023",
+      "text": "this test keeps failing and I don't know why, can you debug just this one?",
+      "primary_intent": "test.debug.single",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "confused", "intensity": 0.5 },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.4 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-024",
+      "text": "need someone to review my changes, um assign it to the backend team",
+      "primary_intent": "review.request.create",
+      "secondary_intent": "review.request.assign",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "filler_words": ["um"] }
+    },
+    {
+      "id": "se-001-025",
+      "text": "URGENT review needed on the security patch, this needs to go out today",
+      "primary_intent": "review.request.urgent",
+      "language": { "primary": "en", "register": "formal" },
+      "emotional_context": {
+        "tone": "urgent",
+        "intensity": 0.8,
+        "markers": ["URGENT", "needs to go out today"]
+      },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.95 },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical",
+        "domain": "software_engineering",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "se-001-026",
+      "text": "leave a comment on line 89 suggesting they use async/await instead of callbacks",
+      "primary_intent": "review.comment.suggestion",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "line 89", "type": "number", "start": 18, "end": 25 }
+      ]
+    },
+    {
+      "id": "se-001-027",
+      "text": "looks good to me, approve it with a note about the TODO on line 156",
+      "primary_intent": "review.approve.conditional",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "satisfied",
+        "intensity": 0.4,
+        "markers": ["looks good"]
+      },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-028",
+      "text": "I need to see what changed, diff between my branch and the updated main",
+      "primary_intent": "git.diff.branch",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "focused", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-029",
+      "text": "actually wait, I stashed something important earlier... pop my last stash",
+      "primary_intent": "git.stash.pop",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "surprised",
+        "intensity": 0.4,
+        "markers": ["actually wait"]
+      },
+      "cognitive_state": { "type": "distracted", "confidence_level": 0.7 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "repairs": ["actually wait"] }
+    },
+    {
+      "id": "se-001-030",
+      "text": "how many stashes do I have? list them with their descriptions",
+      "primary_intent": "git.stash.list",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.6 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-031",
+      "text": "make a new branch called feature/user-preferences and switch to it",
+      "primary_intent": "git.branch.create",
+      "secondary_intent": "git.branch.switch",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "feature/user-preferences",
+          "type": "command",
+          "start": 24,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "se-001-032",
+      "text": "delete the old feature branch, the one that starts with fix/legacy",
+      "primary_intent": "git.branch.delete",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.75 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "hedging": ["the one that starts with"] }
+    },
+    {
+      "id": "se-001-033",
+      "text": "oops wrong commit message, amend the last one to 'fix: resolve null pointer in auth'",
+      "primary_intent": "git.commit.amend",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "apologetic",
+        "intensity": 0.4,
+        "markers": ["oops"]
+      },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.9 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "fix: resolve null pointer in auth",
+          "type": "command",
+          "start": 49,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "se-001-034",
+      "text": "squash the last three commits together, they're all part of the same fix",
+      "primary_intent": "git.commit.squash",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-035",
+      "text": "hold up my rebase has conflicts... check the status and show me what files",
+      "primary_intent": "git.status.detailed",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.5,
+        "markers": ["hold up", "conflicts"]
+      },
+      "cognitive_state": { "type": "problem_solving", "confidence_level": 0.7 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "filler_words": ["hold up"] }
+    },
+    {
+      "id": "se-001-036",
+      "text": "forget this rebase attempt, it's too messy, abort",
+      "primary_intent": "git.rebase.abort",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.6,
+        "markers": ["too messy", "forget"]
+      },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.9 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-037",
+      "text": "okay I fixed the conflicts, continue with the rebase",
+      "primary_intent": "git.rebase.continue",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "calm", "intensity": 0.3 },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-038",
+      "text": "show graph view of the commit history, last 30 or so",
+      "primary_intent": "git.log.graph",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.8 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-039",
+      "text": "just the commit messages in one line each, I want the quick overview",
+      "primary_intent": "git.log.oneline",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "impatient",
+        "intensity": 0.3,
+        "markers": ["just", "quick"]
+      },
+      "cognitive_state": { "type": "rushed", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-040",
+      "text": "nuke everything and hard reset to the last known good state",
+      "primary_intent": "git.reset.hard",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.7,
+        "markers": ["nuke everything"]
+      },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.8 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high",
+        "domain": "software_engineering"
+      },
+      "risk_level": "high",
+      "implicit_goal": "recover from corrupted state"
+    },
+    {
+      "id": "se-001-041",
+      "text": "only unstage that one file, I want to keep the other stuff staged",
+      "primary_intent": "git.reset.file",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.85
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-042",
+      "text": "what did I stage for commit? show me the staged changes",
+      "primary_intent": "git.diff.staged",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-043",
+      "text": "rename the current branch to bugfix/payment-timeout",
+      "primary_intent": "git.branch.rename",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "bugfix/payment-timeout",
+          "type": "command",
+          "start": 30,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "se-001-044",
+      "text": "drop stash@{2}, that one was experimental garbage",
+      "primary_intent": "git.stash.drop",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "dismissive",
+        "intensity": 0.4,
+        "markers": ["garbage"]
+      },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "stash@{2}", "type": "command", "start": 5, "end": 14 }
+      ]
+    },
+    {
+      "id": "se-001-045",
+      "text": "apply the second stash but don't pop it, I might need it again",
+      "primary_intent": "git.stash.apply",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "cautious", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-046",
+      "text": "commit this with message 'wip: authentication flow' I'll squash later",
+      "primary_intent": "git.commit.simple",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "rushed", "confidence_level": 0.9 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "wip: authentication flow",
+          "type": "command",
+          "start": 26,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "se-001-047",
+      "text": "this is a fixup for the previous commit, don't need a new message",
+      "primary_intent": "git.commit.fixup",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-048",
+      "text": "squash merge this feature branch into develop",
+      "primary_intent": "git.merge.squash",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-049",
+      "text": "merge conflicts fixed, continue the merge now",
+      "primary_intent": "git.merge.continue",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "calm", "intensity": 0.3 },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-050",
+      "text": "attach debugger to the running node process on port 9229",
+      "primary_intent": "debug.start.attach",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "port 9229", "type": "number", "start": 47, "end": 56 }
+      ]
+    },
+    {
+      "id": "se-001-051",
+      "text": "start debugging with the jest config, I need to debug tests",
+      "primary_intent": "debug.start.config",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        { "text": "jest config", "type": "file", "start": 24, "end": 35 }
+      ]
+    },
+    {
+      "id": "se-001-052",
+      "text": "remove all breakpoints, I'm done debugging this part",
+      "primary_intent": "debug.breakpoint.remove",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "satisfied",
+        "intensity": 0.3,
+        "markers": ["done"]
+      },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.9 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-053",
+      "text": "add a logpoint instead of breakpoint, print the request headers without stopping",
+      "primary_intent": "debug.breakpoint.logpoint",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-054",
+      "text": "evaluate this expression in the current context: Object.keys(user.permissions)",
+      "primary_intent": "debug.inspect.expression",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "entities": [
+        {
+          "text": "Object.keys(user.permissions)",
+          "type": "parameter",
+          "start": 48,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "se-001-055",
+      "text": "done watching that variable, remove it from watch",
+      "primary_intent": "debug.watch.remove",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.9 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-056",
+      "text": "run this single test in isolation, the one about user registration",
+      "primary_intent": "test.run.single",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "focused", "intensity": 0.3 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.85
+      },
+      "context": {
+        "situation": "testing",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-057",
+      "text": "coverage is probably low in the utils folder, check that specifically",
+      "primary_intent": "test.coverage.view",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.6 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "hedging": ["probably"] }
+    },
+    {
+      "id": "se-001-058",
+      "text": "debug the failing tests, try catching where it throws",
+      "primary_intent": "test.debug.failed",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.75 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-059",
+      "text": "LGTM ship it, approved",
+      "primary_intent": "review.approve.lgtm",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "excited",
+        "intensity": 0.5,
+        "markers": ["ship it"]
+      },
+      "cognitive_state": { "type": "focused", "confidence_level": 0.95 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-060",
+      "text": "request changes on this PR, the error handling is incomplete",
+      "primary_intent": "review.changes.request",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-061",
+      "text": "show me the changes they made after I requested changes",
+      "primary_intent": "review.changes.view",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "curious", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.8 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-062",
+      "text": "add a general comment to the PR about the architecture choice",
+      "primary_intent": "review.comment.general",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.3 },
+      "cognitive_state": { "type": "analytical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-063",
+      "text": "comment on that specific line where they're mutating state directly",
+      "primary_intent": "review.comment.inline",
+      "language": { "primary": "en", "register": "technical" },
+      "emotional_context": { "tone": "focused", "intensity": 0.4 },
+      "cognitive_state": {
+        "type": "precision_seeking",
+        "confidence_level": 0.9
+      },
+      "context": {
+        "situation": "code_review",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-064",
+      "text": "yaar test fail ho rahe hain, debug karo please",
+      "primary_intent": "test.debug.failed",
+      "language": { "primary": "hi", "mixing": ["en"], "register": "casual" },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.5,
+        "markers": ["yaar"]
+      },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.6 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-065",
+      "text": "breakpoint hata do sab, bohot ho gaye",
+      "primary_intent": "debug.breakpoint.remove",
+      "language": { "primary": "hi", "mixing": ["en"], "register": "casual" },
+      "emotional_context": {
+        "tone": "tired",
+        "intensity": 0.4,
+        "markers": ["bohot ho gaye"]
+      },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.8 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "low",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-066",
+      "text": "pehle stash kar sab kuch, phir branch switch karenge",
+      "primary_intent": "git.stash.save",
+      "secondary_intent": "git.branch.switch",
+      "language": { "primary": "hi", "mixing": ["en"], "register": "casual" },
+      "emotional_context": { "tone": "calm", "intensity": 0.3 },
+      "cognitive_state": { "type": "methodical", "confidence_level": 0.85 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      }
+    },
+    {
+      "id": "se-001-067",
+      "text": "umm I think... no wait, let me see the branch list first before deciding",
+      "primary_intent": "git.branch.list",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "confused", "intensity": 0.4 },
+      "cognitive_state": { "type": "distracted", "confidence_level": 0.4 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": {
+        "false_starts": ["I think..."],
+        "repairs": ["no wait"],
+        "filler_words": ["umm"]
+      }
+    },
+    {
+      "id": "se-001-068",
+      "text": "the PR needs... actually the whole test suite needs to run again",
+      "primary_intent": "test.run.all",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "uncertain", "intensity": 0.3 },
+      "cognitive_state": { "type": "distracted", "confidence_level": 0.6 },
+      "context": {
+        "situation": "testing",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "repairs": ["actually the whole test suite"] }
+    },
+    {
+      "id": "se-001-069",
+      "text": "so basically what I need is, like, to see what's different between these two branches",
+      "primary_intent": "git.diff.branch",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "uncertain", "intensity": 0.3 },
+      "cognitive_state": { "type": "exploratory", "confidence_level": 0.5 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "filler_words": ["so basically", "like"] }
+    },
+    {
+      "id": "se-001-070",
+      "text": "I'm absolutely certain we need to reset hard to HEAD~3, do it",
+      "primary_intent": "git.reset.hard",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "confident",
+        "intensity": 0.7,
+        "markers": ["absolutely certain"]
+      },
+      "cognitive_state": { "type": "overconfident", "confidence_level": 0.99 },
+      "context": {
+        "situation": "problem_solving",
+        "urgency": "high",
+        "domain": "software_engineering"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "se-001-071",
+      "text": "hmmm something's not right... show me git status again",
+      "primary_intent": "git.status.detailed",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "suspicious",
+        "intensity": 0.4,
+        "markers": ["hmmm", "not right"]
+      },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.3 },
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "filler_words": ["hmmm"] }
+    },
+    {
+      "id": "se-001-072",
+      "text": "quick quick quick merge this before the build breaks",
+      "primary_intent": "git.merge.regular",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": {
+        "tone": "urgent",
+        "intensity": 0.9,
+        "markers": ["quick quick quick"]
+      },
+      "cognitive_state": { "type": "rushed", "confidence_level": 0.7 },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical",
+        "domain": "software_engineering",
+        "time_pressure": true
+      },
+      "discourse_features": { "repetitions": ["quick"] }
+    },
+    {
+      "id": "se-001-073",
+      "text": "I guess... maybe... we should probably check what's in that stash first?",
+      "primary_intent": "git.stash.list",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "uncertain", "intensity": 0.3 },
+      "cognitive_state": { "type": "confused", "confidence_level": 0.2 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": { "hedging": ["I guess", "maybe", "probably"] }
+    },
+    {
+      "id": "se-001-074",
+      "text": "while that's compiling, show me what tests failed last time",
+      "primary_intent": "test.run.failed",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "neutral", "intensity": 0.2 },
+      "cognitive_state": { "type": "multitasking", "confidence_level": 0.8 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering",
+        "background_activity": "waiting for compilation"
+      }
+    },
+    {
+      "id": "se-001-075",
+      "text": "also need to look at the... what's the thing called... the dependency graph",
+      "primary_intent": "knowledge.general",
+      "language": { "primary": "en", "register": "casual" },
+      "emotional_context": { "tone": "confused", "intensity": 0.4 },
+      "cognitive_state": { "type": "fatigued", "confidence_level": 0.4 },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low",
+        "domain": "software_engineering"
+      },
+      "discourse_features": {
+        "false_starts": ["the..."],
+        "filler_words": ["what's the thing called"]
+      }
+    }
+  ]
+}

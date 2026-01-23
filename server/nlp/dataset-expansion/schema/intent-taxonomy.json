@@ -1,0 +1,659 @@
+{
+  "taxonomy_version": "1.0.0",
+  "created_at": "2026-01-23T10:40:00.000Z",
+  "description": "Hierarchical intent taxonomy for 20K+ intent target with decomposition strategies",
+  "expansion_method": "Micro-intent decomposition with contextual, emotional, and discourse variants",
+
+  "level_0_domains": [
+    "system",
+    "browser",
+    "file",
+    "media",
+    "productivity",
+    "communication",
+    "knowledge",
+    "developer",
+    "entertainment",
+    "smart_home",
+    "social",
+    "financial",
+    "health",
+    "travel",
+    "shopping",
+    "education",
+    "creative"
+  ],
+
+  "intent_tree": {
+    "system": {
+      "power": {
+        "shutdown": {
+          "shutdown.immediate": "shut down right now",
+          "shutdown.scheduled": "shut down in 30 minutes",
+          "shutdown.conditional": "shut down after the download finishes",
+          "shutdown.confirmed": "yes I'm sure, shut down",
+          "shutdown.cancelled": "actually don't shut down",
+          "shutdown.forced": "force shutdown, something's frozen"
+        },
+        "restart": {
+          "restart.immediate": "restart now",
+          "restart.scheduled": "restart at midnight",
+          "restart.safe_mode": "restart in safe mode",
+          "restart.to_bios": "restart and enter BIOS"
+        },
+        "sleep": {
+          "sleep.immediate": "put computer to sleep",
+          "sleep.scheduled": "sleep in 15 minutes",
+          "sleep.hibernate": "hibernate instead of sleep"
+        },
+        "lock": {
+          "lock.screen": "lock the screen",
+          "lock.session": "lock my session",
+          "lock.with_password": "lock and require password"
+        }
+      },
+      "volume": {
+        "up": {
+          "up.slight": "volume up a little",
+          "up.moderate": "louder please",
+          "up.maximum": "max volume",
+          "up.specific": "set volume to 80%"
+        },
+        "down": {
+          "down.slight": "a bit quieter",
+          "down.moderate": "lower the volume",
+          "down.minimum": "almost mute it",
+          "down.specific": "set volume to 30%"
+        },
+        "mute": {
+          "mute.toggle": "mute",
+          "mute.all": "mute all audio",
+          "mute.app_specific": "mute just spotify"
+        },
+        "unmute": {
+          "unmute.toggle": "unmute",
+          "unmute.restore": "restore previous volume"
+        }
+      },
+      "display": {
+        "brightness": {
+          "brightness.up": "brighter screen",
+          "brightness.down": "dim the display",
+          "brightness.auto": "auto brightness",
+          "brightness.specific": "set brightness to 50%"
+        },
+        "mode": {
+          "mode.dark": "enable dark mode",
+          "mode.light": "switch to light mode",
+          "mode.night": "enable night light",
+          "mode.blue_light": "reduce blue light"
+        },
+        "resolution": {
+          "resolution.change": "change screen resolution",
+          "resolution.detect": "detect display settings"
+        }
+      },
+      "connectivity": {
+        "wifi": {
+          "wifi.on": "turn on wifi",
+          "wifi.off": "disable wifi",
+          "wifi.status": "is wifi connected?",
+          "wifi.connect": "connect to home network",
+          "wifi.disconnect": "disconnect from wifi",
+          "wifi.scan": "show available networks",
+          "wifi.forget": "forget this network"
+        },
+        "bluetooth": {
+          "bluetooth.on": "enable bluetooth",
+          "bluetooth.off": "turn off bluetooth",
+          "bluetooth.pair": "pair new device",
+          "bluetooth.connect": "connect to my headphones",
+          "bluetooth.disconnect": "disconnect bluetooth device",
+          "bluetooth.list": "show paired devices"
+        },
+        "airplane": {
+          "airplane.on": "airplane mode on",
+          "airplane.off": "disable airplane mode"
+        },
+        "hotspot": {
+          "hotspot.on": "enable mobile hotspot",
+          "hotspot.off": "turn off hotspot",
+          "hotspot.settings": "change hotspot password"
+        },
+        "vpn": {
+          "vpn.connect": "connect to VPN",
+          "vpn.disconnect": "disconnect VPN",
+          "vpn.status": "is VPN active?"
+        }
+      },
+      "process": {
+        "task_manager": "open task manager",
+        "kill": {
+          "kill.app": "kill this app",
+          "kill.process": "end process chrome",
+          "kill.unresponsive": "force close frozen app"
+        },
+        "status": {
+          "status.cpu": "what's using the CPU?",
+          "status.memory": "how much RAM is being used?",
+          "status.disk": "check disk usage"
+        }
+      },
+      "updates": {
+        "check": "check for updates",
+        "install": "install updates now",
+        "schedule": "schedule updates for tonight",
+        "history": "show update history"
+      },
+      "backup": {
+        "start": "start backup now",
+        "schedule": "schedule automatic backup",
+        "restore": "restore from backup",
+        "status": "backup status"
+      },
+      "screenshot": {
+        "full": "take screenshot",
+        "window": "screenshot this window",
+        "region": "screenshot a region",
+        "delayed": "screenshot in 5 seconds",
+        "save": "save screenshot to desktop"
+      },
+      "clipboard": {
+        "clear": "clear clipboard",
+        "history": "show clipboard history",
+        "paste_special": "paste as plain text"
+      }
+    },
+
+    "browser": {
+      "navigation": {
+        "open_website": {
+          "open_website.by_name": "open google",
+          "open_website.by_url": "go to github.com",
+          "open_website.by_search": "find the amazon website",
+          "open_website.new_tab": "open twitter in new tab",
+          "open_website.new_window": "open gmail in new window",
+          "open_website.incognito": "open facebook in incognito"
+        },
+        "back": "go back",
+        "forward": "go forward",
+        "refresh": "refresh page",
+        "stop": "stop loading",
+        "home": "go to homepage"
+      },
+      "tabs": {
+        "new": "new tab",
+        "close": {
+          "close.current": "close this tab",
+          "close.others": "close other tabs",
+          "close.right": "close tabs to the right",
+          "close.all": "close all tabs"
+        },
+        "switch": {
+          "switch.by_number": "go to tab 3",
+          "switch.next": "next tab",
+          "switch.previous": "previous tab"
+        },
+        "reopen": "reopen closed tab",
+        "duplicate": "duplicate this tab",
+        "pin": "pin this tab",
+        "mute": "mute this tab"
+      },
+      "search": {
+        "search.general": "search for machine learning",
+        "search.images": "image search cats",
+        "search.videos": "video search tutorials",
+        "search.news": "search news about technology"
+      },
+      "history": {
+        "view": "show browsing history",
+        "clear": "clear history",
+        "search": "find in history"
+      },
+      "bookmarks": {
+        "add": "bookmark this page",
+        "manage": "open bookmarks",
+        "search": "find bookmark"
+      },
+      "download": {
+        "view": "show downloads",
+        "pause": "pause download",
+        "resume": "resume download",
+        "cancel": "cancel download"
+      },
+      "zoom": {
+        "in": "zoom in",
+        "out": "zoom out",
+        "reset": "reset zoom"
+      },
+      "reader": {
+        "enable": "reader mode",
+        "print": "print this page",
+        "save": "save page as PDF"
+      }
+    },
+
+    "file": {
+      "create": {
+        "file": {
+          "file.empty": "create empty file",
+          "file.with_name": "create file called notes.txt",
+          "file.with_content": "create file with this text",
+          "file.from_template": "create file from template"
+        },
+        "folder": {
+          "folder.simple": "create new folder",
+          "folder.with_name": "create folder called projects",
+          "folder.nested": "create folder structure",
+          "folder.with_permissions": "create folder with read-only"
+        }
+      },
+      "open": {
+        "open.by_name": "open report.pdf",
+        "open.by_type": "open my documents",
+        "open.recent": "open recent files",
+        "open.with_app": "open image with photoshop"
+      },
+      "delete": {
+        "delete.single": "delete this file",
+        "delete.multiple": "delete selected files",
+        "delete.permanent": "permanently delete",
+        "delete.to_trash": "move to trash"
+      },
+      "move": {
+        "move.to_folder": "move to downloads",
+        "move.to_drive": "move to D drive"
+      },
+      "copy": {
+        "copy.file": "copy this file",
+        "copy.to_location": "copy to desktop"
+      },
+      "rename": {
+        "rename.single": "rename to newname.txt",
+        "rename.batch": "rename all with pattern"
+      },
+      "search": {
+        "search.by_name": "find files named report",
+        "search.by_content": "search files containing keyword",
+        "search.by_type": "find all PDFs",
+        "search.by_date": "files modified today",
+        "search.by_size": "large files over 1GB"
+      },
+      "properties": {
+        "view": "show file properties",
+        "modify": "change file attributes"
+      },
+      "compress": {
+        "zip": "compress to zip",
+        "extract": "extract files"
+      },
+      "share": {
+        "share.link": "create share link",
+        "share.email": "share via email"
+      }
+    },
+
+    "media": {
+      "playback": {
+        "play": {
+          "play.generic": "play music",
+          "play.specific": "play bohemian rhapsody",
+          "play.artist": "play songs by coldplay",
+          "play.genre": "play jazz music",
+          "play.mood": "play something relaxing",
+          "play.playlist": "play my workout playlist",
+          "play.radio": "play ambient radio"
+        },
+        "pause": "pause",
+        "resume": "resume playing",
+        "stop": "stop music",
+        "next": "next track",
+        "previous": "previous song",
+        "shuffle": {
+          "shuffle.on": "shuffle on",
+          "shuffle.off": "turn off shuffle"
+        },
+        "repeat": {
+          "repeat.one": "repeat this song",
+          "repeat.all": "repeat playlist",
+          "repeat.off": "turn off repeat"
+        },
+        "seek": {
+          "seek.forward": "skip forward 30 seconds",
+          "seek.backward": "go back 10 seconds",
+          "seek.to_time": "go to 2:30"
+        }
+      },
+      "discovery": {
+        "recommend": "recommend some music",
+        "similar": "find similar songs",
+        "popular": "what's trending",
+        "new_releases": "new releases this week"
+      },
+      "playlist": {
+        "create": "create new playlist",
+        "add": "add to playlist",
+        "remove": "remove from playlist",
+        "view": "show my playlists"
+      },
+      "podcast": {
+        "play": "play my podcast",
+        "subscribe": "subscribe to podcast",
+        "list": "show subscribed podcasts"
+      },
+      "video": {
+        "play": {
+          "play.video": "play video",
+          "play.fullscreen": "fullscreen",
+          "play.minimize": "minimize video"
+        },
+        "subtitles": {
+          "subtitles.on": "turn on subtitles",
+          "subtitles.off": "disable subtitles",
+          "subtitles.language": "change subtitle language"
+        }
+      }
+    },
+
+    "productivity": {
+      "reminder": {
+        "set": {
+          "set.time": "remind me at 3pm",
+          "set.relative": "remind me in 20 minutes",
+          "set.recurring": "remind me every Monday",
+          "set.location": "remind me when I get home",
+          "set.conditional": "remind me to call John if I don't hear back"
+        },
+        "view": "show my reminders",
+        "delete": "delete reminder",
+        "snooze": "snooze for 10 minutes",
+        "complete": "mark reminder as done"
+      },
+      "alarm": {
+        "set": {
+          "set.time": "set alarm for 7am",
+          "set.recurring": "set weekday alarm",
+          "set.label": "set alarm called gym"
+        },
+        "cancel": "cancel alarm",
+        "snooze": "snooze alarm",
+        "list": "show all alarms"
+      },
+      "timer": {
+        "start": {
+          "start.duration": "set timer for 25 minutes",
+          "start.named": "start pomodoro timer",
+          "start.countdown": "countdown from 60 seconds"
+        },
+        "pause": "pause timer",
+        "resume": "resume timer",
+        "cancel": "cancel timer",
+        "status": "how much time left?"
+      },
+      "calendar": {
+        "create": {
+          "create.event": "schedule meeting for tomorrow",
+          "create.all_day": "add all-day event",
+          "create.recurring": "schedule weekly standup"
+        },
+        "view": {
+          "view.today": "what's on my calendar today?",
+          "view.week": "show this week's events",
+          "view.specific": "show June events"
+        },
+        "modify": {
+          "modify.reschedule": "move meeting to 3pm",
+          "modify.cancel": "cancel the meeting",
+          "modify.invite": "add John to the meeting"
+        }
+      },
+      "note": {
+        "create": {
+          "create.quick": "take a quick note",
+          "create.voice": "transcribe voice note",
+          "create.titled": "new note called shopping list"
+        },
+        "view": "show my notes",
+        "search": "find note about project",
+        "edit": "add to my note",
+        "delete": "delete note"
+      },
+      "todo": {
+        "add": "add task to list",
+        "complete": "mark task as done",
+        "view": "show my todo list",
+        "prioritize": "set high priority",
+        "delete": "remove task"
+      }
+    },
+
+    "communication": {
+      "email": {
+        "compose": {
+          "compose.new": "write new email",
+          "compose.to": "email John",
+          "compose.reply": "reply to this email",
+          "compose.forward": "forward this email"
+        },
+        "read": {
+          "read.inbox": "check my inbox",
+          "read.unread": "show unread emails",
+          "read.from": "emails from Sarah"
+        },
+        "manage": {
+          "manage.archive": "archive this email",
+          "manage.delete": "delete email",
+          "manage.flag": "flag as important",
+          "manage.label": "add label"
+        },
+        "search": "search emails for invoice"
+      },
+      "message": {
+        "send": {
+          "send.generic": "send a message",
+          "send.to": "message John",
+          "send.text": "text mom that I'll be late",
+          "send.whatsapp": "whatsapp Sarah"
+        },
+        "read": "show messages",
+        "reply": "reply to message"
+      },
+      "call": {
+        "make": {
+          "make.by_name": "call John",
+          "make.by_number": "dial 555-1234",
+          "make.video": "video call Sarah"
+        },
+        "answer": "answer the call",
+        "decline": "decline call",
+        "end": "hang up",
+        "hold": "put on hold"
+      }
+    },
+
+    "developer": {
+      "git": {
+        "status": {
+          "status.quick": "git status",
+          "status.detailed": "detailed git status",
+          "status.branch": "current branch"
+        },
+        "commit": {
+          "commit.simple": "commit changes",
+          "commit.with_message": "commit with message",
+          "commit.amend": "amend last commit",
+          "commit.squash": "squash commits"
+        },
+        "branch": {
+          "branch.create": "create branch",
+          "branch.switch": "checkout branch",
+          "branch.delete": "delete branch",
+          "branch.list": "list branches",
+          "branch.merge": "merge branch"
+        },
+        "remote": {
+          "remote.push": "push changes",
+          "remote.pull": "pull latest",
+          "remote.fetch": "fetch updates"
+        },
+        "stash": {
+          "stash.save": "stash changes",
+          "stash.pop": "pop stash",
+          "stash.list": "list stashes"
+        },
+        "rebase": {
+          "rebase.interactive": "interactive rebase",
+          "rebase.abort": "abort rebase",
+          "rebase.continue": "continue rebase"
+        }
+      },
+      "ide": {
+        "open": {
+          "open.vscode": "open VS Code",
+          "open.project": "open project",
+          "open.file": "open file in editor"
+        },
+        "navigate": {
+          "navigate.definition": "go to definition",
+          "navigate.references": "find references",
+          "navigate.implementation": "go to implementation"
+        },
+        "refactor": {
+          "refactor.rename": "rename symbol",
+          "refactor.extract": "extract method"
+        },
+        "debug": {
+          "debug.start": "start debugging",
+          "debug.breakpoint": "toggle breakpoint",
+          "debug.step": "step over",
+          "debug.continue": "continue execution"
+        }
+      },
+      "terminal": {
+        "open": "open terminal",
+        "run": "run command",
+        "clear": "clear terminal"
+      },
+      "server": {
+        "start": {
+          "start.dev": "start dev server",
+          "start.prod": "start production",
+          "start.test": "start test server"
+        },
+        "stop": "stop server",
+        "restart": "restart server"
+      },
+      "package": {
+        "install": "npm install",
+        "update": "update packages",
+        "list": "list installed packages"
+      },
+      "test": {
+        "run": {
+          "run.all": "run all tests",
+          "run.single": "run this test",
+          "run.failed": "rerun failed tests"
+        },
+        "coverage": "generate coverage report"
+      }
+    },
+
+    "knowledge": {
+      "question": {
+        "what": {
+          "what.definition": "what is machine learning?",
+          "what.explanation": "what does API mean?",
+          "what.difference": "what's the difference between X and Y?"
+        },
+        "how": {
+          "how.process": "how does blockchain work?",
+          "how.to": "how to make pasta?",
+          "how.much": "how much RAM do I have?"
+        },
+        "why": {
+          "why.reason": "why is the sky blue?",
+          "why.purpose": "why do we need sleep?"
+        },
+        "when": {
+          "when.event": "when was the moon landing?",
+          "when.schedule": "when is the meeting?"
+        },
+        "where": {
+          "where.location": "where is the Eiffel Tower?",
+          "where.information": "where can I learn Python?"
+        },
+        "who": {
+          "who.person": "who invented electricity?",
+          "who.organization": "who runs Google?"
+        }
+      },
+      "fact": {
+        "verify": "is it true that...",
+        "lookup": "tell me about Einstein",
+        "current": "what's the current temperature?"
+      },
+      "calculate": {
+        "math": "calculate 15% of 230",
+        "convert": "convert 5 miles to km",
+        "currency": "convert 100 USD to EUR"
+      },
+      "translate": {
+        "text": "translate hello to Spanish",
+        "phrase": "how do you say thank you in French?",
+        "detect": "what language is this?"
+      },
+      "realtime": {
+        "time": "what time is it?",
+        "date": "what's today's date?",
+        "weather": "what's the weather?",
+        "news": "tell me the news"
+      }
+    },
+
+    "conversation": {
+      "greeting": {
+        "hello": "hello",
+        "morning": "good morning",
+        "evening": "good evening",
+        "casual": "hey there"
+      },
+      "goodbye": {
+        "bye": "bye",
+        "later": "see you later",
+        "formal": "goodbye"
+      },
+      "thanks": {
+        "simple": "thanks",
+        "elaborate": "thank you so much",
+        "specific": "thanks for the help"
+      },
+      "help": {
+        "general": "I need help",
+        "specific": "help me with this",
+        "capabilities": "what can you do?"
+      },
+      "feedback": {
+        "positive": "that was great",
+        "negative": "that's not what I wanted",
+        "correction": "that's wrong"
+      },
+      "clarification": {
+        "repeat": "say that again",
+        "explain": "what do you mean?",
+        "confirm": "did you mean X?"
+      },
+      "meta": {
+        "cancel": "cancel that",
+        "undo": "undo",
+        "continue": "go on",
+        "stop": "stop"
+      },
+      "social": {
+        "compliment": "you're amazing",
+        "joke_request": "tell me a joke",
+        "mood_expression": "I'm feeling tired",
+        "small_talk": "how are you?"
+      }
+    }
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-009",
+    "domain": "communication",
+    "focus_areas": ["email", "messaging", "calls", "contacts"],
+    "generated_at": "2026-01-23T12:10:00.000Z",
+    "total_samples": 85,
+    "integrations": ["gmail", "whatsapp", "phone", "slack"]
+  },
+  "intent_taxonomy": {
+    "email": {
+      "compose": ["new", "reply", "reply_all", "forward"],
+      "organize": ["archive", "delete", "mark_read", "mark_unread", "label"],
+      "search": ["from", "subject", "content", "has_attachment"]
+    },
+    "message": {
+      "send": ["sms", "whatsapp", "slack", "telegram"],
+      "read": ["latest", "unread", "from_person"]
+    },
+    "call": {
+      "action": ["dial", "answer", "decline", "hold", "mute", "video"]
+    }
+  },
+  "samples": [
+    {
+      "id": "com-001",
+      "text": "send an email to John about the meeting tomorrow",
+      "primary_intent": "communication.email.compose",
+      "context": { "situation": "work", "urgency": "medium" },
+      "entities": [
+        { "text": "John", "type": "recipient" },
+        { "text": "meeting tomorrow", "type": "subject" }
+      ]
+    },
+    {
+      "id": "com-002",
+      "text": "reply to this email saying I'll be there",
+      "primary_intent": "communication.email.reply",
+      "context": { "situation": "work", "urgency": "medium" },
+      "entities": [{ "text": "I'll be there", "type": "body" }]
+    },
+    {
+      "id": "com-003",
+      "text": "archive all emails from 'Newsletter'",
+      "primary_intent": "communication.email.organize.archive_batch",
+      "context": { "situation": "cleanup", "urgency": "low" },
+      "entities": [{ "text": "Newsletter", "type": "sender" }]
+    },
+    {
+      "id": "com-004",
+      "text": "text Mom 'I'm running late'",
+      "primary_intent": "communication.message.send.sms",
+      "context": { "situation": "personal", "urgency": "high" },
+      "entities": [
+        { "text": "Mom", "type": "recipient" },
+        { "text": "I'm running late", "type": "message" }
+      ]
+    },
+    {
+      "id": "com-005",
+      "text": "WhatsApp Rahul asking if he's free tonight",
+      "primary_intent": "communication.message.send.whatsapp",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "Rahul", "type": "recipient" }]
+    },
+    {
+      "id": "com-006",
+      "text": "call Dad",
+      "primary_intent": "communication.call.dial",
+      "context": { "situation": "personal", "urgency": "medium" },
+      "entities": [{ "text": "Dad", "type": "contact" }]
+    },
+    {
+      "id": "com-007",
+      "text": "read my unread messages",
+      "primary_intent": "communication.message.read.unread",
+      "context": { "situation": "update", "urgency": "low" }
+    },
+    {
+      "id": "com-008",
+      "text": "forward this email to the team",
+      "primary_intent": "communication.email.forward",
+      "context": { "situation": "work", "urgency": "low" },
+      "entities": [{ "text": "team", "type": "recipient" }]
+    },
+    {
+      "id": "com-009",
+      "text": "send a Slack message to the #general channel",
+      "primary_intent": "communication.message.send.slack",
+      "context": { "situation": "work", "urgency": "low" },
+      "entities": [{ "text": "#general", "type": "channel" }]
+    },
+    {
+      "id": "com-010",
+      "text": "search emails for 'invoice' from 'Amazon'",
+      "primary_intent": "communication.email.search",
+      "context": { "situation": "search", "urgency": "low" },
+      "entities": [
+        { "text": "invoice", "type": "keyword" },
+        { "text": "Amazon", "type": "sender" }
+      ]
+    },
+    {
+      "id": "com-011",
+      "text": "mark this email as unread, I'll deal with it later",
+      "primary_intent": "communication.email.mark_unread",
+      "context": { "situation": "organization", "urgency": "low" }
+    },
+    {
+      "id": "com-012",
+      "text": "delete this conversation",
+      "primary_intent": "communication.message.delete",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-013",
+      "text": "check if I have any missed calls",
+      "primary_intent": "communication.call.history.missed",
+      "context": { "situation": "update", "urgency": "low" }
+    },
+    {
+      "id": "com-014",
+      "text": "start a video call with Sarah",
+      "primary_intent": "communication.call.video.start",
+      "context": { "situation": "social", "urgency": "medium" },
+      "entities": [{ "text": "Sarah", "type": "contact" }]
+    },
+    {
+      "id": "com-015",
+      "text": "schedule a call with Mike for 3pm",
+      "primary_intent": "communication.call.schedule",
+      "context": { "situation": "work", "urgency": "medium" },
+      "entities": [
+        { "text": "Mike", "type": "contact" },
+        { "text": "3pm", "type": "time" }
+      ]
+    },
+    {
+      "id": "com-016",
+      "text": "email support@example.com about the bug",
+      "primary_intent": "communication.email.compose",
+      "context": { "situation": "support", "urgency": "medium" },
+      "entities": [{ "text": "support@example.com", "type": "recipient" }]
+    },
+    {
+      "id": "com-017",
+      "text": "send a voice message to Alex",
+      "primary_intent": "communication.message.send.voice",
+      "context": { "situation": "personal", "urgency": "low" },
+      "entities": [{ "text": "Alex", "type": "recipient" }]
+    },
+    {
+      "id": "com-018",
+      "text": "mute this group chat",
+      "primary_intent": "communication.message.group.mute",
+      "context": { "situation": "privacy", "urgency": "low" }
+    },
+    {
+      "id": "com-019",
+      "text": "add details to contact 'John Doe'",
+      "primary_intent": "communication.contact.edit",
+      "context": { "situation": "organization", "urgency": "low" },
+      "entities": [{ "text": "John Doe", "type": "contact" }]
+    },
+    {
+      "id": "com-020",
+      "text": "create a new contact for 'Jane Smith'",
+      "primary_intent": "communication.contact.create",
+      "context": { "situation": "organization", "urgency": "low" },
+      "entities": [{ "text": "Jane Smith", "type": "name" }]
+    },
+    {
+      "id": "com-021",
+      "text": "reply all 'Thanks everyone'",
+      "primary_intent": "communication.email.reply_all",
+      "context": { "situation": "work", "urgency": "low" }
+    },
+    {
+      "id": "com-022",
+      "text": "block this number",
+      "primary_intent": "communication.call.block",
+      "context": { "situation": "privacy", "urgency": "low" }
+    },
+    {
+      "id": "com-023",
+      "text": "answer the phone",
+      "primary_intent": "communication.call.answer",
+      "context": { "situation": "incoming", "urgency": "high" }
+    },
+    {
+      "id": "com-024",
+      "text": "decline the call and send a text 'Can't talk right now'",
+      "primary_intent": "communication.call.decline_with_message",
+      "context": { "situation": "busy", "urgency": "high" }
+    },
+    {
+      "id": "com-025",
+      "text": "show me emails from last week",
+      "primary_intent": "communication.email.search.date",
+      "context": { "situation": "search", "urgency": "low" },
+      "entities": [{ "text": "last week", "type": "date_range" }]
+    },
+    {
+      "id": "com-026",
+      "text": "Sarah ko email bhejo ki project done hai",
+      "primary_intent": "communication.email.compose",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "work", "urgency": "medium" }
+    },
+    {
+      "id": "com-027",
+      "text": "message padh ke sunao",
+      "primary_intent": "communication.message.read.latest",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "hands_free", "urgency": "low" }
+    },
+    {
+      "id": "com-028",
+      "text": "Amit ko call lagao",
+      "primary_intent": "communication.call.dial",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "personal", "urgency": "medium" }
+    },
+    {
+      "id": "com-029",
+      "text": "WhatsApp pe photo bhejo",
+      "primary_intent": "communication.message.send.media",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-030",
+      "text": "ye email spam mein daal do",
+      "primary_intent": "communication.email.mark_spam",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-031",
+      "text": "subject line should be 'Important Update'",
+      "primary_intent": "communication.email.compose.set_subject",
+      "context": { "situation": "drafting", "urgency": "low" }
+    },
+    {
+      "id": "com-032",
+      "text": "attach the file 'report.pdf'",
+      "primary_intent": "communication.email.attach_file",
+      "context": { "situation": "drafting", "urgency": "low" },
+      "entities": [{ "text": "report.pdf", "type": "file" }]
+    },
+    {
+      "id": "com-033",
+      "text": "cc my manager",
+      "primary_intent": "communication.email.compose.add_cc",
+      "context": { "situation": "drafting", "urgency": "low" }
+    },
+    {
+      "id": "com-034",
+      "text": "bcc the client",
+      "primary_intent": "communication.email.compose.add_bcc",
+      "context": { "situation": "drafting", "urgency": "low" }
+    },
+    {
+      "id": "com-035",
+      "text": "sign off with 'Best regards, [My Name]'",
+      "primary_intent": "communication.email.compose.set_signature",
+      "context": { "situation": "drafting", "urgency": "low" }
+    },
+    {
+      "id": "com-036",
+      "text": "I need to call a plumber, find me a number",
+      "primary_intent": "communication.contact.search.business",
+      "context": { "situation": "emergency", "urgency": "high" },
+      "entities": [{ "text": "plumber", "type": "business_type" }]
+    },
+    {
+      "id": "com-037",
+      "text": "listen to my voicemails",
+      "primary_intent": "communication.call.voicemail.listen",
+      "context": { "situation": "update", "urgency": "low" }
+    },
+    {
+      "id": "com-038",
+      "text": " FaceTime Mom",
+      "primary_intent": "communication.call.facetime",
+      "context": { "situation": "personal", "urgency": "medium" }
+    },
+    {
+      "id": "com-039",
+      "text": "redial the last number",
+      "primary_intent": "communication.call.redial",
+      "context": { "situation": "retry", "urgency": "medium" }
+    },
+    {
+      "id": "com-040",
+      "text": "put the call on speaker",
+      "primary_intent": "communication.call.speaker.on",
+      "context": { "situation": "hands_free", "urgency": "low" }
+    },
+    {
+      "id": "com-041",
+      "text": "draft an email but don't send it yet",
+      "primary_intent": "communication.email.draft.save",
+      "context": { "situation": "drafting", "urgency": "low" }
+    },
+    {
+      "id": "com-042",
+      "text": "remind me to call John back in 10 minutes",
+      "primary_intent": "reminder.set.call_back",
+      "context": { "situation": "deferral", "urgency": "medium" },
+      "entities": [
+        { "text": "John", "type": "contact" },
+        { "text": "10 minutes", "type": "duration" }
+      ]
+    },
+    {
+      "id": "com-043",
+      "text": "send my location to Sarah",
+      "primary_intent": "communication.message.send.location",
+      "context": { "situation": "coordination", "urgency": "medium" }
+    },
+    {
+      "id": "com-044",
+      "text": "create a group chat with John, Sarah, and Mike",
+      "primary_intent": "communication.message.group.create",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "John, Sarah, and Mike", "type": "participants" }]
+    },
+    {
+      "id": "com-045",
+      "text": "leave this group",
+      "primary_intent": "communication.message.group.leave",
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-046",
+      "text": "pin this conversation",
+      "primary_intent": "communication.message.pin",
+      "context": { "situation": "organization", "urgency": "low" }
+    },
+    {
+      "id": "com-047",
+      "text": "empty the spam folder",
+      "primary_intent": "communication.email.cleanup.spam",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-048",
+      "text": "unsubscribe from this list",
+      "primary_intent": "communication.email.unsubscribe",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-049",
+      "text": "who is calling?",
+      "primary_intent": "communication.call.identify",
+      "context": { "situation": "incoming", "urgency": "medium" }
+    },
+    {
+      "id": "com-050",
+      "text": "merge these duplicate contacts",
+      "primary_intent": "communication.contact.merge",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-051",
+      "text": "export my contacts to CSV",
+      "primary_intent": "communication.contact.export",
+      "context": { "situation": "backup", "urgency": "low" }
+    },
+    {
+      "id": "com-052",
+      "text": "set a custom ringtone for Dad",
+      "primary_intent": "communication.contact.set_ringtone",
+      "context": { "situation": "personalization", "urgency": "low" }
+    },
+    {
+      "id": "com-053",
+      "text": "join the Zoom meeting",
+      "primary_intent": "communication.call.join_meeting",
+      "context": { "situation": "work", "urgency": "high" }
+    },
+    {
+      "id": "com-054",
+      "text": "share my screen",
+      "primary_intent": "communication.call.share_screen",
+      "context": { "situation": "meeting", "urgency": "medium" }
+    },
+    {
+      "id": "com-055",
+      "text": "raise my hand",
+      "primary_intent": "communication.call.raise_hand",
+      "context": { "situation": "meeting", "urgency": "low" }
+    },
+    {
+      "id": "com-056",
+      "text": "can you hear me?",
+      "primary_intent": "communication.call.check_audio",
+      "context": { "situation": "troubleshooting", "urgency": "medium" }
+    },
+    {
+      "id": "com-057",
+      "text": "clear call history",
+      "primary_intent": "communication.call.history.clear",
+      "context": { "situation": "privacy", "urgency": "low" }
+    },
+    {
+      "id": "com-058",
+      "text": "translate this incoming message",
+      "primary_intent": "communication.message.translate",
+      "context": { "situation": "communication", "urgency": "low" }
+    },
+    {
+      "id": "com-059",
+      "text": "send a gif of a cat",
+      "primary_intent": "communication.message.send.gif",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "cat", "type": "query" }]
+    },
+    {
+      "id": "com-060",
+      "text": "react with a thumbs up",
+      "primary_intent": "communication.message.react",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "thumbs up", "type": "emoji" }]
+    },
+    {
+      "id": "com-061",
+      "text": "make a conference call with team",
+      "primary_intent": "communication.call.conference.start",
+      "context": { "situation": "work", "urgency": "medium" }
+    },
+    {
+      "id": "com-062",
+      "text": "add Sarah to this call",
+      "primary_intent": "communication.call.add_participant",
+      "context": { "situation": "work", "urgency": "medium" }
+    },
+    {
+      "id": "com-063",
+      "text": "switch to video",
+      "primary_intent": "communication.call.switch_to_video",
+      "context": { "situation": "communication", "urgency": "low" }
+    },
+    {
+      "id": "com-064",
+      "text": "turn off my camera",
+      "primary_intent": "communication.call.video.off",
+      "context": { "situation": "privacy", "urgency": "low" }
+    },
+    {
+      "id": "com-065",
+      "text": "what's my new email address?",
+      "primary_intent": "communication.email.info",
+      "context": { "situation": "info", "urgency": "low" }
+    },
+    {
+      "id": "com-066",
+      "text": "configure my email signature",
+      "primary_intent": "communication.email.configure.signature",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "com-067",
+      "text": "set up an out of office reply",
+      "primary_intent": "communication.email.configure.vacation",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "com-068",
+      "text": "sync my contacts",
+      "primary_intent": "communication.contact.sync",
+      "context": { "situation": "maintenance", "urgency": "low" }
+    },
+    {
+      "id": "com-069",
+      "text": "find contacts near me",
+      "primary_intent": "communication.contact.search.location",
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-070",
+      "text": "send a contact card",
+      "primary_intent": "communication.contact.share",
+      "context": { "situation": "sharing", "urgency": "low" }
+    },
+    {
+      "id": "com-071",
+      "text": "read the last text from 'Bank'",
+      "primary_intent": "communication.message.read.from_sender",
+      "context": { "situation": "info", "urgency": "medium" },
+      "entities": [{ "text": "Bank", "type": "sender" }]
+    },
+    {
+      "id": "com-072",
+      "text": "verify my phone number",
+      "primary_intent": "communication.phone.verify",
+      "context": { "situation": "security", "urgency": "low" }
+    },
+    {
+      "id": "com-073",
+      "text": "set up speed dial",
+      "primary_intent": "communication.call.speed_dial.setup",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "com-074",
+      "text": "call 911",
+      "primary_intent": "communication.call.emergency",
+      "context": { "situation": "emergency", "urgency": "critical" }
+    },
+    {
+      "id": "com-075",
+      "text": "find a pharmacy number",
+      "primary_intent": "communication.contact.search.business",
+      "context": { "situation": "health", "urgency": "high" },
+      "entities": [{ "text": "pharmacy", "type": "business_type" }]
+    },
+    {
+      "id": "com-076",
+      "text": "open the dialer",
+      "primary_intent": "communication.app.open_dialer",
+      "context": { "situation": "control", "urgency": "low" }
+    },
+    {
+      "id": "com-077",
+      "text": "show my recent calls",
+      "primary_intent": "communication.call.history.view",
+      "context": { "situation": "info", "urgency": "low" }
+    },
+    {
+      "id": "com-078",
+      "text": "delete all messages from this sender",
+      "primary_intent": "communication.message.delete.from_sender",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-079",
+      "text": "mark all as read",
+      "primary_intent": "communication.message.mark_all_read",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "com-080",
+      "text": "disable notifications for this app",
+      "primary_intent": "communication.app.notifications.off",
+      "context": { "situation": "focus", "urgency": "medium" }
+    },
+    {
+      "id": "com-081",
+      "text": "reply with 'On my way'",
+      "primary_intent": "communication.message.reply.quick",
+      "context": { "situation": "commute", "urgency": "high" }
+    },
+    {
+      "id": "com-082",
+      "text": "compose a tweet",
+      "primary_intent": "communication.social.tweet",
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-083",
+      "text": "post to Facebook",
+      "primary_intent": "communication.social.post",
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-084",
+      "text": "send a direct message on Instagram",
+      "primary_intent": "communication.message.send.instagram",
+      "context": { "situation": "social", "urgency": "low" }
+    },
+    {
+      "id": "com-085",
+      "text": "copy the verification code from the message",
+      "primary_intent": "communication.message.copy_code",
+      "context": { "situation": "auth", "urgency": "high" }
+    }
+  ]
+}

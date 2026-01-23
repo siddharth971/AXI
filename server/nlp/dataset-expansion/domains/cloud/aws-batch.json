@@ -1,0 +1,1080 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-010",
+    "domain": "cloud",
+    "focus_areas": [
+      "compute",
+      "storage",
+      "databases",
+      "serverless",
+      "monitoring"
+    ],
+    "generated_at": "2026-01-23T12:30:00.000Z",
+    "total_samples": 90,
+    "provider": "aws"
+  },
+  "intent_taxonomy": {
+    "compute": {
+      "instance": [
+        "start",
+        "stop",
+        "reboot",
+        "terminate",
+        "launch",
+        "list",
+        "status"
+      ],
+      "scaling": [
+        "scale_out",
+        "scale_in",
+        "set_capacity"
+      ]
+    },
+    "storage": {
+      "bucket": [
+        "list",
+        "create",
+        "delete",
+        "empty"
+      ],
+      "object": [
+        "upload",
+        "download",
+        "delete",
+        "copy",
+        "presign"
+      ]
+    },
+    "database": {
+      "rds": [
+        "create_snapshot",
+        "restore",
+        "reboot",
+        "stop",
+        "modify"
+      ],
+      "dynamodb": [
+        "query",
+        "scan",
+        "put_item",
+        "get_item"
+      ]
+    },
+    "serverless": {
+      "lambda": [
+        "invoke",
+        "update_code",
+        "logs",
+        "versions"
+      ]
+    },
+    "monitoring": {
+      "cloudwatch": [
+        "get_metrics",
+        "list_alarms",
+        "logs_tail"
+      ],
+      "cost": [
+        "get_forecast",
+        "get_usage"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "cld-001",
+      "text": "spin up a t2.micro instance in us-east-1",
+      "primary_intent": "cloud.aws.compute.instance.launch",
+      "context": {
+        "situation": "provisioning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "t2.micro",
+          "type": "instance_type"
+        },
+        {
+          "text": "us-east-1",
+          "type": "region"
+        }
+      ]
+    },
+    {
+      "id": "cld-002",
+      "text": "stop the production web server instance",
+      "primary_intent": "cloud.aws.compute.instance.stop",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "production web server",
+          "type": "instance_tag"
+        }
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "cld-003",
+      "text": "list all my S3 buckets",
+      "primary_intent": "cloud.aws.storage.bucket.list",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-004",
+      "text": "upload this file to the 'assets-backup' bucket",
+      "primary_intent": "cloud.aws.storage.object.upload",
+      "context": {
+        "situation": "backup",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "assets-backup",
+          "type": "bucket_name"
+        }
+      ]
+    },
+    {
+      "id": "cld-005",
+      "text": "tail the logs for the user-auth lambda function",
+      "primary_intent": "cloud.aws.monitoring.cloudwatch.logs_tail",
+      "context": {
+        "situation": "debugging",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "user-auth",
+          "type": "function_name"
+        }
+      ]
+    },
+    {
+      "id": "cld-006",
+      "text": "check the status of the RDS database",
+      "primary_intent": "cloud.aws.database.rds.status",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-007",
+      "text": "create a snapshot of the production db before deployment",
+      "primary_intent": "cloud.aws.database.rds.create_snapshot",
+      "context": {
+        "situation": "deployment",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "production db",
+          "type": "db_identifier"
+        }
+      ]
+    },
+    {
+      "id": "cld-008",
+      "text": "how much did I spend on EC2 last month?",
+      "primary_intent": "cloud.aws.monitoring.cost.get_usage",
+      "context": {
+        "situation": "finance",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "EC2",
+          "type": "service"
+        },
+        {
+          "text": "last month",
+          "type": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "cld-009",
+      "text": "scale the auto-scaling group to 5 instances",
+      "primary_intent": "cloud.aws.compute.scaling.set_capacity",
+      "context": {
+        "situation": "scaling",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "5",
+          "type": "capacity"
+        }
+      ]
+    },
+    {
+      "id": "cld-010",
+      "text": "reboot the bastion host",
+      "primary_intent": "cloud.aws.compute.instance.reboot",
+      "context": {
+        "situation": "maintenance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-011",
+      "text": "generate a presigned url for 'report.pdf' valid for 1 hour",
+      "primary_intent": "cloud.aws.storage.object.presign",
+      "context": {
+        "situation": "sharing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "report.pdf",
+          "type": "key"
+        },
+        {
+          "text": "1 hour",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "cld-012",
+      "text": "terminate all instances tagged ' Environment:Dev'",
+      "primary_intent": "cloud.aws.compute.instance.terminate",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      },
+      "risk_level": "medium",
+      "entities": [
+        {
+          "text": "Environment:Dev",
+          "type": "tag"
+        }
+      ]
+    },
+    {
+      "id": "cld-013",
+      "text": "invoke the payment-processor lambda with this payload",
+      "primary_intent": "cloud.aws.serverless.lambda.invoke",
+      "context": {
+        "situation": "testing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-014",
+      "text": "show me any active alarms",
+      "primary_intent": "cloud.aws.monitoring.cloudwatch.list_alarms",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-015",
+      "text": "copy the latest dump from prod to stage bucket",
+      "primary_intent": "cloud.aws.storage.object.copy",
+      "context": {
+        "situation": "data_sync",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-016",
+      "text": "what instances are running right now?",
+      "primary_intent": "cloud.aws.compute.instance.list",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "running",
+          "type": "state_filter"
+        }
+      ]
+    },
+    {
+      "id": "cld-017",
+      "text": "empty the temporary-uploads bucket",
+      "primary_intent": "cloud.aws.storage.bucket.empty",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "cld-018",
+      "text": "update the lambda code from the local zip file",
+      "primary_intent": "cloud.aws.serverless.lambda.update_code",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-019",
+      "text": "query the users table for email 'john@example.com'",
+      "primary_intent": "cloud.aws.database.dynamodb.query",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "users",
+          "type": "table"
+        }
+      ]
+    },
+    {
+      "id": "cld-020",
+      "text": "stop the RDS instance to save money",
+      "primary_intent": "cloud.aws.database.rds.stop",
+      "context": {
+        "situation": "cost_saving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-021",
+      "text": "create a new S3 bucket named 'project-x-logs'",
+      "primary_intent": "cloud.aws.storage.bucket.create",
+      "context": {
+        "situation": "provisioning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-022",
+      "text": "download the latest backup from S3",
+      "primary_intent": "cloud.aws.storage.object.download",
+      "context": {
+        "situation": "recovery",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-023",
+      "text": "get metrics for CPU utilization on the web server",
+      "primary_intent": "cloud.aws.monitoring.cloudwatch.get_metrics",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-024",
+      "text": "forecast my bill for the end of the month",
+      "primary_intent": "cloud.aws.monitoring.cost.get_forecast",
+      "context": {
+        "situation": "finance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-025",
+      "text": "list all lambda layer versions",
+      "primary_intent": "cloud.aws.serverless.lambda.versions",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-026",
+      "text": "server restart karo, t2.large wala",
+      "primary_intent": "cloud.aws.compute.instance.reboot",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "t2.large",
+          "type": "instance_type"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-027",
+      "text": "bucket list dikhao",
+      "primary_intent": "cloud.aws.storage.bucket.list",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-028",
+      "text": "database ka snapshot lelo jaldi",
+      "primary_intent": "cloud.aws.database.rds.create_snapshot",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "emotional_context": {
+        "tone": "urgent",
+        "intensity": 0.6
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-029",
+      "text": "logs check karo error ke liye",
+      "primary_intent": "cloud.aws.monitoring.cloudwatch.logs_tail",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-030",
+      "text": "instance launch karo, ubuntu image use karke",
+      "primary_intent": "cloud.aws.compute.instance.launch",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "ubuntu",
+          "type": "ami"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-031",
+      "text": "I think I left the dev server running, can you check and stop it if it is?",
+      "primary_intent": "cloud.aws.compute.instance.stop.conditional",
+      "discourse_features": {
+        "hedging": [
+          "I think"
+        ]
+      },
+      "context": {
+        "situation": "cost_saving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-032",
+      "text": "deploy... wait no, first run the tests, THEN deploy the lambda",
+      "primary_intent": "cloud.aws.serverless.lambda.update_code.conditional",
+      "discourse_features": {
+        "correction": [
+          "wait no"
+        ]
+      },
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-033",
+      "text": "is the database healthy?",
+      "primary_intent": "cloud.aws.database.rds.status",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-034",
+      "text": "why is my bill so high?",
+      "primary_intent": "cloud.aws.monitoring.cost.analyze",
+      "emotional_context": {
+        "tone": "concerned",
+        "intensity": 0.5
+      },
+      "context": {
+        "situation": "finance",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-035",
+      "text": "nuke the entire stack",
+      "primary_intent": "cloud.aws.formation.delete_stack",
+      "emotional_context": {
+        "tone": "destructive",
+        "intensity": 0.8
+      },
+      "risk_level": "critical",
+      "entities": [
+        {
+          "text": "stack",
+          "type": "resource_group"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "cld-036",
+      "text": "refresh the credentials",
+      "primary_intent": "cloud.aws.iam.refresh_creds",
+      "context": {
+        "situation": "security",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cld-037",
+      "text": "who has access to this bucket?",
+      "primary_intent": "cloud.aws.iam.policy.get_bucket",
+      "context": {
+        "situation": "security_audit",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-038",
+      "text": "rotate the access keys",
+      "primary_intent": "cloud.aws.iam.key.rotate",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-039",
+      "text": "switch region to eu-central-1",
+      "primary_intent": "cloud.aws.config.set_region",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-040",
+      "text": "create a cloudfront invalidation for /*",
+      "primary_intent": "cloud.aws.network.cloudfront.invalidate",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "/*",
+          "type": "path"
+        }
+      ]
+    },
+    {
+      "id": "cld-041",
+      "text": "make this object public",
+      "primary_intent": "cloud.aws.storage.object.acl.public",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "cld-042",
+      "text": "check ECS cluster state",
+      "primary_intent": "cloud.aws.compute.ecs.describe_cluster",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-043",
+      "text": "force new deployment on the service",
+      "primary_intent": "cloud.aws.compute.ecs.update_service",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-044",
+      "text": "retrieve the secret 'db-password'",
+      "primary_intent": "cloud.aws.security.secrets.get",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "db-password",
+          "type": "secret_id"
+        }
+      ]
+    },
+    {
+      "id": "cld-045",
+      "text": "list all route53 zones",
+      "primary_intent": "cloud.aws.network.route53.list_zones",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-046",
+      "text": "create an A record for www pointing to the ELB",
+      "primary_intent": "cloud.aws.network.route53.create_record",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "A",
+          "type": "record_type"
+        }
+      ]
+    },
+    {
+      "id": "cld-047",
+      "text": "check IP whitelisting on the security group",
+      "primary_intent": "cloud.aws.network.security_group.describe",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-048",
+      "text": "allow port 22 from my IP",
+      "primary_intent": "cloud.aws.network.security_group.authorize_ingress",
+      "context": {
+        "situation": "security",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "22",
+          "type": "port"
+        }
+      ]
+    },
+    {
+      "id": "cld-049",
+      "text": "mount the EFS volume",
+      "primary_intent": "cloud.aws.storage.efs.mount",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-050",
+      "text": "list all queue messages",
+      "primary_intent": "cloud.aws.integration.sqs.receive",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-051",
+      "text": "purge the SQS queue",
+      "primary_intent": "cloud.aws.integration.sqs.purge",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "medium"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "cld-052",
+      "text": "trigger the SNS topic",
+      "primary_intent": "cloud.aws.integration.sns.publish",
+      "context": {
+        "situation": "testing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-053",
+      "text": "describe the cloudformation stack events",
+      "primary_intent": "cloud.aws.formation.describe_events",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-054",
+      "text": "upload the certificate to IAM",
+      "primary_intent": "cloud.aws.iam.cert.upload",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-055",
+      "text": "enable vpc flow logs",
+      "primary_intent": "cloud.aws.network.vpc.logs.enable",
+      "context": {
+        "situation": "monitoring",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-056",
+      "text": "reserve a static IP",
+      "primary_intent": "cloud.aws.network.eip.allocate",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-057",
+      "text": "associate the elastic IP with this instance",
+      "primary_intent": "cloud.aws.network.eip.associate",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-058",
+      "text": "show me the launch template",
+      "primary_intent": "cloud.aws.compute.template.describe",
+      "context": {
+        "situation": "configuration",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-059",
+      "text": "modify the capacity provider",
+      "primary_intent": "cloud.aws.compute.ecs.update_capacity",
+      "context": {
+        "situation": "scaling",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-060",
+      "text": "start a codebuild project",
+      "primary_intent": "cloud.aws.devops.codebuild.start",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-061",
+      "text": "check codepipeline status",
+      "primary_intent": "cloud.aws.devops.codepipeline.get_state",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-062",
+      "text": "approve the manual step in the pipeline",
+      "primary_intent": "cloud.aws.devops.codepipeline.approve",
+      "context": {
+        "situation": "deployment",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-063",
+      "text": "list running containers in the task",
+      "primary_intent": "cloud.aws.compute.ecs.list_containers",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-064",
+      "text": "get the load balancer DNS name",
+      "primary_intent": "cloud.aws.network.elb.describe",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-065",
+      "text": "register targets to the target group",
+      "primary_intent": "cloud.aws.network.elb.register_targets",
+      "context": {
+        "situation": "networking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-066",
+      "text": "create a cognito user pool",
+      "primary_intent": "cloud.aws.security.cognito.create_pool",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-067",
+      "text": "admin reset user password",
+      "primary_intent": "cloud.aws.security.cognito.admin_reset_password",
+      "context": {
+        "situation": "support",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cld-068",
+      "text": "encrypt this volume with KMS",
+      "primary_intent": "cloud.aws.storage.ebs.encrypt",
+      "context": {
+        "situation": "security",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-069",
+      "text": "tag this resource with 'Project:Alpha'",
+      "primary_intent": "cloud.aws.general.tag_resource",
+      "context": {
+        "situation": "organization",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-070",
+      "text": "find untagged resources",
+      "primary_intent": "cloud.aws.general.find_untagged",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-071",
+      "text": "check service quotas for EC2",
+      "primary_intent": "cloud.aws.general.check_quotas",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-072",
+      "text": "request quota increase",
+      "primary_intent": "cloud.aws.general.request_quota_increase",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-073",
+      "text": "what is the arn of this role?",
+      "primary_intent": "cloud.aws.iam.role.get_arn",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-074",
+      "text": "simulate a policy for this user",
+      "primary_intent": "cloud.aws.iam.policy.simulate",
+      "context": {
+        "situation": "testing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-075",
+      "text": "enable mfa for my user",
+      "primary_intent": "cloud.aws.iam.user.enable_mfa",
+      "context": {
+        "situation": "security",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "cld-076",
+      "text": "delete the glacier archive",
+      "primary_intent": "cloud.aws.storage.glacier.delete_archive",
+      "context": {
+        "situation": "cleanup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-077",
+      "text": "initiate a glacier retrieval job",
+      "primary_intent": "cloud.aws.storage.glacier.initiate_job",
+      "context": {
+        "situation": "recovery",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-078",
+      "text": "create a cloudtrail trail",
+      "primary_intent": "cloud.aws.monitoring.cloudtrail.create",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-079",
+      "text": "lookup events in cloudtrail",
+      "primary_intent": "cloud.aws.monitoring.cloudtrail.lookup",
+      "context": {
+        "situation": "audit",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-080",
+      "text": "start an athena query",
+      "primary_intent": "cloud.aws.analytics.athena.start_query",
+      "context": {
+        "situation": "analytics",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-081",
+      "text": "get query results",
+      "primary_intent": "cloud.aws.analytics.athena.get_results",
+      "context": {
+        "situation": "analytics",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-082",
+      "text": "put record into kinesis stream",
+      "primary_intent": "cloud.aws.analytics.kinesis.put_record",
+      "context": {
+        "situation": "streaming",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-083",
+      "text": "describe the documentdb cluster",
+      "primary_intent": "cloud.aws.database.docdb.describe",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-084",
+      "text": "failover the rds cluster",
+      "primary_intent": "cloud.aws.database.rds.failover",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "high"
+      },
+      "risk_level": "high"
+    },
+    {
+      "id": "cld-085",
+      "text": "list state machines",
+      "primary_intent": "cloud.aws.serverless.stepfunctions.list",
+      "context": {
+        "situation": "workflow",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-086",
+      "text": "start execution of state machine",
+      "primary_intent": "cloud.aws.serverless.stepfunctions.start",
+      "context": {
+        "situation": "workflow",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-087",
+      "text": "get execution history",
+      "primary_intent": "cloud.aws.serverless.stepfunctions.history",
+      "context": {
+        "situation": "debugging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-088",
+      "text": "update the api gateway stage",
+      "primary_intent": "cloud.aws.network.apigateway.update_stage",
+      "context": {
+        "situation": "deployment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "cld-089",
+      "text": "flush api gateway cache",
+      "primary_intent": "cloud.aws.network.apigateway.flush_cache",
+      "context": {
+        "situation": "troubleshooting",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "cld-090",
+      "text": "generate client sdk",
+      "primary_intent": "cloud.aws.network.apigateway.get_sdk",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      }
+    }
+  ]
+}

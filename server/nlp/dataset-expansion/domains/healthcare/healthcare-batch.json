@@ -1,0 +1,963 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-013",
+    "domain": "healthcare",
+    "focus_areas": [
+      "appointments",
+      "symptoms",
+      "medication",
+      "tracking",
+      "records"
+    ],
+    "generated_at": "2026-01-23T13:05:00.000Z",
+    "total_samples": 85,
+    "privacy_level": "high"
+  },
+  "intent_taxonomy": {
+    "medical": {
+      "appointment": [
+        "book",
+        "cancel",
+        "reschedule",
+        "check",
+        "find_doctor"
+      ],
+      "symptom": [
+        "check",
+        "log",
+        "emergency_check"
+      ],
+      "medication": [
+        "remind",
+        "log",
+        "refill",
+        "info",
+        "interaction"
+      ]
+    },
+    "fitness": {
+      "activity": [
+        "log_workout",
+        "start",
+        "stop",
+        "stats"
+      ],
+      "vitals": [
+        "log_weight",
+        "log_bp",
+        "log_sugar",
+        "heart_rate"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "hlt-001",
+      "text": "book an appointment with Dr. Smith for next Tuesday",
+      "primary_intent": "healthcare.medical.appointment.book",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Dr. Smith",
+          "type": "doctor"
+        },
+        {
+          "text": "next Tuesday",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "id": "hlt-002",
+      "text": "I have a headache and mild fever, what should I do?",
+      "primary_intent": "healthcare.medical.symptom.check",
+      "context": {
+        "situation": "health_concern",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "headache",
+          "type": "symptom"
+        },
+        {
+          "text": "mild fever",
+          "type": "symptom"
+        }
+      ]
+    },
+    {
+      "id": "hlt-003",
+      "text": "call an ambulance immediately!",
+      "primary_intent": "healthcare.emergency.ambulance",
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      },
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 1
+      }
+    },
+    {
+      "id": "hlt-004",
+      "text": "log my weight as 70.5 kg",
+      "primary_intent": "healthcare.fitness.vitals.log_weight",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "70.5 kg",
+          "type": "weight"
+        }
+      ]
+    },
+    {
+      "id": "hlt-005",
+      "text": "remind me to take my antibiotic in 4 hours",
+      "primary_intent": "healthcare.medical.medication.remind",
+      "context": {
+        "situation": "medication",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "antibiotic",
+          "type": "medication"
+        },
+        {
+          "text": "4 hours",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "hlt-006",
+      "text": "find a dermatologist near me",
+      "primary_intent": "healthcare.medical.appointment.find_doctor",
+      "context": {
+        "situation": "search",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "dermatologist",
+          "type": "specialty"
+        }
+      ]
+    },
+    {
+      "id": "hlt-007",
+      "text": "refill my prescription for Lisinopril",
+      "primary_intent": "healthcare.medical.medication.refill",
+      "context": {
+        "situation": "pharmacy",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Lisinopril",
+          "type": "medication"
+        }
+      ]
+    },
+    {
+      "id": "hlt-008",
+      "text": "reschedule my dentist appointment to next month",
+      "primary_intent": "healthcare.medical.appointment.reschedule",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-009",
+      "text": "start a running workout now",
+      "primary_intent": "healthcare.fitness.activity.start",
+      "context": {
+        "situation": "exercise",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "running",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "id": "hlt-010",
+      "text": "what are the side effects of Ibuprofen?",
+      "primary_intent": "healthcare.medical.medication.info",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Ibuprofen",
+          "type": "medication"
+        }
+      ]
+    },
+    {
+      "id": "hlt-011",
+      "text": "cancel my eye exam tomorrow",
+      "primary_intent": "healthcare.medical.appointment.cancel",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-012",
+      "text": "my blood pressure is 120/80",
+      "primary_intent": "healthcare.fitness.vitals.log_bp",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-013",
+      "text": "how many calories have I burned today?",
+      "primary_intent": "healthcare.fitness.activity.stats",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-014",
+      "text": "is it safe to take aspirin with coffee?",
+      "primary_intent": "healthcare.medical.medication.interaction",
+      "context": {
+        "situation": "safety",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-015",
+      "text": "show me my vaccination records",
+      "primary_intent": "healthcare.medical.records.vaccination",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-016",
+      "text": "log that I drank 2 liters of water",
+      "primary_intent": "healthcare.fitness.nutrition.log_water",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-017",
+      "text": "start a meditation session for 10 minutes",
+      "primary_intent": "healthcare.mental.meditation.start",
+      "context": {
+        "situation": "wellness",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-018",
+      "text": "I'm feeling really anxious right now",
+      "primary_intent": "healthcare.mental.state.log",
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.8
+      },
+      "context": {
+        "situation": "wellness",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-019",
+      "text": "track my sleep, I went to bed at 11pm",
+      "primary_intent": "healthcare.fitness.sleep.log",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-020",
+      "text": "check my heart rate",
+      "primary_intent": "healthcare.fitness.vitals.heart_rate",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-021",
+      "text": "search for a 24-hour pharmacy",
+      "primary_intent": "healthcare.medical.pharmacy.find",
+      "context": {
+        "situation": "search",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "hlt-022",
+      "text": "book a blood test appointment",
+      "primary_intent": "healthcare.medical.appointment.book_lab",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-023",
+      "text": "download my lab results",
+      "primary_intent": "healthcare.medical.records.lab_results",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-024",
+      "text": "add 'Vitamin C' to my medication list",
+      "primary_intent": "healthcare.medical.medication.add",
+      "context": {
+        "situation": "logging",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-025",
+      "text": "stop the workout",
+      "primary_intent": "healthcare.fitness.activity.stop",
+      "context": {
+        "situation": "exercise",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-026",
+      "text": "pet mein dard ho raha hai",
+      "primary_intent": "healthcare.medical.symptom.log",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "pet mein dard",
+          "type": "symptom"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "hlt-027",
+      "text": "doctor appointment book karo",
+      "primary_intent": "healthcare.medical.appointment.book",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "hlt-028",
+      "text": "dawai khane ka reminder laga do",
+      "primary_intent": "healthcare.medical.medication.remind",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "hlt-029",
+      "text": "blood pressure check karna hai",
+      "primary_intent": "healthcare.fitness.vitals.check_bp",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "hlt-030",
+      "text": "I think I broke my arm... it hurts so bad",
+      "primary_intent": "healthcare.emergency.check",
+      "emotional_context": {
+        "tone": "pain",
+        "intensity": 0.9
+      },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "hlt-031",
+      "text": "actually, the pain is in my left shoulder, not my arm",
+      "primary_intent": "healthcare.medical.symptom.correction",
+      "discourse_features": {
+        "correction": [
+          "actually",
+          "not"
+        ]
+      },
+      "context": {
+        "situation": "diagnosis",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "hlt-032",
+      "text": "is this rash contagious? wait, let me describe it better",
+      "primary_intent": "healthcare.medical.symptom.describe",
+      "discourse_features": {
+        "repair": [
+          "wait",
+          "let me"
+        ]
+      },
+      "context": {
+        "situation": "diagnosis",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-033",
+      "text": "send my health report to Dr. Jones",
+      "primary_intent": "healthcare.medical.records.share",
+      "context": {
+        "situation": "sharing",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-034",
+      "text": "how many steps did I take?",
+      "primary_intent": "healthcare.fitness.activity.steps",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-035",
+      "text": "set a goal to drink 8 glasses of water",
+      "primary_intent": "healthcare.fitness.nutrition.goal_set",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-036",
+      "text": "log high blood sugar level: 180",
+      "primary_intent": "healthcare.fitness.vitals.log_sugar",
+      "context": {
+        "situation": "tracking",
+        "urgency": "high"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "hlt-037",
+      "text": "find a pediatrician",
+      "primary_intent": "healthcare.medical.appointment.find_doctor",
+      "context": {
+        "situation": "search",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "pediatrician",
+          "type": "specialty"
+        }
+      ]
+    },
+    {
+      "id": "hlt-038",
+      "text": "check insurance coverage for this procedure",
+      "primary_intent": "healthcare.insurance.check_coverage",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-039",
+      "text": "file a health insurance claim",
+      "primary_intent": "healthcare.insurance.claim.file",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-040",
+      "text": "where is the nearest hospital?",
+      "primary_intent": "healthcare.emergency.hospital.find",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "hlt-041",
+      "text": "calculate my BMI",
+      "primary_intent": "healthcare.fitness.tools.bmi",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-042",
+      "text": "start a yoga session",
+      "primary_intent": "healthcare.fitness.activity.start",
+      "context": {
+        "situation": "exercise",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "yoga",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "id": "hlt-043",
+      "text": "remind me to get a flu shot",
+      "primary_intent": "healthcare.medical.reminders.vaccine",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-044",
+      "text": "list hospitals in the network",
+      "primary_intent": "healthcare.insurance.network.list_hospitals",
+      "context": {
+        "situation": "search",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-045",
+      "text": "connect my Fitbit",
+      "primary_intent": "healthcare.device.connect",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-046",
+      "text": "sync data from Apple Health",
+      "primary_intent": "healthcare.device.sync",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-047",
+      "text": "I ate a burger and fries, log it",
+      "primary_intent": "healthcare.fitness.nutrition.log_meal",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-048",
+      "text": "how much protein is in an egg?",
+      "primary_intent": "healthcare.fitness.nutrition.info",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-049",
+      "text": "track my period start date",
+      "primary_intent": "healthcare.wellness.cycle.log",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-050",
+      "text": "predict my next cycle",
+      "primary_intent": "healthcare.wellness.cycle.predict",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-051",
+      "text": "I feel dizzy when I stand up",
+      "primary_intent": "healthcare.medical.symptom.log",
+      "context": {
+        "situation": "health_concern",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-052",
+      "text": "what is this pill? it's small and round and blue",
+      "primary_intent": "healthcare.medical.medication.identify",
+      "context": {
+        "situation": "identification",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-053",
+      "text": "enable fall detection",
+      "primary_intent": "healthcare.safety.fall_detection.on",
+      "context": {
+        "situation": "safety",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-054",
+      "text": "emergency SOS setup",
+      "primary_intent": "healthcare.safety.sos.setup",
+      "context": {
+        "situation": "safety",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-055",
+      "text": "share my location with emergency contacts",
+      "primary_intent": "healthcare.safety.location_share",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "hlt-056",
+      "text": "export health data to PDF",
+      "primary_intent": "healthcare.data.export",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-057",
+      "text": "delete my health data from the cloud",
+      "primary_intent": "healthcare.data.delete",
+      "context": {
+        "situation": "privacy",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-058",
+      "text": "find a gym nearby",
+      "primary_intent": "healthcare.fitness.gym.find",
+      "context": {
+        "situation": "search",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-059",
+      "text": "book a physio appointment",
+      "primary_intent": "healthcare.medical.appointment.book",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "physio",
+          "type": "specialty"
+        }
+      ]
+    },
+    {
+      "id": "hlt-060",
+      "text": "record my mood: happy",
+      "primary_intent": "healthcare.mental.mood.log",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-061",
+      "text": "play soothing sounds for stress relief",
+      "primary_intent": "healthcare.mental.relief.audio",
+      "context": {
+        "situation": "wellness",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-062",
+      "text": "guide me through deep breathing",
+      "primary_intent": "healthcare.mental.relief.breathing",
+      "context": {
+        "situation": "wellness",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-063",
+      "text": "what is a normal resting heart rate?",
+      "primary_intent": "healthcare.education.info",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-064",
+      "text": "explain diabetes type 2",
+      "primary_intent": "healthcare.education.condition",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-065",
+      "text": "find a psychologist",
+      "primary_intent": "healthcare.medical.appointment.find_doctor",
+      "context": {
+        "situation": "search",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "psychologist",
+          "type": "specialty"
+        }
+      ]
+    },
+    {
+      "id": "hlt-066",
+      "text": "remind me to fasting before the blood test",
+      "primary_intent": "healthcare.medical.reminders.prep",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-067",
+      "text": "verify my insurance card",
+      "primary_intent": "healthcare.insurance.verify",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-068",
+      "text": "check waiting time at City Hospital ER",
+      "primary_intent": "healthcare.emergency.hospital.wait_time",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "hlt-069",
+      "text": "call the poison control center",
+      "primary_intent": "healthcare.emergency.call_specialist",
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "hlt-070",
+      "text": "renew my gym membership",
+      "primary_intent": "healthcare.fitness.membership.renew",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-071",
+      "text": "create a workout plan for weight loss",
+      "primary_intent": "healthcare.fitness.plan.create",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-072",
+      "text": "analyze my sleep patterns",
+      "primary_intent": "healthcare.fitness.sleep.analyze",
+      "context": {
+        "situation": "analysis",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-073",
+      "text": "find a vegan meal plan",
+      "primary_intent": "healthcare.fitness.nutrition.plan",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-074",
+      "text": "check pollen count today",
+      "primary_intent": "healthcare.environmental.pollen",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-075",
+      "text": "what is the UV index right now?",
+      "primary_intent": "healthcare.environmental.uv",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-076",
+      "text": "remind me to apply sunscreen",
+      "primary_intent": "healthcare.wellness.reminders.sunscreen",
+      "context": {
+        "situation": "wellness",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-077",
+      "text": "assess my risk for flu",
+      "primary_intent": "healthcare.medical.risk.assess",
+      "context": {
+        "situation": "info",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-078",
+      "text": "find a wheelchair accessible clinic",
+      "primary_intent": "healthcare.medical.appointment.find_accessible",
+      "context": {
+        "situation": "search",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-079",
+      "text": "read the loud noise warning",
+      "primary_intent": "healthcare.environmental.noise_warning",
+      "context": {
+        "situation": "safety",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "hlt-080",
+      "text": "connect to the hearing aid",
+      "primary_intent": "healthcare.device.connect_hearing_aid",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-081",
+      "text": "start a vision test",
+      "primary_intent": "healthcare.medical.test.vision_home",
+      "context": {
+        "situation": "testing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-082",
+      "text": "remind me to stand up every hour",
+      "primary_intent": "healthcare.wellness.reminders.posture",
+      "context": {
+        "situation": "wellness",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-083",
+      "text": "check screen time stats",
+      "primary_intent": "healthcare.wellness.digital.stats",
+      "context": {
+        "situation": "tracking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-084",
+      "text": "turn on blue light filter",
+      "primary_intent": "healthcare.wellness.digital.filter",
+      "context": {
+        "situation": "wellness",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "hlt-085",
+      "text": "schedule a therapy session",
+      "primary_intent": "healthcare.mental.appointment.book",
+      "context": {
+        "situation": "scheduling",
+        "urgency": "medium"
+      }
+    }
+  ]
+}

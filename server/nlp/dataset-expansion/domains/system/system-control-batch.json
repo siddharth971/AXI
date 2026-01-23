@@ -1,0 +1,576 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-007",
+    "domain": "system",
+    "focus_areas": ["power", "volume", "display", "connectivity", "resources"],
+    "generated_at": "2026-01-23T12:00:00.000Z",
+    "total_samples": 85,
+    "system_level": true
+  },
+  "intent_taxonomy": {
+    "power": {
+      "state": ["shutdown", "restart", "sleep", "hibernate", "logout", "lock"],
+      "schedule": ["schedule_shutdown", "cancel_shutdown"]
+    },
+    "audio": {
+      "volume": ["set", "increase", "decrease", "mute", "unmute"],
+      "device": ["switch_output", "switch_input", "connect_bluetooth"]
+    },
+    "display": {
+      "brightness": ["set", "increase", "decrease", "auto"],
+      "mode": ["night_light", "dark_mode", "resolution", "multimonitor"]
+    },
+    "connectivity": {
+      "wifi": ["on", "off", "connect", "scan", "forget"],
+      "bluetooth": ["on", "off", "pair", "disconnect"]
+    },
+    "resources": {
+      "monitor": ["check_cpu", "check_ram", "check_battery", "check_disk"],
+      "process": ["list_processes", "kill_process"]
+    }
+  },
+  "samples": [
+    {
+      "id": "sys-001",
+      "text": "turn the volume up to 80%, I can't hear anything",
+      "primary_intent": "system.audio.volume.set",
+      "context": { "situation": "media_consumption", "urgency": "medium" },
+      "entities": [{ "text": "80%", "type": "percentage" }]
+    },
+    {
+      "id": "sys-002",
+      "text": "mute my microphone, I'm joining a meeting",
+      "primary_intent": "system.audio.input.mute",
+      "context": { "situation": "meeting", "urgency": "high" },
+      "implicit_goal": "privacy"
+    },
+    {
+      "id": "sys-003",
+      "text": "lock the screen immediately",
+      "primary_intent": "system.power.lock",
+      "context": { "situation": "security", "urgency": "high" },
+      "emotional_context": { "tone": "urgent", "intensity": 0.6 }
+    },
+    {
+      "id": "sys-004",
+      "text": "switch audio output to the bluetooth headphones",
+      "primary_intent": "system.audio.device.switch_output",
+      "context": { "situation": "setup", "urgency": "low" },
+      "entities": [{ "text": "bluetooth headphones", "type": "device" }]
+    },
+    {
+      "id": "sys-005",
+      "text": "my battery is low, enable power saver mode",
+      "primary_intent": "system.power.mode.saver",
+      "context": { "situation": "mobile", "urgency": "medium" },
+      "emotional_context": { "tone": "concerned", "intensity": 0.4 }
+    },
+    {
+      "id": "sys-006",
+      "text": "restart the computer in safe mode",
+      "primary_intent": "system.power.restart.safe",
+      "context": { "situation": "troubleshooting", "urgency": "medium" }
+    },
+    {
+      "id": "sys-007",
+      "text": "connect to the 'Office_Guest' wifi network",
+      "primary_intent": "system.connectivity.wifi.connect",
+      "context": { "situation": "setup", "urgency": "low" },
+      "entities": [{ "text": "Office_Guest", "type": "ssid" }]
+    },
+    {
+      "id": "sys-008",
+      "text": "turn off bluetooth to save battery",
+      "primary_intent": "system.connectivity.bluetooth.off",
+      "context": { "situation": "resource_management", "urgency": "low" }
+    },
+    {
+      "id": "sys-009",
+      "text": "how much RAM is Chrome using right now?",
+      "primary_intent": "system.resources.process.check",
+      "context": { "situation": "monitoring", "urgency": "low" },
+      "entities": [{ "text": "Chrome", "type": "process" }]
+    },
+    {
+      "id": "sys-010",
+      "text": "kill the process that's freezing my screen",
+      "primary_intent": "system.resources.process.kill.unresponsive",
+      "context": { "situation": "troubleshooting", "urgency": "high" },
+      "emotional_context": { "tone": "frustrated", "intensity": 0.7 }
+    },
+    {
+      "id": "sys-011",
+      "text": "lower brightness, it's hurting my eyes",
+      "primary_intent": "system.display.brightness.decrease",
+      "context": { "situation": "late_night", "urgency": "medium" },
+      "discourse_features": { "reasoning": ["hurting my eyes"] }
+    },
+    {
+      "id": "sys-012",
+      "text": "schedule a shutdown for 2am tonight",
+      "primary_intent": "system.power.schedule_shutdown",
+      "context": { "situation": "automation", "urgency": "low" },
+      "entities": [{ "text": "2am tonight", "type": "time" }]
+    },
+    {
+      "id": "sys-013",
+      "text": "cancel the scheduled restart",
+      "primary_intent": "system.power.cancel_shutdown",
+      "context": { "situation": "correction", "urgency": "medium" }
+    },
+    {
+      "id": "sys-014",
+      "text": "switch to dark mode please",
+      "primary_intent": "system.display.mode.dark",
+      "context": { "situation": "preference", "urgency": "low" }
+    },
+    {
+      "id": "sys-015",
+      "text": "enable night light, the blue light is too strong",
+      "primary_intent": "system.display.mode.night_light",
+      "context": { "situation": "health", "urgency": "low" }
+    },
+    {
+      "id": "sys-016",
+      "text": "what is my current CPU temperature?",
+      "primary_intent": "system.resources.monitor.cpu_temp",
+      "context": { "situation": "monitoring", "urgency": "low" }
+    },
+    {
+      "id": "sys-017",
+      "text": "forget this wifi network",
+      "primary_intent": "system.connectivity.wifi.forget",
+      "context": { "situation": "security", "urgency": "low" }
+    },
+    {
+      "id": "sys-018",
+      "text": "extend my display to the second monitor",
+      "primary_intent": "system.display.multimonitor.extend",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "sys-019",
+      "text": "mirror my screen to the projector",
+      "primary_intent": "system.display.multimonitor.mirror",
+      "context": { "situation": "presentation", "urgency": "medium" }
+    },
+    {
+      "id": "sys-020",
+      "text": "empty the trash bin to free up space",
+      "primary_intent": "system.resources.disk.cleanup",
+      "context": { "situation": "maintenance", "urgency": "low" }
+    },
+    {
+      "id": "sys-021",
+      "text": "turn on do not disturb mode",
+      "primary_intent": "system.notifications.dnd.on",
+      "context": { "situation": "focus", "urgency": "medium" }
+    },
+    {
+      "id": "sys-022",
+      "text": "unmute the speakers but keep the mic muted",
+      "primary_intent": "system.audio.volume.unmute",
+      "secondary_intent": "system.audio.input.mute",
+      "context": { "situation": "meeting", "urgency": "low" }
+    },
+    {
+      "id": "sys-023",
+      "text": "set screen resolution to 1920x1080",
+      "primary_intent": "system.display.resolution.set",
+      "context": { "situation": "setup", "urgency": "low" },
+      "entities": [{ "text": "1920x1080", "type": "resolution" }]
+    },
+    {
+      "id": "sys-024",
+      "text": "hibernate the PC, I'm leaving for the weekend",
+      "primary_intent": "system.power.hibernate",
+      "context": { "situation": "leaving", "urgency": "low" }
+    },
+    {
+      "id": "sys-025",
+      "text": "log out user 'Guest'",
+      "primary_intent": "system.power.logout",
+      "context": { "situation": "admin", "urgency": "low" },
+      "entities": [{ "text": "Guest", "type": "user" }]
+    },
+    {
+      "id": "sys-026",
+      "text": "take a screenshot of the active window only",
+      "primary_intent": "system.display.screenshot.window",
+      "context": { "situation": "capture", "urgency": "low" }
+    },
+    {
+      "id": "sys-027",
+      "text": "brightness kam karo, bohot tez hai",
+      "primary_intent": "system.display.brightness.decrease",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "emotional_context": { "tone": "discomfort", "intensity": 0.5 },
+      "context": { "situation": "comfort", "urgency": "medium" }
+    },
+    {
+      "id": "sys-028",
+      "text": "system ko restart maar do",
+      "primary_intent": "system.power.restart",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "troubleshooting", "urgency": "medium" }
+    },
+    {
+      "id": "sys-029",
+      "text": "wifi band karke wapas chalu karo",
+      "primary_intent": "system.connectivity.wifi.restart",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "troubleshooting", "urgency": "low" }
+    },
+    {
+      "id": "sys-030",
+      "text": "awaaz badao, sunayi nahi de raha",
+      "primary_intent": "system.audio.volume.increase",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "media", "urgency": "medium" }
+    },
+    {
+      "id": "sys-031",
+      "text": "bluetooth connect karo mere earbuds se",
+      "primary_intent": "system.connectivity.bluetooth.connect",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "sys-032",
+      "text": "I think the battery is dying... check the health status",
+      "primary_intent": "system.resources.battery.health",
+      "context": { "situation": "troubleshooting", "urgency": "medium" },
+      "discourse_features": { "hedging": ["I think"] }
+    },
+    {
+      "id": "sys-033",
+      "text": "wait, don't shut down! I have unsaved work!",
+      "primary_intent": "system.power.cancel_shutdown",
+      "emotional_context": { "tone": "panicked", "intensity": 0.9 },
+      "context": { "situation": "emergency", "urgency": "critical" }
+    },
+    {
+      "id": "sys-034",
+      "text": "actually, just put it to sleep instead of shutting down",
+      "primary_intent": "system.power.sleep",
+      "discourse_features": { "correction": ["actually", "instead of"] },
+      "context": { "situation": "leaving", "urgency": "low" }
+    },
+    {
+      "id": "sys-035",
+      "text": "is the airplane mode on? check it for me",
+      "primary_intent": "system.connectivity.airplane.status",
+      "context": { "situation": "troubleshooting", "urgency": "low" }
+    },
+    {
+      "id": "sys-036",
+      "text": "turn on airplane mode",
+      "primary_intent": "system.connectivity.airplane.on",
+      "context": { "situation": "travel", "urgency": "low" }
+    },
+    {
+      "id": "sys-037",
+      "text": "rotate the screen 90 degrees",
+      "primary_intent": "system.display.rotate",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "sys-038",
+      "text": "check for system updates",
+      "primary_intent": "system.update.check",
+      "context": { "situation": "maintenance", "urgency": "low" }
+    },
+    {
+      "id": "sys-039",
+      "text": "install the pending updates and restart",
+      "primary_intent": "system.update.install",
+      "context": { "situation": "maintenance", "urgency": "medium" }
+    },
+    {
+      "id": "sys-040",
+      "text": "clean up temporary files",
+      "primary_intent": "system.resources.disk.clean_temp",
+      "context": { "situation": "maintenance", "urgency": "low" }
+    },
+    {
+      "id": "sys-041",
+      "text": "set volume to 50% on the external speakers",
+      "primary_intent": "system.audio.volume.set",
+      "context": { "situation": "media", "urgency": "low" },
+      "entities": [
+        { "text": "50%", "type": "percentage" },
+        { "text": "external speakers", "type": "device" }
+      ]
+    },
+    {
+      "id": "sys-042",
+      "text": "find which app is using the microphone",
+      "primary_intent": "system.privacy.check_mic_usage",
+      "context": { "situation": "security", "urgency": "medium" }
+    },
+    {
+      "id": "sys-043",
+      "text": "disable the webcam globally",
+      "primary_intent": "system.privacy.disable_camera",
+      "context": { "situation": "privacy", "urgency": "high" }
+    },
+    {
+      "id": "sys-044",
+      "text": "what's my IP address?",
+      "primary_intent": "system.connectivity.check_ip",
+      "context": { "situation": "info", "urgency": "low" }
+    },
+    {
+      "id": "sys-045",
+      "text": "flush the DNS cache",
+      "primary_intent": "system.connectivity.dns.flush",
+      "context": { "situation": "troubleshooting", "urgency": "medium" }
+    },
+    {
+      "id": "sys-046",
+      "text": "eject the USB drive safely",
+      "primary_intent": "system.storage.eject",
+      "context": { "situation": "removal", "urgency": "medium" }
+    },
+    {
+      "id": "sys-047",
+      "text": "show me available disk space",
+      "primary_intent": "system.resources.disk.check_space",
+      "context": { "situation": "monitoring", "urgency": "low" }
+    },
+    {
+      "id": "sys-048",
+      "text": "open the sound settings",
+      "primary_intent": "system.settings.sound",
+      "context": { "situation": "configuration", "urgency": "low" }
+    },
+    {
+      "id": "sys-049",
+      "text": "change system language to Spanish",
+      "primary_intent": "system.settings.language.set",
+      "context": { "situation": "configuration", "urgency": "low" },
+      "entities": [{ "text": "Spanish", "type": "language" }]
+    },
+    {
+      "id": "sys-050",
+      "text": "set the default browser to Chrome",
+      "primary_intent": "system.settings.default_apps",
+      "context": { "situation": "configuration", "urgency": "low" },
+      "entities": [{ "text": "Chrome", "type": "application" }]
+    },
+    {
+      "id": "sys-051",
+      "text": "enable high contrast mode",
+      "primary_intent": "system.display.accessibility.high_contrast",
+      "context": { "situation": "accessibility", "urgency": "low" }
+    },
+    {
+      "id": "sys-052",
+      "text": "start the magnifier tool",
+      "primary_intent": "system.display.accessibility.magnifier",
+      "context": { "situation": "accessibility", "urgency": "low" }
+    },
+    {
+      "id": "sys-053",
+      "text": "turn on sticky keys",
+      "primary_intent": "system.input.accessibility.sticky_keys",
+      "context": { "situation": "accessibility", "urgency": "low" }
+    },
+    {
+      "id": "sys-054",
+      "text": "pair a new bluetooth device",
+      "primary_intent": "system.connectivity.bluetooth.pair",
+      "context": { "situation": "setup", "urgency": "low" }
+    },
+    {
+      "id": "sys-055",
+      "text": "disconnect from the VPN",
+      "primary_intent": "system.connectivity.vpn.disconnect",
+      "context": { "situation": "security", "urgency": "medium" }
+    },
+    {
+      "id": "sys-056",
+      "text": "connect to the company VPN",
+      "primary_intent": "system.connectivity.vpn.connect",
+      "context": { "situation": "work", "urgency": "medium" }
+    },
+    {
+      "id": "sys-057",
+      "text": "renew my IP address",
+      "primary_intent": "system.connectivity.ip.renew",
+      "context": { "situation": "troubleshooting", "urgency": "medium" }
+    },
+    {
+      "id": "sys-058",
+      "text": "force quit the application 'Photoshop'",
+      "primary_intent": "system.resources.process.kill",
+      "context": { "situation": "troubleshooting", "urgency": "medium" },
+      "entities": [{ "text": "Photoshop", "type": "application" }]
+    },
+    {
+      "id": "sys-059",
+      "text": "open device manager",
+      "primary_intent": "system.admin.device_manager",
+      "context": { "situation": "troubleshooting", "urgency": "low" }
+    },
+    {
+      "id": "sys-060",
+      "text": "show system information",
+      "primary_intent": "system.info.show",
+      "context": { "situation": "info", "urgency": "low" }
+    },
+    {
+      "id": "sys-061",
+      "text": "minimize all windows",
+      "primary_intent": "system.display.window.minimize_all",
+      "context": { "situation": "privacy", "urgency": "low" }
+    },
+    {
+      "id": "sys-062",
+      "text": "restore all minimized windows",
+      "primary_intent": "system.display.window.restore_all",
+      "context": { "situation": "workflow", "urgency": "low" }
+    },
+    {
+      "id": "sys-063",
+      "text": "snap this window to the left half",
+      "primary_intent": "system.display.window.snap.left",
+      "context": { "situation": "workflow", "urgency": "low" }
+    },
+    {
+      "id": "sys-064",
+      "text": "snap this window to the right",
+      "primary_intent": "system.display.window.snap.right",
+      "context": { "situation": "workflow", "urgency": "low" }
+    },
+    {
+      "id": "sys-065",
+      "text": "maximize the current window",
+      "primary_intent": "system.display.window.maximize",
+      "context": { "situation": "workflow", "urgency": "low" }
+    },
+    {
+      "id": "sys-066",
+      "text": "close this window",
+      "primary_intent": "system.display.window.close",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "sys-067",
+      "text": "switch to the next desktop",
+      "primary_intent": "system.display.desktop.next",
+      "context": { "situation": "workflow", "urgency": "low" }
+    },
+    {
+      "id": "sys-068",
+      "text": "create a new virtual desktop",
+      "primary_intent": "system.display.desktop.new",
+      "context": { "situation": "organization", "urgency": "low" }
+    },
+    {
+      "id": "sys-069",
+      "text": "start screen recording",
+      "primary_intent": "system.display.recording.start",
+      "context": { "situation": "capture", "urgency": "low" }
+    },
+    {
+      "id": "sys-070",
+      "text": "stop recording",
+      "primary_intent": "system.display.recording.stop",
+      "context": { "situation": "capture", "urgency": "low" }
+    },
+    {
+      "id": "sys-071",
+      "text": "take a screenshot of this region",
+      "primary_intent": "system.display.screenshot.region",
+      "context": { "situation": "capture", "urgency": "low" }
+    },
+    {
+      "id": "sys-072",
+      "text": "copy screenshot to clipboard",
+      "primary_intent": "system.display.screenshot.copy",
+      "context": { "situation": "capture", "urgency": "low" }
+    },
+    {
+      "id": "sys-073",
+      "text": "toggle the microphone mute",
+      "primary_intent": "system.audio.input.toggle_mute",
+      "context": { "situation": "meeting", "urgency": "medium" }
+    },
+    {
+      "id": "sys-074",
+      "text": "boost the microphone volume",
+      "primary_intent": "system.audio.input.boost",
+      "context": { "situation": "meeting", "urgency": "low" }
+    },
+    {
+      "id": "sys-075",
+      "text": "test the speakers",
+      "primary_intent": "system.audio.test",
+      "context": { "situation": "troubleshooting", "urgency": "low" }
+    },
+    {
+      "id": "sys-076",
+      "text": "show the volume mixer",
+      "primary_intent": "system.audio.mixer.show",
+      "context": { "situation": "configuration", "urgency": "low" }
+    },
+    {
+      "id": "sys-077",
+      "text": "set system sounds to 20%",
+      "primary_intent": "system.audio.volume.set_system",
+      "context": { "situation": "configuration", "urgency": "low" },
+      "entities": [{ "text": "20%", "type": "percentage" }]
+    },
+    {
+      "id": "sys-078",
+      "text": "turn on the webcam",
+      "primary_intent": "system.peripherals.webcam.on",
+      "context": { "situation": "meeting", "urgency": "low" }
+    },
+    {
+      "id": "sys-079",
+      "text": "how long until the battery dies?",
+      "primary_intent": "system.resources.battery.time_remaining",
+      "context": { "situation": "monitoring", "urgency": "medium" }
+    },
+    {
+      "id": "sys-080",
+      "text": "set the refresh rate to 144Hz",
+      "primary_intent": "system.display.refresh_rate.set",
+      "context": { "situation": "gaming", "urgency": "low" },
+      "entities": [{ "text": "144Hz", "type": "refresh_rate" }]
+    },
+    {
+      "id": "sys-081",
+      "text": "enable HDR",
+      "primary_intent": "system.display.mode.hdr.on",
+      "context": { "situation": "media", "urgency": "low" }
+    },
+    {
+      "id": "sys-082",
+      "text": "calibrate the display color",
+      "primary_intent": "system.display.calibrate",
+      "context": { "situation": "design", "urgency": "low" }
+    },
+    {
+      "id": "sys-083",
+      "text": "reset network settings",
+      "primary_intent": "system.connectivity.reset",
+      "context": { "situation": "troubleshooting", "urgency": "high" },
+      "risk_level": "medium"
+    },
+    {
+      "id": "sys-084",
+      "text": "view network connection details",
+      "primary_intent": "system.connectivity.details",
+      "context": { "situation": "troubleshooting", "urgency": "low" }
+    },
+    {
+      "id": "sys-085",
+      "text": "what is the signal strength?",
+      "primary_intent": "system.connectivity.signal_strength",
+      "context": { "situation": "monitoring", "urgency": "low" }
+    }
+  ]
+}

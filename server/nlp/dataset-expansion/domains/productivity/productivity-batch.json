@@ -1,0 +1,1165 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-004",
+    "domain": "productivity",
+    "focus_areas": [
+      "reminders",
+      "timers",
+      "calendar",
+      "notes",
+      "todos"
+    ],
+    "generated_at": "2026-01-23T10:50:00.000Z",
+    "total_samples": 100,
+    "situational_embedding": "comprehensive"
+  },
+  "intent_taxonomy": {
+    "reminder": {
+      "set": [
+        "set.time_specific",
+        "set.relative",
+        "set.recurring",
+        "set.location_based",
+        "set.conditional"
+      ],
+      "manage": [
+        "view",
+        "edit",
+        "delete",
+        "snooze",
+        "complete"
+      ]
+    },
+    "timer": {
+      "set": [
+        "set.duration",
+        "set.named",
+        "set.multiple"
+      ],
+      "control": [
+        "pause",
+        "resume",
+        "stop",
+        "restart",
+        "check"
+      ]
+    },
+    "calendar": {
+      "create": [
+        "create.meeting",
+        "create.event",
+        "create.all_day",
+        "create.recurring"
+      ],
+      "query": [
+        "query.today",
+        "query.week",
+        "query.specific",
+        "query.next"
+      ],
+      "modify": [
+        "reschedule",
+        "cancel",
+        "update_details",
+        "invite"
+      ]
+    },
+    "notes": {
+      "create": [
+        "create.quick",
+        "create.titled",
+        "create.voice",
+        "create.structured"
+      ],
+      "manage": [
+        "view",
+        "search",
+        "edit",
+        "append",
+        "delete",
+        "share"
+      ]
+    },
+    "todo": {
+      "add": [
+        "add.simple",
+        "add.with_deadline",
+        "add.with_priority",
+        "add.subtask"
+      ],
+      "manage": [
+        "complete",
+        "view",
+        "prioritize",
+        "delete",
+        "reschedule"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "prod-001",
+      "text": "remind me to take my medicine at 9pm tonight",
+      "primary_intent": "reminder.set.time_specific",
+      "context": {
+        "situation": "home",
+        "urgency": "low",
+        "domain": "health"
+      },
+      "entities": [
+        {
+          "text": "take my medicine",
+          "type": "action"
+        },
+        {
+          "text": "9pm tonight",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "id": "prod-002",
+      "text": "in about 20 minutes, ping me about the pasta on the stove",
+      "primary_intent": "reminder.set.relative",
+      "context": {
+        "situation": "home",
+        "urgency": "medium",
+        "background_activity": "cooking"
+      },
+      "risk_level": "medium"
+    },
+    {
+      "id": "prod-003",
+      "text": "every Monday at 9am remind me to submit the weekly report",
+      "primary_intent": "reminder.set.recurring",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "every Monday at 9am",
+          "type": "recurring_time"
+        }
+      ]
+    },
+    {
+      "id": "prod-004",
+      "text": "when I get home, remind me to water the plants",
+      "primary_intent": "reminder.set.location_based",
+      "context": {
+        "situation": "commute",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "get home",
+          "type": "location_trigger"
+        }
+      ]
+    },
+    {
+      "id": "prod-005",
+      "text": "if I don't hear back from John by 5pm, remind me to follow up",
+      "primary_intent": "reminder.set.conditional",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "cognitive_state": {
+        "type": "contingency_planning"
+      }
+    },
+    {
+      "id": "prod-006",
+      "text": "what reminders do I have for today?",
+      "primary_intent": "reminder.view",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-007",
+      "text": "snooze that reminder for 30 minutes, I'm in a meeting",
+      "primary_intent": "reminder.snooze",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium",
+        "background_activity": "meeting"
+      },
+      "emotional_context": {
+        "tone": "busy",
+        "intensity": 0.4
+      }
+    },
+    {
+      "id": "prod-008",
+      "text": "done with the dentist appointment, mark it complete",
+      "primary_intent": "reminder.complete",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "satisfied",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "prod-009",
+      "text": "change my 3pm reminder to 4pm instead",
+      "primary_intent": "reminder.edit",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-010",
+      "text": "cancel the reminder about the gym, I already went",
+      "primary_intent": "reminder.delete",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "accomplished",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "prod-011",
+      "text": "set a 25 minute timer for my pomodoro session",
+      "primary_intent": "timer.set.duration",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "implicit_goal": "focus_work"
+    },
+    {
+      "id": "prod-012",
+      "text": "start a timer called 'laundry' for 45 minutes",
+      "primary_intent": "timer.set.named",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-013",
+      "text": "I need two timers: 10 minutes for the rice and 20 for the curry",
+      "primary_intent": "timer.set.multiple",
+      "context": {
+        "situation": "home",
+        "urgency": "medium",
+        "background_activity": "cooking"
+      }
+    },
+    {
+      "id": "prod-014",
+      "text": "pause the timer, I need to step out for a second",
+      "primary_intent": "timer.pause",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-015",
+      "text": "how much time is left on my timer?",
+      "primary_intent": "timer.check",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-016",
+      "text": "stop the timer, the pasta is done",
+      "primary_intent": "timer.stop",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-017",
+      "text": "unpause the study timer",
+      "primary_intent": "timer.resume",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-018",
+      "text": "restart the pomodoro from scratch",
+      "primary_intent": "timer.restart",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "implicit_goal": "reset_focus_session"
+    },
+    {
+      "id": "prod-019",
+      "text": "schedule a meeting with the design team tomorrow at 2pm",
+      "primary_intent": "calendar.create.meeting",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "design team",
+          "type": "group"
+        },
+        {
+          "text": "tomorrow at 2pm",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "id": "prod-020",
+      "text": "add mom's birthday to my calendar on March 15th, all day event",
+      "primary_intent": "calendar.create.all_day",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "mom's birthday",
+          "type": "event"
+        },
+        {
+          "text": "March 15th",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "prod-021",
+      "text": "create a recurring event for team standup every weekday at 10am",
+      "primary_intent": "calendar.create.recurring",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "team standup",
+          "type": "event"
+        },
+        {
+          "text": "every weekday at 10am",
+          "type": "recurring_time"
+        }
+      ]
+    },
+    {
+      "id": "prod-022",
+      "text": "what's on my calendar today?",
+      "primary_intent": "calendar.query.today",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-023",
+      "text": "show me this week's schedule",
+      "primary_intent": "calendar.query.week",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-024",
+      "text": "when is my next dentist appointment?",
+      "primary_intent": "calendar.query.next",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "dentist appointment",
+          "type": "event_type"
+        }
+      ]
+    },
+    {
+      "id": "prod-025",
+      "text": "what do I have scheduled for next Thursday?",
+      "primary_intent": "calendar.query.specific",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "next Thursday",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "prod-026",
+      "text": "move the 2pm meeting to 3:30 instead",
+      "primary_intent": "calendar.reschedule",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-027",
+      "text": "cancel tomorrow's lunch meeting, something came up",
+      "primary_intent": "calendar.cancel",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "emotional_context": {
+        "tone": "apologetic",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "prod-028",
+      "text": "add Sarah to the project review meeting",
+      "primary_intent": "calendar.invite",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Sarah",
+          "type": "person"
+        },
+        {
+          "text": "project review meeting",
+          "type": "event"
+        }
+      ]
+    },
+    {
+      "id": "prod-029",
+      "text": "change the meeting location to Conference Room B",
+      "primary_intent": "calendar.update_details",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-030",
+      "text": "quick note: remember to ask about the pricing during the call",
+      "primary_intent": "notes.create.quick",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "implicit_goal": "preparation_for_meeting"
+    },
+    {
+      "id": "prod-031",
+      "text": "create a new note titled 'Project Ideas' and add 'explore AI chatbot' to it",
+      "primary_intent": "notes.create.titled",
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Project Ideas",
+          "type": "note_title"
+        }
+      ]
+    },
+    {
+      "id": "prod-032",
+      "text": "take a voice note, I want to record my thoughts about the presentation",
+      "primary_intent": "notes.create.voice",
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "creative",
+        "intensity": 0.4
+      }
+    },
+    {
+      "id": "prod-033",
+      "text": "show me all my notes",
+      "primary_intent": "notes.view",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-034",
+      "text": "search my notes for 'client feedback'",
+      "primary_intent": "notes.search",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "client feedback",
+          "type": "search_query"
+        }
+      ]
+    },
+    {
+      "id": "prod-035",
+      "text": "add this to my shopping list note: eggs, milk, bread",
+      "primary_intent": "notes.append",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "shopping list",
+          "type": "note_name"
+        },
+        {
+          "text": "eggs, milk, bread",
+          "type": "items"
+        }
+      ]
+    },
+    {
+      "id": "prod-036",
+      "text": "edit my meeting notes and fix the typo in the first paragraph",
+      "primary_intent": "notes.edit",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-037",
+      "text": "delete the old project notes from last month",
+      "primary_intent": "notes.delete",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-038",
+      "text": "share my meeting notes with the team",
+      "primary_intent": "notes.share",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-039",
+      "text": "add 'buy groceries' to my todo list",
+      "primary_intent": "todo.add.simple",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-040",
+      "text": "add a task: finish the report, due by Friday",
+      "primary_intent": "todo.add.with_deadline",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "finish the report",
+          "type": "task"
+        },
+        {
+          "text": "Friday",
+          "type": "deadline"
+        }
+      ]
+    },
+    {
+      "id": "prod-041",
+      "text": "add high priority task: call client about contract renewal",
+      "primary_intent": "todo.add.with_priority",
+      "context": {
+        "situation": "workplace",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "high priority",
+          "type": "priority"
+        }
+      ]
+    },
+    {
+      "id": "prod-042",
+      "text": "under 'clean the house' add subtask 'vacuum the living room'",
+      "primary_intent": "todo.add.subtask",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-043",
+      "text": "mark 'submit application' as done",
+      "primary_intent": "todo.complete",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "accomplished",
+        "intensity": 0.5
+      }
+    },
+    {
+      "id": "prod-044",
+      "text": "show me my todo list",
+      "primary_intent": "todo.view",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-045",
+      "text": "make the client call top priority",
+      "primary_intent": "todo.prioritize",
+      "context": {
+        "situation": "workplace",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "prod-046",
+      "text": "remove the gym task, I'm skipping today",
+      "primary_intent": "todo.delete",
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "resigned",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "prod-047",
+      "text": "push the dentist task to next week",
+      "primary_intent": "todo.reschedule",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-048",
+      "text": "ugh I'm going to be late, set an urgent reminder for the meeting in 5 minutes",
+      "primary_intent": "reminder.set.relative",
+      "emotional_context": {
+        "tone": "anxious",
+        "intensity": 0.7,
+        "markers": [
+          "ugh"
+        ]
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "critical",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "prod-049",
+      "text": "I keep forgetting, please remind me EVERY day at 8am to take my vitamins",
+      "primary_intent": "reminder.set.recurring",
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.5,
+        "markers": [
+          "keep forgetting",
+          "EVERY"
+        ]
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-050",
+      "text": "mujhe kal subah 7 baje uthake karo, early morning meeting hai",
+      "primary_intent": "reminder.set.time_specific",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "casual"
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "prod-051",
+      "text": "yaar timer laga de 10 minute ka, chai bana raha hoon",
+      "primary_intent": "timer.set.duration",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "casual"
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low",
+        "background_activity": "making tea"
+      }
+    },
+    {
+      "id": "prod-052",
+      "text": "meeting notes likh lo: John said he'll send the proposal by EOD",
+      "primary_intent": "notes.create.quick",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "business"
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-053",
+      "text": "aaj ke liye kya kya karna hai? show me my tasks",
+      "primary_intent": "todo.view",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "casual"
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-054",
+      "text": "calendar mein add karo: mom ka birthday next month 15th ko",
+      "primary_intent": "calendar.create.event",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ],
+        "register": "casual"
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-055",
+      "text": "oh no I forgot to set a reminder for the presentation, can you remind me in like... um... 2 hours?",
+      "primary_intent": "reminder.set.relative",
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.6,
+        "markers": [
+          "oh no",
+          "forgot"
+        ]
+      },
+      "discourse_features": {
+        "filler_words": [
+          "like",
+          "um"
+        ],
+        "hesitation": true
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "prod-056",
+      "text": "set multiple reminders: one at 3pm for the call, another at 5pm for picking up the kids",
+      "primary_intent": "reminder.set.multiple",
+      "context": {
+        "situation": "multitasking",
+        "urgency": "medium"
+      },
+      "cognitive_state": {
+        "type": "organized",
+        "mental_load": "medium"
+      }
+    },
+    {
+      "id": "prod-057",
+      "text": "actually wait, change that timer to 15 minutes not 10, I underestimated",
+      "primary_intent": "timer.edit",
+      "discourse_features": {
+        "repairs": [
+          "actually wait",
+          "not 10"
+        ]
+      },
+      "cognitive_state": {
+        "type": "correcting"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "prod-058",
+      "text": "do I have anything scheduled at 3? I want to book a meeting but I'm not sure if I'm free",
+      "primary_intent": "calendar.query.specific",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "cognitive_state": {
+        "type": "uncertain",
+        "confidence_level": 0.5
+      }
+    },
+    {
+      "id": "prod-059",
+      "text": "this is important, make sure to remind me, do not let me forget about the insurance renewal",
+      "primary_intent": "reminder.set.emphasized",
+      "emotional_context": {
+        "tone": "insistent",
+        "intensity": 0.7,
+        "markers": [
+          "important",
+          "make sure",
+          "do not let me forget"
+        ]
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "prod-060",
+      "text": "hypothetically, if I asked you to remind me every hour on the hour, could you do that?",
+      "primary_intent": "reminder.capability_query",
+      "discourse_features": {
+        "hypothetical_framing": [
+          "hypothetically",
+          "if I asked"
+        ]
+      },
+      "cognitive_state": {
+        "type": "curious"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "prod-061",
+      "text": "I'm about to walk into a meeting, clear the next hour on my calendar and hold all reminders",
+      "primary_intent": "productivity.focus_mode",
+      "context": {
+        "situation": "workplace",
+        "urgency": "high",
+        "time_pressure": true
+      },
+      "compound_action": [
+        "calendar.clear",
+        "reminder.hold"
+      ]
+    },
+    {
+      "id": "prod-062",
+      "text": "summarize what I have to do today in order of priority",
+      "primary_intent": "productivity.summary",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "cognitive_state": {
+        "type": "planning"
+      }
+    },
+    {
+      "id": "prod-063",
+      "text": "I finished everything on my list for today, feeling good!",
+      "primary_intent": "todo.complete.all",
+      "emotional_context": {
+        "tone": "happy",
+        "intensity": 0.7,
+        "markers": [
+          "feeling good"
+        ]
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "none"
+      }
+    },
+    {
+      "id": "prod-064",
+      "text": "my brain is completely fried, just tell me what the most important thing I need to do is",
+      "primary_intent": "productivity.priority_single",
+      "emotional_context": {
+        "tone": "exhausted",
+        "intensity": 0.8,
+        "markers": [
+          "brain is fried"
+        ]
+      },
+      "cognitive_state": {
+        "type": "fatigued",
+        "mental_load": "overloaded"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "prod-065",
+      "text": "wait I think I'm double booked, is there anything at 3pm tomorrow?",
+      "primary_intent": "calendar.query.conflict_check",
+      "emotional_context": {
+        "tone": "worried",
+        "intensity": 0.5
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-066",
+      "text": "clear my calendar for next Friday, I'm taking the day off",
+      "primary_intent": "calendar.clear_day",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "emotional_context": {
+        "tone": "relaxed",
+        "intensity": 0.3
+      }
+    },
+    {
+      "id": "prod-067",
+      "text": "I've been procrastinating on this task for a week, please just remind me every 2 hours until I do it",
+      "primary_intent": "reminder.set.persistent",
+      "emotional_context": {
+        "tone": "guilty",
+        "intensity": 0.5,
+        "markers": [
+          "procrastinating"
+        ]
+      },
+      "cognitive_state": {
+        "type": "self_aware"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "prod-068",
+      "text": "set a reminder but make it aggressive, I really need to remember this one",
+      "primary_intent": "reminder.set.high_priority",
+      "emotional_context": {
+        "tone": "determined",
+        "intensity": 0.6,
+        "markers": [
+          "aggressive",
+          "really need"
+        ]
+      },
+      "context": {
+        "situation": "routine_task",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "prod-069",
+      "text": "beep me when the pizza timer goes off, I'll be in the other room",
+      "primary_intent": "timer.alert_preference",
+      "context": {
+        "situation": "home",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-070",
+      "text": "what's taking up most of my time this week according to my calendar?",
+      "primary_intent": "calendar.analytics",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "cognitive_state": {
+        "type": "reflective"
+      }
+    },
+    {
+      "id": "prod-071",
+      "text": "batch all my todos into categories: work, personal, and errands",
+      "primary_intent": "todo.organize",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      },
+      "cognitive_state": {
+        "type": "organized"
+      }
+    },
+    {
+      "id": "prod-072",
+      "text": "I've got 5 minutes before my next meeting, what quick task can I knock out?",
+      "primary_intent": "todo.suggest_quick",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium",
+        "time_pressure": true
+      }
+    },
+    {
+      "id": "prod-073",
+      "text": "defer everything non-urgent to next week, I'm swamped",
+      "primary_intent": "todo.bulk_reschedule",
+      "emotional_context": {
+        "tone": "overwhelmed",
+        "intensity": 0.7,
+        "markers": [
+          "swamped"
+        ]
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "prod-074",
+      "text": "create a project in my notes with sections for research, ideas, and action items",
+      "primary_intent": "notes.create.structured",
+      "context": {
+        "situation": "creative_work",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-075",
+      "text": "consolidate all my notes from this week into a single summary",
+      "primary_intent": "notes.consolidate",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "cognitive_state": {
+        "type": "organized"
+      }
+    },
+    {
+      "id": "prod-076",
+      "text": "when I said 10am I meant 10am Pacific, not my local time, fix the calendar event",
+      "primary_intent": "calendar.update_timezone",
+      "discourse_features": {
+        "clarification": [
+          "I meant",
+          "not"
+        ]
+      },
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "prod-077",
+      "text": "set a break reminder every 90 minutes when I'm working, for ergonomic reasons",
+      "primary_intent": "reminder.set.wellness",
+      "context": {
+        "situation": "workplace",
+        "urgency": "low"
+      },
+      "implicit_goal": "health_maintenance"
+    },
+    {
+      "id": "prod-078",
+      "text": "I need to prepare for my 3pm meeting, what notes do I have related to Project Alpha?",
+      "primary_intent": "notes.search_for_meeting",
+      "context": {
+        "situation": "workplace",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Project Alpha",
+          "type": "project_name"
+        }
+      ]
+    },
+    {
+      "id": "prod-079",
+      "text": "delete all completed todos older than a week, keep my list clean",
+      "primary_intent": "todo.cleanup",
+      "context": {
+        "situation": "routine_task",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "prod-080",
+      "text": "reschedule everything from today to tomorrow, I'm calling in sick",
+      "primary_intent": "calendar.reschedule_day",
+      "emotional_context": {
+        "tone": "unwell",
+        "intensity": 0.5
+      },
+      "context": {
+        "situation": "home",
+        "urgency": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-019",
+    "domain": "travel",
+    "focus_areas": [
+      "flights",
+      "hotels",
+      "navigation",
+      "recommendations",
+      "packing"
+    ],
+    "generated_at": "2026-01-23T14:35:00.000Z",
+    "total_samples": 85,
+    "user_persona": "traveler"
+  },
+  "intent_taxonomy": {
+    "booking": {
+      "flight": [
+        "search",
+        "book",
+        "status",
+        "check_in"
+      ],
+      "hotel": [
+        "search",
+        "book",
+        "reviews",
+        "amenities"
+      ],
+      "transport": [
+        "car_rental",
+        "train",
+        "taxi"
+      ]
+    },
+    "navigation": {
+      "directions": [
+        "drive",
+        "walk",
+        "transit",
+        "avoid_traffic"
+      ],
+      "nearby": [
+        "restaurant",
+        "attraction",
+        "gas_station"
+      ]
+    },
+    "planning": {
+      "itinerary": [
+        "create",
+        "view",
+        "edit"
+      ],
+      "weather": [
+        "forecast",
+        "packing_list"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "trv-001",
+      "text": "book a flight to New York for next Friday",
+      "primary_intent": "travel.booking.flight.search",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "New York",
+          "type": "destination"
+        },
+        {
+          "text": "next Friday",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "trv-002",
+      "text": "find a hotel in Paris under $200 a night",
+      "primary_intent": "travel.booking.hotel.search",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Paris",
+          "type": "location"
+        },
+        {
+          "text": "$200",
+          "type": "price_limit"
+        }
+      ]
+    },
+    {
+      "id": "trv-003",
+      "text": "navigate to the nearest gas station",
+      "primary_intent": "travel.navigation.nearby.gas_station",
+      "context": {
+        "situation": "driving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-004",
+      "text": "what is the flight status of AA123?",
+      "primary_intent": "travel.booking.flight.status",
+      "context": {
+        "situation": "traveling",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "AA123",
+          "type": "flight_number"
+        }
+      ]
+    },
+    {
+      "id": "trv-005",
+      "text": "pack a bag for a ski trip",
+      "primary_intent": "travel.planning.weather.packing_list",
+      "context": {
+        "situation": "preparation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "ski trip",
+          "type": "activity"
+        }
+      ]
+    },
+    {
+      "id": "trv-006",
+      "text": "get walking directions to the Louvre",
+      "primary_intent": "travel.navigation.directions.walk",
+      "context": {
+        "situation": "walking",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Louvre",
+          "type": "destination"
+        }
+      ]
+    },
+    {
+      "id": "trv-007",
+      "text": "rent a car at SFO airport",
+      "primary_intent": "travel.booking.transport.car_rental",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "SFO",
+          "type": "airport"
+        }
+      ]
+    },
+    {
+      "id": "trv-008",
+      "text": "check me in for my flight",
+      "primary_intent": "travel.booking.flight.check_in",
+      "context": {
+        "situation": "traveling",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-009",
+      "text": "find italian restaurants nearby with 4 stars",
+      "primary_intent": "travel.navigation.nearby.restaurant",
+      "context": {
+        "situation": "dining",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "italian",
+          "type": "cuisine"
+        },
+        {
+          "text": "4 stars",
+          "type": "rating"
+        }
+      ]
+    },
+    {
+      "id": "trv-010",
+      "text": "create a 3-day itinerary for Tokyo",
+      "primary_intent": "travel.planning.itinerary.create",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Tokyo",
+          "type": "destination"
+        },
+        {
+          "text": "3-day",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "trv-011",
+      "text": "show me the traffic to work",
+      "primary_intent": "travel.navigation.directions.drive",
+      "context": {
+        "situation": "commute",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "work",
+          "type": "destination"
+        }
+      ]
+    },
+    {
+      "id": "trv-012",
+      "text": "is there a pool at the Hilton?",
+      "primary_intent": "travel.booking.hotel.amenities",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Hilton",
+          "type": "hotel"
+        },
+        {
+          "text": "pool",
+          "type": "amenity"
+        }
+      ]
+    },
+    {
+      "id": "trv-013",
+      "text": "cancel my reservation at the Marriott",
+      "primary_intent": "travel.booking.hotel.cancel",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Marriott",
+          "type": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "trv-014",
+      "text": "how long does it take to get to the airport by train?",
+      "primary_intent": "travel.navigation.directions.transit",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "airport",
+          "type": "destination"
+        },
+        {
+          "text": "train",
+          "type": "mode"
+        }
+      ]
+    },
+    {
+      "id": "trv-015",
+      "text": "what is the weather in London next week?",
+      "primary_intent": "travel.planning.weather.forecast",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "London",
+          "type": "location"
+        },
+        {
+          "text": "next week",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "id": "trv-016",
+      "text": "book an Uber to downtown",
+      "primary_intent": "travel.booking.transport.taxi",
+      "context": {
+        "situation": "transport",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "Uber",
+          "type": "service"
+        },
+        {
+          "text": "downtown",
+          "type": "destination"
+        }
+      ]
+    },
+    {
+      "id": "trv-017",
+      "text": "find cheap flights to Bali",
+      "primary_intent": "travel.booking.flight.search",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Bali",
+          "type": "destination"
+        },
+        {
+          "text": "cheap",
+          "type": "sort"
+        }
+      ]
+    },
+    {
+      "id": "trv-018",
+      "text": "suggest tourist attractions in Rome",
+      "primary_intent": "travel.navigation.nearby.attraction",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Rome",
+          "type": "location"
+        }
+      ]
+    },
+    {
+      "id": "trv-019",
+      "text": "avoid highways",
+      "primary_intent": "travel.navigation.directions.avoid_traffic",
+      "context": {
+        "situation": "driving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-020",
+      "text": "locate my luggage",
+      "primary_intent": "travel.planning.luggage.track",
+      "context": {
+        "situation": "traveling",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-021",
+      "text": "delhi se mumbai flight book karo",
+      "primary_intent": "travel.booking.flight.search",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "delhi",
+          "type": "origin"
+        },
+        {
+          "text": "mumbai",
+          "type": "destination"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "trv-022",
+      "text": "hotel ka review dikhao",
+      "primary_intent": "travel.booking.hotel.reviews",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "trv-023",
+      "text": "rasta batao station ka",
+      "primary_intent": "travel.navigation.directions.drive",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "station",
+          "type": "destination"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "trv-024",
+      "text": "I missed my flight! help me rebook immediately",
+      "primary_intent": "travel.booking.flight.rebook",
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.9
+      },
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "trv-025",
+      "text": "book a table for 2... actually make it 4 people",
+      "primary_intent": "travel.booking.restaurant.reserve",
+      "discourse_features": {
+        "correction": [
+          "actually make it"
+        ]
+      },
+      "entities": [
+        {
+          "text": "4",
+          "type": "party_size"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "trv-026",
+      "text": "is it safe to travel to this country?",
+      "primary_intent": "travel.planning.safety.advisory",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-027",
+      "text": "currency exchange rate for Yen",
+      "primary_intent": "travel.planning.currency.rate",
+      "context": {
+        "situation": "financial",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Yen",
+          "type": "currency"
+        }
+      ]
+    },
+    {
+      "id": "trv-028",
+      "text": "find a vegetarian place to eat",
+      "primary_intent": "travel.navigation.nearby.restaurant",
+      "context": {
+        "situation": "dining",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "vegetarian",
+          "type": "diet"
+        }
+      ]
+    },
+    {
+      "id": "trv-029",
+      "text": "add the museum visit to my itinerary",
+      "primary_intent": "travel.planning.itinerary.edit",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-030",
+      "text": "share my ETA with Mom",
+      "primary_intent": "travel.navigation.share_eta",
+      "context": {
+        "situation": "traveling",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Mom",
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "id": "trv-031",
+      "text": "find detailed map of the airport terminal",
+      "primary_intent": "travel.navigation.terminal_map",
+      "context": {
+        "situation": "traveling",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-032",
+      "text": "upgrade my seat to business class",
+      "primary_intent": "travel.booking.flight.upgrade",
+      "context": {
+        "situation": "booking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-033",
+      "text": "where is the nearest parking lot?",
+      "primary_intent": "travel.navigation.nearby.parking",
+      "context": {
+        "situation": "driving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-034",
+      "text": "explore flights for a weekend getaway",
+      "primary_intent": "travel.booking.flight.explore",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-035",
+      "text": "check visa requirements for India",
+      "primary_intent": "travel.planning.visa.check",
+      "context": {
+        "situation": "planning",
+        "urgency": "high"
+      },
+      "entities": [
+        {
+          "text": "India",
+          "type": "country"
+        }
+      ]
+    },
+    {
+      "id": "trv-036",
+      "text": "how much is the toll?",
+      "primary_intent": "travel.navigation.toll_cost",
+      "context": {
+        "situation": "driving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-037",
+      "text": "download offline maps for this area",
+      "primary_intent": "travel.navigation.maps.download",
+      "context": {
+        "situation": "preparation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-038",
+      "text": "find a pet-friendly hotel",
+      "primary_intent": "travel.booking.hotel.search",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "pet-friendly",
+          "type": "amenity"
+        }
+      ]
+    },
+    {
+      "id": "trv-039",
+      "text": "track train 505",
+      "primary_intent": "travel.booking.transport.train_status",
+      "context": {
+        "situation": "traveling",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-040",
+      "text": "call the hotel front desk",
+      "primary_intent": "travel.booking.hotel.contact",
+      "context": {
+        "situation": "stay",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-041",
+      "text": "late checkout request",
+      "primary_intent": "travel.booking.hotel.late_checkout",
+      "context": {
+        "situation": "stay",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-042",
+      "text": "order room service",
+      "primary_intent": "travel.booking.hotel.room_service",
+      "context": {
+        "situation": "stay",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-043",
+      "text": "what time is check-in?",
+      "primary_intent": "travel.booking.hotel.info",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-044",
+      "text": "set a reminder for my flight",
+      "primary_intent": "travel.planning.reminder.flight",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-045",
+      "text": "find an EV charging station",
+      "primary_intent": "travel.navigation.nearby.ev_charging",
+      "context": {
+        "situation": "driving",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-046",
+      "text": "save this location as 'Home'",
+      "primary_intent": "travel.navigation.save_location",
+      "context": {
+        "situation": "setup",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-047",
+      "text": "show public transport options",
+      "primary_intent": "travel.navigation.transit_options",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-048",
+      "text": "buy a subway pass",
+      "primary_intent": "travel.booking.transport.subway_pass",
+      "context": {
+        "situation": "transport",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-049",
+      "text": "calculate fuel cost for the trip",
+      "primary_intent": "travel.planning.cost.fuel",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-050",
+      "text": "find a rest stop",
+      "primary_intent": "travel.navigation.nearby.rest_stop",
+      "context": {
+        "situation": "driving",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-051",
+      "text": "what vaccines do I need for Kenya?",
+      "primary_intent": "travel.planning.health.vaccines",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Kenya",
+          "type": "country"
+        }
+      ]
+    },
+    {
+      "id": "trv-052",
+      "text": "translate 'menu' from Portuguese",
+      "primary_intent": "travel.util.translate",
+      "context": {
+        "situation": "dining",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-053",
+      "text": "convert 5 miles to km",
+      "primary_intent": "travel.util.convert_distance",
+      "context": {
+        "situation": "navigation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-054",
+      "text": "what is the time difference with Tokyo?",
+      "primary_intent": "travel.util.time_zone",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Tokyo",
+          "type": "location"
+        }
+      ]
+    },
+    {
+      "id": "trv-055",
+      "text": "find a laundromat",
+      "primary_intent": "travel.navigation.nearby.laundry",
+      "context": {
+        "situation": "stay",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-056",
+      "text": "book a tour guide",
+      "primary_intent": "travel.booking.activity.tour",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-057",
+      "text": "read reviews for this museum",
+      "primary_intent": "travel.navigation.attraction.reviews",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-058",
+      "text": "find wheelchair accessible routes",
+      "primary_intent": "travel.navigation.accessible_route",
+      "context": {
+        "situation": "planning",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-059",
+      "text": "check baggage allowance",
+      "primary_intent": "travel.booking.flight.baggage",
+      "context": {
+        "situation": "packing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-060",
+      "text": "report lost luggage",
+      "primary_intent": "travel.booking.flight.lost_luggage",
+      "context": {
+        "situation": "traveling",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-061",
+      "text": "find the embassy",
+      "primary_intent": "travel.navigation.nearby.embassy",
+      "context": {
+        "situation": "emergency",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "trv-062",
+      "text": "what is the emergency number here?",
+      "primary_intent": "travel.util.emergency_number",
+      "context": {
+        "situation": "emergency",
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "trv-063",
+      "text": "scan my passport",
+      "primary_intent": "travel.util.passport_scan",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-064",
+      "text": "store my boarding pass",
+      "primary_intent": "travel.util.wallet.add_pass",
+      "context": {
+        "situation": "admin",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-065",
+      "text": "show my frequent flyer number",
+      "primary_intent": "travel.booking.loyalty.show",
+      "context": {
+        "situation": "booking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-066",
+      "text": "redeem points for a flight",
+      "primary_intent": "travel.booking.loyalty.redeem",
+      "context": {
+        "situation": "booking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-067",
+      "text": "find a coworking space",
+      "primary_intent": "travel.navigation.nearby.coworking",
+      "context": {
+        "situation": "work",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-068",
+      "text": "check driving conditions",
+      "primary_intent": "travel.navigation.conditions",
+      "context": {
+        "situation": "driving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-069",
+      "text": "avoid toll roads",
+      "primary_intent": "travel.navigation.directions.avoid_tolls",
+      "context": {
+        "situation": "driving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-070",
+      "text": "find a gym with a day pass",
+      "primary_intent": "travel.navigation.nearby.gym",
+      "context": {
+        "situation": "fitness",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-071",
+      "text": "locate a post office",
+      "primary_intent": "travel.navigation.nearby.post_office",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-072",
+      "text": "buy travel insurance",
+      "primary_intent": "travel.planning.insurance.buy",
+      "context": {
+        "situation": "planning",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-073",
+      "text": "what plug adapter do I need for UK?",
+      "primary_intent": "travel.planning.adapter.check",
+      "context": {
+        "situation": "packing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-074",
+      "text": "create a packing list for the beach",
+      "primary_intent": "travel.planning.packing.create",
+      "context": {
+        "situation": "packing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-075",
+      "text": "check off 'passport' from packing list",
+      "primary_intent": "travel.planning.packing.check_item",
+      "context": {
+        "situation": "packing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-076",
+      "text": "find things to do with kids",
+      "primary_intent": "travel.navigation.nearby.kids_activities",
+      "context": {
+        "situation": "discovery",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-077",
+      "text": "book a spa day",
+      "primary_intent": "travel.booking.activity.spa",
+      "context": {
+        "situation": "leisure",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-078",
+      "text": "find a scenic route",
+      "primary_intent": "travel.navigation.directions.scenic",
+      "context": {
+        "situation": "driving",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-079",
+      "text": "check ferry schedule",
+      "primary_intent": "travel.booking.transport.ferry",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-080",
+      "text": "alert me when flight price drops",
+      "primary_intent": "travel.booking.flight.price_alert",
+      "context": {
+        "situation": "planning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-081",
+      "text": "what terminal is my flight?",
+      "primary_intent": "travel.booking.flight.terminal",
+      "context": {
+        "situation": "traveling",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-082",
+      "text": "how do I get a tax refund on shopping?",
+      "primary_intent": "travel.planning.tax_refund",
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-083",
+      "text": "find duty free shops",
+      "primary_intent": "travel.navigation.nearby.duty_free",
+      "context": {
+        "situation": "shopping",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "trv-084",
+      "text": "connect to airport wifi",
+      "primary_intent": "travel.util.wifi.connect",
+      "context": {
+        "situation": "tech",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "trv-085",
+      "text": "logout from hotel wifi",
+      "primary_intent": "travel.util.wifi.logout",
+      "context": {
+        "situation": "tech",
+        "urgency": "low"
+      }
+    }
+  ]
+}

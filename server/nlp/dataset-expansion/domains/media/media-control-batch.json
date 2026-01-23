@@ -1,0 +1,568 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-008",
+    "domain": "media",
+    "focus_areas": ["playback", "discovery", "playlist", "volume", "queue"],
+    "generated_at": "2026-01-23T12:05:00.000Z",
+    "total_samples": 80,
+    "media_integrations": ["spotify", "youtube", "local_player"]
+  },
+  "intent_taxonomy": {
+    "playback": {
+      "control": ["play", "pause", "stop", "resume", "next", "previous"],
+      "seek": ["forward", "backward", "goto_time"],
+      "mode": ["shuffle", "repeat_one", "repeat_all", "autoplay"]
+    },
+    "content": {
+      "request": ["song", "artist", "album", "podcast", "genre", "playlist"],
+      "discovery": ["recommend", "similar", "popular", "new_releases"]
+    },
+    "queue": {
+      "manage": ["add_next", "add_last", "remove", "clear", "view", "save"]
+    }
+  },
+  "samples": [
+    {
+      "id": "med-001",
+      "text": "play something chill for working",
+      "primary_intent": "media.play.genre",
+      "context": { "situation": "work", "urgency": "low" },
+      "entities": [
+        { "text": "chill", "type": "genre" },
+        { "text": "working", "type": "activity" }
+      ]
+    },
+    {
+      "id": "med-002",
+      "text": "queue up 'Bohemian Rhapsody' next",
+      "primary_intent": "media.queue.add_next",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [{ "text": "Bohemian Rhapsody", "type": "song" }]
+    },
+    {
+      "id": "med-003",
+      "text": "skip this song, I don't like it",
+      "primary_intent": "media.playback.next",
+      "emotional_context": { "tone": "dislike", "intensity": 0.4 },
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-004",
+      "text": "pause the music for a second",
+      "primary_intent": "media.playback.pause",
+      "context": { "situation": "interruption", "urgency": "medium" }
+    },
+    {
+      "id": "med-005",
+      "text": "play the album 'Random Access Memories' by Daft Punk",
+      "primary_intent": "media.play.album",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [
+        { "text": "Random Access Memories", "type": "album" },
+        { "text": "Daft Punk", "type": "artist" }
+      ]
+    },
+    {
+      "id": "med-006",
+      "text": "shuffle my 'Favorites' playlist",
+      "primary_intent": "media.play.playlist",
+      "secondary_intent": "media.playback.mode.shuffle",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [{ "text": "Favorites", "type": "playlist" }]
+    },
+    {
+      "id": "med-007",
+      "text": "go back 30 seconds, I missed that part",
+      "primary_intent": "media.playback.seek.backward",
+      "context": { "situation": "podcast", "urgency": "low" },
+      "entities": [{ "text": "30 seconds", "type": "duration" }]
+    },
+    {
+      "id": "med-008",
+      "text": "what song is playing right now?",
+      "primary_intent": "media.info.now_playing",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-009",
+      "text": "play some jazz music on Spotify",
+      "primary_intent": "media.play.genre",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [
+        { "text": "jazz", "type": "genre" },
+        { "text": "Spotify", "type": "service" }
+      ]
+    },
+    {
+      "id": "med-010",
+      "text": "add this track to my 'Driving' playlist",
+      "primary_intent": "media.playlist.add",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [{ "text": "Driving", "type": "playlist" }]
+    },
+    {
+      "id": "med-011",
+      "text": "resume playback",
+      "primary_intent": "media.playback.resume",
+      "context": { "situation": "continuation", "urgency": "low" }
+    },
+    {
+      "id": "med-012",
+      "text": "play the latest episode of 'The Daily'",
+      "primary_intent": "media.play.podcast",
+      "context": { "situation": "news", "urgency": "low" },
+      "entities": [
+        { "text": "The Daily", "type": "podcast" },
+        { "text": "latest", "type": "episode_selector" }
+      ]
+    },
+    {
+      "id": "med-013",
+      "text": "turn off shuffle",
+      "primary_intent": "media.playback.mode.shuffle.off",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-014",
+      "text": "play hits from the 80s",
+      "primary_intent": "media.play.genre",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "80s", "type": "era" }]
+    },
+    {
+      "id": "med-015",
+      "text": "fast forward 1 minute",
+      "primary_intent": "media.playback.seek.forward",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [{ "text": "1 minute", "type": "duration" }]
+    },
+    {
+      "id": "med-016",
+      "text": "repeat this song again",
+      "primary_intent": "media.playback.mode.repeat_one",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-017",
+      "text": "stop the music entirely",
+      "primary_intent": "media.playback.stop",
+      "context": { "situation": "ending", "urgency": "low" }
+    },
+    {
+      "id": "med-018",
+      "text": "clear the queue",
+      "primary_intent": "media.queue.clear",
+      "context": { "situation": "reset", "urgency": "low" }
+    },
+    {
+      "id": "med-019",
+      "text": "recommend me songs similar to this one",
+      "primary_intent": "media.content.discovery.similar",
+      "context": { "situation": "discovery", "urgency": "low" }
+    },
+    {
+      "id": "med-020",
+      "text": "play classic rock",
+      "primary_intent": "media.play.genre",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "classic rock", "type": "genre" }]
+    },
+    {
+      "id": "med-021",
+      "text": "play Taylor Swift",
+      "primary_intent": "media.play.artist",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "Taylor Swift", "type": "artist" }]
+    },
+    {
+      "id": "med-022",
+      "text": "start my 'Workout' mix",
+      "primary_intent": "media.play.playlist",
+      "context": { "situation": "exercise", "urgency": "low" },
+      "entities": [{ "text": "Workout", "type": "playlist" }]
+    },
+    {
+      "id": "med-023",
+      "text": "what's up next in the queue?",
+      "primary_intent": "media.queue.view",
+      "context": { "situation": "curiosity", "urgency": "low" }
+    },
+    {
+      "id": "med-024",
+      "text": "save this song to my library",
+      "primary_intent": "media.library.save",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-025",
+      "text": "play top 50 global",
+      "primary_intent": "media.play.chart",
+      "context": { "situation": "discovery", "urgency": "low" },
+      "entities": [{ "text": "top 50 global", "type": "chart" }]
+    },
+    {
+      "id": "med-026",
+      "text": "arre gaana band karo",
+      "primary_intent": "media.playback.stop",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "emotional_context": { "tone": "annoyed", "intensity": 0.5 },
+      "context": { "situation": "interruption", "urgency": "medium" }
+    },
+    {
+      "id": "med-027",
+      "text": "kuch Arijit Singh ka lagao",
+      "primary_intent": "media.play.artist",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "Arijit Singh", "type": "artist" }]
+    },
+    {
+      "id": "med-028",
+      "text": "next song please, ye wala boring hai",
+      "primary_intent": "media.playback.next",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "emotional_context": { "tone": "bored", "intensity": 0.4 },
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-029",
+      "text": "music thoda peeche karo, lyrics sunna hai",
+      "primary_intent": "media.playback.seek.backward",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-030",
+      "text": "Bollywood lo-fi chalao",
+      "primary_intent": "media.play.genre",
+      "language": { "primary": "hi", "mixing": ["en"] },
+      "context": { "situation": "work", "urgency": "low" },
+      "entities": [{ "text": "Bollywood lo-fi", "type": "genre" }]
+    },
+    {
+      "id": "med-031",
+      "text": "I want to hear that song from the movie Inception",
+      "primary_intent": "media.play.soundtrack",
+      "context": { "situation": "recall", "urgency": "low" },
+      "entities": [{ "text": "Inception", "type": "movie" }]
+    },
+    {
+      "id": "med-032",
+      "text": "play music videos on YouTube",
+      "primary_intent": "media.play.video",
+      "context": { "situation": "entertainment", "urgency": "low" },
+      "entities": [{ "text": "YouTube", "type": "service" }]
+    },
+    {
+      "id": "med-033",
+      "text": "restart the track",
+      "primary_intent": "media.playback.restart",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-034",
+      "text": "remove the last song from the queue",
+      "primary_intent": "media.queue.remove_last",
+      "context": { "situation": "correction", "urgency": "low" }
+    },
+    {
+      "id": "med-035",
+      "text": "loop this playlist",
+      "primary_intent": "media.playback.mode.repeat_all",
+      "context": { "situation": "party", "urgency": "low" }
+    },
+    {
+      "id": "med-036",
+      "text": "play white noise for sleeping",
+      "primary_intent": "media.play.ambient",
+      "context": { "situation": "sleep", "urgency": "low" },
+      "entities": [{ "text": "white noise", "type": "sound" }]
+    },
+    {
+      "id": "med-037",
+      "text": "play rain sounds",
+      "primary_intent": "media.play.ambient",
+      "context": { "situation": "relax", "urgency": "low" },
+      "entities": [{ "text": "rain sounds", "type": "sound" }]
+    },
+    {
+      "id": "med-038",
+      "text": "show lyrics for this song",
+      "primary_intent": "media.info.lyrics",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-039",
+      "text": "who is the bassist in this band?",
+      "primary_intent": "knowledge.music.band_member",
+      "context": { "situation": "curiosity", "urgency": "low" },
+      "entities": [{ "text": "bassist", "type": "role" }]
+    },
+    {
+      "id": "med-040",
+      "text": "when was this album released?",
+      "primary_intent": "knowledge.music.album_info",
+      "context": { "situation": "curiosity", "urgency": "low" }
+    },
+    {
+      "id": "med-041",
+      "text": "create a new playlist called 'Summer Vibes'",
+      "primary_intent": "media.playlist.create",
+      "context": { "situation": "organization", "urgency": "low" },
+      "entities": [{ "text": "Summer Vibes", "type": "playlist_name" }]
+    },
+    {
+      "id": "med-042",
+      "text": "open Spotify",
+      "primary_intent": "media.app.open",
+      "context": { "situation": "control", "urgency": "low" },
+      "entities": [{ "text": "Spotify", "type": "app" }]
+    },
+    {
+      "id": "med-043",
+      "text": "connect to Spotify Connect on the living room speaker",
+      "primary_intent": "media.connect.device",
+      "context": { "situation": "setup", "urgency": "low" },
+      "entities": [{ "text": "living room speaker", "type": "device" }]
+    },
+    {
+      "id": "med-044",
+      "text": "dislike this track",
+      "primary_intent": "media.feedback.dislike",
+      "context": { "situation": "feedback", "urgency": "low" }
+    },
+    {
+      "id": "med-045",
+      "text": "play my 'Weekly Discovery'",
+      "primary_intent": "media.play.playlist.generated",
+      "context": { "situation": "discovery", "urgency": "low" },
+      "entities": [{ "text": "Weekly Discovery", "type": "playlist" }]
+    },
+    {
+      "id": "med-046",
+      "text": "skip ahead to 2 minutes 30 seconds",
+      "primary_intent": "media.playback.goto_time",
+      "context": { "situation": "listening", "urgency": "low" },
+      "entities": [{ "text": "2 minutes 30 seconds", "type": "timestamp" }]
+    },
+    {
+      "id": "med-047",
+      "text": "play the previous track",
+      "primary_intent": "media.playback.previous",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-048",
+      "text": "play something different, I'm bored of this genre",
+      "primary_intent": "media.content.discovery.different",
+      "emotional_context": { "tone": "bored", "intensity": 0.5 },
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-049",
+      "text": "search for the song containing lyrics 'is this the real life'",
+      "primary_intent": "media.search.by_lyrics",
+      "context": { "situation": "search", "urgency": "low" },
+      "entities": [{ "text": "is this the real life", "type": "lyrics" }]
+    },
+    {
+      "id": "med-050",
+      "text": "play local files from the Music folder",
+      "primary_intent": "media.play.local",
+      "context": { "situation": "offline", "urgency": "low" },
+      "entities": [{ "text": "Music", "type": "folder" }]
+    },
+    {
+      "id": "med-051",
+      "text": "turn on autoplay",
+      "primary_intent": "media.playback.mode.autoplay.on",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-052",
+      "text": "what year did this song come out?",
+      "primary_intent": "knowledge.music.song_info",
+      "context": { "situation": "curiosity", "urgency": "low" }
+    },
+    {
+      "id": "med-053",
+      "text": "add the whole album to the queue",
+      "primary_intent": "media.queue.add_album",
+      "context": { "situation": "listening", "urgency": "low" }
+    },
+    {
+      "id": "med-054",
+      "text": "play songs by 'Coldplay' but only the old ones",
+      "primary_intent": "media.play.artist.filtered",
+      "context": { "situation": "listening", "urgency": "low" },
+      "discourse_features": { "constraint": ["only the old ones"] }
+    },
+    {
+      "id": "med-055",
+      "text": "play acoustic versions of 'Ed Sheeran' songs",
+      "primary_intent": "media.play.artist.filtered",
+      "context": { "situation": "relax", "urgency": "low" },
+      "entities": [{ "text": "acoustic", "type": "style" }]
+    },
+    {
+      "id": "med-056",
+      "text": "start a radio station based on this artist",
+      "primary_intent": "media.play.radio.artist",
+      "context": { "situation": "discovery", "urgency": "low" }
+    },
+    {
+      "id": "med-057",
+      "text": "play trending music in Brazil",
+      "primary_intent": "media.play.chart.regional",
+      "context": { "situation": "discovery", "urgency": "low" },
+      "entities": [{ "text": "Brazil", "type": "region" }]
+    },
+    {
+      "id": "med-058",
+      "text": "block this artist, I don't want to hear them",
+      "primary_intent": "media.feedback.block_artist",
+      "context": { "situation": "preference", "urgency": "medium" },
+      "emotional_context": { "tone": "dislike", "intensity": 0.7 }
+    },
+    {
+      "id": "med-059",
+      "text": "follow this playlist",
+      "primary_intent": "media.playlist.follow",
+      "context": { "situation": "discovery", "urgency": "low" }
+    },
+    {
+      "id": "med-060",
+      "text": "download this playlist for offline listening",
+      "primary_intent": "media.download.playlist",
+      "context": { "situation": "preparation", "urgency": "low" }
+    },
+    {
+      "id": "med-061",
+      "text": "increase playback speed to 1.5x",
+      "primary_intent": "media.playback.speed.set",
+      "context": { "situation": "podcast", "urgency": "low" },
+      "entities": [{ "text": "1.5x", "type": "speed" }]
+    },
+    {
+      "id": "med-062",
+      "text": "play the next episode",
+      "primary_intent": "media.playback.next_episode",
+      "context": { "situation": "binge", "urgency": "low" }
+    },
+    {
+      "id": "med-063",
+      "text": "mark as played",
+      "primary_intent": "media.library.mark_played",
+      "context": { "situation": "organization", "urgency": "low" }
+    },
+    {
+      "id": "med-064",
+      "text": "add to 'Watch Later'",
+      "primary_intent": "media.queue.watch_later",
+      "context": { "situation": "discovery", "urgency": "low" }
+    },
+    {
+      "id": "med-065",
+      "text": "play instrumental music for studying",
+      "primary_intent": "media.play.genre.instrumental",
+      "context": { "situation": "study", "urgency": "low" }
+    },
+    {
+      "id": "med-066",
+      "text": "maximize the video player",
+      "primary_intent": "media.player.maximize",
+      "context": { "situation": "viewing", "urgency": "low" }
+    },
+    {
+      "id": "med-067",
+      "text": "enable captions",
+      "primary_intent": "media.player.captions.on",
+      "context": { "situation": "viewing", "urgency": "low" }
+    },
+    {
+      "id": "med-068",
+      "text": "change audio quality to high",
+      "primary_intent": "media.settings.quality.high",
+      "context": { "situation": "preference", "urgency": "low" }
+    },
+    {
+      "id": "med-069",
+      "text": "cast to the TV",
+      "primary_intent": "media.cast.start",
+      "context": { "situation": "viewing", "urgency": "low" },
+      "entities": [{ "text": "TV", "type": "device" }]
+    },
+    {
+      "id": "med-070",
+      "text": "stop casting",
+      "primary_intent": "media.cast.stop",
+      "context": { "situation": "cleanup", "urgency": "low" }
+    },
+    {
+      "id": "med-071",
+      "text": "play news from NPR",
+      "primary_intent": "media.play.news",
+      "context": { "situation": "news", "urgency": "low" },
+      "entities": [{ "text": "NPR", "type": "source" }]
+    },
+    {
+      "id": "med-072",
+      "text": "play a bedtime story",
+      "primary_intent": "media.play.audiobook",
+      "context": { "situation": "sleep", "urgency": "low" }
+    },
+    {
+      "id": "med-073",
+      "text": "set sleep timer for 30 minutes",
+      "primary_intent": "media.timer.sleep",
+      "context": { "situation": "sleep", "urgency": "low" },
+      "entities": [{ "text": "30 minutes", "type": "duration" }]
+    },
+    {
+      "id": "med-074",
+      "text": "play 'Despacito'",
+      "primary_intent": "media.play.song",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "Despacito", "type": "song" }]
+    },
+    {
+      "id": "med-075",
+      "text": "play the cover version by 'Boyce Avenue'",
+      "primary_intent": "media.play.cover",
+      "context": { "situation": "leisure", "urgency": "low" },
+      "entities": [{ "text": "Boyce Avenue", "type": "artist" }]
+    },
+    {
+      "id": "med-076",
+      "text": "share this song with John",
+      "primary_intent": "media.share.song",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "John", "type": "contact" }]
+    },
+    {
+      "id": "med-077",
+      "text": "what's the name of this track?",
+      "primary_intent": "media.info.now_playing",
+      "context": { "situation": "curiosity", "urgency": "low" }
+    },
+    {
+      "id": "med-078",
+      "text": "turn up the bass",
+      "primary_intent": "media.settings.eq.bass_boost",
+      "context": { "situation": "preference", "urgency": "low" }
+    },
+    {
+      "id": "med-079",
+      "text": "reset the equalizer",
+      "primary_intent": "media.settings.eq.reset",
+      "context": { "situation": "preference", "urgency": "low" }
+    },
+    {
+      "id": "med-080",
+      "text": "play music suitable for a dinner party",
+      "primary_intent": "media.play.contextual",
+      "context": { "situation": "social", "urgency": "low" },
+      "entities": [{ "text": "dinner party", "type": "context" }]
+    }
+  ]
+}

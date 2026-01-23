@@ -21,11 +21,11 @@ const MODEL_PATH = path.join(OUTPUT_DIR, "model.json");
 
 // Configuration
 const CONFIG = {
-  ITERATIONS: 10000, // Increased for deeper learning
-  ERROR_THRESH: 0.002, // Lower threshold for higher precision
-  HIDDEN_LAYERS: [64, 64], // Significantly increased capacity (was [16, 16])
+  ITERATIONS: 2000, // Adjusted for interactivity
+  ERROR_THRESH: 0.000005, // Much tighter threshold for 1600+ classes
+  HIDDEN_LAYERS: [128], // Simpler, wider layer for inputs
   ACTIVATION: "sigmoid",
-  LEARNING_RATE: 0.3, // Explicitly defined
+  LEARNING_RATE: 0.1, // Lower rate for stability
   PLUGIN_DIRS: [
     path.join(__dirname, "../skills/plugins"),
     path.join(__dirname, "../plugins"),

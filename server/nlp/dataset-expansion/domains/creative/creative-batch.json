@@ -1,0 +1,1072 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-014",
+    "domain": "creative",
+    "focus_areas": [
+      "writing",
+      "image_generation",
+      "design",
+      "music_composition",
+      "editing"
+    ],
+    "generated_at": "2026-01-23T13:30:00.000Z",
+    "total_samples": 85,
+    "tools_implied": [
+      "dall-e",
+      "midjourney",
+      "gpt",
+      "photoshop"
+    ]
+  },
+  "intent_taxonomy": {
+    "writing": {
+      "generate": [
+        "story",
+        "poem",
+        "essay",
+        "blog_post",
+        "script",
+        "email_copy"
+      ],
+      "edit": [
+        "rewrite",
+        "summarize",
+        "expand",
+        "change_tone",
+        "proofread"
+      ]
+    },
+    "visual": {
+      "image": [
+        "generate",
+        "edit",
+        "variations",
+        "describe"
+      ],
+      "design": [
+        "logo",
+        "ui_mockup",
+        "presentation",
+        "layout"
+      ]
+    },
+    "audio": {
+      "music": [
+        "compose",
+        "lyrics",
+        "sound_effect"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "id": "crt-001",
+      "text": "write a short story about a robot who learns to love gardening",
+      "primary_intent": "creative.writing.generate.story",
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "robot",
+          "type": "protagonist"
+        },
+        {
+          "text": "gardening",
+          "type": "theme"
+        }
+      ]
+    },
+    {
+      "id": "crt-002",
+      "text": "generate an image of a futuristic city with flying cars, cyberpunk style",
+      "primary_intent": "creative.visual.image.generate",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "futuristic city",
+          "type": "subject"
+        },
+        {
+          "text": "cyberpunk",
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "id": "crt-003",
+      "text": "rewrite this paragraph to be more professional",
+      "primary_intent": "creative.writing.edit.change_tone",
+      "context": {
+        "situation": "work",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "professional",
+          "type": "tone"
+        }
+      ]
+    },
+    {
+      "id": "crt-004",
+      "text": "compose a haiku about the rain",
+      "primary_intent": "creative.writing.generate.poem",
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "haiku",
+          "type": "format"
+        },
+        {
+          "text": "rain",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-005",
+      "text": "summarize this article in 3 bullet points",
+      "primary_intent": "creative.writing.edit.summarize",
+      "context": {
+        "situation": "research",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "3 bullet points",
+          "type": "constraint"
+        }
+      ]
+    },
+    {
+      "id": "crt-006",
+      "text": "design a logo for a coffee shop named 'Bean There'",
+      "primary_intent": "creative.visual.design.logo",
+      "context": {
+        "situation": "branding",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "coffee shop",
+          "type": "business_type"
+        },
+        {
+          "text": "Bean There",
+          "type": "name"
+        }
+      ]
+    },
+    {
+      "id": "crt-007",
+      "text": "create a UI mockup for a login screen on mobile",
+      "primary_intent": "creative.visual.design.ui_mockup",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "login screen",
+          "type": "screen_type"
+        },
+        {
+          "text": "mobile",
+          "type": "device"
+        }
+      ]
+    },
+    {
+      "id": "crt-008",
+      "text": "write some lyrics for a sad breakup song",
+      "primary_intent": "creative.audio.music.lyrics",
+      "context": {
+        "situation": "music_production",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "sad breakup",
+          "type": "mood"
+        }
+      ]
+    },
+    {
+      "id": "crt-009",
+      "text": "proofread my cover letter and fix any grammar mistakes",
+      "primary_intent": "creative.writing.edit.proofread",
+      "context": {
+        "situation": "job_application",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-010",
+      "text": "generate a 4k wallpaper of a forest in autumn",
+      "primary_intent": "creative.visual.image.generate",
+      "context": {
+        "situation": "personalization",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "forest in autumn",
+          "type": "subject"
+        },
+        {
+          "text": "4k",
+          "type": "resolution"
+        }
+      ]
+    },
+    {
+      "id": "crt-011",
+      "text": "make this text sound more exciting and energetic",
+      "primary_intent": "creative.writing.edit.change_tone",
+      "context": {
+        "situation": "marketing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "exciting",
+          "type": "tone"
+        }
+      ]
+    },
+    {
+      "id": "crt-012",
+      "text": "draft a cold email to potential investors",
+      "primary_intent": "creative.writing.generate.email_copy",
+      "context": {
+        "situation": "business",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "potential investors",
+          "type": "recipient"
+        }
+      ]
+    },
+    {
+      "id": "crt-013",
+      "text": "write a python script to scrape this website",
+      "primary_intent": "creative.writing.generate.code",
+      "context": {
+        "situation": "development",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "python",
+          "type": "language"
+        }
+      ]
+    },
+    {
+      "id": "crt-014",
+      "text": "describe this image for me",
+      "primary_intent": "creative.visual.image.describe",
+      "context": {
+        "situation": "accessibility",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-015",
+      "text": "create a blog post about the benefits of meditation",
+      "primary_intent": "creative.writing.generate.blog_post",
+      "context": {
+        "situation": "content_creation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "benefits of meditation",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-016",
+      "text": "generate a chord progression for a jazz track",
+      "primary_intent": "creative.audio.music.compose",
+      "context": {
+        "situation": "music_production",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "jazz",
+          "type": "genre"
+        }
+      ]
+    },
+    {
+      "id": "crt-017",
+      "text": "create 3 variations of this logo",
+      "primary_intent": "creative.visual.image.variations",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "3",
+          "type": "count"
+        }
+      ]
+    },
+    {
+      "id": "crt-018",
+      "text": "expand this outline into a full chapter",
+      "primary_intent": "creative.writing.edit.expand",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-019",
+      "text": "make me a slide deck for the Q3 review",
+      "primary_intent": "creative.visual.design.presentation",
+      "context": {
+        "situation": "business",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "Q3 review",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-020",
+      "text": "write a funny tweet about mondays",
+      "primary_intent": "creative.writing.generate.social_media",
+      "context": {
+        "situation": "social_media",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "funny",
+          "type": "tone"
+        },
+        {
+          "text": "mondays",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-021",
+      "text": "remove the background from this photo",
+      "primary_intent": "creative.visual.image.edit.remove_background",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-022",
+      "text": "suggest a title for my new book",
+      "primary_intent": "creative.writing.generate.ideas",
+      "context": {
+        "situation": "brainstorming",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "book",
+          "type": "object"
+        }
+      ]
+    },
+    {
+      "id": "crt-023",
+      "text": "ek sher sunao dosti par",
+      "primary_intent": "creative.writing.generate.poem",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "entities": [
+        {
+          "text": "sher (couplet)",
+          "type": "format"
+        },
+        {
+          "text": "dosti (friendship)",
+          "type": "topic"
+        }
+      ],
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "crt-024",
+      "text": "write an apology letter to the client",
+      "primary_intent": "creative.writing.generate.letter",
+      "context": {
+        "situation": "business",
+        "urgency": "medium"
+      },
+      "entities": [
+        {
+          "text": "apology",
+          "type": "purpose"
+        }
+      ]
+    },
+    {
+      "id": "crt-025",
+      "text": "turn this sketch into a realistic render",
+      "primary_intent": "creative.visual.image.generate.from_image",
+      "context": {
+        "situation": "art",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-026",
+      "text": "I have writer's block, give me some prompts for a horror story",
+      "primary_intent": "creative.writing.generate.prompts",
+      "context": {
+        "situation": "brainstorming",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "horror",
+          "type": "genre"
+        }
+      ]
+    },
+    {
+      "id": "crt-027",
+      "text": "simplify this explanation for a 10 year old",
+      "primary_intent": "creative.writing.edit.simplify",
+      "context": {
+        "situation": "education",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "10 year old",
+          "type": "audience"
+        }
+      ]
+    },
+    {
+      "id": "crt-028",
+      "text": "create a color palette based on this image",
+      "primary_intent": "creative.visual.design.color_palette",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-029",
+      "text": "write a script for a 30-second youtube ad",
+      "primary_intent": "creative.writing.generate.script",
+      "context": {
+        "situation": "marketing",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "30-second",
+          "type": "duration"
+        }
+      ]
+    },
+    {
+      "id": "crt-030",
+      "text": "generate a sound effect of a laser gun",
+      "primary_intent": "creative.audio.sound_effect.generate",
+      "context": {
+        "situation": "game_dev",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-031",
+      "text": "kahani likho ek bhoot ki jo darta hai",
+      "primary_intent": "creative.writing.generate.story",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-032",
+      "text": "critique my drawing and tell me how to improve anatomy",
+      "primary_intent": "creative.visual.critique",
+      "context": {
+        "situation": "learning",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-033",
+      "text": "write a birthday wish for my sister, make it heartfelt",
+      "primary_intent": "creative.writing.generate.message",
+      "context": {
+        "situation": "personal",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "heartfelt",
+          "type": "tone"
+        }
+      ]
+    },
+    {
+      "id": "crt-034",
+      "text": "create a moodboard for a rustic wedding",
+      "primary_intent": "creative.visual.design.moodboard",
+      "context": {
+        "situation": "event_planning",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "rustic wedding",
+          "type": "theme"
+        }
+      ]
+    },
+    {
+      "id": "crt-035",
+      "text": "rhyme with 'orange'... wait I know nothing rhymes with orange, try 'silver'",
+      "primary_intent": "creative.writing.tools.rhyme",
+      "discourse_features": {
+        "self_correction": [
+          "wait I know"
+        ]
+      },
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-036",
+      "text": "translate this poem to French but keep the rhyming scheme",
+      "primary_intent": "creative.writing.translate.poetic",
+      "context": {
+        "situation": "translation",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "French",
+          "type": "language"
+        },
+        {
+          "text": "keep rhyming scheme",
+          "type": "constraint"
+        }
+      ]
+    },
+    {
+      "id": "crt-037",
+      "text": "upscale this image to 2x resolution",
+      "primary_intent": "creative.visual.image.edit.upscale",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-038",
+      "text": "write a rap verse about coding",
+      "primary_intent": "creative.writing.generate.lyrics",
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "rap",
+          "type": "genre"
+        },
+        {
+          "text": "coding",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-039",
+      "text": "generate a texture of seamless wood grain",
+      "primary_intent": "creative.visual.image.generate.texture",
+      "context": {
+        "situation": "3d_modeling",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-040",
+      "text": "suggest fonts that go well with Helvetica",
+      "primary_intent": "creative.visual.design.font_pairing",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-041",
+      "text": "rewrite this in the style of Shakespeare",
+      "primary_intent": "creative.writing.edit.style_transfer",
+      "context": {
+        "situation": "entertainment",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Shakespeare",
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "id": "crt-042",
+      "text": "write a recipe for a vegan lasagna",
+      "primary_intent": "creative.writing.generate.recipe",
+      "context": {
+        "situation": "cooking",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-043",
+      "text": "create a character profile for a detective in the 1920s",
+      "primary_intent": "creative.writing.generate.character",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-044",
+      "text": "help me come up with a band name",
+      "primary_intent": "creative.writing.generate.names",
+      "context": {
+        "situation": "brainstorming",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-045",
+      "text": "vectorize this raster image",
+      "primary_intent": "creative.visual.image.edit.vectorize",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-046",
+      "text": "edit out the person in the background",
+      "primary_intent": "creative.visual.image.edit.inpainting",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-047",
+      "text": "write a resignation letter",
+      "primary_intent": "creative.writing.generate.letter",
+      "context": {
+        "situation": "career",
+        "urgency": "high"
+      }
+    },
+    {
+      "id": "crt-048",
+      "text": "format this as a markdown table",
+      "primary_intent": "creative.writing.format",
+      "context": {
+        "situation": "formatting",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-049",
+      "text": "generate a slogan for my tech startup",
+      "primary_intent": "creative.writing.generate.slogan",
+      "context": {
+        "situation": "branding",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-050",
+      "text": "replace the sky with a starry night",
+      "primary_intent": "creative.visual.image.edit.replace",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-051",
+      "text": "create a meme using the drake format",
+      "primary_intent": "creative.visual.image.generate.meme",
+      "context": {
+        "situation": "social_media",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-052",
+      "text": "write a synopsis for my screenplay",
+      "primary_intent": "creative.writing.generate.synopsis",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-053",
+      "text": "convert this article into a twitter thread",
+      "primary_intent": "creative.writing.repurpose.thread",
+      "context": {
+        "situation": "social_media",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-054",
+      "text": "analyze the literary devices used in this text",
+      "primary_intent": "creative.writing.analysis",
+      "context": {
+        "situation": "education",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-055",
+      "text": "create an icon for 'settings' in flat style",
+      "primary_intent": "creative.visual.design.icon",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-056",
+      "text": "write a bedtime story for a 5 year old about a dinosaur",
+      "primary_intent": "creative.writing.generate.story",
+      "context": {
+        "situation": "parenting",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "dinosaur",
+          "type": "topic"
+        }
+      ]
+    },
+    {
+      "id": "crt-057",
+      "text": "transcribe this audio file",
+      "primary_intent": "creative.audio.transcribe",
+      "context": {
+        "situation": "admin",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-058",
+      "text": "find me a synonym for 'beautiful'",
+      "primary_intent": "creative.writing.tools.synonym",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-059",
+      "text": "check the readability score of this text",
+      "primary_intent": "creative.writing.analysis.readability",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-060",
+      "text": "mix these two songs together",
+      "primary_intent": "creative.audio.music.mix",
+      "context": {
+        "situation": "djing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-061",
+      "text": "give me feedback on my essay structure",
+      "primary_intent": "creative.writing.feedback",
+      "context": {
+        "situation": "education",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-062",
+      "text": "generate a random name for a fantasy city",
+      "primary_intent": "creative.writing.generate.names",
+      "context": {
+        "situation": "world_building",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-063",
+      "text": "turn this data into a bar chart",
+      "primary_intent": "creative.visual.data_viz.chart",
+      "context": {
+        "situation": "business",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-064",
+      "text": "write a press release for our product launch",
+      "primary_intent": "creative.writing.generate.press_release",
+      "context": {
+        "situation": "pr",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-065",
+      "text": "create a playlist cover art",
+      "primary_intent": "creative.visual.image.generate",
+      "context": {
+        "situation": "music",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-066",
+      "text": "suggest a color scheme for a wellness app",
+      "primary_intent": "creative.visual.design.color_palette",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-067",
+      "text": "write a thank you note for the interview",
+      "primary_intent": "creative.writing.generate.message",
+      "context": {
+        "situation": "career",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-068",
+      "text": "create a 3D model of a chair",
+      "primary_intent": "creative.visual.3d.generate",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-069",
+      "text": "animate this character walking",
+      "primary_intent": "creative.visual.animation.generate",
+      "context": {
+        "situation": "animation",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-070",
+      "text": "write a review for this movie",
+      "primary_intent": "creative.writing.generate.review",
+      "context": {
+        "situation": "opinion",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-071",
+      "text": "summarize the plot of Romeo and Juliet",
+      "primary_intent": "creative.writing.summarize",
+      "context": {
+        "situation": "education",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-072",
+      "text": "create an isometric view of a bedroom",
+      "primary_intent": "creative.visual.image.generate",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "isometric",
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "id": "crt-073",
+      "text": "give me a creative writing prompt involving time travel",
+      "primary_intent": "creative.writing.generate.prompts",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-074",
+      "text": "what rhymes with 'purple'? seriously is there anything?",
+      "primary_intent": "creative.writing.tools.rhyme",
+      "context": {
+        "situation": "writing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-075",
+      "text": "paraphrase this sentence to avoid plagiarism",
+      "primary_intent": "creative.writing.edit.rewrite",
+      "context": {
+        "situation": "academic",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-076",
+      "text": "design a business card",
+      "primary_intent": "creative.visual.design.business_card",
+      "context": {
+        "situation": "business",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-077",
+      "text": "write a speech for my best friend's wedding",
+      "primary_intent": "creative.writing.generate.speech",
+      "context": {
+        "situation": "personal",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-078",
+      "text": "create a wireframe for the homepage",
+      "primary_intent": "creative.visual.design.wireframe",
+      "context": {
+        "situation": "design",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-079",
+      "text": "suggest some catchy headlines for this article",
+      "primary_intent": "creative.writing.generate.headline",
+      "context": {
+        "situation": "marketing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-080",
+      "text": "draw a cat in the style of Picasso",
+      "primary_intent": "creative.visual.image.generate",
+      "context": {
+        "situation": "art",
+        "urgency": "low"
+      },
+      "entities": [
+        {
+          "text": "Picasso",
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "id": "crt-081",
+      "text": "write a job description for a software engineer",
+      "primary_intent": "creative.writing.generate.job_description",
+      "context": {
+        "situation": "hr",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-082",
+      "text": "make this photo black and white",
+      "primary_intent": "creative.visual.image.edit.filter",
+      "context": {
+        "situation": "editing",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-083",
+      "text": "create a storyboard for a short film",
+      "primary_intent": "creative.visual.design.storyboard",
+      "context": {
+        "situation": "film",
+        "urgency": "low"
+      }
+    },
+    {
+      "id": "crt-084",
+      "text": "write a farewell email to my colleagues",
+      "primary_intent": "creative.writing.generate.email_copy",
+      "context": {
+        "situation": "career",
+        "urgency": "medium"
+      }
+    },
+    {
+      "id": "crt-085",
+      "text": "generate a podcast intro script",
+      "primary_intent": "creative.writing.generate.script",
+      "context": {
+        "situation": "media",
+        "urgency": "low"
+      }
+    }
+  ]
+}

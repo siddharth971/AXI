@@ -1,0 +1,1150 @@
+{
+  "batch_metadata": {
+    "batch_id": "batch-003",
+    "focus_area": "discourse_complexity",
+    "description": "Samples demonstrating natural speech patterns: interruptions, repairs, incomplete thoughts, and complex discourse structures",
+    "generated_at": "2026-01-23T10:45:00.000Z",
+    "total_samples": 80,
+    "linguistic_realism": "high",
+    "domain": "discourse"
+  },
+  "discourse_pattern_categories": {
+    "self_corrections": "Speaker corrects themselves mid-utterance",
+    "false_starts": "Abandoned sentence beginnings",
+    "repetitions": "Words or phrases repeated for emphasis or hesitation",
+    "incomplete_thoughts": "Trailing off, interrupted externally",
+    "backtracking": "Going back to earlier points",
+    "layered_questions": "Questions within questions",
+    "embedded_clauses": "Complex sentence structures",
+    "topic_shifts": "Sudden changes in subject",
+    "meta_commentary": "Comments about the conversation itself"
+  },
+  "samples": [
+    {
+      "id": "dc-001",
+      "text": "open chrom- I mean chrome, sorry, chrome browser",
+      "primary_intent": "app.open.chrome",
+      "discourse_features": {
+        "repairs": [
+          {
+            "original": "chrom-",
+            "correction": "chrome",
+            "type": "phonological"
+          }
+        ],
+        "meta_commentary": [
+          "sorry"
+        ]
+      },
+      "cognitive_state": {
+        "type": "rushed"
+      },
+      "context": {
+        "situation": "routine_task"
+      }
+    },
+    {
+      "id": "dc-002",
+      "text": "set an alarm for... wait what time is it now? actually never mind just set it for 7am",
+      "primary_intent": "productivity.alarm.set",
+      "discourse_features": {
+        "false_starts": [
+          "for..."
+        ],
+        "embedded_questions": [
+          "what time is it now?"
+        ],
+        "repairs": [
+          "actually never mind"
+        ]
+      },
+      "cognitive_state": {
+        "type": "distracted"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-003",
+      "text": "I need to send an email to... no wait first check if Sarah already replied... actually just open gmail",
+      "primary_intent": "browser.open.gmail",
+      "discourse_features": {
+        "false_starts": [
+          "to..."
+        ],
+        "backtracking": [
+          "no wait first"
+        ],
+        "repairs": [
+          "actually just"
+        ],
+        "abandoned_intents": [
+          "send email",
+          "check reply"
+        ]
+      },
+      "cognitive_state": {
+        "type": "multitasking",
+        "mental_load": "high"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-004",
+      "text": "delete delete delete this file delete it now",
+      "primary_intent": "file.delete",
+      "discourse_features": {
+        "repetitions": [
+          {
+            "word": "delete",
+            "count": 4
+          }
+        ]
+      },
+      "emotional_context": {
+        "tone": "urgent",
+        "intensity": 0.9
+      },
+      "context": {
+        "urgency": "critical"
+      }
+    },
+    {
+      "id": "dc-005",
+      "text": "so basically what I'm trying to do is, like, you know how sometimes you want to...",
+      "primary_intent": "clarify.incomplete",
+      "discourse_features": {
+        "completeness": "trailing_off",
+        "filler_words": [
+          "so basically",
+          "like",
+          "you know how"
+        ],
+        "hedging": [
+          "sometimes"
+        ]
+      },
+      "cognitive_state": {
+        "type": "struggling_to_articulate"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-006",
+      "text": "can you... hmm... how do I explain this... can you make the text bigger but not too big just a little",
+      "primary_intent": "display.zoom.in",
+      "discourse_features": {
+        "false_starts": [
+          "can you..."
+        ],
+        "filler_words": [
+          "hmm"
+        ],
+        "meta_commentary": [
+          "how do I explain this"
+        ],
+        "hedging": [
+          "not too big",
+          "just a little"
+        ]
+      },
+      "cognitive_state": {
+        "type": "uncertain"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-007",
+      "text": "the password is... wait don't say it out loud... okay type capital A lowercase b numbers one two three",
+      "primary_intent": "input.password",
+      "discourse_features": {
+        "interruptions": [
+          {
+            "point": "after is...",
+            "reason": "privacy_concern"
+          }
+        ],
+        "meta_commentary": [
+          "wait don't say it out loud"
+        ]
+      },
+      "context": {
+        "situation": "security_sensitive"
+      }
+    },
+    {
+      "id": "dc-008",
+      "text": "remind me to- oh wait I already set that one- remind me to call the dentist tomorrow",
+      "primary_intent": "productivity.reminder.set",
+      "discourse_features": {
+        "false_starts": [
+          "remind me to-"
+        ],
+        "self_interruption": [
+          "oh wait I already set that one"
+        ]
+      },
+      "cognitive_state": {
+        "type": "distracted"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-009",
+      "text": "search for, um, what's it called again, the thing that, you know, converts video files",
+      "primary_intent": "search.for_tool",
+      "discourse_features": {
+        "filler_words": [
+          "um",
+          "you know"
+        ],
+        "tip_of_tongue": [
+          "what's it called again"
+        ],
+        "circumlocution": [
+          "the thing that converts video files"
+        ]
+      },
+      "cognitive_state": {
+        "type": "word_finding_difficulty"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-010",
+      "text": "close all the-- no not all of them-- just close the ones that I'm not using anymore",
+      "primary_intent": "browser.tabs.close_inactive",
+      "discourse_features": {
+        "repairs": [
+          {
+            "original": "all the--",
+            "correction": "just the ones I'm not using"
+          }
+        ],
+        "negation_repair": [
+          "no not all of them"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-011",
+      "text": "what I mean is, well, it's hard to explain, but basically imagine if you could...",
+      "primary_intent": "clarify.attempting",
+      "discourse_features": {
+        "meta_commentary": [
+          "what I mean is",
+          "it's hard to explain"
+        ],
+        "completeness": "trailing_off",
+        "filler_words": [
+          "well",
+          "basically"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-012",
+      "text": "turn off the... the... what's it called... the light... the blue light... yeah night mode",
+      "primary_intent": "display.night_mode.on",
+      "discourse_features": {
+        "repetitions": [
+          {
+            "word": "the",
+            "count": 4
+          }
+        ],
+        "word_search": [
+          "what's it called"
+        ],
+        "progressive_specification": [
+          "light",
+          "blue light",
+          "night mode"
+        ]
+      },
+      "cognitive_state": {
+        "type": "word_finding_difficulty"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-013",
+      "text": "before you do that, wait, did you save the file? because if not then... okay first save then do that",
+      "primary_intent": "file.save",
+      "discourse_features": {
+        "conditional_reasoning": [
+          "because if not then"
+        ],
+        "reordering": [
+          "okay first save then do that"
+        ],
+        "embedded_questions": [
+          "did you save the file?"
+        ]
+      },
+      "cognitive_state": {
+        "type": "cautious"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-014",
+      "text": "I was thinking maybe we could, or actually no, what if instead we tried, hmm, let me think...",
+      "primary_intent": "brainstorm.uncertain",
+      "discourse_features": {
+        "abandoned_ideas": [
+          "maybe we could",
+          "what if instead"
+        ],
+        "repairs": [
+          "or actually no"
+        ],
+        "filler_words": [
+          "hmm"
+        ],
+        "meta_commentary": [
+          "let me think"
+        ]
+      },
+      "cognitive_state": {
+        "type": "creative",
+        "confidence_level": 0.3
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-015",
+      "text": "stop stop stop wait I changed my mind go back undo that",
+      "primary_intent": "undo",
+      "discourse_features": {
+        "repetitions": [
+          {
+            "word": "stop",
+            "count": 3
+          }
+        ],
+        "urgency_escalation": true
+      },
+      "emotional_context": {
+        "tone": "panicked",
+        "intensity": 0.8
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-016",
+      "text": "okay so like, you know yesterday when I asked you to, remember that thing, yeah do that again",
+      "primary_intent": "repeat.previous_action",
+      "discourse_features": {
+        "filler_words": [
+          "okay so like",
+          "you know"
+        ],
+        "vague_reference": [
+          "that thing",
+          "that"
+        ],
+        "presupposed_shared_knowledge": [
+          "remember"
+        ]
+      },
+      "cognitive_state": {
+        "type": "assuming_shared_context"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-017",
+      "text": "it's not working it's not working it's not working help",
+      "primary_intent": "help.urgent",
+      "discourse_features": {
+        "repetitions": [
+          {
+            "phrase": "it's not working",
+            "count": 3
+          }
+        ]
+      },
+      "emotional_context": {
+        "tone": "frustrated",
+        "intensity": 0.9
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-018",
+      "text": "what I really need is, and this is important, no seriously listen, I need you to save before closing",
+      "primary_intent": "file.save_before_close",
+      "discourse_features": {
+        "parenthetical": [
+          "and this is important"
+        ],
+        "attention_getting": [
+          "no seriously listen"
+        ],
+        "emphasis_markers": [
+          "really",
+          "seriously"
+        ]
+      },
+      "emotional_context": {
+        "tone": "insistent"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-019",
+      "text": "the file is in documents, wait no downloads, actually I'm not sure, can you search for it?",
+      "primary_intent": "file.search",
+      "discourse_features": {
+        "location_uncertainty": [
+          "documents",
+          "downloads",
+          "not sure"
+        ],
+        "repairs": [
+          "wait no",
+          "actually"
+        ],
+        "resolution": "delegate to search"
+      },
+      "cognitive_state": {
+        "type": "confused"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-020",
+      "text": "pehle... wait hindi mein bolun ya English? anyway, pehle save karo phir close",
+      "primary_intent": "file.save_then_close",
+      "language": {
+        "primary": "hi",
+        "mixing": [
+          "en"
+        ]
+      },
+      "discourse_features": {
+        "language_negotiation": [
+          "hindi mein bolun ya English?"
+        ],
+        "code_switching": true,
+        "filler_words": [
+          "anyway"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-021",
+      "text": "question - well actually two questions - first is the file saved and second can you email it",
+      "primary_intent": "compound.query_and_action",
+      "discourse_features": {
+        "meta_structure": [
+          "question",
+          "two questions",
+          "first",
+          "second"
+        ],
+        "numbered_sub_requests": true,
+        "repairs": [
+          "well actually two questions"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-022",
+      "text": "if, and only if, the download is complete, then and only then, should you open it",
+      "primary_intent": "conditional.strict",
+      "discourse_features": {
+        "formal_conditional": [
+          "if and only if",
+          "then and only then"
+        ],
+        "emphasis_through_repetition": true
+      },
+      "context": {
+        "register": "formal"
+      }
+    },
+    {
+      "id": "dc-023",
+      "text": "I don't want to... well maybe I do... no I definitely don't... okay fine do it",
+      "primary_intent": "confirm.reluctant",
+      "discourse_features": {
+        "ambivalence": [
+          "don't want to",
+          "maybe I do",
+          "definitely don't",
+          "okay fine"
+        ],
+        "internal_debate_externalized": true
+      },
+      "emotional_context": {
+        "tone": "conflicted"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-024",
+      "text": "speaking of which, oh wait we weren't talking about that, anyway can you just open spotify",
+      "primary_intent": "app.open.spotify",
+      "discourse_features": {
+        "false_topic_connection": [
+          "speaking of which"
+        ],
+        "self_correction": [
+          "oh wait we weren't talking about that"
+        ],
+        "topic_abandonment": [
+          "anyway"
+        ]
+      },
+      "cognitive_state": {
+        "type": "distracted"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-025",
+      "text": "remind me to... actually you know what, I'll just do it now, never mind",
+      "primary_intent": "cancel",
+      "discourse_features": {
+        "abandoned_request": [
+          "remind me to..."
+        ],
+        "self_resolution": [
+          "I'll just do it now"
+        ],
+        "cancellation": [
+          "never mind"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-026",
+      "text": "this is gonna sound weird but can you pretend to be a timer and just say beep after 5 minutes",
+      "primary_intent": "timer.creative",
+      "discourse_features": {
+        "preface_hedge": [
+          "this is gonna sound weird but"
+        ],
+        "unconventional_request_framing": true
+      },
+      "cognitive_state": {
+        "type": "playful"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-027",
+      "text": "let me think out loud here: we need X, which requires Y, but Y needs Z, so start with Z",
+      "primary_intent": "planning.verbose",
+      "discourse_features": {
+        "metacognitive_verbalization": [
+          "let me think out loud"
+        ],
+        "logical_chain": [
+          "which requires",
+          "but needs",
+          "so start with"
+        ]
+      },
+      "cognitive_state": {
+        "type": "analytical"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-028",
+      "text": "no no no that's not what I- let me start over- what I want is simply to close the browser",
+      "primary_intent": "browser.close",
+      "discourse_features": {
+        "rejection": [
+          "no no no"
+        ],
+        "interruption_of_self": [
+          "that's not what I-"
+        ],
+        "restart_marker": [
+          "let me start over"
+        ],
+        "simplification": [
+          "simply"
+        ]
+      },
+      "emotional_context": {
+        "tone": "frustrated"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-029",
+      "text": "hypothetically speaking, if I were to accidentally delete a file, hypothetically, how would one undo that",
+      "primary_intent": "help.recover_file",
+      "discourse_features": {
+        "hypothetical_framing": [
+          "hypothetically speaking",
+          "if I were to",
+          "hypothetically"
+        ],
+        "indirect_request": [
+          "how would one"
+        ],
+        "face_saving": true
+      },
+      "implicit_goal": "recover accidentally deleted file",
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-030",
+      "text": "between you and me, and don't tell anyone, but I forgot my password can you show me how to reset it",
+      "primary_intent": "help.password_reset",
+      "discourse_features": {
+        "confidentiality_framing": [
+          "between you and me",
+          "don't tell anyone"
+        ],
+        "embarrassment_mitigation": true
+      },
+      "emotional_context": {
+        "tone": "embarrassed"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-031",
+      "text": "correct me if I'm wrong but didn't you say earlier that... never mind I probably misremembered",
+      "primary_intent": "clarify.abandoned",
+      "discourse_features": {
+        "hedged_challenge": [
+          "correct me if I'm wrong"
+        ],
+        "reference_to_prior": [
+          "you say earlier"
+        ],
+        "self_doubt_abandonment": [
+          "never mind",
+          "probably misremembered"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-032",
+      "text": "so to summarize, in bullet points if possible: one save the file, two close the browser, three shutdown",
+      "primary_intent": "confirm.sequence",
+      "discourse_features": {
+        "meta_request": [
+          "to summarize",
+          "in bullet points if possible"
+        ],
+        "enumeration": [
+          "one",
+          "two",
+          "three"
+        ],
+        "structural_preference": true
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-033",
+      "text": "on a scale of one to ten how confident are you that this won't break anything",
+      "primary_intent": "confirm.risk_assessment",
+      "discourse_features": {
+        "rating_request": [
+          "scale of one to ten"
+        ],
+        "risk_concern": [
+          "won't break anything"
+        ]
+      },
+      "emotional_context": {
+        "tone": "anxious"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-034",
+      "text": "long story short, after trying everything, I just need you to restart the computer",
+      "primary_intent": "system.restart",
+      "discourse_features": {
+        "narrative_compression": [
+          "long story short"
+        ],
+        "exasperation_marker": [
+          "after trying everything"
+        ]
+      },
+      "implicit_context": "previous troubleshooting failed",
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-035",
+      "text": "plot twist: I actually don't need that anymore, cancel everything and just play music",
+      "primary_intent": "media.play",
+      "secondary_intent": "cancel.all_pending",
+      "discourse_features": {
+        "dramatic_framing": [
+          "plot twist"
+        ],
+        "complete_direction_change": true
+      },
+      "emotional_context": {
+        "tone": "playful"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-036",
+      "text": "okay okay okay I hear you but consider this: what if we did the opposite",
+      "primary_intent": "suggest.alternative",
+      "discourse_features": {
+        "acknowledgment": [
+          "okay okay okay",
+          "I hear you"
+        ],
+        "counter_proposal": [
+          "but consider this",
+          "what if"
+        ],
+        "rhetorical_structure": true
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-037",
+      "text": "at the risk of sounding stupid, what exactly does 'sync' mean in this context",
+      "primary_intent": "knowledge.explain",
+      "discourse_features": {
+        "self_deprecation_preface": [
+          "at the risk of sounding stupid"
+        ],
+        "precision_request": [
+          "exactly",
+          "in this context"
+        ]
+      },
+      "emotional_context": {
+        "tone": "embarrassed"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-038",
+      "text": "this might be a stretch but is there any way, even a complicated one, to recover that file",
+      "primary_intent": "file.recover",
+      "discourse_features": {
+        "hedge_chain": [
+          "might be a stretch",
+          "any way",
+          "even a complicated one"
+        ],
+        "desperation_indicator": true
+      },
+      "emotional_context": {
+        "tone": "hopeful",
+        "intensity": 0.7
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-039",
+      "text": "I'm going to walk you through what happened: first I opened the file, then I made changes, then suddenly everything crashed, so now what",
+      "primary_intent": "help.recover_from_crash",
+      "discourse_features": {
+        "narrative_structure": [
+          "first",
+          "then",
+          "then suddenly",
+          "so now"
+        ],
+        "problem_explanation": true,
+        "help_seeking": [
+          "so now what"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-040",
+      "text": "bear with me here because this is complicated: I need file A to be in folder B but only if folder C exists otherwise put it in D",
+      "primary_intent": "file.conditional_move",
+      "discourse_features": {
+        "complexity_warning": [
+          "bear with me",
+          "this is complicated"
+        ],
+        "conditional_logic": [
+          "if",
+          "otherwise"
+        ],
+        "variable_references": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-041",
+      "text": "you're not gonna believe this but I just realized I've been asking you the wrong thing this whole time",
+      "primary_intent": "correction.major",
+      "discourse_features": {
+        "dramatic_preface": [
+          "you're not gonna believe this"
+        ],
+        "self_realization": [
+          "just realized"
+        ],
+        "scope_of_error": [
+          "this whole time"
+        ]
+      },
+      "emotional_context": {
+        "tone": "surprised"
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-042",
+      "text": "pros and cons real quick: should I update now or wait until tomorrow",
+      "primary_intent": "advice.update_timing",
+      "discourse_features": {
+        "structured_request": [
+          "pros and cons"
+        ],
+        "time_constraint": [
+          "real quick"
+        ],
+        "decision_framing": [
+          "should I",
+          "or"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-043",
+      "text": "just between us, I may have accidentally deleted something important, is there a way to get it back without anyone knowing",
+      "primary_intent": "file.recover.discreet",
+      "discourse_features": {
+        "confidentiality": [
+          "just between us",
+          "without anyone knowing"
+        ],
+        "admission_hedge": [
+          "may have accidentally"
+        ]
+      },
+      "risk_level": "medium",
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-044",
+      "text": "thinking emoji, processing, okay I've decided, let's go with option two",
+      "primary_intent": "confirm.option_2",
+      "discourse_features": {
+        "meta_description_of_thought": [
+          "thinking emoji",
+          "processing"
+        ],
+        "decision_announcement": [
+          "I've decided"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-045",
+      "text": "wait hold on, before we continue, can we back up for a second, what did you mean by 'sync'",
+      "primary_intent": "clarify.backtrack",
+      "discourse_features": {
+        "interruption_chain": [
+          "wait",
+          "hold on",
+          "before we continue"
+        ],
+        "backtrack_request": [
+          "back up for a second"
+        ],
+        "clarification_target": [
+          "what did you mean by"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-046",
+      "text": "to be completely transparent, I have no idea what I'm doing, please guide me step by step",
+      "primary_intent": "help.guided",
+      "discourse_features": {
+        "honesty_marker": [
+          "to be completely transparent"
+        ],
+        "admission_of_ignorance": [
+          "no idea what I'm doing"
+        ],
+        "explicit_help_mode_request": [
+          "step by step"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-047",
+      "text": "spoiler alert: this is probably going to fail, but let's try it anyway, run the update",
+      "primary_intent": "system.update.run",
+      "discourse_features": {
+        "expectation_setting": [
+          "spoiler alert",
+          "probably going to fail"
+        ],
+        "proceeding_despite_doubt": [
+          "but let's try it anyway"
+        ]
+      },
+      "emotional_context": {
+        "tone": "resigned",
+        "intensity": 0.4
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-048",
+      "text": "not to be that person but shouldn't we save first? just saying",
+      "primary_intent": "suggest.save_first",
+      "discourse_features": {
+        "self-aware_framing": [
+          "not to be that person"
+        ],
+        "rhetorical_question": [
+          "shouldn't we"
+        ],
+        "softener": [
+          "just saying"
+        ]
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-049",
+      "text": "random thought but what if the issue isn't the file but the folder permissions, can you check that",
+      "primary_intent": "debug.check_permissions",
+      "discourse_features": {
+        "tangent_introduction": [
+          "random thought but"
+        ],
+        "hypothesis_proposal": [
+          "what if"
+        ],
+        "diagnostic_shift": true
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    },
+    {
+      "id": "dc-050",
+      "text": "I'll try to explain this better: imagine a box inside another box inside another box, I need the innermost one",
+      "primary_intent": "file.navigate_deep",
+      "discourse_features": {
+        "retry_marker": [
+          "I'll try to explain this better"
+        ],
+        "metaphor_usage": [
+          "box inside another box"
+        ],
+        "visual_analogy": true
+      },
+      "context": {
+        "situation": "general",
+        "urgency": "low",
+        "auto_added": true
+      }
+    }
+  ]
+}
