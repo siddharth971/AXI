@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Conversational Intelligence Test Fixtures - DOMAIN_01",
+    "lastUpdated": "2026-01-23"
+  },
+
+  "CTX_01_CONTEXT_RETENTION": {
+    "description": "Context retention across conversation turns",
+    "priority": "CRITICAL",
+
+    "tests": {
+      "CTX-01-A": {
+        "name": "Short-term Context (within session)",
+        "cases": [
+          {
+            "id": "CTX-01-A-001",
+            "name": "Pronoun 'it' resolution - close",
+            "turns": [
+              { "user": "open youtube", "expectedIntent": "open_youtube" },
+              {
+                "user": "close it",
+                "expectedIntent": "close_youtube",
+                "contextRequired": true
+              }
+            ],
+            "priority": "CRITICAL"
+          },
+          {
+            "id": "CTX-01-A-002",
+            "name": "Pronoun 'it' resolution - open again",
+            "turns": [
+              { "user": "open google", "expectedIntent": "open_website" },
+              { "user": "close it", "expectedIntent": "close_website" },
+              {
+                "user": "open it again",
+                "expectedIntent": "open_website",
+                "contextRequired": true
+              }
+            ],
+            "priority": "CRITICAL"
+          },
+          {
+            "id": "CTX-01-A-003",
+            "name": "Pronoun 'that' resolution",
+            "turns": [
+              {
+                "user": "search youtube for jazz",
+                "expectedIntent": "search_youtube"
+              },
+              {
+                "user": "play that",
+                "expectedIntent": "play",
+                "contextRequired": true
+              }
+            ],
+            "priority": "HIGH"
+          },
+          {
+            "id": "CTX-01-A-004",
+            "name": "Volume context chain",
+            "turns": [
+              { "user": "play music", "expectedIntent": "play" },
+              {
+                "user": "louder",
+                "expectedIntent": "volume_up",
+                "contextRequired": true
+              },
+              {
+                "user": "a bit quieter",
+                "expectedIntent": "volume_down",
+                "contextRequired": true
+              }
+            ],
+            "priority": "HIGH"
+          },
+          {
+            "id": "CTX-01-A-005",
+            "name": "Implicit subject reference",
+            "turns": [
+              { "user": "play some jazz", "expectedIntent": "play" },
+              {
+                "user": "stop",
+                "expectedIntent": "stop",
+                "contextRequired": true
+              }
+            ],
+            "priority": "HIGH"
+          }
+        ]
+      },
+
+      "CTX-01-B": {
+        "name": "Mid-session Context (5-20 turns)",
+        "cases": [
+          {
+            "id": "CTX-01-B-001",
+            "name": "Extended conversation with topic retention",
+            "turns": [
+              { "user": "open youtube" },
+              { "user": "search for cooking videos" },
+              { "user": "play the first one" },
+              { "user": "pause" },
+              {
+                "user": "what was I watching again",
+                "expectedContextRecall": true
+              }
+            ],
+            "priority": "MAJOR"
+          }
+        ]
+      },
+
+      "CTX-01-C": {
+        "name": "Session Boundary Context",
+        "crossSession": true,
+        "cases": [
+          {
+            "id": "CTX-01-C-001",
+            "name": "Context reset at session boundary",
+            "turns": [
+              { "user": "open youtube", "session": "session_1" },
+              {
+                "user": "close it",
+                "session": "session_2",
+                "expectClarification": true
+              }
+            ],
+            "note": "New session should NOT have previous context",
+            "priority": "MAJOR"
+          }
+        ]
+      }
+    }
+  },
+
+  "MTN_01_MULTITURN": {
+    "description": "Multi-turn conversation handling",
+    "priority": "CRITICAL",
+
+    "tests": {
+      "MTN-01-A": {
+        "name": "Sequential Queries",
+        "cases": [
+          {
+            "id": "MTN-01-A-001",
+            "name": "Time then date",
+            "turns": [
+              { "user": "what time is it", "expectedIntent": "tell_time" },
+              { "user": "and the date", "expectedIntent": "tell_date" }
+            ],
+            "priority": "HIGH"
+          },
+          {
+            "id": "MTN-01-A-002",
+            "name": "Multiple browser actions",
+            "turns": [
+              { "user": "open youtube", "expectedIntent": "open_youtube" },
+              { "user": "now open google", "expectedIntent": "open_website" },
+              { "user": "go to spotify", "expectedIntent": "open_website" }
+            ],
+            "priority": "HIGH"
+          }
+        ]
+      },
+
+      "MTN-01-B": {
+        "name": "Branching Conversations",
+        "cases": [
+          {
+            "id": "MTN-01-B-001",
+            "name": "Topic switch and return",
+            "turns": [
+              { "user": "play some music", "expectedIntent": "play" },
+              { "user": "what time is it", "expectedIntent": "tell_time" },
+              {
+                "user": "make it louder",
+                "expectedIntent": "volume_up",
+                "contextFromTurn": 0
+              }
+            ],
+            "priority": "MAJOR"
+          }
+        ]
+      },
+
+      "MTN-01-C": {
+        "name": "Topic Resumption",
+        "cases": [
+          {
+            "id": "MTN-01-C-001",
+            "name": "Resume after interruption",
+            "turns": [
+              {
+                "user": "search youtube for tutorials",
+                "expectedIntent": "search_youtube"
+              },
+              { "user": "wait what time is it", "expectedIntent": "tell_time" },
+              {
+                "user": "okay continue with the search",
+                "expectContextResumption": true
+              }
+            ],
+            "priority": "MAJOR"
+          }
+        ]
+      }
+    }
+  },
+
+  "FOL_01_FOLLOWUPS": {
+    "description": "Follow-up question handling",
+    "priority": "HIGH",
+
+    "tests": {
+      "FOL-01-A": {
+        "name": "Clarification Requests",
+        "cases": [
+          {
+            "id": "FOL-01-A-001",
+            "name": "Clarification for ambiguous command",
+            "turns": [
+              { "user": "open something", "expectClarification": true }
+            ],
+            "priority": "MAJOR"
+          }
+        ]
+      },
+
+      "FOL-01-B": {
+        "name": "Detail Expansion",
+        "cases": [
+          {
+            "id": "FOL-01-B-001",
+            "name": "Expand on previous response",
+            "turns": [
+              { "user": "what is the capital of France" },
+              { "user": "tell me more about it" }
+            ],
+            "priority": "MINOR"
+          }
+        ]
+      },
+
+      "FOL-01-C": {
+        "name": "Context-dependent Follow-ups",
+        "cases": [
+          {
+            "id": "FOL-01-C-001",
+            "name": "Follow-up based on action result",
+            "turns": [
+              {
+                "user": "search youtube for music",
+                "expectedIntent": "search_youtube"
+              },
+              { "user": "play the second one", "contextRequired": true }
+            ],
+            "priority": "HIGH"
+          }
+        ]
+      }
+    }
+  },
+
+  "PRN_01_PRONOUN": {
+    "description": "Pronoun and reference resolution",
+    "priority": "CRITICAL",
+
+    "tests": {
+      "PRN-01-A": {
+        "name": "Direct Pronouns",
+        "cases": [
+          {
+            "id": "PRN-01-A-001",
+            "name": "It reference",
+            "turns": [
+              { "user": "open spotify", "expectedIntent": "open_website" },
+              { "user": "close it", "expectedResolvedTo": "spotify" }
+            ]
+          },
+          {
+            "id": "PRN-01-A-002",
+            "name": "That reference",
+            "turns": [
+              { "user": "play jazz music", "expectedIntent": "play" },
+              { "user": "pause that", "expectedResolvedTo": "jazz music" }
+            ]
+          },
+          {
+            "id": "PRN-01-A-003",
+            "name": "This reference",
+            "turns": [
+              { "user": "set volume to 50", "expectedIntent": "set_volume" },
+              { "user": "make this louder", "expectedIntent": "volume_up" }
+            ]
+          }
+        ]
+      },
+
+      "PRN-01-B": {
+        "name": "Implicit Reference",
+        "cases": [
+          {
+            "id": "PRN-01-B-001",
+            "name": "Implicit action target",
+            "turns": [
+              { "user": "play some music" },
+              { "user": "pause", "note": "No explicit reference to music" }
+            ]
+          }
+        ]
+      },
+
+      "PRN-01-C": {
+        "name": "Ambiguous Reference Handling",
+        "cases": [
+          {
+            "id": "PRN-01-C-001",
+            "name": "No context for 'it'",
+            "turns": [{ "user": "close it", "expectClarification": true }],
+            "freshSession": true,
+            "priority": "CRITICAL"
+          }
+        ]
+      }
+    }
+  },
+
+  "TOP_01_TOPIC_SWITCHING": {
+    "description": "Topic switching behavior",
+    "priority": "HIGH",
+
+    "tests": {
+      "TOP-01-A": {
+        "name": "Clean Topic Switch",
+        "cases": [
+          {
+            "id": "TOP-01-A-001",
+            "name": "Explicit topic change",
+            "turns": [
+              { "user": "play music" },
+              { "user": "by the way what time is it" }
+            ],
+            "expectCleanSwitch": true
+          }
+        ]
+      },
+
+      "TOP-01-B": {
+        "name": "Partial Topic Switch",
+        "cases": [
+          {
+            "id": "TOP-01-B-001",
+            "name": "Related topic transition",
+            "turns": [
+              { "user": "open youtube" },
+              { "user": "search for music videos" }
+            ],
+            "expectPartialContext": true
+          }
+        ]
+      },
+
+      "TOP-01-C": {
+        "name": "Topic Return",
+        "cases": [
+          {
+            "id": "TOP-01-C-001",
+            "name": "Return to previous topic",
+            "turns": [
+              { "user": "play music" },
+              { "user": "what time is it" },
+              { "user": "make the music louder" }
+            ],
+            "expectContextRecovery": true
+          }
+        ]
+      }
+    }
+  },
+
+  "AMB_01_AMBIGUITY": {
+    "description": "Ambiguity handling",
+    "priority": "HIGH",
+
+    "tests": {
+      "AMB-01-A": {
+        "name": "Lexical Ambiguity",
+        "cases": [
+          {
+            "id": "AMB-01-A-001",
+            "name": "Ambiguous word meaning",
+            "input": "play",
+            "expectClarification": true,
+            "possibleIntents": ["play_music", "play_video", "play_game"]
+          }
+        ]
+      },
+
+      "AMB-01-B": {
+        "name": "Structural Ambiguity",
+        "cases": [
+          {
+            "id": "AMB-01-B-001",
+            "name": "Ambiguous sentence structure",
+            "input": "open that and close it",
+            "expectClarification": true
+          }
+        ]
+      },
+
+      "AMB-01-C": {
+        "name": "Contextual Ambiguity",
+        "cases": [
+          {
+            "id": "AMB-01-C-001",
+            "name": "Context-dependent meaning",
+            "turns": [{ "user": "open it" }],
+            "freshSession": true,
+            "expectClarification": true
+          }
+        ]
+      }
+    }
+  }
+}

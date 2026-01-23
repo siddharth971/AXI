@@ -250,5 +250,58 @@
       "source": "classifier"
     },
     "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:08:35.712Z",
+    "type": "low_confidence",
+    "text": "Would you mind playing some music?",
+    "predictedIntent": "media.shuffle",
+    "confidence": 0.23437561094760895,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:14:29.063Z",
+    "type": "unknown",
+    "text": "close it",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:14:41.479Z",
+    "type": "unknown",
+    "text": "what if it rains tomorrow",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:14:45.021Z",
+    "type": "unknown",
+    "text": "explain machine learning",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:14:48.813Z",
+    "type": "unknown",
+    "text": "xyzabc gibberish",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-23T04:14:51.077Z",
+    "type": "unknown",
+    "text": "!@#$%^&*()",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
   }
 ]
