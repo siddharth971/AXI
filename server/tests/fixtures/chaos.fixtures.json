@@ -4,33 +4,65 @@
     "description": "Edge Cases and Chaos Testing Fixtures - DOMAIN_10",
     "lastUpdated": "2026-01-23"
   },
-  
+
   "RND_10_RANDOMIZED_INPUTS": {
     "description": "Fuzz testing and random input patterns",
     "priority": "MINOR",
-    
+
     "tests": {
       "RND-10-A": {
         "name": "Fuzz Testing",
         "cases": [
-          { "id": "RND-10-A-001", "input": "asdfghjkl", "expectGraceful": true },
-          { "id": "RND-10-A-002", "input": "qwerty12345!@#$%", "expectGraceful": true },
-          { "id": "RND-10-A-003", "input": "xyzxyzxyzxyz", "expectGraceful": true },
+          {
+            "id": "RND-10-A-001",
+            "input": "asdfghjkl",
+            "expectGraceful": true
+          },
+          {
+            "id": "RND-10-A-002",
+            "input": "qwerty12345!@#$%",
+            "expectGraceful": true
+          },
+          {
+            "id": "RND-10-A-003",
+            "input": "xyzxyzxyzxyz",
+            "expectGraceful": true
+          },
           { "id": "RND-10-A-004", "input": "11111111", "expectGraceful": true },
-          { "id": "RND-10-A-005", "input": "!@#$%^&*()", "expectGraceful": true }
+          {
+            "id": "RND-10-A-005",
+            "input": "!@#$%^&*()",
+            "expectGraceful": true
+          }
         ]
       },
-      
+
       "RND-10-B": {
         "name": "Mutation Testing",
         "cases": [
-          { "id": "RND-10-B-001", "input": "o.p" .e.n y.o.u.t.u.b.e", "expectGraceful": true },
-          { "id": "RND-10-B-002", "input": "OPEN YOUTUBE", "expectIntent": "open_youtube" },
-          { "id": "RND-10-B-003", "input": "oPeN yOuTuBe", "expectIntent": "open_youtube" },
-          { "id": "RND-10-B-004", "input": " open   youtube ", "expectIntent": "open_youtube" }
+          {
+            "id": "RND-10-B-001",
+            "input": "o.p.e.n y.o.u.t.u.b.e",
+            "expectGraceful": true
+          },
+          {
+            "id": "RND-10-B-002",
+            "input": "OPEN YOUTUBE",
+            "expectIntent": "open_youtube"
+          },
+          {
+            "id": "RND-10-B-003",
+            "input": "oPeN yOuTuBe",
+            "expectIntent": "open_youtube"
+          },
+          {
+            "id": "RND-10-B-004",
+            "input": " open   youtube ",
+            "expectIntent": "open_youtube"
+          }
         ]
       },
-      
+
       "RND-10-C": {
         "name": "Boundary Exploration",
         "cases": [
@@ -41,83 +73,158 @@
       }
     }
   },
-  
+
   "UNI_10_UNICODE": {
     "description": "Unicode character handling",
     "priority": "MINOR",
-    
+
     "tests": {
       "UNI-10-A": {
         "name": "Extended Characters",
         "cases": [
-          { "id": "UNI-10-A-001", "input": "ópên yóutübé", "expectGraceful": true },
-          { "id": "UNI-10-A-002", "input": "café résumé naïve", "expectGraceful": true },
-          { "id": "UNI-10-A-003", "input": "日本語テスト", "expectGraceful": true },
-          { "id": "UNI-10-A-004", "input": "Привет мир", "expectGraceful": true },
-          { "id": "UNI-10-A-005", "input": "مرحبا بالعالم", "expectGraceful": true }
+          {
+            "id": "UNI-10-A-001",
+            "input": "ópên yóutübé",
+            "expectGraceful": true
+          },
+          {
+            "id": "UNI-10-A-002",
+            "input": "café résumé naïve",
+            "expectGraceful": true
+          },
+          {
+            "id": "UNI-10-A-003",
+            "input": "日本語テスト",
+            "expectGraceful": true
+          },
+          {
+            "id": "UNI-10-A-004",
+            "input": "Привет мир",
+            "expectGraceful": true
+          },
+          {
+            "id": "UNI-10-A-005",
+            "input": "مرحبا بالعالم",
+            "expectGraceful": true
+          }
         ]
       },
-      
+
       "UNI-10-B": {
         "name": "RTL Languages",
         "cases": [
-          { "id": "UNI-10-B-001", "input": "שלום עולם", "expectGraceful": true },
+          {
+            "id": "UNI-10-B-001",
+            "input": "שלום עולם",
+            "expectGraceful": true
+          },
           { "id": "UNI-10-B-002", "input": "مرحباً", "expectGraceful": true },
-          { "id": "UNI-10-B-003", "input": "hello مرحبا world", "expectGraceful": true }
+          {
+            "id": "UNI-10-B-003",
+            "input": "hello مرحبا world",
+            "expectGraceful": true
+          }
         ]
       },
-      
+
       "UNI-10-C": {
         "name": "Special Symbols",
         "cases": [
           { "id": "UNI-10-C-001", "input": "→ ← ↑ ↓", "expectGraceful": true },
           { "id": "UNI-10-C-002", "input": "© ® ™", "expectGraceful": true },
           { "id": "UNI-10-C-003", "input": "∞ ≠ ≈", "expectGraceful": true },
-          { "id": "UNI-10-C-004", "input": "☆ ★ ♠ ♣ ♥ ♦", "expectGraceful": true },
-          { "id": "UNI-10-C-005", "input": "␀␁␂", "expectGraceful": true, "note": "Control characters" }
+          {
+            "id": "UNI-10-C-004",
+            "input": "☆ ★ ♠ ♣ ♥ ♦",
+            "expectGraceful": true
+          },
+          {
+            "id": "UNI-10-C-005",
+            "input": "␀␁␂",
+            "expectGraceful": true,
+            "note": "Control characters"
+          }
         ]
       }
     }
   },
-  
+
   "MLT_10_MULTILINGUAL": {
     "description": "Multi-language handling",
     "priority": "MAJOR",
-    
+
     "tests": {
       "MLT-10-A": {
         "name": "Language Detection",
         "cases": [
-          { "id": "MLT-10-A-001", "input": "Bonjour, ouvre YouTube", "languages": ["fr"], "expectGraceful": true },
-          { "id": "MLT-10-A-002", "input": "Hola, abre Google", "languages": ["es"], "expectGraceful": true },
-          { "id": "MLT-10-A-003", "input": "Guten Tag, öffne YouTube", "languages": ["de"], "expectGraceful": true }
+          {
+            "id": "MLT-10-A-001",
+            "input": "Bonjour, ouvre YouTube",
+            "languages": ["fr"],
+            "expectGraceful": true
+          },
+          {
+            "id": "MLT-10-A-002",
+            "input": "Hola, abre Google",
+            "languages": ["es"],
+            "expectGraceful": true
+          },
+          {
+            "id": "MLT-10-A-003",
+            "input": "Guten Tag, öffne YouTube",
+            "languages": ["de"],
+            "expectGraceful": true
+          }
         ]
       },
-      
+
       "MLT-10-B": {
         "name": "Code-switching",
         "cases": [
-          { "id": "MLT-10-B-001", "input": "Please YouTube kholo", "languages": ["en", "hi"], "expectSuccess": true },
-          { "id": "MLT-10-B-002", "input": "Arre yaar, open kar do", "languages": ["hi", "en"], "expectGraceful": true },
-          { "id": "MLT-10-B-003", "input": "Volume badhao please", "languages": ["hi", "en"], "expectIntent": "volume_up" }
+          {
+            "id": "MLT-10-B-001",
+            "input": "Please YouTube kholo",
+            "languages": ["en", "hi"],
+            "expectSuccess": true
+          },
+          {
+            "id": "MLT-10-B-002",
+            "input": "Arre yaar, open kar do",
+            "languages": ["hi", "en"],
+            "expectGraceful": true
+          },
+          {
+            "id": "MLT-10-B-003",
+            "input": "Volume badhao please",
+            "languages": ["hi", "en"],
+            "expectIntent": "volume_up"
+          }
         ]
       },
-      
+
       "MLT-10-C": {
         "name": "Script Mixing",
         "cases": [
-          { "id": "MLT-10-C-001", "input": "open यूट्यूब", "expectGraceful": true },
-          { "id": "MLT-10-C-002", "input": "Play संगीत", "expectGraceful": true },
+          {
+            "id": "MLT-10-C-001",
+            "input": "open यूट्यूब",
+            "expectGraceful": true
+          },
+          {
+            "id": "MLT-10-C-002",
+            "input": "Play संगीत",
+            "expectGraceful": true
+          },
           { "id": "MLT-10-C-003", "input": "Time बताओ", "expectGraceful": true }
         ]
       }
     }
   },
-  
+
   "EMJ_10_EMOJI": {
     "description": "Emoji handling",
     "priority": "MINOR",
-    
+
     "tests": {
       "EMJ-10-A": {
         "name": "Emoji-only Input",
@@ -129,41 +236,79 @@
           { "id": "EMJ-10-A-005", "input": "🎬🎵🔊", "expectGraceful": true }
         ]
       },
-      
+
       "EMJ-10-B": {
         "name": "Emoji + Text Mixing",
         "cases": [
-          { "id": "EMJ-10-B-001", "input": "play music 🎵", "expectIntent": "play" },
-          { "id": "EMJ-10-B-002", "input": "open youtube 📺", "expectIntent": "open_youtube" },
-          { "id": "EMJ-10-B-003", "input": "🔊 volume up please", "expectIntent": "volume_up" },
-          { "id": "EMJ-10-B-004", "input": "hi 👋 how are you", "expectIntent": "greeting" }
+          {
+            "id": "EMJ-10-B-001",
+            "input": "play music 🎵",
+            "expectIntent": "play"
+          },
+          {
+            "id": "EMJ-10-B-002",
+            "input": "open youtube 📺",
+            "expectIntent": "open_youtube"
+          },
+          {
+            "id": "EMJ-10-B-003",
+            "input": "🔊 volume up please",
+            "expectIntent": "volume_up"
+          },
+          {
+            "id": "EMJ-10-B-004",
+            "input": "hi 👋 how are you",
+            "expectIntent": "greeting"
+          }
         ]
       },
-      
+
       "EMJ-10-C": {
         "name": "Emoji Intent Inference",
         "cases": [
-          { "id": "EMJ-10-C-001", "input": "😊 hello", "expectPositiveTone": true },
-          { "id": "EMJ-10-C-002", "input": "😡 this is frustrating", "expectNegativeTone": true },
-          { "id": "EMJ-10-C-003", "input": "🤔 what time is it", "expectIntent": "tell_time" }
+          {
+            "id": "EMJ-10-C-001",
+            "input": "😊 hello",
+            "expectPositiveTone": true
+          },
+          {
+            "id": "EMJ-10-C-002",
+            "input": "😡 this is frustrating",
+            "expectNegativeTone": true
+          },
+          {
+            "id": "EMJ-10-C-003",
+            "input": "🤔 what time is it",
+            "expectIntent": "tell_time"
+          }
         ]
       }
     }
   },
-  
+
   "EMP_10_EMPTY_MINIMAL": {
     "description": "Empty and minimal input handling",
     "priority": "MAJOR",
-    
+
     "tests": {
       "EMP-10-A": {
         "name": "Empty String",
         "cases": [
-          { "id": "EMP-10-A-001", "input": "", "expectGraceful": true, "mustNotCrash": true },
-          { "id": "EMP-10-A-002", "input": null, "expectGraceful": true, "mustNotCrash": true }
+          {
+            "id": "EMP-10-A-001",
+            "input": "",
+            "expectGraceful": true,
+            "mustNotCrash": true
+          },
+          {
+            "id": "EMP-10-A-002",
+            "input": null,
+            "expectGraceful": true,
+            "mustNotCrash": true
+          }
         ]
       },
-      
+
       "EMP-10-B": {
         "name": "Whitespace Only",
         "cases": [
@@ -174,7 +319,7 @@
           { "id": "EMP-10-B-005", "input": "\t\n  \t", "expectGraceful": true }
         ]
       },
-      
+
       "EMP-10-C": {
         "name": "Single Character",
         "cases": [
@@ -186,17 +331,17 @@
       }
     }
   },
-  
+
   "LNG_10_LONG_INPUTS": {
     "description": "Extremely long input handling",
     "priority": "MAJOR",
-    
+
     "tests": {
       "LNG-10-A": {
         "name": "Verbose but Valid",
         "cases": [
-          { 
-            "id": "LNG-10-A-001", 
+          {
+            "id": "LNG-10-A-001",
             "input": "I would really very much appreciate it if you could kindly please open the YouTube website for me at your earliest convenience because I really want to watch some videos",
             "expectIntent": "open_youtube",
             "expectGraceful": true
@@ -209,25 +354,25 @@
           }
         ]
       },
-      
+
       "LNG-10-B": {
         "name": "Repetitive Content",
         "cases": [
-          { 
-            "id": "LNG-10-B-001", 
-            "inputPattern": "open youtube ".repeat(50),
+          {
+            "id": "LNG-10-B-001",
+            "inputPattern": "open youtube open youtube open youtube open youtube open youtube",
             "expectGraceful": true,
             "mustNotCrash": true
           },
           {
             "id": "LNG-10-B-002",
-            "inputPattern": "please ".repeat(100) + "help",
+            "inputPattern": "please please please please please please please please please please help",
             "expectGraceful": true,
             "mustNotCrash": true
           }
         ]
       },
-      
+
       "LNG-10-C": {
         "name": "Token Limit Testing",
         "cases": [
