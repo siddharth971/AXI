@@ -198,5 +198,57 @@
     "predictedIntent": "system.battery_status",
     "confidence": 0.09147730469703674,
     "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T07:18:08.251Z",
+    "type": "low_confidence",
+    "text": "wow that's noce",
+    "predictedIntent": "system.battery_status",
+    "confidence": 0.0824107751250267,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T07:24:30.889Z",
+    "type": "unknown",
+    "text": "fsdfsdfsdfsd",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T07:25:22.296Z",
+    "type": "unknown",
+    "text": "fsdfsdfsdfsd",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T07:29:58.191Z",
+    "type": "low_confidence",
+    "text": "current directory",
+    "predictedIntent": "take_screenshot",
+    "confidence": 0.30883732438087463,
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T08:21:59.327Z",
+    "type": "unknown",
+    "text": "nice to meet you",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
+  },
+  {
+    "timestamp": "2026-01-22T08:22:28.316Z",
+    "type": "unknown",
+    "text": "what",
+    "context": {
+      "source": "classifier"
+    },
+    "status": "pending_review"
   }
 ]

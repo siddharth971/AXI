@@ -129,6 +129,12 @@ function mlLayer(text) {
     }
   });
 
+  // Hard floor for classifier noise
+  // If the best confidence is below 0.2, it's effectively random noise
+  if (bestScore < 0.2) {
+    return { intent: "none", confidence: bestScore, entities: {} };
+  }
+
   return { intent: bestIntent, confidence: bestScore, entities: {} };
 }
 

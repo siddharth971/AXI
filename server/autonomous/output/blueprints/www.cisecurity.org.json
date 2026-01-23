@@ -1,0 +1,447 @@
+{
+  "website_blueprint_id": "BLUEPRINT-65759763",
+  "generated_at": "2026-01-22T08:23:52.617Z",
+  "global_configuration": {
+    "brand_name": "CIS Center for Internet Security",
+    "domain": "www.cisecurity.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.18.29.89",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, stale-while-revalidate=60, stale-if-error=3600, max-age=300",
+      "Content-Security-Policy": "child-src blob:;form-action 'self' https://*.cisecurity.org;connect-src 'self' https://content.sitecore.prod.cisecurity.org https://*.litix.io https://*.wistia.com https://embedwistia-a.akamaihd.net https://api.glitch.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://pagead2.googlesyndication.com https://*.cookiebot.com https://www.google.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://px.ads.linkedin.com https://*.clarity.ms https://c.bing.com https://bat.bing.com https://*.amazon-adsystem.com https://*.wistia.net https://ara.paa-reporting-advertising.amazon https://logx.optimizely.com https://*.optimizely.com https://insight.adsrvr.org https://www.redditstatic.com https://pixel-config.reddit.com https://cisecurity.matomo.cloud https://connect.facebook.net https://www.facebook.com https://www.googleadservices.com;default-src 'self' https://*.wistia.com https://*.wistia.net;font-src 'self' data: https://*.wistia.com https://fonts.gstatic.com https://use.typekit.net https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://*.wistia.net;frame-src 'self' https://*.cookiebot.com https://www.youtube.com https://fast.wistia.com https://fast.wistia.net https://e.issuu.com https://resources.cisecurity.org https://optimize.google.com https://insight.adsrvr.org https://bid.g.doubleclick.net https://www.googletagmanager.com https://td.doubleclick.net https://*.hotjar.com https://match.adsrvr.org https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://*.amazon-adsystem.com https://a28546730169.cdn.optimizely.com https://a28546730169.cdn-pci.optimizely.com;img-src 'self' https://content.sitecore.prod.cisecurity.org https://i.ytimg.com data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net https://glitch.com https://cdn.glitch.com https://avatars0.githubusercontent.com https://*.google-analytics.com https://*.analytics.google.com https://googletagmanager.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://google.com https://pagead2.googlesyndication.com https://optimize.google.com https://www.diversityjobs.com https://*.welcomesoftware.com https://*.newscred.com https://s.amazon-adsystem.com https://analytics.twitter.com https://t.co https://px.ads.linkedin.com https://www.linkedin.com https://ps.eyeota.net https://*.hotjar.com https://ssl.gstatic.com https://www.gstatic.com https://p.adsymptotic.com https://ml314.com https://match.adsrvr.org https://insight.adsrvr.org https://dpm.demdex.net https://idsync.rlcdn.com https://sync.crwdcntrl.net https://tags.bluekai.com https://pixel.mathtag.com https://sync.mathtag.com https://ib.adnxs.com https://pixel.tapad.com https://d.turn.com https://api.retargetly.com https://i.liadm.com https://sync-tm.everesttech.net https://p.rfihub.com https://trc.taboola.com https://loadus.exelator.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://imgsct.cookiebot.com https://bat.bing.com https://cms.analytics.yahoo.com https://ups.analytics.yahoo.com https://*.clarity.ms https://c.bing.com https://cdn.optimizely.com https://us-u.openx.net https://alb.reddit.com https://www.facebook.com https://www.googleadservices.com;media-src 'self' blob: data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net;script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net https://code.jquery.com https://*.cookiebot.com https://googletagmanager.com https://tagmanager.google.com https://*.googletagmanager.com https://www.googleanalytics.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googleoptimize.com https://optimize.google.com https://www.googleadservices.com https://www.google.com https://pi.pardot.com https://*.hotjar.com https://tags.tiqcdn.com https://analytics.newscred.com https://js.adsrvr.org https://static.ads-twitter.com https://snap.licdn.com https://ml314.com https://googleads.g.doubleclick.net https://learn.cisecurity.org https://www.youtube.com https://www.gstatic.com https://*.wistia.com https://*.wistia.net https://src.litix.io https://button.glitch.me https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://bat.bing.com https://www.clarity.ms https://*.amazon-adsystem.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com https://static.cloudflareinsights.com https://www.redditstatic.com https://cdn.matomo.cloud https://connect.facebook.net;style-src 'self' 'unsafe-inline' blob: https://fast.wistia.com https://button.glitch.me https://optimize.google.com https://fonts.googleapis.com https://googletagmanager.com https://tagmanager.google.com https://p.typekit.net https://use.typekit.net https://www.youtube.com https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org;worker-src 'self' blob:;script-src-attr 'unsafe-inline';base-uri 'self';frame-ancestors 'self';object-src 'none';upgrade-insecure-requests",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 25,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/uc.js",
+        "type": "script",
+        "full_url": "https://consent.cookiebot.com/uc.js"
+      },
+      {
+        "path": "/js/28546730169.js",
+        "type": "script",
+        "full_url": "https://cdn.optimizely.com/js/28546730169.js"
+      },
+      {
+        "path": "/dist/cisecurity/js/js-cookie/2.2.1/js.cookie.min.js",
+        "type": "script",
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/js-cookie/2.2.1/js.cookie.min.js"
+      },
+      {
+        "path": "/jquery-3.6.0.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/jquery-3.6.0.min.js"
+      },
+      {
+        "path": "/jquery-migrate-3.4.0.min.js",
+        "type": "script",
+        "full_url": "https://code.jquery.com/jquery-migrate-3.4.0.min.js"
+      },
+      {
+        "path": "/dist/cisecurity/js/chunk-vendors.8c4a00c7.js",
+        "type": "script",
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/chunk-vendors.8c4a00c7.js"
+      },
+      {
+        "path": "/dist/cisecurity/js/app.41074900.js",
+        "type": "script",
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app.41074900.js"
+      },
+      {
+        "path": "/dist/cisecurity/js/chunk-vendors-legacy.b0b01c1a.js",
+        "type": "script",
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/chunk-vendors-legacy.b0b01c1a.js"
+      },
+      {
+        "path": "/dist/cisecurity/js/app-legacy.2bbe6076.js",
+        "type": "script",
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app-legacy.2bbe6076.js"
+      },
+      {
+        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      },
+      {
+        "path": "/nap2dtl.css",
+        "type": "stylesheet",
+        "full_url": "https://use.typekit.net/nap2dtl.css"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2025/cis--25th-anniversary-logo--web.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2025/cis--25th-anniversary-logo--web.svg?h=86&amp;iar=0&amp;w=300&amp;rev=ec127358b1ac42d884392dbf74a65765&amp;hash=2343C2EE3A911502D0428AD7666AC5FF"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-organization.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-organization.svg?h=40&amp;iar=0&amp;w=31&amp;rev=3ac90ee26d3e44cb9933bfb4fe833319&amp;hash=4FF5620EF56228514B6F48181861DA2E"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-platform.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-platform.svg?h=35&amp;iar=0&amp;w=40&amp;rev=02136d0686ec492789175c18a4b66c5a&amp;hash=23239652936B5B2FDAF8108302236485"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/icon-situation.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/icon-situation.svg?h=39&amp;iar=0&amp;w=40&amp;rev=31c65e64a468409fa01c91555a6f1722&amp;hash=014F2674A177C35CE2D944C2FADDB211"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-securesuite.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-securesuite.svg?h=41&amp;iar=0&amp;w=41&amp;rev=c067c575dc7e48fa83e5a052d7029702&amp;hash=C62F23121701C04A864BD48323868003"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-government.svg",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-government.svg?h=41&amp;iar=0&amp;w=41&amp;rev=16678d2dab0b478e97bd953706f9e35e&amp;hash=CA5BE4A406ED720D654A7D979527A17F"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2026/cis--alan-paller-laureate--feature--900x570-(5).png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2026/cis--alan-paller-laureate--feature--900x570-(5).png?h=2627&amp;iar=0&amp;w=3751&amp;rev=7dff32fc67384e68ac5294554cbd469e&amp;hash=BF01D9093631E3E813938930989E1E37"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/ms-isac-home.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/ms-isac-home.png?h=30&amp;iar=0&amp;w=134&amp;rev=f39a91495de04e3ab97c38eb7fd6a8df&amp;hash=FFBF2A153F8F7D8867914526C73B48D5"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_hardened-images.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_hardened-images.png?h=72&amp;iar=0&amp;w=408&amp;rev=1d38753fb2fe4d3aa2d7925df9be17ad&amp;hash=AEA53A1F47C260AE44FF316D45BBCB4A"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_controls.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_controls.png?h=72&amp;iar=0&amp;w=408&amp;rev=6b2cd8b862f24de98b2b30d848e09c6c&amp;hash=60B329ACE995BEC0BA3ACC68573F5594"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_benchmarks.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_benchmarks.png?h=72&amp;iar=0&amp;w=408&amp;rev=123bb677034a44a99b4a07a47c6677a3&amp;hash=0388FBEC344E3C1C6D1D76B81F03D86E"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_securesuite.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_securesuite.png?h=72&amp;iar=0&amp;w=408&amp;rev=37f6abb9bd32477291e54da8420df0a5&amp;hash=8BA1210D0BFBC84667980155249C2DF8"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2022/homepage-controls-community.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2022/homepage-controls-community.png?h=118&amp;iar=0&amp;w=400&amp;rev=fac50a0f5b6544cb8ff157ffdc089678&amp;hash=DC12AFCE3FA1501CC95B595374B5CA4D"
+      },
+      {
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2022/homepage-benchmarks-community.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2022/homepage-benchmarks-community.png?h=114&amp;iar=0&amp;w=400&amp;rev=498de6d6d6724375b4671230afa70722&amp;hash=C2EBFC266F9DD00C08CDC1ADAD5B6E6A"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "CIS Center for Internet Security",
+        "description": "CIS is a forward-thinking nonprofit that harnesses the power of a global IT community to safeguard public and private organizations against cyber threats.",
+        "canonical": "https://www.cisecurity.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "305ms"
+        },
+        {
+          "resource": "uc.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "28546730169.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js.cookie.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Creating Confidence in the Connected World™",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "At CIS®, we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us.",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Join Our Trusted Community of Cyber Defenders, Built by SLTTs, for SLTTs",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "World-Renowned Best Practices and Expert Communities",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "h1",
+            "text": "Creating Confidence in the Connected World™"
+          },
+          {
+            "tag": "h2",
+            "text": "At CIS®, we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us."
+          },
+          {
+            "tag": "h3",
+            "text": "Grant Honoring Alan Paller"
+          },
+          {
+            "tag": "p",
+            "text": "The fourth annual Alan Paller Laureate Program seeks to find and support those focused on improving cybersecurity with a focus on AI, large scale of use, or the \"cyber underserved.\""
+          },
+          {
+            "tag": "h4",
+            "text": "Industry solutions for cyber and cyber-enabled threats."
+          },
+          {
+            "tag": "h2",
+            "text": "Join Our Trusted Community of Cyber Defenders, Built by SLTTs, for SLTTs"
+          },
+          {
+            "tag": "p",
+            "text": "Security isn't a solo fight. The MS-ISAC connects SLTTs to a nationwide community defense network that keeps everyone safer."
+          },
+          {
+            "tag": "h2",
+            "text": "World-Renowned Best Practices and Expert Communities"
+          },
+          {
+            "tag": "h2",
+            "text": "What The Experts Are Saying"
+          },
+          {
+            "tag": "h2",
+            "text": "Together, We Can Make a Difference"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Commitment&nbsp;"
+          },
+          {
+            "tag": "p",
+            "text": "CIS operates as a mission driven, nonprofit organization dedicated to making the connected world a safer place. Our employees adhere to our Code of Ethics , Leadership Principles , and Code of Conduct , consistent with our collaborative, nonpartisan, vendor-agnostic operating model. These values guide our decisions and actions and build trust in our capabilities, enabling us to achieve our mission."
+          },
+          {
+            "tag": "h2",
+            "text": "Information Hub"
+          },
+          {
+            "tag": "h3",
+            "text": "What&#39;s New"
+          },
+          {
+            "tag": "p",
+            "text": "Copyright © 2026 Center for Internet Security®"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 4,
+          "headings": 11,
+          "images": 14
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-EC7C6A8B",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4508AC3F",
+      "path": "/cis-hardened-image-list",
+      "type": "Detected Link",
+      "anchor_text": "CIS Hardened Images®",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0B487CA0",
+      "path": "/support",
+      "type": "Detected Link",
+      "anchor_text": "Support",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-98DED90D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Company",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F679CB83",
+      "path": "/about-us",
+      "type": "Detected Link",
+      "anchor_text": "About Us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-942F37E5",
+      "path": "/about-us/cis-leadership-principles",
+      "type": "Detected Link",
+      "anchor_text": "Leadership Principles",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5099E3A7",
+      "path": "/about-us/leadership",
+      "type": "Detected Link",
+      "anchor_text": "Leadership Team",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FF084BC6",
+      "path": "/testimonials",
+      "type": "Detected Link",
+      "anchor_text": "Testimonials",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D75E8742",
+      "path": "/about-us/media",
+      "type": "Detected Link",
+      "anchor_text": "Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-98CEDA5E",
+      "path": "/event-calendar",
+      "type": "Detected Link",
+      "anchor_text": "Events",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A6EB9752",
+      "path": "/controls",
+      "type": "Detected Link",
+      "anchor_text": "CIS Critical Security Controls®",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DBBC1ABA",
+      "path": "/communities/controls",
+      "type": "Detected Link",
+      "anchor_text": "CIS Controls Community",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ED2D45CC",
+      "path": "/threatwa",
+      "type": "Detected Link",
+      "anchor_text": "ThreatWA™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-68BC448F",
+      "path": "/cis-securesuite/benefits/cis-securesuite-platform",
+      "type": "Detected Link",
+      "anchor_text": "CIS SecureSuite® Platform",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B4476F51",
+      "path": "/cis-benchmarks",
+      "type": "Detected Link",
+      "anchor_text": "CIS Benchmarks™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {
+    "giveconsent": {
+      "method": "UNKNOWN",
+      "url": "/api/cookieconsent/giveconsent"
+    }
+  }
+}

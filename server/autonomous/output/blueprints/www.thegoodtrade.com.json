@@ -1,0 +1,935 @@
+{
+  "website_blueprint_id": "BLUEPRINT-B64B336C",
+  "generated_at": "2026-01-22T08:23:53.112Z",
+  "global_configuration": {
+    "brand_name": "The Good Trade",
+    "domain": "www.thegoodtrade.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "141.193.213.21",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=600, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 143,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/cache/min/1/widget/MF1f9872be78f7/embed.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/cache/min/1/widget/MF1f9872be78f7/embed.js?ver=1768325778"
+      },
+      {
+        "path": "/e05a1197cd/index.js",
+        "type": "script",
+        "full_url": "https://thegoodtrade.kit.com/e05a1197cd/index.js"
+      },
+      {
+        "path": "/b926545f02/index.js",
+        "type": "script",
+        "full_url": "https://thegoodtrade.kit.com/b926545f02/index.js"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/broadcasts.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/broadcasts.js?ver=1768325778"
+      },
+      {
+        "path": "/wp-content/themes/goodtrade-theme/assets/js/vendor/swiperjs-8.4.5.min.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/themes/goodtrade-theme/assets/js/vendor/swiperjs-8.4.5.min.js?ver=1675287266"
+      },
+      {
+        "path": "/wp-content/themes/goodtrade-theme/assets/js/vendor/aos.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/themes/goodtrade-theme/assets/js/vendor/aos.js?ver=3.0.0"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/themes/goodtrade-theme/dist/js/nojq-bundle.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/cache/min/1/wp-content/themes/goodtrade-theme/dist/js/nojq-bundle.js?ver=1768325778"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.min.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/plugins/elasticpress/dist/js/autosuggest-script.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/cache/min/1/wp-content/plugins/elasticpress/dist/js/autosuggest-script.js?ver=1768325778"
+      },
+      {
+        "path": "/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js?ver=1768325778"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?render=6LepQSkkAAAAAAI75ryLAOK1mbLb92v4o6NzkO6E&amp;ver=2.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://www.thegoodtrade.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/themes/goodtrade-theme/assets/images/logo.png",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/themes/goodtrade-theme/assets/images/logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/search.svg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/01/search.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/made-in-review-dinner-party-3-576x857.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/made-in-review-dinner-party-3-576x857.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/01_AndrewParsons-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/01_AndrewParsons-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/IMG_9229-576x768.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/IMG_9229-576x768.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/christian-agbede-HgabFc554W8-unsplash-882x1103.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/christian-agbede-HgabFc554W8-unsplash-882x1103.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/8M1A5327-Enhanced-NR-882x1323.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/8M1A5327-Enhanced-NR-882x1323.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/99-sober-activities-header-882x1323.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/99-sober-activities-header-882x1323.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/morning-routine-3-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/morning-routine-3-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/8M1A4645-Enhanced-NR-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/01/8M1A4645-Enhanced-NR-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/8M1A8774-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/04/8M1A8774-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/how-to-make-a-scrapbook-header-423x752.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/how-to-make-a-scrapbook-header-423x752.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/05/kit-formerly-convertkit-4pVzINSi7Y8-unsplash-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/05/kit-formerly-convertkit-4pVzINSi7Y8-unsplash-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/positive-affirmations-header-423x655.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/02/positive-affirmations-header-423x655.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A3422-Enhanced-NR-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A3422-Enhanced-NR-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/best-sex-books-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/09/best-sex-books-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/09/natural-remedies-books-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2020/09/natural-remedies-books-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A4006-Enhanced-NR-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A4006-Enhanced-NR-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A6140-Enhanced-NR-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A6140-Enhanced-NR-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A2896-Enhanced-NR-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A2896-Enhanced-NR-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/8M1A6168-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/8M1A6168-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/8M1A4502-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/8M1A4502-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/8M1A2651-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/8M1A2651-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/8M1A4368-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/8M1A4368-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A5600-Enhanced-NR-1-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A5600-Enhanced-NR-1-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A3572-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A3572-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/8M1A5422-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/8M1A5422-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/importance-of-handcrafting-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/importance-of-handcrafting-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A3302-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A3302-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A4229-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A4229-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A4692-Enhanced-NR-1-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A4692-Enhanced-NR-1-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/8M1A3578-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/08/8M1A3578-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Best-Organic-Natural-Mattresses-Header-423x555.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/01/Best-Organic-Natural-Mattresses-Header-423x555.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/beach-lounge-chairs-423x565.png",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2021/06/beach-lounge-chairs-423x565.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/avocado-10-1152x1536-1-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/avocado-10-1152x1536-1-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/Screenshot-2025-10-06-at-11.43.01-AM-423x423.png",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/Screenshot-2025-10-06-at-11.43.01-AM-423x423.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/softest-pillows-parachute-2-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/09/softest-pillows-parachute-2-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/softest-jute-rugs-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/06/softest-jute-rugs-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Happsy-mattress-topper-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/01/Happsy-mattress-topper-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/best-organic-mattress-protector-my-green-mattress4-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/best-organic-mattress-protector-my-green-mattress4-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/Screenshot-2025-03-25-at-6.26.38-PM-423x584.png",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/Screenshot-2025-03-25-at-6.26.38-PM-423x584.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Electrolux-Laundry-Tower-White-F1-423x282.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/Electrolux-Laundry-Tower-White-F1-423x282.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/IMG_4484-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/08/IMG_4484-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/chasing-paper-423x463.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/12/chasing-paper-423x463.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/aging-by-decade-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/aging-by-decade-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/8M1A5432-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/8M1A5432-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/DSC01414-576x862.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/DSC01414-576x862.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/sunday-rest-reset-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/07/sunday-rest-reset-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/tiny-homes-the-good-trade-576x865.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/11/tiny-homes-the-good-trade-576x865.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/fall-aesthetic-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/10/fall-aesthetic-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/yuliia-tretynychenko-IBsGjO_gDDk-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/yuliia-tretynychenko-IBsGjO_gDDk-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A5583-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A5583-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/8M1A6193-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/8M1A6193-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/paulo-freitas-ZoIR9g8-u6c-unsplash-576x720.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/paulo-freitas-ZoIR9g8-u6c-unsplash-576x720.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/8M1A2696-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/08/8M1A2696-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/99-alternatives-to-scrolling-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/08/99-alternatives-to-scrolling-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/cultivate-friendships-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2026/01/cultivate-friendships-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/8AA02472-7D9B-4ECC-809B-985ACDC5F69A_lighter_1340x2008_crop_center-576x863.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/05/8AA02472-7D9B-4ECC-809B-985ACDC5F69A_lighter_1340x2008_crop_center-576x863.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/ethical-engagement-rings-header-576x864.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/ethical-engagement-rings-header-576x864.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/8M1A1448-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/08/8M1A1448-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/LELO-header-1.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/09/LELO-header-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/personal-lubricants-maude-header-576x576.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/05/personal-lubricants-maude-header-576x576.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/hello-klean-filtered-shower-head-576x720.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/09/hello-klean-filtered-shower-head-576x720.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/affordable-couples-therapy-services-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/affordable-couples-therapy-services-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/8M1A7156-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/8M1A7156-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/best-self-tanner-true-botanicals-1-576x768.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/06/best-self-tanner-true-botanicals-1-576x768.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Art-Club3-576x807.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/Art-Club3-576x807.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/zoe-Wvbcr7KeZDE-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/11/zoe-Wvbcr7KeZDE-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/eco-conscious-brands-header.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/eco-conscious-brands-header.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/07/female-poets28129-576x865.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/07/female-poets28129-576x865.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/tgt-black-authors-empowerment-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/02/tgt-black-authors-empowerment-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/best-womens-websites-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/01/best-womens-websites-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/05/political-fact-check-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/05/political-fact-check-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/01/the-good-trade-women-philosophers.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2021/01/the-good-trade-women-philosophers.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/99-ways-to-be-more-sustainable-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2021/06/99-ways-to-be-more-sustainable-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/tim-van-der-kuip-5uRYYa18ViA-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/tim-van-der-kuip-5uRYYa18ViA-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/Chef-Adrienne-Cheatham-576x576.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/04/Chef-Adrienne-Cheatham-576x576.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/8M1A7103-Enhanced-NR-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/8M1A7103-Enhanced-NR-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/sustainable-black-owned-businesses-header-576x864.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/sustainable-black-owned-businesses-header-576x864.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/isaac-mehegan-sVRSQNPJMq4-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/12/isaac-mehegan-sVRSQNPJMq4-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/vision-board-ideas-for-adults-header-576x720.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/vision-board-ideas-for-adults-header-576x720.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/sustainable-desks-576x576.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/sustainable-desks-576x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/sustainable-womens-blazers-reformation-header-576x768.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/02/sustainable-womens-blazers-reformation-header-576x768.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/09/sustainable-workdresses-576x865.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/09/sustainable-workdresses-576x865.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/best-bluelight-glasses-576x823.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/10/best-bluelight-glasses-576x823.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/04/fair-trade-clothing-1.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/04/fair-trade-clothing-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/online-education-courses-header-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/12/online-education-courses-header-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/19-money-affirmations-prince-akachi-l3IHXOdMyHQ-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/12/19-money-affirmations-prince-akachi-l3IHXOdMyHQ-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/DSCF6298-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/DSCF6298-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/Trust-The-Universe-Header-1-576x729.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/Trust-The-Universe-Header-1-576x729.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/gina-spinelli-cc-Wj-yl5Z4-unsplash-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/gina-spinelli-cc-Wj-yl5Z4-unsplash-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/problem-solving-skills-576x864.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/12/problem-solving-skills-576x864.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/amazon-alternatives.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/10/amazon-alternatives.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/best-water-bottles28129.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/10/best-water-bottles28129.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/vivint-solar-9CalgkSRZb8-unsplash-882x1323.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/09/vivint-solar-9CalgkSRZb8-unsplash-882x1323.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/8M1A4357-Enhanced-NR-882x1323.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/07/8M1A4357-Enhanced-NR-882x1323.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/IMG_9061-2-882x1176.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/IMG_9061-2-882x1176.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/04/thrift-shopping-for-furniture.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/04/thrift-shopping-for-furniture.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/06/chasing-paper-review8-882x1176.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/06/chasing-paper-review8-882x1176.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/05/vego-gardens-882x882.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/05/vego-gardens-882x882.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/04/sustainability-certifications-header.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2022/04/sustainability-certifications-header.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2020/09/textile-recycling-process.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2020/09/textile-recycling-process.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/tamara-harhai-_tGk7csRFuk-unsplash-882x1322.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/tamara-harhai-_tGk7csRFuk-unsplash-882x1322.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/04/howtosellsecondhandclothingonline-882x1323.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2021/04/howtosellsecondhandclothingonline-882x1323.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/hyer-goods-review1-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/10/hyer-goods-review1-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/puffer-jackets-coats-girlfriend-header-423x565.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/01/puffer-jackets-coats-girlfriend-header-423x565.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/04/best-sustainable-mary-janes-small-lot-header-423x423.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/04/best-sustainable-mary-janes-small-lot-header-423x423.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/birthstone-jewelry-423x423.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/birthstone-jewelry-423x423.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2021/04/where-to-sell-used-clothing-online-423x635.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2021/04/where-to-sell-used-clothing-online-423x635.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/fall-capsule-wardrobe-2025-423x634.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/01/fall-capsule-wardrobe-2025-423x634.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/best-house-dresses-423x513.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/07/best-house-dresses-423x513.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/vintage-jewelry-header-423x605.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/11/vintage-jewelry-header-423x605.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/06/petite-clothing-423x635.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/06/petite-clothing-423x635.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/03/1313276.2-423x564.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/03/1313276.2-423x564.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/Aurate-Solitaire-Header-423x423.webp",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/12/Aurate-Solitaire-Header-423x423.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/nadaam-423x564.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/03/nadaam-423x564.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/osea-review-2-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/02/osea-review-2-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/11/Beauty-Credo-Header-576x673.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2023/11/Beauty-Credo-Header-576x673.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/11/Avocado-bedding-review-header-576x768.jpeg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/11/Avocado-bedding-review-header-576x768.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Down-Pillow-09-576x443.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/09/Down-Pillow-09-576x443.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/bobbie-formula-header-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/bobbie-formula-header-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/organic-robes-header-576x712.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/10/organic-robes-header-576x712.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/plushbeds-header-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2024/08/plushbeds-header-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/BUCK-MASON-SWEATER-2-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/BUCK-MASON-SWEATER-2-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/avocado-wool-mattress-header-grace-abbott-scaled-e1756398734415-576x972.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/08/avocado-wool-mattress-header-grace-abbott-scaled-e1756398734415-576x972.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/IMG_9546-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/03/IMG_9546-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/Autobrush-review-header-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/04/Autobrush-review-header-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/nuna-review-5-576x768.jpg",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/2025/11/nuna-review-5-576x768.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/placid-social-images/cecc8e514ec57cdb99f9b590c694d614.png",
+        "type": "image",
+        "full_url": "https://www.thegoodtrade.com/wp-content/uploads/placid-social-images/cecc8e514ec57cdb99f9b590c694d614.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Good Trade",
+        "description": "The Good Trade is the premier digital destination for sustainable fashion and lifestyle content and a trusted resource for vetted shopping recommendations.",
+        "canonical": "https://www.thegoodtrade.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "765ms"
+        },
+        {
+          "resource": "embed.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "index.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "index.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Heartfelt editorials, honest product reviews, and community-sourced resources for more mindful living.",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "A 30-second newsletter delivered to your inbox featuring an essay of the day and fresh product recs from our team.",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "About Advertise Careers Privacy Policy Terms © 2026 The Good Trade"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 107,
+          "headings": 270,
+          "images": 129
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-41ACB0E8",
+      "path": "/category/home/food/",
+      "type": "Detected Link",
+      "anchor_text": "Food",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-92FEFB39",
+      "path": "/category/self/",
+      "type": "Detected Link",
+      "anchor_text": "Self",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B0CBB21E",
+      "path": "/category/self/parenthood/",
+      "type": "Detected Link",
+      "anchor_text": "Parenthood",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-63B48D90",
+      "path": "/category/culture/activism/",
+      "type": "Detected Link",
+      "anchor_text": "Activism",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5BA8D06D",
+      "path": "/category/self/relationships/",
+      "type": "Detected Link",
+      "anchor_text": "Relationships",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0CABD56D",
+      "path": "/category/culture/",
+      "type": "Detected Link",
+      "anchor_text": "Culture",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-79D5C8B2",
+      "path": "/category/culture/media/",
+      "type": "Detected Link",
+      "anchor_text": "Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FC78C57F",
+      "path": "/category/home/decor/",
+      "type": "Detected Link",
+      "anchor_text": "Decor",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8F2B42C2",
+      "path": "/category/home/",
+      "type": "Detected Link",
+      "anchor_text": "Home",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AEF9635A",
+      "path": "/category/home/gifts/",
+      "type": "Detected Link",
+      "anchor_text": "Gifts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5AD94860",
+      "path": "/category/style/fashion/",
+      "type": "Detected Link",
+      "anchor_text": "Fashion",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D639FD8E",
+      "path": "/category/style/beauty/",
+      "type": "Detected Link",
+      "anchor_text": "Beauty",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}
