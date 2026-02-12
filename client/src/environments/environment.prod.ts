@@ -1,7 +1,7 @@
 export const environment = {
   // Production environment configuration
   production: true,
-  // Update this to your deployed backend URL (e.g. Fly.io, Back4App, etc.)
-  apiUrl: 'https://my-jarvis-backend.fly.dev/api',
-  socketUrl: 'https://my-jarvis-backend.fly.dev',
+  // Production backend URL
+  apiUrl: 'https://axi-660w.onrender.com/api',
+  socketUrl: 'https://axi-660w.onrender.com',
 };
