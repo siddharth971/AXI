@@ -1,6 +1,7 @@
 import { Injectable, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 export type AxiState = 'idle' | 'listening' | 'thinking' | 'speaking';
 
@@ -27,9 +28,9 @@ export interface TTSConfig {
 })
 export class VoiceService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:5000/api/command';
-  private historyApiUrl = 'http://localhost:5000/api/history';
-  private ttsApiUrl = 'http://localhost:5000/api/tts';  // Backend TTS endpoint
+  private apiUrl = `${environment.apiUrl}/command`;
+  private historyApiUrl = `${environment.apiUrl}/history`;
+  private ttsApiUrl = `${environment.apiUrl}/tts`;  // Backend TTS endpoint
 
   state = signal<AxiState>('idle');
   commands = signal<CommandHistoryItem[]>([]);

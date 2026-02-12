@@ -8,6 +8,7 @@ import { filter } from 'rxjs/operators';
 import { AxiOrbComponent } from './components/core/axi-orb.component';
 import { VoiceService } from './services/voice.service';
 import { SkillContextService } from './services/skill-context.service';
+import { environment } from '../environments/environment';
 import { LucideAngularModule, LUCIDE_ICONS, LucideIconProvider, Bot, User, PlayCircle, Plus, Trash2, MessageCircle, Send, Zap, Cloud, Sun, Youtube, Clock, Globe, CloudSun, RefreshCw } from 'lucide-angular';
 
 @Component({
@@ -1136,7 +1137,7 @@ export class App {
   async loadSessions() {
     try {
       const response = await firstValueFrom(
-        this.http.get<{ sessions: any[]; currentSessionId: string }>('http://localhost:5000/api/sessions')
+        this.http.get<{ sessions: any[]; currentSessionId: string }>(`${environment.apiUrl}/sessions`)
       );
       this.sessions.set(response.sessions);
       this.activeSessionId.set(response.currentSessionId);
@@ -1153,7 +1154,7 @@ export class App {
   async loadSessionMessages(sessionId: string) {
     try {
       const response = await firstValueFrom(
-        this.http.get<{ session: any }>(`http://localhost:5000/api/sessions/${sessionId}`)
+        this.http.get<{ session: any }>(`${environment.apiUrl}/sessions/${sessionId}`)
       );
 
       // Map session messages to commands format
@@ -1172,7 +1173,7 @@ export class App {
   async createNewSession() {
     try {
       const response = await firstValueFrom(
-        this.http.post<{ session: any }>('http://localhost:5000/api/sessions', {})
+        this.http.post<{ session: any }>(`${environment.apiUrl}/sessions`, {})
       );
 
       await this.loadSessions();
@@ -1186,7 +1187,7 @@ export class App {
   async selectSession(sessionId: string) {
     try {
       await firstValueFrom(
-        this.http.post(`http://localhost:5000/api/sessions/${sessionId}/activate`, {})
+        this.http.post(`${environment.apiUrl}/sessions/${sessionId}/activate`, {})
       );
 
       this.activeSessionId.set(sessionId);
@@ -1201,7 +1202,7 @@ export class App {
 
     try {
       await firstValueFrom(
-        this.http.delete(`http://localhost:5000/api/sessions/${sessionId}`)
+        this.http.delete(`${environment.apiUrl}/sessions/${sessionId}`)
       );
 
       await this.loadSessions();

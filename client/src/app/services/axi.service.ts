@@ -2,10 +2,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Injectable({ providedIn: 'root' }) // ✅ Auto-provided
 export class AxiService {
-  private apiUrl = 'http://localhost:5000/api/command';
+  private apiUrl = `${environment.apiUrl}/command`;
 
   constructor(private http: HttpClient) { }
 
@@ -79,22 +80,22 @@ export class AxiService {
   // -- Dashboard APIs --
 
   getMemory(): Observable<{ facts: any[] }> {
-    return this.http.get<{ facts: any[] }>(`http://localhost:5000/api/memory`);
+    return this.http.get<{ facts: any[] }>(`${environment.apiUrl}/memory`);
   }
 
   deleteMemory(key: string): Observable<any> {
-    return this.http.delete(`http://localhost:5000/api/memory/${key}`);
+    return this.http.delete(`${environment.apiUrl}/memory/${key}`);
   }
 
   getLearning(): Observable<{ corrections: any[] }> {
-    return this.http.get<{ corrections: any[] }>(`http://localhost:5000/api/learning`);
+    return this.http.get<{ corrections: any[] }>(`${environment.apiUrl}/learning`);
   }
 
   getNotifications(): Observable<{ messages: any[] }> {
-    return this.http.get<{ messages: any[] }>(`http://localhost:5000/api/notifications`);
+    return this.http.get<{ messages: any[] }>(`${environment.apiUrl}/notifications`);
   }
 
   getKnowledge(): Observable<{ blueprints: any[] }> {
-    return this.http.get<{ blueprints: any[] }>(`http://localhost:5000/api/knowledge`);
+    return this.http.get<{ blueprints: any[] }>(`${environment.apiUrl}/knowledge`);
   }
 }

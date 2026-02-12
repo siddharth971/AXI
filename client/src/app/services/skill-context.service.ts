@@ -1,6 +1,7 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { interval, switchMap, startWith, catchError, of } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 export interface SkillContextItem {
   id: string;
@@ -23,7 +24,7 @@ export interface SkillContext {
 })
 export class SkillContextService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:5000/api';
+  private apiUrl = environment.apiUrl;
 
   // Signals for reactive state
   contextItems = signal<SkillContextItem[]>([]);

@@ -1,5 +1,6 @@
 import { Injectable, signal } from '@angular/core';
 import { io, Socket } from 'socket.io-client';
+import { environment } from '../../environments/environment';
 
 export interface Notification {
   id: number;
@@ -13,7 +14,7 @@ export interface Notification {
 })
 export class SocketService {
   private socket: Socket;
-  private readonly SERVER_URL = 'http://localhost:5000';
+  private readonly SERVER_URL = environment.socketUrl;
 
   // Real-time signals
   isConnected = signal<boolean>(false);
