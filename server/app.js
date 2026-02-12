@@ -56,7 +56,13 @@ const server = http.createServer(app);
 // Initialize Socket.IO
 socketData.init(server);
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:4200",
+    "https://siddharth971.github.io"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 app.use("/screenshots", express.static(path.join(__dirname, "screenshots")));
 

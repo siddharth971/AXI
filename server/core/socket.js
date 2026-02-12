@@ -19,8 +19,12 @@ module.exports = {
 
     io = new Server(httpServer, {
       cors: {
-        origin: "*", // Allow all origins (dev mode)
-        methods: ["GET", "POST"]
+        origin: [
+          "http://localhost:4200",
+          "https://siddharth971.github.io"
+        ],
+        methods: ["GET", "POST"],
+        credentials: true
       }
     });
 
