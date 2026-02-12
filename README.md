@@ -94,3 +94,38 @@ The backend is containerized using Docker and deployed on Render.
 Contributions are welcome! Please open an issue or submit a pull request.
 
 **License**: MIT
+
+---
+
+## 🗣️ Voice Commands Guide
+
+Here are some example commands you can try with AXI:
+
+### 🌐 Browser Automation
+
+- "Open a new tab"
+- "Close this tab"
+- "Go back to previous page"
+- "Scroll down to the bottom"
+- "Refresh the page"
+- "Take a full page screenshot"
+
+### 🔍 Search & Media
+
+- "Search Google for 'latest tech news'"
+- "Open YouTube and play lofi music"
+- "Search Wikipedia for 'Quantum Computing'"
+- "Show me images of 'cyberpunk cities'"
+
+### 💻 System & Utility
+
+- "Copy the current URL"
+- "Switch to the next tab"
+- "Enable reader mode"
+- "What time is it?"
+
+### 💬 Conversation
+
+- "Hello, who are you?"
+- "Tell me a joke"
+- "Acknowledge"
