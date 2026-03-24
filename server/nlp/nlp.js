@@ -93,19 +93,37 @@ function textToFeatures(text) {
 // ===========================
 
 function rulesLayer(text, nlu) {
+  const tokens = nlu?.tokens || text.split(/\s+/);
+  const totalTokens = tokens.length;
+
+  let bestMatch = null;
+  let highestSpecificity = -1;
+
   // Run all loaded rules
   for (const rule of rules) {
     try {
       const result = rule.fn(text, nlu);
       if (result) {
-        return result;
+        // Pattern specificity = 1 - (wildcards / total_tokens)
+        // Since rules are functions, we approximate wildcards by looking at the match quality
+        // If it's a fixed string match in the rule code, specificity is 1.0. 
+        // If it uses regex with global catch-alls, it's lower.
+        
+        // For now, if a rule returns confidence: 1, we treat it as specific.
+        // We can tune this by inspecting rule logic if needed.
+        const specificity = result.confidence || 1.0; 
+
+        if (specificity > highestSpecificity) {
+          highestSpecificity = specificity;
+          bestMatch = { ...result, confidence: 1.0 * specificity };
+        }
       }
     } catch (err) {
-      // Skip failed rules silently
+      // Skip failed rules
     }
   }
 
-  return null;
+  return bestMatch;
 }
 
 // ===========================
@@ -250,15 +268,24 @@ module.exports = {
    * @param {string} text - User input
    * @returns {Promise<Object>} - Decision result with action recommendation
    */
+  /**
+   * Interpret with full decision engine - provides decision type
+   * (execute, confirm, clarify, unknown)
+   *
+   * @param {string} text - User input
+   * @returns {Promise<Object>} - Decision result with action recommendation
+   */
   async interpretWithDecision(text) {
     const nlu = nluPipeline.process(text);
 
-    // Gather signals from all layers
-    const rule = rulesLayer(text, nlu);
-    const semantic = await semanticLayer(text);
-    const classifier = mlLayer(text);
+    // Step 1: Execute all layers in parallel as per Step 3 of Master Prompt
+    const [rule, semantic, classifier] = await Promise.all([
+      rulesLayer(text, nlu),
+      semanticLayer(text),
+      mlLayer(text),
+    ]);
 
-    // Use decision engine to make final decision
+    // Step 2: Pass all signals to decision engine for weighted ensemble scoring
     const decision = decisionEngine.decide(
       { rules: rule, semantic, classifier },
       { lastIntent: null }, // Context can be passed here
@@ -269,8 +296,8 @@ module.exports = {
       nlu,
       signals: {
         rules: rule,
-        semantic,
-        classifier,
+        semantic: semantic,
+        classifier: classifier,
       },
     };
   },

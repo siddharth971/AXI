@@ -34,6 +34,7 @@ const knowledgeHandler = require("./skills/knowledge-handler");
 // NLP and Skills
 const nlp = require("./nlp/nlp");
 const skills = require("./skills");
+const { initTFIDF } = require("./nlp/decision-engine");
 const proactive = require("./core/proactive");
 const memory = require("./core/memory");
 const learning = require("./core/learning");
@@ -344,13 +345,20 @@ app.post("/api/admin/cycle", (req, res) => {
 // Server Start
 // ===========================
 
-server.listen(config.PORT, () => {
-  console.log("");
-  console.log("╔════════════════════════════════════════╗");
-  console.log("║         🧠 AXI Voice Assistant         ║");
-  console.log("╠════════════════════════════════════════╣");
-  console.log(`║  Server running on port ${config.PORT}            ║`);
-  console.log(`║  API: http://localhost:${config.PORT}/api        ║`);
-  console.log("╚════════════════════════════════════════╝");
-  console.log("");
-});
+  // Initialize TF-IDF and Skills before listening
+  await initTFIDF();
+  skills.initialize().then(() => {
+    server.listen(config.PORT, () => {
+      console.log("");
+      console.log("╔════════════════════════════════════════╗");
+      console.log("║         🧠 AXI Voice Assistant         ║");
+      console.log("╠════════════════════════════════════════╣");
+      console.log(`║  Server running on port ${config.PORT}            ║`);
+      console.log(`║  API: http://localhost:${config.PORT}/api        ║`);
+      console.log("╚════════════════════════════════════════╝");
+      console.log("");
+    });
+  }).catch(err => {
+    logger.error("Failed to start server due to skill initialization error", err.message);
+    process.exit(1);
+  });

@@ -14,11 +14,16 @@ const STOPWORDS = new Set([
   "have", "has", "had", "do", "does", "did", "will", "would", "could",
   "should", "may", "might", "must", "shall", "can", "need", "dare",
   "to", "of", "in", "for", "on", "with", "at", "by", "from", "as",
-  "into", "through", "during", "before", "after", "above", "below",
-  "between", "under", "again", "further", "then", "once", "here",
-  "there", "when", "where", "why", "how", "all", "each", "few",
+  "into", "through", "during", "all", "each", "few",
   "more", "most", "other", "some", "such", "only", "own", "same",
   "so", "than", "too", "very", "just", "also"
+]);
+
+// Negation words that must be preserved at inference time
+const NEGATIONS = new Set([
+  "not", "don't", "without", "except", "never", "no", "unless", "until", 
+  "before", "after", "instead", "but", "rather", "avoid", "stop", 
+  "cancel", "undo", "remove", "close", "quit", "exit"
 ]);
 
 // Simple lemmatization rules
@@ -52,8 +57,12 @@ function tokenize(text) {
 /**
  * Remove stopwords
  */
-function removeStopwords(tokens) {
-  return tokens.filter(token => !STOPWORDS.has(token));
+function removeStopwords(tokens, options = {}) {
+  const { preserveNegations = true } = options;
+  return tokens.filter(token => {
+    if (preserveNegations && NEGATIONS.has(token)) return true;
+    return !STOPWORDS.has(token);
+  });
 }
 
 /**
@@ -75,7 +84,8 @@ function preprocess(text, options = {}) {
   const {
     removeStops = true,
     lemma = true,
-    keepOriginal = true
+    keepOriginal = true,
+    preserveNegations = true
   } = options;
 
   const normalized = normalize(text);
@@ -84,7 +94,7 @@ function preprocess(text, options = {}) {
   const original = [...tokens];
 
   if (removeStops) {
-    tokens = removeStopwords(tokens);
+    tokens = removeStopwords(tokens, { preserveNegations });
   }
 
   if (lemma) {

@@ -15,7 +15,8 @@
     "axi:extract": "node autonomous/extract.js",
     "axi:cycle": "npm run axi:discover && npm run axi:explore && npm run axi:extract && npm run axi:learn",
     "axi:expand": "node scripts/convert-expansion-batches.mjs --stats && node scripts/merge-intents.mjs",
-    "train:expanded": "node nlp/train.js --intents=nlp/intents/combined_intents.json"
+    "train:expanded": "node nlp/train.js --intents=nlp/intents/combined_intents.json",
+    "train:tfidf": "node nlp/train-tfidf.js"
   },
   "keywords": [],
   "author": "",

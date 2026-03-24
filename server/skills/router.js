@@ -42,10 +42,7 @@ async function execute(
 ) {
   const { intent, confidence, entities, params } = nlpResult || {};
 
-  // Ensure registry is initialized
-  if (!registry.isInitialized()) {
-    await registry.initialize();
-  }
+  // Registry is now initialized at boot time in app.js
 
   try {
     // 1. Handle pending confirmations first
@@ -82,7 +79,17 @@ async function execute(
 
     // 4. Validate confidence threshold
     const globalThreshold = config.NLP_CONFIDENCE_THRESHOLD || 0.4;
-    if (!intent || confidence < globalThreshold) {
+    if (!intent || confidence < globalThreshold || intent === "none") {
+      const sentiment = nlpResult.nlu?.meta?.sentiment || "neutral";
+
+      // If sentiment is non-neutral, route to conversational handler (Bug 2)
+      if (sentiment === "negative" || sentiment === "positive") {
+        const plugin = registry.getPlugin("conversational");
+        if (plugin) {
+          return await plugin.execute({ sentiment });
+        }
+      }
+
       logger.debug(`Low confidence (${confidence}) for intent: ${intent}`);
       return fallback.unknown(originalText);
     }
@@ -104,6 +111,14 @@ async function execute(
     // 5. Lookup intent handler in registry
     const handler = registry.getIntentHandler(intent);
     if (!handler) {
+      const sentiment = nlpResult.nlu?.meta?.sentiment || "neutral";
+      if (sentiment === "negative" || sentiment === "positive") {
+        const plugin = registry.getPlugin("conversational");
+        if (plugin) {
+          return await plugin.execute({ sentiment });
+        }
+      }
+
       logger.warn(`No plugin found for intent: ${intent}`);
       return fallback.pluginNotFound(intent);
     }
