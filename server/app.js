@@ -345,9 +345,12 @@ app.post("/api/admin/cycle", (req, res) => {
 // Server Start
 // ===========================
 
-  // Initialize TF-IDF and Skills before listening
-  await initTFIDF();
-  skills.initialize().then(() => {
+(async () => {
+  try {
+    // Initialize TF-IDF and Skills before listening
+    await initTFIDF();
+    await skills.initialize();
+
     server.listen(config.PORT, () => {
       console.log("");
       console.log("╔════════════════════════════════════════╗");
@@ -358,7 +361,8 @@ app.post("/api/admin/cycle", (req, res) => {
       console.log("╚════════════════════════════════════════╝");
       console.log("");
     });
-  }).catch(err => {
-    logger.error("Failed to start server due to skill initialization error", err.message);
+  } catch (err) {
+    logger.error("Failed to start server due to initialization error", err.message);
     process.exit(1);
-  });
+  }
+})();
