@@ -1,27 +1,45 @@
-# Use Node.js 20 on Debian (standard) for better compatibility with TFJS/native modules
-FROM node:20
+# ─── Stage 1: Model Trainer ─────────────────────────────────────────────────
+# Trains both NLP classifiers so the runtime image has working models.
+# Using node:20 (full Debian image) for native module compatibility (better-sqlite3).
+FROM node:20 AS trainer
 
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies (optional, for screenshot/canvas if needed later)
-# RUN apt-get update && apt-get install -y \
-#     python3 \
-#     make \
-#     g++ \
-#     && rm -rf /var/lib/apt/lists/*
-
-# Copy package files first (better caching)
+# Install dependencies (including devDependencies for build tools)
 COPY package*.json ./
-
-# Install dependencies
 RUN npm ci
 
-# Copy the rest of the application code
+# Copy full source
 COPY . .
+
+# Run TF-IDF training first (fast, no internet needed)
+RUN npm run train:tfidf
+
+# Run Brain.js training (calls axi:learn internally; autonomous/output/ may be empty — that's ok)
+RUN npm run train || true
+
+# ─── Stage 2: Runtime ────────────────────────────────────────────────────────
+FROM node:20
+
+WORKDIR /app
+
+# Install production dependencies only
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+# Copy application code
+COPY . .
+
+# Copy trained model artifacts from trainer stage
+COPY --from=trainer /app/data/tfidf-model.json ./data/tfidf-model.json
+COPY --from=trainer /app/data/models/          ./data/models/
+# axi.db may not exist if no training data produced it; copy it in a shell step so the build doesn't fail
+RUN --mount=from=trainer,source=/app/data,target=/trainer_data \
+    cp /trainer_data/axi.db ./data/axi.db 2>/dev/null || true
 
 # Expose the API port
 EXPOSE 5000
 
 # Start the server
 CMD ["npm", "start"]
+

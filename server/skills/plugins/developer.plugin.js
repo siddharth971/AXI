@@ -11,12 +11,23 @@
 
 "use strict";
 
-const { exec, spawn } = require("child_process");
+const { exec, execFile, spawn } = require("child_process");
 const { promisify } = require("util");
 const path = require("path");
 const fs = require("fs");
 
 const execAsync = promisify(exec);
+const execFileAsync = promisify(execFile);
+
+/** Strip shell metacharacters from a string (used for commit messages) */
+function sanitizeShellArg(str) {
+  return String(str).replace(/[`$\\|;&><"']/g, "").trim();
+}
+
+/** Validate npm package name (allowlist: alphanumeric, @, /, ., -, _) */
+function isValidPackageName(name) {
+  return /^[@a-zA-Z0-9._/-]+$/.test(name);
+}
 
 // Common project directories
 const USER_HOME = process.env.USERPROFILE || process.env.HOME || "C:\\Users";
@@ -168,14 +179,16 @@ module.exports = {
       requiresConfirmation: false,
       handler: async (params, context) => {
         const workDir = await getWorkingDir(params);
-        const message = params.message || params.msg || "Update from AXI";
+        // Sanitize commit message — strip shell metacharacters
+        const rawMessage = params.message || params.msg || "Update from AXI";
+        const message = sanitizeShellArg(rawMessage);
 
         try {
-          // Stage all changes
-          await execAsync("git add -A", { cwd: workDir });
+          // Stage all changes using execFile (no shell interpolation)
+          await execFileAsync("git", ["add", "-A"], { cwd: workDir });
 
-          // Commit
-          await execAsync(`git commit -m "${message}"`, { cwd: workDir });
+          // Commit safely — message is passed as a discrete argument, never injected into a shell string
+          await execFileAsync("git", ["commit", "-m", message], { cwd: workDir });
 
           return `Changes committed with message: "${message}", sir.`;
         } catch (error) {
@@ -230,17 +243,23 @@ module.exports = {
         const packageName = params.package || params.name;
 
         try {
-          let command = "npm install";
-          let message = "Installing all dependencies";
-
-          if (packageName) {
-            const isDev = params.dev || params.devDependency;
-            command = `npm install ${isDev ? "-D" : ""} ${packageName}`;
-            message = `Installing ${packageName}${isDev ? " as dev dependency" : ""}`;
+          // Validate package name to prevent shell injection
+          if (packageName && !isValidPackageName(packageName)) {
+            return `Invalid package name "${packageName}". Only alphanumeric characters, @, /, ., - and _ are allowed.`;
           }
 
-          // Start in new terminal for visibility
-          await execAsync(`start cmd /k "cd /d ${workDir} && ${command}"`, { cwd: workDir });
+          const args = ["install"];
+          if (packageName) {
+            if (params.dev || params.devDependency) args.push("-D");
+            args.push(packageName);
+          }
+
+          const message = packageName
+            ? `Installing ${packageName}${params.dev ? " as dev dependency" : ""}`
+            : "Installing all dependencies";
+
+          // Start in new terminal window for visibility
+          await execAsync(`start cmd /k "cd /d ${workDir} && npm install${packageName ? ` ${packageName}` : ""}"`, { cwd: workDir });
 
           return `${message} in ${path.basename(workDir)}. Check the new terminal window, sir.`;
         } catch (error) {

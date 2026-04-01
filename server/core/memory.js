@@ -1,123 +1,146 @@
 /**
  * Long-Term Memory Service
  * -------------------------
- * Stores and retrieves user facts and preferences using a local JSON file.
+ * Stores and retrieves user facts using SQLite (better-sqlite3).
+ * Replaces memory.json — ACID-compliant, crash-safe.
+ *
+ * Public API is unchanged: remember(key, value), recall(query), forget(key), data.facts
  */
 
-const fs = require("fs");
+"use strict";
+
+const db = require("./db");
+const { logger } = require("../utils");
+const fs   = require("fs");
 const path = require("path");
-const { logger } = require("../utils"); // Assuming utils are available
+
+const MEMORY_FILE = path.join(__dirname, "../data/memory.json");
+
+// Prepared statements (only when SQLite is available)
+const stmts = db ? {
+  upsertFact:  db.prepare(`INSERT INTO facts (key, value, timestamp)
+                           VALUES (?, ?, datetime('now'))
+                           ON CONFLICT(key) DO UPDATE SET value = excluded.value, timestamp = excluded.timestamp`),
+  getAllFacts:  db.prepare(`SELECT key, value, timestamp FROM facts ORDER BY timestamp DESC`),
+  getFact:     db.prepare(`SELECT key, value, timestamp FROM facts WHERE key = ?`),
+  searchFacts: db.prepare(`SELECT key, value, timestamp FROM facts WHERE key LIKE ? OR key LIKE ?`),
+  deleteFact:  db.prepare(`DELETE FROM facts WHERE key = ?`),
+  countFacts:  db.prepare(`SELECT COUNT(*) as count FROM facts`)
+} : null;
 
 class MemoryService {
   constructor() {
-    this.MEMORY_FILE = path.join(__dirname, "../data/memory.json");
-    this.data = { facts: [], preferences: {} };
-    this.init();
+    if (stmts) {
+      const { count } = stmts.countFacts.get();
+      console.log(`🧠 Memory: Loaded ${count} facts from SQLite.`);
+    } else {
+      // JSON fallback
+      this._loadJSON();
+      console.log(`🧠 Memory: Loaded ${this._jsonData.facts.length} facts from JSON.`);
+    }
   }
 
-  /**
-   * Initialize memory
-   */
-  init() {
-    this.load();
-    console.log(`🧠 Memory: Loaded ${this.data.facts.length} facts.`);
-  }
-
-  /**
-   * Load memory from disk
-   */
-  load() {
+  /** Load JSON data (fallback only) */
+  _loadJSON() {
     try {
-      if (fs.existsSync(this.MEMORY_FILE)) {
-        this.data = JSON.parse(fs.readFileSync(this.MEMORY_FILE, "utf8"));
+      if (fs.existsSync(MEMORY_FILE)) {
+        this._jsonData = JSON.parse(fs.readFileSync(MEMORY_FILE, "utf8"));
       } else {
-        this.save(); // Create if not exists
+        this._jsonData = { facts: [] };
       }
-    } catch (err) {
-      console.error("❌ Memory Load Error:", err.message);
-      this.data = { facts: [], preferences: {} }; // Fallback
-    }
+    } catch { this._jsonData = { facts: [] }; }
   }
 
-  /**
-   * Save memory to disk
-   */
-  save() {
+  /** Save JSON data (fallback only) */
+  _saveJSON() {
     try {
-      this.data.last_updated = new Date().toISOString();
-      fs.writeFileSync(this.MEMORY_FILE, JSON.stringify(this.data, null, 2));
-    } catch (err) {
-      console.error("❌ Memory Save Error:", err.message);
-    }
+      fs.writeFileSync(MEMORY_FILE, JSON.stringify(this._jsonData, null, 2));
+    } catch (err) { logger.error("Memory JSON save failed", err.message); }
   }
 
   /**
-   * Remember a fact
-   * @param {string} key - Subject (e.g., "wifi password")
-   * @param {string} value - Value (e.g., "secret123")
+   * Compatibility shim — code that reads memory.data.facts gets
+   * a fresh array from SQLite on every access.
+   */
+  get data() {
+    if (stmts) return { facts: stmts.getAllFacts.all() };
+    if (!this._jsonData) this._loadJSON();
+    return { facts: this._jsonData.facts || [] };
+  }
+
+  /**
+   * Remember a fact (insert or update)
+   * @param {string} key   — Subject (e.g., "wifi password")
+   * @param {string} value — Value   (e.g., "secret123")
    */
   remember(key, value) {
     if (!key || !value) return false;
+    const cleanKey = String(key).trim().toLowerCase();
+    const cleanVal = String(value).trim();
 
-    // Normalize
-    const cleanKey = key.trim().toLowerCase();
-
-    // Check if update or new
-    const existingIndex = this.data.facts.findIndex((f) => f.key === cleanKey);
-
-    const fact = {
-      key: cleanKey,
-      value: value.trim(),
-      timestamp: new Date().toISOString(),
-    };
-
-    if (existingIndex >= 0) {
-      this.data.facts[existingIndex] = fact; // Update
-    } else {
-      this.data.facts.push(fact); // Add new
+    if (stmts) {
+      try {
+        stmts.upsertFact.run(cleanKey, cleanVal);
+        return true;
+      } catch (err) {
+        logger.error("Memory.remember (SQLite) failed", err.message);
+        return false;
+      }
     }
 
-    this.save();
+    // JSON fallback
+    if (!this._jsonData) this._loadJSON();
+    const idx = this._jsonData.facts.findIndex(f => f.key === cleanKey);
+    const fact = { key: cleanKey, value: cleanVal, timestamp: new Date().toISOString() };
+    if (idx >= 0) { this._jsonData.facts[idx] = fact; } else { this._jsonData.facts.push(fact); }
+    this._saveJSON();
     return true;
   }
 
   /**
-   * Recall a fact
-   * @param {string} query - Query to search for (e.g., "wifi")
-   * @returns {object|null} Found fact or null
+   * Recall a fact by key (exact then fuzzy)
+   * @param {string} query — Search term
+   * @returns {{ key, value, timestamp }|null}
    */
   recall(query) {
     if (!query) return null;
-    const q = query.toLowerCase().trim();
+    const q = String(query).toLowerCase().trim();
 
-    // 1. Exact match
-    const exact = this.data.facts.find((f) => f.key === q);
+    if (stmts) {
+      const exact = stmts.getFact.get(q);
+      if (exact) return exact;
+      return stmts.searchFacts.get(`%${q}%`, q) || null;
+    }
+
+    // JSON fallback
+    if (!this._jsonData) this._loadJSON();
+    const exact = this._jsonData.facts.find(f => f.key === q);
     if (exact) return exact;
-
-    // 2. Fuzzy / Partial match
-    // Simple inclusion search
-    const partial = this.data.facts.find(
-      (f) => f.key.includes(q) || q.includes(f.key),
-    );
-
-    return partial || null;
+    return this._jsonData.facts.find(f => f.key.includes(q) || q.includes(f.key)) || null;
   }
 
   /**
    * Forget a fact
+   * @param {string} key — Key to delete
+   * @returns {boolean} true if deleted
    */
   forget(key) {
-    const initialLength = this.data.facts.length;
-    this.data.facts = this.data.facts.filter(
-      (f) => f.key !== key.toLowerCase().trim(),
-    );
+    if (!key) return false;
+    const cleanKey = String(key).trim().toLowerCase();
 
-    if (this.data.facts.length !== initialLength) {
-      this.save();
-      return true;
+    if (stmts) {
+      const result = stmts.deleteFact.run(cleanKey);
+      return result.changes > 0;
     }
+
+    // JSON fallback
+    if (!this._jsonData) this._loadJSON();
+    const before = this._jsonData.facts.length;
+    this._jsonData.facts = this._jsonData.facts.filter(f => f.key !== cleanKey);
+    if (this._jsonData.facts.length !== before) { this._saveJSON(); return true; }
     return false;
   }
 }
 
 module.exports = new MemoryService();
+

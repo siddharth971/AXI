@@ -193,15 +193,26 @@ const DecisionEngine = {
   /**
    * Multi-intent utilities (re-integrated)
    */
+  /**
+   * Multi-intent detection with validation.
+   * Only splits if BOTH resulting fragments independently contain an action verb.
+   * This prevents "play lofi AND ambient music" from producing a broken second segment.
+   */
   detectMultiIntent(text) {
     if (!text || typeof text !== "string") return { isMulti: false, segments: [text] };
     const lowerText = text.toLowerCase();
-    
+
     for (const conj of CONJUNCTIONS) {
       const idx = lowerText.indexOf(` ${conj} `);
       if (idx > 0) {
-        const parts = text.split(new RegExp(`\\s+${conj}\\s+`, "i")).map(p => p.trim()).filter(Boolean);
-        if (parts.length >= 2 && this.hasActionVerb(parts[0]) && this.hasActionVerb(parts[1])) {
+        const parts = text
+          .split(new RegExp(`\\s+${conj}\\s+`, "i"))
+          .map(p => p.trim())
+          .filter(Boolean);
+
+        // Require all parts to independently contain an action verb
+        const allPartsHaveVerb = parts.length >= 2 && parts.every(p => this.hasActionVerb(p));
+        if (allPartsHaveVerb) {
           return { isMulti: true, segments: parts, conjunction: conj };
         }
       }

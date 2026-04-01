@@ -19,11 +19,12 @@ const fallback = require("./responses/fallback");
 const config = require("../config");
 const { logger } = require("../utils");
 const knowledgeHandler = require("./knowledge-handler");
+const socketData = require("../core/socket");
 
 // Confirmation timeout (30 seconds)
-const CONFIRMATION_TIMEOUT = 30000;
+const CONFIRMATION_TIMEOUT = config.PLUGINS?.CONFIRMATION_TIMEOUT || 30000;
 
-// Pending confirmations: sessionId -> { intent, params, timestamp, actionDescription }
+// Pending confirmations: sessionId -> { intent, params, intentConfig, timestamp, expiresAt, actionDescription, _timer }
 const pendingConfirmations = new Map();
 
 /**
@@ -221,19 +222,51 @@ async function executeHandler(plugin, intentConfig, params, sessionId) {
  */
 function requestConfirmation(intent, params, sessionId, intentConfig) {
   const actionDescription = getActionDescription(intent, params);
+  const expiresAt = Date.now() + CONFIRMATION_TIMEOUT;
+
+  // Cancel any existing confirmation timer for this session
+  const existing = pendingConfirmations.get(sessionId);
+  if (existing?._timer) clearTimeout(existing._timer);
+
+  // Auto-cancel on timeout + emit socket notification so frontend can react
+  const _timer = setTimeout(() => {
+    if (pendingConfirmations.has(sessionId)) {
+      pendingConfirmations.delete(sessionId);
+      memory.clearAwaiting(sessionId);
+      logger.debug(`Confirmation timed out for session ${sessionId} (intent: ${intent})`);
+
+      // Emit real-time event so Angular frontend can clear the countdown UI
+      const io = socketData.getIO();
+      if (io) {
+        io.emit("confirmation_timeout", {
+          sessionId,
+          intent,
+          message: fallback.confirmationTimeout()
+        });
+      }
+    }
+  }, CONFIRMATION_TIMEOUT);
 
   pendingConfirmations.set(sessionId, {
     intent,
     params,
     intentConfig,
     timestamp: Date.now(),
+    expiresAt,
     actionDescription,
+    _timer
   });
 
   memory.setAwaiting("confirmation", { intent, params }, sessionId);
 
-  logger.debug(`Confirmation requested for ${intent}`);
-  return fallback.confirmationPending(actionDescription);
+  logger.debug(`Confirmation requested for ${intent} (expires in ${CONFIRMATION_TIMEOUT / 1000}s)`);
+
+  // Return an object so the router can forward expiresAt to the API response
+  return {
+    response: fallback.confirmationPending(actionDescription),
+    requiresConfirmation: true,
+    expiresAt
+  };
 }
 
 /**

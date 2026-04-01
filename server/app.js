@@ -17,6 +17,9 @@
  */
 
 const express = require("express");
+const helmet = require("helmet");
+const compression = require("compression");
+const rateLimit = require("express-rate-limit");
 const cors = require("cors");
 const http = require("http");
 const socketData = require("./core/socket");
@@ -57,6 +60,9 @@ const server = http.createServer(app);
 // Initialize Socket.IO
 socketData.init(server);
 
+// Security & performance middleware
+app.use(helmet());
+app.use(compression());
 app.use(cors({
   origin: [
     "http://localhost:4200",
@@ -67,6 +73,19 @@ app.use(cors({
 app.use(express.json());
 app.use("/screenshots", express.static(path.join(__dirname, "screenshots")));
 
+// Rate limiter: 30 requests per minute per IP on the command endpoint
+const commandLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  max: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: "Too many requests. Please slow down." }
+});
+
+// In-memory intent hit counter (resets on restart — used for /api/metrics and galaxy view)
+const intentMetrics = new Map();
+let totalCommandsProcessed = 0;
+
 // ===========================
 // API Routes
 // ===========================
@@ -75,11 +94,9 @@ app.use("/screenshots", express.static(path.join(__dirname, "screenshots")));
  * POST /api/command
  * Main command endpoint for voice/text input
  */
-app.post("/api/command", validateBody(schemas.command), async (req, res) => {
+app.post("/api/command", commandLimiter, validateBody(schemas.command), async (req, res) => {
   const { text } = req.body;
-  // Manual check removed, handled by Zod
-
-
+  const startTime = Date.now();
   logger.received(text);
 
   try {
@@ -104,7 +121,12 @@ app.post("/api/command", validateBody(schemas.command), async (req, res) => {
     logger.nlp(nlpResult);
 
     // 3. Execute Skill
-    const reply = await skills.execute(nlpResult, text, context);
+    const skillResult = await skills.execute(nlpResult, text, context);
+
+    // skills.execute() returns either a string OR a confirmation object
+    // { response, requiresConfirmation, expiresAt }
+    const isConfirmationRequest = typeof skillResult === "object" && skillResult?.requiresConfirmation;
+    const reply = isConfirmationRequest ? skillResult.response : skillResult;
 
     logger.reply(reply);
 
@@ -117,7 +139,27 @@ app.post("/api/command", validateBody(schemas.command), async (req, res) => {
     const currentSession = sessions.getCurrentSession();
     sessions.addMessage(currentSession.id, text, reply);
 
-    res.json({ response: reply });
+    // 6. Track intent metrics for /api/metrics and galaxy view
+    if (nlpResult.intent && nlpResult.intent !== "none") {
+      intentMetrics.set(nlpResult.intent, (intentMetrics.get(nlpResult.intent) || 0) + 1);
+    }
+    totalCommandsProcessed++;
+
+    const responsePayload = {
+      response: reply,
+      intent: nlpResult.intent || "none",
+      confidence: nlpResult.confidence || 0,
+      source: nlpResult.source || nlpResult.decision || "unknown",
+      executionTime: Date.now() - startTime
+    };
+
+    // Include confirmation metadata if applicable
+    if (isConfirmationRequest) {
+      responsePayload.requiresConfirmation = true;
+      responsePayload.confirmationExpiresAt = skillResult.expiresAt;
+    }
+
+    res.json(responsePayload);
   } catch (error) {
     logger.error("Command processing failed", error.message);
     res.status(500).json({ error: "Internal server error" });
@@ -316,6 +358,96 @@ app.get("/api/learning", (req, res) => {
 app.get("/api/knowledge", (req, res) => {
   const items = knowledgeHandler.list();
   res.json({ blueprints: items });
+});
+
+/**
+ * POST /api/explain
+ * Returns per-layer NLP scores for a given input — without executing the intent.
+ * Useful for debugging classification decisions.
+ */
+app.post("/api/explain", validateBody(schemas.command), async (req, res) => {
+  const { text } = req.body;
+  try {
+    const DecisionEngine = require("./nlp/decision-engine");
+    const preprocessor = require("./nlp/preprocessor");
+
+    const { tokens } = preprocessor.preprocess(text, { removeStops: true });
+
+    // Interpret the full text to get all layer data
+    const nlpResult = await nlp.interpret(text);
+
+    const sources = nlpResult.sources || {};
+
+    res.json({
+      input: text,
+      tokens,
+      layers: {
+        rules: {
+          intent: sources.rules?.intent || null,
+          confidence: sources.rules?.confidence || 0
+        },
+        tfidf: {
+          intent: sources.tfidf?.intent || null,
+          confidence: sources.tfidf?.confidence || 0
+        },
+        neural: {
+          intent: sources.neural?.intent || null,
+          confidence: sources.neural?.confidence || 0
+        }
+      },
+      ensemble: {
+        finalIntent: nlpResult.intent || "none",
+        confidence: nlpResult.confidence || 0,
+        decision: nlpResult.decision || "unknown",
+        source: nlpResult.source || "ensemble"
+      }
+    });
+  } catch (err) {
+    logger.error("Explain endpoint error", err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * GET /api/metrics
+ * Returns live intent hit counts, uptime, and total request count.
+ * Powers the Galaxy visualization node sizing.
+ */
+app.get("/api/metrics", (req, res) => {
+  const hits = Object.fromEntries(intentMetrics);
+  const maxHits = Math.max(...Object.values(hits), 1);
+  res.json({
+    intentHits: hits,
+    maxHits,
+    totalCommands: totalCommandsProcessed,
+    uptime: Math.floor(process.uptime()),
+    uptimeHuman: formatUptime(process.uptime())
+  });
+});
+
+function formatUptime(seconds) {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  return `${h}h ${m}m ${s}s`;
+}
+
+/**
+ * GET /api/learning/stats
+ * Returns per-intent correction counts — surfaces underperforming intents.
+ */
+app.get("/api/learning/stats", (req, res) => {
+  const corrections = learning.getPending();
+  const stats = corrections.reduce((acc, c) => {
+    const key = c.predicted_intent || "unknown";
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+  res.json({
+    stats,
+    totalPending: corrections.length,
+    mostCorrected: Object.entries(stats).sort((a, b) => b[1] - a[1]).slice(0, 5)
+  });
 });
 
 // ===========================

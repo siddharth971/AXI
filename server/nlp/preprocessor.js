@@ -2,10 +2,11 @@
  * AXI Preprocessor
  * -----------------
  * Text preprocessing pipeline:
- * 1. Normalization (lowercase, trim)
- * 2. Stopword removal
- * 3. Lemmatization (basic)
- * 4. Tokenization
+ * 1. Synonym expansion
+ * 2. Normalization (lowercase, trim)
+ * 3. Stopword removal
+ * 4. Lemmatization (basic)
+ * 5. Tokenization
  */
 
 // Common stopwords to remove
@@ -21,8 +22,8 @@ const STOPWORDS = new Set([
 
 // Negation words that must be preserved at inference time
 const NEGATIONS = new Set([
-  "not", "don't", "without", "except", "never", "no", "unless", "until", 
-  "before", "after", "instead", "but", "rather", "avoid", "stop", 
+  "not", "don't", "without", "except", "never", "no", "unless", "until",
+  "before", "after", "instead", "but", "rather", "avoid", "stop",
   "cancel", "undo", "remove", "close", "quit", "exit"
 ]);
 
@@ -35,6 +36,77 @@ const LEMMA_RULES = [
   { suffix: "ly", replacement: "" },
   { suffix: "ies", replacement: "y" }
 ];
+
+/**
+ * Synonym map — canonical forms for common variant expressions.
+ * Applied BEFORE tokenization so multi-word synonyms are also caught.
+ * Keys are sorted longest-first to prevent partial replacements.
+ */
+const SYNONYMS = {
+  // Open / Launch
+  "go to":        "open",
+  "navigate to":  "open",
+  "navigate":     "open",
+  "launch":       "open",
+  "start":        "open",
+  "boot":         "open",
+  "browse to":    "open",
+  "browse":       "open",
+  "visit":        "open",
+  "load":         "open",
+  // Play / Media
+  "resume":       "play",
+  "unpause":      "play",
+  // Pause / Stop
+  "halt":         "pause",
+  // Volume
+  "louder":       "increase volume",
+  "quieter":      "decrease volume",
+  "softer":       "decrease volume",
+  "volume higher": "increase volume",
+  "volume lower":  "decrease volume",
+  "turn up":      "increase volume",
+  "turn down":    "decrease volume",
+  // System
+  "shut down":    "shutdown",
+  "power off":    "shutdown",
+  "power down":   "shutdown",
+  "reboot":       "restart",
+  // Screenshot
+  "snap":         "screenshot",
+  "capture":      "screenshot",
+  "screen grab":  "screenshot",
+  // Search / Find
+  "look up":      "find",
+  "look for":     "find",
+  "query":        "find",
+  "search for":   "search",
+  // Memory
+  "recall":       "remember",
+  // Close
+  "shut":         "close",
+  "exit":         "close",
+  "quit":         "close"
+};
+
+// Pre-sort synonym keys longest-first to avoid partial replacements
+const SYNONYM_ENTRIES = Object.entries(SYNONYMS).sort(
+  (a, b) => b[0].length - a[0].length
+);
+
+/**
+ * Expand synonyms in text before tokenization.
+ * Replaces known variant words/phrases with their canonical forms.
+ * @param {string} text
+ * @returns {string}
+ */
+function expandSynonyms(text) {
+  let result = text.toLowerCase();
+  for (const [synonym, canonical] of SYNONYM_ENTRIES) {
+    result = result.replace(new RegExp(`\\b${synonym}\\b`, "gi"), canonical);
+  }
+  return result;
+}
 
 /**
  * Normalize text (lowercase, remove punctuation)
@@ -85,10 +157,14 @@ function preprocess(text, options = {}) {
     removeStops = true,
     lemma = true,
     keepOriginal = true,
-    preserveNegations = true
+    preserveNegations = true,
+    expandSyns = true
   } = options;
 
-  const normalized = normalize(text);
+  // Stage 1: Synonym expansion (before normalization, to catch multi-word phrases)
+  const expanded = expandSyns ? expandSynonyms(text) : text;
+
+  const normalized = normalize(expanded);
   let tokens = tokenize(normalized);
 
   const original = [...tokens];
@@ -114,6 +190,9 @@ module.exports = {
   tokenize,
   removeStopwords,
   lemmatize,
+  expandSynonyms,
   preprocess,
-  STOPWORDS
+  STOPWORDS,
+  SYNONYMS
 };
+

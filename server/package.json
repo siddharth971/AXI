@@ -16,7 +16,8 @@
     "axi:cycle": "npm run axi:discover && npm run axi:explore && npm run axi:extract && npm run axi:learn",
     "axi:expand": "node scripts/convert-expansion-batches.mjs --stats && node scripts/merge-intents.mjs",
     "train:expanded": "node nlp/train.js --intents=nlp/intents/combined_intents.json",
-    "train:tfidf": "node nlp/train-tfidf.js"
+    "train:tfidf": "node nlp/train-tfidf.js",
+    "migrate": "node scripts/migrate-to-sqlite.js"
   },
   "keywords": [],
   "author": "",
@@ -24,18 +25,24 @@
   "dependencies": {
     "@tensorflow/tfjs": "^4.22.0",
     "axios": "^1.13.2",
+    "better-sqlite3": "^12.8.0",
     "brain.js": "^1.6.1",
+    "compression": "^1.7.4",
     "compromise": "^14.14.5",
     "cors": "^2.8.5",
     "cosine-similarity": "^1.0.1",
     "express": "^5.1.0",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
     "node-cron": "^4.2.1",
     "node-fetch": "^3.3.2",
+    "robots-parser": "^3.0.1",
     "screenshot-desktop": "^1.15.3",
     "socket.io": "^4.8.3",
     "zod": "^4.3.5"
   },
   "devDependencies": {
+    "chokidar": "^3.6.0",
     "nodemon": "^3.1.0"
   }
 }

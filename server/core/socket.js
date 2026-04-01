@@ -41,13 +41,10 @@ module.exports = {
   },
 
   /**
-   * Get the IO instance
+   * Get the IO instance (returns null if not yet initialized)
    */
   getIO() {
-    if (!io) {
-      throw new Error("Socket.IO not initialized!");
-    }
-    return io;
+    return io || null;
   },
 
   /**
