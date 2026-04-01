@@ -273,6 +273,75 @@ module.exports = {
           "Until next time!"
         ]);
       }
+    },
+
+    calculate: {
+      confidence: 0.5,
+      requiresConfirmation: false,
+      handler: async (params, context) => {
+        const raw = (params.text || params.query || params.raw || "").trim();
+
+        // ── Normalise word operators to symbols ───────────────────────────
+        let expr = raw
+          .replace(/\bdivided by\b/gi, "/")
+          .replace(/\btimes\b/gi,      "*")
+          .replace(/\bmultiplied by\b/gi, "*")
+          .replace(/\bminus\b/gi,      "-")
+          .replace(/\bplus\b/gi,       "+")
+          // "add X and Y" / "X and Y" (ambiguous; treat as addition when calculate intent fired)
+          .replace(/\band\b/gi,        "+");
+
+        // ── Extract first valid a OP b pair ───────────────────────────────
+        const exprMatch = expr.match(
+          /(\d+(?:\.\d+)?)\s*([\+\-\*\/x])\s*(\d+(?:\.\d+)?)/
+        );
+        if (!exprMatch) {
+          return 'Please give me a simple expression like "2 + 2", "10 divided by 5", or "add 7 and 3", sir.';
+        }
+
+        const a  = parseFloat(exprMatch[1]);
+        const op = exprMatch[2];
+        const b  = parseFloat(exprMatch[3]);
+
+        let result;
+        switch (op) {
+          case "+":             result = a + b; break;
+          case "-":             result = a - b; break;
+          case "*": case "x":  result = a * b; break;
+          case "/":
+            if (b === 0) return "I can't divide by zero, sir. That's undefined.";
+            result = a / b;
+            break;
+          default:
+            return "I didn't recognise that operator, sir. Try +, -, *, or /.";
+        }
+
+        // ── Format result ─────────────────────────────────────────────────
+        const opDisplay = { "+": "+", "-": "-", "*": "×", "x": "×", "/": "÷" }[op] || op;
+        const formatted = Number.isInteger(result) ? result : parseFloat(result.toFixed(6));
+        return `${a} ${opDisplay} ${b} = **${formatted}**`;
+      }
+    },
+
+    about_self: {
+      confidence: 0.5,
+      requiresConfirmation: false,
+      handler: async () => {
+        return [
+          "I am **AXI** — Advanced eXecution Intelligence.",
+          "",
+          "I'm your personal voice assistant, designed to help you with:",
+          "• 🖥️  System control (apps, volume, screenshots, power)",
+          "• 🌐  Web browsing and real-time knowledge search",
+          "• 📂  File management",
+          "• 🎵  Media playback",
+          "• 🧠  Memory — I remember things you tell me",
+          "• 💻  Developer tools (git, npm)",
+          "• 📅  Scheduling and reminders",
+          "",
+          "I run entirely on your machine — no cloud, no surveillance. Just you and me, sir."
+        ].join("\n");
+      }
     }
   }
 };

@@ -145,10 +145,16 @@ async function execute(
     }
 
     // 8. Execute the handler
+    const handlerParams = {
+      ...(params || entities || {}),
+      text: originalText,   // always available as params.text
+      raw:  originalText,   // alias
+      query: originalText,  // alias for search-style handlers
+    };
     const response = await executeHandler(
       plugin,
       intentConfig,
-      params || entities || {},
+      handlerParams,
       sessionId,
     );
 

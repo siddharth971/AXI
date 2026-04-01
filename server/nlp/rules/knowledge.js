@@ -143,4 +143,46 @@ module.exports = {
 
     return null;
   },
+
+  /**
+   * About Self - routes "tell me about yourself / who are you" to system.about_self
+   * Checked FIRST inside the rule loop — highest specificity.
+   */
+  aboutSelf(text) {
+    const msg = text.toLowerCase();
+    if (
+      /\b(about your ?self|who are you|what are you|introduce your ?self|describe your ?self|tell me about your ?self|tell me about you\b)\b/i.test(msg)
+    ) {
+      // Confidence slightly above 1.0 so this always beats tellMeAbout in the tie-breaker
+      return { intent: "about_self", confidence: 1.01, entities: {} };
+    }
+    return null;
+  },
+
+  /**
+   * Tell Me About - routes generic "tell me about X" to web search.
+   * Prevents falling through to noisy semantic matching.
+   * Excludes self-referential topics (handled by aboutSelf above).
+   */
+  tellMeAbout(text) {
+    const msg = text.toLowerCase();
+
+    // Self-referential — let aboutSelf handle it
+    if (/\b(your ?self|about you$|about you\s)\b/.test(msg)) return null;
+
+    // "tell me about X", "explain X", "describe X", "give me info on X"
+    const match = msg.match(
+      /^(?:please )?(?:can you )?(?:tell me about|explain|describe|give me (?:info|information|details?) (?:on|about)) (.+)/i,
+    );
+    if (match) {
+      const topic = match[1].trim();
+      return {
+        intent: "knowledge.what_is",
+        confidence: 1.0,
+        entities: { topic },
+      };
+    }
+
+    return null;
+  },
 };

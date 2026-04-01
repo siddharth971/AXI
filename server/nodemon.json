@@ -1,0 +1,15 @@
+{
+  "watch": [".", "nlp", "skills", "core", "utils"],
+  "ext": "js,mjs,cjs,json",
+  "ignore": [
+    "data/*",
+    "data/**/*",
+    "node_modules",
+    "tests",
+    "autonomous/output",
+    "*.db",
+    "*.db-shm",
+    "*.db-wal"
+  ],
+  "delay": 500
+}
