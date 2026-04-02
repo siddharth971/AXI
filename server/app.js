@@ -90,6 +90,19 @@ class MetricsCollector {
   constructor() {
     this.intentHits = new Map();
     this.totalCommands = 0;
+    
+    // Load persisted intent metrics from memory
+    const saved = memory.recall("intentMetrics");
+    if (saved && saved.value) {
+      try {
+        const parsed = JSON.parse(saved.value);
+        for (const [key, val] of Object.entries(parsed)) {
+          this.intentHits.set(key, val);
+        }
+      } catch (e) {
+        logger.warn("Failed to parse persisted intentMetrics");
+      }
+    }
   }
 
   trackIntent(intent) {
@@ -97,6 +110,9 @@ class MetricsCollector {
       this.intentHits.set(intent, (this.intentHits.get(intent) || 0) + 1);
     }
     this.totalCommands++;
+    
+    // Persist to SQLite for long-term visualization
+    memory.remember("intentMetrics", JSON.stringify(Object.fromEntries(this.intentHits)));
   }
 
   getSnapshot() {

@@ -151,10 +151,10 @@ module.exports = {
   aboutSelf(text) {
     const msg = text.toLowerCase();
     if (
-      /\b(about your ?self|who are you|what are you|introduce your ?self|describe your ?self|tell me about your ?self|tell me about you\b)\b/i.test(msg)
+      /\b(about your ?self|who are you|what are you|introduce your ?self|describe your ?self|tell me about your ?self|tell me about you|what is your name|whats your name)\b/i.test(msg)
     ) {
       // Confidence slightly above 1.0 so this always beats tellMeAbout in the tie-breaker
-      return { intent: "about_self", confidence: 1.01, entities: {} };
+      return { intent: "ai_chat", confidence: 1.01, entities: {} };
     }
     return null;
   },

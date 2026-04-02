@@ -266,6 +266,8 @@ async function retrainFromLogs() {
         learningMonitor.clearTrainingQueue();
         loadModel();
         logger.success("[Learning] Retraining completed successfully");
+        const socketData = require("../core/socket");
+        socketData.emit("training_complete", { success: true, message: "Autonomous cycle: Retraining completed" });
         resolve(true);
       } else {
         logger.error(`[Learning] Retraining exited with code ${code}`);
