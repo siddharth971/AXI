@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-3A20E572",
-  "generated_at": "2026-01-21T07:26:54.187Z",
+  "generated_at": "2026-04-02T04:24:16.648Z",
   "global_configuration": {
     "brand_name": "LFX Insights",
     "domain": "insights.linuxfoundation.org",
@@ -33,9 +33,9 @@
         "full_url": "https://kit.fontawesome.com/d65f54d9ea.js"
       },
       {
-        "path": "/_nuxt/xlR9aOiA.js",
+        "path": "/_nuxt/DaMPlxK9.js",
         "type": "script",
-        "full_url": "https://insights.linuxfoundation.org/_nuxt/xlR9aOiA.js"
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/DaMPlxK9.js"
       },
       {
         "path": "/css2",
@@ -43,9 +43,9 @@
         "full_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Slab:wght@300;400;600&display=swap"
       },
       {
-        "path": "/_nuxt/entry.DuTeXKwu.css",
+        "path": "/_nuxt/entry.BTTQSU5C.css",
         "type": "stylesheet",
-        "full_url": "https://insights.linuxfoundation.org/_nuxt/entry.DuTeXKwu.css"
+        "full_url": "https://insights.linuxfoundation.org/_nuxt/entry.BTTQSU5C.css"
       },
       {
         "path": "/_nuxt/echarts.DKw28MLL.css",
@@ -78,14 +78,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "1759ms"
+          "latency": "1307ms"
         },
         {
           "resource": "d65f54d9ea.js",
           "latency": "pending"
         },
         {
-          "resource": "xlR9aOiA.js",
+          "resource": "DaMPlxK9.js",
           "latency": "pending"
         },
         {
@@ -107,6 +107,10 @@
           {
             "title": "Linux Foundation  Open Source Index",
             "desc": "Description detected in content block."
+          },
+          {
+            "title": "Curated Collections",
+            "desc": "Description detected in content block."
           }
         ],
         "main_content": [
@@ -120,7 +124,7 @@
           },
           {
             "tag": "p",
-            "text": "Search projects, repositories..."
+            "text": "Search projects, repositories, or collections"
           },
           {
             "tag": "h1",
@@ -132,7 +136,7 @@
           },
           {
             "tag": "p",
-            "text": "Search projects, repositories..."
+            "text": "Search projects, repositories, or collections"
           },
           {
             "tag": "h2",
@@ -151,6 +155,22 @@
             "text": "Curated list of the most critical open source projects powering our modern digital infrastructure, measured by contributor volume and software value"
           },
           {
+            "tag": "h2",
+            "text": "Curated Collections"
+          },
+          {
+            "tag": "p",
+            "text": "Hand-picked collections from The Linux Foundation."
+          },
+          {
+            "tag": "h2",
+            "text": "Community Collections"
+          },
+          {
+            "tag": "p",
+            "text": "Discover collections from the open source community."
+          },
+          {
             "tag": "p",
             "text": "LFX Insights helps developers and their organizations make smarter decisions about the open source projects they depend on."
           },
@@ -160,7 +180,7 @@
           },
           {
             "tag": "p",
-            "text": "Latest blog posts"
+            "text": "Featured"
           },
           {
             "tag": "p",
@@ -168,69 +188,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 11,
-          "headings": 3,
+          "paragraphs": 13,
+          "headings": 5,
           "images": 3
         }
       }
     },
     {
-      "route_id": "ROUTE-AA50382E",
-      "path": "/leaderboards",
-      "type": "Detected Link",
-      "anchor_text": "Leaderboards",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-5BD4D097",
-      "path": "/open-source-index",
-      "type": "Detected Link",
-      "anchor_text": "Open Source Index",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-FFBD4374",
-      "path": "/docs/introduction/what-is-insights/",
-      "type": "Detected Link",
-      "anchor_text": "Docs",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-AAA5C35D",
-      "path": "/",
-      "type": "Detected Link",
-      "anchor_text": "Unknown",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-70B1BDF3",
-      "path": "/open-source-index",
-      "type": "Detected Link",
-      "anchor_text": "Explore all stacks",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-E97058B8",
+      "route_id": "ROUTE-5D7AFEC2",
       "path": "/collection",
       "type": "Detected Link",
       "anchor_text": "Collections",
@@ -241,8 +206,52 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E3D2CEBF",
-      "path": "/docs/",
+      "route_id": "ROUTE-6EAC6FB5",
+      "path": "/leaderboards",
+      "type": "Detected Link",
+      "anchor_text": "Leaderboards",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DF299347",
+      "path": "/open-source-index",
+      "type": "Detected Link",
+      "anchor_text": "Open Source Index",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-59AF289D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BB7F21DC",
+      "path": "/open-source-index",
+      "type": "Detected Link",
+      "anchor_text": "Explore all stacks",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8AFB0FBD",
+      "path": "/docs/introduction/what-is-insights/",
       "type": "Detected Link",
       "anchor_text": "Docs",
       "rendering_strategy": "Unknown",
@@ -252,7 +261,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-472EEEEE",
+      "route_id": "ROUTE-27F407CF",
+      "path": "/report/ai-code-tracker",
+      "type": "Detected Link",
+      "anchor_text": "AI Code Tracker",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C34B0539",
       "path": "/blog/product-update-nov-2025",
       "type": "Detected Link",
       "anchor_text": "Product Update November 2025",
@@ -263,7 +283,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7C0E01B6",
+      "route_id": "ROUTE-8A59D446",
       "path": "/blog/first-3-months",
       "type": "Detected Link",
       "anchor_text": "The First 3 Months of Insights",
@@ -274,7 +294,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-188923FA",
+      "route_id": "ROUTE-87EC5C6E",
       "path": "/blog/introducing-insights",
       "type": "Detected Link",
       "anchor_text": "Introducing Insights",

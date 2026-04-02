@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-EF6FC4B6",
-  "generated_at": "2026-01-21T07:26:54.196Z",
+  "generated_at": "2026-04-02T04:24:16.652Z",
   "global_configuration": {
     "brand_name": "MENU TIGER",
     "domain": "www.menutiger.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "18.239.153.83",
+      "server_ip": "18.239.153.102",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -15,14 +15,14 @@
       }
     },
     "server_headers": {
-      "Cache-Control": "max-age=5, stale-while-revalidate",
+      "Cache-Control": "Not Set",
       "Content-Security-Policy": "Not Set",
       "Server": "Unknown"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 93,
+      "total_files": 90,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -32,9 +32,9 @@
         "full_url": "https://www.menutiger.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
       },
       {
-        "path": "/_next/static/chunks/webpack-1ca1bc9fb6131ebc.js",
+        "path": "/_next/static/chunks/webpack-48c6f27b306b9658.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/chunks/webpack-1ca1bc9fb6131ebc.js"
+        "full_url": "https://www.menutiger.com/_next/static/chunks/webpack-48c6f27b306b9658.js"
       },
       {
         "path": "/_next/static/chunks/framework-03cd576e71e4cd66.js",
@@ -47,9 +47,9 @@
         "full_url": "https://www.menutiger.com/_next/static/chunks/main-e24b4219d45d8163.js"
       },
       {
-        "path": "/_next/static/chunks/pages/_app-7b180c900e52f924.js",
+        "path": "/_next/static/chunks/pages/_app-c18e025ea1045122.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/_app-7b180c900e52f924.js"
+        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/_app-c18e025ea1045122.js"
       },
       {
         "path": "/_next/static/chunks/332-56883a8efcf5e14d.js",
@@ -57,9 +57,9 @@
         "full_url": "https://www.menutiger.com/_next/static/chunks/332-56883a8efcf5e14d.js"
       },
       {
-        "path": "/_next/static/chunks/537-7fb95a5c9b152a37.js",
+        "path": "/_next/static/chunks/377-f95b7d3ed71110a8.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/chunks/537-7fb95a5c9b152a37.js"
+        "full_url": "https://www.menutiger.com/_next/static/chunks/377-f95b7d3ed71110a8.js"
       },
       {
         "path": "/_next/static/chunks/336-1021c5d96811d0c6.js",
@@ -77,34 +77,29 @@
         "full_url": "https://www.menutiger.com/_next/static/chunks/829-d644a063877534f9.js"
       },
       {
-        "path": "/_next/static/chunks/219-0f2ab0b81001e187.js",
+        "path": "/_next/static/chunks/pages/index-f1e05ea490ddbddc.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/chunks/219-0f2ab0b81001e187.js"
+        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/index-f1e05ea490ddbddc.js"
       },
       {
-        "path": "/_next/static/chunks/pages/index-9156122ccd0104bc.js",
+        "path": "/_next/static/76suonXvIDEWpapjb8cR_/_buildManifest.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/chunks/pages/index-9156122ccd0104bc.js"
+        "full_url": "https://www.menutiger.com/_next/static/76suonXvIDEWpapjb8cR_/_buildManifest.js"
       },
       {
-        "path": "/_next/static/DJPfdhSNw748IEGNLJU3_/_buildManifest.js",
+        "path": "/_next/static/76suonXvIDEWpapjb8cR_/_ssgManifest.js",
         "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/DJPfdhSNw748IEGNLJU3_/_buildManifest.js"
+        "full_url": "https://www.menutiger.com/_next/static/76suonXvIDEWpapjb8cR_/_ssgManifest.js"
       },
       {
-        "path": "/_next/static/DJPfdhSNw748IEGNLJU3_/_ssgManifest.js",
-        "type": "script",
-        "full_url": "https://www.menutiger.com/_next/static/DJPfdhSNw748IEGNLJU3_/_ssgManifest.js"
-      },
-      {
-        "path": "/_next/static/css/db4bd08a05a0ec96.css",
+        "path": "/_next/static/css/1a074c64ffaad170.css",
         "type": "stylesheet",
-        "full_url": "https://www.menutiger.com/_next/static/css/db4bd08a05a0ec96.css"
+        "full_url": "https://www.menutiger.com/_next/static/css/1a074c64ffaad170.css"
       },
       {
-        "path": "/_next/static/css/6057566efa873685.css",
+        "path": "/_next/static/css/9c1bd3911e4db804.css",
         "type": "stylesheet",
-        "full_url": "https://www.menutiger.com/_next/static/css/6057566efa873685.css"
+        "full_url": "https://www.menutiger.com/_next/static/css/9c1bd3911e4db804.css"
       },
       {
         "path": "/_next/static/media/logo.80aeb17b.svg",
@@ -480,16 +475,6 @@
         "path": "/_next/static/media/facebook.0bc5b288.svg",
         "type": "image",
         "full_url": "https://www.menutiger.com/_next/static/media/facebook.0bc5b288.svg"
-      },
-      {
-        "path": "/_next/static/media/gear.ca33f8fe.svg",
-        "type": "image",
-        "full_url": "https://www.menutiger.com/_next/static/media/gear.ca33f8fe.svg"
-      },
-      {
-        "path": "/_next/image",
-        "type": "image",
-        "full_url": "https://www.menutiger.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclose.818bc2ad.png&amp;w=48&amp;q=75"
       }
     ]
   },
@@ -507,14 +492,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3515ms"
+          "latency": "2473ms"
         },
         {
           "resource": "polyfills-c67a75d1b6f99dc8.js",
           "latency": "pending"
         },
         {
-          "resource": "webpack-1ca1bc9fb6131ebc.js",
+          "resource": "webpack-48c6f27b306b9658.js",
           "latency": "pending"
         },
         {
@@ -1026,37 +1011,17 @@
           {
             "tag": "p",
             "text": "© 2025 Menu Tiger. All rights reserved"
-          },
-          {
-            "tag": "h4",
-            "text": "This website uses cookies"
-          },
-          {
-            "tag": "p",
-            "text": "We use cookies to make your experience better, help us understand how our site is used, and show you content and ads that matter to you."
-          },
-          {
-            "tag": "p",
-            "text": "By clicking Accept All Cookies , you agree to our use of all cookies, as explained in our Cookie Policy."
-          },
-          {
-            "tag": "p",
-            "text": "You can also choose which cookies you’re happy to allow by selecting &quot;Cookie Settings&quot;. You can withdraw your consent anytime."
-          },
-          {
-            "tag": "p",
-            "text": "Note: Essential cookies keep our website running smoothly and can&#x27;t be turned off."
           }
         ],
         "structure_summary": {
-          "paragraphs": 97,
-          "headings": 29,
-          "images": 88
+          "paragraphs": 93,
+          "headings": 28,
+          "images": 86
         }
       }
     },
     {
-      "route_id": "ROUTE-C7BD0ADF",
+      "route_id": "ROUTE-E808C92E",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -1067,7 +1032,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-196BCF37",
+      "route_id": "ROUTE-6076C202",
       "path": "/features",
       "type": "Detected Link",
       "anchor_text": "Features",
@@ -1078,7 +1043,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D4F2A595",
+      "route_id": "ROUTE-4B56751D",
       "path": "/ebooks",
       "type": "Detected Link",
       "anchor_text": "E-books",
@@ -1089,7 +1054,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-34FE5FAF",
+      "route_id": "ROUTE-5E4ABB47",
       "path": "/blog",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -1100,7 +1065,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-662E5459",
+      "route_id": "ROUTE-5AEA23A2",
       "path": "/pricing",
       "type": "Detected Link",
       "anchor_text": "Pricing",
@@ -1111,7 +1076,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7D355B00",
+      "route_id": "ROUTE-BBE07F3E",
       "path": "/faq",
       "type": "Detected Link",
       "anchor_text": "FAQ",
@@ -1122,7 +1087,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E5E54C1E",
+      "route_id": "ROUTE-69BF9452",
       "path": "/api/redirecttologin",
       "type": "Detected Link",
       "anchor_text": "Login",
@@ -1133,7 +1098,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4C96D78E",
+      "route_id": "ROUTE-9B838C7A",
       "path": "/signup",
       "type": "Detected Link",
       "anchor_text": "START FOR FREE",
@@ -1144,7 +1109,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-643C0FF1",
+      "route_id": "ROUTE-8CEFCD51",
       "path": "/blog/customer-success-stories",
       "type": "Detected Link",
       "anchor_text": "Customer Success Stories",
@@ -1155,7 +1120,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E447E490",
+      "route_id": "ROUTE-D75F55C3",
       "path": "/blog/qr-codes-in-restaurants-how-to-safely-operate-during-a-pandemic",
       "type": "Detected Link",
       "anchor_text": "QR Codes in Restaurants",
@@ -1166,7 +1131,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3EE43056",
+      "route_id": "ROUTE-59BABDB8",
       "path": "/blog/self-serve-ordering",
       "type": "Detected Link",
       "anchor_text": "Self-Serve Ordering in Restaurants",
@@ -1177,7 +1142,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1642123D",
+      "route_id": "ROUTE-2411AD49",
       "path": "/blog/how-to-scan-hotel-menu-qr-code",
       "type": "Detected Link",
       "anchor_text": "Hotel Menu QR Code",
@@ -1188,7 +1153,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3075F5C3",
+      "route_id": "ROUTE-087D73BF",
       "path": "/blog/tablet-menu",
       "type": "Detected Link",
       "anchor_text": "Tablet Menu",
@@ -1199,7 +1164,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9997EA79",
+      "route_id": "ROUTE-B7F999D9",
       "path": "/blog/social-media-for-restaurants",
       "type": "Detected Link",
       "anchor_text": "Social Media for Restaurants",
@@ -1210,7 +1175,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2304D55B",
+      "route_id": "ROUTE-E1CA30DC",
       "path": "/blog/fast-casual-restaurants",
       "type": "Detected Link",
       "anchor_text": "Fast-casual Restaurants",

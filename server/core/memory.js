@@ -9,7 +9,7 @@
 
 "use strict";
 
-const db = require("./db");
+const { db } = require("./db");
 const { logger } = require("../utils");
 const fs   = require("fs");
 const path = require("path");

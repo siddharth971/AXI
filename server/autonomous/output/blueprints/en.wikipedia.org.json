@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-06552C44",
-  "generated_at": "2026-01-22T06:06:10.550Z",
+  "generated_at": "2026-04-02T04:24:17.535Z",
   "global_configuration": {
     "brand_name": "Wikipedia, the free encyclopedia",
     "domain": "en.wikipedia.org",
@@ -13,12 +13,12 @@
         "issuer": "Unknown (Requires TLS Socket)",
         "valid_until": "Unknown"
       },
-      "web_server": "mw-web.codfw.main-774457fc9b-shqdc"
+      "web_server": "mw-web.eqiad.main-69bcbf655-q6f4l"
     },
     "server_headers": {
       "Cache-Control": "private, s-maxage=0, max-age=0, must-revalidate, no-transform",
-      "Content-Security-Policy": "Not Set",
-      "Server": "mw-web.codfw.main-774457fc9b-shqdc"
+      "Content-Security-Policy": "default-src 'unsafe-eval' 'unsafe-inline' 'self' data: blob: *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json",
+      "Server": "mw-web.eqiad.main-69bcbf655-q6f4l"
     }
   },
   "file_system_inventory": {
@@ -35,7 +35,7 @@
       {
         "path": "/w/load.php",
         "type": "stylesheet",
-        "full_url": "https://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"
+        "full_url": "https://en.wikipedia.org/w/load.php?lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wp25EasterEggs.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022"
       },
       {
         "path": "/w/load.php",
@@ -58,29 +58,29 @@
         "full_url": "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en-25.svg"
       },
       {
-        "path": "/wikipedia/commons/thumb/1/10/Mariah_Carey_1990_cropped.jpg/250px-Mariah_Carey_1990_cropped.jpg",
+        "path": "/wikipedia/commons/thumb/9/9d/Cracticus_nigrogularis_by_John_Gould.JPG/250px-Cracticus_nigrogularis_by_John_Gould.JPG",
         "type": "image",
-        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mariah_Carey_1990_cropped.jpg/250px-Mariah_Carey_1990_cropped.jpg"
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cracticus_nigrogularis_by_John_Gould.JPG/250px-Cracticus_nigrogularis_by_John_Gould.JPG"
       },
       {
-        "path": "/wikipedia/commons/thumb/1/1a/The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg/250px-The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg",
+        "path": "/wikipedia/commons/thumb/8/8d/Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg/250px-Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg",
         "type": "image",
-        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg/250px-The_nave_of_All_Saints_Episcopal_Church_%28ACNA%29%2C_Fort_Worth%2C_Texas.jpg"
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg/250px-Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg"
       },
       {
-        "path": "/wikipedia/commons/thumb/8/80/Valentino_%28cropped%29.jpg/120px-Valentino_%28cropped%29.jpg",
+        "path": "/wikipedia/commons/thumb/e/eb/Artemis_II_Launch_%28NHQ202604010105%29.jpg/250px-Artemis_II_Launch_%28NHQ202604010105%29.jpg",
         "type": "image",
-        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Valentino_%28cropped%29.jpg/120px-Valentino_%28cropped%29.jpg"
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemis_II_Launch_%28NHQ202604010105%29.jpg/250px-Artemis_II_Launch_%28NHQ202604010105%29.jpg"
       },
       {
-        "path": "/wikipedia/commons/thumb/b/b8/Brezhnev-color.jpg/120px-Brezhnev-color.jpg",
+        "path": "/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/250px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg",
         "type": "image",
-        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Brezhnev-color.jpg/120px-Brezhnev-color.jpg"
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/250px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg"
       },
       {
-        "path": "/wikipedia/commons/thumb/c/c8/Egg_fruit_DS.jpg/500px-Egg_fruit_DS.jpg",
+        "path": "/wikipedia/commons/thumb/e/e6/Common_buckeye_%2835663%29.jpg/500px-Common_buckeye_%2835663%29.jpg",
         "type": "image",
-        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Egg_fruit_DS.jpg/500px-Egg_fruit_DS.jpg"
+        "full_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Common_buckeye_%2835663%29.jpg/500px-Common_buckeye_%2835663%29.jpg"
       },
       {
         "path": "/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png",
@@ -178,7 +178,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "977ms"
+          "latency": "6132ms"
         },
         {
           "resource": "load.php",
@@ -228,7 +228,7 @@
           },
           {
             "tag": "p",
-            "text": "The First Vision is the debut video album by Mariah Carey (pictured) , released on January&#160;22, 1991. It is a collection of music videos, live performances, and film footage detailing the development and promotion of Carey's first studio album Mariah Carey . It features music videos of \" Vision of Love \", \" Love Takes Time \", and \" Someday \", as well as snippets of future singles \" I Don't Wanna Cry \" and \" There's Got to Be a Way \". The collection presents Carey performing at Club Tatou and rehearsal footage for Saturday Night Live and It's Showtime at the Apollo . During an interview segment, Carey answers questions about her life and music. Critics considered the album insightful and praised the showcase of her live vocal abilities; others opined that it projected her in a sexual manner. The video peaked at numbers&#160;2 and 24 respectively on US and UK music video charts. The Canadian Recording Industry Association certified it gold and the Recording Industry Association of America certified it platinum. ( Full&#160;article... )"
+            "text": "The pied butcherbird ( Cracticus nigrogularis ) is a songbird native to Australia. Described by John Gould in 1837, it is 28 to 32&#160;cm (11 to 12.5&#160;in) long. It has a pale hooked bill and a black head, throat and mantle . Much of the tail and wings is also black, and the neck, underparts and outer wing feathers are white. The juvenile and immature birds are predominantly brown and white. There are two recognised subspecies . Within its large range, the pied butcherbird is generally non- migratory . Common in woodlands and in urban environments, it is carnivorous , eating insects and small vertebrates, including birds. A tame and inquisitive bird, the pied butcherbird has been known to accept food from humans. It nests in trees, constructing a cup-shaped structure out of sticks and laying two to five eggs. Some mated pairs benefit from cooperative breeding , in which other birds help feed the young and defend the nest. ( Full&#160;article... )"
           },
           {
             "tag": "h2",
@@ -244,7 +244,7 @@
           },
           {
             "tag": "p",
-            "text": "January 22 : Day of Unity of Ukraine ( 1919 )"
+            "text": "April 2 : World Autism Awareness Day ; Malvinas Day in Argentina ( 1982 )&#160;; First Day of Passover ( Judaism , 2026)"
           },
           {
             "tag": "h2",
@@ -252,11 +252,11 @@
           },
           {
             "tag": "p",
-            "text": "Pouteria campechiana , also known as the canistel, is an evergreen tree native to southern Mexico, Belize, Guatemala, and El Salvador. It is cultivated in its native countries and has been introduced into several other countries, including Brazil, Taiwan, and the United States. The edible part of the tree is its fruit, which is colloquially known as an egg fruit. The ripe fruit is used in jam and marmalade, on pancakes, and in a milkshake known as \"eggfruit nog\". This picture shows a whole P. campechiana fruit."
+            "text": "Junonia coenia , the common buckeye, is a species of butterfly in the family Nymphalidae . It is found as a resident or vagrant across much of North and Central America, as well as parts of northern South America, and likely originated from African ancestors that later diversified in Asia. The species typically inhabits open, sunny terrains such as fields, dunes and scrub, up to 1,300 meters (4,300&#160;ft) in elevation. Junonia coenia adults are mostly brown with prominent black eyespots, while the caterpillars are spiny with complex color patterns. The caterpillars feed on plants rich in iridoid glycosides , such as Plantago lanceolata , which also influence female oviposition , while adults prefer nectar from yellow flowers. Some individuals migrate seasonally, and the species faces threats from predators, parasites, and a specific densovirus . This common buckeye butterfly was photographed in Eagle Creek Park , Indianapolis, United States."
           },
           {
             "tag": "p",
-            "text": "Photograph: Augustus Binu"
+            "text": "Photograph credit: Rhododendrites"
           },
           {
             "tag": "h2",
@@ -287,7 +287,7 @@
       }
     },
     {
-      "route_id": "ROUTE-773631C6",
+      "route_id": "ROUTE-98355C98",
       "path": "/wiki/Main_Page",
       "type": "Detected Link",
       "anchor_text": "Main page",
@@ -298,7 +298,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9C396EAB",
+      "route_id": "ROUTE-B736D06D",
       "path": "/wiki/Wikipedia:Contents",
       "type": "Detected Link",
       "anchor_text": "Contents",
@@ -309,7 +309,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B0FDFA74",
+      "route_id": "ROUTE-99D175CF",
       "path": "/wiki/Portal:Current_events",
       "type": "Detected Link",
       "anchor_text": "Current events",
@@ -320,7 +320,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-28F77705",
+      "route_id": "ROUTE-DB802FB1",
       "path": "/wiki/Special:Random",
       "type": "Detected Link",
       "anchor_text": "Random article",
@@ -331,7 +331,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-257305B4",
+      "route_id": "ROUTE-6D5041DF",
       "path": "/wiki/Wikipedia:About",
       "type": "Detected Link",
       "anchor_text": "About Wikipedia",
@@ -342,7 +342,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0A377865",
+      "route_id": "ROUTE-1881CA6E",
       "path": "/wiki/Wikipedia:Contact_us",
       "type": "Detected Link",
       "anchor_text": "Contact us",
@@ -353,7 +353,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E33AD941",
+      "route_id": "ROUTE-5D2779F4",
       "path": "/wiki/Help:Contents",
       "type": "Detected Link",
       "anchor_text": "Help",
@@ -364,7 +364,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B1AF4BD8",
+      "route_id": "ROUTE-6B8C6E38",
       "path": "/wiki/Help:Introduction",
       "type": "Detected Link",
       "anchor_text": "Learn to edit",
@@ -375,7 +375,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D9E74E19",
+      "route_id": "ROUTE-387266A2",
       "path": "/wiki/Wikipedia:Community_portal",
       "type": "Detected Link",
       "anchor_text": "Community portal",
@@ -386,7 +386,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4D24627B",
+      "route_id": "ROUTE-FD1C436D",
       "path": "/wiki/Special:RecentChanges",
       "type": "Detected Link",
       "anchor_text": "Recent changes",
@@ -397,7 +397,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-40F3F6BA",
+      "route_id": "ROUTE-4177BEA5",
       "path": "/wiki/Wikipedia:File_upload_wizard",
       "type": "Detected Link",
       "anchor_text": "Upload file",
@@ -408,7 +408,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7176B6D2",
+      "route_id": "ROUTE-E21AFF05",
       "path": "/wiki/Special:SpecialPages",
       "type": "Detected Link",
       "anchor_text": "Special pages",
@@ -419,7 +419,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-82F85124",
+      "route_id": "ROUTE-87F50D7D",
       "path": "/w/index.php",
       "type": "Detected Link",
       "anchor_text": "Create account",
@@ -430,7 +430,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-987A44E8",
+      "route_id": "ROUTE-8111C6BF",
       "path": "/w/index.php",
       "type": "Detected Link",
       "anchor_text": "Log in",
@@ -441,7 +441,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E376C34C",
+      "route_id": "ROUTE-26C1D21E",
       "path": "/wiki/Talk:Main_Page",
       "type": "Detected Link",
       "anchor_text": "Talk",

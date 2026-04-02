@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-616699E6",
-  "generated_at": "2026-01-22T06:07:06.635Z",
+  "generated_at": "2026-04-02T04:24:30.339Z",
   "global_configuration": {
     "brand_name": "The Minimalist Vegan",
     "domain": "theminimalistvegan.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.67.156.25",
+      "server_ip": "104.21.42.42",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -30,7 +30,7 @@
       {
         "path": "/tags/the-minimalist-vegan-new-owner.js",
         "type": "script",
-        "full_url": "https://scripts.mediavine.com/tags/the-minimalist-vegan-new-owner.js?ver=6.8.3"
+        "full_url": "https://scripts.mediavine.com/tags/the-minimalist-vegan-new-owner.js?ver=6.8.5"
       },
       {
         "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
@@ -143,7 +143,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "738ms"
+          "latency": "3006ms"
         },
         {
           "resource": "the-minimalist-vegan-new-owner.js",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "route_id": "ROUTE-F077795A",
+      "route_id": "ROUTE-67843057",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -207,7 +207,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-636B58BB",
+      "route_id": "ROUTE-0751A449",
       "path": "/all-articles/",
       "type": "Detected Link",
       "anchor_text": "All Articles",
@@ -218,7 +218,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-716E762F",
+      "route_id": "ROUTE-C3AB83ED",
       "path": "/minimalism/",
       "type": "Detected Link",
       "anchor_text": "Minimalism",
@@ -229,7 +229,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-883821B3",
+      "route_id": "ROUTE-78BC1DF8",
       "path": "/veganism/",
       "type": "Detected Link",
       "anchor_text": "Veganism",
@@ -240,7 +240,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DB0F1104",
+      "route_id": "ROUTE-2F559AB2",
       "path": "/ethical-shopping/",
       "type": "Detected Link",
       "anchor_text": "Sustainable Living",
@@ -251,7 +251,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6EEE4345",
+      "route_id": "ROUTE-4EAB0167",
       "path": "/book/",
       "type": "Detected Link",
       "anchor_text": "Book",
@@ -262,7 +262,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C7F42EFC",
+      "route_id": "ROUTE-38EE05B9",
       "path": "/minimalist-mindset/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -273,7 +273,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-86ED9D9F",
+      "route_id": "ROUTE-6CD96AAF",
       "path": "/fruits-that-start-with-d/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -284,7 +284,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8E7C21F4",
+      "route_id": "ROUTE-5BA20EC6",
       "path": "/best-vegan-restaurants-in-brooklyn/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -295,7 +295,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7455742D",
+      "route_id": "ROUTE-A915E113",
       "path": "/best-vegan-restaurants-in-orlando/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -306,7 +306,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DD430FF7",
+      "route_id": "ROUTE-6D0EA9B6",
       "path": "/top-fruits-that-start-with-i/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -317,7 +317,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AE0507A6",
+      "route_id": "ROUTE-680F4266",
       "path": "/minimalist-person/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -328,7 +328,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FB4C187E",
+      "route_id": "ROUTE-2F803232",
       "path": "/minimalist-email/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -339,7 +339,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-801397F4",
+      "route_id": "ROUTE-2F0045F2",
       "path": "/decluttering-checklist/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -350,7 +350,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A321DE8A",
+      "route_id": "ROUTE-937010B2",
       "path": "/dont-feel-like-a-minimalist-anymore/",
       "type": "Detected Link",
       "anchor_text": "Unknown",

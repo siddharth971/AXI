@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-5AEF88E7",
-  "generated_at": "2026-01-22T06:06:09.765Z",
+  "generated_at": "2026-04-02T04:24:16.711Z",
   "global_configuration": {
     "brand_name": "react.dev",
     "domain": "react.dev",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "66.33.60.129",
+      "server_ip": "76.76.21.61",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -38,9 +38,9 @@
         "full_url": "https://react.dev/_next/static/chunks/polyfills-42372ed130431b0a.js"
       },
       {
-        "path": "/_next/static/chunks/webpack-39eff723199b8e42.js",
+        "path": "/_next/static/chunks/webpack-c9ab623dfe839ebe.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/chunks/webpack-39eff723199b8e42.js"
+        "full_url": "https://react.dev/_next/static/chunks/webpack-c9ab623dfe839ebe.js"
       },
       {
         "path": "/_next/static/chunks/framework-76ad44d61c11f057.js",
@@ -48,9 +48,9 @@
         "full_url": "https://react.dev/_next/static/chunks/framework-76ad44d61c11f057.js"
       },
       {
-        "path": "/_next/static/chunks/main-54c914288f82a2e9.js",
+        "path": "/_next/static/chunks/main-8bc660a98b463b2d.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/chunks/main-54c914288f82a2e9.js"
+        "full_url": "https://react.dev/_next/static/chunks/main-8bc660a98b463b2d.js"
       },
       {
         "path": "/_next/static/chunks/pages/_app-6d7b64b3b21a9551.js",
@@ -63,29 +63,29 @@
         "full_url": "https://react.dev/_next/static/chunks/668-9be9de6fa7660277.js"
       },
       {
-        "path": "/_next/static/chunks/123-13c4133e5a4ea2b7.js",
+        "path": "/_next/static/chunks/928-e89de0bd2e20fa8c.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/chunks/123-13c4133e5a4ea2b7.js"
+        "full_url": "https://react.dev/_next/static/chunks/928-e89de0bd2e20fa8c.js"
       },
       {
-        "path": "/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-0fb8c297db7898f2.js",
+        "path": "/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-ef91ae665155f68d.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-0fb8c297db7898f2.js"
+        "full_url": "https://react.dev/_next/static/chunks/pages/%5B%5B...markdownPath%5D%5D-ef91ae665155f68d.js"
       },
       {
-        "path": "/_next/static/iPOkJGLrNaA_q3FOyx5u0/_buildManifest.js",
+        "path": "/_next/static/OjBEcxo-Y95U7B3gD8Cs8/_buildManifest.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/iPOkJGLrNaA_q3FOyx5u0/_buildManifest.js"
+        "full_url": "https://react.dev/_next/static/OjBEcxo-Y95U7B3gD8Cs8/_buildManifest.js"
       },
       {
-        "path": "/_next/static/iPOkJGLrNaA_q3FOyx5u0/_ssgManifest.js",
+        "path": "/_next/static/OjBEcxo-Y95U7B3gD8Cs8/_ssgManifest.js",
         "type": "script",
-        "full_url": "https://react.dev/_next/static/iPOkJGLrNaA_q3FOyx5u0/_ssgManifest.js"
+        "full_url": "https://react.dev/_next/static/OjBEcxo-Y95U7B3gD8Cs8/_ssgManifest.js"
       },
       {
-        "path": "/_next/static/css/0fb8ab91a26a5c9f.css",
+        "path": "/_next/static/css/08c63e3f3aafb0fb.css",
         "type": "stylesheet",
-        "full_url": "https://react.dev/_next/static/css/0fb8ab91a26a5c9f.css"
+        "full_url": "https://react.dev/_next/static/css/08c63e3f3aafb0fb.css"
       },
       {
         "path": "/_next/image",
@@ -278,7 +278,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "265ms"
+          "latency": "2841ms"
         },
         {
           "resource": "js",
@@ -289,7 +289,7 @@
           "latency": "pending"
         },
         {
-          "resource": "webpack-39eff723199b8e42.js",
+          "resource": "webpack-c9ab623dfe839ebe.js",
           "latency": "pending"
         }
       ],
@@ -488,7 +488,7 @@
           },
           {
             "tag": "p",
-            "text": "6:29 PM Go truly native People expect native apps to look and feel like their platform. React Native and Expo let you build apps in React for Android, iOS, and more. They look and feel native because their UIs are truly native. It’s not a web view—your React components render real Android and iOS views provided by the platform."
+            "text": "8:45 PM Go truly native People expect native apps to look and feel like their platform. React Native and Expo let you build apps in React for Android, iOS, and more. They look and feel native because their UIs are truly native. It’s not a web view—your React components render real Android and iOS views provided by the platform."
           },
           {
             "tag": "p",
@@ -508,11 +508,11 @@
           },
           {
             "tag": "h2",
-            "text": "Additional Vulnerabilities in RSC"
+            "text": "The React Foundation: A New Home for React Hosted by the Linux Foundation"
           },
           {
             "tag": "p",
-            "text": "December 11, 2025 Vulnerability in React Server Components December 3, 2025 React Conf 2025 Recap October 16, 2025 React Compiler v1.0 October 7, 2025 Read more React news Join a community of millions You’re not alone. Two million developers from all over the world visit the React docs every month. React is something that people and teams can agree on."
+            "text": "February 24, 2026 Additional Vulnerabilities in RSC December 11, 2025 Vulnerability in React Server Components December 3, 2025 React Conf 2025 Recap October 16, 2025 Read more React news Join a community of millions You’re not alone. Two million developers from all over the world visit the React docs every month. React is something that people and teams can agree on."
           },
           {
             "tag": "p",
@@ -531,7 +531,7 @@
       }
     },
     {
-      "route_id": "ROUTE-E6219C50",
+      "route_id": "ROUTE-A410703F",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -542,7 +542,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-43AE0D1C",
+      "route_id": "ROUTE-6696EC57",
       "path": "/versions",
       "type": "Detected Link",
       "anchor_text": "v19.2",
@@ -553,7 +553,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-66E68395",
+      "route_id": "ROUTE-D0F15213",
       "path": "/learn",
       "type": "Detected Link",
       "anchor_text": "Learn",
@@ -564,7 +564,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-010B1475",
+      "route_id": "ROUTE-580C7C3D",
       "path": "/reference/react",
       "type": "Detected Link",
       "anchor_text": "Reference",
@@ -575,7 +575,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-23382E92",
+      "route_id": "ROUTE-0FDEDE33",
       "path": "/community",
       "type": "Detected Link",
       "anchor_text": "Community",
@@ -586,7 +586,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-22AE978C",
+      "route_id": "ROUTE-B2F1595C",
       "path": "/blog",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -597,7 +597,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8413E3A9",
+      "route_id": "ROUTE-E9BE29FE",
       "path": "/community/translations",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -608,7 +608,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AB5332DB",
+      "route_id": "ROUTE-788A9DDE",
       "path": "/learn/add-react-to-an-existing-project",
       "type": "Detected Link",
       "anchor_text": "Add React to your page",
@@ -619,7 +619,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6634607A",
+      "route_id": "ROUTE-4899977E",
       "path": "/learn/creating-a-react-app",
       "type": "Detected Link",
       "anchor_text": "Get started with a framework",
@@ -630,7 +630,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B88766A2",
+      "route_id": "ROUTE-EF0F6B3F",
+      "path": "/blog/2026/02/24/the-react-foundation",
+      "type": "Detected Link",
+      "anchor_text": "The React Foundation: A New Home for React Hosted by the Linux FoundationFebruary 24, 2026",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4C0EF7E3",
       "path": "/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
       "type": "Detected Link",
       "anchor_text": "Additional Vulnerabilities in RSCDecember 11, 2025",
@@ -641,7 +652,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AA1DE690",
+      "route_id": "ROUTE-ACCE7C6E",
       "path": "/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
       "type": "Detected Link",
       "anchor_text": "Vulnerability in React Server ComponentsDecember 3, 2025",
@@ -652,7 +663,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EE1801B6",
+      "route_id": "ROUTE-1FCEF294",
       "path": "/blog/2025/10/16/react-conf-2025-recap",
       "type": "Detected Link",
       "anchor_text": "React Conf 2025 RecapOctober 16, 2025",
@@ -663,18 +674,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-30D7A5EC",
-      "path": "/blog/2025/10/07/react-compiler-1",
-      "type": "Detected Link",
-      "anchor_text": "React Compiler v1.0October 7, 2025",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-F342886E",
+      "route_id": "ROUTE-676071C5",
       "path": "/learn/installation",
       "type": "Detected Link",
       "anchor_text": "Installation",
@@ -685,7 +685,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-151E6EB0",
+      "route_id": "ROUTE-D08F7B18",
       "path": "/learn/describing-the-ui",
       "type": "Detected Link",
       "anchor_text": "Describing the UI",

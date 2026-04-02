@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-B278DE6F",
-  "generated_at": "2026-01-21T07:27:12.552Z",
+  "generated_at": "2026-04-02T04:24:29.745Z",
   "global_configuration": {
     "brand_name": "Open Source Endpoint Detection and Response (EDR)",
     "domain": "www.openedr.com",
@@ -188,7 +188,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6605ms"
+          "latency": "1831ms"
         },
         {
           "resource": "js",
@@ -381,7 +381,7 @@
       }
     },
     {
-      "route_id": "ROUTE-A61A2D84",
+      "route_id": "ROUTE-EB1E1310",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -392,7 +392,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AE454B10",
+      "route_id": "ROUTE-074320D9",
       "path": "/openedr-certification.php",
       "type": "Detected Link",
       "anchor_text": "Get Certified",
@@ -403,7 +403,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AB103B69",
+      "route_id": "ROUTE-20D02E31",
       "path": "/blog/",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -414,7 +414,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C4BCABAF",
+      "route_id": "ROUTE-8F65C34B",
       "path": "/academy/",
       "type": "Detected Link",
       "anchor_text": "OpenEDR Academy",

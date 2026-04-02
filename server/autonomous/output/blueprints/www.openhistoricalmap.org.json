@@ -1,29 +1,29 @@
 {
   "website_blueprint_id": "BLUEPRINT-A554E49D",
-  "generated_at": "2026-01-21T07:27:12.109Z",
+  "generated_at": "2026-04-02T04:24:29.680Z",
   "global_configuration": {
     "brand_name": "OpenHistoricalMap",
     "domain": "www.openhistoricalmap.org",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "52.86.22.251",
-      "cdn_provider": "Unknown",
+      "server_ip": "104.21.35.12",
+      "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
         "valid_until": "Unknown"
       },
-      "web_server": "Apache/2.4.65 (Debian)"
+      "web_server": "cloudflare"
     },
     "server_headers": {
       "Cache-Control": "max-age=0, private, must-revalidate",
       "Content-Security-Policy": "Not Set",
-      "Server": "Apache/2.4.65 (Debian)"
+      "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 11,
+      "total_files": 13,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -33,9 +33,9 @@
         "full_url": "https://www.openhistoricalmap.org/assets/turbo-c69e22a49dcb166659137ec1b5c5feddd68aaa75b2095acf4d013b1084c38d9b.js"
       },
       {
-        "path": "/assets/application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js",
+        "path": "/assets/application-623a29cdea03e197d6bd56c53cdd423cfdcb57c516726b9444df163b79da06ed.js",
         "type": "script",
-        "full_url": "https://www.openhistoricalmap.org/assets/application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js"
+        "full_url": "https://www.openhistoricalmap.org/assets/application-623a29cdea03e197d6bd56c53cdd423cfdcb57c516726b9444df163b79da06ed.js"
       },
       {
         "path": "/assets/i18n/en-ee8511dcb46a2c2323d1f9d63177d2c92f1e7f4919e78fce7b725911cab5302b.js",
@@ -48,9 +48,14 @@
         "full_url": "https://openhistoricalmap.github.io/ohm-inspector/api/api.js"
       },
       {
-        "path": "/assets/index-1406234cd6acfe6c634b8ed31d33fb45e17f4abdd263416fcb53141438cbd97b.js",
+        "path": "/assets/index-a1cfb9d5797295bcd5d4b532194fc139f08cadd47e04acc25b4ada01b5bc6aa2.js",
         "type": "script",
-        "full_url": "https://www.openhistoricalmap.org/assets/index-1406234cd6acfe6c634b8ed31d33fb45e17f4abdd263416fcb53141438cbd97b.js"
+        "full_url": "https://www.openhistoricalmap.org/assets/index-a1cfb9d5797295bcd5d4b532194fc139f08cadd47e04acc25b4ada01b5bc6aa2.js"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/assets/screen-auto-ltr-1b3ef736d6a59a1b6b324fb0d67f631049cb2a788cbcc02aafd543f8f2128f06.css",
@@ -81,6 +86,11 @@
         "path": "/assets/ohm_logo-884051b901193cf1d229cb08e81d60ab7b28aea9ba53acad8f141dca78c86430.svg",
         "type": "image",
         "full_url": "https://www.openhistoricalmap.org/assets/ohm_logo-884051b901193cf1d229cb08e81d60ab7b28aea9ba53acad8f141dca78c86430.svg"
+      },
+      {
+        "path": "/assets/banners/donate_2026-ed195a0209c706b30e229e144d00eba6653a4f2ab3824bfca617767f558d0dc3.png",
+        "type": "image",
+        "full_url": "https://www.openhistoricalmap.org/assets/banners/donate_2026-ed195a0209c706b30e229e144d00eba6653a4f2ab3824bfca617767f558d0dc3.png"
       }
     ]
   },
@@ -98,14 +108,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "1341ms"
+          "latency": "1007ms"
         },
         {
           "resource": "turbo-c69e22a49dcb166659137ec1b5c5feddd68aaa75b2095acf4d013b1084c38d9b.js",
           "latency": "pending"
         },
         {
-          "resource": "application-36915a909f57f4380901067c230a6b718c4a82f35aa622c5c03caeead62b4b8f.js",
+          "resource": "application-623a29cdea03e197d6bd56c53cdd423cfdcb57c516726b9444df163b79da06ed.js",
           "latency": "pending"
         },
         {
@@ -150,12 +160,12 @@
         "structure_summary": {
           "paragraphs": 37,
           "headings": 4,
-          "images": 1
+          "images": 2
         }
       }
     },
     {
-      "route_id": "ROUTE-D183446F",
+      "route_id": "ROUTE-632220F6",
       "path": "/edit",
       "type": "Detected Link",
       "anchor_text": "Edit",
@@ -166,7 +176,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-57BF20E5",
+      "route_id": "ROUTE-29583D23",
       "path": "/edit",
       "type": "Detected Link",
       "anchor_text": "Edit with iD (in-browser editor)",
@@ -177,7 +187,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ED2576D7",
+      "route_id": "ROUTE-CF704B2F",
       "path": "/edit",
       "type": "Detected Link",
       "anchor_text": "Edit with Remote Control (JOSM, Potlatch, Merkaartor)",
@@ -188,7 +198,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D1C0A5C7",
+      "route_id": "ROUTE-8E19B1AC",
       "path": "/history",
       "type": "Detected Link",
       "anchor_text": "History",
@@ -199,7 +209,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EBAC23CE",
+      "route_id": "ROUTE-BA19573C",
       "path": "/export",
       "type": "Detected Link",
       "anchor_text": "Export",
@@ -210,7 +220,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B4B7CFD1",
+      "route_id": "ROUTE-9A7817B3",
       "path": "/traces",
       "type": "Detected Link",
       "anchor_text": "GPS Traces",
@@ -221,7 +231,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2D031B09",
+      "route_id": "ROUTE-1B2F3195",
       "path": "/diary",
       "type": "Detected Link",
       "anchor_text": "User Diaries",
@@ -232,7 +242,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B6CC410D",
+      "route_id": "ROUTE-E67DDE32",
       "path": "/copyright",
       "type": "Detected Link",
       "anchor_text": "Copyright",
@@ -243,7 +253,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BB6603FD",
+      "route_id": "ROUTE-9CE67F27",
       "path": "/help",
       "type": "Detected Link",
       "anchor_text": "Help",
@@ -254,7 +264,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9EFBF842",
+      "route_id": "ROUTE-7DFBF76E",
       "path": "/about",
       "type": "Detected Link",
       "anchor_text": "About",
@@ -265,7 +275,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-76C63C72",
+      "route_id": "ROUTE-5EE7503D",
       "path": "/login",
       "type": "Detected Link",
       "anchor_text": "Log In",
@@ -276,7 +286,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-50B5ACE1",
+      "route_id": "ROUTE-C5AF9B48",
       "path": "/user/new",
       "type": "Detected Link",
       "anchor_text": "Sign Up",

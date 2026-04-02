@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-7D1A0B5D",
-  "generated_at": "2026-01-21T07:27:04.998Z",
+  "generated_at": "2026-04-02T04:24:24.469Z",
   "global_configuration": {
     "brand_name": "The Family Handyman",
     "domain": "www.familyhandyman.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.19.144.18",
+      "server_ip": "104.19.255.17",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -16,14 +16,14 @@
       "web_server": "cloudflare"
     },
     "server_headers": {
-      "Cache-Control": "public, max-age=57600",
+      "Cache-Control": "max-age=57600",
       "Content-Security-Policy": "Not Set",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 115,
+      "total_files": 111,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -45,7 +45,7 @@
       {
         "path": "/wp-content/plugins/tmbi-cookie-compliance-v2-ketch-helper/scripts/helper.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-cookie-compliance-v2-ketch-helper/scripts/helper.js?ver=1.3.0"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-cookie-compliance-v2-ketch-helper/scripts/helper.js?ver=1.3.1"
       },
       {
         "path": "/wp-content/plugins/tmbi-cookie-compliance-v2/scripts/common.js",
@@ -55,112 +55,82 @@
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/Common.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/Common.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/Common.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/dist/tmbi-ga4-analytics-bundle.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/dist/tmbi-ga4-analytics-bundle.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/dist/tmbi-ga4-analytics-bundle.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/digitaldata.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/digitaldata.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/digitaldata.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/EngagementEvent.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/EngagementEvent.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/EngagementEvent.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/analytics.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/analytics.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/analytics.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/AccountEvent.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/AccountEvent.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/AccountEvent.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/PrivacySetting.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/PrivacySetting.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/PrivacySetting.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/SearchEvent.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/SearchEvent.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/GoogleAnalytics/SearchEvent.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-data-analytics/js/openweb-analytics.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/openweb-analytics.js?ver=7.1.4"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-data-analytics/js/openweb-analytics.js?ver=7.1.5"
       },
       {
         "path": "/wp-content/plugins/tmbi-ad-density/js/ad-density-ga-integration.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-ad-density/js/ad-density-ga-integration.js?ver=6.1.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-ad-density/js/ad-density-ga-integration.js?ver=7.0.0"
       },
       {
         "path": "/wp-content/plugins/tmbi-ad-density/js/ad-density-gam-integration.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-ad-density/js/ad-density-gam-integration.js?ver=6.1.3"
-      },
-      {
-        "path": "/wp-content/plugins/tmbi-optimera-integration/js/optiCommon.js",
-        "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-optimera-integration/js/optiCommon.js?ver=1.2.1"
-      },
-      {
-        "path": "/aax2/apstag.js",
-        "type": "script",
-        "full_url": "https://c.amazon-adsystem.com/aax2/apstag.js?ver=1.0.0"
-      },
-      {
-        "path": "/wp-content/plugins/pup-a9-header-bidder/js/tmbi-a9-header-bidder.js",
-        "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/pup-a9-header-bidder/js/tmbi-a9-header-bidder.js?ver=1.0.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-ad-density/js/ad-density-gam-integration.js?ver=7.0.0"
       },
       {
         "path": "/wp-content/plugins/tmbi-permutive/js/permutive-tracking.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-tracking.js?ver=5.1.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-tracking.js?ver=6.0.0"
       },
       {
         "path": "/wp-content/mu-plugins/tmbi-js-utils/js/js-util-query.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/mu-plugins/tmbi-js-utils/js/js-util-query.js?ver=1.0.0"
+        "full_url": "https://www.familyhandyman.com/wp-content/mu-plugins/tmbi-js-utils/js/js-util-query.js?ver=1.2.0"
       },
       {
         "path": "/wp-content/plugins/tmbi-permutive/js/permutive-identifier.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-identifier.js?ver=5.1.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-identifier.js?ver=6.0.0"
       },
       {
         "path": "/d82f7a30-751a-4689-b7e9-19336a89ab46-web.js",
         "type": "script",
-        "full_url": "https://d82f7a30-751a-4689-b7e9-19336a89ab46.edge.permutive.app/d82f7a30-751a-4689-b7e9-19336a89ab46-web.js?ver=5.1.3"
+        "full_url": "https://d82f7a30-751a-4689-b7e9-19336a89ab46.edge.permutive.app/d82f7a30-751a-4689-b7e9-19336a89ab46-web.js?ver=6.0.0"
       },
       {
-        "path": "/prebid/dynamic/10696.js",
+        "path": "/wp-content/plugins/tmbi-assertive-yield/js/ad-stack.js",
         "type": "script",
-        "full_url": "https://micro.rubiconproject.com/prebid/dynamic/10696.js?ver=1.0"
-      },
-      {
-        "path": "/wp-content/plugins/tmbi-prebid/js/tmbi-prebid.js",
-        "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-prebid/js/tmbi-prebid.js?ver=1.1.2"
-      },
-      {
-        "path": "/tag/js/gpt.js",
-        "type": "script",
-        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js?ver=1.0.0"
-      },
-      {
-        "path": "/wp-content/plugins/pup-ad-stack/js/ad-stack.js",
-        "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/pup-ad-stack/js/ad-stack.js?ver=7.3.1"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-assertive-yield/js/ad-stack.js?ver=2.0.2"
       },
       {
         "path": "/wp-content/plugins/speedcurve-helper/js/speedcurve-lux.js",
@@ -173,39 +143,39 @@
         "full_url": "https://cdn.speedcurve.com/js/lux.js?id=128112127&amp;ver=1.0.2"
       },
       {
+        "path": "/manager/p3Y4viy58ctaW5AxK",
+        "type": "script",
+        "full_url": "https://p3y4viy58ctaw5axk.ay.delivery/manager/p3Y4viy58ctaW5AxK?ver=2.0.2"
+      },
+      {
+        "path": "/wp-content/plugins/tmbi-permutive/js/permutive-ay-integration.js",
+        "type": "script",
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-ay-integration.js?ver=1.0.0"
+      },
+      {
         "path": "/wp-content/themes/bumblebee/js/cm-ribbon.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/cm-ribbon.js?ver=25.20.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/cm-ribbon.js?ver=26.8.0"
       },
       {
         "path": "/wp-content/plugins/tmbi-permutive/js/permutive-ga-integration.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-ga-integration.js?ver=5.1.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-permutive/js/permutive-ga-integration.js?ver=6.0.0"
       },
       {
         "path": "/wp-content/themes/bumblebee/js/src/carousel.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/src/carousel.js?ver=25.20.3"
-      },
-      {
-        "path": "/oPS.js",
-        "type": "script",
-        "full_url": "https://d15kdpgjg3unno.cloudfront.net/oPS.js?cid=104&amp;ver=1.0.0"
+        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/src/carousel.js?ver=26.8.0"
       },
       {
         "path": "/933/i.js",
         "type": "script",
-        "full_url": "https://tag.bounceexchange.com/933/i.js?ver=2.1.0"
+        "full_url": "https://tag.bounceexchange.com/933/i.js?ver=3.0.0"
       },
       {
         "path": "/wp-content/plugins/pup-bx/js/wunderkind-ga4-integration.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/pup-bx/js/wunderkind-ga4-integration.js?ver=2.1.0"
-      },
-      {
-        "path": "/wp-content/plugins/pup-referral-tracking/js/referral-tracking.js",
-        "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/pup-referral-tracking/js/referral-tracking.js?ver=1.1.0"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/pup-bx/js/wunderkind-ga4-integration.js?ver=3.0.0"
       },
       {
         "path": "/wp-content/plugins/pushly/assets/js/pushly-consent.js",
@@ -228,6 +198,11 @@
         "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-amazon-affiliate/assets/js/amazon-affiliate-tracking.js?ver=3.0.1"
       },
       {
+        "path": "/wp-content/plugins/tmbi-generic-data-api/js/tmbi-carousel-shortcode.js",
+        "type": "script",
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-generic-data-api/js/tmbi-carousel-shortcode.js?ver=1.0.0"
+      },
+      {
         "path": "/wp-content/themes/bumblebee/js/util/slinky.min.js",
         "type": "script",
         "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/util/slinky.min.js?ver=4.1.0"
@@ -235,17 +210,17 @@
       {
         "path": "/wp-content/themes/bumblebee/js/navigation.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/navigation.js?ver=25.20.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/navigation.js?ver=26.8.0"
       },
       {
         "path": "/wp-content/themes/bumblebee/js/navigation-2021.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/navigation-2021.js?ver=25.20.3"
+        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/navigation-2021.js?ver=26.8.0"
       },
       {
         "path": "/wp-content/themes/bumblebee/js/sticky-header.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/sticky-header.js?ver=1.0.2"
+        "full_url": "https://www.familyhandyman.com/wp-content/themes/bumblebee/js/sticky-header.js?ver=26.8.0"
       },
       {
         "path": "/wp-content/themes/bumblebee/js/IE11-check.js",
@@ -285,12 +260,12 @@
       {
         "path": "/wp-content/plugins/tmbi-zeta-helper/js/tmbi-zeta-helper.js",
         "type": "script",
-        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-zeta-helper/js/tmbi-zeta-helper.js?ver=1.0.0"
+        "full_url": "https://www.familyhandyman.com/wp-content/plugins/tmbi-zeta-helper/js/tmbi-zeta-helper.js?ver=1.0.1"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/wp-content/uploads/2021/09/fhm-logo.svg",
@@ -298,24 +273,24 @@
         "full_url": "https://www.familyhandyman.com/wp-content/uploads/2021/09/fhm-logo.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/10/Do-You-Really-Need-a-Headboard_GettyImages-1281334306_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/10-Ideas-to-Fill-Up-Your-Empty-Walls_GettyImages-2215951723_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/Do-You-Really-Need-a-Headboard_GettyImages-1281334306_FT.jpg?resize=250%2C250&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/10-Ideas-to-Fill-Up-Your-Empty-Walls_GettyImages-2215951723_FT.jpg?resize=250%2C250&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/FHM-Functional-Spaces-2025_Lobby-FT.jpg",
+        "path": "/wp-content/uploads/2026/03/FHM_One-Sheet-Plywood-Challenge_FT_AdobeStock_479561244.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/FHM-Functional-Spaces-2025_Lobby-FT.jpg?resize=250%2C250&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/FHM_One-Sheet-Plywood-Challenge_FT_AdobeStock_479561244.jpg?resize=250%2C250&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/How-To-Make-a-Stylish-Shelf-with-a-Secret-Hideaway_FHM25_Hidden_Lock_Box_Lede_MD_P2_10_31_1b.jpg",
+        "path": "/wp-content/uploads/2026/03/FH_How_To_Build_Greenhouse_EF_070125_049_Lede_v2.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/How-To-Make-a-Stylish-Shelf-with-a-Secret-Hideaway_FHM25_Hidden_Lock_Box_Lede_MD_P2_10_31_1b.jpg?w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/FH_How_To_Build_Greenhouse_EF_070125_049_Lede_v2.jpg?w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/BMW-Recalls-Nearly-37000-X3s_GettyImages-2188862286_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/Hyundai-Issues-Stop-Sale_GettyImages-2163363611_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/BMW-Recalls-Nearly-37000-X3s_GettyImages-2188862286_FT.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Hyundai-Issues-Stop-Sale_GettyImages-2163363611_FT.jpg?resize=100%2C100&#038;w=680"
       },
       {
         "path": "/wp-content/uploads/2025/10/Scientists-create-%E2%80%98Superwood-thats-10-times-stronger-than-steel_GettyImages-1408222053_FT.jpg",
@@ -323,34 +298,34 @@
         "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/Scientists-create-%E2%80%98Superwood-thats-10-times-stronger-than-steel_GettyImages-1408222053_FT.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/California-Recalls-325000-REAL-IDs_GettyImages-2214765863_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/GettyImages-1791431329-e1774866359304.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/California-Recalls-325000-REAL-IDs_GettyImages-2214765863_FT.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/GettyImages-1791431329-e1774866359304.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/GettyImages-2213510903-e1767876854526.jpg",
+        "path": "/wp-content/uploads/2026/03/Beware-of-This-Auto-Dealer-Trick_GettyImages-2225343012_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/GettyImages-2213510903-e1767876854526.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Beware-of-This-Auto-Dealer-Trick_GettyImages-2225343012_FT.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/FHM-Functional-Spaces-2025_Lobby-FT.jpg",
+        "path": "/wp-content/uploads/2026/03/Make-a-Building-Block-Table-the-Whole-Family-Will-Love_TFHD26_Building-Block-Table_DR_02_10_02b_FT1.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/FHM-Functional-Spaces-2025_Lobby-FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Make-a-Building-Block-Table-the-Whole-Family-Will-Love_TFHD26_Building-Block-Table_DR_02_10_02b_FT1.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/FHMD25_We-Redesigned-Our-Entire-Master-Bedroom_Alexa-Mallardo_01_SSedit.jpg",
+        "path": "/wp-content/uploads/2026/03/One-Sheet-Plywood-Challenge-2026_FMH26_OSB_Plywood_Coffee_Table_LEDE_MD_P2_02_10_2b.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/FHMD25_We-Redesigned-Our-Entire-Master-Bedroom_Alexa-Mallardo_01_SSedit.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/One-Sheet-Plywood-Challenge-2026_FMH26_OSB_Plywood_Coffee_Table_LEDE_MD_P2_02_10_2b.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/10-Ways-to-Reuse-Upcycle-Items-Around-the-House-for-Storage_GettyImages-1455468473.jpg",
+        "path": "/wp-content/uploads/2026/02/GettyImages-547216474-e1772013651815.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/10-Ways-to-Reuse-Upcycle-Items-Around-the-House-for-Storage_GettyImages-1455468473.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/GettyImages-547216474-e1772013651815.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/11-Entryway-Storage-Ideas-That-Keep-Clutter-Under-Control_GettyImages-1647109652_FT.jpg",
+        "path": "/wp-content/uploads/2025/10/How-to-Build-the-Entryway-Hall-Tree-Youve-Been-Dreaming-Of_FHMDJ26_Entryway-Hall-Tree_DR_09_02_04b-1_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/11-Entryway-Storage-Ideas-That-Keep-Clutter-Under-Control_GettyImages-1647109652_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/How-to-Build-the-Entryway-Hall-Tree-Youve-Been-Dreaming-Of_FHMDJ26_Entryway-Hall-Tree_DR_09_02_04b-1_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
         "path": "/wp-content/uploads/2021/04/couple-holding-keys-GettyImages-565887175.jpg",
@@ -383,54 +358,54 @@
         "full_url": "https://www.familyhandyman.com/wp-content/uploads/2023/03/GettyImages-864535776.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2020/10/snow-tire-crop-GettyImages-895127152.jpg",
+        "path": "/wp-content/uploads/2022/12/GettyImages-1332356423-e1671644548333.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2020/10/snow-tire-crop-GettyImages-895127152.jpg?resize=400%2C400&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2022/12/GettyImages-1332356423-e1671644548333.jpg?resize=400%2C400&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/10/A-Guide-to-Winterizing-Wiper-Blades_GettyImages-2197575869_FT.jpg",
+        "path": "/wp-content/uploads/2022/12/GettyImages-1315188637-e1670431057922.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/A-Guide-to-Winterizing-Wiper-Blades_GettyImages-2197575869_FT.jpg?resize=400%2C400&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2022/12/GettyImages-1315188637-e1670431057922.jpg?resize=400%2C400&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2020/09/GettyImages-1198646459.jpg",
+        "path": "/wp-content/uploads/2021/02/ceramic-and-terracotta-patio-tiles-GettyImages-176129375.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2020/09/GettyImages-1198646459.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2021/02/ceramic-and-terracotta-patio-tiles-GettyImages-176129375.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/10/as-1-e1761570021210.jpg",
+        "path": "/wp-content/uploads/2024/08/A-Girl-Installing-Peel-and-Stick-Tiles-On-Wall-GettyImages-1676229233_KSedit_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/as-1-e1761570021210.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2024/08/A-Girl-Installing-Peel-and-Stick-Tiles-On-Wall-GettyImages-1676229233_KSedit_FT.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/09/The-Dreo-Space-Heater_FH_PTT_Space_Heaters_102224_EF_Dreo_LG-1.jpg",
+        "path": "/wp-content/uploads/2024/08/How-To-Regrout-a-Shower_FH07APR_476_53_100.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/09/The-Dreo-Space-Heater_FH_PTT_Space_Heaters_102224_EF_Dreo_LG-1.jpg?resize=100%2C100&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2024/08/How-To-Regrout-a-Shower_FH07APR_476_53_100.jpg?resize=100%2C100&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/Red-Light-Laws_GettyImages-1396552754_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/FH_How_To_Build_Greenhouse_EF_070125_049_Lede_v2.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/Red-Light-Laws_GettyImages-1396552754_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/FH_How_To_Build_Greenhouse_EF_070125_049_Lede_v2.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/What-Does-White-on-a-Traffic-Light-Mean_GettyImages-1830767604_FT.jpg",
+        "path": "/wp-content/uploads/2023/02/FH12MAR_526_50_520-backyard-waterfall-feature-FHM.jpeg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/What-Does-White-on-a-Traffic-Light-Mean_GettyImages-1830767604_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2023/02/FH12MAR_526_50_520-backyard-waterfall-feature-FHM.jpeg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/Passing-Lane-Laws_GettyImages-1538977685_FT.jpg",
+        "path": "/wp-content/uploads/2023/06/FHM-studio-shed-courtesy-@studioshed-instagram.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/Passing-Lane-Laws_GettyImages-1538977685_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2023/06/FHM-studio-shed-courtesy-@studioshed-instagram.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/10/Can-You-Take-a-U-Turn-on-the-Highway_GettyImages-813562390_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/Tiki-Brand-BiteFighter_via-tikibrand.com_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/Can-You-Take-a-U-Turn-on-the-Highway_GettyImages-813562390_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Tiki-Brand-BiteFighter_via-tikibrand.com_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2022/01/GettyImages-959861588.jpg",
+        "path": "/wp-content/uploads/2022/03/closeup-wasp-GettyImages-1239070402.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2022/01/GettyImages-959861588.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2022/03/closeup-wasp-GettyImages-1239070402.jpg?resize=300%2C300&#038;w=680"
       },
       {
         "path": "/wp-content/uploads/2023/10/Carmen_headshot_web2023.jpeg",
@@ -468,24 +443,24 @@
         "full_url": "https://www.familyhandyman.com/wp-content/uploads/2024/02/FHMA24_BestSmallDehumidifiersGroupPic_Anthony-OReilly-for-family-handyman_01_YVedit.jpg?w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/This-App-Tells-You-the-Real-Life-Span-of-Your-Cell-Phone-Battery_GettyImages-502006826_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/Average-Auto-Insurance_GettyImages-856956280_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/This-App-Tells-You-the-Real-Life-Span-of-Your-Cell-Phone-Battery_GettyImages-502006826_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Average-Auto-Insurance_GettyImages-856956280_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Should-I-Let-My-Battery-Die-Before-Re-Charging_GettyImages-671426576_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/Which-States-Pay-the-Most-for-Gas-Each-Month_GettyImages-1453346548_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/Should-I-Let-My-Battery-Die-Before-Re-Charging_GettyImages-671426576_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Which-States-Pay-the-Most-for-Gas-Each-Month_GettyImages-1453346548_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/05/7-Reasons-Your-Phone-Isnt-Charging_GettyImages-2063243284.jpg",
+        "path": "/wp-content/uploads/2026/03/Average-Electricity-Bill-By-State_GettyImages-2158443315_ATedit_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/05/7-Reasons-Your-Phone-Isnt-Charging_GettyImages-2063243284.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Average-Electricity-Bill-By-State_GettyImages-2158443315_ATedit_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/05/GettyImages-1394217069.jpg",
+        "path": "/wp-content/uploads/2026/03/Average-Water-Bill-By-State_GettyImages-1214104307_DKedit_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/05/GettyImages-1394217069.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Average-Water-Bill-By-State_GettyImages-1214104307_DKedit_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
         "path": "/wp-content/uploads/2025/10/Trusted-Creators_TFH_Lathe_Disc_Swing_EF_032724_EXTRAS_001_MLedit.jpg",
@@ -508,79 +483,84 @@
         "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/04/Home-Sizes-Shrink-as-Millennials-Take-Over-the-Market_GettyImages-1893714264_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Why-Theres-a-Red-Square-Around-Some-Numbers-on-a-Tape-Measure_GettyImages-1352093038_FT.jpg",
+        "path": "/wp-content/uploads/2026/01/Why-You-May-Be-Eligible-for-a-20-Credit-From-Verizon_GettyImages-2248382516_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/Why-Theres-a-Red-Square-Around-Some-Numbers-on-a-Tape-Measure_GettyImages-1352093038_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/Why-You-May-Be-Eligible-for-a-20-Credit-From-Verizon_GettyImages-2248382516_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/08/Using-a-Ladder-on-Stairs_GettyImages-2196428384_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/home-depot_kids-workshop_GettyImages-499363022_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/08/Using-a-Ladder-on-Stairs_GettyImages-2196428384_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/home-depot_kids-workshop_GettyImages-499363022_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/04/Types-of-Car-Jacks_FT_GettyImages-1855083325.jpg",
+        "path": "/wp-content/uploads/2026/03/Walmart-Is-No-Longer-the-Cheapest_AdobeStock_634536023_Editorial_Use_Only_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/04/Types-of-Car-Jacks_FT_GettyImages-1855083325.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Walmart-Is-No-Longer-the-Cheapest_AdobeStock_634536023_Editorial_Use_Only_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/04/GettyImages-1392253556-e1745519355284.jpg",
+        "path": "/wp-content/uploads/2026/03/Beware-of-This-Auto-Dealer-Trick_GettyImages-2225343012_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/04/GettyImages-1392253556-e1745519355284.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Beware-of-This-Auto-Dealer-Trick_GettyImages-2225343012_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Is-It-Safe-To-Store-Toilet-Paper-in-Bulk_GettyImages-1214389913_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/FHMD26_Car-Door-Sticker-Explained_Mae-lander_03_SSedit.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/Is-It-Safe-To-Store-Toilet-Paper-in-Bulk_GettyImages-1214389913_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/FHMD26_Car-Door-Sticker-Explained_Mae-lander_03_SSedit.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/Can-I-Eat-Food-Past-Its-Expiration-Date_GettyImages-2205636254_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/GettyImages-555071307-e1773762647102.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/Can-I-Eat-Food-Past-Its-Expiration-Date_GettyImages-2205636254_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/GettyImages-555071307-e1773762647102.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/10/Have-You-Been-Using-a-Can-Opener-Wrong-This-Whole-Time_GettyImages-1697148858_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/What-Happens-If-You-Get-Hit-By-Someone_GettyImages-1042683874_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/Have-You-Been-Using-a-Can-Opener-Wrong-This-Whole-Time_GettyImages-1697148858_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/What-Happens-If-You-Get-Hit-By-Someone_GettyImages-1042683874_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/How-Long-Do-Canned-Goods-Really-Last_canned-food-expiration-US2211_XX_KS_07_20_007-MLedit.jpg",
+        "path": "/wp-content/uploads/2026/02/Rules-for-Watching-Screens-In-Your-Car_GettyImages-1474015730.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/How-Long-Do-Canned-Goods-Really-Last_canned-food-expiration-US2211_XX_KS_07_20_007-MLedit.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Rules-for-Watching-Screens-In-Your-Car_GettyImages-1474015730.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/10-Laundry-Room-Upgrades-Youve-Never-Considered_GettyImages-2179884390.jpg",
+        "path": "/wp-content/uploads/2026/02/Do-Weighted-Blankets-Help-You-Sleep_GettyImages-2193277049.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/10-Laundry-Room-Upgrades-Youve-Never-Considered_GettyImages-2179884390.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Do-Weighted-Blankets-Help-You-Sleep_GettyImages-2193277049.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Creative-Storage-Solutions-for-Unique-Architectural-in-Your-Home_GettyImages-1474668462_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/Silence-Might-Be-Optimal-for-Sleep_GettyImages-1888879579_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/12/Creative-Storage-Solutions-for-Unique-Architectural-in-Your-Home_GettyImages-1474668462_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Silence-Might-Be-Optimal-for-Sleep_GettyImages-1888879579_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2025/11/GettyImages-638859260-e1764323767401.jpg",
+        "path": "/wp-content/uploads/2025/10/Do-You-Really-Need-a-Headboard_GettyImages-1281334306_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/11/GettyImages-638859260-e1764323767401.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/10/Do-You-Really-Need-a-Headboard_GettyImages-1281334306_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Car-Brands-With-the-Most-Recalls-of-2025_GettyImages-4_DKedit_FT.jpg",
+        "path": "/wp-content/uploads/2025/08/Experts-Weigh-in-on-the-Best-and-Worst-Place-to-Put-Your-Bed_GettyImages-2194122030_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/Car-Brands-With-the-Most-Recalls-of-2025_GettyImages-4_DKedit_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2025/08/Experts-Weigh-in-on-the-Best-and-Worst-Place-to-Put-Your-Bed_GettyImages-2194122030_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Volvo-fire-warning_GettyImages-2113058504_DKedit_FT.jpg",
+        "path": "/wp-content/uploads/2026/03/Hyundai-Issues-Stop-Sale_GettyImages-2163363611_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/Volvo-fire-warning_GettyImages-2113058504_DKedit_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/03/Hyundai-Issues-Stop-Sale_GettyImages-2163363611_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/California-Recalls-325000-REAL-IDs_GettyImages-2214765863_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/Hyundai-100K-Air-Bag-Recall_GettyImages-2152101308_DKedit_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/California-Recalls-325000-REAL-IDs_GettyImages-2214765863_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Hyundai-100K-Air-Bag-Recall_GettyImages-2152101308_DKedit_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Ford-Recalls-Almost-273000-Vehicles_GettyImages-2192537106_FT.jpg",
+        "path": "/wp-content/uploads/2026/02/Toyota-Prius-Doors-Opening_GettyImages-1246403469_ATedit_FT.jpg",
         "type": "image",
-        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/01/Ford-Recalls-Almost-273000-Vehicles_GettyImages-2192537106_FT.jpg?resize=300%2C300&#038;w=680"
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Toyota-Prius-Doors-Opening_GettyImages-1246403469_ATedit_FT.jpg?resize=300%2C300&#038;w=680"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Over-80000-Jeep-Vehicles-Recalled_GettyImages-2150908548_FT.jpg",
+        "type": "image",
+        "full_url": "https://www.familyhandyman.com/wp-content/uploads/2026/02/Over-80000-Jeep-Vehicles-Recalled_GettyImages-2150908548_FT.jpg?resize=300%2C300&#038;w=680"
       },
       {
         "path": "/wp-content/uploads/2020/06/47c5bcb2-subscribe-to-mag-fhm.png",
@@ -618,7 +598,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "7315ms"
+          "latency": "1664ms"
         },
         {
           "resource": "jquery.js",
@@ -641,7 +621,7 @@
         },
         "value_props": [
           {
-            "title": "New Year New Decor",
+            "title": "Plywood Projects",
             "desc": "Description detected in content block."
           },
           {
@@ -649,30 +629,30 @@
             "desc": "Description detected in content block."
           },
           {
-            "title": "Traffic Laws",
+            "title": "Backyard Beautificaton",
             "desc": "Description detected in content block."
           }
         ],
         "main_content": [
           {
             "tag": "p",
-            "text": "MENU Search terms Watch Free Pro New Homeowners Projects DIY University Product Reviews Subscribe"
+            "text": "MENU Search terms Watch Free Pro New Homeowners Projects Plywood Challenge Product Reviews Subscribe"
           },
           {
             "tag": "p",
-            "text": "Why Headboards Are More Important To Beds Than You Think"
+            "text": "10 Ideas for Taking Empty Walls From Bare to Beautiful"
           },
           {
             "tag": "p",
-            "text": "Your Home, But Better: Achieve a High-Functioning Home"
+            "text": "Family Handyman’s One-Sheet Plywood Challenge"
           },
           {
             "tag": "h1",
-            "text": "How To Make a Stylish Shelf with a Secret Hideaway"
+            "text": "How To Build a Mini Greenhouse Using Recycled Windows"
           },
           {
             "tag": "p",
-            "text": "37,000 BMWs Recalled Because Their Steering Wheels Have Gone Rogue"
+            "text": "Fatal Incident Prompts Hyundai to Issue Immediate Stop-Sale Order"
           },
           {
             "tag": "p",
@@ -680,15 +660,19 @@
           },
           {
             "tag": "p",
-            "text": "California DMV Recalls 325,000 Misprinted REAL IDs — Is Yours on the List?"
+            "text": "Is Your HVAC System Making Your Allergies Worse?"
           },
           {
             "tag": "p",
-            "text": "How Long Do Phones REALLY Last? What It Means to Be Obsolete"
+            "text": "Beware of This Auto Dealer Trick That Can Add Thousands to Your Loan"
           },
           {
             "tag": "h2",
-            "text": "New Year New Decor"
+            "text": "Plywood Projects"
+          },
+          {
+            "tag": "p",
+            "text": "OSB Makes Cool Plywood Furniture—This Coffee Table’s Proof Tips for Using Every Square Inch of Plywood How to Build the Entryway Hall Tree You’ve Been Dreaming Of"
           },
           {
             "tag": "h2",
@@ -708,7 +692,7 @@
           },
           {
             "tag": "p",
-            "text": "Winterization 101 What Is Ideal Tire Pressure in Cold Weather? Keep Your Windshield Clear With a Winterized Wiper Blade 16 Ways to Warm Up a Cold Room That Actually Work How to Keep Your Home Warm and Your Energy Bill Lower This Winter The Dreo Space Heater Is Our Favorite Way To Warm Up A Room Traffic Laws Explaining Red Light Laws Across the United States Red, Yellow, Green… and White? The New Traffic Signal Color You Need to Know Can You Drive Over the Speed Limit in the Left Lane? Passing Lane Laws Explained Can You Make a U-Turn on the Highway If You Missed Your Exit?"
+            "text": "Terrific Tiling What To Know About Vintage Tiles How To Change Grout Color Ceramic vs. Porcelain Outdoor Tile: Which One Is the Better Choice? What to Know About Peel-and-Stick Backsplash Tile How To Regrout a Shower Backyard Beautificaton How To Build a Mini Greenhouse Using Recycled Windows Best Buy and DIY Garden Water Features for Serene Outdoor Spaces 10 Backyard Shed Ideas for Any Size Backyard This Genius New Gadget Uses Your Patio Lights to Repel Mosquitoes"
           },
           {
             "tag": "h2",
@@ -716,23 +700,23 @@
           },
           {
             "tag": "p",
-            "text": "1 Why You Shouldn’t Be Washing Bath Mats in the Washer 2 8 Things To Store in Your Garage This Winter 3 Slow Running Water: Unclog the Aerator 4 Why Don’t All Cars Have a Rear Windshield Wiper? 5 9 Simple Tips for a Faster Wi-Fi Network 6 Riveting Picture Hanger 7 Are Remote Car Starters Bad For Your Vehicle? Meet the Team Family Handyman‘s editors are homeowners and DIYers, just like you. With backgrounds in woodworking, set-building, construction, home improvement and journalism, our team is the creative force behind the helpful DIY projects, tips and repairs you’ve come to know and love. Shopping Need help making buying decisions? Family Handyman has you covered. We’re always on the lookout for the latest products and brands that make life easier."
+            "text": "1 Control Summer Wasps by Eliminating the Queen In the Spring 2 How To Kill Weeds With Broadleaf Herbicide 3 47 Mind-Blowing Ways You’re Wasting Money at Home 4 Family Handyman’s One-Sheet Plywood Challenge 5 Will a Dryer Sheet in a Mailbox Deter Bees? 6 Does Storing Paint Cans Upside Down Actually Work? 7 Can This Popular Vinegar Mixture Really Keep Weeds Out of Patio Cracks? Meet the Team Family Handyman‘s editors are homeowners and DIYers, just like you. With backgrounds in woodworking, set-building, construction, home improvement and journalism, our team is the creative force behind the helpful DIY projects, tips and repairs you’ve come to know and love. Shopping Need help making buying decisions? Family Handyman has you covered. We’re always on the lookout for the latest products and brands that make life easier."
           },
           {
             "tag": "p",
-            "text": "Extend Your Electronics' Lives This App Can Tell You How Much Life Your Phone’s Battery Has Left in It Should I Let My Battery Die Before Re-Charging? Dispelling the Myth 7 Reasons Your Phone Isn’t Charging Are Phone Cases Still Worth It in 2025? Pro Join the Family Handyman Creators Program! 14 Essential Tips For Installing House Wrap Correctly Home Depot Says No to Tariff-Driven Price Hikes Downsizing the Dream: Why Millennials Are Opting for Smaller Homes"
+            "text": "Bills Bills Bills How Much Drivers Pay for Auto Insurance in Every State Which States Pay the Most for Gas Each Month? Every State’s Average Electricity Bill, From the Cheapest to Most Expensive Some States Pay Quadruple What Others Do for Water — Is Yours One of Them? Pro Join the Family Handyman Creators Program! 14 Essential Tips For Installing House Wrap Correctly Home Depot Says No to Tariff-Driven Price Hikes Downsizing the Dream: Why Millennials Are Opting for Smaller Homes"
           },
           {
             "tag": "h2",
-            "text": "Get to Know Your Tools"
+            "text": "Smarter Shopping"
           },
           {
             "tag": "h2",
-            "text": "Safely Stock Up"
+            "text": "Crucial Car Knowledge"
           },
           {
             "tag": "h2",
-            "text": "Organize It Your Way"
+            "text": "Build a Better Bedtime"
           },
           {
             "tag": "h2",
@@ -756,14 +740,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 19,
+          "paragraphs": 23,
           "headings": 18,
           "images": 66
         }
       }
     },
     {
-      "route_id": "ROUTE-975018EE",
+      "route_id": "ROUTE-DB35139B",
       "path": "/article/at-home-with-family-handyman-streaming/",
       "type": "Detected Link",
       "anchor_text": "Watch Free",
@@ -774,7 +758,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-80C71769",
+      "route_id": "ROUTE-55D4A08C",
       "path": "/article/handymanpro/",
       "type": "Detected Link",
       "anchor_text": "Pro",
@@ -785,7 +769,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-68FC94F6",
+      "route_id": "ROUTE-9AD80BAB",
       "path": "/article/new-homeowners-guide/",
       "type": "Detected Link",
       "anchor_text": "New Homeowners",
@@ -796,7 +780,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D4662987",
+      "route_id": "ROUTE-A37DA13F",
       "path": "/article/projects/",
       "type": "Detected Link",
       "anchor_text": "Projects",
@@ -807,7 +791,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B95EAC9B",
+      "route_id": "ROUTE-D8636F31",
+      "path": "/article/plywood-challenge/",
+      "type": "Detected Link",
+      "anchor_text": "Plywood Challenge",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CC6D6249",
       "path": "/products/",
       "type": "Detected Link",
       "anchor_text": "Product Reviews",
@@ -818,8 +813,8 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ACBB5784",
-      "path": "/article/do-you-need-a-headboard/",
+      "route_id": "ROUTE-E0A41F4B",
+      "path": "/list/fill-up-empty-walls/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
       "rendering_strategy": "Unknown",
@@ -829,7 +824,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1E8E372B",
+      "route_id": "ROUTE-6657347D",
       "path": "/topics/decor/",
       "type": "Detected Link",
       "anchor_text": "Decor",
@@ -840,10 +835,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7CA6D6E9",
-      "path": "/author/rwright/",
+      "route_id": "ROUTE-7B6890ED",
+      "path": "/author/clewis/",
       "type": "Detected Link",
-      "anchor_text": "By Rebecca Wright",
+      "anchor_text": "By clewis",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -851,30 +846,8 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DFDE31B6",
-      "path": "/article/functional-spaces/",
-      "type": "Detected Link",
-      "anchor_text": "Unknown",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-DBDE9DB9",
-      "path": "/author/api/",
-      "type": "Detected Link",
-      "anchor_text": "By Family Handyman",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-236DFF11",
-      "path": "/project/hidden-storage-box/",
+      "route_id": "ROUTE-A2E63EE7",
+      "path": "/article/plywood-challenge/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
       "rendering_strategy": "Unknown",
@@ -884,10 +857,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B07DA6E4",
+      "route_id": "ROUTE-507D4A8A",
       "path": "/skills/woodworking/",
       "type": "Detected Link",
-      "anchor_text": "Projects",
+      "anchor_text": "Plywood Contest",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -895,7 +868,29 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EE5CC7BF",
+      "route_id": "ROUTE-04AC5855",
+      "path": "/author/noelle-devoe/",
+      "type": "Detected Link",
+      "anchor_text": "By noelle devoe",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2214364E",
+      "path": "/project/mini-greenhouse/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-69C62A49",
       "path": "/author/carmen-delapaz/",
       "type": "Detected Link",
       "anchor_text": "By Carmen De La Paz",
@@ -906,21 +901,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EBD7DB1F",
-      "path": "/article/bmw-steering-wheel-recall/",
+      "route_id": "ROUTE-4E312D2D",
+      "path": "/article/hyundai-stop-sale/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-300F28DD",
-      "path": "/trending/recalls/",
-      "type": "Detected Link",
-      "anchor_text": "Recalls",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

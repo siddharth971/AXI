@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-95993CEE",
-  "generated_at": "2026-01-21T07:27:04.864Z",
+  "generated_at": "2026-04-02T04:24:24.236Z",
   "global_configuration": {
     "brand_name": "Live Science",
     "domain": "www.livescience.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "199.232.22.114",
+      "server_ip": "151.101.106.114",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -22,29 +22,34 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 86,
+      "total_files": 91,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/vite/assets/reduxStore-iLD4WOR5.js",
+        "path": "/vite/assets/reduxStore-BtBBq4g3.js",
         "type": "script",
-        "full_url": "https://www.livescience.com/vite/assets/reduxStore-iLD4WOR5.js"
+        "full_url": "https://www.livescience.com/vite/assets/reduxStore-BtBBq4g3.js"
       },
       {
-        "path": "/vite/assets/main-DL1MnV31.js",
+        "path": "/vite/assets/main-zlij1trA.js",
         "type": "script",
-        "full_url": "https://www.livescience.com/vite/assets/main-DL1MnV31.js"
+        "full_url": "https://www.livescience.com/vite/assets/main-zlij1trA.js"
       },
       {
-        "path": "/vite/assets/Flexi/Widgets/Carouzelize.ts-C8l5kFtQ.js",
+        "path": "/vite/assets/Flexi/Widgets/Carouzelize.ts-BQCnpvGa.js",
         "type": "script",
-        "full_url": "https://www.livescience.com/vite/assets/Flexi/Widgets/Carouzelize.ts-C8l5kFtQ.js"
+        "full_url": "https://www.livescience.com/vite/assets/Flexi/Widgets/Carouzelize.ts-BQCnpvGa.js"
       },
       {
-        "path": "/vite/assets/Viafoura/EntryScript/EntryScript.ts-zLHX3J2X.js",
+        "path": "/vite/assets/Ads/Ads.ts-CCQdtPIk.js",
         "type": "script",
-        "full_url": "https://www.livescience.com/vite/assets/Viafoura/EntryScript/EntryScript.ts-zLHX3J2X.js"
+        "full_url": "https://www.livescience.com/vite/assets/Ads/Ads.ts-CCQdtPIk.js"
+      },
+      {
+        "path": "/vite/assets/Viafoura/EntryScript/EntryScript.ts-BdI18pJG.js",
+        "type": "script",
+        "full_url": "https://www.livescience.com/vite/assets/Viafoura/EntryScript/EntryScript.ts-BdI18pJG.js"
       },
       {
         "path": "/vite/assets/Footer/ccpa-footer-link.ts-B9_pzN11.js",
@@ -67,14 +72,14 @@
         "full_url": "https://freyr.futurecdn.net/freyr.js"
       },
       {
-        "path": "/js/w/es6/master-eede4fcb/responsive.js",
+        "path": "/js/w/es6/master-7d018138/responsive.js",
         "type": "script",
-        "full_url": "https://search-api.fie.futurecdn.net/js/w/es6/master-eede4fcb/responsive.js"
+        "full_url": "https://search-api.fie.futurecdn.net/js/w/es6/master-7d018138/responsive.js"
       },
       {
-        "path": "/js/w/es6/master-eede4fcb/hawklinks.js",
+        "path": "/js/w/es6/master-7d018138/hawklinks.js",
         "type": "script",
-        "full_url": "https://search-api.fie.futurecdn.net/js/w/es6/master-eede4fcb/hawklinks.js"
+        "full_url": "https://search-api.fie.futurecdn.net/js/w/es6/master-7d018138/hawklinks.js"
       },
       {
         "path": "/entry/index.js",
@@ -82,9 +87,9 @@
         "full_url": "https://cdn.viafoura.net/entry/index.js"
       },
       {
-        "path": "/css/browser/master-eede4fcb/responsive.min.css",
+        "path": "/css/browser/master-7d018138/responsive.min.css",
         "type": "stylesheet",
-        "full_url": "https://search-api.fie.futurecdn.net/css/browser/master-eede4fcb/responsive.min.css"
+        "full_url": "https://search-api.fie.futurecdn.net/css/browser/master-7d018138/responsive.min.css"
       },
       {
         "path": "/p/",
@@ -97,124 +102,144 @@
         "full_url": "https://www.livescience.com/SPONSORED_IMAGE_URL"
       },
       {
+        "path": "/flexiimages/mqlcl6p9ca1767779103.jpg",
+        "type": "image",
+        "full_url": "https://cdn.mos.cms.futurecdn.net/flexiimages/mqlcl6p9ca1767779103.jpg"
+      },
+      {
+        "path": "/flexiimages/9g8bisxmnt1764585116.png",
+        "type": "image",
+        "full_url": "https://cdn.mos.cms.futurecdn.net/flexiimages/9g8bisxmnt1764585116.png"
+      },
+      {
+        "path": "/flexiimages/6gtg42flht1767779175.svg",
+        "type": "image",
+        "full_url": "https://cdn.mos.cms.futurecdn.net/flexiimages/6gtg42flht1767779175.svg"
+      },
+      {
+        "path": "/flexiimages/kd4wux0r8f1767779188.svg",
+        "type": "image",
+        "full_url": "https://cdn.mos.cms.futurecdn.net/flexiimages/kd4wux0r8f1767779188.svg"
+      },
+      {
         "path": "/media/img/ls-logo-w.svg",
         "type": "image",
         "full_url": "https://www.livescience.com/media/img/ls-logo-w.svg"
       },
       {
-        "path": "/8Cijd4Cjh78FM9pGosRfLc-200-80.jpg",
+        "path": "/KE7saYj343zgk4VN83GGJh-200-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/8Cijd4Cjh78FM9pGosRfLc-200-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/KE7saYj343zgk4VN83GGJh-200-80.png"
       },
       {
-        "path": "/6vfK6LTqLDmfn9TLD9mDKR-200-80.png",
+        "path": "/CWM8S2cstukq3hW47kBQoN-200-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/6vfK6LTqLDmfn9TLD9mDKR-200-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/CWM8S2cstukq3hW47kBQoN-200-80.png"
       },
       {
-        "path": "/zcRWPUJfbSRLRSd5oGdasY-200-80.png",
+        "path": "/mTUUKdvZFnMKJhUJ8gYVsB-200-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/zcRWPUJfbSRLRSd5oGdasY-200-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/mTUUKdvZFnMKJhUJ8gYVsB-200-80.jpg"
       },
       {
-        "path": "/sRGHBjb5SQj3FPaRJYDEtN-200-80.jpg",
+        "path": "/WvAuJNGqTsoGeNZHpvkrc4-200-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/sRGHBjb5SQj3FPaRJYDEtN-200-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/WvAuJNGqTsoGeNZHpvkrc4-200-80.jpg"
       },
       {
-        "path": "/gnX5AegPpyAePpu9ebWGN8-200-80.jpg",
+        "path": "/iipf5d3h6ZxUx2wgLPEybG-200-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/gnX5AegPpyAePpu9ebWGN8-200-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/iipf5d3h6ZxUx2wgLPEybG-200-80.jpg"
       },
       {
-        "path": "/v4VSnESLqP2jqcyLNtSvEX-200-80.png",
+        "path": "/GSotzvCXUX3MyiujJXaBWi-200-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/v4VSnESLqP2jqcyLNtSvEX-200-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/GSotzvCXUX3MyiujJXaBWi-200-80.jpg"
       },
       {
-        "path": "/NVEguP3dnzDw8Uzverj6tK-320-80.jpg",
+        "path": "/mTUUKdvZFnMKJhUJ8gYVsB-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/NVEguP3dnzDw8Uzverj6tK-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/mTUUKdvZFnMKJhUJ8gYVsB-320-80.jpg"
       },
       {
-        "path": "/4DXV38Ndg996QeAqG6kEjP-320-80.jpg",
+        "path": "/CWM8S2cstukq3hW47kBQoN-320-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/4DXV38Ndg996QeAqG6kEjP-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/CWM8S2cstukq3hW47kBQoN-320-80.png"
       },
       {
-        "path": "/BhLUEkRWtAKKEoK999HWzF-320-80.png",
+        "path": "/3rniEYk7aYqt2UJxxDRqBB-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/BhLUEkRWtAKKEoK999HWzF-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/3rniEYk7aYqt2UJxxDRqBB-320-80.jpg"
       },
       {
-        "path": "/UkX7DLnU3i8yLn6VCG2M79-320-80.png",
+        "path": "/gAGZAZmPfG4qeh8Sa74XzK-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/UkX7DLnU3i8yLn6VCG2M79-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/gAGZAZmPfG4qeh8Sa74XzK-320-80.jpg"
       },
       {
-        "path": "/boS32eVapHx5i9JRz647Yj-320-80.png",
+        "path": "/p6D59zAV8Xvd2XxkvtNnFH-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/boS32eVapHx5i9JRz647Yj-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/p6D59zAV8Xvd2XxkvtNnFH-320-80.jpg"
       },
       {
-        "path": "/chjPHij48QWwFU5fyRQAt3-320-80.png",
+        "path": "/r3rwnXFPQEryjBpqhBZNKd-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/chjPHij48QWwFU5fyRQAt3-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/r3rwnXFPQEryjBpqhBZNKd-320-80.jpg"
       },
       {
-        "path": "/iQCLfZGUXjH2t7pKVP6y-320-80.png",
+        "path": "/ysP7RJQh8xyeA9HNZQaHcS-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/iQCLfZGUXjH2t7pKVP6y-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/ysP7RJQh8xyeA9HNZQaHcS-320-80.jpg"
       },
       {
-        "path": "/aYZfbDnm9Nyhvrq4nhVoPJ-320-80.jpg",
+        "path": "/7kc45QB6HueLoHtwJXz8wB-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/aYZfbDnm9Nyhvrq4nhVoPJ-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/7kc45QB6HueLoHtwJXz8wB-320-80.jpg"
       },
       {
-        "path": "/GB6szTmdJSZeMHx85rTpW5-320-80.png",
+        "path": "/q53LDqswT76DK2fXmCbLL6-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/GB6szTmdJSZeMHx85rTpW5-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/q53LDqswT76DK2fXmCbLL6-320-80.jpg"
       },
       {
-        "path": "/K7BMqnWVcYkrgyQBqQouLB-320-80.jpg",
+        "path": "/4YqJsvAAtKejHVsjZN7qJn-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/K7BMqnWVcYkrgyQBqQouLB-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/4YqJsvAAtKejHVsjZN7qJn-320-80.jpg"
       },
       {
-        "path": "/noDHiPWjZrWruXW3c6omc9-320-80.jpg",
+        "path": "/RGcPuTWysYXHGUjocmmwwF-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/noDHiPWjZrWruXW3c6omc9-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/RGcPuTWysYXHGUjocmmwwF-320-80.jpg"
       },
       {
-        "path": "/8G9WnvLRk2J3fQabWY6ewh-320-80.jpg",
+        "path": "/Tr5R9SGmXBSEKfBfqtmxrP-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/8G9WnvLRk2J3fQabWY6ewh-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/Tr5R9SGmXBSEKfBfqtmxrP-320-80.jpg"
       },
       {
-        "path": "/8shHhAqQJDmBpE4WmtHJn7-320-80.png",
+        "path": "/gFMd5KEQ7z4Ex2M7X7jpbn-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/8shHhAqQJDmBpE4WmtHJn7-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/gFMd5KEQ7z4Ex2M7X7jpbn-320-80.jpg"
       },
       {
-        "path": "/ou5NwUT2d4gcAdPbRaNJ9i-320-80.png",
+        "path": "/PvksX7iDW42Wu5BoHg6ANV-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/ou5NwUT2d4gcAdPbRaNJ9i-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/PvksX7iDW42Wu5BoHg6ANV-320-80.jpg"
       },
       {
-        "path": "/7LdeqgnCqXnqnQJxX6UcFc-320-80.png",
+        "path": "/a4s3oqJi8dtfiU26oe3f6h-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/7LdeqgnCqXnqnQJxX6UcFc-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/a4s3oqJi8dtfiU26oe3f6h-320-80.jpg"
       },
       {
-        "path": "/GBA3kb53TaVMcgaLVeKTKj-320-80.jpg",
+        "path": "/MkxQPhbCZi5aBtmoTaoA9Z-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/GBA3kb53TaVMcgaLVeKTKj-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/MkxQPhbCZi5aBtmoTaoA9Z-320-80.jpg"
       },
       {
-        "path": "/zrdwMQv5GKotVK6JHozwGi-320-80.png",
+        "path": "/6DKG4Vyw7bCbDSQaYey3tD-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/zrdwMQv5GKotVK6JHozwGi-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/6DKG4Vyw7bCbDSQaYey3tD-320-80.jpg"
       },
       {
         "path": "/uZS7jPu5tMo2exEsuadSm6-450-80.jpg",
@@ -237,94 +262,94 @@
         "full_url": "https://cdn.mos.cms.futurecdn.net/FLRBVncWhiBnqpRVHbuFMA-450-80.jpg"
       },
       {
-        "path": "/pc4rBkjgqHoU69g3y7gqom-320-80.png",
+        "path": "/5hBJcEpKFMamgUfTueHEL7-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/pc4rBkjgqHoU69g3y7gqom-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/5hBJcEpKFMamgUfTueHEL7-320-80.jpg"
       },
       {
-        "path": "/QKnKMcgUVQkQA7HkFpMBSN-320-80.png",
+        "path": "/hBrQyXsCWUatzjXXKL4X9o-320-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/QKnKMcgUVQkQA7HkFpMBSN-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/hBrQyXsCWUatzjXXKL4X9o-320-80.png"
       },
       {
-        "path": "/Xy7rZ8ues6ffqqVcuh8fce-320-80.png",
+        "path": "/Ppt2BppAVpnQAiSqvKFwuf-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/Xy7rZ8ues6ffqqVcuh8fce-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/Ppt2BppAVpnQAiSqvKFwuf-320-80.jpg"
       },
       {
-        "path": "/bUFcDWg3hh4kFE9NVY7kQi-320-80.png",
+        "path": "/m67LJCThv4ZKv5VSBQEueh-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/bUFcDWg3hh4kFE9NVY7kQi-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/m67LJCThv4ZKv5VSBQEueh-320-80.jpg"
       },
       {
-        "path": "/ZdnaZStuCRVMcTVfx6YJxY-320-80.jpg",
+        "path": "/e2HbxPEaRhCAbX7wAKZhfJ-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/ZdnaZStuCRVMcTVfx6YJxY-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/e2HbxPEaRhCAbX7wAKZhfJ-320-80.jpg"
       },
       {
-        "path": "/8Cijd4Cjh78FM9pGosRfLc.jpg",
+        "path": "/mTUUKdvZFnMKJhUJ8gYVsB.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/8Cijd4Cjh78FM9pGosRfLc.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/mTUUKdvZFnMKJhUJ8gYVsB.jpg"
       },
       {
-        "path": "/TEZcWapvKhV5R2CUCE2WTV-320-80.png",
+        "path": "/Sh6bnoJECZeFNg8TJwmA2G-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/TEZcWapvKhV5R2CUCE2WTV-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/Sh6bnoJECZeFNg8TJwmA2G-320-80.jpg"
       },
       {
-        "path": "/RpSmgWV8oi7fp6BiGLe8TB-320-80.png",
+        "path": "/R4VnJSV6rNrckhx3ZeR2ZR-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/RpSmgWV8oi7fp6BiGLe8TB-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/R4VnJSV6rNrckhx3ZeR2ZR-320-80.jpg"
       },
       {
-        "path": "/KmHZYH4Vf6fENoNihVDcEh-320-80.jpg",
+        "path": "/nEEvwbrp3MYFpjo8DRUonQ-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/KmHZYH4Vf6fENoNihVDcEh-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/nEEvwbrp3MYFpjo8DRUonQ-320-80.jpg"
       },
       {
-        "path": "/yXJFYyD32hNBWS4LRh24dZ-320-80.png",
+        "path": "/Z5GgLHbbRhRqi34DJzmNKH-320-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/yXJFYyD32hNBWS4LRh24dZ-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/Z5GgLHbbRhRqi34DJzmNKH-320-80.png"
       },
       {
-        "path": "/UGhHSCdj4ANuamB4kYNDMo-320-80.jpg",
+        "path": "/2oLqE4ULG6Zj2z4k9fngkk-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/UGhHSCdj4ANuamB4kYNDMo-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/2oLqE4ULG6Zj2z4k9fngkk-320-80.jpg"
       },
       {
-        "path": "/WDgDKJTU4xaKXUjwRHEFW-320-80.jpg",
+        "path": "/DETYkaCzRKucHn3mENZzsU-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/WDgDKJTU4xaKXUjwRHEFW-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/DETYkaCzRKucHn3mENZzsU-320-80.jpg"
       },
       {
-        "path": "/knU5Nwa2cyoNvuCmmKGiGg-320-80.png",
+        "path": "/YPn2ALsc6x9Xv3SSwk9VcA-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/knU5Nwa2cyoNvuCmmKGiGg-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/YPn2ALsc6x9Xv3SSwk9VcA-320-80.jpg"
       },
       {
-        "path": "/UQmU2orihhaXAwnMPAC4mj-320-80.jpg",
+        "path": "/688MfvFopJiV5Mvu5n6Mwh-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/UQmU2orihhaXAwnMPAC4mj-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/688MfvFopJiV5Mvu5n6Mwh-320-80.jpg"
       },
       {
-        "path": "/pqDGnAYuxgJAbu7J98Y9B-320-80.png",
+        "path": "/jwDax3ueawQSUXsGckH4Mm-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/pqDGnAYuxgJAbu7J98Y9B-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/jwDax3ueawQSUXsGckH4Mm-320-80.jpg"
       },
       {
-        "path": "/YXK5xEpMA2HDhs4p6WNVxB-320-80.png",
+        "path": "/vKPi53wvyqds8az9Mb9yw4-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/YXK5xEpMA2HDhs4p6WNVxB-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/vKPi53wvyqds8az9Mb9yw4-320-80.jpg"
       },
       {
-        "path": "/T9WSawF3n6xi83A2SBJYXf-320-80.png",
+        "path": "/ZbagFZniU6FhsAm9aWSnkP-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/T9WSawF3n6xi83A2SBJYXf-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/ZbagFZniU6FhsAm9aWSnkP-320-80.jpg"
       },
       {
-        "path": "/vtTrKWRcPyZGdteaX72Vr3-320-80.jpg",
+        "path": "/h9kX9VNSjtg3chEE8kGBCV-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/vtTrKWRcPyZGdteaX72Vr3-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/h9kX9VNSjtg3chEE8kGBCV-320-80.jpg"
       },
       {
         "path": "/K48hJzun6B47muwGPZDMmG-450-80.jpg",
@@ -357,34 +382,34 @@
         "full_url": "https://cdn.mos.cms.futurecdn.net/kvh9mqgb9uMWfzFi3invCF-450-80.jpg"
       },
       {
-        "path": "/EA4FwvVocukqHSwjAGhxeN-320-80.png",
+        "path": "/LbrLw7xKSfrP2T4wTpAVRA-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/EA4FwvVocukqHSwjAGhxeN-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/LbrLw7xKSfrP2T4wTpAVRA-320-80.jpg"
       },
       {
-        "path": "/q9LkSAPdNyjGKhj2wcpKm5-320-80.jpg",
+        "path": "/KhYxMHTfmCEkBx9B8c38dS-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/q9LkSAPdNyjGKhj2wcpKm5-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/KhYxMHTfmCEkBx9B8c38dS-320-80.jpg"
       },
       {
-        "path": "/wbYNd938ZN77JtcsTLrAn7-320-80.png",
+        "path": "/bXLE9B7uxNfqZuysXZUHpG-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/wbYNd938ZN77JtcsTLrAn7-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/bXLE9B7uxNfqZuysXZUHpG-320-80.jpg"
       },
       {
-        "path": "/fcW5KYzgXMpR4ocuz2Xp6f-320-80.jpg",
+        "path": "/4zwLTmX2PcHdUxbAU3G92d-320-80.png",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/fcW5KYzgXMpR4ocuz2Xp6f-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/4zwLTmX2PcHdUxbAU3G92d-320-80.png"
       },
       {
-        "path": "/gcCnsn72HJ82o6wExN9d8U-320-80.gif",
+        "path": "/SokyQaABEogjqmpMWvtK3i-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/gcCnsn72HJ82o6wExN9d8U-320-80.gif"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/SokyQaABEogjqmpMWvtK3i-320-80.jpg"
       },
       {
-        "path": "/sWg4GLG4AJ8fUjzPpHXL6G-320-80.jpg",
+        "path": "/FSAVcr42b79m9shKEic7QX-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/sWg4GLG4AJ8fUjzPpHXL6G-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/FSAVcr42b79m9shKEic7QX-320-80.jpg"
       },
       {
         "path": "/sm4Wk4DGTK8Apia2pCNNeh-320-80.jpg",
@@ -392,29 +417,29 @@
         "full_url": "https://cdn.mos.cms.futurecdn.net/sm4Wk4DGTK8Apia2pCNNeh-320-80.jpg"
       },
       {
-        "path": "/unVHYnVUYU3Y2WFCT85YeP-320-80.png",
+        "path": "/xH7qWeyqToGBfvUxbCzdrR-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/unVHYnVUYU3Y2WFCT85YeP-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/xH7qWeyqToGBfvUxbCzdrR-320-80.jpg"
       },
       {
-        "path": "/fzjGtMtve8B7czjJPuvNrZ-320-80.png",
+        "path": "/DJuDkPx9AZkfRhjAxEUDwM-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/fzjGtMtve8B7czjJPuvNrZ-320-80.png"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/DJuDkPx9AZkfRhjAxEUDwM-320-80.jpg"
       },
       {
-        "path": "/qJuirjNquuaVXNzQxuwaYM-320-80.jpg",
+        "path": "/snpubKrm9sFyoXKGDwY8vP-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/qJuirjNquuaVXNzQxuwaYM-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/snpubKrm9sFyoXKGDwY8vP-320-80.jpg"
       },
       {
-        "path": "/rwfvs4BcoBJtngqoWzAx5k-320-80.jpg",
+        "path": "/GdFyUe9tzxbsysUHHQCFah-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/rwfvs4BcoBJtngqoWzAx5k-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/GdFyUe9tzxbsysUHHQCFah-320-80.jpg"
       },
       {
-        "path": "/eiXSAmjKzX7zzZfHMriaSV-320-80.jpg",
+        "path": "/DMa3S95iu6deuzFcS27Fun-320-80.jpg",
         "type": "image",
-        "full_url": "https://cdn.mos.cms.futurecdn.net/eiXSAmjKzX7zzZfHMriaSV-320-80.jpg"
+        "full_url": "https://cdn.mos.cms.futurecdn.net/DMa3S95iu6deuzFcS27Fun-320-80.jpg"
       },
       {
         "path": "/flexiimages/dq9uu49vac1765206893.svg",
@@ -472,18 +497,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "1564ms"
+          "latency": "924ms"
         },
         {
-          "resource": "reduxStore-iLD4WOR5.js",
+          "resource": "reduxStore-BtBBq4g3.js",
           "latency": "pending"
         },
         {
-          "resource": "main-DL1MnV31.js",
+          "resource": "main-zlij1trA.js",
           "latency": "pending"
         },
         {
-          "resource": "Carouzelize.ts-C8l5kFtQ.js",
+          "resource": "Carouzelize.ts-BQCnpvGa.js",
           "latency": "pending"
         }
       ],
@@ -510,371 +535,371 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "A mouse study suggests estrogen may increase gut pain by activating specific cells, offering hints to why IBS is more common in women than in men."
+            "text": "Keep exploring and earning more as a member."
           },
           {
             "tag": "p",
-            "text": "Scientists see monster black hole 'reborn' after 100 million years of rest Skyler Ware published 20 January 26"
+            "text": "Live Science Quizzes"
           },
           {
             "tag": "p",
-            "text": "Scientists saw an inactive black hole 'reawaken' from a 100-million-year nap with fire and fury."
+            "text": "Quick, fun science challenges."
           },
           {
             "tag": "p",
-            "text": "Tiny improvements in sleep, nutrition and exercise could significantly extend lifespan, study suggests Marianne Guenot published 20 January 26"
+            "text": "Science Crosswords"
           },
           {
             "tag": "p",
-            "text": "Combining small improvements to several areas of well-being could lead to bigger health gains than improving just one in isolation, a new study suggests."
+            "text": "Short, brain-teasing puzzles."
           },
           {
             "tag": "p",
-            "text": "James Webb telescope discovers earliest Type II supernova in the known universe Skyler Ware published 20 January 26"
+            "text": "See what you&rsquo;ve unlocked. Explore your membership benefits."
           },
           {
             "tag": "p",
-            "text": "An extremely early Type II supernova explosion, named after the Titan goddess of dawn in Greek mythology, occurred just 1 billion years after the Big Bang."
+            "text": "Science Newsletters"
           },
           {
             "tag": "p",
-            "text": "Earth hit by biggest 'solar radiation storm' in 23 years, triggering Northern Lights as far as Southern California Harry Baker published 20 January 26"
+            "text": "Select the newsletters you'd like to receive and enter your email below."
           },
           {
             "tag": "p",
-            "text": "Earth's magnetic field was struck by a \"severe\" solar storm yesterday (Jan. 19), triggering vibrant auroras in the U.S. and large parts of Europe. The storm broke a record that had stood for more than two decades."
+            "text": "A new study shows that dice and games of chance date back thousands of years earlier than experts previously thought."
           },
           {
             "tag": "p",
-            "text": "Color blindness linked to lower bladder cancer survival, early study hints Marianne Guenot published 20 January 26"
+            "text": "Artemis II launch LIVE: Artemis II rocket lifts off to the moon Ben Turner, Patrick Pester, Brandon Specktor, Harry Baker, Kenna Hughes-Castleberry last updated 1 April 26"
           },
           {
             "tag": "p",
-            "text": "People with color blindness may be less able to spot an early sign of bladder cancer, making them likelier to be diagnosed later, a study suggests."
+            "text": "Live Blog Wednesday, April 1, 2026: Get the latest news and updates on the Artemis II mission as NASA makes final preparations to return humanity to the moon."
           },
           {
             "tag": "p",
-            "text": "Giant underwater plumes triggered by 7-story waves at Nazar&eacute; captured off Portuguese coast A 2020 satellite photo shows the immense power of 7-story waves crashing along the Portuguese coast. Later the same day, a surfer rode a 101-foot-tall wave at Nazar&eacute;, setting a new world record. Earth from space Medieval 'super ship' found wrecked off Denmark is largest vessel of its kind Divers have unearthed the largest cog shipwreck ever discovered in a strait off Denmark, signalling a period of economic development in medieval Europe. Ever watched a pet cow pick up a broom and scratch herself with it? You have now A pet cow in Austria started using a broom to scratch herself &mdash; the first ever documented case of bovine tool use. 2 Comments Eerie 'sand burials' of elite Anglo-Saxons and their 'sacrificed' horse discovered near UK nuclear power plant The 1,400 year-old \"sand burials\" of two people and a horse were found near a nuclear power plant construction site in the U.K. 1,700-year-old Roman marching camps discovered in Germany &mdash; along with a multitude of artifacts like coins and the remnants of shoes Archaeologists in Germany have discovered four Roman marching camps and around 1,500 artifacts, including coins and shoe nails, dating to the third century. Remnants of spills on Renaissance-era textbook reveal recipes for 'curing' ailments with lizard heads and human feces A novel biochemical analysis of a Renaissance medical text has successfully recovered centuries-old proteins that might be from lizards and hippos. 3 Comments How much of your body could you lose &mdash; and still survive? Five vital organs are essential for life, but survival is more medically complex. 4 Comments Space James Webb telescope reveals sharpest-ever look at the edge of a supermassive black hole By Ivan Farkas published 19 January 26"
+            "text": "Artemis II blasts off: Humans are on their way back to the moon Patrick Pester published 1 April 26"
           },
           {
             "tag": "p",
-            "text": "The James Webb Space Telescope snapped its sharpest image of the area around a black hole, solving a long-standing galactic mystery."
+            "text": "NASA's Artemis II rocket has taken off in a historic launch on Florida's Space Coast, sending humans back to the moon for the first time in more than 50 years."
           },
           {
             "tag": "p",
-            "text": "Astronomers confirm earliest Milky Way-like galaxy in the universe, just 2 billion years after the Big Bang By Matthew Williams published 18 January 26"
+            "text": "Astronauts can face 'nearly lethal doses' of solar radiation &mdash; so why launch Artemis II during the sun's peak of activity? Space scientist Patricia Reiff explains. Patrick Pester published 1 April 26"
           },
           {
             "tag": "p",
-            "text": "Astronomers have confirmed the earliest barred spiral galaxy in the universe, a Milky-Way-like structure that existed just 2 billion years after the Big Bang."
+            "text": "NASA's Artemis II flight around the moon will expose astronauts to space weather. Space scientist Patricia Reiff tells Live Science how solar flares and radiation will impact the lunar mission."
           },
           {
             "tag": "p",
-            "text": "NASA launches Pandora telescope, taking JWST's search for habitable worlds to a new level By Daniel Apai published 18 January 26"
+            "text": "'Farting' comet seen reversing its spin for the first time ever Harry Baker published 1 April 26"
           },
           {
             "tag": "p",
-            "text": "The James Webb telescope's search for habitable exoplanets is getting a big boost from its new star-watching companion, Pandora."
+            "text": "A new analysis of archival Hubble Space Telescope photos reveals that a peculiar comet slowed its spin before fully reversing its rotational direction via \"outgassing\" during a flyby of Earth in 2017."
           },
           {
             "tag": "p",
-            "text": "Strange discovery offers 'missing link' in planet formation By Sharmila Kuthunur published 18 January 26"
+            "text": "Extreme wildfires, droughts and storms could happen even under moderate global warming, study finds Sascha Pare published 1 April 26"
           },
           {
             "tag": "p",
-            "text": "A decade of observations of four planets around the young planetary system V1298 Tau revealed a rare, long-sought missing link in planet formation."
+            "text": "New research suggests devastating climate outcomes that are typically associated with extreme global warming could hit even we limit heating to 3.6 F above preindustrial levels."
           },
           {
             "tag": "p",
-            "text": "James Webb telescope spots 'failed stars' in a breathtaking cluster near Earth &mdash; Space photo of the week By Shreejaya Karantha published 18 January 26"
+            "text": "Artemis II blasts off: Humans are on their way back to the moon NASA's Artemis II rocket has taken off in a historic launch on Florida's Space Coast, sending humans back to the moon for the first time in more than 50 years. Artemis II launch LIVE: Artemis II rocket lifts off to the moon Wednesday, April 1, 2026: Get the latest news and updates on the Artemis II mission as NASA makes final preparations to return humanity to the moon. 165 Comments Live Blog Artemis II timeline: 12 key steps that will take NASA astronauts to the moon and back NASA is gearing up to send astronauts back to the lunar environment for the first time in nearly 55 years. We've broken the 10-day mission into 12 key steps, from the historic liftoff to a record-breaking splashdown. Teenager's hives turned out to be caused by rare water allergy In a rare medical case, a teenage girl suddenly began breaking out in hives whenever she was exposed to water. 4 Comments Farthest, fastest and most diverse: 6 major records the Artemis II astronauts will smash as NASA returns to the moon The Artemis II astronauts will soon launch on the first crewed mission to the moon in more than 50 years. During this trip, they will travel farther and faster than any humans in history &mdash; and will each claim a different individual record. 5 Comments China's huge push to reduce air pollution had an unexpected consequence in the Arctic China's cuts to aerosol emissions reduced sea ice loss, but it may have revealed a bigger story about climate change. 2 Comments Scientists have discovered an 'Achilles' heel' in deadly superbugs In a mouse study, scientists found that a bacterial sugar can be exploited to disable dangerous antibiotic-resistant pathogens. Space How to watch NASA's historic Artemis II launch for the moon By Patrick Pester published 1 April 26"
           },
           {
             "tag": "p",
-            "text": "The James Webb Space Telescope captured a colorful portrait of a nearby stellar cradle, revealing a wealth of insights about countless stars."
+            "text": "NASA's Artemis II mission is set to take four astronauts on a record-breaking spaceflight around the moon, bringing humans farther into space than ever before. Here's how to watch it."
+          },
+          {
+            "tag": "p",
+            "text": "2 Comments Space Exploration '80% chance of a go,' launch weather officer says at NASA's Artemis II prelaunch conference By Kenna Hughes-Castleberry published 31 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "NASA said an X-class solar flare is not currently expected to affect the Artemis II mission, while weather on Earth looks favorable for a smooth launch."
+          },
+          {
+            "tag": "p",
+            "text": "NASA's historic Artemis II mission gets green light for flight as countdown begins By Kenna Hughes-Castleberry published 30 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "NASA has given the 10-day Artemis II mission the green light after its flight readiness review, and the weather outlook remains favorable."
+          },
+          {
+            "tag": "p",
+            "text": "6 Comments Space Exploration 'We are getting very, very close': NASA makes final Artemis II preparations as expectation grows for Wednesday launch By Patrick Pester published 30 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "NASA's Artemis II crew is ready to fly around the moon, with promising weather forecasts for a Wednesday launch."
+          },
+          {
+            "tag": "p",
+            "text": "4 Comments Space Exploration Saturn's chaotic atmosphere revealed in most comprehensive view yet by James Webb and Hubble telescopes By Kenna Hughes-Castleberry published 29 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "Viewing Saturn in complementary wavelengths, the James Webb and Hubble space telescopes reveal more about what makes up the layers of ringed planet's atmosphere."
           },
           {
             "tag": "h3",
-            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Planet Earth Last year, the oceans absorbed a record-breaking amount of heat &mdash; equivalent to 12 Hiroshima bombs exploding every second"
+            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Planet Earth Scientists discover potentially huge freshwater reservoir hidden beneath Great Salt Lake"
           },
           {
             "tag": "p",
-            "text": "By Eos.org, Grace van Deelen published 19 January 26"
+            "text": "By Sascha Pare published 31 March 26"
           },
           {
             "tag": "p",
-            "text": "In 2025, the ocean absorbed an extra 23 zettajoules of heat energy in 2025, breaking the ocean heat content record for the ninth consecutive year."
+            "text": "Researchers have found a layer of fresh water beneath Utah's Great Salt Lake that reaches up to 2.5 miles deep and could turn out to be as big, or bigger, than the lake."
           },
           {
             "tag": "p",
-            "text": "'The scientific cost would be severe': A Trump Greenland takeover would put climate research at risk By Martin Siegert published 17 January 26"
+            "text": "9 Comments Rivers &amp; Oceans Concentric rocky rings adorned with ancient artwork wear a magma 'hat' in the Sahara By Harry Baker published 31 March 26"
           },
           {
             "tag": "p",
-            "text": "Trump's calls for a takeover of Greenland puts open scientific collaboration that is helping our understanding of the threat of global sea-level rise at risk."
+            "text": "Earth from space A 2025 astronaut photo shows a massif made of concentric mountain ridges in the Libyan desert. The rocky walls contain ancient artworks and are occasionally used to contain herds of grazing cattle."
           },
           {
             "tag": "p",
-            "text": "Forced closure of premier US weather-modeling institute could endanger millions of Americans By Jane Palmer published 16 January 26"
+            "text": "What would happen to Earth if the sun suddenly vanished? By Jesse Steinmetz published 29 March 26"
           },
           {
             "tag": "p",
-            "text": "From high-wind forecasts and wildfire behavior to floods, aviation hazards, air quality and space weather, science developed at the National Center for Atmospheric Research informs decisions that aim to reduce risk."
+            "text": "Earth is habitable due to warmth from the sun. So what would happen if the sun disappeared?"
           },
           {
             "tag": "p",
-            "text": "5 Comments Planet Earth Scars from ancient 'megaquakes' at Cascadia subduction zone discovered in deep-sea landslides By Stephanie Pappas published 16 January 26"
+            "text": "Our fossil fuel economy is a house of cards and Trump's war in Iran is about to topple it. The need for a clean energy transition has never been clearer. By Michael E. Mann published 27 March 26"
           },
           {
             "tag": "p",
-            "text": "Large subduction-zone earthquakes leave scars on the continental slope in the deep sea."
+            "text": "Opinion Trump's war in Iran is the embodiment of everything that's wrong with our dependence on fossil fuels &mdash; and it's highlighting just how vital the transition to renewables is."
           },
           {
             "tag": "p",
-            "text": "New map of Antarctica reveals hidden world of lakes, valleys and mountains buried beneath miles of ice By Olivia Ferrari published 15 January 26"
+            "text": "DNA shed by every living thing is lurking in the environment &mdash; and it could tell us how Earth is changing in real time By Hannah Osborne published 27 March 26"
           },
           {
             "tag": "p",
-            "text": "The map shows diverse geological features shaping Antarctic glaciers from below, which can improve climate models of ice melt."
+            "text": "Environments are littered with the DNA of the creatures that inhabit them. Analyzing it could provide a real-time view of how our planet is changing."
           },
           {
             "tag": "p",
-            "text": "4 Comments Planet Earth SPONSORED_HEADLINE"
+            "text": "By Owen Jarus published 30 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "Around 14 new rock-art depictions of thylacines, also known as Tasmanian tigers, have been found in northern Australia."
+          },
+          {
+            "tag": "p",
+            "text": "Tudor Heart: A Renaissance gold necklace featuring a French-English pun on the love between Henry VIII and his first wife, Katherine of Aragon By Kristina Killgrove published 30 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "Astonishing Artifacts A chance discovery of a 16th-century necklace reveals new information about Tudor-era jewelry styles."
+          },
+          {
+            "tag": "p",
+            "text": "'Major disruption in Neanderthal history': 65,000 years ago, all Neanderthals in Europe died out except for one lineage By Charles Q. Choi published 27 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "The last Neanderthals to survive in Europe came from a single lineage that survived the worst period of the ice age, ancient DNA reveals."
+          },
+          {
+            "tag": "p",
+            "text": "11 Comments Neanderthals 2 Neanderthals present at same Siberian cave 10,000 years apart were distant relatives, 110,000-year-old bone reveals By Aristos Georgiou published 26 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "Researchers extracted DNA from a Neanderthal bone fragment found in Russia's Denisova Cave, and the genome is shedding light on how small and isolated their groups were."
+          },
+          {
+            "tag": "p",
+            "text": "18 million-year-old fossils of ape found in Africa, but in an unexpected place By Colin Barras published 26 March 26"
+          },
+          {
+            "tag": "p",
+            "text": "The ancestor of apes was long thought to come from East Africa, but newly discovered fossils in Egypt may prompt a rethink."
+          },
+          {
+            "tag": "p",
+            "text": "2 Comments Human Evolution SPONSORED_HEADLINE"
           },
           {
             "tag": "p",
             "text": "SPONSORED SPONSORED_STRAPLINE"
           },
           {
-            "tag": "h2",
-            "text": "Science News"
+            "tag": "p",
+            "text": "1 Artemis II blasts off: Humans are on their way back to the moon 2 Astronauts can face 'nearly lethal doses' of solar radiation &mdash; so why launch Artemis II during the sun's peak of activity? Space scientist Patricia Reiff explains. 3 Farting comet seen reversing its spin for the first time ever &mdash;&#8236; and it may soon 'self-destruct' 4 Extreme wildfires, droughts and storms could happen even under moderate global warming, study finds 5 Diagnostic dilemma: Teenager's hives turned out to be caused by rare water allergy Animals 'It blew my mind': Long-lost ice-age ecosystem, including fossils of lion-size armadillo and giant ground sloth, discovered in Texas 'water cave' By Kenna Hughes-Castleberry published 31 March 26"
           },
           {
             "tag": "p",
-            "text": "Analysis In-depth analysis on the science happening in the news right now"
+            "text": "Two researchers snorkeling in a subterranean stream in Texas discovered fossils from the Late Pleistocene epoch, revealing new details about what lived in this ancient ecosystem."
           },
           {
             "tag": "p",
-            "text": "Science Spotlight Shining a light on new science transforming our world"
+            "text": "Live Science Today: Jaw-dropping first glimpse of sperm whale birth and how NASA is turning astronauts into test subjects By Ben Turner published 27 March 26"
           },
           {
             "tag": "p",
-            "text": "Opinion Expert voices from the cutting edge of science"
+            "text": "Daily Roundup Friday, March 27, 2026: Your daily roundup of the biggest science stories making headlines."
           },
           {
             "tag": "p",
-            "text": "Explainers Everything you need to know about the science news that matters"
-          },
-          {
-            "tag": "h2",
-            "text": "archaeology"
+            "text": "Critically endangered hare spotted in surprising location for the first time in 40 years &mdash; but it was already dead By Aristos Georgiou published 25 March 26"
           },
           {
             "tag": "p",
-            "text": "Nebra Sky Disc: The world's oldest depiction of astronomical phenomena &mdash; and it may depict the Pleiades By Kristina Killgrove published 19 January 26"
+            "text": "Scientists in China have announced the first confirmed sighting of the critically endangered Hainan hare in part of its native range in four decades, after spotting its completely flattened carcass on a roadside."
           },
           {
             "tag": "p",
-            "text": "The unique bronze-and-gold Nebra Sky Disc appears to represent what the night sky looked like more than three millennia ago."
+            "text": "Watch sperm whale headbutt another for no apparent reason By Sascha Pare published 23 March 26"
           },
           {
             "tag": "p",
-            "text": "How the ancient Romans managed their wealth (it wasn't just by hiding hoards) By Konstantine Panegyres published 18 January 26"
+            "text": "Researchers have captured extraordinary footage of sperm whales randomly headbutting each other, confirming anecdotal reports from mariners and whalers in the 18th and 19th centuries."
           },
           {
             "tag": "p",
-            "text": "How did Romans invest their wealth in ancient times?"
+            "text": "A secret weapon to fight carbon emissions was just discovered: Beavers By Kenna Hughes-Castleberry published 22 March 26"
           },
           {
             "tag": "p",
-            "text": "Romans regularly soaked in filthy, lead-contaminated bath water, Pompeii study finds By Kristina Killgrove published 17 January 26"
+            "text": "A new study in Switzerland finds that beaver-built wetlands can trap and store large amounts of carbon, offering a low-cost boost for restoration and climate resilience."
           },
           {
             "tag": "p",
-            "text": "A study of limescale buildup in an early bathing facility at Pompeii has revealed that the water was replaced only once per day."
+            "text": "6 Comments Animals Why do animals have different pupil shapes? By Ashley Hamer published 22 March 26"
           },
           {
             "tag": "p",
-            "text": "4 Comments Romans Gender ambiguity was a tool of power 4,500 years ago in Mesopotamia By Chaya Kasif published 17 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "Gender-ambiguous people in ancient Mesopotamia were powerful and important members of society more than four millennia ago."
-          },
-          {
-            "tag": "p",
-            "text": "Nefertiti's tomb close to discovery, famed archaeologist Zahi Hawaas claims in new documentary By Owen Jarus published 16 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "Zahi Hawass says he hopes to discover the tomb of Nefertiti before he retires, and he believes he's getting close."
-          },
-          {
-            "tag": "p",
-            "text": "By Sarah Wild published 16 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "Cheetahs vanished from Saudi Arabia half a century ago. Now long-dead mummified big cats may help herald their return."
-          },
-          {
-            "tag": "p",
-            "text": "5 Comments Cats Rare nocturnal parrots in New Zealand are breeding for the first time in 4 years &mdash; here's why By Skyler Ware published 15 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "The 2026 breeding season for endangered k&#257;k&#257;p&#333; could produce the most chicks in decades."
-          },
-          {
-            "tag": "p",
-            "text": "3 Comments Birds Woolly rhino flesh pulled from ancient wolf stomach gives clues to ice age giant's extinction By Kristina Killgrove published 14 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "More than 14,000 years ago, a wolf pup ate a piece of woolly rhino. Scientists have analyzed the rhino's DNA to figure out why it went extinct."
-          },
-          {
-            "tag": "p",
-            "text": "5 Comments Land Mammals How to watch 'Pole to Pole with Will Smith' &mdash; TV and streaming details as Oscar-winning actor blends adventure and scientific discovery By Patrick Fletcher published 14 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "The actor embarks on a \"thrilling adventure\" across seven expeditions &mdash; here's how to watch \"Pole to Pole with Will Smith\" online from anywhere."
-          },
-          {
-            "tag": "p",
-            "text": "Never-before-seen footage captures moment scientists find new, giant anaconda species in Amazon By Sascha Pare published 9 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "Scientists recently discovered a new species of green anaconda in the Amazon rainforest. A new Nat Geo series shows the moment they encountered this snake in the wild."
-          },
-          {
-            "tag": "p",
-            "text": "10 Comments Snakes 50 mind-blowing science facts about our incredible world By Laura Geggel published 4 January 26"
-          },
-          {
-            "tag": "p",
-            "text": "Life's Little Mysteries If you're looking for weird facts about animals, gross human body facts or just something a bit random, get ready to geek out with these fascinating bits of trivia."
+            "text": "Pupil shapes vary widely across the animal kingdom, from the W-shaped pupils of cuttlefish to the bar-like pupils of goats. But why are animal pupils shaped so differently?"
           },
           {
             "tag": "h3",
-            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Health &amp; Human Behavior Viruses that evolved on the space station and were sent back to Earth were more effective at killing bacteria"
+            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Health &amp; Human Behavior Pig semen component could deliver chemotherapy to hard-to-reach eye cancer, mouse study suggests"
           },
           {
             "tag": "p",
-            "text": "By Manuela Callari published 18 January 26"
+            "text": "By Eva Amsen published 30 March 26"
           },
           {
             "tag": "p",
-            "text": "Near-weightless conditions can mutate genes and alter the physical structures of bacteria and phages, disrupting their normal interactions in ways that could help us treat drug-resistant infections."
+            "text": "Researchers showed that \"exosomes\" from pig semen may be used in a potential new treatment for retinoblastoma."
           },
           {
             "tag": "p",
-            "text": "Why is flu season so bad this year? By Clarissa Brincat published 18 January 26"
+            "text": "Endometriosis messes with the immune system and causes 'ripple effects across the body' By April Rees, Laura Elizabeth Cowley published 29 March 26"
           },
           {
             "tag": "p",
-            "text": "Flu season in the U.S. is particularly bad this year, and a new branch of the flu family tree may be to blame."
+            "text": "Two researchers explain how endometriosis drives a whole body immune response due to inflammation, urging the medical community to see it as a whole-body issue."
           },
           {
             "tag": "p",
-            "text": "This is SPARDA: A self-destruct, self-defense system in bacteria that could be a new biotech tool By RJ Mackenzie published 17 January 26"
+            "text": "A gut microbe linked to the Mediterranean diet boosts muscle strength in mice By Kamal Nahas published 28 March 26"
           },
           {
             "tag": "p",
-            "text": "A bacterial defense system called SPARDA employs kamikaze-like tactics to protect cells and could be useful in future biotechnologies."
+            "text": "Researchers are exploring the prospect of using gut bacteria to boost muscle strength, after zeroing in on a microbe that does this in mice"
           },
           {
             "tag": "p",
-            "text": "'Zombie' cells may drive common form of epilepsy By RJ Mackenzie published 16 January 26"
+            "text": "4 Comments Food &amp; Drink Why does cannabis give people 'the munchies'? By Kenna Hughes-Castleberry published 28 March 26"
           },
           {
             "tag": "p",
-            "text": "Scientists are unraveling the role of senescent cells in a common form of epilepsy, and it could point to new treatments."
+            "text": "A researcher explains how your body processes the THC from cannabis, resulting in \"the munchies.\""
           },
           {
             "tag": "p",
-            "text": "These genes were thought to lead to blindness 100% of the time. They don't. By Stephanie Pappas published 15 January 26"
+            "text": "3 Comments Health Synesthesia isn't just in your mind. The body reacts as if the colors were real. By Clarissa Brincat published 27 March 26"
           },
           {
             "tag": "p",
-            "text": "New research finds that retinal diseases thought to map one-to-one to genetic mutations are more complicated than that."
+            "text": "Pupil size in people with synesthesia changed depending on how bright or dark the perceived colors were."
           },
           {
             "tag": "p",
-            "text": "A man's sudden seizures were set off by sudoku By Sophie Berdugo published 14 January 26"
+            "text": "Brain aging results from a loss of control over how genes are regulated, mouse study suggests By RJ Mackenzie published 26 March 26"
           },
           {
             "tag": "p",
-            "text": "In the weeks following a ski accident, a German man experienced seizures when he completed sudoku puzzles."
+            "text": "Aging may \"erase\" the epigenetic markers that control gene expression in the brain, and this may create a snowball effect."
           },
           {
             "tag": "p",
-            "text": "By Tamika Worrell published 19 January 26"
+            "text": "By Keumars Afifi-Sabet published 31 March 26"
           },
           {
             "tag": "p",
-            "text": "As AI-generated images and videos become more common, Indigenous people are increasingly concerned about digital forms of cultural appropriation and blackface."
+            "text": "Future quantum computers will need to be far less powerful than we thought to threaten the security of encrypted messages, banking information and other sensitive data."
           },
           {
             "tag": "p",
-            "text": "Could there ever be a worldwide internet outage? By Abby Wilson published 18 January 26"
+            "text": "AI systems are enabling mass surveillance in the US, and there is no national law that 'meaningfully limits' the use of this data By Jess Reia published 29 March 26"
           },
           {
             "tag": "p",
-            "text": "We've all dealt with bad internet connections. But could the entire internet ever collapse?"
+            "text": "A technology policy researcher explores the ethics of implementing AI in current camera surveillance systems."
           },
           {
             "tag": "p",
-            "text": "Tapping into new 'probabilistic computing' paradigm can make AI chips use much less power, scientists say By Fiona Jackson published 16 January 26"
+            "text": "Live Science Today: Meta and Google fined for causing social media addiction and how dogs were our friends for millennia By Ben Turner published 26 March 26"
           },
           {
             "tag": "p",
-            "text": "A new digital system allows operations on a chip to run in parallel, so an AI program can arrive at the best possible answer more quickly."
+            "text": "Daily Roundup Thursday, March 26, 2026: Your daily roundup of the biggest science stories making headlines."
           },
           {
             "tag": "h3",
-            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Physics, Math &amp; Chemistry Our model of the universe is deeply flawed &mdash; unless space is actually a 'sticky' fluid"
+            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Physics, Math &amp; Chemistry Chemistry student develops clear polish that turns your fingernail into a touch-screen stylus"
           },
           {
             "tag": "p",
-            "text": "By Paul Sutter published 15 January 26"
+            "text": "By Kristina Killgrove published 23 March 26"
           },
           {
             "tag": "p",
-            "text": "Our best models of the cosmos don't add up &mdash; but that could change if the universe is actually made of a viscous 'fluid,' a new paper suggests."
+            "text": "Researchers have developed a prototype nail polish to help more people access electrically-charged touch screens."
           },
           {
             "tag": "p",
-            "text": "26 Comments Dark Energy Science history: Sophie Germain, first woman to win France's prestigious 'Grand Mathematics Prize' is snubbed when tickets to award ceremony are 'lost in the mail' &mdash; Jan. 9, 1816 By Tia Ghose published 9 January 26"
+            "text": "6 Comments Chemistry A new twist on matter? Strange 'Half-M&#1255;bius' molecule has rare properties chemists have never seen before By Victoria Atkinson published 23 March 26"
           },
           {
             "tag": "p",
-            "text": "Sophie Germain was a brilliant, self-taught mathematician who won one of France's most prestigious prizes, yet she declined to attend the award ceremony because the committee members didn't respect her work."
+            "text": "Chemists created a strange \"half-M&#1255;bius\" molecule, where electrons twist freely out of place to make a continuously looping surface."
           },
           {
             "tag": "p",
-            "text": "Science history: Richard Feynman gives a fun little lecture &mdash; and dreams up an entirely new field of physics &mdash; Dec. 29, 1959 By Tia Ghose published 29 December 25"
+            "text": "Physicists created an electron 'catapult' that moves particles at 'extraordinary' speed By Skyler Ware published 21 March 26"
           },
           {
             "tag": "p",
-            "text": "In a short talk at Caltech, physicist Richard Feynman laid out a vision of manipulating and controlling atoms at the tiniest scale. It would precede the field of nanotechnology by decades."
+            "text": "Using a new method, physicists found a way to \"catapult\" electrons across solar materials in quadrillionths of a second."
+          },
+          {
+            "tag": "h3",
+            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED Quizzes &amp; Games Live Science crossword puzzle #37: The seventh planet from the sun &mdash; 2 down"
           },
           {
             "tag": "p",
-            "text": "3 Comments Particle Physics SPONSORED_HEADLINE"
-          },
-          {
-            "tag": "p",
-            "text": "SPONSORED SPONSORED_STRAPLINE"
-          },
-          {
-            "tag": "h2",
-            "text": "Quizzes &amp; Games"
-          },
-          {
-            "tag": "p",
-            "text": "Live Science crossword puzzle #27: The explosion that created the universe &mdash; 5 down By Harry Baker last updated 20 January 26"
+            "text": "By Harry Baker last updated 30 March 26"
           },
           {
             "tag": "p",
@@ -882,47 +907,47 @@
           },
           {
             "tag": "p",
-            "text": "Human origins quiz: How well do you know the story of humanity? By Sophie Berdugo published 16 January 26"
+            "text": "Computing quiz: Can you match these 'ancient' devices to their pictures? By Kenna Hughes-Castleberry published 21 March 26"
           },
           {
             "tag": "p",
-            "text": "Think you know about our human relatives? Take our quiz to find out &mdash; and remember, it's human to make mistakes."
+            "text": "Think you know your technology? Put your computing knowledge to the test by matching classic and modern devices to their images."
           },
           {
             "tag": "p",
-            "text": "T. rex quiz: How much do you really know about the king of the dinosaurs? By Chris Simms published 4 January 26"
+            "text": "First Americans quiz: How much do you know about the first people to reach the Americas? By Laura Geggel published 19 March 26"
           },
           {
             "tag": "p",
-            "text": "Almost everyone has heard of Tyrannosaurus rex, but how much do you actually know about this iconic dinosaur predator? Take our quiz to find out."
+            "text": "The first Americans came over during the last ice age, but how much do you know about them?"
           },
           {
             "tag": "h3",
-            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Live Science Recommends Best fitness trackers 2026: From smart rings to multisport GPS watches"
+            "text": "SPONSORED_HEADLINE SPONSORED SPONSORED_STRAPLINE SPONSORED VIEW MORE Live Science Recommends Best smart rings 2026: Our top 3 sleep and fitness tracker rings, tried and tested"
           },
           {
             "tag": "p",
-            "text": "By Andrew Williams, Anna Gora last updated 20 January 26"
+            "text": "By Anna Gora last updated 1 April 26"
           },
           {
             "tag": "p",
-            "text": "Buying Guide These are the best fitness trackers you can buy in every category, from Amazfit Balance and Garmin Fenix 8 to Whoop MG."
+            "text": "Buying guides These are the best smart rings you can buy in every category, from Oura Ring Gen 4 and Ultrahuman Ring AIR to Amazfit Helio."
           },
           {
             "tag": "p",
-            "text": "Suunto Vertical 2 smartwatch review: Beauty and the beast By Anna Gora published 20 January 26"
+            "text": "The best last-minute Amazon deals for a fitter body, cleaner air and a brighter smile By Anna Gora last updated 1 April 26"
           },
           {
             "tag": "p",
-            "text": "Reviews The Suunto Vertical 2 smartwatch proves to be a great alternative to the Garmin Fenix 8. Durable yet surprisingly stylish, it is very functional in the outdoors and more reasonably priced."
+            "text": "Deals Save big on fitness trackers, running shoes, air purifiers, electric toothbrushes, and more."
           },
           {
             "tag": "p",
-            "text": "Best budget fitness trackers 2026: Cheap but mighty By Maddy Biddulph, Anna Gora last updated 19 January 26"
+            "text": "Snag this Paramount+ deal and get a bird's-eye view of the world with these amazing documentaries &mdash; but be quick, it ends today! By Ian Stokes published 31 March 26"
           },
           {
             "tag": "p",
-            "text": "Buying Guide These are the best budget fitness trackers you can buy in every category, from Fitbit Inspire 3 and Xiaomi Smart Band 9 to Garmin Forerunner 165."
+            "text": "Deals From all the way up here, we've spotted an amazing 79% off Paramount+ for two months."
           },
           {
             "tag": "p",
@@ -934,22 +959,18 @@
           },
           {
             "tag": "p",
-            "text": "Please login or signup to comment"
-          },
-          {
-            "tag": "p",
             "text": "Please wait..."
           }
         ],
         "structure_summary": {
-          "paragraphs": 229,
+          "paragraphs": 242,
           "headings": 77,
-          "images": 83
+          "images": 87
         }
       }
     },
     {
-      "route_id": "ROUTE-35976EA6",
+      "route_id": "ROUTE-0D9BBDB5",
       "path": "/news",
       "type": "Detected Link",
       "anchor_text": "Science news",
@@ -960,7 +981,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E341ED36",
+      "route_id": "ROUTE-1A3D6DA4",
       "path": "/opinion",
       "type": "Detected Link",
       "anchor_text": "Opinion",
@@ -971,7 +992,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3732C469",
+      "route_id": "ROUTE-B60BE740",
       "path": "/tag/lifes-little-mysteries",
       "type": "Detected Link",
       "anchor_text": "Life's Little Mysteries",
@@ -982,7 +1003,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7237C2B1",
+      "route_id": "ROUTE-7CE3D6DF",
       "path": "/quizzes",
       "type": "Detected Link",
       "anchor_text": "Science quizzes",
@@ -993,7 +1014,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-662D1173",
+      "route_id": "ROUTE-A040B5F1",
       "path": "/human-behavior/arts-entertainment/live-science-crossword-puzzle",
       "type": "Detected Link",
       "anchor_text": "Crossword",
@@ -1004,7 +1025,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-918A768B",
+      "route_id": "ROUTE-4F98DAB8",
       "path": "/about-live-science",
       "type": "Detected Link",
       "anchor_text": "About us",
@@ -1015,7 +1036,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-567C938D",
+      "route_id": "ROUTE-39E39BD6",
       "path": "/newsletter",
       "type": "Detected Link",
       "anchor_text": "Newsletters",
@@ -1026,7 +1047,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2F78B8EC",
+      "route_id": "ROUTE-0AFCB7CA",
       "path": "/technology/internet/follow-live-science-on-social-media",
       "type": "Detected Link",
       "anchor_text": "Follow us",
@@ -1037,7 +1058,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-52ACB98F",
+      "route_id": "ROUTE-2C8FD9C2",
       "path": "/archive",
       "type": "Detected Link",
       "anchor_text": "Story archive",
@@ -1048,10 +1069,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9A8A1D46",
-      "path": "/health/viruses-infections-disease/viruses-that-evolved-on-the-space-station-and-were-sent-back-to-earth-were-more-effective-at-killing-bacteria",
+      "route_id": "ROUTE-9C322F49",
+      "path": "/tag/artemis-2",
       "type": "Detected Link",
-      "anchor_text": "Space viruses kill bacteria",
+      "anchor_text": "Artemis II",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1059,10 +1080,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9AAB0322",
-      "path": "/space/astronomy/james-webb-telescope-reveals-sharpest-ever-look-at-the-edge-of-a-black-hole-and-it-could-solve-a-major-galactic-mystery",
+      "route_id": "ROUTE-F57DC22D",
+      "path": "/space/live/artemis-ii-launch-wednesday-april-1",
       "type": "Detected Link",
-      "anchor_text": "JWST images black hole edge",
+      "anchor_text": "Artemis II live blog",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1070,10 +1091,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B8427AF0",
-      "path": "/archaeology/remnants-of-spills-on-renaissance-era-textbook-reveal-recipes-for-curing-ailments-with-lizard-heads-and-human-feces",
+      "route_id": "ROUTE-A3745A7D",
+      "path": "/space/the-moon/how-to-catch-the-full-pink-moon-in-april-followed-by-a-blue-moon-in-may",
       "type": "Detected Link",
-      "anchor_text": "Renaissance-era medicine book",
+      "anchor_text": "Pink moon",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1081,10 +1102,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-69E9C469",
-      "path": "/archaeology/romans/romans-regularly-soaked-in-filthy-lead-contaminated-bath-water-pompeii-study-finds",
+      "route_id": "ROUTE-6C4C65E2",
+      "path": "/planet-earth/climate-change/chinas-huge-push-to-reduce-air-pollution-had-an-unexpected-consequence-in-the-arctic",
       "type": "Detected Link",
-      "anchor_text": "Romans soaked in lead bathwater",
+      "anchor_text": "China's pollution cut impacts Arctic",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1092,10 +1113,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-39511248",
-      "path": "/animals/land-mammals/ever-seen-a-pet-cow-pick-up-a-broom-and-scratch-herself-with-it-you-have-now",
+      "route_id": "ROUTE-B2D7412D",
+      "path": "/health/diagnostic-dilemma-teenagers-hives-turned-out-to-be-caused-by-rare-water-allergy",
       "type": "Detected Link",
-      "anchor_text": "Cow uses tool",
+      "anchor_text": "Teenager's hives from water allergy",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1103,10 +1124,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0015E768",
-      "path": "/space/astronomy",
+      "route_id": "ROUTE-D416AE8B",
+      "path": "/space/space-exploration",
       "type": "Detected Link",
-      "anchor_text": "Astronomy",
+      "anchor_text": "Space Exploration",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -1117,7 +1138,11 @@
   "api_endpoints_manifest": {
     "endpoint": {
       "method": "UNKNOWN",
-      "url": "/api/check-user-cookie/"
+      "url": "/api/external/gate/"
+    },
+    "gates?site=": {
+      "method": "UNKNOWN",
+      "url": "/api/external/gates?site="
     }
   }
 }

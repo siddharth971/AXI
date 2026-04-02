@@ -6,7 +6,7 @@
  *
  * Architecture:
  * ├── config/         - Configuration and environment
- * ├── core/           - Core systems (context, memory)
+ * ├── core/           - Core systems (context, memory, db)
  * ├── nlp/            - Natural Language Processing
  * ├── skills/         - Skill handlers and router
  * ├── utils/          - Utilities (logger, helpers)
@@ -16,6 +16,9 @@
  * @version 1.0.0
  */
 
+"use strict";
+
+const crypto = require("crypto");
 const express = require("express");
 const helmet = require("helmet");
 const compression = require("compression");
@@ -32,8 +35,8 @@ const context = require("./core/context");
 const sessions = require("./core/sessions");
 const { validateBody, schemas } = require("./utils/validator");
 const knowledgeHandler = require("./skills/knowledge-handler");
+const { close: closeDatabase } = require("./core/db");
 
-// NLP and Skills
 // NLP and Skills
 const nlp = require("./nlp/nlp");
 const skills = require("./skills");
@@ -48,9 +51,6 @@ const scheduler = require("./core/scheduler");
 scheduler.init();
 
 // ===========================
-// Express Setup
-// ===========================
-
 // Express & Socket Setup
 // ===========================
 
@@ -82,9 +82,53 @@ const commandLimiter = rateLimit({
   message: { error: "Too many requests. Please slow down." }
 });
 
-// In-memory intent hit counter (resets on restart — used for /api/metrics and galaxy view)
-const intentMetrics = new Map();
-let totalCommandsProcessed = 0;
+// ===========================
+// Metrics Collector
+// ===========================
+
+class MetricsCollector {
+  constructor() {
+    this.intentHits = new Map();
+    this.totalCommands = 0;
+  }
+
+  trackIntent(intent) {
+    if (intent && intent !== "none") {
+      this.intentHits.set(intent, (this.intentHits.get(intent) || 0) + 1);
+    }
+    this.totalCommands++;
+  }
+
+  getSnapshot() {
+    const hits = Object.fromEntries(this.intentHits);
+    const maxHits = Math.max(...Object.values(hits), 1);
+    return {
+      intentHits: hits,
+      maxHits,
+      totalCommands: this.totalCommands,
+      uptime: Math.floor(process.uptime()),
+      uptimeHuman: MetricsCollector.formatUptime(process.uptime()),
+    };
+  }
+
+  static formatUptime(seconds) {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = Math.floor(seconds % 60);
+    return `${h}h ${m}m ${s}s`;
+  }
+}
+
+const metrics = new MetricsCollector();
+
+// ===========================
+// Request ID Middleware
+// ===========================
+
+app.use((req, _res, next) => {
+  req.requestId = crypto.randomUUID();
+  next();
+});
 
 // ===========================
 // API Routes
@@ -96,7 +140,7 @@ let totalCommandsProcessed = 0;
  */
 app.post("/api/command", commandLimiter, validateBody(schemas.command), async (req, res) => {
   const { text } = req.body;
-  const startTime = Date.now();
+  const startNs = process.hrtime.bigint();
   logger.received(text);
 
   try {
@@ -124,7 +168,6 @@ app.post("/api/command", commandLimiter, validateBody(schemas.command), async (r
     const skillResult = await skills.execute(nlpResult, text, context);
 
     // skills.execute() returns either a string OR a confirmation object
-    // { response, requiresConfirmation, expiresAt }
     const isConfirmationRequest = typeof skillResult === "object" && skillResult?.requiresConfirmation;
     const reply = isConfirmationRequest ? skillResult.response : skillResult;
 
@@ -139,18 +182,18 @@ app.post("/api/command", commandLimiter, validateBody(schemas.command), async (r
     const currentSession = sessions.getCurrentSession();
     sessions.addMessage(currentSession.id, text, reply);
 
-    // 6. Track intent metrics for /api/metrics and galaxy view
-    if (nlpResult.intent && nlpResult.intent !== "none") {
-      intentMetrics.set(nlpResult.intent, (intentMetrics.get(nlpResult.intent) || 0) + 1);
-    }
-    totalCommandsProcessed++;
+    // 6. Track intent metrics
+    metrics.trackIntent(nlpResult.intent);
+
+    // Calculate execution time with sub-ms precision
+    const elapsedMs = Number(process.hrtime.bigint() - startNs) / 1e6;
 
     const responsePayload = {
       response: reply,
       intent: nlpResult.intent || "none",
       confidence: nlpResult.confidence || 0,
       source: nlpResult.source || nlpResult.decision || "unknown",
-      executionTime: Date.now() - startTime
+      executionTime: Math.round(elapsedMs * 100) / 100,
     };
 
     // Include confirmation metadata if applicable
@@ -170,11 +213,12 @@ app.post("/api/command", commandLimiter, validateBody(schemas.command), async (r
  * GET /api/health
  * Health check endpoint
  */
-app.get("/api/health", (req, res) => {
+app.get("/api/health", (_req, res) => {
   res.json({
     status: "ok",
     name: "AXI Server",
     version: "1.0.0",
+    uptime: MetricsCollector.formatUptime(process.uptime()),
   });
 });
 
@@ -182,7 +226,7 @@ app.get("/api/health", (req, res) => {
  * GET /api/skill-context
  * Get active skill context for the right panel
  */
-app.get("/api/skill-context", (req, res) => {
+app.get("/api/skill-context", (_req, res) => {
   // Get dynamic context data
   const contextData = context.get("skillContext") || {};
 
@@ -233,7 +277,7 @@ app.get("/api/skill-context", (req, res) => {
  * GET /api/history
  * Get conversation history
  */
-app.get("/api/history", (req, res) => {
+app.get("/api/history", (_req, res) => {
   res.json({
     history: context.getHistory(),
   });
@@ -243,7 +287,7 @@ app.get("/api/history", (req, res) => {
  * GET /api/sessions
  * Get all conversation sessions
  */
-app.get("/api/sessions", (req, res) => {
+app.get("/api/sessions", (_req, res) => {
   const allSessions = sessions.getAllSessions();
   res.json({
     sessions: allSessions,
@@ -316,7 +360,7 @@ app.post("/api/sessions/:id/activate", (req, res) => {
  * GET /api/notifications
  * Poll for proactive messages
  */
-app.get("/api/notifications", (req, res) => {
+app.get("/api/notifications", (_req, res) => {
   const messages = proactive.getMessages();
   res.json({ messages });
 });
@@ -325,7 +369,7 @@ app.get("/api/notifications", (req, res) => {
  * GET /api/memory
  * Get all memory facts
  */
-app.get("/api/memory", (req, res) => {
+app.get("/api/memory", (_req, res) => {
   res.json({ facts: memory.data.facts });
 });
 
@@ -347,7 +391,7 @@ app.delete("/api/memory/:key", (req, res) => {
  * GET /api/learning
  * Get pending corrections
  */
-app.get("/api/learning", (req, res) => {
+app.get("/api/learning", (_req, res) => {
   res.json({ corrections: learning.getPending() });
 });
 
@@ -355,7 +399,7 @@ app.get("/api/learning", (req, res) => {
  * GET /api/knowledge
  * Get list of all explored knowledge blueprints
  */
-app.get("/api/knowledge", (req, res) => {
+app.get("/api/knowledge", (_req, res) => {
   const items = knowledgeHandler.list();
   res.json({ blueprints: items });
 });
@@ -413,30 +457,15 @@ app.post("/api/explain", validateBody(schemas.command), async (req, res) => {
  * Returns live intent hit counts, uptime, and total request count.
  * Powers the Galaxy visualization node sizing.
  */
-app.get("/api/metrics", (req, res) => {
-  const hits = Object.fromEntries(intentMetrics);
-  const maxHits = Math.max(...Object.values(hits), 1);
-  res.json({
-    intentHits: hits,
-    maxHits,
-    totalCommands: totalCommandsProcessed,
-    uptime: Math.floor(process.uptime()),
-    uptimeHuman: formatUptime(process.uptime())
-  });
+app.get("/api/metrics", (_req, res) => {
+  res.json(metrics.getSnapshot());
 });
-
-function formatUptime(seconds) {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = Math.floor(seconds % 60);
-  return `${h}h ${m}m ${s}s`;
-}
 
 /**
  * GET /api/learning/stats
  * Returns per-intent correction counts — surfaces underperforming intents.
  */
-app.get("/api/learning/stats", (req, res) => {
+app.get("/api/learning/stats", (_req, res) => {
   const corrections = learning.getPending();
   const stats = corrections.reduce((acc, c) => {
     const key = c.predicted_intent || "unknown";
@@ -458,7 +487,7 @@ app.get("/api/learning/stats", (req, res) => {
  * POST /api/admin/cycle
  * Manually trigger the autonomous learning cycle
  */
-app.post("/api/admin/cycle", (req, res) => {
+app.post("/api/admin/cycle", (_req, res) => {
   if (scheduler.isExplorerRunning) {
     return res.status(409).json({ error: "Cycle is already running" });
   }
@@ -472,6 +501,30 @@ app.post("/api/admin/cycle", (req, res) => {
     status: "running"
   });
 });
+
+// ===========================
+// Graceful Shutdown
+// ===========================
+
+function gracefulShutdown(signal) {
+  logger.info(`Received ${signal} — shutting down gracefully...`);
+
+  server.close(() => {
+    logger.info("HTTP server closed.");
+    closeDatabase();
+    logger.info("All resources released. Goodbye.");
+    process.exit(0);
+  });
+
+  // Force exit if cleanup takes too long
+  setTimeout(() => {
+    logger.warn("Graceful shutdown timed out — forcing exit.");
+    process.exit(1);
+  }, 5000);
+}
+
+process.on("SIGINT", () => gracefulShutdown("SIGINT"));
+process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
 
 // ===========================
 // Server Start

@@ -12,16 +12,17 @@
 
 const path = require("path");
 const fs   = require("fs");
+const { logger } = require("../utils");
 
-// Ensure data/ directory exists
-const DATA_DIR = path.join(__dirname, "../data");
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-}
-
-let db;
+let db = null;
 
 try {
+  // Ensure data/ directory exists inside the try-catch
+  const DATA_DIR = path.join(__dirname, "../data");
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+
   const Database = require("better-sqlite3");
   const DB_PATH  = path.join(DATA_DIR, "axi.db");
   db = new Database(DB_PATH);
@@ -57,14 +58,32 @@ try {
       status          TEXT    NOT NULL DEFAULT 'pending_review',
       created_at      TEXT    NOT NULL DEFAULT (datetime('now'))
     );
+
+    -- Performance indexes for filtered queries
+    CREATE INDEX IF NOT EXISTS idx_corrections_status ON corrections(status);
+    CREATE INDEX IF NOT EXISTS idx_learning_log_status ON learning_log(status);
   `);
 
-  console.log(`💾 Database: Connected to ${path.join(DATA_DIR, "axi.db")}`);
+  logger.success(`Database: Connected to ${DB_PATH}`);
 } catch (err) {
-  console.warn(`⚠️  SQLite unavailable (${err.message}). Falling back to JSON persistence.`);
-  console.warn("   Run: npm install  (you may need Visual Studio Build Tools on Windows)");
+  logger.warn(`SQLite unavailable (${err.message}). Falling back to JSON persistence.`);
+  logger.warn("   Run: npm install  (you may need Visual Studio Build Tools on Windows)");
   db = null;
 }
 
-module.exports = db;
+/**
+ * Gracefully close the database connection.
+ * Call on SIGINT/SIGTERM to prevent WAL corruption.
+ */
+function close() {
+  if (db) {
+    try {
+      db.close();
+      logger.info("Database connection closed gracefully.");
+    } catch (err) {
+      logger.error("Error closing database", err.message);
+    }
+  }
+}
 
+module.exports = { db, close };

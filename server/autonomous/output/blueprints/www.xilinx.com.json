@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-E6508FB9",
-  "generated_at": "2026-01-21T07:27:05.220Z",
+  "generated_at": "2026-04-02T04:24:24.777Z",
   "global_configuration": {
     "brand_name": "AMD ׀ together we advance_AI",
     "domain": "www.xilinx.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "23.196.14.97",
+      "server_ip": "184.86.248.186",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -22,7 +22,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 50,
+      "total_files": 55,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -67,9 +67,9 @@
         "full_url": "https://static.cloud.coveo.com/atomic/v3.28/atomic.esm.js"
       },
       {
-        "path": "/yc6KqNmh67JmcWGZ1Q/YwuahShzQhQrpVXiz1/N35QKw/STg1bl/pVAlwB",
+        "path": "/i1_fCrE_xUD-g/Nwyil/tJfVLny3M/1NJ7fVccmLpLGNE5/MmNNFwE/fHdZOWl/oWWcB",
         "type": "script",
-        "full_url": "https://www.xilinx.com/yc6KqNmh67JmcWGZ1Q/YwuahShzQhQrpVXiz1/N35QKw/STg1bl/pVAlwB"
+        "full_url": "https://www.xilinx.com/i1_fCrE_xUD-g/Nwyil/tJfVLny3M/1NJ7fVccmLpLGNE5/MmNNFwE/fHdZOWl/oWWcB"
       },
       {
         "path": "/atomic/v3.28/themes/coveo.css",
@@ -112,14 +112,19 @@
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/abstract/3734550-hp-ai-rev3-banner.jpg"
       },
       {
-        "path": "/content/dam/amd/en/images/backgrounds/abstract/4233901-ai-developer-gc-banner.jpg",
+        "path": "/content/dam/amd/en/images/backgrounds/abstract/4233901-naver-cloud-gc-banner.jpg",
         "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/abstract/4233901-ai-developer-gc-banner.jpg"
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/abstract/4233901-naver-cloud-gc-banner.jpg"
       },
       {
-        "path": "/content/dam/amd/en/images/backgrounds/homepage-carousel/4233901-ai-everywhere-gc-banner.jpg",
+        "path": "/content/dam/amd/en/images/backgrounds/abstract/4233901-samsung-gc-banner.jpg",
         "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/homepage-carousel/4233901-ai-everywhere-gc-banner.jpg"
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/abstract/4233901-samsung-gc-banner.jpg"
+      },
+      {
+        "path": "/content/dam/amd/en/images/backgrounds/abstract/4233901-ai-devday-gc-banner.jpg",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/backgrounds/abstract/4233901-ai-devday-gc-banner.jpg"
       },
       {
         "path": "/content/dam/amd/en/images/corporate/twa-ai/3558303-twa-ai-hero.jpg",
@@ -167,6 +172,16 @@
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/3120550-sonos-padded-logo.png"
       },
       {
+        "path": "/content/dam/amd/en/images/logos/partners/subaru-logo-white-nonpadded.png",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/subaru-logo-white-nonpadded.png"
+      },
+      {
+        "path": "/content/dam/amd/en/images/logos/partners/mercedes-padded-white-logo.png",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/mercedes-padded-white-logo.png"
+      },
+      {
         "path": "/content/dam/amd/en/images/logos/partners/cisco-white-padded-logo.png",
         "type": "image",
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/cisco-white-padded-logo.png"
@@ -200,6 +215,16 @@
         "path": "/content/dam/amd/en/images/logos/partners/salesforce-white-padded-logo.png",
         "type": "image",
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/salesforce-white-padded-logo.png"
+      },
+      {
+        "path": "/content/dam/amd/en/images/logos/partners/supermicro-white-padded-logo.png",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/supermicro-white-padded-logo.png"
+      },
+      {
+        "path": "/content/dam/amd/en/images/logos/partners/ibm-cloud-v2-white-padded-logo.png",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/ibm-cloud-v2-white-padded-logo.png"
       },
       {
         "path": "/content/dam/amd/en/images/illustrations/homepage/2025/3437050-homepage-portfolio-background-enterprise-amd.jpg",
@@ -242,39 +267,39 @@
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/illustrations/homepage/2025/3437050-homepage-bottom-background-enterprise-amd.jpg"
       },
       {
-        "path": "/content/dam/amd/en/images/pr/corporate-2.jpg",
+        "path": "/content/dam/amd/en/images/blogs/designs/technical-blogs/mlperf-6-0/4593908-mlperf-inference-60-results.jpg",
         "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/corporate-2.jpg"
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/blogs/designs/technical-blogs/mlperf-6-0/4593908-mlperf-inference-60-results.jpg"
       },
       {
-        "path": "/content/dam/amd/en/images/pr/data-center-2.jpg",
+        "path": "/content/dam/amd/en/images/logos/partners/case-studies/1740006-nasa-case-study.jpg",
         "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/data-center-2.jpg"
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/logos/partners/case-studies/1740006-nasa-case-study.jpg"
       },
       {
-        "path": "/content/dam/amd/en/images/products/processors/ryzen/4065701-ryzen-ai-embedded-og.jpg",
+        "path": "/content/dam/amd/en/images/pr/corporate-8.jpg",
         "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/products/processors/ryzen/4065701-ryzen-ai-embedded-og.jpg"
-      },
-      {
-        "path": "/content/dam/amd/en/images/pr/corporate-3.jpg",
-        "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/corporate-3.jpg"
-      },
-      {
-        "path": "/content/dam/amd/en/images/pr-feed/1427457.jpg",
-        "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr-feed/1427457.jpg"
-      },
-      {
-        "path": "/content/dam/amd/en/images/blogs/designs/products/4118200-amd-epyc-embedded-series-processors.jpg",
-        "type": "image",
-        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/blogs/designs/products/4118200-amd-epyc-embedded-series-processors.jpg"
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/corporate-8.jpg"
       },
       {
         "path": "/content/dam/amd/en/images/pr/data-center-3.jpg",
         "type": "image",
         "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/data-center-3.jpg"
+      },
+      {
+        "path": "/content/dam/amd/en/images/pr/data-center-9.jpg",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/pr/data-center-9.jpg"
+      },
+      {
+        "path": "/content/dam/amd/en/images/products/agent-computers/4504759-agent-computers-blog-teaser.jpg",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/products/agent-computers/4504759-agent-computers-blog-teaser.jpg"
+      },
+      {
+        "path": "/content/dam/amd/en/images/blogs/designs/generic-thumbnails/9851-enterprise-data-center-trends-09.jpg",
+        "type": "image",
+        "full_url": "https://www.xilinx.com/content/dam/amd/en/images/blogs/designs/generic-thumbnails/9851-enterprise-data-center-trends-09.jpg"
       }
     ]
   },
@@ -292,7 +317,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "9449ms"
+          "latency": "3234ms"
         },
         {
           "resource": "aem-analytics.js",
@@ -315,15 +340,15 @@
         },
         "value_props": [
           {
-            "title": "Enabling Developers to Accelerate AI on AMD Hardware",
+            "title": "Advancing Sovereign AI Infrastructure in Korea",
             "desc": "Description detected in content block."
           },
           {
-            "title": "AMD and its Partners Share Vision for “AI Everywhere, for Everyone”",
+            "title": "Samsung and AMD Expand Strategic Collaboration",
             "desc": "Description detected in content block."
           },
           {
-            "title": "Advancing Enterprise AI",
+            "title": "AMD AI Dev Day 2026",
             "desc": "Description detected in content block."
           }
         ],
@@ -574,7 +599,7 @@
           },
           {
             "tag": "p",
-            "text": "Your Trusted Partner for Advancing AI Enabling Developers to Accelerate AI on AMD Hardware Get access to exclusive resources, free AMD Developer Cloud credits, hardware sweepstakes &amp; more. Learn More about Get access to exclusive resources, free AMD Developer Cloud credits, hardware sweepstakes &amp; more. AMD and its Partners Share Vision for “AI Everywhere, for Everyone” Portfolio of AI products and deep cross-industry collaborations are turning the promise of AI into real-world impact. Read the Press Release about Portfolio of AI products and deep cross-industry collaborations are turning the promise of AI into real-world impact. Advancing Enterprise AI Accelerate AI breakthroughs with end-to-end computing solutions and broad technology partnerships. Learn More about Accelerate AI breakthroughs with end-to-end computing solutions and broad technology partnerships. \"> Why AMD Broadest Portfolio of AI Solutions AMD is the only AI partner offering CPU, GPU, and adaptive computing solutions, enabling optimized AI deployments tailored to your needs."
+            "text": "Your Trusted Partner for Advancing AI Advancing Sovereign AI Infrastructure in Korea AMD and NAVER Cloud announce strategic collaboration. Read the Press Release about AMD and NAVER Cloud announce strategic collaboration. Samsung and AMD Expand Strategic Collaboration Advancing next-generation AI memory and computing technologies Read the Press Release about Advancing next-generation AI memory and computing technologies AMD AI Dev Day 2026 Join AMD engineers and AI experts for hands-on workshops and sessions to supercharge your AI workflows. Register Today about Join AMD engineers and AI experts for hands-on workshops and sessions to supercharge your AI workflows. Advancing Enterprise AI Accelerate AI breakthroughs with end-to-end computing solutions and broad technology partnerships. Learn More about Accelerate AI breakthroughs with end-to-end computing solutions and broad technology partnerships. \"> Why AMD Broadest Portfolio of AI Solutions AMD is the only AI partner offering CPU, GPU, and adaptive computing solutions, enabling optimized AI deployments tailored to your needs."
           },
           {
             "tag": "h3",
@@ -594,7 +619,7 @@
           },
           {
             "tag": "p",
-            "text": "Leading Businesses Trust AMD A Comprehensive AI Portfolio End-to-end AI solutions across data center, edge, and endpoints"
+            "text": "Leading Businesses Trust AMD See How A Comprehensive AI Portfolio End-to-end AI solutions across data center, edge, and endpoints"
           },
           {
             "tag": "p",
@@ -622,63 +647,63 @@
           },
           {
             "tag": "p",
-            "text": "Latest News Newsroom AMD Appoints KC McClure to Board of Directors AMD Appoints KC McClure to Board of Directors January 20, 2026"
+            "text": "Latest News Newsroom AMD Delivers Breakthrough MLPerf Inference 6.0 Results AMD Delivers Breakthrough MLPerf Inference 6.0 Results April 01, 2026"
           },
           {
             "tag": "h5",
-            "text": "TCS and AMD Announce Strategic Collaboration to Drive AI Adoption at Scale"
+            "text": "AMD in Space: Proven Compute for Lunar Missions"
           },
           {
             "tag": "p",
-            "text": "January 13, 2026"
+            "text": "March 30, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD to Report Fiscal Fourth Quarter and Full Year 2025 Financial Results"
+            "text": "Samsung and AMD Expand Strategic Collaboration on Next-Generation AI Memory Solutions"
           },
           {
             "tag": "p",
-            "text": "January 06, 2026"
+            "text": "March 18, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD Introduces Ryzen AI Embedded Processor Portfolio, Powering AI-Driven Immersive Experiences in Automotive, Industrial and Physical AI"
+            "text": "AMD and NAVER Cloud Announce Strategic Collaboration to Advance AI Infrastructure in Korea"
           },
           {
             "tag": "p",
-            "text": "January 05, 2026"
+            "text": "March 18, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD and its Partners Share their Vision for “AI Everywhere, for Everyone” at CES 2026"
+            "text": "AMD and Upstage Expand Strategic Collaboration to Advance Sovereign AI Infrastructure in Korea"
           },
           {
             "tag": "p",
-            "text": "January 05, 2026"
+            "text": "March 18, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD Expands AI Leadership Across Client, Graphics, and Software with New Ryzen, Ryzen AI, and AMD ROCm Announcements at CES 2026"
+            "text": "AMD and Celestica Announce Collaboration to Advance the Next Era of AI with “Helios” Rack-Scale AI Platform"
           },
           {
             "tag": "p",
-            "text": "January 05, 2026"
+            "text": "March 16, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD EPYC Embedded 2005: Power-Efficient Edge Performance"
+            "text": "Agent Computers: The PC Era, Amplified"
           },
           {
             "tag": "p",
-            "text": "December 09, 2025"
+            "text": "March 13, 2026"
           },
           {
             "tag": "h5",
-            "text": "AMD and HPE Expand Collaboration to Advance Open Rack-Scale AI Infrastructure"
+            "text": "Agentic AI Brings New Attention to CPUs in the AI Data Center"
           },
           {
             "tag": "p",
-            "text": "December 02, 2025"
+            "text": "March 13, 2026"
           },
           {
             "tag": "h6",
@@ -702,14 +727,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 34,
-          "headings": 91,
-          "images": 36
+          "paragraphs": 35,
+          "headings": 92,
+          "images": 41
         }
       }
     },
     {
-      "route_id": "ROUTE-19AC16EB",
+      "route_id": "ROUTE-B5CB62FA",
       "path": "/en/site-notifications/accessibility-statement.html",
       "type": "Detected Link",
       "anchor_text": "AMD Website Accessibility Statement",
@@ -720,7 +745,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D54C87BB",
+      "route_id": "ROUTE-BB01BC6B",
       "path": "/en/resources/enterprise.html",
       "type": "Detected Link",
       "anchor_text": "Enterprise Blogs &amp; Insights",
@@ -731,7 +756,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-053A1307",
+      "route_id": "ROUTE-CC1C4D14",
       "path": "/en/products/accelerators/instinct.html",
       "type": "Detected Link",
       "anchor_text": "Instinct GPUs",
@@ -742,7 +767,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC584D65",
+      "route_id": "ROUTE-02CEE879",
       "path": "/en/products/data-processing-units/pensando.html",
       "type": "Detected Link",
       "anchor_text": "Pensando Salina",
@@ -753,7 +778,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9B743033",
+      "route_id": "ROUTE-BE751E60",
       "path": "/en/products/network-interface-cards/pensando.html",
       "type": "Detected Link",
       "anchor_text": "Pensando Pollara 400",
@@ -764,7 +789,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2FD09CFD",
+      "route_id": "ROUTE-CDCCF31B",
+      "path": "/en/products/processors/technologies/pro-technologies.html",
+      "type": "Detected Link",
+      "anchor_text": "PRO Technologies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB842F8A",
       "path": "/en/developer/zen-software-studio.html",
       "type": "Detected Link",
       "anchor_text": "Zen Software Studio",
@@ -775,7 +811,29 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-55362D83",
+      "route_id": "ROUTE-0DBBFE33",
+      "path": "/en/products/software/pro-edition.html",
+      "type": "Detected Link",
+      "anchor_text": "AMD Software: PRO Edition",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0CA46414",
+      "path": "/en/products/software/enterprise-ai-suite.html",
+      "type": "Detected Link",
+      "anchor_text": "Enterprise AI Suite",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-820E8570",
       "path": "/en/products/ethernet-adapters/onload.html",
       "type": "Detected Link",
       "anchor_text": "Solarflare Onload Software",
@@ -786,7 +844,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-52083CF6",
+      "route_id": "ROUTE-E139DA90",
       "path": "/en/solutions/ai.html",
       "type": "Detected Link",
       "anchor_text": "AI Solutions",
@@ -797,7 +855,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC383676",
+      "route_id": "ROUTE-9D685C75",
       "path": "/en/solutions/ai/silo-ai.html",
       "type": "Detected Link",
       "anchor_text": "AMD Silo AI",
@@ -808,7 +866,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-76F4C9CD",
+      "route_id": "ROUTE-FDE018D5",
       "path": "/en/newsroom/press-release-search.html",
       "type": "Detected Link",
       "anchor_text": "Press Releases",
@@ -819,10 +877,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-71E58C7F",
-      "path": "/en/developer/resources/training/amd-ai-academy.html",
+      "route_id": "ROUTE-9079DBB6",
+      "path": "/en/developer/resources/rocm-hub.html",
       "type": "Detected Link",
-      "anchor_text": "AI Academy",
+      "anchor_text": "ROCm AI Developer Hub",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -830,43 +888,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E82A9539",
-      "path": "/en/solutions/automotive.html",
+      "route_id": "ROUTE-F0E06225",
+      "path": "/en/developer/resources/vitis-ai.html",
       "type": "Detected Link",
-      "anchor_text": "Automotive",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-A2BE4D74",
-      "path": "/en/solutions/data-center.html",
-      "type": "Detected Link",
-      "anchor_text": "Data Center",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-9634C7E1",
-      "path": "/en/solutions/data-center/networking.html",
-      "type": "Detected Link",
-      "anchor_text": "Networking Solutions",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-469B56D5",
-      "path": "/en/products/graphics/technologies/fidelityfx/super-resolution.html",
-      "type": "Detected Link",
-      "anchor_text": "AMD FSR",
+      "anchor_text": "Vitis AI Developer Hub",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

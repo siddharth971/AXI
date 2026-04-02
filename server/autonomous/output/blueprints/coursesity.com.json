@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-D2AD8412",
-  "generated_at": "2026-01-21T07:26:54.419Z",
+  "generated_at": "2026-04-02T04:24:16.898Z",
   "global_configuration": {
     "brand_name": "Discover Best Online Courses &amp; Tutorials",
     "domain": "coursesity.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.67.71.92",
+      "server_ip": "104.26.14.62",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 40,
+      "total_files": 41,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -33,9 +33,9 @@
         "full_url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       },
       {
-        "path": "/runtime.43aaad6f792b6e08.js",
+        "path": "/runtime.e122e060c132e9ba.js",
         "type": "script",
-        "full_url": "https://coursesity.com/runtime.43aaad6f792b6e08.js"
+        "full_url": "https://coursesity.com/runtime.e122e060c132e9ba.js"
       },
       {
         "path": "/polyfills.938bff1a9612fbf8.js",
@@ -48,14 +48,14 @@
         "full_url": "https://coursesity.com/scripts.a6c5f71524d48a70.js"
       },
       {
-        "path": "/main.727d722364d7b8df.js",
+        "path": "/main.5bde34a3d213e06c.js",
         "type": "script",
-        "full_url": "https://coursesity.com/main.727d722364d7b8df.js"
+        "full_url": "https://coursesity.com/main.5bde34a3d213e06c.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/assets/js/jquery-3.3.1.min.js",
@@ -153,19 +153,24 @@
         "full_url": "https://coursesity.com/assets/images/arrow_1.png"
       },
       {
-        "path": "/2y9b3o528xhq/2dmDLmWvCncVHcQ6lz9u5v/a629a880566610af3e4d0662e9ebb73b/udacity-logo_open_graph.jpg",
+        "path": "/db194k5td/image/upload/v1772560645/profilepictures/zwwtmn1wtbgnsk7mgxj0.png",
         "type": "image",
-        "full_url": "https://images.ctfassets.net/2y9b3o528xhq/2dmDLmWvCncVHcQ6lz9u5v/a629a880566610af3e4d0662e9ebb73b/udacity-logo_open_graph.jpg"
+        "full_url": "http://res.cloudinary.com/db194k5td/image/upload/v1772560645/profilepictures/zwwtmn1wtbgnsk7mgxj0.png"
+      },
+      {
+        "path": "/course/480x270/7029917_06cb.jpg",
+        "type": "image",
+        "full_url": "https://img-c.udemycdn.com/course/480x270/7029917_06cb.jpg"
+      },
+      {
+        "path": "/topher/2024/October/670985f2_cd13291/cd13291.jpg",
+        "type": "image",
+        "full_url": "https://video.udacity-data.com/topher/2024/October/670985f2_cd13291/cd13291.jpg?fit=crop&amp;w=1200&amp;h=630"
       },
       {
         "path": "/course/480x270/1382702_a351.jpg",
         "type": "image",
         "full_url": "https://img-c.udemycdn.com/course/480x270/1382702_a351.jpg"
-      },
-      {
-        "path": "/course/480x270/1219332_bdd7.jpg",
-        "type": "image",
-        "full_url": "https://i.udemycdn.com/course/480x270/1219332_bdd7.jpg"
       },
       {
         "path": "/assets/images/sidebar/udemy.png",
@@ -208,24 +213,24 @@
         "full_url": "https://coursesity.com/assets/images/sidebar/pluralsight.png"
       },
       {
-        "path": "/course/480x270/6830407_f6a1.jpg",
+        "path": "/db194k5td/image/upload/v1772909895/profilepictures/tm6tmogt0zwmhx5t3lyr.webp",
         "type": "image",
-        "full_url": "https://img-c.udemycdn.com/course/480x270/6830407_f6a1.jpg"
+        "full_url": "http://res.cloudinary.com/db194k5td/image/upload/v1772909895/profilepictures/tm6tmogt0zwmhx5t3lyr.webp"
       },
       {
-        "path": "/course/480x270/5062750_8e05_11.jpg",
+        "path": "/db194k5td/image/upload/v1772909104/profilepictures/g9ceengixzifsto8llif.webp",
         "type": "image",
-        "full_url": "https://img-c.udemycdn.com/course/480x270/5062750_8e05_11.jpg"
+        "full_url": "http://res.cloudinary.com/db194k5td/image/upload/v1772909104/profilepictures/g9ceengixzifsto8llif.webp"
       },
       {
-        "path": "/course/480x270/6648505_cf2c_4.jpg",
+        "path": "/db194k5td/image/upload/v1772908536/profilepictures/xpi5f7brzrs8kwrhetig.webp",
         "type": "image",
-        "full_url": "https://img-c.udemycdn.com/course/480x270/6648505_cf2c_4.jpg"
+        "full_url": "http://res.cloudinary.com/db194k5td/image/upload/v1772908536/profilepictures/xpi5f7brzrs8kwrhetig.webp"
       },
       {
-        "path": "/course/480x270/6741885_7a5e.jpg",
+        "path": "/db194k5td/image/upload/v1772907160/profilepictures/ujflupakusof9qx4mkae.jpg",
         "type": "image",
-        "full_url": "https://img-c.udemycdn.com/course/480x270/6741885_7a5e.jpg"
+        "full_url": "http://res.cloudinary.com/db194k5td/image/upload/v1772907160/profilepictures/ujflupakusof9qx4mkae.jpg"
       }
     ]
   },
@@ -243,14 +248,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "12639ms"
+          "latency": "3280ms"
         },
         {
           "resource": "adsbygoogle.js",
           "latency": "pending"
         },
         {
-          "resource": "runtime.43aaad6f792b6e08.js",
+          "resource": "runtime.e122e060c132e9ba.js",
           "latency": "pending"
         },
         {
@@ -285,7 +290,7 @@
           },
           {
             "tag": "p",
-            "text": "Log In Course AI New Subjects Free Courses Courses Free Courses Universities Best Courses Submit Course Log in Sign up Find the perfect online course for you Instant search for 50,000+ courses on the web. We have collected the best online courses from the biggest platforms and put them together for you."
+            "text": "Log In Subjects Free Courses Courses Free Courses Universities Best Courses Submit Course Log in Sign up Find the perfect online course for you Instant search for 50,000+ courses on the web. We have collected the best online courses from the biggest platforms and put them together for you."
           },
           {
             "tag": "p",
@@ -305,7 +310,11 @@
           },
           {
             "tag": "h2",
-            "text": "Artificial Intelligence"
+            "text": "Moroccan Tagine Recipes: 6 Authentic Dishes Made Easy"
+          },
+          {
+            "tag": "h2",
+            "text": "Claude Code - The Practical Guide"
           },
           {
             "tag": "h2",
@@ -314,10 +323,6 @@
           {
             "tag": "h2",
             "text": "Machine Learning"
-          },
-          {
-            "tag": "h2",
-            "text": "Artificial Intelligence A-Z 2025: Agentic AI, Gen AI, and RL"
           },
           {
             "tag": "p",
@@ -369,19 +374,19 @@
           },
           {
             "tag": "h2",
-            "text": "Master Nano Banana: Gemini’s Cutting-Edge AI Image Creation"
+            "text": "Vibe Coding: AI-Driven Software Development and Testing"
           },
           {
             "tag": "h2",
-            "text": "GitHub Desktop Course"
+            "text": "Vibe Coding for Digital Marketing"
           },
           {
             "tag": "h2",
-            "text": "Advanced Laravel Tutorials In English"
+            "text": "Vibe Coding Bootcamp: Build Any App, Game or Website with AI"
           },
           {
             "tag": "h2",
-            "text": "Bootstrap Masterclass 2026 — From Beginner To Pro"
+            "text": "Hands-On Vibe Coding: Build Practical Apps with AI"
           },
           {
             "tag": "p",
@@ -481,7 +486,7 @@
           },
           {
             "tag": "p",
-            "text": "© 2025 coursesity.com All rights reserved."
+            "text": "© 2026 coursesity.com All rights reserved."
           }
         ],
         "structure_summary": {
@@ -492,7 +497,7 @@
       }
     },
     {
-      "route_id": "ROUTE-A972E10F",
+      "route_id": "ROUTE-06C27AB3",
       "path": "/provider/free/udemy-courses",
       "type": "Detected Link",
       "anchor_text": "View Courses",
@@ -503,7 +508,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-52DA1BEF",
+      "route_id": "ROUTE-A96FD3B1",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -514,18 +519,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7C4ABFD0",
-      "path": "/tutor-ai",
-      "type": "Detected Link",
-      "anchor_text": "Course AI New",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-77D7CBBA",
+      "route_id": "ROUTE-B4F85B9C",
       "path": "/subjects",
       "type": "Detected Link",
       "anchor_text": "Subjects",
@@ -536,7 +530,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BE1BF082",
+      "route_id": "ROUTE-899DFBA0",
       "path": "/collections",
       "type": "Detected Link",
       "anchor_text": "Free Courses",
@@ -547,7 +541,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-178A473E",
+      "route_id": "ROUTE-61A23F91",
       "path": "/university",
       "type": "Detected Link",
       "anchor_text": "Universities",
@@ -558,7 +552,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6ED46F4C",
+      "route_id": "ROUTE-BAC63997",
       "path": "/courses/best-online-courses",
       "type": "Detected Link",
       "anchor_text": "Best Courses",
@@ -569,7 +563,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8FB6D4E7",
+      "route_id": "ROUTE-1176F30D",
       "path": "/instructor",
       "type": "Detected Link",
       "anchor_text": "Submit Course",
@@ -580,7 +574,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1C495752",
+      "route_id": "ROUTE-E6E0D2DF",
       "path": "/courses/best-free-online-courses",
       "type": "Detected Link",
       "anchor_text": "5,000+ Free online Courses",
@@ -591,7 +585,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5457A79E",
+      "route_id": "ROUTE-34EE36F4",
       "path": "/blog/free-certification-courses-online",
       "type": "Detected Link",
       "anchor_text": "150+ Free Certification Courses",
@@ -602,7 +596,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-62C6D670",
+      "route_id": "ROUTE-5274019F",
       "path": "/section/development",
       "type": "Detected Link",
       "anchor_text": "2500+ Free Programming Courses",
@@ -613,7 +607,40 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0E6E3B64",
+      "route_id": "ROUTE-B201FF15",
+      "path": "/free-tutorials-learn/claude-code",
+      "type": "Detected Link",
+      "anchor_text": "Claude Code",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4EEB6FE1",
+      "path": "/free-tutorials-learn/generative-ai",
+      "type": "Detected Link",
+      "anchor_text": "Gen AI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-494F89D0",
+      "path": "/free-tutorials-learn/n8n",
+      "type": "Detected Link",
+      "anchor_text": "n8n",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4E883C0C",
       "path": "/free-tutorials-learn/python",
       "type": "Detected Link",
       "anchor_text": "Python",
@@ -624,32 +651,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0B637733",
+      "route_id": "ROUTE-3B358331",
       "path": "/free-tutorials-learn/flutter",
       "type": "Detected Link",
       "anchor_text": "Flutter",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-ECE0583B",
-      "path": "/free-tutorials-learn/java",
-      "type": "Detected Link",
-      "anchor_text": "Java",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-0BA4ACB4",
-      "path": "/free-tutorials-learn/react-js",
-      "type": "Detected Link",
-      "anchor_text": "React",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

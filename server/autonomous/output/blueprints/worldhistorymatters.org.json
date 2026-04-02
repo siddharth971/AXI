@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-270B1AE9",
-  "generated_at": "2026-01-21T07:27:05.511Z",
+  "generated_at": "2026-04-02T04:24:25.216Z",
   "global_configuration": {
     "brand_name": "World History Matters » A Portal to World History Sites from the Center for History and New Media",
     "domain": "worldhistorymatters.org",
@@ -118,7 +118,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "9726ms"
+          "latency": "3579ms"
         },
         {
           "resource": "fixLogoPng.js",
@@ -291,7 +291,7 @@
       }
     },
     {
-      "route_id": "ROUTE-220D3D6B",
+      "route_id": "ROUTE-86EC2715",
       "path": "/index.html",
       "type": "Detected Link",
       "anchor_text": "Unknown",

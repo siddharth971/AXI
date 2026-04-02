@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-10D096F3",
-  "generated_at": "2026-01-21T07:27:13.131Z",
+  "generated_at": "2026-04-02T04:24:29.740Z",
   "global_configuration": {
-    "brand_name": "Security Hyperautomation Solutions",
+    "brand_name": "Torq® AI SOC Platform",
     "domain": "torq.io",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "141.193.213.21",
+      "server_ip": "141.193.213.20",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -17,270 +17,305 @@
     },
     "server_headers": {
       "Cache-Control": "max-age=600, must-revalidate",
-      "Content-Security-Policy": "frame-ancestors 'self' https://torq.gtmbuddy.io/ https://content.torq.io/",
+      "Content-Security-Policy": "frame-ancestors âselfâ https://torq.gtmbuddy.io/ https://content.torq.io/",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 51,
+      "total_files": 58,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-includes/js/jquery/render-blocking-f43b551b749a36845288913120943cc6.jquery.min.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-includes/js/jquery/render-blocking-f43b551b749a36845288913120943cc6.jquery.min.js"
       },
       {
-        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-includes/js/jquery/render-blocking-558973c0fd98109493258c8470e94016.jquery-migrate.min.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-includes/js/jquery/render-blocking-558973c0fd98109493258c8470e94016.jquery-migrate.min.js"
       },
       {
-        "path": "/marketing.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/js.chilipiper.com/render-blocking-marketing.js",
         "type": "script",
-        "full_url": "https://js.chilipiper.com/marketing.js"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/js.chilipiper.com/render-blocking-marketing.js"
       },
       {
-        "path": "/forms/v2.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/js.hsforms.net/forms/embed/render-blocking-v2.js",
         "type": "script",
-        "full_url": "https://js.hsforms.net/forms/v2.js"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/js.hsforms.net/forms/embed/render-blocking-v2.js"
       },
       {
-        "path": "/wp-content/themes/elxr/js/navigation.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.navigation.min.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-content/themes/elxr/js/navigation.min.js?ver=1.7.53"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.navigation.min.js"
       },
       {
-        "path": "/wp-content/themes/elxr/js/aos.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.aos.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-content/themes/elxr/js/aos.js?ver=1.7.53"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.aos.js"
       },
       {
-        "path": "/wp-content/themes/elxr/js/lottie.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.lottie.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-content/themes/elxr/js/lottie.js?ver=1.7.53"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.lottie.js"
       },
       {
-        "path": "/npm/gsap@3.12.7/dist/gsap.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/cdn.jsdelivr.net/npm/gsap@3.12.7/dist/render-blocking-b34e095ef4d38742b9536b83f3c1488f.gsap.min.js",
         "type": "script",
-        "full_url": "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js?ver=6.8.3"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/cdn.jsdelivr.net/npm/gsap@3.12.7/dist/render-blocking-b34e095ef4d38742b9536b83f3c1488f.gsap.min.js"
       },
       {
-        "path": "/npm/gsap@3.12.7/dist/ScrollTrigger.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/cdn.jsdelivr.net/npm/gsap@3.12.7/dist/render-blocking-b34e095ef4d38742b9536b83f3c1488f.ScrollTrigger.min.js",
         "type": "script",
-        "full_url": "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js?ver=6.8.3"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/cdn.jsdelivr.net/npm/gsap@3.12.7/dist/render-blocking-b34e095ef4d38742b9536b83f3c1488f.ScrollTrigger.min.js"
       },
       {
-        "path": "/wp-content/themes/elxr/dist/scripts/elxr.min.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/dist/scripts/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.elxr.min.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-content/themes/elxr/dist/scripts/elxr.min.js?ver=1.7.53"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/dist/scripts/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.elxr.min.js"
       },
       {
-        "path": "/wp-content/themes/elxr/js/loadmore.js",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.loadmore.js",
         "type": "script",
-        "full_url": "https://torq.io/wp-content/themes/elxr/js/loadmore.js?ver=1.7.53"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/wp-content/themes/elxr/js/render-blocking-37beeca4369a2b1f4f130c7180f1b36a.loadmore.js"
       },
       {
-        "path": "/mhz4nei.css",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/externalFontFace/nitro-noimport-1a9ce4d18af105bfe837730a7303536e-stylesheet.css",
         "type": "stylesheet",
-        "full_url": "https://use.typekit.net/mhz4nei.css"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/torq.io/externalFontFace/nitro-noimport-1a9ce4d18af105bfe837730a7303536e-stylesheet.css"
       },
       {
-        "path": "/agy6vou.css",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/mhz4nei.css",
         "type": "stylesheet",
-        "full_url": "https://use.typekit.net/agy6vou.css"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/mhz4nei.css"
       },
       {
-        "path": "/dhy0mno.css",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/agy6vou.css",
         "type": "stylesheet",
-        "full_url": "https://use.typekit.net/dhy0mno.css"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/agy6vou.css"
       },
       {
-        "path": "/wp-content/uploads/2023/03/Logo.png",
-        "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/03/Logo.png"
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/dhy0mno.css",
+        "type": "stylesheet",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/static/optimized/rev-0a408aa/use.typekit.net/dhy0mno.css"
       },
       {
-        "path": "/wp-content/uploads/2025/10/gigaom-nav-ad.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2023/03/Logo.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/10/gigaom-nav-ad.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2023/03/Logo.png"
       },
       {
-        "path": "/wp-content/uploads/2025/08/torq-store-nav-ad.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/gigaom-report-menu-ad.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/08/torq-store-nav-ad.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/gigaom-report-menu-ad.png"
       },
       {
-        "path": "/wp-content/uploads/2024/11/ai-or-die-nav-ad.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/torq-store-menu-ad.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2024/11/ai-or-die-nav-ad.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/torq-store-menu-ad.png"
       },
       {
-        "path": "/wp-content/uploads/2025/07/valvoline-ad.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/04/AI-SOC-Report_NAV-Bar_Ad-Space.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/07/valvoline-ad.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/04/AI-SOC-Report_NAV-Bar_Ad-Space.png"
       },
       {
-        "path": "/wp-content/uploads/2026/01/bloomberg-logo.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/torq-valvoline-case-study-menu-ad.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2026/01/bloomberg-logo.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/torq-valvoline-case-study-menu-ad.png"
       },
       {
-        "path": "/wp-content/uploads/2025/06/torq-blue-flames.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/ai-soc-homepage-ad.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/06/torq-blue-flames.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/ai-soc-homepage-ad.jpg"
       },
       {
-        "path": "/wp-content/uploads/2023/04/abnormal-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/AI-SOC-Report_Mobile_Thumbnail.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/04/abnormal-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/AI-SOC-Report_Mobile_Thumbnail.png"
       },
       {
-        "path": "/wp-content/uploads/2024/04/blackstone-logo-inverted.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Blackstone-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2024/04/blackstone-logo-inverted.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Blackstone-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/11/carvana-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Carvana-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/11/carvana-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Carvana-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/07/Check-Point.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Chipotle-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/07/Check-Point.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Chipotle-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/09/chipotle-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Hard-Rock-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/09/chipotle-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Hard-Rock-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/01/hard-rock-cafe-logo-updated.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/bricks-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/01/hard-rock-cafe-logo-updated.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/bricks-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/04/hashicorp-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/hotel-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/04/hashicorp-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/hotel-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2024/04/optiv-logo.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/PCo-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2024/04/optiv-logo.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/PCo-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/pepsico-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/PG-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2024/09/pepsico-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/PG-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/05/scotts-logo-black.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Prudent-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/05/scotts-logo-black.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Prudent-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/11/telefonica-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/05/scotts-logo-300x137.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/11/telefonica-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/05/scotts-logo-300x137.png"
       },
       {
-        "path": "/wp-content/uploads/2025/09/virgin-atlantic-logo-black.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Siem-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/09/virgin-atlantic-logo-black.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Siem-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/01/valvoline-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/TMobile_Logo_KO-1.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/01/valvoline-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/TMobile_Logo_KO-1.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/11/wiz.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Telefonica-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/11/wiz.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Telefonica-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/zara-logo.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/ride-service.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2024/09/zara-logo.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/ride-service.svg"
       },
       {
-        "path": "/wp-content/uploads/2023/09/idc-logo.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/valv-seeklogo.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/09/idc-logo.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/valv-seeklogo.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/06/homepage-hypsersoc.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/va-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/06/homepage-hypsersoc.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/va-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/01/agent-scroll-animation.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2023/04/wiz-logo-white.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/01/agent-scroll-animation.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2023/04/wiz-logo-white.png"
       },
       {
-        "path": "/wp-content/uploads/2025/01/hyperautomation-loop.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Zara-logo-white.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/01/hyperautomation-loop.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/Zara-logo-white.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/09/idc-logo.svg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/09/idc-logo.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/homepage-ai-soc-video.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/02/homepage-ai-soc-video.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/02/official-sponsor-monster-jam.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/homepage-ai-soc-mobile.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/02/official-sponsor-monster-jam.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/homepage-ai-soc-mobile.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/09/torq-nightmare-loop.jpg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/triage-tab-image-updated.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/09/torq-nightmare-loop.jpg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/triage-tab-image-updated.jpg"
       },
       {
-        "path": "/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/TORQ_Manage_Web_Image.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/TORQ_Manage_Web_Image.png"
       },
       {
-        "path": "/wp-content/uploads/2025/10/wiz-session-ampd.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/investigate-tab-image-updated.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/10/wiz-session-ampd.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/investigate-tab-image-updated.jpg"
       },
       {
-        "path": "/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/respond-tab-image-updated.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/respond-tab-image-updated.jpg"
       },
       {
-        "path": "/wp-content/uploads/2023/04/security-badges-footer.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/threat-hunt-tab-image-updated.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/04/security-badges-footer.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/threat-hunt-tab-image-updated.jpg"
       },
       {
-        "path": "/wp-content/uploads/2023/04/Torq-Logo-Black.svg",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/report-tab-image-updated.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2023/04/Torq-Logo-Black.svg"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/03/report-tab-image-updated.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/10/gigaom-secops-automation-radar-2.jpg"
       },
       {
-        "path": "/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png",
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png",
         "type": "image",
-        "full_url": "https://torq.io/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png"
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/04/IDC-2025-Homepage-Image.png"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/TORQ_2026-Ofer-Blog-Header_1-1.png"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/10/wiz-session-ampd.png",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/10/wiz-session-ampd.png"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/TORQ_Forbes-Resource-Image-1.png"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/04/security-badges-footer.svg",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/04/security-badges-footer.svg"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/04/Torq-Logo-Black.svg",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/source/rev-cf3312e/torq.io/wp-content/uploads/2023/04/Torq-Logo-Black.svg"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2025/12/SecurityOrchestrationAutomationandResponseSOAR_EasiestToUse_Enterprise_EaseOfUse-261x300.png"
+      },
+      {
+        "path": "/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png",
+        "type": "image",
+        "full_url": "https://cdn-ildaecn.nitrocdn.com/oNPFAEmcjzBxeqaYMYEYPNrnGYUxBPWf/assets/images/optimized/rev-cf3312e/torq.io/wp-content/uploads/2026/01/G2-Logo-and-Star-Rating.png"
       }
     ]
   },
@@ -291,31 +326,31 @@
       "type": "Entry Point",
       "rendering_strategy": "Unknown (Assumed Static/SSR)",
       "meta_seo": {
-        "title": "Security Hyperautomation Solutions | Torq®",
-        "description": "Torq&#039;s® security hyperautomation, a scalable no-code solution for enterprise security. Experience 10X faster ROI with a real SOAR alternative. Get a demo!",
+        "title": "Torq® AI SOC Platform | Agentic AI and Security Hyperautomation for SecOps",
+        "description": "Transform the enterprise SOC with Torq — combining agentic SecOps and Hyperautomation to triage, investigate, and respond to threats faster than ever. Get a demo.",
         "canonical": "https://torq.io"
       },
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6972ms"
+          "latency": "1648ms"
         },
         {
-          "resource": "jquery.min.js",
+          "resource": "render-blocking-f43b551b749a36845288913120943cc6.jquery.min.js",
           "latency": "pending"
         },
         {
-          "resource": "jquery-migrate.min.js",
+          "resource": "render-blocking-558973c0fd98109493258c8470e94016.jquery-migrate.min.js",
           "latency": "pending"
         },
         {
-          "resource": "marketing.js",
+          "resource": "render-blocking-marketing.js",
           "latency": "pending"
         }
       ],
       "page_content": {
         "hero_section": {
-          "h1_title": "Autonomous Security Operations",
+          "h1_title": "Every alert needs attention. Not every alert needs a&nbsp;human.",
           "h2_subtitle": "",
           "cta_buttons": []
         },
@@ -329,18 +364,18 @@
             "desc": "Description detected in content block."
           },
           {
-            "title": "Meet Torq’s AI Agents for the SOC",
+            "title": "Torq Ushers in the AI SOC Era",
             "desc": "Description detected in content block."
           }
         ],
         "main_content": [
           {
             "tag": "h1",
-            "text": "Autonomous Security Operations"
+            "text": "Every alert needs attention. Not every alert needs a&nbsp;human."
           },
           {
             "tag": "p",
-            "text": "Harness AI in the SOC to triage, investigate, and respond to threats faster."
+            "text": "The AI SOC Platform that helps security teams triage, investigate, and respond to threats faster."
           },
           {
             "tag": "p",
@@ -356,10 +391,6 @@
           },
           {
             "tag": "p",
-            "text": "Chris Kissel, Vice President, Security &amp; Trust Products, IDC Research"
-          },
-          {
-            "tag": "p",
             "text": "Read the Report"
           },
           {
@@ -368,11 +399,11 @@
           },
           {
             "tag": "h3",
-            "text": "Triage Threats Faster"
+            "text": "Identify Actual Risk"
           },
           {
             "tag": "p",
-            "text": "Let AI find the threat needles in the alert haystack by analyzing, correlating, and enriching unprocessed events at machine speed."
+            "text": "Let AI Agents find the threat needles in the alert haystack by analyzing, correlating, and enriching unprocessed events at machine speed."
           },
           {
             "tag": "h3",
@@ -384,35 +415,159 @@
           },
           {
             "tag": "h3",
-            "text": "Respond to Threats Faster"
+            "text": "Reduce Response Time"
           },
           {
             "tag": "p",
-            "text": "Slash mean time to respond with Socrates, the natural language-driven Agentic AI for autonomous remediation of critical threats."
+            "text": "Slash mean time to respond with Socrates, the natural language-driven Agentic AI that autonomously remediates critical threats."
           },
           {
             "tag": "p",
-            "text": "Torq HyperSOC™"
+            "text": "Torq AI SOC Platform &nbsp;"
           },
           {
-            "tag": "h2",
-            "text": "Meet Torq’s AI Agents for the SOC"
+            "tag": "h3",
+            "text": "Triage"
+          },
+          {
+            "tag": "h3",
+            "text": "Manage"
+          },
+          {
+            "tag": "h3",
+            "text": "Investigate"
+          },
+          {
+            "tag": "h3",
+            "text": "Respond"
+          },
+          {
+            "tag": "h3",
+            "text": "Threat Hunt"
+          },
+          {
+            "tag": "h3",
+            "text": "Report"
+          },
+          {
+            "tag": "h3",
+            "text": "Triage"
           },
           {
             "tag": "p",
-            "text": "Torq Multi-Agent System"
+            "text": "Agentically de-duplicate events and filter false positives to suppress noise. Crystal-clear AI verdicts prioritize actual threats, with transparent audit logs and a manual override option."
           },
           {
-            "tag": "h2",
-            "text": "Build and Deploy Agentic Security Automations in Minutes"
-          },
-          {
-            "tag": "p",
-            "text": "Use natural language prompts to rapidly generate integrations and hyperautomate security workflows across thousands of vendors."
+            "tag": "h3",
+            "text": "Manage"
           },
           {
             "tag": "p",
-            "text": "Torq Hyperautomation™"
+            "text": "Autonomously create, assign, and manage cases. Coordinate cleanly. Communicate clearly. All from a single source of truth."
+          },
+          {
+            "tag": "h3",
+            "text": "Investigate"
+          },
+          {
+            "tag": "p",
+            "text": "Deploy and orchestrate specialized AI Agents to offload basic, repetitive investigation tasks and record evidence, timelines, and recommended actions. Fully transparent for oversight and control."
+          },
+          {
+            "tag": "h3",
+            "text": "Respond"
+          },
+          {
+            "tag": "p",
+            "text": "Fight machine-speed threats with agentic response, either completely autonomously or with human-on-the-loop oversight. Stop the contagion. Remediate root cause. Stay in control."
+          },
+          {
+            "tag": "h3",
+            "text": "Threat Hunt"
+          },
+          {
+            "tag": "p",
+            "text": "Craft agentic runbooks that access authorized data and tools. AI Agents cross-reference historical cases, recognize threat patterns, and summarize findings, empowering your elite hunters and upleveling your junior analysts."
+          },
+          {
+            "tag": "h3",
+            "text": "Report"
+          },
+          {
+            "tag": "p",
+            "text": "Keep your finger on the pulse of the action. Inform stakeholders. Deploy strike teams. Enable your team to stay focused on the issues that deliver maximum risk management impact."
+          },
+          {
+            "tag": "h3",
+            "text": "Triage"
+          },
+          {
+            "tag": "h3",
+            "text": "Manage"
+          },
+          {
+            "tag": "h3",
+            "text": "Investigate"
+          },
+          {
+            "tag": "h3",
+            "text": "Respond"
+          },
+          {
+            "tag": "h3",
+            "text": "Threat Hunt"
+          },
+          {
+            "tag": "h3",
+            "text": "Report"
+          },
+          {
+            "tag": "h3",
+            "text": "Triage"
+          },
+          {
+            "tag": "p",
+            "text": "Agentically de-duplicate events and filter false positives to suppress noise. Crystal-clear AI verdicts prioritize actual threats, with transparent audit logs and a manual override option."
+          },
+          {
+            "tag": "h3",
+            "text": "Manage"
+          },
+          {
+            "tag": "p",
+            "text": "Autonomously create, assign, and manage cases. Coordinate cleanly. Communicate clearly. All from a single source of truth."
+          },
+          {
+            "tag": "h3",
+            "text": "Investigate"
+          },
+          {
+            "tag": "p",
+            "text": "Deploy and orchestrate specialized AI Agents to offload basic, repetitive investigation tasks and record evidence, timelines, and recommended actions. Fully transparent for oversight and control."
+          },
+          {
+            "tag": "h3",
+            "text": "Respond"
+          },
+          {
+            "tag": "p",
+            "text": "Fight machine-speed threats with agentic response, either completely autonomously or with human-on-the-loop oversight. Stop the contagion. Remediate root cause. Stay in control."
+          },
+          {
+            "tag": "h3",
+            "text": "Threat Hunt"
+          },
+          {
+            "tag": "p",
+            "text": "Craft agentic runbooks that access authorized data and tools. AI Agents cross-reference historical cases, recognize threat patterns, and summarize findings, empowering your elite hunters and upleveling your junior analysts."
+          },
+          {
+            "tag": "h3",
+            "text": "Report"
+          },
+          {
+            "tag": "p",
+            "text": "Keep your finger on the pulse of the action. Inform stakeholders. Deploy strike teams. Enable your team to stay focused on the issues that deliver maximum risk management impact."
           },
           {
             "tag": "p",
@@ -423,7 +578,7 @@
             "text": "Torq Ushers in the AI SOC Era"
           },
           {
-            "tag": "p",
+            "tag": "h3",
             "text": "GigaOm: Torq Named Leader in SecOps Automation"
           },
           {
@@ -435,7 +590,7 @@
             "text": "Read the Report"
           },
           {
-            "tag": "p",
+            "tag": "h3",
             "text": "IDC: Agentic AI is the Next Leap in the Autonomous SOC"
           },
           {
@@ -447,32 +602,12 @@
             "text": "Read the Report"
           },
           {
-            "tag": "h2",
-            "text": "TORQ ON TOUR WITH MONSTER JAM ®"
-          },
-          {
-            "tag": "p",
-            "text": "Meet With Us Let&#8217;s Jam"
-          },
-          {
             "tag": "p",
             "text": "See All Events"
           },
           {
-            "tag": "h2",
-            "text": "The SecOps Nightmare"
-          },
-          {
-            "tag": "p",
-            "text": "NOW PLAYING IN SOCS EVERYWHERE"
-          },
-          {
-            "tag": "p",
-            "text": "Watch the Trailer Watch the Trailer"
-          },
-          {
             "tag": "h3",
-            "text": "The Agentic SOC is here. Torq&#8217;s CEO shares his perspective on our $140M Series D."
+            "text": "The Agentic SOC is here. Torq’s CEO shares his perspective on our $140M Series D."
           },
           {
             "tag": "h3",
@@ -480,7 +615,7 @@
           },
           {
             "tag": "h3",
-            "text": "Forbes covers Torq&#8217;s $140M Series D, calling Torq &#8220;the de facto leader of the AI SOC space&#8221;."
+            "text": "Forbes covers Torq’s $140M Series D, calling Torq “the de facto leader of the AI SOC space”."
           },
           {
             "tag": "h2",
@@ -508,14 +643,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 39,
-          "headings": 18,
-          "images": 38
+          "paragraphs": 52,
+          "headings": 40,
+          "images": 50
         }
       }
     },
     {
-      "route_id": "ROUTE-15DA2A6D",
+      "route_id": "ROUTE-11804E32",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -526,10 +661,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-71EEA196",
-      "path": "/hyperautomation/",
+      "route_id": "ROUTE-E28A4365",
+      "path": "/ai-soc-platform/",
       "type": "Detected Link",
-      "anchor_text": "Torq Hyperautomation™",
+      "anchor_text": "Torq AI SOC Platform",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -537,51 +672,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9753738F",
-      "path": "/hypersoc/",
-      "type": "Detected Link",
-      "anchor_text": "Torq HyperSOC™",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-CE3EAD07",
-      "path": "/ai-agents-for-the-soc/",
-      "type": "Detected Link",
-      "anchor_text": "AI Agents",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-A0AED574",
-      "path": "/socrates/",
-      "type": "Detected Link",
-      "anchor_text": "AI SOC Analyst",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-9A43C563",
-      "path": "/case-management/",
-      "type": "Detected Link",
-      "anchor_text": "Case Management",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-9A53F778",
+      "route_id": "ROUTE-B25FD0FE",
       "path": "/integrations/",
       "type": "Detected Link",
       "anchor_text": "Integrations",
@@ -592,7 +683,51 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-53D76DBC",
+      "route_id": "ROUTE-CF50ED8E",
+      "path": "/ai-agents-for-the-soc/",
+      "type": "Detected Link",
+      "anchor_text": "AI Agents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3EB82AF1",
+      "path": "/case-management/",
+      "type": "Detected Link",
+      "anchor_text": "Case Management",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-01CC2772",
+      "path": "/hyperautomation/",
+      "type": "Detected Link",
+      "anchor_text": "Hyperautomation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5C2AD4B7",
+      "path": "/resources/gigaom-radar-report-secops-automation/",
+      "type": "Detected Link",
+      "anchor_text": "GigaOm Radar Report for SecOps Automation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-37C4B3DA",
       "path": "/soc-teams/",
       "type": "Detected Link",
       "anchor_text": "Security Operations",
@@ -603,7 +738,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E4BC425C",
+      "route_id": "ROUTE-5898BA14",
       "path": "/use-case/automated-soc-incident-response/",
       "type": "Detected Link",
       "anchor_text": "SOC Incident Response",
@@ -614,7 +749,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AB2B1C74",
+      "route_id": "ROUTE-D4DA33EF",
       "path": "/use-case/phishing-investigation-response/",
       "type": "Detected Link",
       "anchor_text": "Phishing Response",
@@ -625,7 +760,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6DDFB659",
+      "route_id": "ROUTE-E3B94EB3",
       "path": "/use-case/contextual-automated-threat-intelligence-enrichment/",
       "type": "Detected Link",
       "anchor_text": "Threat Enrichment",
@@ -636,7 +771,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FD03D08E",
+      "route_id": "ROUTE-8DBD62F6",
       "path": "/cloud-appsec-teams/",
       "type": "Detected Link",
       "anchor_text": "Cloud &#038; Application Security",
@@ -647,7 +782,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0956737F",
+      "route_id": "ROUTE-9B8C45EC",
       "path": "/use-case/cloud-misconfiguration-detection-remediation/",
       "type": "Detected Link",
       "anchor_text": "Cloud Misconfiguration",
@@ -658,7 +793,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D89DBCFC",
+      "route_id": "ROUTE-0900028F",
       "path": "/use-case/identity-threat-detection-response/",
       "type": "Detected Link",
       "anchor_text": "Unauthorized Access Response",
@@ -669,7 +804,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BBE97E00",
+      "route_id": "ROUTE-8F2AE21A",
       "path": "/use-case/multi-cloud-security-operations/",
       "type": "Detected Link",
       "anchor_text": "Multi-Cloud Alert Triage",

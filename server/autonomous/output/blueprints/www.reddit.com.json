@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-30DD8FD5",
-  "generated_at": "2026-01-21T07:26:54.076Z",
+  "generated_at": "2026-04-02T04:24:16.601Z",
   "global_configuration": {
     "brand_name": "Reddit",
     "domain": "www.reddit.com",
@@ -17,30 +17,30 @@
     },
     "server_headers": {
       "Cache-Control": "private, s-maxage=1, max-age=1, must-revalidate",
-      "Content-Security-Policy": "child-src 'self' blob: accounts.google.com;connect-src 'self' events.redditmedia.com o418887.ingest.sentry.io *.redd.it *.reddit.com www.redditstatic.com vimeo.com alb.reddit.com accounts.google.com/gsi/ www.google.com/recaptcha/ w3-reporting.reddit.com reddit-uploaded-emoji.s3-accelerate.amazonaws.com reddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-video.s3-accelerate.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com wss://*.wss.redditmedia.com wss://gql-realtime.reddit.com *.giphy.com js.stripe.com support.reddithelp.com matrix.redditspace.com www.google.com/ccm/ styles.redditmedia.com a.thumbs.redditmedia.com b.thumbs.redditmedia.com;default-src 'self';font-src 'self' data:;form-action 'self';frame-ancestors 'self' *.reddit.com *.snooguts.net;frame-src 'self' www.reddit.com www.youtube.com www.youtube-nocookie.com player.vimeo.com *.redditmedia.com cdn.embedly.com redgifs.com www.redgifs.com embed.reddit.com accounts.google.com/gsi/ www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ js.stripe.com hooks.stripe.com *.devvit.net td.doubleclick.net/ www.googletagmanager.com/ https://www.tiktok.com/ https://www.instagram.com/;img-src 'self' data: blob: https:;manifest-src 'self' www.redditstatic.com;media-src 'self' blob: data: *.redd.it www.redditstatic.com matrix.redditspace.com;object-src 'none';script-src 'self' 'strict-dynamic' 'report-sample' 'nonce-atQKh8emr7P2TY6nzY27Ag==';style-src 'self' 'unsafe-inline' www.redditstatic.com *.reddit.com accounts.google.com/gsi/style;style-src-attr 'unsafe-inline';worker-src 'self' blob:;report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports",
+      "Content-Security-Policy": "child-src 'self' blob: accounts.google.com;connect-src 'self' events.redditmedia.com o418887.ingest.sentry.io *.redd.it *.reddit.com www.redditstatic.com vimeo.com alb.reddit.com accounts.google.com/gsi/ www.google.com/recaptcha/ w3-reporting.reddit.com reddit-uploaded-emoji.s3-accelerate.amazonaws.com reddit-uploaded-media.s3.amazonaws.com reddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-video.s3.amazonaws.com reddit-uploaded-video.s3-accelerate.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com wss://*.wss.redditmedia.com wss://gql-realtime.reddit.com *.giphy.com js.stripe.com support.reddithelp.com matrix.redditspace.com www.google.com/ccm/ styles.redditmedia.com a.thumbs.redditmedia.com b.thumbs.redditmedia.com bridge.worldcoin.org;default-src 'self';font-src 'self' data:;form-action 'self';frame-ancestors 'self' *.reddit.com *.snooguts.net;frame-src 'self' www.reddit.com www.youtube.com www.youtube-nocookie.com player.vimeo.com *.redditmedia.com cdn.embedly.com redgifs.com www.redgifs.com embed.reddit.com accounts.google.com/gsi/ www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ js.stripe.com hooks.stripe.com *.devvit.net td.doubleclick.net/ www.googletagmanager.com/ https://www.tiktok.com/ https://www.instagram.com/;img-src 'self' data: blob: https:;manifest-src 'self' www.redditstatic.com;media-src 'self' blob: data: *.redd.it www.redditstatic.com matrix.redditspace.com;object-src 'none';script-src 'self' 'strict-dynamic' 'report-sample' 'nonce-x8T2kHXk0LYiLm8n4W8m+A==';style-src 'self' 'unsafe-inline' www.redditstatic.com *.reddit.com accounts.google.com/gsi/style;style-src-attr 'unsafe-inline';worker-src 'self' blob:;report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports",
       "Server": "snooserv"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 49,
+      "total_files": 50,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/shreddit/en-US/5r73EsgItq.js",
+        "path": "/shreddit/en-US/DqKZI2SLMU.js",
         "type": "script",
-        "full_url": "https://www.redditstatic.com/shreddit/en-US/5r73EsgItq.js"
+        "full_url": "https://www.redditstatic.com/shreddit/en-US/DqKZI2SLMU.js"
       },
       {
-        "path": "/shreddit/en-US/stmE-phO5o.js",
+        "path": "/shreddit/en-US/BrVjTQ2Wk0.js",
         "type": "script",
-        "full_url": "https://www.redditstatic.com/shreddit/en-US/stmE-phO5o.js"
+        "full_url": "https://www.redditstatic.com/shreddit/en-US/BrVjTQ2Wk0.js"
       },
       {
-        "path": "/shreddit/suspense-CXj3GtT5.js",
+        "path": "/shreddit/suspense-uCrbi1Lr.js",
         "type": "script",
-        "full_url": "https://www.redditstatic.com/shreddit/suspense-CXj3GtT5.js"
+        "full_url": "https://www.redditstatic.com/shreddit/suspense-uCrbi1Lr.js"
       },
       {
         "path": "/gtag/js",
@@ -53,9 +53,9 @@
         "full_url": "https://www.redditstatic.com/shreddit/google-one-tap-client-css-C556qdmX.css"
       },
       {
-        "path": "/shreddit/nsfw-bypassable-modal-client-css-BQOI-7PB.css",
+        "path": "/shreddit/nsfw-bypassable-modal-client-css-Dddft9rf.css",
         "type": "stylesheet",
-        "full_url": "https://www.redditstatic.com/shreddit/nsfw-bypassable-modal-client-css-BQOI-7PB.css"
+        "full_url": "https://www.redditstatic.com/shreddit/nsfw-bypassable-modal-client-css-Dddft9rf.css"
       },
       {
         "path": "/shreddit/comment-preview-unit-client-css-CES0qfzD.css",
@@ -88,169 +88,49 @@
         "full_url": "https://www.redditstatic.com/shreddit/hui-grid-client-css-DP-dfyG4.css"
       },
       {
-        "path": "/shreddit/home-feed-client-css-COjhM6yH.css",
+        "path": "/shreddit/home-feed-client-css-DNQNhHiU.css",
         "type": "stylesheet",
-        "full_url": "https://www.redditstatic.com/shreddit/home-feed-client-css-COjhM6yH.css"
+        "full_url": "https://www.redditstatic.com/shreddit/home-feed-client-css-DNQNhHiU.css"
       },
       {
-        "path": "/greenland-leader-tells-people-to-prepare-for-possible-v0-l3o8J6wmyN5Nzz_tW83DRhuZTN-idqhb-SRSPtVLILc.jpeg",
+        "path": "/trump-interview-i-am-strongly-considering-pulling-out-of-v0-Kbxl_hxjwMjIAOnQDmSOI5vZm6QuIm84QvKyW5HrJ60.jpeg",
         "type": "image",
-        "full_url": "https://external-preview.redd.it/greenland-leader-tells-people-to-prepare-for-possible-v0-l3o8J6wmyN5Nzz_tW83DRhuZTN-idqhb-SRSPtVLILc.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=9c56b4ba5ed8062610f8f5044aba8aa1428f5eb2"
+        "full_url": "https://external-preview.redd.it/trump-interview-i-am-strongly-considering-pulling-out-of-v0-Kbxl_hxjwMjIAOnQDmSOI5vZm6QuIm84QvKyW5HrJ60.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=bb2cde18fe26c3ea44ae7eb784d67cd1bdf11dcf"
       },
       {
-        "path": "/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png",
+        "path": "/t5_2cneq/styles/communityIcon_fy84mdgh75201.jpg",
         "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=8273bba36ff5e6e307f967e93e4e104139b76b89"
+        "full_url": "https://styles.redditmedia.com/t5_2cneq/styles/communityIcon_fy84mdgh75201.jpg?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=e683f14d7ba667d132ab4d5095b80d4d4e481c45"
       },
       {
-        "path": "/jd-and-usha-vance-announce-she-is-pregnant-with-their-v0-GjGc8cg8evRnUL1D1rtzpM8LDLanqWMzlpcNt7SWOf0.png",
+        "path": "/mother-mary-official-trailer-2-a24-v0-f5I1JPXojQ_Wwx_BzR8GebZdC7Tv665zvN6vozA6ubY.jpeg",
         "type": "image",
-        "full_url": "https://external-preview.redd.it/jd-and-usha-vance-announce-she-is-pregnant-with-their-v0-GjGc8cg8evRnUL1D1rtzpM8LDLanqWMzlpcNt7SWOf0.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=f96ece5dc8a1ff18a7a9b7037e18ed06fd16f0b5"
+        "full_url": "https://external-preview.redd.it/mother-mary-official-trailer-2-a24-v0-f5I1JPXojQ_Wwx_BzR8GebZdC7Tv665zvN6vozA6ubY.jpeg?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=016cd76830c3ef167fc250922876d7622b9dd626"
       },
       {
-        "path": "/t5_2rqcm8/styles/communityIcon_c0ewy1d7nk3e1.png",
+        "path": "/t5_2qh3s/styles/communityIcon_1lnnkajqcwfg1.png",
         "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2rqcm8/styles/communityIcon_c0ewy1d7nk3e1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=e531bee4b0b746786cab04c4e65ed1c8da6958c4"
+        "full_url": "https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_1lnnkajqcwfg1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=b77ec9bec6790d7a06ed74bf698e100f4d7849fc"
       },
       {
-        "path": "/us-citizen-says-ice-forced-him-from-his-home-without-v0-xZMKQi10GfgvJu3jHia9w3lQMX_ojYSoKjv2vG5cAWo.jpeg",
+        "path": "/trump-in-historic-first-attends-supreme-court-arguments-on-v0-OBu-FmH3ppKgJYdhNb0DZN4jlsVMBGO6ZuePjDyAQB8.jpeg",
         "type": "image",
-        "full_url": "https://external-preview.redd.it/us-citizen-says-ice-forced-him-from-his-home-without-v0-xZMKQi10GfgvJu3jHia9w3lQMX_ojYSoKjv2vG5cAWo.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=34f3876dd308fefa7eb5dcccbf00a157a0555b9f"
+        "full_url": "https://external-preview.redd.it/trump-in-historic-first-attends-supreme-court-arguments-on-v0-OBu-FmH3ppKgJYdhNb0DZN4jlsVMBGO6ZuePjDyAQB8.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b39d55cbbf5a7ab3c28632bdcad8b57cc4da93d2"
       },
       {
-        "path": "/t5_2qh3l/styles/communityIcon_fmygcobc22z81.png",
+        "path": "/anthropic-issues-copyright-takedown-requests-to-remove-8-v0-Y3JyHihHBLZEbHhb4EPoBNOByGbhKxFx0xHXqoWASUA.jpeg",
         "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh3l/styles/communityIcon_fmygcobc22z81.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=84dd8d740c6d2679fce884a9a51ac9e5f9a50f72"
+        "full_url": "https://external-preview.redd.it/anthropic-issues-copyright-takedown-requests-to-remove-8-v0-Y3JyHihHBLZEbHhb4EPoBNOByGbhKxFx0xHXqoWASUA.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3aafaad9fc81298192182e4faf9e8c686bab88b7"
       },
       {
-        "path": "/flbm30a61jeg1.jpg",
+        "path": "/J_fCwTYJkoM-way-eaOHv8AOHoF_jNXNqOvPrQ7bINY.png",
         "type": "image",
-        "full_url": "https://preview.redd.it/flbm30a61jeg1.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=5f175464a1a710021104cf84c2e087768dcc5593"
+        "full_url": "https://b.thumbs.redditmedia.com/J_fCwTYJkoM-way-eaOHv8AOHoF_jNXNqOvPrQ7bINY.png"
       },
       {
-        "path": "/t5_5rj68d/styles/communityIcon_x03zbk209dq81.png",
+        "path": "/the-actual-scale-of-the-artemis-ii-mission-v0-aDJlb3gxbGx6a3NnMe14puGiJorG_2zjrQA5gwK9eN6ynZee67aB3dqMfwTJ.png",
         "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_5rj68d/styles/communityIcon_x03zbk209dq81.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=dc2146aebe3e39a5e5dbcbce34ed0a6f913d6821"
-      },
-      {
-        "path": "/uk-approves-plans-for-chinese-mega-embassy-in-london-v0-wA9fro3r7AFPQfeIN8ABHnGtSfACzrgxkv2hWBrJ5rA.jpeg",
-        "type": "image",
-        "full_url": "https://external-preview.redd.it/uk-approves-plans-for-chinese-mega-embassy-in-london-v0-wA9fro3r7AFPQfeIN8ABHnGtSfACzrgxkv2hWBrJ5rA.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=0ef116f825d185c4988c283dd6fe49795ed81d7d"
-      },
-      {
-        "path": "/queer-eyes-karamo-abruptly-pulled-out-of-a-cast-interview-v0-dXU4cDZxaTNpamVnMQZXMhDwLY67CMTJzvuqwuE0m8YV4pLWJ8sru0sAlqyR.png",
-        "type": "image",
-        "full_url": "https://external-preview.redd.it/queer-eyes-karamo-abruptly-pulled-out-of-a-cast-interview-v0-dXU4cDZxaTNpamVnMQZXMhDwLY67CMTJzvuqwuE0m8YV4pLWJ8sru0sAlqyR.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=5af3c6b722c73ad52275329891d4861f7ddbff6a"
-      },
-      {
-        "path": "/t5_2vq0w/styles/communityIcon_rqwdp68midjf1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2vq0w/styles/communityIcon_rqwdp68midjf1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=308690d0a2f84031e3587355a0fff659717cefd5"
-      },
-      {
-        "path": "/t5_2qh22/styles/communityIcon_3low8batpmag1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh22/styles/communityIcon_3low8batpmag1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=b12dc5308303e69416dd620d0651dfd0736c5b50"
-      },
-      {
-        "path": "/t5_2we4j/styles/communityIcon_k5n4c7i07t4d1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2we4j/styles/communityIcon_k5n4c7i07t4d1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=a28fc43b69b305a5c71d643262de3e2496322f71"
-      },
-      {
-        "path": "/t5_3oeyf/styles/communityIcon_uiti4lnizvcg1.PNG",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_3oeyf/styles/communityIcon_uiti4lnizvcg1.PNG?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=99dac10945ffde4e67cf9150282eb7b497fc5c89"
-      },
-      {
-        "path": "/t5_2vbgl/styles/communityIcon_47xlywkzsy7b1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2vbgl/styles/communityIcon_47xlywkzsy7b1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=e1d36073b30ca6f04966ff8abd950966b7721768"
-      },
-      {
-        "path": "/t5_2rnve/styles/communityIcon_j4u6rx7310b11.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2rnve/styles/communityIcon_j4u6rx7310b11.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=81f86860f6581ecace55f1e141e5d3d524a17ece"
-      },
-      {
-        "path": "/t5_2qioo/styles/communityIcon_qneofzw4kqk51.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qioo/styles/communityIcon_qneofzw4kqk51.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=a43fb9f48e4bfe652c5425c65e3f6a4c200bfb45"
-      },
-      {
-        "path": "/t5_38jf0/styles/communityIcon_e62np5szn0sc1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_38jf0/styles/communityIcon_e62np5szn0sc1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=c44d9e0d2d5cbdd479afd20d53e4198e925b2d46"
-      },
-      {
-        "path": "/t5_2s5oq/styles/communityIcon_vkdkb2aoisi91.jpg",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2s5oq/styles/communityIcon_vkdkb2aoisi91.jpg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=7deb7f4dd6c0fde426ec46fa2d7fa2200db82b46"
-      },
-      {
-        "path": "/t5_2t82m/styles/communityIcon_92wxnjurxhd01.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2t82m/styles/communityIcon_92wxnjurxhd01.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=e7112cd9424862e1cdce615421f7d8ca6b08fb75"
-      },
-      {
-        "path": "/t5_2qjov/styles/communityIcon_0c3z6ovi91r81.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qjov/styles/communityIcon_0c3z6ovi91r81.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=d2d2851a6f39b6196133075856a089ffd3e8298e"
-      },
-      {
-        "path": "/t5_2qjpg/styles/communityIcon_rooie4129n6e1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qjpg/styles/communityIcon_rooie4129n6e1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=f01eb6030a9058ec63ec94301c2fb134e1a486b3"
-      },
-      {
-        "path": "/t5_2t1bl/styles/communityIcon_u9oplks7mr4g1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2t1bl/styles/communityIcon_u9oplks7mr4g1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=a7bf1720097f76e21dad9bf226156336bdb4cea7"
-      },
-      {
-        "path": "/t5_2qrtt/styles/communityIcon_5x0t642fpp541.jpg",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qrtt/styles/communityIcon_5x0t642fpp541.jpg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=bcfc659ae961e07195609b0c9d723616fc350a0c"
-      },
-      {
-        "path": "/t5_3ewph/styles/communityIcon_6a29bqvp2ey41.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_3ewph/styles/communityIcon_6a29bqvp2ey41.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=3d566e7247b610cd8be01f176926690dc0fadb18"
-      },
-      {
-        "path": "/t5_2qhnd/styles/communityIcon_4f5rgij3hxj91.jpg",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qhnd/styles/communityIcon_4f5rgij3hxj91.jpg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=1443d2ef746829d5323868031292cdadf80b7efd"
-      },
-      {
-        "path": "/t5_2qh1i/styles/communityIcon_p6kb2m6b185b1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh1i/styles/communityIcon_p6kb2m6b185b1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=d00a2c17ae17bab59102be7f25fa7d7b6197e9f1"
-      },
-      {
-        "path": "/t5_2qh1i/styles/bannerBackgroundImage_fs33xogq946f1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh1i/styles/bannerBackgroundImage_fs33xogq946f1.png"
-      },
-      {
-        "path": "/t5_2qh1i/styles/communityIcon_p6kb2m6b185b1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_2qh1i/styles/communityIcon_p6kb2m6b185b1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=7d56f8a29a80d906bd1a312d2eac82c5f9ca6433"
-      },
-      {
-        "path": "/5atpv9pyenjf1_t5_2qh1i/donkey_right",
-        "type": "image",
-        "full_url": "https://emoji.redditmedia.com/5atpv9pyenjf1_t5_2qh1i/donkey_right"
-      },
-      {
-        "path": "/t5_bjljw0/styles/profileIcon_x9h0braqsqqf1.png",
-        "type": "image",
-        "full_url": "https://styles.redditmedia.com/t5_bjljw0/styles/profileIcon_x9h0braqsqqf1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=e2846c1c9fc9c34cff707cd34840d11651c18cbe"
-      },
-      {
-        "path": "/4A20P5yZkWBbdL6N1fYIwbbJzTJRw0T-Q84Tmz2VfXc.jpg",
-        "type": "image",
-        "full_url": "https://external-preview.redd.it/4A20P5yZkWBbdL6N1fYIwbbJzTJRw0T-Q84Tmz2VfXc.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=41e3510516fc3856b0e160d2a2ad9e930186e056"
+        "full_url": "https://external-preview.redd.it/the-actual-scale-of-the-artemis-ii-mission-v0-aDJlb3gxbGx6a3NnMe14puGiJorG_2zjrQA5gwK9eN6ynZee67aB3dqMfwTJ.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=9e5dd4f8dc7f8aa9c99b9a9fafd98fcc7a7364f5"
       },
       {
         "path": "/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png",
@@ -258,19 +138,144 @@
         "full_url": "https://b.thumbs.redditmedia.com/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png"
       },
       {
-        "path": "/escaping-a-volcanic-eruption-v0-dm42MDFlcDkxbmVnMVNTp9-i7l-C2ygRSnk4uNJ6iCT5a5v6t634512Ofoop.png",
+        "path": "/apples-50-year-odyssey-has-redefined-technology-pop-culture-v0-tEZu2so4RmPfj79a6wssaWQzmVAQAmlx2J5Rn-ji4nY.jpeg",
         "type": "image",
-        "full_url": "https://external-preview.redd.it/escaping-a-volcanic-eruption-v0-dm42MDFlcDkxbmVnMVNTp9-i7l-C2ygRSnk4uNJ6iCT5a5v6t634512Ofoop.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=f440cac917693fbc347291da6b71b51a01a72d2b"
+        "full_url": "https://external-preview.redd.it/apples-50-year-odyssey-has-redefined-technology-pop-culture-v0-tEZu2so4RmPfj79a6wssaWQzmVAQAmlx2J5Rn-ji4nY.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=2a12bb3db3ea07321186a0ac7bd1bbec21943e2d"
       },
       {
-        "path": "/B7IpR8P1mEsQIjdizK5x79s5aGfJUtKk3u2ksGZ9n2Q.png",
+        "path": "/t5_2qh1f/styles/communityIcon_8ujpyzz7thjg1.jpg",
         "type": "image",
-        "full_url": "https://b.thumbs.redditmedia.com/B7IpR8P1mEsQIjdizK5x79s5aGfJUtKk3u2ksGZ9n2Q.png"
+        "full_url": "https://styles.redditmedia.com/t5_2qh1f/styles/communityIcon_8ujpyzz7thjg1.jpg?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=5a04986f1e15b2d67fa1adb8643692554c6eba5b"
+      },
+      {
+        "path": "/t5_2qzb6/styles/communityIcon_v0zs2b3d7f251.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qzb6/styles/communityIcon_v0zs2b3d7f251.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=fe2e1205f471f3819cf8563806725a55fc653755"
+      },
+      {
+        "path": "/t5_3eb8a/styles/communityIcon_y3i1684w1sd91.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_3eb8a/styles/communityIcon_y3i1684w1sd91.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=44237f7113fd8f9ba0ed8a6f18cc37ec54320ba7"
+      },
+      {
+        "path": "/t5_2seh9/styles/communityIcon_hybmyae0zqx31.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2seh9/styles/communityIcon_hybmyae0zqx31.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=0fa3b27c6438e4d63671526226fa05eefe90d679"
+      },
+      {
+        "path": "/t5_3h47q/styles/communityIcon_zqvf8dnae26b1.jpg",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_3h47q/styles/communityIcon_zqvf8dnae26b1.jpg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=b3e32fcdd9858955b97c32b202f17cd098420693"
+      },
+      {
+        "path": "/t5_2w7mz/styles/communityIcon_jmyuhs81jl211.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2w7mz/styles/communityIcon_jmyuhs81jl211.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=9bc48fbfc2daf767b8002327cd10c1ef306b026f"
+      },
+      {
+        "path": "/t5_2qh2b/styles/communityIcon_dxr43s2p3pof1.jpeg",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qh2b/styles/communityIcon_dxr43s2p3pof1.jpeg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=dcccdd11b075692e693178247d0540ded995b9a4"
+      },
+      {
+        "path": "/t5_2rgs7/styles/communityIcon_fr31y7fl694f1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2rgs7/styles/communityIcon_fr31y7fl694f1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=697686eb8dffcf4acdd8dce74523005f4c72580a"
+      },
+      {
+        "path": "/t5_2qmg3/styles/communityIcon_mnbp3kikxabf1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qmg3/styles/communityIcon_mnbp3kikxabf1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=433bba7042cf349fcfb948b3133e4ad6c78c6d19"
+      },
+      {
+        "path": "/t5_2szyo/styles/communityIcon_vuzhk1k3hd1c1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2szyo/styles/communityIcon_vuzhk1k3hd1c1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=1ed106f583dfde86d7af60a45b0eb6b37d62a2e3"
+      },
+      {
+        "path": "/t5_2qh1u/styles/communityIcon_21ykcg22rm6c1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qh1u/styles/communityIcon_21ykcg22rm6c1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=a7dca0206c94ec9d727842e43252c401ff722df7"
+      },
+      {
+        "path": "/t5_2t7hh/styles/communityIcon_gnio7chxo2261.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2t7hh/styles/communityIcon_gnio7chxo2261.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=20bff1bca489556dcd7db670b0effb5a2611fdec"
+      },
+      {
+        "path": "/t5_2s580/styles/communityIcon_ivrtd93fevm91.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2s580/styles/communityIcon_ivrtd93fevm91.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=73421e9701a2e707000a30638a51c5cf64064225"
+      },
+      {
+        "path": "/t5_2sljg/styles/communityIcon_aumsxg2qng5d1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2sljg/styles/communityIcon_aumsxg2qng5d1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=368a8ed479059d8475a1b3706841e5a36b329af1"
+      },
+      {
+        "path": "/t5_2u5kl/styles/communityIcon_mowu46ri4ur91.jpg",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2u5kl/styles/communityIcon_mowu46ri4ur91.jpg?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=7f3423e1fec10ea89f0297a80ed176e0fd43f52b"
+      },
+      {
+        "path": "/t5_2qolb/styles/communityIcon_t5kcmiju48ig1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qolb/styles/communityIcon_t5kcmiju48ig1.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=fa165b8c1498d1555e1cb1ef0c70f488e24b1e00"
+      },
+      {
+        "path": "/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png?width=96&amp;height=96&amp;frame=1&amp;auto=webp&amp;crop=96%3A96%2Csmart&amp;s=726331e2a405806ecd8802705b4ab6bf3a6d8b76"
       },
       {
         "path": "/472486.gif",
         "type": "image",
         "full_url": "https://id.rlcdn.com/472486.gif"
+      },
+      {
+        "path": "/t5_2qp7h/styles/communityIcon_5r2r1nbaqkqg1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qp7h/styles/communityIcon_5r2r1nbaqkqg1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=f6db44d73ddd3c36a3dccf96c1f0a21061d0004c"
+      },
+      {
+        "path": "/otf6hliftw5d1_t5_2qp7h/discord",
+        "type": "image",
+        "full_url": "https://emoji.redditmedia.com/otf6hliftw5d1_t5_2qp7h/discord"
+      },
+      {
+        "path": "/t5_fg0qm9/styles/profileIcon_2uwvl17nmvhg1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_fg0qm9/styles/profileIcon_2uwvl17nmvhg1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=8d99e1664f97771ebaea7fe0fc8dc869f1db2eca"
+      },
+      {
+        "path": "/h8njlhs3qnsg1.jpeg",
+        "type": "image",
+        "full_url": "https://preview.redd.it/h8njlhs3qnsg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5596445788d2a00efa9abe1d091b49714e1dc076"
+      },
+      {
+        "path": "/t5_fknyy/styles/communityIcon_4a4u2kpox9se1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_fknyy/styles/communityIcon_4a4u2kpox9se1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=edc565cc077f7ddb4018db3a5490fc825944f349"
+      },
+      {
+        "path": "/z1h79nk1wpq21_t5_fknyy/1f575",
+        "type": "image",
+        "full_url": "https://emoji.redditmedia.com/z1h79nk1wpq21_t5_fknyy/1f575"
+      },
+      {
+        "path": "/what-was-kiara-thinking-agreeing-to-this-film-v0-cXYzOXFodnBwbnNnMZuB9dciXx8IDjX7ogNBwmT52dWahEg-Y3in7tvkOAZ-.png",
+        "type": "image",
+        "full_url": "https://external-preview.redd.it/what-was-kiara-thinking-agreeing-to-this-film-v0-cXYzOXFodnBwbnNnMZuB9dciXx8IDjX7ogNBwmT52dWahEg-Y3in7tvkOAZ-.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=e6eb06da7e350d5819dad94befcf9a0875ea5266"
+      },
+      {
+        "path": "/t5_2qhsa/styles/communityIcon_zp89zqe7cdlb1.png",
+        "type": "image",
+        "full_url": "https://styles.redditmedia.com/t5_2qhsa/styles/communityIcon_zp89zqe7cdlb1.png?width=48&amp;height=48&amp;frame=1&amp;auto=webp&amp;crop=48%3A48%2Csmart&amp;s=2595564dd1277a6cb988862377d92fc148eef508"
+      },
+      {
+        "path": "/people-think-cleaning-horse-hooves-hurts-them-but-it-v0-cXlvMGxtNGM3b3NnMWDxPxxg_FffLhHUdPeXMxh7iba6CU4FwXpiL2FcQyl8.png",
+        "type": "image",
+        "full_url": "https://external-preview.redd.it/people-think-cleaning-horse-hooves-hurts-them-but-it-v0-cXlvMGxtNGM3b3NnMWDxPxxg_FffLhHUdPeXMxh7iba6CU4FwXpiL2FcQyl8.png?format=pjpg&amp;auto=webp&amp;s=7e11120caa500023a9b6b679a256546485c54c41"
       }
     ]
   },
@@ -288,18 +293,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "737ms"
+          "latency": "501ms"
         },
         {
-          "resource": "5r73EsgItq.js",
+          "resource": "DqKZI2SLMU.js",
           "latency": "pending"
         },
         {
-          "resource": "stmE-phO5o.js",
+          "resource": "BrVjTQ2Wk0.js",
           "latency": "pending"
         },
         {
-          "resource": "suspense-CXj3GtT5.js",
+          "resource": "suspense-uCrbi1Lr.js",
           "latency": "pending"
         }
       ],
@@ -313,47 +318,47 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "Open menu Open navigation Go to Reddit Home Get App Get the Reddit app Log In Log in to Reddit Expand user menu Open settings menu Greenland warns citizens Greenland Leader Tells People to Prepare for Possible Invasion"
+            "text": "Open menu Open navigation Go to Reddit Home Get App Get the Reddit app Log In Log in to Reddit Expand user menu Open settings menu Trump on NATO Trump interview: I am strongly considering pulling out of Nato"
           },
           {
             "tag": "h2",
-            "text": "Usha Vance pregnancy announcement"
+            "text": "Mother Mary trailer"
           },
           {
             "tag": "p",
-            "text": "JD and Usha Vance announce she is pregnant with their fourth child"
+            "text": "Mother Mary | Official Trailer 2 | A24"
           },
           {
             "tag": "h2",
-            "text": "ICE Minnesota latest"
+            "text": "Birthright citizenship case"
           },
           {
             "tag": "p",
-            "text": "US citizen says ICE forced him from his home without clothes in subfreezing weather"
+            "text": "Trump, in historic first, attends Supreme Court arguments on birthright citizenship"
           },
           {
             "tag": "h2",
-            "text": "Trudeau &amp; Perry in Davos"
+            "text": "Anthropic code leak"
           },
           {
             "tag": "p",
-            "text": "Katy Perry and Justin Trudeau at the World Economic Forum in Switzerland"
+            "text": "Anthropic issues copyright takedown requests to remove 8,000+ copies of Claude Code source code"
           },
           {
             "tag": "h2",
-            "text": "UK approves &#39;mega embassy&#39;"
+            "text": "Artemis 2 launch"
           },
           {
             "tag": "p",
-            "text": "UK approves plans for Chinese mega-embassy in London"
+            "text": "The Actual Scale of the Artemis II Mission"
           },
           {
             "tag": "h2",
-            "text": "Queer Eye’s cast controversy"
+            "text": "Apple 50th anniversary"
           },
           {
             "tag": "p",
-            "text": "Queer Eye’s Karamo abruptly pulled out of a cast interview with CBS Mornings just one hour before airtime, citing fears of being &quot;bullied.&quot; The Queer Eye cast reacted to the move live on the air as Gayle King read his statement"
+            "text": "Apple&#39;s 50-year odyssey has redefined technology, pop culture and comeback stories"
           },
           {
             "tag": "h2",
@@ -361,38 +366,26 @@
           },
           {
             "tag": "p",
-            "text": "r/jailbreak 753,140 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/LivestreamFail 4,573,987 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/legaladvice 3,380,072 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/LifeProTips 22,938,933 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/AskCulinary 1,225,071 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/Philippines 3,521,881 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/memes 35,597,777 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/Rainbow6 2,114,698 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/Sneakers 5,520,727 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/learnprogramming 4,304,432 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/RedDeadOnline 474,556 members :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/jobs 2,520,695 members See more Reddit Rules Privacy Policy User Agreement Accessibility Reddit, Inc. © 2026. All rights reserved. Expand Navigation Collapse Navigation Best Open sort options Best Hot New Top Rising Everywhere Open sort options Everywhere United States Argentina Australia Bulgaria Canada Chile Colombia Croatia Czech Republic Finland France Germany Greece Hungary Iceland India Ireland Italy Japan Malaysia Mexico New Zealand Philippines Poland Portugal Puerto Rico Romania Serbia Singapore Spain Sweden Taiwan Thailand Turkey United Kingdom Change post view Card Compact What subtle sign made you realize your partner was cheating? :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/AskReddit :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/AskReddit ​Credit"
+            "text": "Late Night Random Discussion Thread - 01 April, 2026 Place for Random Thoughts. Share away anything you want, and make some new friends along the way :)"
           },
           {
             "tag": "p",
-            "text": "r/AskReddit is the place to ask and answer thought-provoking questions."
+            "text": "Rules | Commands | Helpline | Wiki"
           },
           {
             "tag": "p",
-            "text": "​Credit"
-          },
-          {
-            "tag": "p",
-            "text": "For the most interesting things on the internet"
-          },
-          {
-            "tag": "p",
-            "text": "Sorry, something went wrong when loading this video."
-          },
-          {
-            "tag": "p",
-            "text": "You learn something new every day; what did you learn today? Submit interesting and specific facts about something that you just found out here."
+            "text": "Ask Jorma Taccone Anything reddit.com Learn More What was Kiara thinking agreeing to this film 😭 :first-child]:h-full [&>:first-child]:w-full [&>:first-child]:mb-0 [&>:first-child]:rounded-[inherit] h-full w-full [&>:first-child]:overflow-hidden [&>:first-child]:max-h-full\"> r/BollyBlindsNGossip We’re watching you Bollywood PR"
           }
         ],
         "structure_summary": {
-          "paragraphs": 45,
+          "paragraphs": 50,
           "headings": 7,
-          "images": 45
+          "images": 43
         }
       }
     },
     {
-      "route_id": "ROUTE-BC84F4A4",
+      "route_id": "ROUTE-D7DE7A45",
       "path": "/policies/privacy-policy",
       "type": "Detected Link",
       "anchor_text": "Privacy Policy",
@@ -403,10 +396,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-03ABC868",
-      "path": "/r/AskReddit/",
+      "route_id": "ROUTE-BDABC76A",
+      "path": "/r/indiasocial/w/rules",
       "type": "Detected Link",
-      "anchor_text": "r/AskReddit",
+      "anchor_text": "Rules",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -414,10 +407,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3C6D6A30",
-      "path": "/r/Damnthatsinteresting/",
+      "route_id": "ROUTE-566C10BF",
+      "path": "/r/indiasocial/wiki/bot_commands",
       "type": "Detected Link",
-      "anchor_text": "r/Damnthatsinteresting",
+      "anchor_text": "Commands",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -425,10 +418,21 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2B2F6129",
-      "path": "/r/todayilearned/",
+      "route_id": "ROUTE-D3892A29",
+      "path": "/r/indiasocial/wiki/support/",
       "type": "Detected Link",
-      "anchor_text": "r/todayilearned",
+      "anchor_text": "Helpline",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-578E7054",
+      "path": "/r/indiasocial/w/index",
+      "type": "Detected Link",
+      "anchor_text": "Wiki",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

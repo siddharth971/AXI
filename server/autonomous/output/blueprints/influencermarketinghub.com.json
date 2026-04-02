@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-F91FB35A",
-  "generated_at": "2026-01-21T07:27:04.839Z",
+  "generated_at": "2026-04-02T04:24:24.259Z",
   "global_configuration": {
     "brand_name": "Influencer Marketing",
     "domain": "influencermarketinghub.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.18.15.204",
+      "server_ip": "104.18.14.204",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -30,7 +30,7 @@
       {
         "path": "/ai/gen-app-builder/client",
         "type": "script",
-        "full_url": "https://cloud.google.com/ai/gen-app-builder/client?hl=en_US&amp;ver=1768978702"
+        "full_url": "https://cloud.google.com/ai/gen-app-builder/client?hl=en_US&amp;ver=1775103217"
       },
       {
         "path": "/auth/agency-match-widget.ts",
@@ -40,7 +40,7 @@
       {
         "path": "/wp-content/themes/voice-child/js/lib/jquery.min.js",
         "type": "script",
-        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/lib/jquery.min.js?ver=6.8.3"
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/lib/jquery.min.js?ver=6.9.1"
       },
       {
         "path": "/wp-content/plugins/IMH-banners/js/imh-banners.min.js",
@@ -48,14 +48,9 @@
         "full_url": "https://influencermarketinghub.com/wp-content/plugins/IMH-banners/js/imh-banners.min.js?ver=1767969459"
       },
       {
-        "path": "/wp-content/uploads/caos/2822f9eb.js",
-        "type": "script",
-        "full_url": "https://influencermarketinghub.com/wp-content/uploads/caos/2822f9eb.js?id=G-86M2DZYZT6"
-      },
-      {
         "path": "/auth/tapon.min.js",
         "type": "script",
-        "full_url": "https://influencermarketinghub.com/auth/tapon.min.js?ver=1768978702"
+        "full_url": "https://influencermarketinghub.com/auth/tapon.min.js?ver=1775103217"
       },
       {
         "path": "/wp-content/plugins/Social-network-images-Generator/js/front/main.min.js",
@@ -65,7 +60,12 @@
       {
         "path": "/wp-content/plugins/clients-summary/assets/js/cs.min.js",
         "type": "script",
-        "full_url": "https://influencermarketinghub.com/wp-content/plugins/clients-summary/assets/js/cs.min.js?ver=1768978702"
+        "full_url": "https://influencermarketinghub.com/wp-content/plugins/clients-summary/assets/js/cs.min.js?ver=1775103217"
+      },
+      {
+        "path": "/wp-content/plugins/imh-banner-module/assets/frontend.js",
+        "type": "script",
+        "full_url": "https://influencermarketinghub.com/wp-content/plugins/imh-banner-module/assets/frontend.js?ver=1.0.0"
       },
       {
         "path": "/wp-content/themes/voice-child/js/trending_agencies_block.min.js",
@@ -90,7 +90,7 @@
       {
         "path": "/wp-content/themes/voice/js/custom.min.js",
         "type": "script",
-        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/custom.min.js?ver=1761831426"
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice/js/custom.min.js?ver=1774873256"
       },
       {
         "path": "/wp-content/themes/voice-child/js/jquery.cookie.min.js",
@@ -105,7 +105,7 @@
       {
         "path": "/wp-content/themes/voice-child/js/script.min.js",
         "type": "script",
-        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/script.min.js?ver=1761831426"
+        "full_url": "https://influencermarketinghub.com/wp-content/themes/voice-child/js/script.min.js?ver=1774873256"
       },
       {
         "path": "/wp-content/themes/voice-child/img/Logo_IMH.svg",
@@ -230,7 +230,7 @@
       {
         "path": "/imaginary/convert",
         "type": "image",
-        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2022/01/Cover.jpg"
+        "full_url": "https://s.influencermarketinghub.com/imaginary/convert?type=webp&amp;url=https://influencermarketinghub.com/wp-content/uploads/2022/01/10937a2c-generated-image-march-03-2026-10_04pm.jpg"
       },
       {
         "path": "/imaginary/convert",
@@ -253,7 +253,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "1254ms"
+          "latency": "1193ms"
         },
         {
           "resource": "client",
@@ -326,7 +326,7 @@
           },
           {
             "tag": "h3",
-            "text": "Top YouTube Marketing Agencies in the World in 2025 [UPDATED]"
+            "text": "Top YouTube Marketing Agencies"
           },
           {
             "tag": "p",
@@ -418,11 +418,11 @@
           },
           {
             "tag": "h3",
-            "text": "Influencer Marketing Benchmark Report 2025"
+            "text": "Influencer Marketing Benchmark Report 2026"
           },
           {
             "tag": "p",
-            "text": "For marketers, consultants, and creators, the era of passive adaptation has ended. The influencer marketing ecosystem stands at…"
+            "text": "Influencer marketing has crossed a line. At this year’s Super Bowl, Salesforce set its eyes on one of…"
           },
           {
             "tag": "h3",
@@ -441,8 +441,8 @@
       }
     },
     {
-      "route_id": "ROUTE-A5A7B6E0",
-      "path": "/articles/",
+      "route_id": "ROUTE-4FFBD6D9",
+      "path": "/articles",
       "type": "Detected Link",
       "anchor_text": "Articles",
       "rendering_strategy": "Unknown",
@@ -452,7 +452,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E80AEB62",
+      "route_id": "ROUTE-AB6126BF",
       "path": "/influencermarketing/",
       "type": "Detected Link",
       "anchor_text": "Influencer Marketing",
@@ -463,18 +463,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1CA5DA5E",
-      "path": "/affiliatemarketing/",
-      "type": "Detected Link",
-      "anchor_text": "Affiliate Marketing",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-FB71AC19",
+      "route_id": "ROUTE-21E7C903",
       "path": "/social-media/",
       "type": "Detected Link",
       "anchor_text": "Social Media",
@@ -485,7 +474,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A479C350",
+      "route_id": "ROUTE-BD9F83F7",
       "path": "/ecommerce/",
       "type": "Detected Link",
       "anchor_text": "eCommerce",
@@ -496,7 +485,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2E7085ED",
+      "route_id": "ROUTE-21A83E90",
+      "path": "/affiliatemarketing/",
+      "type": "Detected Link",
+      "anchor_text": "Affiliate Marketing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9C453EDF",
       "path": "/email-marketing/",
       "type": "Detected Link",
       "anchor_text": "eMail Marketing",
@@ -507,7 +507,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-89AC1DDF",
+      "route_id": "ROUTE-7A5FFFAF",
       "path": "/creatoreconomy/",
       "type": "Detected Link",
       "anchor_text": "Creator Economy",
@@ -518,7 +518,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4BC29BA5",
+      "route_id": "ROUTE-FCA3A43C",
       "path": "/ai-marketing/",
       "type": "Detected Link",
       "anchor_text": "AI Marketing",
@@ -529,7 +529,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-92E8E369",
+      "route_id": "ROUTE-5B95EFF7",
       "path": "/digital-marketing/",
       "type": "Detected Link",
       "anchor_text": "Digital Marketing",
@@ -540,7 +540,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9E4293CC",
+      "route_id": "ROUTE-A72EB882",
       "path": "/influencer-marketing-platforms/",
       "type": "Detected Link",
       "anchor_text": "Platforms",
@@ -551,7 +551,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7D12C73B",
+      "route_id": "ROUTE-CB71411D",
       "path": "/social-media-monitoring-platforms/",
       "type": "Detected Link",
       "anchor_text": "Social Media Monitoring",
@@ -562,7 +562,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A2C4BD03",
+      "route_id": "ROUTE-358F084C",
       "path": "/social-media-marketing-platforms/",
       "type": "Detected Link",
       "anchor_text": "Social Media Marketing",
@@ -573,7 +573,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A23E5967",
+      "route_id": "ROUTE-EC9793F7",
       "path": "/affiliate-marketing-software/",
       "type": "Detected Link",
       "anchor_text": "Affiliate Marketing Software",
@@ -584,7 +584,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B42F012F",
+      "route_id": "ROUTE-C2741679",
       "path": "/email-marketing-software/",
       "type": "Detected Link",
       "anchor_text": "Email Marketing",
@@ -595,7 +595,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C7A262C3",
+      "route_id": "ROUTE-F827C75F",
       "path": "/ecommerce-platforms/",
       "type": "Detected Link",
       "anchor_text": "eCommerce",

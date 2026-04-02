@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-2216701E",
-  "generated_at": "2026-01-21T07:27:05.080Z",
+  "generated_at": "2026-04-02T04:24:24.486Z",
   "global_configuration": {
     "brand_name": "The Spruce: Make Your Best Home",
     "domain": "www.thespruce.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.66.1.220",
+      "server_ip": "162.159.141.224",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,19 +23,19 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 26,
+      "total_files": 25,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/static/8.141.0/cache/eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js",
+        "path": "/static/8.197.0/cache/eNp9VFFuwyAMvdAYZ9ikaV-Tpq0XIGASNwQibFKlpx9EW5tkNB9EwHs87GcTSawYtRyUZwfyTJKj0vAkt_s6DGPw4JmkU3NIXJhnEroD3e_JGXJBGTAVQIfQI1AFSYwOuY5ZL45gE4ZDvKTUo28PSRN4E6LkLgbOWw9kQChDDzF9mSrYkCeiiaD6MWC28EYpRqEF4tnBYWxOXWfCK2TDg7fY7ikOG9ry8j0QCTRj8AfF1BTt8qmFreamZsOoWhATwuVAt-VhqbZD3Ys_-2taqaHU3IFgkoMlla_TaxmPoEUzT94mWDu6Yinza5ZQI25XNXrF_rXWB3BETadyLcQqJy1mC-tCiPtl7cC3C_XI3z9PZdQgVrEFLq1MyoJD4hqL9LZL70iE7FeC074iq9Llk7IdWRiw6LHksFvWdW0E6lTj4OX_-7i1Jz0nPwG6Lv8F6Aczqq_E.min.js",
         "type": "script",
-        "full_url": "https://www.thespruce.com/static/8.141.0/cache/eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js"
+        "full_url": "https://www.thespruce.com/static/8.197.0/cache/eNp9VFFuwyAMvdAYZ9ikaV-Tpq0XIGASNwQibFKlpx9EW5tkNB9EwHs87GcTSawYtRyUZwfyTJKj0vAkt_s6DGPw4JmkU3NIXJhnEroD3e_JGXJBGTAVQIfQI1AFSYwOuY5ZL45gE4ZDvKTUo28PSRN4E6LkLgbOWw9kQChDDzF9mSrYkCeiiaD6MWC28EYpRqEF4tnBYWxOXWfCK2TDg7fY7ikOG9ry8j0QCTRj8AfF1BTt8qmFreamZsOoWhATwuVAt-VhqbZD3Ys_-2taqaHU3IFgkoMlla_TaxmPoEUzT94mWDu6Yinza5ZQI25XNXrF_rXWB3BETadyLcQqJy1mC-tCiPtl7cC3C_XI3z9PZdQgVrEFLq1MyoJD4hqL9LZL70iE7FeC074iq9Llk7IdWRiw6LHksFvWdW0E6lTj4OX_-7i1Jz0nPwG6Lv8F6Aczqq_E.min.js"
       },
       {
-        "path": "/static/8.141.0/cache/eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js",
+        "path": "/static/8.197.0/cache/eNqlU1FuwyAMvdAY6hn2u0s4wSHuHKiw0zQ9_SCp1qTt0KR92Rje87OxrSgotXaAoIz2KHbIjjlDIGYw0qbI_Gb3r9o4nGLAoGIpKKYAbB12mAp-cRK6Oyi6kVG2KE0XA11HTKBoFLzH9BhlCl8m4ZRIV-KMHzC1WHtXUYqXVSldV4wUzqfgvwlMrh9GVnPi0VN46kLGMFxnA66SaiLnMdseyff60UPw-EmiGHIrXgV_uDYknmOTP6ZHcAuqmMecTM0iCQ6H2TgCjr4iK8CZfL6LwY6a26-zyaGtXwF3MQ1iBSG1vSmHrV_BDSgCHk0DoVS_P_5N7Fr7ovXu_g3ajcx5CRDDAt8fKxRrL29mmYxaPpyEUfMk3f7gOfJqjspqwgRzbdMakGWrO8YLNYz1uduprm39kL-g0HrqatnP5DCa43RimMsS35zfppDlvfGC-g3dO8JE.min.js",
         "type": "script",
-        "full_url": "https://www.thespruce.com/static/8.141.0/cache/eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js"
+        "full_url": "https://www.thespruce.com/static/8.197.0/cache/eNqlU1FuwyAMvdAY6hn2u0s4wSHuHKiw0zQ9_SCp1qTt0KR92Rje87OxrSgotXaAoIz2KHbIjjlDIGYw0qbI_Gb3r9o4nGLAoGIpKKYAbB12mAp-cRK6Oyi6kVG2KE0XA11HTKBoFLzH9BhlCl8m4ZRIV-KMHzC1WHtXUYqXVSldV4wUzqfgvwlMrh9GVnPi0VN46kLGMFxnA66SaiLnMdseyff60UPw-EmiGHIrXgV_uDYknmOTP6ZHcAuqmMecTM0iCQ6H2TgCjr4iK8CZfL6LwY6a26-zyaGtXwF3MQ1iBSG1vSmHrV_BDSgCHk0DoVS_P_5N7Fr7ovXu_g3ajcx5CRDDAt8fKxRrL29mmYxaPpyEUfMk3f7gOfJqjspqwgRzbdMakGWrO8YLNYz1uduprm39kL-g0HrqatnP5DCa43RimMsS35zfppDlvfGC-g3dO8JE.min.js"
       },
       {
         "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
@@ -43,34 +43,29 @@
         "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
       },
       {
-        "path": "/thmb/Jc3F9egUnlXPAQDq0Bm9BKB9xGk=/500x375/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DesignbyEmilyHenderson_PhotobyKaitlinGreen_6-861a902bbde04e3f9dd1f5b971c7e4d8.jpg",
-        "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/Jc3F9egUnlXPAQDq0Bm9BKB9xGk=/500x375/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DesignbyEmilyHenderson_PhotobyKaitlinGreen_6-861a902bbde04e3f9dd1f5b971c7e4d8.jpg"
-      },
-      {
         "path": "/thmb/O1f9J4HpMZ_bW4J_izP7UHT-WoE=/312x312/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spruce-hp-texture-0f0c59e1e6f942e6ba95f052001013dc.png",
         "type": "image",
         "full_url": "https://www.thespruce.com/thmb/O1f9J4HpMZ_bW4J_izP7UHT-WoE=/312x312/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spruce-hp-texture-0f0c59e1e6f942e6ba95f052001013dc.png"
       },
       {
-        "path": "/thmb/0K4X_aJ84Qdv7lU1L3UGUa8DWI4=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-glocusent-bookmark-style-reading-light-julia-fields-1-ff6b89b0571946a5b37ab063ac5c63dd.jpeg",
+        "path": "/thmb/fd6LzsdpYt-MoGde8hkRbAnsI8U=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-tier-3-product-sewanta-plastic-hummingbird-feeder-ant-guard-ebrockob-001-7fadd4dd258241578ae9622b03c3edfc.jpeg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/0K4X_aJ84Qdv7lU1L3UGUa8DWI4=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-glocusent-bookmark-style-reading-light-julia-fields-1-ff6b89b0571946a5b37ab063ac5c63dd.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/fd6LzsdpYt-MoGde8hkRbAnsI8U=/280x280/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-tier-3-product-sewanta-plastic-hummingbird-feeder-ant-guard-ebrockob-001-7fadd4dd258241578ae9622b03c3edfc.jpeg"
       },
       {
-        "path": "/thmb/l3OX1DFwynKQBt1dh27BvWw3YqE=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-west-elm-penn-chair-marisa-viglione-10-1-ed13d259acbd4af2beccc02fb9009489.jpeg",
+        "path": "/thmb/9HNNW98v673cQXnDbjO3Qd95uyY=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR_GroupShot__RM_1682-590b002d7415474bb6c3f2dee11261b0.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/l3OX1DFwynKQBt1dh27BvWw3YqE=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-west-elm-penn-chair-marisa-viglione-10-1-ed13d259acbd4af2beccc02fb9009489.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/9HNNW98v673cQXnDbjO3Qd95uyY=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR_GroupShot__RM_1682-590b002d7415474bb6c3f2dee11261b0.jpg"
       },
       {
-        "path": "/thmb/jJC7je64RbwUUcLO20p5dVIC6mM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-brooklinen-down-alternative-comforter-dburreson-005-b519290d197b4ee79fe8af6aa9deb3db.jpeg",
+        "path": "/thmb/zjcjk6Ic-DBCBme8YYHquSCWotk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-ames-lawn-buddy-rolling-garden-utility-cart-hwortock-015-1-ae71a692b17d4867aa6819efc2f00322.jpeg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/jJC7je64RbwUUcLO20p5dVIC6mM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-brooklinen-down-alternative-comforter-dburreson-005-b519290d197b4ee79fe8af6aa9deb3db.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/zjcjk6Ic-DBCBme8YYHquSCWotk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-product-ames-lawn-buddy-rolling-garden-utility-cart-hwortock-015-1-ae71a692b17d4867aa6819efc2f00322.jpeg"
       },
       {
-        "path": "/thmb/DltYcelzQPiM-hSgO1Rvd7euGWk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Parachute_Casper_DreamNorth_Pillows_Comparison_Photo_Tierney-McAfee-44c5f20025464bc3b48d56e6716cedfa.jpg",
+        "path": "/thmb/1O5416xwHMDn9MnvP1c-dAxOb1s=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CoolJob-Skydeer-FloralSociety-StoneBreaker-GroupPhoto-Caitlin-Sole-01-1-448f154f95e54ea6a7dec1ef0da77d84.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/DltYcelzQPiM-hSgO1Rvd7euGWk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Parachute_Casper_DreamNorth_Pillows_Comparison_Photo_Tierney-McAfee-44c5f20025464bc3b48d56e6716cedfa.jpg"
+        "full_url": "https://www.thespruce.com/thmb/1O5416xwHMDn9MnvP1c-dAxOb1s=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CoolJob-Skydeer-FloralSociety-StoneBreaker-GroupPhoto-Caitlin-Sole-01-1-448f154f95e54ea6a7dec1ef0da77d84.jpg"
       },
       {
         "path": "/thmb/-T3tN20LB5DgvcgLYDHeSan7G5k=/1260x946/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/homepage-mission-background-34a5a4b1ba1f4e7fbf9f3c77be5c3e5e.jpg",
@@ -98,64 +93,64 @@
         "full_url": "https://www.thespruce.com/thmb/qmaIhcbgOsOpWj9M8IRIkCC1Y4E=/220x220/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Natalia_square-3de5909ee86d4060b86c80b09ccb5296.png"
       },
       {
-        "path": "/thmb/ccUHboXtJYQ51PRBmY4gF8ppLxk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/desiree-burns-interiors-lighting-5303a1937c7a4199b5de97848f73ea6d.jpeg",
+        "path": "/thmb/vAspEq-Lg4bEdC1V5_YmRUq0wxo=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1220975647-ffebf20ebc4045c4abb0504aedf20c8c.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/ccUHboXtJYQ51PRBmY4gF8ppLxk=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/desiree-burns-interiors-lighting-5303a1937c7a4199b5de97848f73ea6d.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/vAspEq-Lg4bEdC1V5_YmRUq0wxo=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1220975647-ffebf20ebc4045c4abb0504aedf20c8c.jpg"
       },
       {
-        "path": "/thmb/Bd_m0prTh4IPr8q1BSiJS6wsI_Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1216663597-1bc2b01e304a4e76a35a173dfb047f4e.jpg",
+        "path": "/thmb/rGIYlSuWeT-AgItGwt6JDLVJcJg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2255505953-dfbf4b6a79aa4ac89b36f33aed2f852d.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/Bd_m0prTh4IPr8q1BSiJS6wsI_Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1216663597-1bc2b01e304a4e76a35a173dfb047f4e.jpg"
+        "full_url": "https://www.thespruce.com/thmb/rGIYlSuWeT-AgItGwt6JDLVJcJg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2255505953-dfbf4b6a79aa4ac89b36f33aed2f852d.jpg"
       },
       {
-        "path": "/thmb/cq0gzbeNkNc8SyymMsLlZjR4L-0=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2098859987-6447a984358148739ec54c93c167d2e8.jpg",
+        "path": "/thmb/p8WNIhH1TfZifRgYmJ80HiLhY8Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spring-cleaning-tips-from-cleaning-pros-5220256-01-fed40bc2cc4d4fe99d6a0a7263ede8c0.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/cq0gzbeNkNc8SyymMsLlZjR4L-0=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2098859987-6447a984358148739ec54c93c167d2e8.jpg"
+        "full_url": "https://www.thespruce.com/thmb/p8WNIhH1TfZifRgYmJ80HiLhY8Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spring-cleaning-tips-from-cleaning-pros-5220256-01-fed40bc2cc4d4fe99d6a0a7263ede8c0.jpg"
       },
       {
-        "path": "/thmb/l3tyY87xC-Q42sAXKuFIAksnVB4=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2209084858-841d8fa012aa4ffabba01c110958658e.jpg",
+        "path": "/thmb/OUE9FSSri1tSpYxpzBajC6SWKJE=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-481128989-159714012a834b76abee061703ec1e12.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/l3tyY87xC-Q42sAXKuFIAksnVB4=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2209084858-841d8fa012aa4ffabba01c110958658e.jpg"
+        "full_url": "https://www.thespruce.com/thmb/OUE9FSSri1tSpYxpzBajC6SWKJE=/1416x944/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-481128989-159714012a834b76abee061703ec1e12.jpg"
       },
       {
-        "path": "/thmb/SZuduBTfB4xnoXI0UOfWtKXQJPk=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-silonn-smart-electric-fireplace-heater-anton-galang-06-2763c62d42f7400b9c85f02fd9b768a1.jpeg",
+        "path": "/thmb/VPAu4oS7A3x63dfRvCUXWsQu3xw=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-pillow-perfect-chair-pads-mary-amadeo-9-1-9ccc63ee9b794b58bf37fcfaca92538b.jpeg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/SZuduBTfB4xnoXI0UOfWtKXQJPk=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-silonn-smart-electric-fireplace-heater-anton-galang-06-2763c62d42f7400b9c85f02fd9b768a1.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/VPAu4oS7A3x63dfRvCUXWsQu3xw=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-pillow-perfect-chair-pads-mary-amadeo-9-1-9ccc63ee9b794b58bf37fcfaca92538b.jpeg"
       },
       {
-        "path": "/thmb/GZFlV7X456_K29aFVQlTCe2rrRQ=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-dealgadgets-2-pack-under-cabinet-lights-kimberly-souza-8-17da2cb2574e461db0c6da1d07e63a4b.jpeg",
+        "path": "/thmb/70ThB7gNFPkDTIdgJ1wP3YwxNb8=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-sundale-2-person-rectangular-outdoor-dining-set-with-cushions-aliyah-rodriguez-26-1-1fd6526eaf0b42d99f467c9e8ae56adb.jpeg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/GZFlV7X456_K29aFVQlTCe2rrRQ=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-dealgadgets-2-pack-under-cabinet-lights-kimberly-souza-8-17da2cb2574e461db0c6da1d07e63a4b.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/70ThB7gNFPkDTIdgJ1wP3YwxNb8=/315x208/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-sundale-2-person-rectangular-outdoor-dining-set-with-cushions-aliyah-rodriguez-26-1-1fd6526eaf0b42d99f467c9e8ae56adb.jpeg"
       },
       {
-        "path": "/thmb/xcssf-FZkO81neG2NImV_oWLp5Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-why-you-need-to-clean-high-touch-areas-every-week-11872009-hero-c861a612c72742898c7c264c6ce1df3a.jpg",
+        "path": "/thmb/pNljiGYdfgzPSJYNSA3YucOJEE8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1428271673-8e11f2ff845842b49ce727ac80041364.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/xcssf-FZkO81neG2NImV_oWLp5Y=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-why-you-need-to-clean-high-touch-areas-every-week-11872009-hero-c861a612c72742898c7c264c6ce1df3a.jpg"
+        "full_url": "https://www.thespruce.com/thmb/pNljiGYdfgzPSJYNSA3YucOJEE8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1428271673-8e11f2ff845842b49ce727ac80041364.jpg"
       },
       {
-        "path": "/thmb/a-juWEzJKWDCtWXgvUrA1JBLn_Q=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-detail-ll-bean-premium-cotton-bath-mat-hwortock-007-cd2a4a1200cf4ffebe88ca5fae2b1562.jpeg",
+        "path": "/thmb/YI18Nu-bmSH2oPbvP0bIgs85d_I=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-181142492-8482f20862fb48499bb10663d835d93d.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/a-juWEzJKWDCtWXgvUrA1JBLn_Q=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-detail-ll-bean-premium-cotton-bath-mat-hwortock-007-cd2a4a1200cf4ffebe88ca5fae2b1562.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/YI18Nu-bmSH2oPbvP0bIgs85d_I=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-181142492-8482f20862fb48499bb10663d835d93d.jpg"
       },
       {
-        "path": "/thmb/PfeyYsP78xbk5LsZMEXvKPfFVbg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-no-shoe-household-rule-11874960-hero-ff109fa34b8644a89882e760e42a386c.jpg",
+        "path": "/thmb/MuHUpI7VgBy8a6JVtBQgVPrZXPY=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chaos-gardening-soil-8921987633664f23887515692b545089.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/PfeyYsP78xbk5LsZMEXvKPfFVbg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SPR-no-shoe-household-rule-11874960-hero-ff109fa34b8644a89882e760e42a386c.jpg"
+        "full_url": "https://www.thespruce.com/thmb/MuHUpI7VgBy8a6JVtBQgVPrZXPY=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chaos-gardening-soil-8921987633664f23887515692b545089.jpg"
       },
       {
-        "path": "/thmb/0TGcTtSxtEhU5QIp2AQL5TK6E28=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-fcmp-outdoor-the-essential-living-composter-worm-composter-megan-wood-08-66443d69227f479188ed38705b924aa3.jpeg",
+        "path": "/thmb/h1VgWPDutcHM_zh0d7xmeNRzFQc=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1487523965-b8e3bbedb3914780aab382fba2602afc.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/0TGcTtSxtEhU5QIp2AQL5TK6E28=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spr-fcmp-outdoor-the-essential-living-composter-worm-composter-megan-wood-08-66443d69227f479188ed38705b924aa3.jpeg"
+        "full_url": "https://www.thespruce.com/thmb/h1VgWPDutcHM_zh0d7xmeNRzFQc=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1487523965-b8e3bbedb3914780aab382fba2602afc.jpg"
       },
       {
-        "path": "/thmb/hAdeODwGcL3qW591iZTQC-zaM4E=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2248868613-d94a2531de38465382062070d94be960.jpg",
+        "path": "/thmb/8yv2H_hXEK1jaTYZ8t8rVZfS3aM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1298017585-7a62e6c791634daa9a617bf8d7201ddb.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/hAdeODwGcL3qW591iZTQC-zaM4E=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-2248868613-d94a2531de38465382062070d94be960.jpg"
+        "full_url": "https://www.thespruce.com/thmb/8yv2H_hXEK1jaTYZ8t8rVZfS3aM=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1298017585-7a62e6c791634daa9a617bf8d7201ddb.jpg"
       },
       {
-        "path": "/thmb/S_pV8AnXUkzLlO1VbrxwZZ2E4v8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1632525150-708425443da644fb90948fb5c598fb55.jpg",
+        "path": "/thmb/c33J-Oo1bRk7EWn5yTeL0GL5yFg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1309766901-6e0c93f3fcc249dc8a048e8863a17c10.jpg",
         "type": "image",
-        "full_url": "https://www.thespruce.com/thmb/S_pV8AnXUkzLlO1VbrxwZZ2E4v8=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1632525150-708425443da644fb90948fb5c598fb55.jpg"
+        "full_url": "https://www.thespruce.com/thmb/c33J-Oo1bRk7EWn5yTeL0GL5yFg=/728x484/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1309766901-6e0c93f3fcc249dc8a048e8863a17c10.jpg"
       }
     ]
   },
@@ -173,14 +168,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "8243ms"
+          "latency": "2015ms"
         },
         {
-          "resource": "eNp9U9FOxSAM_SGRb9DE-GRi9P4Ag7L1jsFCy27m1wuLerfJ9sBCOaeH7rRIYsWo5aA8O5BXkhyVhge5PddhGIMHzySdmkPiwryS0B3ofk--FtLXTPgFmRG8xXZPcdjQloeeIRJoxuBrgkEZMBVAh9AjUAVJjA65jlkvzmAThlO8eNSjb09JE3gTouQuBs5HBzIglKFDTN-mCjbkjWgiqH4M2bd7ejEKLRDPDo5rWzVTU7TLp3aLmpta1aNqQUwItxPdloelOQ51L37dqmmlhlJzB4JJDpbJ-Lg8l3UELZp58zLB2oAVS5mf2RNqxG1Uo1fcWmu9AUfUdCnXQqxy0jK7wroQ4j6sJXy6UK_89f1SVg1iFVvgMnmkLDgkrrFIb4fqjkTIfiW47Duyal3OlO3IwoBFj-UfdmFd10agTjUOnv6P899rp8fkJ0DX5UdL3wr8r8Q.min.js",
+          "resource": "eNp9VFFuwyAMvdAYZ9ikaV-Tpq0XIGASNwQibFKlpx9EW5tkNB9EwHs87GcTSawYtRyUZwfyTJKj0vAkt_s6DGPw4JmkU3NIXJhnEroD3e_JGXJBGTAVQIfQI1AFSYwOuY5ZL45gE4ZDvKTUo28PSRN4E6LkLgbOWw9kQChDDzF9mSrYkCeiiaD6MWC28EYpRqEF4tnBYWxOXWfCK2TDg7fY7ikOG9ry8j0QCTRj8AfF1BTt8qmFreamZsOoWhATwuVAt-VhqbZD3Ys_-2taqaHU3IFgkoMlla_TaxmPoEUzT94mWDu6Yinza5ZQI25XNXrF_rXWB3BETadyLcQqJy1mC-tCiPtl7cC3C_XI3z9PZdQgVrEFLq1MyoJD4hqL9LZL70iE7FeC074iq9Llk7IdWRiw6LHksFvWdW0E6lTj4OX_-7i1Jz0nPwG6Lv8F6Aczqq_E.min.js",
           "latency": "pending"
         },
         {
-          "resource": "eNqlVFtywyAMvFApkyN0-tu_nkA2MlYqQwbJcZzTF-xM4zzKdKZfLDK7WpBkKwpKrR0gKKPdix0yMEcIxAxG2hSZX-ztqTYOhxgwqFgKiikAW4cdpsJfQEJ3JUU3MsqWpelkoOuICRSNgveY7qNM4csknBLpKpz5A6YWa-cqTvG0OqXzypGi-RD8t4DJ94eR1Rx49BQeXiFz3pz57AnZWXBGFvTsGMN5NuAqjiZyHvPaI_le33sIHj9IFEN-sWfBH62NiOfY5Pr1CG5hleU-J1OzWILdbjaOgKOv2ApwJJ-_xWBHzVXS2eTQFlfIXUyDWEFIbW_KZosrvAFFwKNpIJTb327_Zna9--L1Cv9G7UbmPCuIYaHfbisS61telqWBavlwEkbNDXepwWPkWR-VCYYJ5tpANiDL8HeMJ2oY631347r2cxhyCYqsp66W_UgOo9lPB4a5zPoF_NaFLK-NF9Rvwi7QTw.min.js",
+          "resource": "eNqlU1FuwyAMvdAY6hn2u0s4wSHuHKiw0zQ9_SCp1qTt0KR92Rje87OxrSgotXaAoIz2KHbIjjlDIGYw0qbI_Gb3r9o4nGLAoGIpKKYAbB12mAp-cRK6Oyi6kVG2KE0XA11HTKBoFLzH9BhlCl8m4ZRIV-KMHzC1WHtXUYqXVSldV4wUzqfgvwlMrh9GVnPi0VN46kLGMFxnA66SaiLnMdseyff60UPw-EmiGHIrXgV_uDYknmOTP6ZHcAuqmMecTM0iCQ6H2TgCjr4iK8CZfL6LwY6a26-zyaGtXwF3MQ1iBSG1vSmHrV_BDSgCHk0DoVS_P_5N7Fr7ovXu_g3ajcx5CRDDAt8fKxRrL29mmYxaPpyEUfMk3f7gOfJqjspqwgRzbdMakGWrO8YLNYz1uduprm39kL-g0HrqatnP5DCa43RimMsS35zfppDlvfGC-g3dO8JE.min.js",
           "latency": "pending"
         },
         {
@@ -211,7 +206,7 @@
         "main_content": [
           {
             "tag": "h3",
-            "text": "Clear Ice and Snow"
+            "text": "Lawn Care We Love"
           },
           {
             "tag": "h2",
@@ -227,7 +222,7 @@
           },
           {
             "tag": "h2",
-            "text": "January Refresh"
+            "text": "Spring Cleaning"
           },
           {
             "tag": "h3",
@@ -247,11 +242,11 @@
           },
           {
             "tag": "h2",
-            "text": "Cleaning"
+            "text": "Gardening Tips"
           },
           {
             "tag": "h2",
-            "text": "Winter Gardening"
+            "text": "Home Improvement"
           },
           {
             "tag": "p",
@@ -265,12 +260,12 @@
         "structure_summary": {
           "paragraphs": 59,
           "headings": 12,
-          "images": 46
+          "images": 44
         }
       }
     },
     {
-      "route_id": "ROUTE-A7E7A7EF",
+      "route_id": "ROUTE-C1716DC6",
       "path": "/about-us-4776800",
       "type": "Detected Link",
       "anchor_text": "About Us",
@@ -281,7 +276,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F47744C6",
+      "route_id": "ROUTE-E35BE5E2",
       "path": "/press-and-media-4783399",
       "type": "Detected Link",
       "anchor_text": "Press and Media",
@@ -292,7 +287,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A1FA6DD1",
+      "route_id": "ROUTE-C02BB3CF",
       "path": "/about-us-4776800",
       "type": "Detected Link",
       "anchor_text": "Contact Us",
@@ -303,7 +298,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-71E006DA",
+      "route_id": "ROUTE-FD063529",
       "path": "/about-us-4776800",
       "type": "Detected Link",
       "anchor_text": "Editorial Guidelines",
@@ -314,7 +309,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BF2A1DA1",
+      "route_id": "ROUTE-AE84FCE2",
       "path": "/commerce-guidelines-and-mission-4157991",
       "type": "Detected Link",
       "anchor_text": "Learn more about our process.",
@@ -325,7 +320,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8DE43BCF",
+      "route_id": "ROUTE-DC231B85",
       "path": "/turn-your-bedroom-into-5-star-hotel-room-1976171",
       "type": "Detected Link",
       "anchor_text": "Read the Article",

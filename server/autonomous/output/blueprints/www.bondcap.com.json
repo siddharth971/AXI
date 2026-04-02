@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-5CB2689C",
-  "generated_at": "2026-01-21T07:27:04.972Z",
+  "generated_at": "2026-04-02T04:24:24.336Z",
   "global_configuration": {
     "brand_name": "Home",
     "domain": "www.bondcap.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "52.74.6.109",
+      "server_ip": "13.215.239.219",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -63,7 +63,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6530ms"
+          "latency": "1337ms"
         },
         {
           "resource": "app.694db88e.js",

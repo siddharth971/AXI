@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-C374BF3D",
-  "generated_at": "2026-01-21T07:26:54.641Z",
+  "generated_at": "2026-04-02T04:24:16.858Z",
   "global_configuration": {
     "brand_name": "W3Schools Online Web Tutorials",
     "domain": "www.w3schools.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "43.250.166.114",
+      "server_ip": "43.250.166.91",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -15,7 +15,7 @@
       }
     },
     "server_headers": {
-      "Cache-Control": "public, max-age=11285",
+      "Cache-Control": "public, max-age=4717",
       "Content-Security-Policy": "frame-ancestors 'self' https://mycourses.w3schools.com https://pathfinder.w3schools.com;",
       "Server": "Unknown"
     }
@@ -34,7 +34,7 @@
       {
         "path": "/lib/uic_prov.js",
         "type": "script",
-        "full_url": "https://www.w3schools.com/lib/uic_prov.js?v=1.4.6"
+        "full_url": "https://www.w3schools.com/lib/uic_prov.js?v=1.4.7"
       },
       {
         "path": "/lib/common-deps/main.v1.0.17.js",
@@ -42,19 +42,19 @@
         "full_url": "https://www.w3schools.com/lib/common-deps/main.v1.0.17.js"
       },
       {
-        "path": "/lib/user-session/main.v1.0.49.js",
+        "path": "/lib/user-session/main.v1.0.51.js",
         "type": "script",
-        "full_url": "https://www.w3schools.com/lib/user-session/main.v1.0.49.js"
+        "full_url": "https://www.w3schools.com/lib/user-session/main.v1.0.51.js"
       },
       {
-        "path": "/lib/topnav/main.v1.0.90.js",
+        "path": "/lib/topnav/main.v1.0.94.js",
         "type": "script",
-        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.90.js"
+        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.94.js"
       },
       {
-        "path": "/lib/my-learning/main.v1.0.68.js",
+        "path": "/lib/my-learning/main.v1.0.75.js",
         "type": "script",
-        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.68.js"
+        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.75.js"
       },
       {
         "path": "/lib/w3codecolor.js",
@@ -69,7 +69,7 @@
       {
         "path": "/lib/w3schools_features.js",
         "type": "script",
-        "full_url": "https://www.w3schools.com/lib/w3schools_features.js?update=20260114"
+        "full_url": "https://www.w3schools.com/lib/w3schools_features.js?update=20260312"
       },
       {
         "path": "/recaptcha/api.js",
@@ -87,14 +87,14 @@
         "full_url": "https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
       },
       {
-        "path": "/lib/topnav/main.v1.0.90.css",
+        "path": "/lib/topnav/main.v1.0.94.css",
         "type": "stylesheet",
-        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.90.css"
+        "full_url": "https://www.w3schools.com/lib/topnav/main.v1.0.94.css"
       },
       {
-        "path": "/lib/my-learning/main.v1.0.68.css",
+        "path": "/lib/my-learning/main.v1.0.75.css",
         "type": "stylesheet",
-        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.68.css"
+        "full_url": "https://www.w3schools.com/lib/my-learning/main.v1.0.75.css"
       },
       {
         "path": "/lib/pathfinder/main.v1.0.12.css",
@@ -114,7 +114,7 @@
       {
         "path": "/lib/sparteo.css",
         "type": "stylesheet",
-        "full_url": "https://www.w3schools.com/lib/sparteo.css?v=1.0.2"
+        "full_url": "https://www.w3schools.com/lib/sparteo.css?v=1.0.5"
       },
       {
         "path": "/images/colorpicker2000.png",
@@ -187,7 +187,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "12731ms"
+          "latency": "2992ms"
         },
         {
           "resource": "uic.js",
@@ -225,7 +225,7 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "&times; See More &nbsp; Sign In Sign Up --> user-anonymous --> --> --> &#x2605; +1 --> My W3Schools --> user-authenticated --> Get Certified Upgrade Teachers Spaces Bootcamps user-anonymous - action-btn --> Get Certified Upgrade Teachers Spaces Bootcamps user-authenticated - action-btn --> &#xe80b; My W3Schools Tutorials &nbsp; References &nbsp; Exercises &nbsp; Certificates &nbsp; Spaces Get Certified Plus Bootcamps Academy All our Services &nbsp; Logout &#62220; &#59399; &#59398; &#61805; &times; Tutorials Tutorials filter input &times; HTML and CSS Learn HTML Tutorial Reference Learn CSS Tutorial Reference Learn RWD Tutorial Learn Bootstrap Overview Learn W3.CSS Tutorial Reference Learn Sass Tutorial Reference Learn Colors Tutorial Reference Learn Icons Tutorial Reference Learn SVG Tutorial Reference Learn Canvas Tutorial Reference Learn Graphics Tutorial Learn UTF-8 and Emojis Reference Learn How To Tutorial Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter JavaScript Learn JavaScript Tutorial Reference Learn React Tutorial Learn jQuery Tutorial Reference Learn Vue Tutorial Reference Learn Angular Tutorial Learn AngularJS Tutorial Reference Learn JSON Tutorial Reference Learn AJAX Tutorial Learn AppML Tutorial Reference Learn W3.JS Tutorial Reference Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter Backend Learn Python Tutorial Reference Learn SQL Tutorial Reference Learn MySQL Tutorial Reference Learn PHP Tutorial Reference Learn Java Tutorial Reference Learn C Tutorial Reference Learn C++ Tutorial Reference Learn C# Tutorial Learn R Tutorial Learn Kotlin Tutorial Learn Rust Tutorial Learn Go Tutorial Learn Django Tutorial Reference Learn PostgreSQL Tutorial Learn TypeScript Tutorial Learn ASP Tutorial Reference Learn Node.js Tutorial Reference Learn Raspberry Pi Tutorial Learn Swift Tutorial Learn Git Tutorial Learn Bash Tutorial Learn MongoDB Tutorial Learn AWS Cloud Tutorial Learn XML Tutorial Reference Next Bootcamp: 16/03 Reserve Spot Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website HOT! Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Cyber Security Accessibility Join our Newsletter &times; References References filter input &times; HTML and CSS HTML Tags Reference CSS Reference W3.CSS Reference Bootstrap 3 Reference Bootstrap 4 Reference Color Names Icons Reference SVG Reference Canvas Reference Sass Reference UTF-8 Charset Reference UTF-8 Emojis Reference JavaScript JavaScript Reference jQuery Reference Vue Reference Angular Reference JSON Reference AppML Reference W3.JS Reference Backend Python Reference SQL Reference MySQL Reference PHP Reference Java Reference C Reference C++ Reference Django Reference ASP Reference Node.js Reference XML Reference &times; Exercises Excercises filter input &times; HTML and CSS HTML Exercise Quiz CSS Exercise Quiz Bootstrap 3 Exercise Quiz Bootstrap 4 Exercise Quiz Bootstrap 5 Exercise Quiz Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? JavaScript JavaScript Exercise Quiz React Exercise Quiz jQuery Exercise Quiz Vue Exercise Quiz Angular Exercise Quiz Backend Python Exercise Quiz SQL Exercise Quiz MySQL Exercise Quiz PHP Exercise Quiz Java Exercise Quiz C Exercise Quiz C++ Exercise Quiz C# Exercise Quiz R Exercise Quiz Kotlin Exercise Quiz Django Exercise Quiz Node.js Exercise Quiz PostgreSQL Exercise Quiz TypeScript Exercise Quiz Git Exercise Quiz Bash Exercise Quiz Go Exercise MongoDB Exercise AWS Cloud Exercise Quiz --> Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? &times; Certificates Filter field for certifications &times; HTML and CSS HTML Certificate Course Bootcamp CSS Certificate Course Bootcamp Bootstrap 3 Certificate Course Bootstrap 4 Certificate Course Bootstrap 5 Certificate Data Analytics DSA Certificate Data Analytics Course NumPy Certificate Course Pandas Certificate Course Excel Certificate Social Media Course What is a Certificate? What is a Bootcamp? Programs Full Access Best Value! Front End Certificate Course Web Dev. Certificate Course Web App Certificate Course Web Design Certificate Course JavaScript JavaScript Certificate Course Bootcamp React Certificate Course Bootcamp jQuery Certificate Course Vue Certificate Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Backend Python Certificate Course Bootcamp SQL Certificate Course Bootcamp MySQL Certificate PHP Certificate Course Java Certificate Course C Certificate C++ Certificate Course C# Certificate Course R Course Django Certificate NodeJS Certificate Bootcamp TypeScript Certificate Course XML Certificate Course Cyber Security Certificate Course Accessibility Certificate Course Python Apps on AWS Course AWS Training Courses --> Data Analytics DSA Exam Data Analytics Course NumPy Course Pandas Course Excel Certificate Social Media Course What is a Certificate? &times; All Our Services Dark mode &#xe80b; Services filter input &times; W3Schools offers a wide range of services and products for beginners and professionals, helping millions of people everyday to learn and master new skills."
+            "text": "&times; See More &nbsp; Sign In Sign Up --> user-anonymous --> --> --> &#x2605; +1 --> My W3Schools --> user-authenticated --> Get Certified Upgrade Teachers Spaces Bootcamps user-anonymous - action-btn --> Get Certified Upgrade Teachers Spaces Bootcamps user-authenticated - action-btn --> &#xe80b; My W3Schools Tutorials &nbsp; References &nbsp; Exercises &nbsp; Certificates &nbsp; Spaces Get Certified Plus Bootcamps Academy All our Services &nbsp; Logout &#62220; &#59399; &#59398; &#61805; &times; Tutorials Tutorials filter input &times; HTML and CSS Learn HTML Tutorial Reference Learn CSS Tutorial Reference Learn RWD Tutorial Learn Bootstrap Overview Learn W3.CSS Tutorial Reference Learn Sass Tutorial Reference Learn Colors Tutorial Reference Learn Icons Tutorial Reference Learn SVG Tutorial Reference Learn Canvas Tutorial Reference Learn Graphics Tutorial Learn UTF-8 and Emojis Reference Learn How To Tutorial Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Web Development Tools Cyber Security Accessibility Join our Newsletter JavaScript Learn JavaScript Tutorial Reference Learn React Tutorial Learn jQuery Tutorial Reference Learn Vue Tutorial Reference Learn Angular Tutorial Learn AngularJS Tutorial Reference Learn JSON Tutorial Reference Learn AJAX Tutorial Learn AppML Tutorial Reference Learn W3.JS Tutorial Reference Web Building Create a Website Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Web Developer Tools Cyber Security Accessibility Join our Newsletter Backend Learn Python Tutorial Reference Learn SQL Tutorial Reference Learn MySQL Tutorial Reference Learn PHP Tutorial Reference Learn Java Tutorial Reference Learn C Tutorial Reference Learn C++ Tutorial Reference Learn C# Tutorial Learn R Tutorial Learn Kotlin Tutorial Learn Rust Tutorial Learn Go Tutorial Learn Django Tutorial Reference Learn PostgreSQL Tutorial Learn TypeScript Tutorial Learn ASP Tutorial Reference Learn Node.js Tutorial Reference Learn Raspberry Pi Tutorial Learn Swift Tutorial Learn Git Tutorial Learn Bash Tutorial Learn MongoDB Tutorial Learn AWS Cloud Tutorial Learn XML Tutorial Reference Data Analytics Learn AI Tutorial Learn Generative AI Tutorial Learn ChatGPT-3.5 Tutorial Learn ChatGPT-4 Tutorial Learn Google Bard Tutorial Learn Machine Learning Tutorial Learn DSA Tutorial Learn Data Science Tutorial Learn NumPy Tutorial Learn Pandas Tutorial Learn SciPy Tutorial Learn Matplotlib Tutorial Learn Statistics Tutorial Learn Excel Tutorial Learn Google Sheets Tutorial Web Building Create a Website Create a Server NEW Where To Start Web Templates Web Statistics Web Certificates Web Development Introduction to Programming Introduction to HTML &amp; CSS Code Editor Test Your Typing Speed Play a Code Game Web Developer Tools Cyber Security Accessibility Join our Newsletter &times; References References filter input &times; HTML and CSS HTML Tags Reference CSS Reference W3.CSS Reference Bootstrap 3 Reference Bootstrap 4 Reference Color Names Icons Reference SVG Reference Canvas Reference Sass Reference UTF-8 Charset Reference UTF-8 Emojis Reference JavaScript JavaScript Reference HTML DOM Reference jQuery Reference Vue Reference Angular Reference JSON Reference AppML Reference W3.JS Reference Backend Python Reference SQL Reference MySQL Reference PHP Reference Java Reference C Reference C++ Reference Django Reference ASP Reference Node.js Reference XML Reference &times; Exercises Excercises filter input &times; HTML and CSS HTML Exercise Quiz Challenge CSS Exercise Quiz Challenge Bootstrap 3 Exercise Quiz Bootstrap 4 Exercise Quiz Bootstrap 5 Exercise Quiz Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? What is a Challenge? JavaScript JavaScript Exercise Quiz React Exercise Quiz jQuery Exercise Quiz Vue Exercise Quiz Angular Exercise Quiz Backend Python Exercise Quiz Challenge SQL Exercise Quiz MySQL Exercise Quiz PHP Exercise Quiz Java Exercise Quiz Challenge C Exercise Quiz Challenge C++ Exercise Quiz Challenge C# Exercise Quiz R Exercise Quiz Kotlin Exercise Quiz Django Exercise Quiz Node.js Exercise Quiz PostgreSQL Exercise Quiz TypeScript Exercise Quiz Git Exercise Quiz Bash Exercise Quiz Go Exercise MongoDB Exercise AWS Cloud Exercise Quiz --> Data Analytics DSA Exercise Quiz NumPy Exercise Quiz Pandas Exercise Quiz SciPy Exercise Quiz Excel Exercise What is an Exercise? What is a Quiz? What is a Code Challenge? &times; Certificates Filter field for certifications &times; HTML and CSS HTML Certificate Course Bootcamp CSS Certificate Course Bootcamp Bootstrap 3 Certificate Course Bootstrap 4 Certificate Course Bootstrap 5 Certificate Data Analytics DSA Certificate Data Analytics Course NumPy Certificate Course Pandas Certificate Course Excel Certificate Social Media Course What is a Certificate? What is a Bootcamp? Programs Full Access Best Value! Front End Certificate Course Web Dev. Certificate Course Web App Certificate Course Web Design Certificate Course JavaScript JavaScript Certificate Course Bootcamp React Certificate Course Bootcamp jQuery Certificate Course Vue Certificate Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Programs Full Access Best Value! Front End Certificate Course Bootcamp Web Dev. Certificate Course Bootcamp Web App Certificate Course Web Design Certificate Course Backend Python Certificate Course Bootcamp SQL Certificate Course Bootcamp MySQL Certificate PHP Certificate Course Java Certificate Course C Certificate C++ Certificate Course C# Certificate Course R Course Django Certificate NodeJS Certificate Bootcamp TypeScript Certificate Course XML Certificate Course Cyber Security Certificate Course Accessibility Certificate Course Python Apps on AWS Course AWS Training Courses --> Data Analytics DSA Exam Data Analytics Course NumPy Course Pandas Course Excel Certificate Social Media Course What is a Certificate? &times; All Our Services Dark mode &#xe80b; Services filter input &times; W3Schools offers a wide range of services and products for beginners and professionals, helping millions of people everyday to learn and master new skills."
           },
           {
             "tag": "h4",
@@ -266,6 +266,14 @@
           {
             "tag": "p",
             "text": "Test yourself with multiple choice questions"
+          },
+          {
+            "tag": "h4",
+            "text": "Code Challenges"
+          },
+          {
+            "tag": "p",
+            "text": "Test your skills with interactive code challenges"
           },
           {
             "tag": "h4",
@@ -454,6 +462,14 @@
           {
             "tag": "p",
             "text": "About sales: sales@w3schools.com About errors: help@w3schools.com"
+          },
+          {
+            "tag": "h4",
+            "text": "Web Developer Tools"
+          },
+          {
+            "tag": "p",
+            "text": "Free online tools to help with your everyday development tasks"
           },
           {
             "tag": "h1",
@@ -797,14 +813,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 109,
-          "headings": 160,
+          "paragraphs": 111,
+          "headings": 162,
           "images": 21
         }
       }
     },
     {
-      "route_id": "ROUTE-2DAE94B2",
+      "route_id": "ROUTE-1AC76E49",
       "path": "/html/default.asp",
       "type": "Detected Link",
       "anchor_text": "HTML",
@@ -815,7 +831,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-68059B59",
+      "route_id": "ROUTE-FB971089",
       "path": "/css/default.asp",
       "type": "Detected Link",
       "anchor_text": "CSS",
@@ -826,7 +842,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2C1CF76B",
+      "route_id": "ROUTE-37179A3E",
       "path": "/js/default.asp",
       "type": "Detected Link",
       "anchor_text": "JAVASCRIPT",
@@ -837,7 +853,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FB4A86BF",
+      "route_id": "ROUTE-5D6F450D",
       "path": "/sql/default.asp",
       "type": "Detected Link",
       "anchor_text": "SQL",
@@ -848,7 +864,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C9458CD9",
+      "route_id": "ROUTE-D85A290A",
       "path": "/python/default.asp",
       "type": "Detected Link",
       "anchor_text": "PYTHON",
@@ -859,7 +875,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-36E3F79B",
+      "route_id": "ROUTE-62B6CA43",
       "path": "/java/default.asp",
       "type": "Detected Link",
       "anchor_text": "JAVA",
@@ -870,7 +886,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-33F3702F",
+      "route_id": "ROUTE-8B492BC1",
       "path": "/php/default.asp",
       "type": "Detected Link",
       "anchor_text": "PHP",
@@ -881,7 +897,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-00ADF4EF",
+      "route_id": "ROUTE-BDD15F47",
       "path": "/howto/default.asp",
       "type": "Detected Link",
       "anchor_text": "HOW TO",
@@ -892,7 +908,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A0E7BDD6",
+      "route_id": "ROUTE-A6218322",
       "path": "/w3css/default.asp",
       "type": "Detected Link",
       "anchor_text": "W3.CSS",
@@ -903,7 +919,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9E9FAEBB",
+      "route_id": "ROUTE-B77A0FA1",
       "path": "/c/index.php",
       "type": "Detected Link",
       "anchor_text": "C",
@@ -914,7 +930,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C2ABB3E7",
+      "route_id": "ROUTE-5D23FFD5",
       "path": "/cpp/default.asp",
       "type": "Detected Link",
       "anchor_text": "C++",
@@ -925,7 +941,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E8DFD02C",
+      "route_id": "ROUTE-02E8D098",
       "path": "/cs/index.php",
       "type": "Detected Link",
       "anchor_text": "C#",
@@ -936,7 +952,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-200B1973",
+      "route_id": "ROUTE-2DBBFD40",
       "path": "/bootstrap/bootstrap_ver.asp",
       "type": "Detected Link",
       "anchor_text": "BOOTSTRAP",
@@ -947,7 +963,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-68B4B715",
+      "route_id": "ROUTE-CBD5C266",
       "path": "/react/default.asp",
       "type": "Detected Link",
       "anchor_text": "REACT",
@@ -958,7 +974,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D7F4BC05",
+      "route_id": "ROUTE-C9310493",
       "path": "/mysql/default.asp",
       "type": "Detected Link",
       "anchor_text": "MYSQL",

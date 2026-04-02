@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-EDB8D443",
-  "generated_at": "2026-01-21T07:26:54.698Z",
+  "generated_at": "2026-04-02T04:24:17.088Z",
   "global_configuration": {
     "brand_name": "Content",
     "domain": "draft.dev",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.67.214.55",
+      "server_ip": "104.21.86.22",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -33,9 +33,9 @@
         "full_url": "https://draft.dev/_next/static/chunks/4bd1b696-f785427dddbba9fb.js"
       },
       {
-        "path": "/_next/static/chunks/1255-066c727b471078b6.js",
+        "path": "/_next/static/chunks/1255-4e976238c249fb89.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/1255-066c727b471078b6.js"
+        "full_url": "https://draft.dev/_next/static/chunks/1255-4e976238c249fb89.js"
       },
       {
         "path": "/_next/static/chunks/main-app-f6791acd07790398.js",
@@ -53,29 +53,29 @@
         "full_url": "https://draft.dev/_next/static/chunks/1356-9ba0eb29e38244a9.js"
       },
       {
-        "path": "/_next/static/chunks/8343-a3ec1c24beb2ee82.js",
+        "path": "/_next/static/chunks/8343-fa6162e400d6acfc.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/8343-a3ec1c24beb2ee82.js"
+        "full_url": "https://draft.dev/_next/static/chunks/8343-fa6162e400d6acfc.js"
       },
       {
-        "path": "/_next/static/chunks/4675-a6f60384e8494928.js",
+        "path": "/_next/static/chunks/4675-4ae13dd561f86489.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/4675-a6f60384e8494928.js"
+        "full_url": "https://draft.dev/_next/static/chunks/4675-4ae13dd561f86489.js"
       },
       {
-        "path": "/_next/static/chunks/app/layout-d7bd5acc25c3adaf.js",
+        "path": "/_next/static/chunks/app/layout-aeded4549cf78e83.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/app/layout-d7bd5acc25c3adaf.js"
+        "full_url": "https://draft.dev/_next/static/chunks/app/layout-aeded4549cf78e83.js"
       },
       {
-        "path": "/_next/static/chunks/5245-659346ff4fa02e09.js",
+        "path": "/_next/static/chunks/5245-4c4542f64c07867d.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/5245-659346ff4fa02e09.js"
+        "full_url": "https://draft.dev/_next/static/chunks/5245-4c4542f64c07867d.js"
       },
       {
-        "path": "/_next/static/chunks/app/page-c5139ce91a53f62d.js",
+        "path": "/_next/static/chunks/app/page-a30feb4bb35dff64.js",
         "type": "script",
-        "full_url": "https://draft.dev/_next/static/chunks/app/page-c5139ce91a53f62d.js"
+        "full_url": "https://draft.dev/_next/static/chunks/app/page-a30feb4bb35dff64.js"
       },
       {
         "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
@@ -88,9 +88,9 @@
         "full_url": "https://draft.dev/_next/static/chunks/webpack-511fbcad14280c2e.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/_next/static/css/377668202e0eb0cc.css",
@@ -98,9 +98,9 @@
         "full_url": "https://draft.dev/_next/static/css/377668202e0eb0cc.css"
       },
       {
-        "path": "/_next/static/css/03ce5ef6241c06e1.css",
+        "path": "/_next/static/css/9dd9e8fa55bc87a4.css",
         "type": "stylesheet",
-        "full_url": "https://draft.dev/_next/static/css/03ce5ef6241c06e1.css"
+        "full_url": "https://draft.dev/_next/static/css/9dd9e8fa55bc87a4.css"
       },
       {
         "path": "/draft/logos/draftlogo_main_filled.svg",
@@ -228,14 +228,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "17027ms"
+          "latency": "3887ms"
         },
         {
           "resource": "4bd1b696-f785427dddbba9fb.js",
           "latency": "pending"
         },
         {
-          "resource": "1255-066c727b471078b6.js",
+          "resource": "1255-4e976238c249fb89.js",
           "latency": "pending"
         },
         {
@@ -469,10 +469,10 @@
       }
     },
     {
-      "route_id": "ROUTE-CDDB617F",
-      "path": "/content-marketing-engine",
+      "route_id": "ROUTE-26B0A920",
+      "path": "/2026-developer-marketing-survey",
       "type": "Detected Link",
-      "anchor_text": "Download Our FREE eBook: How to Set Up a Content Marketing Engine in the Age of AI →",
+      "anchor_text": "Download the 2026 Developer Marketing Survey - see how technical marketers are investing and experimenting in 2026 →",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -480,7 +480,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D0E9C73B",
+      "route_id": "ROUTE-CC429C10",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -491,7 +491,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-060763ED",
+      "route_id": "ROUTE-36403676",
       "path": "/case-studies",
       "type": "Detected Link",
       "anchor_text": "Case Studies",
@@ -502,7 +502,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-62C07223",
+      "route_id": "ROUTE-69FC3E0A",
       "path": "/about",
       "type": "Detected Link",
       "anchor_text": "Company",
@@ -513,7 +513,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BE4325E8",
+      "route_id": "ROUTE-3E2BF4C3",
       "path": "/call",
       "type": "Detected Link",
       "anchor_text": "Book Discovery Call",
@@ -524,7 +524,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-451A44FB",
+      "route_id": "ROUTE-141AF8BF",
       "path": "/content-marketing-engine",
       "type": "Detected Link",
       "anchor_text": "New eBook",
@@ -535,7 +535,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9916F40B",
+      "route_id": "ROUTE-D4D5B720",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "See our process →",
@@ -546,7 +546,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FF76880A",
+      "route_id": "ROUTE-D2C34475",
       "path": "/drive-awareness",
       "type": "Detected Link",
       "anchor_text": "See how we drive awareness →",
@@ -557,7 +557,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ADCB203F",
+      "route_id": "ROUTE-72AC8457",
       "path": "/technical-content-examples",
       "type": "Detected Link",
       "anchor_text": "See some of our technical content examples →",
@@ -568,7 +568,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4788E6C6",
+      "route_id": "ROUTE-022E08CD",
       "path": "/case-studies/sinch-mailgun",
       "type": "Detected Link",
       "anchor_text": "Read this case study",
@@ -579,7 +579,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8AA908F9",
+      "route_id": "ROUTE-33A5EF72",
       "path": "/case-studies/status-hero",
       "type": "Detected Link",
       "anchor_text": "Henry PoydarFounder &amp; CEO, Status Hero",
@@ -590,7 +590,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-56D0321F",
+      "route_id": "ROUTE-E96464D3",
       "path": "/case-studies/loft-labs",
       "type": "Detected Link",
       "anchor_text": "Rahul PatwardhanSenior Director, Demand Generation, Loft Labs",
@@ -601,7 +601,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-84A664B8",
+      "route_id": "ROUTE-0DAE644E",
       "path": "/case-studies/earthly",
       "type": "Detected Link",
       "anchor_text": "Adam Gordon BellDirector of Developer Relations, Earthly",
@@ -612,7 +612,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-44723F79",
+      "route_id": "ROUTE-ECAC2733",
       "path": "/call",
       "type": "Detected Link",
       "anchor_text": "Book a discovery call",
@@ -623,7 +623,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F2058B51",
+      "route_id": "ROUTE-99F545F8",
       "path": "/newsletter",
       "type": "Detected Link",
       "anchor_text": "Trusted by 100+ tech companies. Over 300 engineers writing your technical content.",

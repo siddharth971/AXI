@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-5D9A0668",
-  "generated_at": "2026-01-21T07:27:12.146Z",
+  "generated_at": "2026-04-02T04:24:29.699Z",
   "global_configuration": {
     "brand_name": "SentinelOne",
     "domain": "www.sentinelone.com",
@@ -17,16 +17,21 @@
     },
     "server_headers": {
       "Cache-Control": "public, max-age=604800",
-      "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-eval' https://snap.licdn.com/ https://cdn.calibermind.com/ https://a.quora.com/ https://app.cdn.lookbookhq.com/ https://connect.facebook.net/ https://ct.capterra.com/ https://ga.clearbit.com/ https://js.adsrvr.org/ https://munchkin.brightfunnel.com/ https://munchkin.marketo.net/ https://static.ads-twitter.com/ 'unsafe-inline' http://schema.org https://*.cloudfront.net/ https://*.googletagmanager.com https://a.omappapi.com/ https://analytics.twitter.com/ https://bat.bing.com/ https://cdn.abrankings.com https://cdn.abrankings.com/ https://cdn.cookielaw.org/ https://cdn.datatables.net/ https://cdn.jsdelivr.net/ https://cdn.onesignal.com/ https://cdnjs.cloudflare.com/ https://cloud.typography.com/ https://code.jquery.com/ https://collector-5527.tvsquared.com/ https://fonts.googleapis.com/ https://go.sentinelone.com/ https://googleads.g.doubleclick.net/ https://j.6sc.co/ https://js.maxmind.com/ https://js.qualified.com/ https://onesignal.com/ https://pixel-geo.prfct.co/ https://platform-api.sharethis.com/ https://platform.twitter.com/ https://pt.ispot.tv/ https://pubads.g.doubleclick.net/ https://px.spiceworks.com/ https://script.hotjar.com/ https://scripts.demandbase.com/ https://sentinelone.com https://ssl.google-analytics.com https://staging.s1preview.com/ https://static.hotjar.com/ https://tag.marinsm.com/ https://ws.qualified.com/ https://www.clickcease.com/ https://www.google-analytics.com https://www.google-analytics.com/ https://www.google.com/* https://www.googleoptimize.com/ https://www.googletagmanager.com/ https://www.googletagmanager.com/* https://www.redditstatic.com/ https://www.vantajs.com/ https://www.youtube.com/ https://yoast.com/ https://www.google.com/ https://qualified.com/ https://www.vantajs.com/ https://js.maxmind.com/ https://cdn.onesignal.com/ https://cdn.datatables.net/ https://platform-api.sharethis.com/ https://yoast.com/ https://fonts.googleapis.com/ https://cdn.datatables.net/ https://js-agent.newrelic.com/ https://www.sentinelone.com/ https://boards.greenhouse.io/ https://ajax.cloudflare.com/ https://www.googleadservices.com/ https://bam.nr-data.net/ https://cdn.linkedin.oribi.io/ https://fr.sentinelone.com/ https://it.sentinelone.com/ https://jp.sentinelone.com/ https://de.sentinelone.com/ https://it.sentinelone.com/ https://es.sentinelone.com/ https://nl.sentinelone.com/ https://kr.sentinelone.com/ https://www.google.it/ https://www.google.co.jp/ https://www.google.de/ https://ar.sentinelone.com/ https://www.google.es/ https://www.google.fr/ https://www.google.nl/ https://sonix.ai https://bam.nr-data.net/ https://docs.google.com/ https://apis.google.com/js/api.js/ https://accounts.google.com/ https://*.googleapis.com *.google.com https://*.gstatic.com https://sheets.googleapis.com/ https://tags.srv.stackadapt.com/events.js https://js.storylane.io/ https://qvdt3feo.com/ https://javascript.heeet.io/ https://api.brightfunnel.com https://a23gjzphzj.execute-api.us-east-1.amazonaws.com/ https://geolocation.onetrust.com/ https://js-agent.newrelic.com/ https://www.gstatic.com/ https://tag.demandbase.com/ https://cdnjs.com/libraries/Chart.js js.knock-ai.com https://www.clarity.ms https://js.zi-scripts.com/ https://ws.zoominfo.com/ https://tags.clickagy.com/ blob: https://ws-assets.zoominfo.com/ https://app.optimizely.com/ https://cdn.optimizely.com/ https://logx.optimizely.com/ https://pagead2.googlesyndication.com/ https://cdn.intellimize.co/ https://mastodon.social/ https://embed.bsky.app/ https://js-agent.newrelic.com/ https://prod.impartner.live https://packages.prmcdn.io https://partners.sentinelone.com https://tracking-api.g2.com https://ob.roundprincemusic.com obs.roundprincemusic.com https://scripts.clarity.ms/0.8.23/clarity.js https://widgets.peerspot.com https://scripts.clarity.ms https://collector-53786.us.tvsquared.com https://c.amazon-adsystem.com; frame-ancestors 'self' http://sentinelone.lookbookhq.com https://sentinelone.lookbookhq.com http://sentinelone.pathfactory.com https://sentinelone.pathfactory.com http://assets.sentinelone.com https://assets.sentinelone.com https://app.scalyr.com https://app.eu.scalyr.com localhost https://a23gjzphzj.execute-api.us-east-1.amazonaws.com/ https://ws-assets.zoominfo.com/ https://partners.sentinelone.com;",
+      "Content-Security-Policy": "object-src 'none'; worker-src 'self' blob:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://player.vimeo.com https://f.vimeocdn.com https://www.contentstack.com https://next.sentinelone.com https://snap.licdn.com/ https://cdn.calibermind.com/ https://a.quora.com/ https://app.cdn.lookbookhq.com/ https://connect.facebook.net/ https://ct.capterra.com/ https://ga.clearbit.com/ https://js.adsrvr.org/ https://munchkin.brightfunnel.com/ https://munchkin.marketo.net/ https://static.ads-twitter.com/ http://schema.org https://*.cloudfront.net/ https://*.googletagmanager.com https://a.omappapi.com/ https://analytics.twitter.com/ https://bat.bing.com/ https://cdn.abrankings.com https://cdn.abrankings.com/ https://cdn.cookielaw.org/ https://cdn.datatables.net/ https://cdn.jsdelivr.net/ https://cdn.onesignal.com/ https://cdnjs.cloudflare.com/ https://cloud.typography.com/ https://code.jquery.com/ https://collector-5527.tvsquared.com/ https://fonts.googleapis.com/ https://go.sentinelone.com/ https://googleads.g.doubleclick.net/ https://j.6sc.co/ https://js.maxmind.com/ https://js.qualified.com/ https://onesignal.com/ https://pixel-geo.prfct.co/ https://platform-api.sharethis.com/ https://platform.twitter.com/ https://pt.ispot.tv/ https://pubads.g.doubleclick.net/ https://px.spiceworks.com/ https://script.hotjar.com/ https://scripts.demandbase.com/ https://sentinelone.com https://ssl.google-analytics.com https://staging.s1preview.com/ https://static.hotjar.com/ https://tag.marinsm.com/ https://ws.qualified.com/ https://www.clickcease.com/ https://www.google-analytics.com https://www.google-analytics.com/ https://www.google.com/* https://www.googleoptimize.com/ https://www.googletagmanager.com/ https://www.googletagmanager.com/* https://www.redditstatic.com/ https://www.vantajs.com/ https://www.youtube.com/ https://yoast.com/ https://www.google.com/ https://qualified.com/ https://js-agent.newrelic.com/ https://www.sentinelone.com/ https://boards.greenhouse.io/ https://ajax.cloudflare.com/ https://www.googleadservices.com/ https://bam.nr-data.net/ https://cdn.linkedin.oribi.io/ https://fr.sentinelone.com/ https://it.sentinelone.com/ https://jp.sentinelone.com/ https://de.sentinelone.com/ https://es.sentinelone.com/ https://nl.sentinelone.com/ https://kr.sentinelone.com/ https://www.google.it/ https://www.google.co.jp/ https://www.google.de/ https://ar.sentinelone.com/ https://www.google.es/ https://www.google.fr/ https://www.google.nl/ https://sonix.ai https://docs.google.com/ https://apis.google.com/js/api.js/ https://accounts.google.com/ https://*.googleapis.com *.google.com https://*.gstatic.com https://sheets.googleapis.com/ https://tags.srv.stackadapt.com/events.js https://js.storylane.io/ https://qvdt3feo.com/ https://javascript.heeet.io/ https://api.brightfunnel.com https://a23gjzphzj.execute-api.us-east-1.amazonaws.com/ https://geolocation.onetrust.com/ https://www.gstatic.com/ https://tag.demandbase.com/ https://cdnjs.com/libraries/Chart.js js.knock-ai.com https://www.clarity.ms https://js.zi-scripts.com/ https://ws.zoominfo.com/ https://tags.clickagy.com/ blob: https://ws-assets.zoominfo.com/ https://app.optimizely.com/ https://cdn.optimizely.com/ https://logx.optimizely.com/ https://pagead2.googlesyndication.com/ https://cdn.intellimize.co/ https://mastodon.social/ https://embed.bsky.app/ https://prod.impartner.live https://packages.prmcdn.io https://partners.sentinelone.com https://tracking-api.g2.com https://ob.roundprincemusic.com obs.roundprincemusic.com https://scripts.clarity.ms/0.8.23/clarity.js https://widgets.peerspot.com https://c.amazon-adsystem.com https://scripts.clarity.ms https://va.vercel-scripts.com; frame-ancestors 'self' http://sentinelone.lookbookhq.com https://sentinelone.lookbookhq.com http://sentinelone.pathfactory.com https://sentinelone.pathfactory.com http://assets.sentinelone.com https://assets.sentinelone.com https://app.scalyr.com https://app.eu.scalyr.com localhost https://a23gjzphzj.execute-api.us-east-1.amazonaws.com/ https://ws-assets.zoominfo.com/ https://partners.sentinelone.com https://app.contentstack.com https://eu-app.contentstack.com https://app-eu.contentstack.com https://*.contentstack.com https://*.csnonprod.com",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 10,
+      "total_files": 11,
       "total_size_mb": 0
     },
     "core_assets": [
+      {
+        "path": "/4eg8/",
+        "type": "script",
+        "full_url": "https://www.sentinelone.com/4eg8/"
+      },
       {
         "path": "/snippet/117922517.js",
         "type": "script",
@@ -60,7 +65,7 @@
       {
         "path": "/wp-content/themes/sentinelone/carbine/assets/js/global.min.js",
         "type": "script",
-        "full_url": "https://www.sentinelone.com/wp-content/themes/sentinelone/carbine/assets/js/global.min.js?ver=1768939795"
+        "full_url": "https://www.sentinelone.com/wp-content/themes/sentinelone/carbine/assets/js/global.min.js?ver=1775089719"
       },
       {
         "path": "/pixel/",
@@ -93,7 +98,11 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6148ms"
+          "latency": "1365ms"
+        },
+        {
+          "resource": "4eg8",
+          "latency": "pending"
         },
         {
           "resource": "117922517.js",
@@ -102,44 +111,40 @@
         {
           "resource": "jquery.min.js",
           "latency": "pending"
-        },
-        {
-          "resource": "forms2.min.js",
-          "latency": "pending"
         }
       ],
       "page_content": {
         "hero_section": {
-          "h1_title": "Don’t Just Stop Breaches. Make Sure They Never Start.",
+          "h1_title": "Built to Secure.Engineered for Advantage.",
           "h2_subtitle": "",
           "cta_buttons": []
         },
         "value_props": [
           {
-            "title": "Calm the chaos with the world’s most advanced AI cybersecurity platform.",
+            "title": "AI-native security powered by Autonomous Security Intelligence.See further. Stop faster. Gain the edge.",
             "desc": "Description detected in content block."
           },
           {
-            "title": "Secure Every Aspect of Your Organization",
+            "title": "Security That’s One Step Ahead",
             "desc": "Description detected in content block."
           },
           {
-            "title": "One Platform. Limitless Security.",
+            "title": "The Architecture of Advantage",
             "desc": "Description detected in content block."
           }
         ],
         "main_content": [
           {
             "tag": "p",
-            "text": "A Leader in the Gartner® Magic Quadrant™ Experiencing a Breach? Blog English 日本語 Deutsch Español Français Italiano Dutch 한국어 Get Started Contact Us Platform Platform Overview Singularity Platform Welcome to Integrated Enterprise Security AI Security Portfolio Leading the Way in AI-Powered Security Solutions How It Works The Singularity XDR Difference Singularity Marketplace One-Click Integrations to Unlock the Power of XDR Pricing & Packaging Comparisons and Guidance at a Glance Data & AI Purple AI Accelerate SecOps with Generative AI Singularity Hyperautomation Easily Automate Security Processes AI-SIEM The AI SIEM for the Autonomous SOC Singularity Data Lake AI-Powered, Unified Data Lake Singularity Data Lake for Log Analytics Seamlessly ingest data from on-prem, cloud or hybrid environments Endpoint Security Singularity Endpoint Autonomous Prevention, Detection, and Response Singularity XDR Native & Open Protection, Detection, and Response Singularity RemoteOps Forensics Orchestrate Forensics at Scale Singularity Threat Intelligence Comprehensive Adversary Intelligence Singularity Vulnerability Management Application & OS Vulnerability Management Cloud Security Singularity Cloud Security Block Attacks with an AI-powered CNAPP Singularity Cloud Native Security Secure Cloud and Development Resources Singularity Cloud Workload Security Real-Time Cloud Workload Protection Platform Singularity Cloud Data Security AI-Powered Threat Detection for Cloud Storage Singularity Cloud Security Posture Management Detect and Remediate Cloud Misconfigurations Identity Security Singularity Identity Identity Threat Detection and Response Why SentinelOne? Why SentinelOne? Why SentinelOne? Cybersecurity Built for What’s Next Our Customers Trusted by the World’s Leading Enterprises Industry Recognition Tested and Proven by the Experts About Us The Industry Leader in Autonomous Cybersecurity Compare SentinelOne Arctic Wolf Broadcom CrowdStrike Cybereason Microsoft Palo Alto Networks Sophos Splunk Trellix Trend Micro Wiz Verticals Energy Federal Government Finance Healthcare Higher Education K-12 Education Manufacturing Retail State and Local Government Services Managed Services Managed Services Overview Wayfinder Threat Detection & Response Threat Hunting World-class Expertise and Threat Intelligence. Managed Detection & Response 24/7/365 Expert MDR Across Your Entire Environment Incident Readiness & Response Digital Forensics, IRR & Breach Readiness Support, Deployment, & Health Technical Account Management Customer Success with Personalized Service SentinelOne GO Guided Onboarding & Deployment Advisory SentinelOne University Live and On-Demand Training Services Overview Comprehensive solutions for seamless security operations SentinelOne Community Community Login Partners Our Network MSSP Partners Succeed Faster with SentinelOne Singularity Marketplace Extend the Power of S1 Technology Cyber Risk Partners Enlist Pro Response and Advisory Teams Technology Alliances Integrated, Enterprise-Scale Solutions SentinelOne for AWS Hosted in AWS Regions Around the World Channel Partners Deliver the Right Solutions, Together Partner Locator Your go-to source for our top partners in your region Partner Portal Resources Resource Center Case Studies Data Sheets eBooks Reports Videos Webinars Whitepapers Events View All Resources Blog Feature Spotlight For CISO/CIO From the Front Lines Identity Cloud macOS SentinelOne Blog Blog Tech Resources SentinelLABS Ransomware Anthology Cybersecurity 101 About About SentinelOne About SentinelOne The Industry Leader in Cybersecurity Investor Relations Financial Information & Events SentinelLABS Threat Research for the Modern Threat Hunter Careers The Latest Job Opportunities Press & News Company Announcements Cybersecurity Blog The Latest Cybersecurity Threats, News, & More FAQ Get Answers to Our Most Frequently Asked Questions DataSet The Live Data Platform S Foundation Securing a Safer Future for All S Ventures Investing in the Next Generation of Security, Data and AI Pricing English 日本語 Deutsch Español Français Italiano Dutch 한국어 Get Started Contact Us Don’t Just Stop Breaches. Make Sure They Never Start. Calm the chaos with the world’s most advanced AI cybersecurity platform. Get a Demo Calm the Chaos Secure Every Aspect of Your Organization Your browser does not support the video tag. Explore Platform AI-Powered Security See it in Action Unify Security with One Platform. One intelligent platform. Unprecedented speed. Infinite scale. Security that moves faster, protects stronger, and costs less."
+            "text": "The SentinelOne Annual Threat Report Experiencing a Breach? Blog English 日本語 Deutsch Español Français Italiano Dutch 한국어 Get Started Contact Us Platform Platform Overview Singularity Platform Welcome to Integrated Enterprise Security AI for Security Leading the Way in AI-Powered Security Solutions Securing AI Accelerate AI Adoption with Secure AI Tools, Apps, and Agents How It Works The Singularity XDR Difference Singularity Marketplace One-Click Integrations to Unlock the Power of XDR Pricing & Packaging Comparisons and Guidance at a Glance Data & AI Purple AI Accelerate SecOps with Generative AI Singularity Hyperautomation Easily Automate Security Processes AI-SIEM The AI SIEM for the Autonomous SOC Singularity Data Lake AI-Powered, Unified Data Lake Singularity Data Lake for Log Analytics Seamlessly Ingest Data from On-Prem, Cloud or Hybrid Environments Endpoint Security Singularity Endpoint Autonomous Prevention, Detection, and Response Singularity XDR Native & Open Protection, Detection, and Response Singularity RemoteOps Forensics Orchestrate Forensics at Scale Singularity Threat Intelligence Comprehensive Adversary Intelligence Singularity Vulnerability Management Application & OS Vulnerability Management Singularity Identity Identity Threat Detection and Response Cloud Security Singularity Cloud Security Block Attacks with an AI-Powered CNAPP Singularity Cloud Native Security Secure Cloud and Development Resources Singularity Cloud Workload Security Real-Time Cloud Workload Protection Platform Singularity Cloud Data Security AI-Powered Threat Detection for Cloud Storage Singularity Cloud Security Posture Management Detect and Remediate Cloud Misconfigurations Securing AI Prompt Security Secure AI Tools Across Your Enterprise Why SentinelOne? Why SentinelOne? Why SentinelOne? Cybersecurity Built for What’s Next Our Customers Trusted by the World’s Leading Enterprises Industry Recognition Tested and Proven by the Experts About Us The Industry Leader in Autonomous Cybersecurity Compare SentinelOne Arctic Wolf Broadcom CrowdStrike Cybereason Microsoft Palo Alto Networks Sophos Splunk Trellix Trend Micro Wiz Verticals Energy Federal Government Finance Healthcare Higher Education K-12 Education Manufacturing Retail State and Local Government Services Managed Services Managed Services Overview Wayfinder Threat Detection & Response Threat Hunting World-Class Expertise and Threat Intelligence Managed Detection & Response 24/7/365 Expert MDR Across Your Entire Environment Incident Readiness & Response DFIR, Breach Readiness, & Compromise Assessments Support, Deployment, & Health Technical Account Management Customer Success with Personalized Service SentinelOne GO Guided Onboarding & Deployment Advisory SentinelOne University Live and On-Demand Training Services Overview Comprehensive Solutions for Seamless Security Operations SentinelOne Community Community Login Partners Our Network MSSP Partners Succeed Faster with SentinelOne Singularity Marketplace Extend the Power of S1 Technology Cyber Risk Partners Enlist Pro Response and Advisory Teams Technology Alliances Integrated, Enterprise-Scale Solutions SentinelOne for AWS Hosted in AWS Regions Around the World Channel Partners Deliver the Right Solutions, Together SentinelOne for Google Cloud Unified, Autonomous Security Giving Defenders the Advantage at Global Scale Partner Locator Your Go-to Source for Our Top Partners in Your Region Partner Portal Resources Resource Center Case Studies Data Sheets eBooks Reports Videos Webinars Whitepapers Events View All Resources Blog Feature Spotlight For CISO/CIO From the Front Lines Identity Cloud macOS SentinelOne Blog Blog Tech Resources SentinelLABS Ransomware Anthology Cybersecurity 101 About About SentinelOne About SentinelOne The Industry Leader in Cybersecurity Investor Relations Financial Information & Events SentinelLABS Threat Research for the Modern Threat Hunter Careers The Latest Job Opportunities Press & News Company Announcements Cybersecurity Blog The Latest Cybersecurity Threats, News, & More FAQ Get Answers to Our Most Frequently Asked Questions DataSet The Live Data Platform S Foundation Securing a Safer Future for All S Ventures Investing in the Next Generation of Security, Data and AI Pricing English 日本語 Deutsch Español Français Italiano Dutch 한국어 Get Started Contact Us Built to Secure. Engineered for Advantage. AI-native security powered by Autonomous Security Intelligence. See further. Stop faster. Gain the edge. Free Platform Demo Gain the Advantage Security That’s One Step Ahead Your browser does not support the video tag. Explore Platform AI-Powered Security See it in Action Stop Threats Before They Start The world’s most advanced protection. Defend every edge of your enterprise with machine-speed, autonomous security."
           },
           {
             "tag": "p",
-            "text": "Outpace Every Threat. In Real Time. Stop threats before they start with the most advanced protection. Defend every edge of your enterprise with autonomous, AI-powered security."
+            "text": "Amplify Humans. Empower Teams. Turn every analyst into a force multiplier with AI that accelerates investigation and response while keeping humans in control."
           },
           {
             "tag": "p",
-            "text": "Turn Every Analyst Into a Force Multiplier Supercharge your team with AI that accelerates investigations, boosts accuracy, and slashes response times—so analysts can focus on what matters."
+            "text": "Simplify Security Operations Bring visibility, context, and action together in one seamless workflow for a unified experience that streamlines your entire operation."
           },
           {
             "tag": "p",
@@ -163,7 +168,7 @@
           },
           {
             "tag": "h3",
-            "text": "Cloud Security Bootcamp (February 18-19, 2026)"
+            "text": "The SentinelOne Annual Threat Report"
           },
           {
             "tag": "p",
@@ -175,7 +180,7 @@
           },
           {
             "tag": "p",
-            "text": "Record Breaking ATT&CK Evaluation"
+            "text": "Record-Breaking ATT&CK Evaluation"
           },
           {
             "tag": "p",
@@ -195,7 +200,7 @@
           },
           {
             "tag": "p",
-            "text": "At SentinelOne, customers are #1. Global industry leaders across every vertical choose SentinelOne as their trusted cybersecurity partner."
+            "text": "Global industry leaders choose SentinelOne for the clarity, control, and confidence to stay ahead in a world that won’t slow down."
           },
           {
             "tag": "p",
@@ -306,8 +311,8 @@
       }
     },
     {
-      "route_id": "ROUTE-BB52DA5C",
-      "path": "/lp/gartnermq/",
+      "route_id": "ROUTE-04653D5A",
+      "path": "/threat-report/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
       "rendering_strategy": "Unknown",
@@ -317,7 +322,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9CB6AA96",
+      "route_id": "ROUTE-363D86B8",
       "path": "/contact/",
       "type": "Detected Link",
       "anchor_text": "Experiencing a Breach?",
@@ -328,7 +333,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4E9CC99E",
+      "route_id": "ROUTE-68B26042",
       "path": "/blog/",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -339,7 +344,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D17B4445",
+      "route_id": "ROUTE-F9AB35C2",
       "path": "/ja/",
       "type": "Detected Link",
       "anchor_text": "日本語",
@@ -350,7 +355,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B46B4B6B",
+      "route_id": "ROUTE-A7F9AC26",
       "path": "/de/",
       "type": "Detected Link",
       "anchor_text": "Deutsch",
@@ -361,7 +366,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3D8522EE",
+      "route_id": "ROUTE-D0C03B08",
       "path": "/es/",
       "type": "Detected Link",
       "anchor_text": "Español",
@@ -372,7 +377,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9035B6DE",
+      "route_id": "ROUTE-85A3B94F",
       "path": "/fr/",
       "type": "Detected Link",
       "anchor_text": "Français",
@@ -383,7 +388,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9F332BCF",
+      "route_id": "ROUTE-E66DF20B",
       "path": "/it/",
       "type": "Detected Link",
       "anchor_text": "Italiano",
@@ -394,7 +399,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-084FE6D5",
+      "route_id": "ROUTE-28C8D443",
       "path": "/nl/",
       "type": "Detected Link",
       "anchor_text": "Dutch",
@@ -405,7 +410,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6349E5DB",
+      "route_id": "ROUTE-A63723A5",
       "path": "/ko/",
       "type": "Detected Link",
       "anchor_text": "한국어",
@@ -416,7 +421,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DC3D1C72",
+      "route_id": "ROUTE-2F4D4CAB",
       "path": "/request-demo/",
       "type": "Detected Link",
       "anchor_text": "Get Started",
@@ -427,7 +432,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6EBBD4A3",
+      "route_id": "ROUTE-11CA5326",
       "path": "/platform/",
       "type": "Detected Link",
       "anchor_text": "Platform",
@@ -438,7 +443,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-14BC61CE",
+      "route_id": "ROUTE-C748E293",
       "path": "/why-sentinelone/",
       "type": "Detected Link",
       "anchor_text": "Why SentinelOne?",
@@ -449,7 +454,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F17629E7",
+      "route_id": "ROUTE-7DEDE980",
       "path": "/global-services/services-overview/",
       "type": "Detected Link",
       "anchor_text": "Services",
@@ -460,7 +465,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D4605F4F",
+      "route_id": "ROUTE-7DA6452E",
       "path": "/partners/partner-overview/",
       "type": "Detected Link",
       "anchor_text": "Partners",

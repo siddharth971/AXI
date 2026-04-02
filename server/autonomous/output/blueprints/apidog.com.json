@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-BA70C827",
-  "generated_at": "2026-01-21T07:26:54.685Z",
+  "generated_at": "2026-04-02T04:24:17.086Z",
   "global_configuration": {
     "brand_name": "apidog.com",
     "domain": "apidog.com",
@@ -22,94 +22,124 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 17,
+      "total_files": 23,
       "total_size_mb": 0
     },
     "core_assets": [
       {
         "path": "/www/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
       },
       {
-        "path": "/www/_next/static/chunks/webpack-770c44ec8476262e.js",
+        "path": "/www/_next/static/chunks/webpack-675739c62660f1a3.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/webpack-770c44ec8476262e.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/webpack-675739c62660f1a3.js"
       },
       {
         "path": "/www/_next/static/chunks/framework-0a897eab13466586.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/framework-0a897eab13466586.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/framework-0a897eab13466586.js"
       },
       {
         "path": "/www/_next/static/chunks/main-fc53330f8b4a0336.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/main-fc53330f8b4a0336.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/main-fc53330f8b4a0336.js"
       },
       {
         "path": "/www/_next/static/chunks/pages/_app-51a4b1a597bbaaa1.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/pages/_app-51a4b1a597bbaaa1.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/pages/_app-51a4b1a597bbaaa1.js"
       },
       {
         "path": "/www/_next/static/chunks/4769-f8b8d2fa680becec.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/4769-f8b8d2fa680becec.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/4769-f8b8d2fa680becec.js"
       },
       {
-        "path": "/www/_next/static/chunks/2571-458496a8ef51cc38.js",
+        "path": "/www/_next/static/chunks/1087-1e8ce531caef7c8f.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/2571-458496a8ef51cc38.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/1087-1e8ce531caef7c8f.js"
       },
       {
-        "path": "/www/_next/static/chunks/5495-51c409295c01f553.js",
+        "path": "/www/_next/static/chunks/471-a490f818a24becca.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/5495-51c409295c01f553.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/471-a490f818a24becca.js"
       },
       {
-        "path": "/www/_next/static/chunks/6562-8c83ca20ddf85cf9.js",
+        "path": "/www/_next/static/chunks/4960-614ef8b68de307c9.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/6562-8c83ca20ddf85cf9.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/4960-614ef8b68de307c9.js"
       },
       {
-        "path": "/www/_next/static/chunks/8574-b74516ff56f87d94.js",
+        "path": "/www/_next/static/chunks/69-1fa99eac4c455473.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/8574-b74516ff56f87d94.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/69-1fa99eac4c455473.js"
       },
       {
-        "path": "/www/_next/static/chunks/2021-64ab859716e49cec.js",
+        "path": "/www/_next/static/chunks/5519-d8e15cb0f05a1164.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/2021-64ab859716e49cec.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/5519-d8e15cb0f05a1164.js"
       },
       {
-        "path": "/www/_next/static/chunks/4174-95cd4d48114014c1.js",
+        "path": "/www/_next/static/chunks/3447-d621daf0bcf10a4c.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/4174-95cd4d48114014c1.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/3447-d621daf0bcf10a4c.js"
       },
       {
-        "path": "/www/_next/static/chunks/pages/index-1b36f7eac6e323bc.js",
+        "path": "/www/_next/static/chunks/3450-2877f7af36c2616e.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/chunks/pages/index-1b36f7eac6e323bc.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/3450-2877f7af36c2616e.js"
       },
       {
-        "path": "/www/_next/static/wOBIJQpU7HOVnvSokRelH/_buildManifest.js",
+        "path": "/www/_next/static/chunks/1122-5ac32712bd3735ee.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/wOBIJQpU7HOVnvSokRelH/_buildManifest.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/1122-5ac32712bd3735ee.js"
       },
       {
-        "path": "/www/_next/static/wOBIJQpU7HOVnvSokRelH/_ssgManifest.js",
+        "path": "/www/_next/static/chunks/4183-7cb32b5f9edce74e.js",
         "type": "script",
-        "full_url": "https://assets.apidog.com/www/_next/static/wOBIJQpU7HOVnvSokRelH/_ssgManifest.js"
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/4183-7cb32b5f9edce74e.js"
       },
       {
-        "path": "/www/_next/static/css/3e43f3b973c7c4e1.css",
+        "path": "/www/_next/static/chunks/542-4796f0355e745b21.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/542-4796f0355e745b21.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/349-bb3544d9bf0bbdfd.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/349-bb3544d9bf0bbdfd.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/8904-04507ffd205a7fb5.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/8904-04507ffd205a7fb5.js"
+      },
+      {
+        "path": "/www/_next/static/chunks/pages/index-8bc6664dc9f3fc84.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/chunks/pages/index-8bc6664dc9f3fc84.js"
+      },
+      {
+        "path": "/www/_next/static/8VLfcryUlmhopXpEl1-DL/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/8VLfcryUlmhopXpEl1-DL/_buildManifest.js"
+      },
+      {
+        "path": "/www/_next/static/8VLfcryUlmhopXpEl1-DL/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://static.apidog.com/www/_next/static/8VLfcryUlmhopXpEl1-DL/_ssgManifest.js"
+      },
+      {
+        "path": "/www/_next/static/css/33fb314f2c11dca1.css",
         "type": "stylesheet",
-        "full_url": "https://assets.apidog.com/www/_next/static/css/3e43f3b973c7c4e1.css"
+        "full_url": "https://static.apidog.com/www/_next/static/css/33fb314f2c11dca1.css"
       },
       {
         "path": "/www/_next/static/css/282964501e9d0f2d.css",
         "type": "stylesheet",
-        "full_url": "https://assets.apidog.com/www/_next/static/css/282964501e9d0f2d.css"
+        "full_url": "https://static.apidog.com/www/_next/static/css/282964501e9d0f2d.css"
       }
     ]
   },
@@ -127,14 +157,14 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "16306ms"
+          "latency": "3867ms"
         },
         {
           "resource": "polyfills-c67a75d1b6f99dc8.js",
           "latency": "pending"
         },
         {
-          "resource": "webpack-770c44ec8476262e.js",
+          "resource": "webpack-675739c62660f1a3.js",
           "latency": "pending"
         },
         {

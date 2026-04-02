@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-102A42F6",
-  "generated_at": "2026-01-21T07:27:05.447Z",
+  "generated_at": "2026-04-02T04:24:25.923Z",
   "global_configuration": {
     "brand_name": "IBM",
     "domain": "www.ibm.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.120.64.175",
+      "server_ip": "23.207.90.222",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -22,14 +22,14 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 54,
+      "total_files": 67,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+        "path": "/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
         "type": "script",
-        "full_url": "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js"
+        "full_url": "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js"
       },
       {
         "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-smartling-context.lc-d30c41c1c7a4511befbe3e285d76955a-lc.min.js",
@@ -52,9 +52,9 @@
         "full_url": "https://hybrid-cloud-widgets-production.s3.us.cloud-object-storage.appdomain.cloud/loader.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-e211380c428dc713e565a7d5ed063453-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-4866bb7fe98d3d3335fd603f9dd9ec21-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-e211380c428dc713e565a7d5ed063453-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-4866bb7fe98d3d3335fd603f9dd9ec21-lc.min.js"
       },
       {
         "path": "/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js",
@@ -67,9 +67,14 @@
         "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/site.lc-711ad564e3a268c6369631bf501f356b-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/country-restoration.lc-6c7f3d09d89d6fd92b58825e71d86fd3-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/country-restoration.lc-849dd35b12585fe0bf0fee55c31b147c-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/country-restoration.lc-6c7f3d09d89d6fd92b58825e71d86fd3-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/country-restoration.lc-849dd35b12585fe0bf0fee55c31b147c-lc.min.js"
+      },
+      {
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-new-design.lc-e66b03af9b6eacdc689dd218c7334531-lc.min.js",
+        "type": "script",
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-new-design.lc-e66b03af9b6eacdc689dd218c7334531-lc.min.js"
       },
       {
         "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-button.lc-59d2a696a28b988a97efcea4cc5600a1-lc.min.js",
@@ -87,49 +92,59 @@
         "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-lightbox-media-viewer.lc-f774e7db89ab4a0f4e6755272dbd2e8b-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-caem-tile.lc-69150b0207da6044de15c93c085e88e3-lc.min.js",
-        "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-caem-tile.lc-69150b0207da6044de15c93c085e88e3-lc.min.js"
-      },
-      {
         "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-image.lc-b71fd9c4975562f3350b5f3e3e4e5af6-lc.min.js",
         "type": "script",
         "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-image.lc-b71fd9c4975562f3350b5f3e3e4e5af6-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/components/content/organisms/tile-group/tile-group-container/clientlibs.lc-92a38a0479519d42cd16961ae5a4bd09-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/components/content/organisms/tile-group/tile-group-container/clientlibs.lc-7765080e6ee21326256a1572435cc07b-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/content/organisms/tile-group/tile-group-container/clientlibs.lc-92a38a0479519d42cd16961ae5a4bd09-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/content/organisms/tile-group/tile-group-container/clientlibs.lc-7765080e6ee21326256a1572435cc07b-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-cibm-cta.lc-c806e36cec51977735a4ad7c9a42d740-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-countdown.lc-71faed3ee09a7b322714fbf0732d2b3f-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-cibm-cta.lc-c806e36cec51977735a4ad7c9a42d740-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-countdown.lc-71faed3ee09a7b322714fbf0732d2b3f-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-link-list.lc-d61b3f783816172e2430bc799c4e1f58-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-promo-banner.lc-1aed4adc816b8d60cdf59e3cc7a93434-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-link-list.lc-d61b3f783816172e2430bc799c4e1f58-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-promo-banner.lc-1aed4adc816b8d60cdf59e3cc7a93434-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-card.lc-38013f320b622dd16c46abace3f7235e-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-carousel.lc-1ac46459b9348c39376970f584efb9af-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-card.lc-38013f320b622dd16c46abace3f7235e-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-carousel.lc-1ac46459b9348c39376970f584efb9af-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-card-group.lc-4d4b6cbfc132c9eadcd84caaa2fa3f48-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-cibm-cta.lc-f8ab5dca4b36be3b47170e9bc4e09296-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-card-group.lc-4d4b6cbfc132c9eadcd84caaa2fa3f48-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-cibm-cta.lc-f8ab5dca4b36be3b47170e9bc4e09296-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-cta-block.lc-81a04a845f80f058532e7d7e6da31a70-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-link-list.lc-0edfd407ef421f609385c8079e6e55a4-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-cta-block.lc-81a04a845f80f058532e7d7e6da31a70-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-link-list.lc-0edfd407ef421f609385c8079e6e55a4-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/components/content/molecules/cta-section-item/clientlibs.lc-06abd45fa5966d11f20d1a510a93fdda-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-card.lc-a066ed93b7f357be5e9ed8d0e97ec8d1-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/content/molecules/cta-section-item/clientlibs.lc-06abd45fa5966d11f20d1a510a93fdda-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-card.lc-a066ed93b7f357be5e9ed8d0e97ec8d1-lc.min.js"
+      },
+      {
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-card-group.lc-d03463df3d756e6c4e91079a35c54532-lc.min.js",
+        "type": "script",
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-card-group.lc-d03463df3d756e6c4e91079a35c54532-lc.min.js"
+      },
+      {
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-cta-block.lc-0554d424d611d6ab5bd58c16ce1c4620-lc.min.js",
+        "type": "script",
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-cta-block.lc-0554d424d611d6ab5bd58c16ce1c4620-lc.min.js"
+      },
+      {
+        "path": "/etc.clientlibs/adobe-cms/components/content/molecules/cta-section-item/clientlibs.lc-0d80278ce01fb9df9b572340c1754e72-lc.min.js",
+        "type": "script",
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/components/content/molecules/cta-section-item/clientlibs.lc-0d80278ce01fb9df9b572340c1754e72-lc.min.js"
       },
       {
         "path": "/account/ibmidutil/widget/js/loader.js",
@@ -142,14 +157,14 @@
         "full_url": "https://www.ibm.com/account/ibmidutil/widget/js/main.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-fc557e264315429b6a75c5bd07ed006f-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-4ebc3eacdcfa4a7f83be346b4014dd6a-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-fc557e264315429b6a75c5bd07ed006f-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-4ebc3eacdcfa4a7f83be346b4014dd6a-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-footer.lc-2f46880a2d4619eae087f3699955d65a-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-footer.lc-ff0e913cdb2a1a615f12e35a8dd5e877-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-footer.lc-2f46880a2d4619eae087f3699955d65a-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-footer.lc-ff0e913cdb2a1a615f12e35a8dd5e877-lc.min.js"
       },
       {
         "path": "/etc.clientlibs/adobe-cms/components/structure/footer-configuration/clientlibs/site.lc-b4a62f4105057beb9158cca91124e50e-lc.min.js",
@@ -177,14 +192,14 @@
         "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-base.lc-c7d8c8a31404fb2a97939ee4096001bf-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-components-main.lc-77f1984f3260f34b267d46b776412fb9-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-components-main.lc-1113457e5cfe6b3841ebe9fc6179bd68-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-components-main.lc-77f1984f3260f34b267d46b776412fb9-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-components-main.lc-1113457e5cfe6b3841ebe9fc6179bd68-lc.min.js"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-61ac0fc65e83ce1d2eea97772c148e89-lc.min.js",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-8eb92c78ab6b12e247c04eb88405c135-lc.min.js",
         "type": "script",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-61ac0fc65e83ce1d2eea97772c148e89-lc.min.js"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-8eb92c78ab6b12e247c04eb88405c135-lc.min.js"
       },
       {
         "path": "/etc.clientlibs/adobe-cms/components/content/atoms/image-dm/clientlibs/site.lc-29e16b8b6492a45657744888fb76a272-lc.min.js",
@@ -217,14 +232,14 @@
         "full_url": "https://www.ibm.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.lc-70264651675213ed7f7cc5a02a00f621-lc.min.js"
       },
       {
-        "path": "/4IVh5/EuUD/i5ub/Zp/mcxFZ/ua9DSDSJDffctN1w/RUpYAQ/ewlFAmA/jEz0B",
+        "path": "/FU63uPmq/Ie8/so7/xWkH1tqHsa/NOf5zwtVh2bLNwa31r/HgAzLVlZ/RkR/vBWhXdQAC",
         "type": "script",
-        "full_url": "https://www.ibm.com/4IVh5/EuUD/i5ub/Zp/mcxFZ/ua9DSDSJDffctN1w/RUpYAQ/ewlFAmA/jEz0B"
+        "full_url": "https://www.ibm.com/FU63uPmq/Ie8/so7/xWkH1tqHsa/NOf5zwtVh2bLNwa31r/HgAzLVlZ/RkR/vBWhXdQAC"
       },
       {
-        "path": "/4IVh5/EuUD/i5ub/Zp/mcxFZ/VS9D/V1A9AQ/KTYyKTE/RCXMp",
+        "path": "/FU63uPmq/Ie8/so7/xWkH1tqHsa/0Sf55r/axkkLVlZ/VAg/tZkA3a2Mp",
         "type": "script",
-        "full_url": "https://www.ibm.com/4IVh5/EuUD/i5ub/Zp/mcxFZ/VS9D/V1A9AQ/KTYyKTE/RCXMp"
+        "full_url": "https://www.ibm.com/FU63uPmq/Ie8/so7/xWkH1tqHsa/0Sf55r/axkkLVlZ/VAg/tZkA3a2Mp"
       },
       {
         "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-base.lc-30313e00669f877069f15dd099f23454-lc.min.css",
@@ -232,14 +247,14 @@
         "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-base.lc-30313e00669f877069f15dd099f23454-lc.min.css"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.lc-51c975149842fd73b597c36670ab3889-lc.min.css",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.lc-e907180d2950d3ed10121fb37ae044df-lc.min.css",
         "type": "stylesheet",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.lc-51c975149842fd73b597c36670ab3889-lc.min.css"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.lc-e907180d2950d3ed10121fb37ae044df-lc.min.css"
       },
       {
-        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-f696c844f207bf3829379b3cd6e29e6e-lc.min.css",
+        "path": "/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-c34b9ee6e3a12c8e0b9cc2a6f5b1fdf1-lc.min.css",
         "type": "stylesheet",
-        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-f696c844f207bf3829379b3cd6e29e6e-lc.min.css"
+        "full_url": "https://www.ibm.com/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-c34b9ee6e3a12c8e0b9cc2a6f5b1fdf1-lc.min.css"
       },
       {
         "path": "/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css",
@@ -252,9 +267,9 @@
         "full_url": "https://1.www.s81c.com/common/carbon/plex/sans.css"
       },
       {
-        "path": "/is/image/ibm/ibm-ai-for-banking-leadspace-mobile-white",
+        "path": "/is/image/ibm/sdo33800_ooh_17x33-3x",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/ibm-ai-for-banking-leadspace-mobile-white?ts=1768567448883&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/sdo33800_ooh_17x33-3x?ts=1772047111309&dpr=off"
       },
       {
         "path": "/is/image/ibm/ibm-passkey",
@@ -262,9 +277,9 @@
         "full_url": "https://assets.ibm.com/is/image/ibm/ibm-passkey?ts=1768567482417&dpr=off"
       },
       {
-        "path": "/is/image/ibm/sc-webinar-3v3",
+        "path": "/is/image/ibm/ibm-aws-partnership-cloud-control-event-2025",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/sc-webinar-3v3?ts=1768567503309&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/ibm-aws-partnership-cloud-control-event-2025?ts=1771858613960&dpr=off"
       },
       {
         "path": "/is/image/ibm/orchestrate-use-cases-2-4-customer-services",
@@ -272,24 +287,74 @@
         "full_url": "https://assets.ibm.com/is/image/ibm/orchestrate-use-cases-2-4-customer-services?ts=1768567598233&dpr=off"
       },
       {
-        "path": "/is/image/ibm/sbi-logo-padding",
+        "path": "/is/image/ibm/d88e12a0-5afa-43a5-be17546f547024e7",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/sbi-logo-padding?ts=1768567255877&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/d88e12a0-5afa-43a5-be17546f547024e7?ts=1774877687154&dpr=off"
       },
       {
-        "path": "/is/image/ibm/sixt-smarter-business-case-study-regular-medium-ls",
+        "path": "/is/image/ibm/spss-statistics_statistician_1x1",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/sixt-smarter-business-case-study-regular-medium-ls?ts=1766229002145&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/spss-statistics_statistician_1x1?ts=1771465134219&dpr=off"
       },
       {
-        "path": "/is/image/ibm/ibm_ferrari_video_thumb_01",
+        "path": "/is/image/ibm/aspera-google-performance-max-1200x628-1",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/ibm_ferrari_video_thumb_01?ts=1766225075014&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/aspera-google-performance-max-1200x628-1?ts=1768892412563&dpr=off"
       },
       {
-        "path": "/is/image/ibm/us-open-crowd-court",
+        "path": "/is/image/ibm/cognos-illustration",
         "type": "image",
-        "full_url": "https://assets.ibm.com/is/image/ibm/us-open-crowd-court?ts=1765458415252&dpr=off"
+        "full_url": "https://assets.ibm.com/is/image/ibm/cognos-illustration?ts=1770018441739&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/watsonxorchestrate_-watsonx-orchestrate-integrations-salesforce_1x1_-padding",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/watsonxorchestrate_-watsonx-orchestrate-integrations-salesforce_1x1_-padding?ts=1766219672275&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/ferrari-shield-transparent",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/ferrari-shield-transparent?ts=1771506973943&dpr=off"
+      },
+      {
+        "path": "/is/content/ibm/avidsolutions",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/content/ibm/avidsolutions?ts=1771506986272&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/pfizer_logo-1",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/pfizer_logo-1?ts=1771506992781&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/us-open-logo-2-1",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/us-open-logo-2-1?ts=1771507001493&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/f678_still_f06_v10_zyn_4096x4096",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/f678_still_f06_v10_zyn_4096x4096?ts=1771506962678&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/avid-solutions-leadspace",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/avid-solutions-leadspace?ts=1769516746856&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/pfizer_thumb",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/pfizer_thumb?ts=1771507043984&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/ashe-day-1-dustin-satloff_usta-2500pxw",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/ashe-day-1-dustin-satloff_usta-2500pxw?ts=1771507087706&dpr=off"
+      },
+      {
+        "path": "/is/image/ibm/dsc07048",
+        "type": "image",
+        "full_url": "https://assets.ibm.com/is/image/ibm/dsc07048?ts=1773144324015&dpr=off"
       },
       {
         "path": "/is/image/ibm/watson-discovery_eye-connection_1x1_padding",
@@ -312,10 +377,10 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "9645ms"
+          "latency": "4354ms"
         },
         {
-          "resource": "rum-standalone.js",
+          "resource": "micro.js",
           "latency": "pending"
         },
         {
@@ -337,23 +402,63 @@
         "main_content": [
           {
             "tag": "h1",
-            "text": "Infuse intelligence into operations"
+            "text": "Secure AI at scale"
           },
           {
             "tag": "p",
-            "text": "Leverage AI and automation to optimize asset maintenance, reduce downtime, ensure compliance across multisite operations. Let’s create smarter business."
+            "text": "As AI accelerates, so must your security. Gain the knowledge and tools to stay informed, build resilience and use AI to strengthen your defenses in a rapidly shifting landscape."
           },
           {
             "tag": "h5",
             "text": "Recommended for you"
           },
           {
-            "tag": "p",
-            "text": "Get the IBM® Granite® Cookbook Explore AI courses, APIs, data sets and more Maximize ROI through smarter governance Why IBM? See what the analysts have to say and start your hands-on journey."
+            "tag": "h3",
+            "text": "Avid Solutions"
           },
           {
             "tag": "p",
-            "text": "See why Granite Vision tops the SLMs chart in doc understanding Forrester names IBM a Q3 2025 leader in AI Governance Solutions Optimize performance with AI-infused monitoring and maintenance with Maximo Lead in the AI era with IBM From next-generation AI to cutting-edge software , our deep expertise across industries can help you reinvent how your business works in the age of AI."
+            "text": "To help reduce errors and alleviate operational burdens, Dr. Adams and his team started using the IBM® watsonx Orchestrate solution to automate repetitive tasks undertaken by employees such as customer service representatives, project managers and accountants. The workstreams they have started optimizing include customer onboarding, project management and expense reporting."
+          },
+          {
+            "tag": "h3",
+            "text": "Pfizer"
+          },
+          {
+            "tag": "p",
+            "text": "Pfizer needed the ability to scale up to run large SAP workloads. To accomplish this goal, the company selected the IBM® Power® solution as its mission-critical server platform for SAP applications and their supporting databases, as well as related business systems for track and trace, invoicing and more."
+          },
+          {
+            "tag": "h3",
+            "text": "US Open"
+          },
+          {
+            "tag": "p",
+            "text": "To help the USTA stay on the cutting edge of customer experience, IBM Consulting® works side by side with the USTA digital team to transform a massive volume and variety of US Open data into content and insight that informs and engages fans."
+          },
+          {
+            "tag": "h2",
+            "text": "Developer toolkit"
+          },
+          {
+            "tag": "h4",
+            "text": "Build, learn, deploy"
+          },
+          {
+            "tag": "p",
+            "text": "Build smart, learn fast, win big and stay in control of your AI with governance."
+          },
+          {
+            "tag": "h4",
+            "text": "Why IBM?"
+          },
+          {
+            "tag": "p",
+            "text": "See what the analysts have to say and start your hands-on journey."
+          },
+          {
+            "tag": "p",
+            "text": "Lead in the AI era with IBM From next-generation AI to cutting-edge software , our deep expertise across industries can help you reinvent how your business works in the age of AI."
           },
           {
             "tag": "p",
@@ -400,10 +505,6 @@
             "text": "See what it takes to become an IBMer or build your skills with our educational courses."
           },
           {
-            "tag": "p",
-            "text": "See what it takes to become an IBMer, or build your skills with our educational courses."
-          },
-          {
             "tag": "h2",
             "text": "Stay connected"
           },
@@ -414,6 +515,18 @@
           {
             "tag": "p",
             "text": "This message is being shown by the custom code written in the callback function \"onUrxFormSubmitSuccess\""
+          },
+          {
+            "tag": "p",
+            "text": "IBM Launches Its First Infrastructure Innovation Center in India to Accelerate Enterprise-Scale AI"
+          },
+          {
+            "tag": "p",
+            "text": "IBM Launches AI GovTech Innovation Center to Accelerate the Future of Digital Governance"
+          },
+          {
+            "tag": "p",
+            "text": "Government of Andhra Pradesh collaborates with IBM, BharatGen and NxtGen to scale impact from India’s AI"
           },
           {
             "tag": "p",
@@ -434,29 +547,17 @@
           {
             "tag": "p",
             "text": "Bharti Airtel Announces a Strategic Partnership with IBM to Augment Airtel Cloud"
-          },
-          {
-            "tag": "p",
-            "text": "Indian Enterprises Bet Big on AI Leadership: 67% to Appoint CAIOs Within 2 Years, Finds IBM Study"
-          },
-          {
-            "tag": "p",
-            "text": "Unity Small Finance Bank Taps IBM to Fast-Track Customer Experience Innovation with Streamlined Application Management"
-          },
-          {
-            "tag": "p",
-            "text": "IBM and BharatGen Collaborate to accelerate AI adoption in India powered by Indic Large Language Models"
           }
         ],
         "structure_summary": {
-          "paragraphs": 59,
-          "headings": 13,
-          "images": 9
+          "paragraphs": 52,
+          "headings": 15,
+          "images": 19
         }
       }
     },
     {
-      "route_id": "ROUTE-1085017B",
+      "route_id": "ROUTE-F2C86E66",
       "path": "/software",
       "type": "Detected Link",
       "anchor_text": "software",

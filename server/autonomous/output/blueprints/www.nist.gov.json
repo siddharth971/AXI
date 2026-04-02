@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-E9AA18DA",
-  "generated_at": "2026-01-21T07:27:12.821Z",
+  "generated_at": "2026-04-02T04:24:29.791Z",
   "global_configuration": {
     "brand_name": "National Institute of Standards and Technology",
     "domain": "www.nist.gov",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.65.90.26",
+      "server_ip": "172.65.90.27",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,19 +23,29 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 22,
+      "total_files": 26,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/gtag/js",
+        "path": "/sites/default/files/js/js_xYMKROlcG9x26fkE3eCfIfdAgHf7kVTIKONgY0aRMA4.js",
         "type": "script",
-        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-HEQ0YF2VYL"
+        "full_url": "https://www.nist.gov/sites/default/files/js/js_xYMKROlcG9x26fkE3eCfIfdAgHf7kVTIKONgY0aRMA4.js?scope=header&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOgzAIhS_UyZEItVg7aTFtTT3-OnWJ2_4AHzzg0VYVKY2z5gJ0A2NpXLBz1RVuNT6L4b1KSAu4vK0kw4XGq3phrOTB9_DLAz1p_25Gk0Kp4EUtyaNfPnBmcpw_iFPoeqctiZLDmruXkPo2neOVPOPE7N4m4b91qurMsX9VFUsZozpwoZDtlw_rh6a1drPS2E6aI1x5cIFE_QuuxnZ3"
+      },
+      {
+        "path": "/modules/contrib/google_tag/js/gtag.js",
+        "type": "script",
+        "full_url": "https://www.nist.gov/modules/contrib/google_tag/js/gtag.js?tct5rg"
+      },
+      {
+        "path": "/modules/contrib/google_tag/js/gtm.js",
+        "type": "script",
+        "full_url": "https://www.nist.gov/modules/contrib/google_tag/js/gtm.js?tct5rg"
       },
       {
         "path": "/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js",
         "type": "script",
-        "full_url": "https://www.nist.gov/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOwyAIhS_kypEMFmptqTRq43b7ubZLzPYLvgc8Hh5FLcZx1pQBOzAOx9U2LrpD19slG34WCXEFSseOMtxovKoXbgYorxLGDL-CiSEX8KIO5bHcODMSpy_aKbQL0hpFkWxJ7XOIHjxe4x0924mZPpHgX7q2yswbt7QqDpPdlIBCRtecz6DnTq21i1LZTZo2uOtAAUX9G0CIcGE"
+        "full_url": "https://www.nist.gov/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js?scope=header&amp;delta=3&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOgzAIhS_UyZEItVg7aTFtTT3-OnWJ2_4AHzzg0VYVKY2z5gJ0A2NpXLBz1RVuNT6L4b1KSAu4vK0kw4XGq3phrOTB9_DLAz1p_25Gk0Kp4EUtyaNfPnBmcpw_iFPoeqctiZLDmruXkPo2neOVPOPE7N4m4b91qurMsX9VFUsZozpwoZDtlw_rh6a1drPS2E6aI1x5cIFE_QuuxnZ3"
       },
       {
         "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -43,14 +53,14 @@
         "full_url": "https://www.nist.gov/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
       },
       {
-        "path": "/sites/default/files/js/js_MTBKZuDUoK2EXhyELkn9PmpTzfz69Hi_LHKTCAiC1J0.js",
+        "path": "/sites/default/files/js/js_m6lJAotynGbbIrHENwCmrEgVpfVpQroNhScpnoCaZYY.js",
         "type": "script",
-        "full_url": "https://www.nist.gov/sites/default/files/js/js_MTBKZuDUoK2EXhyELkn9PmpTzfz69Hi_LHKTCAiC1J0.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOwyAIhS_kypEMFmptqTRq43b7ubZLzPYLvgc8Hh5FLcZx1pQBOzAOx9U2LrpD19slG34WCXEFSseOMtxovKoXbgYorxLGDL-CiSEX8KIO5bHcODMSpy_aKbQL0hpFkWxJ7XOIHjxe4x0924mZPpHgX7q2yswbt7QqDpPdlIBCRtecz6DnTq21i1LZTZo2uOtAAUX9G0CIcGE"
+        "full_url": "https://www.nist.gov/sites/default/files/js/js_m6lJAotynGbbIrHENwCmrEgVpfVpQroNhScpnoCaZYY.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxljmEOgzAIhS_UyZEItVg7aTFtTT3-OnWJ2_4AHzzg0VYVKY2z5gJ0A2NpXLBz1RVuNT6L4b1KSAu4vK0kw4XGq3phrOTB9_DLAz1p_25Gk0Kp4EUtyaNfPnBmcpw_iFPoeqctiZLDmruXkPo2neOVPOPE7N4m4b91qurMsX9VFUsZozpwoZDtlw_rh6a1drPS2E6aI1x5cIFE_QuuxnZ3"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/libraries/nist-component-library/dist/img/us_flag_small.png",
@@ -83,49 +93,59 @@
         "full_url": "https://www.nist.gov/libraries/nist-component-library/dist/img/usa-icons-bg/search--white.svg"
       },
       {
+        "path": "/themes/custom/nist_www/img/homepage/125-250-web_NIST-125.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/125-250-web_NIST-125.svg"
+      },
+      {
+        "path": "/themes/custom/nist_www/img/homepage/125-250-web_Freedom-250.svg",
+        "type": "image",
+        "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/125-250-web_Freedom-250.svg"
+      },
+      {
         "path": "/themes/custom/nist_www/img/homepage/chips_logo_mark.png",
         "type": "image",
         "full_url": "https://www.nist.gov/themes/custom/nist_www/img/homepage/chips_logo_mark.png?v1"
       },
       {
-        "path": "/sites/default/files/styles/576_x_384/public/images/2022/05/27/3DP_4973.png",
+        "path": "/sites/default/files/styles/576_x_384/public/images/2026/02/20/Art_image_of_HCB-bonded_PIC_compatible_to_cryogenic%252C_high_T%252C_ionizing_radiation%252C_and_UHV_ver2.png",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2022/05/27/3DP_4973.png?itok=I8gv5foB"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2026/02/20/Art_image_of_HCB-bonded_PIC_compatible_to_cryogenic%252C_high_T%252C_ionizing_radiation%252C_and_UHV_ver2.png?h=a1e1a043&amp;itok=HMCVKn8v"
       },
       {
-        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/23/shutterstock_2419033823.jpg",
+        "path": "/sites/default/files/styles/576_x_384/public/images/2018/11/26/si_redef-blog-banner.png",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/23/shutterstock_2419033823.jpg?h=7003b442&amp;itok=iWdCkNX0"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2018/11/26/si_redef-blog-banner.png?itok=hPeFu_lc"
       },
       {
-        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/17/DSC04321_copy.jpg",
+        "path": "/sites/default/files/styles/576_x_384/public/images/2026/02/25/susana%20with%20telescope.jpg",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/17/DSC04321_copy.jpg?h=20a47f3b&amp;itok=lzdDMyHG"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2026/02/25/susana%20with%20telescope.jpg?h=3dbd9eac&amp;itok=oFWOK5_5"
       },
       {
-        "path": "/sites/default/files/styles/576_x_384/public/images/2025/12/31/HDYMI_Banners-landing%20page-crop-recycle.png",
+        "path": "/sites/default/files/styles/576_x_384/public/images/2026/03/09/fingerprint_960x300.png",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2025/12/31/HDYMI_Banners-landing%20page-crop-recycle.png?itok=EoGEpexZ"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/576_x_384/public/images/2026/03/09/fingerprint_960x300.png?itok=0rWhcSrs"
       },
       {
-        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2025/12/04/ram_1_web_ready.jpg",
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2026/02/12/kelly_saurwein_taking_measure_020326.jpg",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2025/12/04/ram_1_web_ready.jpg?h=cd9e8a72&amp;itok=75-2WZ4r"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2026/02/12/kelly_saurwein_taking_measure_020326.jpg?h=da4f7bc5&amp;itok=7DVRRBkc"
       },
       {
-        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2024/04/16/shutterstock_695169133.jpg",
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2017/10/03/17for001_dna-tech-preparing-sample-for-analysis-1.jpg",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2024/04/16/shutterstock_695169133.jpg?h=790be497&amp;itok=4du7dQC0"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2017/10/03/17for001_dna-tech-preparing-sample-for-analysis-1.jpg?itok=ZAv8q6bS"
       },
       {
-        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2023/06/08/Supply%20chain%20Production%20Perig%20shutterstock_1144447313.jpg",
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2026/02/02/MtBlueSky_Research18GA.jpg",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2023/06/08/Supply%20chain%20Production%20Perig%20shutterstock_1144447313.jpg?itok=LHav9QQb"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2026/02/02/MtBlueSky_Research18GA.jpg?itok=RnNBBjvq"
       },
       {
-        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2025/12/15/CS-risk-03-final.png",
+        "path": "/sites/default/files/styles/140_x_140_crop/public/images/2026/02/18/Lab_Track-01%20%28002%29.jpg",
         "type": "image",
-        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2025/12/15/CS-risk-03-final.png?h=42ffbb4d&amp;itok=HBReRZCL"
+        "full_url": "https://www.nist.gov/sites/default/files/styles/140_x_140_crop/public/images/2026/02/18/Lab_Track-01%20%28002%29.jpg?h=0775493e&amp;itok=8y06lKq-"
       },
       {
         "path": "/themes/custom/nist_www/img/homepage/wattbalance_1600_x_800.jpg",
@@ -153,18 +173,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6892ms"
+          "latency": "2387ms"
         },
         {
-          "resource": "js",
+          "resource": "js_xYMKROlcG9x26fkE3eCfIfdAgHf7kVTIKONgY0aRMA4.js",
           "latency": "pending"
         },
         {
-          "resource": "js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js",
+          "resource": "gtag.js",
           "latency": "pending"
         },
         {
-          "resource": "email-decode.min.js",
+          "resource": "gtm.js",
           "latency": "pending"
         }
       ],
@@ -184,7 +204,7 @@
             "desc": "Description detected in content block."
           },
           {
-            "title": "NIST in your State",
+            "title": "What’s new",
             "desc": "Description detected in content block."
           }
         ],
@@ -211,7 +231,7 @@
           },
           {
             "tag": "h2",
-            "text": "Driving Innovation"
+            "text": "125 Years of Driving Innovation"
           },
           {
             "tag": "p",
@@ -235,19 +255,7 @@
           },
           {
             "tag": "p",
-            "text": "Investments in innovation, resilience and a more competitive American future | Learn more NIST in your State Did you know that NIST’s work supports key sectors in every state?"
-          },
-          {
-            "tag": "h2",
-            "text": "What’s new"
-          },
-          {
-            "tag": "h3",
-            "text": "Taking Measure Celebrates 10 Years of Science and Stories"
-          },
-          {
-            "tag": "p",
-            "text": "What Determines the Length of the Day? NIST Physicists Bring Unruly Molecules to the Quantum Party How Do Recycling Facilities Sort Different Kinds of Plastic? AI in the Doctor’s Office: How Standards Can Support Trustworthiness January 7, 2026 CAISI Issues Request for Information About Securing AI Agent Systems January 12, 2026 NIST Launches Centers for AI in Manufacturing and Critical Infrastructure December 22, 2025 Draft NIST Guidelines Rethink Cybersecurity for the AI Era December 16, 2025 See NIST News America’s national measurement institute NIST is the National Metrology Institute for the United States, also known as an NMI. Everything you use in your everyday life works because of measurements. Without precise measurements, your car wouldn’t run, your phone wouldn’t work, and hospitals couldn’t function. We maintain the measurements that make industry and society work. Learn more about our unique role in the national — and global — economy."
+            "text": "Investments in innovation, resilience and a more competitive American future | Learn more What’s new NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments 5 Weirdly Nonstandard Things About the Metric System Mundane Measurements Have Made Astronomy Possible for More Than 100 Years NIST Helps Fingerprint Examiners With New Data and Software Release How a Forensic Anthropologist Thinks About Human Remains Research — and What It Means for Our Humanity March 18, 2026 NIST Releases New Forensic Genetic Reference Material to Help Crime Laboratories Analyze Challenging Cases February 17, 2026 Putting Einstein to the Test With the World’s Most Accurate Clocks February 25, 2026 2 Health Care Organizations Will Receive 2025 Baldrige National Quality Awards February 19, 2026 See NIST News America’s national measurement institute NIST is the National Metrology Institute for the United States, also known as an NMI. Everything you use in your everyday life works because of measurements. Without precise measurements, your car wouldn’t run, your phone wouldn’t work, and hospitals couldn’t function. We maintain the measurements that make industry and society work. Learn more about our unique role in the national — and global — economy."
           },
           {
             "tag": "p",
@@ -263,14 +271,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 20,
-          "headings": 16,
-          "images": 18
+          "paragraphs": 19,
+          "headings": 15,
+          "images": 20
         }
       }
     },
     {
-      "route_id": "ROUTE-15B9F3F4",
+      "route_id": "ROUTE-903E274F",
       "path": "/careers",
       "type": "Detected Link",
       "anchor_text": "Careers",
@@ -281,8 +289,8 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-325FD687",
-      "path": "/about-nist/contact-us",
+      "route_id": "ROUTE-CCED74E9",
+      "path": "/contact",
       "type": "Detected Link",
       "anchor_text": "Contact",
       "rendering_strategy": "Unknown",
@@ -292,7 +300,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A03553A8",
+      "route_id": "ROUTE-E3EE0AAE",
       "path": "/publications",
       "type": "Detected Link",
       "anchor_text": "Publications",
@@ -303,7 +311,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-22349A13",
+      "route_id": "ROUTE-CDB068BE",
       "path": "/topics",
       "type": "Detected Link",
       "anchor_text": "All Topics",
@@ -314,7 +322,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-378CE1FF",
+      "route_id": "ROUTE-41D4123D",
       "path": "/advanced-communications",
       "type": "Detected Link",
       "anchor_text": "Advanced communications",
@@ -325,7 +333,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1A57DACC",
+      "route_id": "ROUTE-2156EB5E",
       "path": "/artificial-intelligence",
       "type": "Detected Link",
       "anchor_text": "Artificial intelligence",
@@ -336,7 +344,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4FA26A9B",
+      "route_id": "ROUTE-72365AAB",
       "path": "/bioscience",
       "type": "Detected Link",
       "anchor_text": "Bioscience",
@@ -347,7 +355,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EB7414E7",
+      "route_id": "ROUTE-700D5B29",
       "path": "/buildings-construction",
       "type": "Detected Link",
       "anchor_text": "Buildings and construction",
@@ -358,7 +366,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7799AB07",
+      "route_id": "ROUTE-3D2C384B",
       "path": "/chemistry",
       "type": "Detected Link",
       "anchor_text": "Chemistry",
@@ -369,7 +377,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8707FCA6",
+      "route_id": "ROUTE-9B0AADBC",
       "path": "/cybersecurity-and-privacy",
       "type": "Detected Link",
       "anchor_text": "Cybersecurity and Privacy",
@@ -380,7 +388,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CB4A44E3",
+      "route_id": "ROUTE-9E484BED",
       "path": "/electronics",
       "type": "Detected Link",
       "anchor_text": "Electronics",
@@ -391,7 +399,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E883731D",
+      "route_id": "ROUTE-E040804D",
       "path": "/energy",
       "type": "Detected Link",
       "anchor_text": "Energy",
@@ -402,7 +410,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-66BBE65E",
+      "route_id": "ROUTE-36480996",
       "path": "/environment",
       "type": "Detected Link",
       "anchor_text": "Environment",
@@ -413,7 +421,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5259AB3C",
+      "route_id": "ROUTE-B47116F4",
       "path": "/fire",
       "type": "Detected Link",
       "anchor_text": "Fire",
@@ -424,7 +432,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1BE829AB",
+      "route_id": "ROUTE-81F6A5CE",
       "path": "/forensic-science",
       "type": "Detected Link",
       "anchor_text": "Forensic science",

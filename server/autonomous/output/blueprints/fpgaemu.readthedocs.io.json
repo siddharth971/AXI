@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-20E98BE1",
-  "generated_at": "2026-01-21T07:26:54.846Z",
+  "generated_at": "2026-04-02T04:24:17.562Z",
   "global_configuration": {
     "brand_name": "FPGAEmu: An Introduction to FPGA Emulation &mdash; fpgaemu 0.1 documentation",
     "domain": "fpgaemu.readthedocs.io",
@@ -128,7 +128,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "23201ms"
+          "latency": "6296ms"
         },
         {
           "resource": "html5shiv.min.js",
@@ -297,7 +297,7 @@
       }
     },
     {
-      "route_id": "ROUTE-6C440FB0",
+      "route_id": "ROUTE-EDFEFF6A",
       "path": "/emulation.html",
       "type": "Detected Link",
       "anchor_text": "1. FPGA Review and Emulation Overview",
@@ -308,7 +308,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-83F252BA",
+      "route_id": "ROUTE-6C537D7B",
       "path": "/axi.html",
       "type": "Detected Link",
       "anchor_text": "2. AXI Protocol Overview",
@@ -319,7 +319,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-00504553",
+      "route_id": "ROUTE-54388780",
       "path": "/pcie.html",
       "type": "Detected Link",
       "anchor_text": "3. Legacy PCI and PCI Express",
@@ -330,7 +330,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A6274183",
+      "route_id": "ROUTE-E893C31B",
       "path": "/ddr.html",
       "type": "Detected Link",
       "anchor_text": "4. DDR Memory and SDRAM",
@@ -341,7 +341,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6C1364AB",
+      "route_id": "ROUTE-FF7E7F46",
       "path": "/clocks.html",
       "type": "Detected Link",
       "anchor_text": "5. Clocks, Clocking Wizard, and Timing",
@@ -352,7 +352,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AACD5530",
+      "route_id": "ROUTE-6D5DBB30",
       "path": "/drivers.html",
       "type": "Detected Link",
       "anchor_text": "1. Linux Drivers, Kernel Programming, and You",
@@ -363,7 +363,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FF5C71FB",
+      "route_id": "ROUTE-A191752A",
       "path": "/pcie_drivers.html",
       "type": "Detected Link",
       "anchor_text": "2. DMA/Bridge for PCIe Drivers Overview",
@@ -374,7 +374,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2CADF1A1",
+      "route_id": "ROUTE-4438E150",
       "path": "/gui.html",
       "type": "Detected Link",
       "anchor_text": "3. Creating a User-Friendly DUT GUI",
@@ -385,7 +385,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4CF757B9",
+      "route_id": "ROUTE-7D899798",
       "path": "/mig.html",
       "type": "Detected Link",
       "anchor_text": "1. MIG 7 Series IP Overview",
@@ -396,7 +396,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4B55303C",
+      "route_id": "ROUTE-85B742F2",
       "path": "/axi_pcie.html",
       "type": "Detected Link",
       "anchor_text": "2. AXI MM to PCIe IP Overview",
@@ -407,7 +407,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-83DBB2EE",
+      "route_id": "ROUTE-7ED21AE1",
       "path": "/dma_pcie.html",
       "type": "Detected Link",
       "anchor_text": "3. DMA/Bridge for PCIe IP Overview",
@@ -418,7 +418,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4504E9CE",
+      "route_id": "ROUTE-B800D467",
       "path": "/counter.html",
       "type": "Detected Link",
       "anchor_text": "1. Creating a Custom AXI IP Core",
@@ -429,7 +429,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0FDD8624",
+      "route_id": "ROUTE-3DFC6591",
       "path": "/descriptor_counter.html",
       "type": "Detected Link",
       "anchor_text": "2. Creating an Advanced Custom AXI Descriptor IP",
@@ -440,7 +440,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2CE0390B",
+      "route_id": "ROUTE-944D879C",
       "path": "/infrastructure.html",
       "type": "Detected Link",
       "anchor_text": "1. Building a Basic Simulation Environment (VC707)",
@@ -451,7 +451,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4872C300",
+      "route_id": "ROUTE-B2BE4E31",
       "path": "/environment.html",
       "type": "Detected Link",
       "anchor_text": "2. Building an Emulation Environment (without a Board)",

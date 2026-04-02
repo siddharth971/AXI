@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-11FFF392",
-  "generated_at": "2026-01-21T07:26:54.682Z",
+  "generated_at": "2026-04-02T04:24:17.886Z",
   "global_configuration": {
     "brand_name": "AI Knowledge Base Software Cut Tickets by 80%",
     "domain": "www.proprofskb.com",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 9,
+      "total_files": 14,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -41,6 +41,31 @@
         "path": "/fpr.js",
         "type": "script",
         "full_url": "https://cdn.firstpromoter.com/fpr.js"
+      },
+      {
+        "path": "/ajax/libs/jquery/1.8.3/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"
+      },
+      {
+        "path": "/mammoth/mammoth.browser.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/mammoth/mammoth.browser.min.js"
+      },
+      {
+        "path": "/ajax/libs/pdf.js/3.4.120/pdf.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"
+      },
+      {
+        "path": "/ajax/libs/jszip/3.7.1/jszip.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"
+      },
+      {
+        "path": "/npm/tesseract.js@2.1.3/dist/tesseract.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/tesseract.js@2.1.3/dist/tesseract.min.js"
       },
       {
         "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -68,9 +93,9 @@
         "full_url": "https://www.proprofskb.com/api/includes/global/css/header-footer.css?v=30"
       },
       {
-        "path": "/new-ui/img/new-img/round-img/banner-image.png",
+        "path": "/ai-conventional/img/smiley_ai_loader.gif",
         "type": "image",
-        "full_url": "https://www.proprofskb.com/new-ui/img/new-img/round-img/banner-image.png?v=1"
+        "full_url": "https://www.proprofskb.com/ai-conventional/img/smiley_ai_loader.gif"
       }
     ]
   },
@@ -88,7 +113,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "16274ms"
+          "latency": "5857ms"
         },
         {
           "resource": "html5shiv.min.js",
@@ -105,7 +130,7 @@
       ],
       "page_content": {
         "hero_section": {
-          "h1_title": "AI-Powered Knowledge Base Software",
+          "h1_title": "Untitled",
           "h2_subtitle": "",
           "cta_buttons": []
         },
@@ -187,22 +212,6 @@
           {
             "tag": "h1",
             "text": "AI-Powered Knowledge Base Software"
-          },
-          {
-            "tag": "p",
-            "text": "tick Created with Sketch. No credit card required."
-          },
-          {
-            "tag": "p",
-            "text": "Learn how to create a knowledge base in 5 mins FREE. All Features. FOREVER! Try our Forever FREE plan with all the premium features for growing businesses FREE PLAN Ideal for growing businesses. $0.00 free forever Start creating an insightful, collaborative knowledge base of up to 25 articles for free. All Features No Limits Up to 25 Articles --> Get Started Free ESSENTIALS Ideal for established businesses & enterprises. $49 per author/month Take self-service and collaboration to the next level with help sites with 25+ articles & multiple users. All Features AI Writer & AI Search Up to 300 Articles Unlimited Sites, Articles, Users & Groups For 5+ authors Talk to Us --> View All Plans Got questions? Schedule a demo and get all your questions answered."
-          },
-          {
-            "tag": "h2",
-            "text": "Real-Life Customer Success Stories"
-          },
-          {
-            "tag": "p",
-            "text": "Learning & Development Manager, Legacy Research Group"
           },
           {
             "tag": "p",
@@ -574,14 +583,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 278,
+          "paragraphs": 299,
           "headings": 41,
           "images": 75
         }
       }
     },
     {
-      "route_id": "ROUTE-FBC99717",
+      "route_id": "ROUTE-67950CE7",
       "path": "/register/",
       "type": "Detected Link",
       "anchor_text": "Get a Demo",
@@ -592,7 +601,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-26428403",
+      "route_id": "ROUTE-B85A3B70",
       "path": "/login/",
       "type": "Detected Link",
       "anchor_text": "Login",
@@ -603,7 +612,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3999D439",
+      "route_id": "ROUTE-90E0AB1F",
       "path": "/register/",
       "type": "Detected Link",
       "anchor_text": "Get Started Free",
@@ -614,7 +623,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B5C1367C",
+      "route_id": "ROUTE-463B1553",
       "path": "/templates/",
       "type": "Detected Link",
       "anchor_text": "Create Knowledge Base",
@@ -625,7 +634,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ACAF048B",
+      "route_id": "ROUTE-9CEA3743",
       "path": "/features/ai-writer/",
       "type": "Detected Link",
       "anchor_text": "AI Hub",
@@ -636,7 +645,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B2929E5C",
+      "route_id": "ROUTE-4BA8ED96",
       "path": "/features/content-authoring/",
       "type": "Detected Link",
       "anchor_text": "Content Authoring",
@@ -647,7 +656,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-074A9EEF",
+      "route_id": "ROUTE-ED170AD5",
       "path": "/features/branding-and-customization/",
       "type": "Detected Link",
       "anchor_text": "Branding & Design",
@@ -658,7 +667,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9241C81D",
+      "route_id": "ROUTE-6FAA96BA",
       "path": "/features/security/",
       "type": "Detected Link",
       "anchor_text": "Security, Roles & Permissions",
@@ -669,7 +678,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AAEB08C1",
+      "route_id": "ROUTE-5062ED62",
       "path": "/context-sensitive-help-software/",
       "type": "Detected Link",
       "anchor_text": "Contextual In-App Help",
@@ -680,7 +689,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-16ACF08A",
+      "route_id": "ROUTE-BADAE512",
       "path": "/features/knowledge-base-search/",
       "type": "Detected Link",
       "anchor_text": "Search & Access",
@@ -691,7 +700,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ED3863C9",
+      "route_id": "ROUTE-C5CED8D8",
       "path": "/features/reports/",
       "type": "Detected Link",
       "anchor_text": "Reports & Analytics",
@@ -702,7 +711,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1C4EEC90",
+      "route_id": "ROUTE-1B03E397",
       "path": "/features/sso/",
       "type": "Detected Link",
       "anchor_text": "SSO",
@@ -713,7 +722,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6B76D6ED",
+      "route_id": "ROUTE-704B2C8E",
       "path": "/features/api-integration/",
       "type": "Detected Link",
       "anchor_text": "API",
@@ -724,7 +733,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2364D615",
+      "route_id": "ROUTE-C3D6ABEF",
       "path": "/integrations/",
       "type": "Detected Link",
       "anchor_text": "Integrations",
@@ -735,7 +744,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E62614F1",
+      "route_id": "ROUTE-73DE258F",
       "path": "/features/",
       "type": "Detected Link",
       "anchor_text": "View All Features",

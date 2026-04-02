@@ -1,0 +1,534 @@
+{
+  "website_blueprint_id": "BLUEPRINT-8EDF0EA2",
+  "generated_at": "2026-04-02T04:24:30.167Z",
+  "global_configuration": {
+    "brand_name": "Greener Ideal",
+    "domain": "greenerideal.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.66.43.157",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "no-cache, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 53,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-includes/js/jquery/jquery.min.js?ver=826eb77e86b0"
+      },
+      {
+        "path": "/wp-content/uploads/954/647/assets/185/advanced.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/uploads/954/647/assets/185/advanced.js?ver=2b43fd882222"
+      },
+      {
+        "path": "/wp-content/uploads/954/237/180/220/914/208.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/uploads/954/237/180/220/914/208.js?ver=aa7873c2fe0d"
+      },
+      {
+        "path": "/wp-includes/js/utils.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-includes/js/utils.min.js?ver=f4e1cbba8c10"
+      },
+      {
+        "path": "/tags/57515505-125d-4841-a695-cda19168e2b6.js",
+        "type": "script",
+        "full_url": "https://scripts.scriptwrapper.com/tags/57515505-125d-4841-a695-cda19168e2b6.js"
+      },
+      {
+        "path": "/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?ver=b4054cf70214"
+      },
+      {
+        "path": "/wp-content/plugins/gp-premium/menu-plus/functions/js/offside.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/gp-premium/menu-plus/functions/js/offside.min.js?ver=2c8d926d8879"
+      },
+      {
+        "path": "/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js?ver=4a0b2f72fd3e"
+      },
+      {
+        "path": "/wp-content/plugins/flying-press/assets/preload.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/flying-press/assets/preload.min.js?ver=962518cc4f7c"
+      },
+      {
+        "path": "/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js?ver=ca1e68e1ae2d"
+      },
+      {
+        "path": "/wp-content/plugins/link-whisper-premium/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/link-whisper-premium/js/frontend.min.js?ver=f4cb425b1a51"
+      },
+      {
+        "path": "/wp-content/plugins/sticky-block/dist/sticky-block.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/sticky-block/dist/sticky-block.min.js?ver=58980abf1cf9"
+      },
+      {
+        "path": "/wp-content/themes/generatepress/assets/js/menu.min.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=67148b2ff820"
+      },
+      {
+        "path": "/wp-content/themes/generatepress/assets/dist/modal.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/themes/generatepress/assets/dist/modal.js?ver=e5205f150873"
+      },
+      {
+        "path": "/wp-content/uploads/954/237/assets/185/255.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/uploads/954/237/assets/185/255.js?ver=73244308413f"
+      },
+      {
+        "path": "/wp-content/cache/flying-press/6e21e1a33ce6.203.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/cache/flying-press/6e21e1a33ce6.203.js"
+      },
+      {
+        "path": "/wp-content/uploads/954/237/assets/185/766.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/uploads/954/237/assets/185/766.js?ver=4698d748b75e"
+      },
+      {
+        "path": "/e-202613.js",
+        "type": "script",
+        "full_url": "https://stats.wp.com/e-202613.js"
+      },
+      {
+        "path": "/wp-content/plugins/jetpack/_inc/blocks/top-posts/view.js",
+        "type": "script",
+        "full_url": "https://greenerideal.com/wp-content/plugins/jetpack/_inc/blocks/top-posts/view.js?ver=6664ec75ec78"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+      },
+      {
+        "path": "/wp-content/uploads/2016/01/greeneridealwhite.png",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2016/01/greeneridealwhite.png"
+      },
+      {
+        "path": "/wp-content/uploads/2016/01/greeneridealwhite@2x.png",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2016/01/greeneridealwhite@2x.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/bluett-elite-300_5900-Large-1068x801.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/bluett-elite-300_5900-Large-1068x801.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/10/connecting-with-nature.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2022/10/connecting-with-nature.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/12/pexels-photo-13286774.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/12/pexels-photo-13286774.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2012/10/puma-shoes.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2012/10/puma-shoes.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2013/04/led-light-bulb.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2013/04/led-light-bulb.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/pexels-photo-9875683.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2024/10/pexels-photo-9875683.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/reduce-plastic-waste-at-home.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2023/05/reduce-plastic-waste-at-home.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2013/07/Geo-engineering-1.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2013/07/Geo-engineering-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/pexels-photo-9594502.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/02/pexels-photo-9594502.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/nick-fewings-2lJGRIY5P0-unsplash-696x464.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/nick-fewings-2lJGRIY5P0-unsplash-696x464.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/pexels-photo-4246111-696x464.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/pexels-photo-4246111-696x464.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/bluett-elite-300_5900-Large-696x522.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/bluett-elite-300_5900-Large-696x522.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/danist-soh-8Gg2Ne_uTcM-unsplash-696x464.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/danist-soh-8Gg2Ne_uTcM-unsplash-696x464.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/jacksonfamilytreeservice-451188-branches-on-street-home-image1-696x464.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/jacksonfamilytreeservice-451188-branches-on-street-home-image1-696x464.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/cougarchemical-420573-pressure-washing-patio-image1-696x464.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/cougarchemical-420573-pressure-washing-patio-image1-696x464.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/image-1-696x388.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/image-1-696x388.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/pexels-photo-27393808-696x464.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/02/pexels-photo-27393808-696x464.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/naked-creatine-HCL-696x522.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/01/naked-creatine-HCL-696x522.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Screenshot-2025-11-22-at-9.38.40-PM-696x428.png",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/11/Screenshot-2025-11-22-at-9.38.40-PM-696x428.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/BLACK-FRIDAY-2-696x392.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/11/BLACK-FRIDAY-2-696x392.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Bluetti-Elite-10-portable-power-station_0482-Large-696x522.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/11/Bluetti-Elite-10-portable-power-station_0482-Large-696x522.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/DJI-power-2000-portable-power-station_0475-2-696x522.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/11/DJI-power-2000-portable-power-station_0475-2-696x522.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/1200_1200_7d14f0bd-c511-4ec6-8d5b-c42934101859-696x414.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/11/1200_1200_7d14f0bd-c511-4ec6-8d5b-c42934101859-696x414.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/IMG_9293-696x522.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/10/IMG_9293-696x522.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2018/01/greener-logo_544x103.png",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2018/01/greener-logo_544x103.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/10/pexels-photo-9004365.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/10/pexels-photo-9004365.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/pexels-photo-763197.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/09/pexels-photo-763197.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/08/pexels-photo-28964871.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2025/08/pexels-photo-28964871.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/nick-fewings-2lJGRIY5P0-unsplash-scaled.jpg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/nick-fewings-2lJGRIY5P0-unsplash-scaled.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/jacksonfamilytreeservice-451188-branches-on-street-home-image1.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/jacksonfamilytreeservice-451188-branches-on-street-home-image1.jpeg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/cougarchemical-420573-pressure-washing-patio-image1.jpeg",
+        "type": "image",
+        "full_url": "https://greenerideal.com/wp-content/uploads/2026/03/cougarchemical-420573-pressure-washing-patio-image1.jpeg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Greener Ideal | Go Green and Embrace Sustainable Living",
+        "description": "Your go-to resource for sustainable living. Embrace eco-friendly practices with our expert tips, sustainability insights, and daily inspiration.",
+        "canonical": "https://greenerideal.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2857ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "advanced.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "208.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "BLUETTI Elite 300 Portable Power Station Hands-On Review",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "GUIDES FOR LIVING SUSTAINABLY",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "p",
+            "text": "Menu Menu GUIDES SOLAR PANELS OFF-GRID Gardening Gift Guides Green Living Tips Home Improvement Renewable Energy Wellness BLOG NEWS Animals Building Business Celebrity Climate Energy Entertainment Environment Politics Technology Vehicles REVIEWS RECIPES Vegan Recipes Vegetarian Recipes Pescatarian Recipes VIEW ALL FEATURED BLUETTI Elite 300 Portable Power Station Hands-On Review March 15, 2026 GUIDES FOR LIVING SUSTAINABLY panel SOLAR PANELS wheelbarrow GARDENING waste-recycling GREEN LIVING eco-home HOME IMPROVEMENT windmill-2 OFF-GRID LIVING fuel-electric ELECTRIC CARS water-hand SAVE WATER bulb SAVE ENERGY TODAY&#8217;S TRENDING Disconnect to Reconnect: Connecting with Nature in the Digital Age October 22, 2022 Health The Greenhouse Dream: How Greenhouse Kits are Changing Backyard Gardening Forever December 10, 2025 Gardening Puma releases biodegradable shoe line October 9, 2012 Business Your Guide To Choosing A Good LED Light Bulb April 6, 2013 Guides How Much Do Solar Panels Cost for a 3,000 Square Foot House? October 30, 2024 Energy 10 Easy Ways to Reduce Plastic Waste at Home May 1, 2023 Green Living What Is Geo-Engineering And How Could It Affect The Future Of Our Planet? September 8, 2022 Environment Best Eco-Friendly Custom Packaging Companies: Which Certifications Actually Prove It? February 26, 2026 Business More From The Product Reviews LATEST FROM THE BLOG How Community Recycling Shapes City Waste Programs Community recycling programs are transforming how cities manage waste — &#8230; March 29, 2026 Sustainable Packaging Choices for Growing Businesses Packaging decisions can make or break a growing business — &#8230; March 20, 2026 BLUETTI Elite 300 Portable Power Station Hands-On Review The BLUETTI Elite 300 is a compact 3kWh portable power &#8230; March 15, 2026 Circular Economy in Construction: Practical Steps Beyond Recycling in 2026 The impact of construction is both visible and invisible, from &#8230; March 13, 2026 Storm-Proofing Trees in a Warming Climate Strengthen landscapes against severe weather with responsible pruning methods, resilient &#8230; March 11, 2026 Waste-Free Patio Cleaning: Prep, Pressure, Prevent Most patio cleaning wastes more water than it should. Here&#8217;s &#8230; March 11, 2026 7 Green Vanity Bathroom Ideas Made With Solid Wood, Not MDF Solid wood, reclaimed lumber, bamboo, and vintage upcycles show how &#8230; March 11, 2026 The Surprising Fruits You Can Successfully Grow Hydroponically From strawberries to tomatoes, growing fruits hydroponically is an exciting &#8230; March 6, 2026 MORE FROM THE BLOG PRODUCT REVIEWS BLUETTI Elite 300 Portable Power Station Hands-On Review The BLUETTI Elite 300 is a compact 3kWh portable power &#8230; March 15, 2026 Naked Lean Creatine HCl Review: Clean Energy, No Loading, No Bloat Tired of bloating from creatine? Naked Lean Creatine HCl offers &#8230; February 9, 2026 eufyCam S4 Review: The Ultimate Solar-Powered 4K Security Camera with Smart PTZ Tracking Looking for an off-grid home security camera that doesn’t sacrifice &#8230; November 23, 2025 BLUETTI Black Friday 2025: The Best Deals on Power Stations, Fridges &amp; Gear We’ve Reviewed BLUETTI’s Black Friday 2025 sale is live with record-low prices &#8230; December 3, 2025 Bluetti Elite 10 Review: The Palm-Sized Power Station Built for Life in Motion The Bluetti Elite 10 packs serious power into a carry-on-friendly &#8230; November 20, 2025 DJI Power 2000 Hands-On Review: Ultra-Fast, High-Capacity Power for Off-Grid and Emergency Use The DJI Power 2000 delivers 2048Wh capacity, 3000W output, ultra-fast &#8230; November 20, 2025 eufy Permanent Outdoor Lights S4 Review Looking for the ultimate outdoor lighting upgrade? The eufy Permanent &#8230; November 2, 2025 Buoy Liquid Electrolytes Review: Sustainable Hydration That Actually Works We tested Buoy Liquid Electrolytes for two weeks to see &#8230; October 23, 2025 MORE PRODUCT REVIEWS Greener Ideal helps you live in more sustainable ways with green living tips, commentary on the latest environment news, green product reviews, healthy recipes, and more."
+          },
+          {
+            "tag": "p",
+            "text": "We strive to protect the planet and reduce our collective carbon footprint."
+          },
+          {
+            "tag": "p",
+            "text": "What Are the Best Materials for Aquascaping? 5 Best Reasons Pigeon Contraceptives Are the Safest Way to Get Rid of Pigeons Where to Buy Dog Breeding Supplies Online? How Community Recycling Shapes City Waste Programs Storm-Proofing Trees in a Warming Climate Waste-Free Patio Cleaning: Prep, Pressure, Prevent © Copyright 2026 - Greener Ideal"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 69,
+          "headings": 47,
+          "images": 34
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-77BD7EC4",
+      "path": "/guides/",
+      "type": "Detected Link",
+      "anchor_text": "GUIDES",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB2FA954",
+      "path": "/solar-panels/",
+      "type": "Detected Link",
+      "anchor_text": "SOLAR PANELS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-18CFC2B4",
+      "path": "/tag/off-grid",
+      "type": "Detected Link",
+      "anchor_text": "OFF-GRID",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FC4529BA",
+      "path": "/guides/garden/",
+      "type": "Detected Link",
+      "anchor_text": "Gardening",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5898B7E9",
+      "path": "/guides/gifts/",
+      "type": "Detected Link",
+      "anchor_text": "Gift Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AF99E116",
+      "path": "/guides/green-living/",
+      "type": "Detected Link",
+      "anchor_text": "Green Living Tips",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C221A957",
+      "path": "/guides/home-improvement/",
+      "type": "Detected Link",
+      "anchor_text": "Home Improvement",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5463FADD",
+      "path": "/guides/renewable-energy/",
+      "type": "Detected Link",
+      "anchor_text": "Renewable Energy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AB04795D",
+      "path": "/wellness/",
+      "type": "Detected Link",
+      "anchor_text": "Wellness",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E5ABF170",
+      "path": "/posts/",
+      "type": "Detected Link",
+      "anchor_text": "BLOG",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-48A4CDFB",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "NEWS",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A93145D1",
+      "path": "/news/animals/",
+      "type": "Detected Link",
+      "anchor_text": "Animals",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-745559D2",
+      "path": "/news/building/",
+      "type": "Detected Link",
+      "anchor_text": "Building",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BAA80055",
+      "path": "/news/business/",
+      "type": "Detected Link",
+      "anchor_text": "Business",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-83F93AF2",
+      "path": "/news/celebrity/",
+      "type": "Detected Link",
+      "anchor_text": "Celebrity",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

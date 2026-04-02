@@ -9,9 +9,11 @@
  * 4. Machine Learning (brain.js neural network) - FALLBACK
  */
 
+"use strict";
+
 const fs = require("fs");
 const path = require("path");
-const { execSync } = require("child_process");
+const { spawn } = require("child_process");
 const brain = require("brain.js");
 const nluPipeline = require("./nlu-pipeline");
 const preprocessor = require("./preprocessor");
@@ -36,11 +38,36 @@ let intentList = [];
 let isModelLoaded = false;
 let rules = [];
 
+// Feature hashing config — set from vocab.json at load time
+let hashBuckets = 0; // 0 = legacy mode (use vocabIndex), >0 = hashed mode
+
+/**
+ * FNV-1a hash → bucket index (must match train.js exactly)
+ * @param {string} word
+ * @returns {number} bucket index 0..hashBuckets-1
+ */
+function hashWord(word) {
+  let hash = 2166136261;
+  for (let i = 0; i < word.length; i++) {
+    hash ^= word.charCodeAt(i);
+    hash = (hash * 16777619) >>> 0;
+  }
+  return hash % hashBuckets;
+}
+
+// O(1) vocab lookup map (legacy mode only)
+let vocabIndex = new Map();
+
+/**
+ * Load brain.js model from disk with timing
+ * @returns {boolean} true if model loaded successfully
+ */
 function loadModel() {
+  const startMs = Date.now();
   try {
     if (!fs.existsSync(MODEL_PATH.model) || !fs.existsSync(MODEL_PATH.vocab)) {
       logger.warn("NLP model files not found. Run 'npm run train'");
-      return;
+      return false;
     }
 
     const model = JSON.parse(fs.readFileSync(MODEL_PATH.model, "utf8"));
@@ -48,12 +75,25 @@ function loadModel() {
 
     vocab = vocabData.vocab;
     intentList = vocabData.intents;
+    hashBuckets = vocabData.hashBuckets || 0;
+
+    if (hashBuckets > 0) {
+      logger.info(`[NLP] Using feature hashing (${hashBuckets} buckets)`);
+    } else {
+      // Legacy mode: rebuild O(1) vocab index map
+      vocabIndex = new Map();
+      vocab.forEach((word, idx) => vocabIndex.set(word, idx));
+    }
 
     net.fromJSON(model);
     isModelLoaded = true;
-    logger.success("Brain.js model loaded successfully");
+
+    const elapsed = Date.now() - startMs;
+    logger.success(`Brain.js model loaded (${vocab.length} vocab, ${intentList.length} intents) in ${elapsed}ms`);
+    return true;
   } catch (error) {
     logger.error("Failed to load NLP model", error.message);
+    return false;
   }
 }
 
@@ -70,21 +110,31 @@ function loadRules() {
 loadModel();
 loadRules();
 
-// ===========================
-// Feature Extraction
-// ===========================
-
+/**
+ * Convert text to feature vector for Brain.js inference.
+ * Uses feature hashing (h{bucket}) if model was trained with hashing,
+ * otherwise falls back to legacy vocab index (w{index}).
+ */
 function textToFeatures(text) {
-  // Use same preprocessing as training
   const { tokens } = preprocessor.preprocess(text);
-
   const features = {};
-  tokens.forEach((token) => {
-    const index = vocab.indexOf(token);
-    if (index > -1) {
-      features[`w${index}`] = 1;
-    }
-  });
+
+  if (hashBuckets > 0) {
+    // Hashed mode — matches train.js v2.3+
+    tokens.forEach((token) => {
+      const bucket = hashWord(token);
+      features[`h${bucket}`] = 1;
+    });
+  } else {
+    // Legacy mode — direct vocab index
+    tokens.forEach((token) => {
+      const index = vocabIndex.get(token);
+      if (index !== undefined) {
+        features[`w${index}`] = 1;
+      }
+    });
+  }
+
   return features;
 }
 
@@ -93,25 +143,14 @@ function textToFeatures(text) {
 // ===========================
 
 function rulesLayer(text, nlu) {
-  const tokens = nlu?.tokens || text.split(/\s+/);
-  const totalTokens = tokens.length;
-
   let bestMatch = null;
   let highestSpecificity = -1;
 
-  // Run all loaded rules
   for (const rule of rules) {
     try {
       const result = rule.fn(text, nlu);
       if (result) {
-        // Pattern specificity = 1 - (wildcards / total_tokens)
-        // Since rules are functions, we approximate wildcards by looking at the match quality
-        // If it's a fixed string match in the rule code, specificity is 1.0. 
-        // If it uses regex with global catch-alls, it's lower.
-        
-        // For now, if a rule returns confidence: 1, we treat it as specific.
-        // We can tune this by inspecting rule logic if needed.
-        const specificity = result.confidence || 1.0; 
+        const specificity = result.confidence || 1.0;
 
         if (specificity > highestSpecificity) {
           highestSpecificity = specificity;
@@ -119,7 +158,8 @@ function rulesLayer(text, nlu) {
         }
       }
     } catch (err) {
-      // Skip failed rules
+      // Log broken rules so they can be fixed — never silently swallow
+      logger.warn(`Rule "${rule.name || "unnamed"}" threw: ${err.message}`);
     }
   }
 
@@ -148,7 +188,6 @@ function mlLayer(text) {
   });
 
   // Hard floor for classifier noise
-  // If the best confidence is below 0.2, it's effectively random noise
   if (bestScore < 0.2) {
     return { intent: "none", confidence: bestScore, entities: {} };
   }
@@ -167,7 +206,6 @@ async function semanticLayer(text) {
       return result;
     }
   } catch (error) {
-    // Semantic matching failed, fall back to ML
     logger.warn("Semantic matching error:", error.message);
   }
   return null;
@@ -180,7 +218,8 @@ async function semanticLayer(text) {
 const decisionEngine = require("./decision-engine");
 
 /**
- * Trigger curated retraining from approved logs
+ * Trigger curated retraining from approved logs (non-blocking async)
+ * @returns {Promise<boolean>} true if training succeeded
  */
 async function retrainFromLogs() {
   const queue = learningMonitor.getTrainingQueue();
@@ -194,7 +233,7 @@ async function retrainFromLogs() {
   if (fs.existsSync(learnedPath)) {
     try {
       learnedData = JSON.parse(fs.readFileSync(learnedPath, "utf8"));
-    } catch (e) {
+    } catch {
       learnedData = [];
     }
   }
@@ -212,21 +251,33 @@ async function retrainFromLogs() {
   });
 
   fs.writeFileSync(learnedPath, JSON.stringify(learnedData, null, 2));
-  logger.success(
-    `[Learning] Added ${queue.length} new utterances to learned.json`,
-  );
+  logger.success(`[Learning] Added ${queue.length} new utterances to learned.json`);
 
-  // Run Training
+  // Run training asynchronously via spawn (does NOT block the event loop)
   logger.info("[Learning] Starting retraining...");
-  try {
-    execSync("node train.js", { cwd: __dirname, stdio: "inherit" });
-    learningMonitor.clearTrainingQueue();
-    loadModel();
-    return true;
-  } catch (e) {
-    logger.error(`[Learning] Retraining failed: ${e.message}`);
-    return false;
-  }
+  return new Promise((resolve) => {
+    const child = spawn("node", ["train.js"], {
+      cwd: __dirname,
+      stdio: "inherit",
+    });
+
+    child.on("close", (code) => {
+      if (code === 0) {
+        learningMonitor.clearTrainingQueue();
+        loadModel();
+        logger.success("[Learning] Retraining completed successfully");
+        resolve(true);
+      } else {
+        logger.error(`[Learning] Retraining exited with code ${code}`);
+        resolve(false);
+      }
+    });
+
+    child.on("error", (err) => {
+      logger.error(`[Learning] Retraining failed: ${err.message}`);
+      resolve(false);
+    });
+  });
 }
 
 module.exports = {
@@ -262,14 +313,7 @@ module.exports = {
   },
 
   /**
-   * Interpret with full decision engine - provides decision type
-   * (execute, confirm, clarify, unknown)
-   *
-   * @param {string} text - User input
-   * @returns {Promise<Object>} - Decision result with action recommendation
-   */
-  /**
-   * Interpret with full decision engine - provides decision type
+   * Interpret with full decision engine — provides decision type
    * (execute, confirm, clarify, unknown)
    *
    * @param {string} text - User input
@@ -278,17 +322,17 @@ module.exports = {
   async interpretWithDecision(text) {
     const nlu = nluPipeline.process(text);
 
-    // Step 1: Execute all layers in parallel as per Step 3 of Master Prompt
+    // Execute all layers in parallel
     const [rule, semantic, classifier] = await Promise.all([
       rulesLayer(text, nlu),
       semanticLayer(text),
       mlLayer(text),
     ]);
 
-    // Step 2: Pass all signals to decision engine for weighted ensemble scoring
+    // Pass all signals to decision engine for weighted ensemble scoring
     const decision = decisionEngine.decide(
       { rules: rule, semantic, classifier },
-      { lastIntent: null }, // Context can be passed here
+      { lastIntent: null },
     );
 
     return {
@@ -296,8 +340,8 @@ module.exports = {
       nlu,
       signals: {
         rules: rule,
-        semantic: semantic,
-        classifier: classifier,
+        semantic,
+        classifier,
       },
     };
   },
@@ -362,13 +406,7 @@ module.exports = {
     const textToInterpret = resolved.resolved ? resolved.text : text;
 
     // Step 2: Check for follow-up commands (e.g., "louder", "again")
-    // ONLY check follow-up if it's NOT a resolved pronoun with a clear command structure
-    // or if the follow-up is very specific.
     let followUp = null;
-
-    // If we resolved a pronoun into a full command (like "open youtube"), we probably SHOULDN'T treat it as a generic "again" follow-up
-    // unless the follow-up is strictly additive (like "louder").
-    // "again" is a comprehensive replacement.
 
     if (!resolved.resolved || !/open|play|start/.test(resolved.text)) {
       followUp = contextStore.detectFollowUp(textToInterpret);
@@ -397,9 +435,6 @@ module.exports = {
 
   /**
    * Update context after successful command execution
-   * Call this after executing a command to maintain context
-   *
-   * @param {Object} interaction - The completed interaction
    */
   updateContext(interaction) {
     contextStore.push(interaction);
@@ -436,6 +471,18 @@ module.exports = {
    */
   async initializeSemantic() {
     return semanticMatcher.initialize();
+  },
+
+  /**
+   * Status/health info for diagnostics
+   */
+  getStatus() {
+    return {
+      modelLoaded: isModelLoaded,
+      vocabSize: vocab.length,
+      intentCount: intentList.length,
+      rulesCount: rules.length,
+    };
   },
 
   /**

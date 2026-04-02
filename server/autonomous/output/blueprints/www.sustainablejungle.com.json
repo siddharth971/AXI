@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-1E9B3097",
-  "generated_at": "2026-01-22T06:07:06.747Z",
+  "generated_at": "2026-04-02T04:24:29.874Z",
   "global_configuration": {
     "brand_name": "Sustainable Jungle: Mission",
     "domain": "www.sustainablejungle.com",
@@ -16,14 +16,14 @@
       "web_server": "cloudflare"
     },
     "server_headers": {
-      "Cache-Control": "public, s-maxage=31536000, max-age=60, must-revalidate",
+      "Cache-Control": "public, s-maxage=31536000, max-age=0, must-revalidate",
       "Content-Security-Policy": "block-all-mixed-content;",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 83,
+      "total_files": 76,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -65,17 +65,17 @@
       {
         "path": "/wp-content/plugins/perfmatters/js/lazyload.min.js",
         "type": "script",
-        "full_url": "https://www.sustainablejungle.com/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.5.5"
+        "full_url": "https://www.sustainablejungle.com/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.5.7"
       },
       {
         "path": "/wp-content/plugins/bigscoots-cache/assets/js/bfcache-invalidation.min.js",
         "type": "script",
-        "full_url": "https://www.sustainablejungle.com/wp-content/plugins/bigscoots-cache/assets/js/bfcache-invalidation.min.js?ver=4.0.7"
+        "full_url": "https://www.sustainablejungle.com/wp-content/plugins/bigscoots-cache/assets/js/bfcache-invalidation.min.js?ver=4.1.2"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/wp-content/uploads/2024/10/SJ_Illustration_About-Us.svg",
@@ -148,6 +148,11 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/08/Julian-Silva-Plastno-5-Website-400x400.jpeg"
       },
       {
+        "path": "/wp-content/uploads/2026/02/Image-by-A-Drop-In-The-Ocean-A-Drop-In-The-Ocean-Sustainable-Brand-Rating-1-1.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/02/Image-by-A-Drop-In-The-Ocean-A-Drop-In-The-Ocean-Sustainable-Brand-Rating-1-1.jpg"
+      },
+      {
         "path": "/wp-content/uploads/2026/01/Image-by-Sonoma-Restorations-Sonoma-Restorations-Sustainable-Brand-Rating-1.jpg",
         "type": "image",
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/01/Image-by-Sonoma-Restorations-Sonoma-Restorations-Sustainable-Brand-Rating-1.jpg"
@@ -158,14 +163,9 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/01/Image-by-Maylyn-Co-Maylyn-Rating-Review.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/Image-by-Hook-Loom-Hook-Loom-Rating-Hero.jpg",
+        "path": "/wp-content/uploads/2025/02/Image-by-8000Kicks-8000Kicks-Review-and-Rating-Hero.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Hook-Loom-Hook-Loom-Rating-Hero.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-The-Kind-Pet-Brand-Review-Rating.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-The-Kind-Pet-Brand-Review-Rating.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/02/Image-by-8000Kicks-8000Kicks-Review-and-Rating-Hero.jpg"
       },
       {
         "path": "/wp-content/uploads/2024/10/FEATURED_LOGOS__HUFFPOST.svg",
@@ -203,21 +203,6 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/09/GQ-3.svg"
       },
       {
-        "path": "/wp-content/uploads/2025/05/Entrepreneur-.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/05/Entrepreneur-.png"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/boredpanda.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/05/boredpanda.png"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/gc-logo-no-space.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/05/gc-logo-no-space.png"
-      },
-      {
         "path": "/wp-content/uploads/2025/07/Image-by-Sustainable-best-sustainable-and-non-toxic-bedding-brands-as-rated-by-us.jpg",
         "type": "image",
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/07/Image-by-Sustainable-best-sustainable-and-non-toxic-bedding-brands-as-rated-by-us.jpg"
@@ -233,59 +218,84 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/01/Image-by-Sustainable-Jungle-best-organic-and-sustainable-loungewear.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/SJ_Brand_Ratings-400x309.png",
+        "path": "/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-what-is-seaweed-fabric.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_Brand_Ratings-400x309.png"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-what-is-seaweed-fabric.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/SJ_Podcast-400x307.png",
+        "path": "/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-what-is-cork-fabric-1.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_Podcast-400x307.png"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-what-is-cork-fabric-1.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/SJ_About_Us-400x371.png",
+        "path": "/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-testing-of-Doshi-wallets-best-eco-friendly-and-sustainable-wallets.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_About_Us-400x371.png"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-testing-of-Doshi-wallets-best-eco-friendly-and-sustainable-wallets.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-sustainable-and-organic-robes.jpg",
+        "path": "/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-sustainable-rain-jackets.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-sustainable-and-organic-robes.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-sustainable-rain-jackets.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/2025-SJ-recycled-shoes-Hero-Image.jpg",
+        "path": "/wp-content/uploads/2023/09/Sustainable-Jungles-Testing-of-the-best-Slow-Fashion-Brands-Magic-Linen.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/2025-SJ-recycled-shoes-Hero-Image.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2023/09/Sustainable-Jungles-Testing-of-the-best-Slow-Fashion-Brands-Magic-Linen.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/02/2025-SJ-plus-size-lingerie-Hero-Image.jpg",
+        "path": "/wp-content/uploads/2025/04/Image-by-Sustainable-Jungle-Best-Sustainable-and-Eco-friendly-Mothers-Day-Gifts.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/02/2025-SJ-plus-size-lingerie-Hero-Image.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/04/Image-by-Sustainable-Jungle-Best-Sustainable-and-Eco-friendly-Mothers-Day-Gifts.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/10/2025-SJ-black-owned-jewelry-etsy-Hero-Image.jpg",
+        "path": "/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-non-toxic-kitchen-utensils.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/10/2025-SJ-black-owned-jewelry-etsy-Hero-Image.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-non-toxic-kitchen-utensils.jpg"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Image-by-Sustainable-Jungle-best-furniture-made-in-the-USA.jpg",
+        "path": "/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-non-toxic-and-eco-friendly-fabric-softeners-4.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/01/Image-by-Sustainable-Jungle-best-furniture-made-in-the-USA.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Image-by-Sustainable-Jungle-best-non-toxic-and-eco-friendly-fabric-softeners-4.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/Image-by-MasayaCo-sustainable-coffee-table-brands.jpg",
+        "path": "/wp-content/uploads/2026/03/Sustainable-Jungles-tested-recommendations-for-natural-fabric-softener-alternatives.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-MasayaCo-sustainable-coffee-table-brands.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/03/Sustainable-Jungles-tested-recommendations-for-natural-fabric-softener-alternatives.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/10/Image-by-MagicLinen-Sustainable-Christmas-Decoration-ideas.jpg",
+        "path": "/wp-content/uploads/2026/02/Sustainable-Jungle-Best-Eco-friendly-and-Non-toxic-Cutting-Boards.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/10/Image-by-MagicLinen-Sustainable-Christmas-Decoration-ideas.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/02/Sustainable-Jungle-Best-Eco-friendly-and-Non-toxic-Cutting-Boards.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/11/Image-by-Sustainable-Jungle-Minimalist-Gifts.jpg",
+        "path": "/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-Activist-Skincare-best-natural-serums-1.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/11/Image-by-Sustainable-Jungle-Minimalist-Gifts.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-Activist-Skincare-best-natural-serums-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/07/Image-by-Sustainable-Jungle-best-zero-waste-skin-care-brands.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/07/Image-by-Sustainable-Jungle-best-zero-waste-skin-care-brands.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/Image-by-Sustainable-Jungle-EcoRoots-zero-waste-lotion.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2023/09/Image-by-Sustainable-Jungle-EcoRoots-zero-waste-lotion.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Sustainable-Jungles-testing-of-the-best-sustainable-toothbrushes-1.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/01/Sustainable-Jungles-testing-of-the-best-sustainable-toothbrushes-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Sustainable-Jungles-testing-and-research-of-the-best-shaving-soap-bars-and-shaving-soaps.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/02/Sustainable-Jungles-testing-and-research-of-the-best-shaving-soap-bars-and-shaving-soaps.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Sustainable-Jungles-testing-and-reviews-of-the-best-natural-and-non-toxic-deodorant.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2026/02/Sustainable-Jungles-testing-and-reviews-of-the-best-natural-and-non-toxic-deodorant.jpg"
       },
       {
         "path": "/wp-content/uploads/2024/09/2025-SJ-sustainable-hair-Brushes-Hero-Image.jpg",
@@ -296,36 +306,6 @@
         "path": "/wp-content/uploads/2023/12/Zero-Waste-Sunscreens.jpg",
         "type": "image",
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2023/12/Zero-Waste-Sunscreens.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-eco-friendly-deodorant.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-eco-friendly-deodorant.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/09/SJ-sustainable-toothpaste-Section-images.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ-sustainable-toothpaste-Section-images.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-Natural-Skincare-Ingredients-1.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/08/Image-by-Sustainable-Jungle-Natural-Skincare-Ingredients-1.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/10/Image-by-Sustainable-Jungle-Natural-Skincare-Ingredients.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/10/Image-by-Sustainable-Jungle-Natural-Skincare-Ingredients.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/10/Image-By-Rodica-what-is-ethical-and-sustainable-beauty.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/10/Image-By-Rodica-what-is-ethical-and-sustainable-beauty.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/2024/09/Image-by-zerowastestore.com-eco-friendly-loofahs.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-zerowastestore.com-eco-friendly-loofahs.jpg"
       },
       {
         "path": "/wp-content/uploads/2024/11/Image-by-Sustainable-Jungle-Consumable-Gifts-.jpg",
@@ -363,9 +343,14 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/11/Image-by-Sustainable-Jungle-Zero-Waste-Gifts.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/03/Image-by-Sustainable-Jungle-best-plastic-free-and-zero-waste-toiler-paper-brands.jpg",
+        "path": "/wp-content/uploads/2024/09/2025-SJ-recycled-shoes-Hero-Image.jpg",
         "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/03/Image-by-Sustainable-Jungle-best-plastic-free-and-zero-waste-toiler-paper-brands.jpg"
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/2025-SJ-recycled-shoes-Hero-Image.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-eco-friendly-deodorant.jpg",
+        "type": "image",
+        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Sustainable-Jungle-eco-friendly-deodorant.jpg"
       },
       {
         "path": "/wp-content/uploads/2025/09/Image-by-Sustainable-Jungle-sustainable-luggage-brands-.jpg",
@@ -408,26 +393,6 @@
         "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/Image-by-Pampro-Bikes-eco-friendly-bikes.jpg"
       },
       {
-        "path": "/wp-content/uploads/2024/09/SJ_Users.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_Users.png"
-      },
-      {
-        "path": "/wp-content/uploads/2024/09/SJ_Brands.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_Brands.png"
-      },
-      {
-        "path": "/wp-content/uploads/2024/09/SJ_Social_Followers-400x286.png",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2024/09/SJ_Social_Followers-400x286.png"
-      },
-      {
-        "path": "/wp-content/uploads/2025/10/newsletter-618x800.jpg",
-        "type": "image",
-        "full_url": "https://www.sustainablejungle.com/wp-content/uploads/2025/10/newsletter-618x800.jpg"
-      },
-      {
         "path": "/wp-content/themes/sustainable-jungle/images/to-top.svg",
         "type": "image",
         "full_url": "https://www.sustainablejungle.com/wp-content/themes/sustainable-jungle/images/to-top.svg"
@@ -458,7 +423,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "2364ms"
+          "latency": "2557ms"
         },
         {
           "resource": "script.js",
@@ -548,6 +513,10 @@
           },
           {
             "tag": "p",
+            "text": "A Drop In The Ocean scores 72% overall, scoring within 10% of the top-rated brand in our beauty and personal care category. Learn more about our scoring . Personal Care A Drop In The Ocean U.S.based zero-waste store A Drop in the Ocean offers refillable home and personal care products, helping customers reduce single-use waste while supporting tree planting and ocean conservation initiatives."
+          },
+          {
+            "tag": "p",
             "text": "Sonoma Restorations scores 68% overall, scoring within 10% of the top-rated brand in our furniture category. Learn more about our scoring . Homewares Sonoma Restorations Sonoma Restorations crafts artisanal furniture, homewares, and lighting from reclaimed and upcycled materials. They combine thoughtful design and low-impact production processes to offer unique, repairable pieces that are built to last."
           },
           {
@@ -556,11 +525,7 @@
           },
           {
             "tag": "p",
-            "text": "Hook &amp; Loom scores 59% overall and at the time of writing is our top rated brand in the rugs category. Learn more about our scoring here . Rugs Hook &#038; Loom Hook &amp; Loom is a Massachusetts-based brand that handcrafts durable rugs in a range of colors and styles with skilled workmanship, and natural and recycled materials, without using dyes, chemicals, or latex."
-          },
-          {
-            "tag": "p",
-            "text": "The Kind Pet scores 65% overall and at the time of writing is our top rated brand in their respective industry. Learn more about our scoring here . Pet Toys The Kind Pet The Kind Pet provides highly rated non-toxic and organic pet toys. The women-owned brand focuses on clean, compostable materials and they have a wide range of sustainability initiatives in place."
+            "text": "8000Kicks scores 63% overall which at the time of writing is our top-rated brand in the footwear category. Learn more about our scoring here . Footwear 8000Kicks Portugal-based vegan brand 8000Kicks specializes in hemp-based shoes, bags, and accessories, including the world’s first waterproof hemp sneaker. They prioritize sustainable materials, durability, transparency, and working conditions."
           },
           {
             "tag": "h6",
@@ -604,23 +569,23 @@
           },
           {
             "tag": "h6",
-            "text": "9 Organic &#038; Sustainable Loungewear Brands For The Most Ethical R&#038;R"
+            "text": "Seaweed Fabric: Can Algae Clothing Kelp The Planet?"
           },
           {
             "tag": "h6",
-            "text": "8 Sustainable &#038; Organic Robes For The Ultimate Lux Lounge"
+            "text": "What Is Cork Fabric? Peeling Back The Layers On Cork Leather"
           },
           {
             "tag": "h6",
-            "text": "Recycled Shoes: 8 Brands Taking Big Steps"
+            "text": "Best Sustainable Wallet Brands For Eco-Friendly Cash Stashing"
           },
           {
             "tag": "h6",
-            "text": "5 Plus-Size Lingerie Outfit Ideas &#038; Brands For Inclusive Intimates"
+            "text": "The Best Sustainable Rain Jackets: Non-toxic, PFAS-Free Picks"
           },
           {
             "tag": "h6",
-            "text": "7 Black Owned Jewelry Etsy Shops For Ethical Adnornment"
+            "text": "The Best Slow Fashion Brands: Timeless Clothing That Lasts"
           },
           {
             "tag": "h3",
@@ -628,27 +593,51 @@
           },
           {
             "tag": "h6",
-            "text": "7 Brands Offering Furniture Made In The USA: Keeping It Local &#038; Sustainable"
+            "text": "60+ Sustainable Mother&#8217;s Day Gifts for the Mom Who Deserves Better (2026)"
           },
           {
             "tag": "h6",
-            "text": "11 Sustainable &#038; Non-Toxic Bedding Brands Backed By Our Ratings"
+            "text": "9 Non-Toxic Cooking Utensils That Won&#8217;t Leach Into Your Food"
           },
           {
             "tag": "h6",
-            "text": "8 Brands Making Sustainable Coffee Tables From Reclaimed Or Solid Wood"
+            "text": "6 Best Eco-Friendly Fabric Softeners For A Non-Toxic Laundry Day"
           },
           {
             "tag": "h6",
-            "text": "8 Ideas For Sustainable Christmas Decorations &#038; Ornaments"
+            "text": "Natural Fabric Softener Alternatives: Soft, Fresh Laundry Without Chemicals"
           },
           {
             "tag": "h6",
-            "text": "60+ Clutter-Free Minimalist Gifts (Including Our Favorites for Him)"
+            "text": "Sustainable &#038; Non-Toxic Cutting Boards: The Complete Guide"
           },
           {
             "tag": "h3",
             "text": "Beauty &amp; Care"
+          },
+          {
+            "tag": "h6",
+            "text": "The Best Organic &#038; Natural Face Serums Going Face to Face With Fine Lines"
+          },
+          {
+            "tag": "h6",
+            "text": "Zero Waste Skincare Brands For A Plastic-Free Routine"
+          },
+          {
+            "tag": "h6",
+            "text": "8 Zero Waste, Plastic-Free Lotions For Sustainably Pampered Skin"
+          },
+          {
+            "tag": "h6",
+            "text": "9 Best Sustainable &#038; Eco-Friendly Toothbrushes (Tested &#038; Reviewed)"
+          },
+          {
+            "tag": "h6",
+            "text": "Best Shaving Soap Bars: Natural Brands We Recommend"
+          },
+          {
+            "tag": "h6",
+            "text": "Best Natural &#038; Non-Toxic Deodorants: The Complete Guide"
           },
           {
             "tag": "h6",
@@ -657,30 +646,6 @@
           {
             "tag": "h6",
             "text": "9 Zero Waste Sunscreen Alternatives For A More Sustainable SPF"
-          },
-          {
-            "tag": "h6",
-            "text": "9 Plastic Free Deodorants For Zero Waste &#038; Zero BO"
-          },
-          {
-            "tag": "h6",
-            "text": "Sustainable Toothpaste Brands: 9 Zero Waste Products To Sink Your Teeth Into"
-          },
-          {
-            "tag": "h6",
-            "text": "11 Sustainable Makeup Brands Creating Eco-Friendly Cosmetics"
-          },
-          {
-            "tag": "h6",
-            "text": "39 Common &#038; Effective Natural Skincare Ingredients"
-          },
-          {
-            "tag": "h6",
-            "text": "What Is Ethical &amp; Sustainable Beauty?"
-          },
-          {
-            "tag": "h6",
-            "text": "8 Eco-Friendly Loofahs &#038; Loofah Alternatives You Can Scrub Sustainably With"
           },
           {
             "tag": "h3",
@@ -712,6 +677,14 @@
           },
           {
             "tag": "h6",
+            "text": "Zero Waste Skincare Brands For A Plastic-Free Routine"
+          },
+          {
+            "tag": "h6",
+            "text": "9 Best Sustainable &#038; Eco-Friendly Toothbrushes (Tested &#038; Reviewed)"
+          },
+          {
+            "tag": "h6",
             "text": "7+ Zero Waste Gift Wrapping Ideas For Waste-Free Giving"
           },
           {
@@ -732,15 +705,7 @@
           },
           {
             "tag": "h6",
-            "text": "9 Plastic Free Deodorants For Zero Waste &#038; Zero BO"
-          },
-          {
-            "tag": "h6",
-            "text": "Sustainable Toothpaste Brands: 9 Zero Waste Products To Sink Your Teeth Into"
-          },
-          {
-            "tag": "h6",
-            "text": "9 Best Zero Waste Toilet Paper Brands for a Cleaner, Plastic-Free Bathroom"
+            "text": "9 Best Plastic Free Deodorants That Are Also Eco-Friendly"
           },
           {
             "tag": "h3",
@@ -814,12 +779,12 @@
         "structure_summary": {
           "paragraphs": 58,
           "headings": 69,
-          "images": 90
+          "images": 80
         }
       }
     },
     {
-      "route_id": "ROUTE-C0AEE67E",
+      "route_id": "ROUTE-647162E3",
       "path": "/contact/",
       "type": "Detected Link",
       "anchor_text": "Connect with us",
@@ -830,7 +795,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E0DCA02D",
+      "route_id": "ROUTE-3A3D52CB",
       "path": "/about/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -841,7 +806,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D13C9A6B",
+      "route_id": "ROUTE-B19CB583",
       "path": "/giving/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -852,7 +817,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8EE82759",
+      "route_id": "ROUTE-36305CBD",
       "path": "/newsletter/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -863,7 +828,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C4D59278",
+      "route_id": "ROUTE-8FB8304C",
       "path": "/brand-directory/",
       "type": "Detected Link",
       "anchor_text": "Brand Directory",
@@ -874,7 +839,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8EF2810F",
+      "route_id": "ROUTE-9F146386",
       "path": "/brand-directory/category/accessories/",
       "type": "Detected Link",
       "anchor_text": "Accessories",
@@ -885,7 +850,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4DB56334",
+      "route_id": "ROUTE-4E9F288A",
       "path": "/brand-directory/category/art/",
       "type": "Detected Link",
       "anchor_text": "Art",
@@ -896,7 +861,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4215F299",
+      "route_id": "ROUTE-7136E2EE",
       "path": "/brand-directory/category/beauty/",
       "type": "Detected Link",
       "anchor_text": "Beauty",
@@ -907,7 +872,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-07D56C19",
+      "route_id": "ROUTE-06D4280C",
       "path": "/brand-directory/category/fashion/",
       "type": "Detected Link",
       "anchor_text": "Fashion",
@@ -918,7 +883,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B4E626B0",
+      "route_id": "ROUTE-7C318C08",
       "path": "/brand-directory/category/food-drink/",
       "type": "Detected Link",
       "anchor_text": "Food &amp; Drink",
@@ -929,7 +894,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-53C36758",
+      "route_id": "ROUTE-FE6F380B",
       "path": "/brand-directory/category/furniture/",
       "type": "Detected Link",
       "anchor_text": "Furniture",
@@ -940,7 +905,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-681C07FC",
+      "route_id": "ROUTE-0F47BB9F",
       "path": "/brand-directory/category/garden/",
       "type": "Detected Link",
       "anchor_text": "Garden",
@@ -951,7 +916,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-70FA2313",
+      "route_id": "ROUTE-C20A023E",
       "path": "/brand-directory/category/gifting-parties/",
       "type": "Detected Link",
       "anchor_text": "Gifting",
@@ -962,7 +927,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B3865A36",
+      "route_id": "ROUTE-233C57D3",
       "path": "/brand-directory/category/homewares/",
       "type": "Detected Link",
       "anchor_text": "Homewares",
@@ -973,7 +938,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC335CC7",
+      "route_id": "ROUTE-89D16E72",
       "path": "/brand-directory/category/household/",
       "type": "Detected Link",
       "anchor_text": "Household",

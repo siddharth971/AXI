@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-BE9BC2CB",
-  "generated_at": "2026-01-21T07:26:54.235Z",
+  "generated_at": "2026-04-02T04:24:16.610Z",
   "global_configuration": {
     "brand_name": "Hackr.io",
     "domain": "hackr.io",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "18.188.4.88",
+      "server_ip": "3.136.226.152",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -83,7 +83,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3777ms"
+          "latency": "1153ms"
         },
         {
           "resource": "index-DhLqH_2R.js",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "route_id": "ROUTE-CB3C8168",
+      "route_id": "ROUTE-3F4A345F",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -166,7 +166,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0BAD1C0B",
+      "route_id": "ROUTE-0A6D09C3",
       "path": "/courses",
       "type": "Detected Link",
       "anchor_text": "See All Courses",
@@ -177,7 +177,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0DD7CDAF",
+      "route_id": "ROUTE-66ADD5CC",
       "path": "/blog/category/projects",
       "type": "Detected Link",
       "anchor_text": "See All Projects",
@@ -188,7 +188,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1E5C3957",
+      "route_id": "ROUTE-F561B853",
       "path": "/blog",
       "type": "Detected Link",
       "anchor_text": "See All Articles",
@@ -199,7 +199,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C3C7DF50",
+      "route_id": "ROUTE-5F9C3AE8",
       "path": "/blog/python-projects",
       "type": "Detected Link",
       "anchor_text": "Python Project Ideas",
@@ -210,7 +210,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B2DBAC13",
+      "route_id": "ROUTE-737CEC9F",
       "path": "/blog/best-online-learning-platforms",
       "type": "Detected Link",
       "anchor_text": "Best Online Learning Platforms",
@@ -221,7 +221,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-94D4BEF6",
+      "route_id": "ROUTE-7E069A25",
       "path": "/blog/best-coding-apps",
       "type": "Detected Link",
       "anchor_text": "Top Coding Apps",
@@ -232,7 +232,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-70CCE258",
+      "route_id": "ROUTE-8EE976E5",
       "path": "/blog/best-vscode-extensions",
       "type": "Detected Link",
       "anchor_text": "Best VSCode Extensions for Developers",
@@ -243,7 +243,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4D006007",
+      "route_id": "ROUTE-46852C7D",
       "path": "/blog/java-projects",
       "type": "Detected Link",
       "anchor_text": "Java Project Ideas",
@@ -254,7 +254,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FA84ACDA",
+      "route_id": "ROUTE-C93A1042",
       "path": "/blog/best-vscode-themes",
       "type": "Detected Link",
       "anchor_text": "Top VSCode Themes",
@@ -265,7 +265,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-93391387",
+      "route_id": "ROUTE-C04EB6CB",
       "path": "/blog/best-linux-distro-for-programming",
       "type": "Detected Link",
       "anchor_text": "Best Linux Distros for Programming",
@@ -276,7 +276,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C7198F51",
+      "route_id": "ROUTE-F30C0DAC",
       "path": "/blog/ai-coding-assistants",
       "type": "Detected Link",
       "anchor_text": "Top AI Coding Assistants",
@@ -287,7 +287,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-99F3FE97",
+      "route_id": "ROUTE-6D35DEE9",
       "path": "/blog/react-projects",
       "type": "Detected Link",
       "anchor_text": "React Project Ideas",
@@ -298,7 +298,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-76C09806",
+      "route_id": "ROUTE-0D157E70",
       "path": "/blog/best-python-ide",
       "type": "Detected Link",
       "anchor_text": "Best Python IDEs Compared",
@@ -309,7 +309,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CA34BE98",
+      "route_id": "ROUTE-E6DCD667",
       "path": "/blog/python-certification",
       "type": "Detected Link",
       "anchor_text": "Top Python Certifications",

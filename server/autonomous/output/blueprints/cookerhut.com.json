@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-9F2FE15C",
-  "generated_at": "2026-01-21T07:26:54.227Z",
+  "generated_at": "2026-04-02T04:24:16.872Z",
   "global_configuration": {
     "brand_name": "CookerHut.com &#8211; Answering common cooking questions",
     "domain": "cookerhut.com",
@@ -23,64 +23,14 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 11,
+      "total_files": 1,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/wp-includes/js/jquery/jquery.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-includes/js/jquery/jquery.min.js"
-      },
-      {
-        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-includes/js/jquery/jquery-migrate.min.js"
-      },
-      {
-        "path": "/wp-content/plugins/meks-flexible-shortcodes/js/main.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-content/plugins/meks-flexible-shortcodes/js/main.js"
-      },
-      {
-        "path": "/wp-includes/js/imagesloaded.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-includes/js/imagesloaded.min.js"
-      },
-      {
-        "path": "/wp-content/themes/voice/assets/js/min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-content/themes/voice/assets/js/min.js"
-      },
-      {
-        "path": "/wp-content/plugins/meks-easy-social-share/assets/js/main.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-content/plugins/meks-easy-social-share/assets/js/main.js"
-      },
-      {
-        "path": "/wp-content/plugins/wp-review/public/js/js.cookie.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-content/plugins/wp-review/public/js/js.cookie.min.js"
-      },
-      {
-        "path": "/wp-includes/js/underscore.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-includes/js/underscore.min.js"
-      },
-      {
-        "path": "/wp-includes/js/wp-util.min.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-includes/js/wp-util.min.js"
-      },
-      {
-        "path": "/wp-content/plugins/wp-review/public/js/main.js",
-        "type": "script",
-        "full_url": "https://cookerhut.com/wp-content/plugins/wp-review/public/js/main.js"
-      },
-      {
-        "path": "/wp-content/uploads/2025/02/cookerhut-logo-ok.jpg",
-        "type": "image",
-        "full_url": "https://cookerhut.com/wp-content/uploads/2025/02/cookerhut-logo-ok.jpg"
+        "path": "/wp-content/litespeed/css/460c51f99bbacce562aaf8bc45e0467d.css",
+        "type": "stylesheet",
+        "full_url": "https://cookerhut.com/wp-content/litespeed/css/460c51f99bbacce562aaf8bc45e0467d.css?ver=c401a"
       }
     ]
   },
@@ -98,18 +48,10 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3890ms"
+          "latency": "3297ms"
         },
         {
-          "resource": "jquery.min.js",
-          "latency": "pending"
-        },
-        {
-          "resource": "jquery-migrate.min.js",
-          "latency": "pending"
-        },
-        {
-          "resource": "main.js",
+          "resource": "460c51f99bbacce562aaf8bc45e0467d.css",
           "latency": "pending"
         }
       ],
@@ -147,7 +89,7 @@
       }
     },
     {
-      "route_id": "ROUTE-91B875FA",
+      "route_id": "ROUTE-66637DF6",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -158,7 +100,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-14B24B73",
+      "route_id": "ROUTE-124C3DAF",
       "path": "/category/cooking/",
       "type": "Detected Link",
       "anchor_text": "Cooking",
@@ -169,7 +111,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2A61D1A1",
+      "route_id": "ROUTE-ABDF105C",
       "path": "/category/baking/",
       "type": "Detected Link",
       "anchor_text": "Baking",
@@ -180,7 +122,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BF1C6400",
+      "route_id": "ROUTE-67FA22FC",
       "path": "/category/boiling/",
       "type": "Detected Link",
       "anchor_text": "Boiling",
@@ -191,7 +133,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E502B74A",
+      "route_id": "ROUTE-715D3116",
       "path": "/category/frying/",
       "type": "Detected Link",
       "anchor_text": "Frying",
@@ -202,7 +144,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-918B8356",
+      "route_id": "ROUTE-BE86D0DB",
       "path": "/category/grilling/",
       "type": "Detected Link",
       "anchor_text": "Grilling",
@@ -213,7 +155,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D4DF578F",
+      "route_id": "ROUTE-32244500",
       "path": "/category/cooker/",
       "type": "Detected Link",
       "anchor_text": "Cooker",
@@ -224,7 +166,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-026511A1",
+      "route_id": "ROUTE-65C07B05",
       "path": "/category/faq/",
       "type": "Detected Link",
       "anchor_text": "FAQ",
@@ -235,7 +177,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D3B80189",
+      "route_id": "ROUTE-3722F8C8",
       "path": "/category/others/",
       "type": "Detected Link",
       "anchor_text": "Others",
@@ -246,7 +188,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-76CE11C3",
+      "route_id": "ROUTE-C8E539D9",
       "path": "/what-to-make-for-dinner-when-you-don%ca%bct-know-what-to-make/",
       "type": "Detected Link",
       "anchor_text": "What To Make For Dinner When You Donʼt Know What To Make ?",
@@ -257,7 +199,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DBDF1E63",
+      "route_id": "ROUTE-715FBB5E",
       "path": "/how-do-i-make-a-healthy-meal-plan/",
       "type": "Detected Link",
       "anchor_text": "How Do I Make A Healthy Meal Plan ?",
@@ -268,7 +210,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-28D899ED",
+      "route_id": "ROUTE-1426C08E",
       "path": "/your-what-should-i-make-for-dinner-this-weekend/",
       "type": "Detected Link",
       "anchor_text": "Your What Should I Make For Dinner This Weekend ?",
@@ -279,7 +221,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-04CA6A45",
+      "route_id": "ROUTE-005F23AC",
       "path": "/how-do-you-make-a-romantic-dinner-date/",
       "type": "Detected Link",
       "anchor_text": "How Do You Make A Romantic Dinner Date ?",
@@ -290,7 +232,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-43C346CB",
+      "route_id": "ROUTE-8522BA3D",
       "path": "/what-is-the-cheapest-meal-to-make/",
       "type": "Detected Link",
       "anchor_text": "What Is The Cheapest Meal To Make ?",
@@ -301,7 +243,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F263E641",
+      "route_id": "ROUTE-B469E23C",
       "path": "/what-food-can-i-make-fast/",
       "type": "Detected Link",
       "anchor_text": "What Food Can I Make Fast ?",

@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-4BF5F8B4",
-  "generated_at": "2026-01-21T07:27:05.106Z",
+  "generated_at": "2026-04-02T04:24:24.532Z",
   "global_configuration": {
     "brand_name": "World History Encyclopedia",
     "domain": "www.worldhistory.org",
@@ -23,14 +23,14 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 40,
+      "total_files": 44,
       "total_size_mb": 0
     },
     "core_assets": [
       {
         "path": "/ajax/visitor-info.js.php",
         "type": "script",
-        "full_url": "https://www.worldhistory.org/ajax/visitor-info.js.php?v=1768574139"
+        "full_url": "https://www.worldhistory.org/ajax/visitor-info.js.php?v=1774617736"
       },
       {
         "path": "/npm/jquery@3.6.1/dist/jquery.min.js",
@@ -40,12 +40,12 @@
       {
         "path": "/js/ahe-min.js",
         "type": "script",
-        "full_url": "https://www.worldhistory.org/js/ahe-min.js?v=1768574139"
+        "full_url": "https://www.worldhistory.org/js/ahe-min.js?v=1774617736"
       },
       {
         "path": "/analytics/pageview.js",
         "type": "script",
-        "full_url": "https://www.worldhistory.org/analytics/pageview.js?v=1768574139"
+        "full_url": "https://www.worldhistory.org/analytics/pageview.js?v=1774617736"
       },
       {
         "path": "/js/kwicks.min.2.2.1.js",
@@ -61,6 +61,11 @@
         "path": "/analytics.js",
         "type": "script",
         "full_url": "https://analytics.ahrefs.com/analytics.js"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/c3po.jpg",
@@ -83,94 +88,99 @@
         "full_url": "https://www.worldhistory.org/template/images/header/whe-logo-r.svg"
       },
       {
-        "path": "/img/c/p/360x202/6685.jpg",
+        "path": "/img/c/p/360x202/18751.png",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/6685.jpg?v=1736408712"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/18751.png?v=1760472125-1757310892"
       },
       {
-        "path": "/img/c/p/360x202/21539.png",
+        "path": "/img/c/p/360x202/21686.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21539.png?v=1768911845-1768891600"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21686.jpg?v=1773996364-1774958404"
       },
       {
-        "path": "/img/c/p/360x202/347.jpg",
+        "path": "/img/c/p/360x202/21678.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/347.jpg?v=1759361945"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21678.jpg?v=1774938728-1774938728"
       },
       {
-        "path": "/img/c/p/360x202/21467.jpg",
+        "path": "/img/c/p/360x202/3084.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21467.jpg?v=1768911854-1768392777"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/3084.jpg?v=1774965774-1774965774"
       },
       {
-        "path": "/img/c/p/360x202/10591.jpg",
+        "path": "/img/c/p/360x202/21703.png",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/10591.jpg?v=1768911861-1724658887"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21703.png?v=1774534691-1774534781"
       },
       {
-        "path": "/img/c/p/360x202/10010.jpg",
+        "path": "/img/c/p/360x202/197.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/10010.jpg?v=1768911847"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/197.jpg?v=1774618753-1774346970"
       },
       {
-        "path": "/img/c/p/360x202/6155.jpg",
+        "path": "/img/c/p/360x202/2927.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/6155.jpg?v=1768911864"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/2927.jpg?v=1774618757"
       },
       {
-        "path": "/img/c/p/360x202/21527.jpg",
+        "path": "/img/c/p/360x202/21578.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21527.jpg?v=1768911870-1768471170"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21578.jpg?v=1770822180-1773929217"
       },
       {
-        "path": "/img/c/p/360x202/14929.jpg",
+        "path": "/img/c/p/360x202/8096.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/14929.jpg?v=1768763355"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/8096.jpg?v=1774618764"
       },
       {
-        "path": "/img/c/p/360x202/20390.png",
+        "path": "/img/c/p/360x202/14807.png",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/20390.png?v=1768911908-1765364192"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/14807.png?v=1774942085-1745576251"
       },
       {
-        "path": "/img/c/p/360x202/21518.jpg",
+        "path": "/img/c/p/360x202/8197.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21518.jpg?v=1768763365-1768336036"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/8197.jpg?v=1774618771"
       },
       {
-        "path": "/img/c/p/360x202/21529.jpeg",
+        "path": "/img/c/p/360x202/21696.png",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21529.jpeg?v=1768911867-1768288598"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21696.png?v=1774618775-1774285053"
       },
       {
-        "path": "/img/c/p/360x202/21523.jpg",
+        "path": "/img/c/p/360x202/17173.jpeg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21523.jpg?v=1768911904-1767949633"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/17173.jpeg?v=1774618805-1678702260"
       },
       {
-        "path": "/img/c/p/360x202/21119.png",
+        "path": "/img/c/p/360x202/21610.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21119.png?v=1768921145-1759291607"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21610.jpg?v=1774618808-1774350976"
       },
       {
-        "path": "/img/c/p/360x202/21484.png",
+        "path": "/img/c/p/360x202/21626.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21484.png?v=1768763411-1768185597"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21626.jpg?v=1775039647-1773983387"
       },
       {
-        "path": "/img/c/p/360x202/21512.png",
+        "path": "/img/c/p/360x202/21661.png",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21512.png?v=1768921151-1767861031"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21661.png?v=1774618815-1773850925"
       },
       {
-        "path": "/img/c/p/360x202/21488.jpg",
+        "path": "/img/c/p/360x202/21629.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21488.jpg?v=1768921148-1767637095"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21629.jpg?v=1774618819-1773071312"
       },
       {
-        "path": "/img/c/p/360x202/21506.png",
+        "path": "/img/c/p/360x202/356.jpg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/img/c/p/360x202/21506.png?v=1768811049-1767608983"
+        "full_url": "https://www.worldhistory.org/img/c/p/360x202/356.jpg?v=1774618822"
+      },
+      {
+        "path": "/images/google_preferred_source_badge_2x.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/images/google_preferred_source_badge_2x.png"
       },
       {
         "path": "/images/anthem-24-silver-winnner.png",
@@ -220,7 +230,17 @@
       {
         "path": "/template/images/membership/membership-sidetab-en.svg",
         "type": "image",
-        "full_url": "https://www.worldhistory.org/template/images/membership/membership-sidetab-en.svg?v=1768574139"
+        "full_url": "https://www.worldhistory.org/template/images/membership/membership-sidetab-en.svg?v=1774617736"
+      },
+      {
+        "path": "/template/images/app/button_app_store.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/app/button_app_store.png"
+      },
+      {
+        "path": "/template/images/app/button_google_play.png",
+        "type": "image",
+        "full_url": "https://www.worldhistory.org/template/images/app/button_google_play.png"
       },
       {
         "path": "/images/partners/unesco_archives_white.png",
@@ -243,7 +263,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "9014ms"
+          "latency": "2208ms"
         },
         {
           "resource": "visitor-info.js.php",
@@ -285,7 +305,7 @@
           },
           {
             "tag": "p",
-            "text": "Definition Ur - The Great Biblical City Abandoned by the Gods Ur was a city in the region of Sumer, in southern Mesopotamia, and its ruins lie in what is modern-day Tell el-Muqayyar, Iraq. According to biblical... Article The Last Kingdom TV Series - Historical Accuracy The Last Kingdom (2015-2022) is a historical fiction TV series based on Bernard Cornwell's The Saxon Stories novels and adapted for television by English... Definition Uruk - The First Great City Uruk was one of the most important cities (at one time, the most important) in ancient Mesopotamia. According to the Sumerian King List, it was founded... Article Ten Ancient Egypt Facts You Need to Know - Fun Trivia About Ancient Egypt Ancient Egypt is defined as the civilization that flourished in North Africa between circa 6000 and 30 BCE – from the Predynastic Period in Egypt (circa... Definition Eridu - The Divine Birthplace of Kingship and Order Eridu (present-day Abu Shahrein, Iraq) was considered the first city in the world by the ancient Sumerians and is among the most ancient of the ruins... Article Interview with Barry Strauss: Jews vs. Rome - The Latest Book by Barry Strauss For over two centuries, ancient Judea was a restless province of the Roman Empire, marked by rebellions, shifting loyalties, and the tensions between... Definition Cleopatra VII - The Last Great Pharaoh of Ancient Egypt Cleopatra VII (69-30 BCE, reign 51-30 BCE) was the last ruler of Egypt before it was annexed as a province of Rome. Arguably the most famous Egyptian... Article Causes of the American Civil War - Spoiler Alert: It Was All About Slavery There was actually only one cause for the American Civil War: slavery. All the events leading to the Civil War, understood as steps moving steadily... Definition Monroe Doctrine - The Controversial Cornerstone of US Foreign Policy The Monroe Doctrine, a significant piece of United States foreign policy, was first articulated by President James Monroe in 1823, and it essentially... Definition Sumerian King List - Who Was King? And Who Was Not King? The Sumerian King List (abbreviated as SKL and also known as Chronicle of the One Monarchy) is an ancient Sumerian document whose earliest version is... Article Clothing in the Victorian Era - Getting the Right Balance of Fabric, Figure, and Flashiness Striking silhouettes, sumptuous fabrics, bright colours, frills galore, and all manner of ornate accessories define the clothing of the Victorian period... Definition American Civil War - The Birthpangs of the United States The American Civil War (1861-1865) was the pivotal event in United States history and the largest armed conflict in the Western world following the... Image Gallery The Story of WWI in 50 Images The First World War (1914-18) was the first global conflict, the first mechanised conflict, and the first to involve civilians far from the fighting... Article Battle of Verdun - The Longest Battle of World War I When German generals decided on a strategy of attrition to methodically wear down the French Army in the middle of the First World War (1914-18), the... Definition Jefferson Davis - President of the Confederate States Jefferson Davis (1808-1889) was a planter, soldier, and politician from Mississippi, who served as the first and only president of the Confederate States... Article 10 World War I Poems The First World War (1914-18) stimulated a great wave of literary output, not least in the field of poetry. In an era when photography and film were... About Us We are a non-profit organization publishing the world's most read history encyclopedia."
+            "text": "Definition War of the Spanish Succession - The Bloody Struggle for the Throne of Spain The War of the Spanish Succession (1701-1714) was the first of several major wars fought between the great powers of Europe in the 18th century. Triggered... Article Truths Wrapped in Fiction: Mesopotamian Naru Literature - Originality in Writing Ancient Bestsellers Originality in literary compositions in the ancient world did not carry the same weight and value as it does today. In recent centuries, authors have... Definition German East Africa German East Africa (Deutsch-Ostafrika) was a colony of Imperial Germany from 1885 until 1918. The territory, much larger than Germany itself, covered... Article Ten Ancient Mesopotamia Facts You Need to Know - Fun Facts on the Cradle of Civilization Mesopotamia is the ancient Greek name (meaning \"the land between two rivers,\" the Tigris and Euphrates) for the region corresponding to modern-day Iraq... Definition Mesopotamian Naru Literature - The World's First Historical Fiction Mesopotamian Naru Literature was a literary genre, first appearing around the 2nd millennium BCE, which featured a famous person (usually a king) from... Definition Aethelred I of Wessex - The Forgotten Victor of the Battle of Ashdown Aethelred I ruled the Kingdom of Wessex (southern England) from 865 to 871 and led the English resistance to the Viking invasions of Britain. He won... Article Ten Great Ancient Mesopotamian Women - Monarchs, Generals, and Scribes The lives of women in ancient Mesopotamia were regulated by a patriarchal hierarchy, but within this social structure, there were many who distinguished... Definition Near East - A Modern Term for an Ancient Land The 'Near East' is a modern-age term for the region formerly known as the 'Middle East,' comprising Armenia, Cyprus, Egypt, Iraq, Iran, Israel, Jordan... Definition Gutians - The Great Villains of the Sumerian Scribes The Gutians were a West Asiatic people who are thought to have lived around the Zagros Mountains in a region referred to as Gutium. They had no written... Definition Belgian Congo - One of Africa's Most Notorious Colonies Belgian Congo was a colony of Belgium from 1908 until 1960. Prior to that, the region had been the Congo Free State (created in 1885), which was effectively... Article Inanna and Ebih - A Poetic Narrative on Feminine Power Inanna and Ebih is a Sumerian/Akkadian poem attributed to Enheduanna (circa 2300 BCE), daughter of Sargon of Akkad. The work's original title is Inninmehusa... Article Enheduanna - Poet, Priestess, Empire Builder - Redefining the Gods for the People Enheduanna (circa 2300 BCE) is the world's first author and was the daughter (either literally or figuratively) of the great empire-builder Sargon of... Definition War of the Austrian Succession - How One Woman's Right to Rule Plunged Europe into War The War of the Austrian Succession (1740-1748) was a major conflict fought between the great powers of Europe, sparked by a dispute over the right of... Image Gallery Viking Ship Construction - A Step-by-step Visual Guide In this gallery of 30 illustrations, we present the stages and techniques required to build the type of Viking ship Harald Hardrada, the future Norwegian... Definition Anglo-Zulu War - Britain's Invasion of Zululand The Anglo-Zulu War of 1879 saw British-led armies invade the Zulu Kingdom in Southern Africa as part of a wider plan to unify various territories into... Definition Naram-Sin - The God-King of Akkad Naram-Sin (reign 2254-2218 BCE) was the last great king of the Akkadian Empire and the grandson of Sargon the Great (reign 2334-2279 BCE), who founded... About Us We are a non-profit organization publishing the world's most read history encyclopedia."
           },
           {
             "tag": "p",
@@ -297,7 +317,7 @@
           },
           {
             "tag": "p",
-            "text": "Explore our Media Library with 22,194 images, videos, and 3D models."
+            "text": "Explore our Media Library with 22,354 images, videos, and 3D models."
           },
           {
             "tag": "h2",
@@ -321,7 +341,7 @@
           },
           {
             "tag": "p",
-            "text": "2,902 definitions 1,695 articles 19,187 illustrations 2,592 videos 415 3D images 13,043 translations 1,244 contributors 36,408 registered users"
+            "text": "2,918 definitions 1,709 articles 19,343 illustrations 2,596 videos 415 3D images 13,771 translations 1,271 contributors 37,874 registered users"
           },
           {
             "tag": "p",
@@ -337,7 +357,7 @@
           },
           {
             "tag": "p",
-            "text": "About &bull; Contact &bull; Blog &bull; Sponsorship &bull; Privacy Policy &bull; Terms of Use &bull; Partners &bull; Supporters &bull; Newsletter &bull; Settings World History Foundation is a 501(c)3 charity registered in the United States. World History Publishing is a non-profit organization registered in the United Kingdom. World History Foundation is a non-profit organization registered in Québec, Canada."
+            "text": "World History Foundation is a 501(c)3 charity registered in the United States. World History Publishing is a non-profit organization registered in the United Kingdom. World History Foundation is a non-profit organization registered in Québec, Canada."
           },
           {
             "tag": "p",
@@ -355,12 +375,12 @@
         "structure_summary": {
           "paragraphs": 72,
           "headings": 25,
-          "images": 34
+          "images": 37
         }
       }
     },
     {
-      "route_id": "ROUTE-36F6E6AA",
+      "route_id": "ROUTE-B15D67FF",
       "path": "/ai/",
       "type": "Detected Link",
       "anchor_text": "History AI",
@@ -371,7 +391,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7389BB07",
+      "route_id": "ROUTE-B2453C1C",
       "path": "/index/",
       "type": "Detected Link",
       "anchor_text": "Encyclopedia",
@@ -382,7 +402,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-998EE971",
+      "route_id": "ROUTE-F2D2BE83",
       "path": "/timeline/",
       "type": "Detected Link",
       "anchor_text": "Timeline",
@@ -393,7 +413,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-042C433F",
+      "route_id": "ROUTE-4B636325",
       "path": "/mapselect/",
       "type": "Detected Link",
       "anchor_text": "Maps",
@@ -404,7 +424,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0C4308BB",
+      "route_id": "ROUTE-ADB1E6A8",
       "path": "/books/",
       "type": "Detected Link",
       "anchor_text": "Book Reviews",
@@ -415,7 +435,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4406115B",
+      "route_id": "ROUTE-A1F5F085",
       "path": "/trans/",
       "type": "Detected Link",
       "anchor_text": "Translations",
@@ -426,7 +446,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0CD02DCE",
+      "route_id": "ROUTE-3D4F8A3F",
       "path": "/shop/magazines/insider/",
       "type": "Detected Link",
       "anchor_text": "Magazine",
@@ -437,7 +457,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C5109D5E",
+      "route_id": "ROUTE-3C5C1FD7",
       "path": "/edu/",
       "type": "Detected Link",
       "anchor_text": "Education",
@@ -448,7 +468,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-405A47E8",
+      "route_id": "ROUTE-5F81F4DD",
       "path": "/edu/teaching-resources/",
       "type": "Detected Link",
       "anchor_text": "Teaching Materials",
@@ -459,7 +479,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-53F4A527",
+      "route_id": "ROUTE-77D15EBD",
       "path": "/xres/",
       "type": "Detected Link",
       "anchor_text": "Link Database",
@@ -470,7 +490,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-812516C1",
+      "route_id": "ROUTE-43625E09",
       "path": "/type/11/1/",
       "type": "Detected Link",
       "anchor_text": "Quizzes",
@@ -481,7 +501,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8FCCF84A",
+      "route_id": "ROUTE-98B55DBE",
       "path": "/category/100/1/",
       "type": "Detected Link",
       "anchor_text": "Primary Sources",
@@ -492,7 +512,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7A564D15",
+      "route_id": "ROUTE-5EA75288",
       "path": "/edu/collections/",
       "type": "Detected Link",
       "anchor_text": "Collections",
@@ -503,7 +523,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FF8CD5F2",
+      "route_id": "ROUTE-9AACAE0D",
       "path": "/edu/subscription/",
       "type": "Detected Link",
       "anchor_text": "School Subscription",
@@ -514,7 +534,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D65CDA5B",
+      "route_id": "ROUTE-76D4C791",
       "path": "/medialibrary/",
       "type": "Detected Link",
       "anchor_text": "Media",

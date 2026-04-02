@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-62770EAE",
-  "generated_at": "2026-01-21T07:26:54.702Z",
+  "generated_at": "2026-04-02T04:24:17.646Z",
   "global_configuration": {
     "brand_name": "Home",
     "domain": "scrumslate.com",
@@ -30,7 +30,7 @@
       {
         "path": "/wp-content/themes/scrum-slate-theme/assets/js/bootstrap.min.js",
         "type": "script",
-        "full_url": "https://scrumslate.com/wp-content/themes/scrum-slate-theme/assets/js/bootstrap.min.js?ver=6.9"
+        "full_url": "https://scrumslate.com/wp-content/themes/scrum-slate-theme/assets/js/bootstrap.min.js?ver=6.9.4"
       },
       {
         "path": "/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -168,7 +168,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "17102ms"
+          "latency": "6386ms"
         },
         {
           "resource": "bootstrap.min.js",
@@ -337,7 +337,7 @@
       }
     },
     {
-      "route_id": "ROUTE-7B3E0DA9",
+      "route_id": "ROUTE-74F4B5B4",
       "path": "/build/home",
       "type": "Detected Link",
       "anchor_text": "Home",
@@ -348,7 +348,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A803EBA2",
+      "route_id": "ROUTE-7A8FCC7F",
       "path": "/build/features",
       "type": "Detected Link",
       "anchor_text": "Features",
@@ -359,7 +359,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC6B0685",
+      "route_id": "ROUTE-5CA13ACE",
       "path": "/build/about-us",
       "type": "Detected Link",
       "anchor_text": "About Us",
@@ -370,7 +370,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C36148E4",
+      "route_id": "ROUTE-C6339A01",
       "path": "/build/pricing",
       "type": "Detected Link",
       "anchor_text": "Pricing",
@@ -381,7 +381,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BF76EDA0",
+      "route_id": "ROUTE-B0CC7FBF",
       "path": "/build/contactUs",
       "type": "Detected Link",
       "anchor_text": "Contact Us",
@@ -392,7 +392,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7926C148",
+      "route_id": "ROUTE-99CB5053",
       "path": "/build/chrome-extension",
       "type": "Detected Link",
       "anchor_text": "Extension",
@@ -403,7 +403,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-389611FB",
+      "route_id": "ROUTE-71D61FE4",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Home",
@@ -414,7 +414,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-94F0E847",
+      "route_id": "ROUTE-CF96D2A4",
       "path": "/features/",
       "type": "Detected Link",
       "anchor_text": "Features",
@@ -425,7 +425,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DDC0E6D1",
+      "route_id": "ROUTE-8E5A3DD3",
       "path": "/contact-us/",
       "type": "Detected Link",
       "anchor_text": "Contact Us",
@@ -436,7 +436,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D94D8166",
+      "route_id": "ROUTE-26EB0A71",
       "path": "/chrome-extention/",
       "type": "Detected Link",
       "anchor_text": "Chrome Extention",
@@ -447,7 +447,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4AD6B4BE",
+      "route_id": "ROUTE-AF4136FD",
       "path": "/blogs/",
       "type": "Detected Link",
       "anchor_text": "Blogs",
@@ -458,7 +458,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-865AB27A",
+      "route_id": "ROUTE-7EC69BC7",
       "path": "/about-us/",
       "type": "Detected Link",
       "anchor_text": "About Us",
@@ -469,7 +469,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-29911315",
+      "route_id": "ROUTE-CCFC0B15",
       "path": "/build/agile",
       "type": "Detected Link",
       "anchor_text": "What is Agile?",
@@ -480,7 +480,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AFF790F0",
+      "route_id": "ROUTE-874E4937",
       "path": "/build/kanban",
       "type": "Detected Link",
       "anchor_text": "Scrum VS Kanban",
@@ -491,7 +491,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D1C910D2",
+      "route_id": "ROUTE-97E3AEA1",
       "path": "/build/backlog-refinement",
       "type": "Detected Link",
       "anchor_text": "Backlog Refinement",

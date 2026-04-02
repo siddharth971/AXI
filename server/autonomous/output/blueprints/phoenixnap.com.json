@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-EEA494C9",
-  "generated_at": "2026-01-21T07:27:12.138Z",
+  "generated_at": "2026-04-02T04:24:29.720Z",
   "global_configuration": {
     "brand_name": "phoenixNAP: Data Center, Dedicated Servers, Cloud, &amp; Colocation",
     "domain": "phoenixnap.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.20.42.225",
+      "server_ip": "172.66.168.9",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -16,8 +16,8 @@
       "web_server": "cloudflare"
     },
     "server_headers": {
-      "Cache-Control": "max-age=14400",
-      "Content-Security-Policy": "frame-ancestors 'self' secure.livechatinc.com www.youtube.com www.google.com widget.clym-sdk.net widget-next.clym-sdk.net; frame-src 'self' analytics.clickdimensions.com *.doubleclick.net *.dynamics.com secure.livechatinc.com www.youtube.com www.google.com docs.google.com vars.hotjar.com widget.clym-sdk.net widget-next.clym-sdk.net *.googletagmanager.com *.crazyegg.com;",
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "frame-ancestors 'self' secure.livechatinc.com www.youtube.com www.google.com config.clym-sdk.net cf.clym-widget.net widget.clym-sdk.net widget-next.clym-sdk.net; frame-src 'self' doubleclick.net *.dynamics.com secure.livechatinc.com www.youtube.com www.google.com docs.google.com config.clym-sdk.net cf.clym-widget.net widget.clym-sdk.net widget-next.clym-sdk.net *.googletagmanager.com;",
       "Server": "cloudflare"
     }
   },
@@ -248,7 +248,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6048ms"
+          "latency": "1351ms"
         },
         {
           "resource": "lazyload.min.js",
@@ -492,12 +492,12 @@
         "structure_summary": {
           "paragraphs": 3082,
           "headings": 36,
-          "images": 73
+          "images": 86
         }
       }
     },
     {
-      "route_id": "ROUTE-35D6D161",
+      "route_id": "ROUTE-32A33328",
       "path": "/partners",
       "type": "Detected Link",
       "anchor_text": "Partners",
@@ -508,7 +508,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-90D4BC9F",
+      "route_id": "ROUTE-D238C53D",
       "path": "/colocation",
       "type": "Detected Link",
       "anchor_text": "Colocation",
@@ -519,7 +519,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-15BD3889",
+      "route_id": "ROUTE-35C7EBFA",
       "path": "/colocation",
       "type": "Detected Link",
       "anchor_text": "ColocationPremier Carrier Hotel",
@@ -530,7 +530,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-14235088",
+      "route_id": "ROUTE-8A71A580",
       "path": "/colocation/data-center-as-a-service",
       "type": "Detected Link",
       "anchor_text": "Data Center as a ServiceOverview",
@@ -541,7 +541,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-138A3607",
+      "route_id": "ROUTE-5116252E",
       "path": "/colocation/hardware-as-a-service",
       "type": "Detected Link",
       "anchor_text": "Hardware as a ServiceFlexible Hardware Leasing",
@@ -552,7 +552,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D2A86A89",
+      "route_id": "ROUTE-E926D69A",
       "path": "/dedicated-servers",
       "type": "Detected Link",
       "anchor_text": "Dedicated ServersSingle-Tenant Physical Machines",
@@ -563,7 +563,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0DBF9845",
+      "route_id": "ROUTE-CA38231B",
       "path": "/bare-metal-cloud",
       "type": "Detected Link",
       "anchor_text": "Bare Metal CloudAPI-Driven Dedicated Servers",
@@ -574,7 +574,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8C5633DD",
+      "route_id": "ROUTE-C1E7C60D",
       "path": "/object-storage",
       "type": "Detected Link",
       "anchor_text": "Object StorageS3 API-Compatible Storage Service",
@@ -585,7 +585,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-95DB6CC8",
+      "route_id": "ROUTE-A583BF08",
       "path": "/colocation/meet-me-room",
       "type": "Detected Link",
       "anchor_text": "Meet-Me RoomOverview",
@@ -596,7 +596,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9D77DCCE",
+      "route_id": "ROUTE-D7D65A58",
       "path": "/colocation/aws-direct-connect",
       "type": "Detected Link",
       "anchor_text": "AWS Direct ConnectDedicated Link to Amazon Cloud",
@@ -607,7 +607,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-308685C8",
+      "route_id": "ROUTE-64310BFC",
       "path": "/google-cloud-interconnect",
       "type": "Detected Link",
       "anchor_text": "Google Cloud InterconnectPrivate Connectivity to Google Cloud",
@@ -618,7 +618,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D02EC4C6",
+      "route_id": "ROUTE-AE996D87",
       "path": "/offers/megaport-cloud-router",
       "type": "Detected Link",
       "anchor_text": "Megaport Cloud RouterSimplified Multi-Cloud Connections",
@@ -629,7 +629,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-23A091A8",
+      "route_id": "ROUTE-35F202AA",
       "path": "/colocation/all-carriers",
       "type": "Detected Link",
       "anchor_text": "All CarriersGlobal Interconnectivity Options",
@@ -640,7 +640,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0C4D5770",
+      "route_id": "ROUTE-A3770A81",
       "path": "/phoenix-data-center-virtual-tour",
       "type": "Detected Link",
       "anchor_text": "Schedule a TourGuided Virtual Data Center Tour",
@@ -651,7 +651,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0802CB2A",
+      "route_id": "ROUTE-4619E7C7",
       "path": "/colocation/data-center-locations",
       "type": "Detected Link",
       "anchor_text": "Data Center LocationsOverview",

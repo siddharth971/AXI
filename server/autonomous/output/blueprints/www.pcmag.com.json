@@ -1,0 +1,440 @@
+{
+  "website_blueprint_id": "BLUEPRINT-1AF0C070",
+  "generated_at": "2026-04-02T04:24:24.677Z",
+  "global_configuration": {
+    "brand_name": "The Latest Technology Product Reviews, News, Tips, and Deals",
+    "domain": "www.pcmag.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.16.21.118",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=1800",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 28,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit"
+      },
+      {
+        "path": "/pcmag.js",
+        "type": "script",
+        "full_url": "https://g.pcmag.com/pcmag.js?url=https%3A%2F%2Fwww.pcmag.com"
+      },
+      {
+        "path": "/jst/zdconsent.js",
+        "type": "script",
+        "full_url": "https://cdn.ziffstatic.com/jst/zdconsent.js"
+      },
+      {
+        "path": "/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js",
+        "type": "script",
+        "full_url": "https://bbstatic.pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-2Y85WP1X8R"
+      },
+      {
+        "path": "/pg/pcmag.js",
+        "type": "script",
+        "full_url": "https://cdn.ziffstatic.com/pg/pcmag.js"
+      },
+      {
+        "path": "/js/ga.js",
+        "type": "script",
+        "full_url": "https://www.pcmag.com/js/ga.js?id=b59bb37916726634689851ac24394cd9"
+      },
+      {
+        "path": "/js/new-app.js",
+        "type": "script",
+        "full_url": "https://www.pcmag.com/js/new-app.js?id=7cecd93df45b660d13794ed885529fb8"
+      },
+      {
+        "path": "/js/alpine/newsletters.js",
+        "type": "script",
+        "full_url": "https://www.pcmag.com/js/alpine/newsletters.js?v=1775102873"
+      },
+      {
+        "path": "/js/alpine/sliding-mini-rivers.js",
+        "type": "script",
+        "full_url": "https://www.pcmag.com/js/alpine/sliding-mini-rivers.js"
+      },
+      {
+        "path": "/js/alpine/sliding-div-carousel.js",
+        "type": "script",
+        "full_url": "https://www.pcmag.com/js/alpine/sliding-div-carousel.js"
+      },
+      {
+        "path": "/@alpinejs/intersect@3.9.5/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/@alpinejs/intersect@3.9.5/dist/cdn.min.js"
+      },
+      {
+        "path": "/@alpinejs/collapse@3.9.5/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/@alpinejs/collapse@3.9.5/dist/cdn.min.js"
+      },
+      {
+        "path": "/@alpinejs/resize@3.14.1/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/@alpinejs/resize@3.14.1/dist/cdn.min.js"
+      },
+      {
+        "path": "/npm/@alpinejs/focus@3.14.1/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.14.1/dist/cdn.min.js"
+      },
+      {
+        "path": "/npm/@ryangjchandler/alpine-tooltip@2.x.x/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/@ryangjchandler/alpine-tooltip@2.x.x/dist/cdn.min.js"
+      },
+      {
+        "path": "/alpinejs@3.9.5/dist/cdn.min.js",
+        "type": "script",
+        "full_url": "https://unpkg.com/alpinejs@3.9.5/dist/cdn.min.js"
+      },
+      {
+        "path": "/vendor/9745bb72-8a46-4340-9550-40bf46265b4e/lightbox_speed.js",
+        "type": "script",
+        "full_url": "https://www.lightboxcdn.com/vendor/9745bb72-8a46-4340-9550-40bf46265b4e/lightbox_speed.js"
+      },
+      {
+        "path": "/l/z0WVjCBSEeGLoxIxOQVEwQ/",
+        "type": "image",
+        "full_url": "https://zdbb.net/l/z0WVjCBSEeGLoxIxOQVEwQ/"
+      },
+      {
+        "path": "/icons/maggie-logo.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/icons/maggie-logo.svg"
+      },
+      {
+        "path": "/icons/maggie-logo-white.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/icons/maggie-logo-white.svg"
+      },
+      {
+        "path": "/images/pcmag.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/images/pcmag.svg"
+      },
+      {
+        "path": "/images/pcmag-hover.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/images/pcmag-hover.svg"
+      },
+      {
+        "path": "/images/pcmag-mobile.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/images/pcmag-mobile.svg"
+      },
+      {
+        "path": "/icons/maggie-stars.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/icons/maggie-stars.svg"
+      },
+      {
+        "path": "/imagery/articles/05kRWr0PCrI6Xaba7o8pMes-21.fit_lim.size_414x234.v1774563126.jpg",
+        "type": "image",
+        "full_url": "https://i.pcmag.com/imagery/articles/05kRWr0PCrI6Xaba7o8pMes-21.fit_lim.size_414x234.v1774563126.jpg"
+      },
+      {
+        "path": "/images/newsletter-envelope.svg",
+        "type": "image",
+        "full_url": "https://www.pcmag.com/images/newsletter-envelope.svg"
+      },
+      {
+        "path": "/pub/icong1.png",
+        "type": "image",
+        "full_url": "https://c.evidon.com/pub/icong1.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "The Latest Technology Product Reviews, News, Tips, and Deals | PCMag",
+        "description": "PCMag is your complete guide to computers, peripherals and upgrades. We test and review tech products and services, report technology news and trends, and provide shopping advice with price comparisons.",
+        "canonical": "https://www.pcmag.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2998ms"
+        },
+        {
+          "resource": "api.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "pcmag.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "zdconsent.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "h3",
+            "text": "Meet Maggie, PCMag's AI-Powered Assistant"
+          },
+          {
+            "tag": "p",
+            "text": "Trained exclusively on our massive library of expert buying advice, finding the right tech to fit your life has never been easier."
+          },
+          {
+            "tag": "p",
+            "text": "By Brian Westover"
+          },
+          {
+            "tag": "p",
+            "text": "Hello! I'm Maggie, PCMag's AI-powered product finder, exclusively powered by our deep library of reviews and buying advice written by our expert team of technology journalists. Ask Me Here are some examples of the types of questions you can ask: What's the best graphics card for 4K gaming? Should I get the iPhone 17 or the iPhone 17 Pro? Show me some good VPNs under $10 a month. I'm in Beta. Help me get better . The Best of PCMag Delivered Daily"
+          },
+          {
+            "tag": "h3",
+            "text": "What&#039;s New Now"
+          },
+          {
+            "tag": "p",
+            "text": "Your daily dose of the best new products, the latest tech news, and expert advice from the editors of PCMag."
+          },
+          {
+            "tag": "p",
+            "text": "Sign Me Up"
+          },
+          {
+            "tag": "p",
+            "text": "By clicking Sign Me Up, you confirm you are 16+ and agree to our Terms of Use and Privacy Policy ."
+          },
+          {
+            "tag": "p",
+            "text": "Thanks for signing up! Your subscription has been confirmed. Keep an eye on your inbox!"
+          },
+          {
+            "tag": "p",
+            "text": "Advertisement"
+          },
+          {
+            "tag": "p",
+            "text": "Late Night Calls From Steve Jobs and Angry Fan Mail: Apple Memories From a Former PCMag Editor-in-Chief By&nbsp; Michael J. Miller Looking Back: How the Apple II Kickstarted the Personal Computer Era By&nbsp; Jamie Lendino Apple at 50: The iPod Mattered More Than the iPhone By&nbsp; Jamie Lendino From the Pages of PC Magazine: How We Covered Apple&#039;s Greatest Hits and Misses By&nbsp; Brian Westover Apple&#039;s Little-Known Digital Camera From the &#039;90s Was Way Ahead of Its Time By&nbsp; Jim Fisher Lab-Tested Reviews PCMag Picks How-To &amp; Tips Lab-Tested Reviews Dell Pro Max 16 Plus Review: With Workstations, Heavy Lifting Has Its Price By Mark Coppock Asus ROG Strix G18 Review: At 18 Inches, High-End Gaming With a Lower Buy-In By Matthew Buzzi Lockly Secure Pro Zeno Series Fingerprint Deadbolt Review: A High-End Smart Lock That Delivers By John R. Delaney All Lab-Tested Reviews PCMag Picks The Best Windows Tablets By Tom Brant The Best Wi-Fi Range Extenders By John R. Delaney The Best Dell Laptops By Matthew Buzzi All PCMag Picks How-To &amp; Tips Spam Calls Are Out of Control. Here&#039;s How I Silenced Them for Good By Kim Key March Madness 2026: How to Watch the NCAA Final Four Games Live Without Cable By Jordan Minor Wi-Fi Locked You Out? Here&#039;s How to Crack That Network Password By Eric Griffith All How-To &amp; Tips Advertisement"
+          },
+          {
+            "tag": "p",
+            "text": "The AI Deal for People Who Hate Meetings By&nbsp; StackCommerce Team (Sponsored) April&#039;s Top Headphone Deals Save You Big On Personal Audio from Apple, Beats, Bose, and More By&nbsp; K. Thor Jensen This $29.99 App Offers You Something To Say in Every Conversation By&nbsp; StackCommerce Team (Sponsored) A Really Big Deal Worth Watching: Save $800 on This 65-Inch Hisense TV at Best Buy By&nbsp; Juhi Wadia This Shark Cordless Pet Vacuum Is Still 50% Off Even After Amazon&#039;s Big Spring Sale By&nbsp; Juhi Wadia It&#039;s April Fools&#039; Day, but This Deal Is No Joke: Take 49% Off Beats Studio Pro Headphones By&nbsp; George Yang Now’s the Time to Save More Than $100 on This Highly Rated Apple Watch Series 9 By&nbsp; Juhi Wadia Woot’s Best Deals of the Week: Save $200 on Bowers &amp; Wilkins Px7 S3 Premium Headphones By&nbsp; Cierra Cowan MORE TO EXPLORE See All Series All About AI Still not sure what AI can actually do for you? Explore all the possibilities with our expert tips, advice, and analysis. Anthropic Issues Copyright Takedowns to Scrub Claude Code Leak With iOS 26.4, You Can Talk to ChatGPT in Apple CarPlay. Here&#039;s How It Works Americans Are Worried About AI Job Loss, But 15% Would Work for an AI Boss All About AI SecurityWatch The online world is a sketchy place. Here&#039;s what you need to know to stay safe. Does LastPass Owe You Money? Make Sure That Settlement Email Isn&#039;t a Scam 2.7M Employee Records Stolen, 100GB of Anime Fan Data Lost, and Millions of Crime Tips Leaked Stop Using Passwords. Here&#039;s Why You Should Switch to Passkeys ASAP All SecurityWatch Get Organized Clever productivity tips and solutions to help optimize your digital life at work and at home. Tired of a Messy Inbox? Use These 3 Gmail Tricks to Take Control Now This AI Trick Took My Desk From Cable Chaos to Clutter-Free Your To-Do List Might Be Making You Less Productive. Try These 4 Planner Apps Instead All Get Organized Labs What can we help you find? Our experts test, rate, and compare thousands of products and services to help you find the right technology. Laptops Mobile Phones TVs Audio Smart Home Health &amp; Fitness Security All Categories Advertisement"
+          },
+          {
+            "tag": "p",
+            "text": "Follow PCMag Honest, Objective, Lab-Tested Reviews PCMag.com is a leading authority on technology, delivering lab-based, independent reviews of the latest products and services. Our expert industry analysis and practical solutions help you make better buying decisions and get more from technology."
+          },
+          {
+            "tag": "p",
+            "text": "PCMag, PCMag.com and PC Magazine are among the federally registered trademarks of Ziff Davis and may not be used by third parties without explicit permission. The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or the endorsement of PCMag. If you click an affiliate link and buy a product or service, we may be paid a fee by that merchant."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 167,
+          "headings": 29,
+          "images": 52
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-D226F62D",
+      "path": "/series/apple",
+      "type": "Detected Link",
+      "anchor_text": "#50YearsofApple",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3B5D6943",
+      "path": "/comparisons",
+      "type": "Detected Link",
+      "anchor_text": "Comparisons",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-905FC082",
+      "path": "/reviews",
+      "type": "Detected Link",
+      "anchor_text": "Reviews",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F59C7F47",
+      "path": "/how-to",
+      "type": "Detected Link",
+      "anchor_text": "How-To",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AE12F89E",
+      "path": "/news",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F9A340C7",
+      "path": "/opinions",
+      "type": "Detected Link",
+      "anchor_text": "Opinions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8392D59A",
+      "path": "/deals",
+      "type": "Detected Link",
+      "anchor_text": "Deals",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CDC72C70",
+      "path": "/newsletter_manage",
+      "type": "Detected Link",
+      "anchor_text": "Newsletters",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BC7E6841",
+      "path": "/picks",
+      "type": "Detected Link",
+      "anchor_text": "Best Products",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-51A28746",
+      "path": "/terms-of-use",
+      "type": "Detected Link",
+      "anchor_text": "Terms of Use",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2D27AEAD",
+      "path": "/privacy-policy",
+      "type": "Detected Link",
+      "anchor_text": "Privacy Policy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9D1B3F59",
+      "path": "/series/apple",
+      "type": "Detected Link",
+      "anchor_text": "See All Apple Stories",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AE05A624",
+      "path": "/articles/apple-50-steve-jobs-angry-mac-fans-pcmag-eic-recollections",
+      "type": "Detected Link",
+      "anchor_text": "Late Night Calls From Steve Jobs and Angry Fan Mail: Apple Memories From a Former PCMag Editor-in-Chief",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-341F0367",
+      "path": "/authors/michael-miller",
+      "type": "Detected Link",
+      "anchor_text": "Michael J. Miller",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A0AE2B40",
+      "path": "/news/machine-that-changed-everything-kickstarted-personal-computers-apple-50",
+      "type": "Detected Link",
+      "anchor_text": "Looking Back: How the Apple II Kickstarted the Personal Computer Era",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

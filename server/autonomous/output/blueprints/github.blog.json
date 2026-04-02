@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-C83949FF",
-  "generated_at": "2026-01-21T07:26:54.093Z",
+  "generated_at": "2026-04-02T04:24:16.527Z",
   "global_configuration": {
     "brand_name": "Home",
     "domain": "github.blog",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 66,
+      "total_files": 62,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -50,7 +50,7 @@
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://github.blog/_static/??/wp-content/plugins/gh-cookie-consent-and-tracking/dist/js/cookie-consent-and-tracking.js,/wp-includes/js/dist/hooks.min.js?m=1768285566j"
+        "full_url": "https://github.blog/_static/??/wp-content/plugins/gh-cookie-consent-and-tracking/dist/js/cookie-consent-and-tracking.js,/wp-includes/js/dist/hooks.min.js?m=1775062757j"
       },
       {
         "path": "/wp-includes/js/dist/i18n.min.js",
@@ -60,7 +60,7 @@
       {
         "path": "/wp-includes/js/dist/url.min.js",
         "type": "script",
-        "full_url": "https://github.blog/wp-includes/js/dist/url.min.js?m=1765909333g"
+        "full_url": "https://github.blog/wp-includes/js/dist/url.min.js?m=1774626885g"
       },
       {
         "path": "/wp-includes/js/dist/api-fetch.min.js",
@@ -70,17 +70,17 @@
       {
         "path": "/wp-content/themes/github-2021/dist/js/site-script.js",
         "type": "script",
-        "full_url": "https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=1768285567g"
+        "full_url": "https://github.blog/wp-content/themes/github-2021/dist/js/site-script.js?m=1775062758g"
       },
       {
         "path": "/v1.1.0/hydro-marketing.min.js",
         "type": "script",
-        "full_url": "https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=6.9"
+        "full_url": "https://analytics.githubassets.com/v1.1.0/hydro-marketing.min.js?ver=6.9.4"
       },
       {
-        "path": "/e-202604.js",
+        "path": "/e-202614.js",
         "type": "script",
-        "full_url": "https://stats.wp.com/e-202604.js"
+        "full_url": "https://stats.wp.com/e-202614.js"
       },
       {
         "path": "/wp-content/uploads/2024/06/AI-DarkMode-4.png",
@@ -118,74 +118,89 @@
         "full_url": "https://github.blog/wp-content/uploads/2024/07/Screenshot-2024-07-23-at-8.47.04%E2%80%AFAM.png?resize=800%2C425"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-github-security-logo.png",
+        "path": "/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png?resize=800%2C425"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-blocks-github.png?resize=800%2C425"
       },
       {
-        "path": "/u/15773368",
+        "path": "/u/167759",
         "type": "image",
-        "full_url": "https://avatars.githubusercontent.com/u/15773368?v=4&#038;s=40"
+        "full_url": "https://avatars.githubusercontent.com/u/167759?v=4&#038;s=40"
       },
       {
-        "path": "/u/176818",
+        "path": "/wp-content/uploads/2026/01/CLI-Square.jpg",
         "type": "image",
-        "full_url": "https://avatars.githubusercontent.com/u/176818?v=4&#038;s=40"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/CLI-Square.jpg?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png",
+        "path": "/wp-content/uploads/2026/02/554396112-02305897-302e-435b-862b-616faea6a7f5.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/02/554396112-02305897-302e-435b-862b-616faea6a7f5.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png",
+        "path": "/wp-content/uploads/2026/01/generic-mona-copilot-logo-1-e1767926145319.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/00ab37fbbb9bc343b007734b0e5805a26e747c90d955750bd976cb9ce84f6a2a-1920x1080-1.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-copilot-logo-1-e1767926145319.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe-1-e1767925988355.png",
+        "path": "/wp-content/uploads/2026/01/generic-mona-copilot-logo.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe-1-e1767925988355.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-copilot-logo.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/12/memory.jpg",
+        "path": "/wp-content/uploads/2026/03/GIT850_THUMB_GFB_A-1.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/12/memory.jpg?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/03/GIT850_THUMB_GFB_A-1.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-invertocat-github-logo-1-e1767926364316.png",
+        "path": "/wp-content/uploads/2026/03/GIT850_THUMB_GFB_A-1.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo-1-e1767926364316.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/03/GIT850_THUMB_GFB_A-1.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
+        "path": "/wp-content/uploads/2026/03/Github_Security.jpg",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/03/Github_Security.jpg?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/07/wallpaper-generic-green.png",
+        "path": "/wp-content/uploads/2026/03/Github_Security.jpg",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-generic-green.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/03/Github_Security.jpg?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/07/wallpaper-generic-green.png",
+        "path": "/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-generic-green.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png",
+        "path": "/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png",
+        "path": "/wp-content/uploads/2026/01/generic-github-logo-right.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-logo-right.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/generic-mona-invertocat-logo-1-e1767926414935.png",
+        "path": "/wp-content/uploads/2026/01/generic-github-logo-right.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo-1-e1767926414935.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-logo-right.png?resize=400%2C212"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png",
+        "type": "image",
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png?resize=800%2C425"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png",
+        "type": "image",
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png?resize=600%2C600"
+      },
+      {
+        "path": "/u/15240149",
+        "type": "image",
+        "full_url": "https://avatars.githubusercontent.com/u/15240149?v=4&#038;s=40"
       },
       {
         "path": "/wp-content/uploads/2026/01/generic-mona-invertocat-logo.png",
@@ -193,54 +208,19 @@
         "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/08/wallpaper-generic-image-header.png",
+        "path": "/wp-content/uploads/2026/01/CLIBanner_BlogHeader_01.jpg",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/08/wallpaper-generic-image-header.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/CLIBanner_BlogHeader_01.jpg?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/08/wallpaper-generic-image-header.png",
+        "path": "/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/08/wallpaper-generic-image-header.png?resize=400%2C212"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/github-generic-wallpaper-rubber-duck-invertocat.png",
-        "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/05/github-generic-wallpaper-rubber-duck-invertocat.png?resize=200%2C200"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/github-generic-wallpaper-rubber-duck-invertocat.png",
-        "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/05/github-generic-wallpaper-rubber-duck-invertocat.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png?resize=400%2C212"
       },
       {
         "path": "/wp-content/uploads/2025/07/wallpaper-generic-blue.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-generic-blue.png?resize=800%2C425"
-      },
-      {
-        "path": "/wp-content/uploads/2025/07/wallpaper-generic-blue.png",
-        "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-generic-blue.png?resize=600%2C600"
-      },
-      {
-        "path": "/u/497054",
-        "type": "image",
-        "full_url": "https://avatars.githubusercontent.com/u/497054?v=4&#038;s=40"
-      },
-      {
-        "path": "/u/443245",
-        "type": "image",
-        "full_url": "https://avatars.githubusercontent.com/u/443245?v=4&#038;s=40"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/Design-System-Annotations-Part-2.jpg",
-        "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/05/Design-System-Annotations-Part-2.jpg?resize=400%2C212"
-      },
-      {
-        "path": "/wp-content/uploads/2025/05/Design-System-Annotations-Part-1.jpg",
-        "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/05/Design-System-Annotations-Part-1.jpg?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-generic-blue.png?resize=400%2C212"
       },
       {
         "path": "/wp-content/uploads/2025/10/octoverse-2025-hero-image.png",
@@ -268,24 +248,24 @@
         "full_url": "https://blog-github-com-preprod.go-vip.net/wp-content/uploads/2024/07/maxresdefault-1.jpg?resize=1280%2C720"
       },
       {
-        "path": "/wp-content/uploads/2024/07/thedownload_phi-3.5models_720.png",
+        "path": "/wp-content/uploads/2026/02/GIT770_THUMB_DOWLOAD_B.png",
         "type": "image",
-        "full_url": "https://blog-github-com-preprod.go-vip.net/wp-content/uploads/2024/07/thedownload_phi-3.5models_720.png?resize=720%2C405"
+        "full_url": "https://github.blog/wp-content/uploads/2026/02/GIT770_THUMB_DOWLOAD_B.png?resize=1280%2C720"
       },
       {
-        "path": "/wp-content/uploads/2024/07/GitHub-for-beginners.png",
+        "path": "/wp-content/uploads/2025/02/418127171-3bd956ac-6856-4c72-8601-010f10058417.png",
         "type": "image",
-        "full_url": "https://blog-github-com-preprod.go-vip.net/wp-content/uploads/2024/07/GitHub-for-beginners.png?resize=1280%2C720"
+        "full_url": "https://github.blog/wp-content/uploads/2025/02/418127171-3bd956ac-6856-4c72-8601-010f10058417.png?resize=2400%2C1260"
       },
       {
-        "path": "/wp-content/uploads/2025/03/github_logo_invertocat_dark_5.png",
+        "path": "/wp-content/uploads/2025/08/github-generic-wallpaper.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/03/github_logo_invertocat_dark_5.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2025/08/github-generic-wallpaper.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/03/github_logo_invertocat_dark_5.png",
+        "path": "/wp-content/uploads/2025/08/github-generic-wallpaper.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/03/github_logo_invertocat_dark_5.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2025/08/github-generic-wallpaper.png?resize=400%2C212"
       },
       {
         "path": "/wp-content/uploads/2025/12/Colorway-2.jpg",
@@ -298,44 +278,44 @@
         "full_url": "https://github.blog/wp-content/uploads/2025/12/Colorway-2.jpg?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/03/github_logo_invertocat_dark_1.png",
+        "path": "/wp-content/uploads/2025/08/wallpaper-generic-.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/03/github_logo_invertocat_dark_1.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2025/08/wallpaper-generic-.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/03/github_logo_invertocat_dark_1.png",
+        "path": "/wp-content/uploads/2025/08/wallpaper-generic-.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/03/github_logo_invertocat_dark_1.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2025/08/wallpaper-generic-.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/07/wallpaper-rubber-duck-generic.png",
+        "path": "/wp-content/uploads/2026/02/3p-square.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-rubber-duck-generic.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/02/3p-square.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/07/wallpaper-rubber-duck-generic.png",
+        "path": "/wp-content/uploads/2026/02/3p-image.jpg",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/07/wallpaper-rubber-duck-generic.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/02/3p-image.jpg?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/12/521785038-c743262a-5e47-4725-9bd1-61b035de2dae.png",
+        "path": "/wp-content/uploads/2026/01/generic-mona-github.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/12/521785038-c743262a-5e47-4725-9bd1-61b035de2dae.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/12/521785038-c743262a-5e47-4725-9bd1-61b035de2dae.png",
+        "path": "/wp-content/uploads/2026/01/generic-mona-github.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/12/521785038-c743262a-5e47-4725-9bd1-61b035de2dae.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?resize=400%2C212"
       },
       {
-        "path": "/wp-content/uploads/2025/11/small-square.png",
+        "path": "/wp-content/uploads/2023/09/screencapture-innovationgraph-github-2023-09-20-15_44_54-1-e1755122432792.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/11/small-square.png?resize=200%2C200"
+        "full_url": "https://github.blog/wp-content/uploads/2023/09/screencapture-innovationgraph-github-2023-09-20-15_44_54-1-e1755122432792.png?resize=200%2C200"
       },
       {
-        "path": "/wp-content/uploads/2025/11/blog-banner.png",
+        "path": "/wp-content/uploads/2025/01/innovation_graph_1.png",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2025/11/blog-banner.png?resize=400%2C212"
+        "full_url": "https://github.blog/wp-content/uploads/2025/01/innovation_graph_1.png?resize=400%2C212"
       },
       {
         "path": "/wp-content/uploads/2024/07/Icon-Circle.svg",
@@ -343,9 +323,9 @@
         "full_url": "https://github.blog/wp-content/uploads/2024/07/Icon-Circle.svg"
       },
       {
-        "path": "/wp-content/uploads/2024/07/Icon_95220f.svg",
+        "path": "/wp-content/uploads/2024/07/recirculation-github-icon.svg",
         "type": "image",
-        "full_url": "https://github.blog/wp-content/uploads/2024/07/Icon_95220f.svg"
+        "full_url": "https://github.blog/wp-content/uploads/2024/07/recirculation-github-icon.svg"
       },
       {
         "path": "/wp-content/uploads/2024/07/Icon_da43dc.svg",
@@ -373,7 +353,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "2681ms"
+          "latency": "363ms"
         },
         {
           "resource": "view-module.js",
@@ -795,31 +775,27 @@
           },
           {
             "tag": "p",
-            "text": "Changelog Docs Customer stories See what&#039;s new Try GitHub Copilot AI &amp; ML AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent Learn how we are using the newly released GitHub Security Lab Taskflow Agent to triage categories of vulnerabilities in GitHub Actions and JavaScript projects."
+            "text": "Changelog Docs Customer stories See what&#039;s new Try GitHub Copilot Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on."
           },
           {
             "tag": "h2",
-            "text": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot"
+            "text": "Run multiple agents at once with /fleet in Copilot CLI"
           },
           {
             "tag": "p",
-            "text": "Learn how I managed context to keep Copilot focused, used the Plan agent to sharpen vague requirements, and required Test Driven Development practices to catch bugs before users."
+            "text": "/fleet lets Copilot CLI dispatch multiple agents in parallel. Learn how to write prompts that split work across files, declare dependencies, and avoid common pitfalls."
           },
           {
             "tag": "h2",
-            "text": "Building an agentic memory system for GitHub Copilot"
+            "text": "Agent-driven development in Copilot Applied Science"
           },
           {
             "tag": "p",
-            "text": "Copilot’s cross-agent memory system lets agents learn and improve across your development workflow, starting with coding agent, CLI, and code review."
-          },
-          {
-            "tag": "h2",
-            "text": "When protections outlive their purpose: A lesson on managing defense systems at scale"
+            "text": "I used coding agents to build agents that automated part of my job. Here&#8217;s what I learned about working better with coding agents."
           },
           {
             "tag": "p",
-            "text": "User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems."
+            "text": "Developer skills GitHub for Beginners: Getting started with GitHub security Learn how to secure your projects and keep them safe with GitHub Advanced Security."
           },
           {
             "tag": "h2",
@@ -831,23 +807,23 @@
           },
           {
             "tag": "p",
-            "text": "Yes please, I&#8217;d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub Availability Report: December 2025 In December, we experienced five incidents that resulted in degraded performance across GitHub services."
+            "text": "Yes please, I&#8217;d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all News &amp; insights What&#8217;s coming to our GitHub Actions 2026 security roadmap A look at GitHub Actions’ 2026 roadmap, outlining how secure defaults, policy controls, and CI/CD observability harden the software supply chain end to end."
           },
           {
             "tag": "h2",
-            "text": "Community-powered security with AI: an open source framework for security research"
+            "text": "A year of open source vulnerability trends: CVEs, advisories, and malware"
           },
           {
             "tag": "p",
-            "text": "Announcing GitHub Security Lab Taskflow Agent, an open source and collaborative framework for security research with AI."
+            "text": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response."
           },
           {
             "tag": "h2",
-            "text": "What AI is actually good for, according to developers"
+            "text": "Updates to GitHub Copilot interaction data usage policy"
           },
           {
             "tag": "p",
-            "text": "AI is designed to help you do what you love most, not replace your expertise. Discover how developer feedback and real-world experience are shaping AI coding tools that keep you in control."
+            "text": "From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out."
           },
           {
             "tag": "h2",
@@ -855,23 +831,23 @@
           },
           {
             "tag": "p",
-            "text": "All categories AI &amp; ML Company Developer skills Engineering Enterprise software News &amp; insights Open Source Security AI &amp; ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit."
+            "text": "All categories AI &amp; ML Company Developer skills Engineering Enterprise software News &amp; insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out."
           },
           {
             "tag": "h2",
-            "text": "How to write a great agents.md: Lessons from over 2,500 repositories"
+            "text": "Agent-driven development in Copilot Applied Science"
           },
           {
             "tag": "p",
-            "text": "Learn how to write effective agents.md files for GitHub Copilot with practical tips, real examples, and templates from analyzing 2,500+ repositories."
+            "text": "I used coding agents to build agents that automated part of my job. Here&#8217;s what I learned about working better with coding agents."
           },
           {
             "tag": "h2",
-            "text": "Building an agentic memory system for GitHub Copilot"
+            "text": "Run multiple agents at once with /fleet in Copilot CLI"
           },
           {
             "tag": "p",
-            "text": "Copilot’s cross-agent memory system lets agents learn and improve across your development workflow, starting with coding agent, CLI, and code review."
+            "text": "/fleet lets Copilot CLI dispatch multiple agents in parallel. Learn how to write prompts that split work across files, declare dependencies, and avoid common pitfalls."
           },
           {
             "tag": "h2",
@@ -879,39 +855,39 @@
           },
           {
             "tag": "p",
-            "text": "CodeQL 2.23.9 has been released January 20, 2026 Strengthen your supply chain with code-to-cloud traceability and SLSA Build Level 3 security January 20, 2026 Enterprise-scoped budgets that exclude cost center usage in public preview January 19, 2026 GitHub Copilot now supports OpenCode January 16, 2026 View all changes Engineering More engineering articles Post-quantum security for SSH access on GitHub GitHub is introducing post-quantum secure key exchange methods for SSH access to better protect Git data in transit."
+            "text": "Research, plan, and code with Copilot cloud agent April 1, 2026 Codespaces is now generally available for GitHub Enterprise with data residency April 1, 2026 GPT-5.4 mini is now available in Copilot Student auto model selection April 1, 2026 GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs April 1, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI automates triage for accessibility feedback, allowing us to focus on fixing barriers—turning a chaotic backlog into continuous, rapid resolutions."
           },
           {
             "tag": "h3",
-            "text": "How GitHub engineers tackle platform problems"
+            "text": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server"
           },
           {
             "tag": "p",
-            "text": "Our best practices for quickly identifying, resolving, and preventing issues at scale."
+            "text": "Here&#8217;s how we made the search experience better, faster, and more resilient for GHES customers."
           },
           {
             "tag": "h3",
-            "text": "GitHub Issues search now supports nested queries and boolean operators: Here&#8217;s how we (re)built it"
+            "text": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner"
           },
           {
             "tag": "p",
-            "text": "Plus, considerations in updating one of GitHub&#8217;s oldest and most heavily used features."
+            "text": "Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering."
           },
           {
             "tag": "h3",
-            "text": "Design system annotations, part 2: Advanced methods of annotating components"
+            "text": "When protections outlive their purpose: A lesson on managing defense systems at scale"
           },
           {
             "tag": "p",
-            "text": "How to build custom annotations for your design system components or use Figma’s Code Connect to help capture important accessibility details before development."
+            "text": "User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems."
           },
           {
             "tag": "h3",
-            "text": "Design system annotations, part 1: How accessibility gets left out of components"
+            "text": "Post-quantum security for SSH access on GitHub"
           },
           {
             "tag": "p",
-            "text": "The Accessibility Design team created a set of annotations to bridge the gaps that design systems alone can’t fix and proactively addresses accessibility issues within Primer components."
+            "text": "GitHub is introducing post-quantum secure key exchange methods for SSH access to better protect Git data in transit."
           },
           {
             "tag": "h2",
@@ -947,7 +923,7 @@
           },
           {
             "tag": "p",
-            "text": "Explore GitHub for Beginners"
+            "text": "Explore GitHub Copilot for Beginners"
           },
           {
             "tag": "h2",
@@ -955,51 +931,51 @@
           },
           {
             "tag": "h2",
-            "text": "The future of AI-powered software optimization (and how it can help your team)"
+            "text": "GitHub availability report: February 2026"
           },
           {
             "tag": "p",
-            "text": "We envision the future of AI-enabled tooling to look like near-effortless engineering for sustainability. We call it Continuous Efficiency."
+            "text": "In February, we experienced six incidents that resulted in degraded performance across GitHub services."
           },
           {
             "tag": "h2",
-            "text": "Let’s talk about GitHub Actions"
+            "text": "Addressing GitHub’s recent availability issues"
           },
           {
             "tag": "p",
-            "text": "A look at how we rebuilt GitHub Actions’ core architecture and shipped long-requested upgrades to improve performance, workflow flexibility, reliability, and everyday developer experience."
+            "text": "GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now."
           },
           {
             "tag": "h2",
-            "text": "GitHub Availability Report: November 2025"
+            "text": "GitHub availability report: January 2026"
           },
           {
             "tag": "p",
-            "text": "In November, we experienced three incidents that resulted in degraded performance across GitHub services."
+            "text": "In January, we experienced two incidents that resulted in degraded performance across GitHub services."
           },
           {
             "tag": "h2",
-            "text": "The new identity of a developer: What changes and what doesn’t in the AI era"
+            "text": "Pick your agent: Use Claude and Codex on Agent HQ"
           },
           {
             "tag": "p",
-            "text": "Discover how advanced AI users are redefining software development—shifting from code producers to strategic orchestrators—through delegation, verification, and a new era of AI-fluent engineering."
+            "text": "Claude by Anthropic and OpenAI Codex are now available in public preview on GitHub and VS Code with a Copilot Pro+ or Copilot Enterprise subscription. Here&#8217;s what you need to know and how to get started today."
           },
           {
             "tag": "h2",
-            "text": "Your stack, your rules: Introducing custom agents in GitHub Copilot for observability, IaC, and security"
+            "text": "What the fastest-growing tools reveal about how software is being built"
           },
           {
             "tag": "p",
-            "text": "Use partner-built Copilot agents to debug, secure, and automate engineering workflows across your terminal, editor, and github.com."
+            "text": "What languages are growing fastest, and why? What about the projects that people are interested in the most? Where are new developers cutting their teeth? Let’s take a look at Octoverse data to find out."
           },
           {
             "tag": "h2",
-            "text": "The ultimate gift guide for the developer in your life"
+            "text": "Year recap and future goals for the GitHub Innovation Graph"
           },
           {
             "tag": "p",
-            "text": "Finding the perfect gift for your favorite developer is easy with our top tips."
+            "text": "Discover the latest trends and insights on public software development activity on GitHub with data from the Innovation Graph through Q3 2025."
           },
           {
             "tag": "h2",
@@ -1027,14 +1003,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 232,
+          "paragraphs": 235,
           "headings": 47,
-          "images": 59
+          "images": 57
         }
       }
     },
     {
-      "route_id": "ROUTE-E5204031",
+      "route_id": "ROUTE-29D2341B",
       "path": "/changelog/",
       "type": "Detected Link",
       "anchor_text": "Changelog",
@@ -1045,7 +1021,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9E790696",
+      "route_id": "ROUTE-A065E750",
       "path": "/ai-and-ml/",
       "type": "Detected Link",
       "anchor_text": "AI &amp; ML",
@@ -1056,7 +1032,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FB288AA2",
+      "route_id": "ROUTE-EF2BD347",
       "path": "/ai-and-ml/generative-ai/",
       "type": "Detected Link",
       "anchor_text": "Generative AI",
@@ -1067,7 +1043,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-85C0CBA4",
+      "route_id": "ROUTE-E667CD3D",
       "path": "/ai-and-ml/github-copilot/",
       "type": "Detected Link",
       "anchor_text": "GitHub Copilot",
@@ -1078,7 +1054,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5F037DD7",
+      "route_id": "ROUTE-57099501",
       "path": "/ai-and-ml/llms/",
       "type": "Detected Link",
       "anchor_text": "LLMs",
@@ -1089,7 +1065,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-249FC181",
+      "route_id": "ROUTE-1B46744C",
       "path": "/ai-and-ml/machine-learning/",
       "type": "Detected Link",
       "anchor_text": "Machine learning",
@@ -1100,7 +1076,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C5FB4375",
+      "route_id": "ROUTE-386AFDE2",
       "path": "/ai-and-ml/generative-ai/how-ai-code-generation-works/",
       "type": "Detected Link",
       "anchor_text": "How AI code generation works",
@@ -1111,7 +1087,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E0010CAA",
+      "route_id": "ROUTE-1FD03A82",
       "path": "/developer-skills/",
       "type": "Detected Link",
       "anchor_text": "Developer skills",
@@ -1122,7 +1098,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C091D347",
+      "route_id": "ROUTE-1145FA86",
       "path": "/developer-skills/application-development/",
       "type": "Detected Link",
       "anchor_text": "Application development",
@@ -1133,7 +1109,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-11F0E034",
+      "route_id": "ROUTE-7FC7AF19",
       "path": "/developer-skills/career-growth/",
       "type": "Detected Link",
       "anchor_text": "Career growth",
@@ -1144,7 +1120,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C6E8426D",
+      "route_id": "ROUTE-8E6072AE",
       "path": "/developer-skills/github/",
       "type": "Detected Link",
       "anchor_text": "GitHub",
@@ -1155,7 +1131,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9F308F71",
+      "route_id": "ROUTE-CB717412",
       "path": "/developer-skills/github-education/",
       "type": "Detected Link",
       "anchor_text": "GitHub Education",
@@ -1166,7 +1142,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-54F6596F",
+      "route_id": "ROUTE-56E4AAD0",
       "path": "/developer-skills/programming-languages-and-frameworks/",
       "type": "Detected Link",
       "anchor_text": "Programming languages &amp; frameworks",
@@ -1177,7 +1153,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-75D2D252",
+      "route_id": "ROUTE-A831CD84",
       "path": "/engineering/",
       "type": "Detected Link",
       "anchor_text": "Engineering",
@@ -1188,7 +1164,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-87F1C3ED",
+      "route_id": "ROUTE-DF95C90E",
       "path": "/engineering/architecture-optimization/",
       "type": "Detected Link",
       "anchor_text": "Architecture &amp; optimization",

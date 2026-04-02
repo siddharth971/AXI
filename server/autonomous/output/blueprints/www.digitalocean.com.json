@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-F921ADD8",
-  "generated_at": "2026-01-22T06:06:11.733Z",
+  "generated_at": "2026-04-02T04:24:24.161Z",
   "global_configuration": {
     "brand_name": "www.digitalocean.com",
     "domain": "www.digitalocean.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.19.174.68",
+      "server_ip": "104.19.173.68",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,59 +23,54 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 33,
+      "total_files": 30,
       "total_size_mb": 0
     },
     "core_assets": [
-      {
-        "path": "/script/deb86ab4f1db664150dfadff7652c966.experiment.js",
-        "type": "script",
-        "full_url": "https://cdn.amplitude.com/script/deb86ab4f1db664150dfadff7652c966.experiment.js"
-      },
       {
         "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
         "type": "script",
         "full_url": "https://www.digitalocean.com/_next/static/chunks/polyfills-42372ed130431b0a.js"
       },
       {
-        "path": "/_next/static/chunks/webpack-16a6e7d15610554f.js",
+        "path": "/_next/static/chunks/webpack-6c6bedfdc328d315.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/webpack-16a6e7d15610554f.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/webpack-6c6bedfdc328d315.js"
       },
       {
-        "path": "/_next/static/chunks/framework-600197a047e2aae2.js",
+        "path": "/_next/static/chunks/framework-fc7406bf89a7dd05.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/framework-600197a047e2aae2.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/framework-fc7406bf89a7dd05.js"
       },
       {
-        "path": "/_next/static/chunks/main-df938f3500556d0e.js",
+        "path": "/_next/static/chunks/main-d6c2efaffbc1dbaa.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/main-df938f3500556d0e.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/main-d6c2efaffbc1dbaa.js"
       },
       {
-        "path": "/_next/static/chunks/pages/_app-6118b37ba9527f4c.js",
+        "path": "/_next/static/chunks/pages/_app-f90eb31caf70f5ae.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/_app-6118b37ba9527f4c.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/_app-f90eb31caf70f5ae.js"
       },
       {
-        "path": "/_next/static/chunks/3675-6d3559c60154bc65.js",
+        "path": "/_next/static/chunks/49148-2f4f590bd2ef20af.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/3675-6d3559c60154bc65.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/49148-2f4f590bd2ef20af.js"
       },
       {
-        "path": "/_next/static/chunks/pages/index-19cbb4a49beafa6d.js",
+        "path": "/_next/static/chunks/pages/index-68cb8f6f0d0fa917.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/index-19cbb4a49beafa6d.js"
+        "full_url": "https://www.digitalocean.com/_next/static/chunks/pages/index-68cb8f6f0d0fa917.js"
       },
       {
-        "path": "/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_buildManifest.js",
+        "path": "/_next/static/10f31737b323f281a0490dde8ed2f78b2c6fdb5f/_buildManifest.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_buildManifest.js"
+        "full_url": "https://www.digitalocean.com/_next/static/10f31737b323f281a0490dde8ed2f78b2c6fdb5f/_buildManifest.js"
       },
       {
-        "path": "/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_ssgManifest.js",
+        "path": "/_next/static/10f31737b323f281a0490dde8ed2f78b2c6fdb5f/_ssgManifest.js",
         "type": "script",
-        "full_url": "https://www.digitalocean.com/_next/static/fc20b877a39bf320996a65167ed87258133eab08/_ssgManifest.js"
+        "full_url": "https://www.digitalocean.com/_next/static/10f31737b323f281a0490dde8ed2f78b2c6fdb5f/_ssgManifest.js"
       },
       {
         "path": "/_next/static/css/e96ac6ddc50ac3a3.css",
@@ -85,17 +80,12 @@
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fgoogle-logo.74668a95.svg&amp;width=48"
-      },
-      {
-        "path": "/api/static-content/v1/images",
-        "type": "image",
         "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fbrainforest-light--left--full-logo.eda23935.svg&amp;width=384"
       },
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fnobid-light--center--full-logo.392391c7.svg&amp;width=384"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcharacter-ai-light--center--full-logo.9fc38ff5.svg&amp;width=384"
       },
       {
         "path": "/api/static-content/v1/images",
@@ -115,22 +105,17 @@
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fnixa-light--center--full-logo.cbd4e32e.svg&amp;width=384"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fworkato-light--center--full-logo.ef7af19d.svg&amp;width=384"
       },
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--center--full-logo.5dd27e33.svg&amp;width=384"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--center--full-logo.e940bf38.svg&amp;width=384"
       },
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcto-ai-light--center--full-logo.901a6a50.svg&amp;width=384"
-      },
-      {
-        "path": "/api/static-content/v1/images",
-        "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fscribe-light--left--full-logo.b02f4658.svg&amp;width=256"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Ffal-light--center--full-logo.20647e32.svg&amp;width=384"
       },
       {
         "path": "/api/static-content/v1/images",
@@ -140,7 +125,7 @@
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fcto-ai-light--left--full-logo.83eabe52.svg&amp;width=256"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Ffal-light--left--full-logo.a8e7f213.svg&amp;width=256"
       },
       {
         "path": "/api/static-content/v1/images",
@@ -160,7 +145,7 @@
       {
         "path": "/api/static-content/v1/images",
         "type": "image",
-        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--left--full-logo.ab0e6664.svg&amp;width=256"
+        "full_url": "https://www.digitalocean.com/api/static-content/v1/images?src=%2F_next%2Fstatic%2Fmedia%2Fservd-light--left--full-logo.6dc69dec.svg&amp;width=256"
       },
       {
         "path": "/api/static-content/v1/images",
@@ -208,18 +193,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "393ms"
-        },
-        {
-          "resource": "deb86ab4f1db664150dfadff7652c966.experiment.js",
-          "latency": "pending"
+          "latency": "915ms"
         },
         {
           "resource": "polyfills-42372ed130431b0a.js",
           "latency": "pending"
         },
         {
-          "resource": "webpack-16a6e7d15610554f.js",
+          "resource": "webpack-6c6bedfdc328d315.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-fc7406bf89a7dd05.js",
           "latency": "pending"
         }
       ],
@@ -250,19 +235,27 @@
           },
           {
             "tag": "p",
+            "text": "Gradient™ AI Agentic Inference Cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Build, train, deploy apps/agents and scale at will"
+          },
+          {
+            "tag": "p",
             "text": "Compute"
           },
           {
             "tag": "p",
-            "text": "Gradient™ AI Inference Cloud"
+            "text": "Build, deploy, and scale cloud compute resources"
           },
           {
             "tag": "p",
-            "text": "Backups &amp; Snapshots"
+            "text": "Containers and Images"
           },
           {
             "tag": "p",
-            "text": "Networking"
+            "text": "Safely store and manage containers and backups"
           },
           {
             "tag": "p",
@@ -270,7 +263,47 @@
           },
           {
             "tag": "p",
+            "text": "Fully managed resources running popular database engines"
+          },
+          {
+            "tag": "p",
+            "text": "Management and Dev Tools"
+          },
+          {
+            "tag": "p",
+            "text": "Control infrastructure and gather insights"
+          },
+          {
+            "tag": "p",
+            "text": "Networking"
+          },
+          {
+            "tag": "p",
+            "text": "Secure and control traffic to apps"
+          },
+          {
+            "tag": "p",
+            "text": "Security"
+          },
+          {
+            "tag": "p",
+            "text": "Store and access any amount of data reliably in the cloud"
+          },
+          {
+            "tag": "p",
             "text": "Storage"
+          },
+          {
+            "tag": "p",
+            "text": "Store and access any amount of data reliably in the cloud"
+          },
+          {
+            "tag": "p",
+            "text": "Browse all products Solutions AI/ML"
+          },
+          {
+            "tag": "p",
+            "text": "Data and IoT"
           },
           {
             "tag": "p",
@@ -278,23 +311,35 @@
           },
           {
             "tag": "p",
-            "text": "Marketplace"
+            "text": "Gaming and Media"
           },
           {
             "tag": "p",
-            "text": "Cloud Website Hosting"
+            "text": "Hosting"
           },
           {
             "tag": "p",
-            "text": "Solutions AI and Machine Learning Develop, train, and deploy AI apps GPUs Platform 1-Click Models HR Knowledge Assistant Code Copilot Support Ticket Triage Recommendation Engine Blockchain Infrastructure for decentralized apps Blogs, Forums and Content Websites Lightning-fast, reliable CMS hosting Wordpress Ghost Mastodon Data Analytics Real-time data processing at scale Data Streaming AdTech &amp; Martech Kafka Developer Tools DevOps and CI/CD solutions CI/CD Prototyping Digital Marketing Agencies Power your clients’ websites and campaigns Freelancer IT Consulting Ecommerce Build beautiful online storefronts Dropshipping WooCommerce Magento Game Development Low-latency multiplayer servers Minecraft Hosting IoT Connect to the power of the cloud Kafka ISVs Streamlined ISV application development Secure Web Hosting Powerful protection from DDoS and more Private VPN Startup Cloud Hosting Scalable, cost-effective infrastructure Small Business Video Streaming High-bandwidth, low-latency delivery Kafka Web and Mobile Apps Simple cross-platform app hosting cPanel Docker Next.js Node.js Website Hosting Fast page loads and reliable site uptime VPS Hosting Virtual Machines Get help"
+            "text": "Security and Networking"
           },
           {
             "tag": "p",
-            "text": "Talk to an expert See all solutions Developers Our Community"
+            "text": "Startups and SMBs"
           },
           {
             "tag": "p",
-            "text": "All things web design The Wave Content to level up your business. Resources"
+            "text": "Web and App Platforms"
+          },
+          {
+            "tag": "p",
+            "text": "See all solutions Developers Community"
+          },
+          {
+            "tag": "p",
+            "text": "Documentation"
+          },
+          {
+            "tag": "p",
+            "text": "Developer Tools"
           },
           {
             "tag": "p",
@@ -302,39 +347,19 @@
           },
           {
             "tag": "p",
-            "text": "Deploy 2025 Wavemakers Program Documentation"
+            "text": "Utilities and Help"
           },
           {
             "tag": "p",
-            "text": "DigitalOcean Partner Programs"
+            "text": "Partners Become a Partner"
           },
           {
             "tag": "p",
-            "text": "DigitalOcean Startups Connect with a Partner Partner Programs Resources"
+            "text": "Marketplace"
           },
           {
             "tag": "p",
-            "text": "Training for Agencies and Freelancers Price Estimate Calculator Featured Partner Articles"
-          },
-          {
-            "tag": "p",
-            "text": "Cloud cost optimization best practices"
-          },
-          {
-            "tag": "p",
-            "text": "How to choose a cloud provider"
-          },
-          {
-            "tag": "p",
-            "text": "DigitalOcean vs. AWS Lightsail: Which Cloud Platform is Right for You?"
-          },
-          {
-            "tag": "p",
-            "text": "Questions?"
-          },
-          {
-            "tag": "p",
-            "text": "Pricing Log in Sign up Blog Docs Get Support Contact Sales Log in Sign up The Inference Cloud built for scale — without complexity or surprise costs. Sign up with email Sign up with Google Sign up with GitHub Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Gradient™ AI Inference Cloud Whether you’re training large models, running inference, or creating AI-driven applications, Gradient™ AI enables you to build, deploy, and scale with ease."
+            "text": "Pricing Log in Sign up Log in Sign up The Inference Cloud built for scale — without complexity or surprise costs. Get Started Explore products Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Your browser does not support the video tag. Gradient™ AI Inference Cloud Whether you’re training large models, running inference, or creating AI-driven applications, Gradient™ AI enables you to build, deploy, and scale with ease."
           },
           {
             "tag": "p",
@@ -346,15 +371,7 @@
           },
           {
             "tag": "p",
-            "text": "Head of AI, Scribe"
-          },
-          {
-            "tag": "h3",
-            "text": "Scribe serves 4 million AI users with DigitalOcean GPUs"
-          },
-          {
-            "tag": "p",
-            "text": "Zoltan Bettenbuk CTO, ScraperAPI"
+            "text": "CTO, ScraperAPI"
           },
           {
             "tag": "h3",
@@ -362,11 +379,11 @@
           },
           {
             "tag": "p",
-            "text": "Kyle Campbell Founder, CTO.ai"
+            "text": "Gorkem Yurtseven CTO, fal"
           },
           {
             "tag": "h3",
-            "text": "CTO.ai on Migrating to DigitalOcean"
+            "text": "Empowering the Next Wave of AI Creators with fal and DigitalOcean"
           },
           {
             "tag": "p",
@@ -410,14 +427,6 @@
           },
           {
             "tag": "p",
-            "text": "Mouad Hadji Head of AI, Scribe"
-          },
-          {
-            "tag": "h3",
-            "text": "Scribe serves 4 million AI users with DigitalOcean GPUs"
-          },
-          {
-            "tag": "p",
             "text": "Zoltan Bettenbuk CTO, ScraperAPI"
           },
           {
@@ -426,11 +435,11 @@
           },
           {
             "tag": "p",
-            "text": "Kyle Campbell Founder, CTO.ai"
+            "text": "Gorkem Yurtseven CTO, fal"
           },
           {
             "tag": "h3",
-            "text": "CTO.ai on Migrating to DigitalOcean"
+            "text": "Empowering the Next Wave of AI Creators with fal and DigitalOcean"
           },
           {
             "tag": "p",
@@ -518,7 +527,7 @@
           },
           {
             "tag": "p",
-            "text": "Read more to get started with DigitalOcean’s with Linux-based virtual machines"
+            "text": "Read more to get started with DigitalOcean&#x27;s Linux-based virtual machines"
           },
           {
             "tag": "p",
@@ -530,7 +539,7 @@
           },
           {
             "tag": "p",
-            "text": "Read more on how to install and user docker on Ubuntu"
+            "text": "Read more on how to install and use docker on Ubuntu"
           },
           {
             "tag": "p",
@@ -634,14 +643,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 196,
-          "headings": 43,
-          "images": 46
+          "paragraphs": 175,
+          "headings": 45,
+          "images": 43
         }
       }
     },
     {
-      "route_id": "ROUTE-ED1A452B",
+      "route_id": "ROUTE-E93EBDD6",
       "path": "/blog",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -652,7 +661,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-88EA304A",
+      "route_id": "ROUTE-7629503F",
+      "path": "/careers",
+      "type": "Detected Link",
+      "anchor_text": "Careers",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7FDAA994",
       "path": "/support",
       "type": "Detected Link",
       "anchor_text": "Get Support",
@@ -663,7 +683,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-391EAE6F",
+      "route_id": "ROUTE-8FA298C0",
       "path": "/company/contact/sales",
       "type": "Detected Link",
       "anchor_text": "Contact Sales",
@@ -674,7 +694,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5B6B76BE",
+      "route_id": "ROUTE-0A0D0938",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "DigitalOcean",
@@ -685,10 +705,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-67D2A50D",
-      "path": "/products/droplets",
+      "route_id": "ROUTE-E5FF26A8",
+      "path": "/products",
       "type": "Detected Link",
-      "anchor_text": "DropletsScalable virtual machines",
+      "anchor_text": "Browse all products",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -696,10 +716,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A0D06FAC",
-      "path": "/products/kubernetes",
+      "route_id": "ROUTE-E06AB092",
+      "path": "/solutions",
       "type": "Detected Link",
-      "anchor_text": "KubernetesScale more effectively",
+      "anchor_text": "See all solutions",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -707,10 +727,21 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D1C890A4",
+      "route_id": "ROUTE-3B5FBEFB",
+      "path": "/pricing",
+      "type": "Detected Link",
+      "anchor_text": "Pricing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2A42EA77",
       "path": "/products/gradient",
       "type": "Detected Link",
-      "anchor_text": "Gradient™ AI Inference CloudBuild and scale with AI",
+      "anchor_text": "Learn more",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -718,10 +749,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2823F6F9",
-      "path": "/products/cloudways",
+      "route_id": "ROUTE-7C3184A8",
+      "path": "/customers",
       "type": "Detected Link",
-      "anchor_text": "CloudwaysManaged cloud hosting",
+      "anchor_text": "See all customer stories",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -729,10 +760,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3C44D634",
-      "path": "/products/app-platform",
+      "route_id": "ROUTE-711F9A02",
+      "path": "/customers/scraperapi",
       "type": "Detected Link",
-      "anchor_text": "App PlatformGet apps to market faster",
+      "anchor_text": "Read case study",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -740,10 +771,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1BCDFDC3",
-      "path": "/products/managed-databases",
+      "route_id": "ROUTE-F2DD1C2E",
+      "path": "/customers/fal",
       "type": "Detected Link",
-      "anchor_text": "Managed DatabasesFully-managed database hosting",
+      "anchor_text": "Read about Gorkem’s story",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -751,10 +782,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E1252F56",
-      "path": "/products/droplets/cpu-optimized",
+      "route_id": "ROUTE-44164EC2",
+      "path": "/customers/tango",
       "type": "Detected Link",
-      "anchor_text": "CPU-Optimized Droplets",
+      "anchor_text": "Read case study",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -762,10 +793,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C59D6074",
-      "path": "/products/functions",
+      "route_id": "ROUTE-D5C952BF",
+      "path": "/customers/amorphous-data",
       "type": "Detected Link",
-      "anchor_text": "Functions",
+      "anchor_text": "Read about Richard’s story",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -773,32 +804,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4CA50940",
-      "path": "/products/gradient/gpu-droplets",
+      "route_id": "ROUTE-5B0D7212",
+      "path": "/customers/picap",
       "type": "Detected Link",
-      "anchor_text": "GPU Droplets",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-64EFC165",
-      "path": "/products/gradient/1-click-models",
-      "type": "Detected Link",
-      "anchor_text": "1-Click Models",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-F510DA23",
-      "path": "/products/gradient/platform",
-      "type": "Detected Link",
-      "anchor_text": "Platform",
+      "anchor_text": "Read case study",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

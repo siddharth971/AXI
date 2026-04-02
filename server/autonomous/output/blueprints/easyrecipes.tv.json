@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-E15F9F80",
-  "generated_at": "2026-01-21T07:26:54.256Z",
+  "generated_at": "2026-04-02T04:24:17.100Z",
   "global_configuration": {
     "brand_name": "Easy Recipes TV",
     "domain": "easyrecipes.tv",
@@ -28,9 +28,9 @@
     },
     "core_assets": [
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       }
     ]
   },
@@ -48,10 +48,10 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "7357ms"
+          "latency": "4280ms"
         },
         {
-          "resource": "vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "resource": "v8c78df7c7c0f484497ecbca7046644da1771523124516",
           "latency": "pending"
         }
       ],
@@ -118,7 +118,7 @@
           },
           {
             "tag": "p",
-            "text": "More recipes Find the perfect recipe for you... Bread"
+            "text": "More recipes Find the perfect recipe for you... Search ... Bread"
           },
           {
             "tag": "p",
@@ -193,7 +193,7 @@
       }
     },
     {
-      "route_id": "ROUTE-B6C810BF",
+      "route_id": "ROUTE-D71B9DCF",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "HOME",
@@ -204,7 +204,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2E38CF93",
+      "route_id": "ROUTE-6E3AD5CB",
       "path": "/bread-recipes/",
       "type": "Detected Link",
       "anchor_text": "BREAD",
@@ -215,7 +215,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CCE02466",
+      "route_id": "ROUTE-6BD934B2",
       "path": "/cakes/",
       "type": "Detected Link",
       "anchor_text": "CAKES",
@@ -226,7 +226,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7B1145DC",
+      "route_id": "ROUTE-3583A87C",
       "path": "/pastry-recipes/",
       "type": "Detected Link",
       "anchor_text": "PASTRIES",
@@ -237,7 +237,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-73744C44",
+      "route_id": "ROUTE-BC28EFEE",
       "path": "/ice-cream-recipes/",
       "type": "Detected Link",
       "anchor_text": "ICE CREAM",
@@ -248,7 +248,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F1F2A799",
+      "route_id": "ROUTE-D2D4A672",
       "path": "/dinner-recipes/",
       "type": "Detected Link",
       "anchor_text": "DINNER",
@@ -259,7 +259,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DF9D71DE",
+      "route_id": "ROUTE-696576F0",
       "path": "/seed-bread-grain-bread-recipe-gluten-free/",
       "type": "Detected Link",
       "anchor_text": "Seed bread grain bread recipe without flour",
@@ -270,7 +270,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D3989DBB",
+      "route_id": "ROUTE-31028A9E",
       "path": "/blueberry-pancakes-recipe-thick-fluffy/",
       "type": "Detected Link",
       "anchor_text": "Blueberry pancakes recipe &#8211; thick fluffy pancakes",
@@ -281,7 +281,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-90C26F2F",
+      "route_id": "ROUTE-E66131F3",
       "path": "/waffles-without-milk-crunchy-waffles-recipe/",
       "type": "Detected Link",
       "anchor_text": "Waffles without milk &#8211; crunchy waffles recipe",
@@ -292,7 +292,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-938D45E5",
+      "route_id": "ROUTE-1F0F195B",
       "path": "/simple-sweet-brioche-bread-recipe-homemade/",
       "type": "Detected Link",
       "anchor_text": "Simple sweet brioche bread",
@@ -303,7 +303,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CF4DA89C",
+      "route_id": "ROUTE-EACDF0A8",
       "path": "/wholemeal-bread-recipe-with-spelt-flour/",
       "type": "Detected Link",
       "anchor_text": "Wholemeal bread recipe with spelt flour and rye meal",
@@ -314,7 +314,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-171F87E0",
+      "route_id": "ROUTE-AC758067",
       "path": "/american-dinner-rolls-recipe-soft-rolls/",
       "type": "Detected Link",
       "anchor_text": "American dinner rolls recipe &#8211; soft rolls",
@@ -325,7 +325,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-347AB854",
+      "route_id": "ROUTE-7460D681",
       "path": "/wholemeal-spelt-rolls-recipe-dark-rolls/",
       "type": "Detected Link",
       "anchor_text": "Wholemeal spelt rolls recipe &#8211; delicious dark rolls",
@@ -336,7 +336,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-373D592D",
+      "route_id": "ROUTE-22654243",
       "path": "/coffee-ice-cream-recipe-cappuccino/",
       "type": "Detected Link",
       "anchor_text": "Coffee ice cream recipe &#8211; Cappuccino ice cream with chocolate",
@@ -347,7 +347,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A0D555B2",
+      "route_id": "ROUTE-FC4E1691",
       "path": "/wholemeal-bread-recipe-spelt-bread/",
       "type": "Detected Link",
       "anchor_text": "Wholemeal bread recipe with spelt flour &#8211; spelt bread",

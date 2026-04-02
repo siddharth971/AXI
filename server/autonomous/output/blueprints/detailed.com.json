@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-A767483F",
-  "generated_at": "2026-01-22T06:06:10.993Z",
+  "generated_at": "2026-04-02T04:24:16.861Z",
   "global_configuration": {
     "brand_name": "SEO blog by full",
     "domain": "detailed.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.67.73.202",
+      "server_ip": "104.26.10.56",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -60,7 +60,7 @@
       {
         "path": "/wp-content/plugins/state-of-seo-plugin/assets/js/state-of-seo.js",
         "type": "script",
-        "full_url": "https://detailed.com/wp-content/plugins/state-of-seo-plugin/assets/js/state-of-seo.js?ver=1.0.4.1769059165"
+        "full_url": "https://detailed.com/wp-content/plugins/state-of-seo-plugin/assets/js/state-of-seo.js?ver=1.0.4.1775103854"
       },
       {
         "path": "/wp-content/themes/damn-beautiful-theme/js/jquery.js",
@@ -333,7 +333,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "2024ms"
+          "latency": "3027ms"
         },
         {
           "resource": "platform.js",
@@ -722,7 +722,7 @@
       }
     },
     {
-      "route_id": "ROUTE-15DC0909",
+      "route_id": "ROUTE-5ABE6A63",
       "path": "/detailed-ahrefs/",
       "type": "Detected Link",
       "anchor_text": "SEPTEMBER 2025: Detailed has been acquired by Ahrefs (& I've joined the company)",
@@ -733,7 +733,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-016C45FD",
+      "route_id": "ROUTE-0A4E884E",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "DETAILED",
@@ -744,7 +744,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-05C53FAA",
+      "route_id": "ROUTE-CD1950DD",
       "path": "/blog/",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -755,7 +755,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BD53FE4A",
+      "route_id": "ROUTE-B1E5C8EA",
       "path": "/all/",
       "type": "Detected Link",
       "anchor_text": "Industry Rankings",
@@ -766,7 +766,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F9136ACA",
+      "route_id": "ROUTE-5EC88702",
       "path": "/extension/",
       "type": "Detected Link",
       "anchor_text": "SEO Extension",
@@ -777,7 +777,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-87AE6EA7",
+      "route_id": "ROUTE-C1613400",
       "path": "/contact/",
       "type": "Detected Link",
       "anchor_text": "Contact",
@@ -788,7 +788,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1F09C530",
+      "route_id": "ROUTE-7C77B33A",
       "path": "/hey/",
       "type": "Detected Link",
       "anchor_text": "Contact Hoping Spammers don&#8217;t click",
@@ -799,7 +799,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E9B66D02",
+      "route_id": "ROUTE-7D5A40B3",
       "path": "/google-control/",
       "type": "Detected Link",
       "anchor_text": "Here's the link",
@@ -810,7 +810,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5E8E6920",
+      "route_id": "ROUTE-D3BACB99",
       "path": "/advanced-link-building/",
       "type": "Detected Link",
       "anchor_text": "Advanced Link Building Strategies You (Probably) Haven&#8217;t Used  645",
@@ -821,7 +821,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-34B882EC",
+      "route_id": "ROUTE-C0EFBF4D",
       "path": "/profitable-seo-niches/",
       "type": "Detected Link",
       "anchor_text": "51 Profitable SEO Niches  401",
@@ -832,7 +832,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-364299A4",
+      "route_id": "ROUTE-39DF42DD",
       "path": "/affiliate-serps/",
       "type": "Detected Link",
       "anchor_text": "Affiliate SEO: Analysing 10,000 Product Review Keyphrases   310",
@@ -843,7 +843,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DDB278D3",
+      "route_id": "ROUTE-44C97546",
       "path": "/rules/",
       "type": "Detected Link",
       "anchor_text": "Private SEO Audit",
@@ -854,7 +854,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-96E13639",
+      "route_id": "ROUTE-3A9640FA",
       "path": "/behind-the-scenes/",
       "type": "Detected Link",
       "anchor_text": "Behind the Scenes",
@@ -865,7 +865,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B9DA15B6",
+      "route_id": "ROUTE-A5D480A0",
       "path": "/google-algorithm-update/",
       "type": "Detected Link",
       "anchor_text": "Algorithm Updates",
@@ -876,7 +876,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EBE6F633",
+      "route_id": "ROUTE-E1ACB925",
       "path": "/50/",
       "type": "Detected Link",
       "anchor_text": "Top 50 (All Niches)",

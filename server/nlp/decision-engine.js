@@ -7,39 +7,41 @@
 
 "use strict";
 
+const fs = require("fs");
+const path = require("path");
 const { logger } = require("../utils");
 const { TFIDFClassifier } = require("./tfidf-classifier");
-const path = require("path");
 
-// --- CONSTANTS ---
+// --- CONSTANTS (frozen — never mutate at runtime) ---
 
-const THRESHOLDS = {
+const THRESHOLDS = Object.freeze({
   EXECUTE: 0.72,      // High confidence → execute immediately
   CLARIFY: 0.50,      // Medium confidence → ask for clarification
-};
+});
 
-// Layer Weights (Step 6)
-const WEIGHTS = {
+const WEIGHTS = Object.freeze({
   rules: 0.55,
   tfidf: 0.30,
-  neural: 0.15
-};
+  neural: 0.15,
+});
 
-const DECISIONS = {
+const DECISIONS = Object.freeze({
   EXECUTE: "execute",
   CLARIFY: "clarify",
   EMOTIONAL: "emotional",
-  UNKNOWN: "unknown"
-};
+  UNKNOWN: "unknown",
+});
 
-const CONJUNCTIONS = ["and", "then", "also", "after that", "and then", "plus"];
+const CONJUNCTIONS = Object.freeze([
+  "and", "then", "also", "after that", "and then", "plus",
+]);
 
-const ACTION_VERBS = [
+const ACTION_VERBS = Object.freeze([
   "open", "close", "play", "pause", "stop", "start",
   "mute", "unmute", "search", "find", "create", "delete",
   "show", "tell", "what", "turn", "increase", "decrease",
-  "list", "run", "execute", "launch", "check"
-];
+  "list", "run", "execute", "launch", "check",
+]);
 
 // TF-IDF Singleton
 let _tfidf = null;
@@ -49,10 +51,10 @@ let _tfidf = null;
  */
 async function initTFIDF() {
   if (_tfidf) return _tfidf;
-  
+
   const modelPath = path.join(__dirname, "..", "data", "tfidf-model.json");
   try {
-    if (require("fs").existsSync(modelPath)) {
+    if (fs.existsSync(modelPath)) {
       _tfidf = new TFIDFClassifier();
       await _tfidf.load(modelPath);
       logger.success("[TF-IDF] Classifier ready");
@@ -61,9 +63,17 @@ async function initTFIDF() {
   } catch (err) {
     logger.warn(`[TF-IDF] Model failed to load: ${err.message}`);
   }
-  
+
   logger.warn("[TF-IDF] Model not found — run 'npm run train:tfidf'");
   return null;
+}
+
+/**
+ * Reset TF-IDF classifier (for hot-reload / testing)
+ */
+function resetTFIDF() {
+  _tfidf = null;
+  logger.info("[TF-IDF] Classifier reset — call initTFIDF() to reload");
 }
 
 /**
@@ -79,12 +89,37 @@ async function safeRun(fn) {
 }
 
 /**
+ * Build a decision result object (DRY helper for the gate logic)
+ * @param {string} intent - Resolved intent
+ * @param {number} score - Ensemble confidence score
+ * @param {string} decision - Decision type (execute, clarify, etc.)
+ * @param {Array} candidates - Sorted candidate list
+ * @param {Object} sources - Per-layer raw results
+ * @param {Object} weightedBreakdown - Per-layer weighted scores
+ * @param {Object} [extra] - Additional fields to merge
+ * @returns {Object} Decision result
+ */
+function buildDecision(intent, score, decision, candidates, sources, weightedBreakdown, extra = {}) {
+  return {
+    intent,
+    confidence: score,
+    decision,
+    candidates,
+    sources,
+    weightedBreakdown,
+    ...extra,
+  };
+}
+
+/**
  * Decision Engine Module
  */
 const DecisionEngine = {
   THRESHOLDS,
   DECISIONS,
+  WEIGHTS,
   initTFIDF,
+  resetTFIDF,
 
   /**
    * Resolve intent using Weighted Ensemble Scoring
@@ -97,21 +132,32 @@ const DecisionEngine = {
     const [rulesResult, tfidfResult, neuralResult] = await Promise.all([
       safeRun(() => rulesLayer.run(input)),
       safeRun(() => _tfidf?.classifyOne(input) || null),
-      safeRun(() => neuralClassifier?.predict(input) || null)
+      safeRun(() => neuralClassifier?.predict(input) || null),
     ]);
 
-    // 2. Accumulate scores
+    // 2. Accumulate scores + track per-layer weighted contributions
     const scores = new Map();
-    
-    const applyScore = (res, weight) => {
-      if (!res || !res.intent || res.intent === "none" || res.intent === "unknown") return;
+    const weightedBreakdown = {};
+
+    const applyScore = (res, weight, layerName) => {
+      if (!res || !res.intent || res.intent === "none" || res.intent === "unknown") {
+        weightedBreakdown[layerName] = { intent: null, raw: 0, weighted: 0 };
+        return;
+      }
+      const rawConfidence = res.confidence || 0;
+      const weightedScore = rawConfidence * weight;
       const current = scores.get(res.intent) || 0;
-      scores.set(res.intent, current + (res.confidence * weight));
+      scores.set(res.intent, current + weightedScore);
+      weightedBreakdown[layerName] = {
+        intent: res.intent,
+        raw: rawConfidence,
+        weighted: weightedScore,
+      };
     };
 
-    applyScore(rulesResult, WEIGHTS.rules);
-    applyScore(tfidfResult, WEIGHTS.tfidf);
-    applyScore(neuralResult, WEIGHTS.neural);
+    applyScore(rulesResult, WEIGHTS.rules, "rules");
+    applyScore(tfidfResult, WEIGHTS.tfidf, "tfidf");
+    applyScore(neuralResult, WEIGHTS.neural, "neural");
 
     // 3. Sort candidates
     const sorted = Array.from(scores.entries())
@@ -125,50 +171,25 @@ const DecisionEngine = {
     const sources = {
       rules: rulesResult,
       tfidf: tfidfResult,
-      neural: neuralResult
+      neural: neuralResult,
     };
 
     // 4. Gate Decision
     if (topScore >= THRESHOLDS.EXECUTE) {
-      return {
-        intent: topIntent,
-        confidence: topScore,
-        decision: DECISIONS.EXECUTE,
-        candidates: sorted,
-        sources
-      };
+      return buildDecision(topIntent, topScore, DECISIONS.EXECUTE, sorted, sources, weightedBreakdown);
     }
 
     if (topScore >= THRESHOLDS.CLARIFY) {
-      return {
-        intent: topIntent,
-        confidence: topScore,
-        decision: DECISIONS.CLARIFY,
-        candidates: sorted,
-        sources
-      };
+      return buildDecision(topIntent, topScore, DECISIONS.CLARIFY, sorted, sources, weightedBreakdown);
     }
 
     // Sentiment fallback
     if (sentiment === "positive" || sentiment === "negative") {
-      return {
-        intent: "conversational_emotional",
-        confidence: 1.0,
-        decision: DECISIONS.EMOTIONAL,
-        sentiment,
-        candidates: [],
-        sources
-      };
+      return buildDecision("conversational_emotional", 1.0, DECISIONS.EMOTIONAL, [], sources, weightedBreakdown, { sentiment });
     }
 
     // Default Unknown
-    return {
-      intent: "none",
-      confidence: topScore,
-      decision: DECISIONS.UNKNOWN,
-      candidates: sorted,
-      sources
-    };
+    return buildDecision("none", topScore, DECISIONS.UNKNOWN, sorted, sources, weightedBreakdown);
   },
 
   /**
@@ -183,16 +204,12 @@ const DecisionEngine = {
    * Old sync method for backward compatibility
    */
   decide(signals) {
-    // This is essentially a wrapper now
     return this.resolveIntent(signals.input || "", { meta: { sentiment: "neutral" } }, {
       rulesLayer: { run: () => signals.rules },
-      neuralClassifier: { predict: () => signals.classifier }
+      neuralClassifier: { predict: () => signals.classifier },
     });
   },
 
-  /**
-   * Multi-intent utilities (re-integrated)
-   */
   /**
    * Multi-intent detection with validation.
    * Only splits if BOTH resulting fragments independently contain an action verb.
@@ -228,7 +245,7 @@ const DecisionEngine = {
   async processMultiIntent(text, interpretFn) {
     const detection = this.detectMultiIntent(text);
     if (!detection.isMulti) return { isMulti: false, results: [await interpretFn(text)] };
-    
+
     const results = [];
     for (const segment of detection.segments) {
       results.push({ segment, ...await interpretFn(segment) });
@@ -245,7 +262,7 @@ const DecisionEngine = {
       volume_down: "Decrease the volume?",
       mute: "Should I mute the sound?",
       search_youtube: "Search YouTube for that?",
-      default: `I think you want: "${intent}". Is that correct?`
+      default: `I think you want: "${intent}". Is that correct?`,
     };
     return confirmations[intent] || confirmations.default;
   },
@@ -263,9 +280,10 @@ const DecisionEngine = {
       intent: decision.intent,
       confidence: `${(decision.confidence * 100).toFixed(1)}%`,
       source: "ensemble",
-      reason: decision.decision === "execute" ? "High ensemble confidence" : "Low confidence"
+      weightedBreakdown: decision.weightedBreakdown || {},
+      reason: decision.decision === "execute" ? "High ensemble confidence" : "Low confidence",
     };
-  }
+  },
 };
 
 module.exports = DecisionEngine;

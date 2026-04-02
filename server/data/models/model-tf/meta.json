@@ -1,23 +1,29 @@
 {
-  "trainedAt": "2026-01-23T06:13:59.131Z",
-  "version": "2.1.0",
+  "trainedAt": "2026-04-02T04:36:34.864Z",
+  "version": "2.3.0",
   "type": "brain.js",
+  "featureMode": "hashed",
+  "hashBuckets": 512,
   "stats": {
-    "error": 0.0003435236313365512,
+    "error": 0.0006868378996731739,
     "iterations": 1
   },
   "config": {
-    "ITERATIONS": 10000,
-    "ERROR_THRESH": 0.002,
+    "ITERATIONS": 300,
+    "ERROR_THRESH": 0.005,
     "HIDDEN_LAYERS": [
-      64,
       64
     ],
     "ACTIVATION": "sigmoid",
-    "LEARNING_RATE": 0.3,
-    "PLUGIN_DIRS": [
-      "D:\\jarvis-voice-assistant\\server\\skills\\plugins",
-      "D:\\jarvis-voice-assistant\\server\\plugins"
-    ]
-  }
+    "LEARNING_RATE": 0.05,
+    "HASH_BUCKETS": 512
+  },
+  "dataStats": {
+    "vocabSize": 5898,
+    "intentCount": 1595,
+    "totalSamples": 15084,
+    "uniqueSamples": 14189,
+    "deduplicatedSamples": 895
+  },
+  "trainingTimeSeconds": 36.7
 }

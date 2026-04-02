@@ -21,11 +21,36 @@ const { logger } = require("../utils");
 const knowledgeHandler = require("./knowledge-handler");
 const socketData = require("../core/socket");
 
-// Confirmation timeout (30 seconds)
+// --- Module-level constants (allocated once, not per-call) ---
+
 const CONFIRMATION_TIMEOUT = config.PLUGINS?.CONFIRMATION_TIMEOUT || 30000;
+
+const AFFIRMATIVES = Object.freeze([
+  "yes", "yeah", "yep", "sure", "ok", "okay",
+  "confirm", "proceed", "do it", "go ahead",
+]);
+
+const NEGATIVES = Object.freeze([
+  "no", "nope", "cancel", "stop", "don't", "abort", "never mind",
+]);
 
 // Pending confirmations: sessionId -> { intent, params, intentConfig, timestamp, expiresAt, actionDescription, _timer }
 const pendingConfirmations = new Map();
+
+/**
+ * Try to route to the conversational sentiment handler.
+ * Returns a response string if handled, null otherwise.
+ * @param {string} sentiment - "positive" or "negative"
+ * @returns {Promise<string|null>}
+ */
+async function trySentimentFallback(sentiment) {
+  if (sentiment !== "positive" && sentiment !== "negative") return null;
+  const plugin = registry.getPlugin("conversational");
+  if (plugin) {
+    return await plugin.execute({ sentiment });
+  }
+  return null;
+}
 
 /**
  * Main execution function
@@ -42,8 +67,6 @@ async function execute(
   sessionId = "default",
 ) {
   const { intent, confidence, entities, params } = nlpResult || {};
-
-  // Registry is now initialized at boot time in app.js
 
   try {
     // 1. Handle pending confirmations first
@@ -71,25 +94,17 @@ async function execute(
 
     // 3. No intent or special context_response handling
     if (intent === "context_response") {
-      // If a plugin handles this explicitly (e.g. learning plugin), let it proceed
       if (!registry.getIntentHandler("context_response")) {
         return handleLegacyContextResponse(entities, sessionId);
       }
-      // Otherwise, fall through to normal plugin execution
     }
 
     // 4. Validate confidence threshold
     const globalThreshold = config.NLP_CONFIDENCE_THRESHOLD || 0.4;
     if (!intent || confidence < globalThreshold || intent === "none") {
       const sentiment = nlpResult.nlu?.meta?.sentiment || "neutral";
-
-      // If sentiment is non-neutral, route to conversational handler (Bug 2)
-      if (sentiment === "negative" || sentiment === "positive") {
-        const plugin = registry.getPlugin("conversational");
-        if (plugin) {
-          return await plugin.execute({ sentiment });
-        }
-      }
+      const sentimentResponse = await trySentimentFallback(sentiment);
+      if (sentimentResponse) return sentimentResponse;
 
       logger.debug(`Low confidence (${confidence}) for intent: ${intent}`);
       return fallback.unknown(originalText);
@@ -100,7 +115,6 @@ async function execute(
       logger.info(`💡 Serving knowledge for: ${intent}`);
       const response = knowledgeHandler.handle(intent);
 
-      // Update context as usual
       memory.updateGlobalContext({
         lastIntent: intent,
         lastPlugin: "knowledge_base",
@@ -113,12 +127,8 @@ async function execute(
     const handler = registry.getIntentHandler(intent);
     if (!handler) {
       const sentiment = nlpResult.nlu?.meta?.sentiment || "neutral";
-      if (sentiment === "negative" || sentiment === "positive") {
-        const plugin = registry.getPlugin("conversational");
-        if (plugin) {
-          return await plugin.execute({ sentiment });
-        }
-      }
+      const sentimentResponse = await trySentimentFallback(sentiment);
+      if (sentimentResponse) return sentimentResponse;
 
       logger.warn(`No plugin found for intent: ${intent}`);
       return fallback.pluginNotFound(intent);
@@ -147,9 +157,9 @@ async function execute(
     // 8. Execute the handler
     const handlerParams = {
       ...(params || entities || {}),
-      text: originalText,   // always available as params.text
-      raw:  originalText,   // alias
-      query: originalText,  // alias for search-style handlers
+      text: originalText,
+      raw:  originalText,
+      query: originalText,
     };
     const response = await executeHandler(
       plugin,
@@ -224,7 +234,7 @@ async function executeHandler(plugin, intentConfig, params, sessionId) {
  * @param {Object} params - Intent parameters
  * @param {string} sessionId - Session identifier
  * @param {Object} intentConfig - Intent configuration
- * @returns {string} Confirmation prompt
+ * @returns {Object} Confirmation prompt with metadata
  */
 function requestConfirmation(intent, params, sessionId, intentConfig) {
   const actionDescription = getActionDescription(intent, params);
@@ -241,7 +251,6 @@ function requestConfirmation(intent, params, sessionId, intentConfig) {
       memory.clearAwaiting(sessionId);
       logger.debug(`Confirmation timed out for session ${sessionId} (intent: ${intent})`);
 
-      // Emit real-time event so Angular frontend can clear the countdown UI
       const io = socketData.getIO();
       if (io) {
         io.emit("confirmation_timeout", {
@@ -267,7 +276,6 @@ function requestConfirmation(intent, params, sessionId, intentConfig) {
 
   logger.debug(`Confirmation requested for ${intent} (expires in ${CONFIRMATION_TIMEOUT / 1000}s)`);
 
-  // Return an object so the router can forward expiresAt to the API response
   return {
     response: fallback.confirmationPending(actionDescription),
     requiresConfirmation: true,
@@ -289,36 +297,18 @@ async function handlePendingConfirmation(userResponse, sessionId) {
 
   // Check for timeout
   if (Date.now() - pending.timestamp > CONFIRMATION_TIMEOUT) {
+    // Clear the timer to prevent double-fire
+    if (pending._timer) clearTimeout(pending._timer);
     pendingConfirmations.delete(sessionId);
     memory.clearAwaiting(sessionId);
     return fallback.confirmationTimeout();
   }
 
   // Check for affirmative response
-  const affirmatives = [
-    "yes",
-    "yeah",
-    "yep",
-    "sure",
-    "ok",
-    "okay",
-    "confirm",
-    "proceed",
-    "do it",
-    "go ahead",
-  ];
-  const negatives = [
-    "no",
-    "nope",
-    "cancel",
-    "stop",
-    "don't",
-    "abort",
-    "never mind",
-  ];
+  if (AFFIRMATIVES.some((word) => response.includes(word))) {
+    const { intent, params, intentConfig, _timer } = pending;
+    if (_timer) clearTimeout(_timer);
 
-  if (affirmatives.some((word) => response.includes(word))) {
-    const { intent, params, intentConfig } = pending;
     const handler = registry.getIntentHandler(intent);
 
     if (!handler) {
@@ -338,7 +328,8 @@ async function handlePendingConfirmation(userResponse, sessionId) {
     );
   }
 
-  if (negatives.some((word) => response.includes(word))) {
+  if (NEGATIVES.some((word) => response.includes(word))) {
+    if (pending._timer) clearTimeout(pending._timer);
     pendingConfirmations.delete(sessionId);
     memory.clearAwaiting(sessionId);
     return fallback.confirmationCancelled();
@@ -381,7 +372,7 @@ async function handleContextResponse(
   entities,
   sessionId,
 ) {
-  const { type, data } = awaitingState;
+  const { type } = awaitingState;
 
   // Don't handle confirmation here - it's handled separately
   if (type === "confirmation") {
@@ -459,12 +450,14 @@ function getStatus() {
  * Clean up stale state
  */
 function cleanup() {
-  const now = Date.now();
-
-  // Clean up expired confirmations
-  for (const [sessionId, pending] of pendingConfirmations) {
-    if (now - pending.timestamp > CONFIRMATION_TIMEOUT) {
-      pendingConfirmations.delete(sessionId);
+  // Skip iteration if no pending confirmations
+  if (pendingConfirmations.size > 0) {
+    const now = Date.now();
+    for (const [sessionId, pending] of pendingConfirmations) {
+      if (now - pending.timestamp > CONFIRMATION_TIMEOUT) {
+        if (pending._timer) clearTimeout(pending._timer);
+        pendingConfirmations.delete(sessionId);
+      }
     }
   }
 

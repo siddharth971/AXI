@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-B356D47A",
-  "generated_at": "2026-01-21T07:27:04.895Z",
+  "generated_at": "2026-04-02T04:24:24.216Z",
   "global_configuration": {
     "brand_name": "Associated Press News: Breaking News, Latest Headlines and Videos",
     "domain": "apnews.com",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 94,
+      "total_files": 91,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -38,9 +38,9 @@
         "full_url": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/webcomponents-loader/webcomponents-loader.ce44f83d1399e8dd41e607b70e0642c9.gz.js"
       },
       {
-        "path": "/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.4614492872e2dcf35f9eb0e2b4e4f6fc.gz.js",
+        "path": "/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.7493bb270648f44920a5453595b8a58c.gz.js",
         "type": "script",
-        "full_url": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.4614492872e2dcf35f9eb0e2b4e4f6fc.gz.js"
+        "full_url": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.7493bb270648f44920a5453595b8a58c.gz.js"
       },
       {
         "path": "/vip-experiments.js",
@@ -83,6 +83,11 @@
         "full_url": "https://a.pub.network/apnews-com/pubfig.min.js"
       },
       {
+        "path": "/js/contextfeed.js",
+        "type": "script",
+        "full_url": "https://www.dianomi.com/js/contextfeed.js"
+      },
+      {
         "path": "/serve/load.js",
         "type": "script",
         "full_url": "https://s.ntv.io/serve/load.js"
@@ -93,14 +98,9 @@
         "full_url": "https://assets.zephr.com/zephr-browser/1.9.1/zephr-browser.umd.js"
       },
       {
-        "path": "/js/contextfeed.js",
-        "type": "script",
-        "full_url": "https://www.dianomi.com/js/contextfeed.js"
-      },
-      {
-        "path": "/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.b30e8f463123a95e5bbcca7f0d5517bd.gz.css",
+        "path": "/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.7da3165b2a0453759ecdb66509f43e25.gz.css",
         "type": "stylesheet",
-        "full_url": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.b30e8f463123a95e5bbcca7f0d5517bd.gz.css"
+        "full_url": "https://assets.apnews.com/resource/00000188-2a81-d28a-a1fd-7bfb6ccb0000/styles/default/All.min.7da3165b2a0453759ecdb66509f43e25.gz.css"
       },
       {
         "path": "/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg",
@@ -123,379 +123,364 @@
         "full_url": "https://assets.apnews.com/9f/14/e730153245ddbefdf1f69031adea/download-on-the-app-store-badge-us-uk-rgb-blk-01.png"
       },
       {
-        "path": "/dims4/default/9cabf9c/2147483647/strip/true/crop/8640x5760+0+0/resize/1020x680!/quality/90/",
+        "path": "/dims4/default/b0ffdbe/2147483647/strip/true/crop/3173x2115+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/9cabf9c/2147483647/strip/true/crop/8640x5760+0+0/resize/1020x680!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3d%2F44%2F91d5067ef97e5784674f6809b678%2F28fd82b8000a4531aa5c26edcce68795"
+        "full_url": "https://dims.apnews.com/dims4/default/b0ffdbe/2147483647/strip/true/crop/3173x2115+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2c%2F18%2F734eb72108ec054d9935bbcb2bf0%2Fcebdcad0043a488989f41767a90bb3a3"
       },
       {
-        "path": "/dims4/default/af048fa/2147483647/strip/true/crop/8155x5432+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/2e4afbe/2147483647/strip/true/crop/3896x2597+0+0/resize/727x485!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/af048fa/2147483647/strip/true/crop/8155x5432+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F37%2F5d%2F244d6fdaae2a5067f926db84cffe%2F1171df2fd57b4d52ab3af7ca0cd2e93c"
+        "full_url": "https://dims.apnews.com/dims4/default/2e4afbe/2147483647/strip/true/crop/3896x2597+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F12%2Fb9%2Fc737d0fd4dac8ad14a9b77f6079f%2F3954051f15d7494a90513f6a8d15843d"
       },
       {
-        "path": "/dims4/default/9dfa941/2147483647/strip/true/crop/7882x5308+40+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/67d337a/2147483647/strip/true/crop/6000x4000+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/9dfa941/2147483647/strip/true/crop/7882x5308+40+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F95%2F02%2F5597fc0e4067469f9bff0c249c8f%2Fa81f0f1017c547f08eeb1a14631b2654"
+        "full_url": "https://dims.apnews.com/dims4/default/67d337a/2147483647/strip/true/crop/6000x4000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F59%2F84%2F92dadf9379126e7eeaa8d690304d%2Fb46f6712982b4bbfbaf5aa531c183941"
       },
       {
-        "path": "/dims4/default/407ae9a/2147483647/strip/true/crop/4950x3334+25+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/5874b22/2147483647/strip/true/crop/5000x3333+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/407ae9a/2147483647/strip/true/crop/4950x3334+25+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4e%2Fb1%2F7d4f7801b00fb05f28c8afc6c274%2Fd8c2fdfed4024cdf8d6a84ee2ccbba2d"
+        "full_url": "https://dims.apnews.com/dims4/default/5874b22/2147483647/strip/true/crop/5000x3333+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F69%2F4c%2F23d0ffa66dd94ce60650ddc61d2c%2F94747f12aca049e5a0537bd9ef7e4cd7"
       },
       {
-        "path": "/dims4/default/7177619/2147483647/strip/true/crop/6671x4493+32+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/0996cbc/2147483647/strip/true/crop/8556x5653+0+0/resize/135x89!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7177619/2147483647/strip/true/crop/6671x4493+32+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbc%2F51%2F4391e281af6e3040226c50ab867b%2F4f7facbcf7b34deead1c6473a8994864"
+        "full_url": "https://dims.apnews.com/dims4/default/0996cbc/2147483647/strip/true/crop/8556x5653+0+0/resize/135x89!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F31%2Fcb%2F369a5742e9952dca8095ede2443b%2F8f350843a5754430bad649b125698611"
       },
       {
-        "path": "/dims4/default/aefafc1/2147483647/strip/true/crop/1988x1339+0+175/resize/98x66!/quality/90/",
+        "path": "/dims4/default/360e14b/2147483647/strip/true/crop/3786x2625+0+0/resize/135x94!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/aefafc1/2147483647/strip/true/crop/1988x1339+0+175/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F67%2Fb5%2Fb5d7c2e03e7fbb6868930650c30f%2Fd3c4b831337042a8aa70addd66b2f3f1"
+        "full_url": "https://dims.apnews.com/dims4/default/360e14b/2147483647/strip/true/crop/3786x2625+0+0/resize/135x94!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb6%2F0a%2F932020c022e3fc8027ed0d70d1ed%2Ff110be480fdc4c158bbaae7c99e1dd0c"
       },
       {
-        "path": "/dims4/default/7b59331/2147483647/strip/true/crop/8380x5644+43+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/76599cc/2147483647/strip/true/crop/4085x2723+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7b59331/2147483647/strip/true/crop/8380x5644+43+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F04%2F8b%2Fe3e6eb6c568fd8df7050eb1fd3ef%2Fe245f08b02784ffeb9bf970b6168f7ad"
+        "full_url": "https://dims.apnews.com/dims4/default/76599cc/2147483647/strip/true/crop/4085x2723+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fce%2Ff2%2Ff2d6c38c2dbacf5dc31895b5fd31%2F87f60c44cec540c4b125caae50eddc21"
       },
       {
-        "path": "/dims4/default/87cab85/2147483647/strip/true/crop/3222x2170+16+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/344ccae/2147483647/strip/true/crop/4000x2667+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/87cab85/2147483647/strip/true/crop/3222x2170+16+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdf%2Fe5%2Feaa389127c086737a38dc4494dc2%2F156c043a737948808d0e6c2e4c00a6ea"
+        "full_url": "https://dims.apnews.com/dims4/default/344ccae/2147483647/strip/true/crop/4000x2667+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F31%2Fb5%2Fd53f8227b72cc47b3f470af07099%2Fecfac337513e44a5b6a814979fe194c5"
       },
       {
-        "path": "/dims4/default/f1aab23/2147483647/strip/true/crop/4576x3048+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/4f9a18e/2147483647/strip/true/crop/3024x1694+0+0/resize/135x76!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f1aab23/2147483647/strip/true/crop/4576x3048+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F32%2F95%2Fc304c9fbee214accd8e3e2b244bf%2F1c47f13729ed40cfac35a08fc9d6602c"
+        "full_url": "https://dims.apnews.com/dims4/default/4f9a18e/2147483647/strip/true/crop/3024x1694+0+0/resize/135x76!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F01%2Fd6%2F74b2455a3e3a79471ee4aff7e9e2%2F86b55969b501401baa81cb96b4a15e2d"
       },
       {
-        "path": "/dims4/default/7d84a95/2147483647/strip/true/crop/6000x3997+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/b1ca315/2147483647/strip/true/crop/5406x3604+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7d84a95/2147483647/strip/true/crop/6000x3997+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F41%2Fb9%2Fe1fe3ae40a5a3b6314cc5689aedc%2Fd161332085314cb78ee8d3f1e9971a1a"
+        "full_url": "https://dims.apnews.com/dims4/default/b1ca315/2147483647/strip/true/crop/5406x3604+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe4%2Fa5%2Fe4f6566ae97c0769b74eaf679ac3%2Fb67a7a88f8834bfd996b7a6327acdf4b"
       },
       {
-        "path": "/dims4/default/befe959/2147483647/strip/true/crop/6523x4345+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/b2fcfbd/2147483647/strip/true/crop/5177x3451+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/befe959/2147483647/strip/true/crop/6523x4345+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd7%2Fb0%2Fada613c60fa12f35e699f556698c%2F471f08d0eb394c9d9f151e550b7c72fe"
+        "full_url": "https://dims.apnews.com/dims4/default/b2fcfbd/2147483647/strip/true/crop/5177x3451+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa1%2F95%2F00584ca2884a53203a5e3fddf357%2F01b65c3ffa3341e5910df56f84d27e6a"
       },
       {
-        "path": "/dims4/default/f36cde5/2147483647/strip/true/crop/3842x2559+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/0113173/2147483647/strip/true/crop/1620x1080+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f36cde5/2147483647/strip/true/crop/3842x2559+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3e%2Ffe%2F3c552602559026d2111bd86525ca%2F1d633dd38774455bb4760209a7a4efff"
+        "full_url": "https://dims.apnews.com/dims4/default/0113173/2147483647/strip/true/crop/1620x1080+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F06%2F7b%2F01b830a8ce735be768a346d7948a%2F521910abbdaf46da92ff1e6aebfb59b2"
       },
       {
-        "path": "/dims4/default/3104f24/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/8532f09/2147483647/strip/true/crop/8556x5653+0+0/resize/599x396!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/3104f24/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa5%2Fc0%2F0545dd1a1ae6a908a7fb41134648%2F732450798.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/8532f09/2147483647/strip/true/crop/8556x5653+0+0/resize/599x396!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F31%2Fcb%2F369a5742e9952dca8095ede2443b%2F8f350843a5754430bad649b125698611"
       },
       {
-        "path": "/dims4/default/57ee2c2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/8b27dd8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/57ee2c2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F99%2Fbc%2F68c3e87e7a70a9e61be8978d93bf%2F5574705325.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/8b27dd8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2b%2Faf%2F9cfae21353e8428539d5fdcb6b32%2F3216155898.jpg"
       },
       {
-        "path": "/dims4/default/f7c35c6/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/7389709/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f7c35c6/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2F67%2Ff55f376e7cf7c76a8be67a5fcecb%2F8316348639.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/7389709/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9b%2Fd0%2Fbc37468c5c9d0b9a89e288d1c26f%2F4351445815.jpg"
       },
       {
-        "path": "/dims4/default/77e203b/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/4ff4d15/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/77e203b/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3b%2Fbe%2F21ab1d80002aee5531079179e67f%2F6024673911.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/4ff4d15/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F59%2F84%2F1eedeba342aeebf4636862967ef9%2F9770513549.jpg"
       },
       {
-        "path": "/dims4/default/70d4d0b/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/03c70bf/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/70d4d0b/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe8%2F0a%2F90cb5cc7cdecace40bef94b5fbc6%2F7751394075.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/03c70bf/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fce%2Fbc%2F5954869f4ed501487b518c9e8991%2F1743698936.jpg"
       },
       {
-        "path": "/dims4/default/c464eb8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/f936ed1/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/c464eb8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F49%2F38%2Fd93a2becbf3ea8508d378e9679c6%2F1549406719.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/f936ed1/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F68%2F6f1e22a6b228d9566dcf7212f3f4%2F768935529.jpg"
       },
       {
-        "path": "/dims4/default/61975ba/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/5b6d4f7/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/61975ba/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F93%2F70%2Faed5021a65c1a0c56855215d5545%2F1327385754.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/5b6d4f7/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F95%2F6c%2F167deaed1a0c331c6fa2ebeca8ef%2F7629853388.jpg"
       },
       {
-        "path": "/dims4/default/5643caf/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/0366065/2147483647/strip/true/crop/720x1277+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/5643caf/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F08%2F1c%2F1a092322d0fc3e11b48fb23ca7d6%2F4181261045.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/0366065/2147483647/strip/true/crop/720x1277+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fed%2F1b%2F2573a1a74a428eac5703a4ba4086%2Fsahara.jpg"
       },
       {
-        "path": "/dims4/default/04aae70/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/01c19f2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/04aae70/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8c%2F88%2F6e67c38bdf796540cff797c9282c%2F691255133.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/01c19f2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F50%2Fed%2F00312b1b2a7a91863530b8265c64%2F7475769883.jpg"
       },
       {
-        "path": "/dims4/default/89d0243/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/35245f2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/89d0243/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6d%2Fc3%2F5797377a33754ba4fa42d201a95a%2F3029563296.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/35245f2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5d%2F93%2F6bbe10dc8c6bbd59eae2862c7307%2F1806361253.jpg"
       },
       {
-        "path": "/dims4/default/c9cd8e5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/dc258b1/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/c9cd8e5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd2%2F20%2F90fce57b70f6bf0f6301a7ae9b96%2F656386195.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/dc258b1/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8a%2F3d%2F1a2bb718f2e100075c1acdb50516%2F5018448504.jpg"
       },
       {
-        "path": "/dims4/default/a528ef9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/d09190c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/a528ef9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F86%2Fcb%2F000d2ad24f3c091d0bb26568ff75%2F9303030470.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/d09190c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F68%2F21%2F27a763ceee594cb195936298f728%2F8098948282.jpg"
       },
       {
-        "path": "/dims4/default/aba40e2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/d71bd41/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/aba40e2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F16%2Fc3%2F4c8d81825bc2f60cff27440bc593%2F5821067192.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/d71bd41/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fba%2Ff1%2Fb02a641438fe608125826f932124%2F6038651524.jpg"
       },
       {
-        "path": "/dims4/default/ad8bf33/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/905aebb/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/ad8bf33/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F55%2F2b%2Ff87a6ca21d1f346a25878ec9d207%2F6404216153.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/905aebb/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3a%2F03%2F27a418b545965b07313e72b7f4a7%2F5310293375.jpg"
       },
       {
-        "path": "/dims4/default/4ee0e28/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/9c270e3/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/4ee0e28/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F28%2F9c%2F72b75c7962a8c6ea4c6656313a68%2F5532876884.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/9c270e3/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fac%2Fed%2F43e86b4348ad27e96cbca467c386%2F3901590408.jpg"
       },
       {
-        "path": "/dims4/default/622a5a9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/dcbac46/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/622a5a9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F12%2Fab%2Fc637ca1cd0618071f5a318b61a39%2F2346607803.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/dcbac46/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1a%2F6a%2F8f6a10f0e71963947cf24db78244%2F8942760166.jpg"
       },
       {
-        "path": "/dims4/default/601cea8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/2f67ffa/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/601cea8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F17%2F6a%2F76d913875ec0e9a243da7303fff2%2F5868169251.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/2f67ffa/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2F50%2Fb294492d25402d289697f6a820b3%2F115623390.jpg"
       },
       {
-        "path": "/dims4/default/96ece72/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/f30dd08/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/96ece72/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F14%2F4a%2F1f6e2997de68fc8378b07f5df91e%2F7766879852.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/f30dd08/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6d%2Fc8%2Ff5ef8068adc0629c3da72fa015fa%2F4293489944.jpg"
       },
       {
-        "path": "/dims4/default/0ebe4c6/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/3be987c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/0ebe4c6/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1e%2F7f%2F17ce206bd7b57faeb3f4c71619dd%2F6153731261.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/3be987c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F32%2F2d%2F2902ca4d70d2550e6f3b95c7aa38%2F152433899.jpg"
       },
       {
-        "path": "/dims4/default/2607760/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/6a337d8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/2607760/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa4%2F9c%2F67f9fe463af0c7738429864bb5b2%2F6999354347.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/6a337d8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa5%2F6e%2F33ecc57a83553b2e91c0009bf058%2F6868876762.jpg"
       },
       {
-        "path": "/dims4/default/0f230c5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/b619772/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/0f230c5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F21%2F0f%2Fdeea0d6a7dd976caf082ee792958%2F1455665027.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/b619772/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2c%2F9f%2F6f63e3c8c353fb51cbb6f30f0561%2F6460796492.jpg"
       },
       {
-        "path": "/dims4/default/a05f78f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/65331da/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/a05f78f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6a%2F9c%2F0671a0c3eea4b9ab1cbb90eb4bc6%2F534963880.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/65331da/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3f%2Fb0%2F0de17f698f412857fea1496b4702%2F1859084898.jpg"
       },
       {
-        "path": "/dims4/default/e4790fb/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/2701d4c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/e4790fb/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F49%2F90%2F5eaa2e30b26476348ad4e962fc41%2F5852895252.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/2701d4c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff3%2F11%2F0f63942ed503529c07964181a44b%2F9594824530.jpg"
       },
       {
-        "path": "/dims4/default/f78bfc9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/758d19f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f78bfc9/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F36%2F72%2F96a0385ac80257dd3e67d3f09e63%2F2056551092.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/758d19f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb4%2F45%2Fda1efcd21af2cd68ed4c84c6f827%2F656154785.jpg"
       },
       {
-        "path": "/dims4/default/ab3b28c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/b37e629/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/ab3b28c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F99%2F89%2Faafe993f45b48be0c9dd1f878e6b%2F4595215316.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/b37e629/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F46%2F86%2Fed2358158f3a0e7ae9819ee797e6%2F8866340688.jpg"
       },
       {
-        "path": "/dims4/default/819ddb2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/648c084/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/819ddb2/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F67%2F3c%2Fad3fccc4c104ecfd0bde6be4db48%2F6013754219.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/648c084/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F03%2Fb9%2F44a69199ee762a5fdcd53cf4fcd9%2F4504819776.jpg"
       },
       {
-        "path": "/dims4/default/7e890a4/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/40310a7/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7e890a4/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F03%2Fdd%2F028ebc3306ffbd8da48c92163840%2F9580058900.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/40310a7/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3d%2F48%2F21c12359a5bee837e93e78a788f9%2F1975544083.jpg"
       },
       {
-        "path": "/dims4/default/8c1b7b5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/4782e18/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/8c1b7b5/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F57%2F31%2Ffc833999bfe23fd96f335ac453fa%2F1340230164.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/4782e18/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F5b%2F3fe0e30e8466d50f437aa2a3ea6e%2F3102741871.jpg"
       },
       {
-        "path": "/dims4/default/4d11e9c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/3b6a337/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/4d11e9c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F96%2Ffb%2F26c6dc1ee73003824cca39035a1b%2F8496400319.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/3b6a337/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6b%2Fa8%2F97a2304bbc10873cf7a4f72cdc68%2F334396130.jpg"
       },
       {
-        "path": "/dims4/default/7cd5f6f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/a84980f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7cd5f6f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fae%2Fff%2Fc79ce635847cfd5718313da1facd%2F8954185634.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/a84980f/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F52%2F78%2Fcabd1768c26fdc40fd1ed91a9837%2F7605653862.jpg"
       },
       {
-        "path": "/dims4/default/5d5d799/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/760b441/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/5d5d799/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb5%2F1d%2Fe29432d6dad60ab67b4973558146%2F4232391714.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/760b441/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F67%2F10%2Fe8e58aa58746fa4f0f2d03438743%2F253278798.jpg"
       },
       {
-        "path": "/dims4/default/2a34433/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/e6e97d8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/2a34433/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3f%2F63%2Fa4e7f7d1e08f6d4d3d7139685414%2F9472972929.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/e6e97d8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F66%2F05%2Fb39220e6f214fbe42256a15989ce%2F4849364423.jpg"
       },
       {
-        "path": "/dims4/default/f77fea8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/9846c5c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f77fea8/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F1f%2F66%2F635f7733c4af58988a1937138a18%2F2089316583.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/9846c5c/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F03%2F8b%2F9bdc3e56ec916e6c2a604d3faeea%2F7466583057.jpg"
       },
       {
-        "path": "/dims4/default/3b15114/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/",
+        "path": "/dims4/default/6d28dd3/2147483647/strip/true/crop/720x1277+0+2/resize/256x454!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/3b15114/2147483647/strip/true/crop/1080x1915+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9c%2F02%2Fd817b519f095552bee8dbe066e6b%2F1191835516.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/6d28dd3/2147483647/strip/true/crop/720x1277+0+2/resize/256x454!/quality/90/?url=https%3A%2F%2Fcdn.jwplayer.com%2Fv2%2Fmedia%2FQ8SOG7ic%2Fthumbnails%2Flio59s06.jpg"
       },
       {
-        "path": "/dims4/default/a3a91f4/2147483647/strip/true/crop/761x1350+159+0/resize/256x454!/quality/90/",
+        "path": "/dims4/default/81bbd8f/2147483647/strip/true/crop/3000x2000+0+0/resize/727x485!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/a3a91f4/2147483647/strip/true/crop/761x1350+159+0/resize/256x454!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb4%2Fb4%2Fa427a048998663f1aa886e70ae7b%2F8621283399.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/81bbd8f/2147483647/strip/true/crop/3000x2000+0+0/resize/727x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F75%2F15%2F7fe0d032444e8ac8b7eacfc65871%2F1ac9949216274d219ea7971000f0be52"
       },
       {
-        "path": "/dims4/default/45be24d/2147483647/strip/true/crop/3000x1998+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/d8c4cb4/2147483647/strip/true/crop/3511x2341+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/45be24d/2147483647/strip/true/crop/3000x1998+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fed%2F8f%2Faac50aed8ffa74d6da57d449c080%2F417383c18c734110b2fd517ef1d1b071"
+        "full_url": "https://dims.apnews.com/dims4/default/d8c4cb4/2147483647/strip/true/crop/3511x2341+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8f%2F37%2F9ff1434bd845b7409daf755fe717%2F40b3920397cd493b93105c333f34b3ff"
       },
       {
-        "path": "/dims4/default/62214b9/2147483647/strip/true/crop/7749x5162+208+0/resize/599x399!/quality/90/",
+        "path": "/dims4/default/4464e79/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/62214b9/2147483647/strip/true/crop/7749x5162+208+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff2%2F27%2F136859de40ebb04941cb5402be4e%2Fap26020473381010.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/4464e79/2147483647/strip/true/crop/1920x1280+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F79%2Feb%2F13edcf7388406b8f44f2b95c5dce%2Fef00308809e54b428f8063b0e686d104"
       },
       {
-        "path": "/dims4/default/6ccba0e/2147483647/strip/true/crop/3999x2664+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/134682c/2147483647/strip/true/crop/5568x3712+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/6ccba0e/2147483647/strip/true/crop/3999x2664+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F78%2F68%2F7569f8891ff2fcdf9c10b9de7fe7%2Fe578a1502d3c43439125bc22f0db3142"
+        "full_url": "https://dims.apnews.com/dims4/default/134682c/2147483647/strip/true/crop/5568x3712+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcf%2Fbe%2F77fff24e732703794442fdb1b965%2Faca1b46a36354b3a87ec7601ae22837d"
       },
       {
-        "path": "/dims4/default/ae8bab4/2147483647/strip/true/crop/8192x5457+0+4/resize/599x399!/quality/90/",
+        "path": "/dims4/default/d0394bc/2147483647/strip/true/crop/5510x4531+0+0/resize/599x493!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/ae8bab4/2147483647/strip/true/crop/8192x5457+0+4/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2Fd8%2F1cc45c4720d1ba14287eacafb0ea%2Fb0dd0fc3334f4202a6f3e05c18d1837d"
+        "full_url": "https://dims.apnews.com/dims4/default/d0394bc/2147483647/strip/true/crop/5510x4531+0+0/resize/599x493!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F12%2F99%2F47c8964b154f1a6c94f302dad6fe%2Ff2457f9084584183a721748b78584f7d"
       },
       {
-        "path": "/dims4/default/d6680c8/2147483647/strip/true/crop/3978x2650+0+91/resize/599x399!/quality/90/",
+        "path": "/dims4/default/df0f890/2147483647/strip/true/crop/2000x1736+0+0/resize/559x485!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/d6680c8/2147483647/strip/true/crop/3978x2650+0+91/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe3%2F36%2Fa82360983b290a6de438b446f66d%2Febfc4ab23a3f44e5bf08c44bc70085e5"
+        "full_url": "https://dims.apnews.com/dims4/default/df0f890/2147483647/strip/true/crop/2000x1736+0+0/resize/559x485!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F71%2F61%2F8811465447a6a0d57d84e8a6da18%2Fpope-john-paul-ii.jpg"
       },
       {
-        "path": "/dims4/default/4abb807/2147483647/strip/true/crop/5258x3502+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/eb52ca8/2147483647/strip/true/crop/4200x2800+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/4abb807/2147483647/strip/true/crop/5258x3502+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F35%2F8a%2Fe8b8fe812c7f636805726dfa8d0a%2F4f8cff92ffa74ea986459de0d119c1b7"
+        "full_url": "https://dims.apnews.com/dims4/default/eb52ca8/2147483647/strip/true/crop/4200x2800+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc0%2Fca%2Fcfe9b92249d6a5e39b7caebad275%2Fap26091817184199.jpg"
       },
       {
-        "path": "/dims4/default/94cf8be/2147483647/strip/true/crop/3897x2596+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/16e5854/2147483647/strip/true/crop/2285x1523+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/94cf8be/2147483647/strip/true/crop/3897x2596+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2Fff%2F980564989aecb56d4ead67b9ddcf%2F691a0985daa7421bade305ea5efc6be9"
+        "full_url": "https://dims.apnews.com/dims4/default/16e5854/2147483647/strip/true/crop/2285x1523+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc0%2Fbb%2F4701bc404af23fe45e9165b38bda%2F3965ab829c3141bab3bfbd9e2cebdba9"
       },
       {
-        "path": "/dims4/default/d492601/2147483647/strip/true/crop/3000x1998+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/184f55d/2147483647/strip/true/crop/7005x4670+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/d492601/2147483647/strip/true/crop/3000x1998+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F21%2Fb2%2Fe5914cbbe40c648d0fa041445231%2F5fde11ace05f442ea27037be11318216"
+        "full_url": "https://dims.apnews.com/dims4/default/184f55d/2147483647/strip/true/crop/7005x4670+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F91%2F971f40334d36937c989a33d1039c%2Fap26092040899299.jpg"
       },
       {
-        "path": "/dims4/default/1b31195/2147483647/strip/true/crop/2200x1467+0+76/resize/1020x680!/quality/90/",
+        "path": "/dims4/default/5de6d07/2147483647/strip/true/crop/4703x3135+0+0/resize/135x90!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/1b31195/2147483647/strip/true/crop/2200x1467+0+76/resize/1020x680!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F44%2Fc3%2F3dedaf384be280984df228fb5ec9%2Ffirst-us-covid-case-1-21-2020.jpg"
+        "full_url": "https://dims.apnews.com/dims4/default/5de6d07/2147483647/strip/true/crop/4703x3135+0+0/resize/135x90!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8a%2Faa%2Fd05af679a78f222d337d51e1dd37%2F50661feed0074a7e9ddc08bd4cf9e1fb"
       },
       {
-        "path": "/dims4/default/05ae68e/2147483647/strip/true/crop/7974x5370+41+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/569bedd/2147483647/strip/true/crop/5789x3256+0+0/resize/135x76!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/05ae68e/2147483647/strip/true/crop/7974x5370+41+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F42%2F50%2F732e144d2361dba1678fc3598190%2F13577410a1a842cf950b1dd72e47f257"
+        "full_url": "https://dims.apnews.com/dims4/default/569bedd/2147483647/strip/true/crop/5789x3256+0+0/resize/135x76!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F40%2F43%2F924189f960ae4d17a58fb19be9f4%2F2e10631317c94c9a9b93e8080783c240"
       },
       {
-        "path": "/dims4/default/6a58860/2147483647/strip/true/crop/4949x3333+26+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/258d3c9/2147483647/strip/true/crop/7820x5214+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/6a58860/2147483647/strip/true/crop/4949x3333+26+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcd%2Fe0%2Ff236898a98c614b2acd92e51c942%2F06aa16de4e914094a9b3548dd2fd0602"
+        "full_url": "https://dims.apnews.com/dims4/default/258d3c9/2147483647/strip/true/crop/7820x5214+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F74%2Fb2%2F5a000ea849bfbd876bec5aa429c5%2Fdca4e432bfc340aaa294a8e47889d464"
       },
       {
-        "path": "/dims4/default/05f29ab/2147483647/strip/true/crop/7151x4816+36+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/1a16e54/2147483647/strip/true/crop/7108x4739+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/05f29ab/2147483647/strip/true/crop/7151x4816+36+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2F1b%2Fa27747fa7058f70fc7ad3f0d9202%2Fc859ad2a339a4713848b9453ea49c041"
+        "full_url": "https://dims.apnews.com/dims4/default/1a16e54/2147483647/strip/true/crop/7108x4739+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdc%2F36%2Fc040aabbdbfa229b776831188454%2F3a9609da40e64f61b4931cb183a97ccb"
       },
       {
-        "path": "/dims4/default/7c0bf4e/2147483647/strip/true/crop/3056x2058+16+0/resize/98x66!/quality/90/",
+        "path": "/dims4/default/bc70d50/2147483647/strip/true/crop/6160x4107+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7c0bf4e/2147483647/strip/true/crop/3056x2058+16+0/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff9%2F01%2Fdd4d03ac03e3fde6136f723ef867%2F027e0d6ac779485eb39829dc8da53c05"
+        "full_url": "https://dims.apnews.com/dims4/default/bc70d50/2147483647/strip/true/crop/6160x4107+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcc%2Fc6%2F497593ce2cf1bd48aad3a8aeeba5%2F979c438fea6e4aa5b6b4c60964100fc6"
       },
       {
-        "path": "/dims4/default/94e6822/2147483647/strip/true/crop/5712x3847+0+219/resize/98x66!/quality/90/",
+        "path": "/dims4/default/3fdb63c/2147483647/strip/true/crop/3177x2118+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/94e6822/2147483647/strip/true/crop/5712x3847+0+219/resize/98x66!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7f%2Fb1%2F2a49a644b9f0d2ed4a7ccd0d3eaa%2F02f4795e7e9344adb0cedd987d951254"
+        "full_url": "https://dims.apnews.com/dims4/default/3fdb63c/2147483647/strip/true/crop/3177x2118+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7d%2F82%2Fcad61c6b93fba527ae8a1b27cf12%2F8955dd20aca940038bb741a44f951bbd"
       },
       {
-        "path": "/dims4/default/dfe258c/2147483647/strip/true/crop/1365x910+0+0/resize/567x378!/quality/90/",
+        "path": "/dims4/default/dd72de5/2147483647/strip/true/crop/3176x2117+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/dfe258c/2147483647/strip/true/crop/1365x910+0+0/resize/567x378!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3f%2F66%2F564f102fb349a135e28eee6275a4%2F6cd165719c72443f987b84476a45e633"
+        "full_url": "https://dims.apnews.com/dims4/default/dd72de5/2147483647/strip/true/crop/3176x2117+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2Fb8%2Fec6104d105b7983352cf461e2324%2F6a4095cad6554df4845d4be7f8c69e78"
       },
       {
-        "path": "/dims4/default/1e3842a/2147483647/strip/true/crop/5000x3331+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/833d417/2147483647/strip/true/crop/6000x4000+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/1e3842a/2147483647/strip/true/crop/5000x3331+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe6%2F3e%2F1f75f07b0925711c77341871d22c%2F4f43d97a8c814ce180062e4a3ff480d5"
+        "full_url": "https://dims.apnews.com/dims4/default/833d417/2147483647/strip/true/crop/6000x4000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F64%2F5d%2F4c84b3171ae8ce5b29a2587e5bca%2Fe2610b4737874f79ac055cd7ad3377bd"
       },
       {
-        "path": "/dims4/default/7fb451d/2147483647/strip/true/crop/3943x2626+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/673660f/2147483647/strip/true/crop/2709x3009+0+0/resize/539x599!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/7fb451d/2147483647/strip/true/crop/3943x2626+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F20%2F82%2F2a77535e0c75e8ce6156be90928a%2Fb49e77ef6730458f910ffc4400423e1d"
+        "full_url": "https://dims.apnews.com/dims4/default/673660f/2147483647/strip/true/crop/2709x3009+0+0/resize/539x599!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F68%2Fd2%2F12bc2db50c7484ed375cdc6eb820%2F8d832188418440adaa18222f3c719473"
       },
       {
-        "path": "/dims4/default/af45524/2147483647/strip/true/crop/4992x3325+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/8bac3c3/2147483647/strip/true/crop/7000x4667+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/af45524/2147483647/strip/true/crop/4992x3325+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F48%2Fb9%2F27f5e5a172a9abe11467ad1721c7%2F0036f9ef5a014c3794aa5de6748fad36"
+        "full_url": "https://dims.apnews.com/dims4/default/8bac3c3/2147483647/strip/true/crop/7000x4667+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe6%2Ff3%2F55549a1367ae9bec541da4a66234%2F36707cc5e7374dcfb93d4cbc5f47b263"
       },
       {
-        "path": "/dims4/default/ce6bc6c/2147483647/strip/true/crop/4845x3230+0+0/resize/567x378!/quality/90/",
+        "path": "/dims4/default/b53c4cc/2147483647/strip/true/crop/5178x3452+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/ce6bc6c/2147483647/strip/true/crop/4845x3230+0+0/resize/567x378!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F69%2F52%2Fe5a1956730e024f0c7f9019764db%2Ff5bf301c30d6438587c58e784e9faa83"
+        "full_url": "https://dims.apnews.com/dims4/default/b53c4cc/2147483647/strip/true/crop/5178x3452+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdd%2F6c%2F772dec061045a50f46f3aabc00c4%2Feb369d2c16c3494e80f19e99c48866f3"
       },
       {
-        "path": "/dims4/default/f816ce8/2147483647/strip/true/crop/3175x2115+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/be90b81/2147483647/strip/true/crop/5895x3933+0+0/resize/599x400!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/f816ce8/2147483647/strip/true/crop/3175x2115+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F58%2Fdb%2F42947676da6fe5d080229c8bc194%2F5e72a7e189a24e729d87c6abb02d527c"
+        "full_url": "https://dims.apnews.com/dims4/default/be90b81/2147483647/strip/true/crop/5895x3933+0+0/resize/599x400!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F3d%2F80c7c7ad6386dfdbdced414d85b6%2F91def38c3f2e4069af45e17f2a65c2aa"
       },
       {
-        "path": "/dims4/default/640141e/2147483647/strip/true/crop/2016x1343+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/6bf7e00/2147483647/strip/true/crop/6090x4060+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/640141e/2147483647/strip/true/crop/2016x1343+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa3%2F2b%2F9d9ff87a62ba2b42695961db5196%2F2040529ca5a147edafc57ee834f3e4a4"
+        "full_url": "https://dims.apnews.com/dims4/default/6bf7e00/2147483647/strip/true/crop/6090x4060+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa2%2F06%2Fe107c4ded1b62e8a19962ac6aff3%2Feae3be2421cb418492042d4949602081"
       },
       {
-        "path": "/dims4/default/a168e45/2147483647/strip/true/crop/1831x1220+0+1/resize/599x399!/quality/90/",
+        "path": "/dims4/default/c25a129/2147483647/strip/true/crop/8192x5462+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/a168e45/2147483647/strip/true/crop/1831x1220+0+1/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F16%2F3a%2F45ecd2f7fe33c0bb39c9f0891ada%2F9d594e0452cd49a2bfb3d7ed52ed3366"
+        "full_url": "https://dims.apnews.com/dims4/default/c25a129/2147483647/strip/true/crop/8192x5462+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa3%2Ff0%2Fcf93a31b422b7a1b105434873799%2F9f70ed1b5e0d422fb8322a74d8275ac6"
       },
       {
-        "path": "/dims4/default/85a680e/2147483647/strip/true/crop/8221x5476+0+2/resize/599x399!/quality/90/",
+        "path": "/dims4/default/d68468e/2147483647/strip/true/crop/2806x1871+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/85a680e/2147483647/strip/true/crop/8221x5476+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F87%2F71%2Fe5772a47261a16fd73ab47583e8d%2Fbc7a534d854945999c9388e6989b2568"
+        "full_url": "https://dims.apnews.com/dims4/default/d68468e/2147483647/strip/true/crop/2806x1871+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F5f%2Fb7f40597f1a7a5293beb65b6545a%2F1ba7e1f52470464d82f419bdac14363f"
       },
       {
-        "path": "/dims4/default/a360173/2147483647/strip/true/crop/8575x5712+0+3/resize/599x399!/quality/90/",
+        "path": "/dims4/default/0b0cd93/2147483647/strip/true/crop/1857x1238+0+0/resize/599x399!/quality/90/",
         "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/a360173/2147483647/strip/true/crop/8575x5712+0+3/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5d%2Fea%2F9452beb158965b33fee4699e6ebb%2F92bf1ba6226b40d2b4a5c2c2303ad71e"
-      },
-      {
-        "path": "/dims4/default/01c5003/2147483647/strip/true/crop/6019x4009+0+2/resize/599x399!/quality/90/",
-        "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/01c5003/2147483647/strip/true/crop/6019x4009+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff4%2F11%2F72cc6d9c45d4d9ad7798e2a90630%2Fbd269f7a5feb42f8afee2b3e0acc8b17"
-      },
-      {
-        "path": "/dims4/default/9a0e28c/2147483647/strip/true/crop/8016x5340+0+2/resize/599x399!/quality/90/",
-        "type": "image",
-        "full_url": "https://dims.apnews.com/dims4/default/9a0e28c/2147483647/strip/true/crop/8016x5340+0+2/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F66%2F3c%2F04c276eb9631a1893906e5041b75%2Fd0ebc344acbf40f4bcb03c3e4de30007"
+        "full_url": "https://dims.apnews.com/dims4/default/0b0cd93/2147483647/strip/true/crop/1857x1238+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F04%2Fac%2Fd00135370c41acd9788b3fc5647d%2F210af710392b4b409f7ec213238a8e74"
       },
       {
         "path": "/dims4/default/bc1ddbf/2147483647/strip/true/crop/2851x1534+0+0/resize/240x129!/quality/90/",
         "type": "image",
         "full_url": "https://dims.apnews.com/dims4/default/bc1ddbf/2147483647/strip/true/crop/2851x1534+0+0/resize/240x129!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2F25%2F9576fafb4e768552fed602a60238%2Fap-pri-wordmarktagline-rgb-dbg.png"
-      },
-      {
-        "path": "/p",
-        "type": "image",
-        "full_url": "https://sb.scorecardresearch.com/p?c1=2&c2=3005041&cv=4.4.0&cj=1"
       }
     ]
   },
@@ -506,14 +491,14 @@
       "type": "Entry Point",
       "rendering_strategy": "Unknown (Assumed Static/SSR)",
       "meta_seo": {
-        "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+        "title": "Associated Press News: Breaking News, Latest Headlines and Videos  | AP News",
         "description": "Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
         "canonical": "https://apnews.com"
       },
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "2102ms"
+          "latency": "904ms"
         },
         {
           "resource": "OtAutoBlock.js",
@@ -524,7 +509,7 @@
           "latency": "pending"
         },
         {
-          "resource": "All.min.4614492872e2dcf35f9eb0e2b4e4f6fc.gz.js",
+          "resource": "All.min.7493bb270648f44920a5453595b8a58c.gz.js",
           "latency": "pending"
         }
       ],
@@ -546,39 +531,39 @@
           },
           {
             "tag": "p",
-            "text": "As tensions with European allies flared over President Donald Trump’s push to control Greenland, Trump sought to reassure NATO partners Tuesday, saying he believes an agreement will be worked out that will make both the US and the alliance “very happy.”"
+            "text": "In his first national address since launching the Iran war, President Donald Trump said U.S. forces are “on track to complete” their mission soon, as the “core strategic objectives are nearing completion. Still, he vowed heavy strikes would continue."
           },
           {
             "tag": "h3",
-            "text": "Trump’s Greenland threats spark outrage from EU and test longtime NATO alliance"
-          },
-          {
-            "tag": "h3",
-            "text": "‘It’s a joke:' Trump again slams Norway over Nobel Peace Prize snub"
-          },
-          {
-            "tag": "h3",
-            "text": "In their words: Trump’s threats over Greenland draw warnings and profanities at global forum"
-          },
-          {
-            "tag": "h3",
-            "text": "US futures edge higher and gold hits another record as markets swoon over Greenland dispute"
+            "text": "Takeaways from Trump’s address: No end date for Iran war and few details on strategy ahead"
           },
           {
             "tag": "p",
-            "text": "Khalid Abu Jarad holds the body of his 3-month-old niece, Shaza Abu Jarad, who, according to the health ministry, died from hypothermia, in Gaza City, Tuesday, Jan. 20, 2026. (AP Photo/Jehad Alshrafi)"
+            "text": "127 MORE COVERAGE Trump says US forces will ‘finish the job’ soon in first prime-time speech since starting Iran war [deltaMinutes] mins ago Now &nbsp; 476 FACT FOCUS: False claims Trump made as he addressed the nation about Iran [deltaMinutes] mins ago Now &nbsp; 25 Read the complete transcript of Trump’s address to the nation [deltaMinutes] mins ago Now &nbsp; Oil rises and Asian stocks fall after Trump says US will hit Iran hard and ‘finish the job’ [deltaMinutes] mins ago Now &nbsp; US-Europe rift widens as Trump lashes out at NATO allies over Mideast war [deltaMinutes] mins ago Now &nbsp; 231 Four Artemis II mission astronauts launched into space from Florida’s Kennedy Space Center for humanity’s first trip to the moon in more than half a century."
           },
           {
             "tag": "h3",
-            "text": "Baby dies from cold in Gaza as leaders meet to discuss Trump’s Board of Peace"
+            "text": "Artemis II astronauts bound for moon after rocketing away on NASA’s first lunar voyage in decades"
+          },
+          {
+            "tag": "p",
+            "text": "140 MORE COVERAGE Artemis II astronauts embark on historic NASA mission to the moon and back, in photos 1 MIN READ Onlookers gather as police officers inspect a damaged building following an earthquake in Manado, North Sulawesi, Indonesia, Thursday, April 2, 2026. (AP Photo/Tonny Rarung)"
           },
           {
             "tag": "h3",
-            "text": "A look at Trump’s Board of Peace and who has been invited"
+            "text": "Earthquake in Indonesia kills at least 1 person and sets off small tsunami"
+          },
+          {
+            "tag": "h2",
+            "text": "TODAY IN HISTORY"
+          },
+          {
+            "tag": "p",
+            "text": "2005: Pope John Paul II dies at 84 [deltaMinutes] mins ago Now &nbsp; 1982 Argentina seizes Falkland Islands 1992 John Gotti convicted 2020 Global COVID cases surpass 1 million what else happened Most read on historic mission to the moon\" data-gtm-topic=\"No Value\" data-align-right data-hide-dates=\"true\" data-gtm-region-item data-posted-date-timestamp=\"1775046497594\" data-updated-date-timestamp=\"1775089176948\"> Highlights: Artemis II astronauts reach orbit on historic mission to the moon on historic mission to the moon\" href=\"https://apnews.com/live/artemis-ii-launch-nasa-moon-rocket\" > Trump plans to move Forest Service headquarters to Utah and shutter research sites 3 MIN READ 70 Trump says US military objectives in Iran ‘nearing completion’ Hershey says it will shift back to classic recipe for all Reese’s products after criticism 1 MIN READ 134 live"
           },
           {
             "tag": "h3",
-            "text": "Israeli crews target UN facilities for Palestinian refugees in east Jerusalem"
+            "text": "Trump leaves as Supreme Court hears defense of birthright citizenship"
           },
           {
             "tag": "h2",
@@ -586,123 +571,71 @@
           },
           {
             "tag": "h3",
-            "text": "See the world in vertical: Top photos by AP photojournalists"
+            "text": "How a seabird native to Hawaii has adapted to life in Honolulu’s concrete jungle"
           },
           {
             "tag": "h3",
-            "text": "Svitolina is refreshed after a mental health break and into Australian Open’s 3rd round"
+            "text": "Immigrants seeking asylum are ordered to countries they’ve never been to, but end up stuck in limbo"
           },
           {
             "tag": "h3",
-            "text": "Closing arguments set in former Uvalde officer’s trial over actions during 2022 school attack"
+            "text": "Mexico appoints Roberto Velasco as new foreign minister at critical moment for US ties"
           },
           {
             "tag": "h3",
-            "text": "A former flight attendant posed as a pilot and received hundreds of free flights, US authorities say"
+            "text": "Man convicted of manslaughter, but not murder, in shooting of NYPD officer"
           },
           {
             "tag": "h3",
-            "text": "As fires in Chile burn, a mobile clinic fights to save furry survivors"
+            "text": "Sexual harassment lawyer sues over rejected airport ad, now has a massive billboard"
           },
           {
             "tag": "h3",
-            "text": "Utah’s chief justice speaks out as Republicans look to expand the state Supreme Court"
+            "text": "Man charged in connection with some of ‘Texas Killing Fields’ deaths of dozens of women"
           },
           {
             "tag": "h3",
-            "text": "Conservative group says Los Angeles school policy hurts white students in federal lawsuit"
+            "text": "Baby killed by a stray bullet after drive-by attack in Brooklyn, police say"
           },
           {
             "tag": "h3",
-            "text": "Trump’s list of targeted opponents grows longer with action against Minnesota’s governor"
+            "text": "State finds explosion that killed LA County deputies involved serious safety violations"
           },
           {
             "tag": "h3",
-            "text": "What to know about the trial in Hong Kong against Tiananmen vigil organizers"
+            "text": "Brazilian banks to verify satellite deforestation data for rural credit"
           },
           {
             "tag": "h3",
-            "text": "New Zealand election scheduled for Nov. 7 with the costs of living and housing the top issues"
+            "text": "Pa.'s first investment in public defense allowed offices to hire attorneys, improve case management"
           },
           {
             "tag": "h3",
-            "text": "IRS head announces a shake-up on the eve of the 2026 tax season"
+            "text": "Man sentenced in cross burning hoax to help elect Colorado Springs’ first Black mayor"
           },
           {
             "tag": "h3",
-            "text": "Trump recaps his first year back in office with winding remarks, paper tossing and impressions"
+            "text": "Trump ally testifies in trial over secret Venezuela lobbying effort"
           },
           {
             "tag": "h3",
-            "text": "Opening statements begin in sex assault trial of ‘Dances With Wolves’ actor Nathan Chasing Horse"
+            "text": "Texas judge rejects push to let churches make political endorsements"
           },
           {
             "tag": "h3",
-            "text": "Colombia slashes wages for its legislators as public spending balloons ahead of election"
+            "text": "Brief fire causes evacuation but no injuries at historic Detroit college building"
           },
           {
             "tag": "h3",
-            "text": "Paris mourns Valentino, the last titan of couture’s golden age"
+            "text": "First foreign troop in new gang suppression force lands in Haiti to replace previous mission"
           },
           {
             "tag": "h3",
-            "text": "FACT FOCUS: Trump highlights familiar false claims as he reviews his first year back in office"
+            "text": "A Long Beach aerospace firm is betting on a new industrial boom: capturing asteroids"
           },
           {
             "tag": "h3",
-            "text": "Suspect charged in vandalism of Vice President JD Vance’s Ohio home pleads not guilty"
-          },
-          {
-            "tag": "h3",
-            "text": "A man pleads not guilty to setting fire to Mississippi synagogue"
-          },
-          {
-            "tag": "h3",
-            "text": "Netflix delivers solid 4th quarter, but stock sinks amid worries about slowing subscriber growth"
-          },
-          {
-            "tag": "h3",
-            "text": "Colombia says former FARC rebels have not kept promises to surrender cash and gold"
-          },
-          {
-            "tag": "h3",
-            "text": "Vikings WR Jordan Addison won’t face trespassing charge in Florida after dismissal of case"
-          },
-          {
-            "tag": "h3",
-            "text": "Gunmen kill 31 villagers in western Niger, student groups and a resident say"
-          },
-          {
-            "tag": "h3",
-            "text": "Duke files a lawsuit against QB Darian Mensah to enforce his contract and block a transfer"
-          },
-          {
-            "tag": "h3",
-            "text": "Aurora lights up Alaska skies with stunning green and red display"
-          },
-          {
-            "tag": "h3",
-            "text": "Supreme Court seems likely to strike down Hawaii’s restrictions on guns in stores and hotels"
-          },
-          {
-            "tag": "h3",
-            "text": "Jurors selected in trial for alleged murder-for-hire plot of Border Patrol leader in Chicago"
-          },
-          {
-            "tag": "h3",
-            "text": "Veteran AP videographer describes grisly images and ‘burning smoke’ of a Haitian gang attack"
-          },
-          {
-            "tag": "h3",
-            "text": "China meets initial soybean purchase goal, but Trump’s shifting trade policy could disrupt deal"
-          },
-          {
-            "tag": "h3",
-            "text": "Former NBA star Lamar Odom arrested on suspicion of DUI in Nevada"
-          },
-          {
-            "tag": "h3",
-            "text": "Deputy Sheriffs Are Beefing Up Hawaiʻi Traffic Enforcement"
+            "text": "Republican leaders in Congress announce plan to end Homeland Security shutdown"
           },
           {
             "tag": "p",
@@ -710,17 +643,17 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 211,
-          "headings": 128,
-          "images": 86
+          "paragraphs": 237,
+          "headings": 127,
+          "images": 82
         }
       }
     },
     {
-      "route_id": "ROUTE-9352EA41",
-      "path": "/hub/israel-hamas-war",
+      "route_id": "ROUTE-382B4F07",
+      "path": "/hub/iran",
       "type": "Detected Link",
-      "anchor_text": "Israel-Hamas War",
+      "anchor_text": "Iran war",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -728,10 +661,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3676F9AA",
+      "route_id": "ROUTE-5191834A",
       "path": "/hub/russia-ukraine",
       "type": "Detected Link",
-      "anchor_text": "Russia-Ukraine War",
+      "anchor_text": "Russia-Ukraine war",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -739,7 +672,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F2BC5424",
+      "route_id": "ROUTE-868645F6",
       "path": "/hub/noticias",
       "type": "Detected Link",
       "anchor_text": "Español",
@@ -750,7 +683,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6CC969A3",
+      "route_id": "ROUTE-8E653A9E",
       "path": "/hub/china",
       "type": "Detected Link",
       "anchor_text": "China",
@@ -761,7 +694,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-72037A7B",
+      "route_id": "ROUTE-CCEA4900",
       "path": "/hub/asia-pacific",
       "type": "Detected Link",
       "anchor_text": "Asia Pacific",
@@ -772,7 +705,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2692D731",
+      "route_id": "ROUTE-B5F832F3",
       "path": "/hub/latin-america",
       "type": "Detected Link",
       "anchor_text": "Latin America",
@@ -783,7 +716,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8F730CB1",
+      "route_id": "ROUTE-74EBBC48",
       "path": "/hub/europe",
       "type": "Detected Link",
       "anchor_text": "Europe",
@@ -794,7 +727,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7A38C79A",
+      "route_id": "ROUTE-6388F2A3",
       "path": "/hub/africa",
       "type": "Detected Link",
       "anchor_text": "Africa",
@@ -805,10 +738,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-22CD82C3",
-      "path": "/article/denmark-greenland-trump-bessent-davos-ab05ebfaae6a413d1f8125cb9726a4c5",
+      "route_id": "ROUTE-99AF642E",
+      "path": "/live/artemis-ii-launch-nasa-moon-rocket",
       "type": "Detected Link",
-      "anchor_text": "Trump's Greenland threats spark outrage from EU and test longtime NATO alliance",
+      "anchor_text": "LIVE&nbsp;Highlights: Artemis II astronauts reach orbit on historic mission to the moon",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -816,10 +749,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-74C46248",
-      "path": "/article/davos-greenland-trump-macron-newsom-wef-leyen-ee1791fd72153cef9bd428e2d37cc354",
+      "route_id": "ROUTE-44CB7C61",
+      "path": "/article/iran-us-israel-trump-lebanon-april-1-2026-19cf516c2d2c614eb182dbad7a6592ef",
       "type": "Detected Link",
-      "anchor_text": "In their words: Trump’s threats over Greenland draw warnings and profanities at global forum",
+      "anchor_text": "Trump says US forces will 'finish the job' soon in first prime-time speech since starting Iran war",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -827,10 +760,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7C07B8DD",
-      "path": "/article/trump-macron-greenland-rutte-nato-82b855f0acd7d1a1d28cfa91acf66131",
+      "route_id": "ROUTE-C25813EE",
+      "path": "/article/germany-humpback-whale-stranded-baltic-0ed5f3e135ec29601897dda122339321",
       "type": "Detected Link",
-      "anchor_text": "Despite Greenland, France's Macron and NATO's head make nice with Trump behind the scenes",
+      "anchor_text": "Rescuers give up hope for the humpback whale stranded in the Baltic Sea",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -838,7 +771,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A5C04522",
+      "route_id": "ROUTE-AD79F43F",
       "path": "/newsletters",
       "type": "Detected Link",
       "anchor_text": "See All Newsletters",
@@ -849,7 +782,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ABE52B04",
+      "route_id": "ROUTE-61FB8011",
       "path": "/hub/immigration",
       "type": "Detected Link",
       "anchor_text": "Immigration",
@@ -860,7 +793,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E2256EFD",
+      "route_id": "ROUTE-A3BFFE43",
       "path": "/hub/weather",
       "type": "Detected Link",
       "anchor_text": "Weather",
@@ -871,7 +804,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2436F6E3",
+      "route_id": "ROUTE-584474F4",
       "path": "/education",
       "type": "Detected Link",
       "anchor_text": "Education",

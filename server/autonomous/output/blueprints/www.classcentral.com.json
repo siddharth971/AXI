@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-184B76A4",
-  "generated_at": "2026-01-21T07:26:54.402Z",
+  "generated_at": "2026-04-02T04:24:17.084Z",
   "global_configuration": {
     "brand_name": "Class Central • Find the best courses, wherever they exist.",
     "domain": "www.classcentral.com",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 65,
+      "total_files": 67,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -43,44 +43,44 @@
         "full_url": "https://www.classcentral.com/webpack/analytics.d5861c5a58d8f789caec.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
-        "path": "/images/best-courses/mini-banner-best-of-all-time.png",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/best-courses/mini-banner-best-of-all-time.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/best-courses/mini-banner-best-of-all-time.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/best-courses/mini-banner-best-of-all-time.png"
       },
       {
-        "path": "/images/best-courses/mini-banner-most-popular-of-all-time.png",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/best-courses/mini-banner-most-popular-of-all-time.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/best-courses/mini-banner-most-popular-of-all-time.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/best-courses/mini-banner-most-popular-of-all-time.png"
       },
       {
-        "path": "/images/collections/collection-ivy-league-moocs-social.jpg",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-ivy-league-moocs-social.jpg",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/collections/collection-ivy-league-moocs-social.jpg"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-ivy-league-moocs-social.jpg"
       },
       {
-        "path": "/images/collections/collection-coursera-free-courses.png",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-coursera-free-courses.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/collections/collection-coursera-free-courses.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-coursera-free-courses.png"
       },
       {
-        "path": "/images/collections/collection-free-certificates.png",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-free-certificates.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/collections/collection-free-certificates.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-free-certificates.png"
       },
       {
-        "path": "/images/collections/collection-google-certs.png",
+        "path": "/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-google-certs.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/collections/collection-google-certs.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=420,format=auto,quality=30,blur=50/images/collections/collection-google-certs.png"
       },
       {
-        "path": "/report/wp-content/uploads/2026/01/class-central-printable-calendar-banner.png.png",
+        "path": "/cdn-cgi/image/format=auto,quality=85/report/wp-content/uploads/2026/03/David-Joyner-Third-Space-Banner.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2026/01/class-central-printable-calendar-banner.png.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/format=auto,quality=85/report/wp-content/uploads/2026/03/David-Joyner-Third-Space-Banner.png"
       },
       {
         "path": "/images/lists/list-empty.png",
@@ -88,14 +88,9 @@
         "full_url": "https://www.classcentral.com/images/lists/list-empty.png"
       },
       {
-        "path": "/images//illustrations/homepage-hero/hero-new-year.png",
+        "path": "/images/illustrations/homepage-hero/hero-default.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images//illustrations/homepage-hero/hero-new-year.png"
-      },
-      {
-        "path": "/images/promobar/deal.svg",
-        "type": "image",
-        "full_url": "https://www.classcentral.com/images/promobar/deal.svg"
+        "full_url": "https://www.classcentral.com/images/illustrations/homepage-hero/hero-default.png"
       },
       {
         "path": "/images/logos/providers/class-central-trn-sq.png",
@@ -116,11 +111,6 @@
         "path": "/images/logos/institutions/google-trn-sq.png",
         "type": "image",
         "full_url": "https://www.classcentral.com/images/logos/institutions/google-trn-sq.png"
-      },
-      {
-        "path": "/images/logos/providers/codesignal-sq.png",
-        "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/codesignal-sq.png"
       },
       {
         "path": "/images/icon-personal-development.png",
@@ -153,174 +143,189 @@
         "full_url": "https://www.classcentral.com/images/logos/providers/corporate-finance-institute-trn-sq.png"
       },
       {
-        "path": "/images/illustrations/homepage-discover-01.png",
+        "path": "/cdn-cgi/image/height=650,format=auto,quality=30,blur=50/images/illustrations/homepage-discover-01.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/illustrations/homepage-discover-01.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/height=650,format=auto,quality=30,blur=50/images/illustrations/homepage-discover-01.png"
       },
       {
-        "path": "/images/logos/institutions/harvard-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/harvard-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/harvard-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/harvard-sq.png"
       },
       {
-        "path": "/images/logos/institutions/yale-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/yale-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/yale-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/yale-sq.png"
       },
       {
-        "path": "/images/logos/institutions/iit-kharagpur-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/iit-kharagpur-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/iit-kharagpur-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/iit-kharagpur-sq.png"
       },
       {
-        "path": "/images/logos/institutions/mit-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/mit-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/mit-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/mit-sq.png"
       },
       {
-        "path": "/images/logos/institutions/rice-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/rice-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/rice-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/rice-sq.png"
       },
       {
-        "path": "/images/logos/institutions/iitm-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/iitm-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/iitm-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/iitm-sq.png"
       },
       {
-        "path": "/images/logos/institutions/columbia-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/columbia-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/columbia-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/columbia-sq.png"
       },
       {
-        "path": "/images/logos/institutions/cornell-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/cornell-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/cornell-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/cornell-sq.png"
       },
       {
-        "path": "/images/logos/institutions/edinburgh-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/edinburgh-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/edinburgh-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/edinburgh-sq.png"
       },
       {
-        "path": "/images/logos/institutions/purdue-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/purdue-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/purdue-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/purdue-sq.png"
       },
       {
-        "path": "/images/logos/institutions/penn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/penn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/penn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/penn-sq.png"
       },
       {
-        "path": "/images/logos/institutions/duke-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/duke-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/duke-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/duke-sq.png"
       },
       {
-        "path": "/images/logos/institutions/umich-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/umich-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/umich-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/umich-sq.png"
       },
       {
-        "path": "/images/logos/institutions/tou-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/tou-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/tou-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/tou-sq.png"
       },
       {
-        "path": "/images/logos/providers/udacity-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/coursera-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/udacity-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/coursera-trn-sq.png"
       },
       {
-        "path": "/images/logos/providers/linkedin-learning-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/udacity-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/linkedin-learning-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/udacity-trn-sq.png"
       },
       {
-        "path": "/images/logos/providers/noble-desktop-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/edx-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/noble-desktop-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/edx-trn-sq.png"
       },
       {
-        "path": "/images/logos/providers/freecodecamp-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/noble-desktop-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/freecodecamp-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/noble-desktop-trn-sq.png"
       },
       {
-        "path": "/images/logos/providers/codesignal-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/freecodecamp-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/codesignal-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/freecodecamp-trn-sq.png"
       },
       {
-        "path": "/images/logos/providers/boot-dev-trn-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/codesignal-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/providers/boot-dev-trn-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/codesignal-trn-sq.png"
       },
       {
-        "path": "/images/logos/institutions/google-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/boot-dev-trn-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/google-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/providers/boot-dev-trn-sq.png"
       },
       {
-        "path": "/images/logos/institutions/amazon-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/google-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/amazon-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/google-sq.png"
       },
       {
-        "path": "/images/logos/institutions/microsoft-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/amazon-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/microsoft-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/amazon-sq.png"
       },
       {
-        "path": "/images/logos/institutions/ibm-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/microsoft-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/ibm-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/microsoft-sq.png"
       },
       {
-        "path": "/images/logos/institutions/smithsonian-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/ibm-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/smithsonian-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/ibm-sq.png"
       },
       {
-        "path": "/images/logos/institutions/united-nations-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/smithsonian-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/united-nations-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/smithsonian-sq.png"
       },
       {
-        "path": "/images/logos/institutions/nptel-sq.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/united-nations-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/images/logos/institutions/nptel-sq.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/united-nations-sq.png"
       },
       {
-        "path": "/report/wp-content/uploads/2025/01/2026CS50DavidMalan.png",
+        "path": "/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/nptel-sq.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2025/01/2026CS50DavidMalan.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=50,height=50,format=auto,quality=30,blur=50/images/logos/institutions/nptel-sq.png"
       },
       {
-        "path": "/report/wp-content/uploads/2023/12/bcg_unity_banner.png",
+        "path": "/images/best-courses/mini-banner-best-of-all-time.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2023/12/bcg_unity_banner.png"
+        "full_url": "https://www.classcentral.com/images/best-courses/mini-banner-best-of-all-time.png"
       },
       {
-        "path": "/report/wp-content/uploads/2023/11/bcg_investment_banner.png",
+        "path": "/images/best-courses/mini-banner-most-popular-of-all-time.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2023/11/bcg_investment_banner.png"
+        "full_url": "https://www.classcentral.com/images/best-courses/mini-banner-most-popular-of-all-time.png"
       },
       {
-        "path": "/report/wp-content/uploads/2026/01/bcg-frankenphp-banner.png",
+        "path": "/cdn-cgi/image/width=375,format=auto,quality=30,blur=50/report/wp-content/uploads/2026/03/mire-acquires-reforge-banner.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2026/01/bcg-frankenphp-banner.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=375,format=auto,quality=30,blur=50/report/wp-content/uploads/2026/03/mire-acquires-reforge-banner.png"
       },
       {
-        "path": "/report/wp-content/uploads/2023/12/bcg_sales_banner.png",
+        "path": "/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2023/02/DaVinci-Resolve-BCG-Banner.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2023/12/bcg_sales_banner.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2023/02/DaVinci-Resolve-BCG-Banner.png"
       },
       {
-        "path": "/report/wp-content/uploads/2026/01/bcg-pyspark-banner.png",
+        "path": "/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2023/02/Digital-Art-BCG-Banner.png",
         "type": "image",
-        "full_url": "https://www.classcentral.com/report/wp-content/uploads/2026/01/bcg-pyspark-banner.png"
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2023/02/Digital-Art-BCG-Banner.png"
+      },
+      {
+        "path": "/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2022/05/Figma-Banner-2.png",
+        "type": "image",
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2022/05/Figma-Banner-2.png"
+      },
+      {
+        "path": "/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2026/03/bcg-ai-video-generation-banner.png",
+        "type": "image",
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2026/03/bcg-ai-video-generation-banner.png"
+      },
+      {
+        "path": "/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2024/02/bcg_ms_project_banner.png",
+        "type": "image",
+        "full_url": "https://www.classcentral.com/cdn-cgi/image/width=300,format=auto,quality=30,blur=50/report/wp-content/uploads/2024/02/bcg_ms_project_banner.png"
       },
       {
         "path": "/images/collections/collection-big-tech-free-courses.png",
@@ -341,6 +346,11 @@
         "path": "/images/collections/collection-microcredentials-social.png",
         "type": "image",
         "full_url": "https://www.classcentral.com/images/collections/collection-microcredentials-social.png"
+      },
+      {
+        "path": "/images/collections/collection-ivy-league-moocs-social.jpg",
+        "type": "image",
+        "full_url": "https://www.classcentral.com/images/collections/collection-ivy-league-moocs-social.jpg"
       },
       {
         "path": "/images/collections/collection-most-popular-all-time-social.png",
@@ -368,7 +378,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "10658ms"
+          "latency": "3167ms"
         },
         {
           "resource": "js",
@@ -402,7 +412,7 @@
           },
           {
             "tag": "p",
-            "text": "Track your study streaks, set monthly goals, and maybe win $50."
+            "text": "Online learning can be more than content delivery. It can be where community happens."
           },
           {
             "tag": "h5",
@@ -426,19 +436,15 @@
           },
           {
             "tag": "p",
-            "text": "Psychology"
+            "text": "Finance"
           },
           {
             "tag": "p",
-            "text": "Data Analysis"
+            "text": "Communication Skills"
           },
           {
             "tag": "p",
-            "text": "Machine Learning"
-          },
-          {
-            "tag": "p",
-            "text": "Becoming a changemaker: Introduction to Social Innovation"
+            "text": "Generative AI"
           },
           {
             "tag": "p",
@@ -446,7 +452,11 @@
           },
           {
             "tag": "p",
-            "text": "Six Sigma Part 1: Define and Measure"
+            "text": "What is a Mind?"
+          },
+          {
+            "tag": "p",
+            "text": "Transport Systems: Global Issues and Future Innovations"
           },
           {
             "tag": "p",
@@ -493,6 +503,22 @@
             "text": "5M sign-ups"
           },
           {
+            "tag": "p",
+            "text": "10,236 sign ups in the past 7 days"
+          },
+          {
+            "tag": "p",
+            "text": "30,898 follows in the past 7 days"
+          },
+          {
+            "tag": "p",
+            "text": "36,486 courses bookmarked in the past 7 days"
+          },
+          {
+            "tag": "p",
+            "text": "9,558 lists created in the past 7 days"
+          },
+          {
             "tag": "h2",
             "text": "Get the latest news and analysis in online education."
           },
@@ -502,39 +528,39 @@
           },
           {
             "tag": "h3",
-            "text": "Harvard CS50 in 2026: How to Get a Free Certificate"
+            "text": "Miro Acquires Reforge: This Is Not an Edtech Deal"
           },
           {
             "tag": "h3",
-            "text": "Introducing the Free Class Central Learner Calendar"
+            "text": "Digital Education as a Third Place"
           },
           {
             "tag": "h3",
-            "text": "272K Courses, 908M Enrollments: Breaking Down Udemy’s Massive Catalog"
+            "text": "UpGrad to Acquire Unacademy, Once a $3.5B Unicorn, in a Share Swap Deal"
           },
           {
             "tag": "h3",
-            "text": "Duolingo Announces CFO Resignation with Preliminary Q4 2025 Results, Stock Falls 8%"
+            "text": "Massive List of Chinese Online Course Platforms in 2026"
           },
           {
             "tag": "h3",
-            "text": "30+ New Year Discounts &amp; Online Learning Deals"
+            "text": "Udemy Q4 2025: First Profitable Year Ends in a Loss"
           },
           {
             "tag": "h3",
-            "text": "The Babel fish is almost here—is education ready?"
+            "text": "Duolingo’s Q4 2025: Record Revenue, Record Stock Drop, One Massive Buyback"
           },
           {
             "tag": "h3",
-            "text": "Learn English as a Second Language (ESL) with Hundreds of Courses &amp; Sites"
+            "text": "Education’s Hidden Value: What We Lose When AI Individualizes Learning"
           },
           {
             "tag": "h3",
-            "text": "CreativeLive is Live Again: CourseHorse Acquires Platform 15 Days Before Shutdown"
+            "text": "CreativeLive’s Live Classes Return with 30 Spring Classes"
           },
           {
             "tag": "h3",
-            "text": "Can an AI Teach AI? Learning From an Avatar"
+            "text": "Beginner’s Guide: University Accreditations in the US"
           },
           {
             "tag": "h3",
@@ -542,43 +568,43 @@
           },
           {
             "tag": "h2",
-            "text": "11 Best Unity Courses for 2026: Elevate Your Game"
+            "text": "9 Best DaVinci Resolve Courses (Free &amp; Paid) for 2026: Professional Post-Production"
           },
           {
             "tag": "p",
-            "text": "Elham Nazif Jan 20th, 2026"
+            "text": "Archisha Bhar Apr 1st, 2026"
           },
           {
             "tag": "h2",
-            "text": "6 Best Investment Courses for 2026: Invest Smart, Amass Wealth"
+            "text": "9 Best Digital Art Courses for 2026: (Free &amp; Paid): From Sketch to Screen"
           },
           {
             "tag": "p",
-            "text": "Fabio Dantas Jan 19th, 2026"
+            "text": "Archisha Bhar Apr 1st, 2026"
           },
           {
             "tag": "h2",
-            "text": "5 Best Free FrankenPHP Resources for 2026"
+            "text": "11 Best Figma Courses for 2026 (Free &amp; Paid): Create Collaborative Designs"
           },
           {
             "tag": "p",
-            "text": "Elham Nazif Jan 19th, 2026"
+            "text": "Fabio Dantas Mar 30th, 2026"
           },
           {
             "tag": "h2",
-            "text": "9 Best Sales Courses for 2026: Closing Successful Deals"
+            "text": "7 Best AI Video Generation Courses (Free &amp; Paid)"
           },
           {
             "tag": "p",
-            "text": "Fabio Dantas Jan 16th, 2026"
+            "text": "Archit Shukla Mar 27th, 2026"
           },
           {
             "tag": "h2",
-            "text": "9 Best PySpark Courses of 2026"
+            "text": "7 Best MS Project Courses for 2026 (Free &amp; Paid): Plan, Execute, and Succeed"
           },
           {
             "tag": "p",
-            "text": "Naveena Merin Vinny Jan 16th, 2026"
+            "text": "Fabio Dantas Mar 27th, 2026"
           },
           {
             "tag": "h2",
@@ -598,14 +624,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 154,
+          "paragraphs": 158,
           "headings": 29,
-          "images": 66
+          "images": 64
         }
       }
     },
     {
-      "route_id": "ROUTE-BE278D42",
+      "route_id": "ROUTE-6E251835",
       "path": "/subjects",
       "type": "Detected Link",
       "anchor_text": "View all",
@@ -616,7 +642,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AB1C5001",
+      "route_id": "ROUTE-2C116FB9",
       "path": "/universities",
       "type": "Detected Link",
       "anchor_text": "1000+ universities",
@@ -627,10 +653,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-20A40E48",
-      "path": "/report/best-unity-courses/",
+      "route_id": "ROUTE-CB19C248",
+      "path": "/report/best-davinci-resolve-courses/",
       "type": "Detected Link",
-      "anchor_text": "11 Best Unity Courses for 2026: Elevate Your Game",
+      "anchor_text": "9 Best DaVinci Resolve Courses (Free &amp; Paid) for 2026: Professional Post-Production",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -638,10 +664,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EC9DBA8D",
-      "path": "/report/cs50-free-certificate/",
+      "route_id": "ROUTE-D09C89A9",
+      "path": "/report/best-digital-art-courses/",
       "type": "Detected Link",
-      "anchor_text": "Harvard CS50 in 2026: How to Get a Free Certificate",
+      "anchor_text": "9 Best Digital Art Courses for 2026: (Free &amp; Paid): From Sketch to Screen",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -649,10 +675,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-98645935",
-      "path": "/report/best-investment-courses/",
+      "route_id": "ROUTE-1F1C9DD2",
+      "path": "/report/hobby-courses-online/",
       "type": "Detected Link",
-      "anchor_text": "6 Best Investment Courses for 2026: Invest Smart, Amass Wealth",
+      "anchor_text": "From Guitar to Gardening to Chess: Thousands of Free and Paid Online Courses for Every Hobby",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -660,10 +686,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3E69E683",
-      "path": "/report/best-frankenphp-courses/",
+      "route_id": "ROUTE-3AD6E115",
+      "path": "/report/miro-acquires-reforge/",
       "type": "Detected Link",
-      "anchor_text": "5 Best Free FrankenPHP Resources for 2026",
+      "anchor_text": "Miro Acquires Reforge: This Is Not an Edtech Deal",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -671,10 +697,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E700D509",
-      "path": "/report/best-sales-courses/",
+      "route_id": "ROUTE-DB566E92",
+      "path": "/report/free-developer-it-certifications/",
       "type": "Detected Link",
-      "anchor_text": "9 Best Sales Courses for 2026: Closing Successful Deals",
+      "anchor_text": "[2026] 2000+ Free Developer and IT Certifications",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -682,7 +708,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A65B6126",
+      "route_id": "ROUTE-456778BE",
       "path": "/lists",
       "type": "Detected Link",
       "anchor_text": "Lists Showcase",
@@ -693,7 +719,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A187BD5D",
+      "route_id": "ROUTE-5BF827FC",
       "path": "/login",
       "type": "Detected Link",
       "anchor_text": "Log in",
@@ -704,7 +730,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8F3B8FED",
+      "route_id": "ROUTE-EF8E5046",
       "path": "/report/feed/",
       "type": "Detected Link",
       "anchor_text": "RSS Feed",
@@ -715,29 +741,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E8F30147",
-      "path": "/report/author/manoel/",
-      "type": "Detected Link",
-      "anchor_text": "By Manoel Cortes Mendez",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-5925A87C",
-      "path": "/report/author/dhawal/",
-      "type": "Detected Link",
-      "anchor_text": "By Dhawal Shah",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-125C1765",
+      "route_id": "ROUTE-4A50158E",
       "path": "/report/author/kanishka/",
       "type": "Detected Link",
       "anchor_text": "By Kanishka Nangare",
@@ -748,7 +752,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DADE71FB",
+      "route_id": "ROUTE-D6D35C51",
       "path": "/report/author/david-joyner/",
       "type": "Detected Link",
       "anchor_text": "By David Joyner",
@@ -759,10 +763,32 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B4A92B07",
-      "path": "/report/author/pat-bowden/",
+      "route_id": "ROUTE-ACAD7ADC",
+      "path": "/report/author/ruima/",
       "type": "Detected Link",
-      "anchor_text": "By Pat Bowden",
+      "anchor_text": "By Rui Ma",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B099BDE0",
+      "path": "/report/author/team/",
+      "type": "Detected Link",
+      "anchor_text": "By Class Central Team",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A4F51A0E",
+      "path": "/report/author/manoel/",
+      "type": "Detected Link",
+      "anchor_text": "By Manoel Cortes Mendez",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

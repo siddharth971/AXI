@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-54EF456A",
-  "generated_at": "2026-01-21T07:27:12.106Z",
+  "generated_at": "2026-04-02T04:24:30.469Z",
   "global_configuration": {
     "brand_name": "World History Commons",
     "domain": "worldhistorycommons.org",
@@ -47,7 +47,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "795ms"
+          "latency": "3143ms"
         },
         {
           "resource": "js_Lcprli8ygt5Dnl3NqlUnIEVYhadiTy1KyrNJVs2Krsk.js",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "route_id": "ROUTE-9B05D62E",
+      "route_id": "ROUTE-0ACEABFD",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -107,7 +107,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AF71277B",
+      "route_id": "ROUTE-68936EA1",
       "path": "/primary-sources",
       "type": "Detected Link",
       "anchor_text": "Sources",
@@ -118,7 +118,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BF937017",
+      "route_id": "ROUTE-B7F0CF4F",
       "path": "/teaching",
       "type": "Detected Link",
       "anchor_text": "Teaching",
@@ -129,7 +129,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EE5368AC",
+      "route_id": "ROUTE-497FC053",
       "path": "/method",
       "type": "Detected Link",
       "anchor_text": "Methods",
@@ -140,7 +140,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CEB26A40",
+      "route_id": "ROUTE-166C1E43",
       "path": "/website-reviews",
       "type": "Detected Link",
       "anchor_text": "Reviews",
@@ -151,7 +151,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-931EAC36",
+      "route_id": "ROUTE-70BC5E4A",
       "path": "/guide-using-world-history-commons",
       "type": "Detected Link",
       "anchor_text": "this guide",
@@ -162,7 +162,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FA287ECA",
+      "route_id": "ROUTE-05C0FF0E",
       "path": "/community-college-video-guides",
       "type": "Detected Link",
       "anchor_text": "video guides",
@@ -173,7 +173,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5125F782",
+      "route_id": "ROUTE-340BB2FE",
       "path": "/about",
       "type": "Detected Link",
       "anchor_text": "About",

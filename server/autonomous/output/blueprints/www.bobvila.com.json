@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-9ABED5F9",
-  "generated_at": "2026-01-21T07:27:04.992Z",
+  "generated_at": "2026-04-02T04:24:24.356Z",
   "global_configuration": {
     "brand_name": "Bob Vila",
     "domain": "www.bobvila.com",
@@ -23,14 +23,14 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 52,
+      "total_files": 50,
       "total_size_mb": 0
     },
     "core_assets": [
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.bobvila.com/_static/??-eJyFjsEOgjAQRH/IsmqCysH4LQU2dZuyYGcr4e8V9WC8eJpJ5mXyaJ5cN6qxGk2pBFGQcpLR+dYZw0QDeYAN1AuMIuguEBuzs2XiKmJDzw/RLpWese7xVjgvn6gG0b+QGyRkb/wN/1rBS7JrLm6WPvBL5N0qlBZdlnaVuQzn3fFwqpt9s63jA7hyUrM="
+        "full_url": "https://www.bobvila.com/_static/??-eJyFjsEOgjAQRH/IsiGaIAfjtxTY1G3Kgp0thL9X1IPx4mkmmZfJo3V2/aTGajSnEkRBykkm5ztnDBMN5AE20CAwiqBFIDZlZ9vMVcSBnh+ifSoDY9/jvXDePlGNon8hN0rI3vgb/rWCl2S3XNwqQ+CXyLtVKB36LN0ucx0vddOc2rY+1uf4ALhjUrE="
       },
       {
         "path": "/unified/wrapperMessagingWithoutDetection.js",
@@ -40,7 +40,7 @@
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.bobvila.com/_static/??/wp-content/client-mu-plugins/recurrent/dist/js/frontend.js,/wp-includes/js/dist/hooks.min.js?m=1768592902j"
+        "full_url": "https://www.bobvila.com/_static/??/wp-content/client-mu-plugins/recurrent/dist/js/frontend.js,/wp-includes/js/dist/hooks.min.js?m=1774991314j"
       },
       {
         "path": "/wp-includes/js/dist/i18n.min.js",
@@ -48,24 +48,14 @@
         "full_url": "https://www.bobvila.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
       },
       {
-        "path": "/wp-content/mu-plugins/wp-parsely-3.22/build/loader.js",
-        "type": "script",
-        "full_url": "https://www.bobvila.com/wp-content/mu-plugins/wp-parsely-3.22/build/loader.js?ver=ecf94842061bea03d54b"
-      },
-      {
-        "path": "/keys/bobvila.com/p.js",
-        "type": "script",
-        "full_url": "https://cdn.parsely.com/keys/bobvila.com/p.js?ver=3.22.0"
-      },
-      {
         "path": "/wp-content/themes/bobvila/js/app.js",
         "type": "script",
-        "full_url": "https://www.bobvila.com/wp-content/themes/bobvila/js/app.js?ver=1768592905"
+        "full_url": "https://www.bobvila.com/wp-content/themes/bobvila/js/app.js?ver=1774991319"
       },
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.bobvila.com/_static/??-eJyVjFsOQDAQAC+kFonXhziLPsI21Up3N7g9juBrPiYzcB7KpMguMpiAL9Qu6giyYiTIzkjOn7NIDJ6A0LrFUumpgJ/pnYRFOxVw3Vin633M+1T33dCOzVg1/gGqyjPB"
+        "full_url": "https://www.bobvila.com/_static/??-eJyVjEEKgCAQAD+ULVIgHaK3lIqtmIq7S/X76gmd5jDMwFmVLZl9ZrAJX6hDVE0SMBM0b6W1zzkkhkhA6PzqqI/Uwc/0LsKyeZUw7LyV630sx6yNGadJD3qMD6q5M74="
       },
       {
         "path": "/tag",
@@ -73,19 +63,9 @@
         "full_url": "https://btloader.com/tag?o=5150306120761344&amp;upapi=true&amp;ver=0.1"
       },
       {
-        "path": "/e-202604.js",
+        "path": "/e-202614.js",
         "type": "script",
-        "full_url": "https://stats.wp.com/e-202604.js"
-      },
-      {
-        "path": "/pushly-sdk.min.js",
-        "type": "script",
-        "full_url": "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=ekuuBeEP7xCHwmRnnRBFN6WFZAwfcAI2417v&amp;ver=6.9"
-      },
-      {
-        "path": "/recaptcha/api.js",
-        "type": "script",
-        "full_url": "https://www.google.com/recaptcha/api.js?render=6LfdItMqAAAAACmSV0A5xkcZQ-hsYi0pn6UPa0cf"
+        "full_url": "https://stats.wp.com/e-202614.js"
       },
       {
         "path": "/1025364/75187/ramp.js",
@@ -93,64 +73,74 @@
         "full_url": "https://cdn.intergient.com/1025364/75187/ramp.js"
       },
       {
-        "path": "/js/138113X1700762.skimlinks.js",
-        "type": "script",
-        "full_url": "https://s.skimresources.com/js/138113X1700762.skimlinks.js"
-      },
-      {
         "path": "/wp-content/uploads/2025/11/BV-Logo-2025.svg",
         "type": "image",
         "full_url": "https://www.bobvila.com/wp-content/uploads/2025/11/BV-Logo-2025.svg?quality=85"
       },
       {
-        "path": "/wp-content/uploads/2026/01/shutterstock_2562054465.jpg",
+        "path": "/wp-content/uploads/2026/03/april-must-do-plant-tree.jpeg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/shutterstock_2562054465.jpg?quality=85&#038;w=1535"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/april-must-do-plant-tree.jpeg?quality=85&#038;w=1200"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Home-Depot-Deals.jpg",
+        "path": "/wp-content/uploads/2026/03/woman-vegetable-garden-AdobeStock_204601530.jpeg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Home-Depot-Deals.jpg?quality=85&#038;w=594"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/woman-vegetable-garden-AdobeStock_204601530.jpeg?quality=85&#038;w=594"
       },
       {
-        "path": "/wp-content/uploads/2026/01/shutterstock_2617574147.jpg",
+        "path": "/wp-content/uploads/2026/03/Ryobi-Spring-Rival-Sale.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/shutterstock_2617574147.jpg?quality=85&#038;w=704"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Ryobi-Spring-Rival-Sale.jpg?quality=85&#038;w=594"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Best-evaporative-humidifiers-group-1.jpg",
+        "path": "/wp-content/uploads/2026/03/IMG_0640-seed-starting-mistakes-lead-letpot.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/12/Best-evaporative-humidifiers-group-1.jpg?quality=85&#038;w=528"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/IMG_0640-seed-starting-mistakes-lead-letpot.jpg?quality=85&#038;w=594"
       },
       {
-        "path": "/wp-content/uploads/2022/03/tomato-plant-under-grow-light.jpeg",
+        "path": "/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Garde-Tools.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2022/03/tomato-plant-under-grow-light.jpeg?quality=85&#038;w=594"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Garde-Tools.jpg?quality=85&#038;w=594"
       },
       {
-        "path": "/wp-content/uploads/2018/02/how-to-test-for-mold_cabinet.jpg",
+        "path": "/vi/O0GI2QSQWYA/hqdefault.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2018/02/how-to-test-for-mold_cabinet.jpg?quality=85&#038;w=768"
+        "full_url": "https://i4.ytimg.com/vi/O0GI2QSQWYA/hqdefault.jpg"
       },
       {
-        "path": "/wp-content/uploads/2015/12/how-to-clean-a-glass-cooktop_feature.jpg",
+        "path": "/vi/Lfi9szEJYQo/hqdefault.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2015/12/how-to-clean-a-glass-cooktop_feature.jpg?quality=85&#038;w=768"
+        "full_url": "https://i1.ytimg.com/vi/Lfi9szEJYQo/hqdefault.jpg"
       },
       {
-        "path": "/wp-content/uploads/2013/03/how-to-clean-brass_feature.jpg",
+        "path": "/vi/hE_Nq3xikO8/hqdefault.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2013/03/how-to-clean-brass_feature.jpg?quality=85&#038;w=768"
+        "full_url": "https://i1.ytimg.com/vi/hE_Nq3xikO8/hqdefault.jpg"
       },
       {
-        "path": "/wp-content/uploads/2017/06/homemade-all-purpose-cleaner_feature.jpg",
+        "path": "/wp-content/uploads/2026/03/Best-Drain-Snake-.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2017/06/homemade-all-purpose-cleaner_feature.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Best-Drain-Snake-.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Amazon-Organization-Deals.jpg",
+        "path": "/wp-content/uploads/2026/04/Lawn-and-Garden-Awards-Garden-Edition.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Amazon-Organization-Deals.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/04/Lawn-and-Garden-Awards-Garden-Edition.jpg?quality=85&#038;w=768"
+      },
+      {
+        "path": "/wp-content/uploads/2026/04/Lawn-and-Garden-Awards-Lawn-Edition-2.jpg",
+        "type": "image",
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/04/Lawn-and-Garden-Awards-Lawn-Edition-2.jpg?quality=85&#038;w=768"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/how-to-clean-range-hood-filter_remove.jpg",
+        "type": "image",
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2024/09/how-to-clean-range-hood-filter_remove.jpg?quality=85&#038;w=768"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Amazon.jpg",
+        "type": "image",
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Amazon.jpg?quality=85&#038;w=768"
       },
       {
         "path": "/wp-content/uploads/2020/05/bob-apron.jpg",
@@ -158,94 +148,94 @@
         "full_url": "https://www.bobvila.com/wp-content/uploads/2020/05/bob-apron.jpg?quality=85"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Closet-Lighting-Smart-LED-strips1.jpg",
+        "path": "/wp-content/uploads/2026/03/Leatherman-Vault-2.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Closet-Lighting-Smart-LED-strips1.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Leatherman-Vault-2.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2020/06/The-Best-Home-Tool-Kit-Options-e1680190357866.jpeg",
+        "path": "/wp-content/uploads/2020/09/The-Best-Wood-Chisel-Options.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2020/06/The-Best-Home-Tool-Kit-Options-e1680190357866.jpeg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2020/09/The-Best-Wood-Chisel-Options.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2020/11/The-Best-Smart-Light-Bulb-Options.jpg",
+        "path": "/wp-content/uploads/2024/05/post-hole-diggers-group.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2020/11/The-Best-Smart-Light-Bulb-Options.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2024/05/post-hole-diggers-group.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2018/10/best_closet_systems-1.jpg",
+        "path": "/wp-content/uploads/2020/03/The-Best-Backpack-Sprayer-Options.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2018/10/best_closet_systems-1.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2020/03/The-Best-Backpack-Sprayer-Options.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Duraflame-space-heater.jpg",
+        "path": "/wp-content/uploads/2024/11/Huepar-Laser-Level-action.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Duraflame-space-heater.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2024/11/Huepar-Laser-Level-action.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/BEST-FIREPROOF-SAFES01.jpg",
+        "path": "/wp-content/uploads/2026/03/Best-Heated-Gloves.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/BEST-FIREPROOF-SAFES01.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Best-Heated-Gloves.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2021/11/6-Glues-Can-Bond-Metal-to-a-Variety-of-Materials.jpg",
+        "path": "/wp-content/uploads/2026/03/Best-Grass-Seeds-Featured-.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2021/11/6-Glues-Can-Bond-Metal-to-a-Variety-of-Materials.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Best-Grass-Seeds-Featured-.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2025/12/BEST-SMART-THERMOSTATS1.jpg",
+        "path": "/wp-content/uploads/2026/03/Best-Shower-Cleaners-.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/12/BEST-SMART-THERMOSTATS1.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Best-Shower-Cleaners-.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2023/01/Makita-Cordless-Circular-Saw-Review-Cutting-Power.jpg",
+        "path": "/wp-content/uploads/2018/11/pilot-holes_feature.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2023/01/Makita-Cordless-Circular-Saw-Review-Cutting-Power.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2018/11/pilot-holes_feature.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/IMG_0085.jpg",
+        "path": "/wp-content/uploads/2026/03/diy-wire-shelf-covers-before-and-after.png",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/IMG_0085.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/diy-wire-shelf-covers-before-and-after.png?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Segway-Pre-order-deals.jpg",
+        "path": "/wp-content/uploads/2026/03/After_Basement-window-trim.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Segway-Pre-order-deals.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/After_Basement-window-trim.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2026/01/Lowes-Bathroom-Deals.jpg",
+        "path": "/wp-content/uploads/2026/03/AdobeStock_95143763-messy-garden-supplies.jpeg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/01/Lowes-Bathroom-Deals.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/AdobeStock_95143763-messy-garden-supplies.jpeg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2022/12/how-to-lock-a-door-without-a-lock_feature.jpg",
+        "path": "/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Cleaning.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2022/12/how-to-lock-a-door-without-a-lock_feature.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2026/03/Amazon-Big-Spring-Sale-Cleaning.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2025/01/Ryobi-40V-2222-Two-Stage-Cordless-Snow-Blower-.jpg",
+        "path": "/wp-content/uploads/2023/02/coconut-oil-uses_coconut-oil-jar.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/01/Ryobi-40V-2222-Two-Stage-Cordless-Snow-Blower-.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2023/02/coconut-oil-uses_coconut-oil-jar.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2025/12/Man-Shoveling-Snow-in-front-of-house.jpg",
+        "path": "/wp-content/uploads/2013/03/how-to-clean-brass_feature.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/12/Man-Shoveling-Snow-in-front-of-house.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2013/03/how-to-clean-brass_feature.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2025/12/featured-image-1.jpg",
+        "path": "/wp-content/uploads/2021/10/Toro-Leaf-Vacuum-Easy-to-Use.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/12/featured-image-1.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2021/10/Toro-Leaf-Vacuum-Easy-to-Use.jpg?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2025/12/shutterstock_2673454787.jpg",
+        "path": "/wp-content/uploads/2014/03/how-to-clean-window-screens-featured-image.png",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/12/shutterstock_2673454787.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2014/03/how-to-clean-window-screens-featured-image.png?quality=85&#038;w=768"
       },
       {
-        "path": "/wp-content/uploads/2020/02/The_Best_Roof_Rakes.jpg",
+        "path": "/wp-content/uploads/2025/10/how-to-clean-icemaker-feature.jpg",
         "type": "image",
-        "full_url": "https://www.bobvila.com/wp-content/uploads/2020/02/The_Best_Roof_Rakes.jpg?quality=85&#038;w=768"
+        "full_url": "https://www.bobvila.com/wp-content/uploads/2025/10/how-to-clean-icemaker-feature.jpg?quality=85&#038;w=768"
       },
       {
         "path": "/wp-content/uploads/2024/04/glenda-taylor.png",
@@ -303,7 +293,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "7220ms"
+          "latency": "1566ms"
         },
         {
           "resource": "_static",
@@ -341,15 +331,27 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> Search for: Search for: Interior Attics Basements Bathrooms Bedrooms Cleaning Doors Flooring Home Safety Home Technology Heating &amp; Cooling Pests Kitchen &amp; Dining Lighting &amp; Electrical Paints &amp; Finishes Plumbing Storage Walls &amp; Ceilings Exterior Curb Appeal Deck, Patio &amp; Porch Driveways &amp; Walkways Energy &amp; Power Entryways Foundations Garages Gutters Home Security Pools &amp; Water Features Roofing Sheds &amp; ADUs Siding Windows Lawn &amp; Garden Fences Gardening Landscaping Lawn Care Outdoor Living Wildlife DIY Bathroom Remodeling Building &amp; Installing Cleaning &amp; Organizing Easy DIY Projects Furniture &amp; Design Kitchen Remodeling Lawn Care &amp; Gardening Painting &amp; Finishing Pest Control Repair &amp; Maintenance Repurposing Skills &amp; Techniques Tools Reviews Appliances &amp; Cookware Bath Fixtures &amp; Fittings Bob Vila Approved Cleaning Supplies Clothing &amp; Gear Deals Everyday Essentials Furniture &amp; Decor Gifts Grills Home Services Lawn, Garden &amp; Pool Major Systems Safety &amp; Security Storage &amp; Organizing Tech &amp; Electronics Tools &amp; Materials Design Architecture Green Building &amp; Remodeling Holidays &amp; Celebrations Interior Design People &amp; Places Real Estate Buying Home Finance Home Insurance Home Warranties Moving More About Bob Vila Latest Newsletters Editorial Standards How We Review Products Advertise Contact Shop Bob Vila. Tried, True, Trustworthy Home Advice. Interior Design 6 Decorating Mistakes That Can Make a Room Feel Smaller Buying the right furniture, rugs, and curtains can make your home feel more spacious than it is."
+            "text": "The Complete Spring Cleaning Guide for Your Home 🫧"
           },
           {
             "tag": "p",
-            "text": "By Sandi Schwartz"
+            "text": "svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> Search for: Search for: Interior Attics Basements Bathrooms Bedrooms Cleaning Doors Flooring Home Safety Home Technology Heating &amp; Cooling Pests Kitchen &amp; Dining Lighting &amp; Electrical Paints &amp; Finishes Plumbing Storage Walls &amp; Ceilings Exterior Curb Appeal Deck, Patio &amp; Porch Driveways &amp; Walkways Energy &amp; Power Entryways Foundations Garages Gutters Home Security Pools &amp; Water Features Roofing Sheds &amp; ADUs Siding Windows Lawn &amp; Garden Fences Gardening Landscaping Lawn Care Outdoor Living Wildlife DIY Bathroom Remodeling Building &amp; Installing Cleaning &amp; Organizing Easy DIY Projects Furniture &amp; Design Kitchen Remodeling Lawn Care &amp; Gardening Painting &amp; Finishing Pest Control Repair &amp; Maintenance Repurposing Skills &amp; Techniques Tools Reviews Appliances &amp; Cookware Bath Fixtures &amp; Fittings Bob Vila Approved Cleaning Supplies Clothing &amp; Gear Deals Everyday Essentials Furniture &amp; Decor Gifts Grills Home Services Lawn, Garden &amp; Pool Major Systems Safety &amp; Security Storage &amp; Organizing Tech &amp; Electronics Tools &amp; Materials Design Architecture Green Building &amp; Remodeling Holidays &amp; Celebrations Interior Design People &amp; Places Real Estate Buying Home Finance Home Insurance Home Warranties Moving More About Bob Vila Latest Newsletters Editorial Standards How We Review Products Advertise Contact Shop Bob Vila. Tried, True, Trustworthy Home Advice. Painting &amp; Finishing 10 &#8220;Must Do&#8221; Home Projects for April Showering your property with TLC in April yields a blooming, beautiful property in May and beyond. These are the tasks on our to-do list this month."
+          },
+          {
+            "tag": "p",
+            "text": "By BobVila.com Staff"
           },
           {
             "tag": "h3",
-            "text": "Home Depot Is Clearing Out Power Tools for the New Year: Save Over 50% on DeWalt, Ridgid, Ryobi, and More"
+            "text": "Grow These 10 Vegetables, Fruits and Herbs to Get the Quickest Garden Harvest"
+          },
+          {
+            "tag": "p",
+            "text": "By Heather Blackmore , Updated by Teresa Odle"
+          },
+          {
+            "tag": "h3",
+            "text": "Home Depot Dropped Ryobi Deals That Beat Amazon&#8217;s Big Spring Event—Up to 55% Off Tools and Outdoor Power Gear"
           },
           {
             "tag": "p",
@@ -357,71 +359,63 @@
           },
           {
             "tag": "h3",
-            "text": "Why I’ll Never Be a Fan of Maximalism"
+            "text": "5 Seed-Starting Mistakes Most New Gardeners Make—and How to Avoid Them"
           },
           {
             "tag": "p",
-            "text": "By Sandi Schwartz"
+            "text": "By Debbie Wolfe"
+          },
+          {
+            "tag": "p",
+            "text": "Presented By LetPot"
           },
           {
             "tag": "h3",
-            "text": "The Best Evaporative Humidifiers for Combating Dry Air"
+            "text": "Amazon Is Clearing Out Garden Tools for Its Big Spring Sale—Save Up to 57% Off Fiskars, Sun Joe, and More"
           },
           {
             "tag": "p",
-            "text": "By Michelle Larson , Tony Carrick"
-          },
-          {
-            "tag": "h3",
-            "text": "7 Signs Your Plants Could Really Use a Grow Light"
-          },
-          {
-            "tag": "p",
-            "text": "By Gretchen Heber"
+            "text": "By Glenda Taylor"
           },
           {
             "tag": "h2",
-            "text": "Cleaning &amp; Organizing"
-          },
-          {
-            "tag": "h3",
-            "text": "How to Test Your Home for Mold"
+            "text": "Video"
           },
           {
             "tag": "p",
-            "text": "Where should you look for mold in your home, and how do you conduct an at-home mold test? Follow these steps to get accurate results."
+            "text": "Ask The Team: How to Brighten Up an Oxidized Patio Table, Our Plaster of Paris Recipe, and More The Very Best Cordless Drills You Can Buy | How We Test Want to Build Your Own Sawhorse? Here&#039;s a Project Plan For You Featured Plumbing Supplies The Best Drain Snakes for Clogged Showers, Bathtubs, and Sinks Banish blockages in sinks, tubs, showers, and more with the right drain snake for the task."
           },
           {
             "tag": "p",
-            "text": "By Deirdre Mundorf , Glenda Taylor , Bob Vila , Evelyn Auer , Updated by Paul Rankin"
+            "text": "By Tony Carrick , Michelle Ullman , Timothy Dale"
           },
           {
             "tag": "h3",
-            "text": "This is How to Get Your Glass Cooktop Cleaner Than It&#8217;s Ever Been"
+            "text": "15 Garden Tools Tough Enough to Haul Bricks, Pull Weeds, and Last for Seasons"
           },
           {
             "tag": "p",
-            "text": "By Manasa Reddigari , Donna Boyle Schwartz"
+            "text": "By Michelle Larson"
           },
           {
             "tag": "h3",
-            "text": "How to Clean Brass"
+            "text": "15 Lawn Tools That Mowed, Mulched, and Edged Their Way to the Top of Our Tests"
           },
           {
             "tag": "p",
-            "text": "By Donna Boyle Schwartz , Kelly Weimert"
+            "text": "By Michelle Larson"
           },
           {
             "tag": "h3",
-            "text": "How to Make Homemade All-Purpose Cleaner"
+            "text": "How to Remove Grease From a Kitchen Range Hood Filter"
           },
           {
             "tag": "p",
-            "text": "By Ayn Monique Klahre"
+            "text": "By Savannah Sher"
           },
           {
             "tag": "h3",
-            "text": "Amazon Is Clearing Out Organization Products for the New Year: 50+ Organization Deals With Prices Starting Under $10"
+            "text": "Amazon’s Big Spring Sale Drops Shark Appliances to Clearance-Level Pricing—Save Up to 60% on Vacuums, Mops, Robots, and More"
           },
           {
             "tag": "p",
@@ -449,99 +443,7 @@
           },
           {
             "tag": "h3",
-            "text": "The Best Closet Lighting"
-          },
-          {
-            "tag": "p",
-            "text": "By Paul Rankin"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Home Tool Kits for Any Task"
-          },
-          {
-            "tag": "p",
-            "text": "By Tony Carrick , Debbie Wolfe"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Smart Light Bulbs of 2026"
-          },
-          {
-            "tag": "p",
-            "text": "By Timothy Dale , Michelle Larson"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Closet Systems of 2026"
-          },
-          {
-            "tag": "p",
-            "text": "By Manasa Reddigari , Michelle Larson"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Space Heaters for Basements"
-          },
-          {
-            "tag": "p",
-            "text": "By Bob Beacham , Michelle Larson , Stacey L. Nash , Glenda Taylor , Mark Wolfe"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Fireproof Safes That Withstood Real-World Heat Tests"
-          },
-          {
-            "tag": "p",
-            "text": "By Paul Rankin , Stacey L. Nash , Jasmine Harding , Glenda Taylor"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Glues for Metal of 2026"
-          },
-          {
-            "tag": "p",
-            "text": "By Tony Carrick , Bob Beacham"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Smart Thermostats, According to Testing"
-          },
-          {
-            "tag": "p",
-            "text": "By Paul Rankin , Tony Carrick , Jasmine Harding , Glenda Taylor"
-          },
-          {
-            "tag": "h3",
-            "text": "12 Types of Saws Every DIYer Should Know"
-          },
-          {
-            "tag": "p",
-            "text": "Once you understand the right saw to use for the job, your next DIY project is sure to be a cut above the rest."
-          },
-          {
-            "tag": "p",
-            "text": "By Glenda Taylor , Bob Vila , Updated by Theresa Clement"
-          },
-          {
-            "tag": "h3",
-            "text": "I Added a Fountain to My Garden—Despite the Work, It’s Worth It"
-          },
-          {
-            "tag": "p",
-            "text": "By Sandi Schwartz"
-          },
-          {
-            "tag": "h3",
-            "text": "Segway Navimow Offers a Rare Discount on Its Newest Robotic Mowers—Pre-Order the X4 and i2 AWD and Save Up to $300"
-          },
-          {
-            "tag": "p",
-            "text": "By Stephanie Cronk"
-          },
-          {
-            "tag": "h3",
-            "text": "Lowe’s Bath Savings Event Brings Deep Discounts on Renovation-Ready Bathroom Fixtures: Save Up to 50% Off Vanities, Lights, Toilets, and More"
+            "text": "Leatherman&#8217;s Vault Is Open—Buy Rare, Sold-Out Garage Tools Starting at $30"
           },
           {
             "tag": "p",
@@ -549,11 +451,103 @@
           },
           {
             "tag": "h3",
-            "text": "12 Smart Ways to Lock a Door Without a Lock"
+            "text": "The Best Wood Chisels Tested by Experts"
           },
           {
             "tag": "p",
-            "text": "By Timothy Dale"
+            "text": "By James Fitzgerald , Chaunie Brusie"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Post Hole Diggers for Every Yard Project"
+          },
+          {
+            "tag": "p",
+            "text": "By Glenda Taylor"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Backpack Sprayers We Tested for Lawn and Garden Care"
+          },
+          {
+            "tag": "p",
+            "text": "By Mark Wolfe , Timothy Dale"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Laser Levels for Precision Work at Home and on the Job"
+          },
+          {
+            "tag": "p",
+            "text": "By Tom Scalisi , Mark Wolfe , Glenda Taylor"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Heated Gloves We Tested for Staying Warm in Cold Weather"
+          },
+          {
+            "tag": "p",
+            "text": "By Michelle Larson , Amber Guetebier , Glenda Taylor"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Grass Seed for Florida, Tested for Fast Growth and Density"
+          },
+          {
+            "tag": "p",
+            "text": "By Paul Rankin , Savannah Sher"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Shower Cleaners We Tested for a Spotless, Healthy Bathroom"
+          },
+          {
+            "tag": "p",
+            "text": "By Katie Barton , Deirdre Mundorf , Stacey L. Nash"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Drill a Pilot Hole in Wood"
+          },
+          {
+            "tag": "p",
+            "text": "The next time you need to screw or nail two pieces of wood together, first invest a few extra minutes in prepping the project with pilot holes. These surefire tips will help simplify the project and save your wood from damage."
+          },
+          {
+            "tag": "p",
+            "text": "By Michelle Ullman , Theresa Clement"
+          },
+          {
+            "tag": "h3",
+            "text": "DIYer Says “Goodbye” to Sterile Wire Shelving With This Easy Customization"
+          },
+          {
+            "tag": "p",
+            "text": "By Theresa Clement"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Trim Basement Windows"
+          },
+          {
+            "tag": "p",
+            "text": "By Theresa Clement"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Organize All Your Gardening Stuff, From Seeds and Pots to Stakes and Cages"
+          },
+          {
+            "tag": "p",
+            "text": "By Sandi Schwartz"
+          },
+          {
+            "tag": "h3",
+            "text": "Cleaning Products Are Up to 52% Off During Amazon&#8217;s Big Spring Sale—Save on Tide, Lysol, Dawn, and More"
+          },
+          {
+            "tag": "p",
+            "text": "By Glenda Taylor"
           },
           {
             "tag": "h2",
@@ -569,23 +563,71 @@
           },
           {
             "tag": "h2",
-            "text": "Snow &amp; Ice"
+            "text": "cleaning"
           },
           {
             "tag": "h3",
-            "text": "Our Favorite Snow Blowers That You Can Get the Fastest"
+            "text": "12 Ways Coconut Oil Can Help Clean and Maintain Your Home"
           },
           {
             "tag": "p",
-            "text": "Snow in the forecast? These tested tools are our favorites for clearing paths and driveways—and they&#8217;ll deliver or be ready for pickup within the week."
+            "text": "Coconut oil isn&#8217;t just a workhorse in the kitchen. It is also a multitasking wonder for fixes around the home."
           },
           {
             "tag": "p",
-            "text": "By Glenda Taylor , Tom Scalisi , Zach Lazzari"
+            "text": "By Andreana Lefton , Kat Hodgins"
           },
           {
             "tag": "h3",
-            "text": "How to Keep Warm When Working on Outdoor Winter Projects"
+            "text": "How to Clean Brass"
+          },
+          {
+            "tag": "p",
+            "text": "By Donna Boyle Schwartz , Kelly Weimert"
+          },
+          {
+            "tag": "h3",
+            "text": "The Best Leaf Vacuums for Yard Cleanup, Tested"
+          },
+          {
+            "tag": "p",
+            "text": "By Mark Wolfe , Glenda Taylor , Stacey L. Nash , Tony Carrick"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Clean Window Screens"
+          },
+          {
+            "tag": "p",
+            "text": "By Donna Boyle Schwartz , Bob Vila"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Clean an Ice Maker"
+          },
+          {
+            "tag": "p",
+            "text": "by Tony Carrick"
+          },
+          {
+            "tag": "h3",
+            "text": "20 Big Ideas for Organizing Small Closets"
+          },
+          {
+            "tag": "p",
+            "text": "By Manasa Reddigari , Eleanor Chalstrom"
+          },
+          {
+            "tag": "h3",
+            "text": "DIYers Uncover an Old House Treasure After Removing a Wall"
+          },
+          {
+            "tag": "p",
+            "text": "By Theresa Clement"
+          },
+          {
+            "tag": "h3",
+            "text": "Easy Indoor DIY Projects You Won’t Regret Doing This Winter"
           },
           {
             "tag": "p",
@@ -593,51 +635,19 @@
           },
           {
             "tag": "h3",
-            "text": "Prevent Slips and Falls This Winter with These Key Products"
+            "text": "Testing the Honeywell Home X8S Changed How I Answer the Door—It Streams Live Doorbell Video"
           },
           {
             "tag": "p",
-            "text": "By Sandi Schwartz"
+            "text": "By Paul Rankin"
           },
           {
             "tag": "h3",
-            "text": "The Best Outdoor Storage Solutions for Winter Gear, from Boots and Firewood to Snow Shovels and Blowers"
+            "text": "How Secure Is Your Sliding Glass Door?"
           },
           {
             "tag": "p",
-            "text": "By Sandi Schwartz"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Roof Rakes to Keep Your Home Safe from Heavy Snow, Tested"
-          },
-          {
-            "tag": "p",
-            "text": "By Glenda Taylor , Timothy Dale , Zach Lazzari"
-          },
-          {
-            "tag": "h3",
-            "text": "The Genius Way to Hang Christmas Lights On Your House This Year"
-          },
-          {
-            "tag": "p",
-            "text": "By Jenny Stanley"
-          },
-          {
-            "tag": "h3",
-            "text": "17 Home Updates You Can (and Should) Do in Winter"
-          },
-          {
-            "tag": "p",
-            "text": "By Theresa Clement , Jamie Birdwell-Branson"
-          },
-          {
-            "tag": "h3",
-            "text": "The Easiest Home Upgrades Are Hiding on Etsy"
-          },
-          {
-            "tag": "p",
-            "text": "By Kathleen Corlett"
+            "text": "By Paul Rankin"
           },
           {
             "tag": "h3",
@@ -649,23 +659,7 @@
           },
           {
             "tag": "h3",
-            "text": "10 Budget-Friendly Home Security Improvements You Can Make Yourself"
-          },
-          {
-            "tag": "p",
-            "text": "By Joe Provey , Bob Beacham"
-          },
-          {
-            "tag": "h3",
-            "text": "Amazon is Clearing Out Smart Home Devices at Clearance Pricing for Cyber Monday"
-          },
-          {
-            "tag": "p",
-            "text": "By Stephanie Cronk"
-          },
-          {
-            "tag": "h3",
-            "text": "The Best Houseplants to Gift This Holiday Season—Last-Minute Gifts That Arrive Before Christmas"
+            "text": "When and How to Fertilize Your Houseplants, No Matter the Type"
           },
           {
             "tag": "p",
@@ -673,43 +667,43 @@
           },
           {
             "tag": "h3",
-            "text": "Shop Our Wish List Items From the New LiveTrends Collection at Lowe&#8217;s"
+            "text": "These Are the Best Houseplants for Your South-Facing Windows"
           },
           {
             "tag": "p",
-            "text": "By Jenny Stanley"
+            "text": "By Lori Lovely"
           },
           {
             "tag": "h3",
-            "text": "This Is How I Overwinter My Tropical Plants—and Get Them to Bloom Indoors"
+            "text": "How to Grow Rosemary Indoors"
           },
           {
             "tag": "p",
-            "text": "By Audrey Stallsmith"
+            "text": "By Steph Coelho"
           },
           {
             "tag": "h3",
-            "text": "Amazon is Clearancing Power Banks for Last-Minute Holiday Gifts: Save 67% Off the Perfect Stocking Stuffer—Save on Anker, EcoFlow, and More"
+            "text": "Winter Blizzard Preparation—Retailers Are Stocked With Snow Blowers, Generators, and More Storm Essentials With Same-Day Delivery or Pickup"
           },
           {
             "tag": "p",
-            "text": "By Glenda Taylor"
+            "text": "By Stephanie Cronk"
           },
           {
             "tag": "h3",
-            "text": "Amazon Dropped This 13,000W DuroMax Generator to Its Lowest Price Yet for Cyber Monday"
+            "text": "Retailers Slash Prices on Power Tools, Generators, Home Security, and More Ahead of Presidents&#8217; Day: Save on DeWalt, Milwaukee, EcoFlow, and More"
           },
           {
             "tag": "p",
-            "text": "By Glenda Taylor"
+            "text": "By Stephanie Cronk"
           },
           {
             "tag": "h3",
-            "text": "Walmart Dropped Massive Cyber Monday Deals on Generators: Up to 74% Off"
+            "text": "Don’t Make These 15 Mistakes With Your Portable Generator"
           },
           {
             "tag": "p",
-            "text": "By Paul Rankin"
+            "text": "By Tony Carrick , Emma Caplan"
           },
           {
             "tag": "h4",
@@ -885,14 +879,25 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 110,
-          "headings": 59,
-          "images": 39
+          "paragraphs": 115,
+          "headings": 63,
+          "images": 42
         }
       }
     },
     {
-      "route_id": "ROUTE-2E5FF2CE",
+      "route_id": "ROUTE-F97D3580",
+      "path": "/spring-cleaning-guide/",
+      "type": "Detected Link",
+      "anchor_text": "The Complete Spring Cleaning Guide for Your Home 🫧",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0F527C54",
       "path": "/category/interior/",
       "type": "Detected Link",
       "anchor_text": "Interior",
@@ -903,7 +908,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C0981ABE",
+      "route_id": "ROUTE-902EE28A",
       "path": "/category/attics/",
       "type": "Detected Link",
       "anchor_text": "Attics",
@@ -914,7 +919,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EDC363F7",
+      "route_id": "ROUTE-5D875DE5",
       "path": "/category/basements/",
       "type": "Detected Link",
       "anchor_text": "Basements",
@@ -925,7 +930,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-35475CEF",
+      "route_id": "ROUTE-6766BA6F",
       "path": "/category/bathrooms/",
       "type": "Detected Link",
       "anchor_text": "Bathrooms",
@@ -936,7 +941,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-769CF6F4",
+      "route_id": "ROUTE-AF802C53",
       "path": "/category/bedrooms/",
       "type": "Detected Link",
       "anchor_text": "Bedrooms",
@@ -947,7 +952,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-317AA2A6",
+      "route_id": "ROUTE-C01785FA",
       "path": "/category/cleaning/",
       "type": "Detected Link",
       "anchor_text": "Cleaning",
@@ -958,7 +963,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-55439259",
+      "route_id": "ROUTE-7FD69E9A",
       "path": "/category/doors/",
       "type": "Detected Link",
       "anchor_text": "Doors",
@@ -969,7 +974,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E33750FA",
+      "route_id": "ROUTE-91E37E1F",
       "path": "/category/flooring/",
       "type": "Detected Link",
       "anchor_text": "Flooring",
@@ -980,7 +985,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B9D6606A",
+      "route_id": "ROUTE-81A006E0",
       "path": "/category/home-safety/",
       "type": "Detected Link",
       "anchor_text": "Home Safety",
@@ -991,7 +996,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-10B1A311",
+      "route_id": "ROUTE-C8DBC659",
       "path": "/category/home-technology/",
       "type": "Detected Link",
       "anchor_text": "Home Technology",
@@ -1002,7 +1007,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B70B3976",
+      "route_id": "ROUTE-5E28D4AA",
       "path": "/category/heating-cooling/",
       "type": "Detected Link",
       "anchor_text": "Heating &amp; Cooling",
@@ -1013,7 +1018,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-92EBBD73",
+      "route_id": "ROUTE-370D63A9",
       "path": "/category/pests/",
       "type": "Detected Link",
       "anchor_text": "Pests",
@@ -1024,7 +1029,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E989D4D9",
+      "route_id": "ROUTE-17996642",
       "path": "/category/kitchen-dining/",
       "type": "Detected Link",
       "anchor_text": "Kitchen &amp; Dining",
@@ -1035,21 +1040,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3CAE66AA",
+      "route_id": "ROUTE-239B7A5C",
       "path": "/category/lighting-electrical/",
       "type": "Detected Link",
       "anchor_text": "Lighting &amp; Electrical",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-F3357352",
-      "path": "/category/paints-finishes/",
-      "type": "Detected Link",
-      "anchor_text": "Paints &amp; Finishes",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

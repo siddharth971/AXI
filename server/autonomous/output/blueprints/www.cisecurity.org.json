@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-65759763",
-  "generated_at": "2026-01-22T08:23:52.617Z",
+  "generated_at": "2026-04-02T04:24:30.292Z",
   "global_configuration": {
     "brand_name": "CIS Center for Internet Security",
     "domain": "www.cisecurity.org",
@@ -17,7 +17,7 @@
     },
     "server_headers": {
       "Cache-Control": "public, stale-while-revalidate=60, stale-if-error=3600, max-age=300",
-      "Content-Security-Policy": "child-src blob:;form-action 'self' https://*.cisecurity.org;connect-src 'self' https://content.sitecore.prod.cisecurity.org https://*.litix.io https://*.wistia.com https://embedwistia-a.akamaihd.net https://api.glitch.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://pagead2.googlesyndication.com https://*.cookiebot.com https://www.google.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://px.ads.linkedin.com https://*.clarity.ms https://c.bing.com https://bat.bing.com https://*.amazon-adsystem.com https://*.wistia.net https://ara.paa-reporting-advertising.amazon https://logx.optimizely.com https://*.optimizely.com https://insight.adsrvr.org https://www.redditstatic.com https://pixel-config.reddit.com https://cisecurity.matomo.cloud https://connect.facebook.net https://www.facebook.com https://www.googleadservices.com;default-src 'self' https://*.wistia.com https://*.wistia.net;font-src 'self' data: https://*.wistia.com https://fonts.gstatic.com https://use.typekit.net https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://*.wistia.net;frame-src 'self' https://*.cookiebot.com https://www.youtube.com https://fast.wistia.com https://fast.wistia.net https://e.issuu.com https://resources.cisecurity.org https://optimize.google.com https://insight.adsrvr.org https://bid.g.doubleclick.net https://www.googletagmanager.com https://td.doubleclick.net https://*.hotjar.com https://match.adsrvr.org https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://*.amazon-adsystem.com https://a28546730169.cdn.optimizely.com https://a28546730169.cdn-pci.optimizely.com;img-src 'self' https://content.sitecore.prod.cisecurity.org https://i.ytimg.com data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net https://glitch.com https://cdn.glitch.com https://avatars0.githubusercontent.com https://*.google-analytics.com https://*.analytics.google.com https://googletagmanager.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://google.com https://pagead2.googlesyndication.com https://optimize.google.com https://www.diversityjobs.com https://*.welcomesoftware.com https://*.newscred.com https://s.amazon-adsystem.com https://analytics.twitter.com https://t.co https://px.ads.linkedin.com https://www.linkedin.com https://ps.eyeota.net https://*.hotjar.com https://ssl.gstatic.com https://www.gstatic.com https://p.adsymptotic.com https://ml314.com https://match.adsrvr.org https://insight.adsrvr.org https://dpm.demdex.net https://idsync.rlcdn.com https://sync.crwdcntrl.net https://tags.bluekai.com https://pixel.mathtag.com https://sync.mathtag.com https://ib.adnxs.com https://pixel.tapad.com https://d.turn.com https://api.retargetly.com https://i.liadm.com https://sync-tm.everesttech.net https://p.rfihub.com https://trc.taboola.com https://loadus.exelator.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://imgsct.cookiebot.com https://bat.bing.com https://cms.analytics.yahoo.com https://ups.analytics.yahoo.com https://*.clarity.ms https://c.bing.com https://cdn.optimizely.com https://us-u.openx.net https://alb.reddit.com https://www.facebook.com https://www.googleadservices.com;media-src 'self' blob: data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net;script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net https://code.jquery.com https://*.cookiebot.com https://googletagmanager.com https://tagmanager.google.com https://*.googletagmanager.com https://www.googleanalytics.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googleoptimize.com https://optimize.google.com https://www.googleadservices.com https://www.google.com https://pi.pardot.com https://*.hotjar.com https://tags.tiqcdn.com https://analytics.newscred.com https://js.adsrvr.org https://static.ads-twitter.com https://snap.licdn.com https://ml314.com https://googleads.g.doubleclick.net https://learn.cisecurity.org https://www.youtube.com https://www.gstatic.com https://*.wistia.com https://*.wistia.net https://src.litix.io https://button.glitch.me https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://bat.bing.com https://www.clarity.ms https://*.amazon-adsystem.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com https://static.cloudflareinsights.com https://www.redditstatic.com https://cdn.matomo.cloud https://connect.facebook.net;style-src 'self' 'unsafe-inline' blob: https://fast.wistia.com https://button.glitch.me https://optimize.google.com https://fonts.googleapis.com https://googletagmanager.com https://tagmanager.google.com https://p.typekit.net https://use.typekit.net https://www.youtube.com https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org;worker-src 'self' blob:;script-src-attr 'unsafe-inline';base-uri 'self';frame-ancestors 'self';object-src 'none';upgrade-insecure-requests",
+      "Content-Security-Policy": "child-src blob:;form-action 'self' https://*.cisecurity.org;connect-src 'self' https://content.sitecore.prod.cisecurity.org https://*.litix.io https://*.wistia.com https://embedwistia-a.akamaihd.net https://api.glitch.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://pagead2.googlesyndication.com https://*.cookiebot.com https://www.google.com https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://px.ads.linkedin.com https://*.clarity.ms https://c.bing.com https://bat.bing.com https://*.amazon-adsystem.com https://*.wistia.net https://ara.paa-reporting-advertising.amazon https://logx.optimizely.com https://*.optimizely.com https://insight.adsrvr.org https://www.redditstatic.com https://pixel-config.reddit.com https://cisecurity.matomo.cloud https://connect.facebook.net https://www.facebook.com https://www.googleadservices.com https://learn.cisecurity.org https://pi.pardot.com;default-src 'self' https://*.wistia.com https://*.wistia.net https://learn.cisecurity.org;font-src 'self' data: https://*.wistia.com https://fonts.gstatic.com https://use.typekit.net https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org https://*.wistia.net;frame-src 'self' https://*.cookiebot.com https://www.youtube.com https://fast.wistia.com https://fast.wistia.net https://e.issuu.com https://resources.cisecurity.org https://optimize.google.com https://insight.adsrvr.org https://bid.g.doubleclick.net https://www.googletagmanager.com https://td.doubleclick.net https://*.hotjar.com https://match.adsrvr.org https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://*.amazon-adsystem.com https://a28546730169.cdn.optimizely.com https://a28546730169.cdn-pci.optimizely.com;img-src 'self' https://content.sitecore.prod.cisecurity.org https://i.ytimg.com data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net https://glitch.com https://cdn.glitch.com https://avatars0.githubusercontent.com https://*.google-analytics.com https://*.analytics.google.com https://googletagmanager.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://google.com https://pagead2.googlesyndication.com https://optimize.google.com https://www.diversityjobs.com https://*.welcomesoftware.com https://*.newscred.com https://s.amazon-adsystem.com https://analytics.twitter.com https://t.co https://px.ads.linkedin.com https://www.linkedin.com https://ps.eyeota.net https://*.hotjar.com https://ssl.gstatic.com https://www.gstatic.com https://p.adsymptotic.com https://ml314.com https://match.adsrvr.org https://insight.adsrvr.org https://dpm.demdex.net https://idsync.rlcdn.com https://sync.crwdcntrl.net https://tags.bluekai.com https://pixel.mathtag.com https://sync.mathtag.com https://ib.adnxs.com https://pixel.tapad.com https://d.turn.com https://api.retargetly.com https://i.liadm.com https://sync-tm.everesttech.net https://p.rfihub.com https://trc.taboola.com https://loadus.exelator.com https://*.qualtrics.com https://*.cisecurity.org https://ads-twitter.com https://ads-api.twitter.com https://analytics.twitter.com https://imgsct.cookiebot.com https://bat.bing.com https://cms.analytics.yahoo.com https://ups.analytics.yahoo.com https://*.clarity.ms https://c.bing.com https://cdn.optimizely.com https://us-u.openx.net https://alb.reddit.com https://www.facebook.com https://www.googleadservices.com https://learn.cisecurity.org https://pi.pardot.com;media-src 'self' blob: data: https://*.wistia.com https://*.wistia.net https://embedwistia-a.akamaihd.net;script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net https://code.jquery.com https://*.cookiebot.com https://googletagmanager.com https://tagmanager.google.com https://*.googletagmanager.com https://www.googleanalytics.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googleoptimize.com https://optimize.google.com https://www.googleadservices.com https://www.google.com https://pi.pardot.com https://*.hotjar.com https://tags.tiqcdn.com https://analytics.newscred.com https://js.adsrvr.org https://static.ads-twitter.com https://snap.licdn.com https://ml314.com https://googleads.g.doubleclick.net https://learn.cisecurity.org https://www.youtube.com https://www.gstatic.com https://*.wistia.com https://*.wistia.net https://src.litix.io https://button.glitch.me https://platform.twitter.com https://*.qualtrics.com https://*.cisecurity.org https://bat.bing.com https://www.clarity.ms https://*.amazon-adsystem.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com https://static.cloudflareinsights.com https://www.redditstatic.com https://cdn.matomo.cloud https://connect.facebook.net;style-src 'self' 'unsafe-inline' blob: https://fast.wistia.com https://button.glitch.me https://optimize.google.com https://fonts.googleapis.com https://googletagmanager.com https://tagmanager.google.com https://p.typekit.net https://use.typekit.net https://www.youtube.com https://*.hotjar.com https://*.qualtrics.com https://*.cisecurity.org;worker-src 'self' blob:;script-src-attr 'unsafe-inline';base-uri 'self';frame-ancestors 'self';object-src 'none';upgrade-insecure-requests",
       "Server": "cloudflare"
     }
   },
@@ -58,9 +58,9 @@
         "full_url": "https://www.cisecurity.org/dist/cisecurity/js/chunk-vendors.8c4a00c7.js"
       },
       {
-        "path": "/dist/cisecurity/js/app.41074900.js",
+        "path": "/dist/cisecurity/js/app.18204f7c.js",
         "type": "script",
-        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app.41074900.js"
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app.18204f7c.js"
       },
       {
         "path": "/dist/cisecurity/js/chunk-vendors-legacy.b0b01c1a.js",
@@ -68,24 +68,19 @@
         "full_url": "https://www.cisecurity.org/dist/cisecurity/js/chunk-vendors-legacy.b0b01c1a.js"
       },
       {
-        "path": "/dist/cisecurity/js/app-legacy.2bbe6076.js",
+        "path": "/dist/cisecurity/js/app-legacy.7cd84a31.js",
         "type": "script",
-        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app-legacy.2bbe6076.js"
+        "full_url": "https://www.cisecurity.org/dist/cisecurity/js/app-legacy.7cd84a31.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
-        "path": "/nap2dtl.css",
-        "type": "stylesheet",
-        "full_url": "https://use.typekit.net/nap2dtl.css"
-      },
-      {
-        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2025/cis--25th-anniversary-logo--web.svg",
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/cis-logo-rgb-light-mode.svg",
         "type": "image",
-        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2025/cis--25th-anniversary-logo--web.svg?h=86&amp;iar=0&amp;w=300&amp;rev=ec127358b1ac42d884392dbf74a65765&amp;hash=2343C2EE3A911502D0428AD7666AC5FF"
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/cis-logo-rgb-light-mode.svg?h=95&amp;iar=0&amp;w=200&amp;rev=47b2dee8c45d406b8591354c687209d3&amp;hash=E922C62317EFD1FF1BC2C33452F219FD"
       },
       {
         "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-organization.svg",
@@ -100,7 +95,7 @@
       {
         "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/icon-situation.svg",
         "type": "image",
-        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/icon-situation.svg?h=39&amp;iar=0&amp;w=40&amp;rev=31c65e64a468409fa01c91555a6f1722&amp;hash=014F2674A177C35CE2D944C2FADDB211"
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/icon-situation.svg?h=39&amp;iar=0&amp;w=40&amp;rev=67ee202172c549b5a81a2d22a0ac2d3f&amp;hash=574905E8E4DFCC666CBFBF010C4B9F9E"
       },
       {
         "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-securesuite.svg",
@@ -113,14 +108,19 @@
         "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/logos-and-icons/2023/icon-government.svg?h=41&amp;iar=0&amp;w=41&amp;rev=16678d2dab0b478e97bd953706f9e35e&amp;hash=CA5BE4A406ED720D654A7D979527A17F"
       },
       {
-        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2026/cis--alan-paller-laureate--feature--900x570-(5).png",
+        "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/slide1-1600-525.png",
         "type": "image",
-        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/homepage-featured-space/2026/cis--alan-paller-laureate--feature--900x570-(5).png?h=2627&amp;iar=0&amp;w=3751&amp;rev=7dff32fc67384e68ac5294554cbd469e&amp;hash=BF01D9093631E3E813938930989E1E37"
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/slide1-1600-525.png?h=525&amp;iar=0&amp;w=1600&amp;rev=c509487034f84dcb88d3d6c4e57f8f51&amp;hash=7092FE01C19FCCAD797774671E5BE740"
+      },
+      {
+        "path": "/-/jssmedia/slide-2-final-1600x525-flipped.png",
+        "type": "image",
+        "full_url": "https://www.cisecurity.org/-/jssmedia/slide-2-final-1600x525-flipped.png?h=525&amp;iar=0&amp;w=1600&amp;rev=7e9a8404974a4db8ac5a4674c3b5a054&amp;hash=EC48EEBCBA297910163A731CAD4089FF"
       },
       {
         "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/ms-isac-home.png",
         "type": "image",
-        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/ms-isac-home.png?h=30&amp;iar=0&amp;w=134&amp;rev=f39a91495de04e3ab97c38eb7fd6a8df&amp;hash=FFBF2A153F8F7D8867914526C73B48D5"
+        "full_url": "https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/ms-isac-home.png?h=30&amp;iar=0&amp;w=134&amp;rev=5fb70c22192b46b98ff557da19be59a7&amp;hash=85DA022D9680CACED56DBE907CB73E5F"
       },
       {
         "path": "/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2025/cis_hp_logo_hardened-images.png",
@@ -168,7 +168,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "305ms"
+          "latency": "2915ms"
         },
         {
           "resource": "uc.js",
@@ -185,13 +185,13 @@
       ],
       "page_content": {
         "hero_section": {
-          "h1_title": "Creating Confidence in the Connected World™",
+          "h1_title": "Creating Confidence in the Connected World&trade;",
           "h2_subtitle": "",
           "cta_buttons": []
         },
         "value_props": [
           {
-            "title": "At CIS®, we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us.",
+            "title": "At CIS&reg;, we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us.",
             "desc": "Description detected in content block."
           },
           {
@@ -205,32 +205,32 @@
         ],
         "main_content": [
           {
-            "tag": "h1",
-            "text": "Creating Confidence in the Connected World™"
-          },
-          {
-            "tag": "h2",
-            "text": "At CIS®, we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us."
-          },
-          {
-            "tag": "h3",
-            "text": "Grant Honoring Alan Paller"
-          },
-          {
-            "tag": "p",
-            "text": "The fourth annual Alan Paller Laureate Program seeks to find and support those focused on improving cybersecurity with a focus on AI, large scale of use, or the \"cyber underserved.\""
+            "tag": "h4",
+            "text": "Webinar: Implement CIS Controls and CIS Benchmarks"
           },
           {
             "tag": "h4",
-            "text": "Industry solutions for cyber and cyber-enabled threats."
+            "text": "Strengthen your security program to meet regulatory and compliance frameworks."
+          },
+          {
+            "tag": "h4",
+            "text": "AI Resources for SLTT Cybersecurity Leaders"
+          },
+          {
+            "tag": "h4",
+            "text": "Adopt AI responsibly while managing risk and protecting the communities you serve."
+          },
+          {
+            "tag": "h1",
+            "text": "Creating Confidence in the Connected World &trade;"
+          },
+          {
+            "tag": "h2",
+            "text": "At CIS &reg; , we’re harnessing the power of the global IT community to safeguard public and private organizations against cyber and cyber-enabled threats. Join us."
           },
           {
             "tag": "h2",
             "text": "Join Our Trusted Community of Cyber Defenders, Built by SLTTs, for SLTTs"
-          },
-          {
-            "tag": "p",
-            "text": "Security isn't a solo fight. The MS-ISAC connects SLTTs to a nationwide community defense network that keeps everyone safer."
           },
           {
             "tag": "h2",
@@ -266,14 +266,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 4,
-          "headings": 11,
-          "images": 14
+          "paragraphs": 2,
+          "headings": 13,
+          "images": 15
         }
       }
     },
     {
-      "route_id": "ROUTE-EC7C6A8B",
+      "route_id": "ROUTE-E1ED8DEF",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -284,10 +284,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4508AC3F",
+      "route_id": "ROUTE-6206025A",
       "path": "/cis-hardened-image-list",
       "type": "Detected Link",
-      "anchor_text": "CIS Hardened Images®",
+      "anchor_text": "CIS Hardened Images&reg;",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -295,7 +295,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0B487CA0",
+      "route_id": "ROUTE-EDCDD4C4",
       "path": "/support",
       "type": "Detected Link",
       "anchor_text": "Support",
@@ -306,7 +306,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-98DED90D",
+      "route_id": "ROUTE-56B9B400",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Company",
@@ -317,7 +317,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F679CB83",
+      "route_id": "ROUTE-5F8625C8",
       "path": "/about-us",
       "type": "Detected Link",
       "anchor_text": "About Us",
@@ -328,7 +328,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-942F37E5",
+      "route_id": "ROUTE-89AFF6A2",
       "path": "/about-us/cis-leadership-principles",
       "type": "Detected Link",
       "anchor_text": "Leadership Principles",
@@ -339,7 +339,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5099E3A7",
+      "route_id": "ROUTE-7E9A921B",
       "path": "/about-us/leadership",
       "type": "Detected Link",
       "anchor_text": "Leadership Team",
@@ -350,7 +350,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FF084BC6",
+      "route_id": "ROUTE-287EEF24",
       "path": "/testimonials",
       "type": "Detected Link",
       "anchor_text": "Testimonials",
@@ -361,7 +361,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D75E8742",
+      "route_id": "ROUTE-C24868B1",
       "path": "/about-us/media",
       "type": "Detected Link",
       "anchor_text": "Media",
@@ -372,7 +372,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-98CEDA5E",
+      "route_id": "ROUTE-AA8184DC",
       "path": "/event-calendar",
       "type": "Detected Link",
       "anchor_text": "Events",
@@ -383,7 +383,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A6EB9752",
+      "route_id": "ROUTE-792A6BF4",
       "path": "/controls",
       "type": "Detected Link",
       "anchor_text": "CIS Critical Security Controls®",
@@ -394,7 +394,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DBBC1ABA",
+      "route_id": "ROUTE-674E76B0",
       "path": "/communities/controls",
       "type": "Detected Link",
       "anchor_text": "CIS Controls Community",
@@ -405,7 +405,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ED2D45CC",
+      "route_id": "ROUTE-C4C56990",
+      "path": "/cis-securesuite/benefits/cis-securesuite-platform",
+      "type": "Detected Link",
+      "anchor_text": "CIS CSAT",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9DD3D14C",
       "path": "/threatwa",
       "type": "Detected Link",
       "anchor_text": "ThreatWA™",
@@ -416,18 +427,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-68BC448F",
-      "path": "/cis-securesuite/benefits/cis-securesuite-platform",
-      "type": "Detected Link",
-      "anchor_text": "CIS SecureSuite® Platform",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-B4476F51",
+      "route_id": "ROUTE-B7648AD9",
       "path": "/cis-benchmarks",
       "type": "Detected Link",
       "anchor_text": "CIS Benchmarks™",

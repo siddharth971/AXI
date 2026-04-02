@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-37660EC3",
-  "generated_at": "2026-01-21T07:26:54.205Z",
+  "generated_at": "2026-04-02T04:24:16.688Z",
   "global_configuration": {
     "brand_name": "Find the best blogs on the web",
     "domain": "bloggers.feedspot.com",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 15,
+      "total_files": 14,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -93,11 +93,6 @@
         "full_url": "https://cdn.feedspot.com/assets/vendor/lightgallery/lightgallery.min.js"
       },
       {
-        "path": "/assets/vendor/lightgallery/css/lightgallery-bundle.min.css",
-        "type": "stylesheet",
-        "full_url": "https://cdn.feedspot.com/assets/vendor/lightgallery/css/lightgallery-bundle.min.css"
-      },
-      {
         "path": "/img/assets/blog/fs-media-banner.svg",
         "type": "image",
         "full_url": "https://cdn.feedspot.com/img/assets/blog/fs-media-banner.svg"
@@ -118,7 +113,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3724ms"
+          "latency": "2561ms"
         },
         {
           "resource": "js",
@@ -143,20 +138,20 @@
           {
             "title": "Browse Blogs",
             "desc": "Description detected in content block."
+          },
+          {
+            "title": "Browse Blogs By Category",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Browse By Alphabet",
+            "desc": "Description detected in content block."
           }
         ],
         "main_content": [
           {
             "tag": "p",
-            "text": "Home BLOG DATABASE EXPORT BLOG CONTACTS BLOG READER Select Page"
-          },
-          {
-            "tag": "h1",
-            "text": "Find the best blogs on the web"
-          },
-          {
-            "tag": "p",
-            "text": "For Blog Readers: Subscribe to your favorite Blogs in one place on FeedSpot Reader"
+            "text": "Home FOR BLOGGERS EXPORT BLOG CONTACTS BLOG READER Pricing Find the best blogs on the web For Blog Readers: Subscribe to your favorite Blogs in one place on FeedSpot Reader"
           },
           {
             "tag": "p",
@@ -169,6 +164,162 @@
           {
             "tag": "h2",
             "text": "Browse Blogs"
+          },
+          {
+            "tag": "h3",
+            "text": "Technology & Electronics"
+          },
+          {
+            "tag": "h3",
+            "text": "Photography"
+          },
+          {
+            "tag": "h3",
+            "text": "Music"
+          },
+          {
+            "tag": "h3",
+            "text": "Crime"
+          },
+          {
+            "tag": "h3",
+            "text": "Family & Parenting"
+          },
+          {
+            "tag": "h3",
+            "text": "Fashion"
+          },
+          {
+            "tag": "h3",
+            "text": "Hair & Skincare"
+          },
+          {
+            "tag": "h3",
+            "text": "Book"
+          },
+          {
+            "tag": "h3",
+            "text": "Marketing"
+          },
+          {
+            "tag": "h3",
+            "text": "Finance"
+          },
+          {
+            "tag": "h3",
+            "text": "Gardening & Agriculture"
+          },
+          {
+            "tag": "h3",
+            "text": "Politics"
+          },
+          {
+            "tag": "h3",
+            "text": "Legal & Tax"
+          },
+          {
+            "tag": "h3",
+            "text": "Education"
+          },
+          {
+            "tag": "h3",
+            "text": "Business"
+          },
+          {
+            "tag": "h3",
+            "text": "Religion & Spirituality"
+          },
+          {
+            "tag": "h3",
+            "text": "Fitness"
+          },
+          {
+            "tag": "h3",
+            "text": "Travel & Hospitality"
+          },
+          {
+            "tag": "h3",
+            "text": "Food & Beverage"
+          },
+          {
+            "tag": "h3",
+            "text": "LGBTQ+"
+          },
+          {
+            "tag": "h3",
+            "text": "Lifestyle & Wellness"
+          },
+          {
+            "tag": "h3",
+            "text": "Pet & Animal"
+          },
+          {
+            "tag": "h3",
+            "text": "History & Philosophy"
+          },
+          {
+            "tag": "h3",
+            "text": "Christianity"
+          },
+          {
+            "tag": "h3",
+            "text": "Home & Interior"
+          },
+          {
+            "tag": "h3",
+            "text": "Pregnancy"
+          },
+          {
+            "tag": "h3",
+            "text": "Arts"
+          },
+          {
+            "tag": "h3",
+            "text": "Programming & Software"
+          },
+          {
+            "tag": "h3",
+            "text": "Entertainment"
+          },
+          {
+            "tag": "h3",
+            "text": "Cryptocurrency"
+          },
+          {
+            "tag": "h3",
+            "text": "Outdoor"
+          },
+          {
+            "tag": "h3",
+            "text": "Wedding"
+          },
+          {
+            "tag": "h3",
+            "text": "Insurance"
+          },
+          {
+            "tag": "h3",
+            "text": "Automotive & Transportation"
+          },
+          {
+            "tag": "h3",
+            "text": "Science & Environment"
+          },
+          {
+            "tag": "h3",
+            "text": "Health & Medicine"
+          },
+          {
+            "tag": "h3",
+            "text": "Sports & Gaming"
+          },
+          {
+            "tag": "h2",
+            "text": "Browse Blogs By Category"
+          },
+          {
+            "tag": "h2",
+            "text": "Browse By Alphabet"
           },
           {
             "tag": "h3",
@@ -193,21 +344,17 @@
           {
             "tag": "h4",
             "text": "'+t.title+\""
-          },
-          {
-            "tag": "h4",
-            "text": "'+t.title+\""
           }
         ],
         "structure_summary": {
-          "paragraphs": 10,
-          "headings": 31,
+          "paragraphs": 9,
+          "headings": 69,
           "images": 1
         }
       }
     },
     {
-      "route_id": "ROUTE-28BC7F75",
+      "route_id": "ROUTE-6280A6B6",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Home",
@@ -218,10 +365,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-31C7979B",
-      "path": "/bloggers_directory/",
+      "route_id": "ROUTE-EC515CBA",
+      "path": "/technology_blogs/",
       "type": "Detected Link",
-      "anchor_text": "BLOG DATABASE",
+      "anchor_text": "Technology Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -229,10 +376,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-72634033",
-      "path": "/addiction/",
+      "route_id": "ROUTE-152E9C28",
+      "path": "/ai_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Addiction",
+      "anchor_text": "Artificial Intelligence Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -240,10 +387,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F6B52E97",
-      "path": "/agriculture/",
+      "route_id": "ROUTE-44108A43",
+      "path": "/cyber_security_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Agriculture",
+      "anchor_text": "Cyber Security Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -251,10 +398,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9D6CC230",
-      "path": "/ai/",
+      "route_id": "ROUTE-9619BE98",
+      "path": "/fintech_blogs/",
       "type": "Detected Link",
-      "anchor_text": "AI",
+      "anchor_text": "Fintech Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -262,10 +409,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4195BC4C",
-      "path": "/analytics/",
+      "route_id": "ROUTE-01C32ADE",
+      "path": "/virtual_reality_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Analytics",
+      "anchor_text": "Virtual Reality Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -273,10 +420,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-43A74312",
-      "path": "/arts/",
+      "route_id": "ROUTE-E1D9C45A",
+      "path": "/machine_learning_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Arts",
+      "anchor_text": "Machine Learning Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -284,10 +431,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F93DA7BC",
-      "path": "/australia/",
+      "route_id": "ROUTE-7A9A10D9",
+      "path": "/telecom_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Australia",
+      "anchor_text": "Telecom Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -295,10 +442,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8E09360C",
-      "path": "/autism/",
+      "route_id": "ROUTE-0E94D275",
+      "path": "/innovation_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Autism",
+      "anchor_text": "Innovation Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -306,10 +453,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-46827A1B",
-      "path": "/auto/",
+      "route_id": "ROUTE-7930C9F4",
+      "path": "/iot_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Auto",
+      "anchor_text": "IOT Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -317,10 +464,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0B411BE6",
-      "path": "/aviation/",
+      "route_id": "ROUTE-6BCCB8FE",
+      "path": "/cloud_computing_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Aviation",
+      "anchor_text": "Cloud Computing Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -328,10 +475,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9A12B365",
-      "path": "/baking/",
+      "route_id": "ROUTE-9AD5CF9C",
+      "path": "/information_security_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Baking",
+      "anchor_text": "Infosec Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -339,10 +486,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-34CC1D46",
-      "path": "/baseball/",
+      "route_id": "ROUTE-D5185BA2",
+      "path": "/networking_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Baseball",
+      "anchor_text": "Networking Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -350,10 +497,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E06573D5",
-      "path": "/basketball/",
+      "route_id": "ROUTE-ED2AEC44",
+      "path": "/it_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Basketball",
+      "anchor_text": "IT Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -361,10 +508,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A36A955F",
-      "path": "/beauty/",
+      "route_id": "ROUTE-C9FE1EE1",
+      "path": "/gis_blogs/",
       "type": "Detected Link",
-      "anchor_text": "Beauty",
+      "anchor_text": "GIS Blogs",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

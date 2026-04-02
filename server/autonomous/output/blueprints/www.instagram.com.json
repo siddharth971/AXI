@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-81BAA2BD",
-  "generated_at": "2026-01-21T07:26:54.034Z",
+  "generated_at": "2026-04-02T04:24:16.591Z",
   "global_configuration": {
     "brand_name": "Instagram",
     "domain": "www.instagram.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "57.144.242.34",
+      "server_ip": "57.144.42.34",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -16,65 +16,80 @@
     },
     "server_headers": {
       "Cache-Control": "private, no-cache, no-store, must-revalidate",
-      "Content-Security-Policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-9YxPSKo8' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+      "Content-Security-Policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-nOQlzRuo' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
       "Server": "Unknown"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 10,
+      "total_files": 13,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/rsrc.php/v4/yc/r/kZIWRMr0Ejj.js",
+        "path": "/rsrc.php/v4/yd/r/w30yGT0khnu.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yc/r/kZIWRMr0Ejj.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yd/r/w30yGT0khnu.js"
       },
       {
-        "path": "/rsrc.php/v4isFF4/yX/l/en_US/Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js",
+        "path": "/rsrc.php/v4i0ne4/yC/l/en_US/VHzN96GuZRiMN6IVA5mwD5SZsy-6psdNZxyTpCdCMQAP-kG1pbGdA1_h4gafmlfgnEc8gg3ROuL17BAbEnw22EJ0EcFwPVaIqnLe6a9ZGNEx4PCbDBovPddh4Jb3eWx67l1-DIMTrS6KERD1INFvDHQkNfWU1RMBNnFWO.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4isFF4/yX/l/en_US/Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i0ne4/yC/l/en_US/VHzN96GuZRiMN6IVA5mwD5SZsy-6psdNZxyTpCdCMQAP-kG1pbGdA1_h4gafmlfgnEc8gg3ROuL17BAbEnw22EJ0EcFwPVaIqnLe6a9ZGNEx4PCbDBovPddh4Jb3eWx67l1-DIMTrS6KERD1INFvDHQkNfWU1RMBNnFWO.js"
       },
       {
-        "path": "/rsrc.php/v4icC04/yZ/l/en_US/oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js",
+        "path": "/rsrc.php/v4iyrK4/yX/l/en_US/zz7eu9sWHtRfEXKxzJbolxTi8gS4RIkAUnKT27nlziOWVpfJlKoye0yAUpTOSiYEW2LiWsBij-v8q5-FKpqarbSbQPu4XAivufQ1lddZtQYAV2_DQo6mNz8dfZ2Gu4dbtEj8xA7R3lyFuVBlO32-J6gITv7ZML0akupg0EFPR5q90yn9YCyOyzqMRDqOVLE6s-6C-mv_kkAv_-wGQzr_aBVHVfNHBdCoY_9Rb-ZELF5Q86YaGWeU-m4MVggJNXGcYN-seIHz71wDvpLc_BpQKPwfW0wN-q11dt0Q43nJ2DtBsEzR6bek4agBlUwQiC_2HoYO38Vafc.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4icC04/yZ/l/en_US/oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iyrK4/yX/l/en_US/zz7eu9sWHtRfEXKxzJbolxTi8gS4RIkAUnKT27nlziOWVpfJlKoye0yAUpTOSiYEW2LiWsBij-v8q5-FKpqarbSbQPu4XAivufQ1lddZtQYAV2_DQo6mNz8dfZ2Gu4dbtEj8xA7R3lyFuVBlO32-J6gITv7ZML0akupg0EFPR5q90yn9YCyOyzqMRDqOVLE6s-6C-mv_kkAv_-wGQzr_aBVHVfNHBdCoY_9Rb-ZELF5Q86YaGWeU-m4MVggJNXGcYN-seIHz71wDvpLc_BpQKPwfW0wN-q11dt0Q43nJ2DtBsEzR6bek4agBlUwQiC_2HoYO38Vafc.js"
       },
       {
-        "path": "/rsrc.php/v4i4ie4/yB/l/en_US/iS8hKs0iZLcPdh6TE07DYWRS-cbBOFNDizNitcNmjzg85c7KLt28ql-HiBt345roCHmXobQCjt_LW7odNDboPV5npAPD1lKi-HuLJooCvHSGmUXAqzp11_JpCjVFN0Hu8tpfgJLVGXUtO-wmir9eUdaRYlob71UEQqS5RURslw2ahJKfVgk7ySpQwUA-kuIe3-bMjreg9Aiyyn9UyLAAXUtRnPF5ozoFpj-99G3ZbcAadIh9AlI5UJhVmcDu8onn-JtdZ7PJJKS5kV2YdYQdwwreCs1Ls2KeHWrECl3_nVHsl91YGT8h2Jc9FVqcd252S-KrBJoNka.js",
+        "path": "/rsrc.php/v4/ya/r/zgXKpyjInJ1YrbnH2HQhP8ZIN72SS5MnT0SeSOt5hgsWImRIx1AnGjk07O4uAuHMZyBSaV-S7OueDLAAXUtRnPF56OW3thJODCU-xXJeGn6eiWA8ohO-dKm4-ozoFpj-99G3-Qx8lcabVTDTcjqCtge5-3TuNit6SEqBWmSYSlxu50UmxhceZaR68thUqzV1k11S8xiDnKhDKBJHtOl6Gkjq0OVecPlfAVsTAuuL7rhS5By-zohBBEVPzG9h-JZCcc2ZP1Mq8wypiAW_bfkFXygUAGfXXXZTFDSp4bWABAdmh5DEndjkKeHWrECl3_nhrAucCjkvn2.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i4ie4/yB/l/en_US/iS8hKs0iZLcPdh6TE07DYWRS-cbBOFNDizNitcNmjzg85c7KLt28ql-HiBt345roCHmXobQCjt_LW7odNDboPV5npAPD1lKi-HuLJooCvHSGmUXAqzp11_JpCjVFN0Hu8tpfgJLVGXUtO-wmir9eUdaRYlob71UEQqS5RURslw2ahJKfVgk7ySpQwUA-kuIe3-bMjreg9Aiyyn9UyLAAXUtRnPF5ozoFpj-99G3ZbcAadIh9AlI5UJhVmcDu8onn-JtdZ7PJJKS5kV2YdYQdwwreCs1Ls2KeHWrECl3_nVHsl91YGT8h2Jc9FVqcd252S-KrBJoNka.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/ya/r/zgXKpyjInJ1YrbnH2HQhP8ZIN72SS5MnT0SeSOt5hgsWImRIx1AnGjk07O4uAuHMZyBSaV-S7OueDLAAXUtRnPF56OW3thJODCU-xXJeGn6eiWA8ohO-dKm4-ozoFpj-99G3-Qx8lcabVTDTcjqCtge5-3TuNit6SEqBWmSYSlxu50UmxhceZaR68thUqzV1k11S8xiDnKhDKBJHtOl6Gkjq0OVecPlfAVsTAuuL7rhS5By-zohBBEVPzG9h-JZCcc2ZP1Mq8wypiAW_bfkFXygUAGfXXXZTFDSp4bWABAdmh5DEndjkKeHWrECl3_nhrAucCjkvn2.js"
       },
       {
-        "path": "/rsrc.php/v4iwdB4/yl/l/en_US/g7QMfJp1Z3S58MmuUb56tv183ga8OFgW6iRQrrR3ehHOWLVVMi6K97H9eesRmlBTBmlMmrcpgIvtJNQX4kV11SE034vR_JmyDuF7v9DcqDTVyqSPtRA23PfY35jytavk6EOKmese8PpaA6Y0yWe7EM9mc_C2PgpwpQ1In2glcbDdS9Ybe1hUfH2enbIsiDtUWwwLlTgHhIBbfAoP4FrJA0UCwye4W7gB1rftyEfTMMsiJC02ez.js",
+        "path": "/rsrc.php/v4iwpL4/yX/l/en_US/nJY9grUpVpXmese8PpaA6Ys-gjLcln5bMaTvLpEMiMqYBvH8wBDUO_Wziu8fjvIasu0XJwbaX5ZELUcr6BPouu8FNHdJW5_aAkh3hnHYCsAoGkSS1OrajkDar.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iwdB4/yl/l/en_US/g7QMfJp1Z3S58MmuUb56tv183ga8OFgW6iRQrrR3ehHOWLVVMi6K97H9eesRmlBTBmlMmrcpgIvtJNQX4kV11SE034vR_JmyDuF7v9DcqDTVyqSPtRA23PfY35jytavk6EOKmese8PpaA6Y0yWe7EM9mc_C2PgpwpQ1In2glcbDdS9Ybe1hUfH2enbIsiDtUWwwLlTgHhIBbfAoP4FrJA0UCwye4W7gB1rftyEfTMMsiJC02ez.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iwpL4/yX/l/en_US/nJY9grUpVpXmese8PpaA6Ys-gjLcln5bMaTvLpEMiMqYBvH8wBDUO_Wziu8fjvIasu0XJwbaX5ZELUcr6BPouu8FNHdJW5_aAkh3hnHYCsAoGkSS1OrajkDar.js"
       },
       {
-        "path": "/rsrc.php/v4/yt/r/Fa4ewEREhpK.js",
+        "path": "/rsrc.php/v4iSJY4/yr/l/en_US/X05GwhtqiNO.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yt/r/Fa4ewEREhpK.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iSJY4/yr/l/en_US/X05GwhtqiNO.js"
       },
       {
-        "path": "/rsrc.php/v4i-wR4/yY/l/en_US/HUyGhp2hnTf.js",
+        "path": "/rsrc.php/v4/yi/r/1nTtKyGCm2X.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i-wR4/yY/l/en_US/HUyGhp2hnTf.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yi/r/1nTtKyGCm2X.js"
       },
       {
-        "path": "/rsrc.php/v4i1kT4/y7/l/en_US/brpF2_1SeOr.js",
+        "path": "/rsrc.php/v4/ye/r/BDUFojYwAXc.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4i1kT4/y7/l/en_US/brpF2_1SeOr.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/ye/r/BDUFojYwAXc.js"
       },
       {
-        "path": "/rsrc.php/v4/ya/r/9Xl2mFLh9Xm.js",
+        "path": "/rsrc.php/v4/yx/r/b-X15rP7Osh.js",
         "type": "script",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/ya/r/9Xl2mFLh9Xm.js"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4/yx/r/b-X15rP7Osh.js"
       },
       {
-        "path": "/rsrc.php/v5/yv/l/0,cross/X5cTAC-ZZdiKdB4_XLRjb04ii9UsU3Wbpjf5WKOK0BZU_CeKo1gBhPdfgQe914iiBfONMKn3YhINqU49pVNahkCkQvuWABIjhhRs97xFZK--hBruhBENOpKm_.css",
+        "path": "/rsrc.php/v4inh_4/yq/l/en_US/QUHQlfhgj8zI3XLoYQF64vfjO43O8XoSnI6-NhAsCA5L3Nc30dHCikm-Q6aNodDiMDZEoStQUE_H75HsuiCTJd5SseTXOgK1l_qsVlC8JKonwuNvnmk7jwSVrzE4xYn60F-APHvLOV0gM_-aMkd1CPMwg_6BzgyT8wIXeTjjJUNSMOrBZUKwq77A6aTraTw8LD94AUXRwDHCkV8R1HmTeYzr6srgonn-JtdZ7PJ775NzKCi2ScrsOfCedTPWK7a817LCfIEJxYiBYz5S8KjCFM-z_0Q2ncATCB6ghfjDQwNPdLlL_jGYNh9-DZBIN8j5Wu6jBGHRQa.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4inh_4/yq/l/en_US/QUHQlfhgj8zI3XLoYQF64vfjO43O8XoSnI6-NhAsCA5L3Nc30dHCikm-Q6aNodDiMDZEoStQUE_H75HsuiCTJd5SseTXOgK1l_qsVlC8JKonwuNvnmk7jwSVrzE4xYn60F-APHvLOV0gM_-aMkd1CPMwg_6BzgyT8wIXeTjjJUNSMOrBZUKwq77A6aTraTw8LD94AUXRwDHCkV8R1HmTeYzr6srgonn-JtdZ7PJ775NzKCi2ScrsOfCedTPWK7a817LCfIEJxYiBYz5S8KjCFM-z_0Q2ncATCB6ghfjDQwNPdLlL_jGYNh9-DZBIN8j5Wu6jBGHRQa.js"
+      },
+      {
+        "path": "/rsrc.php/v4iTI-4/yI/l/en_US/0pT4fyCLzBoNQeMShqX_XN18RLm69M4vRFLhOcoMmqKnoEfOgpE_-_oMI-qXezlXsc9husVdZfMaPb-SgAPZvzb-UV2789gJfF4rd6GuZYe3zTg0JOHOiNhzWsLc3iCrY8h6WYGBRCpidRC0HOuJU6Ig3Xcv7KJOaKtAQlnN1_0Y4wP5Gl7Dcas-V139GcU3ezPjVA85ElNEPjABjXAqzp11_JpCaPQ8dLpAYFLPq6t1wY9IZRyB5KNx6PY3IJJDchOYIvRE-FZnFf2cMjHkLSd3HhguKefknyPRau9DU0XeM8sX2SLweVMWSDxEACf9-dBS8IpxGA.js",
+        "type": "script",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v4iTI-4/yI/l/en_US/0pT4fyCLzBoNQeMShqX_XN18RLm69M4vRFLhOcoMmqKnoEfOgpE_-_oMI-qXezlXsc9husVdZfMaPb-SgAPZvzb-UV2789gJfF4rd6GuZYe3zTg0JOHOiNhzWsLc3iCrY8h6WYGBRCpidRC0HOuJU6Ig3Xcv7KJOaKtAQlnN1_0Y4wP5Gl7Dcas-V139GcU3ezPjVA85ElNEPjABjXAqzp11_JpCaPQ8dLpAYFLPq6t1wY9IZRyB5KNx6PY3IJJDchOYIvRE-FZnFf2cMjHkLSd3HhguKefknyPRau9DU0XeM8sX2SLweVMWSDxEACf9-dBS8IpxGA.js"
+      },
+      {
+        "path": "/rsrc.php/v5/yq/l/0,cross/SZdXqXzofqy_LKALOfZlJMAggUcwZVsSSfgQe914iiBfONMKn3YhINq7tpGb5iefYAU49pVNahkCkGzNiZ9AWV5Gs97xFZK--hBruhBENOpKm_.css",
         "type": "stylesheet",
-        "full_url": "https://static.cdninstagram.com/rsrc.php/v5/yv/l/0,cross/X5cTAC-ZZdiKdB4_XLRjb04ii9UsU3Wbpjf5WKOK0BZU_CeKo1gBhPdfgQe914iiBfONMKn3YhINqU49pVNahkCkQvuWABIjhhRs97xFZK--hBruhBENOpKm_.css"
+        "full_url": "https://static.cdninstagram.com/rsrc.php/v5/yq/l/0,cross/SZdXqXzofqy_LKALOfZlJMAggUcwZVsSSfgQe914iiBfONMKn3YhINq7tpGb5iefYAU49pVNahkCkGzNiZ9AWV5Gs97xFZK--hBruhBENOpKm_.css"
+      },
+      {
+        "path": "/rsrc.php/yJ/r/53X3pk-t2Gn.webp",
+        "type": "image",
+        "full_url": "https://static.cdninstagram.com/rsrc.php/yJ/r/53X3pk-t2Gn.webp"
       }
     ]
   },
@@ -92,18 +107,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "611ms"
+          "latency": "452ms"
         },
         {
-          "resource": "kZIWRMr0Ejj.js",
+          "resource": "w30yGT0khnu.js",
           "latency": "pending"
         },
         {
-          "resource": "Xymcg6epZDXfSPu0f2EqONEd5UkaoEjOzT8ekmTJeYNLZ9k-6hcijXbcaDT_Wp_YzMx5E1TvGVohlZFohW3JMpOKAAYjPisMsSntwsnDKZY8XviuKTizDR45XA6PRndjRGxZOaLRQqvxVlX9dZf5CYxfWv5p_fVtrfpSoGjoQEvyfoTDzkTUyyZ-UtttnWo3OaioksHIZZo303eOeHeUlROwVMAW2qlJiMIJI3rxKpx4N7vgQQsW1OSSeKLsX6YtxljnayZcL5K7XzQt0-3W3bIBqFhT7VD8JFEr6WXuDuBkT0KnjgSx0KxzlYfzGdgajoRgcIqSmF.js",
+          "resource": "VHzN96GuZRiMN6IVA5mwD5SZsy-6psdNZxyTpCdCMQAP-kG1pbGdA1_h4gafmlfgnEc8gg3ROuL17BAbEnw22EJ0EcFwPVaIqnLe6a9ZGNEx4PCbDBovPddh4Jb3eWx67l1-DIMTrS6KERD1INFvDHQkNfWU1RMBNnFWO.js",
           "latency": "pending"
         },
         {
-          "resource": "oaFyKbDs0T2ewfqhnanGhVFnWdZEFHrXqoz9eSk2hYTXKJpGL9siPQAil1NpW-GU8JsLinelKiZjTdaqAD5bPZ6vis-Pw5Wcv2EwvFN14d4Jhtl6s-ehtIojyKecHMPTR7ifbZZ3K4I3xC2V_E9Eto7itPE6yFerUBI4t-z413eLYtgO.js",
+          "resource": "zz7eu9sWHtRfEXKxzJbolxTi8gS4RIkAUnKT27nlziOWVpfJlKoye0yAUpTOSiYEW2LiWsBij-v8q5-FKpqarbSbQPu4XAivufQ1lddZtQYAV2_DQo6mNz8dfZ2Gu4dbtEj8xA7R3lyFuVBlO32-J6gITv7ZML0akupg0EFPR5q90yn9YCyOyzqMRDqOVLE6s-6C-mv_kkAv_-wGQzr_aBVHVfNHBdCoY_9Rb-ZELF5Q86YaGWeU-m4MVggJNXGcYN-seIHz71wDvpLc_BpQKPwfW0wN-q11dt0Q43nJ2DtBsEzR6bek4agBlUwQiC_2HoYO38Vafc.js",
           "latency": "pending"
         }
       ],
@@ -116,11 +131,88 @@
         "value_props": [],
         "main_content": [],
         "structure_summary": {
-          "paragraphs": 0,
+          "paragraphs": 7,
           "headings": 0,
-          "images": 2
+          "images": 3
         }
       }
+    },
+    {
+      "route_id": "ROUTE-462BD282",
+      "path": "/accounts/password/reset/",
+      "type": "Detected Link",
+      "anchor_text": "Forgot password?",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34B71A7A",
+      "path": "/accounts/emailsignup/",
+      "type": "Detected Link",
+      "anchor_text": "Create new account",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-051ACD96",
+      "path": "/legal/privacy/",
+      "type": "Detected Link",
+      "anchor_text": "Privacy",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9891893D",
+      "path": "/legal/terms/",
+      "type": "Detected Link",
+      "anchor_text": "Terms",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-23ED57F2",
+      "path": "/explore/locations/",
+      "type": "Detected Link",
+      "anchor_text": "Locations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-AC355036",
+      "path": "/web/lite/",
+      "type": "Detected Link",
+      "anchor_text": "Instagram Lite",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-44E41722",
+      "path": "/accounts/meta_verified/",
+      "type": "Detected Link",
+      "anchor_text": "Meta Verified",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
     }
   ],
   "api_endpoints_manifest": {}

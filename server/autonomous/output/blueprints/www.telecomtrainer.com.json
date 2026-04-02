@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-DBC994F2",
-  "generated_at": "2026-01-21T07:27:04.687Z",
+  "generated_at": "2026-04-02T04:24:24.103Z",
   "global_configuration": {
     "brand_name": "Telecom Trainer",
     "domain": "www.telecomtrainer.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "199.232.23.7",
+      "server_ip": "151.101.107.7",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,14 +23,14 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 28,
+      "total_files": 29,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/ghost/portal@~2.56/umd/portal.min.js",
+        "path": "/ghost/portal@~2.67/umd/portal.min.js",
         "type": "script",
-        "full_url": "https://cdn.jsdelivr.net/ghost/portal@~2.56/umd/portal.min.js"
+        "full_url": "https://cdn.jsdelivr.net/ghost/portal@~2.67/umd/portal.min.js"
       },
       {
         "path": "/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
@@ -40,22 +40,27 @@
       {
         "path": "/public/cards.min.js",
         "type": "script",
-        "full_url": "https://www.telecomtrainer.com/public/cards.min.js?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/public/cards.min.js?v=1d32e46e42"
       },
       {
         "path": "/public/comment-counts.min.js",
         "type": "script",
-        "full_url": "https://www.telecomtrainer.com/public/comment-counts.min.js?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/public/comment-counts.min.js?v=1d32e46e42"
       },
       {
         "path": "/public/member-attribution.min.js",
         "type": "script",
-        "full_url": "https://www.telecomtrainer.com/public/member-attribution.min.js?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/public/member-attribution.min.js?v=1d32e46e42"
       },
       {
         "path": "/public/ghost-stats.min.js",
         "type": "script",
-        "full_url": "https://www.telecomtrainer.com/public/ghost-stats.min.js?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/public/ghost-stats.min.js?v=1d32e46e42"
+      },
+      {
+        "path": "/promo-bar.js",
+        "type": "script",
+        "full_url": "https://www.5g6gacademy.com/promo-bar.js"
       },
       {
         "path": "/gtag/js",
@@ -75,12 +80,12 @@
       {
         "path": "/assets/built/main.min.js",
         "type": "script",
-        "full_url": "https://www.telecomtrainer.com/assets/built/main.min.js?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/assets/built/main.min.js?v=1d32e46e42"
       },
       {
         "path": "/assets/built/screen.css",
         "type": "stylesheet",
-        "full_url": "https://www.telecomtrainer.com/assets/built/screen.css?v=4733540368"
+        "full_url": "https://www.telecomtrainer.com/assets/built/screen.css?v=1d32e46e42"
       },
       {
         "path": "/content/images/2023/02/ttlight-1.png",
@@ -183,7 +188,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "202ms"
+          "latency": "396ms"
         },
         {
           "resource": "portal.min.js",
@@ -600,7 +605,7 @@
       }
     },
     {
-      "route_id": "ROUTE-A2F2703F",
+      "route_id": "ROUTE-418B0D18",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Home",
@@ -611,7 +616,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-051D929F",
+      "route_id": "ROUTE-D9E001E4",
       "path": "/tag/5g/",
       "type": "Detected Link",
       "anchor_text": "5G",
@@ -622,7 +627,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2904D84A",
+      "route_id": "ROUTE-BCBDACCE",
       "path": "/tag/6g/",
       "type": "Detected Link",
       "anchor_text": "6G",
@@ -633,7 +638,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6FA974BD",
+      "route_id": "ROUTE-FDC619C8",
       "path": "/tag/open-ran/",
       "type": "Detected Link",
       "anchor_text": "Open RAN",
@@ -644,7 +649,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D301BA05",
+      "route_id": "ROUTE-854B8710",
       "path": "/maintaining-voice-call-continuity-across-2g-3g-4g-and-5g-networks-with-integrated-5g-systems/",
       "type": "Detected Link",
       "anchor_text": "Maintaining Voice Call Continuity Across 2G, 3G, 4G, and 5G Networks with Integrated 5G Systems",
@@ -655,7 +660,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0CBD496C",
+      "route_id": "ROUTE-758C9E04",
       "path": "/tag/5g/",
       "type": "Detected Link",
       "anchor_text": "5g",
@@ -666,7 +671,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F5B2949F",
+      "route_id": "ROUTE-904038CC",
       "path": "/wireless-brain-computer-interactions-bci/",
       "type": "Detected Link",
       "anchor_text": "Wireless Brain-Computer Interactions (BCI) and 6G connectivity",
@@ -677,7 +682,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F5459FC2",
+      "route_id": "ROUTE-225629E2",
       "path": "/tag/6g/",
       "type": "Detected Link",
       "anchor_text": "6G",
@@ -688,7 +693,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C9371B5C",
+      "route_id": "ROUTE-BE007F1E",
       "path": "/6g-wireless-systems-challenges-and-opportunities/",
       "type": "Detected Link",
       "anchor_text": "6G Wireless Systems: Challenges and Opportunities",
@@ -699,7 +704,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-50E90827",
+      "route_id": "ROUTE-929EDFCA",
       "path": "/5g-nr-positioning/",
       "type": "Detected Link",
       "anchor_text": "5G NR Positioning",
@@ -710,7 +715,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1683F767",
+      "route_id": "ROUTE-274B3874",
       "path": "/nr-integrated-access-and-backhaul/",
       "type": "Detected Link",
       "anchor_text": "NR Integrated Access and Backhaul",
@@ -721,7 +726,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-980B70B9",
+      "route_id": "ROUTE-924CEE89",
       "path": "/5g-new-radio-evolution-meets-satellite-communications/",
       "type": "Detected Link",
       "anchor_text": "5G New Radio Evolution Meets Satellite Communications",
@@ -732,7 +737,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4D971470",
+      "route_id": "ROUTE-3200C5AC",
       "path": "/millimetre-wave-communications/",
       "type": "Detected Link",
       "anchor_text": "Millimetre-wave communications",
@@ -743,7 +748,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D5FBC8AF",
+      "route_id": "ROUTE-1FE761CE",
       "path": "/5g-5g-and-6g-communication-network-security-e-g-intrusion-detection-systems-multi-access-edge-computing-and-communications/",
       "type": "Detected Link",
       "anchor_text": "5G, 5G+ and 6G communication network security",
@@ -754,7 +759,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C73E2A1D",
+      "route_id": "ROUTE-69FF14D9",
       "path": "/bringing-ai-research-to-wireless-communication-and-sensing/",
       "type": "Detected Link",
       "anchor_text": "Bringing AI research to wireless communication and sensing",

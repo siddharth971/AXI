@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-86F59539",
-  "generated_at": "2026-01-21T07:26:49.880Z",
+  "generated_at": "2026-04-02T04:24:16.499Z",
   "global_configuration": {
     "brand_name": "",
     "domain": "www.amazon.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "23.37.86.87",
+      "server_ip": "108.158.60.199",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -48,7 +48,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "195ms"
+          "latency": "197ms"
         },
         {
           "resource": "challenge.js",

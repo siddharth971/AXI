@@ -1,24 +1,24 @@
 {
   "website_blueprint_id": "BLUEPRINT-B8FCE8FF",
-  "generated_at": "2026-01-21T07:26:54.085Z",
+  "generated_at": "2026-04-02T04:24:16.631Z",
   "global_configuration": {
     "brand_name": "Open",
     "domain": "enatega.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "93.127.173.242",
-      "cdn_provider": "Unknown",
+      "server_ip": "162.159.135.42",
+      "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
         "valid_until": "Unknown"
       },
-      "web_server": "hcdn"
+      "web_server": "cloudflare"
     },
     "server_headers": {
       "Cache-Control": "no-cache",
-      "Content-Security-Policy": "upgrade-insecure-requests",
-      "Server": "hcdn"
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
@@ -43,9 +43,9 @@
         "full_url": "https://cdn.jsdelivr.net/npm/intl-tel-input@20.2.0/build/css/intlTelInput.css"
       },
       {
-        "path": "/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-7087bed/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x.webp",
+        "path": "/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-338ad39/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x423.webp",
         "type": "image",
-        "full_url": "https://cdn-inech.nitrocdn.com/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-7087bed/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x.webp"
+        "full_url": "https://cdn-inech.nitrocdn.com/jdKghPovkzWfRohbpgAZaZYRcFhYiZiI/assets/images/optimized/rev-338ad39/enatega.com/wp-content/uploads/2025/11/Group-2147223550-486x423.webp"
       }
     ]
   },
@@ -63,7 +63,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "2362ms"
+          "latency": "1242ms"
         },
         {
           "resource": "intlTelInput.min.js",
@@ -262,6 +262,10 @@
           {
             "tag": "h6",
             "text": "Rider App"
+          },
+          {
+            "tag": "h6",
+            "text": "Server"
           },
           {
             "tag": "h2",
@@ -806,13 +810,13 @@
         ],
         "structure_summary": {
           "paragraphs": 130,
-          "headings": 67,
-          "images": 231
+          "headings": 68,
+          "images": 234
         }
       }
     },
     {
-      "route_id": "ROUTE-5AE6DB59",
+      "route_id": "ROUTE-9DAB6DAF",
       "path": "/contact/",
       "type": "Detected Link",
       "anchor_text": "Get This Offer Now!",
@@ -823,7 +827,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F3EEA8A2",
+      "route_id": "ROUTE-C31655B0",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -834,7 +838,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3DF1D928",
+      "route_id": "ROUTE-1964509D",
       "path": "/lumi-super-ai-app/",
       "type": "Detected Link",
       "anchor_text": "Lumi Super AI AppFirst ever AI powered All-in-one Super App in Qatar",
@@ -845,7 +849,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F7DE2224",
+      "route_id": "ROUTE-5E61D62A",
       "path": "/yalla-delivery/",
       "type": "Detected Link",
       "anchor_text": "Yalla DeliveryFood and Grocery, in One Place",
@@ -856,7 +860,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1E7B9E2E",
+      "route_id": "ROUTE-3BF33981",
       "path": "/stylizenow/",
       "type": "Detected Link",
       "anchor_text": "StylizeNOWPlatform that provides on-demand mobile hair",
@@ -867,7 +871,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B89D503C",
+      "route_id": "ROUTE-6E829A16",
       "path": "/easy-eats/",
       "type": "Detected Link",
       "anchor_text": "Easy EatsCampus food delivery company",
@@ -878,7 +882,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ACD61AC5",
+      "route_id": "ROUTE-C0C545F0",
       "path": "/vinifynd/",
       "type": "Detected Link",
       "anchor_text": "VinifyndWine retail and delivery business",
@@ -889,7 +893,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FCFD1975",
+      "route_id": "ROUTE-2CF39656",
       "path": "/snap-delivered/",
       "type": "Detected Link",
       "anchor_text": "Snap DeliveredSnap Delivered is a food delivery platform powered by Enatega",
@@ -900,7 +904,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-458E1863",
+      "route_id": "ROUTE-1D659AC4",
       "path": "/borku-delivery/",
       "type": "Detected Link",
       "anchor_text": "Borku DeliveryBringing African Cuisine to Food Delivery",
@@ -911,7 +915,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DA817111",
+      "route_id": "ROUTE-643CD573",
       "path": "/gift-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Gift Delivery Solution",
@@ -922,7 +926,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-021A8574",
+      "route_id": "ROUTE-EFF554D1",
       "path": "/milk-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Milk Delivery Solution",
@@ -933,7 +937,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC01D0DC",
+      "route_id": "ROUTE-08748109",
       "path": "/grocery-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Grocery Delivery Solution",
@@ -944,7 +948,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-77A341EE",
+      "route_id": "ROUTE-F1B29E4D",
       "path": "/liquor-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Liquor Delivery Solution",
@@ -955,7 +959,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D208F7FC",
+      "route_id": "ROUTE-84606F2E",
       "path": "/flower-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Flower Delivery Solution",
@@ -966,7 +970,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-748F2A17",
+      "route_id": "ROUTE-2F2E79CF",
       "path": "/medicine-delivery-solution/",
       "type": "Detected Link",
       "anchor_text": "Medicine Delivery Solution",

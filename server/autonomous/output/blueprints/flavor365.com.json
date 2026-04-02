@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-5E8A3E54",
-  "generated_at": "2026-01-22T06:06:10.979Z",
+  "generated_at": "2026-04-02T04:24:17.503Z",
   "global_configuration": {
     "brand_name": "Flavor365",
     "domain": "flavor365.com",
@@ -17,13 +17,13 @@
     },
     "server_headers": {
       "Cache-Control": "Not Set",
-      "Content-Security-Policy": "Not Set",
+      "Content-Security-Policy": "default-src 'self' https: data:; script-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data: blob:; font-src 'self' https: data:; connect-src 'self' https:; frame-src https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 18,
+      "total_files": 19,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -38,84 +38,89 @@
         "full_url": "https://eathealthy365.com/wp-content/themes/dux/assets/js/main.js?ver=6.9"
       },
       {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+      },
+      {
+        "path": "/wp-content/themes/dux/style.css",
+        "type": "stylesheet",
+        "full_url": "https://eathealthy365.com/wp-content/themes/dux/style.css?ver=6.9"
+      },
+      {
         "path": "/eathealthy365.com/wp-content/uploads/flavor365-site-logo.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-site-logo.webp?w=375&#038;h=45&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-site-logo.webp?w=375&#038;h=45&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
         "path": "/eathealthy365.com/wp-content/uploads/flavor365-gourmet-food-spread.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-gourmet-food-spread.webp?w=1280&#038;h=720&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/flavor365-gourmet-food-spread.webp?w=1280&#038;h=720&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/simple-dijon-mustard-pork-chop-recipe-oven.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/vegan-bodybuilding-meal-prep-and-barbell.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-dijon-mustard-pork-chop-recipe-oven.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/vegan-bodybuilding-meal-prep-and-barbell.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/bakery-style-pistachio-muffin-recipe.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/2026-mcdonalds-happy-meal-schedule-featured.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/bakery-style-pistachio-muffin-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/2026-mcdonalds-happy-meal-schedule-featured.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/nutritious-slow-cooker-ham-casserole.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/classic-new-england-clam-chowder-feature.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/nutritious-slow-cooker-ham-casserole.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/classic-new-england-clam-chowder-feature.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/peter-luger-steak-recipe-vs-other-methods.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/homemade-sausage-pretzel-bites-recipe.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/peter-luger-steak-recipe-vs-other-methods.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/homemade-sausage-pretzel-bites-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/perfectly-crispy-oven-roasted-broccoli.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/best-iced-coffee-hero.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/perfectly-crispy-oven-roasted-broccoli.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/best-iced-coffee-hero.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/baked-pineapple-chicken-and-rice.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/best-classic-mojito-hero.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/baked-pineapple-chicken-and-rice.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/best-classic-mojito-hero.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/homemade-bacon-recipe.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/feature-red-wine-making.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/homemade-bacon-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/feature-red-wine-making.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/low-carb-chicken-recipe-with-spinach.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/hero-no-bake-haystack-cookies.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/low-carb-chicken-recipe-with-spinach.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/hero-no-bake-haystack-cookies.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/simple-thinly-sliced-potato-recipe.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/hero-prime-rib-feast.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-thinly-sliced-potato-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/hero-prime-rib-feast.webp?w=320&#038;h=180&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/simple-baby-food-corn-recipe.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/taco-bell-menu-feast-2026.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/simple-baby-food-corn-recipe.webp?w=320&#038;h=180&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/taco-bell-menu-feast-2026.webp?w=330&#038;h=186&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/10-pound-prime-rib-roast-recipe.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/authentic-tacos-al-pastor-hero.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/10-pound-prime-rib-roast-recipe.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/authentic-tacos-al-pastor-hero.webp?w=330&#038;h=186&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/how-long-to-cook-pork-loin-in-oven.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/plant-based-muscle-guide-feature.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/how-long-to-cook-pork-loin-in-oven.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/plant-based-muscle-guide-feature.webp?w=330&#038;h=186&#038;crop=1&#038;quality=60&#038;ssl=1"
       },
       {
-        "path": "/eathealthy365.com/wp-content/uploads/costco-prime-rib-roast-cost.webp",
+        "path": "/eathealthy365.com/wp-content/uploads/is-pho-healthy-nutrition-facts.webp",
         "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/costco-prime-rib-roast-cost.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
-      },
-      {
-        "path": "/eathealthy365.com/wp-content/uploads/perfect-beef-tenderloin-cooking-temperature-guide.webp",
-        "type": "image",
-        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/perfect-beef-tenderloin-cooking-temperature-guide.webp?w=330&#038;h=186&#038;crop=1&#038;quality=50&#038;ssl=1"
+        "full_url": "https://i0.wp.com/eathealthy365.com/wp-content/uploads/is-pho-healthy-nutrition-facts.webp?w=330&#038;h=186&#038;crop=1&#038;quality=60&#038;ssl=1"
       }
     ]
   },
@@ -133,7 +138,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "1658ms"
+          "latency": "6200ms"
         },
         {
           "resource": "adsbygoogle.js",
@@ -144,7 +149,7 @@
           "latency": "pending"
         },
         {
-          "resource": "flavor365-site-logo.webp",
+          "resource": "v8c78df7c7c0f484497ecbca7046644da1771523124516",
           "latency": "pending"
         }
       ],
@@ -156,15 +161,15 @@
         },
         "value_props": [
           {
-            "title": "Featured: Making Ice Cream at Home: A Step-by-Step Guide",
+            "title": "Featured: How To Make A Fruit Smoothie: Creamy, Quick &#038; Healthy",
             "desc": "Description detected in content block."
           },
           {
-            "title": "Simple Dijon Mustard Pork Chop Recipe Oven",
+            "title": "How to Gain Muscle Mass as a Vegan?",
             "desc": "Description detected in content block."
           },
           {
-            "title": "How to Make a Bakery-Style Pistachio Muffin",
+            "title": "2026 McDonald's Happy Meal Toy Schedule",
             "desc": "Description detected in content block."
           }
         ],
@@ -179,11 +184,11 @@
           },
           {
             "tag": "h2",
-            "text": "Featured: Making Ice Cream at Home: A Step-by-Step Guide"
+            "text": "Featured: How To Make A Fruit Smoothie: Creamy, Quick &#038; Healthy"
           },
           {
             "tag": "p",
-            "text": "Making delicious, creamy ice cream at home is surprisingly simple. At its core, the process involves just three key steps: creating a sweet cream base, churning it as it freezes ..."
+            "text": "I used to dread limp store-bought smoothies until one morning I swapped a watery banana for a frozen one and suddenly the texture, flavor, and staying power all changed. That ..."
           },
           {
             "tag": "h2",
@@ -191,47 +196,43 @@
           },
           {
             "tag": "h2",
-            "text": "Simple Dijon Mustard Pork Chop Recipe Oven"
+            "text": "How to Gain Muscle Mass as a Vegan?"
           },
           {
             "tag": "p",
-            "text": "For years, my oven-baked pork chops were a culinary gamble. Some nights they were perfect, but too often they emerged dry, tough, and frankly, a little sad. I was convinced ..."
+            "text": "When I switched to a plant-based diet, my lifting stalled. I felt constantly weak and lost five pounds of hard-earned mass in a single month."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (259) How to Make a Bakery-Style Pistachio Muffin For years, I was on a quest for the perfect pistachio muffin. My early attempts were always a letdown. They were either dry, faintly flavored, or worse, that strange, artificial ..."
+            "text": "Lifestyle Views (248) 2026 McDonald's Happy Meal Toy Schedule I still remember the adrenaline rush of hunting down the elusive Pikachu holographic card for my son back in 2021. It wasn&#8217;t just about the toy; it was about the ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (410) Making a Nutritious Slow Cooker Ham Casserole Let's be honest, the week after a holiday can feel like a marathon of ham sandwiches. I remember one year, after a particularly large Easter feast, my son, then about ..."
+            "text": "Lifestyle Views (10739) Classic New England Clam Chowder Recipe I learned to love New England clam chowder after a damp, windy weekend on Cape Cod; a bowl of rich chowder fixed my cold better than a blanket ever could. ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (460) Peter Luger Recipe vs Other Steakhouse Methods I'll never forget the first time. The sizzle reached the table before the plate did. A waiter, with the practiced efficiency of a surgeon, tilted the heavy ceramic platter, spooning ..."
+            "text": "Recipes Views (2988) Sausage Pretzel Bites Recipe (Easy &#038; Cheesy) I still remember the first time I tried to host a game day party. I bought bags of frozen appetizers, thinking I was saving time, but the disappointment on my ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (525) Why Your Oven Broccoli Isn't Crispy Let's be honest. You've followed the recipes. You've cranked up the oven. But what comes out is... disappointing. A pan of limp, slightly browned, and undeniably soggy broccoli. I've been ..."
+            "text": "Recipes Views (4121) How to Make Iced Coffee Recipe I used to make watery iced coffee until one summer I started brewing hot coffee directly onto ice—suddenly every cup tasted bright, balanced, and café-level. That single switch fixed the ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (622) Step-by-Step Baked Pineapple Chicken and Rice For years, I chased the elusive one-pan baked chicken and rice dinner. My attempts often ended in a culinary tragedy: either the chicken was perfectly cooked but sitting on a ..."
+            "text": "Drinks Views (5764) Classic Mojito Recipe (Authentic Cuban Style) I learned to make the perfect mojito the hard way—over‑muddled mint and watery lime taught me one clear rule: gentle muddling keeps bright mint oils without bitterness."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (352) A Guide to Your Homemade Bacon Recipe I'll never forget the first time I tried to make bacon. I'd read a few articles, grabbed a pork belly, and coated it in what I thought was a mountain ..."
+            "text": "Drinks Views (2424) How to Make Homemade Red Wine from Grapes (Step-by-Step) I learned to make small-batch red wine the hard way—overripe grapes, stuck ferments, and a ruined case taught me one clear trick: start with clean fruit and measure sugar and ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (357) A Low-Carb Chicken Recipe with Spinach For years, I was stuck in a low-carb dinner rut. It felt like an endless cycle of bland, baked chicken breasts and steamed vegetables. I knew there had to be ..."
+            "text": "Drinks Views (2224) No-Bake Haystack Cookies: Easy Chocolate Peanut Butter Recipe I&#8217;ve made haystack cookies at midnight for bake sales, holiday platters, and last-minute guests — and I learned one fast truth: the right oats and a simple tempering trick make ..."
           },
           {
             "tag": "p",
-            "text": "Recipes Views (622) A Simple Thinly Sliced Potato Recipe for Weeknights Let's be honest, the weeknight side dish struggle is real. For years, I found myself in a potato rut. It was either mushy mashed potatoes that took forever or roasted ..."
-          },
-          {
-            "tag": "p",
-            "text": "Recipes Views (294) A Simple Baby Food Corn Recipe I remember the first time I tried to give my daughter, Lily, corn puree. I'd spent 20 years in content, analyzing user intent, but staring at that little bowl, I ..."
+            "text": "Recipes Views (2322) How to Cook a 10-lb Prime Rib? Step-by-Step Cooking Guide I remember the first time I roasted a 10-pound prime rib for a family holiday and watched guests fall silent the moment I carved: tender, rosy slices and a salty, ..."
           },
           {
             "tag": "p",
@@ -239,7 +240,7 @@
           },
           {
             "tag": "p",
-            "text": "Company"
+            "text": "Information"
           },
           {
             "tag": "p",
@@ -251,9 +252,9 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 38,
-          "headings": 14,
-          "images": 16
+          "paragraphs": 35,
+          "headings": 13,
+          "images": 15
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-2346E844",
-  "generated_at": "2026-01-21T07:26:54.217Z",
+  "generated_at": "2026-04-02T04:24:16.643Z",
   "global_configuration": {
     "brand_name": "Hire Vetted Software Developers [Full",
     "domain": "www.index.dev",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 111,
+      "total_files": 112,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -83,14 +83,14 @@
         "full_url": "https://www.index.dev/_next/static/chunks/3634-443c45a80c1fa3b6.js"
       },
       {
-        "path": "/_next/static/chunks/5673-d79b8f2814969b12.js",
+        "path": "/_next/static/chunks/5673-ad2dc5f2dbcf7a1c.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/5673-d79b8f2814969b12.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/5673-ad2dc5f2dbcf7a1c.js"
       },
       {
-        "path": "/_next/static/chunks/app/(default)/page-e5e473286eb7f1b8.js",
+        "path": "/_next/static/chunks/app/(default)/page-d1a274e1123f6a59.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/page-e5e473286eb7f1b8.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/page-d1a274e1123f6a59.js"
       },
       {
         "path": "/_next/static/chunks/app/(hire-form)/layout-62c5e8ee8d8225d4.js",
@@ -118,19 +118,24 @@
         "full_url": "https://www.index.dev/_next/static/chunks/4156-b7dabd8d544735b8.js"
       },
       {
-        "path": "/_next/static/chunks/2351-5f647ea9f75c8ba4.js",
+        "path": "/_next/static/chunks/2351-f2cecf3268adb6a5.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/2351-5f647ea9f75c8ba4.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/2351-f2cecf3268adb6a5.js"
       },
       {
-        "path": "/_next/static/chunks/9623-e889cdfa585d719d.js",
+        "path": "/_next/static/chunks/1577-caf9a4a6f29754e0.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/9623-e889cdfa585d719d.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/1577-caf9a4a6f29754e0.js"
       },
       {
-        "path": "/_next/static/chunks/app/(default)/layout-59b27a4136cdb91d.js",
+        "path": "/_next/static/chunks/9623-cf8845186b182c0b.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/layout-59b27a4136cdb91d.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/9623-cf8845186b182c0b.js"
+      },
+      {
+        "path": "/_next/static/chunks/app/(default)/layout-0058edb01ebdf1c8.js",
+        "type": "script",
+        "full_url": "https://www.index.dev/_next/static/chunks/app/(default)/layout-0058edb01ebdf1c8.js"
       },
       {
         "path": "/_next/static/chunks/3786-97eeedec87a68de3.js",
@@ -163,14 +168,14 @@
         "full_url": "https://www.index.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
       },
       {
-        "path": "/_next/static/chunks/webpack-d48ff0b53e591b90.js",
+        "path": "/_next/static/chunks/webpack-be7c53db2ed0a815.js",
         "type": "script",
-        "full_url": "https://www.index.dev/_next/static/chunks/webpack-d48ff0b53e591b90.js"
+        "full_url": "https://www.index.dev/_next/static/chunks/webpack-be7c53db2ed0a815.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/_next/static/css/82089d6477b185f0.css",
@@ -178,9 +183,9 @@
         "full_url": "https://www.index.dev/_next/static/css/82089d6477b185f0.css"
       },
       {
-        "path": "/_next/static/css/443bbfeb5eff493e.css",
+        "path": "/_next/static/css/f62e78737a7ecdc6.css",
         "type": "stylesheet",
-        "full_url": "https://www.index.dev/_next/static/css/443bbfeb5eff493e.css"
+        "full_url": "https://www.index.dev/_next/static/css/f62e78737a7ecdc6.css"
       },
       {
         "path": "/_next/static/css/7cca8e2c5137bd71.css",
@@ -598,7 +603,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3346ms"
+          "latency": "1305ms"
         },
         {
           "resource": "fd9d1056-c5cf48906d39c1ea.js",
@@ -636,7 +641,7 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "Roles Services Clients How it works Blog AI Training Sign In Find a Job Hire Talent g2.com 4.9 Build and manage your remote workforce Our Talent Network™ is the easiest way to find, onboard, and pay a high-performing remote workforce, from software engineers building your product to specialists evaluating your AI models."
+            "text": "Roles Services Case Studies How it works Blog AI Training Sign In Find a Job Hire Talent g2.com 4.9 Engineering capacity, made simple. We manage sourcing, vetting, onboarding, delivery, and continuity."
           },
           {
             "tag": "h2",
@@ -812,27 +817,27 @@
           },
           {
             "tag": "p",
-            "text": "Solve your toughest business challenges with the right talent. Latest Articles Browse all articles For Employers Why Senior Developers Quit Software Companies: Pay, Culture &amp; Leadership Senior developers don’t quit suddenly—they disengage first. This guide breaks down the real reasons top engineers leave software companies, from pay and poor management to burnout and dying codebases. More importantly, it shows what these exits reveal about leadership, culture, and how to retain your best talent."
+            "text": "Solve your toughest business challenges with the right talent. Latest Articles Browse all articles News Inside Index.dev&#x27;s Latest NPS: What 8 Surveys in a Row Are Teaching Us Index.dev has run its Net Promoter Score survey for eight consecutive periods, keeping NPS above 70 every time. Engineers consistently praise collaboration, autonomy, reliable payments, and support. This blog reveals what keeps our network engaged and how we act on their insights."
           },
           {
             "tag": "p",
-            "text": "AI agents deliver autonomous task execution with measurable returns: 88% of enterprises report positive ROI, some achieving 4.3x within 12 months. These systems handle customer support, IT operations, and data management independently, cutting costs by 40% while boosting revenue 6-10%. Adoption has exploded, making agentic AI core business infrastructure."
+            "text": "Index.dev has acquired Hirebolt to close the gap between AI ambition and engineering execution, combining talent access, expert evaluation, and delivery support in a single platform."
           },
           {
             "tag": "p",
-            "text": "Enterprise AI adoption has hit 78% globally in 2026, up from 55% just years ago. This surge signals AI&#x27;s shift from experimentation to mission-critical operations. Companies face talent gaps and ROI concerns, but competitive pressure and mature infrastructure are driving rapid, enterprise-wide AI integration."
+            "text": "Learn 4 ways to configure environment variables in Spring Boot for better security, scalability, and flexibility."
           },
           {
             "tag": "p",
-            "text": "Open-source AI released five frontier-class models under permissive licenses in 2025, proving reasoning doesn&#x27;t need proprietary walls. On-premises solutions now control over half the LLM market, forcing closed vendors to compete on price, speed, and openness—or lose."
+            "text": "Top open-source projects for contributions are opportunities to advance your skills and career. This curated list features 20 actively maintained projects where your code can make a real impact today."
           },
           {
             "tag": "p",
-            "text": "The best tech leaders aren&#x27;t just great at building software. They&#x27;re exceptional at leading people, thinking strategically, and scaling teams without breaking them. These 15 books give you the frameworks, insights, and practical tools to level up from good engineering leader to exceptional one."
+            "text": "Use np.isnan() in NumPy to check NaN in arrays. In Pandas, use isna() or isnull() for DataFrames. For single float values, use math.isnan(). If you&#x27;re working with Decimal, use is_nan() from the decimal module. Each method fits different data types and use cases."
           },
           {
             "tag": "p",
-            "text": "Enterprise LLM adoption is exploding—from under 5% in 2023 to over 80% by 2026—but execution is failing. While 72% of enterprises plan bigger budgets and the market races toward $71 billion, only 13% see enterprise-wide impact. The numbers reveal a massive gap between adoption enthusiasm and actual operational success."
+            "text": "The United States leads with the highest software engineer salaries ($145,116), followed by Switzerland ($108,409), Norway ($88,093), Denmark ($86,365), and Israel ($84,959), each offering unique benefits despite varying costs of living."
           },
           {
             "tag": "h2",
@@ -911,7 +916,7 @@
       }
     },
     {
-      "route_id": "ROUTE-101B54EF",
+      "route_id": "ROUTE-A99574A9",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -922,10 +927,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2CDE32C5",
+      "route_id": "ROUTE-88672D08",
       "path": "/clients",
       "type": "Detected Link",
-      "anchor_text": "Clients",
+      "anchor_text": "Case Studies",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -933,7 +938,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E995CE29",
+      "route_id": "ROUTE-244002D6",
       "path": "/how-index-works",
       "type": "Detected Link",
       "anchor_text": "How it works",
@@ -944,7 +949,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-AFDEC29E",
+      "route_id": "ROUTE-4A66B0F3",
       "path": "/blog",
       "type": "Detected Link",
       "anchor_text": "Blog",
@@ -955,7 +960,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8FCB84C6",
+      "route_id": "ROUTE-5FAC0794",
       "path": "/service/llm-development",
       "type": "Detected Link",
       "anchor_text": "AI Training",
@@ -966,7 +971,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-81C2029E",
+      "route_id": "ROUTE-4904C774",
       "path": "/hire",
       "type": "Detected Link",
       "anchor_text": "Hire Talent",
@@ -977,7 +982,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-234A762C",
+      "route_id": "ROUTE-22007290",
       "path": "/blog/financial-times-index-dev-europes-fastest-growing-companies",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -988,7 +993,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CD48192A",
+      "route_id": "ROUTE-96AF5298",
       "path": "/blog/index-hub-us",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -999,7 +1004,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D009524D",
+      "route_id": "ROUTE-4110203F",
       "path": "/hire-software-developers-remotely",
       "type": "Detected Link",
       "anchor_text": "Explore all skillsOver 100 skills",
@@ -1010,7 +1015,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BE8B57D5",
+      "route_id": "ROUTE-CE6F0032",
       "path": "/talent/a5a0/luka",
       "type": "Detected Link",
       "anchor_text": "Luka P.Front-End Developerpreviously at",
@@ -1021,7 +1026,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C06C5843",
+      "route_id": "ROUTE-493ACC1E",
       "path": "/talent/0cca/marcela",
       "type": "Detected Link",
       "anchor_text": "Marcela P.Full Stack Developerpreviously at",
@@ -1032,7 +1037,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6EDBEAE4",
+      "route_id": "ROUTE-84D1BC3C",
       "path": "/talent/1a52/erion",
       "type": "Detected Link",
       "anchor_text": "Erion D.Data Engineerpreviously at",
@@ -1043,7 +1048,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4E93CA96",
+      "route_id": "ROUTE-C2E0A5CF",
       "path": "/talent/edb1/fabio",
       "type": "Detected Link",
       "anchor_text": "Fabio O.Sales Engineerpreviously at",
@@ -1054,7 +1059,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-06EC0221",
+      "route_id": "ROUTE-2B932F2B",
       "path": "/talent/6296/amra",
       "type": "Detected Link",
       "anchor_text": "Amra H.Back-End Developerpreviously at",
@@ -1065,7 +1070,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-40E75D13",
+      "route_id": "ROUTE-EC229B93",
       "path": "/talent/ddcf/diego",
       "type": "Detected Link",
       "anchor_text": "Diego R.DevOps Engineerpreviously at",

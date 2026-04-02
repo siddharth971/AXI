@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-8FFDEFBD",
-  "generated_at": "2026-01-21T07:26:53.749Z",
+  "generated_at": "2026-04-02T04:24:16.521Z",
   "global_configuration": {
     "brand_name": "Google",
     "domain": "www.google.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "142.250.67.228",
+      "server_ip": "142.251.150.119",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -48,7 +48,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "290ms"
+          "latency": "331ms"
         },
         {
           "resource": "googlelogo_white_background_color_272x92dp.png",
@@ -61,22 +61,17 @@
           "h2_subtitle": "",
           "cta_buttons": []
         },
-        "value_props": [
-          {
-            "title": "Account Options",
-            "desc": "Description detected in content block."
-          }
-        ],
+        "value_props": [],
         "main_content": [],
         "structure_summary": {
-          "paragraphs": 3,
-          "headings": 1,
+          "paragraphs": 2,
+          "headings": 0,
           "images": 1
         }
       }
     },
     {
-      "route_id": "ROUTE-04DE6E25",
+      "route_id": "ROUTE-9AAB0870",
       "path": "/imghp",
       "type": "Detected Link",
       "anchor_text": "Images",
@@ -87,29 +82,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B8E22F55",
-      "path": "/finance",
-      "type": "Detected Link",
-      "anchor_text": "Finance",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-CF4D0103",
-      "path": "/preferences",
-      "type": "Detected Link",
-      "anchor_text": "Search settings",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-0E86C095",
+      "route_id": "ROUTE-B1CC9FFE",
       "path": "/advanced_search",
       "type": "Detected Link",
       "anchor_text": "Advanced search",
@@ -120,7 +93,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0237D177",
+      "route_id": "ROUTE-11FCBE4B",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "हिन्दी",
@@ -131,7 +104,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4EC3DA6D",
+      "route_id": "ROUTE-1AC2C5C4",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "বাংলা",
@@ -142,7 +115,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-405015BD",
+      "route_id": "ROUTE-EFEE8F22",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "తెలుగు",
@@ -153,7 +126,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CD63FE32",
+      "route_id": "ROUTE-55B3A347",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "मराठी",
@@ -164,7 +137,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-97C50C98",
+      "route_id": "ROUTE-D76D7BBB",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "தமிழ்",
@@ -175,7 +148,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D2DDEA5F",
+      "route_id": "ROUTE-ACB4F576",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "ગુજરાતી",
@@ -186,7 +159,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-63A41BF6",
+      "route_id": "ROUTE-337BAFBC",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "ಕನ್ನಡ",
@@ -197,7 +170,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5BE88B39",
+      "route_id": "ROUTE-22836C31",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "മലയാളം",
@@ -208,7 +181,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7D9E9D74",
+      "route_id": "ROUTE-C459434D",
       "path": "/setprefs",
       "type": "Detected Link",
       "anchor_text": "ਪੰਜਾਬੀ",
@@ -219,7 +192,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4B9A632A",
+      "route_id": "ROUTE-83E7E285",
       "path": "/intl/en/ads/",
       "type": "Detected Link",
       "anchor_text": "Advertising",
@@ -230,10 +203,32 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D25DC66F",
+      "route_id": "ROUTE-0787A1A2",
       "path": "/intl/en/about.html",
       "type": "Detected Link",
       "anchor_text": "About Google",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DC9CC357",
+      "path": "/setprefdomain",
+      "type": "Detected Link",
+      "anchor_text": "Google.co.in",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89034A34",
+      "path": "/intl/en/policies/privacy/",
+      "type": "Detected Link",
+      "anchor_text": "Privacy",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-C17953D5",
-  "generated_at": "2026-01-21T07:27:04.985Z",
+  "generated_at": "2026-04-02T04:24:24.334Z",
   "global_configuration": {
     "brand_name": "National University I Earn Your Degree Online",
     "domain": "www.nu.edu",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.64.146.31",
+      "server_ip": "104.18.41.225",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,139 +23,19 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 86,
+      "total_files": 66,
       "total_size_mb": 0
     },
     "core_assets": [
       {
-        "path": "/_static/",
+        "path": "/scripttemplates/otSDKStub.js",
         "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJydzDEOwjAMheELYaxIUMqAOEuaNpWDcarEVq9PhoqpZWD8pfc+XBcIWXQSxYVtJqlILYt4BjVSygLBczD2mgsORjz+WkA0ZoylmedUT7jjH7J/aWLTaDBwDq+6OS3m7+n5frhb11/u18659AHYvlrZ"
-      },
-      {
-        "path": "/wp-content/plugins/nuedu-blocks/build/cards-horizontal-scroll/front.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/cards-horizontal-scroll/front.js?ver=668f956da65193e49cab"
+        "full_url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
       },
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJylz9sKwjAMgOEXMoaBTr0QnyXrYsnWNqUHxbe3ThC8c3iXBP4PgvcIRkPhUDC6aiVkDJXHCoNTM2ccqrgRDSXmBFqLU53xmlqynfIGf8vZR6cPZoic2vFrBSnsV4ttpiIaICa1iXwGJ7msZl4AWYZAN7ELuJpY+izjf8j7C6ACBNZRMPwxLv7cHfrj7rTvu256AkOFoxM="
-      },
-      {
-        "path": "/wp-includes/js/dist/vendor/react.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
-      },
-      {
-        "path": "/wp-includes/js/dist/vendor/react-jsx-runtime.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?m=1765909318g"
-      },
-      {
-        "path": "/wp-includes/js/dist/hooks.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
-      },
-      {
-        "path": "/wp-includes/js/dist/i18n.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1765909319j"
-      },
-      {
-        "path": "/wp-includes/js/dist/api-fetch.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/api-fetch.min.js?ver=d387b816bc1ed2042e28"
-      },
-      {
-        "path": "/wp-includes/js/dist/vendor/react-dom.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
-      },
-      {
-        "path": "/wp-includes/js/dist/dom-ready.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/dom-ready.min.js?m=1765909319g"
-      },
-      {
-        "path": "/wp-includes/js/dist/a11y.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJx9zEEOhCAQBdELia0xMxMWxrMQ+AmQbkQb4/VduZuwrpeiu5pUPF8BSlkpJG0UUE941xBGSWXMOtBftku3Q72rMLEJ9x1DUFrXJDUaHfN+GxyXe4ebrPPv+7GTXWabH12iSfU="
-      },
-      {
-        "path": "/wp-includes/js/dist/keycodes.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??/wp-includes/js/dist/priority-queue.min.js,/wp-includes/js/dist/compose.min.js?m=1765909319j"
-      },
-      {
-        "path": "/wp-includes/js/dist/vendor/moment.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"
-      },
-      {
-        "path": "/wp-includes/js/dist/date.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/date.min.js?ver=aaca6387d1cf924acc51"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJyFykEOQDAQAMAPqdUI0oN4i+gmtmmr6W7xfA6OwpwHjqQoLr5YZHAMllhgleAVRiEh5DpQrB1X8DZTpnCv/b/ts6CaE33HjLacKm9FKOIzpzDqoe9MY1pt3AX5jkCB"
-      },
-      {
-        "path": "/wp-includes/js/dist/data.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/data.min.js?ver=7c62e39de0308c73d50c"
-      },
-      {
-        "path": "/wp-includes/js/dist/rich-text.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/rich-text.min.js?ver=4021b9e4e9ef4d3cd868"
-      },
-      {
-        "path": "/wp-includes/js/dist/warning.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/warning.min.js?m=1765909319g"
-      },
-      {
-        "path": "/wp-includes/js/dist/components.min.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-includes/js/dist/components.min.js?ver=fe486283a957ca5ed7c6"
-      },
-      {
-        "path": "/wp-content/plugins/nuedu-blocks/build/program-finder/front.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/program-finder/front.js?ver=4872f55e48406584f876"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJylztsNgzAMQNGF6loRFOhHxSxADAoYO8qDrg/8MAAMcI8u/j0MKokkoec8OYkomWyGnnVYIvbZsUUfdArdCqMTSwGSKuMYju49xxfeMlQI2Ak9dc4X2IqLadefqaum/H4qY+YdeSdTNA=="
-      },
-      {
-        "path": "/wp-content/plugins/nuedu-blocks/build/program-tabs/front.js",
-        "type": "script",
-        "full_url": "https://www.nu.edu/wp-content/plugins/nuedu-blocks/build/program-tabs/front.js?ver=07eea2d2f1fec6b9d44b"
-      },
-      {
-        "path": "/_static/",
-        "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJyVzk0OgjAQBeALWSYGg7ownqW0Awy0ndofDZ7eLjAhbJRkktl87+XBywvFLqFL4E3uyUVwGXUWrWE1RWgzGQ3RkMYAXSi0GuMB/oypgY0McSAf94c9KpKG3jIRO9EyT1aGaXdPkq1Bwd3XbpaQUyZrjDCWe2QM8/IqS+4nEpb6IBOu8XZTAU9Kc8fBrgqKZrfE7vZ2PDeX07Wp63r8ADtCmJo="
+        "full_url": "https://www.nu.edu/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSqy4uT8vJLUvBL9gpzS9My8Yn2ggrLMksq0/KJcJAOAqvPzoNrsc20Nzc2NjUzMjEwsswDBoDdc"
       },
       {
         "path": "/wp-content/plugins/gravityforms/js/gravityforms.min.js",
@@ -165,7 +45,7 @@
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJydzFsOQDAQQNENYULE40MsRZqqZpp22phB7J6IBYj/ey4cKdeRxJBA8ptFYrCr2lHOJa6BwTEkZc10RzMKRlJ+8tGiLgJS4TiDD4f/WDEbeR4zssAm6PnFYxjKtunqqu/a3l3VGkwm"
+        "full_url": "https://www.nu.edu/_static/??-eJydzFsOQDAQQNENYeIR4kMsRZqqZpp22phB7J6IBYj/ey4cKdeRxJBA8ptFYrCr2lHOJa6BwTEkZc10RzMKRlJ+8tGiLgJS4TiDD4f/WDEbeR4zssAm6PnFYxjKrmvqtq2q3l3U3kwY"
       },
       {
         "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -180,22 +60,42 @@
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJytk+tOwzAMhV8IN5oEA34gniVNvDZdLsVOdnt6vLbTEFo3GPyLIn/H9smJ2vZgUswYs+p9aVxkFQswajKt0syYWXVf7sBS6m3axqrjB3WBblYQC4PFhhBVXZy3qpCH4YQ0hx0btJrQToj0bGxPUOsYr1FoC9Q+mTVP4DQzG3J9vs6ZRAirEk12KWrv8v7c3LQ612k3JzBcCT20BoytjgaDVJzGwJ3UW+UdZ1nde8zggm6kHw1S9q/KJm2QIKTaefxnaa8Pe/BJWxebm6JRj+5BiU4mYnERCLXJIMVj0aQ+BqgKbj47pDfCrxKFIXXdR0HaV0HzGmWYvuTf0L3XBtt0TB1XJ6kf4ufkW3lBtREDEkFuxa57NcZE8m0R+QryiUzhnII7DPaec1mKm3+Ka+C4wl3o8T9Pm8Gw2neVYaXLUWhTrm8N8WNcHMzOaH+3wOh9x+/hbfG8fHl8fVouFt0nRQvpEg=="
+        "full_url": "https://www.nu.edu/_static/??-eJytktFOwzAMRX8IN0IMxgviW9LEbd0mTnGSbeXrybrCKsEqIXiLbnyu7Sur4wgmcEJOanS5JY6KM0TUYjqlY8QUVb/SwEoYbThy1cc79QNdJDwUAbxm3aKsTEzwPnDl6QsmNi5bnH/7t4wyqUylTnBd9YsWFxNI5HEkM5S/i1JdlS3ntgHOESy2gqjqTM6qLA7mV0FvYOd0Oi1oF6QMIg1BEm0G4vY2hjZD7YIZ4kIum0QjNKZt7pwSNJlNosDaUZqu3U2nUx1OGwHO9NwakDvNBn2p+BwDT6XeKkcxld2dwwTkS9TQyGxl/+pswgEFfKjJ4T9bO/0+gQvaluS/ma4PzpbtlA0eBLWdlrN49S/3+/3u4Xn39LjrPwA3ki0S"
       },
       {
-        "path": "/e-202604.js",
+        "path": "/wp-includes/js/dist/hooks.min.js",
         "type": "script",
-        "full_url": "https://stats.wp.com/e-202604.js"
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
+      },
+      {
+        "path": "/wp-includes/js/dist/a11y.min.js",
+        "type": "script",
+        "full_url": "https://www.nu.edu/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed"
       },
       {
         "path": "/_static/",
         "type": "script",
-        "full_url": "https://www.nu.edu/_static/??-eJx1z9sKwjAMgOEXMisVnXohPksP2chs09G0jvn0djDwRq9KIP8XqpYZXOKCXNQc6kgsiiv6CjYk9xRlRLCIkoVmzPsDtrIPCC+tu2PXd5G4m+SgfljjAFwFPI4ZUdlKwTd/n2EgDP5f2tZa7aqUFOltCiXegUlUpEDF5BWG3LL/xPYTl3I7VdlthGnd+nWMcyhCFkFcpnmTHvGuL/31dDv3Wk8fJClq+w=="
+        "full_url": "https://www.nu.edu/_static/??-eJydkNFuwjAMRX9oaTSGqPYw7VtCYlp3iZPFdhF8PaWFF16oKvnxniPfa8/F+EwCJLZE7ZDYdtWNKJdTrontMN2/Qr00yfEfBKSi0iSkZuAPu4Iu0XnocwxQuXmqVuKOGWS2BGSxI1DI1UgPCbY62Fcswu8lpKY7Ga8sOeHVCWayR8UY7ipVDJvApcImlJTNo5mZq71a5kpTbuZcNEo4TqPf832W47snVuPTgoLexc2CZfuBf9PPZ9vuvw6H3e57uAGEpfgk"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/e-202613.js",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://stats.wp.com/e-202613.js"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://www.nu.edu/_static/??-eJyVj9FqwzAMRX9oikhaUvYw9i2OrQRltmwsq6X7+rkssKdC9yT0cM69F28FfJZG0rBE21gUxSgYLDH7L8XFOAYsNW/VJVhZAlVoOUe4nnCtHR12fcPXNBq54//AnCo1Rb1x6dzvgcUkRILrOA7TMA+J5ZlrW0FMIdBWiY4OYsffx1AMz2tAp71py4m/XeMsh2BXTBy5uXqHF5b4XHuUiX8oXOfufx7nPanyQqC+cnmYPtPHeLmcT/M8Te/7D9tLmqk="
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/wp-content/uploads/2025/12/Image-1-1.avif",
@@ -473,18 +373,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6613ms"
+          "latency": "1266ms"
+        },
+        {
+          "resource": "otSDKStub.js",
+          "latency": "pending"
         },
         {
           "resource": "_static",
           "latency": "pending"
         },
         {
-          "resource": "front.js",
-          "latency": "pending"
-        },
-        {
-          "resource": "_static",
+          "resource": "gravityforms.min.js",
           "latency": "pending"
         }
       ],
@@ -511,7 +411,7 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "Degrees &amp; Programs Teaching &amp; Education Bachelor's Bachelor of Arts in Early Childhood Education (BAECE) Bachelor of Arts in Early Childhood Development with an Inspired Teaching and Learning Preliminary Multiple Subject Teaching Credential (California) Bachelor of Arts in English Bachelor of Arts in History View All Master's Master of Arts in Social Emotional Learning Master of Education in Inspired Teaching and Learning with a Preliminary Multiple or Single Subject Teaching Credential and Intern Option (California) Master of Arts in Education Master’s of Early Childhood Education Education Specialist View All Doctoral Doctor of Education Doctor of Philosophy in Education Doctor of Philosophy in Educational and Organizational Leadership Doctor of Education in Organizational Innovation and Leadership Education Specialist View All Certificate Certificate in Online Teaching (COT) Program Online Medical Coding Program Building Our Team Through Community Policing View All Credential Inspired Teaching and Learning with a Preliminary Single Subject Teaching Credential Inspired Teaching and Learning with a Preliminary Multiple Subject Teaching Credential and Internship Option (California) Preliminary Administrative Services Credential (CA Option) Preliminary Education Specialist Credential: Mild/Moderate with Internship Option (CA) View All All Teaching &amp; Education Business &amp; Marketing Associate Associate of Science in Business Bachelor's Bachelor of Business Administration Bachelor of Science in Healthcare Administration Bachelor of Arts in Management View All Master's Master of Business Administration (MBA) Master of Public Health (MPH) Master of Science in Data Science Master of Public Administration View All Doctoral Doctor of Criminal Justice Doctor of Philosophy in Organizational Leadership Doctor of Business Administration Doctor of Philosophy in Business Administration View All Certificate Post Baccalaureate Certificate in Business-Management of Virtual Organizations Post-Master’s Certificate in Business Certificate in Agile Project Management View All All Business &amp; Marketing Healthcare &amp; Nursing Bachelor's Bachelor of Science in Nursing (BSN) (California) Bachelor of Science in Nursing (BSN) Second Bachelor Degree (California) Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Healthcare Administration Bachelor of Science in Public Health View All Master's Master of Science in Nursing Master of Science in Health Informatics Master of Public Health (MPH) Master of Healthcare Administration View All Doctoral Doctor of Nurse Anesthesia Practice (DNAP) Doctor of Health Administration Doctor of Nursing Practice in Executive Leadership Certificate LVN to RN 30 Unit Option (California) Psychiatric Mental Health Nurse Practitioner Certificate Family Nurse Practitioner Certificate View All All Healthcare &amp; Nursing Social Sciences &amp; Psychology Bachelor's Bachelor of Arts in Psychology Bachelor of Arts in Integrative Psychology Bachelor of Science in Criminal Justice Administration Bachelor of Arts in Sociology View All Master's Master of Science in Applied Behavioral Analysis Degree Master of Arts Degree in Counseling Psychology Master of Arts in Consciousness, Psychology, and Transformation Master of Public Health (MPH) View All Doctoral Doctor of Clinical Psychology (PsyD) Program Doctor of Philosophy in Marriage and Family Therapy Doctor of Philosophy in Psychology Doctorate of Marriage and Family Therapy View All Certificate Post-Master's Certificate in Psychology View All All Social Sciences &amp; Psychology Engineering &amp; Technology Bachelor's Bachelor of Science in Cybersecurity Bachelor of Science in Electrical and Computer Engineering Bachelor of Science in Computer Science Bachelor of Science in Construction Management View All Master's Master of Science in Cybersecurity Master of Science in Data Science Master of Science in Computer Science Master of Science in Engineering Management View All Doctoral Doctor of Philosophy in Data Science Doctor of Philosophy in Computer Science Doctor of Philosophy in Technology Management Doctor of Philosophy in Cybersecurity View All All Engineering &amp; Technology Arts &amp; Humanities Associate Associate of Arts in General Education Bachelor's Bachelor of Arts in English Bachelor of Arts in Digital Media Design Bachelor of Arts in General Studies Bachelor of Arts in Sociology View All Master's Master of Arts in English Master of Arts in Strategic Communication All Arts &amp; Humanities Criminal Justice &amp; Public Service Certificate Graduate Certificate in Forensic and Crime Scene Investigations View All Bachelor's Bachelor of Public Administration Bachelor of Science in Criminal Justice Administration Bachelor of Science in Homeland Security and Emergency Management Minor in Business Law View All Master's Master of Public Administration Master of Criminal Justice Leadership Master of Forensic Sciences Master of Science in Homeland Security and Emergency Management View All Doctoral Doctor of Public Administration Doctor of Criminal Justice College of Law and Public Service All Criminal Justice &amp; Public Service Law Certificate Paralegal Specialist Certificate in Corporations Paralegal Specialist Certificate Criminal Law Paralegal Specialist Certificate Litigation Paralegal Specialist Certificate in Legal Technology and E-Discovery Associate Associate of Science in Paralegal Studies Bachelor’s Bachelor of Arts in Pre-Law Studies Bachelor of Science in Paralegal Studies JFK School of Law See the JFK School of Law Juris Doctor All Law Science &amp; Math Associate Associate of Science in Human Biology Associate of Science in General Education Bachelor's Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Biology Bachelor of Science in Mathematics Master's Master of Forensic Sciences Master of Science in Health Informatics Certificate Graduate Certificate in Forensic and Crime Scene Investigations All Science &amp; Math Program Finder Admissions &amp; Financing Admissions Information Admissions Undergraduate Admissions Graduate Program Admissions Military Admissions Credential Programs Certificate Programs Transfer Information Credit for Prior Learning Speak to an Advisor Financing School How to Pay for College Financial Aid Scholarships Tuition &amp; Fees NU offers a variety of scholarships to help students reduce their financial burden while focusing on achieving their goals. Explore Scholarships About NU Overview About NU Colleges/Schools University Leadership Office of the President Academies at NU Locations Course Catalog Accreditation Faculty Workforce and Community Education President’s Circle Board of Trustees NU foundation Blog NU Podcast Military Military &amp; Veterans Army Navy Air Force Marines Coast Guard Space Force National Guard &amp; Reservist Veteran Military Spouses &amp; Dependents Military Admissions Military Resources NU proudly serves active duty and Veteran students from all branches of the military — at home, on base, and abroad. Military Admissions Student Resources Prospective Students Admissions Financial Aid Online Degrees &amp; Programs Scholarships Transfer Information Catalog Apply Now Speak to an Advisor FAQ Consumer Information Current Students Student Login Graduation Graduation Events Student Portal Student Bookstore Student Resources Dissertation Boot Camp The Nest Alumni Alumni Giving Community Show your NU pride and shop our online store for the latest and greatest NU apparel and accessories! Shop Now Search for: Search Apply Now Request Info Search site Supporting the Whole You Balance Life While Earning Your Degree"
+            "text": "Degrees &amp; Programs Teaching &amp; Education Bachelor's Bachelor of Arts in Early Childhood Education (BAECE) Bachelor of Arts in Early Childhood Development with an Inspired Teaching and Learning Preliminary Multiple Subject Teaching Credential (California) Bachelor of Arts in English Bachelor of Arts in History View All Master's Master of Arts in Social Emotional Learning Master of Education in Inspired Teaching and Learning with a Preliminary Multiple or Single Subject Teaching Credential and Intern Option (California) Master of Arts in Education Master’s of Early Childhood Education Education Specialist View All Doctoral Doctor of Education Doctor of Philosophy in Education Doctor of Philosophy in Educational and Organizational Leadership Doctor of Education in Organizational Innovation and Leadership Education Specialist View All Certificate Certificate in Online Teaching (COT) Program Early Childhood Education Foundations Certificate Early Childhood Education Certificate in Curriculum Connections View All Credential Inspired Teaching and Learning with a Preliminary Single Subject Teaching Credential Inspired Teaching and Learning with a Preliminary Multiple Subject Teaching Credential and Internship Option (California) Preliminary Administrative Services Credential (CA Option) Preliminary Education Specialist Credential: Mild/Moderate with Internship Option (CA) View All All Teaching &amp; Education Business &amp; Marketing Associate Associate of Science in Business Bachelor's Bachelor of Business Administration Bachelor of Science in Healthcare Administration Bachelor of Arts in Management View All Master's Master of Business Administration (MBA) Master of Public Health (MPH) Master of Science in Data Science Master of Public Administration View All Doctoral Doctor of Criminal Justice Doctor of Philosophy in Organizational Leadership Doctor of Business Administration Doctor of Philosophy in Business Administration View All Certificate Post Baccalaureate Certificate in Business-Management of Virtual Organizations Post-Master’s Certificate in Business Certificate in Agile Project Management View All All Business &amp; Marketing Healthcare &amp; Nursing Bachelor's Bachelor of Science in Nursing (BSN) (California) Bachelor of Science in Nursing (BSN) Second Bachelor Degree (California) Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Healthcare Administration Bachelor of Science in Public Health View All Master's Master of Science in Nursing Master of Science in Health Informatics Master of Public Health (MPH) Master of Healthcare Administration View All Doctoral Doctor of Nurse Anesthesia Practice (DNAP) Doctor of Health Administration Doctor of Nursing Practice in Executive Leadership Certificate LVN to RN 30 Unit Option (California) Psychiatric Mental Health Nurse Practitioner Certificate Family Nurse Practitioner Certificate View All All Healthcare &amp; Nursing Social Sciences &amp; Psychology Bachelor's Bachelor of Arts in Psychology Bachelor of Arts in Integrative Psychology Bachelor of Science in Criminal Justice Administration Bachelor of Arts in Sociology View All Master's Master of Science in Applied Behavioral Analysis Degree Master of Arts Degree in Counseling Psychology Master of Arts in Consciousness, Psychology, and Transformation Master of Public Health (MPH) View All Doctoral Doctor of Clinical Psychology (PsyD) Program Doctor of Philosophy in Marriage and Family Therapy Doctor of Philosophy in Psychology Doctorate of Marriage and Family Therapy View All Certificate Post-Master's Certificate in Psychology View All All Social Sciences &amp; Psychology Engineering &amp; Technology Bachelor's Bachelor of Science in Cybersecurity Bachelor of Science in Electrical and Computer Engineering Bachelor of Science in Computer Science Bachelor of Science in Construction Management View All Master's Master of Science in Cybersecurity Master of Science in Data Science Master of Science in Computer Science Master of Science in Engineering Management View All Doctoral Doctor of Philosophy in Data Science Doctor of Philosophy in Computer Science Doctor of Philosophy in Technology Management Doctor of Philosophy in Cybersecurity View All All Engineering &amp; Technology Arts &amp; Humanities Associate Associate of Arts in General Education Bachelor's Bachelor of Arts in English Bachelor of Arts in Digital Media Design Bachelor of Arts in General Studies Bachelor of Arts in Sociology View All Master's Master of Arts in English Master of Arts in Strategic Communication All Arts &amp; Humanities Criminal Justice &amp; Public Service Certificate Graduate Certificate in Forensic and Crime Scene Investigations View All Bachelor's Bachelor of Public Administration Bachelor of Science in Criminal Justice Administration Bachelor of Science in Homeland Security and Emergency Management Minor in Business Law View All Master's Master of Public Administration Master of Criminal Justice Leadership Master of Forensic Sciences Master of Science in Homeland Security and Emergency Management View All Doctoral Doctor of Public Administration Doctor of Criminal Justice College of Law and Public Service All Criminal Justice &amp; Public Service Law Certificate Paralegal Specialist Certificate in Corporations Paralegal Specialist Certificate Criminal Law Paralegal Specialist Certificate Litigation Paralegal Specialist Certificate in Legal Technology and E-Discovery Associate Associate of Science in Paralegal Studies Bachelor’s Bachelor of Arts in Pre-Law Studies Bachelor of Science in Paralegal Studies JFK School of Law See the JFK School of Law Juris Doctor All Law Science &amp; Math Associate Associate of Science in Human Biology Associate of Science in General Education Bachelor's Bachelor of Science in Clinical Laboratory Science Bachelor of Science in Biology Bachelor of Science in Mathematics Master's Master of Forensic Sciences Master of Science in Health Informatics Certificate Graduate Certificate in Forensic and Crime Scene Investigations All Science &amp; Math Program Finder Admissions &amp; Financing Admissions Information Admissions Undergraduate Admissions Graduate Program Admissions Military Admissions Credential Programs Certificate Programs Transfer Information Credit for Prior Learning Speak to an Advisor Financing School How to Pay for College Financial Aid Scholarships Tuition &amp; Fees NU offers a variety of scholarships to help students reduce their financial burden while focusing on achieving their goals. Explore Scholarships About NU Overview About NU Colleges/Schools University Leadership Office of the President Academies at NU Locations Course Catalog Accreditation Faculty Workforce and Community Education President’s Circle Board of Trustees NU Foundation Blog NU Podcast Military Military &amp; Veterans Army Navy Air Force Marines Coast Guard Space Force National Guard &amp; Reservist Veteran Military Spouses &amp; Dependents Military Admissions Military Resources NU proudly serves active duty and Veteran students from all branches of the military — at home, on base, and abroad. Military Admissions Student Resources Prospective Students Admissions Financial Aid Online Degrees &amp; Programs Scholarships Transfer Information Catalog Apply Now Speak to an Advisor FAQ Consumer Information Current Students Student Login Graduation Graduation Events Student Portal Student Bookstore Student Resources Dissertation Boot Camp The Nest Alumni Alumni Giving Community Show your NU pride and shop our online store for the latest and greatest NU apparel and accessories! Shop Now Search for: Search Apply Now Request Info Search site Supporting the Whole You Balance Life While Earning Your Degree"
           },
           {
             "tag": "h3",
@@ -958,7 +858,7 @@
       }
     },
     {
-      "route_id": "ROUTE-1E10F919",
+      "route_id": "ROUTE-03716A75",
       "path": "/login/",
       "type": "Detected Link",
       "anchor_text": "Login",
@@ -969,7 +869,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3DAD0BB1",
+      "route_id": "ROUTE-DBEEED8A",
       "path": "/degrees/teacher-education/programs/bachelor-of-arts-in-early-childhood-education/",
       "type": "Detected Link",
       "anchor_text": "Bachelor of Arts in Early Childhood Education (BAECE)",
@@ -980,7 +880,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-1A271527",
+      "route_id": "ROUTE-3173CF72",
       "path": "/degrees/teacher-education/programs/bachelor-of-arts-in-early-childhood-development-inspired-teaching-and-learning-preliminary-multiple-subject-teaching-credential-ca/",
       "type": "Detected Link",
       "anchor_text": "Bachelor of Arts in Early Childhood Development with an Inspired Teaching and Learning Preliminary Multiple Subject Teaching Credential (California)",
@@ -991,7 +891,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F8F5BB71",
+      "route_id": "ROUTE-C2D8CA75",
       "path": "/degrees/arts-and-humanities/programs/bachelor-arts-english/",
       "type": "Detected Link",
       "anchor_text": "Bachelor of Arts in English",
@@ -1002,7 +902,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CDB7B17E",
+      "route_id": "ROUTE-3D781E0D",
       "path": "/degrees/social-sciences/programs/bachelor-arts-history/",
       "type": "Detected Link",
       "anchor_text": "Bachelor of Arts in History",
@@ -1013,7 +913,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-626F52DD",
+      "route_id": "ROUTE-154D2F1F",
       "path": "/program-finder/",
       "type": "Detected Link",
       "anchor_text": "View All",
@@ -1024,7 +924,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A57F0FE0",
+      "route_id": "ROUTE-8A7BDB9B",
       "path": "/degrees/teacher-education/programs/master-of-arts-in-social-emotional-learning/",
       "type": "Detected Link",
       "anchor_text": "Master of Arts in Social Emotional Learning",
@@ -1035,7 +935,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-33F0C050",
+      "route_id": "ROUTE-56D57BE7",
       "path": "/degrees/teacher-education/programs/master-education-inspired-teaching-and-learning-internship/",
       "type": "Detected Link",
       "anchor_text": "Master of Education in Inspired Teaching and Learning with a Preliminary Multiple or Single Subject Teaching Credential and Intern Option (California)",
@@ -1046,7 +946,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-61330412",
+      "route_id": "ROUTE-B1CC6889",
       "path": "/degrees/teacher-education/programs/master-of-arts-in-education/",
       "type": "Detected Link",
       "anchor_text": "Master of Arts in Education",
@@ -1057,7 +957,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8FE18BAF",
+      "route_id": "ROUTE-57B570A5",
       "path": "/degrees/teacher-education/programs/master-of-early-childhood-education/",
       "type": "Detected Link",
       "anchor_text": "Master’s of Early Childhood Education",
@@ -1068,7 +968,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A127A66A",
+      "route_id": "ROUTE-0CFF622C",
       "path": "/degrees/educational-leadership/programs/education-specialist/",
       "type": "Detected Link",
       "anchor_text": "Education Specialist",
@@ -1079,7 +979,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FC743ADC",
+      "route_id": "ROUTE-2D0B26EB",
       "path": "/program-finder/",
       "type": "Detected Link",
       "anchor_text": "View All",
@@ -1090,7 +990,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A47510E7",
+      "route_id": "ROUTE-A1655893",
       "path": "/degrees/educational-leadership/programs/doctor-of-education/",
       "type": "Detected Link",
       "anchor_text": "Doctor of Education",
@@ -1101,7 +1001,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0C9BAC15",
+      "route_id": "ROUTE-AD4B53FE",
       "path": "/degrees/educational-leadership/programs/doctor-of-philosophy-in-education/",
       "type": "Detected Link",
       "anchor_text": "Doctor of Philosophy in Education",
@@ -1112,7 +1012,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9DDC9063",
+      "route_id": "ROUTE-D5B02203",
       "path": "/degrees/educational-leadership/programs/doctor-of-philosophy-in-educational-and-organizational-leadership/",
       "type": "Detected Link",
       "anchor_text": "Doctor of Philosophy in Educational and Organizational Leadership",

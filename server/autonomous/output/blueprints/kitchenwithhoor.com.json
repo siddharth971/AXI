@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-42627094",
-  "generated_at": "2026-01-21T07:26:54.238Z",
+  "generated_at": "2026-04-02T04:24:16.919Z",
   "global_configuration": {
     "brand_name": "Kitchen with Hoor Zahra",
     "domain": "kitchenwithhoor.com",
@@ -60,12 +60,12 @@
       {
         "path": "/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4"
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5"
       },
       {
         "path": "/wp-content/plugins/contact-form-7/includes/js/index.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4"
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.5"
       },
       {
         "path": "/wp-content/plugins/penci-review/js/jquery.easypiechart.min.js",
@@ -110,7 +110,7 @@
       {
         "path": "/wp-includes/js/comment-reply.min.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-includes/js/comment-reply.min.js?ver=6.9"
+        "full_url": "https://kitchenwithhoor.com/wp-includes/js/comment-reply.min.js?ver=6.9.4"
       },
       {
         "path": "/wp-content/themes/soledad/js/inview.js",
@@ -135,12 +135,12 @@
       {
         "path": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.6"
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.9"
       },
       {
         "path": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.6"
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.9"
       },
       {
         "path": "/wp-includes/js/jquery/ui/core.min.js",
@@ -150,7 +150,7 @@
       {
         "path": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
         "type": "script",
-        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.6"
+        "full_url": "https://kitchenwithhoor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.9"
       },
       {
         "path": "/wp-content/themes/soledad/js/widgets-ajax.js",
@@ -203,7 +203,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3900ms"
+          "latency": "3072ms"
         },
         {
           "resource": "js",
@@ -226,6 +226,10 @@
         },
         "value_props": [],
         "main_content": [
+          {
+            "tag": "h3",
+            "text": "Refreshing Summer Drink Ideas for 2026: Quick and Easy Recipes at Home"
+          },
           {
             "tag": "h3",
             "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
@@ -256,10 +260,6 @@
           },
           {
             "tag": "h3",
-            "text": "Optimal Dietary Guidelines for Managing Low and High Blood Pressure"
-          },
-          {
-            "tag": "h3",
             "text": "Ingredients"
           },
           {
@@ -269,6 +269,14 @@
           {
             "tag": "h3",
             "text": "Latest"
+          },
+          {
+            "tag": "h3",
+            "text": "Refreshing Summer Drink Ideas for 2026: Quick and Easy Recipes at Home"
+          },
+          {
+            "tag": "p",
+            "text": "Introduction to Summer Drinks As the temperatures rise, so does the need for refreshing beverages that not only quench our thirst but also invigorate our &#8230;"
           },
           {
             "tag": "h3",
@@ -283,10 +291,6 @@
             "text": "Top Pakistani Food Restaurants in the USA for Pakistani Food Lovers"
           },
           {
-            "tag": "p",
-            "text": "Introduction to Pakistani Cuisine Pakistani cuisine is a vibrant tapestry of flavors, aromas, and colors that reflect the country’s rich cultural heritage and diverse geography. &#8230;"
-          },
-          {
             "tag": "h3",
             "text": "The Ultimate Guide to Do&#8217;s and Don&#8217;ts in Pakistani Food Dishes Recipes"
           },
@@ -297,10 +301,6 @@
           {
             "tag": "h3",
             "text": "Everyday Uses of Baking Soda: A Household Essential"
-          },
-          {
-            "tag": "h3",
-            "text": "A Delectable Duel: Chinese Food vs Pakistani Food"
           },
           {
             "tag": "h3",
@@ -364,6 +364,10 @@
           },
           {
             "tag": "h4",
+            "text": "Refreshing Summer Drink Ideas for 2026: Quick and Easy Recipes at Home"
+          },
+          {
+            "tag": "h4",
             "text": "Unique Fast Food Ideas: Tasty Chicken Food Recipes to Try at Home"
           },
           {
@@ -377,10 +381,6 @@
           {
             "tag": "h4",
             "text": "Frequently Asked Questions About Food Blogging"
-          },
-          {
-            "tag": "h4",
-            "text": "Everyday Uses of Baking Soda: A Household Essential"
           },
           {
             "tag": "h3",
@@ -467,7 +467,7 @@
       }
     },
     {
-      "route_id": "ROUTE-23AB5B20",
+      "route_id": "ROUTE-CD470834",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Home",
@@ -478,7 +478,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7E97CF0F",
+      "route_id": "ROUTE-A36996D4",
       "path": "/food-recipes/",
       "type": "Detected Link",
       "anchor_text": "Food &amp; Recipes",
@@ -489,7 +489,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9E9058EE",
+      "route_id": "ROUTE-31AD4078",
       "path": "/recipes/",
       "type": "Detected Link",
       "anchor_text": "Recipes",
@@ -500,7 +500,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-524AF2A1",
+      "route_id": "ROUTE-0BA6C151",
       "path": "/cooking-tips/",
       "type": "Detected Link",
       "anchor_text": "Cooking Tips",
@@ -511,7 +511,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-003A1D45",
+      "route_id": "ROUTE-12326034",
       "path": "/breakfast/",
       "type": "Detected Link",
       "anchor_text": "Breakfast",
@@ -522,7 +522,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7D20B2FB",
+      "route_id": "ROUTE-67227E46",
       "path": "/sustainable-cooking/",
       "type": "Detected Link",
       "anchor_text": "Sustainable Cooking",
@@ -533,7 +533,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-06740710",
+      "route_id": "ROUTE-049780E3",
       "path": "/hosting-entertaining/",
       "type": "Detected Link",
       "anchor_text": "Hosting &amp; Entertaining",
@@ -544,7 +544,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C821C84C",
+      "route_id": "ROUTE-9FC7E4BF",
       "path": "/health-wellness/",
       "type": "Detected Link",
       "anchor_text": "Health &amp; Wellness",
@@ -555,7 +555,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-03D4F422",
+      "route_id": "ROUTE-D85F1EAA",
       "path": "/nutrition/",
       "type": "Detected Link",
       "anchor_text": "Nutrition",
@@ -566,7 +566,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EB00EDD4",
+      "route_id": "ROUTE-E7384736",
       "path": "/culinary-arts/",
       "type": "Detected Link",
       "anchor_text": "Culinary Arts",
@@ -577,7 +577,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9AEF709F",
+      "route_id": "ROUTE-9E8E6573",
       "path": "/desserts/",
       "type": "Detected Link",
       "anchor_text": "Desserts",
@@ -588,7 +588,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-BA6719ED",
+      "route_id": "ROUTE-BB279DA5",
       "path": "/contact/",
       "type": "Detected Link",
       "anchor_text": "Contact",
@@ -599,7 +599,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9374A5E0",
+      "route_id": "ROUTE-3BEF591D",
       "path": "/about-us/",
       "type": "Detected Link",
       "anchor_text": "About Us!",
@@ -610,8 +610,8 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F37F5B86",
-      "path": "/unique-fast-food-ideas-tasty-chicken-food-recipes-to-try-at-home/",
+      "route_id": "ROUTE-2605FEB0",
+      "path": "/refreshing-summer-drink-ideas-for-2026-quick-and-easy-recipes-at-home/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
       "rendering_strategy": "Unknown",
@@ -621,10 +621,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8773BFF7",
-      "path": "/unique-fast-food-ideas-tasty-chicken-food-recipes-to-try-at-home/",
+      "route_id": "ROUTE-8CE7C130",
+      "path": "/food-drink/",
       "type": "Detected Link",
-      "anchor_text": "0 comments",
+      "anchor_text": "Food &amp; Drink",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-C4DE1BEA",
-  "generated_at": "2026-01-21T07:26:54.717Z",
+  "generated_at": "2026-04-02T04:24:17.747Z",
   "global_configuration": {
     "brand_name": "Welcome to nginx!",
     "domain": "fpga.mit.edu",
@@ -42,7 +42,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "18899ms"
+          "latency": "6482ms"
         }
       ],
       "page_content": {
@@ -70,7 +70,7 @@
       }
     },
     {
-      "route_id": "ROUTE-F4A18B98",
+      "route_id": "ROUTE-4AAE81E4",
       "path": "/6205",
       "type": "Detected Link",
       "anchor_text": "here.",

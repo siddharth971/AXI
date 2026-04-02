@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-D245406C",
-  "generated_at": "2026-01-21T07:26:53.758Z",
+  "generated_at": "2026-04-02T04:24:16.558Z",
   "global_configuration": {
     "brand_name": "YouTube",
     "domain": "www.youtube.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "142.250.77.46",
+      "server_ip": "142.250.77.78",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -17,7 +17,7 @@
     },
     "server_headers": {
       "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
-      "Content-Security-Policy": "require-trusted-types-for 'script'",
+      "Content-Security-Policy": "base-uri 'self';object-src 'none';script-src 'report-sample' 'nonce-ffsUSTx3NGoJh3r0V34Ivw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';report-uri https://csp.withgoogle.com/csp/youtube_main/strict, require-trusted-types-for 'script'",
       "Server": "ESF"
     }
   },
@@ -28,49 +28,49 @@
     },
     "core_assets": [
       {
-        "path": "/s/desktop/e2b70753/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/fetch-polyfill.vflset/fetch-polyfill.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/fetch-polyfill.vflset/fetch-polyfill.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/intersection-observer.min.vflset/intersection-observer.min.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/intersection-observer.min.vflset/intersection-observer.min.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/scheduler.vflset/scheduler.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/scheduler.vflset/scheduler.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/scheduler.vflset/scheduler.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/scheduler.vflset/scheduler.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/www-i18n-constants-en_GB.vflset/www-i18n-constants.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/spf.vflset/spf.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/spf.vflset/spf.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/spf.vflset/spf.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/spf.vflset/spf.js"
       },
       {
-        "path": "/s/desktop/e2b70753/jsbin/network.vflset/network.js",
+        "path": "/s/desktop/5d82a8bc/jsbin/network.vflset/network.js",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/jsbin/network.vflset/network.js"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/jsbin/network.vflset/network.js"
       },
       {
-        "path": "/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.nqK6y8xepRQ.es5.O/am=AAAgAAAACA/d=1/br=1/rs=AGKMywGgSNge9Ns1X_rF9KoehBCuNebYCg/m=kevlar_base_module,kevlar_main_module",
+        "path": "/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.cVzIyzD-avE.es5.O/am=AAAACAAAkA/d=1/br=1/rs=AGKMywHwmVohoIqQsWF4BaoTlo6-Ni2RaQ/m=kevlar_base_module,kevlar_main_module",
         "type": "script",
-        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.nqK6y8xepRQ.es5.O/am=AAAgAAAACA/d=1/br=1/rs=AGKMywGgSNge9Ns1X_rF9KoehBCuNebYCg/m=kevlar_base_module,kevlar_main_module"
+        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.cVzIyzD-avE.es5.O/am=AAAACAAAkA/d=1/br=1/rs=AGKMywHwmVohoIqQsWF4BaoTlo6-Ni2RaQ/m=kevlar_base_module,kevlar_main_module"
       },
       {
         "path": "/css2",
@@ -78,24 +78,24 @@
         "full_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap"
       },
       {
-        "path": "/s/desktop/e2b70753/cssbin/www-main-desktop-home-page-skeleton.css",
+        "path": "/s/desktop/5d82a8bc/cssbin/www-main-desktop-home-page-skeleton.css",
         "type": "stylesheet",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-main-desktop-home-page-skeleton.css"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/cssbin/www-main-desktop-home-page-skeleton.css"
       },
       {
-        "path": "/s/desktop/e2b70753/cssbin/www-onepick.css",
+        "path": "/s/desktop/5d82a8bc/cssbin/www-onepick.css",
         "type": "stylesheet",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-onepick.css"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/cssbin/www-onepick.css"
       },
       {
-        "path": "/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.8YTOGYxo2iA.L.X.O/am=AAAgABAgCQ/d=0/br=1/rs=AGKMywFiqHlgiKpAMO8qV_Bx9lQTDiWV7A",
+        "path": "/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.emNa6y2jZY0.L.X.O/am=AAAACEAAmA/d=0/br=1/rs=AGKMywEimvBMkwGpZdj0IDmhAMY3-g8Obw",
         "type": "stylesheet",
-        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.8YTOGYxo2iA.L.X.O/am=AAAgABAgCQ/d=0/br=1/rs=AGKMywFiqHlgiKpAMO8qV_Bx9lQTDiWV7A"
+        "full_url": "https://www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.emNa6y2jZY0.L.X.O/am=AAAACEAAmA/d=0/br=1/rs=AGKMywEimvBMkwGpZdj0IDmhAMY3-g8Obw"
       },
       {
-        "path": "/s/desktop/e2b70753/cssbin/www-main-desktop-watch-page-skeleton.css",
+        "path": "/s/desktop/5d82a8bc/cssbin/www-main-desktop-watch-page-skeleton.css",
         "type": "stylesheet",
-        "full_url": "https://www.youtube.com/s/desktop/e2b70753/cssbin/www-main-desktop-watch-page-skeleton.css"
+        "full_url": "https://www.youtube.com/s/desktop/5d82a8bc/cssbin/www-main-desktop-watch-page-skeleton.css"
       }
     ]
   },
@@ -113,7 +113,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "352ms"
+          "latency": "348ms"
         },
         {
           "resource": "web-animations-next-lite.min.js",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "route_id": "ROUTE-1F633125",
+      "route_id": "ROUTE-A5AC2632",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -155,7 +155,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2E0CA167",
+      "route_id": "ROUTE-BCEAF446",
       "path": "/about/",
       "type": "Detected Link",
       "anchor_text": "About",
@@ -166,7 +166,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DCF59E45",
+      "route_id": "ROUTE-B3CEB24F",
       "path": "/about/press/",
       "type": "Detected Link",
       "anchor_text": "Press",
@@ -177,7 +177,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0AFC256A",
+      "route_id": "ROUTE-583BA70F",
       "path": "/about/copyright/",
       "type": "Detected Link",
       "anchor_text": "Copyright",
@@ -188,7 +188,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-34C34CA1",
+      "route_id": "ROUTE-FEB7B950",
       "path": "/t/contact_us/",
       "type": "Detected Link",
       "anchor_text": "Contact us",
@@ -199,7 +199,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-02A7D5B4",
+      "route_id": "ROUTE-2DB6FD94",
       "path": "/creators/",
       "type": "Detected Link",
       "anchor_text": "Creator",
@@ -210,7 +210,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-44CD8A4C",
+      "route_id": "ROUTE-8093A44A",
       "path": "/ads/",
       "type": "Detected Link",
       "anchor_text": "Advertise",
@@ -221,7 +221,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-47CF8160",
+      "route_id": "ROUTE-4D084717",
       "path": "/t/terms",
       "type": "Detected Link",
       "anchor_text": "Terms",
@@ -232,7 +232,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D97F9B24",
+      "route_id": "ROUTE-9493D300",
       "path": "/t/privacy",
       "type": "Detected Link",
       "anchor_text": "Privacy",
@@ -243,7 +243,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-27FDB62D",
+      "route_id": "ROUTE-4C6B0F46",
       "path": "/about/policies/",
       "type": "Detected Link",
       "anchor_text": "Policy &amp; Safety",
@@ -254,7 +254,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-82C09C61",
+      "route_id": "ROUTE-0AA744C5",
       "path": "/howyoutubeworks",
       "type": "Detected Link",
       "anchor_text": "How YouTube works",
@@ -265,7 +265,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CD7E51BD",
+      "route_id": "ROUTE-C6CD5EE2",
       "path": "/new",
       "type": "Detected Link",
       "anchor_text": "Test new features",

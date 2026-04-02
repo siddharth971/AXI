@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-64D2A284",
-  "generated_at": "2026-01-21T07:26:54.712Z",
+  "generated_at": "2026-04-02T04:24:16.943Z",
   "global_configuration": {
     "brand_name": "HubSpot Blog",
     "domain": "blog.hubspot.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "104.18.33.148",
+      "server_ip": "172.64.154.108",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -16,14 +16,14 @@
       "web_server": "cloudflare"
     },
     "server_headers": {
-      "Cache-Control": "s-maxage=36000,max-age=5",
-      "Content-Security-Policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self' 1003891.track.convertexperiments.com app.hubspot.com cdn-3.convertexperiments.com cdn.ampproject.org connect.facebook.net graph.facebook.com js.hs-analytics.net js.hs-banner.com js.hsleadflows.net js.hubspotfeedback.com js.usemessages.com m.addthis.com play.vidyard.com platform.twitter.com s7.addthis.com script.crazyegg.com script.hotjar.com static.hotjar.com static.hsappstatic.net v1.addthisedge.com widgets.pinterest.com www.google-analytics.com www.googletagmanager.com z.moatads.com cdn2.hubspot.net 'strict-dynamic' 'nonce-KvK/BWJnl0lHN0S2aAS6RQ=='; report-uri https://send.hsbrowserreports.com/csp/report; upgrade-insecure-requests",
+      "Cache-Control": "s-maxage=36000, max-age=5",
+      "Content-Security-Policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self' 1003891.track.convertexperiments.com app.hubspot.com cdn-3.convertexperiments.com cdn.ampproject.org connect.facebook.net graph.facebook.com js.hs-analytics.net js.hs-banner.com js.hsleadflows.net js.hubspotfeedback.com js.usemessages.com m.addthis.com play.vidyard.com platform.twitter.com s7.addthis.com script.crazyegg.com script.hotjar.com static.hotjar.com static.hsappstatic.net v1.addthisedge.com widgets.pinterest.com www.google-analytics.com www.googletagmanager.com z.moatads.com cdn2.hubspot.net 'strict-dynamic' 'nonce-XamtQpH60rad15DRlU8F9g=='; report-uri https://send.hsbrowserreports.com/csp/report; upgrade-insecure-requests",
       "Server": "cloudflare"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 94,
+      "total_files": 85,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -43,19 +43,19 @@
         "full_url": "https://blog.hubspot.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/80991207740/1762952724622/template_icons.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/80991207740/1775052615696/template_icons.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/80991207740/1762952724622/template_icons.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/80991207740/1775052615696/template_icons.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/56723797352/1761648300688/template_main.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/56723797352/1774605885094/template_main.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/56723797352/1761648300688/template_main.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/56723797352/1774605885094/template_main.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/61924670007/1768213012991/template_vendors.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/61924670007/1774605896789/template_vendors.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/61924670007/1768213012991/template_vendors.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/61924670007/1774605896789/template_vendors.min.js"
       },
       {
         "path": "/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
@@ -63,19 +63,24 @@
         "full_url": "https://blog.hubspot.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/184970967646/1759313142638/template_fixed-elements.load.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/206749040455/1775052649814/template_cl-icon.mount.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/184970967646/1759313142638/template_fixed-elements.load.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/206749040455/1775052649814/template_cl-icon.mount.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/187846164798/1763489058672/template_navigation.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/184970967646/1775052615730/template_fixed-elements.load.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/187846164798/1763489058672/template_navigation.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/184970967646/1775052615730/template_fixed-elements.load.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/204925921293/1768503276295/template_footer.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/205904808794/1774965621625/template_navigation.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/204925921293/1768503276295/template_footer.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/205904808794/1774965621625/template_navigation.min.js"
+      },
+      {
+        "path": "/hubfs/53/hub_generated/template_assets/1/207928094060/1775054480476/template_footer.min.js",
+        "type": "script",
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/207928094060/1775054480476/template_footer.min.js"
       },
       {
         "path": "/hubfs/53/hub_generated/module_assets/1/86971841671/1768212997776/module_blog-categories.min.js",
@@ -83,9 +88,9 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/86971841671/1768212997776/module_blog-categories.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/91772092487/1763654782880/module_media-carousel.min.js",
+        "path": "/hubfs/53/hub_generated/module_assets/1/91772092487/1771410044859/module_media-carousel.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772092487/1763654782880/module_media-carousel.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772092487/1771410044859/module_media-carousel.min.js"
       },
       {
         "path": "/hubfs/53/hub_generated/module_assets/1/91772090264/1763654782309/module_interrupter.min.js",
@@ -93,14 +98,14 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772090264/1763654782309/module_interrupter.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/84111496289/1768851593319/module_blog-subscription-form.min.js",
+        "path": "/hubfs/53/hub_generated/module_assets/1/84111496289/1774949509464/module_blog-subscription-form.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/84111496289/1768851593319/module_blog-subscription-form.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/84111496289/1774949509464/module_blog-subscription-form.min.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/84112576691/1746452513204/template_homepage.min.js",
+        "path": "/hubfs/53/hub_generated/template_assets/1/84112576691/1774605891195/template_homepage.min.js",
         "type": "script",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/84112576691/1746452513204/template_homepage.min.js"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/84112576691/1774605891195/template_homepage.min.js"
       },
       {
         "path": "/hs/scriptloader/53.js",
@@ -108,9 +113,9 @@
         "full_url": "https://blog.hubspot.com/hs/scriptloader/53.js"
       },
       {
-        "path": "/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js",
+        "path": "/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
         "type": "script",
-        "full_url": "https://blog.hubspot.com/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"
+        "full_url": "https://blog.hubspot.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"
       },
       {
         "path": "/ut-js/hubspot-dot-com.js",
@@ -128,9 +133,9 @@
         "full_url": "https://static.hsappstatic.net/affiliates-landing-embed/ex/referral.js"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/92851463172/1760450915643/template_card-section-header.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/92851463172/1774605893923/template_card-section-header.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92851463172/1760450915643/template_card-section-header.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92851463172/1774605893923/template_card-section-header.min.css"
       },
       {
         "path": "/hubfs/53/hub_generated/template_assets/1/194395071320/1768385544178/template_modal.min.css",
@@ -138,44 +143,44 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/194395071320/1768385544178/template_modal.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/187845848913/1765288388183/template_navigation.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/194395071317/1768385541388/template_dropdownMenu.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/187845848913/1765288388183/template_navigation.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/194395071317/1768385541388/template_dropdownMenu.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/194395071313/1768385537796/template_icons.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/193703695914/1774965618720/template_navigation.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/194395071313/1768385537796/template_icons.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/193703695914/1774965618720/template_navigation.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/202013403795/1768503275376/template_footer-core-critical.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/207924262801/1775054484452/template_footer-core-critical.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/202013403795/1768503275376/template_footer-core-critical.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/207924262801/1775054484452/template_footer-core-critical.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/202012046126/1768503273218/template_footer-core-non-critical.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/207928094053/1775054475300/template_footer-core-non-critical.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/202012046126/1768503273218/template_footer-core-non-critical.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/207928094053/1775054475300/template_footer-core-non-critical.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/84111496303/1765457894040/template_homepage.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/84111496303/1774605892950/template_homepage.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/84111496303/1765457894040/template_homepage.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/84111496303/1774605892950/template_homepage.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/89590827807/1768851591776/module_blog-above-the-fold.min.css",
+        "path": "/hubfs/53/hub_generated/module_assets/1/89590827807/1774949508183/module_blog-above-the-fold.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/89590827807/1768851591776/module_blog-above-the-fold.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/89590827807/1774949508183/module_blog-above-the-fold.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/92239689998/1753951840767/template_blog-post-card.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/92239689998/1774605888553/template_blog-post-card.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92239689998/1753951840767/template_blog-post-card.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92239689998/1774605888553/template_blog-post-card.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/template_assets/1/92239689997/1743443734981/template_blog-post-list.min.css",
+        "path": "/hubfs/53/hub_generated/template_assets/1/92239689997/1774605892706/template_blog-post-list.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92239689997/1743443734981/template_blog-post-list.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/template_assets/1/92239689997/1774605892706/template_blog-post-list.min.css"
       },
       {
         "path": "/hubfs/53/hub_generated/module_assets/1/86971841671/1768212997776/module_blog-categories.min.css",
@@ -183,9 +188,9 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/86971841671/1768212997776/module_blog-categories.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/91772092487/1763654782880/module_media-carousel.min.css",
+        "path": "/hubfs/53/hub_generated/module_assets/1/91772092487/1771410044859/module_media-carousel.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772092487/1763654782880/module_media-carousel.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772092487/1771410044859/module_media-carousel.min.css"
       },
       {
         "path": "/hubfs/53/hub_generated/module_assets/1/91772090264/1763654782309/module_interrupter.min.css",
@@ -193,14 +198,14 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/91772090264/1763654782309/module_interrupter.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/88014303117/1768851592953/module_blog-learning-paths.min.css",
+        "path": "/hubfs/53/hub_generated/module_assets/1/88014303117/1774949509015/module_blog-learning-paths.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/88014303117/1768851592953/module_blog-learning-paths.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/88014303117/1774949509015/module_blog-learning-paths.min.css"
       },
       {
-        "path": "/hubfs/53/hub_generated/module_assets/1/84111496289/1768851593319/module_blog-subscription-form.min.css",
+        "path": "/hubfs/53/hub_generated/module_assets/1/84111496289/1774949509464/module_blog-subscription-form.min.css",
         "type": "stylesheet",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/84111496289/1768851593319/module_blog-subscription-form.min.css"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/hub_generated/module_assets/1/84111496289/1774949509464/module_blog-subscription-form.min.css"
       },
       {
         "path": "/hubfs/53/hub_generated/template_assets/1/194399025474/1755080660474/template_colors.min.css",
@@ -213,64 +218,9 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Media%20Assets/Blog/Navigation/hubspot-logo.svg"
       },
       {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/TheHustle_Icon_Dark.svg",
+        "path": "/hubfs/53/Media%20Assets/Blog/Navigation/sprocket.svg",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/TheHustle_Icon_Dark.svg"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/MM_nav_thumbnail.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/MM_nav_thumbnail.png"
-      },
-      {
-        "path": "/hubfs/53/Blog%20Creative/Nav/scaling-logo.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Blog%20Creative/Nav/scaling-logo.png"
-      },
-      {
-        "path": "/hubfs/53/mindstream-cropped.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/mindstream-cropped.png"
-      },
-      {
-        "path": "/hubfs/53/Media%20Assets/Blog/Navigation/hubspot-64-logo.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Media%20Assets/Blog/Navigation/hubspot-64-logo.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/MFM_Podcast_Art_Small.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/MFM_Podcast_Art_Small.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/MAT%20-%20Show%20Tile%20Small.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/MAT%20-%20Show%20Tile%20Small.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/The%20Next%20Wave.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/The%20Next%20Wave.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Science%20Of%20Scaling%20Video.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Science%20Of%20Scaling%20Video.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/DailyShow_Art_Small.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Optimized/DailyShow_Art_Small.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/The%20Science%20of%20Scaling%20Podcast.png",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/The%20Science%20of%20Scaling%20Podcast.png"
-      },
-      {
-        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Inclusion%20and%20Marketing.jpg",
-        "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/Inclusion%20and%20Marketing.jpg"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Media%20Assets/Blog/Navigation/sprocket.svg"
       },
       {
         "path": "/hub/53/hubfs/Copy-4.webp",
@@ -298,24 +248,24 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/ai-social-media.webp?width=602&amp;height=300&amp;name=ai-social-media.webp"
       },
       {
-        "path": "/hub/53/hubfs/loop-marketing-1-20260114-4435750.webp",
+        "path": "/hub/53/hubfs/page-authority-1-20260327-5270939.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/loop-marketing-1-20260114-4435750.webp?noresize&amp;width=100&amp;height=134&amp;name=loop-marketing-1-20260114-4435750.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/page-authority-1-20260327-5270939.webp?noresize&amp;width=100&amp;height=134&amp;name=page-authority-1-20260327-5270939.webp"
       },
       {
-        "path": "/hub/53/hubfs/Untitled%20design%20-%202026-01-15T143042.524.png",
+        "path": "/hub/53/hubfs/brand%20optimization.png",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Untitled%20design%20-%202026-01-15T143042.524.png?noresize&amp;width=100&amp;height=134&amp;name=Untitled%20design%20-%202026-01-15T143042.524.png"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/brand%20optimization.png?noresize&amp;width=100&amp;height=134&amp;name=brand%20optimization.png"
       },
       {
-        "path": "/hub/53/hubfs/Untitled%20design%20-%202025-12-30T163230.081.png",
+        "path": "/hub/53/hubfs/ai%20content%20optimization%20featured.png",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Untitled%20design%20-%202025-12-30T163230.081.png?noresize&amp;width=100&amp;height=134&amp;name=Untitled%20design%20-%202025-12-30T163230.081.png"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/ai%20content%20optimization%20featured.png?noresize&amp;width=100&amp;height=134&amp;name=ai%20content%20optimization%20featured.png"
       },
       {
-        "path": "/hub/53/hubfs/seo-audit-1-20251217-6006144.webp",
+        "path": "/hub/53/hubfs/seed-keywords-1-20260316-7346260.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/seo-audit-1-20251217-6006144.webp?noresize&amp;width=100&amp;height=134&amp;name=seo-audit-1-20251217-6006144.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/seed-keywords-1-20260316-7346260.webp?noresize&amp;width=100&amp;height=134&amp;name=seed-keywords-1-20260316-7346260.webp"
       },
       {
         "path": "/hub/53/hubfs/YT-237_A%20(1).jpg",
@@ -348,24 +298,24 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/tmobile.png?height=240&amp;name=tmobile.png"
       },
       {
-        "path": "/hub/53/hubfs/Customer-journey-personalization-1-20260113-5792877.webp",
+        "path": "/hub/53/hubfs/best-csm-software-for-customer-retention-1-20260318-70398.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Customer-journey-personalization-1-20260113-5792877.webp?noresize&amp;width=100&amp;height=134&amp;name=Customer-journey-personalization-1-20260113-5792877.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/best-csm-software-for-customer-retention-1-20260318-70398.webp?noresize&amp;width=100&amp;height=134&amp;name=best-csm-software-for-customer-retention-1-20260318-70398.webp"
       },
       {
-        "path": "/hub/53/hubfs/customer-service-tracking-software-1-20251219-9232572.webp",
+        "path": "/hub/53/hubfs/customer-onboarding-software-with-crm-1-20260324-5875354.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-service-tracking-software-1-20251219-9232572.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-service-tracking-software-1-20251219-9232572.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-onboarding-software-with-crm-1-20260324-5875354.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-onboarding-software-with-crm-1-20260324-5875354.webp"
       },
       {
-        "path": "/hub/53/hubfs/customer-care-tools-1-20251230-1415949.webp",
+        "path": "/hub/53/hubfs/customer-advocacy-platforms-1-20260326-1636900.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-care-tools-1-20251230-1415949.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-care-tools-1-20251230-1415949.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-advocacy-platforms-1-20260326-1636900.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-advocacy-platforms-1-20260326-1636900.webp"
       },
       {
-        "path": "/hub/53/hubfs/customer-portal-saas-1-20251218-7284869.webp",
+        "path": "/hub/53/hubfs/customer-success-automation-tools-1-20260325-1953821.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-portal-saas-1-20251218-7284869.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-portal-saas-1-20251218-7284869.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/customer-success-automation-tools-1-20260325-1953821.webp?noresize&amp;width=100&amp;height=134&amp;name=customer-success-automation-tools-1-20260325-1953821.webp"
       },
       {
         "path": "/hub/53/hubfs/Screen%20Shot%202022-09-01%20at%206.55.08%20PM-1.png",
@@ -373,24 +323,24 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Screen%20Shot%202022-09-01%20at%206.55.08%20PM-1.png?width=403&amp;height=252&amp;name=Screen%20Shot%202022-09-01%20at%206.55.08%20PM-1.png"
       },
       {
-        "path": "/hub/53/hubfs/ai-crm-for-real-estate-1-20260113-6153572.webp",
+        "path": "/hub/53/hubfs/example%20(1).png",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/ai-crm-for-real-estate-1-20260113-6153572.webp?noresize&amp;width=100&amp;height=134&amp;name=ai-crm-for-real-estate-1-20260113-6153572.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/example%20(1).png?noresize&amp;width=100&amp;height=134&amp;name=example%20(1).png"
       },
       {
-        "path": "/hub/53/hubfs/crm-with-automation-1-20251210-3651865.webp",
+        "path": "/hub/53/hubfs/sales-automation-benefits-1-20260319-9273235.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/crm-with-automation-1-20251210-3651865.webp?noresize&amp;width=100&amp;height=134&amp;name=crm-with-automation-1-20251210-3651865.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/sales-automation-benefits-1-20260319-9273235.webp?noresize&amp;width=100&amp;height=134&amp;name=sales-automation-benefits-1-20260319-9273235.webp"
       },
       {
-        "path": "/hub/53/hubfs/lead%20management%20system.webp",
+        "path": "/hub/53/hubfs/lead-nurturing-tools-1-20260313-7005602.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/lead%20management%20system.webp?noresize&amp;width=100&amp;height=134&amp;name=lead%20management%20system.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/lead-nurturing-tools-1-20260313-7005602.webp?noresize&amp;width=100&amp;height=134&amp;name=lead-nurturing-tools-1-20260313-7005602.webp"
       },
       {
-        "path": "/hub/53/hubfs/enterprise-contact-management-1-20251219-8253465.webp",
+        "path": "/hub/53/hubfs/Best-free-scheduling-software-for-sales-teams-1-20260313-6851567.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/enterprise-contact-management-1-20251219-8253465.webp?noresize&amp;width=100&amp;height=134&amp;name=enterprise-contact-management-1-20251219-8253465.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Best-free-scheduling-software-for-sales-teams-1-20260313-6851567.webp?noresize&amp;width=100&amp;height=134&amp;name=Best-free-scheduling-software-for-sales-teams-1-20260313-6851567.webp"
       },
       {
         "path": "/hub/53/hubfs/PodcastCovers23-4.png",
@@ -423,34 +373,34 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/The%20Sales%20Evangelist.png?height=240&amp;name=The%20Sales%20Evangelist.png"
       },
       {
-        "path": "/hub/53/hubfs/website-seo-software-1-20251226-6343591.webp",
+        "path": "/hub/53/hubfs/ai-credit-based-pricing-1-20260327-7982965.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/website-seo-software-1-20251226-6343591.webp?noresize&amp;width=344&amp;height=450&amp;name=website-seo-software-1-20251226-6343591.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/ai-credit-based-pricing-1-20260327-7982965.webp?noresize&amp;width=344&amp;height=450&amp;name=ai-credit-based-pricing-1-20260327-7982965.webp"
       },
       {
-        "path": "/hub/53/hubfs/website-research-tools-1-20260106-4068211.webp",
+        "path": "/hub/53/hubfs/Best-website-builders-for-nonprofits-1-20260326-4586651.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/website-research-tools-1-20260106-4068211.webp?noresize&amp;width=100&amp;height=134&amp;name=website-research-tools-1-20260106-4068211.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Best-website-builders-for-nonprofits-1-20260326-4586651.webp?noresize&amp;width=100&amp;height=134&amp;name=Best-website-builders-for-nonprofits-1-20260326-4586651.webp"
       },
       {
-        "path": "/hub/53/hubfs/website-platforms-1-20260106-5725143.webp",
+        "path": "/hub/53/hubfs/integrate-marketing-channels-website-featured.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/website-platforms-1-20260106-5725143.webp?noresize&amp;width=100&amp;height=134&amp;name=website-platforms-1-20260106-5725143.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/integrate-marketing-channels-website-featured.webp?noresize&amp;width=100&amp;height=134&amp;name=integrate-marketing-channels-website-featured.webp"
       },
       {
-        "path": "/hub/53/hubfs/Local%20website%20builders.webp",
+        "path": "/hub/53/hubfs/best-aeo-tools-for-website-optimization-1-20260316-5996043.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Local%20website%20builders.webp?noresize&amp;width=100&amp;height=134&amp;name=Local%20website%20builders.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/best-aeo-tools-for-website-optimization-1-20260316-5996043.webp?noresize&amp;width=100&amp;height=134&amp;name=best-aeo-tools-for-website-optimization-1-20260316-5996043.webp"
       },
       {
-        "path": "/hub/53/hubfs/content-marketing-automation-tools-1-20251215-4779751.webp",
+        "path": "/hub/53/hubfs/best-website-builder-for-aeo-1-20260317-1525582.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/content-marketing-automation-tools-1-20251215-4779751.webp?noresize&amp;width=100&amp;height=134&amp;name=content-marketing-automation-tools-1-20251215-4779751.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/best-website-builder-for-aeo-1-20260317-1525582.webp?noresize&amp;width=100&amp;height=134&amp;name=best-website-builder-for-aeo-1-20260317-1525582.webp"
       },
       {
-        "path": "/hub/53/hubfs/AI-generated-website-examples-1-20251219-5224221.webp",
+        "path": "/hub/53/hubfs/best-ai-website-builder-for-beginners-1-20260317-1066874.webp",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/AI-generated-website-examples-1-20251219-5224221.webp?noresize&amp;width=100&amp;height=134&amp;name=AI-generated-website-examples-1-20251219-5224221.webp"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/best-ai-website-builder-for-beginners-1-20260317-1066874.webp?noresize&amp;width=100&amp;height=134&amp;name=best-ai-website-builder-for-beginners-1-20260317-1066874.webp"
       },
       {
         "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202025/Images/blog-topics/blog-topics-instagram-marketing.png",
@@ -473,14 +423,19 @@
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Blog%20Subscription%20Module/hustle.png"
       },
       {
-        "path": "/hubfs/53/Blog%20Subscription%20Module/masters-in-marketing.png",
+        "path": "/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/MAG_HubspotMedia_thumbnail.png",
         "type": "image",
-        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Blog%20Subscription%20Module/masters-in-marketing.png"
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/Nav/MAG_HubspotMedia_thumbnail.png"
       },
       {
         "path": "/hubfs/53/Blog%20Subscription%20Module/TSOS_200x200.png",
         "type": "image",
         "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Blog%20Subscription%20Module/TSOS_200x200.png"
+      },
+      {
+        "path": "/hubfs/53/mindstream-cropped.png",
+        "type": "image",
+        "full_url": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/mindstream-cropped.png"
       },
       {
         "path": "/hubfs/53/Blog%20Subscription%20Module/thank-you-img.svg",
@@ -513,7 +468,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "17253ms"
+          "latency": "3545ms"
         },
         {
           "resource": "index.js",
@@ -551,15 +506,7 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "Skip to content English : Select a language 日本語 Deutsch English Español Português Français High Contrast Log in Start free or get a demo Menu Search... Menu Blogs Blogs Trusted by business builders worldwide, the HubSpot Blogs are your number-one source for education and inspiration."
-          },
-          {
-            "tag": "h4",
-            "text": "Marketing"
-          },
-          {
-            "tag": "p",
-            "text": "Resources and ideas to put modern marketers ahead of the curve"
+            "text": "Skip to content English : Select a language 日本語 Deutsch English Español Português Français High Contrast Log in Menu Search Hubspot's blog Close Blogs Back Marketing\" data-navigation-params=\"blognavcard-marketing\"> Marketing Resources and ideas to put modern marketers ahead of the curve"
           },
           {
             "tag": "h4",
@@ -586,268 +533,120 @@
             "text": "Tutorials and how-tos to help you build better websites"
           },
           {
+            "tag": "h6",
+            "text": "Topics"
+          },
+          {
+            "tag": "h4",
+            "text": "Smart CRM"
+          },
+          {
             "tag": "p",
-            "text": "Your essential daily read on all things AI and business"
+            "text": "Insights and strategies for managing contacts, pipelines, and customer relationships at scale"
           },
           {
             "tag": "h4",
-            "text": "Instagram Marketing"
+            "text": "Marketing Automation"
+          },
+          {
+            "tag": "p",
+            "text": "Guidance on automations that personalize campaigns, nurture leads, and drive growth"
           },
           {
             "tag": "h4",
-            "text": "Customer Retention"
+            "text": "Sales Enablement"
+          },
+          {
+            "tag": "p",
+            "text": "Tactics to align marketing and sales, close deals faster, and support modern selling teams"
           },
           {
             "tag": "h4",
-            "text": "Email Marketing"
+            "text": "Customer Service"
+          },
+          {
+            "tag": "p",
+            "text": "Ideas and best practices for delivering seamless support and memorable customer experiences"
           },
           {
             "tag": "h4",
-            "text": "Sales Prospecting"
+            "text": "Website &amp; Content"
+          },
+          {
+            "tag": "p",
+            "text": "Tips for building high-performing websites and content that attract, convert, and educate"
+          },
+          {
+            "tag": "h4",
+            "text": "Data &amp; Analytics"
+          },
+          {
+            "tag": "p",
+            "text": "Resources for measuring performance, reporting results, and turning data into action"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; Automation"
+          },
+          {
+            "tag": "p",
+            "text": "Practical perspectives on using AI to streamline work and scale smarter marketing efforts"
+          },
+          {
+            "tag": "h4",
+            "text": "E-commerce &amp; Payments"
+          },
+          {
+            "tag": "p",
+            "text": "Strategies for selling online, managing payments, and optimizing the digital buying experience"
           },
           {
             "tag": "h6",
+            "text": "Insights"
+          },
+          {
+            "tag": "h4",
+            "text": "Loop Playbook"
+          },
+          {
+            "tag": "p",
+            "text": "Our signature methodology for modern growth strategies"
+          },
+          {
+            "tag": "h4",
+            "text": "Case Studies"
+          },
+          {
+            "tag": "p",
+            "text": "Success stories and testimonials from HubSpot customers"
+          },
+          {
+            "tag": "h4",
             "text": "Newsletters"
           },
           {
-            "tag": "h3",
-            "text": "Newsletters"
-          },
-          {
             "tag": "p",
-            "text": "All of HubSpot's handcrafted email newsletters, tucked in one place."
+            "text": "Subscribe to our best-in-class industry newsletters"
           },
           {
             "tag": "h4",
-            "text": "The Hustle"
+            "text": "Company News"
           },
           {
             "tag": "p",
-            "text": "Irreverent and insightful takes on business and tech, delivered to your inbox"
+            "text": "Latest updates and announcements from HubSpot"
           },
           {
             "tag": "h4",
-            "text": "Masters In Marketing"
+            "text": "Resources &amp; Templates"
           },
           {
             "tag": "p",
-            "text": "Exclusive interviews with industry leaders, and curated resources, to help you become a better marketer"
-          },
-          {
-            "tag": "h4",
-            "text": "The Science of Scaling"
-          },
-          {
-            "tag": "p",
-            "text": "Data-backed sales tactics and proven scripts to book more meetings and grow revenue"
-          },
-          {
-            "tag": "h4",
-            "text": "Mindstream"
-          },
-          {
-            "tag": "p",
-            "text": "Daily dose of bite-sized AI news and actionable tips"
+            "text": "Free tools, templates, and educational resources"
           },
           {
             "tag": "h6",
-            "text": "Videos"
-          },
-          {
-            "tag": "h3",
-            "text": "Videos"
-          },
-          {
-            "tag": "p",
-            "text": "Browse our collection of educational shows and videos on YouTube."
-          },
-          {
-            "tag": "h4",
-            "text": "The Hustle"
-          },
-          {
-            "tag": "p",
-            "text": "Our unrivaled storytelling, in video format. Subscribe for little revelations across business and tech"
-          },
-          {
-            "tag": "h4",
-            "text": "Marketing with HubSpot"
-          },
-          {
-            "tag": "p",
-            "text": "Learn marketing strategies and skills straight from the HubSpot experts"
-          },
-          {
-            "tag": "h4",
-            "text": "My First Million"
-          },
-          {
-            "tag": "p",
-            "text": "When it comes to brainstorming business ideas, Sam and Shaan are legends of the game"
-          },
-          {
-            "tag": "h4",
-            "text": "Marketing Against the Grain"
-          },
-          {
-            "tag": "p",
-            "text": "Watch two cerebral CMOs tackle strategy, tactics, and trends"
-          },
-          {
-            "tag": "h4",
-            "text": "HubSpot"
-          },
-          {
-            "tag": "p",
-            "text": "Everything you need to know about building your business on HubSpot"
-          },
-          {
-            "tag": "h4",
-            "text": "The Next Wave"
-          },
-          {
-            "tag": "p",
-            "text": "Hosted by Al experts Matt Wolfe and Nathan Lands, is the essential guide for business owners navigating the complexities of artificial intelligence"
-          },
-          {
-            "tag": "h4",
-            "text": "The Science of Scaling"
-          },
-          {
-            "tag": "p",
-            "text": "The messy, honest reality of scaling a business with Mark Roberge and rotating hosts who break down what actually works, without the fluff"
-          },
-          {
-            "tag": "h6",
-            "text": "Podcasts"
-          },
-          {
-            "tag": "h3",
-            "text": "Podcasts"
-          },
-          {
-            "tag": "p",
-            "text": "HubSpot Podcast Network is the destination for business professionals who seek the best education on how to grow a business."
-          },
-          {
-            "tag": "h4",
-            "text": "My First Million"
-          },
-          {
-            "tag": "p",
-            "text": "Each week, hosts Sam Parr and Shaan Puri explore new business ideas based on trends and opportunities in the market"
-          },
-          {
-            "tag": "h4",
-            "text": "The Hustle Daily Show"
-          },
-          {
-            "tag": "p",
-            "text": "A daily dose of irreverent, offbeat, and informative takes on business and tech news"
-          },
-          {
-            "tag": "h4",
-            "text": "Marketing Against the Grain"
-          },
-          {
-            "tag": "p",
-            "text": "HubSpot CMO Kipp Bodnar and Zapier CMO Kieran Flanagan share what's happening now in marketing and what's ahead"
-          },
-          {
-            "tag": "h4",
-            "text": "The Next Wave"
-          },
-          {
-            "tag": "p",
-            "text": "Matt Wolfe and Nathan Lands democratize AI expertise, offering practical strategies for businesses to harness AI's potential for growth and innovation"
-          },
-          {
-            "tag": "h4",
-            "text": "Science of Scaling"
-          },
-          {
-            "tag": "p",
-            "text": "Join host Mark Roberge as he talks with successful tech sales leaders about the science behind scaling revenue and sales"
-          },
-          {
-            "tag": "h4",
-            "text": "Inclusion in Marketing"
-          },
-          {
-            "tag": "p",
-            "text": "Join Sonia Thompson, inclusive brand coach and Forbes/Inc. columnist, as she explores building brands that \"see\" all customers through inclusive marketing, leadership, and customer experience"
-          },
-          {
-            "tag": "h4",
-            "text": "7 Day Weekend"
-          },
-          {
-            "tag": "h4",
-            "text": "Nudge"
-          },
-          {
-            "tag": "h4",
-            "text": "The Ross Simmonds Show"
-          },
-          {
-            "tag": "h4",
-            "text": "Truth, Lies and Work"
-          },
-          {
-            "tag": "h6",
-            "text": "Resources"
-          },
-          {
-            "tag": "h3",
-            "text": "Resources"
-          },
-          {
-            "tag": "p",
-            "text": "Expand your knowledge and take control of your career with our in-depth guides, lessons, and tools."
-          },
-          {
-            "tag": "h4",
-            "text": "Academy"
-          },
-          {
-            "tag": "p",
-            "text": "Learn and get certified in the latest business trends from leading experts"
-          },
-          {
-            "tag": "h4",
-            "text": "Templates"
-          },
-          {
-            "tag": "p",
-            "text": "Interactive documents and spreadsheets to customize for your business's needs"
-          },
-          {
-            "tag": "h4",
-            "text": "Ebooks"
-          },
-          {
-            "tag": "p",
-            "text": "In-depth guides on dozens of topics pertaining to the marketing, sales, and customer service industries"
-          },
-          {
-            "tag": "h4",
-            "text": "Kits"
-          },
-          {
-            "tag": "p",
-            "text": "Multi-use content bundled into one download to inform and empower you and your team"
-          },
-          {
-            "tag": "h4",
-            "text": "Tools"
-          },
-          {
-            "tag": "p",
-            "text": "Customized assets for better branding, strategy, and insights"
-          },
-          {
-            "tag": "h6",
-            "text": "HubSpot Products"
+            "text": "Products"
           },
           {
             "tag": "h3",
@@ -855,15 +654,11 @@
           },
           {
             "tag": "p",
-            "text": "All of HubSpot's marketing, sales, customer service, CMS, operations, and commerce software on one platform. See pricing"
+            "text": "All of HubSpot's marketing, sales, customer service, CMS, operations, and commerce software on one platform."
           },
           {
-            "tag": "h4",
-            "text": "Overview of all products"
-          },
-          {
-            "tag": "h4",
-            "text": "Marketing Hub"
+            "tag": "p",
+            "text": "Marketing Hub Marketing automation software. Free and premium plans"
           },
           {
             "tag": "p",
@@ -886,20 +681,12 @@
             "text": "Commerce Hub CPQ, billing, and payments software. Free and premium plans"
           },
           {
-            "tag": "h4",
-            "text": "About HubSpot"
+            "tag": "p",
+            "text": "Smart CRM AI-powered, flexible CRM software Learn more"
           },
           {
-            "tag": "h4",
-            "text": "Contact Us"
-          },
-          {
-            "tag": "h4",
-            "text": "Customer Support"
-          },
-          {
-            "tag": "h4",
-            "text": "Log in"
+            "tag": "p",
+            "text": "Breeze HubSpot's AI that powers the entire customer platform See all AI features"
           },
           {
             "tag": "h4",
@@ -920,14 +707,6 @@
           {
             "tag": "h4",
             "text": "Français"
-          },
-          {
-            "tag": "h6",
-            "text": "Oh no! We couldn't find anything like that."
-          },
-          {
-            "tag": "p",
-            "text": "Try another search, and we'll give it our best shot."
           },
           {
             "tag": "h2",
@@ -1039,43 +818,11 @@
           },
           {
             "tag": "h3",
-            "text": "Why Loop Marketing matters in 2026, according to our State of Marketing report"
+            "text": "Page Authority: How to Build Pages That Rank"
           },
           {
             "tag": "p",
-            "text": "Loop Marketing is more relevant than ever heading into 2026. Here’s what teams need to kno..."
-          },
-          {
-            "tag": "p",
-            "text": "Jenny Romanchuk"
-          },
-          {
-            "tag": "p",
-            "text": "1/20/26"
-          },
-          {
-            "tag": "h3",
-            "text": "Best loop marketing tactics for the era of AI-powered marketing"
-          },
-          {
-            "tag": "p",
-            "text": "Learn how loop marketing tactics outperform traditional funnels in the AI era. Discover th..."
-          },
-          {
-            "tag": "p",
-            "text": "Erica Santiago"
-          },
-          {
-            "tag": "p",
-            "text": "1/19/26"
-          },
-          {
-            "tag": "h3",
-            "text": "What is Answer Engine Optimization (AEO) and how does it change SEO?"
-          },
-          {
-            "tag": "p",
-            "text": "Learn what AEO is, how it differs from SEO, and how to optimize your content to get cited ..."
+            "text": "Page Authority (PA) is a Moz metric that predicts how well a page ranks in search results...."
           },
           {
             "tag": "p",
@@ -1083,23 +830,55 @@
           },
           {
             "tag": "p",
-            "text": "1/16/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "SEO audits: How to conduct one that drives traffic growth [+ checklist]"
+            "text": "Brand optimization: What it is and why your AI visibility depends on it"
           },
           {
             "tag": "p",
-            "text": "Learn how to run an SEO audit with clear steps, examples, and an SEO audit checklist to he..."
+            "text": "Brand optimization refines how your brand connects with customers across every touchpoint...."
           },
           {
             "tag": "p",
-            "text": "Zoe Ashbridge"
+            "text": "Ramona Sukhraj"
           },
           {
             "tag": "p",
-            "text": "1/16/26"
+            "text": "3/30/26"
+          },
+          {
+            "tag": "h3",
+            "text": "AI content optimization: How to get found in Google and AI search in 2026"
+          },
+          {
+            "tag": "p",
+            "text": "AI content optimization uses artificial intelligence to improve content for better search ..."
+          },
+          {
+            "tag": "p",
+            "text": "Ramona Sukhraj"
+          },
+          {
+            "tag": "p",
+            "text": "3/30/26"
+          },
+          {
+            "tag": "h3",
+            "text": "Seed Keywords: The Starting Point for SEO Research"
+          },
+          {
+            "tag": "p",
+            "text": "Seed keywords are 1-2 word core terms that form the foundation of keyword research. Learn ..."
+          },
+          {
+            "tag": "p",
+            "text": "Tristen Taylor"
+          },
+          {
+            "tag": "p",
+            "text": "3/26/26"
           },
           {
             "tag": "p",
@@ -1163,43 +942,43 @@
           },
           {
             "tag": "h3",
-            "text": "Customer journey personalization in 2026: What actually works"
+            "text": "5 best customer success management tools: What teams should look for"
           },
           {
             "tag": "p",
-            "text": "Customer journey personalization tailors every touchpoint to individual needs. Learn prove..."
+            "text": "Compare leading customer success management platforms and best-fit use cases to help CS te..."
           },
           {
             "tag": "p",
-            "text": "Diego Alamir"
+            "text": "Kasia Kowalska"
           },
           {
             "tag": "p",
-            "text": "1/19/26"
+            "text": "4/1/26"
           },
           {
             "tag": "h3",
-            "text": "Best customer service tracking software for 2026"
+            "text": "Customer onboarding software with built-in CRM: How to choose the best one for y..."
           },
           {
             "tag": "p",
-            "text": "Explore top customer service tracking software with key features, pricing, implementation ..."
+            "text": "Customer onboarding software with CRM connects sales data to success workflows. Automate h..."
           },
           {
             "tag": "p",
-            "text": "Osama Zahid"
+            "text": "Stephanie Trovato"
           },
           {
             "tag": "p",
-            "text": "1/14/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "Customer care tools built for growing companies in 2026"
+            "text": "Best customer advocacy platforms: Our top picks in 2026"
           },
           {
             "tag": "p",
-            "text": "Find out what customer care software is, what features to look for, and the best tools to ..."
+            "text": "Customer advocacy platforms help you identify, activate, and mobilize loyal customers into..."
           },
           {
             "tag": "p",
@@ -1207,23 +986,23 @@
           },
           {
             "tag": "p",
-            "text": "1/13/26"
+            "text": "3/30/26"
           },
           {
             "tag": "h3",
-            "text": "Best customer portal SaaS tools that actually improve retention - 2026 guide"
+            "text": "Best customer success automation tools: Our picks for 2026"
           },
           {
             "tag": "p",
-            "text": "Discover the best customer portal SaaS tools with key features that reduce churn. Plus, le..."
+            "text": "A comparison of the top five customer success automation tools for 2026, covering integrat..."
           },
           {
             "tag": "p",
-            "text": "Osama Zahid"
+            "text": "Jenny Romanchuk"
           },
           {
             "tag": "p",
-            "text": "1/13/26"
+            "text": "3/30/26"
           },
           {
             "tag": "h3",
@@ -1239,67 +1018,67 @@
           },
           {
             "tag": "h3",
-            "text": "5 best AI CRMs for real estate agents: The 2026 roundup"
+            "text": "Customer success dashboards: How to build one that moves the needle"
           },
           {
             "tag": "p",
-            "text": "AI CRMs centralize information, automate repetitive tasks, and provide real estate teams w..."
+            "text": "Customer success dashboards track key metrics like health scores, churn risk, and adoption..."
           },
           {
             "tag": "p",
-            "text": "Althea Storm"
+            "text": "Ashley Valadez"
           },
           {
             "tag": "p",
-            "text": "1/16/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "CRM tools with automation: Our top picks for 2025"
+            "text": "8 sales automation benefits for sales teams beyond time savings"
           },
           {
             "tag": "p",
-            "text": "Discover the best CRMs with automation, key features to look for, and proven workflows tha..."
+            "text": "Sales automation does more than save time. Learn how it improves forecasting, lead routing..."
           },
           {
             "tag": "p",
-            "text": "Sam Lauron"
+            "text": "Kiran Shahid"
           },
           {
             "tag": "p",
-            "text": "1/15/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "Best lead management systems for growing businesses in 2026"
+            "text": "Best lead nurturing tools to boost conversions in 2026"
           },
           {
             "tag": "p",
-            "text": "Learn what a lead management system is and which features matter most. Plus, a guide for c..."
+            "text": "Find out the top lead nurturing tools, compare their strengths and trade-offs to select th..."
           },
           {
             "tag": "p",
-            "text": "Michael Welch"
+            "text": "Kiran Shahid"
           },
           {
             "tag": "p",
-            "text": "1/14/26"
+            "text": "3/30/26"
           },
           {
             "tag": "h3",
-            "text": "Enterprise contact management vs. basic CRM: Key differences [+ recommended tool..."
+            "text": "Best free scheduling software for sales teams: Our top picks for 2026"
           },
           {
             "tag": "p",
-            "text": "Explore what enterprise contact management entails, how it differs from a basic CRM, when ..."
+            "text": "Compare the best free scheduling software for sales teams with CRM integration, round-robi..."
           },
           {
             "tag": "p",
-            "text": "Precious Oboidhe"
+            "text": "Kiran Shahid"
           },
           {
             "tag": "p",
-            "text": "1/14/26"
+            "text": "3/30/26"
           },
           {
             "tag": "h2",
@@ -1383,59 +1162,91 @@
           },
           {
             "tag": "h3",
-            "text": "Website SEO software: 7 tools I recommend after a decade in SEO content writing"
+            "text": "The buyer's guide to credit-based AI pricing: What decision-makers need to know"
           },
           {
             "tag": "p",
-            "text": "Discover the top website SEO software, their features, and how they can optimize your cont..."
+            "text": "Learn the essentials of credit-based pricing for AI software, including budgeting tips, bi..."
           },
           {
             "tag": "p",
-            "text": "Amy Rigby"
+            "text": "HubSpot Staff"
           },
           {
             "tag": "p",
-            "text": "1/14/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "Best website research tools for competitive intelligence and market analysis"
+            "text": "Best website builders for nonprofits to grow your donor base"
           },
           {
             "tag": "p",
-            "text": "Find the best website research tools to optimize your online presence, enhance SEO strateg..."
+            "text": "Compare the best website builders for nonprofits to grow your donor base — featuring tools..."
           },
           {
             "tag": "p",
-            "text": "Amy Rigby"
+            "text": "Stephanie Trovato"
           },
           {
             "tag": "p",
-            "text": "1/13/26"
+            "text": "3/31/26"
           },
           {
             "tag": "h3",
-            "text": "Website platforms compared: Which builds your business best?"
+            "text": "7 Rock-solid Reasons to Integrate Multiple Channels Into Your Website's Marketin..."
           },
           {
             "tag": "p",
-            "text": "Explore the top website platforms for business growth, featuring in-depth reviews, AI capa..."
+            "text": "Learn why a multi-channel marketing approach is essential for enhancing your website's pre..."
           },
           {
             "tag": "p",
-            "text": "Amy Rigby"
+            "text": "Nathan Resnick"
           },
           {
             "tag": "p",
-            "text": "1/13/26"
+            "text": "3/30/26"
           },
           {
             "tag": "h3",
-            "text": "Local website builders that actually generate leads for small businesses"
+            "text": "Best AEO tools for website optimization in 2026"
           },
           {
             "tag": "p",
-            "text": "Find out the best local website builders based on local SEO features, ease of use, and pri..."
+            "text": "The best AEO tools for website optimization help AI answer engines extract, cite, and reus..."
+          },
+          {
+            "tag": "p",
+            "text": "Stephanie Trovato"
+          },
+          {
+            "tag": "p",
+            "text": "3/26/26"
+          },
+          {
+            "tag": "h3",
+            "text": "Best website builder for AEO: platforms marketers actually use to boost LLM visi..."
+          },
+          {
+            "tag": "p",
+            "text": "Compare the best website builders for AEO. See which platforms give marketers schema contr..."
+          },
+          {
+            "tag": "p",
+            "text": "Jenny Romanchuk"
+          },
+          {
+            "tag": "p",
+            "text": "3/25/26"
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI website builder for beginners: 4 options tested 2026"
+          },
+          {
+            "tag": "p",
+            "text": "Best AI website builders for beginners: Compare top platforms, features, and benefits to q..."
           },
           {
             "tag": "p",
@@ -1443,39 +1254,7 @@
           },
           {
             "tag": "p",
-            "text": "1/7/26"
-          },
-          {
-            "tag": "h3",
-            "text": "Top content marketing automation tools &amp; how to implement them"
-          },
-          {
-            "tag": "p",
-            "text": "Explore top content marketing automation tools and learn how to evaluate and implement the..."
-          },
-          {
-            "tag": "p",
-            "text": "Althea Storm"
-          },
-          {
-            "tag": "p",
-            "text": "1/5/26"
-          },
-          {
-            "tag": "h3",
-            "text": "7 AI-generated website examples &amp; how to build your own"
-          },
-          {
-            "tag": "p",
-            "text": "Explore how professionals use AI-generated websites to drive results with varied approache..."
-          },
-          {
-            "tag": "p",
-            "text": "Darrielle Evans"
-          },
-          {
-            "tag": "p",
-            "text": "12/30/25"
+            "text": "3/23/26"
           },
           {
             "tag": "h4",
@@ -1499,7 +1278,7 @@
           },
           {
             "tag": "p",
-            "text": "Everything you need to become a better marketer"
+            "text": "Actionable advice from actual marketers"
           },
           {
             "tag": "p",
@@ -1547,69 +1326,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 384,
-          "headings": 122,
-          "images": 65
+          "paragraphs": 381,
+          "headings": 91,
+          "images": 49
         }
       }
     },
     {
-      "route_id": "ROUTE-608CC0A5",
-      "path": "/topic-learning-path/instagram-marketing",
-      "type": "Detected Link",
-      "anchor_text": "Instagram Marketing",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-680FC8B7",
-      "path": "/topic-learning-path/customer-retention",
-      "type": "Detected Link",
-      "anchor_text": "Customer Retention",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-773A2A7D",
-      "path": "/topic-learning-path/email-marketing",
-      "type": "Detected Link",
-      "anchor_text": "Email Marketing",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-2A956FAC",
-      "path": "/topic-learning-path/seo",
-      "type": "Detected Link",
-      "anchor_text": "SEO",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-7107DE49",
-      "path": "/topic-learning-path/sales-prospecting",
-      "type": "Detected Link",
-      "anchor_text": "Sales Prospecting",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-7EE556B3",
+      "route_id": "ROUTE-F518450C",
       "path": "/marketing/loop-marketing",
       "type": "Detected Link",
       "anchor_text": "The future of marketing isn’t humans vs. AI — it’s humans with AI",
@@ -1620,7 +1344,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C2DD1162",
+      "route_id": "ROUTE-02A635AA",
       "path": "/marketing/top-types-of-ai-generated-content-in-marketing",
       "type": "Detected Link",
       "anchor_text": "Here’s how (and why) marketers are using AI-generated content [new data &amp; tips]",
@@ -1631,7 +1355,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-11F2184F",
+      "route_id": "ROUTE-F66BA9D5",
       "path": "/sales/ultimate-guide-creating-sales-plan",
       "type": "Detected Link",
       "anchor_text": "Want to Create a Sales Plan? Let Me Show You How [+ 10 Sales Plan Examples]",
@@ -1642,7 +1366,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-A826A5EF",
+      "route_id": "ROUTE-0238F664",
       "path": "/marketing/marketing-plan-template-generator",
       "type": "Detected Link",
       "anchor_text": "6 Steps to Create an Outstanding Marketing Plan [Free Templates]",
@@ -1653,7 +1377,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-10C87849",
+      "route_id": "ROUTE-FF7BB027",
       "path": "/service/customer-journey-map",
       "type": "Detected Link",
       "anchor_text": "What is a customer journey map? The complete overview [examples + templates]",
@@ -1664,7 +1388,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3BE6F540",
+      "route_id": "ROUTE-C230E995",
       "path": "/website/ux-design-examples",
       "type": "Detected Link",
       "anchor_text": "20 UX Design Examples Hand-Picked by Experts [With Analysis]",
@@ -1675,7 +1399,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6AE828D0",
+      "route_id": "ROUTE-553208D1",
       "path": "/marketing/digital-course-pitfalls",
       "type": "Detected Link",
       "anchor_text": "Learn from My Mistakes: 7 Digital Course Pitfalls to Skip",
@@ -1686,7 +1410,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-28AAF501",
+      "route_id": "ROUTE-6AFE56DE",
       "path": "/marketing/representation-in-marketing",
       "type": "Detected Link",
       "anchor_text": "How To Do Representation in Marketing the Right Way (+ Consu...",
@@ -1697,7 +1421,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C0ACFAEF",
+      "route_id": "ROUTE-0FEE75D1",
       "path": "/marketing/short-form-video-psychology",
       "type": "Detected Link",
       "anchor_text": "The Psychology of Short-Form Content: Why We Love Bite-Sized...",
@@ -1708,10 +1432,65 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E088BD70",
+      "route_id": "ROUTE-DEE3D77A",
       "path": "/marketing/ai-social-media-strategy",
       "type": "Detected Link",
       "anchor_text": "AI's impact on social media: Top trends and predictions from...",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D97F250D",
+      "path": "/marketing/page-authority",
+      "type": "Detected Link",
+      "anchor_text": "Page Authority: How to Build Pages That Rank",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-084A2BFD",
+      "path": "/marketing/brand-optimization",
+      "type": "Detected Link",
+      "anchor_text": "Brand optimization: What it is and why your AI visibility depends on it",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3846E7F3",
+      "path": "/marketing/ai-content-optimization",
+      "type": "Detected Link",
+      "anchor_text": "AI content optimization: How to get found in Google and AI search in 2026",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F64C1E98",
+      "path": "/marketing/seed-keywords",
+      "type": "Detected Link",
+      "anchor_text": "Seed Keywords: The Starting Point for SEO Research",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A721D1F9",
+      "path": "/service/csm-software",
+      "type": "Detected Link",
+      "anchor_text": "5 best customer success management tools: What teams should look for",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

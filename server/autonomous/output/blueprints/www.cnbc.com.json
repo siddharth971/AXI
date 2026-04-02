@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-32C2AD3F",
-  "generated_at": "2026-01-21T07:27:05.670Z",
+  "generated_at": "2026-04-02T04:24:24.524Z",
   "global_configuration": {
     "brand_name": "www.cnbc.com",
     "domain": "www.cnbc.com",
@@ -15,14 +15,14 @@
       }
     },
     "server_headers": {
-      "Cache-Control": "max-age=15",
+      "Cache-Control": "max-age=20",
       "Content-Security-Policy": "frame-ancestors 'self' *.cnbc.com https://cnbc.zendesk.com;",
       "Server": "Unknown"
     }
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 45,
+      "total_files": 10,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -52,194 +52,19 @@
         "full_url": "https://static-redesign.cnbcfm.com/dist/69ae09b80acd376e9c97.svg"
       },
       {
-        "path": "/api/v1/image/108254412-1768929155537-gettyimages-2256701997-AFP_93E39K3.jpeg",
+        "path": "/api/v1/image/108286387-1775092094824-AP26092038037181.jpg",
         "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254412-1768929155537-gettyimages-2256701997-AFP_93E39K3.jpeg?v=1768929249&amp;w=960&amp;h=730&amp;vtcrop=y"
+        "full_url": "https://image.cnbcfm.com/api/v1/image/108286387-1775092094824-AP26092038037181.jpg?v=1775092142&amp;w=960&amp;h=730&amp;vtcrop=y"
       },
       {
-        "path": "/api/v1/image/107252417-1686130172227-gettyimages-1257091995-UK_ECONOMY.jpeg",
+        "path": "/api/v1/image/108284819-1774884457695-gettyimages-2269086138-mms15943_njkd8bm8.jpeg",
         "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/107252417-1686130172227-gettyimages-1257091995-UK_ECONOMY.jpeg?v=1695189885&amp;w=648&amp;h=338&amp;vtcrop=y"
+        "full_url": "https://image.cnbcfm.com/api/v1/image/108284819-1774884457695-gettyimages-2269086138-mms15943_njkd8bm8.jpeg?v=1774884502&amp;w=648&amp;h=338&amp;vtcrop=y"
       },
       {
-        "path": "/api/v1/image/107081542-1656391556758-gettyimages-1240850162-logos.jpeg",
+        "path": "/api/v1/image/108277789-1773408387563-gettyimages-2265640676-202600312-mum-rs-mn_shenlong_oil_tanker_004.jpeg",
         "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/107081542-1656391556758-gettyimages-1240850162-logos.jpeg?v=1768970092&amp;w=648&amp;h=338&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254133-17689095901768909585-43590208840-1080pnbcnews.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254133-17689095901768909585-43590208840-1080pnbcnews.jpg?v=1768909589&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108229005-2025_BUILT_FOR_BILLIONS_-_EP03_-_CLEAN.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108229005-2025_BUILT_FOR_BILLIONS_-_EP03_-_CLEAN.jpg?v=1763639741&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254100-17689014391768901437-43588698214-1080pnbcnews.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254100-17689014391768901437-43588698214-1080pnbcnews.jpg?v=1768901439&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254077-17688968101768896807-43587844433-1080pnbcnews.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254077-17688968101768896807-43587844433-1080pnbcnews.jpg?v=1768896809&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254107-17689018631768901860-43588776579-1080pnbcnews.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254107-17689018631768901860-43588776579-1080pnbcnews.jpg?v=1768901862&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108253687-1768588026840-gettyimages-2255969940-tbdc_00215.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108253687-1768588026840-gettyimages-2255969940-tbdc_00215.jpeg?v=1768930920&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108094052-1738158569863-gettyimages-2151322364-01-bb1_2324-_a8y3vjph.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108094052-1738158569863-gettyimages-2151322364-01-bb1_2324-_a8y3vjph.jpeg?v=1768386809&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108241557-1765622085300-gettyimages-2248411544-20251127_city_skyline_022.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108241557-1765622085300-gettyimages-2248411544-20251127_city_skyline_022.jpeg?v=1765622135&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108246083-1766974017007-gettyimages-2212386452-AA_02052025_2209642.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108246083-1766974017007-gettyimages-2212386452-AA_02052025_2209642.jpeg?v=1766974095&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108246612-17670999402025-12-30t130426z_676796110_rc21riai6agj_rtrmadp_0_eurostar-france-power.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108246612-17670999402025-12-30t130426z_676796110_rc21riai6agj_rtrmadp_0_eurostar-france-power.jpeg?v=1767099968&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108132560-AI_highlightsV1CLEAN_THUMB_CONVERGE_LIVE_copy.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108132560-AI_highlightsV1CLEAN_THUMB_CONVERGE_LIVE_copy.jpg?v=1744796004&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108132554-Clean_SustainabilityhighlightV2THUMB_CONVERGE_LIVE_copy.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108132554-Clean_SustainabilityhighlightV2THUMB_CONVERGE_LIVE_copy.jpg?v=1744792040&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108130282-CLEANHighlightsV2_CONVERGE_LIVEthumbnail.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108130282-CLEANHighlightsV2_CONVERGE_LIVEthumbnail.jpg?v=1744308757&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108128936-PONYAI_V3cleanThumbnail.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108128936-PONYAI_V3cleanThumbnail.jpg?v=1744197752&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108128118-CNBC-Day-1-Main-Stage-008.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108128118-CNBC-Day-1-Main-Stage-008.jpg?v=1744113965&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/107211826-16793389632023-03-20t185827z_1419079596_rc2sxz9ziduq_rtrmadp_0_global-banks-charles-schwab.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/107211826-16793389632023-03-20t185827z_1419079596_rc2sxz9ziduq_rtrmadp_0_global-banks-charles-schwab.jpeg?v=1725654542&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254359-1768925885954-gettyimages-2256686492-AFP_93DT88C.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254359-1768925885954-gettyimages-2256686492-AFP_93DT88C.jpeg?v=1768925908&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108242446-17658995342025-12-16t152125z_563921956_rc21p1adh31i_rtrmadp_0_global-chips-equipment.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108242446-17658995342025-12-16t152125z_563921956_rc21p1adh31i_rtrmadp_0_global-chips-equipment.jpeg?v=1765899557&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108253583-1768577462840-Traders-Photo-20260115-KK-PRESS-008.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108253583-1768577462840-Traders-Photo-20260115-KK-PRESS-008.jpg?v=1768577671&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/106891764-1622728210372-gettyimages-1320688297-dsc_0557_15052021.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/106891764-1622728210372-gettyimages-1320688297-dsc_0557_15052021.jpeg?v=1768930739&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108249141-1767757654788-gettyimages-2190604446-g2408_1742.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108249141-1767757654788-gettyimages-2190604446-g2408_1742.jpeg?v=1767937407&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108245017-1766452891838-gettyimages-2189171903-surfing1-199.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108245017-1766452891838-gettyimages-2189171903-surfing1-199.jpeg?v=1766452962&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108233245-1764308092407-gettyimages-2180133527-141_0824_129356.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108233245-1764308092407-gettyimages-2180133527-141_0824_129356.jpeg?v=1764308126&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108229683-1763700887233-gettyimages-1502945405-dsc01147.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108229683-1763700887233-gettyimages-1502945405-dsc01147.jpeg?v=1763701138&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108229798-1763724822879-gettyimages-78341838-DV262021.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108229798-1763724822879-gettyimages-78341838-DV262021.jpeg?v=1763724836&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108254574-1768942318318-gettyimages-1305492132-singlesyringeanddoseofvaccine.jpeg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108254574-1768942318318-gettyimages-1305492132-singlesyringeanddoseofvaccine.jpeg?v=1768942371&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108252374-1768406964156-Oliver_Sandra-24_ColorPortrait.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108252374-1768406964156-Oliver_Sandra-24_ColorPortrait.jpg?v=1768407136&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108253718-1768591659659-still4.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108253718-1768591659659-still4.jpg?v=1768591772&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108245949-1766778017225-108245949-1766777954973-gettyimages-1240404419-MILKEN_CONFERENCE_2022.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108245949-1766778017225-108245949-1766777954973-gettyimages-1240404419-MILKEN_CONFERENCE_2022.jpg?v=1766778026&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108253215-thumb1.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108253215-thumb1.jpg?v=1768507529&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108250574-Thumbnail_Explain_Macronomics_clean.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108250574-Thumbnail_Explain_Macronomics_clean.jpg?v=1767976230&amp;w=884&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108243624-Thumbnail_Explain_Hangzhou_Tech_Giants_V5_clean.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108243624-Thumbnail_Explain_Hangzhou_Tech_Giants_V5_clean.jpg?v=1766072021&amp;w=412&amp;h=442&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108233337-Thumbnail_Explain_Silver_V4_CLEAN.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108233337-Thumbnail_Explain_Silver_V4_CLEAN.jpg?v=1764329254&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108222910-for_DOTCOM_Thumbnail_Explain_H1B_Visa_V12.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108222910-for_DOTCOM_Thumbnail_Explain_H1B_Visa_V12.jpg?v=1762505431&amp;w=412&amp;h=206&amp;vtcrop=y"
-      },
-      {
-        "path": "/api/v1/image/108212340-Thumbnail_Explain_Stablecoins_V3.jpg",
-        "type": "image",
-        "full_url": "https://image.cnbcfm.com/api/v1/image/108212340-Thumbnail_Explain_Stablecoins_V3.jpg?v=1760532014&amp;w=412&amp;h=206&amp;vtcrop=y"
+        "full_url": "https://image.cnbcfm.com/api/v1/image/108277789-1773408387563-gettyimages-2265640676-202600312-mum-rs-mn_shenlong_oil_tanker_004.jpeg?v=1775089394&amp;w=648&amp;h=338&amp;vtcrop=y"
       },
       {
         "path": "/dist/17269f1b6083fd5f61be.svg",
@@ -267,7 +92,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "9595ms"
+          "latency": "2122ms"
         },
         {
           "resource": "launch-50229149d3cf.min.js",
@@ -290,7 +115,7 @@
         },
         "value_props": [
           {
-            "title": "European stocks set for mixed open ahead of Trump&#x27;s speech in Davos",
+            "title": "Trump Iran speech recap: President again says war is nearly over, vows ‘extremely hard’ hits coming",
             "desc": "Description detected in content block."
           },
           {
@@ -337,14 +162,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 80,
-          "headings": 20,
-          "images": 46
+          "paragraphs": 42,
+          "headings": 13,
+          "images": 11
         }
       }
     },
     {
-      "route_id": "ROUTE-D7FE155D",
+      "route_id": "ROUTE-A0383D81",
       "path": "/world/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -355,7 +180,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-21352FB3",
+      "route_id": "ROUTE-EE4A9CCC",
       "path": "/markets/",
       "type": "Detected Link",
       "anchor_text": "Markets",
@@ -366,7 +191,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-79BCF591",
+      "route_id": "ROUTE-F2F06886",
       "path": "/pre-markets/",
       "type": "Detected Link",
       "anchor_text": "Pre-Markets",
@@ -377,7 +202,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-70687C04",
+      "route_id": "ROUTE-C90310C9",
       "path": "/us-markets/",
       "type": "Detected Link",
       "anchor_text": "U.S. Markets",
@@ -388,7 +213,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-54184F83",
+      "route_id": "ROUTE-73990CB0",
       "path": "/markets-europe/",
       "type": "Detected Link",
       "anchor_text": "Europe Markets",
@@ -399,7 +224,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8D61FFAF",
+      "route_id": "ROUTE-B1DF5AD6",
       "path": "/china-markets/",
       "type": "Detected Link",
       "anchor_text": "China Markets",
@@ -410,7 +235,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-65A3C326",
+      "route_id": "ROUTE-B30FD54A",
       "path": "/markets-asia-pacific/",
       "type": "Detected Link",
       "anchor_text": "Asia Markets",
@@ -421,7 +246,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C7EE98EE",
+      "route_id": "ROUTE-D6865D78",
       "path": "/world-markets/",
       "type": "Detected Link",
       "anchor_text": "World Markets",
@@ -432,7 +257,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8AAAEA31",
+      "route_id": "ROUTE-49954E58",
       "path": "/currencies/",
       "type": "Detected Link",
       "anchor_text": "Currencies",
@@ -443,7 +268,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-2180106C",
+      "route_id": "ROUTE-046D023B",
+      "path": "/prediction-markets/",
+      "type": "Detected Link",
+      "anchor_text": "Prediction Markets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-460FBFB4",
       "path": "/cryptocurrency/",
       "type": "Detected Link",
       "anchor_text": "Cryptocurrency",
@@ -454,7 +290,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-95FC94B0",
+      "route_id": "ROUTE-26BC542F",
       "path": "/futures-and-commodities/",
       "type": "Detected Link",
       "anchor_text": "Futures &amp; Commodities",
@@ -465,7 +301,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D900969C",
+      "route_id": "ROUTE-978973F7",
       "path": "/bonds/",
       "type": "Detected Link",
       "anchor_text": "Bonds",
@@ -476,7 +312,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-884A2C49",
+      "route_id": "ROUTE-F6DA4566",
       "path": "/funds-and-etfs/",
       "type": "Detected Link",
       "anchor_text": "Funds &amp; ETFs",
@@ -487,21 +323,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-3A2666A3",
+      "route_id": "ROUTE-3157A5D6",
       "path": "/business/",
       "type": "Detected Link",
       "anchor_text": "Business",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-EC8B3C19",
-      "path": "/economy/",
-      "type": "Detected Link",
-      "anchor_text": "Economy",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-07EF3F25",
-  "generated_at": "2026-01-22T06:07:07.948Z",
+  "generated_at": "2026-04-02T04:24:29.833Z",
   "global_configuration": {
     "brand_name": "Join Us in the Fight to Save our Planet",
     "domain": "environment.co",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "141.193.213.11",
+      "server_ip": "141.193.213.10",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 34,
+      "total_files": 32,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -58,24 +58,24 @@
         "full_url": "https://environment.co/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js"
       },
       {
-        "path": "/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js",
+        "path": "/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js",
         "type": "script",
-        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js"
+        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js"
       },
       {
-        "path": "/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js",
+        "path": "/wp-content/plugins/bb-plugin/js/libs/jquery.ba-throttle-debounce.min.js",
         "type": "script",
-        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js"
+        "full_url": "https://environment.co/wp-content/plugins/bb-plugin/js/libs/jquery.ba-throttle-debounce.min.js"
       },
       {
-        "path": "/e-202604.js",
+        "path": "/e-202614.js",
         "type": "script",
-        "full_url": "https://stats.wp.com/e-202604.js"
+        "full_url": "https://stats.wp.com/e-202614.js"
       },
       {
-        "path": "/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.js",
+        "path": "/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/libs/jquery.magnificpopup.js",
         "type": "script",
-        "full_url": "https://environment.co/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.js?ver=1757358226"
+        "full_url": "https://environment.co/wp-content/cache/min/4/wp-content/plugins/bb-plugin/js/libs/jquery.magnificpopup.js?ver=1773795433"
       },
       {
         "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
@@ -83,44 +83,34 @@
         "full_url": "https://environment.co/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
       },
       {
-        "path": "/css",
-        "type": "stylesheet",
-        "full_url": "https://fonts.googleapis.com/css?family=Inter%3A300%2C400%2C700%2C900&#038;display=swap"
+        "path": "/wp-content/uploads/sites/4/2026/03/donna-koch-cMpb435RH-o-unsplash-1-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/03/donna-koch-cMpb435RH-o-unsplash-1-485x310.jpg"
       },
       {
-        "path": "/wp-content/uploads/sites/4/2025/12/jesse-bauer-pzwH-a4aF3s-unsplash-485x310.jpg",
+        "path": "/wp-content/uploads/sites/4/2026/03/ali-kazal-YgiUpYfDcbQ-unsplash-485x310.jpg",
         "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/jesse-bauer-pzwH-a4aF3s-unsplash-485x310.jpg"
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/03/ali-kazal-YgiUpYfDcbQ-unsplash-485x310.jpg"
       },
       {
-        "path": "/wp-content/uploads/sites/4/2025/12/annie-spratt-5TfCI4nj6B4-unsplash-485x310.jpg",
+        "path": "/wp-content/uploads/sites/4/2026/02/sofia-vzPCewrUpeU-unsplash-1-485x310.jpg",
         "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/annie-spratt-5TfCI4nj6B4-unsplash-485x310.jpg"
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/02/sofia-vzPCewrUpeU-unsplash-1-485x310.jpg"
       },
       {
-        "path": "/wp-content/uploads/sites/4/2025/12/sigmund-dBu3wq2O5SM-unsplash-1-485x310.jpg",
+        "path": "/wp-content/uploads/sites/4/2026/02/li-an-lim-ycW4YxhrWHM-unsplash-1-485x310.jpg",
         "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/sigmund-dBu3wq2O5SM-unsplash-1-485x310.jpg"
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/02/li-an-lim-ycW4YxhrWHM-unsplash-1-485x310.jpg"
       },
       {
-        "path": "/wp-content/uploads/sites/4/2025/12/emma-renly-c4nF1dMiwJY-unsplash-485x310.jpg",
+        "path": "/wp-content/uploads/sites/4/2026/02/gregory-andrey-_cYfdIcb5RM-unsplash-1-485x310.jpg",
         "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/emma-renly-c4nF1dMiwJY-unsplash-485x310.jpg"
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/02/gregory-andrey-_cYfdIcb5RM-unsplash-1-485x310.jpg"
       },
       {
-        "path": "/wp-content/uploads/sites/4/2025/12/johannes-plenio-dLXMJnyyU5E-unsplash-1-485x310.jpg",
+        "path": "/wp-content/uploads/sites/4/2026/02/oil-spill-in-water-485x310.jpg",
         "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/johannes-plenio-dLXMJnyyU5E-unsplash-1-485x310.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/sites/4/2025/02/wolfgang-hasselmann-zFWfrZ4rmcc-unsplash-1-485x310.jpg",
-        "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/02/wolfgang-hasselmann-zFWfrZ4rmcc-unsplash-1-485x310.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/sites/4/2025/12/kyle-glenn-nXt5HtLmlgE-unsplash-485x310.jpg",
-        "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2025/12/kyle-glenn-nXt5HtLmlgE-unsplash-485x310.jpg"
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/02/oil-spill-in-water-485x310.jpg"
       },
       {
         "path": "/wp-content/uploads/sites/4/2020/10/Bitmap.jpg",
@@ -168,6 +158,11 @@
         "full_url": "https://environment.co/wp-content/uploads/sites/4/2021/04/Feature-Image-485x310.jpg"
       },
       {
+        "path": "/wp-content/uploads/sites/4/2026/02/Road-Barrier-for-Flood-Water-485x310.jpg",
+        "type": "image",
+        "full_url": "https://environment.co/wp-content/uploads/sites/4/2026/02/Road-Barrier-for-Flood-Water-485x310.jpg"
+      },
+      {
         "path": "/wp-content/uploads/sites/4/2022/07/nuclear-energy--485x310.jpg",
         "type": "image",
         "full_url": "https://environment.co/wp-content/uploads/sites/4/2022/07/nuclear-energy--485x310.jpg"
@@ -186,11 +181,6 @@
         "path": "/wp-content/uploads/sites/4/2024/12/david-leveque-A9KmPND5o4g-unsplash-485x310.jpg",
         "type": "image",
         "full_url": "https://environment.co/wp-content/uploads/sites/4/2024/12/david-leveque-A9KmPND5o4g-unsplash-485x310.jpg"
-      },
-      {
-        "path": "/wp-content/uploads/sites/4/2024/11/pascal-van-de-vendel-4cybCXaiB4c-unsplash-485x310.jpg",
-        "type": "image",
-        "full_url": "https://environment.co/wp-content/uploads/sites/4/2024/11/pascal-van-de-vendel-4cybCXaiB4c-unsplash-485x310.jpg"
       },
       {
         "path": "/wp-content/uploads/sites/4/2021/07/pexels-karolina-grabowska-4202924-2-683x1024.jpg",
@@ -213,7 +203,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3079ms"
+          "latency": "2522ms"
         },
         {
           "resource": "jquery.min.js",
@@ -230,8 +220,8 @@
       ],
       "page_content": {
         "hero_section": {
-          "h1_title": "Do Horses Really Sleep Standing Up? 9 Facts About Horses",
-          "h2_subtitle": "Jane Marsh - Dec 18, 2025",
+          "h1_title": "What Are Keystone Species? Understanding Nature’s Most Influential Organisms",
+          "h2_subtitle": "Steve Russell - Apr 1, 2026",
           "cta_buttons": []
         },
         "value_props": [
@@ -243,7 +233,7 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "Featured Columns Net Zero Features Conscious Living Essentials Geothermal Energy Installers Planet Earth Climate Policy Energy Sustainability Science Food Do Horses Really Sleep Standing Up? 9 Facts About Horses Jane Marsh - Dec 18, 2025"
+            "text": "Featured Columns Net Zero Features Conscious Living Essentials Geothermal Energy Installers Planet Earth Climate Policy Energy Sustainability Science Food What Are Keystone Species? Understanding Nature’s Most Influential Organisms Steve Russell - Apr 1, 2026"
           },
           {
             "tag": "h2",
@@ -251,27 +241,27 @@
           },
           {
             "tag": "h3",
-            "text": "13 Creepy Types of Fungi That Could Star in a Horror Movie"
+            "text": "What Are Keystone Species? Understanding Nature’s Most Influential Organisms"
           },
           {
             "tag": "p",
-            "text": "There are so many types of fungi, but many think of mushrooms when they imagine&hellip;"
+            "text": "Populating the Earth are millions of living organisms, all of which play a role in&hellip;"
           },
           {
             "tag": "h3",
-            "text": "Say Goodbye to Harsh Chemicals: The Future of Laundry Detergent Is Eco-Friendly"
+            "text": "How the Illegal Wildlife Trade Functions"
           },
           {
             "tag": "p",
-            "text": "Everyone has to wash their clothes one way or another. The most common method is&hellip;"
+            "text": "In modern times, it may seem like the illegal wildlife trade has quieted down. Fifty&hellip;"
           },
           {
             "tag": "h3",
-            "text": "Exploring 7 Plastic Alternatives: Your Eco-Friendly Guide"
+            "text": "Why Are Galapagos Penguins Endangered?"
           },
           {
             "tag": "p",
-            "text": "Plastic has become the default material of modern life. From coffee on the way to&hellip;"
+            "text": "The Galapagos penguin is the only penguin species that lives north of the equator. Even&hellip;"
           },
           {
             "tag": "h2",
@@ -287,23 +277,23 @@
           },
           {
             "tag": "h3",
-            "text": "13 Creepy Types of Fungi That Could Star in a Horror Movie"
+            "text": "How the Illegal Wildlife Trade Functions"
           },
           {
             "tag": "h3",
-            "text": "Fighting Fire with Fire: The Many Benefits of Prescribed Burns"
+            "text": "Why Are Galapagos Penguins Endangered?"
           },
           {
             "tag": "h3",
-            "text": "The 5 Worst Environmental Crimes in America"
+            "text": "What Are Stranded Assets in the Context of Climate Risks?"
           },
           {
             "tag": "h3",
-            "text": "How Can Camels Eat Cactus Without Getting Hurt?"
+            "text": "How Arctic Warming Impacts the Earth"
           },
           {
             "tag": "h3",
-            "text": "25 Geography Facts That Are Stranger Than Fiction"
+            "text": "Deepwater Horizon Oil Spill: Tracking the Remarkable Ecological Recovery in the Gulf"
           },
           {
             "tag": "h2",
@@ -471,6 +461,10 @@
           },
           {
             "tag": "h3",
+            "text": "Is Your Home in a Flood Zone? How to Check by Address"
+          },
+          {
+            "tag": "h3",
             "text": "10 Nuclear Energy Uses"
           },
           {
@@ -484,10 +478,6 @@
           {
             "tag": "h3",
             "text": "A Story of Survival: The Plight of Baby Sea Turtles"
-          },
-          {
-            "tag": "h3",
-            "text": "Engineering Hope: The Latest in Coral Reef Restoration Technology"
           },
           {
             "tag": "h3",
@@ -506,7 +496,7 @@
       }
     },
     {
-      "route_id": "ROUTE-5FC4DDB0",
+      "route_id": "ROUTE-9BC94F6D",
       "path": "/featured-columns/",
       "type": "Detected Link",
       "anchor_text": "Featured Columns",
@@ -517,7 +507,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-6A66AB77",
+      "route_id": "ROUTE-3BF858CD",
       "path": "/net-zero-features/",
       "type": "Detected Link",
       "anchor_text": "Net Zero Features",
@@ -528,7 +518,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-17A9327F",
+      "route_id": "ROUTE-69804D61",
       "path": "/conscious-living-essentials/",
       "type": "Detected Link",
       "anchor_text": "Conscious Living Essentials",
@@ -539,7 +529,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D2E5CB6F",
+      "route_id": "ROUTE-D91F4C5E",
       "path": "/geothermal-energy-installers/",
       "type": "Detected Link",
       "anchor_text": "Geothermal Energy Installers",
@@ -550,7 +540,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B9C12852",
+      "route_id": "ROUTE-987B1E47",
       "path": "/planet-earth/",
       "type": "Detected Link",
       "anchor_text": "Planet Earth",
@@ -561,7 +551,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E95E1938",
+      "route_id": "ROUTE-02EC1BAE",
       "path": "/climate-policy/",
       "type": "Detected Link",
       "anchor_text": "Climate Policy",
@@ -572,7 +562,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EA8341D3",
+      "route_id": "ROUTE-3A9BFFF0",
       "path": "/energy/",
       "type": "Detected Link",
       "anchor_text": "Energy",
@@ -583,7 +573,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F8D87723",
+      "route_id": "ROUTE-3E0D5F13",
       "path": "/sustainability/",
       "type": "Detected Link",
       "anchor_text": "Sustainability",
@@ -594,7 +584,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-9E2F26D1",
+      "route_id": "ROUTE-9DB969D8",
       "path": "/science/",
       "type": "Detected Link",
       "anchor_text": "Science",
@@ -605,7 +595,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C74311E8",
+      "route_id": "ROUTE-B3741A51",
       "path": "/food/",
       "type": "Detected Link",
       "anchor_text": "Food",
@@ -616,10 +606,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ECF263DD",
-      "path": "/do-horses-really-sleep-standing-up-9-facts-about-horses/",
+      "route_id": "ROUTE-47980D31",
+      "path": "/what-are-keystone-species/",
       "type": "Detected Link",
-      "anchor_text": "Do Horses Really Sleep Standing Up? 9 Facts About Horses",
+      "anchor_text": "What Are Keystone Species? Understanding Nature’s Most Influential Organisms",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -627,10 +617,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7BCD0D32",
-      "path": "/author/jane/",
+      "route_id": "ROUTE-67379B94",
+      "path": "/author/steve/",
       "type": "Detected Link",
-      "anchor_text": "Jane Marsh",
+      "anchor_text": "Steve Russell",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -638,8 +628,19 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-26AE1514",
-      "path": "/types-of-fungi/",
+      "route_id": "ROUTE-2023ED31",
+      "path": "/featured/",
+      "type": "Detected Link",
+      "anchor_text": "Featured",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4DF624C2",
+      "path": "/illegal-wildlife-trade/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
       "rendering_strategy": "Unknown",
@@ -649,21 +650,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8695C9ED",
-      "path": "/author/maria/",
+      "route_id": "ROUTE-0AED55B4",
+      "path": "/author/grace/",
       "type": "Detected Link",
-      "anchor_text": "Maria Visser",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-49D2CBB9",
-      "path": "/eco-friendly-laundry-detergent/",
-      "type": "Detected Link",
-      "anchor_text": "Unknown",
+      "anchor_text": "Grace Waters",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

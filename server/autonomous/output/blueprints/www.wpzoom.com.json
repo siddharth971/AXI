@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-D7660E95",
-  "generated_at": "2026-01-21T07:26:54.224Z",
+  "generated_at": "2026-04-02T04:24:16.719Z",
   "global_configuration": {
     "brand_name": "High",
     "domain": "www.wpzoom.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "172.66.40.89",
+      "server_ip": "172.66.43.167",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -70,17 +70,17 @@
       {
         "path": "/wp-content/cache/min/1/wp-content/plugins/honeypot/includes/js/wpa.js",
         "type": "script",
-        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/cache/min/1/wp-content/plugins/honeypot/includes/js/wpa.js?ver=1766222042"
+        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/cache/min/1/wp-content/plugins/honeypot/includes/js/wpa.js?ver=1774543082"
       },
       {
         "path": "/wp-content/cache/min/1/wp-content/plugins/wp-armour-extended/includes/js/wpae.js",
         "type": "script",
-        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/cache/min/1/wp-content/plugins/wp-armour-extended/includes/js/wpae.js?ver=1766222042"
+        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/cache/min/1/wp-content/plugins/wp-armour-extended/includes/js/wpae.js?ver=1774543082"
       },
       {
         "path": "/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js",
         "type": "script",
-        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1762339464"
+        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1773510185"
       },
       {
         "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
@@ -98,6 +98,11 @@
         "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/themes/wpzoom/images/logo.svg"
       },
       {
+        "path": "/wp-content/uploads/2024/12/inspiro-2024-360x420.png",
+        "type": "image",
+        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2024/12/inspiro-2024-360x420.png"
+      },
+      {
         "path": "/wp-content/uploads/2024/12/inspiro-2024-475x360.png",
         "type": "image",
         "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2024/12/inspiro-2024-475x360.png"
@@ -111,11 +116,6 @@
         "path": "/wp-content/uploads/2019/05/reel-home-portfolio-1-475x360.png",
         "type": "image",
         "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2019/05/reel-home-portfolio-1-475x360.png"
-      },
-      {
-        "path": "/wp-content/uploads/2024/12/inspiro-2024-360x420.png",
-        "type": "image",
-        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2024/12/inspiro-2024-360x420.png"
       },
       {
         "path": "/wp-content/uploads/2023/05/foodica-new-360x420.png",
@@ -178,9 +178,9 @@
         "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2025/06/chris-100x100.jpg"
       },
       {
-        "path": "/wp-content/uploads/2025/06/Screenshot-2025-06-01-at-09.04.45-100x100.png",
+        "path": "/wp-content/uploads/2017/03/hilary-100x100.png",
         "type": "image",
-        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2025/06/Screenshot-2025-06-01-at-09.04.45-100x100.png"
+        "full_url": "https://b8f4g5a7.delivery.rocketcdn.me/wp-content/uploads/2017/03/hilary-100x100.png"
       },
       {
         "path": "/wp-content/themes/wpzoom/images/showcase_clients.png",
@@ -218,7 +218,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "3796ms"
+          "latency": "2799ms"
         },
         {
           "resource": "1jx0",
@@ -256,11 +256,15 @@
         "main_content": [
           {
             "tag": "p",
-            "text": "FLASH SALE Get 20% OFF everything using the coupon code: FLASH20 View Pricing Plans &rarr;"
+            "text": "FLASH SALE Get 10% OFF everything using the coupon code: FLASH10 View Pricing Plans &rarr;"
           },
           {
             "tag": "p",
-            "text": "Themes Inspiro Premium POPULAR Foodica PRO POPULAR Business Themes Food Blogs Themes Portfolio Themes Video Themes Video Portfolio Themes WooCommerce Themes View All Themes &rarr; Inspiro Pricing Plugins Elementor Addons NEW Recipe Card Blocks &#8599; Inspiro Patterns NEW Instagram Widget WPZOOM Forms NEW WPZOOM Portfolio Social Icons Widget --> View All Plugins &rarr; Customers Blog Support Documentation Support Desk WordPress Services Community Forum Contact Sign in NEW Inspiro Premium now includes 40+ ready-to-use starter sites! Unleash the Power of WordPress: Transform Your Website with Our Unique Themes &amp; Plugins Since 2009, we've been making high-quality WordPress themes and plugins. Ease of use and fast support come as standard. Amaze your audience with extraordinary functionality and style today!"
+            "text": "Themes Featured Theme Inspiro Premium The #1 theme for video &amp; photo websites 45+ Starter sites, fullscreen video backgrounds, photo galleries, and advanced customization options."
+          },
+          {
+            "tag": "p",
+            "text": "Popular Themes Foodica PRO The best theme for food bloggers &amp; recipe sites. Reel Video portfolio theme for creatives &amp; filmmakers. Browse Themes Business Themes Food Blog Themes Portfolio Themes Video Themes WooCommerce Themes View All 30 Themes &rarr; Inspiro Pricing Plugins Plugins Recipe Card Blocks 15,000+ installs &middot; Beautiful recipe cards for WordPress blogs. Instagram Feeds 70,000+ installs &middot; Display your Instagram feed on your website. Elementor Addons 30,000+ installs &middot; Advanced widgets &amp; templates for Elementor. WPZOOM Forms 20,000+ installs &middot; Powerful contact forms plugin. More Plugins WPZOOM Portfolio 25,000+ installs &middot; Showcase your work professionally. WPZOOM Share Buttons 125,000+ installs &middot; Add social media icons & sharing buttons. Inspiro Patterns NEW AI-powered page sections &amp; patterns for Inspiro theme. View All Plugins &rarr; Customers Blog Support Documentation Support Desk WordPress Services Community Forum Contact Sign in NEW Inspiro Premium now includes 40+ ready-to-use starter sites! Unleash the Power of WordPress: Transform Your Website with Our Unique Themes &amp; Plugins Since 2009, we've been making high-quality WordPress themes and plugins. Ease of use and fast support come as standard. Amaze your audience with extraordinary functionality and style today!"
           },
           {
             "tag": "p",
@@ -292,7 +296,7 @@
           },
           {
             "tag": "p",
-            "text": "14-Day Money-Back Guarantee We’re confident you’ll love our WordPress themes, which is why we offer a 14-day money-back guarantee. Your purchase is entirely risk-free, giving you complete peace of mind."
+            "text": "14-Day Money-Back Guarantee We’re confident you’ll love our WordPress products, which is why we offer a 14-day money-back guarantee. Your purchase is entirely risk-free, giving you complete peace of mind."
           },
           {
             "tag": "h2",
@@ -324,11 +328,11 @@
           },
           {
             "tag": "p",
-            "text": "Chris Pogozelski https://www.tasty-lowcarb.com/ I have just installed Inspiro on our website and I highly recommend this theme! Everything I wanted from a website as a video media company, I now have. 10 out of 10"
+            "text": "Chris Pogozelski https://www.tasty-lowcarb.com/ Foodica has transformed the way I blog for the better. Paying for a WordPress theme is completely worth it &#8211; especially if you’re not a true techie. It streamlines the process of building a site and saves so much time. Plus, it looks great. All of the compliments I get on my blog started after I installed Foodica"
           },
           {
             "tag": "p",
-            "text": "Ian Wilkinson Excellent 4.7 out of five star rating on Trustpilot 4.7 out of 5 Trustpilot How it Works? Our themes can be used by anyone of any age! You don't need absolutely any coding skills or a programming background."
+            "text": "Hilary Paige Smith Excellent 4.7 out of five star rating on Trustpilot 4.7 out of 5 Trustpilot How it Works? Our themes can be used by anyone of any age! You don't need absolutely any coding skills or a programming background."
           },
           {
             "tag": "p",
@@ -340,7 +344,7 @@
           },
           {
             "tag": "p",
-            "text": "WPZOOM Home About Blog Features How it Works Customers Testimonials Brand Assets OUR PRODUCTS Plugins Themes Food Blog Themes Video Portfolio Themes Business Themes Magazine Themes Video Themes Portfolio Themes WooCommerce Themes Restaurant Themes WordPress Block Themes Resources Support Center WordPress Services WordPress Hosting WP Theme Detector F.A.Q. Affiliates Sitemap Terms &amp; Conditions Privacy Policy WPZOOM newsletter Subscribe to our newsletter to get exclusive discounts and new product launches right in your inbox."
+            "text": "WPZOOM Home About Blog Features How it Works Customers Testimonials Brand Assets OUR PRODUCTS Plugins Themes Food Blog Themes Video Portfolio Themes Business Themes Magazine Themes Video Themes Portfolio Themes WooCommerce Themes Restaurant Themes WordPress Block Themes Resources Support Center WordPress Services WordPress Hosting WP Theme Detector WordPress Statistics F.A.Q. Affiliates Sitemap Terms &amp; Conditions Privacy Policy WPZOOM newsletter Subscribe to our newsletter to get exclusive discounts and new product launches right in your inbox."
           },
           {
             "tag": "p",
@@ -352,14 +356,14 @@
           }
         ],
         "structure_summary": {
-          "paragraphs": 116,
+          "paragraphs": 140,
           "headings": 26,
-          "images": 43
+          "images": 40
         }
       }
     },
     {
-      "route_id": "ROUTE-3BCD7A66",
+      "route_id": "ROUTE-F1B4B13B",
       "path": "/pricing/",
       "type": "Detected Link",
       "anchor_text": "View Pricing Plans &rarr;",
@@ -370,7 +374,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8B19C199",
+      "route_id": "ROUTE-CEC1ADB8",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -381,7 +385,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-29BC9195",
+      "route_id": "ROUTE-D25B0F34",
       "path": "/themes/",
       "type": "Detected Link",
       "anchor_text": "Themes",
@@ -392,10 +396,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E9E5567F",
+      "route_id": "ROUTE-AD122D02",
       "path": "/themes/inspiro/",
       "type": "Detected Link",
-      "anchor_text": "Inspiro Premium",
+      "anchor_text": "View Features",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -403,10 +407,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-057A386E",
-      "path": "/themes/foodica/",
+      "route_id": "ROUTE-14857973",
+      "path": "/themes/inspiro/starter-sites/",
       "type": "Detected Link",
-      "anchor_text": "Foodica PRO",
+      "anchor_text": "Starter Sites 40+",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -414,7 +418,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F421363C",
+      "route_id": "ROUTE-30DD1B9F",
       "path": "/themes/business/",
       "type": "Detected Link",
       "anchor_text": "Business Themes",
@@ -425,10 +429,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CE5B7BD8",
+      "route_id": "ROUTE-2206A235",
       "path": "/themes/food-blog/",
       "type": "Detected Link",
-      "anchor_text": "Food Blogs Themes",
+      "anchor_text": "Food Blog Themes",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -436,7 +440,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EF81997D",
+      "route_id": "ROUTE-FBE7CB8C",
       "path": "/themes/portfolio/",
       "type": "Detected Link",
       "anchor_text": "Portfolio Themes",
@@ -447,7 +451,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5DC691B7",
+      "route_id": "ROUTE-6962915B",
       "path": "/themes/video/",
       "type": "Detected Link",
       "anchor_text": "Video Themes",
@@ -458,18 +462,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0A3103B6",
-      "path": "/themes/video-portfolio/",
-      "type": "Detected Link",
-      "anchor_text": "Video Portfolio Themes",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-CC062942",
+      "route_id": "ROUTE-C97956B5",
       "path": "/themes/woocommerce/",
       "type": "Detected Link",
       "anchor_text": "WooCommerce Themes",
@@ -480,7 +473,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0291DE91",
+      "route_id": "ROUTE-812D1362",
       "path": "/plugins/",
       "type": "Detected Link",
       "anchor_text": "Plugins",
@@ -491,10 +484,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E4616839",
-      "path": "/plugins/wpzoom-elementor-addons/",
+      "route_id": "ROUTE-BE957CE1",
+      "path": "/showcase/",
       "type": "Detected Link",
-      "anchor_text": "Elementor Addons",
+      "anchor_text": "Customers",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -502,10 +495,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4E4C7C9A",
-      "path": "/plugins/inspiro-patterns/",
+      "route_id": "ROUTE-702A211B",
+      "path": "/blog/",
       "type": "Detected Link",
-      "anchor_text": "Inspiro Patterns",
+      "anchor_text": "Blog",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -513,10 +506,21 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0FD9DD59",
-      "path": "/plugins/instagram-widget/",
+      "route_id": "ROUTE-CB2FA934",
+      "path": "/support/",
       "type": "Detected Link",
-      "anchor_text": "Instagram Widget",
+      "anchor_text": "Support",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8573D428",
+      "path": "/documentation/",
+      "type": "Detected Link",
+      "anchor_text": "Documentation",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

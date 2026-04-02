@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-F0A09E21",
-  "generated_at": "2026-01-21T07:27:26.001Z",
+  "generated_at": "2026-04-02T04:24:32.806Z",
   "global_configuration": {
     "brand_name": "Историческая энциклопедия",
     "domain": "globhistory.org",
@@ -48,9 +48,9 @@
         "full_url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       },
       {
-        "path": "/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
         "type": "script",
-        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
       },
       {
         "path": "/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css",
@@ -178,7 +178,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "20082ms"
+          "latency": "5570ms"
         },
         {
           "resource": "adsbygoogle.js",
@@ -287,7 +287,7 @@
       }
     },
     {
-      "route_id": "ROUTE-DCAC68BD",
+      "route_id": "ROUTE-E7DEA0C0",
       "path": "/ru",
       "type": "Detected Link",
       "anchor_text": "Энциклопедия",
@@ -298,7 +298,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-951D6546",
+      "route_id": "ROUTE-BA463F68",
       "path": "/ru/ancient_world",
       "type": "Detected Link",
       "anchor_text": "Древний мир",
@@ -309,7 +309,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D984CFA6",
+      "route_id": "ROUTE-C199BF29",
       "path": "/ru/middle_world",
       "type": "Detected Link",
       "anchor_text": "Средние века и ранний модерн",
@@ -320,7 +320,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-271C2D43",
+      "route_id": "ROUTE-677FE9BC",
       "path": "/ru/new_world",
       "type": "Detected Link",
       "anchor_text": "Современные страны",
@@ -331,7 +331,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-DAA748A5",
+      "route_id": "ROUTE-525456A8",
       "path": "/ru/persons",
       "type": "Detected Link",
       "anchor_text": "Персоналии",
@@ -342,7 +342,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D2A25BEF",
+      "route_id": "ROUTE-22A869D9",
       "path": "/ru/inventions",
       "type": "Detected Link",
       "anchor_text": "Изобретения",
@@ -353,7 +353,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-5D5A54F2",
+      "route_id": "ROUTE-C2C96190",
       "path": "/ru/country/shumery",
       "type": "Detected Link",
       "anchor_text": "Древние цивилизации: как они повлияли на современный мир",
@@ -364,7 +364,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-565D3FD7",
+      "route_id": "ROUTE-962FB416",
       "path": "/ru/article/korolevstvo_franciya/anna_kievskaya___koroleva_francii",
       "type": "Detected Link",
       "anchor_text": "Средневековая Европа: Киевская Анна королева Франции",
@@ -375,7 +375,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E348ACCF",
+      "route_id": "ROUTE-3F6E6C6C",
       "path": "/ru/article/novaya_zelandiya/dogovor_vaytangi",
       "type": "Detected Link",
       "anchor_text": "Договор Вайтанги",
@@ -386,7 +386,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-CC409694",
+      "route_id": "ROUTE-7557B112",
       "path": "/ru/article/kolumbiya/ispanskoe_zavoevanie_i_osnovanie_novogo_korolevstva_granady",
       "type": "Detected Link",
       "anchor_text": "Испанское Завоевание и Основание Нового Королевства Гранады",
@@ -397,18 +397,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-94ADE959",
-      "path": "/ru/article/indiya/arii_i_ih_migraciya_v_indiyu",
-      "type": "Detected Link",
-      "anchor_text": "Арии и их миграция в Индию",
-      "rendering_strategy": "Unknown",
-      "meta_seo": {
-        "title": "Pending Scan"
-      },
-      "page_content": {}
-    },
-    {
-      "route_id": "ROUTE-C6BD8A3B",
+      "route_id": "ROUTE-48F3CF55",
       "path": "/ru/country/kolumbiya",
       "type": "Detected Link",
       "anchor_text": "История Колумбии",
@@ -419,7 +408,18 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-7E4D4FCF",
+      "route_id": "ROUTE-3D453D5A",
+      "path": "/ru/article/indiya/arii_i_ih_migraciya_v_indiyu",
+      "type": "Detected Link",
+      "anchor_text": "Арии и их миграция в Индию",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BB4D2DDE",
       "path": "/ru/article/kolumbiya/evolyuciya_gosudarstvennoy_sistemy_kolumbii",
       "type": "Detected Link",
       "anchor_text": "Эволюция государственной системы Колумбии",
@@ -430,10 +430,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-EF032F5F",
-      "path": "/ru/country/aristid_brian",
+      "route_id": "ROUTE-4CB2EB8A",
+      "path": "/ru/article/kazahstan/znamenitye_literaturnye_proizvedeniya_kazahstana",
       "type": "Detected Link",
-      "anchor_text": "Аристид Бриан: Жизнь и Деятельность",
+      "anchor_text": "Знаменитые литературные произведения Казахстана",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -441,10 +441,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-775EA55F",
-      "path": "/ru/article/kazahstan/znamenitye_literaturnye_proizvedeniya_kazahstana",
+      "route_id": "ROUTE-BE911D95",
+      "path": "/ru/country/aristid_brian",
       "type": "Detected Link",
-      "anchor_text": "Знаменитые литературные произведения Казахстана",
+      "anchor_text": "Аристид Бриан: Жизнь и Деятельность",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"

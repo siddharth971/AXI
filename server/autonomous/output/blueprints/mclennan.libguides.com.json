@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-86DFE374",
-  "generated_at": "2026-01-21T07:27:13.269Z",
+  "generated_at": "2026-04-02T04:24:30.794Z",
   "global_configuration": {
     "brand_name": "Home",
     "domain": "mclennan.libguides.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "54.85.246.96",
+      "server_ip": "34.194.39.199",
       "cdn_provider": "Unknown",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -43,9 +43,9 @@
         "full_url": "https://static-assets-us.libguides.com/web/jquery/js/jquery-ui.min.js?2691"
       },
       {
-        "path": "/web/js3.23.3/lg-public.min.js",
+        "path": "/web/js3.24.4/lg-public.min.js",
         "type": "script",
-        "full_url": "https://static-assets-us.libguides.com/web/js3.23.3/lg-public.min.js"
+        "full_url": "https://static-assets-us.libguides.com/web/js3.24.4/lg-public.min.js"
       },
       {
         "path": "/api/widgets/mclennan",
@@ -78,9 +78,9 @@
         "full_url": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       },
       {
-        "path": "/web/css3.23.3/lg-public.min.css",
+        "path": "/web/css3.24.4/lg-public.min.css",
         "type": "stylesheet",
-        "full_url": "https://static-assets-us.libguides.com/web/css3.23.3/lg-public.min.css"
+        "full_url": "https://static-assets-us.libguides.com/web/css3.24.4/lg-public.min.css"
       },
       {
         "path": "/customers/3317/images/libguides-banner-user.png",
@@ -143,7 +143,7 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "7349ms"
+          "latency": "3555ms"
         },
         {
           "resource": "1.12.4_jquery.min.js",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "route_id": "ROUTE-893A662F",
+      "route_id": "ROUTE-6C845177",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Research Guides",
@@ -230,7 +230,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E9EFB46C",
+      "route_id": "ROUTE-8B1A6153",
       "path": "/searchguides",
       "type": "Detected Link",
       "anchor_text": "Welcome to MCC's Library Research Guides",
@@ -241,7 +241,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-D2D5CBD5",
+      "route_id": "ROUTE-910F21C4",
       "path": "/az.php",
       "type": "Detected Link",
       "anchor_text": "Databases A-Z List",
@@ -252,10 +252,10 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-0F1CD160",
+      "route_id": "ROUTE-110A8382",
       "path": "/community",
       "type": "Detected Link",
-      "anchor_text": "Services for the Community",
+      "anchor_text": "Services for Community Members",
       "rendering_strategy": "Unknown",
       "meta_seo": {
         "title": "Pending Scan"
@@ -263,7 +263,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-47233400",
+      "route_id": "ROUTE-E67EBE3E",
       "path": "/getHelp",
       "type": "Detected Link",
       "anchor_text": "Report a problem.",
@@ -274,7 +274,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C8D027F6",
+      "route_id": "ROUTE-07EDE664",
       "path": "/srch.php",
       "type": "Detected Link",
       "anchor_text": "Lib_Info",

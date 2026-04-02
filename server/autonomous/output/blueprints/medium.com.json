@@ -1,13 +1,13 @@
 {
   "website_blueprint_id": "BLUEPRINT-9464B52D",
-  "generated_at": "2026-01-21T07:26:53.886Z",
+  "generated_at": "2026-04-02T04:24:16.503Z",
   "global_configuration": {
     "brand_name": "medium.com",
     "domain": "medium.com",
     "primary_language": "en-US",
     "infrastructure": {
       "hosting_provider": "Unknown (Requires ASN Lookup)",
-      "server_ip": "162.159.152.4",
+      "server_ip": "162.159.153.4",
       "cdn_provider": "Cloudflare",
       "ssl_certificate": {
         "issuer": "Unknown (Requires TLS Socket)",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 9,
+      "total_files": 8,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -33,29 +33,24 @@
         "full_url": "https://www.google.com/recaptcha/enterprise.js?render=6Le-uGgpAAAAAPprRaokM8AKthQ9KNGdoxaGUvVp"
       },
       {
-        "path": "/lite/static/js/manifest.004948cc.js",
+        "path": "/lite/static/js/manifest.9e3a388f.js",
         "type": "script",
-        "full_url": "https://cdn-client.medium.com/lite/static/js/manifest.004948cc.js"
+        "full_url": "https://cdn-client.medium.com/lite/static/js/manifest.9e3a388f.js"
       },
       {
-        "path": "/lite/static/js/5565.1c03f808.js",
+        "path": "/lite/static/js/2746.1817984d.js",
         "type": "script",
-        "full_url": "https://cdn-client.medium.com/lite/static/js/5565.1c03f808.js"
+        "full_url": "https://cdn-client.medium.com/lite/static/js/2746.1817984d.js"
       },
       {
-        "path": "/lite/static/js/main.0f5fbcc2.js",
+        "path": "/lite/static/js/main.0a840b1e.js",
         "type": "script",
-        "full_url": "https://cdn-client.medium.com/lite/static/js/main.0f5fbcc2.js"
+        "full_url": "https://cdn-client.medium.com/lite/static/js/main.0a840b1e.js"
       },
       {
-        "path": "/lite/static/js/instrumentation.434115b9.chunk.js",
+        "path": "/lite/static/js/instrumentation.bbc70038.chunk.js",
         "type": "script",
-        "full_url": "https://cdn-client.medium.com/lite/static/js/instrumentation.434115b9.chunk.js"
-      },
-      {
-        "path": "/lite/static/js/reporting.851fdaca.chunk.js",
-        "type": "script",
-        "full_url": "https://cdn-client.medium.com/lite/static/js/reporting.851fdaca.chunk.js"
+        "full_url": "https://cdn-client.medium.com/lite/static/js/instrumentation.bbc70038.chunk.js"
       },
       {
         "path": "/lite/static/js/HomeLoLegacyPage.MainContent.eb0cf9a0.chunk.js",
@@ -88,18 +83,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "695ms"
+          "latency": "186ms"
         },
         {
           "resource": "enterprise.js",
           "latency": "pending"
         },
         {
-          "resource": "manifest.004948cc.js",
+          "resource": "manifest.9e3a388f.js",
           "latency": "pending"
         },
         {
-          "resource": "5565.1c03f808.js",
+          "resource": "2746.1817984d.js",
           "latency": "pending"
         }
       ],
@@ -193,7 +188,7 @@
       }
     },
     {
-      "route_id": "ROUTE-5138F936",
+      "route_id": "ROUTE-C33D3719",
       "path": "/sitemap/sitemap.xml",
       "type": "Detected Link",
       "anchor_text": "Sitemap",
@@ -204,7 +199,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-64E1F38F",
+      "route_id": "ROUTE-411E3A69",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Medium Logo",
@@ -215,7 +210,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-E9146706",
+      "route_id": "ROUTE-C82CB60F",
       "path": "/about",
       "type": "Detected Link",
       "anchor_text": "Our story",
@@ -226,7 +221,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-264CEBD6",
+      "route_id": "ROUTE-49DD0610",
       "path": "/membership",
       "type": "Detected Link",
       "anchor_text": "Membership",
@@ -237,7 +232,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-F70383BD",
+      "route_id": "ROUTE-0D371639",
       "path": "/m/signin",
       "type": "Detected Link",
       "anchor_text": "Write",
@@ -248,7 +243,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-84BFE1DB",
+      "route_id": "ROUTE-F27538CF",
       "path": "/m/signin",
       "type": "Detected Link",
       "anchor_text": "Sign in",
@@ -259,7 +254,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C05991A9",
+      "route_id": "ROUTE-EF13F54F",
       "path": "/m/signin",
       "type": "Detected Link",
       "anchor_text": "Get started",
@@ -270,7 +265,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-687F5871",
+      "route_id": "ROUTE-A71BD943",
       "path": "/jobs-at-medium/work-at-medium-959d1a85284e",
       "type": "Detected Link",
       "anchor_text": "Careers",
