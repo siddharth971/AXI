@@ -1,0 +1,635 @@
+{
+  "website_blueprint_id": "BLUEPRINT-BC4A5CE1",
+  "generated_at": "2026-04-02T05:39:31.904Z",
+  "global_configuration": {
+    "brand_name": "Welcome to The History Junkie",
+    "domain": "thehistoryjunkie.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "69.167.171.239",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 22,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://thehistoryjunkie.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/tags/the-history-junkie-new-owner.js",
+        "type": "script",
+        "full_url": "https://scripts.mediavine.com/tags/the-history-junkie-new-owner.js?ver=6.7.5"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=GT-TBNT4KX"
+      },
+      {
+        "path": "/wp-content/plugins/feast-plugin/assets/js/dev/feast-public-js.js",
+        "type": "script",
+        "full_url": "https://thehistoryjunkie.com/wp-content/plugins/feast-plugin/assets/js/dev/feast-public-js.js?ver=13.0.1"
+      },
+      {
+        "path": "/wp-content/themes/genesis/lib/js/skip-links.min.js",
+        "type": "script",
+        "full_url": "https://thehistoryjunkie.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.0"
+      },
+      {
+        "path": "/e-202614.js",
+        "type": "script",
+        "full_url": "https://stats.wp.com/e-202614.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://thehistoryjunkie.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/uploads/2023/10/logo-small-hj.png",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2023/10/logo-small-hj.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/explore-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/explore-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Pirates-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/Pirates-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/colonial-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/colonial-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/salem-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/salem-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/AmericanRevolution-1-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/AmericanRevolution-1-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/articles-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/articles-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/1812-720x405.png",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/1812-720x405.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/native-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/native-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Civil-War-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/Civil-War-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Baseball-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/Baseball-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/WW1-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/WW1-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2019/06/1920s-720x405.jpg",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2019/06/1920s-720x405.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/08/Presidents-720x405.png",
+        "type": "image",
+        "full_url": "https://thehistoryjunkie.com/wp-content/uploads/2022/08/Presidents-720x405.png"
+      },
+      {
+        "path": "/vi/ID/hqdefault.jpg",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi/ID/hqdefault.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Welcome to The History Junkie - The History Junkie",
+        "description": "The History Junkie is an American History Website for students, teachers, casual historians and even expert historians that are looking to gain information.",
+        "canonical": "https://thehistoryjunkie.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1125ms"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "the-history-junkie-new-owner.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome to The History Junkie",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Age of Exploration",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Age of Pirates",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Colonial America",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Skip to main content"
+          },
+          {
+            "tag": "li",
+            "text": "Skip to primary sidebar"
+          },
+          {
+            "tag": "div",
+            "text": "The History Junkie"
+          },
+          {
+            "tag": "div",
+            "text": "Military History Revolutionary War War of 1812 Mexican-American War Civil War World War 1 Timeline World War 2 Timeline Presidents Age of Exploration Native Americans The West About Search"
+          },
+          {
+            "tag": "div",
+            "text": "menu icon"
+          },
+          {
+            "tag": "li",
+            "text": "Presidents"
+          },
+          {
+            "tag": "li",
+            "text": "Wild West"
+          },
+          {
+            "tag": "li",
+            "text": "Military"
+          },
+          {
+            "tag": "li",
+            "text": "Native Americans"
+          },
+          {
+            "tag": "li",
+            "text": "Age of Exploration"
+          },
+          {
+            "tag": "li",
+            "text": "Civil War"
+          },
+          {
+            "tag": "li",
+            "text": "Revolutionary War"
+          },
+          {
+            "tag": "li",
+            "text": "Mexican-American War"
+          },
+          {
+            "tag": "li",
+            "text": "War of 1812"
+          },
+          {
+            "tag": "li",
+            "text": "World War 1"
+          },
+          {
+            "tag": "li",
+            "text": "World War 2"
+          },
+          {
+            "tag": "li",
+            "text": "Family Trees"
+          },
+          {
+            "tag": "li",
+            "text": "Explorers and Pirates"
+          },
+          {
+            "tag": "li",
+            "text": "About Me"
+          },
+          {
+            "tag": "div",
+            "text": "search icon"
+          },
+          {
+            "tag": "div",
+            "text": "Search"
+          },
+          {
+            "tag": "li",
+            "text": "Presidents"
+          },
+          {
+            "tag": "li",
+            "text": "Wild West"
+          },
+          {
+            "tag": "li",
+            "text": "Military"
+          },
+          {
+            "tag": "li",
+            "text": "Native Americans"
+          },
+          {
+            "tag": "li",
+            "text": "Age of Exploration"
+          },
+          {
+            "tag": "li",
+            "text": "Civil War"
+          },
+          {
+            "tag": "li",
+            "text": "Revolutionary War"
+          },
+          {
+            "tag": "li",
+            "text": "Mexican-American War"
+          },
+          {
+            "tag": "li",
+            "text": "War of 1812"
+          },
+          {
+            "tag": "li",
+            "text": "World War 1"
+          },
+          {
+            "tag": "li",
+            "text": "World War 2"
+          },
+          {
+            "tag": "li",
+            "text": "Family Trees"
+          },
+          {
+            "tag": "li",
+            "text": "Explorers and Pirates"
+          },
+          {
+            "tag": "li",
+            "text": "About Me"
+          },
+          {
+            "tag": "div",
+            "text": "Welcome to The History Junkie Welcome to The History Junkie! This website is dedicated to telling the story of American History . American History can be divided into eras. The story of America can be traced back to Ancient Greece as an influence that would eventually lead to the Roman Empire the Reformation and Renaissance and eventually America. Age of Exploration The Age of Exploration was an exciting time in world history. Famous Explorers such as Christopher Columbus and Vasco da Gama catapulted different nations onto the international stage. During this era, there would be a series of great monarchies taking the throne of various European Countries. The Age of Exploration meant a great expanse of European culture and power, but it also meant the beginning of the end for many of the first nations. As early colonization continued, European disease would ravage the First Nations of the New World. New alliances would be forged and new wars would be fought. Age of Pirates After the Spanish Empire expanded into the Caribbean it created a vacuum that would be filled by pirates . This age would be marked by expanding empires and pirates roaming the Caribbean Sea. During this time, England would become the dominant power in the New World. Their Navy would lead the way to end the age of the pirates. Colonial America The 13 original colonies began during this time. Each colony had a different beginning. Massachusetts began with Pilgrims and Puritans, Virginia with the tobacco trade, Georgia was founded by debtors, Pennsylvania by Quakers, New York by the Dutch and then conquered by the English, and Maryland was a haven for Catholics. Each colony was different, but over time they began to have more similarities than differences which included the idea of independence from Britain. Salem Witch Trials One of the darkest moments in Early America was the Salem Witch Trials . 18 men and women were sentenced to death for fear of being a witch. This hysteria that took innocent lives has its own story and twists. There seemed to be politics that were involved in some of the accusations and each death seemed to benefit certain citizens in Salem. Go through each of the characters in the Salem story and come to your own conclusions. American Revolutionary War The American Revolution was the war that birthed America. During this time the Declaration of Independence was written and the British were defeated and expelled from America. Men such as George Washington , John Adams , Thomas Jefferson , Benjamin Franklin , and the Sons of Liberty become national and historic names. The war ended in 1783 and set up another era of American History . Articles of Confederation While this is not an era, it was important between the American Revolution and the Constitution. These articles would keep the colonies together for a short period of time until they were able to settle on a stronger form of government. The Articles of Confederation failed due to the states having more power than the federal government. This would then lead to a new age known as the Constitutional era. War of 1812"
+          },
+          {
+            "tag": "p",
+            "text": "The forgotten war was the War of 1812 . Although often forgotten it was a necessary war that created new heroes and organized the army."
+          },
+          {
+            "tag": "p",
+            "text": "New heroes like Winfield Scott rose to prominence during this time. Men such as William Henry Harrison and Andrew Jackson would use their popularity to become President of the United States ."
+          },
+          {
+            "tag": "p",
+            "text": "This would also mark the end of Native American power. While they would continue to survive they would be overwhelmed and their nations would cease to exist within less than a century."
+          },
+          {
+            "tag": "h2",
+            "text": "Native American History"
+          },
+          {
+            "tag": "p",
+            "text": "Native Americans inhabited this county from sea to shining sea before the English arrived. They would eventually be driven from their land and conquered."
+          },
+          {
+            "tag": "p",
+            "text": "Joseph Brant and Tecumseh had plans of united the Native Americans to form their own country, but their vision was never completed and their people were forced from their land."
+          },
+          {
+            "tag": "h2",
+            "text": "The Civil War"
+          },
+          {
+            "tag": "p",
+            "text": "From 1861 – 1865 America made war on itself over the issue of state rights and slavery."
+          },
+          {
+            "tag": "p",
+            "text": "The casualties from this war were devastating."
+          },
+          {
+            "tag": "p",
+            "text": "The Civil War would result in the Emancipation of slaves , the south destroyed, and the rise of new heroes that would influence the nation for another generation."
+          },
+          {
+            "tag": "p",
+            "text": "Men such as Abraham Lincoln , Ulysses S. Grant , Robert E. Lee , and others would become local legends and national icons."
+          },
+          {
+            "tag": "p",
+            "text": "The Civil War would change the country forever."
+          },
+          {
+            "tag": "h2",
+            "text": "Baseball"
+          },
+          {
+            "tag": "p",
+            "text": "It is said to have begun after the Civil War, but its origins are disputed. Baseball became America's pastime in the early 20th century and rose in popularity through the decades."
+          },
+          {
+            "tag": "p",
+            "text": "It is a uniquely American game that rose as America went from a bustling frontier to global power. It survived depressions, scandals, segregation, and play union strikes."
+          },
+          {
+            "tag": "p",
+            "text": "It has a unique history filled with interesting stories and facts. The World Series became one of the most active times in America when it was at its peak."
+          },
+          {
+            "tag": "h2",
+            "text": "World War 1"
+          },
+          {
+            "tag": "p",
+            "text": "The Great War would be the first time that the United States would engage in a global conflict. Throughout the years the United States practiced isolation and avoided European conflicts as George Washington had advised."
+          },
+          {
+            "tag": "p",
+            "text": "President Woodrow Wilson would be the president to take the country through the conflict. After the war America returned to isolation and would not become a global power until World War 2."
+          },
+          {
+            "tag": "h2",
+            "text": "Roaring 20s"
+          },
+          {
+            "tag": "p",
+            "text": "After World War 1, the United States entered into an era of prosperity with new innovations, Jazz music, and a dark underworld due to Prohibition."
+          },
+          {
+            "tag": "p",
+            "text": "President Calvin Coolidge would oversee the new country explode with culture. This would also be the rise of famous sports figures such as Babe Ruth and former boxing legend Jack Johnson. It was an exciting time in the country."
+          },
+          {
+            "tag": "h2",
+            "text": "The Presidents"
+          },
+          {
+            "tag": "p",
+            "text": "This is a Chronological list of the United States Presidents along with links to each of their elections and inaugural addresses."
+          },
+          {
+            "tag": "p",
+            "text": "Since the beginning of the United States, we have always had a peaceful transfer of power despite political differences. The only exception was President Abraham Lincoln ."
+          },
+          {
+            "tag": "h2",
+            "text": "Primary Sidebar"
+          },
+          {
+            "tag": "div",
+            "text": "Footer ↑ back to top About Privacy Policy Contact About Me"
+          },
+          {
+            "tag": "div",
+            "text": "Popular Revolutionary War Colonial America Political History Native American History Presidents of the United States Civil War Famous Family Trees Explorers and Pirates"
+          },
+          {
+            "tag": "div",
+            "text": "The West Ancient History Sport History Holiday History State History"
+          },
+          {
+            "tag": "p",
+            "text": "As an Amazon Associate, I earn from qualifying purchases."
+          },
+          {
+            "tag": "p",
+            "text": "Copyright © 2023 The History Junkie"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 56,
+          "headings": 19,
+          "images": 29
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-EE871E6C",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "The History Junkie",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B306E858",
+      "path": "/american-military-history/",
+      "type": "Detected Link",
+      "anchor_text": "Military History",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-563684C6",
+      "path": "/american-revolutionary-war-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "Revolutionary War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8B65E4FD",
+      "path": "/war-of-1812-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "War of 1812",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-03B8F32A",
+      "path": "/mexican-american-war-facts-and-outcome/",
+      "type": "Detected Link",
+      "anchor_text": "Mexican-American War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A6CB33D3",
+      "path": "/civil-war-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "Civil War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-22D59EAA",
+      "path": "/world-war-1-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "World War 1 Timeline",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CAF284C2",
+      "path": "/world-war-2-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "World War 2 Timeline",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-757BC7A5",
+      "path": "/us-presidents/",
+      "type": "Detected Link",
+      "anchor_text": "Presidents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BF9C85BC",
+      "path": "/age-of-exploration-timeline-for-kids/",
+      "type": "Detected Link",
+      "anchor_text": "Age of Exploration",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7F8D82D1",
+      "path": "/list-famous-native-indian-tribes/",
+      "type": "Detected Link",
+      "anchor_text": "Native Americans",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F56A0EFB",
+      "path": "/wild-west-timeline/",
+      "type": "Detected Link",
+      "anchor_text": "The West",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4C373826",
+      "path": "/my-life-and-story/",
+      "type": "Detected Link",
+      "anchor_text": "About",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3D2C6969",
+      "path": "/category/famous-family-trees/",
+      "type": "Detected Link",
+      "anchor_text": "Family Trees",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6EC8DDC4",
+      "path": "/category/explorers-pirates/",
+      "type": "Detected Link",
+      "anchor_text": "Explorers and Pirates",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

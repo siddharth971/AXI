@@ -1,0 +1,734 @@
+{
+  "website_blueprint_id": "BLUEPRINT-53675061",
+  "generated_at": "2026-04-02T05:35:13.307Z",
+  "global_configuration": {
+    "brand_name": "MIT Open Learning brings Online Learning to MIT and the world",
+    "domain": "openlearning.mit.edu",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "18.9.44.19",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "Apache"
+    },
+    "server_headers": {
+      "Cache-Control": "must-revalidate, no-cache, private",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Apache"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 21,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=UA-5145472-3"
+      },
+      {
+        "path": "/sites/default/files/google_tag/openlearning/google_tag.script.js",
+        "type": "script",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/google_tag/openlearning/google_tag.script.js?tctlsj"
+      },
+      {
+        "path": "/sites/default/files/js/js_f9EJqsaiVNRjaZGYKiLXQfokF_an0xFpSDu7JE9FTCQ.js",
+        "type": "script",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/js/js_f9EJqsaiVNRjaZGYKiLXQfokF_an0xFpSDu7JE9FTCQ.js?scope=header&amp;delta=0&amp;language=en&amp;theme=basis&amp;include=eJxdS0sWgjAMvFClx3HZN9S8GoiUl0SF2_OrGzfznx7GFovUHnKzrDy7BVpceBrjQ98zpGs2lFqLUMIEWZ3zfvsLfots1Lpd3eGkL-gYPkxfiyd2GLBcQTpkerJ51TU23gCzODwK"
+      },
+      {
+        "path": "/sites/default/files/js/js_jJEjVKVgCSr9P-oNNx6O2kjduGAzTkvsy3RN7xA2Ky4.js",
+        "type": "script",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/js/js_jJEjVKVgCSr9P-oNNx6O2kjduGAzTkvsy3RN7xA2Ky4.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=basis&amp;include=eJxdS0sWgjAMvFClx3HZN9S8GoiUl0SF2_OrGzfznx7GFovUHnKzrDy7BVpceBrjQ98zpGs2lFqLUMIEWZ3zfvsLfots1Lpd3eGkL-gYPkxfiyd2GLBcQTpkerJ51TU23gCzODwK"
+      },
+      {
+        "path": "/themes/basis/images/logo.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/themes/basis/images/logo.svg"
+      },
+      {
+        "path": "/themes/basis/images/search-white.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/themes/basis/images/search-white.svg"
+      },
+      {
+        "path": "/sites/default/files/styles/card_image/public/2026-03/MIT-Bertsima-Killian-Lecture-01-press_0.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/card_image/public/2026-03/MIT-Bertsima-Killian-Lecture-01-press_0.jpg?h=5ea4345c&amp;itok=wdwaqEdF"
+      },
+      {
+        "path": "/sites/default/files/styles/card_image/public/2026-03/Badri%20Ratnam_MIT%20Open%20Learning.png",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/card_image/public/2026-03/Badri%20Ratnam_MIT%20Open%20Learning.png?h=dc6b2cbf&amp;itok=pSqWgLhG"
+      },
+      {
+        "path": "/sites/default/files/styles/card_image/public/2026-03/MIT-MIT4America-01.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/card_image/public/2026-03/MIT-MIT4America-01.jpg?h=07c93667&amp;itok=Fo3FnUfn"
+      },
+      {
+        "path": "/sites/default/files/styles/card_image/public/2026-03/MIT_Stories_Paula_Hammond.png",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/card_image/public/2026-03/MIT_Stories_Paula_Hammond.png?h=7a21241a&amp;itok=lGjb_8Z1"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/news-events/images/Day_of_Climate_2025-2026-03-30T133313.png",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/news-events/images/Day_of_Climate_2025-2026-03-30T133313.png?itok=aAAUaVAi"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/news-events/2026-03/mit-climate-podcast-Madison-Goldberg.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/news-events/2026-03/mit-climate-podcast-Madison-Goldberg.jpg?itok=ShWUwbbG"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/news-events/images/iStock-2254950605-2026-03-23T131701.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/news-events/images/iStock-2254950605-2026-03-23T131701.jpg?itok=wN1LrIWY"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/event-images/0v1Yiw6Q.jpeg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/event-images/0v1Yiw6Q.jpeg?h=db273c1b&amp;itok=LOoVlD4r"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/event-images/SCM-web.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/event-images/SCM-web.jpg?h=c622ec1e&amp;itok=2bHJN1Lg"
+      },
+      {
+        "path": "/sites/default/files/styles/news_card_small/public/event-images/QCx_Course_2_Card.2e16d0ba.fill-335x203.jpg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/styles/news_card_small/public/event-images/QCx_Course_2_Card.2e16d0ba.fill-335x203.jpg?itok=jlq3I4rl"
+      },
+      {
+        "path": "/sites/default/files/footer-icons/linkedin.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/footer-icons/linkedin.svg"
+      },
+      {
+        "path": "/sites/default/files/footer-icons/instagram.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/footer-icons/instagram.svg"
+      },
+      {
+        "path": "/sites/default/files/footer-icons/x-logo.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/footer-icons/x-logo.svg"
+      },
+      {
+        "path": "/sites/default/files/footer-icons/youtube.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/footer-icons/youtube.svg"
+      },
+      {
+        "path": "/sites/default/files/footer-icons/tiktok.svg",
+        "type": "image",
+        "full_url": "https://openlearning.mit.edu/sites/default/files/footer-icons/tiktok.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "MIT Open Learning brings Online Learning to MIT and the world",
+        "description": "MIT Open Learning works with MIT faculty, industry experts, students, and others to improve teaching and learning through digital technologies on campus and globally.",
+        "canonical": "https://openlearning.mit.edu"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1370ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "google_tag.script.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js_f9EJqsaiVNRjaZGYKiLXQfokF_an0xFpSDu7JE9FTCQ.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Main Nav Buttons",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Main navigation",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "News &amp; Media",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "span",
+            "text": "Search"
+          },
+          {
+            "tag": "div",
+            "text": "Reinventing Education"
+          },
+          {
+            "tag": "div",
+            "text": "Main navigation For Learners &amp; Organizations For MIT Faculty About us For OL Employees News Events"
+          },
+          {
+            "tag": "div",
+            "text": "For Learners &amp; Organizations"
+          },
+          {
+            "tag": "div",
+            "text": "MIT Learn"
+          },
+          {
+            "tag": "div",
+            "text": "MIT&#039;s AI-enabled lifelong learning destination."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Universal Learning"
+          },
+          {
+            "tag": "div",
+            "text": "Cross-disciplinary online curricula that addresses global challenges, including AI, climate, energy."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MITx MicroMasters® Programs"
+          },
+          {
+            "tag": "div",
+            "text": "Online professional and academic credentials to advance your career or fast-track a Master’s degree."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MITx Courses"
+          },
+          {
+            "tag": "div",
+            "text": "Online courses from MIT faculty. MITx embodies MIT&#039;s inventiveness, rigor, and quality."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT OpenCourseWare"
+          },
+          {
+            "tag": "div",
+            "text": "Free open-licensed educational materials from thousands of MIT courses."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT xPRO"
+          },
+          {
+            "tag": "div",
+            "text": "Professional development courses and programs that build skills and augment careers."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT Horizon"
+          },
+          {
+            "tag": "div",
+            "text": "Original content and experiences designed to educate large workforces on the foundations of AI."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT Open Learning Library"
+          },
+          {
+            "tag": "div",
+            "text": "Library of courses and educational content from MIT OpenCourseWare and MITx Courses on edX."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT pK-12"
+          },
+          {
+            "tag": "div",
+            "text": "Creating meaningful learning experiences for young learners, educators and leaders worldwide."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "For MIT Faculty"
+          },
+          {
+            "tag": "div",
+            "text": "Teaching with technology at MIT"
+          },
+          {
+            "tag": "div",
+            "text": "Get support from MIT Open Learning’s Residential Education team."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Teaching With Canvas"
+          },
+          {
+            "tag": "div",
+            "text": "Resources, tools, and support for teaching with Canvas at MIT."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Teaching with Residential MITx"
+          },
+          {
+            "tag": "div",
+            "text": "Launch a Residential MITx course or view a list of active Residential MITx courses."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "View Residential Digital Innovations"
+          },
+          {
+            "tag": "div",
+            "text": "See how MIT faculty and instructors are innovating with digital tools."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Explore Research-Based Learning Findings"
+          },
+          {
+            "tag": "div",
+            "text": "Facilitate student learning in-class and online with these research-based practices."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Share Your Teaching with the World"
+          },
+          {
+            "tag": "div",
+            "text": "Develop and teach a MOOC or publish your course materials with OpenCourseWare."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Awards"
+          },
+          {
+            "tag": "div",
+            "text": "Learn how we recognize faculty who have utilized online and digital learning to improve outcomes."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Events for MIT Faculty"
+          },
+          {
+            "tag": "div",
+            "text": "Explore our events for faculty, such as xTalks forums and the Festival of Learning."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Apply to One of Our Grants"
+          },
+          {
+            "tag": "div",
+            "text": "Find support for online learning, research, curriculum and course development, and more."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "About Us"
+          },
+          {
+            "tag": "div",
+            "text": "About Open Learning"
+          },
+          {
+            "tag": "div",
+            "text": "We bring MIT&#039;s teaching to the world."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Our Team"
+          },
+          {
+            "tag": "div",
+            "text": "Meet our diverse team of professionals dedicated to learning innovation."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Open Learning Leadership"
+          },
+          {
+            "tag": "div",
+            "text": "Get to know the leaders guiding our priorities and goals."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT DELTA"
+          },
+          {
+            "tag": "div",
+            "text": "Learn about instructional staff and postdocs who are on a mission to extend our educational reach."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Work at Open Learning"
+          },
+          {
+            "tag": "div",
+            "text": "Explore our open positions."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Digital Credentials Consortium"
+          },
+          {
+            "tag": "div",
+            "text": "Discover how we’re building an infrastructure for digital credentials in higher education."
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Featured Stories"
+          },
+          {
+            "tag": "div",
+            "text": "On algorithms, life, and learning"
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "For one learner, online MIT courses are “like getting a Ferrari for the price of an electric scooter”"
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "MIT undergraduates help US high schoolers tackle calculus"
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "Inside new “MIT Stories” documentary series"
+          },
+          {
+            "tag": "div",
+            "text": "Learn more"
+          },
+          {
+            "tag": "div",
+            "text": "News &amp; Media Day of Climate brings climate education to all March 30, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "3 Questions: Communicating about climate, in audio and beyond March 23, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Interoperability explained March 23, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "See All News"
+          },
+          {
+            "tag": "div",
+            "text": "Events System Thinking: The Cognitive Skill of the 21st Century April 1, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "AI, Omnichannel, and the Future of Supply Chain April 1, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Inside MIT xPRO's online Quantum Computing Certificate Program April 2, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "See All Events"
+          },
+          {
+            "tag": "div",
+            "text": "For Open Learning Employees Intranet"
+          },
+          {
+            "tag": "div",
+            "text": "Learn how you can help grow our community by donating to MIT Open Learning.&nbsp;"
+          },
+          {
+            "tag": "div",
+            "text": "Give"
+          },
+          {
+            "tag": "h2",
+            "text": "Policies"
+          },
+          {
+            "tag": "li",
+            "text": "Accessibility"
+          },
+          {
+            "tag": "li",
+            "text": "Privacy Statement"
+          },
+          {
+            "tag": "li",
+            "text": "Conduct and Community Standards"
+          },
+          {
+            "tag": "div",
+            "text": "Follow Us"
+          },
+          {
+            "tag": "div",
+            "text": "Contact MIT Open Learning 600 Technology Square Cambridge, MA 02139 Massachusetts Institute of Technology openlearning@mit.edu"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 4,
+          "headings": 15,
+          "images": 17
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-77802ABB",
+      "path": "/learners-organizations",
+      "type": "Detected Link",
+      "anchor_text": "For Learners &amp; Organizations",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E475C9F4",
+      "path": "/mit-faculty",
+      "type": "Detected Link",
+      "anchor_text": "For MIT Faculty",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9404614D",
+      "path": "/about-us",
+      "type": "Detected Link",
+      "anchor_text": "About us",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7A7D002D",
+      "path": "/news",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F72F4DC8",
+      "path": "/events",
+      "type": "Detected Link",
+      "anchor_text": "Events",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-12C481F1",
+      "path": "/news",
+      "type": "Detected Link",
+      "anchor_text": "News &amp; Media",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-16B12292",
+      "path": "/events",
+      "type": "Detected Link",
+      "anchor_text": "Events",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-47DE61C8",
+      "path": "/give",
+      "type": "Detected Link",
+      "anchor_text": "Give",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7CFC1367",
+      "path": "/accessibility",
+      "type": "Detected Link",
+      "anchor_text": "Accessibility",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A8E5A890",
+      "path": "/privacy-statement",
+      "type": "Detected Link",
+      "anchor_text": "Privacy Statement",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1993E601",
+      "path": "/conduct-and-community-standards",
+      "type": "Detected Link",
+      "anchor_text": "Conduct and Community Standards",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

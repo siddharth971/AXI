@@ -1,0 +1,83 @@
+{
+  "website_blueprint_id": "BLUEPRINT-5F98F891",
+  "generated_at": "2026-04-02T05:39:30.992Z",
+  "global_configuration": {
+    "brand_name": "Client Challenge",
+    "domain": "www.khanacademy.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "151.101.105.42",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      }
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-store",
+      "Content-Security-Policy": "Not Set",
+      "Server": "Unknown"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 1,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg",
+        "type": "image",
+        "full_url": "https://www.khanacademy.org/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Client Challenge",
+        "description": "",
+        "canonical": "https://www.khanacademy.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "532ms"
+        },
+        {
+          "resource": "errorIcon.svg",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [],
+        "main_content": [
+          {
+            "tag": "div",
+            "text": "JavaScript is disabled in your browser. Please enable JavaScript to proceed."
+          },
+          {
+            "tag": "div",
+            "text": "A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 1,
+          "headings": 0,
+          "images": 1
+        }
+      }
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

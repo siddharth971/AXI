@@ -1,0 +1,3554 @@
+{
+  "website_blueprint_id": "BLUEPRINT-70A82950",
+  "generated_at": "2026-04-02T05:35:11.423Z",
+  "global_configuration": {
+    "brand_name": "Yahoo Finance",
+    "domain": "finance.yahoo.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "180.222.114.12",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "ATS"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0, private",
+      "Content-Security-Policy": "frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.pnr.ouryahoo.com https://pnr.ouryahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.onesearch.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=finance&region=US&lang=en-US&device=desktop&yrid=68pj47pkss00e&partner=;",
+      "Server": "ATS"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 29,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/du/benji/benji-2.3.168.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/du/benji/benji-2.3.168.js"
+      },
+      {
+        "path": "/version/7.0.2/cmp.js",
+        "type": "script",
+        "full_url": "https://consent.cmp.oath.com/version/7.0.2/cmp.js"
+      },
+      {
+        "path": "/oa/consent.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/oa/consent.js"
+      },
+      {
+        "path": "/rx/ev/builds/1.15.30/evplayer.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/rx/ev/builds/1.15.30/evplayer.js"
+      },
+      {
+        "path": "/ss/analytics-3.73.0.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/ss/analytics-3.73.0.js"
+      },
+      {
+        "path": "/uc/finance/srchjs/1.2.37/js/finSearch.modern.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/uc/finance/srchjs/1.2.37/js/finSearch.modern.js"
+      },
+      {
+        "path": "/aaq/vzm/cs_2.1.2.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/aaq/vzm/cs_2.1.2.js"
+      },
+      {
+        "path": "/uc/sf/0.2.18/js/safe.modern.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/uc/sf/0.2.18/js/safe.modern.js"
+      },
+      {
+        "path": "/cx/pv/perf-vitals_3.5.1.js",
+        "type": "script",
+        "full_url": "https://s.yimg.com/cx/pv/perf-vitals_3.5.1.js"
+      },
+      {
+        "path": "/%7BpromoLogo%7D",
+        "type": "image",
+        "full_url": "https://finance.yahoo.com/%7BpromoLogo%7D"
+      },
+      {
+        "path": "/uu/api/res/1.2/TqccoFsq.8prv_t7Ruqp.Q--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-04/d1a6ccf0-2e35-11f1-9fef-edef97f4d97e.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/TqccoFsq.8prv_t7Ruqp.Q--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-04/d1a6ccf0-2e35-11f1-9fef-edef97f4d97e.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/Y4wji63dISs3hhvEmvn61g--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-04/af88a7c2-b018-4217-8db3-f230c4f0b83f.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/Y4wji63dISs3hhvEmvn61g--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-04/af88a7c2-b018-4217-8db3-f230c4f0b83f.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/nixK2Tek8in1V3ExU85MkQ--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-04/0384f620-2dd7-11f1-bdff-e9af37f05892.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/nixK2Tek8in1V3ExU85MkQ--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-04/0384f620-2dd7-11f1-bdff-e9af37f05892.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/vvA.DugJrENJ6wmxuuRgIg--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/kennedy.jpg.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/vvA.DugJrENJ6wmxuuRgIg--~B/Zmk9c3RyaW07aD02MztxPTgwO3c9ODQ7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/kennedy.jpg.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/jqMYpMb7ZVJcEQzjCS4ujQ--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/a80c135e-0d02-4274-82e3-deebff3c9ee7_5c374487d3041b4ca3795782e09ffcced0b8ee46cf07d20fb5ea5a4ec266a18b.net/images/2026-04/a80c135e-0d02-4274-82e3-deebff3c9ee7.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/jqMYpMb7ZVJcEQzjCS4ujQ--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/a80c135e-0d02-4274-82e3-deebff3c9ee7_5c374487d3041b4ca3795782e09ffcced0b8ee46cf07d20fb5ea5a4ec266a18b.net/images/2026-04/a80c135e-0d02-4274-82e3-deebff3c9ee7.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/1BixrxKBfSx4pfnuJcjiLA--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/9a0224cf-f541-44e9-a089-522b34ba41d4_339cd52acbbb58713e437d868e7056a0ba47e209990b3b5561b4dfd7d556de51.net/images/2026-04/9a0224cf-f541-44e9-a089-522b34ba41d4.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/1BixrxKBfSx4pfnuJcjiLA--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/9a0224cf-f541-44e9-a089-522b34ba41d4_339cd52acbbb58713e437d868e7056a0ba47e209990b3b5561b4dfd7d556de51.net/images/2026-04/9a0224cf-f541-44e9-a089-522b34ba41d4.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/HhXMJsy30nlT5DTO2JtnRg--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/4f703f3d-7d62-4875-a645-de1d454dee25_8add60b6b059a9cb4dafcf12c9d50e9fe986fad829b2e884a6d9c237e5b0c7a4.net/images/2026-04/4f703f3d-7d62-4875-a645-de1d454dee25.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/HhXMJsy30nlT5DTO2JtnRg--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/4f703f3d-7d62-4875-a645-de1d454dee25_8add60b6b059a9cb4dafcf12c9d50e9fe986fad829b2e884a6d9c237e5b0c7a4.net/images/2026-04/4f703f3d-7d62-4875-a645-de1d454dee25.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/WNk5YJ6q6mTsCMXUrKFeSA--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/f23a4dd0-9e8d-11f0-beaf-d325de3dcd1b_ed54bb0b91ad555ac08cea83e102e425b17041b3528cc57f7ae6e02efba19130.com/creatr-uploaded-images/2025-10/f23a4dd0-9e8d-11f0-beaf-d325de3dcd1b.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/WNk5YJ6q6mTsCMXUrKFeSA--~B/Zmk9c3RyaW07aD0zMjY7dz01ODA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/f23a4dd0-9e8d-11f0-beaf-d325de3dcd1b_ed54bb0b91ad555ac08cea83e102e425b17041b3528cc57f7ae6e02efba19130.com/creatr-uploaded-images/2025-10/f23a4dd0-9e8d-11f0-beaf-d325de3dcd1b.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/txfoAq50cRLwYg.7o2ZGLg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/c08d4ddb510a62bf25e53c3c6cc76197.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/txfoAq50cRLwYg.7o2ZGLg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/c08d4ddb510a62bf25e53c3c6cc76197.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/FD.Vg5fG4MJwD97qE9Ciqg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/5d030b6f3e6e3c61f6ec8aee8e97feda.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/FD.Vg5fG4MJwD97qE9Ciqg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/5d030b6f3e6e3c61f6ec8aee8e97feda.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/8aZOxlG06HEKSuAZ_VDiww--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/749fe5d3257e5c0c26f5c4ae7fe9efe3.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/8aZOxlG06HEKSuAZ_VDiww--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/749fe5d3257e5c0c26f5c4ae7fe9efe3.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/V8buFkgADpbR8bF9iAekNg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/reuters-finance.com/8083279922b575a6eb462c3191512414.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/V8buFkgADpbR8bF9iAekNg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/reuters-finance.com/8083279922b575a6eb462c3191512414.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/JcWOlVWS3H37EnhDW9rEHw--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/0f55011fce6f07cbffebb01f23a337c5.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/JcWOlVWS3H37EnhDW9rEHw--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/0f55011fce6f07cbffebb01f23a337c5.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/T0vKR8.UUSwF3s8pOO5fnA--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/T0vKR8.UUSwF3s8pOO5fnA--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/sUHJF8mz6DkWz8l9Uz4efA--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/1ff824265f55cf858277a6f3c25b111e.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/sUHJF8mz6DkWz8l9Uz4efA--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/1ff824265f55cf858277a6f3c25b111e.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/8VjxTHvLd1G3BdM1.MwqoQ--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/918105d8f50b1fc7cd23d5fd783969b9.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/8VjxTHvLd1G3BdM1.MwqoQ--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/918105d8f50b1fc7cd23d5fd783969b9.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/l3FJnfNAdjfjozBA04F2SA--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/quartz_855/3b661f2e83048c7de5667ecaf3cb6997.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/l3FJnfNAdjfjozBA04F2SA--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/quartz_855/3b661f2e83048c7de5667ecaf3cb6997.cf.webp"
+      },
+      {
+        "path": "/uu/api/res/1.2/1EPZa_SVMg.M27eoN193Wg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/reuters-finance.com/dfa26261ce94061eeb2d0a73fe8f3490.cf.webp",
+        "type": "image",
+        "full_url": "https://s.yimg.com/uu/api/res/1.2/1EPZa_SVMg.M27eoN193Wg--~B/Zmk9c3RyaW07aD0xMDk7cT04MDt3PTE5NDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/reuters-finance.com/dfa26261ce94061eeb2d0a73fe8f3490.cf.webp"
+      },
+      {
+        "path": "/cv/apiv2/flags/us.svg",
+        "type": "image",
+        "full_url": "https://s.yimg.com/cv/apiv2/flags/us.svg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Yahoo Finance - Stock Market Live, Quotes, Business &amp; Finance News",
+        "description": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+        "canonical": "https://finance.yahoo.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "1142ms"
+        },
+        {
+          "resource": "benji-2.3.168.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "cmp.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "consent.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Yahoo Finance",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "President says US will complete war in Iran 'very shortly'",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "More News",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Politics"
+          },
+          {
+            "tag": "li",
+            "text": "World"
+          },
+          {
+            "tag": "li",
+            "text": "Weather"
+          },
+          {
+            "tag": "li",
+            "text": "Climate change"
+          },
+          {
+            "tag": "li",
+            "text": "Health"
+          },
+          {
+            "tag": "li",
+            "text": "Wellness"
+          },
+          {
+            "tag": "li",
+            "text": "Mental health"
+          },
+          {
+            "tag": "li",
+            "text": "Sexual health"
+          },
+          {
+            "tag": "li",
+            "text": "Dermatology"
+          },
+          {
+            "tag": "li",
+            "text": "Oral health"
+          },
+          {
+            "tag": "li",
+            "text": "Hair loss"
+          },
+          {
+            "tag": "li",
+            "text": "Foot health"
+          },
+          {
+            "tag": "li",
+            "text": "Nutrition"
+          },
+          {
+            "tag": "li",
+            "text": "Healthy eating"
+          },
+          {
+            "tag": "li",
+            "text": "Meal delivery"
+          },
+          {
+            "tag": "li",
+            "text": "Weight loss"
+          },
+          {
+            "tag": "li",
+            "text": "Vitamins and supplements"
+          },
+          {
+            "tag": "li",
+            "text": "Fitness"
+          },
+          {
+            "tag": "li",
+            "text": "Equipment"
+          },
+          {
+            "tag": "li",
+            "text": "Exercise"
+          },
+          {
+            "tag": "li",
+            "text": "Women's health"
+          },
+          {
+            "tag": "li",
+            "text": "Sleep"
+          },
+          {
+            "tag": "li",
+            "text": "Best mattress"
+          },
+          {
+            "tag": "li",
+            "text": "Healthy aging"
+          },
+          {
+            "tag": "li",
+            "text": "Hearing"
+          },
+          {
+            "tag": "li",
+            "text": "Mobility"
+          },
+          {
+            "tag": "li",
+            "text": "Science"
+          },
+          {
+            "tag": "li",
+            "text": "Originals"
+          },
+          {
+            "tag": "li",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "li",
+            "text": "Games"
+          },
+          {
+            "tag": "h3",
+            "text": "Life"
+          },
+          {
+            "tag": "li",
+            "text": "Health"
+          },
+          {
+            "tag": "li",
+            "text": "Wellness"
+          },
+          {
+            "tag": "li",
+            "text": "Nutrition"
+          },
+          {
+            "tag": "li",
+            "text": "Fitness"
+          },
+          {
+            "tag": "li",
+            "text": "Healthy aging"
+          },
+          {
+            "tag": "li",
+            "text": "Sleep"
+          },
+          {
+            "tag": "li",
+            "text": "Your body"
+          },
+          {
+            "tag": "li",
+            "text": "Children's health"
+          },
+          {
+            "tag": "li",
+            "text": "Dermatology"
+          },
+          {
+            "tag": "li",
+            "text": "Foot health"
+          },
+          {
+            "tag": "li",
+            "text": "Hair loss"
+          },
+          {
+            "tag": "li",
+            "text": "Oral health"
+          },
+          {
+            "tag": "li",
+            "text": "Sexual health"
+          },
+          {
+            "tag": "li",
+            "text": "Weight management"
+          },
+          {
+            "tag": "li",
+            "text": "Women's health"
+          },
+          {
+            "tag": "li",
+            "text": "Conditions"
+          },
+          {
+            "tag": "li",
+            "text": "Cardiovascular health"
+          },
+          {
+            "tag": "li",
+            "text": "Digestive health"
+          },
+          {
+            "tag": "li",
+            "text": "Endocrine system"
+          },
+          {
+            "tag": "li",
+            "text": "Hearing"
+          },
+          {
+            "tag": "li",
+            "text": "Mental health"
+          },
+          {
+            "tag": "li",
+            "text": "Parenting"
+          },
+          {
+            "tag": "li",
+            "text": "Family health"
+          },
+          {
+            "tag": "li",
+            "text": "So mini ways"
+          },
+          {
+            "tag": "li",
+            "text": "Style and beauty"
+          },
+          {
+            "tag": "li",
+            "text": "It Figures"
+          },
+          {
+            "tag": "li",
+            "text": "Unapologetically"
+          },
+          {
+            "tag": "li",
+            "text": "Horoscopes"
+          },
+          {
+            "tag": "li",
+            "text": "Shopping"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale deals"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale fashion deals"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale travel deals"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale kitchen deals"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale shoe deals"
+          },
+          {
+            "tag": "li",
+            "text": "Style"
+          },
+          {
+            "tag": "li",
+            "text": "Accessories"
+          },
+          {
+            "tag": "li",
+            "text": "Clothing"
+          },
+          {
+            "tag": "li",
+            "text": "Luggage"
+          },
+          {
+            "tag": "li",
+            "text": "Shoes"
+          },
+          {
+            "tag": "li",
+            "text": "Beauty"
+          },
+          {
+            "tag": "li",
+            "text": "Fragrance"
+          },
+          {
+            "tag": "li",
+            "text": "Hair"
+          },
+          {
+            "tag": "li",
+            "text": "Makeup"
+          },
+          {
+            "tag": "li",
+            "text": "Nails"
+          },
+          {
+            "tag": "li",
+            "text": "Skincare"
+          },
+          {
+            "tag": "li",
+            "text": "Sunscreen"
+          },
+          {
+            "tag": "li",
+            "text": "Health"
+          },
+          {
+            "tag": "li",
+            "text": "Dental"
+          },
+          {
+            "tag": "li",
+            "text": "Fitness"
+          },
+          {
+            "tag": "li",
+            "text": "Hair loss"
+          },
+          {
+            "tag": "li",
+            "text": "Mental health"
+          },
+          {
+            "tag": "li",
+            "text": "Nutrition"
+          },
+          {
+            "tag": "li",
+            "text": "Personal care"
+          },
+          {
+            "tag": "li",
+            "text": "Sleep"
+          },
+          {
+            "tag": "li",
+            "text": "Women's health"
+          },
+          {
+            "tag": "li",
+            "text": "Home and garden"
+          },
+          {
+            "tag": "li",
+            "text": "Bath"
+          },
+          {
+            "tag": "li",
+            "text": "Bedding"
+          },
+          {
+            "tag": "li",
+            "text": "Cleaning"
+          },
+          {
+            "tag": "li",
+            "text": "Gardening"
+          },
+          {
+            "tag": "li",
+            "text": "Home decor"
+          },
+          {
+            "tag": "li",
+            "text": "Home improvement"
+          },
+          {
+            "tag": "li",
+            "text": "Kitchen"
+          },
+          {
+            "tag": "li",
+            "text": "Outdoor"
+          },
+          {
+            "tag": "li",
+            "text": "Pets"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Accessories"
+          },
+          {
+            "tag": "li",
+            "text": "Audio"
+          },
+          {
+            "tag": "li",
+            "text": "Auto"
+          },
+          {
+            "tag": "li",
+            "text": "Computers"
+          },
+          {
+            "tag": "li",
+            "text": "Phones"
+          },
+          {
+            "tag": "li",
+            "text": "Smart home"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming"
+          },
+          {
+            "tag": "li",
+            "text": "Gift ideas"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for men"
+          },
+          {
+            "tag": "li",
+            "text": "Best gift cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for mom"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for teens"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for couples"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for sister-in-law"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for girlfriends"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for grandma"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for sisters"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for husbands"
+          },
+          {
+            "tag": "li",
+            "text": "Best birthday gifts for her"
+          },
+          {
+            "tag": "li",
+            "text": "Best get well soon gifts"
+          },
+          {
+            "tag": "li",
+            "text": "Best travel gifts"
+          },
+          {
+            "tag": "li",
+            "text": "Best gifts for mother-in-law"
+          },
+          {
+            "tag": "li",
+            "text": "Best anniversary gifts for wife"
+          },
+          {
+            "tag": "li",
+            "text": "Stores"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon"
+          },
+          {
+            "tag": "li",
+            "text": "Best Buy"
+          },
+          {
+            "tag": "li",
+            "text": "Coach Outlet"
+          },
+          {
+            "tag": "li",
+            "text": "Home Depot"
+          },
+          {
+            "tag": "li",
+            "text": "Kate Spade New York"
+          },
+          {
+            "tag": "li",
+            "text": "Lowes"
+          },
+          {
+            "tag": "li",
+            "text": "Macy's"
+          },
+          {
+            "tag": "li",
+            "text": "Nordstrom"
+          },
+          {
+            "tag": "li",
+            "text": "Sephora"
+          },
+          {
+            "tag": "li",
+            "text": "Sur La Table"
+          },
+          {
+            "tag": "li",
+            "text": "Target"
+          },
+          {
+            "tag": "li",
+            "text": "Ulta"
+          },
+          {
+            "tag": "li",
+            "text": "Walmart"
+          },
+          {
+            "tag": "li",
+            "text": "Wayfair"
+          },
+          {
+            "tag": "li",
+            "text": "Zappos"
+          },
+          {
+            "tag": "li",
+            "text": "Shopping Guides"
+          },
+          {
+            "tag": "li",
+            "text": "Best cordless stick vacuums"
+          },
+          {
+            "tag": "li",
+            "text": "Best water bottles"
+          },
+          {
+            "tag": "li",
+            "text": "Best vacuums"
+          },
+          {
+            "tag": "li",
+            "text": "Best air fryers"
+          },
+          {
+            "tag": "li",
+            "text": "Best luggage"
+          },
+          {
+            "tag": "li",
+            "text": "Best jeans"
+          },
+          {
+            "tag": "li",
+            "text": "Best bras"
+          },
+          {
+            "tag": "li",
+            "text": "Best nontoxic nail polish"
+          },
+          {
+            "tag": "li",
+            "text": "Best under eye cream"
+          },
+          {
+            "tag": "li",
+            "text": "Best skin tightening creams"
+          },
+          {
+            "tag": "li",
+            "text": "Best coffee makers"
+          },
+          {
+            "tag": "li",
+            "text": "Best comforters"
+          },
+          {
+            "tag": "li",
+            "text": "Best mops"
+          },
+          {
+            "tag": "li",
+            "text": "Best Hoka shoes for walking"
+          },
+          {
+            "tag": "li",
+            "text": "Best instant pot"
+          },
+          {
+            "tag": "li",
+            "text": "Deals"
+          },
+          {
+            "tag": "li",
+            "text": "Toys and games"
+          },
+          {
+            "tag": "li",
+            "text": "General"
+          },
+          {
+            "tag": "li",
+            "text": "Food"
+          },
+          {
+            "tag": "li",
+            "text": "Travel"
+          },
+          {
+            "tag": "li",
+            "text": "Autos"
+          },
+          {
+            "tag": "li",
+            "text": "EV &amp; Future Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Classic &amp; Collector"
+          },
+          {
+            "tag": "li",
+            "text": "Deals &amp; Buying Guides"
+          },
+          {
+            "tag": "li",
+            "text": "Ownership"
+          },
+          {
+            "tag": "li",
+            "text": "Safety &amp; Recalls"
+          },
+          {
+            "tag": "li",
+            "text": "Policy &amp; Environment"
+          },
+          {
+            "tag": "li",
+            "text": "New Vehicles &amp; Reviews"
+          },
+          {
+            "tag": "li",
+            "text": "Auto Shows"
+          },
+          {
+            "tag": "li",
+            "text": "General"
+          },
+          {
+            "tag": "li",
+            "text": "People &amp; Culture"
+          },
+          {
+            "tag": "li",
+            "text": "Gift ideas"
+          },
+          {
+            "tag": "li",
+            "text": "Buying guides"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale deals"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale tech deals"
+          },
+          {
+            "tag": "h3",
+            "text": "Entertainment"
+          },
+          {
+            "tag": "li",
+            "text": "Celebrity"
+          },
+          {
+            "tag": "li",
+            "text": "Movies"
+          },
+          {
+            "tag": "li",
+            "text": "Music"
+          },
+          {
+            "tag": "li",
+            "text": "How to Watch"
+          },
+          {
+            "tag": "li",
+            "text": "Interviews"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "h3",
+            "text": "Finance"
+          },
+          {
+            "tag": "li",
+            "text": "My Portfolio"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Latest"
+          },
+          {
+            "tag": "li",
+            "text": "Originals"
+          },
+          {
+            "tag": "li",
+            "text": "Premium news"
+          },
+          {
+            "tag": "li",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "li",
+            "text": "Stock market"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Tariffs"
+          },
+          {
+            "tag": "li",
+            "text": "Tax Insights via H&amp;R Block"
+          },
+          {
+            "tag": "li",
+            "text": "More Topics"
+          },
+          {
+            "tag": "li",
+            "text": "Economies"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Housing"
+          },
+          {
+            "tag": "li",
+            "text": "Markets"
+          },
+          {
+            "tag": "li",
+            "text": "Stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Most active"
+          },
+          {
+            "tag": "li",
+            "text": "Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Trending"
+          },
+          {
+            "tag": "li",
+            "text": "Highest dividend"
+          },
+          {
+            "tag": "li",
+            "text": "Small cap"
+          },
+          {
+            "tag": "li",
+            "text": "Large cap"
+          },
+          {
+            "tag": "li",
+            "text": "Most expensive"
+          },
+          {
+            "tag": "li",
+            "text": "Highest beta"
+          },
+          {
+            "tag": "li",
+            "text": "Pink sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Unusual volume"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto"
+          },
+          {
+            "tag": "li",
+            "text": "Most active"
+          },
+          {
+            "tag": "li",
+            "text": "Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Prediction markets"
+          },
+          {
+            "tag": "li",
+            "text": "Finance"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto"
+          },
+          {
+            "tag": "li",
+            "text": "Equities"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Economy"
+          },
+          {
+            "tag": "li",
+            "text": "Private companies"
+          },
+          {
+            "tag": "li",
+            "text": "52 week gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Recently funded"
+          },
+          {
+            "tag": "li",
+            "text": "Most funded"
+          },
+          {
+            "tag": "li",
+            "text": "Options"
+          },
+          {
+            "tag": "li",
+            "text": "Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Highest open interest"
+          },
+          {
+            "tag": "li",
+            "text": "Highest implied volatility"
+          },
+          {
+            "tag": "li",
+            "text": "Sectors"
+          },
+          {
+            "tag": "li",
+            "text": "Technology"
+          },
+          {
+            "tag": "li",
+            "text": "Financial services"
+          },
+          {
+            "tag": "li",
+            "text": "Consumer cyclical"
+          },
+          {
+            "tag": "li",
+            "text": "Communication services"
+          },
+          {
+            "tag": "li",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "li",
+            "text": "Industrials"
+          },
+          {
+            "tag": "li",
+            "text": "Consumer defensive"
+          },
+          {
+            "tag": "li",
+            "text": "Energy"
+          },
+          {
+            "tag": "li",
+            "text": "Basic materials"
+          },
+          {
+            "tag": "li",
+            "text": "Real estate"
+          },
+          {
+            "tag": "li",
+            "text": "Utilities"
+          },
+          {
+            "tag": "li",
+            "text": "Treasury bonds"
+          },
+          {
+            "tag": "li",
+            "text": "Futures"
+          },
+          {
+            "tag": "li",
+            "text": "Currencies"
+          },
+          {
+            "tag": "li",
+            "text": "World indices"
+          },
+          {
+            "tag": "li",
+            "text": "ETFs"
+          },
+          {
+            "tag": "li",
+            "text": "Research"
+          },
+          {
+            "tag": "li",
+            "text": "Stock picks"
+          },
+          {
+            "tag": "li",
+            "text": "Screeners"
+          },
+          {
+            "tag": "li",
+            "text": "Stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Most shorted"
+          },
+          {
+            "tag": "li",
+            "text": "Most active penny stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Analyst strong buy"
+          },
+          {
+            "tag": "li",
+            "text": "Calendar"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Stock splits"
+          },
+          {
+            "tag": "li",
+            "text": "IPOs"
+          },
+          {
+            "tag": "li",
+            "text": "Economic events"
+          },
+          {
+            "tag": "li",
+            "text": "Stock comparison"
+          },
+          {
+            "tag": "li",
+            "text": "NVDA vs INTC"
+          },
+          {
+            "tag": "li",
+            "text": "NVDA vs AMD"
+          },
+          {
+            "tag": "li",
+            "text": "GOOG vs AMZN"
+          },
+          {
+            "tag": "li",
+            "text": "AAPL vs MSFT"
+          },
+          {
+            "tag": "li",
+            "text": "TSLA vs RIVN"
+          },
+          {
+            "tag": "li",
+            "text": "Currency converter"
+          },
+          {
+            "tag": "li",
+            "text": "Advanced charts"
+          },
+          {
+            "tag": "li",
+            "text": "Investment ideas"
+          },
+          {
+            "tag": "li",
+            "text": "Research reports"
+          },
+          {
+            "tag": "li",
+            "text": "Community"
+          },
+          {
+            "tag": "li",
+            "text": "Personal Finance"
+          },
+          {
+            "tag": "li",
+            "text": "My Money"
+          },
+          {
+            "tag": "li",
+            "text": "Credit cards"
+          },
+          {
+            "tag": "li",
+            "text": "Compare Credit Cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best 0% APR cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best balance transfer cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best rewards cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best travel cards"
+          },
+          {
+            "tag": "li",
+            "text": "Banking"
+          },
+          {
+            "tag": "li",
+            "text": "Best CD rates"
+          },
+          {
+            "tag": "li",
+            "text": "Best high-yield savings accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best money market accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best free checking accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best online banks"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage"
+          },
+          {
+            "tag": "li",
+            "text": "Best mortgage lenders"
+          },
+          {
+            "tag": "li",
+            "text": "Lowest mortgage rates"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage refinance"
+          },
+          {
+            "tag": "li",
+            "text": "First time homebuyer"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage payment calculator"
+          },
+          {
+            "tag": "li",
+            "text": "Home affordability calculator"
+          },
+          {
+            "tag": "li",
+            "text": "Insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Find car insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Types of car insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Find life insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Taxes"
+          },
+          {
+            "tag": "li",
+            "text": "How to file"
+          },
+          {
+            "tag": "li",
+            "text": "Tax brackets and rates"
+          },
+          {
+            "tag": "li",
+            "text": "Child tax credit"
+          },
+          {
+            "tag": "li",
+            "text": "Tax extension"
+          },
+          {
+            "tag": "li",
+            "text": "Tax refund status"
+          },
+          {
+            "tag": "li",
+            "text": "Student loans"
+          },
+          {
+            "tag": "li",
+            "text": "Federal vs. private"
+          },
+          {
+            "tag": "li",
+            "text": "How to apply"
+          },
+          {
+            "tag": "li",
+            "text": "FAFSA 2026-27"
+          },
+          {
+            "tag": "li",
+            "text": "Student loan assistance"
+          },
+          {
+            "tag": "li",
+            "text": "Personal loans"
+          },
+          {
+            "tag": "li",
+            "text": "Best personal loans"
+          },
+          {
+            "tag": "li",
+            "text": "Improve credit score"
+          },
+          {
+            "tag": "li",
+            "text": "How to get approved"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "li",
+            "text": "Latest"
+          },
+          {
+            "tag": "li",
+            "text": "Editor's picks"
+          },
+          {
+            "tag": "li",
+            "text": "Trending stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Investing insights"
+          },
+          {
+            "tag": "li",
+            "text": "Live shows"
+          },
+          {
+            "tag": "li",
+            "text": "Morning Brief"
+          },
+          {
+            "tag": "li",
+            "text": "Opening Bid"
+          },
+          {
+            "tag": "li",
+            "text": "Market Catalysts"
+          },
+          {
+            "tag": "li",
+            "text": "Market Domination"
+          },
+          {
+            "tag": "li",
+            "text": "Market Domination Overtime"
+          },
+          {
+            "tag": "li",
+            "text": "Asking for a Trend"
+          },
+          {
+            "tag": "li",
+            "text": "Video podcasts"
+          },
+          {
+            "tag": "li",
+            "text": "Stocks in Translation"
+          },
+          {
+            "tag": "li",
+            "text": "Trader Talk"
+          },
+          {
+            "tag": "li",
+            "text": "The Big Idea"
+          },
+          {
+            "tag": "li",
+            "text": "Financial Freestyle"
+          },
+          {
+            "tag": "li",
+            "text": "FA Corner"
+          },
+          {
+            "tag": "li",
+            "text": "ETF Report"
+          },
+          {
+            "tag": "li",
+            "text": "Options Unlocked"
+          },
+          {
+            "tag": "li",
+            "text": "Watch Now"
+          },
+          {
+            "tag": "h3",
+            "text": "Sports"
+          },
+          {
+            "tag": "li",
+            "text": "March Madness 2026"
+          },
+          {
+            "tag": "li",
+            "text": "College basketball"
+          },
+          {
+            "tag": "li",
+            "text": "Men's college basketball"
+          },
+          {
+            "tag": "li",
+            "text": "Women's college basketball"
+          },
+          {
+            "tag": "li",
+            "text": "March Madness"
+          },
+          {
+            "tag": "li",
+            "text": "Fantasy"
+          },
+          {
+            "tag": "li",
+            "text": "Fantasy baseball"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Fantasy football"
+          },
+          {
+            "tag": "li",
+            "text": "Best ball"
+          },
+          {
+            "tag": "li",
+            "text": "Pro Pick 'Em"
+          },
+          {
+            "tag": "li",
+            "text": "College Pick 'Em"
+          },
+          {
+            "tag": "li",
+            "text": "Fantasy hockey"
+          },
+          {
+            "tag": "li",
+            "text": "Fantasy basketball"
+          },
+          {
+            "tag": "li",
+            "text": "Download the app"
+          },
+          {
+            "tag": "li",
+            "text": "Daily fantasy"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Standings"
+          },
+          {
+            "tag": "li",
+            "text": "Stats"
+          },
+          {
+            "tag": "li",
+            "text": "Teams"
+          },
+          {
+            "tag": "li",
+            "text": "Players"
+          },
+          {
+            "tag": "li",
+            "text": "Draft"
+          },
+          {
+            "tag": "li",
+            "text": "2026 Mock Draft"
+          },
+          {
+            "tag": "li",
+            "text": "Injuries"
+          },
+          {
+            "tag": "li",
+            "text": "Odds"
+          },
+          {
+            "tag": "li",
+            "text": "Super Bowl"
+          },
+          {
+            "tag": "li",
+            "text": "GameChannel"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Standings"
+          },
+          {
+            "tag": "li",
+            "text": "Stats"
+          },
+          {
+            "tag": "li",
+            "text": "Teams"
+          },
+          {
+            "tag": "li",
+            "text": "Players"
+          },
+          {
+            "tag": "li",
+            "text": "Injuries"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "li",
+            "text": "Odds"
+          },
+          {
+            "tag": "li",
+            "text": "Playoffs"
+          },
+          {
+            "tag": "li",
+            "text": "Draft"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Standings"
+          },
+          {
+            "tag": "li",
+            "text": "Stats"
+          },
+          {
+            "tag": "li",
+            "text": "Teams"
+          },
+          {
+            "tag": "li",
+            "text": "Players"
+          },
+          {
+            "tag": "li",
+            "text": "Playoffs"
+          },
+          {
+            "tag": "li",
+            "text": "Odds"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "li",
+            "text": "World Baseball Classic"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Standings"
+          },
+          {
+            "tag": "li",
+            "text": "Stats"
+          },
+          {
+            "tag": "li",
+            "text": "Teams"
+          },
+          {
+            "tag": "li",
+            "text": "Players"
+          },
+          {
+            "tag": "li",
+            "text": "Odds"
+          },
+          {
+            "tag": "li",
+            "text": "Playoffs"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "College football"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Standings"
+          },
+          {
+            "tag": "li",
+            "text": "Rankings"
+          },
+          {
+            "tag": "li",
+            "text": "Stats"
+          },
+          {
+            "tag": "li",
+            "text": "Teams"
+          },
+          {
+            "tag": "li",
+            "text": "College Football Playoff"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Soccer"
+          },
+          {
+            "tag": "li",
+            "text": "Schedule"
+          },
+          {
+            "tag": "li",
+            "text": "Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Premier League"
+          },
+          {
+            "tag": "li",
+            "text": "NWSL"
+          },
+          {
+            "tag": "li",
+            "text": "Liga MX"
+          },
+          {
+            "tag": "li",
+            "text": "CONCACAF League"
+          },
+          {
+            "tag": "li",
+            "text": "Champions League"
+          },
+          {
+            "tag": "li",
+            "text": "La Liga"
+          },
+          {
+            "tag": "li",
+            "text": "Serie A"
+          },
+          {
+            "tag": "li",
+            "text": "Bundesliga"
+          },
+          {
+            "tag": "li",
+            "text": "Ligue 1"
+          },
+          {
+            "tag": "li",
+            "text": "World Cup"
+          },
+          {
+            "tag": "li",
+            "text": "News"
+          },
+          {
+            "tag": "li",
+            "text": "Yahoo Sports AM"
+          },
+          {
+            "tag": "li",
+            "text": "Show all"
+          },
+          {
+            "tag": "li",
+            "text": "WNBA"
+          },
+          {
+            "tag": "li",
+            "text": "Sportsbook"
+          },
+          {
+            "tag": "li",
+            "text": "Tennis"
+          },
+          {
+            "tag": "li",
+            "text": "Golf"
+          },
+          {
+            "tag": "li",
+            "text": "NASCAR"
+          },
+          {
+            "tag": "li",
+            "text": "Boxing"
+          },
+          {
+            "tag": "li",
+            "text": "Cycling"
+          },
+          {
+            "tag": "li",
+            "text": "Racing"
+          },
+          {
+            "tag": "li",
+            "text": "Horse racing"
+          },
+          {
+            "tag": "li",
+            "text": "GameChannel"
+          },
+          {
+            "tag": "li",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "li",
+            "text": "Podcasts"
+          },
+          {
+            "tag": "li",
+            "text": "Videos"
+          },
+          {
+            "tag": "li",
+            "text": "Jobs"
+          },
+          {
+            "tag": "li",
+            "text": "Help"
+          },
+          {
+            "tag": "li",
+            "text": "More news"
+          },
+          {
+            "tag": "h3",
+            "text": "New on Yahoo"
+          },
+          {
+            "tag": "li",
+            "text": "Yahoo Scout"
+          },
+          {
+            "tag": "li",
+            "text": "Creators"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Amazon Spring Sale tech deals"
+          },
+          {
+            "tag": "li",
+            "text": "Apple Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Claude"
+          },
+          {
+            "tag": "li",
+            "text": "Gemini"
+          },
+          {
+            "tag": "li",
+            "text": "Meta"
+          },
+          {
+            "tag": "li",
+            "text": "Microsoft Copilot"
+          },
+          {
+            "tag": "li",
+            "text": "Perplexity"
+          },
+          {
+            "tag": "li",
+            "text": "Audio"
+          },
+          {
+            "tag": "li",
+            "text": "Audio deals"
+          },
+          {
+            "tag": "li",
+            "text": "Best AirPods"
+          },
+          {
+            "tag": "li",
+            "text": "Best budget headphones"
+          },
+          {
+            "tag": "li",
+            "text": "Best soundbar of 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Best noise cancelling earbuds"
+          },
+          {
+            "tag": "li",
+            "text": "Best noise cancelling headphones"
+          },
+          {
+            "tag": "li",
+            "text": "Best headphones"
+          },
+          {
+            "tag": "li",
+            "text": "Best cheap wireless earbuds"
+          },
+          {
+            "tag": "li",
+            "text": "Best open ear headphones"
+          },
+          {
+            "tag": "li",
+            "text": "Best outdoor speakers"
+          },
+          {
+            "tag": "li",
+            "text": "Best wireless tv headphones"
+          },
+          {
+            "tag": "li",
+            "text": "Best portable bluetooth speaker"
+          },
+          {
+            "tag": "li",
+            "text": "Best wireless earbuds"
+          },
+          {
+            "tag": "li",
+            "text": "Computing"
+          },
+          {
+            "tag": "li",
+            "text": "Best iPad"
+          },
+          {
+            "tag": "li",
+            "text": "Best tablets of 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Best portable monitor"
+          },
+          {
+            "tag": "li",
+            "text": "Best laptop for 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Best tablet for kids"
+          },
+          {
+            "tag": "li",
+            "text": "Best microSD cards"
+          },
+          {
+            "tag": "li",
+            "text": "Gaming"
+          },
+          {
+            "tag": "li",
+            "text": "Gaming deals"
+          },
+          {
+            "tag": "li",
+            "text": "Nintendo"
+          },
+          {
+            "tag": "li",
+            "text": "PlayStation"
+          },
+          {
+            "tag": "li",
+            "text": "Xbox"
+          },
+          {
+            "tag": "li",
+            "text": "Home entertainment"
+          },
+          {
+            "tag": "li",
+            "text": "Best frame TV"
+          },
+          {
+            "tag": "li",
+            "text": "Best OLED TV"
+          },
+          {
+            "tag": "li",
+            "text": "Best budget TV"
+          },
+          {
+            "tag": "li",
+            "text": "Best digital TV antenna"
+          },
+          {
+            "tag": "li",
+            "text": "Phones"
+          },
+          {
+            "tag": "li",
+            "text": "Puzzle hints"
+          },
+          {
+            "tag": "li",
+            "text": "Connections"
+          },
+          {
+            "tag": "li",
+            "text": "Quordle"
+          },
+          {
+            "tag": "li",
+            "text": "Strands"
+          },
+          {
+            "tag": "li",
+            "text": "Wordle"
+          },
+          {
+            "tag": "li",
+            "text": "Science"
+          },
+          {
+            "tag": "li",
+            "text": "Space"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming"
+          },
+          {
+            "tag": "li",
+            "text": "Stream March Madness 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming reviews"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming deals"
+          },
+          {
+            "tag": "li",
+            "text": "Best streaming services"
+          },
+          {
+            "tag": "li",
+            "text": "Best live TV streaming services"
+          },
+          {
+            "tag": "li",
+            "text": "Best free streaming services"
+          },
+          {
+            "tag": "li",
+            "text": "Best streaming device of 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Tech News"
+          },
+          {
+            "tag": "li",
+            "text": "Best VPNs"
+          },
+          {
+            "tag": "li",
+            "text": "VPN deals"
+          },
+          {
+            "tag": "li",
+            "text": "Most secure VPN for 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Best VPN for streaming"
+          },
+          {
+            "tag": "li",
+            "text": "Fastest VPNs for 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Best VPN for Mac"
+          },
+          {
+            "tag": "li",
+            "text": "Deals"
+          },
+          {
+            "tag": "li",
+            "text": "More"
+          },
+          {
+            "tag": "li",
+            "text": "Apps"
+          },
+          {
+            "tag": "li",
+            "text": "AR and VR"
+          },
+          {
+            "tag": "li",
+            "text": "Business"
+          },
+          {
+            "tag": "li",
+            "text": "Cameras"
+          },
+          {
+            "tag": "li",
+            "text": "Cybersecurity"
+          },
+          {
+            "tag": "li",
+            "text": "Entertainment"
+          },
+          {
+            "tag": "li",
+            "text": "General"
+          },
+          {
+            "tag": "li",
+            "text": "Reviews and guides"
+          },
+          {
+            "tag": "li",
+            "text": "Smart home"
+          },
+          {
+            "tag": "li",
+            "text": "Social media"
+          },
+          {
+            "tag": "li",
+            "text": "Transportation"
+          },
+          {
+            "tag": "li",
+            "text": "Wearables"
+          },
+          {
+            "tag": "li",
+            "text": "Local"
+          },
+          {
+            "tag": "li",
+            "text": "Moving"
+          },
+          {
+            "tag": "li",
+            "text": "Roofing"
+          },
+          {
+            "tag": "li",
+            "text": "Painting"
+          },
+          {
+            "tag": "li",
+            "text": "Plumbing"
+          },
+          {
+            "tag": "li",
+            "text": "Awards"
+          },
+          {
+            "tag": "li",
+            "text": "Terms"
+          },
+          {
+            "tag": "li",
+            "text": "Privacy"
+          },
+          {
+            "tag": "li",
+            "text": "Privacy Dashboard"
+          },
+          {
+            "tag": "li",
+            "text": "Feedback"
+          },
+          {
+            "tag": "div",
+            "text": "© 2026 All rights reserved."
+          },
+          {
+            "tag": "div",
+            "text": "About our ads Advertising Careers"
+          },
+          {
+            "tag": "div",
+            "text": "Yahoo Finance Yahoo Finance"
+          },
+          {
+            "tag": "div",
+            "text": "Search query"
+          },
+          {
+            "tag": "div",
+            "text": "Select edition US English US y LATAM Español Australia English Canada English Canada Français Deutschland Deutsch France Français 香港 繁中 Malaysia English New Zealand English Singapore English 台灣 繁中 UK English News Finance Sports More News Today's news US Politics World Weather Climate change Health Science Originals Newsletters Games Life Health Parenting Style and beauty Horoscopes Shopping Food Travel Autos Gift ideas Buying guides Amazon Spring Sale deals Amazon Spring Sale tech deals Entertainment Celebrity TV Movies Music How to Watch Interviews Videos Finance My portfolio News Markets Research Community Personal finance Videos Sports March Madness 2026 College basketball Fantasy NFL NBA MLB NHL College football Soccer Yahoo Sports AM Show all New on Yahoo"
+          },
+          {
+            "tag": "li",
+            "text": "Yahoo Scout"
+          },
+          {
+            "tag": "li",
+            "text": "Creators"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Local"
+          },
+          {
+            "tag": "li",
+            "text": "Selected edition US English"
+          },
+          {
+            "tag": "div",
+            "text": "Mail"
+          },
+          {
+            "tag": "div",
+            "text": "Sign in"
+          },
+          {
+            "tag": "div",
+            "text": "\\n \\n \\n"
+          },
+          {
+            "tag": "li",
+            "text": "My Portfolio"
+          },
+          {
+            "tag": "li",
+            "text": "News Latest"
+          },
+          {
+            "tag": "li",
+            "text": "Originals"
+          },
+          {
+            "tag": "li",
+            "text": "Premium news"
+          },
+          {
+            "tag": "li",
+            "text": "Newsletters"
+          },
+          {
+            "tag": "li",
+            "text": "Stock market"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Tariffs"
+          },
+          {
+            "tag": "li",
+            "text": "Tax Insights via H&amp;R Block"
+          },
+          {
+            "tag": "li",
+            "text": "More Topics Economies"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Housing"
+          },
+          {
+            "tag": "li",
+            "text": "Markets Stocks Most active"
+          },
+          {
+            "tag": "li",
+            "text": "Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Trending"
+          },
+          {
+            "tag": "li",
+            "text": "Highest dividend"
+          },
+          {
+            "tag": "li",
+            "text": "Small cap"
+          },
+          {
+            "tag": "li",
+            "text": "Large cap"
+          },
+          {
+            "tag": "li",
+            "text": "Most expensive"
+          },
+          {
+            "tag": "li",
+            "text": "Highest beta"
+          },
+          {
+            "tag": "li",
+            "text": "Pink sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Unusual volume"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto Most active"
+          },
+          {
+            "tag": "li",
+            "text": "Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Prediction markets Finance"
+          },
+          {
+            "tag": "li",
+            "text": "Crypto"
+          },
+          {
+            "tag": "li",
+            "text": "Equities"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Tech"
+          },
+          {
+            "tag": "li",
+            "text": "Economy"
+          },
+          {
+            "tag": "li",
+            "text": "Private companies 52 week gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Recently funded"
+          },
+          {
+            "tag": "li",
+            "text": "Most funded"
+          },
+          {
+            "tag": "li",
+            "text": "Options Day gainers"
+          },
+          {
+            "tag": "li",
+            "text": "Day losers"
+          },
+          {
+            "tag": "li",
+            "text": "Highest open interest"
+          },
+          {
+            "tag": "li",
+            "text": "Highest implied volatility"
+          },
+          {
+            "tag": "li",
+            "text": "Sectors Technology"
+          },
+          {
+            "tag": "li",
+            "text": "Financial services"
+          },
+          {
+            "tag": "li",
+            "text": "Consumer cyclical"
+          },
+          {
+            "tag": "li",
+            "text": "Communication services"
+          },
+          {
+            "tag": "li",
+            "text": "Healthcare"
+          },
+          {
+            "tag": "li",
+            "text": "Industrials"
+          },
+          {
+            "tag": "li",
+            "text": "Consumer defensive"
+          },
+          {
+            "tag": "li",
+            "text": "Energy"
+          },
+          {
+            "tag": "li",
+            "text": "Basic materials"
+          },
+          {
+            "tag": "li",
+            "text": "Real estate"
+          },
+          {
+            "tag": "li",
+            "text": "Utilities"
+          },
+          {
+            "tag": "li",
+            "text": "Treasury bonds"
+          },
+          {
+            "tag": "li",
+            "text": "Futures"
+          },
+          {
+            "tag": "li",
+            "text": "Currencies"
+          },
+          {
+            "tag": "li",
+            "text": "World indices"
+          },
+          {
+            "tag": "li",
+            "text": "ETFs"
+          },
+          {
+            "tag": "li",
+            "text": "Research Stock picks"
+          },
+          {
+            "tag": "li",
+            "text": "Screeners Stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Most shorted"
+          },
+          {
+            "tag": "li",
+            "text": "Most active penny stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Analyst strong buy"
+          },
+          {
+            "tag": "li",
+            "text": "Calendar Earnings"
+          },
+          {
+            "tag": "li",
+            "text": "Stock splits"
+          },
+          {
+            "tag": "li",
+            "text": "IPOs"
+          },
+          {
+            "tag": "li",
+            "text": "Economic events"
+          },
+          {
+            "tag": "li",
+            "text": "Stock comparison NVDA vs INTC"
+          },
+          {
+            "tag": "li",
+            "text": "NVDA vs AMD"
+          },
+          {
+            "tag": "li",
+            "text": "GOOG vs AMZN"
+          },
+          {
+            "tag": "li",
+            "text": "AAPL vs MSFT"
+          },
+          {
+            "tag": "li",
+            "text": "TSLA vs RIVN"
+          },
+          {
+            "tag": "li",
+            "text": "Currency converter"
+          },
+          {
+            "tag": "li",
+            "text": "Advanced charts"
+          },
+          {
+            "tag": "li",
+            "text": "Investment ideas"
+          },
+          {
+            "tag": "li",
+            "text": "Research reports"
+          },
+          {
+            "tag": "li",
+            "text": "Community"
+          },
+          {
+            "tag": "li",
+            "text": "Personal Finance My Money BETA"
+          },
+          {
+            "tag": "li",
+            "text": "Credit cards Compare Credit Cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best 0% APR cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best balance transfer cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best rewards cards"
+          },
+          {
+            "tag": "li",
+            "text": "Best travel cards"
+          },
+          {
+            "tag": "li",
+            "text": "Banking Best CD rates"
+          },
+          {
+            "tag": "li",
+            "text": "Best high-yield savings accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best money market accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best free checking accounts"
+          },
+          {
+            "tag": "li",
+            "text": "Best online banks"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage Best mortgage lenders"
+          },
+          {
+            "tag": "li",
+            "text": "Lowest mortgage rates"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage refinance"
+          },
+          {
+            "tag": "li",
+            "text": "First time homebuyer"
+          },
+          {
+            "tag": "li",
+            "text": "Mortgage payment calculator"
+          },
+          {
+            "tag": "li",
+            "text": "Home affordability calculator"
+          },
+          {
+            "tag": "li",
+            "text": "Insurance Find car insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Types of car insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Find life insurance"
+          },
+          {
+            "tag": "li",
+            "text": "Taxes How to file"
+          },
+          {
+            "tag": "li",
+            "text": "Tax brackets and rates"
+          },
+          {
+            "tag": "li",
+            "text": "Child tax credit"
+          },
+          {
+            "tag": "li",
+            "text": "Tax extension"
+          },
+          {
+            "tag": "li",
+            "text": "Tax refund status"
+          },
+          {
+            "tag": "li",
+            "text": "Student loans Federal vs. private"
+          },
+          {
+            "tag": "li",
+            "text": "How to apply"
+          },
+          {
+            "tag": "li",
+            "text": "FAFSA 2026-27"
+          },
+          {
+            "tag": "li",
+            "text": "Student loan assistance"
+          },
+          {
+            "tag": "li",
+            "text": "Personal loans Best personal loans"
+          },
+          {
+            "tag": "li",
+            "text": "Improve credit score"
+          },
+          {
+            "tag": "li",
+            "text": "How to get approved"
+          },
+          {
+            "tag": "li",
+            "text": "Videos Latest"
+          },
+          {
+            "tag": "li",
+            "text": "Editor's picks"
+          },
+          {
+            "tag": "li",
+            "text": "Trending stocks"
+          },
+          {
+            "tag": "li",
+            "text": "Investing insights"
+          },
+          {
+            "tag": "li",
+            "text": "Live shows Morning Brief"
+          },
+          {
+            "tag": "li",
+            "text": "Opening Bid"
+          },
+          {
+            "tag": "li",
+            "text": "Market Catalysts"
+          },
+          {
+            "tag": "li",
+            "text": "Market Domination"
+          },
+          {
+            "tag": "li",
+            "text": "Market Domination Overtime"
+          },
+          {
+            "tag": "li",
+            "text": "Asking for a Trend"
+          },
+          {
+            "tag": "li",
+            "text": "Video podcasts Stocks in Translation"
+          },
+          {
+            "tag": "li",
+            "text": "Trader Talk"
+          },
+          {
+            "tag": "li",
+            "text": "The Big Idea"
+          },
+          {
+            "tag": "li",
+            "text": "Financial Freestyle"
+          },
+          {
+            "tag": "li",
+            "text": "FA Corner"
+          },
+          {
+            "tag": "li",
+            "text": "ETF Report"
+          },
+          {
+            "tag": "li",
+            "text": "Options Unlocked"
+          },
+          {
+            "tag": "li",
+            "text": "Watch Now"
+          },
+          {
+            "tag": "div",
+            "text": "Upgrade to Premium"
+          },
+          {
+            "tag": "h3",
+            "text": "U.S. markets open in 8h 1m"
+          },
+          {
+            "tag": "div",
+            "text": "US Markets US Markets"
+          },
+          {
+            "tag": "div",
+            "text": "Europe Markets"
+          },
+          {
+            "tag": "div",
+            "text": "Asia Markets"
+          },
+          {
+            "tag": "div",
+            "text": "Cryptocurrencies"
+          },
+          {
+            "tag": "div",
+            "text": "Rates"
+          },
+          {
+            "tag": "div",
+            "text": "Commodities"
+          },
+          {
+            "tag": "div",
+            "text": "Currencies"
+          },
+          {
+            "tag": "span",
+            "text": "U.S. markets open in 8h 1m"
+          },
+          {
+            "tag": "div",
+            "text": "S&amp;P Futures 6,532.75 -85.00 -1.28%"
+          },
+          {
+            "tag": "div",
+            "text": "Dow Futures 46,287.00 -519.00 -1.11%"
+          },
+          {
+            "tag": "div",
+            "text": "Nasdaq Futures 23,807.00 -387.75 -1.60%"
+          },
+          {
+            "tag": "div",
+            "text": "Russell 2000 Futures 2,480.90 -45.80 -1.81%"
+          },
+          {
+            "tag": "div",
+            "text": "VIX 24.54 -0.71 -2.81%"
+          },
+          {
+            "tag": "div",
+            "text": "Gold 4,698.30 -114.80 -2.39%"
+          },
+          {
+            "tag": "div",
+            "text": "Bitcoin USD 66,426.86 -2,136.34 -3.12%"
+          },
+          {
+            "tag": "div",
+            "text": "CBOE Interest Rate 10 Year T No 4.3190 +0.0080 +0.19%"
+          },
+          {
+            "tag": "div",
+            "text": "ADVERTISEMENT"
+          },
+          {
+            "tag": "p",
+            "text": "We are experiencing some temporary issues. The market data on this page is currently delayed."
+          },
+          {
+            "tag": "div",
+            "text": "S&amp;P Futures 6,532.75 -1.28%"
+          },
+          {
+            "tag": "li",
+            "text": "Dow Futures 46,287.00 -1.11%"
+          },
+          {
+            "tag": "li",
+            "text": "Nasdaq Futures 23,807.00 -1.60%"
+          },
+          {
+            "tag": "li",
+            "text": "Russell 2000 Futures 2,480.90 -1.81%"
+          },
+          {
+            "tag": "li",
+            "text": "Crude Oil 104.96 +4.83%"
+          },
+          {
+            "tag": "li",
+            "text": "Gold 4,698.30 -2.39%"
+          },
+          {
+            "tag": "li",
+            "text": "Silver 71.86 -5.55%"
+          },
+          {
+            "tag": "li",
+            "text": "EUR/USD 1.1535 -0.51%"
+          },
+          {
+            "tag": "li",
+            "text": "10-Yr Bond 4.3190 +0.19%"
+          },
+          {
+            "tag": "li",
+            "text": "VIX 24.54 -2.81%"
+          },
+          {
+            "tag": "li",
+            "text": "GBP/USD 1.3228 -0.61%"
+          },
+          {
+            "tag": "li",
+            "text": "USD/JPY 159.3500 +0.42%"
+          },
+          {
+            "tag": "li",
+            "text": "Bitcoin USD 66,426.86 -3.12%"
+          },
+          {
+            "tag": "li",
+            "text": "XRP USD 1.31 -2.55%"
+          },
+          {
+            "tag": "li",
+            "text": "FTSE 100 10,364.79 +1.85%"
+          },
+          {
+            "tag": "li",
+            "text": "Nikkei 225 52,478.42 -2.35%"
+          },
+          {
+            "tag": "div",
+            "text": "President says US will complete war in Iran 'very shortly' The outcome from President Trump's address to the nation on the war in Iran."
+          },
+          {
+            "tag": "span",
+            "text": "LIVE"
+          },
+          {
+            "tag": "div",
+            "text": "Yahoo Finance • 2h ago"
+          },
+          {
+            "tag": "div",
+            "text": "CL=F"
+          },
+          {
+            "tag": "span",
+            "text": "+4.83%"
+          },
+          {
+            "tag": "div",
+            "text": "US stock futures slump after Trump's national address on Iran"
+          },
+          {
+            "tag": "span",
+            "text": "LIVE"
+          },
+          {
+            "tag": "div",
+            "text": "Yahoo Finance • 3h ago"
+          },
+          {
+            "tag": "div",
+            "text": "NQ=F"
+          },
+          {
+            "tag": "span",
+            "text": "-1.60%"
+          },
+          {
+            "tag": "span",
+            "text": "ES=F"
+          },
+          {
+            "tag": "span",
+            "text": "-1.28%"
+          },
+          {
+            "tag": "li",
+            "text": "Anthropic does damage control after leak, Iran threatens Big Tech LIVE Yahoo Finance • 8h ago ANTH.PVT GOOGL +3.42%"
+          },
+          {
+            "tag": "div",
+            "text": "SpaceX confidentially files for IPO Yahoo Finance • 13h ago"
+          },
+          {
+            "tag": "div",
+            "text": "SPAX.PVT"
+          },
+          {
+            "tag": "span",
+            "text": "TSLA"
+          },
+          {
+            "tag": "span",
+            "text": "+2.56%"
+          },
+          {
+            "tag": "li",
+            "text": "What does history show will happen with Nvidia next? Motley Fool • 28m ago NVDA +0.75%"
+          },
+          {
+            "tag": "li",
+            "text": "You can save at least 50¢ on gas just across the border in 11 states Investopedia • 32m ago"
+          },
+          {
+            "tag": "li",
+            "text": "S&amp;P 500's war pattern: the wipeout begins every Thursday Bloomberg • 2h ago ^GSPC +0.72%"
+          },
+          {
+            "tag": "li",
+            "text": "De-fi platform Drift suspends transactions after millions stolen in hack TechCrunch • 6h ago REKT34434-USD -2.76%"
+          },
+          {
+            "tag": "li",
+            "text": "Is the stock market open on Good Friday and Easter Monday? Yahoo Personal Finance • 4h ago ^IXIC +1.16%"
+          },
+          {
+            "tag": "li",
+            "text": "Oil surges after Trump offers no clear timeline to end war in Iran Yahoo Finance • 3h ago CL=F +4.83% BZ=F +5.77%"
+          },
+          {
+            "tag": "div",
+            "text": "View More"
+          },
+          {
+            "tag": "div",
+            "text": "Latest Private Equity Sales Slump as AI, War Bring New Stress Fractures Bloomberg • 1h ago"
+          },
+          {
+            "tag": "span",
+            "text": "-0.57%"
+          },
+          {
+            "tag": "span",
+            "text": "+0.58%"
+          },
+          {
+            "tag": "li",
+            "text": "Pop Mart Suffers $33 Billion Rout as Labubu Craze Unravels Bloomberg • 3h ago 9992.HK -2.34% DBK"
+          },
+          {
+            "tag": "li",
+            "text": "Trump says US has plenty of jet fuel for Europe, market disagrees Reuters • 5h ago"
+          },
+          {
+            "tag": "li",
+            "text": "Australian State Triggers Emergency Powers Amid Fuel Crisis Bloomberg • 5h ago"
+          },
+          {
+            "tag": "li",
+            "text": "Exclusive-Intel looks to put millions more into SambaNova startup chaired by CEO Tan Reuters • 6h ago INTC +8.84%"
+          },
+          {
+            "tag": "li",
+            "text": "Australia to offer businesses $693 million in cheap loans to ease fuel cost pressure Reuters • 6h ago"
+          },
+          {
+            "tag": "li",
+            "text": "US Treasury to meet with insurance regulators to discuss private credit markets Reuters • 6h ago"
+          },
+          {
+            "tag": "div",
+            "text": "Apple turns 50: A look at the iPhone maker's history of innovation Apple (AAPL) is celebrating its 50th anniversary on Wednesday, April 1. The tech giant has gone from designing computers to rocking the world with the iPod and iPhone and now dabbling in AI, catapulted by the leadership of founders Steve Jobs and Steve Wozniak and current CEO Tim Cook.Yahoo Finance Tech Editor Dan Howley comes on Asking for a Trend to talk about Apple's timeline of accomplishments and ability to maintain product quality."
+          },
+          {
+            "tag": "div",
+            "text": "8h ago AAPL"
+          },
+          {
+            "tag": "span",
+            "text": "+0.73%"
+          },
+          {
+            "tag": "span",
+            "text": "+2.86%"
+          },
+          {
+            "tag": "span",
+            "text": "01:17"
+          },
+          {
+            "tag": "div",
+            "text": "Elon Musk's SpaceX files for IPO, seeking massive valuation Yahoo Finance Video • 9h ago"
+          },
+          {
+            "tag": "li",
+            "text": "01:33 TSA agents are finally getting paid amid partial govt. shutdown Yahoo Finance Video • 9h ago"
+          },
+          {
+            "tag": "li",
+            "text": "02:20 Could Apple's next 50 years of success lie in AI, foldable phones? Yahoo Finance Video • 7h ago AAPL +0.73% GOOG +2.79%"
+          },
+          {
+            "tag": "li",
+            "text": "04:03 10 ETFs investors should consider in Q2 Yahoo Finance Video • 11h ago IVZ +0.12% CBOE -0.28%"
+          },
+          {
+            "tag": "div",
+            "text": "View More"
+          },
+          {
+            "tag": "h2",
+            "text": "More News"
+          },
+          {
+            "tag": "div",
+            "text": "Micron Technology, Inc. (MU) Shares Fall as Massive Expenditure Plans Overshadow Solid AI-driven Earnings Insider Monkey • 1d ago"
+          },
+          {
+            "tag": "span",
+            "text": "+8.94%"
+          },
+          {
+            "tag": "li",
+            "text": "Meta’s (META) CEO Mark Zuckerberg is Developing an AI Agent to Help Him be CEO Tesla and SpaceX Plan to Build a New Chip Factory in Texas Insider Monkey • 1d ago META +1.24% TSLA +2.56%"
+          },
+          {
+            "tag": "li",
+            "text": "Tesla (TESLA) and SpaceX Plan to Build a New Chip Factory in Texas Insider Monkey • 1d ago TSLA +2.56% SPAX.PVT"
+          },
+          {
+            "tag": "li",
+            "text": "Exclusive-TikTok seeks Brazil fintech license to offer credit Reuters • 1d ago NU +0.49%"
+          },
+          {
+            "tag": "li",
+            "text": "Is NVIDIA Corporation (NVDA) one of the Best Goldman Sachs AI Stocks: Top 12 Stocks to Buy? Insider Monkey • 1d ago NVDA +0.75%"
+          },
+          {
+            "tag": "li",
+            "text": "Analyst Report: Aegon Ltd. Morningstar Research • 5h ago AEG +1.52%"
+          },
+          {
+            "tag": "li",
+            "text": "Is Palantir Technologies Inc. (PLTR) Among the Best Goldman Sachs AI Stocks: Top 12 Stocks to Buy? Insider Monkey • 1d ago PLTR +0.14%"
+          },
+          {
+            "tag": "li",
+            "text": "Oracle (ORCL) Plans to Cut Thousands of Jobs as Data Center Expenses Climb, Bloomberg News Reports Insider Monkey • 1d ago ORCL -1.28% META +1.24%"
+          },
+          {
+            "tag": "li",
+            "text": "Oracle layoffs expected to hit thousands as AI spending soars Quartz • 1d ago ORCL -1.28%"
+          },
+          {
+            "tag": "li",
+            "text": "Oracle begins layoffs affecting thousands, CNBC reports Reuters • 1d ago ORCL -1.28%"
+          },
+          {
+            "tag": "div",
+            "text": "Copyright © 2026 Yahoo. All rights reserved."
+          },
+          {
+            "tag": "div",
+            "text": "What's trending"
+          },
+          {
+            "tag": "div",
+            "text": "Explore more"
+          },
+          {
+            "tag": "div",
+            "text": "About"
+          },
+          {
+            "tag": "div",
+            "text": "Terms and Privacy Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Privacy Dashboard"
+          },
+          {
+            "tag": "div",
+            "text": "More Info"
+          },
+          {
+            "tag": "div",
+            "text": "Trending tickers"
+          },
+          {
+            "tag": "li",
+            "text": "BTC-USD Bitcoin USD 66,426.86 -2,136.34 (-3.12%)"
+          },
+          {
+            "tag": "li",
+            "text": "XOM Exxon Mobil Corporation 160.78 -8.88 (-5.23%)"
+          },
+          {
+            "tag": "li",
+            "text": "NQ=F Nasdaq 100 Jun 26 23,807.00 -387.75 (-1.60%)"
+          },
+          {
+            "tag": "li",
+            "text": "GSAT Globalstar, Inc. 68.53 +2.11 (+3.18%)"
+          },
+          {
+            "tag": "li",
+            "text": "PSX Phillips 66 175.64 -6.54 (-3.59%)"
+          },
+          {
+            "tag": "li",
+            "text": "ADVERTISEMENT"
+          },
+          {
+            "tag": "li",
+            "text": "Portfolio Portfolio Sign in to access your portfolio Sign in"
+          },
+          {
+            "tag": "li",
+            "text": "Top gainers RGC Regencell Bioscience Holdings Limited 33.72 +8.29 (+32.60%)"
+          },
+          {
+            "tag": "li",
+            "text": "CAR Avis Budget Group, Inc. 170.07 +24.40 (+16.75%)"
+          },
+          {
+            "tag": "li",
+            "text": "KOD Kodiak Sciences Inc. 42.81 +4.69 (+12.30%)"
+          },
+          {
+            "tag": "li",
+            "text": "FSLY Fastly, Inc. 32.36 +3.30 (+11.36%)"
+          },
+          {
+            "tag": "li",
+            "text": "CSTM Constellium SE 27.32 +2.74 (+11.15%)"
+          },
+          {
+            "tag": "li",
+            "text": "Top losers RH RH 112.85 -26.97 (-19.29%)"
+          },
+          {
+            "tag": "li",
+            "text": "AXTI AXT, Inc. 47.14 -9.84 (-17.27%)"
+          },
+          {
+            "tag": "li",
+            "text": "NKE NIKE, Inc. 44.63 -8.19 (-15.51%)"
+          },
+          {
+            "tag": "li",
+            "text": "SOC Sable Offshore Corp. 14.70 -1.82 (-11.02%)"
+          },
+          {
+            "tag": "li",
+            "text": "LW Lamb Weston Holdings, Inc. 38.48 -3.78 (-8.94%)"
+          },
+          {
+            "tag": "li",
+            "text": "Most active NVDA NVIDIA Corporation 175.75 +1.30 (+0.75%)"
+          },
+          {
+            "tag": "li",
+            "text": "INTC Intel Corporation 48.03 +3.90 (+8.84%)"
+          },
+          {
+            "tag": "li",
+            "text": "NKE NIKE, Inc. 44.63 -8.19 (-15.51%)"
+          },
+          {
+            "tag": "li",
+            "text": "SNAP Snap Inc. 4.9000 +0.3000 (+6.52%)"
+          },
+          {
+            "tag": "li",
+            "text": "MU Micron Technology, Inc. 367.85 +30.18 (+8.94%)"
+          },
+          {
+            "tag": "li",
+            "text": "Top economic events Top economic events United States Initial Jobless Clm * Apr 2, 2026, 8:30 AM EDT Prior: P: 210 New: N: - Initial Jobless Clm * Apr 2, 2026, 8:30 AM EDT Prior: Prior: 210 New: New: -"
+          },
+          {
+            "tag": "li",
+            "text": "Earnings events My earnings events Earnings events"
+          },
+          {
+            "tag": "div",
+            "text": "Edit your Dock"
+          },
+          {
+            "tag": "div",
+            "text": "Terms and Privacy Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Privacy Dashboard"
+          },
+          {
+            "tag": "div",
+            "text": "Ad Terms Feedback More Info"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 460,
+          "headings": 42,
+          "images": 20
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-EBF115FC",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Finance",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3CF69BBC",
+      "path": "/portfolios/",
+      "type": "Detected Link",
+      "anchor_text": "My Portfolio",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C1C351D3",
+      "path": "/news/",
+      "type": "Detected Link",
+      "anchor_text": "News",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7DC72AA",
+      "path": "/topic/latest-news/",
+      "type": "Detected Link",
+      "anchor_text": "Latest",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4C3D49FB",
+      "path": "/topic/yahoo-finance-originals/",
+      "type": "Detected Link",
+      "anchor_text": "Originals",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8894DA01",
+      "path": "/topic/premium-news",
+      "type": "Detected Link",
+      "anchor_text": "Premium news",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9049EF57",
+      "path": "/news/sign-up-for-yahoo-finances-morning-brief-174158888.html/",
+      "type": "Detected Link",
+      "anchor_text": "Newsletters",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E64284EB",
+      "path": "/topic/stock-market-news/",
+      "type": "Detected Link",
+      "anchor_text": "Stock market",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8FBD680D",
+      "path": "/topic/crypto/",
+      "type": "Detected Link",
+      "anchor_text": "Crypto",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7891A7C2",
+      "path": "/topic/tech/",
+      "type": "Detected Link",
+      "anchor_text": "Tech",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-00EC93D1",
+      "path": "/topic/tariffs/",
+      "type": "Detected Link",
+      "anchor_text": "Tariffs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-89FC6F93",
+      "path": "/topic/hrb-2026/",
+      "type": "Detected Link",
+      "anchor_text": "Tax Insights via H&amp;R Block",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-30EE35AA",
+      "path": "/topic/economic-news/",
+      "type": "Detected Link",
+      "anchor_text": "Economies",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8A5372BC",
+      "path": "/topic/earnings/",
+      "type": "Detected Link",
+      "anchor_text": "Earnings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1A1233C9",
+      "path": "/topic/housing-market/",
+      "type": "Detected Link",
+      "anchor_text": "Housing",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

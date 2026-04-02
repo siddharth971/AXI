@@ -1,0 +1,207 @@
+{
+  "website_blueprint_id": "BLUEPRINT-7ADA5850",
+  "generated_at": "2026-04-02T05:35:13.209Z",
+  "global_configuration": {
+    "brand_name": "aiskillpro.com",
+    "domain": "aiskillpro.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.21.69.184",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 5,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/webpack-runtime-b41705ca9d36f360da35.js",
+        "type": "script",
+        "full_url": "https://aiskillpro.com/webpack-runtime-b41705ca9d36f360da35.js"
+      },
+      {
+        "path": "/framework-195f9a31e5a4e6cebf51.js",
+        "type": "script",
+        "full_url": "https://aiskillpro.com/framework-195f9a31e5a4e6cebf51.js"
+      },
+      {
+        "path": "/app-9196f9a5f5380f4962dc.js",
+        "type": "script",
+        "full_url": "https://aiskillpro.com/app-9196f9a5f5380f4962dc.js"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+      },
+      {
+        "path": "/static/bca75804e59738ae10f85e9111f0f69f/d24ee/profile-pic.jpg",
+        "type": "image",
+        "full_url": "https://aiskillpro.com/static/bca75804e59738ae10f85e9111f0f69f/d24ee/profile-pic.jpg"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "aiskillpro.com",
+        "description": "A starter blog demonstrating what Gatsby can do.\" data-gatsby-head=\"true",
+        "canonical": "https://aiskillpro.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "469ms"
+        },
+        {
+          "resource": "webpack-runtime-b41705ca9d36f360da35.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-195f9a31e5a4e6cebf51.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "app-9196f9a5f5380f4962dc.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "AI Skill Pro",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "AI Ethics: The Moral Dilemmas of Artificial Intelligence",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "AI in 2025: The Future of Artificial Intelligence",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Understanding Neural Networks - A Beginner’s Guide",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "All posts | AI Skill Pro AI Skill Pro AI Ethics: The Moral Dilemmas of Artificial Intelligence March 02, 2025 A discussion on AI bias, surveillance, job impact, and the need for AI regulations in 2025."
+          },
+          {
+            "tag": "li",
+            "text": "AI in 2025: The Future of Artificial Intelligence March 02, 2025 A deep dive into the most exciting AI advancements coming in 2025, from multimodal AI to automation and AI regulations."
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Neural Networks - A Beginner’s Guide March 02, 2025 A beginner-friendly guide to understanding how neural networks work and their role in modern AI."
+          },
+          {
+            "tag": "li",
+            "text": "How to Build an AI-Powered Chatbot from Scratch March 02, 2025 Step-by-step guide to creating an AI chatbot using OpenAI’s GPT-4, Python, and Flask."
+          },
+          {
+            "tag": "li",
+            "text": "Top 10 Free Resources to Learn Machine Learning March 02, 2025 Discover the best free courses, books, and tutorials to master machine learning in 2025."
+          },
+          {
+            "tag": "p",
+            "text": "© 2025"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 9,
+          "headings": 6,
+          "images": 2
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-FF875D25",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "AI Skill Pro",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7AD1F4E9",
+      "path": "/ai_ethics/ai_ethics/",
+      "type": "Detected Link",
+      "anchor_text": "AI Ethics: The Moral Dilemmas of Artificial Intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D25C30A7",
+      "path": "/ai_predictions/ai_predictions/",
+      "type": "Detected Link",
+      "anchor_text": "AI in 2025: The Future of Artificial Intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4AE27279",
+      "path": "/neural_networks_beginner/neural_networks_beginner/",
+      "type": "Detected Link",
+      "anchor_text": "Understanding Neural Networks - A Beginner’s Guide",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6F4C787C",
+      "path": "/build_ai_powered_chat_bot/build_ai_powered_chat_bot/",
+      "type": "Detected Link",
+      "anchor_text": "How to Build an AI-Powered Chatbot from Scratch",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3B95E006",
+      "path": "/free_ml_resources/free_ml_resources/",
+      "type": "Detected Link",
+      "anchor_text": "Top 10 Free Resources to Learn Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,1053 @@
+{
+  "website_blueprint_id": "BLUEPRINT-90BF8534",
+  "generated_at": "2026-04-02T05:38:16.136Z",
+  "global_configuration": {
+    "brand_name": "Machine Learning Mastery",
+    "domain": "machinelearningmastery.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.26.1.148",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=43200, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 52,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-JZP3DWZZ8W"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      },
+      {
+        "path": "/wp-content/plugins/urvanov-syntax-highlighter/js/min/urvanov_syntax_highlighter.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/urvanov-syntax-highlighter/js/min/urvanov_syntax_highlighter.min.js?ver=2.9.0"
+      },
+      {
+        "path": "/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=10.1.1"
+      },
+      {
+        "path": "/wp-content/uploads/966/590/assets/668/advanced.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/590/assets/668/advanced.js?ver=4e4c7549b1472da4abe5"
+      },
+      {
+        "path": "/wp-content/uploads/966/902/88/649/701/563.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/902/88/649/701/563.js?ver=3.0.10"
+      },
+      {
+        "path": "/wp-includes/js/utils.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-includes/js/utils.min.js?ver=6.9.4"
+      },
+      {
+        "path": "/wp-content/themes/canvas-new/includes/js/third-party.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/themes/canvas-new/includes/js/third-party.min.js?ver=6.9.4"
+      },
+      {
+        "path": "/wp-content/themes/canvas-new/includes/js/modernizr.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/themes/canvas-new/includes/js/modernizr.min.js?ver=2.6.2"
+      },
+      {
+        "path": "/wp-content/themes/canvas-new/includes/js/general.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/themes/canvas-new/includes/js/general.min.js?ver=6.9.4"
+      },
+      {
+        "path": "/leadboxes/current/embed.js",
+        "type": "script",
+        "full_url": "https://embed.lpcontent.net/leadboxes/current/embed.js"
+      },
+      {
+        "path": "/wp-content/plugins/simple-social-buttons/assets/js/frontend-blocks.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/simple-social-buttons/assets/js/frontend-blocks.js?ver=6.2.1"
+      },
+      {
+        "path": "/npm/mathjax@4/tex-chtml.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js?ver=6.9.4"
+      },
+      {
+        "path": "/wp-content/plugins/simple-social-buttons/assets/js/front.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/simple-social-buttons/assets/js/front.js?ver=6.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js"
+      },
+      {
+        "path": "/wp-content/plugins/page-links-to/dist/new-tab.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7"
+      },
+      {
+        "path": "/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js?ver=6.2.3"
+      },
+      {
+        "path": "/wp-content/uploads/966/902/assets/668/92.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/902/assets/668/92.js?ver=6.9.4"
+      },
+      {
+        "path": "/wp-content/uploads/966/902/assets/js/28.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/902/assets/js/28.js?ver=3.0.10"
+      },
+      {
+        "path": "/wp-content/uploads/966/902/assets/668/510.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/902/assets/668/510.js?ver=3.0.10"
+      },
+      {
+        "path": "/wp-content/uploads/966/202/assets/668/14.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/202/assets/668/14.js?ver=3.0.11"
+      },
+      {
+        "path": "/wp-content/uploads/966/202/assets/668/965.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/966/202/assets/668/965.js?ver=3.0.11"
+      },
+      {
+        "path": "/wp-includes/js/hoverIntent.min.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2"
+      },
+      {
+        "path": "/wp-content/plugins/megamenu/js/maxmegamenu.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.8.1"
+      },
+      {
+        "path": "/wp-content/plugins/megamenu-pro/assets/public.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.4"
+      },
+      {
+        "path": "/wp-content/plugins/splide-carousel/build/carousel/view.js",
+        "type": "script",
+        "full_url": "https://machinelearningmastery.com/wp-content/plugins/splide-carousel/build/carousel/view.js?ver=cded92bca445d1928823"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/mlm-logo.svg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/10/mlm-logo.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/gear-group.svg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/gear-group.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/icon-quick-start.svg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/icon-quick-start.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/icon-tutorial.svg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/icon-tutorial.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/icon-ebook.svg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/icon-ebook.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/d1b3718a005fb6d2a4e908c28e932242-150x150.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/d1b3718a005fb6d2a4e908c28e932242-150x150.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/Robert-Hoyt-Headshot-150x150.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/12/Robert-Hoyt-Headshot-150x150.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/cf915d94ebbdba85ba1782df3398339b-150x150.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/cf915d94ebbdba85ba1782df3398339b-150x150.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/bac8342e6cb1d45ed45b120e1519a821-150x150.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/bac8342e6cb1d45ed45b120e1519a821-150x150.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/Python8Books-400.jpg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2023/06/Python8Books-400.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/MMLA-220.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2022/11/MMLA-220.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/08/SuperBundles29Books-400-1-226x300-1.jpg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/08/SuperBundles29Books-400-1-226x300-1.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2023/07/MPWC-400.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2023/07/MPWC-400.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/MLMP-220.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2022/11/MLMP-220.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/400f527682cebfcf4655516b5be0f79f.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/400f527682cebfcf4655516b5be0f79f.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/877772cd9fa0d51cda75b9641ef196fb.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/877772cd9fa0d51cda75b9641ef196fb.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/9367e9a257c4a167446d2752dca223fb.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/9367e9a257c4a167446d2752dca223fb.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/07/289c2fd8fd919fe0f4120d6a2b948cda.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2024/07/289c2fd8fd919fe0f4120d6a2b948cda.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/mlm-7-ml-trends-2026-1-1024x571.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/mlm-7-ml-trends-2026-1-1024x571.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/mlm-ipc-building-a-human-in-the-loop-gate-autonomous-agents-1024x683.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/mlm-ipc-building-a-human-in-the-loop-gate-autonomous-agents-1024x683.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/neda-astani-KWTkd7mHqKE-unsplash-1024x767.jpg",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/neda-astani-KWTkd7mHqKE-unsplash-1024x767.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/mlm-bala-feature-engg-python-itertools-1024x683.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/mlm-bala-feature-engg-python-itertools-1024x683.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/mlm-llamaagents-builder-from-prompt-to-deployed-ai-agent-in-minutes-1024x571.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/mlm-llamaagents-builder-from-prompt-to-deployed-ai-agent-in-minutes-1024x571.png"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/mlm-bala-vector-db-3-levels-1024x683.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2026/03/mlm-bala-vector-db-3-levels-1024x683.png"
+      },
+      {
+        "path": "/wp-content/uploads/2014/11/machine_learning_mastery_logo.png",
+        "type": "image",
+        "full_url": "https://machinelearningmastery.com/wp-content/uploads/2014/11/machine_learning_mastery_logo.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Machine Learning Mastery",
+        "description": "Making developers awesome at machine learning.",
+        "canonical": "https://machinelearningmastery.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "252ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-migrate.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "We help developers like you skip years ahead. Discover how to get better results, faster.",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Home",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Quick Start Guides",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Latest Tutorials",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Blog"
+          },
+          {
+            "tag": "li",
+            "text": "Topics Attention"
+          },
+          {
+            "tag": "li",
+            "text": "Building Transformer Models"
+          },
+          {
+            "tag": "li",
+            "text": "Better Deep Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Calculus"
+          },
+          {
+            "tag": "li",
+            "text": "ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Code Algorithms Implementing machine learning algorithms from scratch."
+          },
+          {
+            "tag": "li",
+            "text": "Computer Vision"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning (keras) Deep Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Ensemble Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Foundations of Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "GANs"
+          },
+          {
+            "tag": "li",
+            "text": "Hugging Face Transformers"
+          },
+          {
+            "tag": "li",
+            "text": "Neural Net Time Series Deep Learning for Time Series Forecasting"
+          },
+          {
+            "tag": "li",
+            "text": "NLP (Text)"
+          },
+          {
+            "tag": "li",
+            "text": "Imbalanced Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Intro to Time Series"
+          },
+          {
+            "tag": "li",
+            "text": "Intro to Algorithms"
+          },
+          {
+            "tag": "li",
+            "text": "Linear Algebra"
+          },
+          {
+            "tag": "li",
+            "text": "LSTMs Long Short-Term Memory Networks"
+          },
+          {
+            "tag": "li",
+            "text": "OpenCV"
+          },
+          {
+            "tag": "li",
+            "text": "Optimization"
+          },
+          {
+            "tag": "li",
+            "text": "Probability"
+          },
+          {
+            "tag": "li",
+            "text": "Python (scikit-learn)"
+          },
+          {
+            "tag": "li",
+            "text": "Python for Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "R (caret)"
+          },
+          {
+            "tag": "li",
+            "text": "Stable Diffusion"
+          },
+          {
+            "tag": "li",
+            "text": "Statistics"
+          },
+          {
+            "tag": "li",
+            "text": "Training Transformer Models"
+          },
+          {
+            "tag": "li",
+            "text": "Weka (no code)"
+          },
+          {
+            "tag": "li",
+            "text": "XGBoost"
+          },
+          {
+            "tag": "li",
+            "text": "eBooks"
+          },
+          {
+            "tag": "li",
+            "text": "About"
+          },
+          {
+            "tag": "li",
+            "text": "Contact"
+          },
+          {
+            "tag": "div",
+            "text": "Making Developers Awesome at Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Get Started"
+          },
+          {
+            "tag": "li",
+            "text": "Blog"
+          },
+          {
+            "tag": "li",
+            "text": "Topics Attention"
+          },
+          {
+            "tag": "li",
+            "text": "Building Transformer Models"
+          },
+          {
+            "tag": "li",
+            "text": "Better Deep Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Calculus"
+          },
+          {
+            "tag": "li",
+            "text": "ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Code Algorithms Implementing machine learning algorithms from scratch."
+          },
+          {
+            "tag": "li",
+            "text": "Computer Vision"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning (keras) Deep Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Ensemble Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Foundations of Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "GANs"
+          },
+          {
+            "tag": "li",
+            "text": "Hugging Face Transformers"
+          },
+          {
+            "tag": "li",
+            "text": "Neural Net Time Series Deep Learning for Time Series Forecasting"
+          },
+          {
+            "tag": "li",
+            "text": "NLP (Text)"
+          },
+          {
+            "tag": "li",
+            "text": "Imbalanced Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Intro to Time Series"
+          },
+          {
+            "tag": "li",
+            "text": "Intro to Algorithms"
+          },
+          {
+            "tag": "li",
+            "text": "Linear Algebra"
+          },
+          {
+            "tag": "li",
+            "text": "LSTMs Long Short-Term Memory Networks"
+          },
+          {
+            "tag": "li",
+            "text": "OpenCV"
+          },
+          {
+            "tag": "li",
+            "text": "Optimization"
+          },
+          {
+            "tag": "li",
+            "text": "Probability"
+          },
+          {
+            "tag": "li",
+            "text": "Python (scikit-learn)"
+          },
+          {
+            "tag": "li",
+            "text": "Python for Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "R (caret)"
+          },
+          {
+            "tag": "li",
+            "text": "Stable Diffusion"
+          },
+          {
+            "tag": "li",
+            "text": "Statistics"
+          },
+          {
+            "tag": "li",
+            "text": "Training Transformer Models"
+          },
+          {
+            "tag": "li",
+            "text": "Weka (no code)"
+          },
+          {
+            "tag": "li",
+            "text": "XGBoost"
+          },
+          {
+            "tag": "li",
+            "text": "eBooks"
+          },
+          {
+            "tag": "li",
+            "text": "About"
+          },
+          {
+            "tag": "li",
+            "text": "Contact"
+          },
+          {
+            "tag": "div",
+            "text": "Home"
+          },
+          {
+            "tag": "div",
+            "text": "We help developers like you skip years ahead. Discover how to get better results, faster. I’m Jason Brownlee, Ph.D. and I help developers like you skip years ahead. Get my Free eBook and accelerate your next project (and access to my exclusive email course)! Send Me the Free eBook!"
+          },
+          {
+            "tag": "h2",
+            "text": "Quick Start Guides"
+          },
+          {
+            "tag": "p",
+            "text": "Discover the shortest path to a result."
+          },
+          {
+            "tag": "div",
+            "text": "Top Guides How to get started Understanding algorithms Time series forecasting View All"
+          },
+          {
+            "tag": "h2",
+            "text": "Latest Tutorials"
+          },
+          {
+            "tag": "p",
+            "text": "Save weeks of searching and debugging."
+          },
+          {
+            "tag": "div",
+            "text": "Top Tutorials How to install everything Your first complete project Your first neural network View All"
+          },
+          {
+            "tag": "h2",
+            "text": "eBook Catalog"
+          },
+          {
+            "tag": "p",
+            "text": "Get years of experience in a PDF."
+          },
+          {
+            "tag": "div",
+            "text": "Top Sellers Master Machine Learning Algos Machine Learning With Python Deep Learning With Python View All"
+          },
+          {
+            "tag": "div",
+            "text": "What Our Users Have to Say “Your site has boosted my growth as an aspiring Data Scientist. The tutorials are clear, engaging, and have made complex topics much more approachable. It&#8217;s a great resource for anyone looking to build a strong foundation in data science.”"
+          },
+          {
+            "tag": "div",
+            "text": "David Dalisay"
+          },
+          {
+            "tag": "div",
+            "text": "Data Scientist"
+          },
+          {
+            "tag": "li",
+            "text": "“Machine Learning Mastery books have been my go-to resource for years. They make complex machine learning topics approachable, with clear explanations and practical examples. As a clinician teaching data science, I’ve relied on these affordable, easy-to-read guides to build my skills and help others do the same. Highly recommended!” Robert Hoyt, MD Physician Data Scientist"
+          },
+          {
+            "tag": "li",
+            "text": "“This site has transformed the way I approach machine learning projects. The tutorials are clear and easy to follow. It’s a must-have for anyone serious about mastering machine learning.” Vidhi Chugh AI Researcher"
+          },
+          {
+            "tag": "li",
+            "text": "&#8220; Machine Learning Mastery became a &#8220;one stop shop&#8221; that allowed me to successfully build models without spending years learning mathematics and theory. &#8220; James Carmichael, PhD ML Engineer"
+          },
+          {
+            "tag": "div",
+            "text": "Most Popular eBooks Get the Free eBook!"
+          },
+          {
+            "tag": "p",
+            "text": "View All"
+          },
+          {
+            "tag": "div",
+            "text": "Meet Our Experts Bringing together industry insights and expertise, our team delivers content that empowers your learning journey. Trust in our experts to guide you through the ever-evolving world of machine learning."
+          },
+          {
+            "tag": "h4",
+            "text": "Jason Brownlee, Ph.D."
+          },
+          {
+            "tag": "p",
+            "text": "Founder"
+          },
+          {
+            "tag": "p",
+            "text": "Jason is the founder of Machine Learning Mastery and a seasoned machine learning practitioner. With a PhD in artificial intelligence, he has authored numerous books on machine learning and deep learning, making complex topics accessible to developers worldwide."
+          },
+          {
+            "tag": "h4",
+            "text": "Adrian Tam, Ph.D."
+          },
+          {
+            "tag": "p",
+            "text": "Editor in Chief"
+          },
+          {
+            "tag": "p",
+            "text": "Adrian is a data scientist and software engineer with expertise in mathematical models and machine learning. He has developed commercial models for time series prediction, risk analysis, NLP, recommender systems, and computer vision."
+          },
+          {
+            "tag": "h4",
+            "text": "Estephania Cristina, Ph.D."
+          },
+          {
+            "tag": "p",
+            "text": "Editor"
+          },
+          {
+            "tag": "p",
+            "text": "Cristina is an expert in computer vision and image processing, with a focus on human-computer interaction and 3D reconstruction. Her research includes innovative algorithms for eye-gaze tracking, contributing to leading conferences and journals."
+          },
+          {
+            "tag": "h4",
+            "text": "Kanwal Mehreen"
+          },
+          {
+            "tag": "p",
+            "text": "Technical Editor &amp; Content Specialist"
+          },
+          {
+            "tag": "p",
+            "text": "Kanwal is a machine learning engineer and technical writer with a passion for AI in medicine. A Google Generation Scholar and FEMCodes founder, she co-authored “Maximizing Productivity with ChatGPT” and champions diversity in STEM."
+          },
+          {
+            "tag": "div",
+            "text": "Latest Tutorials"
+          },
+          {
+            "tag": "div",
+            "text": "7 Machine Learning Trends to Watch in 2026 Shittu Olumide"
+          },
+          {
+            "tag": "div",
+            "text": "In this article, you will learn how machine learning is evolving in 2026 from prediction-focused&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Building a &#8216;Human-in-the-Loop&#8217; Approval Gate for Autonomous Agents Iván Palomares Carrascosa"
+          },
+          {
+            "tag": "div",
+            "text": "In this article, you will learn how to implement state-managed interruptions in LangGraph so an&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "From Prompt to Prediction: Understanding Prefill, Decode, and the KV Cache in LLMs Yoyo Chan"
+          },
+          {
+            "tag": "div",
+            "text": "In the previous article, we saw how a language model converts logits into probabilities and&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "7 Essential Python Itertools for Feature Engineering Bala Priya C"
+          },
+          {
+            "tag": "div",
+            "text": "In this article, you will learn how to use Python&rsquo;s itertools module to simplify common&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "LlamaAgents Builder: From Prompt to Deployed AI Agent in Minutes Iván Palomares Carrascosa"
+          },
+          {
+            "tag": "div",
+            "text": "In this article, you will learn how to build, deploy, and test a no-code document-processing&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Vector Databases Explained in 3 Levels of Difficulty Bala Priya C"
+          },
+          {
+            "tag": "div",
+            "text": "In this article, you will learn how vector databases work, from the basic idea of&#8230;"
+          },
+          {
+            "tag": "p",
+            "text": "View All"
+          },
+          {
+            "tag": "li",
+            "text": "Facebook"
+          },
+          {
+            "tag": "li",
+            "text": "Twitter"
+          },
+          {
+            "tag": "li",
+            "text": "RSS Feed"
+          },
+          {
+            "tag": "li",
+            "text": "Mail"
+          },
+          {
+            "tag": "li",
+            "text": "Privacy"
+          },
+          {
+            "tag": "li",
+            "text": "Disclaimer"
+          },
+          {
+            "tag": "li",
+            "text": "Terms"
+          },
+          {
+            "tag": "li",
+            "text": "Contact"
+          },
+          {
+            "tag": "li",
+            "text": "Sitemap"
+          },
+          {
+            "tag": "li",
+            "text": "ADVERTISE WITH US"
+          },
+          {
+            "tag": "p",
+            "text": "© 2026 Guiding Tech Media All Rights Reserved"
+          },
+          {
+            "tag": "div",
+            "text": "LinkedIn Facebook Twitter RSS Feed Mail"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 34,
+          "headings": 23,
+          "images": 27
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-E4E26714",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D01069C8",
+      "path": "/start-here/",
+      "type": "Detected Link",
+      "anchor_text": "Get Started",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E6AAC3E",
+      "path": "/blog/",
+      "type": "Detected Link",
+      "anchor_text": "Blog",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-826EB44B",
+      "path": "/category/attention/",
+      "type": "Detected Link",
+      "anchor_text": "Attention",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0EC4E933",
+      "path": "/category/building-transformer-models/",
+      "type": "Detected Link",
+      "anchor_text": "Building Transformer Models",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B01E7608",
+      "path": "/category/better-deep-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Better Deep Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE371A93",
+      "path": "/category/calculus/",
+      "type": "Detected Link",
+      "anchor_text": "Calculus",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-27929BC3",
+      "path": "/category/chatgpt/",
+      "type": "Detected Link",
+      "anchor_text": "ChatGPT",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-27C8EA0A",
+      "path": "/category/algorithms-from-scratch/",
+      "type": "Detected Link",
+      "anchor_text": "Code AlgorithmsImplementing machine learning algorithms from scratch.",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-529ED086",
+      "path": "/category/deep-learning-for-computer-vision/",
+      "type": "Detected Link",
+      "anchor_text": "Computer Vision",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C53ED695",
+      "path": "/category/data-preparation/",
+      "type": "Detected Link",
+      "anchor_text": "Data Preparation",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A7DB1D52",
+      "path": "/category/deep-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Deep Learning (keras)Deep Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-ACEEACC7",
+      "path": "/category/deep-learning-with-pytorch/",
+      "type": "Detected Link",
+      "anchor_text": "Deep Learning with PyTorch",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-363C3D89",
+      "path": "/category/ensemble-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Ensemble Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C6E5890A",
+      "path": "/category/foundations-of-data-science/",
+      "type": "Detected Link",
+      "anchor_text": "Foundations of Data Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,1628 @@
+{
+  "website_blueprint_id": "BLUEPRINT-A03A89B4",
+  "generated_at": "2026-04-02T05:35:13.301Z",
+  "global_configuration": {
+    "brand_name": "www.analyticsvidhya.com",
+    "domain": "www.analyticsvidhya.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.26.12.109",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 31,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-4bf1b70610771b6d.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/webpack-4bf1b70610771b6d.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-b9fd9bcc3ecde907.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/framework-b9fd9bcc3ecde907.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-08bd4f6c3b3b3500.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/main-08bd4f6c3b3b3500.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-2de4209c2c599b01.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/pages/_app-2de4209c2c599b01.js"
+      },
+      {
+        "path": "/_next/static/chunks/98309536-d5583eac3828dd0e.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/98309536-d5583eac3828dd0e.js"
+      },
+      {
+        "path": "/_next/static/chunks/6352-66e1c71b7f1ebec4.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/6352-66e1c71b7f1ebec4.js"
+      },
+      {
+        "path": "/_next/static/chunks/3429-90cf42257dd1cfb0.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/3429-90cf42257dd1cfb0.js"
+      },
+      {
+        "path": "/_next/static/chunks/5597-44a2bf2031f4bac6.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/5597-44a2bf2031f4bac6.js"
+      },
+      {
+        "path": "/_next/static/chunks/5359-c7adf4681e9780f6.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/5359-c7adf4681e9780f6.js"
+      },
+      {
+        "path": "/_next/static/chunks/2575-ef020785737dc776.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/2575-ef020785737dc776.js"
+      },
+      {
+        "path": "/_next/static/chunks/9917-a1d671b4c963fee5.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/9917-a1d671b4c963fee5.js"
+      },
+      {
+        "path": "/_next/static/chunks/7956-15a070d2799d8dad.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/7956-15a070d2799d8dad.js"
+      },
+      {
+        "path": "/_next/static/chunks/3336-b10c4e82bd480664.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/3336-b10c4e82bd480664.js"
+      },
+      {
+        "path": "/_next/static/chunks/6901-497c8dad60bbd46e.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/6901-497c8dad60bbd46e.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/index-2dcb3d456b6432b7.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/chunks/pages/index-2dcb3d456b6432b7.js"
+      },
+      {
+        "path": "/_next/static/9o-2MRVvDJUfPoRRlMp39/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/9o-2MRVvDJUfPoRRlMp39/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/9o-2MRVvDJUfPoRRlMp39/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/9o-2MRVvDJUfPoRRlMp39/_ssgManifest.js"
+      },
+      {
+        "path": "/ajax/libs/jquery/3.7.1/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      },
+      {
+        "path": "/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",
+        "type": "script",
+        "full_url": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      },
+      {
+        "path": "/_next/static/css/57a003ed2027108c.css",
+        "type": "stylesheet",
+        "full_url": "https://www.analyticsvidhya.com/_next/static/css/57a003ed2027108c.css"
+      },
+      {
+        "path": "/homepage/circle_diagram2.png",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/circle_diagram2.png?format=webp&amp;width=872"
+      },
+      {
+        "path": "/homepage/DHS2025_Mobile.jpeg",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/DHS2025_Mobile.jpeg"
+      },
+      {
+        "path": "/homepage/agentic_ai1.webp",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/agentic_ai1.webp?format=webp"
+      },
+      {
+        "path": "/GenAI-pinnacle-Plus.webp",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/GenAI-pinnacle-Plus.webp"
+      },
+      {
+        "path": "/homepage/agenticAI.webp",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/agenticAI.webp?format=webp&amp;width=616"
+      },
+      {
+        "path": "/homepage/gen_ai2.jpg",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/gen_ai2.jpg?format=webp&amp;width=616"
+      },
+      {
+        "path": "/homepage/blackbelt2.jpg",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/homepage/blackbelt2.jpg?format=webp&amp;width=616"
+      },
+      {
+        "path": "/blog/hero-img.png",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/blog/hero-img.png"
+      },
+      {
+        "path": "/blog/Arun-bhaskarjit.png",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/blog/Arun-bhaskarjit.png"
+      },
+      {
+        "path": "/AV_logo.png",
+        "type": "image",
+        "full_url": "https://imgcdn.analyticsvidhya.com/AV_logo.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "www.analyticsvidhya.com",
+        "description": "Analytics Vidhya is the leading community of Analytics, Data Science and AI professionals. We are building the next generation of AI professionals. Get the latest data science, machine learning, and AI courses, news, blogs, tutorials, and resources.\" data-next-head=\"",
+        "canonical": "https://www.analyticsvidhya.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "646ms"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webpack-4bf1b70610771b6d.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "framework-b9fd9bcc3ecde907.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Building Next-Generation",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "AI Professionals",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "100M+",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "4M+",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Upskill Level up your career with our comprehensive industry leading programs"
+          },
+          {
+            "tag": "li",
+            "text": "Engage Elevate your AI skills by learning, competing &amp; networking with our thriving community"
+          },
+          {
+            "tag": "li",
+            "text": "Contribute Make an impact on our community by sharing your knowledge &amp; perspective"
+          },
+          {
+            "tag": "div",
+            "text": "Experience the Analytics Vidhya difference Reap the benefits of our deep domain expertise &amp; extensive industry connections for exponential growth in your career"
+          },
+          {
+            "tag": "div",
+            "text": "DISCOVER Explore the fascinating world of AI with our unlimited Knowledge Library UPSKILL Level up your career with our comprehensive industry leading programs ENGAGE Elevate your Al skills by learning, competing &amp; networking with our thriving community CONTRIBUTE Make an impact on our community by sharing your knowledge &amp; perspective"
+          },
+          {
+            "tag": "div",
+            "text": "DISCOVER Explore the fascinating world of AI with our unlimited Knowledge Library"
+          },
+          {
+            "tag": "h4",
+            "text": "In-depth Blogs"
+          },
+          {
+            "tag": "p",
+            "text": "Breaking complex topics into simple, easy to follow articles"
+          },
+          {
+            "tag": "div",
+            "text": "Blogs"
+          },
+          {
+            "tag": "h4",
+            "text": "Expert Sessions"
+          },
+          {
+            "tag": "p",
+            "text": "Learn from the wisdom of industry experts through live enriching sessions"
+          },
+          {
+            "tag": "div",
+            "text": "Expert Sessions"
+          },
+          {
+            "tag": "h4",
+            "text": "Learning Paths"
+          },
+          {
+            "tag": "p",
+            "text": "Take the confusion out of your learning by following our expert’s curated learning paths"
+          },
+          {
+            "tag": "div",
+            "text": "Learning Paths"
+          },
+          {
+            "tag": "h4",
+            "text": "Comprehensive Guides"
+          },
+          {
+            "tag": "p",
+            "text": "Learn the fundamental topics of AI and Data Science with our Comprehensive Guides"
+          },
+          {
+            "tag": "div",
+            "text": "Guides"
+          },
+          {
+            "tag": "div",
+            "text": "UPSKILL Level up your career with our comprehensive industry leading programs"
+          },
+          {
+            "tag": "h4",
+            "text": "Free Courses"
+          },
+          {
+            "tag": "p",
+            "text": "Start your AI journey for free by enrolling in our Comprehensive Course"
+          },
+          {
+            "tag": "div",
+            "text": "Courses"
+          },
+          {
+            "tag": "h4",
+            "text": "Agentic AI Pioneer Program"
+          },
+          {
+            "tag": "p",
+            "text": "Enhance your AI skills by building your own AI Agents in the mentor-driven Agentic AI Pioneer Program"
+          },
+          {
+            "tag": "div",
+            "text": "Explore AI Agents"
+          },
+          {
+            "tag": "h4",
+            "text": "AI &amp; ML BlackBelt Plus program"
+          },
+          {
+            "tag": "p",
+            "text": "Take your AI game to the next level with our mentor driven comprehensive BlackBelt Plus program"
+          },
+          {
+            "tag": "div",
+            "text": "BlackBelt Plus"
+          },
+          {
+            "tag": "h4",
+            "text": "GenAI Pinnacle Plus Program"
+          },
+          {
+            "tag": "p",
+            "text": "Master the future of AI by building your own AI Agents, a mentor-driven journey into Generative AI and Agentic AI."
+          },
+          {
+            "tag": "div",
+            "text": "GenAI Pinnacle Plus Program"
+          },
+          {
+            "tag": "div",
+            "text": "ENGAGE Elevate your Al skills by learning, competing &amp; networking with our thriving Community"
+          },
+          {
+            "tag": "h4",
+            "text": "Challenging Hackathons"
+          },
+          {
+            "tag": "p",
+            "text": "Compete, foster collaboration with fellow innovators, and constantly evolve your skills to secure impressive wins"
+          },
+          {
+            "tag": "div",
+            "text": "Hackathons"
+          },
+          {
+            "tag": "h4",
+            "text": "Exciting Events"
+          },
+          {
+            "tag": "p",
+            "text": "Be a part of the most exciting AI events in the industry for an unforgettable experience"
+          },
+          {
+            "tag": "div",
+            "text": "Events"
+          },
+          {
+            "tag": "h4",
+            "text": "Leadership Podcasts"
+          },
+          {
+            "tag": "p",
+            "text": "Listen to AI leaders and learn from their perspective"
+          },
+          {
+            "tag": "div",
+            "text": "Podcasts"
+          },
+          {
+            "tag": "div",
+            "text": "CONTRIBUTE Make an impact on our community by sharing your knowledge &amp; perspective"
+          },
+          {
+            "tag": "h4",
+            "text": "Become an Author"
+          },
+          {
+            "tag": "p",
+            "text": "Inspire learners by publishing your original ideas, tutorials, and experiences"
+          },
+          {
+            "tag": "div",
+            "text": "Become an Author"
+          },
+          {
+            "tag": "h4",
+            "text": "Become a Speaker"
+          },
+          {
+            "tag": "p",
+            "text": "Showcase your expertise to our thriving community"
+          },
+          {
+            "tag": "div",
+            "text": "Become a Speaker"
+          },
+          {
+            "tag": "h4",
+            "text": "Become a Mentor"
+          },
+          {
+            "tag": "p",
+            "text": "Make in difference in a life of learners by sharing your knowledge &amp; perspective"
+          },
+          {
+            "tag": "div",
+            "text": "Become a Mentor"
+          },
+          {
+            "tag": "h4",
+            "text": "Become an Instructor"
+          },
+          {
+            "tag": "p",
+            "text": "Share your knowledge and expertise through our programs &amp; clients deliveries"
+          },
+          {
+            "tag": "div",
+            "text": "Become an Instructor"
+          },
+          {
+            "tag": "div",
+            "text": "Personalised Industry leading programs for you Embark on a learning journey with our comprehensive industry leading personalised programs"
+          },
+          {
+            "tag": "div",
+            "text": "150 Hours 16 Courses"
+          },
+          {
+            "tag": "h2",
+            "text": "Agentic AI Pioneer Program"
+          },
+          {
+            "tag": "h3",
+            "text": "₹59,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "300 Hours 41 Courses"
+          },
+          {
+            "tag": "h2",
+            "text": "GenAI Pinnacle Plus Program"
+          },
+          {
+            "tag": "h3",
+            "text": "₹59,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "150 Hours 15 Courses"
+          },
+          {
+            "tag": "h2",
+            "text": "Agentic AI Pioneer Program"
+          },
+          {
+            "tag": "h3",
+            "text": "₹59,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "200 Hours 24 Courses 5"
+          },
+          {
+            "tag": "h2",
+            "text": "GenAI Pinnacle Program"
+          },
+          {
+            "tag": "h3",
+            "text": "₹59,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "500 Hours 27 Courses 4.8"
+          },
+          {
+            "tag": "h2",
+            "text": "Certified AI &amp; ML BlackBelt Plus Program"
+          },
+          {
+            "tag": "h3",
+            "text": "₹69,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Newly Launched"
+          },
+          {
+            "tag": "div",
+            "text": "12 Live Sessions 10 Guided Projects 4.8"
+          },
+          {
+            "tag": "h2",
+            "text": "Building &amp; Evaluating Agentic AI Systems"
+          },
+          {
+            "tag": "h3",
+            "text": "₹69,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Newly Launched"
+          },
+          {
+            "tag": "div",
+            "text": "12 Live Sessions 9 Guided Projects 4.8"
+          },
+          {
+            "tag": "h2",
+            "text": "Mastering RAG - From Foundations to Advanced Systems"
+          },
+          {
+            "tag": "h3",
+            "text": "₹69,999"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Hear from Our Community"
+          },
+          {
+            "tag": "div",
+            "text": "Impressive Talent Discovery with Analytics Vidhya&#x27;s Hackathons I&#x27;ve had the pleasure of witnessing the exceptional talent nurtured by Analytics Vidhya&#x27;s hackathons."
+          },
+          {
+            "tag": "div",
+            "text": "Sylvia Plath Senior HR Executive"
+          },
+          {
+            "tag": "div",
+            "text": "BlackBelt Plus Program: Paving the Path to Success at American Express&quot; Thanks to the BlackBelt Plus program, I landed my dream job at American Express. The comprehensive training and mentorship were invaluable. I&#x27;m grateful for this life-changing opportunity"
+          },
+          {
+            "tag": "div",
+            "text": "Sylvia Plath Senior HR Executive"
+          },
+          {
+            "tag": "div",
+            "text": "Community Feedback - #1 Platform for AI Learning Hear directly from learners how our products and courses helped them scale their careers and master AI!"
+          },
+          {
+            "tag": "div",
+            "text": "Flagship Programs GenAI Pinnacle Program GenAI Pinnacle Plus Program AI/ML BlackBelt Program Agentic AI Pioneer Program"
+          },
+          {
+            "tag": "div",
+            "text": "Free Courses Generative AI DeepSeek OpenAI Agent SDK LLM Applications using Prompt Engineering DeepSeek from Scratch Stability.AI SSM &amp; MAMBA RAG Systems using LlamaIndex Building LLMs for Code Python Microsoft Excel Machine Learning Deep Learning Mastering Multimodal RAG Introduction to Transformer Model Bagging &amp; Boosting Loan Prediction Time Series Forecasting Tableau Business Analytics Vibe Coding in Windsurf Model Deployment using FastAPI Building Data Analyst AI Agent Getting started with OpenAI o3-mini Introduction to Transformers and Attention Mechanisms"
+          },
+          {
+            "tag": "div",
+            "text": "Popular Categories AI Agents Generative AI Prompt Engineering Generative AI Application News Technical Guides AI Tools Interview Preparation Research Papers Success Stories Quiz Use Cases Listicles"
+          },
+          {
+            "tag": "div",
+            "text": "Generative AI Tools and Techniques GANs VAEs Transformers StyleGAN Pix2Pix Autoencoders GPT BERT Word2Vec LSTM Attention Mechanisms Diffusion Models LLMs SLMs Encoder Decoder Models Prompt Engineering LangChain LlamaIndex RAG Fine-tuning LangChain AI Agent Multimodal Models RNNs DCGAN ProGAN Text-to-Image Models DDPM Document Question Answering Imagen T5 (Text-to-Text Transfer Transformer) Seq2seq Models WaveNet Attention Is All You Need (Transformer Architecture) WindSurf Cursor"
+          },
+          {
+            "tag": "div",
+            "text": "Popular GenAI Models Llama 4 Llama 3.1 GPT 4.5 GPT 4.1 GPT 4o o3-mini Sora DeepSeek R1 DeepSeek V3 Janus Pro Veo 2 Gemini 2.5 Pro Gemini 2.0 Gemma 3 Claude Sonnet 3.7 Claude 3.5 Sonnet Phi 4 Phi 3.5 Mistral Small 3.1 Mistral NeMo Mistral-7b Bedrock Vertex AI Qwen QwQ 32B Qwen 2 Qwen 2.5 VL Qwen Chat Grok 3"
+          },
+          {
+            "tag": "div",
+            "text": "AI Development Frameworks n8n LangChain Agent SDK A2A by Google SmolAgents LangGraph CrewAI Agno LangFlow AutoGen LlamaIndex Swarm AutoGPT"
+          },
+          {
+            "tag": "div",
+            "text": "Data Science Tools and Techniques Python R SQL Jupyter Notebooks TensorFlow Scikit-learn PyTorch Tableau Apache Spark Matplotlib Seaborn Pandas Hadoop Docker Git Keras Apache Kafka AWS NLP Random Forest Computer Vision Data Visualization Data Exploration Big Data Common Machine Learning Algorithms Machine Learning Google Data Science Agent"
+          },
+          {
+            "tag": "div",
+            "text": "Company About Us Contact Us Careers"
+          },
+          {
+            "tag": "div",
+            "text": "Discover Blogs Expert Sessions Learning Paths Comprehensive Guides"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Free Courses AI&amp;ML Program Pinnacle Plus Program Agentic AI Program"
+          },
+          {
+            "tag": "div",
+            "text": "Engage Hackathons Events Podcasts"
+          },
+          {
+            "tag": "div",
+            "text": "Contribute Become an Author Become a Speaker Become a Mentor Become an Instructor"
+          },
+          {
+            "tag": "div",
+            "text": "Enterprise Our Offerings Trainings Data Culture AI Newsletter"
+          },
+          {
+            "tag": "div",
+            "text": "Terms &amp; Conditions Refund Policy Privacy Policy Cookies Policy © Analytics Vidhya .All rights reserved."
+          },
+          {
+            "tag": "p",
+            "text": "AI Battlefield MCQ Based Skill Test 8th - 18th March Win upto INR 1,00,000* Participate Now *Terms and conditions apply"
+          },
+          {
+            "tag": "div",
+            "text": "Login now to continue Continue with Google Continue with Email Forgot your password?"
+          },
+          {
+            "tag": "div",
+            "text": "I accept the Term &amp; Conditions"
+          },
+          {
+            "tag": "div",
+            "text": "I have read the Privacy Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Receive updates on WhatsApp"
+          },
+          {
+            "tag": "div",
+            "text": "Enter email address to continue"
+          },
+          {
+            "tag": "div",
+            "text": "Email address"
+          },
+          {
+            "tag": "div",
+            "text": "Get OTP"
+          },
+          {
+            "tag": "div",
+            "text": "Enter OTP sent to Edit"
+          },
+          {
+            "tag": "div",
+            "text": "Enter the OTP"
+          },
+          {
+            "tag": "p",
+            "text": "Resend OTP in 30 s"
+          },
+          {
+            "tag": "div",
+            "text": "Verify OTP"
+          },
+          {
+            "tag": "div",
+            "text": "We use cookies essential for this site to function well. Please click to help us improve its usefulness with additional cookies. Learn about our use of cookies in our Privacy Policy &amp; Cookies Policy . Show details"
+          },
+          {
+            "tag": "div",
+            "text": "Accept all cookies"
+          },
+          {
+            "tag": "div",
+            "text": "Use necessary cookies"
+          },
+          {
+            "tag": "div",
+            "text": "Powered By"
+          },
+          {
+            "tag": "div",
+            "text": "Allowed and not customizable Necessary Not allowed All Cookies"
+          },
+          {
+            "tag": "div",
+            "text": "Manage Cookies"
+          },
+          {
+            "tag": "div",
+            "text": "Powered By"
+          },
+          {
+            "tag": "div",
+            "text": "Consent Details About Cookies This site uses cookies to ensure that you get the best experience possible. To learn more about how we use cookies, please refer to our Privacy Policy &amp; Cookies Policy ."
+          },
+          {
+            "tag": "div",
+            "text": "Necessary (2) Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies. Analytics Vidhya (4) learn more about analytics vidhya privacy brahmaid It is needed for personalizing the website."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "csrftoken This cookie is used to prevent Cross-site request forgery (often abbreviated as CSRF) attacks of the website"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTPS"
+          },
+          {
+            "tag": "div",
+            "text": "Identityid Preserves the login/logout state of users across the whole site."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTPS"
+          },
+          {
+            "tag": "div",
+            "text": "sessionid Preserves users&#x27; states across page requests."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTPS"
+          },
+          {
+            "tag": "div",
+            "text": "Google (1) learn more about google privacy g_state Google One-Tap login adds this g_state cookie to set the user status on how they interact with the One-Tap modal."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 365 days"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Statistics (4) Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously. Microsoft (7) learn more about microsoft policy MUID Used by Microsoft Clarity, to store and track visits across websites."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 Year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "_clck Used by Microsoft Clarity, Persists the Clarity User ID and preferences, unique to that site, on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "_clsk Used by Microsoft Clarity, Connects multiple page views by a user into a single Clarity session recording."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 Day"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SRM_I Collects user data is specifically adapted to the user or device. The user can also be followed outside of the loaded website, creating a picture of the visitor&#x27;s behavior."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SM Use to measure the use of the website for internal analytics"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "CLID The cookie is set by embedded Microsoft Clarity scripts. The purpose of this cookie is for heatmap and session recording."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SRM_B Collected user data is specifically adapted to the user or device. The user can also be followed outside of the loaded website, creating a picture of the visitor&#x27;s behavior."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Google (7) learn more about google privacy _gid This cookie is installed by Google Analytics. The cookie is used to store information of how visitors use a website and helps in creating an analytics report of how the website is doing. The data collected includes the number of visitors, the source where they have come from, and the pages visited in an anonymous form."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 399 days"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "_ga_# Used by Google Analytics, to store and count pageviews."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 399 Days"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "_gat_# Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 day"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "collect Used to send data to Google Analytics about the visitor&#x27;s device and behavior. Tracks the visitor across devices and marketing channels."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: PIXEL"
+          },
+          {
+            "tag": "div",
+            "text": "AEC cookies ensure that requests within a browsing session are made by the user, and not by other sites."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "G_ENABLED_IDPS use the cookie when customers want to make a referral from their gmail contacts; it helps auth the gmail account."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "test_cookie This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor&#x27;s browser supports cookies."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Webengage (2) Learn more about webengage privacy _we_us this is used to send push notification using webengage."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "WebKlipperAuth used by webenage to track auth of webenagage."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "LinkedIn (16) learn more about linkedin privacy ln_or Linkedin sets this cookie to registers statistical data on users&#x27; behavior on the website for internal analytics."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 day"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "JSESSIONID Use to maintain an anonymous user session by the server."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "li_rm Used as part of the LinkedIn Remember Me feature and is set when a user clicks Remember Me on the device to make it easier for him or her to sign in to that device."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "AnalyticsSyncHistory Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "lms_analytics Used to store information about the time a sync with the AnalyticsSyncHistory cookie took place for users in the Designated Countries."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "liap Cookie used for Sign-in with Linkedin and/or to allow for the Linkedin follow feature."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "visit allow for the Linkedin follow feature."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "li_at often used to identify you, including your name, interests, and previous activity."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "s_plt Tracks the time that the previous page took to load"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "lang Used to remember a user&#x27;s language setting to ensure LinkedIn.com displays in the language selected by the user in their settings"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "s_tp Tracks percent of page viewed"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "AMCV_14215E3D5995C57C0A495C55%40AdobeOrg Indicates the start of a session for Adobe Experience Cloud"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "s_pltp Provides page name value (URL) for use by Adobe Analytics"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: Session"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "s_tslv Used to retain and fetch time since last visit in Adobe Analytics"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "li_theme Remembers a user&#x27;s display preference/theme setting"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "li_theme_set Remembers which users have updated their display / theme preferences"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Preferences (0) Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in. We do not use cookies of this type."
+          },
+          {
+            "tag": "div",
+            "text": "Marketing (4) Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers. Google (11) learn more about google privacy _gcl_au Used by Google Adsense, to store and track conversions."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 3 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SID Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SAPISID Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "__Secure-# Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "APISID Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "SSID Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "HSID Save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 years"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "DV These cookies are used for the purpose of targeted advertising."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 hours"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "NID These cookies are used for the purpose of targeted advertising."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 month"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "1P_JAR These cookies are used to gather website statistics, and track conversion rates."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 month"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "OTZ Aggregate analysis of website visitors"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Facebook (2) learn more about facebook privacy _fbp This cookie is set by Facebook to deliver advertisements when they are on Facebook or a digital platform powered by Facebook advertising after visiting this website."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 4 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "fr Contains a unique browser and user ID, used for targeted advertising."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 2 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "LinkedIn (6) Learn about linkedin policy bscookie Used by LinkedIn to track the use of embedded services."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "lidc Used by LinkedIn for tracking the use of embedded services."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 day"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "bcookie Used by LinkedIn to track the use of embedded services."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "aam_uuid Use these cookies to assign a unique ID when users visit a website."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "UserMatchHistory These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the &#x27;Apply with LinkedIn&#x27; or the &#x27;Sign-in with LinkedIn&#x27; functions, collecting information about how visitors use the site, etc."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 6 months"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "li_sugr Used to make a probabilistic match of a user&#x27;s identity outside the Designated Countries"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 90 days"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Microsoft (2) Learn more about microsoft privacy. MR Used to collect information for analytics purposes."
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 year"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "ANONCHK Used to store session ID for a users session to ensure that clicks from adverts on the Bing search engine are verified for reporting purposes and for personalisation"
+          },
+          {
+            "tag": "div",
+            "text": "Expiry: 1 day"
+          },
+          {
+            "tag": "div",
+            "text": "Type: HTTP"
+          },
+          {
+            "tag": "div",
+            "text": "Unclassified (0) Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies. We do not use cookies of this type."
+          },
+          {
+            "tag": "p",
+            "text": "Cookie declaration last updated on 02/01/2025 by Analytics Vidhya."
+          },
+          {
+            "tag": "div",
+            "text": "Cookies are small text files that can be used by websites to make a user&#x27;s experience more efficient. The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies, we need your permission. This site uses different types of cookies. Some cookies are placed by third-party services that appear on our pages. Learn more about who we are, how you can contact us, and how we process personal data in our Privacy Policy ."
+          },
+          {
+            "tag": "div",
+            "text": "Accept all cookies Use necessary cookies"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 336,
+          "headings": 169,
+          "images": 20
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-609A6B76",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1DEDA753",
+      "path": "/enterprise",
+      "type": "Detected Link",
+      "anchor_text": "Enterprise",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9DD07C31",
+      "path": "/events/datahour",
+      "type": "Detected Link",
+      "anchor_text": "Expert Sessions",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57C7BD8B",
+      "path": "/blog/2020/12/a-comprehensive-learning-path-to-become-a-data-scientist/",
+      "type": "Detected Link",
+      "anchor_text": "Learning Paths",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-463C3BA3",
+      "path": "/blog/category/guide/",
+      "type": "Detected Link",
+      "anchor_text": "Guides",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EC826940",
+      "path": "/courses/",
+      "type": "Detected Link",
+      "anchor_text": "Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-99D5A0D0",
+      "path": "/agenticaipioneer",
+      "type": "Detected Link",
+      "anchor_text": "Explore AI Agents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F7B20D28",
+      "path": "/pinnacleplus",
+      "type": "Detected Link",
+      "anchor_text": "GenAI Pinnacle Plus Program",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7EC44040",
+      "path": "/events/leading-with-data",
+      "type": "Detected Link",
+      "anchor_text": "Podcasts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7FFFE014",
+      "path": "/become-an-author/",
+      "type": "Detected Link",
+      "anchor_text": "Become an Author",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-59D25425",
+      "path": "/coming-soon",
+      "type": "Detected Link",
+      "anchor_text": "Become a Speaker",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8CF29E3A",
+      "path": "/datahacksummit/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F1CF1F8D",
+      "path": "/agenticaipioneer",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EDA3B090",
+      "path": "/pinnacleplus",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6231CB65",
+      "path": "/genaipinnacle",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

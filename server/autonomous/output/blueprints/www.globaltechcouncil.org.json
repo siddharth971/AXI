@@ -1,0 +1,1991 @@
+{
+  "website_blueprint_id": "BLUEPRINT-0374EBC2",
+  "generated_at": "2026-04-02T05:38:16.607Z",
+  "global_configuration": {
+    "brand_name": "Online Courses and Certification For Professionals",
+    "domain": "www.globaltechcouncil.org",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.67.183.68",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "private, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 94,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-S88JXDJPCT"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=AW-16525241170"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/jquery/jquery.js?ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1"
+      },
+      {
+        "path": "/ajax/libs/jquery/2.1.1/jquery.min.js",
+        "type": "script",
+        "full_url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=6.5.3"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/elementor/load-more/load-more-product.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/elementor/load-more/load-more-product.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/plugins/topbar-pro/js/tpbr.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/topbar-pro/js/tpbr.min.js?ver=6.5.3"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.js?ver=2.7.0-wc.9.3.3"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js?ver=9.3.3"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.js?ver=2.1.4-wc.9.3.3"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.js?ver=9.3.3"
+      },
+      {
+        "path": "/wp-content/plugins/payhip-sell-ebooks/public/assets/js/public.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/payhip-sell-ebooks/public/assets/js/public.js?ver=1.0.0"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/html5.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/html5.js?ver=3.7.3"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/jquery.validate.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/jquery.validate.min.js?ver=6.5.3"
+      },
+      {
+        "path": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/jquery.waypoints.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/jquery.waypoints.min.js?ver=2.0.3"
+      },
+      {
+        "path": "/wp-includes/js/imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/jquery.magnific-popup.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/jquery.magnific-popup.min.js?ver=1.1.0"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/juxtapose.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/juxtapose.js?ver=1.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/InstagramFeed.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/InstagramFeed.min.js?ver=1.3.8"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/typed.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/typed.min.js?ver=2.0.11"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/flickity.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/flickity.pkgd.min.js?ver=2.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/owl.carousel.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/owl.carousel.min.js?ver=2.3.4"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/slick.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/slick.min.js?ver=1.9.0"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/jquery.matchHeight.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/jquery.matchHeight.min.js?ver=0.7.2"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/isotope.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/isotope.min.js?ver=3.0.6"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/jquery.counterup.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/jquery.counterup.min.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/packery-mode.pkgd.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/packery-mode.pkgd.min.js?ver=2.1.2"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/scripts.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/scripts.js?ver=1.2"
+      },
+      {
+        "path": "/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.js?ver=7.1.7"
+      },
+      {
+        "path": "/wp-includes/js/masonry.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/masonry.min.js?ver=4.2.2"
+      },
+      {
+        "path": "/wp-content/plugins/payhip-sell-ebooks/public/assets/js/pf-masonry-init.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/payhip-sell-ebooks/public/assets/js/pf-masonry-init.js"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/skip-link-focus-fix.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/skip-link-focus-fix.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/owl.carousel.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/owl.carousel.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/navigation.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/navigation.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/bootstrap.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/bootstrap.min.js?ver=3.3.7"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/global.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/global.js?ver=1.0"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/jquery.scrollTo.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/jquery.scrollTo.js?ver=2.1.2"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/js/bc-tracking.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/js/bc-tracking.js?ver=2.1.2"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.js?ver=9.3.3"
+      },
+      {
+        "path": "/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.js?ver=9.3.3"
+      },
+      {
+        "path": "/recaptcha/api.js",
+        "type": "script",
+        "full_url": "https://www.google.com/recaptcha/api.js?render=6Le9ldoZAAAAAJATTUREFiFke9WjDcEbUi_UqmkE&amp;ver=3.0"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/wp-polyfill-inert.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/dist/vendor/wp-polyfill-inert.js?ver=3.1.2"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/regenerator-runtime.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.14.0"
+      },
+      {
+        "path": "/wp-includes/js/dist/vendor/wp-polyfill.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0"
+      },
+      {
+        "path": "/wp-content/plugins/contact-form-7/modules/recaptcha/index.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.5"
+      },
+      {
+        "path": "/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.js?ver=1.2.1"
+      },
+      {
+        "path": "/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.js?ver=3.21.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/webpack.runtime.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor/assets/js/webpack.runtime.js?ver=3.21.8"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend-modules.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=3.21.8"
+      },
+      {
+        "path": "/wp-includes/js/dist/hooks.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/dist/hooks.js?ver=2e6d63e772894a800ba8"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/dist/i18n.js?ver=2aff907006e2aa00e26e"
+      },
+      {
+        "path": "/wp-content/plugins/elementor-pro/assets/js/frontend.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor-pro/assets/js/frontend.js?ver=3.21.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js?ver=4.0.2"
+      },
+      {
+        "path": "/wp-includes/js/jquery/ui/core.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-includes/js/jquery/ui/core.js?ver=1.13.2"
+      },
+      {
+        "path": "/wp-content/plugins/elementor/assets/js/frontend.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor/assets/js/frontend.js?ver=3.21.8"
+      },
+      {
+        "path": "/wp-content/plugins/elementor-pro/assets/js/elements-handlers.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor-pro/assets/js/elements-handlers.js?ver=3.21.3"
+      },
+      {
+        "path": "/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.js?ver=3.21.3"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/elementor//js/blockchain-elementor.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/elementor//js/blockchain-elementor.js?ver=6.5.3"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/js/Chart.min.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/js/Chart.min.js?ver=2.9.3"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.js",
+        "type": "script",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.js"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+      },
+      {
+        "path": "/css",
+        "type": "stylesheet",
+        "full_url": "https://fonts.googleapis.com/css?family=Libre%20Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;display=swap"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Global-Tech-Council-Logo-02-1-1.jpg",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Global-Tech-Council-Logo-02-1-1.jpg"
+      },
+      {
+        "path": "/wp-content/themes/blockchain-council/assets/images/cart_icon.svg",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/themes/blockchain-council/assets/images/cart_icon.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/logo-gtc.svg",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/logo-gtc.svg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/gtc_banner-1.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2025/04/gtc_banner-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Group-52800.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/09/Group-52800.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Group-52502.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/09/Group-52502.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Group-52502-1.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/09/Group-52502-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/09/Group-52502-2.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/09/Group-52502-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2018/10/CAIE-Certified-Artificial-Intelligence-AI-Expert.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2018/10/CAIE-Certified-Artificial-Intelligence-AI-Expert.webp"
+      },
+      {
+        "path": "/wp-content/plugins/blockchain-core/assets/images/batch.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/plugins/blockchain-core/assets/images/batch.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/11/Cetified-AI-Powered-Trader.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2025/11/Cetified-AI-Powered-Trader.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/10/CERTIFIED-CHATGPT-EXPERT%E2%84%A2-1.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/10/CERTIFIED-CHATGPT-EXPERT%E2%84%A2-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Certified-Agentic-AI-Expert.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2025/09/Certified-Agentic-AI-Expert.png"
+      },
+      {
+        "path": "/wp-content/uploads/2021/10/Certified-Big-Data-Expert-%E2%84%A2-1.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2021/10/Certified-Big-Data-Expert-%E2%84%A2-1.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2019/05/Certified-Artificial-Intelligence-AI-Developer%E2%84%A2.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2019/05/Certified-Artificial-Intelligence-AI-Developer%E2%84%A2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2019/12/Machine-Learning-Expert-%E2%84%A2.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2019/12/Machine-Learning-Expert-%E2%84%A2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2018/11/Certified-Data-Science-Developer%E2%84%A2.webp",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2018/11/Certified-Data-Science-Developer%E2%84%A2.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2444.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2444.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/path5037.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/path5037.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2785.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2785.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2443.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2443.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2448-1.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2448-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2960.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2960.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2966.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2966.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2968.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2968.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Group-2971.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Group-2971.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Vector-1.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Vector-1.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/Vector-2.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/Vector-2.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/image-459.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/image-459.png"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/image-14.jpg",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/image-14.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/05/image-458.png",
+        "type": "image",
+        "full_url": "https://www.globaltechcouncil.org/wp-content/uploads/2024/05/image-458.png"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Online Courses and Certification For Professionals | Global Tech Council",
+        "description": "Global Tech Council is the leading e-learning platform where you can get online certifications in the latest technologies AI, ML, Data Science, Cyber Security, AR, VR, and the Internet Of Things.",
+        "canonical": "https://www.globaltechcouncil.org"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "548ms"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Welcome to Global Tech Council",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Why Choose Global Tech Council?",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Meticulously Designed Curriculum",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence (AI) Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Coding Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Artificial Intelligence (AI) Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "CAISD Certified AI Skill Developer® (Alexa)"
+          },
+          {
+            "tag": "li",
+            "text": "CCBE Certified ChatBot Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "CCBDEV Certified ChatBot Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning (ML) Certified Machine Learning (ML) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Advanced ML Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Machine Learning Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security Certified Cyber Security Specialist™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Cyber Security Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified White Hat Hacker®"
+          },
+          {
+            "tag": "li",
+            "text": "GTC Certified Pentesting Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Network Security Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Information Security Executive™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Wireless Security Auditor™"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science CDSD Certified Data Science Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Bigdata Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Programming Languages Certified JavaScript Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Node.js Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Python Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified React Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of Things CIOTE Certified Internet-of-things (IOT) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Internet of Things (IoT) Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual Reality Certified Mixed Reality Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Augment Reality Developer™ (AR) Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Virtual Reality Developer™ Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Blockchain &#038; Web3 Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Business &#038; Marketing Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Live Training Certified AI Powered Leader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Membership Council Membership"
+          },
+          {
+            "tag": "li",
+            "text": "Individual Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Corporate Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Unlimited Content Subscription"
+          },
+          {
+            "tag": "li",
+            "text": "Resources Free Courses AI 101 Course"
+          },
+          {
+            "tag": "li",
+            "text": "Infographics"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Guide"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Big Data"
+          },
+          {
+            "tag": "li",
+            "text": "Chatbot"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of things"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual reality"
+          },
+          {
+            "tag": "li",
+            "text": "Augmented Reality"
+          },
+          {
+            "tag": "li",
+            "text": "Others Careers"
+          },
+          {
+            "tag": "li",
+            "text": "Partner With Us"
+          },
+          {
+            "tag": "li",
+            "text": "Verify Credentials"
+          },
+          {
+            "tag": "li",
+            "text": "Offers"
+          },
+          {
+            "tag": "div",
+            "text": "Menu"
+          },
+          {
+            "tag": "li",
+            "text": "Certifications Newly Launched / Revamped Certified AI Powered Leader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence (AI) Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Coding Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Artificial Intelligence (AI) Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "CAISD Certified AI Skill Developer® (Alexa)"
+          },
+          {
+            "tag": "li",
+            "text": "CCBE Certified ChatBot Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "CCBDEV Certified ChatBot Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning (ML) Certified Machine Learning (ML) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Advanced ML Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Machine Learning Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security Certified Cyber Security Specialist™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Cyber Security Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified White Hat Hacker®"
+          },
+          {
+            "tag": "li",
+            "text": "GTC Certified Pentesting Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Network Security Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Information Security Executive™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Wireless Security Auditor™"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science CDSD Certified Data Science Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Bigdata Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Programming Languages Certified JavaScript Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Node.js Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Python Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified React Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of Things CIOTE Certified Internet-of-things (IOT) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Internet of Things (IoT) Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual Reality Certified Mixed Reality Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Augment Reality Developer™ (AR) Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Virtual Reality Developer™ Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Blockchain &#038; Web3 Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Business &#038; Marketing Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Live Training Certified AI Powered Leader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Membership Council Membership"
+          },
+          {
+            "tag": "li",
+            "text": "Individual Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Corporate Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Unlimited Content Subscription"
+          },
+          {
+            "tag": "li",
+            "text": "Resources Free Courses AI 101 Course"
+          },
+          {
+            "tag": "li",
+            "text": "Infographics"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Guide"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Big Data"
+          },
+          {
+            "tag": "li",
+            "text": "Chatbot"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of things"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual reality"
+          },
+          {
+            "tag": "li",
+            "text": "Augmented Reality"
+          },
+          {
+            "tag": "li",
+            "text": "Others Careers"
+          },
+          {
+            "tag": "li",
+            "text": "Partner With Us"
+          },
+          {
+            "tag": "li",
+            "text": "Verify Credentials"
+          },
+          {
+            "tag": "li",
+            "text": "Offers"
+          },
+          {
+            "tag": "div",
+            "text": "Log In"
+          },
+          {
+            "tag": "div",
+            "text": "Join for Free"
+          },
+          {
+            "tag": "div",
+            "text": "Certifications Newly Launched / Revamped Certified AI Powered Leader Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Certified AI-Powered Marketing Expert Certified AI and Machine Learning Expert Master Artificial Intelligence Certified ChatGPT Expert Certified Prompt Engineer™ Artificial Intelligence (AI) Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Certified AI-Powered Marketing Expert Certified AI and Machine Learning Expert Master Artificial Intelligence Certified AI Powered Coding Expert Certified Generative AI Expert™ Certified ChatGPT Expert Certified Prompt Engineer™ CAIE Certified Artificial Intelligence (AI) Expert® Certified Artificial Intelligence (AI) Developer® CAISD Certified AI Skill Developer® (Alexa) CCBE Certified ChatBot Expert® CCBDEV Certified ChatBot Developer® Machine Learning (ML) Certified Machine Learning (ML) Expert® Certified Advanced ML Developer™ Certified Machine Learning Developer™ Cyber Security Certified Cyber Security Specialist™ Certified Cyber Security Expert™ Certified White Hat Hacker® GTC Certified Pentesting Expert Certified Network Security Engineer™ Certified Information Security Executive™ Certified Wireless Security Auditor™ Data Science CDSD Certified Data Science Developer® Certified Bigdata Expert® Programming Languages Certified JavaScript Developer™ Certified Node.js Developer™ Certified Python Developer™ Certified React Developer™ Internet of Things CIOTE Certified Internet-of-things (IOT) Expert® Certified Internet of Things (IoT) Developer™ Virtual Reality Certified Mixed Reality Expert™ Certified Augment Reality Developer™ (AR) Certification Certified Virtual Reality Developer™ Certification Blockchain &#038; Web3 Certifications Business &#038; Marketing Certifications Live Training Certified AI Powered Leader Certified Agentic AI Expert™ Certified Prompt Engineer™ Certified Agentic AI Developer™ Certified Generative AI Expert™ CAIE Certified Artificial Intelligence (AI) Expert® Membership Council Membership Individual Member Signup Corporate Member Signup Unlimited Content Subscription Resources Free Courses AI 101 Course Infographics Artificial Intelligence Guide Data Science Machine Learning Big Data Chatbot Cyber Security Internet of things Virtual reality Augmented Reality Others Careers Partner With Us Verify Credentials Offers Menu"
+          },
+          {
+            "tag": "li",
+            "text": "Certifications Newly Launched / Revamped Certified AI Powered Leader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence (AI) Certified AI Powered Trader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Investor"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI-Powered Marketing Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI and Machine Learning Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Master Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Certified AI Powered Coding Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified ChatGPT Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Artificial Intelligence (AI) Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "CAISD Certified AI Skill Developer® (Alexa)"
+          },
+          {
+            "tag": "li",
+            "text": "CCBE Certified ChatBot Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "CCBDEV Certified ChatBot Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning (ML) Certified Machine Learning (ML) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Advanced ML Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Machine Learning Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security Certified Cyber Security Specialist™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Cyber Security Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified White Hat Hacker®"
+          },
+          {
+            "tag": "li",
+            "text": "GTC Certified Pentesting Expert"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Network Security Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Information Security Executive™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Wireless Security Auditor™"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science CDSD Certified Data Science Developer®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Bigdata Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Programming Languages Certified JavaScript Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Node.js Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Python Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified React Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of Things CIOTE Certified Internet-of-things (IOT) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Internet of Things (IoT) Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual Reality Certified Mixed Reality Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Augment Reality Developer™ (AR) Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Virtual Reality Developer™ Certification"
+          },
+          {
+            "tag": "li",
+            "text": "Blockchain &#038; Web3 Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Business &#038; Marketing Certifications"
+          },
+          {
+            "tag": "li",
+            "text": "Live Training Certified AI Powered Leader"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Prompt Engineer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Agentic AI Developer™"
+          },
+          {
+            "tag": "li",
+            "text": "Certified Generative AI Expert™"
+          },
+          {
+            "tag": "li",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert®"
+          },
+          {
+            "tag": "li",
+            "text": "Membership Council Membership"
+          },
+          {
+            "tag": "li",
+            "text": "Individual Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Corporate Member Signup"
+          },
+          {
+            "tag": "li",
+            "text": "Unlimited Content Subscription"
+          },
+          {
+            "tag": "li",
+            "text": "Resources Free Courses AI 101 Course"
+          },
+          {
+            "tag": "li",
+            "text": "Infographics"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Guide"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Big Data"
+          },
+          {
+            "tag": "li",
+            "text": "Chatbot"
+          },
+          {
+            "tag": "li",
+            "text": "Cyber Security"
+          },
+          {
+            "tag": "li",
+            "text": "Internet of things"
+          },
+          {
+            "tag": "li",
+            "text": "Virtual reality"
+          },
+          {
+            "tag": "li",
+            "text": "Augmented Reality"
+          },
+          {
+            "tag": "li",
+            "text": "Others Careers"
+          },
+          {
+            "tag": "li",
+            "text": "Partner With Us"
+          },
+          {
+            "tag": "li",
+            "text": "Verify Credentials"
+          },
+          {
+            "tag": "li",
+            "text": "Offers"
+          },
+          {
+            "tag": "div",
+            "text": "Login Join for Free"
+          },
+          {
+            "tag": "div",
+            "text": "Welcome to Global Tech Council"
+          },
+          {
+            "tag": "div",
+            "text": "Global Tech Council is a leading platform uniting tech enthusiasts and professionals from around the world to share knowledge, passion, and vision. Specializing in AI, Cybersecurity, and cutting-edge Technology Certifications and Courses, we empower individuals to fast-track their career growth with globally recognized credentials."
+          },
+          {
+            "tag": "div",
+            "text": "Global Tech Council — A proud extension of Blockchain Council&#8217;s legacy of excellence."
+          },
+          {
+            "tag": "div",
+            "text": "Watch Introduction to Global Tech Council Next Generation Technological Revolution"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Now"
+          },
+          {
+            "tag": "div",
+            "text": "Why Choose Global Tech Council?"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll today and gain access to exclusive features through our top-rated certifications in emerging technologies."
+          },
+          {
+            "tag": "div",
+            "text": "Meticulously Designed Curriculum"
+          },
+          {
+            "tag": "div",
+            "text": "Benefit from a meticulously designed curriculum covering all aspects of emerging technologies."
+          },
+          {
+            "tag": "div",
+            "text": "Comprehensive Support"
+          },
+          {
+            "tag": "div",
+            "text": "Receive comprehensive support throughout your training program."
+          },
+          {
+            "tag": "div",
+            "text": "Increase Employability"
+          },
+          {
+            "tag": "div",
+            "text": "Increase your employability with industry-recognized certifications."
+          },
+          {
+            "tag": "div",
+            "text": "Lifetime Access"
+          },
+          {
+            "tag": "div",
+            "text": "Enjoy lifetime access to all course resources."
+          },
+          {
+            "tag": "div",
+            "text": "Gain Recognition"
+          },
+          {
+            "tag": "div",
+            "text": "Gain recognition by getting certified and featured on our website."
+          },
+          {
+            "tag": "div",
+            "text": "Join a Global Community"
+          },
+          {
+            "tag": "div",
+            "text": "Join a dynamic global community of tech enthusiasts at Global Tech Council."
+          },
+          {
+            "tag": "div",
+            "text": "MORE ABOUT CERTIFICATIONS"
+          },
+          {
+            "tag": "div",
+            "text": "Why Must You Join?"
+          },
+          {
+            "tag": "div",
+            "text": "Learn & Grow"
+          },
+          {
+            "tag": "div",
+            "text": "Learn the breadth and depth of numerous in- demand, futuristic technologies from the industry leader Global Tech Council."
+          },
+          {
+            "tag": "div",
+            "text": "Certified"
+          },
+          {
+            "tag": "div",
+            "text": "Get certified by Global Tech Council. Gain globally acknowledged certifications and escalate your career."
+          },
+          {
+            "tag": "div",
+            "text": "Succeed"
+          },
+          {
+            "tag": "div",
+            "text": "After completing the certification you will get the highest paid jobs in your career."
+          },
+          {
+            "tag": "div",
+            "text": "Certifications We Provide"
+          },
+          {
+            "tag": "div",
+            "text": "CAIE Certified Artificial Intelligence (AI) Expert® 11 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified AI Powered Trader 10 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified ChatGPT Expert 7 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Agentic AI Expert™ 12 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Bigdata Expert® 4 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Artificial Intelligence (AI) Developer® 15 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Machine Learning (ML) Expert® 3.5 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "CDSD Certified Data Science Developer® 18 hours Lifetime Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Load More"
+          },
+          {
+            "tag": "div",
+            "text": "Who have we certified?"
+          },
+          {
+            "tag": "div",
+            "text": "Our Key Member"
+          },
+          {
+            "tag": "div",
+            "text": "Jesse M Garcia AVP - InfoSecurityOps Data Analytics Sr Analyst"
+          },
+          {
+            "tag": "div",
+            "text": "Dr. Emily Barnes AI Engineer and Technology Strategist"
+          },
+          {
+            "tag": "div",
+            "text": "Timo-Sven Johannisson Cyber Security Consultant"
+          },
+          {
+            "tag": "div",
+            "text": "Jesse M Garcia"
+          },
+          {
+            "tag": "div",
+            "text": "AVP &#8211; InfoSecurityOps Data Analytics Sr Analyst"
+          },
+          {
+            "tag": "div",
+            "text": "eDiscovery"
+          },
+          {
+            "tag": "div",
+            "text": "Dr. Emily Barnes"
+          },
+          {
+            "tag": "div",
+            "text": "AI Engineer and Technology Strategist"
+          },
+          {
+            "tag": "div",
+            "text": "Timo-Sven Johannisson"
+          },
+          {
+            "tag": "div",
+            "text": "Cyber Security Consultant"
+          },
+          {
+            "tag": "div",
+            "text": "Sogeti Deutschland GmbH"
+          },
+          {
+            "tag": "div",
+            "text": "Global Tech Council is a platform bringing techies from all around the globe to share their knowledge, passion, expertise and vision on various in-demand technologies, thereby imparting valuable credentials to individuals seeking career growth acceleration."
+          },
+          {
+            "tag": "div",
+            "text": "Follow us"
+          },
+          {
+            "tag": "div",
+            "text": "X-twitter Instagram"
+          },
+          {
+            "tag": "div",
+            "text": "Council"
+          },
+          {
+            "tag": "div",
+            "text": "About Us Contact Us Certifications Careers Partner With Us Support &#038; FAQs Verify Credentials About Us Contact Us Certifications Careers Partner With Us Support &#038; FAQs Verify Credentials"
+          },
+          {
+            "tag": "div",
+            "text": "Resources"
+          },
+          {
+            "tag": "div",
+            "text": "Infographics Artificial Intelligence Data Science Machine Learning Cyber Security Virtual reality Augmented Reality"
+          },
+          {
+            "tag": "div",
+            "text": "Policies"
+          },
+          {
+            "tag": "div",
+            "text": "Terms and Conditions Privacy Policy Support Policy Refund Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Contact"
+          },
+          {
+            "tag": "div",
+            "text": "Address : 440 N Barranca Ave, Covina, California 91723, US"
+          },
+          {
+            "tag": "div",
+            "text": "Email : [email&#160;protected]"
+          },
+          {
+            "tag": "div",
+            "text": "Phone : +1 573-898-4702"
+          },
+          {
+            "tag": "div",
+            "text": "Policies"
+          },
+          {
+            "tag": "div",
+            "text": "Terms and Conditions Privacy Policy Support Policy Refund Policy Terms and Conditions Privacy Policy Support Policy Refund Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Certificate"
+          },
+          {
+            "tag": "div",
+            "text": "Newly launched"
+          },
+          {
+            "tag": "div",
+            "text": "Certified AI Powered Leader Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Master Artificial Intelligence Certified AI Powered Coding Expert Certified Generative AI Expert™ Certified ChatGPT Expert Certified Prompt Engineer™ Certified LLM Developer™ Certified JavaScript Developer™ CAIE Certified Artificial Intelligence (AI) Expert® Certified Node.JS Developer™ Certified React Developer™ Certified Python Developer™"
+          },
+          {
+            "tag": "div",
+            "text": "Data Science"
+          },
+          {
+            "tag": "div",
+            "text": "CDSD Certified Data Science Developer® Certified Bigdata Expert®"
+          },
+          {
+            "tag": "div",
+            "text": "Virtual Reality"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Mixed Reality Expert™ Certified Augmented Reality (AR) Expert™ Certification Certified Augmented Reality Developer™ Certification Certified Virtual Reality (VR) Expert™ Certification Certified Virtual Reality Developer™ Certification"
+          },
+          {
+            "tag": "div",
+            "text": "Artificial Intelligence (AI)"
+          },
+          {
+            "tag": "div",
+            "text": "Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Master Artificial Intelligence Certified AI Powered Coding Expert Certified Generative AI Expert™ Certified ChatGPT Expert Certified Prompt Engineer™ CAIE Certified Artificial Intelligence (AI) Expert® Certified Artificial Intelligence (AI) Developer® CAISD Certified AI Skill Developer® (Alexa) CCBE Certified ChatBot Expert® CCBDEV Certified ChatBot Developer®"
+          },
+          {
+            "tag": "div",
+            "text": "Programming Languages"
+          },
+          {
+            "tag": "div",
+            "text": "Certified JavaScript Developer™ Certified Node.JS Developer™ Certified Python Developer™ Certified React Developer™"
+          },
+          {
+            "tag": "div",
+            "text": "Cyber Security"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Cyber Security Specialist™ Certified Cyber Security Expert™ Certified White Hat Hacker® Certified Pentesting Expert Certified Network Security Engineer™ Certified Information Security Executive™ Certified Wireless Security Auditor™"
+          },
+          {
+            "tag": "div",
+            "text": "Internet of Things"
+          },
+          {
+            "tag": "div",
+            "text": "CIOTE Certified Internet-of-things (IOT) Expert® Certified Internet of Things (IoT) Developer™"
+          },
+          {
+            "tag": "div",
+            "text": "Machine Learning (ML)"
+          },
+          {
+            "tag": "div",
+            "text": "Certified Machine Learning (ML) Expert® Certified Advanced ML Developer™ Certified Machine Learning Developer™"
+          },
+          {
+            "tag": "div",
+            "text": "Copyright 2026 © Global Tech Council | All rights reserved"
+          },
+          {
+            "tag": "div",
+            "text": "[certification_menu]"
+          },
+          {
+            "tag": "div",
+            "text": "Certifications Newly Launched / Revamped Certified AI Powered Leader Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Certified AI-Powered Marketing Expert Certified AI and Machine Learning Expert Master Artificial Intelligence Certified ChatGPT Expert Certified Prompt Engineer™ Artificial Intelligence (AI) Certified AI Powered Trader Certified AI Powered Investor Certified Agentic AI Expert™ Certified Agentic AI Developer™ Certified AI-Powered Marketing Expert Certified AI and Machine Learning Expert Master Artificial Intelligence Certified AI Powered Coding Expert Certified Generative AI Expert™ Certified ChatGPT Expert Certified Prompt Engineer™ CAIE Certified Artificial Intelligence (AI) Expert® Certified Artificial Intelligence (AI) Developer® CAISD Certified AI Skill Developer® (Alexa) CCBE Certified ChatBot Expert® CCBDEV Certified ChatBot Developer® Machine Learning (ML) Certified Machine Learning (ML) Expert® Certified Advanced ML Developer™ Certified Machine Learning Developer™ Cyber Security Certified Cyber Security Specialist™ Certified Cyber Security Expert™ Certified White Hat Hacker® GTC Certified Pentesting Expert Certified Network Security Engineer™ Certified Information Security Executive™ Certified Wireless Security Auditor™ Data Science CDSD Certified Data Science Developer® Certified Bigdata Expert® Programming Languages Certified JavaScript Developer™ Certified Node.js Developer™ Certified Python Developer™ Certified React Developer™ Internet of Things CIOTE Certified Internet-of-things (IOT) Expert® Certified Internet of Things (IoT) Developer™ Virtual Reality Certified Mixed Reality Expert™ Certified Augment Reality Developer™ (AR) Certification Certified Virtual Reality Developer™ Certification Blockchain &#038; Web3 Certifications Business &#038; Marketing Certifications Live Training Certified AI Powered Leader Certified Agentic AI Expert™ Certified Prompt Engineer™ Certified Agentic AI Developer™ Certified Generative AI Expert™ CAIE Certified Artificial Intelligence (AI) Expert® Membership Council Membership Individual Member Signup Corporate Member Signup Unlimited Content Subscription Resources Free Courses AI 101 Course Infographics Artificial Intelligence Guide Data Science Machine Learning Big Data Chatbot Cyber Security Internet of things Virtual reality Augmented Reality Others Careers Partner With Us Verify Credentials Offers"
+          },
+          {
+            "tag": "div",
+            "text": "Join for Free"
+          },
+          {
+            "tag": "div",
+            "text": "Login"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 24,
+          "headings": 44,
+          "images": 99
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-14546BB4",
+      "path": "/certifications/",
+      "type": "Detected Link",
+      "anchor_text": "Certifications",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5311545F",
+      "path": "/certifications/certified-ai-powered-leader/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI Powered Leader",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-24BFA335",
+      "path": "/certifications/certified-ai-powered-trader/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI Powered Trader",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4600B2F4",
+      "path": "/certifications/certified-ai-powered-investor/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI Powered Investor",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BAC1A09A",
+      "path": "/certifications/certified-agentic-ai-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified Agentic AI Expert™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-05C561CD",
+      "path": "/certifications/certified-agentic-ai-developer/",
+      "type": "Detected Link",
+      "anchor_text": "Certified Agentic AI Developer™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A1D1CA5E",
+      "path": "/artificial-intelligence/ai-marketing-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI-Powered Marketing Expert",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F6206C32",
+      "path": "/artificial-intelligence/certified-ai-and-machine-learning-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI and Machine Learning Expert",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-51F1229E",
+      "path": "/artificial-intelligence/master-artificial-intelligence/",
+      "type": "Detected Link",
+      "anchor_text": "Master Artificial Intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3EDF82C3",
+      "path": "/artificial-intelligence/certified-chatgpt-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified ChatGPT Expert",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-14E3E781",
+      "path": "/artificial-intelligence/certified-prompt-engineer/",
+      "type": "Detected Link",
+      "anchor_text": "Certified Prompt Engineer™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4AF1A2B3",
+      "path": "/artificial-intelligence-certification/",
+      "type": "Detected Link",
+      "anchor_text": "Artificial Intelligence (AI)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-C301B38C",
+      "path": "/artificial-intelligence/certified-ai-powered-coding-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified AI Powered Coding Expert",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3A464EFE",
+      "path": "/certifications/certified-generative-ai-expert/",
+      "type": "Detected Link",
+      "anchor_text": "Certified Generative AI Expert™",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-553EF703",
+      "path": "/artificial-intelligence/certified-artificial-intelligence-expert/",
+      "type": "Detected Link",
+      "anchor_text": "CAIE Certified Artificial Intelligence (AI) Expert®",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

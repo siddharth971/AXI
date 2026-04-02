@@ -1,0 +1,348 @@
+{
+  "website_blueprint_id": "BLUEPRINT-7DF57B9A",
+  "generated_at": "2026-04-02T05:35:13.304Z",
+  "global_configuration": {
+    "brand_name": "Narrative · Webflow HTML website template",
+    "domain": "www.usnews.ai",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "15.161.34.42",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "Not Set",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 3,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/ajax/libs/webfont/1.6.26/webfont.js",
+        "type": "script",
+        "full_url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      },
+      {
+        "path": "/js/jquery-3.5.1.min.dc5e7f18c8.js",
+        "type": "script",
+        "full_url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6478d0ec130f92fdf94aaa4e"
+      },
+      {
+        "path": "/6478d0ec130f92fdf94aaa4e/js/webflow.8227391b339f91805ef6b668567a43dc.js",
+        "type": "script",
+        "full_url": "https://cdn.prod.website-files.com/6478d0ec130f92fdf94aaa4e/js/webflow.8227391b339f91805ef6b668567a43dc.js"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Narrative · Webflow HTML website template",
+        "description": "",
+        "canonical": "https://www.usnews.ai"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "889ms"
+        },
+        {
+          "resource": "webfont.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery-3.5.1.min.dc5e7f18c8.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "webflow.8227391b339f91805ef6b668567a43dc.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "AI-Powered InsightsBy UsFor You",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Get the best sent to your inbox, every month",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Home"
+          },
+          {
+            "tag": "li",
+            "text": "Subscribe"
+          },
+          {
+            "tag": "div",
+            "text": "Categories"
+          },
+          {
+            "tag": "div",
+            "text": "Buildings"
+          },
+          {
+            "tag": "div",
+            "text": "Fashion"
+          },
+          {
+            "tag": "div",
+            "text": "Film"
+          },
+          {
+            "tag": "div",
+            "text": "Food"
+          },
+          {
+            "tag": "div",
+            "text": "Inspo"
+          },
+          {
+            "tag": "div",
+            "text": "Land"
+          },
+          {
+            "tag": "div",
+            "text": "Music"
+          },
+          {
+            "tag": "div",
+            "text": "Sport"
+          },
+          {
+            "tag": "div",
+            "text": "Tech"
+          },
+          {
+            "tag": "div",
+            "text": "Trends"
+          },
+          {
+            "tag": "li",
+            "text": "Contact"
+          },
+          {
+            "tag": "li",
+            "text": "Twitter"
+          },
+          {
+            "tag": "li",
+            "text": "LinkedIn"
+          },
+          {
+            "tag": "li",
+            "text": "Email me"
+          },
+          {
+            "tag": "li",
+            "text": "Admin"
+          },
+          {
+            "tag": "li",
+            "text": "Style guide"
+          },
+          {
+            "tag": "li",
+            "text": "Licenses"
+          },
+          {
+            "tag": "li",
+            "text": "Password"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 0,
+          "headings": 2,
+          "images": 0
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-F7BE3A2D",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "usnews.ai",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-49821DEA",
+      "path": "/all-articles",
+      "type": "Detected Link",
+      "anchor_text": "All",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9886228C",
+      "path": "/category/videos",
+      "type": "Detected Link",
+      "anchor_text": "Art",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A39B7468",
+      "path": "/category/architecture",
+      "type": "Detected Link",
+      "anchor_text": "Buildings",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-EB2E742E",
+      "path": "/category/images",
+      "type": "Detected Link",
+      "anchor_text": "Fashion",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4D641BAB",
+      "path": "/category/film",
+      "type": "Detected Link",
+      "anchor_text": "Film",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-6020FA48",
+      "path": "/category/food",
+      "type": "Detected Link",
+      "anchor_text": "Food",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FA63C97F",
+      "path": "/category/inspo",
+      "type": "Detected Link",
+      "anchor_text": "Inspo",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2AC27E10",
+      "path": "/category/travel",
+      "type": "Detected Link",
+      "anchor_text": "Land",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B9140353",
+      "path": "/category/books",
+      "type": "Detected Link",
+      "anchor_text": "Lit",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-605D584A",
+      "path": "/category/music",
+      "type": "Detected Link",
+      "anchor_text": "Music",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-97BA9F05",
+      "path": "/category/sport",
+      "type": "Detected Link",
+      "anchor_text": "Sport",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-D340CA42",
+      "path": "/category/tech",
+      "type": "Detected Link",
+      "anchor_text": "Tech",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-991BEFF9",
+      "path": "/category/trends",
+      "type": "Detected Link",
+      "anchor_text": "Trends",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-07ACFF5B",
+      "path": "/subscribe",
+      "type": "Detected Link",
+      "anchor_text": "Subscribe",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

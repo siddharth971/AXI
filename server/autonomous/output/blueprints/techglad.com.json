@@ -1,0 +1,605 @@
+{
+  "website_blueprint_id": "BLUEPRINT-17268403",
+  "generated_at": "2026-04-02T05:35:13.655Z",
+  "global_configuration": {
+    "brand_name": "TechGlad",
+    "domain": "techglad.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "93.127.173.86",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "hcdn"
+    },
+    "server_headers": {
+      "Cache-Control": "public, max-age=604800",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Server": "hcdn"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 24,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/",
+        "type": "script",
+        "full_url": "https://cdn.tailwindcss.com/?ver=3.3.0"
+      },
+      {
+        "path": "/xlsx-0.20.0/package/dist/xlsx.full.min.js",
+        "type": "script",
+        "full_url": "https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js?ver=0.20.0"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-includes/js/jquery/jquery.min.js?x90202&amp;ver=3.7.1"
+      },
+      {
+        "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-includes/js/jquery/jquery-migrate.min.js?x90202&amp;ver=3.4.1"
+      },
+      {
+        "path": "/gtag/js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtag/js?id=G-S5EE82JJNZ"
+      },
+      {
+        "path": "/sdks/web/v16/OneSignalSDK.page.js",
+        "type": "script",
+        "full_url": "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
+      },
+      {
+        "path": "/wp-content/plugins/link-whisper/js/frontend.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-content/plugins/link-whisper/js/frontend.min.js?x90202&amp;ver=1772814383"
+      },
+      {
+        "path": "/wp-content/themes/bloghash/assets/js/vendors/swiper-bundle.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-content/themes/bloghash/assets/js/vendors/swiper-bundle.min.js?x90202&amp;ver=6.9.4"
+      },
+      {
+        "path": "/wp-includes/js/imagesloaded.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-includes/js/imagesloaded.min.js?x90202&amp;ver=5.0.0"
+      },
+      {
+        "path": "/wp-content/themes/bloghash/assets/js/bloghash.min.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-content/themes/bloghash/assets/js/bloghash.min.js?x90202&amp;ver=1.0.28"
+      },
+      {
+        "path": "/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js",
+        "type": "script",
+        "full_url": "https://techglad.com/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?x90202&amp;ver=3.3.79"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/cropped-TechGlad-Logo-2.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/01/cropped-TechGlad-Logo-2.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Top-Python-Libraries-for-Machine-Learning-and-Deep-Learning-1024x683.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/01/Top-Python-Libraries-for-Machine-Learning-and-Deep-Learning-1024x683.png?x90202"
+      },
+      {
+        "path": "/avatar/b65ad165cac900767dd2d8b78761e7209821dc304e120791de22e7840e385b19",
+        "type": "image",
+        "full_url": "https://secure.gravatar.com/avatar/b65ad165cac900767dd2d8b78761e7209821dc304e120791de22e7840e385b19?s=30&#038;d=mm&#038;r=g"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/Top-Python-Libraries-for-Data-Science-You-Must-Know-1024x683.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/02/Top-Python-Libraries-for-Data-Science-You-Must-Know-1024x683.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/Future-of-Data-Science-and-Trends-to-Watch-1024x683.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/04/Future-of-Data-Science-and-Trends-to-Watch-1024x683.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/Data-Science-Certification-Guide-1.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/03/Data-Science-Certification-Guide-1.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/Data-Science-Career-Guidance.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/02/Data-Science-Career-Guidance.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/Building-a-Data-Science-Portfolio.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/03/Building-a-Data-Science-Portfolio.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/Important-AI-Terms-You-Must-Know-1024x683.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2024/12/Important-AI-Terms-You-Must-Know-1024x683.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/AI-Skills-That-Will-Separate-Winners-from-Losers-1024x683.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2024/12/AI-Skills-That-Will-Separate-Winners-from-Losers-1024x683.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/01/Top-Python-Libraries-for-Machine-Learning-and-Deep-Learning.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/01/Top-Python-Libraries-for-Machine-Learning-and-Deep-Learning.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/02/Top-Python-Libraries-for-Data-Science-You-Must-Know.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/02/Top-Python-Libraries-for-Data-Science-You-Must-Know.png?x90202"
+      },
+      {
+        "path": "/wp-content/uploads/2025/04/Future-of-Data-Science-and-Trends-to-Watch.png",
+        "type": "image",
+        "full_url": "https://techglad.com/wp-content/uploads/2025/04/Future-of-Data-Science-and-Trends-to-Watch.png?x90202"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "TechGlad - Learn Artificial Intelligence and Data Science",
+        "description": "Learn Artificial Intelligence and Data Science",
+        "canonical": "https://techglad.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2161ms"
+        },
+        {
+          "resource": "",
+          "latency": "pending"
+        },
+        {
+          "resource": "xlsx.full.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "jquery.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Posts pagination",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Recent Posts",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "AI General"
+          },
+          {
+            "tag": "li",
+            "text": "Quiz"
+          },
+          {
+            "tag": "li",
+            "text": "About US"
+          },
+          {
+            "tag": "li",
+            "text": "Contact US"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Machine Learning Deep Learning"
+          },
+          {
+            "tag": "h4",
+            "text": "Top Python Libraries for Machine Learning and Deep Learning in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Machine learning and deep learning are growing exponentially, and Python is the language of choice for both enthusiasts and professionals. As we enter 2026, the ecosystem of libraries in Python&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 17, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "8 Top Python Libraries for Data Science You Must Know [2026]"
+          },
+          {
+            "tag": "div",
+            "text": "Hey there, fellow data enthusiasts! If you’ve ever dabbled in data science, you’ll know that Python is the go-to language for tackling data-related tasks. Its simplicity, versatility, and extensive library&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 17, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Future of Data Science: Trends to Watch in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "The world of data science is constantly changing, mainly because of the factors of technological improvements, increasing volumes of data, and the growing dependence on data in decision-making processes. As&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 15, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Top Data Science Certifications to Boost Your Career (2026)"
+          },
+          {
+            "tag": "div",
+            "text": "Data science remains one of the most in-demand and dynamic fields. It is open to a variety of opportunities, as long as a person is properly equipped with skills and&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 13, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Is Data Science Really a Good Career in 2026?"
+          },
+          {
+            "tag": "div",
+            "text": "The most in-demand field currently is data science. As for you, in case you wonder if it could be the direction for you, let's discuss what makes data science so&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 6, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Building a Data Science Portfolio That Stands Out in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "A standout portfolio is one of the most critical requirements in this rapidly evolving world of data science. It allows one to showcase his skills, unique approaches to solving data-related&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman February 1, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Quiz"
+          },
+          {
+            "tag": "h4",
+            "text": "React JS Interview Questions Quiz (Multiple Choice)"
+          },
+          {
+            "tag": "div",
+            "text": "Test your knowledge by answering the React JS Interview Questions Quiz Related: Python Basics Interview Questions Quiz (Multiple Choice) Python Intermediate Level Interview Questions Quiz (Multiple Choice)"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman December 4, 2025"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Quiz"
+          },
+          {
+            "tag": "h4",
+            "text": "Java Script Interview Questions Quiz (Multiple Choice)"
+          },
+          {
+            "tag": "div",
+            "text": "Test your knowledge by answering the Java Script Interview Questions Quiz Related: Python Basics Interview Questions Quiz (Multiple Choice) Python Intermediate Level Interview Questions Quiz (Multiple Choice)"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman December 4, 2025"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in AI General"
+          },
+          {
+            "tag": "h4",
+            "text": "12 Important AI Terms that You Must Know"
+          },
+          {
+            "tag": "div",
+            "text": "Artificial Intelligence (AI) is becoming an integral part of our world. With more than 60% of businesses adopting AI in some form, this technology is transforming industries and lives. AI&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman November 11, 2025"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in AI General"
+          },
+          {
+            "tag": "h4",
+            "text": "8 AI Skills That Will Separate Winners from Losers in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "As we are racing toward 2026, artificial intelligence is revolutionizing industries and changing the career landscape. In this fast-paced era of change, adaptability and mastery of emerging skills will separate&hellip;"
+          },
+          {
+            "tag": "div",
+            "text": "Posted by Hanuman November 7, 2025"
+          },
+          {
+            "tag": "div",
+            "text": "Posts pagination 1 2 3 &hellip; 11 Next page"
+          },
+          {
+            "tag": "div",
+            "text": "Recent Posts Top Python Libraries for Machine Learning and Deep Learning in 2026 8 Top Python Libraries for Data Science You Must Know [2026] Future of Data Science: Trends to Watch in 2026 Top Data Science Certifications to Boost Your Career (2026) Is Data Science Really a Good Career in 2026?"
+          },
+          {
+            "tag": "div",
+            "text": "Trending Articles"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Machine Learning Deep Learning"
+          },
+          {
+            "tag": "h4",
+            "text": "Top Python Libraries for Machine Learning and Deep Learning in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "8 Top Python Libraries for Data Science You Must Know [2026]"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Future of Data Science: Trends to Watch in 2026"
+          },
+          {
+            "tag": "div",
+            "text": "Posted in Data Science"
+          },
+          {
+            "tag": "h4",
+            "text": "Top Data Science Certifications to Boost Your Career (2026)"
+          },
+          {
+            "tag": "div",
+            "text": "Copyright 2026 &mdash; TechGlad . All rights reserved. Bloghash WordPress Theme"
+          },
+          {
+            "tag": "span",
+            "text": "Scroll to Top"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 19,
+          "headings": 17,
+          "images": 23
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-5230D960",
+      "path": "/category/data-science/",
+      "type": "Detected Link",
+      "anchor_text": "Data Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-837629A3",
+      "path": "/category/machine-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-773446CA",
+      "path": "/category/ai-general/",
+      "type": "Detected Link",
+      "anchor_text": "AI General",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-8E19860E",
+      "path": "/category/quiz/",
+      "type": "Detected Link",
+      "anchor_text": "Quiz",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B291313B",
+      "path": "/about-us/",
+      "type": "Detected Link",
+      "anchor_text": "About US",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-84075D97",
+      "path": "/contact-us/",
+      "type": "Detected Link",
+      "anchor_text": "Contact US",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-78FA5D83",
+      "path": "/python-libraries-for-machine-learning-and-deep-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3F85E73E",
+      "path": "/category/deep-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Deep Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DA7F00F0",
+      "path": "/python-libraries-for-data-science/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4ECC7742",
+      "path": "/data-science-future/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9967BCE5",
+      "path": "/data-science-certifications/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5EF461D6",
+      "path": "/data-science-career/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-45309674",
+      "path": "/data-science-portfolio-guide/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-DE0A93AA",
+      "path": "/react-js-interview-questions-quiz/",
+      "type": "Detected Link",
+      "anchor_text": "React JS Interview Questions Quiz (Multiple Choice)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F9B1E5B3",
+      "path": "/java-script-interview-questions-quiz/",
+      "type": "Detected Link",
+      "anchor_text": "Java Script Interview Questions Quiz (Multiple Choice)",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

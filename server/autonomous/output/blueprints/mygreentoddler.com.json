@@ -1,6 +1,6 @@
 {
   "website_blueprint_id": "BLUEPRINT-58CD43E9",
-  "generated_at": "2026-01-22T06:07:16.105Z",
+  "generated_at": "2026-04-02T05:35:17.062Z",
   "global_configuration": {
     "brand_name": "Home",
     "domain": "mygreentoddler.com",
@@ -23,7 +23,7 @@
   },
   "file_system_inventory": {
     "summary": {
-      "total_files": 41,
+      "total_files": 40,
       "total_size_mb": 0
     },
     "core_assets": [
@@ -33,19 +33,14 @@
         "full_url": "https://www.googletagmanager.com/gtag/js?id=G-NR1D9ZQXBD"
       },
       {
-        "path": "/wp-content/themes/astra/assets/js/minified/flexibility.min.js",
-        "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.12.1"
-      },
-      {
         "path": "/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=9.11.1"
+        "full_url": "https://mygreentoddler.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=10.1.2"
       },
       {
         "path": "/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.34.2"
+        "full_url": "https://mygreentoddler.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.0.1"
       },
       {
         "path": "/wp-includes/js/jquery/jquery.min.js",
@@ -70,7 +65,7 @@
       {
         "path": "/wp-content/themes/astra/assets/js/minified/style.min.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=4.12.1"
+        "full_url": "https://mygreentoddler.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=4.12.6"
       },
       {
         "path": "/wp-includes/js/dist/hooks.min.js",
@@ -85,17 +80,17 @@
       {
         "path": "/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4"
+        "full_url": "https://mygreentoddler.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5"
       },
       {
         "path": "/wp-content/plugins/contact-form-7/includes/js/index.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4"
+        "full_url": "https://mygreentoddler.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.5"
       },
       {
         "path": "/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-performance/build/assets/link-prefetch.min.js",
         "type": "script",
-        "full_url": "https://mygreentoddler.com/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-performance/build/assets/link-prefetch.min.js?ver=4.12.1"
+        "full_url": "https://mygreentoddler.com/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-performance/build/assets/link-prefetch.min.js?ver=4.15.1"
       },
       {
         "path": "/wp-content/uploads/2021/01/cropped-Handdrawn-Circle-Logo-155x100.png",
@@ -248,18 +243,18 @@
       "network_waterfall": [
         {
           "resource": "document",
-          "latency": "6829ms"
+          "latency": "5037ms"
         },
         {
           "resource": "js",
           "latency": "pending"
         },
         {
-          "resource": "flexibility.min.js",
+          "resource": "frontend-gtag.min.js",
           "latency": "pending"
         },
         {
-          "resource": "frontend-gtag.min.js",
+          "resource": "v4-shims.min.js",
           "latency": "pending"
         }
       ],
@@ -285,204 +280,184 @@
         ],
         "main_content": [
           {
-            "tag": "p",
-            "text": "Navigating a sustainable parenting journey"
-          },
-          {
-            "tag": "h1",
-            "text": "Home"
-          },
-          {
-            "tag": "h1",
-            "text": "My Green Toddler"
-          },
-          {
-            "tag": "p",
-            "text": "Navigating a sustainable parenting journey."
-          },
-          {
-            "tag": "h2",
-            "text": "Latest Posts"
-          },
-          {
-            "tag": "h3",
-            "text": "10 Baby &amp; Kids Second Hand Clothing Stores Online"
-          },
-          {
-            "tag": "p",
-            "text": "The best places to find pre-loved baby and kids clothing."
-          },
-          {
-            "tag": "h3",
-            "text": "6 Eco Friendly Dishwasher Tablets"
-          },
-          {
-            "tag": "p",
-            "text": "Get clean dishes without the plastic waste and water pollution."
-          },
-          {
-            "tag": "h3",
-            "text": "25 Tips &amp; Recipes for Waste Free Lunch Boxes"
-          },
-          {
-            "tag": "p",
-            "text": "Avoid packaging and food waste with these handy tips."
-          },
-          {
-            "tag": "h2",
-            "text": "Popular Posts"
-          },
-          {
-            "tag": "h3",
-            "text": "10 Sustainability Picture Books For Toddlers"
-          },
-          {
-            "tag": "p",
-            "text": "Embed sustainability into your child&#8217;s learning with these fun picture books."
-          },
-          {
-            "tag": "h3",
-            "text": "Zero Co Review &#8211; My Take On Every Product"
-          },
-          {
-            "tag": "p",
-            "text": "Zero waste cleaning and personal care have never been so convenient."
-          },
-          {
-            "tag": "h3",
-            "text": "20+ Places To Buy Second Hand Clothes Online"
-          },
-          {
-            "tag": "p",
-            "text": "The best places online to find pre-loved clothing in Australia."
-          },
-          {
-            "tag": "h2",
+            "tag": "li",
             "text": "Living Sustainably"
           },
           {
-            "tag": "h3",
-            "text": "7 Best Travel Cutlery Sets"
+            "tag": "li",
+            "text": "Living with Kids"
           },
           {
-            "tag": "p",
-            "text": "Carry these portable utensils with you to avoid single use cutlery."
+            "tag": "li",
+            "text": "Recipes"
           },
           {
-            "tag": "h3",
-            "text": "13 Australian Shampoo Bars"
+            "tag": "li",
+            "text": "About"
           },
           {
-            "tag": "p",
-            "text": "Support local with these shampoo bars for waste free hair care."
+            "tag": "li",
+            "text": "Contact"
           },
           {
-            "tag": "h3",
-            "text": "7 Eco friendly party decoration ideas"
+            "tag": "div",
+            "text": "Home My Green Toddler Navigating a sustainable parenting journey."
           },
           {
-            "tag": "p",
-            "text": "Avoid balloons with these environmentally friendly alternatives."
+            "tag": "div",
+            "text": "Latest Posts 10 Baby &amp; Kids Second Hand Clothing Stores Online The best places to find pre-loved baby and kids clothing. Read"
           },
           {
-            "tag": "h2",
-            "text": "Living With Kids"
+            "tag": "div",
+            "text": "6 Eco Friendly Dishwasher Tablets Get clean dishes without the plastic waste and water pollution. Read"
           },
           {
-            "tag": "h3",
-            "text": "15 Best Reusable Swim Nappies For Summer"
+            "tag": "div",
+            "text": "25 Tips &amp; Recipes for Waste Free Lunch Boxes Avoid packaging and food waste with these handy tips. Read"
           },
           {
-            "tag": "p",
-            "text": "Be ready for the beach or pool with these reusable swim nappies."
+            "tag": "div",
+            "text": "Popular Posts 10 Sustainability Picture Books For Toddlers Embed sustainability into your child&#8217;s learning with these fun picture books. Read"
           },
           {
-            "tag": "h3",
-            "text": "How To Have An Eco Friendly Baby"
+            "tag": "div",
+            "text": "Zero Co Review &#8211; My Take On Every Product Zero waste cleaning and personal care have never been so convenient. Read"
           },
           {
-            "tag": "p",
-            "text": "Everything from baby showers to clothing and feeding to first birthdays."
+            "tag": "div",
+            "text": "20+ Places To Buy Second Hand Clothes Online The best places online to find pre-loved clothing in Australia. Read"
           },
           {
-            "tag": "h3",
-            "text": "How To Get Your Child Excited About Gardening"
+            "tag": "div",
+            "text": "Living Sustainably 7 Best Travel Cutlery Sets Carry these portable utensils with you to avoid single use cutlery. Read"
           },
           {
-            "tag": "p",
-            "text": "Nurture a love of nature in your child right in your backyard."
+            "tag": "div",
+            "text": "13 Australian Shampoo Bars Support local with these shampoo bars for waste free hair care. Read"
           },
           {
-            "tag": "h2",
-            "text": "Product Reviews"
+            "tag": "div",
+            "text": "7 Eco friendly party decoration ideas Avoid balloons with these environmentally friendly alternatives. Read"
           },
           {
-            "tag": "h3",
-            "text": "Make My Shave"
+            "tag": "div",
+            "text": "Living With Kids 15 Best Reusable Swim Nappies For Summer Be ready for the beach or pool with these reusable swim nappies. Read"
           },
           {
-            "tag": "p",
-            "text": "A sustainable lady razor subscription service. Is it a close shave?"
+            "tag": "div",
+            "text": "How To Have An Eco Friendly Baby Everything from baby showers to clothing and feeding to first birthdays. Read"
           },
           {
-            "tag": "h3",
-            "text": "Tirtyl"
+            "tag": "div",
+            "text": "How To Get Your Child Excited About Gardening Nurture a love of nature in your child right in your backyard. Read"
           },
           {
-            "tag": "p",
-            "text": "Plastic free foaming hand wash, laundry detergent &amp; dishwasher tabs."
+            "tag": "div",
+            "text": "Product Reviews Make My Shave A sustainable lady razor subscription service. Is it a close shave? Read"
           },
           {
-            "tag": "h3",
-            "text": "Zero Co"
+            "tag": "div",
+            "text": "Tirtyl Plastic free foaming hand wash, laundry detergent &amp; dishwasher tabs. Read"
           },
           {
-            "tag": "p",
-            "text": "Refillable cleaning and personal care products delivered to your door."
+            "tag": "div",
+            "text": "Zero Co Refillable cleaning and personal care products delivered to your door. Read"
           },
           {
-            "tag": "h3",
+            "tag": "div",
             "text": "Featured In:"
           },
           {
-            "tag": "h4",
+            "tag": "div",
             "text": "Get FREE colouring pages for your little eco warriors!"
           },
           {
-            "tag": "h4",
-            "text": "Yay!"
+            "tag": "div",
+            "text": "Yes please!"
           },
           {
-            "tag": "p",
-            "text": "Access your free colourin pages &nbsp; HERE ."
+            "tag": "span",
+            "text": "Loading&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Yay! Access your free colourin pages &nbsp; HERE ."
+          },
+          {
+            "tag": "div",
+            "text": "Search for:"
           },
           {
             "tag": "h2",
             "text": "Recent Posts"
           },
           {
+            "tag": "li",
+            "text": "8 Beautiful Visible Mending Ideas"
+          },
+          {
+            "tag": "li",
+            "text": "The Pros and Cons of Electric Bikes: A Detailed Guide"
+          },
+          {
+            "tag": "li",
+            "text": "No Spend Plastic Free July Challenge"
+          },
+          {
+            "tag": "li",
+            "text": "Skipper Review : Does It Really Work? (Formerly Tirtyl)"
+          },
+          {
+            "tag": "li",
+            "text": "10 Tips to Host the Ultimate Clothing Swap Party &#8211; Refresh Your Wardrobe For Free!"
+          },
+          {
             "tag": "h2",
             "text": "Categories"
+          },
+          {
+            "tag": "li",
+            "text": "Living Sustainably"
+          },
+          {
+            "tag": "li",
+            "text": "Living with Kids"
+          },
+          {
+            "tag": "li",
+            "text": "Recipes"
           },
           {
             "tag": "h2",
             "text": "Follow me on social media"
           },
           {
-            "tag": "p",
-            "text": "Instagram Facebook Pinterest Copyright © 2026 | My Green Toddler Contact"
+            "tag": "div",
+            "text": "Instagram Facebook Pinterest"
           },
           {
-            "tag": "p",
+            "tag": "div",
+            "text": "Copyright © 2026 | My Green Toddler"
+          },
+          {
+            "tag": "div",
+            "text": "Contact"
+          },
+          {
+            "tag": "div",
             "text": "Privacy Policy"
           },
           {
-            "tag": "p",
+            "tag": "div",
             "text": "Disclaimer"
           },
           {
+            "tag": "div",
+            "text": "Instagram Facebook Pinterest"
+          },
+          {
             "tag": "p",
-            "text": "Instagram Facebook Pinterest My Green Toddler acknowledges the traditional lands of the Whadjuk Noongar people and pays its respects to elders past present and emerging."
+            "text": "My Green Toddler acknowledges the traditional lands of the Whadjuk Noongar people and pays its respects to elders past present and emerging."
           }
         ],
         "structure_summary": {
@@ -493,7 +468,7 @@
       }
     },
     {
-      "route_id": "ROUTE-38AC3200",
+      "route_id": "ROUTE-E17F8FD2",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Unknown",
@@ -504,7 +479,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8A00B57A",
+      "route_id": "ROUTE-C2BDC29B",
       "path": "/category/sustainability/",
       "type": "Detected Link",
       "anchor_text": "Living Sustainably",
@@ -515,7 +490,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C36CDE5B",
+      "route_id": "ROUTE-C002388E",
       "path": "/category/living-with-kids/",
       "type": "Detected Link",
       "anchor_text": "Living with Kids",
@@ -526,7 +501,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-457ECC08",
+      "route_id": "ROUTE-D77D29A7",
       "path": "/category/recipes/",
       "type": "Detected Link",
       "anchor_text": "Recipes",
@@ -537,7 +512,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-C33C9705",
+      "route_id": "ROUTE-FA97CF85",
       "path": "/about/",
       "type": "Detected Link",
       "anchor_text": "About",
@@ -548,7 +523,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4CF0B552",
+      "route_id": "ROUTE-FCA78609",
       "path": "/",
       "type": "Detected Link",
       "anchor_text": "Contact",
@@ -559,7 +534,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-FD11D815",
+      "route_id": "ROUTE-2AD7EA90",
       "path": "/baby-kids-second-hand-clothes/",
       "type": "Detected Link",
       "anchor_text": "10 Baby &amp; Kids Second Hand Clothing Stores Online",
@@ -570,7 +545,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-4B113E49",
+      "route_id": "ROUTE-6A494F13",
       "path": "/eco-friendly-dishwasher-tablets/",
       "type": "Detected Link",
       "anchor_text": "6 Eco Friendly Dishwasher Tablets",
@@ -581,7 +556,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-84A06D3E",
+      "route_id": "ROUTE-2338A9E4",
       "path": "/waste-free-lunch-box/",
       "type": "Detected Link",
       "anchor_text": "25 Tips &amp; Recipes for Waste Free Lunch Boxes",
@@ -592,7 +567,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-713FF052",
+      "route_id": "ROUTE-490B1162",
       "path": "/sustainability-toddler-books/",
       "type": "Detected Link",
       "anchor_text": "10 Sustainability Picture Books For Toddlers",
@@ -603,7 +578,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-B6B4A21C",
+      "route_id": "ROUTE-C87D2EF2",
       "path": "/zero-co-review/",
       "type": "Detected Link",
       "anchor_text": "Zero Co Review &#8211; My Take On Every Product",
@@ -614,7 +589,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-29746B5E",
+      "route_id": "ROUTE-A6EE4A54",
       "path": "/second-hand-clothes-online/",
       "type": "Detected Link",
       "anchor_text": "20+ Places To Buy Second Hand Clothes Online",
@@ -625,7 +600,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-8BBDBAAD",
+      "route_id": "ROUTE-14A2AD92",
       "path": "/travel-cutlery-sets/",
       "type": "Detected Link",
       "anchor_text": "7 Best Travel Cutlery Sets",
@@ -636,7 +611,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-ABC0ECA7",
+      "route_id": "ROUTE-897A93FD",
       "path": "/australian-shampoo-bars/",
       "type": "Detected Link",
       "anchor_text": "13 Australian Shampoo Bars",
@@ -647,7 +622,7 @@
       "page_content": {}
     },
     {
-      "route_id": "ROUTE-114C60D3",
+      "route_id": "ROUTE-0302403D",
       "path": "/environmentally-friendly-balloons/",
       "type": "Detected Link",
       "anchor_text": "7 Eco friendly party decoration ideas",

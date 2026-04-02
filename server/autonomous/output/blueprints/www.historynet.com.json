@@ -1,0 +1,713 @@
+{
+  "website_blueprint_id": "BLUEPRINT-72C5A0A1",
+  "generated_at": "2026-04-02T05:39:31.414Z",
+  "global_configuration": {
+    "brand_name": "HistoryNet: Your Authoritative Source for U.S. &amp; World History",
+    "domain": "www.historynet.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "192.0.66.200",
+      "cdn_provider": "Unknown",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "nginx"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=300, must-revalidate",
+      "Content-Security-Policy": "Not Set",
+      "Server": "nginx"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 44,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/scripttemplates/otSDKStub.js",
+        "type": "script",
+        "full_url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+      },
+      {
+        "path": "/wp-content/client-mu-plugins/ads-boilerplate/dist/js/frontend.js",
+        "type": "script",
+        "full_url": "https://historynet.com/wp-content/client-mu-plugins/ads-boilerplate/dist/js/frontend.js?m=1770193380g"
+      },
+      {
+        "path": "/spm/spm.v1.min.js",
+        "type": "script",
+        "full_url": "https://ak.sail-horizon.com/spm/spm.v1.min.js?ver=6.9.4"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://historynet.com/_static/??-eJx9jEsKwkAQRC/kpFEkyUY8y2TSxg7zs7uH6O2dqAFxIRRULV49WLKh6HwZUWCuuRXkx6eaQLGZZQf/IBNoYqv4DbsUFaNC9mWiKKD2njKjiMmcwIqgClz4RY2rcdu/AueplgnFbCqx5PXKxSw0Tqjr+b0aKYM4pgGr5BxO+647toe279v5CSl1VbM="
+      },
+      {
+        "path": "/wp-content/themes/historynet/inc/jw-player/js/webcomponents-loader.js",
+        "type": "script",
+        "full_url": "https://historynet.com/wp-content/themes/historynet/inc/jw-player/js/webcomponents-loader.js"
+      },
+      {
+        "path": "/gtm.js",
+        "type": "script",
+        "full_url": "https://www.googletagmanager.com/gtm.js?id=GTM-56SRRTV"
+      },
+      {
+        "path": "/historynet-login/index.mjs",
+        "type": "script",
+        "full_url": "https://d1voyiv1eh2vzr.cloudfront.net/historynet-login/index.mjs"
+      },
+      {
+        "path": "/embed/frame-v1.js",
+        "type": "script",
+        "full_url": "https://play.pod.co/embed/frame-v1.js"
+      },
+      {
+        "path": "/tag/js/gpt.js",
+        "type": "script",
+        "full_url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js?ver=0.1.1"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://historynet.com/_static/??/wp-content/themes/historynet/js/prebid/prebid6.10.0.js,/wp-content/client-mu-plugins/coblocks/dist/js/coblocks-animation.js,/wp-includes/js/dist/hooks.min.js?m=1774626885j"
+      },
+      {
+        "path": "/wp-includes/js/dist/i18n.min.js",
+        "type": "script",
+        "full_url": "https://historynet.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
+      },
+      {
+        "path": "/wp-content/mu-plugins/wp-parsely-3.22/build/loader.js",
+        "type": "script",
+        "full_url": "https://historynet.com/wp-content/mu-plugins/wp-parsely-3.22/build/loader.js?ver=ecf94842061bea03d54b"
+      },
+      {
+        "path": "/keys/historynet.com/p.js",
+        "type": "script",
+        "full_url": "https://cdn.parsely.com/keys/historynet.com/p.js?ver=3.22.1"
+      },
+      {
+        "path": "/beacon.js",
+        "type": "script",
+        "full_url": "https://sb.scorecardresearch.com/beacon.js"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://historynet.com/_static/??/wp-content/themes/historynet/dist/js/frontend.js,/wp-content/themes/newspack-theme/js/dist/amp-fallback.js?m=1770193619j"
+      },
+      {
+        "path": "/e-202614.js",
+        "type": "script",
+        "full_url": "https://stats.wp.com/e-202614.js"
+      },
+      {
+        "path": "/_static/",
+        "type": "script",
+        "full_url": "https://historynet.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-content/client-mu-plugins/newspack-blocks/dist/homepage-articles/view.js?m=1774626885j"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/cropped-Historynet-main-logo.png",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2022/02/cropped-Historynet-main-logo.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/02/Historynet-favicon.png",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2022/02/Historynet-favicon.png"
+      },
+      {
+        "path": "/wp-content/uploads/2023/01/Billy-The-Kid-Young.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/01/Billy-The-Kid-Young.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2020/09/MHQP-200700-DELISCU-01-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2020/09/MHQP-200700-DELISCU-01-scaled.jpg?w=1200&amp;h=1200&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/pashtun-soldier-khyber-pass-afghanistana-pakistan-mh-autumn-2023.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/08/pashtun-soldier-khyber-pass-afghanistana-pakistan-mh-autumn-2023.jpg?w=800&amp;h=800&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/buzz-aldrin-moon-mh-spring-2024.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2024/02/buzz-aldrin-moon-mh-spring-2024.jpg?w=800&amp;h=800&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/12-OClock-still-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2024/02/12-OClock-still-scaled.jpg?w=1200&amp;h=1200&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2017/06/Horton-1200_480.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2017/06/Horton-1200_480.jpg?w=400&amp;h=400&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2020/07/Chamberlain-.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2020/07/Chamberlain-.jpg?w=400&amp;h=300&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2021/09/Iwo-Jima-Flag-Raising.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2021/09/Iwo-Jima-Flag-Raising.jpg?w=800&amp;h=600&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2013/05/German-Soldiers-Kharkov-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2013/05/German-Soldiers-Kharkov-scaled.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2016/02/REVIEWS_MHQ_TIDE_960x640.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2016/02/REVIEWS_MHQ_TIDE_960x640.jpg?w=800&amp;h=600&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2024/02/navy-arms-replica-revolver-ww-spring-2024-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2024/02/navy-arms-replica-revolver-ww-spring-2024-scaled.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/06/MiG-Panther.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/06/MiG-Panther.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/Douglas-C-47-Skytrain-mh-summer-2023.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/05/Douglas-C-47-Skytrain-mh-summer-2023.jpg?w=800&amp;h=600&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/05/computers-vietnam-VIEP-summer-2023.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/05/computers-vietnam-VIEP-summer-2023.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/03/bullard-single-shot-rifle-ww-spring-2023-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/03/bullard-single-shot-rifle-ww-spring-2023-scaled.jpg?w=800&amp;h=600&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2017/07/Matthew-Ridgeway.png",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2017/07/Matthew-Ridgeway.png?w=400&amp;h=400&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2009/01/Omar-Bradley-1.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2009/01/Omar-Bradley-1.jpg?w=400&amp;h=300&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2006/06/Raymond-Spruance-e1702907971556.jpeg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2006/06/Raymond-Spruance-e1702907971556.jpeg?w=800&amp;h=600&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2021/12/George-Patton-e1711902044966.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2021/12/George-Patton-e1711902044966.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/09/invisible-ink-04.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/09/invisible-ink-04.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2023/08/napoleon-battle-friedland-1807-mh-autumn-2023-1024x884.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2023/08/napoleon-battle-friedland-1807-mh-autumn-2023-1024x884.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2015/07/embattled-banner-featured-image.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2015/07/embattled-banner-featured-image.jpg?w=400&amp;h=300&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2018/08/1488px-Bundesarchiv_Bild_183-1987-0703-507_Berlin_Reichstagssitzung_Rede_Adolf_Hitler.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2018/08/1488px-Bundesarchiv_Bild_183-1987-0703-507_Berlin_Reichstagssitzung_Rede_Adolf_Hitler.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2022/01/Cotton-first-scaled.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2022/01/Cotton-first-scaled.jpg?w=1200&amp;h=900&amp;crop=1"
+      },
+      {
+        "path": "/wp-content/uploads/2017/07/Graves_Units_2000x577.jpg",
+        "type": "image",
+        "full_url": "https://historynet.com/wp-content/uploads/2017/07/Graves_Units_2000x577.jpg?w=400&amp;h=300&amp;crop=1"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "HistoryNet: Your Authoritative Source for U.S. &amp; World History",
+        "description": "Search our archive of 5,000+ features, photo galleries and articles on U.S. &amp; world history, from wars and major events to today&#039;s hot topics.",
+        "canonical": "https://www.historynet.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "920ms"
+        },
+        {
+          "resource": "otSDKStub.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "frontend.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "spm.v1.min.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Untitled",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Don&#8217;t Blame Billy the Kid&#8217;s Mom for His Outlaw Lifestyle—He Was Always Going to Be Bad",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Killer Instinct: How One Man Taught U.S. Rangers to Fight Dirty in WWII",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "How This Subterranean Logistics Base in Afghanistan Bedeviled Soviet Invaders",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "span",
+            "text": "Search for:"
+          },
+          {
+            "tag": "p",
+            "text": "The most comprehensive and authoritative history site on the Internet."
+          },
+          {
+            "tag": "div",
+            "text": "Subscribe Now"
+          },
+          {
+            "tag": "div",
+            "text": "Open Search Search for: Search"
+          },
+          {
+            "tag": "h2",
+            "text": "Killer Instinct: How One Man Taught U.S. Rangers to Fight Dirty in WWII"
+          },
+          {
+            "tag": "div",
+            "text": "Feature"
+          },
+          {
+            "tag": "h2",
+            "text": "How This Subterranean Logistics Base in Afghanistan Bedeviled Soviet Invaders"
+          },
+          {
+            "tag": "h2",
+            "text": "Yes, Buzz Aldrin Walked on the Moon But We Asked Him About His Fighter Jock Days"
+          },
+          {
+            "tag": "div",
+            "text": "Stories"
+          },
+          {
+            "tag": "h2",
+            "text": "If You Like the B-17s in Masters of the Air, You’ll Love These Movies"
+          },
+          {
+            "tag": "div",
+            "text": "Our Podcast"
+          },
+          {
+            "tag": "div",
+            "text": "watch more"
+          },
+          {
+            "tag": "div",
+            "text": "What If&#8230;? More what if stories"
+          },
+          {
+            "tag": "div",
+            "text": "What If?"
+          },
+          {
+            "tag": "h2",
+            "text": "What If the Nazis Had Actually Built the Horten HO-229 Jet Flying Wing?"
+          },
+          {
+            "tag": "p",
+            "text": "The Horten Ho-229 has been the subject of more speculation and myths than any other World War II airplane."
+          },
+          {
+            "tag": "h2",
+            "text": "What If Britain Had Made Peace With Hitler?"
+          },
+          {
+            "tag": "div",
+            "text": "What If?"
+          },
+          {
+            "tag": "h2",
+            "text": "What If the Marines Had Skipped Iwo Jima?"
+          },
+          {
+            "tag": "div",
+            "text": "What If?"
+          },
+          {
+            "tag": "h2",
+            "text": "What If Hitler Had Defeated the Soviet Union?"
+          },
+          {
+            "tag": "div",
+            "text": "What If?"
+          },
+          {
+            "tag": "h2",
+            "text": "What If the U.S. Had Invaded a Japanese Home Island?"
+          },
+          {
+            "tag": "div",
+            "text": "Weapons &amp; Gear More weapons &amp; gear"
+          },
+          {
+            "tag": "h2",
+            "text": "Buffalo Bill&#8217;s Tours of Italy and the &#8216;Spaghetti Western&#8217; Inspired Replica Old West Firearms"
+          },
+          {
+            "tag": "p",
+            "text": "Rifles and revolvers made by Uberti, Pietta, Pedersoli and other Italian firms remain popular."
+          },
+          {
+            "tag": "div",
+            "text": "Stories"
+          },
+          {
+            "tag": "h2",
+            "text": "How to Build Royce Williams’ MiG-Killing Panther"
+          },
+          {
+            "tag": "div",
+            "text": "Weapons &amp; Gear Manual"
+          },
+          {
+            "tag": "h2",
+            "text": "The Workhorse of the Berlin Airlift, the Douglas C-47 Saw Service Through Vietnam"
+          },
+          {
+            "tag": "div",
+            "text": "Stories"
+          },
+          {
+            "tag": "h2",
+            "text": "The FADAC Was Used to Calculate Artillery Firing Data. Was it One of the First Personal Computers?"
+          },
+          {
+            "tag": "div",
+            "text": "Weapons &amp; Gear Manual"
+          },
+          {
+            "tag": "h2",
+            "text": "Bullard Rifles Were Popular, But Were Too Expensive and Took Too Long to Make"
+          },
+          {
+            "tag": "div",
+            "text": "HistoryNet Archives: Best U.S. General?"
+          },
+          {
+            "tag": "h2",
+            "text": "The Man Who Saved Korea"
+          },
+          {
+            "tag": "p",
+            "text": "Matthew B. Ridgway, who brought a beaten Eighth Army back from disaster in 1951, was a thinking—and fighting—man&#8217;s soldier."
+          },
+          {
+            "tag": "div",
+            "text": "Stories"
+          },
+          {
+            "tag": "h2",
+            "text": "Omar Bradley, the General&#8217;s General"
+          },
+          {
+            "tag": "div",
+            "text": "Feature"
+          },
+          {
+            "tag": "h2",
+            "text": "Admiral Raymond A. Spruance: Modest Victor of Midway"
+          },
+          {
+            "tag": "div",
+            "text": "Feature"
+          },
+          {
+            "tag": "h2",
+            "text": "Patton and the Battle of the Bulge: &#8216;As soon as you’re through with me, I can attack the day after tomorrow morning&#8217;"
+          },
+          {
+            "tag": "div",
+            "text": "Feature"
+          },
+          {
+            "tag": "h2",
+            "text": "George Washington Needed to Keep His Spies Hidden. So He Financed a Secret Lab For Invisible Ink."
+          },
+          {
+            "tag": "div",
+            "text": "EDITORS&#8217; PICKS In 1807 a French Officer Field-Tested an Artillery Tactic That Remained Decisive for More Than a Century The breakthrough came during the Battle of Friedland, the victory that decided the War of the Fourth Coalition in Napoleon&#8217;s favor. Read MORE"
+          },
+          {
+            "tag": "div",
+            "text": "Napoléon knew the moment to strike his Russian foe, but his victory was a credit to an innovative reserve artillery officer. (Château de Versailles)"
+          },
+          {
+            "tag": "div",
+            "text": "What If Hitler Had Won World War II?"
+          },
+          {
+            "tag": "div",
+            "text": "Sid Cotton’s Air Force was an early &#8216;eye in the sky&#8217; for Britain&#8217;s Intelligence Service"
+          },
+          {
+            "tag": "div",
+            "text": "Haunted by the Dead: Grave Digging in WWII was a Job No Soldier Wanted"
+          },
+          {
+            "tag": "div",
+            "text": "“History is a guide to navigation in perilous times. History is who we are and why we are the way we are.” David McCullough, author of “1776”"
+          },
+          {
+            "tag": "div",
+            "text": "HistoryNet.com is brought to you by HistoryNet LLC, the world’s largest publisher of history magazines . HistoryNet.com contains daily features, photo galleries and over 25,000 articles originally published in our nine magazines."
+          },
+          {
+            "tag": "h2",
+            "text": "Our Magazines"
+          },
+          {
+            "tag": "div",
+            "text": "American History America’s Civil War Aviation History Civil War Times Military History Military History Quarterly Vietnam Wild West World War II"
+          },
+          {
+            "tag": "h2",
+            "text": "About Us"
+          },
+          {
+            "tag": "div",
+            "text": "What Is HistoryNet.com? Advertise With Us Careers Meet Our Staff!"
+          },
+          {
+            "tag": "h2",
+            "text": "Stay Curious"
+          },
+          {
+            "tag": "div",
+            "text": "Subscribe to receive our weekly newsletter with top stories from master historians. sign me up!"
+          },
+          {
+            "tag": "div",
+            "text": "&copy; 2026 HistoryNet. Privacy Policy Terms of Service"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 76,
+          "headings": 32,
+          "images": 28
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-49A187D0",
+      "path": "/today-in-history/",
+      "type": "Detected Link",
+      "anchor_text": "Today In History",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E91609C1",
+      "path": "/event/american-revolution/",
+      "type": "Detected Link",
+      "anchor_text": "American Revolution",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-57921B5F",
+      "path": "/event/americas-civil-war/",
+      "type": "Detected Link",
+      "anchor_text": "The Civil War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-914D74C1",
+      "path": "/event/world-war-i",
+      "type": "Detected Link",
+      "anchor_text": "World War I",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3CF0F32E",
+      "path": "/event/world-war-ii/",
+      "type": "Detected Link",
+      "anchor_text": "World War II",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-A19BEE38",
+      "path": "/event/cold-war",
+      "type": "Detected Link",
+      "anchor_text": "Cold War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E8D6DB6E",
+      "path": "/event/korean-war",
+      "type": "Detected Link",
+      "anchor_text": "Korean War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F2D7D7D3",
+      "path": "/event/vietnam-war",
+      "type": "Detected Link",
+      "anchor_text": "Vietnam War",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0FB1DF16",
+      "path": "/event/global-war-on-terror/",
+      "type": "Detected Link",
+      "anchor_text": "Global War on Terror",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9E825541",
+      "path": "/topic/women/",
+      "type": "Detected Link",
+      "anchor_text": "Women&#8217;s Rights",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-30DC4189",
+      "path": "/event/civil-rights-movement/",
+      "type": "Detected Link",
+      "anchor_text": "Civil Rights",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-BFC23011",
+      "path": "/event/abolition-of-slavery/",
+      "type": "Detected Link",
+      "anchor_text": "Abolition of Slavery",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E3C7668E",
+      "path": "/people/u-s-presidents/",
+      "type": "Detected Link",
+      "anchor_text": "U.S. Presidents",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5C2B3B76",
+      "path": "/people/world-leaders/",
+      "type": "Detected Link",
+      "anchor_text": "World Leaders",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-69B23D79",
+      "path": "/people/military-leaders/",
+      "type": "Detected Link",
+      "anchor_text": "Military Leaders",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -1,0 +1,3059 @@
+{
+  "website_blueprint_id": "BLUEPRINT-30221B7F",
+  "generated_at": "2026-04-02T05:35:13.206Z",
+  "global_configuration": {
+    "brand_name": "Visible",
+    "domain": "www.datacamp.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "172.64.144.94",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "public, s-maxage=93600, stale-while-revalidate=600",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 54,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      },
+      {
+        "path": "/_next/static/chunks/59922-ca82e2055a0b9a33.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/59922-ca82e2055a0b9a33.js"
+      },
+      {
+        "path": "/_next/static/chunks/7798-2575efc464a9996d.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/7798-2575efc464a9996d.js"
+      },
+      {
+        "path": "/_next/static/chunks/47416-e2aefba008e9f696.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/47416-e2aefba008e9f696.js"
+      },
+      {
+        "path": "/_next/static/chunks/71900-11044b1fcc22ae9a.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/71900-11044b1fcc22ae9a.js"
+      },
+      {
+        "path": "/_next/static/chunks/63998-ab789f3347b95543.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/63998-ab789f3347b95543.js"
+      },
+      {
+        "path": "/_next/static/chunks/19292.251e7a88e14c7a13.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/19292.251e7a88e14c7a13.js"
+      },
+      {
+        "path": "/_next/static/chunks/85832.e33c238b73916a2b.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/85832.e33c238b73916a2b.js"
+      },
+      {
+        "path": "/_next/static/chunks/74001.8cb618053d42a883.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/74001.8cb618053d42a883.js"
+      },
+      {
+        "path": "/_next/static/chunks/86589.4b548064c6470ac8.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/86589.4b548064c6470ac8.js"
+      },
+      {
+        "path": "/_next/static/chunks/72815.6be2a1b466dd4244.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/72815.6be2a1b466dd4244.js"
+      },
+      {
+        "path": "/_next/static/chunks/8096.6771de04b403da70.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/8096.6771de04b403da70.js"
+      },
+      {
+        "path": "/_next/static/chunks/85028-b2d851d3d5d84199.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/85028-b2d851d3d5d84199.js"
+      },
+      {
+        "path": "/_next/static/chunks/63619.179a12bed81cbd31.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/63619.179a12bed81cbd31.js"
+      },
+      {
+        "path": "/_next/static/chunks/webpack-a4c46a1720ba4ecf.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/webpack-a4c46a1720ba4ecf.js"
+      },
+      {
+        "path": "/_next/static/chunks/framework-14a02dd5e036ebf0.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js"
+      },
+      {
+        "path": "/_next/static/chunks/main-38e6476f0841e6bd.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/main-38e6476f0841e6bd.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/_app-3372ce333f2633dd.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/pages/_app-3372ce333f2633dd.js"
+      },
+      {
+        "path": "/_next/static/chunks/45981-39cfa9cd4b703f9f.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/45981-39cfa9cd4b703f9f.js"
+      },
+      {
+        "path": "/_next/static/chunks/53776-2f4963b7b278a421.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/53776-2f4963b7b278a421.js"
+      },
+      {
+        "path": "/_next/static/chunks/6943-8fa4afffd90dea16.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/6943-8fa4afffd90dea16.js"
+      },
+      {
+        "path": "/_next/static/chunks/46197-07449cd8a22fe01d.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/46197-07449cd8a22fe01d.js"
+      },
+      {
+        "path": "/_next/static/chunks/10648-dcd65c77d31f246e.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/10648-dcd65c77d31f246e.js"
+      },
+      {
+        "path": "/_next/static/chunks/85756-62745a2b54657720.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/85756-62745a2b54657720.js"
+      },
+      {
+        "path": "/_next/static/chunks/21809-cfb784d0373a0369.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/21809-cfb784d0373a0369.js"
+      },
+      {
+        "path": "/_next/static/chunks/15476-2487a6759ad1da30.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/15476-2487a6759ad1da30.js"
+      },
+      {
+        "path": "/_next/static/chunks/41009-5e965c6be1733afe.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/41009-5e965c6be1733afe.js"
+      },
+      {
+        "path": "/_next/static/chunks/41089-bc49a2bfeaf45ea5.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/41089-bc49a2bfeaf45ea5.js"
+      },
+      {
+        "path": "/_next/static/chunks/pages/index-cbaf5334897dfcf7.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/chunks/pages/index-cbaf5334897dfcf7.js"
+      },
+      {
+        "path": "/_next/static/u-6lZ_ra-sBayWJxZ_00E/_buildManifest.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/u-6lZ_ra-sBayWJxZ_00E/_buildManifest.js"
+      },
+      {
+        "path": "/_next/static/u-6lZ_ra-sBayWJxZ_00E/_ssgManifest.js",
+        "type": "script",
+        "full_url": "https://www.datacamp.com/_next/static/u-6lZ_ra-sBayWJxZ_00E/_ssgManifest.js"
+      },
+      {
+        "path": "/_next/static/css/524465260040063c.css",
+        "type": "stylesheet",
+        "full_url": "https://www.datacamp.com/_next/static/css/524465260040063c.css"
+      },
+      {
+        "path": "/cms/state-of-data--ai-literacy-2026-cover-thumbnail.png",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/state-of-data--ai-literacy-2026-cover-thumbnail.png?w=640"
+      },
+      {
+        "path": "/cms/photo-personas-one.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/photo-personas-one.webp?w=3840"
+      },
+      {
+        "path": "/cms/photo-personas-two.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/photo-personas-two.webp?w=3840"
+      },
+      {
+        "path": "/cms/photo-personas-three.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/photo-personas-three.webp?w=3840"
+      },
+      {
+        "path": "/cms/mobile-alt-01.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/mobile-alt-01.webp?w=750"
+      },
+      {
+        "path": "/assets.datacamp.com/email/slide-one.avif",
+        "type": "image",
+        "full_url": "https://s3.us-east-1.amazonaws.com/assets.datacamp.com/email/slide-one.avif?w=828"
+      },
+      {
+        "path": "/assets.datacamp.com/email/slide-three.avif",
+        "type": "image",
+        "full_url": "https://s3.us-east-1.amazonaws.com/assets.datacamp.com/email/slide-three.avif?w=1080"
+      },
+      {
+        "path": "/cms/leondra-gonzalez-square.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/leondra-gonzalez-square.webp?w=384"
+      },
+      {
+        "path": "/cms/daniel-tedesco-square.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/daniel-tedesco-square.webp?w=384"
+      },
+      {
+        "path": "/cms/aaren-subberfield-square.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/aaren-subberfield-square.webp?w=384"
+      },
+      {
+        "path": "/cms/kevin-barlow-square.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/kevin-barlow-square.webp?w=384"
+      },
+      {
+        "path": "/cms/ai-callout-figure-dark.png",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/ai-callout-figure-dark.png?w=1080"
+      },
+      {
+        "path": "/cms/mobile-themed-desktop.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/mobile-themed-desktop.webp?w=3840"
+      },
+      {
+        "path": "/cms/mobile-themed-devices.png",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/mobile-themed-devices.png?w=3840"
+      },
+      {
+        "path": "/cms/certification-cards-home-experiment.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/certification-cards-home-experiment.webp?w=3840"
+      },
+      {
+        "path": "/legacy/v1645612557/gabriel_65ad395c52.jpg",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/legacy/v1645612557/gabriel_65ad395c52.jpg?w=96"
+      },
+      {
+        "path": "/cms/ebuka-nwafornso.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/ebuka-nwafornso.webp?w=96"
+      },
+      {
+        "path": "/legacy/v1647785054/rachel_98e7a2f445.jpg",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/legacy/v1647785054/rachel_98e7a2f445.jpg?w=96"
+      },
+      {
+        "path": "/legacy/v1647787856/sarah_172dea5b40.jpg",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/legacy/v1647787856/sarah_172dea5b40.jpg?w=96"
+      },
+      {
+        "path": "/legacy/v1647786648/ofentswe_23b96c8015.jpg",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/legacy/v1647786648/ofentswe_23b96c8015.jpg?w=96"
+      },
+      {
+        "path": "/legacy/v1647374473/devon_e7182495f8.jpg",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/legacy/v1647374473/devon_e7182495f8.jpg?w=96"
+      },
+      {
+        "path": "/cms/photo-educators-home.webp",
+        "type": "image",
+        "full_url": "https://media.datacamp.com/cms/photo-educators-home.webp?w=3840"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Visible",
+        "description": "",
+        "canonical": "https://www.datacamp.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "324ms"
+        },
+        {
+          "resource": "polyfills-42372ed130431b0a.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "59922-ca82e2055a0b9a33.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "7798-2575efc464a9996d.js",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Learn data and AI skills",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Create Your Free Account",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Tailored data and AI upskilling for your business",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "A path for every goal",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Introduction to Alteryx"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to R"
+          },
+          {
+            "tag": "li",
+            "text": "Learn ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Learn Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Foundations of Git"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Relational Databases in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Statistics in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Data-Driven Decision Making for Business"
+          },
+          {
+            "tag": "li",
+            "text": "See all Intermediate courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Data Engineering"
+          },
+          {
+            "tag": "li",
+            "text": "Reporting in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Deep Learning with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Data-Driven Decision Making in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Statistics in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Statistics in R"
+          },
+          {
+            "tag": "li",
+            "text": "Statistical Techniques in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Supervised Learning with scikit-learn"
+          },
+          {
+            "tag": "li",
+            "text": "Python Toolbox"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Natural Language Processing in R"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Data Modeling in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Cleaning Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "See all Advanced courses"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning for Images with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to dbt"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to MLflow"
+          },
+          {
+            "tag": "li",
+            "text": "Reinforcement Learning with Gymnasium in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Apache Airflow in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Feature Engineering with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning for Time Series Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to LLMs in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Big Data Fundamentals with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Monitoring Machine Learning in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Object-Oriented Programming in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning with caret in R"
+          },
+          {
+            "tag": "li",
+            "text": "Data Engineering See Data Engineering Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Data Engineering"
+          },
+          {
+            "tag": "li",
+            "text": "Database Design"
+          },
+          {
+            "tag": "li",
+            "text": "Data Warehousing Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to dbt"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Apache Airflow in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to NoSQL"
+          },
+          {
+            "tag": "li",
+            "text": "Monitoring Machine Learning Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis See Data Analysis Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Exploratory Data Analysis in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Exploratory Data Analysis in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Exploratory Data Analysis in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Exploratory Data Analysis in R"
+          },
+          {
+            "tag": "li",
+            "text": "Bayesian Data Analysis in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Fundamentals of Data Analysis in R"
+          },
+          {
+            "tag": "li",
+            "text": "Software Development See all courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Docker"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Object-Oriented Programming in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to APIs in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Python for Developers"
+          },
+          {
+            "tag": "li",
+            "text": "Python Toolbox"
+          },
+          {
+            "tag": "li",
+            "text": "Software Engineering Principles in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Monitoring Machine Learning Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Developing AI Systems with the OpenAI API"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Testing in Python"
+          },
+          {
+            "tag": "li",
+            "text": "See all Data Preparation courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Importing Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Importing Data in R"
+          },
+          {
+            "tag": "li",
+            "text": "Cleaning Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Cleaning Data in R"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "See all Data Manipulation courses"
+          },
+          {
+            "tag": "li",
+            "text": "Joining Data in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation with pandas"
+          },
+          {
+            "tag": "li",
+            "text": "Data Transformation in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate DAX in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Probability &amp; Statistics See all courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Statistics in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Sampling in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Experimental Design in Python"
+          },
+          {
+            "tag": "li",
+            "text": "A/B Testing in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Foundations of Probability in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Survey Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Bayesian Data Analysis in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Statistics in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Regression in R"
+          },
+          {
+            "tag": "li",
+            "text": "Cloud See Cloud Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Cloud Computing"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure Architecture and Services"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure Architecture and Services"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Cloud Technology and Services"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to AWS Boto in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming Data with AWS Kinesis and Lambda"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Security and Cost Management"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence (AI) See all AI Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to AI for Work"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Prompt Engineering"
+          },
+          {
+            "tag": "li",
+            "text": "Generative AI Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Artificial Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Large Language Models (LLMs) Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Working with the OpenAI API"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Deep Learning with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Developing LLM Applications with LangChain"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning See Machine Learning Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning for Business"
+          },
+          {
+            "tag": "li",
+            "text": "Supervised Learning with scikit-learn"
+          },
+          {
+            "tag": "li",
+            "text": "Unsupervised Learning in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning with Tree-Based Models in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Natural Language Processing with spaCy"
+          },
+          {
+            "tag": "li",
+            "text": "Ensemble Methods in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Deep Learning with PyTorch"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization See Data Visualization courses"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization for Everyone"
+          },
+          {
+            "tag": "li",
+            "text": "Learn Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in R"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Data Visualization with Seaborn"
+          },
+          {
+            "tag": "li",
+            "text": "Creating Dashboards in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Interactive Data Visualization with plotly in R"
+          },
+          {
+            "tag": "li",
+            "text": "See all Applied Finance courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Python for Finance"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to R for Finance"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Portfolio Risk Management in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Financial Trading in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Financial Modeling in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Quantitative Risk Management in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Credit Risk Modeling in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Financial Analytics in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Importing and Managing Financial Data in Python"
+          },
+          {
+            "tag": "li",
+            "text": "See all Reporting courses"
+          },
+          {
+            "tag": "li",
+            "text": "Reporting with R Markdown"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Business Data in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Communication Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Reporting in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Building Dashboards with shinydashboard"
+          },
+          {
+            "tag": "li",
+            "text": "Case Studies: Building Web Applications with Shiny in R"
+          },
+          {
+            "tag": "li",
+            "text": "Building Dashboards with flexdashboard"
+          },
+          {
+            "tag": "li",
+            "text": "Report Design in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Career &amp; Skill Tracks See all Skill Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Microsoft Azure Fundamentals (AZ-900)"
+          },
+          {
+            "tag": "li",
+            "text": "Python Data Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "SQL Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "R Programming Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "AI Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning Fundamentals with Python"
+          },
+          {
+            "tag": "li",
+            "text": "Power BI Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Data Literacy"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation with R"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation with Python"
+          },
+          {
+            "tag": "li",
+            "text": "Marketing Analytics"
+          },
+          {
+            "tag": "li",
+            "text": "See all Career Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Associate Data Scientist in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Associate Data Analyst in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analyst with Python"
+          },
+          {
+            "tag": "li",
+            "text": "Associate AI Engineer"
+          },
+          {
+            "tag": "li",
+            "text": "Associate Data Scientist in R"
+          },
+          {
+            "tag": "li",
+            "text": "Associate Data Analyst in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Engineer in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analyst with Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Python Developer"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analyst with R"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning Scientist with Python"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning Scientist with R"
+          },
+          {
+            "tag": "li",
+            "text": "Python See Python Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Python"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Python"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Functions in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Writing Efficient Python Code"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Python for Finance"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Python Data Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Python Programming Toolbox"
+          },
+          {
+            "tag": "li",
+            "text": "Python Developer"
+          },
+          {
+            "tag": "li",
+            "text": "Importing &amp; Cleaning Data with Python"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning Fundamentals with Python"
+          },
+          {
+            "tag": "li",
+            "text": "R See R Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to R"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to the Tidyverse"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate R"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation with dplyr"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Data Visualization with ggplot2"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Importing &amp; Cleaning Data with R"
+          },
+          {
+            "tag": "li",
+            "text": "Tidyverse Fundamentals with R"
+          },
+          {
+            "tag": "li",
+            "text": "Shiny Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization with R"
+          },
+          {
+            "tag": "li",
+            "text": "SQL See SQL Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to SQL Server"
+          },
+          {
+            "tag": "li",
+            "text": "Joining Data in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Relational Databases in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Reporting in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "SQL Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "SQL Server Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "SQL for Business Analysts"
+          },
+          {
+            "tag": "li",
+            "text": "SQL for Database Administrators"
+          },
+          {
+            "tag": "li",
+            "text": "SQL Server for Database Administrators"
+          },
+          {
+            "tag": "li",
+            "text": "Power BI See Power BI Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "DAX Functions in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Data Modelling in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Exploratory Data Analysis in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Reports in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation in Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Tableau See Tableau Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Tableau Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Data in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Creating Dashboards in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Connecting Data in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Statistical Techniques in Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "See Excel Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Power Pivot in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in Excel"
+          },
+          {
+            "tag": "li",
+            "text": "See Google Sheets Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analysis in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Pivot Tables in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization in Google Sheets"
+          },
+          {
+            "tag": "li",
+            "text": "ChatGPT &amp; OpenAI See AI Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "Working with the OpenAI API"
+          },
+          {
+            "tag": "li",
+            "text": "ChatGPT Prompt Engineering for Developers"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Embeddings with the OpenAI API"
+          },
+          {
+            "tag": "li",
+            "text": "Azure See Azure Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure Architecture and Services"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding Microsoft Azure Management and Governance"
+          },
+          {
+            "tag": "li",
+            "text": "AWS See AWS Courses"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Cloud Technology and Services"
+          },
+          {
+            "tag": "li",
+            "text": "AWS Security and Cost Management"
+          },
+          {
+            "tag": "li",
+            "text": "Streaming Data with AWS Kinesis and Lambda"
+          },
+          {
+            "tag": "li",
+            "text": "Google Cloud See Google Cloud Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to GCP"
+          },
+          {
+            "tag": "li",
+            "text": "Java See Java Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Java"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Java"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Object-Oriented Programming in Java"
+          },
+          {
+            "tag": "li",
+            "text": "Data Types and Exceptions in Java"
+          },
+          {
+            "tag": "li",
+            "text": "Input/Output and Streams in Java"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Java Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "See Docker Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Containerization and Virtualization Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Docker"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Kubernetes"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Docker"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Containerization and Virtualization with Docker and Kubernetes"
+          },
+          {
+            "tag": "li",
+            "text": "See Git Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Learn Git"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate Git"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to GitHub Concepts"
+          },
+          {
+            "tag": "li",
+            "text": "See Shell Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Shell"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Bash Scripting"
+          },
+          {
+            "tag": "li",
+            "text": "Data Processing in Shell"
+          },
+          {
+            "tag": "li",
+            "text": "CI/CD for Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Alteryx See Alteryx Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Alteryx"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preparation in Alteryx"
+          },
+          {
+            "tag": "li",
+            "text": "Data Transformation in Alteryx"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation in Alteryx"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Alteryx Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Snowflake See Snowflake Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Snowflake"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Snowflake SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Manipulation in Snowflake"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Data Modeling in Snowflake"
+          },
+          {
+            "tag": "li",
+            "text": "See Tracks"
+          },
+          {
+            "tag": "li",
+            "text": "Snowflake Foundations"
+          },
+          {
+            "tag": "li",
+            "text": "Associate Data Engineer in Snowflake"
+          },
+          {
+            "tag": "li",
+            "text": "Spark &amp; dbt See Spark Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Big Data Fundamentals with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Cleaning Data with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to Spark SQL in Python"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "Building Recommendation Engines with PySpark"
+          },
+          {
+            "tag": "li",
+            "text": "See dbt Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Introduction to dbt"
+          },
+          {
+            "tag": "li",
+            "text": "Intermediate dbt"
+          },
+          {
+            "tag": "li",
+            "text": "Case Study: Building E-Commerce Data Models with dbt"
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Intelligence (AI)"
+          },
+          {
+            "tag": "li",
+            "text": "Business Intelligence"
+          },
+          {
+            "tag": "li",
+            "text": "Cloud"
+          },
+          {
+            "tag": "li",
+            "text": "Data Engineering"
+          },
+          {
+            "tag": "li",
+            "text": "AI Native"
+          },
+          {
+            "tag": "li",
+            "text": "Real-world Projects Exploring NYC Public School Test Result Scores"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Motorcycle Part Sales"
+          },
+          {
+            "tag": "li",
+            "text": "Investigating Netflix Movies"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Crime in Los Angeles"
+          },
+          {
+            "tag": "li",
+            "text": "Hypothesis Testing with Men&#x27;s and Women&#x27;s Soccer Matches"
+          },
+          {
+            "tag": "li",
+            "text": "Analyzing Unicorn Companies"
+          },
+          {
+            "tag": "li",
+            "text": "Code-Alongs Building AI Applications with LangChain and GPT"
+          },
+          {
+            "tag": "li",
+            "text": "Getting Started with the OpenAI API and ChatGPT"
+          },
+          {
+            "tag": "li",
+            "text": "SQL for Absolute Beginners"
+          },
+          {
+            "tag": "li",
+            "text": "Data Modeling in SQL"
+          },
+          {
+            "tag": "li",
+            "text": "Data Cleaning in Python"
+          },
+          {
+            "tag": "li",
+            "text": "DataLab Get Started"
+          },
+          {
+            "tag": "li",
+            "text": "Templates See all templates"
+          },
+          {
+            "tag": "li",
+            "text": "Create a Word Cloud"
+          },
+          {
+            "tag": "li",
+            "text": "Visualize a Heatmap"
+          },
+          {
+            "tag": "li",
+            "text": "Calculate Percent Changes, Lags, and Shifts on Time Series"
+          },
+          {
+            "tag": "li",
+            "text": "Find and Visualize Clusters with K-Means"
+          },
+          {
+            "tag": "li",
+            "text": "Analyze Multiple Time Series"
+          },
+          {
+            "tag": "li",
+            "text": "Network Analysis"
+          },
+          {
+            "tag": "li",
+            "text": "Sentiment Analysis Prediction"
+          },
+          {
+            "tag": "li",
+            "text": "Datasets See all datasets"
+          },
+          {
+            "tag": "li",
+            "text": "E-Commerce Data"
+          },
+          {
+            "tag": "li",
+            "text": "Google Play Store Apps"
+          },
+          {
+            "tag": "li",
+            "text": "Netflix Movie Data"
+          },
+          {
+            "tag": "li",
+            "text": "Measles Data"
+          },
+          {
+            "tag": "li",
+            "text": "Documentation What is DataLab?"
+          },
+          {
+            "tag": "li",
+            "text": "Getting Started"
+          },
+          {
+            "tag": "li",
+            "text": "Creating a Workspace"
+          },
+          {
+            "tag": "li",
+            "text": "Creating a Publication"
+          },
+          {
+            "tag": "li",
+            "text": "Support"
+          },
+          {
+            "tag": "li",
+            "text": "Sandbox Sandboxes"
+          },
+          {
+            "tag": "li",
+            "text": "Power BI"
+          },
+          {
+            "tag": "li",
+            "text": "Tableau"
+          },
+          {
+            "tag": "li",
+            "text": "Azure"
+          },
+          {
+            "tag": "li",
+            "text": "Python"
+          },
+          {
+            "tag": "li",
+            "text": "Python with OpenAI"
+          },
+          {
+            "tag": "li",
+            "text": "Python with Bedrock"
+          },
+          {
+            "tag": "li",
+            "text": "Python with Anthropic"
+          },
+          {
+            "tag": "li",
+            "text": "Competitions Exploring Netflix&#x27;s most popular content from its Top 10 charts"
+          },
+          {
+            "tag": "li",
+            "text": "How much of the world has access to the internet?"
+          },
+          {
+            "tag": "li",
+            "text": "Which countries produce and consume wine?"
+          },
+          {
+            "tag": "li",
+            "text": "Which tree species should the city plant?"
+          },
+          {
+            "tag": "li",
+            "text": "Understanding the local electricity market"
+          },
+          {
+            "tag": "li",
+            "text": "How can hospitals reduce readmissions?"
+          },
+          {
+            "tag": "li",
+            "text": "Improving the performance of an investment fund"
+          },
+          {
+            "tag": "li",
+            "text": "Certification Data Scientist"
+          },
+          {
+            "tag": "li",
+            "text": "Data Analyst"
+          },
+          {
+            "tag": "li",
+            "text": "Data Engineer"
+          },
+          {
+            "tag": "li",
+            "text": "SQL Associate"
+          },
+          {
+            "tag": "li",
+            "text": "Data Literacy"
+          },
+          {
+            "tag": "li",
+            "text": "AI Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Tableau Certified Data Analyst"
+          },
+          {
+            "tag": "li",
+            "text": "Power BI Data Analyst"
+          },
+          {
+            "tag": "li",
+            "text": "Azure Fundamentals"
+          },
+          {
+            "tag": "li",
+            "text": "Alteryx Designer Core"
+          },
+          {
+            "tag": "li",
+            "text": "Resources Upcoming Webinars See all webinars"
+          },
+          {
+            "tag": "li",
+            "text": "Unlocking Learning Insights with Data Connector 2.0"
+          },
+          {
+            "tag": "li",
+            "text": "Absolute Beginners Analysis of Chicago City Service Data"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning for Healthcare"
+          },
+          {
+            "tag": "li",
+            "text": "How to Get Hired as a Data Scientist"
+          },
+          {
+            "tag": "li",
+            "text": "Leading AI Automation at Scale"
+          },
+          {
+            "tag": "li",
+            "text": "Build a Competitor Research Bot with Claude Cowork"
+          },
+          {
+            "tag": "li",
+            "text": "Build an AI Content Research Agent with Claude Code &amp; Oracle AI Database"
+          },
+          {
+            "tag": "li",
+            "text": "Create a Secure HR AI Agent with Claude Code"
+          },
+          {
+            "tag": "li",
+            "text": "Past Webinars See all webinars"
+          },
+          {
+            "tag": "li",
+            "text": "Data Visualization Best Practices for Dashboards"
+          },
+          {
+            "tag": "li",
+            "text": "Making AI Work in Healthcare"
+          },
+          {
+            "tag": "li",
+            "text": "The State of Data &amp; AI Literacy in 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Governing Data to Govern AI"
+          },
+          {
+            "tag": "li",
+            "text": "Building Trustworthy AI Products"
+          },
+          {
+            "tag": "li",
+            "text": "Designing Trustworthy AI Products"
+          },
+          {
+            "tag": "li",
+            "text": "Build a Personal Brand To Help Your Career"
+          },
+          {
+            "tag": "li",
+            "text": "DataCamp Professional Services, Served"
+          },
+          {
+            "tag": "li",
+            "text": "Code Alongs See all code-alongs"
+          },
+          {
+            "tag": "li",
+            "text": "Create a Marketing Funnel with Excel + Copilot"
+          },
+          {
+            "tag": "li",
+            "text": "Context Engineering for AI Agents"
+          },
+          {
+            "tag": "li",
+            "text": "Evals for Agents with Arize"
+          },
+          {
+            "tag": "li",
+            "text": "Create a Financial AI Copilot"
+          },
+          {
+            "tag": "li",
+            "text": "Understand the AI Engineer&#x27;s Tech Stack"
+          },
+          {
+            "tag": "li",
+            "text": "Build a No-Code Email Personalization AI Workflow with Zapier"
+          },
+          {
+            "tag": "li",
+            "text": "Super Bowl Analytics with polars"
+          },
+          {
+            "tag": "li",
+            "text": "AI-Assisted SQL Joins"
+          },
+          {
+            "tag": "li",
+            "text": "Blog See all blog posts"
+          },
+          {
+            "tag": "li",
+            "text": "The Most Important AI Skills for 2026: A Practical AI and Data Literacy Framework"
+          },
+          {
+            "tag": "li",
+            "text": "Why Traditional AI Training Isn’t Working in 2026"
+          },
+          {
+            "tag": "li",
+            "text": "Attention Residuals Explained: Rethinking Transformer Depth"
+          },
+          {
+            "tag": "li",
+            "text": "What Is T-SQL? A Beginner’s Guide to Transact-SQL for SQL Server"
+          },
+          {
+            "tag": "li",
+            "text": "Composer 2: Benchmarks, Pricing, and How It Compares"
+          },
+          {
+            "tag": "li",
+            "text": "AI ROI in 2026: Why Workforce Capability Determines the Return on AI"
+          },
+          {
+            "tag": "li",
+            "text": "Open WebUI Setup Guide: Run Your Own ChatGPT-Style Interface Locally"
+          },
+          {
+            "tag": "li",
+            "text": "Anthropic vs. OpenAI: The Two AI Giants Compared"
+          },
+          {
+            "tag": "li",
+            "text": "Cheat Sheets See all cheat sheets"
+          },
+          {
+            "tag": "li",
+            "text": "Hugging Face Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "SQL with AI Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "AI Agents Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Azure CLI Cheat sheet"
+          },
+          {
+            "tag": "li",
+            "text": "LaTeX Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "PostgreSQL Basics Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Bash &amp; zsh Shell Terminal Basics Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Excel Shortcuts Cheat Sheet"
+          },
+          {
+            "tag": "li",
+            "text": "Tutorials See all tutorials"
+          },
+          {
+            "tag": "li",
+            "text": "Git Subtree Explained: A Practical Guide with Examples"
+          },
+          {
+            "tag": "li",
+            "text": "Terraform Import: Bring Existing Infrastructure Under Code"
+          },
+          {
+            "tag": "li",
+            "text": "Update Git on Windows, macOS, or Linux: All Methods Explained"
+          },
+          {
+            "tag": "li",
+            "text": "Python Exercises for Beginners: A Hands-On Guide With Answers"
+          },
+          {
+            "tag": "li",
+            "text": "Docker init: How to Initialize a Project with Docker (Step-by-Step Guide)"
+          },
+          {
+            "tag": "li",
+            "text": "Affine Transformation Explained: Properties and Applications"
+          },
+          {
+            "tag": "li",
+            "text": "Polynomial Regression: From Straight Lines to Curves"
+          },
+          {
+            "tag": "li",
+            "text": "Python Stack: Implementing LIFO Data Structures"
+          },
+          {
+            "tag": "li",
+            "text": "Docs See all docs"
+          },
+          {
+            "tag": "li",
+            "text": "R-Documentation"
+          },
+          {
+            "tag": "li",
+            "text": "R-Interface"
+          },
+          {
+            "tag": "li",
+            "text": "Data-input"
+          },
+          {
+            "tag": "li",
+            "text": "Data-Management"
+          },
+          {
+            "tag": "li",
+            "text": "Statistics"
+          },
+          {
+            "tag": "li",
+            "text": "Graphs"
+          },
+          {
+            "tag": "li",
+            "text": "White Papers See all white papers"
+          },
+          {
+            "tag": "li",
+            "text": "Data &amp; AI Trends &amp; Predictions 2025"
+          },
+          {
+            "tag": "li",
+            "text": "AI in Higher Education: Teaching Without a Map"
+          },
+          {
+            "tag": "li",
+            "text": "AI Agent Guide: 800 Words From 8 Leaders"
+          },
+          {
+            "tag": "li",
+            "text": "The 2026 State of Data &amp; AI Literacy Report"
+          },
+          {
+            "tag": "li",
+            "text": "Closing the AI adoption gap"
+          },
+          {
+            "tag": "li",
+            "text": "2025: A year in data and AI"
+          },
+          {
+            "tag": "li",
+            "text": "The State of AI Adoption in the enterprise"
+          },
+          {
+            "tag": "li",
+            "text": "Your Fast-Track Guide to EU AI Act Readiness"
+          },
+          {
+            "tag": "li",
+            "text": "Podcast See all podcasts"
+          },
+          {
+            "tag": "li",
+            "text": "AI Agents at Work: What Actually Breaks (and How to Fix It) with Danielle Crop, EVP Digital Strategy &amp; Alliances at WNS"
+          },
+          {
+            "tag": "li",
+            "text": "Will World Models Bring us AGI? with Eric Xing, President &amp; Professor at MBZUAI"
+          },
+          {
+            "tag": "li",
+            "text": "How to Make Hard Choices in AI with Atay Kozlovski, Researcher at the University of Zurich"
+          },
+          {
+            "tag": "li",
+            "text": "AI Agents Are the New Shadow IT (And Your Governance Isn’t Ready) with Stijn Christiaens, CEO at Collibra"
+          },
+          {
+            "tag": "li",
+            "text": "AI Agents in Your Systems: Speed, Security, and New Access Risks with Jeremy Epling, CPO at Vanta"
+          },
+          {
+            "tag": "li",
+            "text": "Let&#x27;s Get Physical with AI with Ivan Poupyrev, CEO at Archetype AI"
+          },
+          {
+            "tag": "li",
+            "text": "Get Quantum Ready with Yonatan Cohen, CTO at Quantum Machines"
+          },
+          {
+            "tag": "li",
+            "text": "How to Drive Innovation with Brian Solis, Head of Global Innovation at ServiceNow"
+          },
+          {
+            "tag": "li",
+            "text": "Pricing For Individuals"
+          },
+          {
+            "tag": "li",
+            "text": "For Students"
+          },
+          {
+            "tag": "li",
+            "text": "For Business"
+          },
+          {
+            "tag": "li",
+            "text": "For Business"
+          },
+          {
+            "tag": "li",
+            "text": "For Universities"
+          },
+          {
+            "tag": "span",
+            "text": "Password"
+          },
+          {
+            "tag": "span",
+            "text": "Start Learning for Free"
+          },
+          {
+            "tag": "span",
+            "text": "By continuing, you accept our"
+          },
+          {
+            "tag": "span",
+            "text": ", our"
+          },
+          {
+            "tag": "span",
+            "text": "and that your data is stored in the USA."
+          },
+          {
+            "tag": "h2",
+            "text": "A path for every goal"
+          },
+          {
+            "tag": "p",
+            "text": "Master the basics of data analysis with Python in just four hours. This online course will introduce the Python interface and explore popular packages."
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to SQL"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn how to create and query relational databases using SQL in just two hours."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Power BI"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "4 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Master the Power BI basics and learn to use the data visualization software to build impactful reports."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Understanding Artificial Intelligence"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn the basic concepts of Artificial Intelligence, such as machine learning, deep learning, NLP, generative AI, and more."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Tableau"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "6 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Start your Tableau journey with our Introduction to Tableau course. Discover Tableau basics such as its features and dashboards."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Excel"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "4 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Master the Excel basics and learn to use this spreadsheet tool to conduct impactful analysis."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to AI for Work"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Explore what AI is and how to use it responsibly for smarter, more productive work!"
+          },
+          {
+            "tag": "div",
+            "text": "AI Native"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Working with the OpenAI API"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "3 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Start your journey developing AI-powered applications with the OpenAI API. Learn about the functionality that underpins popular AI applications like ChatGPT."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AI Agent Fundamentals 6 hrs 4.3K learners Discover how AI agents can change how you work and deliver value for your organization!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Hugging Face Fundamentals 12 hrs 2.3K learners Find the latest open-source AI models, datasets, and apps, build AI agents, and fine-tune LLMs with Hugging Face. Join the biggest AI community today!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Understanding Prompt Engineering"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "1 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn how to write effective prompts with ChatGPT to apply in your workflow today."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Developing LLM Applications with LangChain"
+          },
+          {
+            "tag": "span",
+            "text": "Advanced Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "3 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Discover how to build AI-powered applications using LLMs, prompts, chains, and agents in LangChain."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Career Tracks"
+          },
+          {
+            "tag": "div",
+            "text": "Data Analyst in Python 36 hrs 220.8K learners Develop your data analytics skills in Python. Gain the data analyst skills to manipulate, analyze, and visualize data. No coding experience required!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Engineer in Python 40 hrs 73.1K learners Gain in-demand skills to efficiently ingest, clean, manage data, and schedule and monitor pipelines, setting you apart in the data engineering field."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Analyst in Tableau 42 hrs 46.9K learners Master Tableau for data analysis and develop your skills in one of the world’s most popular BI tools. No prior experience is required."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Scientist in Python 26 hrs 22.3K learners Learn data science in Python, from data manipulation to machine learning, and gain the skills needed for the Data Scientist in Python certification!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Machine Learning Engineer 44 hrs 18.3K learners This career track teaches you everything you need to know about machine learning engineering and MLOps."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Associate AI Engineer for Data Scientists 40 hrs 33.1K learners Train and fine-tune the latest AI models for production, including LLMs like Llama 3. Start your journey to becoming an AI Engineer today!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Skill Tracks"
+          },
+          {
+            "tag": "div",
+            "text": "Python Data Fundamentals 28 hrs 437.2K learners Grow your data skills, discover how to manipulate and visualize data, and apply advanced analytics to make data-driven decisions."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "SQL Fundamentals 26 hrs 640.2K learners Master the SQL fundamentals needed for business, learn how to write SQL queries, and start analyzing your data using this powerful language."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Power BI Fundamentals 17 hrs 127.7K learners Gain the essential skills you need to use Power BI. Create your own visualizations and dashboards from scratch. No prior experience required."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Literacy Professional 15 hrs 72.2K learners From understanding to data storytelling - gain valuable Data Literacy Skills to tackle the toughest data challenges."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AI Fundamentals 10 hrs 57.6K learners Discover the fundamentals of AI, learn to leverage AI effectively for work, and dive into models like ChatGPT to navigate the dynamic AI landscape."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AWS Cloud Practitioner (CLF-C02) 10 hrs 21.2K learners Prepare for Amazon’s AWS Certified Cloud Practitioner (CLF-C02) by learning how to use and secure core AWS compute, database, and storage services."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Python"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "4 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Master the basics of data analysis with Python in just four hours. This online course will introduce the Python interface and explore popular packages."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to SQL"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn how to create and query relational databases using SQL in just two hours."
+          },
+          {
+            "tag": "div",
+            "text": "AI Native"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Power BI"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "4 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Master the Power BI basics and learn to use the data visualization software to build impactful reports."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Understanding Artificial Intelligence"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn the basic concepts of Artificial Intelligence, such as machine learning, deep learning, NLP, generative AI, and more."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Tableau"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "6 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Start your Tableau journey with our Introduction to Tableau course. Discover Tableau basics such as its features and dashboards."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to Excel"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "4 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Master the Excel basics and learn to use this spreadsheet tool to conduct impactful analysis."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Introduction to AI for Work"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "2 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Explore what AI is and how to use it responsibly for smarter, more productive work!"
+          },
+          {
+            "tag": "div",
+            "text": "AI Native"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Working with the OpenAI API"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "3 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Start your journey developing AI-powered applications with the OpenAI API. Learn about the functionality that underpins popular AI applications like ChatGPT."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AI Agent Fundamentals 6 hrs 4.3K learners Discover how AI agents can change how you work and deliver value for your organization!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Hugging Face Fundamentals 12 hrs 2.3K learners Find the latest open-source AI models, datasets, and apps, build AI agents, and fine-tune LLMs with Hugging Face. Join the biggest AI community today!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Understanding Prompt Engineering"
+          },
+          {
+            "tag": "span",
+            "text": "Intermediate Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "1 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Learn how to write effective prompts with ChatGPT to apply in your workflow today."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Developing LLM Applications with LangChain"
+          },
+          {
+            "tag": "span",
+            "text": "Advanced Skill Level"
+          },
+          {
+            "tag": "li",
+            "text": "3 hr"
+          },
+          {
+            "tag": "p",
+            "text": "Discover how to build AI-powered applications using LLMs, prompts, chains, and agents in LangChain."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Analyst in Python 36 hrs 220.8K learners Develop your data analytics skills in Python. Gain the data analyst skills to manipulate, analyze, and visualize data. No coding experience required!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Engineer in Python 40 hrs 73.1K learners Gain in-demand skills to efficiently ingest, clean, manage data, and schedule and monitor pipelines, setting you apart in the data engineering field."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Analyst in Tableau 42 hrs 46.9K learners Master Tableau for data analysis and develop your skills in one of the world’s most popular BI tools. No prior experience is required."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Scientist in Python 26 hrs 22.3K learners Learn data science in Python, from data manipulation to machine learning, and gain the skills needed for the Data Scientist in Python certification!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Machine Learning Engineer 44 hrs 18.3K learners This career track teaches you everything you need to know about machine learning engineering and MLOps."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Associate AI Engineer for Data Scientists 40 hrs 33.1K learners Train and fine-tune the latest AI models for production, including LLMs like Llama 3. Start your journey to becoming an AI Engineer today!"
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Python Data Fundamentals 28 hrs 437.2K learners Grow your data skills, discover how to manipulate and visualize data, and apply advanced analytics to make data-driven decisions."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "SQL Fundamentals 26 hrs 640.2K learners Master the SQL fundamentals needed for business, learn how to write SQL queries, and start analyzing your data using this powerful language."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Power BI Fundamentals 17 hrs 127.7K learners Gain the essential skills you need to use Power BI. Create your own visualizations and dashboards from scratch. No prior experience required."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "Data Literacy Professional 15 hrs 72.2K learners From understanding to data storytelling - gain valuable Data Literacy Skills to tackle the toughest data challenges."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AI Fundamentals 10 hrs 57.6K learners Discover the fundamentals of AI, learn to leverage AI effectively for work, and dive into models like ChatGPT to navigate the dynamic AI landscape."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "div",
+            "text": "AWS Cloud Practitioner (CLF-C02) 10 hrs 21.2K learners Prepare for Amazon’s AWS Certified Cloud Practitioner (CLF-C02) by learning how to use and secure core AWS compute, database, and storage services."
+          },
+          {
+            "tag": "div",
+            "text": "See Details Right Arrow"
+          },
+          {
+            "tag": "span",
+            "text": "Learn More About Career Switching"
+          },
+          {
+            "tag": "span",
+            "text": "DataCamp for Business"
+          },
+          {
+            "tag": "span",
+            "text": "Learn More About Skill Learning Paths"
+          },
+          {
+            "tag": "h3",
+            "text": "Hands-on, interactive courses"
+          },
+          {
+            "tag": "p",
+            "text": "Short videos are broken up by interactive exercises. Practice new skills immediately to retain information"
+          },
+          {
+            "tag": "span",
+            "text": "Explore Courses"
+          },
+          {
+            "tag": "div",
+            "text": "Daniel Tedesco Generative AI Concepts"
+          },
+          {
+            "tag": "div",
+            "text": "Aaren Stubberfield Joining Data with pandas"
+          },
+          {
+            "tag": "div",
+            "text": "Kevin Barlow Introduction to Databricks"
+          },
+          {
+            "tag": "div",
+            "text": "“ Datacamp was how I got into my Masters program. The real-world projects and short video lessons were a game changer. They made complex topics easy to understand and apply. ” Ebuka Nwafornso Graduate Student, University College Dublin"
+          },
+          {
+            "tag": "div",
+            "text": "“ We think of it as everyone&#x27;s responsibility in the organization to be more data-driven. After all, every single one of us is probably touching data in some way, regardless of your role. ” Rachel Alt-Simmons Head Of Strategic Design, Data, Pricing And Analytics"
+          },
+          {
+            "tag": "div",
+            "text": "“ Only DataCamp provides the interactive experience that reinforces learning. There’s an excellent content depth—great for absolute beginners to experienced users. ” Sarah Schlobohm Senior Analytics Manager, Global Risk Analytics, HSBC"
+          },
+          {
+            "tag": "div",
+            "text": "“ On DataCamp, you learn from the experts. As you are taking courses, you are really learning from the best instructors in the world. ” Ofentswe Lebogo Data Scientist, Council for Scientific and Industrial Research (CSIR)"
+          },
+          {
+            "tag": "div",
+            "text": "“ I&#x27;ve used other sites—Coursera, Udacity, things like that—but DataCamp&#x27;s been the one that I&#x27;ve stuck with. ” Devon Edwards Joseph Lloyds Banking Group"
+          },
+          {
+            "tag": "span",
+            "text": "Password"
+          },
+          {
+            "tag": "span",
+            "text": "Start Learning for Free"
+          },
+          {
+            "tag": "span",
+            "text": "By continuing, you accept our"
+          },
+          {
+            "tag": "span",
+            "text": ", our"
+          },
+          {
+            "tag": "span",
+            "text": "and that your data is stored in the USA."
+          },
+          {
+            "tag": "div",
+            "text": "Data Courses Python Courses R Courses SQL Courses Power BI Courses Tableau Courses Alteryx Courses Azure Courses AWS Courses Google Cloud Courses Google Sheets Courses Excel Courses AI Courses Data Analysis Courses Data Visualization Courses Machine Learning Courses Data Engineering Courses Probability &amp; Statistics Courses"
+          },
+          {
+            "tag": "div",
+            "text": "DataLab Get Started Pricing Security Documentation"
+          },
+          {
+            "tag": "div",
+            "text": "Certification Certifications Data Scientist Data Analyst Data Engineer SQL Associate Power BI Data Analyst Tableau Certified Data Analyst Azure Fundamentals AI Fundamentals"
+          },
+          {
+            "tag": "div",
+            "text": "Resources Resource Center Upcoming Events Blog Code-Alongs Tutorials Docs Open Source RDocumentation Book a Demo with DataCamp for Business Data Portfolio"
+          },
+          {
+            "tag": "div",
+            "text": "For Business Business Pricing Teams Plan Data &amp; AI Unlimited Plan Customer Stories Partner Program"
+          },
+          {
+            "tag": "div",
+            "text": "About About Us Learner Stories Careers Become an Instructor Press Leadership Contact Us DataCamp Español DataCamp Português DataCamp Deutsch DataCamp Français"
+          },
+          {
+            "tag": "div",
+            "text": "Support Help Center Become an Affiliate"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 426,
+          "headings": 78,
+          "images": 22
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-9BE2C3F5",
+      "path": "/courses-all",
+      "type": "Detected Link",
+      "anchor_text": "Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E9D15751",
+      "path": "/courses-all",
+      "type": "Detected Link",
+      "anchor_text": "See all Beginner courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-048B3ADE",
+      "path": "/courses/introduction-to-alteryx",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to Alteryx",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-29376697",
+      "path": "/courses/understanding-microsoft-azure",
+      "type": "Detected Link",
+      "anchor_text": "Understanding Microsoft Azure",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-B4798208",
+      "path": "/courses/aws-concepts",
+      "type": "Detected Link",
+      "anchor_text": "AWS Concepts",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9CCE9120",
+      "path": "/courses/understanding-data-science",
+      "type": "Detected Link",
+      "anchor_text": "Understanding Data Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9AEE6081",
+      "path": "/courses/intro-to-python-for-data-science",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to Python",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-3E58347F",
+      "path": "/courses/free-introduction-to-r",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to R",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-E5AED7B1",
+      "path": "/courses/introduction-to-chatgpt",
+      "type": "Detected Link",
+      "anchor_text": "Learn ChatGPT",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-9367B034",
+      "path": "/courses/introduction-to-sql",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to SQL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-12976B30",
+      "path": "/courses/introduction-to-tableau",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to Tableau",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-4F5309A5",
+      "path": "/courses/introduction-to-power-bi",
+      "type": "Detected Link",
+      "anchor_text": "Learn Power BI",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-CA8DA955",
+      "path": "/courses/foundations-of-git",
+      "type": "Detected Link",
+      "anchor_text": "Foundations of Git",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-41A28850",
+      "path": "/courses/introduction-to-relational-databases-in-sql",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to Relational Databases in SQL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-803CAFCB",
+      "path": "/courses/introduction-to-statistics-in-google-sheets",
+      "type": "Detected Link",
+      "anchor_text": "Introduction to Statistics in Google Sheets",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

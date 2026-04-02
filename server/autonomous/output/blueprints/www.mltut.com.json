@@ -1,0 +1,911 @@
+{
+  "website_blueprint_id": "BLUEPRINT-8A83B34A",
+  "generated_at": "2026-04-02T05:35:14.736Z",
+  "global_configuration": {
+    "brand_name": "Home",
+    "domain": "www.mltut.com",
+    "primary_language": "en-US",
+    "infrastructure": {
+      "hosting_provider": "Unknown (Requires ASN Lookup)",
+      "server_ip": "104.21.47.248",
+      "cdn_provider": "Cloudflare",
+      "ssl_certificate": {
+        "issuer": "Unknown (Requires TLS Socket)",
+        "valid_until": "Unknown"
+      },
+      "web_server": "cloudflare"
+    },
+    "server_headers": {
+      "Cache-Control": "max-age=0",
+      "Content-Security-Policy": "Not Set",
+      "Server": "cloudflare"
+    }
+  },
+  "file_system_inventory": {
+    "summary": {
+      "total_files": 30,
+      "total_size_mb": 0
+    },
+    "core_assets": [
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "type": "script",
+        "full_url": "https://www.mltut.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      },
+      {
+        "path": "/wp-content/plugins/wp-rocket/assets/js/lcp-beacon.min.js",
+        "type": "script",
+        "full_url": "https://www.mltut.com/wp-content/plugins/wp-rocket/assets/js/lcp-beacon.min.js"
+      },
+      {
+        "path": "/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+        "type": "script",
+        "full_url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+      },
+      {
+        "path": "/wp-content/uploads/2020/03/7b69f982-91ce-4f0f-9e63-aa1b1db65531_200x200.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2020/03/7b69f982-91ce-4f0f-9e63-aa1b1db65531_200x200.webp"
+      },
+      {
+        "path": "/entrepreneur-07/wp-content/uploads/sites/390/2018/12/quotes-free-img.png",
+        "type": "image",
+        "full_url": "https://websitedemos.net/entrepreneur-07/wp-content/uploads/sites/390/2018/12/quotes-free-img.png"
+      },
+      {
+        "path": "/wp-content/uploads/2020/08/Untitled-design-2-e1598248682823-1024x775.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2020/08/Untitled-design-2-e1598248682823-1024x775.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/usacity-4-300x246.png",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/usacity-4-300x246.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/udacity-3-300x266.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/udacity-3-300x266.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/udacity-2-300x251.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/udacity-2-300x251.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/udacity-1-300x233.png",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/udacity-1-300x233.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/udacity-6-300x239.png",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/udacity-6-300x239.png"
+      },
+      {
+        "path": "/wp-content/uploads/2025/03/udacity-5-300x222.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/03/udacity-5-300x222.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/How-to-Learn-Claude-Code-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/03/How-to-Learn-Claude-Code-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/03/Best-Course-to-Learn-Claude-Code-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/03/Best-Course-to-Learn-Claude-Code-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Best-AI-Courses-for-Finance-Professionals-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/02/Best-AI-Courses-for-Finance-Professionals-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Best-AI-Courses-for-Working-Professionals-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/02/Best-AI-Courses-for-Working-Professionals-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/02/Best-AI-Courses-for-Software-Engineers-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/02/Best-AI-Courses-for-Software-Engineers-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2026/01/Best-AI-Courses-for-Product-Managers-1024x576.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2026/01/Best-AI-Courses-for-Product-Managers-1024x576.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2025/09/Fall-Flash-Sale-50-off-Udacity-subscriptions-with-code-TOPSKILLS-683x1024.jpg",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2025/09/Fall-Flash-Sale-50-off-Udacity-subscriptions-with-code-TOPSKILLS-683x1024.jpg"
+      },
+      {
+        "path": "/wp-content/uploads/2024/12/Holiday-Gift-Guide-Instagram-Story-169x300.png",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2024/12/Holiday-Gift-Guide-Instagram-Story-169x300.png"
+      },
+      {
+        "path": "/wp-content/uploads/2022/11/image.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2022/11/image.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2022/05/70-300x212.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2022/05/70-300x212.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/11/Black-Friday-Sale-Online-Courses.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/11/Black-Friday-Sale-Online-Courses.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/08/Crayons-1-300x150.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/08/Crayons-1-300x150.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/07/75-OFF-300x152.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/07/75-OFF-300x152.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/06/Get-Financial-Support-at-Udacity-3-300x152.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/06/Get-Financial-Support-at-Udacity-3-300x152.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/03/Get-60-OFF-on-Udacity-300x169.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/03/Get-60-OFF-on-Udacity-300x169.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/03/Get-Udacity-Financial-Support-to-Start-Your-Career-300x177.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/03/Get-Udacity-Financial-Support-to-Start-Your-Career-300x177.webp"
+      },
+      {
+        "path": "/wp-content/uploads/2021/01/Biggest-Deal-Ever-300x300.webp",
+        "type": "image",
+        "full_url": "https://www.mltut.com/wp-content/uploads/2021/01/Biggest-Deal-Ever-300x300.webp"
+      },
+      {
+        "path": "/vi_webp/ID/hqdefault.webp",
+        "type": "image",
+        "full_url": "https://i.ytimg.com/vi_webp/ID/hqdefault.webp"
+      }
+    ]
+  },
+  "site_routes_and_content": [
+    {
+      "route_id": "route_landing",
+      "path": "/",
+      "type": "Entry Point",
+      "rendering_strategy": "Unknown (Assumed Static/SSR)",
+      "meta_seo": {
+        "title": "Home - MLTut - Machine Learning Blogs for Everyone",
+        "description": "MLTut is the platform where you get all the latest Machine Learning Blogs, which clears all doubts related to Machine Learning.",
+        "canonical": "https://www.mltut.com"
+      },
+      "network_waterfall": [
+        {
+          "resource": "document",
+          "latency": "2826ms"
+        },
+        {
+          "resource": "lazyload.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "lcp-beacon.min.js",
+          "latency": "pending"
+        },
+        {
+          "resource": "v8c78df7c7c0f484497ecbca7046644da1771523124516",
+          "latency": "pending"
+        }
+      ],
+      "page_content": {
+        "hero_section": {
+          "h1_title": "Welcome to MLTut.com",
+          "h2_subtitle": "",
+          "cta_buttons": []
+        },
+        "value_props": [
+          {
+            "title": "Machine Learner&#8217;s Spot!",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "What Makes MLTUT Unique?",
+            "desc": "Description detected in content block."
+          },
+          {
+            "title": "Are You Looking For Online Courses?",
+            "desc": "Description detected in content block."
+          }
+        ],
+        "main_content": [
+          {
+            "tag": "li",
+            "text": "Blogs"
+          },
+          {
+            "tag": "li",
+            "text": "Online Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Udacity Courses"
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Deep Learning"
+          },
+          {
+            "tag": "li",
+            "text": "Data Science"
+          },
+          {
+            "tag": "li",
+            "text": "PYTHON TUTORIAL"
+          },
+          {
+            "tag": "li",
+            "text": "Search for: Search"
+          },
+          {
+            "tag": "div",
+            "text": "Machine Learner&#8217;s Spot!"
+          },
+          {
+            "tag": "h1",
+            "text": "Welcome to MLTut.com"
+          },
+          {
+            "tag": "div",
+            "text": "A Website that helps learner’s to get everything in one place."
+          },
+          {
+            "tag": "div",
+            "text": "What Makes MLTUT Unique?"
+          },
+          {
+            "tag": "p",
+            "text": "Its Method of Explanation. MLTUT Guarantees that You will understand Complex Topics easily."
+          },
+          {
+            "tag": "div",
+            "text": "Are You Looking For Online Courses?"
+          },
+          {
+            "tag": "h3",
+            "text": "Find Out Hundreds of FREE &amp; Paid Best Data Science &amp; Machine Learning Courses!"
+          },
+          {
+            "tag": "div",
+            "text": "Find Out Courses"
+          },
+          {
+            "tag": "h2",
+            "text": "Discover by Category"
+          },
+          {
+            "tag": "h2",
+            "text": "Machine Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Wanna Learn Machine Learning?"
+          },
+          {
+            "tag": "li",
+            "text": "Definition."
+          },
+          {
+            "tag": "li",
+            "text": "Machine Learning Algorithms."
+          },
+          {
+            "tag": "li",
+            "text": "Supervised Learning."
+          },
+          {
+            "tag": "li",
+            "text": "Unsupervised Learning."
+          },
+          {
+            "tag": "li",
+            "text": "Skills Required."
+          },
+          {
+            "tag": "li",
+            "text": "And Many More,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Machine Learning"
+          },
+          {
+            "tag": "h2",
+            "text": "Deep Learning"
+          },
+          {
+            "tag": "h3",
+            "text": "Wanna Learn Deep Learning?"
+          },
+          {
+            "tag": "li",
+            "text": "Definition."
+          },
+          {
+            "tag": "li",
+            "text": "Artificial Neural Network."
+          },
+          {
+            "tag": "li",
+            "text": "Neurons."
+          },
+          {
+            "tag": "li",
+            "text": "Algorithms."
+          },
+          {
+            "tag": "li",
+            "text": "Skills Required."
+          },
+          {
+            "tag": "li",
+            "text": "And Many More,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Deep Learning"
+          },
+          {
+            "tag": "h2",
+            "text": "Python Tutorial"
+          },
+          {
+            "tag": "h3",
+            "text": "Do You Wanna Learn Python Programming?"
+          },
+          {
+            "tag": "li",
+            "text": "What is Python?"
+          },
+          {
+            "tag": "li",
+            "text": "How to Install Python,"
+          },
+          {
+            "tag": "li",
+            "text": "Numbers in Python,"
+          },
+          {
+            "tag": "li",
+            "text": "Strings in Python,"
+          },
+          {
+            "tag": "li",
+            "text": "And Much More,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Python"
+          },
+          {
+            "tag": "h2",
+            "text": "Data Science"
+          },
+          {
+            "tag": "h3",
+            "text": "Wanna Learn Data Science?"
+          },
+          {
+            "tag": "li",
+            "text": "What is Data Science?"
+          },
+          {
+            "tag": "li",
+            "text": "Skills Required."
+          },
+          {
+            "tag": "li",
+            "text": "Big Data Analytics."
+          },
+          {
+            "tag": "li",
+            "text": "Hadoop."
+          },
+          {
+            "tag": "li",
+            "text": "Hive."
+          },
+          {
+            "tag": "li",
+            "text": "PIG."
+          },
+          {
+            "tag": "li",
+            "text": "And many more,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Data Science"
+          },
+          {
+            "tag": "h2",
+            "text": "Data Mining"
+          },
+          {
+            "tag": "h3",
+            "text": "Wanna Learn Data Mining?"
+          },
+          {
+            "tag": "li",
+            "text": "What is Data Mining?"
+          },
+          {
+            "tag": "li",
+            "text": "Data Mining Techniques."
+          },
+          {
+            "tag": "li",
+            "text": "Data Mining Applications,"
+          },
+          {
+            "tag": "li",
+            "text": "Data Preprocessing,"
+          },
+          {
+            "tag": "li",
+            "text": "And Much More,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Data Mining"
+          },
+          {
+            "tag": "h2",
+            "text": "Artificial Intelligence"
+          },
+          {
+            "tag": "h3",
+            "text": "Do You Wanna Learn Artificial Intelligence ?"
+          },
+          {
+            "tag": "li",
+            "text": "What is Artificial Intelligence?"
+          },
+          {
+            "tag": "li",
+            "text": "Real-world Applications of AI."
+          },
+          {
+            "tag": "li",
+            "text": "And many more,"
+          },
+          {
+            "tag": "div",
+            "text": "Learn Artificial Intelligence"
+          },
+          {
+            "tag": "h2",
+            "text": "-Top Udacity AI Courses-"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "div",
+            "text": "Enroll Now"
+          },
+          {
+            "tag": "h2",
+            "text": "-Fresh from the press-"
+          },
+          {
+            "tag": "div",
+            "text": "March 25, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "How to Learn Claude Code (Step-by-Step Guide)- 2026"
+          },
+          {
+            "tag": "div",
+            "text": "How to learn Claude Code is not about writing better prompts. It’s about using it&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "March 25, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "March 11, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Best Course to Learn Claude Code: Top 6 Online Courses- 2026"
+          },
+          {
+            "tag": "div",
+            "text": "The best course to Learn Claude Code is something many developers search for after hearing&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "March 11, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "February 19, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI Courses for Finance Professionals (2026 Expert Picks)"
+          },
+          {
+            "tag": "div",
+            "text": "Best AI courses for finance professionals are no longer optional learning. They are becoming a&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "February 19, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "February 10, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI Courses for Working Professionals (Updated 2026)"
+          },
+          {
+            "tag": "div",
+            "text": "When you search for “best AI courses for working professionals,” you’re probably not planning to&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "February 10, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "February 4, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI Courses for Software Engineers (2026)"
+          },
+          {
+            "tag": "div",
+            "text": "Best AI courses for software engineers are often mixed with content that isn’t made for&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "February 4, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "January 28, 2026"
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI Courses for Product Managers (2026 Guide)"
+          },
+          {
+            "tag": "div",
+            "text": "Best AI Courses for Product Managers are not about training models or writing code. As a&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Read More"
+          },
+          {
+            "tag": "div",
+            "text": "January 28, 2026"
+          },
+          {
+            "tag": "div",
+            "text": "For More Articles? Check the Latest Articles on FREE Courses for Data Science, Machine Learning, Deep Learning, Artificial Intelligence, and Programming."
+          },
+          {
+            "tag": "div",
+            "text": "Check Here"
+          },
+          {
+            "tag": "h2",
+            "text": "Stay in the Loop"
+          },
+          {
+            "tag": "p",
+            "text": "Subscribe to my newsletter for all the latest updates"
+          },
+          {
+            "tag": "div",
+            "text": "Subscribe for Latest Articles! Get the Latest Articles Weekly!"
+          },
+          {
+            "tag": "div",
+            "text": "Subscribe"
+          },
+          {
+            "tag": "span",
+            "text": "Loading&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Subscribe"
+          },
+          {
+            "tag": "span",
+            "text": "Loading&#8230;"
+          },
+          {
+            "tag": "div",
+            "text": "Thank you! You have successfully joined our subscriber list."
+          },
+          {
+            "tag": "li",
+            "text": "Twitter"
+          },
+          {
+            "tag": "li",
+            "text": "Facebook"
+          },
+          {
+            "tag": "li",
+            "text": "YouTube"
+          },
+          {
+            "tag": "li",
+            "text": "LinkedIn"
+          },
+          {
+            "tag": "div",
+            "text": "Contact Me About Me Privacy Policy Disclaimer for MLTut Terms of Service Write For Us Cookie Policy"
+          },
+          {
+            "tag": "div",
+            "text": "Get 40% Off top Nanodegree programs when you pay upfront with code CAREER22"
+          },
+          {
+            "tag": "div",
+            "text": "Redeem Now"
+          },
+          {
+            "tag": "div",
+            "text": "Our Spring Sale Has Started"
+          },
+          {
+            "tag": "div",
+            "text": "You can see how this popup was set up in our step-by-step guide: https://wppopupmaker.com/guides/auto-opening-announcement-popups/"
+          },
+          {
+            "tag": "div",
+            "text": "Our Spring Sale Has Started"
+          },
+          {
+            "tag": "div",
+            "text": "You can see how this popup was set up in our step-by-step guide: https://wppopupmaker.com/guides/auto-opening-announcement-popups/"
+          }
+        ],
+        "structure_summary": {
+          "paragraphs": 42,
+          "headings": 30,
+          "images": 54
+        }
+      }
+    },
+    {
+      "route_id": "ROUTE-9C3B4C5E",
+      "path": "/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-04003C1D",
+      "path": "/category/machine-learning-python-bigdata-blogs/",
+      "type": "Detected Link",
+      "anchor_text": "Blogs",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-26F27ABD",
+      "path": "/best-online-courses-for-machine-learning-and-data-science/",
+      "type": "Detected Link",
+      "anchor_text": "Online Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-221AA26A",
+      "path": "/best-udacity-courses/",
+      "type": "Detected Link",
+      "anchor_text": "Udacity Courses",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1AEFE3AA",
+      "path": "/machine-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Machine Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-7EC7AE92",
+      "path": "/deep-learning/",
+      "type": "Detected Link",
+      "anchor_text": "Deep Learning",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-FCB7F7A1",
+      "path": "/data-science/",
+      "type": "Detected Link",
+      "anchor_text": "Data Science",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-2A3DC18D",
+      "path": "/python-tutorial/",
+      "type": "Detected Link",
+      "anchor_text": "PYTHON TUTORIAL",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-5D1C4E21",
+      "path": "/data-mining/",
+      "type": "Detected Link",
+      "anchor_text": "Learn Data Mining",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-34F59066",
+      "path": "/artificial-intelligence/",
+      "type": "Detected Link",
+      "anchor_text": "Learn Artificial Intelligence",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-20A15808",
+      "path": "/how-to-learn-claude-code/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-1E4236AE",
+      "path": "/author/aqsazafar/",
+      "type": "Detected Link",
+      "anchor_text": "Aqsa Zafar",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-F625A035",
+      "path": "/best-course-to-learn-claude-code/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-944C61A9",
+      "path": "/best-ai-courses-for-finance-professionals/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    },
+    {
+      "route_id": "ROUTE-0BE35E40",
+      "path": "/best-ai-courses-for-working-professionals/",
+      "type": "Detected Link",
+      "anchor_text": "Unknown",
+      "rendering_strategy": "Unknown",
+      "meta_seo": {
+        "title": "Pending Scan"
+      },
+      "page_content": {}
+    }
+  ],
+  "api_endpoints_manifest": {}
+}

@@ -94,11 +94,11 @@ function analyzePageContent(html) {
     }
   }
 
-  // Extract Detailed Content (Headings + Paragraphs in order)
+  // Extract Detailed Content (Headings + Paragraphs + Rich Text in order)
   const captured_content = [];
-  // Regex to match h1-h6 and p tags.
+  // Regex to match h1-h6, p, li, span, div, td, th tags.
   // Note: [\s\S]*? ensures we capture newlines within tags
-  const contentRegex = /<(h[1-6]|p)[^>]*>([\s\S]*?)<\/\1>/gi;
+  const contentRegex = /<(h[1-6]|p|li|span|div|td|th)[^>]*>([\s\S]*?)<\/\1>/gi;
   let cMatch;
   while ((cMatch = contentRegex.exec(html)) !== null) {
     const tag = cMatch[1].toLowerCase();

@@ -78,6 +78,9 @@ class Scheduler {
       // Step 4: Learn (CommonJS)
       await this.runScript("nlp/learn.js", "Learn");
 
+      // Step 5: Train Neural Network
+      await this.runScript("nlp/train.js", "Train Engine");
+
       logger.success("✨ Autonomous Cycle Completed Successfully!");
     } catch (error) {
       logger.error(`❌ Autonomous Cycle Failed: ${error.message}`);
