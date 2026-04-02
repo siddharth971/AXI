@@ -67,5 +67,22 @@ module.exports = {
     }
 
     return null;
+  },
+
+  /**
+   * Meta & Developer rules
+   */
+  metaControl(text) {
+    const msg = text.toLowerCase().trim();
+
+    if (msg === "💻") {
+      return { intent: "system.info", confidence: 1, entities: {} };
+    }
+
+    if (/\b(what would you do without rule|how do you work without rules)\b/i.test(msg)) {
+      return { intent: "system.logic_explanation", confidence: 1, entities: {} };
+    }
+
+    return null;
   }
 };

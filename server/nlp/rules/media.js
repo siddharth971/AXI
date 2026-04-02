@@ -31,7 +31,7 @@ module.exports = {
    */
   mute(text) {
     const msg = text.toLowerCase().trim();
-    if (/\b(mute|unmute|silence|awaaz band)\b/.test(msg)) {
+    if (/\b(mute|unmute|silence|awaaz band|sound off|awaz band|awaaz band karo|sound band|chup)\b/.test(msg)) {
       if (/unmute/.test(msg)) {
         return { intent: "system.unmute", confidence: 1, entities: {} };
       }
