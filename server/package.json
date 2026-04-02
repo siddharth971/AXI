@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
-    "train": "npm run axi:learn && node nlp/train.js",
+    "train": "npm run axi:learn && node nlp/train.js && node nlp/train-tfidf.js",
     "generate:vectors": "node nlp/semantic/generate-vectors.js",
     "test": "node tests/axi-complete-test-suite.js",
     "axi:explore": "node autonomous/explorer.mjs",

@@ -81,6 +81,9 @@ class Scheduler {
       // Step 5: Train Neural Network
       await this.runScript("nlp/train.js", "Train Engine");
 
+      // Step 6: Train TF-IDF Math Models
+      await this.runScript("nlp/train-tfidf.js", "Train TF-IDF");
+
       logger.success("✨ Autonomous Cycle Completed Successfully!");
     } catch (error) {
       logger.error(`❌ Autonomous Cycle Failed: ${error.message}`);

@@ -286,7 +286,12 @@ class TFIDFClassifier {
     };
   }
 
-  findConflicts(threshold = 0.4) {
+  findConflicts(threshold = 0.4, maxIntents = 500) {
+    if (this.intentDocs.length > maxIntents) {
+      console.log(`[TF-IDF] Skipping O(N^2) conflict evaluation... (Dataset over ${maxIntents} intents)`);
+      return [];
+    }
+
     const conflicts = [];
     for (let i = 0; i < this.intentDocs.length; i++) {
       for (let j = i + 1; j < this.intentDocs.length; j++) {
