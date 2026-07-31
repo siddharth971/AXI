@@ -7,10 +7,9 @@
  * Platform: Windows (Powershell/CMD)
  */
 
-const { exec } = require("child_process");
+const { exec, execSync } = require("child_process");
 const util = require("util");
 const execAsync = util.promisify(exec);
-const screenshot = require("screenshot-desktop");
 const path = require("path");
 const fs = require("fs");
 
@@ -64,6 +63,12 @@ module.exports = {
     "take_screenshot": {
       handler: async (params, context) => {
         try {
+          // Pre-check: On Linux, screenshot-desktop calls xrandr which crashes without X display
+          const os = require("os");
+          if (os.platform() !== "win32" && !process.env.DISPLAY) {
+            return "Sorry, screenshot capability is not available (no display detected).";
+          }
+
           const screenshotsDir = path.join(__dirname, "../../../screenshots");
 
           if (!fs.existsSync(screenshotsDir)) {
@@ -73,7 +78,8 @@ module.exports = {
           const filename = `screenshot-${Date.now()}.png`;
           const filepath = path.join(screenshotsDir, filename);
 
-          await screenshot({ filename: filepath });
+          const screenshotLib = require("screenshot-desktop");
+          await screenshotLib({ filename: filepath });
           return `Screenshot saved as ${filename} 📸`;
         } catch (error) {
           return "Sorry, I couldn't take the screenshot.";
