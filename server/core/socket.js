@@ -31,6 +31,11 @@ module.exports = {
     io.on("connection", (socket) => {
       logger.info(`🔌 Client Connected: ${socket.id}`);
 
+      // Handle live audio telemetry from client speech recognition
+      socket.on("audio_telemetry", (data) => {
+        socket.broadcast.emit("audio_stream_data", data);
+      });
+
       socket.on("disconnect", () => {
         logger.info(`🔌 Client Disconnected: ${socket.id}`);
       });

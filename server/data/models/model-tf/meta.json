@@ -1,11 +1,11 @@
 {
-  "trainedAt": "2026-07-31T11:06:56.694Z",
+  "trainedAt": "2026-07-31T11:27:08.698Z",
   "version": "2.3.0",
   "type": "brain.js",
   "featureMode": "hashed",
   "hashBuckets": 512,
   "stats": {
-    "error": 0.0005182251173065905,
+    "error": 0.0005219500206288798,
     "iterations": 1
   },
   "config": {
@@ -22,8 +22,8 @@
     "vocabSize": 7009,
     "intentCount": 1606,
     "totalSamples": 22923,
-    "uniqueSamples": 21040,
-    "deduplicatedSamples": 1883
+    "uniqueSamples": 21037,
+    "deduplicatedSamples": 1886
   },
-  "trainingTimeSeconds": 72.5
+  "trainingTimeSeconds": 115.7
 }

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { logger } = require('../utils');
+const learningService = require('../core/learning');
 
 class LearningMonitor {
   constructor() {
@@ -32,11 +33,12 @@ class LearningMonitor {
       status: 'pending_review'
     };
     this._appendLog(this.failedFile, entry);
-    logger.info(`[Learning] Logged unknown input: "${text}"`);
+    learningService.logCorrection(text, 'none', 'pending_review');
+    logger.info(`[Learning] Logged unknown input to corrections.json: "${text}"`);
   }
 
   /**
-   * Log a low confidence prediction
+   * Log a low confidence prediction (score < 0.60)
    * @param {string} text - User input
    * @param {string} intent - Predicted intent
    * @param {number} confidence - Confidence score
@@ -51,7 +53,8 @@ class LearningMonitor {
       status: 'pending_review'
     };
     this._appendLog(this.failedFile, entry);
-    logger.info(`[Learning] Logged low confidence: "${text}" -> ${intent} (${confidence.toFixed(2)})`);
+    learningService.logCorrection(text, intent, 'pending_review');
+    logger.info(`[Learning] Logged low confidence (<0.60) to corrections.json: "${text}" -> ${intent} (${confidence.toFixed(2)})`);
   }
 
   /**

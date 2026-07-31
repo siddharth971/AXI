@@ -212,6 +212,17 @@ app.post("/api/command", commandLimiter, validateBody(schemas.command), async (r
       executionTime: Math.round(elapsedMs * 100) / 100,
     };
 
+    // Emit live WebSocket telemetry for HUD 3D Galaxy Visualization
+    socketData.emit("nlp_telemetry", {
+      text,
+      intent: nlpResult.intent || "none",
+      confidence: nlpResult.confidence || 0,
+      source: nlpResult.source || "ensemble",
+      weightedBreakdown: nlpResult.weightedBreakdown || {},
+      executionTime: Math.round(elapsedMs * 100) / 100,
+      timestamp: new Date().toISOString(),
+    });
+
     // Include confirmation metadata if applicable
     if (isConfirmationRequest) {
       responsePayload.requiresConfirmation = true;

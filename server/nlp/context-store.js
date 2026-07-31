@@ -141,15 +141,27 @@ const ContextStore = {
 
     const lowerText = text.toLowerCase();
 
-    // Check for pronoun patterns
+    // Expanded pronoun & reference patterns
     const pronounPatterns = [
       { pattern: /\bopen it\b/i, replacement: "open {entity}" },
       { pattern: /\bplay it\b/i, replacement: "play {entity}" },
+      { pattern: /\bpause it\b/i, replacement: "pause" },
+      { pattern: /\bresume it\b/i, replacement: "play {entity}" },
       { pattern: /\bclose it\b/i, replacement: "close {entity}" },
       { pattern: /\bdelete it\b/i, replacement: "delete {entity}" },
+      { pattern: /\bshow it\b/i, replacement: "show {entity}" },
+      { pattern: /\bview it\b/i, replacement: "view {entity}" },
+      { pattern: /\btell me about it\b/i, replacement: "tell me about {entity}" },
+      { pattern: /\bwhat is it\b/i, replacement: "what is {entity}" },
+      { pattern: /\bsearch for it\b/i, replacement: "search for {entity}" },
+      { pattern: /\bsearch it\b/i, replacement: "search {entity}" },
       { pattern: /\bdo it again\b/i, replacement: "{lastInput}" },
       { pattern: /\bagain\b/i, replacement: "{lastInput}" },
+      { pattern: /\brepeat that\b/i, replacement: "{lastInput}" },
       { pattern: /\bthat one\b/i, replacement: "{entity}" },
+      { pattern: /\bthat website\b/i, replacement: "{entity}" },
+      { pattern: /\bthat song\b/i, replacement: "{entity}" },
+      { pattern: /\bthat video\b/i, replacement: "{entity}" },
       { pattern: /\bthe same\b/i, replacement: "{entity}" }
     ];
 

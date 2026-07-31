@@ -1,0 +1,263 @@
+{
+  "benchmarkDate": "2026-07-31T11:42:52.753Z",
+  "totalCommandsExecuted": 100000,
+  "totalTimeSeconds": 3.072,
+  "throughputOpsPerSec": 32552,
+  "latency": {
+    "averageMs": 0.0301,
+    "p50Ms": 0.0016,
+    "p90Ms": 0.0029,
+    "p95Ms": 0.0042,
+    "p99Ms": 0.0136
+  },
+  "layerDistribution": {
+    "cacheHits": 99965,
+    "cacheHitPercentage": "99.97%",
+    "earlyExitRulesHits": 27,
+    "semanticHits": 3,
+    "classifierHits": 5,
+    "unhandledUnknowns": 14285
+  },
+  "sampleExecutions": [
+    {
+      "index": 1,
+      "input": "open youtube",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 260.63
+    },
+    {
+      "index": 2,
+      "input": "open google",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 42.314
+    },
+    {
+      "index": 3,
+      "input": "mute volume",
+      "intent": "system.mute",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 29.175
+    },
+    {
+      "index": 4,
+      "input": "turn volume up",
+      "intent": "system.volume_up",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 28.73
+    },
+    {
+      "index": 5,
+      "input": "pause playback",
+      "intent": "pause",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 33.818
+    },
+    {
+      "index": 6,
+      "input": "lock screen",
+      "intent": "system.lock",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 36.911
+    },
+    {
+      "index": 7,
+      "input": "tell me the time",
+      "intent": "knowledge.dynamic.thefamilyhandyman",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 26.31
+    },
+    {
+      "index": 8,
+      "input": "list my files",
+      "intent": "list_files",
+      "confidence": 0.824,
+      "source": "semantic",
+      "latencyMs": 222.402
+    },
+    {
+      "index": 9,
+      "input": "prepare my workstation",
+      "intent": "workflow.prepare_workstation",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 27.677
+    },
+    {
+      "index": 10,
+      "input": "system diagnostics",
+      "intent": "system.health_check",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 14.406
+    },
+    {
+      "index": 11,
+      "input": "how is my system doing",
+      "intent": "system.health_check",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 26.362
+    },
+    {
+      "index": 12,
+      "input": "check cpu usage",
+      "intent": "system.cpu_check",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 19.251
+    },
+    {
+      "index": 13,
+      "input": "check ram status",
+      "intent": "system.memory_check",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 27.145
+    },
+    {
+      "index": 14,
+      "input": "open ytube",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 12.559
+    },
+    {
+      "index": 15,
+      "input": "open googl",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 25.812
+    },
+    {
+      "index": 16,
+      "input": "open spotifi",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 21.56
+    },
+    {
+      "index": 17,
+      "input": "open vsc",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 11.982
+    },
+    {
+      "index": 18,
+      "input": "git hub open",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 18.238
+    },
+    {
+      "index": 19,
+      "input": "open it",
+      "intent": "knowledge.dynamic.open",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 18.554
+    },
+    {
+      "index": 20,
+      "input": "play it",
+      "intent": "play",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 15.36
+    },
+    {
+      "index": 21,
+      "input": "search for it",
+      "intent": "search_google",
+      "confidence": 0.768,
+      "source": "semantic",
+      "latencyMs": 186.931
+    },
+    {
+      "index": 22,
+      "input": "do it again",
+      "intent": "media.repeat",
+      "confidence": 0.76,
+      "source": "semantic",
+      "latencyMs": 181.114
+    },
+    {
+      "index": 23,
+      "input": "tell me about it",
+      "intent": "knowledge.what_is",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 23.502
+    },
+    {
+      "index": 24,
+      "input": "setup workstation",
+      "intent": "workflow.prepare_workstation",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 15.462
+    },
+    {
+      "index": 25,
+      "input": "start work routine",
+      "intent": "workflow.prepare_workstation",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 15.375
+    },
+    {
+      "index": 26,
+      "input": "enter standby",
+      "intent": "workflow.standby",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 16.559
+    },
+    {
+      "index": 27,
+      "input": "what is the weather like today",
+      "intent": "knowledge.dynamic.thefamilyhandyman",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 31.291
+    },
+    {
+      "index": 28,
+      "input": "search youtube for interstellar soundtrack",
+      "intent": "knowledge.dynamic.youtube",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 18.899
+    },
+    {
+      "index": 29,
+      "input": "create folder project_alpha",
+      "intent": "create_folder",
+      "confidence": 1,
+      "source": "rules",
+      "latencyMs": 14.453
+    },
+    {
+      "index": 30,
+      "input": "show me my notes",
+      "intent": "none",
+      "confidence": 0.038,
+      "source": "classifier",
+      "latencyMs": 243.457
+    }
+  ]
+}
