@@ -282,24 +282,58 @@ async function retrainFromLogs() {
   });
 }
 
+// High-Performance LRU Response Cache (Capacity: 100 entries)
+const RESPONSE_CACHE = new Map();
+const MAX_CACHE_SIZE = 100;
+
+function getCachedResult(key) {
+  if (!RESPONSE_CACHE.has(key)) return null;
+  const val = RESPONSE_CACHE.get(key);
+  RESPONSE_CACHE.delete(key); // Refresh key position
+  RESPONSE_CACHE.set(key, val);
+  return { ...val, cached: true };
+}
+
+function setCachedResult(key, val) {
+  if (RESPONSE_CACHE.size >= MAX_CACHE_SIZE) {
+    const oldestKey = RESPONSE_CACHE.keys().next().value;
+    RESPONSE_CACHE.delete(oldestKey);
+  }
+  RESPONSE_CACHE.set(key, val);
+}
+
 module.exports = {
   /**
    * Interpret user input using the layered NLP system
-   * Priority order: Rules → Semantic → Brain.js
+   * Priority order: Cache → Rules → Semantic → Brain.js
    *
    * @param {string} text - User input
    * @returns {Promise<Object>} - Interpretation result
    */
   async interpret(text) {
+    if (!text || typeof text !== "string") return { intent: "none", confidence: 0, entities: {} };
+    
+    const cacheKey = text.trim().toLowerCase();
+    const cached = getCachedResult(cacheKey);
+    if (cached) return cached;
+
     const nlu = nluPipeline.process(text);
 
     // Step 1: Rules (always first, highest priority)
     const rule = rulesLayer(text, nlu);
-    if (rule) return { ...rule, source: "rules", nlu };
+    if (rule) {
+      const res = { ...rule, source: "rules", nlu };
+      setCachedResult(cacheKey, res);
+      return res;
+    }
 
     // Step 2: Semantic matching (embeddings + similarity)
     const semantic = await semanticLayer(text);
-    if (semantic) return { ...semantic, source: "semantic", nlu };
+    if (semantic) {
+      const res = { ...semantic, source: "semantic", nlu };
+      setCachedResult(cacheKey, res);
+      return res;
+    }
 
     // Step 3: Brain.js ML classifier (fallback)
     const ml = mlLayer(text);
@@ -311,7 +345,9 @@ module.exports = {
       learningMonitor.logLowConfidence(text, ml.intent, ml.confidence);
     }
 
-    return { ...ml, source: "classifier", nlu };
+    const res = { ...ml, source: "classifier", nlu };
+    setCachedResult(cacheKey, res);
+    return res;
   },
 
   /**

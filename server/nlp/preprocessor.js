@@ -43,6 +43,17 @@ const LEMMA_RULES = [
  * Keys are sorted longest-first to prevent partial replacements.
  */
 const SYNONYMS = {
+  // Speech-to-text phonetic typo corrections
+  "ytube":        "youtube",
+  "utube":        "youtube",
+  "you tube":     "youtube",
+  "goggl":        "google",
+  "goolge":       "google",
+  "spotifi":      "spotify",
+  "spoatify":     "spotify",
+  "vsc":          "vscode",
+  "vs code":      "vscode",
+  "git hub":      "github",
   // Open / Launch
   "go to":        "open",
   "navigate to":  "open",
@@ -150,6 +161,54 @@ function lemmatize(word) {
 }
 
 /**
+ * Soundex Phonetic Code Generator
+ * Computes a 4-character phonetic hash for any word to match speech-to-text sound-alikes.
+ * @param {string} word
+ * @returns {string} 4-char Soundex code
+ */
+function soundex(word) {
+  if (!word || typeof word !== "string") return "";
+  const str = word.toUpperCase().replace(/[^A-Z]/g, "");
+  if (!str) return "";
+
+  const firstChar = str[0];
+  const mapping = {
+    B: 1, F: 1, P: 1, V: 1,
+    C: 2, G: 2, J: 2, K: 2, Q: 2, S: 2, X: 2, Z: 2,
+    D: 3, T: 3,
+    L: 4,
+    M: 5, N: 5,
+    R: 6
+  };
+
+  let codes = [firstChar];
+  let prevCode = mapping[firstChar] || 0;
+
+  for (let i = 1; i < str.length; i++) {
+    const char = str[i];
+    const code = mapping[char] || 0;
+    if (code !== 0 && code !== prevCode) {
+      codes.push(code);
+    }
+    prevCode = code;
+  }
+
+  let result = codes.join("");
+  while (result.length < 4) result += "0";
+  return result.slice(0, 4);
+}
+
+/**
+ * Phonetic similarity comparison
+ * @param {string} word1
+ * @param {string} word2
+ * @returns {boolean} true if words sound phonetically identical
+ */
+function phoneticMatch(word1, word2) {
+  return soundex(word1) === soundex(word2);
+}
+
+/**
  * Full preprocessing pipeline
  */
 function preprocess(text, options = {}) {
@@ -191,6 +250,8 @@ module.exports = {
   removeStopwords,
   lemmatize,
   expandSynonyms,
+  soundex,
+  phoneticMatch,
   preprocess,
   STOPWORDS,
   SYNONYMS

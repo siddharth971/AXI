@@ -20,9 +20,10 @@ const THRESHOLDS = Object.freeze({
 });
 
 const WEIGHTS = Object.freeze({
-  rules: 0.55,
-  tfidf: 0.30,
-  neural: 0.15,
+  rules: 0.50,
+  semantic: 0.20,
+  tfidf: 0.20,
+  neural: 0.10,
 });
 
 const DECISIONS = Object.freeze({
@@ -90,14 +91,6 @@ async function safeRun(fn) {
 
 /**
  * Build a decision result object (DRY helper for the gate logic)
- * @param {string} intent - Resolved intent
- * @param {number} score - Ensemble confidence score
- * @param {string} decision - Decision type (execute, clarify, etc.)
- * @param {Array} candidates - Sorted candidate list
- * @param {Object} sources - Per-layer raw results
- * @param {Object} weightedBreakdown - Per-layer weighted scores
- * @param {Object} [extra] - Additional fields to merge
- * @returns {Object} Decision result
  */
 function buildDecision(intent, score, decision, candidates, sources, weightedBreakdown, extra = {}) {
   return {
@@ -122,20 +115,36 @@ const DecisionEngine = {
   resetTFIDF,
 
   /**
-   * Resolve intent using Weighted Ensemble Scoring
+   * Resolve intent using 4-Tier Weighted Ensemble Scoring (Rules, Semantic, TF-IDF, Neural)
    */
   async resolveIntent(input, nlu, deps) {
-    const { rulesLayer, neuralClassifier } = deps;
+    const { rulesLayer, neuralClassifier, semanticMatcher } = deps;
     const sentiment = nlu.meta?.sentiment || "neutral";
 
-    // 1. Run all layers in parallel
-    const [rulesResult, tfidfResult, neuralResult] = await Promise.all([
-      safeRun(() => rulesLayer.run(input)),
+    // 1. Early-Exit Check: Evaluate rules layer first for deterministic matches
+    const rulesResult = await safeRun(() => rulesLayer.run(input));
+
+    // If rules match with 100% precision (confidence >= 0.95), bypass remaining heavy ML classifiers
+    if (rulesResult && rulesResult.intent && rulesResult.intent !== "none" && (rulesResult.confidence || 0) >= 0.95) {
+      const sources = { rules: rulesResult, semantic: null, tfidf: null, neural: null };
+      const weightedBreakdown = {
+        rules: { intent: rulesResult.intent, raw: rulesResult.confidence, weighted: 1.0 },
+        semantic: { intent: null, raw: 0, weighted: 0 },
+        tfidf: { intent: null, raw: 0, weighted: 0 },
+        neural: { intent: null, raw: 0, weighted: 0 },
+      };
+      const sorted = [{ intent: rulesResult.intent, score: 1.0 }];
+      return buildDecision(rulesResult.intent, 1.0, DECISIONS.EXECUTE, sorted, sources, weightedBreakdown, { earlyExit: true });
+    }
+
+    // 2. Parallel execution for remaining layers if no early exit match
+    const [semanticResult, tfidfResult, neuralResult] = await Promise.all([
+      safeRun(() => semanticMatcher?.semanticMatch(input) || null),
       safeRun(() => _tfidf?.classifyOne(input) || null),
       safeRun(() => neuralClassifier?.predict(input) || null),
     ]);
 
-    // 2. Accumulate scores + track per-layer weighted contributions
+    // 3. Accumulate scores + track per-layer weighted contributions
     const scores = new Map();
     const weightedBreakdown = {};
 
@@ -156,10 +165,11 @@ const DecisionEngine = {
     };
 
     applyScore(rulesResult, WEIGHTS.rules, "rules");
+    applyScore(semanticResult, WEIGHTS.semantic, "semantic");
     applyScore(tfidfResult, WEIGHTS.tfidf, "tfidf");
     applyScore(neuralResult, WEIGHTS.neural, "neural");
 
-    // 3. Sort candidates
+    // 4. Sort candidates
     const sorted = Array.from(scores.entries())
       .map(([intent, score]) => ({ intent, score }))
       .sort((a, b) => b.score - a.score);
