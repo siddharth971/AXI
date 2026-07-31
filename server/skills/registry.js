@@ -148,9 +148,10 @@ class PluginRegistry {
     // Check for duplicate intent registration
     if (this._intentMap.has(intentName)) {
       const existing = this._intentMap.get(intentName);
-      throw new Error(
-        `Duplicate intent '${intentName}' in ${filename}. Already registered by '${existing.plugin.name}'`
+      logger.warn(
+        `Duplicate intent '${intentName}' in ${filename} already registered by '${existing.plugin.name}'. Skipping.`
       );
+      return;
     }
 
     this._intentMap.set(intentName, {

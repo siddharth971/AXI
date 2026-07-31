@@ -33,12 +33,16 @@ const TEST_UTTERANCES = [
   "open spotifi",
   "open vsc",
 
-  // File Operations
+  // File Operations & Content Search
   "list my files",
   "create folder project_alpha",
+  "search code for decision",
+  "find md files",
 
-  // Knowledge & Conversational
-  "tell me the time",
+  // Voice & Speech Controls
+  "switch voice to jarvis",
+  "set speech speed to 1.2",
+  "show voice settings",
   "what can you do"
 ];
 

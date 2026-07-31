@@ -338,11 +338,15 @@ module.exports = {
     // Step 3: Brain.js ML classifier (fallback)
     const ml = mlLayer(text);
 
-    // Learning Loop: Log failures
+    // Learning Loop: Log failures & trigger Autonomous Self-Learner
     if (ml.intent === "none") {
       learningMonitor.logUnknown(text, { source: "classifier" });
+      const autoLearner = require("../core/auto-learner");
+      autoLearner.ingest(text, "unknown_intent");
     } else if (ml.confidence < 0.6) {
       learningMonitor.logLowConfidence(text, ml.intent, ml.confidence);
+      const autoLearner = require("../core/auto-learner");
+      autoLearner.ingest(text, ml.intent);
     }
 
     const res = { ...ml, source: "classifier", nlu };

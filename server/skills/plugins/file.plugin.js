@@ -17,9 +17,14 @@ const { promisify } = require("util");
 const execAsync = promisify(exec);
 const fsPromises = fs.promises;
 
-// Default base directory for file operations
-const USER_HOME = process.env.USERPROFILE || process.env.HOME || "C:\\Users";
+const USER_HOME = process.env.USERPROFILE || process.env.HOME || "/tmp";
 const DEFAULT_BASE = path.join(USER_HOME, "Documents");
+
+try {
+  if (!fs.existsSync(DEFAULT_BASE)) {
+    fs.mkdirSync(DEFAULT_BASE, { recursive: true });
+  }
+} catch (e) {}
 
 /**
  * Resolve path relative to base directory

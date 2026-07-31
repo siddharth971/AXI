@@ -39,6 +39,20 @@ module.exports = {
         return pool[Math.floor(Math.random() * pool.length)];
       },
     },
+    help: {
+      confidence: 0.8,
+      requiresConfirmation: false,
+      handler: async () => {
+        return `🤖 **AXI Assistant Capabilities**:\n` +
+          `• ⚡ **System Telemetry**: 'check cpu usage', 'check ram status', 'system health'\n` +
+          `• 🌐 **Web RAG**: 'search web for Next.js features', 'fetch news about SpaceX'\n` +
+          `• 📄 **File RAG**: 'search code for decision', 'find md files'\n` +
+          `• 🎙️ **Voice Profiles**: 'switch voice to JARVIS', 'set speech speed 1.2'\n` +
+          `• ⚙️ **Custom Macros**: 'create macro coding mode: open vsc, set volume 50%'\n` +
+          `• 🖥️ **Process Control**: 'show running processes', 'kill process chrome'\n` +
+          `• 🔄 **Multi-Step Workflows**: 'prepare my workstation'`;
+      },
+    },
   },
   
   // Direct execution helper for sentiment fallback
